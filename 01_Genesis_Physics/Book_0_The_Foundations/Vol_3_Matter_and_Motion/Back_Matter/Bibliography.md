@@ -1,0 +1,198 @@
+# Bibliography — Volume 3: Matter and Motion
+
+*Organized by category. Entries marked with ⚙ are data compilations; ⚛ are experimental papers; 📘 are textbooks; 📜 are foundational/historical papers; ☷ are zone-specific project sources. Total: 128 entries.*
+
+---
+
+## R.1 Foundational Papers (Historical and Classical) 📜
+
+1. Newton, I. (1687). *Philosophiæ Naturalis Principia Mathematica*. London: Joseph Streater.
+2. Euler, L. (1750). "Découverte d'un nouveau principe de mécanique." *Mémoires de l'Académie de Berlin* 6, 185–217.
+3. Lagrange, J.-L. (1788). *Mécanique Analytique*. Paris: Desaint.
+4. Hamilton, W. R. (1834). "On a general method in dynamics." *Philosophical Transactions of the Royal Society* 124, 247–308.
+5. Jacobi, C. G. J. (1842–1843). *Vorlesungen über Dynamik*. Berlin.
+6. Carnot, S. (1824). *Réflexions sur la puissance motrice du feu*. Paris: Bachelier.
+7. Clausius, R. (1850). "Über die bewegende Kraft der Wärme." *Annalen der Physik* 79, 368–397.
+8. Clausius, R. (1865). "Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie." *Annalen der Physik* 125, 353–400. (Coinage of "entropy".)
+9. Boltzmann, L. (1872). "Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen." *Sitzungsberichte Akademie der Wissenschaften Wien* 66, 275–370. (Boltzmann equation, H-theorem.)
+10. Boltzmann, L. (1877). "Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung." *Wiener Berichte* 76, 373–435. ($S = k\ln W$.)
+11. Gibbs, J. W. (1902). *Elementary Principles in Statistical Mechanics*. New Haven: Yale University Press.
+12. Planck, M. (1901). "Ueber das Gesetz der Energieverteilung im Normalspectrum." *Annalen der Physik* 4, 553–563.
+13. Einstein, A. (1905). "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt." *Annalen der Physik* 17, 132–148.
+14. Noether, E. (1918). "Invariante Variationsprobleme." *Nachrichten Göttingen* 1918, 235–257.
+15. Debye, P. (1912). "Zur Theorie der spezifischen Wärme." *Annalen der Physik* 39, 789–839.
+16. Landau, L. D. (1937). "On the theory of phase transitions." *Physikalische Zeitschrift der Sowjetunion* 11, 26–47.
+17. Onsager, L. (1944). "Crystal statistics I: A two-dimensional model with an order-disorder transition." *Physical Review* 65, 117–149.
+18. Wilson, K. G. (1971). "Renormalization group and critical phenomena I." *Physical Review B* 4, 3174–3183.
+19. Shannon, C. E. (1948). "A mathematical theory of communication." *Bell System Technical Journal* 27, 379–423, 623–656.
+20. Landauer, R. (1961). "Irreversibility and heat generation in the computing process." *IBM Journal of Research and Development* 5, 183–191.
+21. Bennett, C. H. (1982). "The thermodynamics of computation — a review." *International Journal of Theoretical Physics* 21, 905–940.
+22. Jaynes, E. T. (1957). "Information theory and statistical mechanics." *Physical Review* 106, 620–630; *Physical Review* 108, 171–190.
+23. Bertrand, J. (1873). "Théorème relatif au mouvement d'un point attiré vers un centre fixe." *Comptes Rendus* 77, 849–853.
+24. Kepler, J. (1609). *Astronomia Nova*. Heidelberg.
+25. Chladni, E. F. F. (1787). *Entdeckungen über die Theorie des Klanges*. Leipzig: Weidmanns Erben und Reich.
+
+---
+
+## R.2 Classical Textbooks 📘
+
+### Mechanics
+26. Goldstein, H., Poole, C., & Safko, J. (2002). *Classical Mechanics* (3rd ed.). San Francisco: Addison-Wesley.
+27. Landau, L. D., & Lifshitz, E. M. (1976). *Mechanics* (Course of Theoretical Physics, Vol. 1, 3rd ed.). Oxford: Pergamon.
+28. Marion, J. B., & Thornton, S. T. (2004). *Classical Dynamics of Particles and Systems* (5th ed.). Belmont: Brooks/Cole.
+29. Arnold, V. I. (1989). *Mathematical Methods of Classical Mechanics* (2nd ed.). New York: Springer.
+30. José, J. V., & Saletan, E. J. (1998). *Classical Dynamics: A Contemporary Approach*. Cambridge: Cambridge University Press.
+31. Taylor, J. R. (2005). *Classical Mechanics*. Sausalito: University Science Books.
+32. Fetter, A. L., & Walecka, J. D. (2003). *Theoretical Mechanics of Particles and Continua*. Mineola: Dover.
+
+### Statistical Mechanics and Thermodynamics
+33. Landau, L. D., & Lifshitz, E. M. (1980). *Statistical Physics Part 1* (Vol. 5, 3rd ed.). Oxford: Pergamon.
+34. Reif, F. (1965). *Fundamentals of Statistical and Thermal Physics*. New York: McGraw-Hill.
+35. Pathria, R. K., & Beale, P. D. (2011). *Statistical Mechanics* (3rd ed.). Oxford: Elsevier.
+36. Huang, K. (1987). *Statistical Mechanics* (2nd ed.). New York: Wiley.
+37. Callen, H. B. (1985). *Thermodynamics and an Introduction to Thermostatistics* (2nd ed.). New York: Wiley.
+38. Chandler, D. (1987). *Introduction to Modern Statistical Mechanics*. Oxford: Oxford University Press.
+39. Kardar, M. (2007). *Statistical Physics of Particles*. Cambridge: Cambridge University Press.
+40. Kardar, M. (2007). *Statistical Physics of Fields*. Cambridge: Cambridge University Press.
+41. Tolman, R. C. (1938). *The Principles of Statistical Mechanics*. Oxford: Oxford University Press.
+
+### Continuum Mechanics and Fluids
+42. Batchelor, G. K. (2000). *An Introduction to Fluid Dynamics*. Cambridge: Cambridge University Press.
+43. Landau, L. D., & Lifshitz, E. M. (1987). *Fluid Mechanics* (Vol. 6, 2nd ed.). Oxford: Pergamon.
+44. Gurtin, M. E. (1981). *An Introduction to Continuum Mechanics*. New York: Academic Press.
+45. Chorin, A. J., & Marsden, J. E. (1993). *A Mathematical Introduction to Fluid Mechanics* (3rd ed.). New York: Springer.
+46. Tritton, D. J. (1988). *Physical Fluid Dynamics* (2nd ed.). Oxford: Oxford University Press.
+47. Pope, S. B. (2000). *Turbulent Flows*. Cambridge: Cambridge University Press.
+48. Chandrasekhar, S. (1961). *Hydrodynamic and Hydromagnetic Stability*. Oxford: Oxford University Press.
+
+### Solid State and Materials
+49. Kittel, C. (2005). *Introduction to Solid State Physics* (8th ed.). New York: Wiley.
+50. Ashcroft, N. W., & Mermin, N. D. (1976). *Solid State Physics*. Philadelphia: Saunders.
+
+### Particle Physics and Field Theory
+51. Peskin, M. E., & Schroeder, D. V. (1995). *An Introduction to Quantum Field Theory*. Boulder: Westview Press.
+52. Weinberg, S. (1995). *The Quantum Theory of Fields, Volume I*. Cambridge: Cambridge University Press.
+53. Schwartz, M. D. (2014). *Quantum Field Theory and the Standard Model*. Cambridge: Cambridge University Press.
+54. Cheng, T.-P., & Li, L.-F. (1984). *Gauge Theory of Elementary Particle Physics*. Oxford: Oxford University Press.
+55. Srednicki, M. (2007). *Quantum Field Theory*. Cambridge: Cambridge University Press.
+
+### Topology and Geometry
+56. Nakahara, M. (2003). *Geometry, Topology and Physics* (2nd ed.). Bristol: Institute of Physics.
+57. Nash, C., & Sen, S. (1983). *Topology and Geometry for Physicists*. London: Academic Press.
+58. Frankel, T. (2011). *The Geometry of Physics: An Introduction* (3rd ed.). Cambridge: Cambridge University Press.
+
+---
+
+## R.3 Modern Experimental Papers and Collaborations ⚛
+
+### Particle Physics
+59. Workman, R. L. et al. [Particle Data Group] (2024). "Review of Particle Physics." *Progress of Theoretical and Experimental Physics* 2024, 083C01.
+60. ATLAS Collaboration (2012). "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC." *Physics Letters B* 716, 1–29.
+61. CMS Collaboration (2012). "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC." *Physics Letters B* 716, 30–61.
+62. ATLAS Collaboration (2022). "A detailed map of the Higgs boson interactions by the ATLAS experiment ten years after the discovery." *Nature* 607, 52–59.
+63. CMS Collaboration (2022). "A portrait of the Higgs boson by the CMS experiment ten years after the discovery." *Nature* 607, 60–68.
+64. ATLAS Collaboration (2023). "Measurement of the W-boson mass and width with the ATLAS detector." *arXiv*:2403.15085.
+65. CDF Collaboration (2022). "High-precision measurement of the W boson mass with the CDF II detector." *Science* 376, 170–176.
+
+### Gravitational and Cosmological
+66. Fixsen, D. J., Cheng, E. S., Gales, J. M., Mather, J. C., Shafer, R. A., & Wright, E. L. (1996). "The cosmic microwave background spectrum from the full COBE FIRAS data set." *Astrophysical Journal* 473, 576–587.
+67. Fixsen, D. J. (2009). "The temperature of the cosmic microwave background." *Astrophysical Journal* 707, 916–920.
+68. Aghanim, N. et al. [Planck Collaboration] (2020). "Planck 2018 results. VI. Cosmological parameters." *Astronomy & Astrophysics* 641, A6.
+69. Abbott, B. P. et al. [LIGO and Virgo Collaborations] (2016). "Observation of gravitational waves from a binary black hole merger." *Physical Review Letters* 116, 061102.
+70. Abbott, B. P. et al. [LIGO and Virgo] (2017). "GW170817: Observation of gravitational waves from a binary neutron star inspiral." *Physical Review Letters* 119, 161101.
+71. Everitt, C. W. F. et al. (2011). "Gravity Probe B: final results of a space experiment to test General Relativity." *Physical Review Letters* 106, 221101.
+72. Taylor, J. H., Fowler, L. A., & McCulloch, P. M. (1979). "Measurements of general relativistic effects in the binary pulsar PSR 1913+16." *Nature* 277, 437–440.
+
+### Precision Tests
+73. Tiesinga, E., Mohr, P. J., Newell, D. B., & Taylor, B. N. (2024). "CODATA recommended values of the fundamental physical constants: 2022." *Journal of Physical and Chemical Reference Data* 53, 013101.
+74. Rosi, G., Sorrentino, F., Cacciapuoti, L., Prevedelli, M., & Tino, G. M. (2014). "Precision measurement of the Newtonian gravitational constant using cold atoms." *Nature* 510, 518–521.
+75. Quinn, T., Parks, H., Speake, C., & Davis, R. (2013). "Improved determination of G using two methods." *Physical Review Letters* 111, 101102.
+76. Muon g-2 Collaboration (2023). "Measurement of the positive muon anomalous magnetic moment to 0.20 ppm." *Physical Review Letters* 131, 161802.
+
+### Condensed Matter and Precision Thermometry
+77. Fellmuth, B. et al. (2016). "The kelvin redefinition and its mise en pratique." *Philosophical Transactions of the Royal Society A* 374, 20150037.
+78. Pitre, L. et al. (2017). "New measurement of the Boltzmann constant $k$ by acoustic thermometry of helium-4 gas." *Metrologia* 54, 856–873.
+79. Kaiser, G. et al. (2018). "Boltzmann constant determination from dielectric-constant gas thermometry." *Metrologia* 55, S10–S15.
+
+---
+
+## R.4 Data Compilations and Reference Tables ⚙
+
+80. Lide, D. R. (Ed.) (2023). *CRC Handbook of Chemistry and Physics* (104th ed.). Boca Raton: CRC Press.
+81. NIST. (2024). *NIST Reference on Constants, Units, and Uncertainty* (online database).
+82. Lemmon, E. W., Bell, I. H., Huber, M. L., & McLinden, M. O. (2023). *NIST Reference Fluid Thermodynamic and Transport Properties Database (REFPROP) Version 10.0*. Gaithersburg: National Institute of Standards and Technology.
+83. JPL Solar System Dynamics Group (2024). *HORIZONS On-Line Ephemeris System*. Jet Propulsion Laboratory.
+84. Landolt-Börnstein (continuing series). *Numerical Data and Functional Relationships in Science and Technology*. Berlin: Springer-Verlag.
+85. Reid, R. C., Prausnitz, J. M., & Poling, B. E. (2001). *The Properties of Gases and Liquids* (5th ed.). New York: McGraw-Hill.
+86. Marrero, T. R., & Mason, E. A. (1972). "Gaseous diffusion coefficients." *Journal of Physical and Chemical Reference Data* 1, 3–118.
+87. IAU (2015). "Nominal values for selected solar and planetary quantities." IAU Resolution B3, XXIX General Assembly.
+88. NIST Materials Data Repository (2024). Accessed at materials.nist.gov.
+89. Ho, C. Y., Powell, R. W., & Liley, P. E. (1974). "Thermal conductivity of the elements: a comprehensive review." *Journal of Physical and Chemical Reference Data* 3, Supplement 1.
+90. Haynes, W. M. (Ed.) (2014). *CRC Handbook — Viscosity and Density of Liquids*. Boca Raton: CRC Press.
+
+---
+
+## R.5 Statistical Mechanics, Information, and Computation 📘📜
+
+91. Jaynes, E. T. (2003). *Probability Theory: The Logic of Science*. Cambridge: Cambridge University Press.
+92. Cover, T. M., & Thomas, J. A. (2006). *Elements of Information Theory* (2nd ed.). New York: Wiley.
+93. Lloyd, S. (2000). "Ultimate physical limits to computation." *Nature* 406, 1047–1054.
+94. Penrose, R. (1989). *The Emperor's New Mind*. Oxford: Oxford University Press.
+95. Penrose, R. (2004). *The Road to Reality*. London: Jonathan Cape. (Especially chapters on entropy, the arrow of time, and the Weyl curvature hypothesis.)
+96. Maroney, O. J. E. (2009). "Information processing and thermodynamic entropy." *Stanford Encyclopedia of Philosophy*.
+97. Bennett, C. H. (2003). "Notes on Landauer's principle, reversible computation, and Maxwell's demon." *Studies in History and Philosophy of Modern Physics* 34, 501–510.
+98. Sagawa, T., & Ueda, M. (2012). "Fluctuation theorem with information exchange." *Physical Review Letters* 109, 180602.
+99. Parrondo, J. M. R., Horowitz, J. M., & Sagawa, T. (2015). "Thermodynamics of information." *Nature Physics* 11, 131–139.
+100. Seifert, U. (2012). "Stochastic thermodynamics, fluctuation theorems, and molecular machines." *Reports on Progress in Physics* 75, 126001.
+
+---
+
+## R.6 Phase Transitions, Critical Phenomena, Topological Defects 📘📜
+
+101. Mermin, N. D. (1979). "The topological theory of defects in ordered media." *Reviews of Modern Physics* 51, 591–648.
+102. Jackiw, R., & Rossi, P. (1981). "Zero modes of the vortex-fermion system." *Nuclear Physics B* 190, 681–691.
+103. Weinberg, E. J. (2012). *Classical Solutions in Quantum Field Theory: Solitons and Instantons in High Energy Physics*. Cambridge: Cambridge University Press.
+104. Kibble, T. W. B. (1976). "Topology of cosmic domains and strings." *Journal of Physics A* 9, 1387–1398.
+105. Vilenkin, A., & Shellard, E. P. S. (1994). *Cosmic Strings and Other Topological Defects*. Cambridge: Cambridge University Press.
+106. Cardy, J. (1996). *Scaling and Renormalization in Statistical Physics*. Cambridge: Cambridge University Press.
+107. Goldenfeld, N. (1992). *Lectures on Phase Transitions and the Renormalization Group*. Reading: Addison-Wesley.
+108. Ma, S.-K. (1976). *Modern Theory of Critical Phenomena*. Reading: Benjamin.
+109. Stanley, H. E. (1971). *Introduction to Phase Transitions and Critical Phenomena*. Oxford: Oxford University Press.
+110. Zee, A. (2010). *Quantum Field Theory in a Nutshell* (2nd ed.). Princeton: Princeton University Press. (For accessible SSB and Goldstone treatments.)
+
+---
+
+## R.7 Kinetic Theory and Non-Equilibrium 📘📜
+
+111. Chapman, S., & Cowling, T. G. (1970). *The Mathematical Theory of Non-Uniform Gases* (3rd ed.). Cambridge: Cambridge University Press.
+112. Cercignani, C. (1988). *The Boltzmann Equation and Its Applications*. New York: Springer.
+113. de Groot, S. R., & Mazur, P. (1962). *Non-Equilibrium Thermodynamics*. Amsterdam: North-Holland.
+114. Kreuzer, H. J. (1981). *Nonequilibrium Thermodynamics and its Statistical Foundations*. Oxford: Oxford University Press.
+115. Liboff, R. L. (2003). *Kinetic Theory: Classical, Quantum, and Relativistic Descriptions* (3rd ed.). New York: Springer.
+
+---
+
+## R.8 Arrow of Time and Foundations 📘📜
+
+116. Zeh, H. D. (2007). *The Physical Basis of the Direction of Time* (5th ed.). Berlin: Springer.
+117. Price, H. (1996). *Time's Arrow and Archimedes' Point*. New York: Oxford University Press.
+118. Albert, D. Z. (2000). *Time and Chance*. Cambridge, MA: Harvard University Press.
+119. Carroll, S. (2010). *From Eternity to Here: The Quest for the Ultimate Theory of Time*. New York: Dutton.
+120. Lebowitz, J. L. (1993). "Boltzmann's entropy and time's arrow." *Physics Today* 46(9), 32–38.
+
+---
+
+## R.9 Zone-Specific Project Sources ☷
+
+121. Raymond, J. L. (2026). *The Foundations — Volume 1: Architecture of Reality*. Project manuscript. Especially Ch 5 (Firmament), Ch 6 (Waters Field Equations), Ch 7 (Symmetries), Ch 8 (Five Principles), Ch 11 (Thermodynamics), Appendix B (Notation Reference).
+122. Raymond, J. L. (2026). *The Foundations — Volume 2: Forces and Fields*. Project manuscript. Especially Ch 2 (Gravity), Ch 5 (Zone Lagrangian), Ch 9 (Hierarchy), Back Matter Appendices A and B.
+123. *Applied Gravity Calculations.* Project research note: `01_Classical_Mechanics/01-APPLIED_GRAVITY_CALCULATIONS.md`.
+124. *Material Properties.* Project research note: `01_Classical_Mechanics/01-MATERIAL_PROPERTIES.md`.
+125. *Laws Derivation.* Project research note: `02_Thermodynamics/02-LAWS_DERIVATION.md`.
+126. *Planck Distribution.* Project research note: `02_Thermodynamics/02-PLANCK_DISTRIBUTION.md`.
+127. *Waters Replenishment.* Project research note: `02_Thermodynamics/02-WATERS_REPLENISHMENT.md`.
+128. *Topological Defect Particle Classification.* Project research note: `06-TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md`.
+
+---
+
+*End of Bibliography. 128 entries. For the equations and data these references support, see Appendix A and Appendix B respectively.*
