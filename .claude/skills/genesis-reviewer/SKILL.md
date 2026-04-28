@@ -20,7 +20,7 @@ Run one or more of the 10 reviewer agents against a chapter draft to validate qu
 
 Determine which chapter is being reviewed and which product it belongs to:
 - **Foundations (any volume):** Vols 1-6 in `Book_0_The_Foundations/`
-- **Book 1:** `Book_1_The_Firmament_Equations/`
+- **Book 1:** `Book_1_Hidden_Architecture/` *(Popular Science Flagship; folder renamed April 2026 from `Book_1_The_Firmament_Equations/`)*
 - **Book 2:** `Book_2_The_Hidden_Architecture/`
 - **The Creator's Blueprint:** `Book_3_The_Creators_Blueprint/`
 

@@ -10,10 +10,18 @@
 
 | # | Title | Words | Audience | Status |
 |---|-------|-------|----------|--------|
-| 0 | **The Foundations of Genesis Physics** (6 vols) | ~750-900K | Graduate/professional | **Active — BUILD FIRST** |
-| 1 | **The Firmament Equations** | 80-100K | Physicists & engineers | Development (build second) |
-| 2 | **The Hidden Architecture** | 55-70K | Lay reader | Pre-production (build third) |
-| 3 | **The Creator's Blueprint** | 60-80K | Homeschool families, parents, church educators | Planned (build last) |
+| 0 | **The Foundations of Genesis Physics** (6 vols) | ~750-900K | Graduate/professional | **Active — build in parallel** |
+| 1 | **The Hidden Architecture — A Physics of the First Page** | 70-90K | Intelligent layperson (Greene/Rovelli reader) | Repositioned April 2026 — **Launch SECOND** |
+| 2 | *(folded into Book 1 flagship)* | — | — | ARCHIVAL — see `Book_2_The_Hidden_Architecture/` for source material |
+| 3 | **The Creator's Blueprint (Family Edition)** | 60-80K | Homeschool families, parents, church educators | **Launch FIRST** |
+
+**Launch order (April 2026):** Family Edition → Popular Science Flagship (*The Hidden Architecture: A Physics of the First Page*) → Foundations Series (built in parallel).
+
+**April 2026 repositioning notes:**
+- Book 1 was retitled from *The Firmament Equations* (physicist monograph) to *The Hidden Architecture: A Physics of the First Page* (popular-science flagship) and the folder was renamed from `Book_1_The_Firmament_Equations/` to `Book_1_Hidden_Architecture/`. See `Book_1_Hidden_Architecture/CLAUDE.md` for the full repositioned spec.
+- The old Book 2 (*The Hidden Architecture of Creation*) is now archival source material for the repositioned Book 1 flagship; its folder (`Book_2_The_Hidden_Architecture/`) kept its archival name.
+- The GitHub label was renamed in parallel from `book:firmament-equations` to `book:hidden-architecture`.
+- Canonical voice and author background: `AUTHOR_VOICE_AND_BACKGROUND.md` (root of this folder).
 
 ### The Foundations Series (Book 0) — Six Volumes
 
@@ -47,17 +55,18 @@ FOUNDATIONS SERIES (Book 0) ──→ Book 1 ──→ Book 2 ──→ The Crea
 ```
 01_Genesis_Physics/
 │
-├── Book_2_The_Hidden_Architecture/     Popular introduction — no equations, all wonder
+├── Book_1_Hidden_Architecture/     Popular Science Flagship — *The Hidden Architecture: A Physics of the First Page*
 │   ├── Manuscript/                 New chapters go here as they're written
 │   ├── Source_Reference/           Original chapters used as reference material
-│   ├── README.md                   Chapter outline and book plan
+│   ├── CHAPTER_PROMPTS.md          **Authoritative 15-chapter outline + per-chapter writing prompts**
+│   ├── README.md                   Archival 25-chapter physicist outline (pre-repositioning)
 │   └── STATUS.md                   Progress tracker
 │
-├── Book_1_The_Firmament_Equations/          Physicist-level — The Elegant Universe model
-│   ├── Manuscript/                 New chapters go here as they're written
-│   ├── Source_Reference/           Original chapters used as reference material
-│   ├── README.md                   Chapter outline and book plan
-│   └── STATUS.md                   Progress tracker
+├── Book_2_The_Hidden_Architecture/     *(Archival)* original zero-equations lay book — folded into the flagship April 2026
+│   ├── Manuscript/                 Archival
+│   ├── Source_Reference/           Archival
+│   ├── README.md                   15-chapter outline (adopted by the flagship)
+│   └── STATUS.md                   Archival
 │
 ├── Book_0_The_Foundations/              University textbook series — six volumes
 │   ├── Manuscript/                 New chapters go here as they're written

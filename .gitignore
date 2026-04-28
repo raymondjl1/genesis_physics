@@ -3,5 +3,12 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.mp3
+*.m4b
+__pycache__/
+**/__pycache__/
+*_write_test*
+_write_test*
 .claude/settings.local.json
 **/.claude/settings.local.json
+.claude/scheduled_tasks.lock
+01_Genesis_Protocol_temp_ignore.md

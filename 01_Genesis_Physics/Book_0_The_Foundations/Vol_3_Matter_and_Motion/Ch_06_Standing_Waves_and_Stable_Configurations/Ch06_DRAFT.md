@@ -615,10 +615,10 @@ Volume 4 of the Genesis Physics series will extend this to the full quantum mech
 
 The Genesis Physics series has four books:
 
-- **Book 0: The Foundations** (6 volumes) — axioms, wave equations, matter formation. [*We are here, completing Vol 3.*]
-- **Book 1: The Firmament Equations** — complete quantum field theory in the Genesis framework.
-- **Book 2: Hidden Architecture** — the symmetries and principles underlying particle physics.
-- **Book 3: Creator's Blueprint** — the teleology of the universe, why the constants have their values, and how science points beyond itself.
+- **Book 0: The Foundations** (6 volumes — the encyclopedia) — axioms, wave equations, matter formation. [*We are here, completing Vol 3.*]
+- **Book 1: *The Hidden Architecture — A Physics of the First Page*** (Popular Science Flagship, folder: `Book_1_Hidden_Architecture/`) — intelligent lay-reader treatment of the framework, citing Foundations for the math.
+- **Book 3: *The Creator's Blueprint* (Family Edition)** — scripture-first teaching resource for homeschool families.
+- *(Archival:* the original Book 2, *The Hidden Architecture of Creation*, was folded into the Popular Science Flagship in April 2026.*)*
 
 We are at a critical juncture. By the end of Vol 3, the reader will understand *why matter exists* and *how it persists*. In Volume 4 (Book 0, Vol 4), we will calculate *what particles exist* and *why they have the masses they do*.
 

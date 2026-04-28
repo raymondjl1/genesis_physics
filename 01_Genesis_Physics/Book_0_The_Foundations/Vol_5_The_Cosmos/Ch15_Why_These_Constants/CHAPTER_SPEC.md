@@ -101,8 +101,8 @@ By the end of this chapter, the reader should be able to:
 
 - **Vol 6, Ch 1:** All derived constants appear in the prediction catalog
 - **Vol 6, Ch 4:** Falsification criteria for constant derivations
-- **Book 1 (Firmament Equations):** Summarized treatment of constants
-- **Book 2 (Hidden Architecture):** "Why Gravity?" chapter draws from G derivation
+- **Book 1 (Popular Science Flagship — *The Hidden Architecture: A Physics of the First Page*):** Summarized treatment of constants; see Book 1 Ch 10 ("Why Gravity Pulls and Light Shines"), which draws from the G derivation here
+- *(Archival:* Old Book 2 "Why Gravity?" chapter content was folded into the repositioned Book 1 flagship in April 2026.*)*
 
 ---
 

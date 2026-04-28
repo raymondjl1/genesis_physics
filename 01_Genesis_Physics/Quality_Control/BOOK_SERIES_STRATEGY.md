@@ -18,12 +18,23 @@ One framework. Five books. One six-volume textbook series. Every audience from h
 
 ## Series Overview
 
-| # | Title (Working) | Audience | Tone | Target Length | Build Order |
+> **REPOSITIONING NOTE (April 2026):** The table below reflects the **original** four-product plan. Under the April 2026 repositioning, the two lay-audience products (*The Hidden Architecture of Creation* and *The Firmament Equations*) have been consolidated into a single Popular Science Flagship titled ***Genesis Physics: The Hidden Architecture — A Physics of the First Page***, and the launch order has been inverted so the Family Edition ships first. Authoritative current plan lives in `../README.md` and `../CLAUDE.md`; the detailed outlines below are retained as content-inventory source material.
+
+| # | Title (Working — ARCHIVAL) | Audience | Tone | Target Length | Build Order (old) |
 |---|----------------|----------|------|---------------|-------------|
 | **FE** | *Genesis Physics: The Creator's Blueprint* | Homeschool families, parents, church educators | Scripture-first, accessible | 60,000-80,000 words | Last (after Book 2) |
 | **1** | *Genesis Physics: The Hidden Architecture of Creation* | Curious readers, church leaders, educated laypeople | *Elegant Universe* meets *Mere Christianity* | 55,000-70,000 words | Third |
 | **2** | *Genesis Physics: The Firmament Equations* | Physicists, engineers, graduate students | *The Elegant Universe* by Brian Greene | 80,000-100,000 words | Second |
 | **3** | *Genesis Physics: The Foundations of Genesis Physics* | University physics, peer review, academic libraries | *Gravitation* meets *The Road to Reality* | **6-volume textbook series** (~750,000-900,000 words total) | **FIRST** |
+
+### Current Product Plan (April 2026)
+
+| Product | Title | Folder | Launch Order |
+|---------|-------|--------|-------------|
+| Family Edition | ***Genesis Physics: The Creator's Blueprint (Family Edition)*** | `Book_3_The_Creators_Blueprint/` | **1st** |
+| Popular Science Flagship | ***Genesis Physics: The Hidden Architecture — A Physics of the First Page*** | `Book_1_Hidden_Architecture/` *(renamed April 2026 from `Book_1_The_Firmament_Equations/`)* | **2nd** |
+| Encyclopedia | *The Foundations of Genesis Physics* (6 vols) | `Book_0_The_Foundations/` | Parallel (no launch event) |
+| *(archival)* | *The Hidden Architecture of Creation* | `Book_2_The_Hidden_Architecture/` | Folded into flagship |
 
 ---
 
@@ -217,9 +228,11 @@ This book exists to make a single, unforgettable argument: *Genesis 1 isn't prim
 
 ---
 
-# BOOK 1: The Firmament Equations
+# BOOK 1: The Firmament Equations — *[ARCHIVAL spec; retitled April 2026]*
 
-**Subtitle:** *A Complete Physics from the First Chapter of Genesis*
+> **ARCHIVAL NOTE (April 2026):** Book 1 was retitled to **_Genesis Physics: The Hidden Architecture — A Physics of the First Page_** and repositioned from physicist monograph to popular-science flagship. The original 25-chapter physicist outline below is preserved as archival source material. The authoritative current outline for the repositioned flagship lives in `Book_1_Hidden_Architecture/CHAPTER_PROMPTS.md` and `Book_1_Hidden_Architecture/CLAUDE.md` (folder renamed April 2026 from `Book_1_The_Firmament_Equations/`). Keep this content for cross-reference, but do **not** draft new chapters against this outline.
+
+**Subtitle:** *A Complete Physics from the First Chapter of Genesis* *(archival)*
 
 **Model:** Brian Greene's *The Elegant Universe* — a physicist writing for intelligent non-physicists. Equations where they serve clarity, but always explained. Rigorous without being impenetrable.
 
@@ -670,11 +683,12 @@ THE GENESIS PHYSICS SERIES
 │   ├── Volume 5: The Cosmos
 │   └── Volume 6: Predictions, Simulations, and Open Problems
 │
-├── Book 1: The Firmament Equations ──────── BUILT SECOND (summarizes Foundations)
+├── Popular Science Flagship: The Hidden Architecture — A Physics of the First Page
+│      (folder: Book_1_Hidden_Architecture/) ──── LAUNCH SECOND (summarizes Foundations)
 │
-├── Book 2: The Hidden Architecture ─── BUILT THIRD (makes it accessible)
+├── [archival] Book 2: The Hidden Architecture of Creation ─── folded into flagship (April 2026)
 │
-└── The Creator's Blueprint ──────────────────── BUILT LAST (makes it scriptural)
+└── Family Edition: The Creator's Blueprint ─────── LAUNCH FIRST (scripture-first, seeds platform)
 ```
 
 ## Build Order Rationale

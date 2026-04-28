@@ -175,9 +175,9 @@ Thermodynamics (four phases)
 
 ### If You're Using This in Book/Game
 
-1. **Book 1 (Firmament Equations)**
-   - Include test suite as appendix or supplemental material
-   - Readers can verify claims themselves
+1. **Book 1 (Popular Science Flagship: *The Hidden Architecture — A Physics of the First Page*)**
+   - The flagship is a lay-reader book; the test suite itself belongs in the Foundations encyclopedia (Book 0), not the flagship
+   - Book 1 should cite the test suite's existence and point readers to the Foundations volumes (and the public repo) so readers can verify claims themselves
    - Builds credibility
 
 2. **Novel Series**

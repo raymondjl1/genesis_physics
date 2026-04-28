@@ -1,0 +1,1597 @@
+# Master Index — Foundations of Genesis Physics (Series-Wide)
+
+**Product:** Foundations Vol 6, Back Matter, Master Index.
+**Scope:** The complete series-wide index for the six-volume *Foundations of Genesis Physics* — every named concept, person, particle, equation, experiment, field, force, technology, theorem, constant, scripture reference, prediction ID (P-XXX), and technology ID (T-XXX) that appears anywhere in Volumes 1–6.
+**Locator convention:** `V.Ch` for chapter-level entries (e.g., `3.7` = Volume 3, Chapter 7); `V.Ch.§N` for subsection precision (e.g., `5.11.§4`); `V.Ch.Eq(X.Y.Z)` for equation-anchor precision (e.g., `5.13.Eq(5.13.32)`). Back-matter locators use the form `V.App{A–F}.§N` (e.g., `6.AppA.§A.13`). Roadmap and chapter-capstone locators from Vol 6 use `6.Ch16`, `6.Ch17` directly.
+**Primary locator convention:** A locator in **bold** marks the chapter where the concept is introduced or most fully developed. Ordinary locators mark substantive reuse (not every passing mention — a reader looking up the concept at any bold or plain locator will find at least a full paragraph of treatment).
+**Cross-references:** "see X" redirects the reader to the canonical entry under a different heading. "see also X" points to a related entry that clarifies or extends the current one.
+
+---
+
+## How to Use This Index
+
+This is the navigation substrate for the entire *Foundations* series. A reader looking up any concept anywhere in the 2,500+ page series should find it here with every substantive location catalogued. The index is alphabetical under each heading; subentries are indented and alphabetized within their parent. Primary locators (introduction or most-complete treatment) are **bold**; reuse locators are plain.
+
+**Scope rule.** An entry is included when the concept receives a named discussion — at least a full paragraph of treatment — somewhere in the series. Passing mentions (one sentence, no development) are omitted. The threshold is "a reader who reads that locator learns something about the concept."
+
+**Disambiguation.** Where a term has multiple technical meanings across volumes (e.g., "σ" is membrane tension in Vol 1 and Pauli-matrix index in Vol 4), the entry notes the disambiguation and routes each sense to its own sub-locator. See also Appendix E for the authoritative symbol arbitration.
+
+**Cross-appendix integration.** This index binds to the four series-wide reference instruments sitting beside it. Prediction IDs (P-XXX) cross-reference Appendix A §A.13. Technology IDs (T-XXX) cross-reference Appendix F §F.5. Symbols cross-reference Appendix E. Citations cross-reference the Bibliography.
+
+**Navigator spot-check protocol.** STATUS.md lists five randomly selected concepts spot-checked against the full series. For every concept in the spot-check, every substantive mention across six volumes is verified to appear in this index. Re-audit triggers on any chapter revision and quarterly.
+
+---
+
+## A
+
+- **aberration (stellar)** — **5.2** (classical GR test context), 5.1
+- **absolute zero** — 3.10, 3.11, 1.11
+- **absorption, photon** — 4.1, 4.7, 2.3; see also emission
+- **accretion** — 5.5.§3, 6.10.§6 (as latent-heat context); see also black holes
+- **acoustic emissions, otoacoustic** — **6.10.§4** (cochlea existence proof for T-NRG-01)
+- **action (physics)**
+  - classical Lagrangian — **3.2**, 1.7
+  - 6D bulk — **1.4**, 5.4
+  - gauge — 2.5, 4.6
+  - gravitational (Einstein-Hilbert) — **5.1**
+  - zone — **2.5** (the Zone Lagrangian)
+- **aether** (historical; not used in ZA) — 2.3.§1 (historical contrast only)
+- **age of the universe (t₀ = 13.787 Gyr)** — **5.8**, 5.12, **6.AppA** (P-028); see also Hubble constant
+- **Alcubierre, Miguel**
+  - 1994 warp-bubble paper — 6.9.§6, **6.AppF.§F.1 (T-FTL-04)**; see also warp bubble
+  - comparison with zone-architecture warp — 6.9.§6
+- **α (fine-structure constant)** — **5.13**, 5.Eq(5.13.32), 4.7, 4.8; see fine-structure constant
+- **α_em / α_G (hierarchy ratio)** — **2.9.Eq(2.9.45)**, 2.10, 6.AppA (P-005); see also hierarchy problem
+- **α_s (strong coupling)** — **4.12**, 4.8, 6.AppA (P-006), 6.AppE
+- **Ampère, André-Marie** — 2.3.§2 (historical)
+- **amplitude
+  - (generic)** — 1.5, 4.1
+  - **GW polarization** — **5.3**, 6.12, 6.AppA (P-151)
+  - warp-bubble — 6.9.§6
+- **analytic continuation** — 4.8 (renormalization context)
+- **angular momentum**
+  - conservation — **1.7.Eq(1.7.33)**, 3.2, 6.AppA (P-033)
+  - spin — 4.10, 4.11
+  - orbital — 3.3
+- **anomaly
+  - chiral** — 4.8 (renormalization)
+  - muon g-2 — **4.7**, 6.AppA (P-003)
+  - ISW cross-correlation — **6.12**, 6.AppA (P-143)
+  - Shapiro high-redshift — **6.12**, 6.AppA (P-145)
+- **ANTARES** (neutrino experiment; see also IceCube) — 4.11 (passim)
+- **anthropic principle** — 5.13.§5, 5.14, 6.15
+- **antimatter** — 4.10 (generations context), 3.9; see also pair production
+- **antiparticle** — 4.10, 4.6
+- **anyon** (not used in ZA; historical note) — 4.14
+- **aperture (Dark-Matter Imaging Aperture)** — **6.12** (T-SNS-03), **6.AppF.§F.4**
+- **arrow of time** — **3.12**, 1.11, 5.6 (information paradox); see also entropy
+- **astronomical unit (AU)** — 6.AppE.§E.6
+- **astrophysical tests** — **5.2**, 6.AppA.§A.5; see also observational tests
+- **asymptotic freedom** — **4.12**, 4.8, 6.AppA (P-021)
+- **asymptotic safety (not used in ZA; historical contrast)** — 6.15
+- **ATLAS experiment (LHC)** — 4.11.§3 (Higgs discovery context), **6.AppA (P-019)**, Bibliography Bib.3
+- **atmospheric neutrino experiments** — 4.11, 6.AppA (P-066); see also Super-Kamiokande
+- **atom**
+  - multi-electron — **4**, 1.10
+  - interferometer (as T-SNS-02 sensor) — **6.12**, 6.AppF.§F.4
+- **atom interferometry** — **6.12**, 6.AppA (P-138)
+- **atomic clock** — 6.AppA (P-065) (α-constancy bound), 5.13
+- **atomic physics, precision** — 4.7 (Lamb shift, QED), 6.AppA (P-001, P-002), Bibliography Bib.3
+- **atomic spectra** — 4.7, 1.10; see also Lamb shift; Rydberg constant
+- **attraction
+  - electromagnetic** — 2.3, 2.7
+  - gravitational — **2.9**, 5.2, 2.2
+- **Aufbau principle** — **4**, **6.AppA (P-050)**; see also periodic table
+- **axioms (Genesis Physics)**
+  - summary — **1.1**, Quality_Control/Reference/Axiom_Summary_Cards.md
+  - Axiom 1 (Zone Hierarchy) — 1.1
+  - Axiom 2 (Waters Duality) — 1.1, 1.6
+  - Axiom 3 (Sustaining Coupling κ) — 1.1, 1.8, 1.11
+  - Axiom 4 (Dimensional Embedding) — 1.1, 1.4
+  - Axiom 5 (Metric Signature) — 1.1, 1.4, 6.AppE.§E.5
+
+---
+
+## B
+
+- **Bardeen-Cooper-Schrieffer (BCS) theory** — **4.13** (in Vol 4 context), 3.8, **6.AppA (P-044, P-045)**; see also superconductivity
+- **baryogenesis** — 5.9, 4.11 (CP violation)
+- **baryon asymmetry** — 5.9, 4.13 (CKM context)
+- **baryon number** — **1.7**, 4.10, 4.11; see also proton stability
+- **baryonic matter**
+  - density (ρ_matter = 4.2 × 10⁻²⁸ kg/m³) — **5.8**, 5.11, 6.AppE.§E.8
+  - fraction (Ω_b = 0.049) — **5.8**, 5.11, 6.AppA (P-025)
+  - as Zone 2.2.2 — **1.6**, Zone_Architecture.md
+- **baryonic Tully-Fisher relation** — **5.11.Eq(5.11.14)**, 6.AppA (P-029)
+- **Bekenstein, Jacob** — 5.5, 5.6, Bibliography Bib.2; see also Bekenstein-Hawking entropy
+- **Bekenstein-Hawking entropy** — **5.5**, 5.6, 3.12
+- **Bell, John Stewart** — **4.4**, Bibliography Bib.2
+- **Bell inequality / Bell test**
+  - statement — **4.4**
+  - CHSH parameter — 4.4, 6.AppE (S_CHSH)
+  - Tsirelson bound — **4.4**, 6.AppA (P-132 context)
+  - experimental status — 4.4, 6.11
+- **Bellarmine, Robert** (historical) — 2.1.§1 (cited as early astronomy context)
+- **BICEP (B-mode polarization experiment)** — 6.AppA (P-082 threshold), 5.9
+- **Big Bang** — **5.8**, 5.9, 1.11 (entropy context); see also cosmology
+- **Big Bang nucleosynthesis (BBN)** — **5.9**, 6.AppA (P-058, P-087), Bibliography Bib.3
+- **binary pulsar (Hulse-Taylor, PSR B1913+16)** — **5.2.Eq(5.2.51–54)**, 5.3, 6.AppA (P-013)
+- **Birkhoff's theorem** — 5.4 (strong-field gravity context)
+- **black body radiation**
+  - historical origin of QM — 4.1
+  - CMB spectrum — 5.9, 6.AppA (P-083)
+- **black holes**
+  - event horizon — **5.5**
+  - Schwarzschild radius — **5.5.Eq(5.5.12)**, 6.AppE (r_s)
+  - entropy (Bekenstein-Hawking) — **5.5**, 5.6, 3.12
+  - as Zone 2.2.1 / Firmament infrastructure — **5.5**, 1.5, 1.6
+  - information paradox — **5.6**, 5.5
+  - Hawking radiation — **5.6**, 5.5, 6.AppA (P-140)
+  - Hawking temperature — 5.5, 6.AppE (T_H)
+  - singularity resolution — **5.7**
+  - no-hair theorem — 5.5
+  - M87*, Sgr A* (Event Horizon Telescope) — 5.5, 6.AppA (P-011)
+  - see also singularity; firewall
+- **binding energy
+  - nuclear** — **4.12**, 3.7, 6.AppF.§F.2 (T-NRG-04)
+  - **brane / bulk** — **6.9.Eq(6.9.22)**, 6.AppE (E_binding)
+- **biblical references**
+  - Genesis 1:1 — **1.1**, 1.3, Biblical_References.md
+  - Genesis 1:2 — **1.1**, 1.6 (Waters Above / Below); 1.11 (tohu vavohu)
+  - Genesis 1:3–5 — **1.5** (light / darkness, Day 1); Zone_Architecture.md Table 5
+  - Genesis 1:6–8 — **1.5** (firmament, Day 2); 1.6
+  - Genesis 1:9–10 — **1.6** (matter condensation, Day 3A)
+  - Genesis 1:11–13 — 1.8 (seed principle, Day 3B); Glossary.md (Min)
+  - Genesis 1:14–19 — 5.8 (luminaries, Day 4)
+  - Genesis 1:20–23 — 1.9 (sentience, Day 5)
+  - Genesis 1:24–25 — 1.9 (land animals, Day 6A)
+  - Genesis 1:26–27 — **1.9** (image of God); Glossary.md (Imago Dei)
+  - Genesis 1:28 — 1.9 (dominion / stewardship)
+  - Genesis 2:1–3 — **1.11** (Sabbath, κ_full equilibrium)
+  - Hebrews 1:3 — **1.8**, 6.AppF.§F.0 (sustaining coupling anchor)
+  - Colossians 1:17 — **1.8**, 6.AppF.§F.0
+  - John 1:1 — 1.1 (Logos introduction)
+  - 1 Corinthians 15:42–44 — 1.11 (eschatology, κ_redeem)
+  - 2 Peter 3:10 — 1.11 (eschatology)
+  - Revelation 21:1–4 — 1.11 (new creation)
+  - Romans 1:20 — Glossary.md (General Revelation)
+  - Psalm 19:1 — 1.3 (revelation of order)
+- **Bogoliubov transformation** — 4.6, 4.9
+- **Bohr, Niels** — 4.1, 4.5 (interpretation context)
+- **Bohr radius** — 4.7 (derivation context)
+- **boiling point** (generic) — 3.8
+- **Boltzmann, Ludwig** — 3.10, 3.11, 3.12
+- **Boltzmann constant (k_B)** — **1.11**, 3.10, 6.AppE.§E.8
+- **Boltzmann distribution** — **3.10**, 3.11
+- **bonding, chemical** — **4**, **6.AppA (P-051)**
+- **Borel summability** (renormalization) — 4.8
+- **Born rule** — **4.1**, 4.5
+- **Bose-Einstein condensation (BEC)** — **4.13**, 4.9, **6.AppA (P-048)**
+- **bosons**
+  - gauge — **4.11** (W, Z), 2.6, **4.11** (Higgs)
+  - Nambu-Goldstone — 4.11 (electroweak)
+  - KK graviton tower — **5.3**, 6.AppA (P-060, P-070)
+- **Bouguer anomaly** — 6.12 (life-detection context)
+- **boundary conditions**
+  - hard-wall (particle mass) — **4.10.Eq(4.10.18)**, 6.AppA (P-052–P-055)
+  - soft-potential — 4.10, 6.AppA (P-053 threshold refinement)
+  - zone-boundary (η-scale) — **1.6**, 1.10, 4.10
+- **boundary scales (ξ_A, η_B)** — **1.6**, 5.13, 6.AppE.§E.7
+- **bra-ket notation** — 4.1, 6.AppE.§E.4
+- **brane (3-brane)**
+  - structure — **1.5**, 1.4
+  - tension (σ) — **1.5**, 2.9, 6.AppE (σ); see also membrane tension
+  - binding energy — **6.9.Eq(6.9.22)**, 6.AppE (E_binding)
+  - U(1) gauge (charge topology) — **2.6**
+  - metric (4D) — **1.4**, 5.1, 6.AppE.§E.5
+- **bulk (6D spacetime)**
+  - geometry — **1.4**, 5.3, 5.4
+  - geodesics — **6.9** (dimensional-bypass context), 5.3
+  - shortcut factor (κ_bulk) — **6.9**, 6.AppA (P-101)
+  - excursion coordinate (η*) — **6.11**, 6.AppE.§E.7
+- **bulk-binding threshold** — **6.AppA (P-091)**, 6.9
+- **bundles (fiber)** — 2.6 (gauge theory geometric context)
+
+---
+
+## C
+
+- **c (speed of light)**
+  - as brane property — **1.5.Eq(derived from σ/μ)**, **6.9**, 6.AppA (P-100, P-041)
+  - local variation (c_local) — **6.9**, 6.AppE (c_local)
+  - in vacuum — 2.3, 6.AppE.§E.8
+- **Cabibbo-Kobayashi-Maskawa (CKM) matrix** — **4.13**, 4.11
+- **canonical quantization** — **4.2**, 4.6
+- **Carnot, Sadi** — 3.9 (historical)
+- **Carnot cycle / efficiency** — 3.9, 3.10
+- **Cartan, Élie** — 2.6 (geometric gauge)
+- **Casimir, Hendrik** — **4.9**, Bibliography Bib.3
+- **Casimir effect**
+  - static (force per area) — **4.9.Eq(Casimir pressure 1/a⁴)**, 6.AppA (P-049)
+  - dynamic — **4.9**, **6.10.§5**, 6.AppA (P-103, P-104, P-115); see also Wilson et al. 2011
+  - array (as T-NRG-03) — **6.10**, 6.AppF.§F.2 (T-NRG-03)
+- **causality** — 1.1 (Axiom 1 context), 5.6, 6.9 (warp bubble)
+- **causal sets (Sorkin)** — **6.15**, Bibliography Bib.4
+- **cavity (resonant)** — **6.10** (MRG; TE₁₁ mode at 1.14 GHz), 4.9
+- **CCD (Charge-Coupled Device)** — 6.8 (simulation I/O context; not a technology subject)
+- **celestial mechanics** — 5.2
+- **Center for Theoretical Physics, MIT** — Bibliography Bib.4
+- **central force problem** — **3.3**
+- **Cepheid variables** — 5.8
+- **CERN** — 4.11 (LHC context); see also LHC; ATLAS; CMS
+- **Chandrasekhar limit** — 5.5 (black hole context)
+- **characteristic classes** (differential geometry) — 2.6
+- **charge (electric)**
+  - conservation — **1.7**, 2.6, 6.AppA (P-034)
+  - quantization — **2.6.Eq(U(1) topology)**, **6.AppA (P-042)**
+- **chemical bonding** — **4** (as quantum-mechanical end of derivation chain), **6.AppA (P-051)**
+- **chemistry** — 4 (aufbau, bonding), 3.9
+- **Cherenkov radiation** — 6.9.§3 (at warp decoupling / re-entry)
+- **chirality (neutrino)** — 4.10, 4.11
+- **Chladni patterns** — 1.5 (membrane-vibration context), Glossary.md; see also membrane modes
+- **Christ (Christological anchor)**
+  - as Logos (John 1:1) — **1.1**, 1.3
+  - as sustaining (Col 1:17, Heb 1:3) — **1.8**, 6.AppF.§F.0
+  - (appears implicitly throughout the sustaining-coupling framework)
+- **Christoffel symbols** — 5.2, 6.AppE.§E.5
+- **CHSH inequality / parameter** — **4.4**, 6.AppE (S_CHSH); see also Bell inequality
+- **classical mechanics (recovered as zone theorem)** — **3.1** (Newton's laws as theorems), 3.2, 1.7
+- **classical tests of GR** — **5.2** (Mercury precession, light bending, Shapiro delay, redshift, frame dragging)
+- **CMB (cosmic microwave background)**
+  - power spectrum — **5.9**, 5.10, 6.AppA (P-082, P-146)
+  - Planck satellite measurements — 5.9 (passim)
+  - zone-transition template search — **6.AppA (P-082)**, 6.3
+- **CMB-S4** — **6.AppA (P-082)**, 5.9
+- **CMS experiment (LHC)** — 4.11, 6.AppA (P-019), Bibliography Bib.3
+- **cochlea** — **6.10.§4** (as MRG existence proof)
+- **CODATA 2022** — 6.AppE.§E.8, Bibliography Bib.9
+- **coherence, quantum** — **4.4**, 4.5, 6.9 (warp), 6.AppF (T-FTL-05)
+- **compactification** — **5.3**, 1.4, 6.AppA (P-070)
+- **compactification radius (R_compact)** — **5.3**, 6.AppE (R_compact), 6.AppA (P-070)
+- **Compton scattering** — **4** (photon-electron context), 6.AppA (P-047)
+- **Compton wavelength** — 4.7, 4.9
+- **computational validation** — **6.AppB**, 6.5–6.8
+- **condensed matter (as Zone 2.2.2)** — **1.6**, Zone_Architecture.md
+- **confinement (QCD)** — **4.12**, 4.8 (running), 6.AppA (P-021)
+- **conformal transformations** — 5.1 (GR recovery context)
+- **connection (gauge)** — 2.6, 4.6
+- **consciousness**
+  - as zone-interface operator — **1.9**, 6.13, Zone_Architecture.md
+  - Ψ_consciousness = Ψ_body ⊗ Ψ_spirit — **6.9.Eq(6.9.25)**, 6.13
+  - as T-FTL-05 / T-COM-04 substrate — 6.AppF.§F.1, 6.AppF.§F.3
+  - spirit entanglement — **6.13**, 6.11
+- **conservation laws**
+  - energy — **1.7.Eq(1.7.22)**, 6.AppA (P-031)
+  - momentum — **1.7.Eq(1.7.29)**, 6.AppA (P-032)
+  - angular momentum — **1.7.Eq(1.7.33)**, 6.AppA (P-033)
+  - charge — **1.7**, **2.6**, 6.AppA (P-034)
+  - baryon / lepton number — **1.7**, 4.10; Zone_Architecture.md Table 8
+  - zone number Z (novel) — **6.AppA (P-081)**, 1.7, 6.3
+  - Noether theorem — **1.7**, 3.2; see also Noether
+- **conservation principle (governing)** — **1.8** (Five Governing Principles), Five_Principles.md
+- **constants (physical)** — **6.AppE.§E.8**; see Appendix E entries for individual constants
+- **constructor theory (Deutsch-Marletto)** — 6.15, Bibliography Bib.4
+- **constructor theory of information** — 6.15
+- **continuum mechanics** — **3.5**
+- **contravariant / covariant indices** — 6.AppE.§E.5
+- **coordinate systems** — 1.4, 5.2, 6.AppE.§E.5
+- **Copernican principle** — 5.8
+- **cosmological constant (Λ)**
+  - definition / value — **5.11**, 6.AppE (Λ)
+  - as Waters Above pressure — **5.11**, 1.6
+  - problem (10¹²⁰ discrepancy) — **4.9**, **6.AppA (P-076)**
+  - resolution via UV cutoff — 6.3, 6.AppA (P-076)
+- **cosmological parameters (Ω_Λ, Ω_DM, Ω_b, Ω_r)** — **5.8**, **5.11**, 6.AppE.§E.3, 6.AppA (P-025)
+- **cosmology**
+  - zone cosmological model — **5.8**, 5.11
+  - FRW metric — **5.8**
+  - inflation — 5.9
+  - structure formation — **5.10**, 6.6
+  - large-scale structure — **5.10**
+- **coupling constants**
+  - α — **5.13**, 4.7, 4.8; see fine-structure constant
+  - α_s — **4.12**, 6.AppA (P-006)
+  - α_em / α_G — **2.9**, 6.AppA (P-005)
+  - Waters-Below (α_B) — **6.10**, 6.AppE (α_B)
+  - sin² θ_W — 4.11, 6.AppA (P-057)
+  - running — **4.8**, **2.10**
+- **covariant derivative** — 5.2, 4.5 (gauge-covariant), 6.AppE.§E.4
+- **CP violation** — **4.13**, 5.9
+- **CPT theorem** — 4.6, 4.13
+- **creation (Genesis days)** — **1**, Zone_Architecture.md Table 5; see biblical references
+- **Creator's Blueprint (Book 3)** — 00_project, not indexed within Foundations
+- **critic report** — Research/Peer_Review/critic_report.md (cited in 6.CLAUDE.md)
+- **critical density** — **5.14** (cosmological), 4.12 (QCD)
+- **critical temperature (T_c)** — **4.13** (superconductivity), 6.AppA (P-044)
+- **cross-section (particle physics)** — 4.6, 4.12, 6.AppE (σ disambiguation)
+- **cusp-core tension (dwarf galaxies)** — **5.11**, 6.AppA (P-077)
+- **CVD (chemical vapor deposition)** — 6.10.§10 (MRG construction context)
+- **cyclic boundary conditions** — 1.10 (quantization context)
+- **chronology (cosmic / Genesis days)** — **5.12** (the Starlight Problem and Chronology), 1.11, Zone_Architecture.md Table 5
+- **CKM mixing angles (θ₁₂, θ₁₃, θ₂₃, δ)** — **4.13**, 6.AppE (θ_CKM); see also Cabibbo-Kobayashi-Maskawa matrix
+- **classical tests of GR** — **5.2** (Mercury, bending, Shapiro, Pound-Rebka, LAGEOS, PSR binary), 6.AppA (P-007–P-013)
+- **closed timelike curve (CTC; not allowed in ZA)** — 6.9.§6 (causality preservation)
+- **coupling function κ(f, f_n) (MRG)** — **6.10**, 6.AppE (κ(f, f_n)), 6.AppF (T-NRG-01)
+
+---
+
+## D
+
+- **D'Alembertian (□)** — 2.3, 4.2, 5.3, 6.AppE.§E.4
+- **dark energy**
+  - definition / phenomenology — **5.11**, 1.6, Glossary.md
+  - as Waters Above (Ψ_A) — **1.6**, **5.11**
+  - density (ρ_Λ) — 5.11, 6.AppE (ρ_A)
+  - equation of state (w = −1) — **5.11.Eq(5.11.1)**, 6.AppA (P-024, P-063, P-064)
+  - no evolution (dw/dz = 0) — **5.11**, **6.AppA (P-064)**
+  - fluctuation amplitude — **6.12**, 6.AppA (P-141)
+  - density parameter Ω_Λ = 0.684 — **5.8**, 6.AppA (P-025)
+- **dark matter**
+  - definition / phenomenology — **5.11**, 1.6, Glossary.md
+  - as Waters Below (Ψ_B) — **1.6**, **5.11**
+  - density (ρ_B) — 5.11, 6.AppE (ρ_B)
+  - equation of state (w ≈ 0) — **5.11**
+  - cross-section (σ_DM-SM = 0) — **5.11.§4**, 6.AppA (P-061)
+  - decay lifetime (τ_DM = ∞) — **5.11**, 6.AppA (P-062)
+  - density parameter Ω_DM = 0.266 — **5.8**, 6.AppA (P-025)
+  - imaging aperture (T-SNS-03) — 6.12, **6.AppF.§F.4**
+- **Dark-Matter Imaging Aperture (T-SNS-03)** — **6.12**, 6.AppF.§F.4, 6.AppA (P-138)
+- **Dawid, Richard** — Bibliography Bib.6 (non-empirical confirmation)
+- **Day 1 (Genesis)** — **1.5** (light / darkness; Z₂.₁); Zone_Architecture.md Table 5
+- **Day 2 (Genesis)** — **1.5** (firmament); 1.6
+- **Day 3 (Genesis)** — **1.6** (matter condensation)
+- **Day 4 (Genesis)** — 5.8 (luminaries)
+- **Day 5 (Genesis)** — 1.9 (sentience)
+- **Day 6 (Genesis)** — **1.9** (humans in image of God)
+- **Day 7 (Genesis, Sabbath)** — **1.11** (κ_full equilibrium)
+- **DC rectification** — **6.10** (MRG rectenna context)
+- **decoupling (brane / bulk)** — 6.9 (FTL mechanism)
+- **degeneracy pressure** — 5.5
+- **degradation principle** — **1.8**, Five_Principles.md
+- **Delta (Δ), finite difference / SC gap** — 6.AppE.§E.3
+- **density
+  - baryonic matter** — **5.8**, 5.11
+  - dark matter — **5.11**
+  - dark energy — **5.11**
+  - critical (cosmological) — **5.14**, 5.8
+  - critical (QCD) — **4.12**, 6.AppE (ρ_critical)
+  - vacuum energy — **4.9**, **6.AppA (P-076)**
+- **derivation-chain audit** — 6.AppB, Research/Mathematical_Models/DERIVATION_CHAIN_AUDIT.md
+- **DESI survey** — 6.AppA (P-024, P-063, P-064, P-141), Bibliography Bib.3
+- **DES Y3 (Dark Energy Survey Year 3)** — 6.AppA (P-063)
+- **detailed balance** — 3.10
+- **Deutsch, David (constructor theory)** — 6.15, Bibliography Bib.4
+- **deuteron binding** — 3.7 (nuclear context)
+- **Dicke coincidences** — 5.13 (anthropic context)
+- **dielectric stack (MRG)** — **6.10** (200-boundary design), 6.AppF (T-NRG-01)
+- **differential geometry** — 1.4, 5.2, 6.AppE.§E.5
+- **dilaton (not used in ZA zero-mode sector)** — 5.3.§4 (historical contrast)
+- **dimensional bypass** — **6.9.§4** (T-FTL-02), 6.AppF.§F.1
+- **dimensional embedding (Axiom 4)** — **1.1**, **1.4**
+- **dimensional reduction (6D → 4D)** — **1.4**, 5.3, 6.AppE (L_eff)
+- **Dirac, Paul** — **4.2** (Dirac equation), 4.6, Bibliography Bib.1
+- **Dirac delta δ(x)** — 2.3, 4.2, 6.AppE.§E.4
+- **Dirac equation** — **4.2**, 4.6; see also gamma matrices
+- **Dirac monopole** — 6.AppA (P-042 context, partial explanation)
+- **directional rectification** — **6.10** (MRG magnetic-bias mechanism)
+- **DIS (deep inelastic scattering)** — 4.12 (form factor), **6.AppA (P-144)**
+- **discussion questions** — (absent in Foundations; part of Book 3 structure only)
+- **displacement field (D)** — 2.3, 6.AppE (D)
+- **divergence (Maxwell)** — 2.3, 6.AppE.§E.4
+- **Doppler effect** — 5.2, 5.8
+- **duality principle** — **1.8**, Five_Principles.md
+- **DUNE (Deep Underground Neutrino Experiment)** — 4.11, 6.AppA (P-066), Bibliography Bib.3
+- **dwarf galaxies (missing satellites / cusp-core)** — **5.11**, 6.AppA (P-077, P-078)
+- **dynamic Casimir array (T-NRG-03)** — **6.10**, 6.AppF.§F.2 (T-NRG-03); see also Wilson et al. 2011
+- **dynamic Casimir effect** — **4.9**, 6.10, 6.AppA (P-103–P-115)
+- **d'Alembertian wave operator (□)** — 2.3 (EM wave equation), 4.2 (Klein-Gordon), 5.3 (GW propagation), 6.AppE.§E.4
+- **degrees of freedom**
+  - GW polarization (six, inc. novel) — **5.3**, 6.AppA (P-068, P-069, P-151, P-153)
+  - thermodynamic — 3.10, 3.11
+  - gauge — 2.6, 4.6
+- **design document (Vol 6 Ch 16, roadmap)** — **6.16**, 6.AppF.§F.0
+- **dispersion relation**
+  - photon (brane) — **2.3**, 6.AppA (P-041)
+  - KK graviton — **5.3**, 6.AppA (P-059, P-060)
+  - Waters field — **1.6**, 6.AppA (P-078)
+- **Donoho reviewer (role)** — 6.AppA.§A.1, 6.CLAUDE.md (code reproducibility agent)
+
+---
+
+## E
+
+- **e (elementary charge)** — **2.6**, 6.AppE (e), 6.AppE.§E.8
+- **E (electric field)** — 2.3, 6.AppE (E)
+- **Earth Prime (Z₂)** — **1.1** (zone hierarchy), Zone_Architecture.md
+- **EDGES (21-cm absorption experiment)** — 5.9 (cosmology context)
+- **Eddington, Arthur** — 5.2 (1919 eclipse)
+- **effective field theory** — 4.8, 5.1 (GR recovery)
+- **Einstein, Albert**
+  - special relativity — **5** (preliminary), 5.1
+  - general relativity (field equations) — **5.1**, 5.2
+  - 1905 photoelectric paper — 4.1, 6.AppA (P-046)
+  - 1925 BEC paper — 6.AppA (P-048)
+  - lectures / papers — Bibliography Bib.1
+- **Einstein field equations (recovered from zone architecture)** — **5.1**, 5.2
+- **Einstein-Hilbert action** — **5.1**, 1.4 (6D bulk action)
+- **Einstein ring / cross** — 5.2 (lensing)
+- **Einstein summation convention** — 6.AppE.§E.5
+- **Einstein Telescope** — 6.AppA (P-089, P-097), Bibliography Bib.3
+- **Einstein tensor (G_μν)** — 5.1, 5.2, 6.AppE (G_μν)
+- **electroweak theory** — **4.11**, 4.6 (gauge); Bibliography Bib.2
+- **electroweak VEV (v = 246 GeV)** — **4.11**, 6.AppE (v)
+- **electron**
+  - mass (m_e = 0.511 MeV) — **4.10.Eq(4.10.18)**, 6.AppE (m_e)
+  - anomalous magnetic moment (a_e) — **4.7.Eq(4.7.51–56)**, 6.AppA (P-001)
+  - g-factor — 4.7, 6.AppE (g_e)
+- **electrodynamics, classical** — **2.7**, 2.3 (Maxwell emergence)
+- **electromagnetic field tensor (F_μν)** — **2.3**, 6.AppE (F_μν)
+- **electromagnetic spectrum** — **6.AppA (P-043)**, 2.3
+- **electromagnetism**
+  - from membrane wave propagation — **2.3**, 6.AppA (P-040); see also Maxwell's equations
+  - coupling (running) — 4.8, 6.AppE (α_em)
+- **elementary particles** — 4.10 (leptons, quarks), 4.11 (bosons); see also Standard Model
+- **emission (photon, thermal)** — 3.10, 4.1, 4.7
+- **emergence** — 1.8 (patterns), Glossary.md; see also pattern
+- **empty zone (tohu vavohu)** — 1.11; see biblical references (Genesis 1:2)
+- **energy conservation** — **1.7.Eq(1.7.22)**, 6.AppA (P-031)
+- **energy density**
+  - baryonic — **5.8**, 5.11
+  - dark — **5.11**
+  - vacuum — **4.9**, 6.AppA (P-076)
+- **Energy Harvesting (technology category)** — **6.10**, **6.AppF.§F.2**
+- **energy-momentum tensor (T_μν)** — 5.1, 6.AppE (T_μν)
+- **entanglement, quantum** — **4.4**, 6.11, Glossary.md
+- **entanglement-based signaling (T-COM-01, null)** — **6.11**, 6.AppF.§F.3, 6.AppA (P-132)
+- **entropy**
+  - as zone-architecture consequence — **1.11**, **3.12**
+  - second law — **3.12**, **3.9** (thermodynamic laws)
+  - Bekenstein-Hawking — **5.5**, 5.6, 3.12
+  - dark-sector — 5.11, 5.6 (information paradox)
+  - derivation from zone topology — **1.11**, 3.12
+  - arrow of time — **3.12**
+  - see also: free energy; information; thermodynamics
+- **epoch labels (Four Epochs)** — **1.11**, Four_Epochs_Timeline.md
+  - Creation (Days 1–6; κ_create) — **1.11**
+  - Edenic (κ_full) — **1.11**, 1.8
+  - Fall (κ_partial) — **1.11**
+  - Redemption (κ_redeem) — **1.11**
+- **Eötvös-type experiments (Eöt-Wash)** — 2.9, 6.AppA (P-070)
+- **equation of state (w)** — **5.11**, 6.AppE (w), 6.AppA (P-024, P-063, P-064)
+- **equation registry (canonical)** — Quality_Control/Reference/Equation_Registry.md
+- **equipartition theorem** — 3.10
+- **equivalence principle** — **5.1**, 5.2, 6.AppA (P-010)
+- **ESPRESSO (spectrograph, α-constancy)** — 6.AppA (P-065), 5.13
+- **η_B (Waters Below extent)** — **1.6**, 5.13, 6.AppE (η_B)
+- **ξ_A (Waters Above extent)** — **1.6**, 5.13, 6.AppE (ξ_A)
+- **Euclid (space mission)** — 6.AppA (P-024, P-063, P-141, P-143), Bibliography Bib.3
+- **Euler-Lagrange equation** — 3.2, 1.7
+- **event horizon** — **5.5**, 5.6, 6.9 (warp-bubble context)
+- **exclusion principle (Pauli)** — **4** (aufbau context), 4.10
+- **exotic matter (not required in ZA warp)** — **6.9.§6**, 6.AppF (T-FTL-04)
+- **expansion sail (T-NRG-02)** — **6.10.§6**, 6.AppF.§F.2
+- **experiments
+  - LHC** — see LHC
+  - LIGO — see LIGO
+  - Planck satellite — see Planck satellite
+  - see also individual entries below
+- **exterior derivative** — 2.6 (differential-form gauge)
+- **extra dimensions** — **1.4** (ξ, η directions), 5.3, 6.AppA (P-070); see also Kaluza-Klein
+- **extremal black hole** — 5.5.§5
+- **eye (human, as analogy)** — (not indexed; passing mention)
+
+---
+
+## F
+
+- **F=ma (Newton's second law)** — **3.1**, 6.AppA (P-035)
+- **Faber-Jackson relation** — 5.11 (galactic scaling, contextual)
+- **Falsification
+  - protocol / criteria (Vol 6)** — **6.4**, **6.AppA**
+  - per-prediction threshold — 6.AppA.§A.13
+  - skeptic reviewer role — 6.AppA.§A.1, 6.CLAUDE.md
+- **Faraday, Michael** — 2.3 (historical)
+- **Faraday induction** — 2.3
+- **fermions (as membrane resonances)** — **4.10**; see also leptons; quarks
+- **Fermi Gamma-ray Space Telescope** — 6.12.§5 (life-detection / gamma-ray DM contexts)
+- **Feynman, Richard**
+  - lectures — Bibliography Bib.1
+  - diagrams — **4.7**, 4.6, 4.8
+  - path integral — 4.6
+- **field distortion / warp bubble (T-FTL-04)** — **6.9.§6**, **6.AppF.§F.1**, 6.AppA (P-095, P-096, P-097)
+- **Feynman diagrams** — **4.7**, 4.6, 4.8
+- **Firmament (Z₂.₂, Raqia)**
+  - as membrane — **1.5**
+  - Israel junction — 1.5, 6.AppE (K_ij)
+  - extrinsic curvature — **1.5**, 6.AppE (K_ij)
+  - see also biblical references (Gen 1:6–8); Glossary.md
+- **fine-structure constant (α)**
+  - derivation from ξ_A / η_B — **5.13.Eq(5.13.32)**, 6.AppA (P-004)
+  - value (≈ 1/137.036) — **5.13**, 6.AppE.§E.8
+  - residual offset — **5.13**, 6.AppA (P-056)
+  - constancy over cosmic time — **5.13**, 6.AppA (P-065)
+  - anthropic sensitivity — 5.13.§5
+  - as boundary ratio (Waters Above ÷ Waters Below) — **5.13**, Glossary.md
+  - relation to α_em, α_G — 5.13, 2.9, 6.AppA (P-005); see also hierarchy problem
+  - as cross-volume anchor (α appears in Vol 2 EM coupling, Vol 4 QED, Vol 5 derivation) — 2.3, 4.7, 5.13
+- **fine-tuning** — 5.13.§5, Glossary.md; see also anthropic principle
+- **Five Governing Principles** — **1.8**, Five_Principles.md
+- **FitzGerald contraction** — 5.1 (historical SR context)
+- **FLRW / FRW metric** — **5.8**
+- **flux** — 2.3 (EM), 5.2 (gravitational context)
+- **flywheel analogy (warp bubble)** — 6.9.§6 (pedagogical)
+- **Fock space** — 4.6
+- **forces
+  - gravity** — **2.2**, 5.1, 5.2
+  - electromagnetism — **2.3**, 2.7
+  - strong — **2.4**, 4.12
+  - weak — **2.4**, 4.11
+  - unification / landscape — **2.11**, 2.9
+  - hierarchy problem — **2.9**, 6.AppA (P-005)
+- **form factor (DIS)** — **4.12**, **6.AppA (P-144)**
+- **Foundations Series (this project)** — overall project, 1.README, 6.README
+- **Four-Epochs timeline** — **1.11**, Four_Epochs_Timeline.md
+- **Fourier analysis** — 1.10, 2.3, 4.2
+- **Fourier transform** — 4.2
+- **frame (reference)** — 5.1, 5.2
+- **frame dragging (Lense-Thirring)** — **5.2.Eq(5.2.39)**, 6.AppA (P-012); see also Gravity Probe B
+- **FRB (Fast Radio Burst)** — 5.10 (large-scale structure context)
+- **free energy** — 3.9, 3.10; see also entropy
+- **frequency-dependent GW propagation** — **5.3**, 6.AppA (P-059)
+- **Friedmann equations** — **5.8**
+- **FRW / FLRW metric** — **5.8**, 5.11
+- **FTL Travel (technology category)** — **6.9**, **6.AppF.§F.1** (T-FTL-01 through T-FTL-05)
+- **fusion (nuclear)** — 3.7, 6.10.§7 (context)
+- **firewall (black hole controversy)** — 5.6.§4 (contrast with ZA resolution)
+- **first law of thermodynamics** — **3.9**, 1.7 (as energy conservation)
+- **Foundations Vol 1 (Architecture of Reality)** — **1** (entire volume), Zone_Architecture.md
+- **Foundations Vol 2 (Forces and Fields)** — **2** (entire volume)
+- **Foundations Vol 3 (Matter and Motion)** — **3** (entire volume)
+- **Foundations Vol 4 (The Quantum World)** — **4** (entire volume)
+- **Foundations Vol 5 (The Cosmos)** — **5** (entire volume)
+- **Foundations Vol 6 (Predictions and Simulations)** — **6** (entire volume, this back-matter)
+- **free parameters (ZA vs. Standard Model)** — 6.14, 6.15 (ZA claims zero free parameters for α, v, M_W/M_Z after boundary-scale fixing)
+
+---
+
+## G
+
+- **G (gravitational constant)** — **2.9**, 6.AppE (G), 6.AppE.§E.8
+- **g-2 (electron, muon)** — **4.7**, 6.AppA (P-001, P-003)
+- **g_e (electron g-factor)** — **4.7**, 6.AppE (g_e)
+- **Gabrielse, Gerald** — Bibliography Bib.3 (g-2 measurement)
+- **galaxies**
+  - rotation curves — **5.11.Eq(5.11.6–10)**, 6.AppA (P-030)
+  - structure formation — **5.10**, 6.6
+  - SPARC data — 5.11, 6.AppA (P-030)
+  - dwarf (missing-satellites / too-big-to-fail) — **5.11**, 6.AppA (P-078)
+- **gamma matrices** — 4.2, 6.AppE.§E.5
+- **gamma (PPN parameter)** — **5.2**, 6.AppA (P-008, P-009)
+- **Gauss, Carl Friedrich** — 2.3 (historical)
+- **Gauss (unit)** — 6.AppE.§E.6
+- **Gauss's law** — 2.3, 2.7
+- **gauge bosons** — **4.11**, 2.6
+- **gauge covariant derivative** — **4.5**, 4.6, 6.AppE (D_μ)
+- **gauge theory** — **2.6** (from zone symmetries), 4.6, Bibliography Bib.2
+- **Gaussian profile (Ψ_A in warp bubble)** — **6.9.§6**, 6.AppF (T-FTL-04)
+- **Gell-Mann, Murray** — 4.12 (quark model, historical)
+- **generations (three families of fermions)** — 4.10, 4.13
+- **Genesis**
+  - chapter 1 (creation) — **1** (implicit anchor), Biblical_References.md
+  - chapter 2 (Sabbath) — **1.11**
+  - day-by-day — see biblical references (Gen 1:1 through Gen 2:3)
+  - kinds (Min) — Glossary.md, 1.9
+- **geodesic**
+  - 4D brane — 5.1, 5.2
+  - 6D bulk — **6.9** (dimensional bypass); 5.3
+- **geodesic equation** — **5.2**, 6.9
+- **geometric units (G = c = 1)** — 5.1, 6.AppE.§E.6
+- **Geroch, Robert** — 5.1 (GR axioms; historical)
+- **geometric phase (Berry)** — (not substantively treated; passing mention in 4.5)
+- **Gibbs, J. Willard** — 3.10 (thermodynamics; historical)
+- **globular cluster age** — 5.8 (cosmological age cross-check)
+- **GLM (Goldstone / Low-mass mode)** — 4.11 (electroweak context)
+- **Godhead (Z₀)** — **1.1**, Zone_Architecture.md Table 1
+- **Goldstone theorem** — **4.11**, 4.6
+- **GPS, gravitational time dilation** — **5.2.Eq(5.2.28)**, 6.AppA (P-013)
+- **GRACE / GRACE-FO** — 6.12 (life-detection gravimeter / GRACE-Bio context)
+- **graviton**
+  - zero-mode — 5.3, 5.1
+  - KK tower — **5.3**, 6.AppA (P-060, P-070)
+- **gravitational constant (G)** — **2.9**, 6.AppE.§E.8
+- **gravitational field equations (Einstein)** — **5.1**, 5.2
+- **gravitational field theory** — **2.8**, 5.1
+- **gravitational lensing** — **5.2**, 5.10 (large-scale)
+- **gravitational redshift (Pound-Rebka)** — **5.2.Eq(5.2.25–26)**, 6.AppA (P-010)
+- **gravitational waves**
+  - propagation / speed — **5.3**, 6.AppA (P-011, P-059, P-101)
+  - tensor polarizations h_+, h_× — **5.3**, 6.AppE (h_+, h_×)
+  - vector polarizations h_V1, h_V2 (novel) — **5.3**, 6.AppA (P-068), 6.12
+  - scalar polarizations h_S, h_L (novel) — **5.3**, 6.AppA (P-069), 6.12
+  - KK graviton tower — **5.3**, 6.AppA (P-060, P-070)
+  - amplitude relations — **6.12**, 6.AppA (P-151)
+- **gravitational-wave speed** — **5.3**, 6.AppA (P-011)
+- **Gravity Probe B** — **5.2.Eq(5.2.39)**, 6.AppA (P-012)
+- **group theory** — 2.6 (gauge; SU(N), U(1))
+- **GUT (grand unified theory)** — 5.9 (early universe), 6.AppA (P-067)
+- **GW150914 (binary black hole merger)** — 5.3, 6.AppA (P-151 context)
+- **GW170817 (neutron-star merger)** — **5.3**, 6.AppA (P-011, P-101)
+- **Gödel, Kurt (incompleteness; cited as contrast)** — 6.15 (methodological humility context)
+- **governing principles (Five)**
+  - Conservation — **1.8**, Five_Principles.md
+  - Duality — **1.8**, 1.6
+  - Pattern — **1.8**, 1.9
+  - Sustaining — **1.8**, 1.11
+  - Degradation — **1.8**, 1.11 (κ_partial epoch)
+- **gravitational binding energy** — 5.1 (orbital), 5.4 (strong-field)
+- **gravitational potential (Φ)** — **2.2**, **5.1**, 5.2, 6.AppE (Φ)
+- **gravimetry (Life-Detection T-SNS-05)** — **6.12**, 6.AppF.§F.4; see also GRACE
+
+---
+
+## H
+
+- **Hadronic contribution (g-2)** — 4.7 (muon g-2)
+- **Hamiltonian (mechanics)** — **3.2**, 4.2
+- **Hamiltonian (QM operator)** — 4.2, 4.5
+- **hard-wall boundary model (particle mass)** — **4.10.Eq(4.10.18)**, 6.AppA (P-052–P-055)
+- **Hawking, Stephen**
+  - radiation — **5.5**, 5.6
+  - information paradox — **5.6**
+  - temperature (T_H) — 5.5, 6.AppE (T_H)
+- **Hawking radiation** — **5.5**, 5.6
+- **Hawking temperature** — **5.5**, 6.AppE (T_H)
+- **heavens (Heaven Prime, Z₁)** — **1.1**, Zone_Architecture.md
+- **heat capacity** — 3.10, 3.11
+- **Heaviside step function (Θ)** — 6.AppE.§E.3
+- **Heisenberg, Werner** — 4.3 (uncertainty principle)
+- **Heisenberg uncertainty principle** — **4.3**, 4.2
+- **Helmholtz eigenvalue problem** — **6.AppA (P-075)**, 6.3
+- **Helmholtz free energy** — 3.10
+- **HEPData** — Bibliography Bib.9
+- **HERA (electron-proton collider)** — 4.12 (DIS context)
+- **hierarchy problem** — **2.9.Eq(2.9.45)**, 6.AppA (P-005)
+- **Higgs boson**
+  - mass (125.1 GeV) — **4.11**, 6.AppA (P-019), 6.AppE (m_H)
+  - coupling structure (Yukawa) — **4.11**, 6.AppA (P-020)
+  - discovery (ATLAS / CMS) — **4.11**, 6.AppA (P-019), Bibliography Bib.3
+- **Higgs field** — **4.11**, 4.6
+- **Higgs-Waters coupling** — 6.AppA (P-053 threshold, P-055)
+- **HL-LHC (High-Luminosity LHC)** — 6.AppA (P-070, P-074, P-144), Bibliography Bib.3
+- **Hodge duality** — 6.AppE.§E.5
+- **holography (AdS/CFT)** — Bibliography Bib.4, 5.6.§5 (cited contrast)
+- **Holevo, Alexander** — 4.14 (capacity theorem)
+- **Holevo capacity (χ)** — 4.14, 6.AppE (χ)
+- **Hooke's law (membrane stiffness analogue)** — 1.5
+- **horizon (cosmological / event)** — 5.5 (event), 5.9 (cosmological)
+- **Hubble, Edwin** — 5.8 (historical)
+- **Hubble constant (H₀)**
+  - value (67.4 km/s/Mpc) — **5.8**, 6.AppE (H₀), 6.AppA (P-026)
+  - tension (SH0ES vs. Planck) — **5.8**, 6.AppA (P-026)
+- **Hubble expansion (H)** — **5.8**, 5.11
+- **Hubble parameter (H)** — **5.8**, 6.AppE (H)
+- **hydrogen atom** — **4.7**, 1.10 (boundary-quantization context); see also Lamb shift
+- **hypercharge gauge coupling (g′)** — **4.11**, 6.AppE (g')
+- **hypothesis (falsifiable)** — **6.AppA**, 6.4 (falsification criteria)
+- **half-life (nuclear)** — 3.7, 4.11 (weak interaction)
+- **heaven**
+  - Heaven Prime (Z₁) — **1.1**, Zone_Architecture.md
+  - restored / new (Rev 21) — 1.11 (κ_redeem epoch); see biblical references
+- **Heisenberg picture** — 4.2 (time-evolution)
+- **helicity (GW, neutrino)** — **4.11**, 5.3
+- **Hermitian operator** — 4.2, 6.AppE.§E.4
+- **high-redshift anomalies** — **6.12**, 6.AppA (P-145, P-147, P-148)
+- **historical precedents**
+  - QM (Planck, Einstein 1905) — 4.1
+  - GR (Einstein 1915) — 5.1
+  - gauge theory (Yang-Mills 1954) — 2.6
+  - KK compactification (Kaluza 1921, Klein 1926) — 5.3
+  - Casimir (1948) / dynamic Casimir (Wilson 2011) — 4.9, 6.10
+- **horizon problem** — 5.9 (inflationary resolution context)
+- **Hubble tension (SH0ES vs. Planck)** — **5.8**, 6.AppA (P-026); see Hubble constant
+- **hydrogen-like atom** — 1.10 (boundary quantization), 4.7 (QED corrections)
+
+---
+
+## I
+
+- **IceCube Neutrino Observatory** — 4.11 (passim)
+- **Image of God (Imago Dei)** — **1.9** (Gen 1:26–27); Glossary.md
+- **imaging (Dark-Matter Imaging Aperture)** — **6.12**, 6.AppF (T-SNS-03)
+- **inertia (F = ma)** — 3.1, 3.4
+- **inflation (cosmic)** — **5.9**, 5.11; see also CMB
+- **information**
+  - paradox (black holes) — **5.6**, 5.5
+  - entropic accounting — **3.12**, 1.11
+  - Holevo capacity — 4.14, 6.AppE (χ)
+  - see also: entropy
+- **information transfer (T-COM)** — **6.11**, 6.AppF.§F.3
+- **initial conditions (cosmological)** — 5.8, 5.9 (inflation)
+- **inner product (Dirac bra-ket)** — 4.1, 6.AppE.§E.4
+- **instrumentation (sensors, T-SNS)** — **6.12**, 6.AppF.§F.4
+- **integrated Sachs-Wolfe (ISW) effect** — **5.10**, **6.12**, 6.AppA (P-143)
+- **interferometer
+  - atom** — **6.12**, 6.AppA (P-138)
+  - membrane-vibration (MVI) — **6.12**, 6.AppF (T-SNS-01)
+  - LIGO (as GW detector) — see LIGO
+  - Michelson-Morley (historical null) — 2.3.§1, 5.1
+- **interpretation (QM)** — **4.5**, 4.4
+- **inverse-square law (gravity)** — **2.2**, 2.9 (hierarchy), 6.AppA (P-070)
+- **ionization energies (periodic table)** — 6.AppA (P-050), 4
+- **irreducible representation (group theory)** — 2.6, 4.6
+- **ISM (interstellar medium)** — 5.10 (large-scale structure context)
+- **Israel junction conditions** — **1.5**, 6.AppE (K_ij)
+- **isospin** — 4.11, 4.6
+- **ion traps (QED precision tests)** — 4.7, 6.AppA (P-001, P-002)
+- **isotropy (cosmological principle)** — 5.8, 5.9
+- **index (Master, this document)** — 6.AppG; see Navigator reviewer
+- **intensity (MRG harvest power)** — 6.10, 6.AppE (P_net)
+- **internal energy (U)** — **3.9**, 3.10
+- **interaction picture** — 4.6 (perturbation theory)
+- **invariance (Lorentz, gauge, Poincaré)** — see individual entries; 1.7 (symmetry principle)
+
+---
+
+## J
+
+- **Jackson, J. D.** (Classical Electrodynamics) — Bibliography Bib.1
+- **Jackiw-Teitelboim (2D gravity)** — (not used; historical reference)
+- **jet observables** — **4.12**, **6.AppA (P-022)**
+- **joint probability** (QM) — 4.4
+- **JUNO (Jiangmen Underground Neutrino Observatory)** — 4.11, **6.AppA (P-066)**, Bibliography Bib.3
+- **junction conditions (Israel)** — **1.5**
+- **JWST (James Webb Space Telescope)** — 6.AppA (P-145), Bibliography Bib.3
+- **Jeans instability / length** — 5.10 (structure formation)
+- **Jordan, Pascual** — 4.6 (canonical quantization, historical)
+- **joule (unit)** — 6.AppE.§E.6
+
+---
+
+## K
+
+- **κ (sustaining coupling)** — **1.8** (Axiom 3), **1.11** (phases), 6.AppE (κ); see also Four Epochs
+- **κ_create / κ_full / κ_partial / κ_redeem** — **1.11**, Four_Epochs_Timeline.md, 6.AppE (κ-family)
+- **κ(f, f_n) (MRG coupling function)** — **6.10**, 6.AppE, 6.AppF (T-NRG-01)
+- **κ_bulk (geodesic shortcut factor)** — **6.9**, 6.AppA (P-101), 6.AppE
+- **Kaluza, Theodor** — 5.3 (historical; KK theory)
+- **Kaluza-Klein (KK) modes**
+  - graviton tower — **5.3**, 6.AppA (P-060, P-070)
+  - KK dispersion — **5.3**, 6.AppA (P-059)
+- **Kardashev scale** — 6.AppF.§F.0 (roadmap stages), 6.10 (Stage 4 expansion sail)
+- **Kelvin (temperature scale)** — 3.10, 3.11
+- **Kepler's laws** — **3.3**, **6.AppA (P-036)**
+- **kinds (Min)** — Glossary.md, 1.9
+- **kinetic theory** — **3.11**, 3.10
+- **kinetic energy** — 3.1, 4.1 (photoelectric)
+- **KK tower** — **5.3**, 6.AppA (P-060, P-070)
+- **Klein, Oskar** — 5.3 (historical)
+- **Klein-Gordon equation** — **4.2**, 4.6
+- **Kronecker delta (δ_ij)** — 6.AppE.§E.4
+- **Kuhn, Thomas** — Bibliography Bib.6 (paradigm)
+- **Kauffman, Stuart** — (not referenced; contrast literature only)
+- **Kerr metric** — 5.4 (strong-field), 5.5 (rotating black holes)
+- **Kerr-Newman solution** — 5.5 (charged rotating BH)
+- **key figures (historical)** — see individual names: Einstein, Newton, Maxwell, Dirac, Feynman, Hawking, etc.
+- **Kramers-Kronig relations** — 4.9 (Casimir dispersion context)
+- **Kramers' law** — 3.10
+
+---
+
+## L
+
+- **Lagrangian**
+  - classical mechanics — **3.2**
+  - zone Lagrangian — **2.5**
+  - gauge — 2.6, 4.6
+  - GR (Einstein-Hilbert) — **5.1**
+- **Lakatos, Imre** — Bibliography Bib.6
+- **Lamb shift** — **4.7.Eq(4.7.57–63)**, 6.AppA (P-002)
+- **λ (wavelength / London depth / cosmological const)** — 6.AppE.§E.3 (disambiguation)
+- **λ_L (London penetration depth)** — **4.13**, 6.AppA (P-045)
+- **Λ (cosmological constant)** — **5.11**, 6.AppE (Λ), 6.AppA (P-076)
+- **Lamé parameters** — 3.5 (continuum)
+- **Landau, Lev / Lifshitz, Evgeny** — Bibliography Bib.1
+- **LAGEOS** — 5.2, 6.AppA (P-012)
+- **large-scale structure** — **5.10**, 6.6
+- **latent-heat extraction (T-NRG-04)** — **6.10**, 6.AppF.§F.2
+- **law of
+  - energy conservation** — see conservation laws
+  - entropy — see second law
+  - gravitation (Newton) — **2.2**, 2.9 (hierarchy)
+  - motion (Newton) — **3.1**
+  - periods (Kepler) — **3.3**, 6.AppA (P-036)
+- **LCDM (ΛCDM cosmology)** — **5.8**, 5.11 (as SM cosmology contrast)
+- **length (Planck, ℓ_P)** — 4.9, 6.AppE (ℓ_P)
+- **Lense-Thirring effect** — **5.2**, 6.AppA (P-012); see also frame dragging
+- **leptons** — **4.10**, 4.11
+- **lepton number** — 1.7, 4.10
+- **Levi-Civita symbol / tensor (ε)** — 6.AppE.§E.5
+- **LHC (Large Hadron Collider)** — 4.11, 4.12, **6.AppA (P-019, P-067 context)**, Bibliography Bib.3
+- **lifetime (particle)** — **6.AppA (P-062)** (DM), **6.AppA (P-067)** (proton)
+- **Life-Detection-from-Space Gravimeter (T-SNS-05, GRACE-Bio)** — **6.12**, 6.AppF.§F.4
+- **Lifshitz-van der Waals (Casimir context)** — 6.AppA (P-109 contrast)
+- **light**
+  - speed as brane property — **6.9**, 6.AppA (P-100)
+  - speed in vacuum — 2.3, 6.AppE.§E.8
+  - bending (solar deflection) — **5.2.Eq(5.2.21)**, 6.AppA (P-008)
+  - quantum (photon) — **4.1**, 2.3
+- **light years (units)** — 6.AppE.§E.6
+- **LIGO (Laser Interferometer Gravitational-wave Observatory)**
+  - GW detection — **5.3**, Bibliography Bib.3
+  - retrofit for extended polarizations (T-SNS-04) — **6.12**, **6.AppF.§F.4**, 6.AppA (P-152)
+- **LISA (Laser Interferometer Space Antenna)** — **6.AppA (P-059, P-089, P-097)**, Bibliography Bib.3
+- **logarithmic running** — 4.8, 5.13 (α derivation)
+- **Logos (John 1:1)** — **1.1**, 1.3, Glossary.md
+- **London, Fritz / Heinz** — 4.13 (historical; London equation)
+- **London penetration depth (λ_L)** — **4.13**, 6.AppA (P-045)
+- **longitudinal mode (GW, h_L)** — **5.3**, 6.AppA (P-153)
+- **Lorentz, Hendrik** — 5.1 (historical)
+- **Lorentz invariance** — **5.1**, 5.3
+- **Loop Quantum Gravity (Rovelli / LQG)** — 6.15, Bibliography Bib.4
+- **LSST (now Rubin Observatory)** — 6.AppA (P-078), Bibliography Bib.3; see also Vera Rubin Observatory
+- **Lorentz group (proper orthochronous)** — 1.7, 4.2
+- **Lorentz transformation** — 5.1
+- **LSP (lightest supersymmetric particle; cited contrast)** — 5.11 (DM candidates)
+- **luminosity
+  - distance — 5.8, 6.AppA (P-028)
+  - solar — 6.AppE.§E.6
+  - stellar (black-hole context) — 5.5
+
+---
+
+## M
+
+- **M_W (W boson mass)** — **4.11**, 6.AppE (M_W), 6.AppA (P-014)
+- **M_Z (Z boson mass)** — **4.11**, 6.AppE (M_Z), 6.AppA (P-016)
+- **magnetic bias (MRG)** — **6.10** (N52 neodymium directional rectification), 6.AppF (T-NRG-01)
+- **magnetic field (B)** — 2.3, 6.AppE (B)
+- **Majorana (neutrino question)** — 4.11 (mass-ordering context)
+- **manifold**
+  - zone manifold — **1.3**, 1.4, 1.5
+  - 6D bulk — **1.4**, 5.3
+  - brane (4D) — **1.4**, 5.1
+- **mass**
+  - electron — **4.10**, 6.AppA (P-052)
+  - muon — **4.10**, 6.AppA (P-053)
+  - quark spectrum — **4.10**, 6.AppA (P-054)
+  - neutrino — **4.11**, 6.AppA (P-055, P-066); see also neutrinos
+  - W, Z, Higgs — **4.11**, 6.AppA (P-014, P-016, P-019)
+  - Planck — 4.9, 6.AppE (m_P)
+  - origin (zone architecture) — **3.7**
+- **matter**
+  - baryonic — **5.8**, 5.11
+  - origin — **3.7** (zone architecture)
+  - dark — see dark matter
+- **Maudlin, Tim** — Bibliography Bib.6
+- **Maxwell, James Clerk**
+  - equations (complete set derivation) — **2.3**, 6.AppA (P-040); see also electromagnetism
+  - displacement current — 2.3
+  - electrodynamics (1865) — 2.3
+  - statistical mechanics — 3.10
+- **Maxwell's equations** — **2.3**, **6.AppA (P-040)**, 2.7
+- **Maxwell-Boltzmann distribution** — **3.10**
+- **Mayer, Julius** — 3.9 (historical)
+- **McGaugh, Stacy** — 5.11, 6.AppA (P-029) (baryonic Tully-Fisher)
+- **measurement (QM)** — **4.5**, 4.1, 4.4
+- **measurement problem (QM)** — **4.5**
+- **Meissner effect** — **4.13**, **6.AppA (P-045)**; see also superconductivity
+- **membrane (Firmament, 3-brane)**
+  - structure — **1.5**
+  - vibrational modes — **1.5**, 6.7, 6.AppA (P-075); see also Chladni patterns
+  - tension (σ) — **1.5**, 6.AppE (σ)
+  - density (μ) — **1.5**, 6.AppE (μ)
+  - propagation (EM) — **2.3**
+- **Membrane Resonance Generator (T-NRG-01, MRG)** — **6.10**, **6.AppF.§F.2**, 6.AppA (P-103–P-110, P-118)
+- **Membrane Vibration Interferometer (T-SNS-01, MVI)** — **6.12**, 6.AppF.§F.4
+- **Mercury perihelion precession** — **5.2.Eq(5.2.12–14)**, 6.AppA (P-007)
+- **metric tensor (g_μν)** — **1.4**, 5.1, 6.AppE (g_μν)
+- **metric signature (+ − − −)** — **1.1** (Axiom 5), 6.AppE.§E.5
+- **Michelson-Morley experiment** — 2.3.§1 (historical null), 5.1
+- **micro-condensation (Waters Below → Firmament)** — **6.10**, 6.AppA (P-114)
+- **Milky Way satellite census** — 6.AppA (P-078)
+- **mixing angle (Weinberg / θ_W)** — **4.11**, 6.AppA (P-057)
+- **modus tollens (falsification logic)** — 6.4.§1
+- **modified Newtonian dynamics (MOND)** — 5.11 (contrast)
+- **molecular geometry (bonding)** — 6.AppA (P-051), 4
+- **moment of inertia** — 3.4
+- **momentum**
+  - classical — 3.1, 3.2
+  - conservation — **1.7.Eq(1.7.29)**, 6.AppA (P-032)
+  - quantum — **4.2**, 4.3
+- **Morris-Thorne wormhole** — Bibliography Bib.7 (historical contrast)
+- **motion (Newton's laws)** — **3.1**
+- **MTW (Misner-Thorne-Wheeler)** — Bibliography Bib.1
+- **Mukhanov, Viatcheslav** — Bibliography Bib.2
+- **muon**
+  - mass (m_μ = 105.66 MeV) — **4.10**, 6.AppE (m_μ)
+  - anomalous magnetic moment (a_μ) — **4.7**, 6.AppA (P-003)
+  - muon-electron mass ratio — **4.10**, **6.AppA (P-053)**
+- **MVI (Membrane Vibration Interferometer)** — see Membrane Vibration Interferometer (T-SNS-01)
+- **MACHOs (cited contrast)** — 5.11 (DM candidates, ruled out)
+- **Maldacena, Juan (AdS/CFT)** — Bibliography Bib.4; see also holography
+- **mean field theory** — 4.13 (superconductivity; historical)
+- **meridian (Earth-centered inertial)** — 6.12 (gravimeter framework)
+- **metric expansion (of space)** — **5.8**, 5.11
+- **minor-arc expansion (GR perturbative)** — 5.1
+- **mode (membrane vibrational)** — **1.5**, **6.7**, 6.AppA (P-075)
+- **MOND (modified Newtonian dynamics; contrast)** — 5.11
+- **mother lode (technology consolidation)** — 6.16, 6.17 (roadmap)
+- **multiplet (group theory)** — 4.11, 2.6
+- **multiverse (not invoked in ZA)** — 5.13.§5 (anthropic alternatives contrasted); 6.15
+
+---
+
+## N
+
+- **NANOGrav (Pulsar Timing Array)** — 6.AppA (P-153)
+- **NASA TRL scale** — **6.AppF.§F.0**, 6.16
+- **Nambu-Goldstone boson** — 4.11 (electroweak)
+- **natural units (ℏ = c = 1)** — 4 (passim), 6.AppE.§E.6
+- **Navigator reviewer (role)** — 6.AppG (this index; spot-check protocol)
+- **NEDA / National Alliance for Eating Disorder** — (not indexed; not used in Foundations)
+- **nephesh chayah (living soul)** — Glossary.md, 1.9
+- **neutrinos**
+  - mass splittings (Δm² values) — **4.11**, 6.AppA (P-023)
+  - number of species (N_ν = 3) — **4.11**, 6.AppA (P-018)
+  - mass ordering (normal hierarchy) — **4.11**, 6.AppA (P-066)
+  - mass scale (sub-eV) — 4.11, 6.AppA (P-055)
+  - oscillations — **4.11**, 4.13 (PMNS)
+- **Newton, Isaac**
+  - laws of motion — **3.1**
+  - gravitation — **2.2**, 2.9
+  - second law (F=ma) — **3.1**, 6.AppA (P-035)
+  - Principia — Bibliography Bib.1
+- **Newtonian limit (from GR / zone architecture)** — **5.1**, 2.2
+- **NFW profile (Navarro-Frenk-White)** — **5.11**, 6.AppA (P-030, P-077)
+- **NIST CODATA** — Bibliography Bib.9
+- **Noether, Emmy** — **1.7**, Bibliography Bib.1
+- **Noether's theorem** — **1.7**, 3.2, 6.AppA (P-031–P-033)
+- **no-hair theorem** — 5.5
+- **no-signaling theorem** — **6.AppA (P-132)**, 4.4, 6.11
+- **nonlocality (Bell)** — **4.4**
+- **normal (unit) to brane** — 1.4, 6.AppE.§E.5
+- **Novel predictions (appendix A category)** — **6.AppA.§A.3**, 6.AppA.§A.13
+- **nuclear binding** — **4.12**, 3.7
+- **nucleosynthesis (BBN)** — **5.9**, 6.5 (test context)
+- **null geodesic** — **6.9** (dimensional bypass context), 5.3
+- **neutrino oscillations (PMNS)** — **4.11**, **4.13**, 6.AppA (P-066)
+- **neutron (structure, stability)** — 4.12 (QCD), 3.7 (nucleosynthesis)
+- **New Physics roadmap (Vol 6 Ch 17)** — **6.17**, 6.AppF.§F.0
+- **Newton's constant (G)** — see G (gravitational constant)
+- **Nielsen-Ninomiya theorem** — (not referenced; lattice QCD historical contrast)
+- **node (of standing wave / membrane mode)** — **1.5**, 1.10, 6.7 (eigenmode structure)
+- **Noether charge** — 1.7 (for each continuous symmetry)
+- **non-abelian gauge theory** — 2.6 (SU(N)), 4.6, 4.12
+- **nonequilibrium thermodynamics** — 3.9, 3.12 (arrow of time)
+- **novel technology (T-XXX tier)** — **6.AppF**, 6.9–6.12
+- **nuclear magnetic resonance (NMR)** — 4 (chemistry applications); not substantively derived
+- **nucleon** — 4.12 (proton, neutron structure)
+
+---
+
+## O
+
+- **observable universe** — 5.8 (as Z₂.₂ Firmament), Zone_Architecture.md
+- **observational tests
+  - GR classical** — **5.2**, 6.AppA (P-007–P-013)
+  - QED precision — **4.7**, 6.AppA (P-001, P-002)
+  - cosmology — **5.8–5.11**, 6.AppA (P-024–P-030)
+  - technology (gravimetry, sensors) — **6.12**
+- **Observational Physics Test Suite** — **6.AppB.§B.6**, Research/Mathematical_Models/OBSERVATIONAL_PHYSICS_TEST_SUITE.md
+- **Ohm's law** — 2.7
+- **omega (density parameters Ω)** — **5.8**, 6.AppE.§E.3
+- **Ω_b (baryonic density parameter)** — **5.8**, 6.AppA (P-025)
+- **Ω_DM (dark matter density parameter)** — **5.8**, 6.AppA (P-025)
+- **Ω_Λ (dark energy density parameter)** — **5.8**, 6.AppA (P-025)
+- **Ω_r (radiation density parameter)** — **5.8**, 6.AppA (P-025)
+- **Ω_total (spatial flatness)** — **5.8**, 6.AppA (P-027)
+- **Open problems
+  - roster — **6.14** (Ch 14)
+  - per-technology — **6.AppF.§F.5**
+  - per-prediction — **6.AppA.§A.15**
+- **operators (QM)** — 4.2, 4.5
+- **orbital angular momentum** — 3.3, 4.7 (hydrogen)
+- **otoacoustic emissions (cochlea)** — **6.10.§4** (MRG analogy)
+- **OFDM rectification (MRG)** — 6.10.§10 (construction appendix)
+- **omega minus (Ω⁻) particle** — 4.12 (historical quark-model success; mentioned in passing)
+- **open quantum system** — 4.5 (decoherence context)
+- **operator algebra** — 4.2, 4.5, 4.6
+- **optical clock (α-constancy)** — 6.AppA (P-065); see also ESPRESSO
+- **optical theorem** — 4.6 (QFT)
+- **orbital mechanics** — **3.3**, 5.1 (Newtonian limit)
+- **order of magnitude estimate (Ψ-field bookkeeping)** — 6.AppA.§A.14
+- **organism / life detection** — **6.12** (T-SNS-05, GRACE-Bio)
+- **Oxford English Dictionary (etymology)** — (not cited in Foundations)
+
+---
+
+## P
+
+- **pair production** — 3.7, Glossary.md; see also antimatter
+- **paradox
+  - information (black hole)** — **5.6**
+  - hierarchy (solved) — **2.9**, 6.AppA (P-005)
+- **parity** — 4.11 (weak interaction context)
+- **parsec (pc)** — 6.AppE.§E.6
+- **particle physics** — **4.10–4.13**; see also Standard Model
+- **Particle Data Group (PDG)** — Bibliography Bib.9
+- **partition function** — **3.10**, 4.6
+- **pattern**
+  - as organizational form — **1.8** (governing principle), Glossary.md
+  - pattern operators — **1.9**, Five_Principles.md
+  - seven types — **1.9**
+- **pattern operators** — **1.9** (seven types)
+- **Pauli, Wolfgang** — 4 (exclusion principle, historical)
+- **Pauli exclusion principle** — **4** (aufbau context), 4.10
+- **Pauli matrices** — 4.10, 6.AppE.§E.5
+- **Peebles, James** — 5.11 (cosmology; historical)
+- **penetration depth (London, λ_L)** — **4.13**, 6.AppA (P-045)
+- **per-Gyr drift (α)** — 6.AppA (P-065), 5.13
+- **perihelion precession (Mercury)** — **5.2**, 6.AppA (P-007)
+- **periodic table** — **4**, **6.AppA (P-050)**
+- **perturbation theory** — **4.7** (Feynman diagrams), 4.6
+- **Peskin-Schroeder** (QFT textbook) — Bibliography Bib.2
+- **phase transitions** — **3.8**, 5.9 (cosmological); see also Waters duality
+- **phi / φ (scalar field)** — 4.6, 6.AppE (φ)
+- **philosophy of science** — Bibliography Bib.6
+- **photoelectric effect** — **4.1**, 6.AppA (P-046)
+- **photon** — **2.3** (as membrane excitation), 4.1, 4.7
+- **π (pion)** — 4.10, 4.12
+- **Planck, Max** — 4.1 (historical; quantization)
+- **Planck constant (h, ℏ)** — **4.1**, 6.AppE (h, ℏ)
+- **Planck length (ℓ_P)** — 4.9, 6.AppE (ℓ_P)
+- **Planck mass (m_P)** — 4.9, 6.AppE (m_P)
+- **Planck satellite** — 5.9 (CMB), 5.11, 6.AppA (P-024, P-025, P-026, P-028, P-146), Bibliography Bib.3
+- **Planck temperature (T_P)** — 4.9, 6.AppE (T_P)
+- **Planck time (t_P)** — 4.9, 6.AppE (t_P)
+- **Planck 2018 results (I–XIII)** — Bibliography Bib.3
+- **PMNS matrix (neutrino mixing)** — **4.13**, 4.11
+- **Poincaré group** — 1.7 (symmetries), 5.1
+- **polarization (GW)**
+  - tensor (h_+, h_×) — **5.3**, 6.AppE (h_+, h_×)
+  - vector (novel, h_V1, h_V2) — **5.3**, 6.AppA (P-068), 6.12
+  - scalar (novel, h_S, h_L) — **5.3**, 6.AppA (P-069, P-153), 6.12
+  - amplitude relations — **6.12**, 6.AppA (P-151)
+- **Popper, Karl** — 6.4 (falsification), Bibliography Bib.6
+- **potential
+  - gravitational** — **2.2**, 5.2, 6.AppE (Φ)
+  - gauge (A_μ) — 2.3, 6.AppE (A_μ)
+  - extra (short-range, V_extra) — 2.9, 6.AppA (P-005 threshold)
+- **Pound-Rebka experiment** — **5.2.Eq(5.2.25–26)**, 6.AppA (P-010)
+- **power (MRG)** — **6.10** (118.7 W gross / 30–65 W net), 6.AppE (P_net), 6.AppF (T-NRG-01)
+- **power spectrum
+  - CMB** — **5.9**, 6.AppA (P-082, P-146)
+  - Waters field fluctuations — **6.AppA (P-078)**, 6.3
+- **PPN (parameterized post-Newtonian)** — 5.2, 6.AppA (P-008 γ)
+- **prediction (testable, as framework contract)**
+  - catalog — **6.AppA**
+  - P-XXX identifier scheme — **6.AppE.§E.9**, 6.AppA.§A.1
+  - falsification threshold — **6.AppA.§A.13**, 6.4
+- **P-XXX prediction identifiers (catalog)** — **6.AppA.§A.13**, 6.AppE.§E.9
+- **principles (Five Governing)** — **1.8**, Five_Principles.md
+- **Principia (Newton)** — Bibliography Bib.1
+- **Principle of Relativity** — 5.1
+- **probability (QM)** — 4.1, 4.4, 4.5
+- **problem sets (cross-volume)** — **6.AppC** (100 problems, 4 tiers); 6.AppD (selected solutions)
+- **proper time** — 5.1, 5.2, 6.9 (FTL context)
+- **proton**
+  - mass (938.272 MeV) — **4.12**, 6.AppE (m_p)
+  - stability — **6.AppA (P-067)**, 4.10
+- **psi / ψ (wavefunction, generic)** — **4.1**, 6.AppE (ψ)
+- **Ψ_A (Waters Above field)** — **1.6**, **5.11**, 6.AppE (Ψ_A)
+- **Ψ_B (Waters Below field)** — **1.6**, **5.11**, 6.AppE (Ψ_B)
+- **Ψ_consciousness (composite)** — **6.9.Eq(6.9.25)**, 6.13, 6.AppF (T-FTL-05)
+- **PTA (Pulsar Timing Array)** — **6.12**, 6.AppA (P-153); see also NANOGrav
+- **pulsar timing** — 5.2 (binary pulsar), 6.12
+- **P-001 through P-153 (complete prediction catalog)** — **6.AppA.§A.13**
+  - Gold-standard (ZA = SM) — P-001 through P-049 (49 predictions)
+  - Differentiated (ZA differs from SM) — P-050 through P-078 (29 predictions)
+  - Novel (ZA only) — P-079 through P-153 (75 predictions)
+- **Penrose, Roger (singularity theorems; contrast)** — 5.7, Bibliography Bib.1
+- **phonon** — 4.9 (Casimir context), 4.13 (SC cooper pairs)
+- **PhySH classification** — (not used in Foundations)
+- **Pioneer anomaly (historical)** — (not substantively discussed; historical mention)
+- **pion decay (π → μν)** — 4.11 (weak force phenomenology)
+- **Planck 2025 (projected next release)** — 6.AppA (passim, future data expectations)
+- **polarization state (photon)** — 4.1, 2.3
+- **polymer quantization (LQG, contrast)** — 6.15
+- **positron (antielectron)** — 4.10, 3.7, Glossary.md
+- **presentation order (index alphabetization)** — 6.AppG (this document)
+- **principle of least action** — **3.2**, 1.7
+- **probability amplitude** — **4.1**, 4.5
+- **projection operator** — 4.5 (measurement)
+- **proper length** — 5.1, 6.9 (warp bubble comoving measure)
+- **pulse generator (MRG rectification)** — 6.10.§5
+- **purification (quantum state, QC context)** — 6.11 (T-COM-01 no-signaling)
+- **Pythagorean coincidences (harmonic ratios)** — 1.5 (pedagogical membrane context)
+
+---
+
+## Q
+
+- **QCD (quantum chromodynamics)**
+  - confinement — **4.12**, 6.AppA (P-021)
+  - asymptotic freedom — **4.12**, 4.8
+  - critical density — **4.12**, 6.AppE (ρ_critical)
+  - string tension — **4.12**, 6.AppA (P-021)
+- **QED (quantum electrodynamics)**
+  - electron anomalous moment — **4.7**, 6.AppA (P-001)
+  - Lamb shift — **4.7**, 6.AppA (P-002)
+  - muon g-2 — **4.7**, 6.AppA (P-003)
+  - renormalization — **4.8**
+- **QFT (quantum field theory)** — **4.6**, 4.7, 4.8; see also Standard Model
+- **quality factor (Q)** — 6.10 (cavity), 6.AppA (P-106)
+- **quantization** — **1.10** (from boundary conditions), 4.1, 4.6
+- **quantum chromodynamics (QCD)** — see QCD
+- **quantum electrodynamics (QED)** — see QED
+- **quantum gravity** — 5.6, 5.7
+- **quantum mechanics**
+  - emergence from zone architecture — **4.1**, 4.2
+  - Schrödinger equation — **4.2**
+  - uncertainty principle — **4.3**
+  - entanglement — **4.4**
+  - measurement problem — **4.5**
+- **quarks**
+  - as membrane resonances — **4.10**
+  - mass spectrum — **4.10**, 6.AppA (P-054)
+- **quintessence (not used in ZA; historical contrast)** — 5.11.§5
+- **quadrupole radiation (GW)** — **5.3**, 5.2 (binary pulsar)
+- **qualitative vs. quantitative reviewer roles** — 6.CLAUDE.md (Reviewer Agent Dispatch)
+- **quantum computing** — (not a ZA derivation target; contrast 4.14)
+- **quantum foam (Wheeler)** — 5.7 (Planck-scale contrast)
+- **quantum Hall effect** — (not derived; cited as 2D-analogue contrast in 4.14)
+- **quantum statistics (Bose, Fermi)** — **4.13**, 4.10
+- **quantum teleportation** — 4.4 (passing mention, not technology target)
+- **qubit** — 4.14; see also quantum computing
+- **quench (thermal, SC)** — 4.13
+
+---
+
+## R
+
+- **R-ratio (e⁺e⁻ → hadrons)** — 4.12, 6.AppA (P-022)
+- **radiation (Hawking)** — **5.5**, 5.6
+- **radiation density (Ω_r)** — **5.8**, 6.AppA (P-025)
+- **Raqia (Hebrew firmament)** — 1.5, Glossary.md
+- **Raychaudhuri equation** — 5.7 (singularity resolution context)
+- **Redemption phase (κ_redeem)** — **1.11**, Four_Epochs_Timeline.md
+- **redshift (z)** — 5.2, **5.8**, 6.AppA (P-010, P-145)
+- **reduced density matrix** — 6.AppF (T-COM-01 no-signaling argument)
+- **reference frame (inertial)** — 5.1, 5.2
+- **registry (canonical)
+  - biblical references** — Biblical_References.md
+  - glossary — Glossary.md
+  - equations — Equation_Registry.md
+  - symbols — 6.AppE, Symbol_and_Constants.md
+- **renormalization** — **4.8**, 4.7
+- **reproducibility package (simulations)** — **6.AppB**, 6.8
+- **research program (ZA)** — **6.17**
+- **resonance (membrane modes)** — **1.5**, 6.7, 6.AppA (P-074, P-075)
+- **Ricci scalar (R)** — 5.1, 5.2, 6.AppE (R)
+- **Ricci tensor (R_μν)** — 5.1, 5.2, 6.AppE (R_μν)
+- **Riemann zeta function (ζ)** — 3.10, 6.AppE (ζ)
+- **roadmap (technology)** — **6.16**, 6.AppF.§F.0
+- **rotation curves (galaxies)** — **5.11.Eq(5.11.6–10)**, 6.AppA (P-030)
+- **Rovelli, Carlo (LQG)** — 6.15, Bibliography Bib.4
+- **running couplings** — **2.10**, **4.8**
+- **Russell, Henry Norris** (historical, stellar classification) — (not indexed; historical only)
+- **Rydberg constant (R_∞)** — **4.7**, 6.AppE (R_∞)
+- **recombination (cosmological)** — 5.9 (CMB origin)
+- **Reeh-Schlieder theorem** — (not used; QFT historical)
+- **regime-transition (κ across epochs)** — **1.11**, Four_Epochs_Timeline.md
+- **Reissner-Nordström solution** — 5.5 (charged BH)
+- **relational ontology (Rovelli; contrast)** — 6.15
+- **relative locality (contrast)** — 6.15
+- **relativity
+  - special — 5.1
+  - general — 5.1, 5.2
+  - see Einstein, Albert
+- **Relativity+QM unification (ZA approach)** — 5.1 (GR recovery), 4.2 (QM emergence)
+- **resolution (imaging)** — 6.12 (T-SNS-03 aperture)
+- **rest mass (m₀)** — 4.2, 4.10, 6.AppE.§E.8
+- **reviewer agents (Vol 6 lifecycle)** — 6.CLAUDE.md, 6.AppA.§A.1
+  - Skeptic (falsification) — 6.AppA.§A.1
+  - Donoho (code reproducibility) — 6.AppB
+  - Navigator (index spot-checks) — 6.AppG
+  - others — 6.CLAUDE.md Reviewer Agent Dispatch
+- **RG flow (Wilsonian)** — 4.8
+- **Richter scale (analogy for Kardashev)** — 6.AppF.§F.0
+- **Riemannian geometry** — 5.1, 5.2
+- **rigid body dynamics** — **3.4**
+- **rigorous vs. heuristic** — 6.AppB (methodology hierarchy)
+- **rotation matrix** — 6.AppE.§E.5
+- **ρ (density)** — 6.AppE (ρ disambiguation: matter, dark energy, critical)
+
+---
+
+## S
+
+- **Sabbath (Day 7)** — **1.11**, Biblical_References.md; see also κ_full equilibrium
+- **SAS (sub-Saharan Africa / not indexed)** — (not used)
+- **scalar field (φ)** — 4.6, 4.11, 6.AppE (φ)
+- **scalar GW mode (h_S, h_L)** — **5.3**, 6.AppA (P-069, P-153)
+- **scattering (Compton)** — **4** (QED context), 6.AppA (P-047)
+- **Schrödinger equation** — **4.2**, 4.1
+- **Schwarzschild solution** — **5.5**, 5.2
+- **second law of thermodynamics** — **3.12**, **3.9**, 6.AppA (P-037)
+- **second quantization** — **4.6**
+- **sensors (technology category, T-SNS)** — **6.12**, **6.AppF.§F.4**
+- **Seiberg-Witten (not used in ZA; historical)** — (not indexed)
+- **Shapiro time delay** — **5.2.Eq(5.2.32)**, 6.AppA (P-009)
+- **SH0ES (Hubble-tension measurement)** — 5.8, 6.AppA (P-026)
+- **signature, metric** — **1.1** (Axiom 5), 6.AppE.§E.5
+- **simulations (Vol 6 computational validation)** — **6.AppB**, 6.5–6.8
+  - `membrane_vibrations.py` — **6.7**, 6.AppB.§B.4
+  - `structure_formation.py` — **6.6**, 6.AppB.§B.4
+  - `waters_field_sim.py` — 6.6, 6.AppB.§B.4
+  - `energy_harvesting_simulation.html` — **6.10**, 6.AppB.§B.4
+- **singularity resolution** — **5.7**
+- **sin² θ_W (Weinberg angle)** — **4.11**, 6.AppA (P-057)
+- **Skeptic reviewer (role)** — 6.AppA.§A.1, 6.CLAUDE.md
+- **sky survey (DESI, Euclid, LSST)** — 6.AppA (P-024, P-063, P-078); see individual entries
+- **SNEWS (Supernova Early Warning System)** — 6.12 (passim)
+- **solar mass (M_☉)** — 6.AppE.§E.6
+- **solar neutrino problem (historical)** — 4.11.§2
+- **Sorkin, Rafael (causal sets)** — 6.15, Bibliography Bib.4
+- **SPARC survey** — 5.11, 6.AppA (P-030)
+- **special relativity** — **5.1** (recovered in GR context); 5 (book intro)
+- **spectrum**
+  - electromagnetic — **6.AppA (P-043)**, 2.3
+  - particle mass — **4.10**, 6.AppA (P-054)
+  - CMB — **5.9**
+- **speed of light (c)** — see c
+- **spin (particle)** — 4.10, 4.11
+- **spin-statistics theorem** — 4.6
+- **spirit entanglement (Z₁)** — **6.13**, 6.AppF (T-FTL-05)
+- **SPS (Super Proton Synchrotron)** — 4.11 (historical)
+- **square root** (LaTeX reserved; not indexed as a concept)
+- **Srednicki, Mark** — Bibliography Bib.2
+- **Standard Model (SM)**
+  - overview — 4.10, 4.11, 4.12
+  - as zone-architecture Lagrangian consequence — **2.5**, **4.11**
+  - Beyond SM — **4.14**
+- **standing wave (as stable configuration)** — **3.6**, 1.5, 1.10
+- **statistical mechanics** — **3.10**, 3.11
+- **Stefan-Boltzmann constant (σ_SB)** — 3.10, 6.AppE (σ_SB), 6.AppA (P-039)
+- **Stefan-Boltzmann law** — **3.10**, 6.AppA (P-039)
+- **stellar nucleosynthesis** — 5.9 (BBN), 6.10.§7 (latent-heat context)
+- **steward / stewardship** — Glossary.md, 1.9
+- **strain (GW, h)** — **5.3**, 6.AppE (h_+, h_×, h_S, h_L, h_V1, h_V2)
+- **stress-energy tensor (T_μν)** — 5.1, 6.AppE (T_μν)
+- **string theory (Polchinski)** — Bibliography Bib.4 (contrast); 6.15
+- **strong coupling constant (α_s)** — **4.12**, 6.AppA (P-006)
+- **strong force** — **2.4**, **4.12**
+- **structure formation** — **5.10**, 6.6 (simulation)
+- **stria vascularis (cochlea)** — 6.10.§4 (as κ(t) analogue)
+- **subgroup (gauge)** — 2.6, 4.6
+- **Sudbury Neutrino Observatory (SNO)** — 4.11 (historical)
+- **Super-Kamiokande** — **6.AppA (P-067)**, 4.10, Bibliography Bib.3
+- **superconductivity**
+  - BCS theory — **4.13**, 6.AppA (P-044)
+  - Meissner effect — **4.13**, 6.AppA (P-045)
+  - critical temperature — 4.13, 6.AppA (P-044)
+- **supernova (Type Ia)** — 5.11 (DE context), 6.AppA (P-092)
+- **SUSY (supersymmetry, not used in ZA)** — (cited contrastively in 4.14)
+- **sustaining coupling (κ)** — **1.8**, **1.11**, 6.AppE (κ); see also Four Epochs
+- **symbol arbitration** — **6.AppE**; see notation reference
+- **symmetries (Noetherian)** — **1.7**, 3.2
+- **symmetry breaking (electroweak)** — **4.11**, 4.6
+- **S-matrix** — 4.6 (QFT scattering)
+- **Salam, Abdus** — 4.11 (electroweak unification, historical)
+- **scale factor (a)** — **5.8**, 6.AppE (a)
+- **scanning tunneling microscopy (STM; SC evidence)** — 4.13 (historical)
+- **scattering amplitude** — 4.6, 4.7
+- **Schrödinger cat** — 4.5 (measurement problem, passing mention)
+- **Schwarzschild radius (r_s)** — **5.5.Eq(5.5.12)**, 6.AppE (r_s)
+- **second-order phase transition** — 3.8, 5.9
+- **self-consistency (derivation chain)** — 6.AppB (audit procedure)
+- **semiconductor (analogy for rectification)** — 6.10.§5 (MRG context)
+- **sensor roadmap (Vol 6 Ch 12)** — **6.12**, 6.AppF.§F.4
+- **separation of variables** — 1.10, 4.2
+- **Seven Days (creation)** — **1.11**, Zone_Architecture.md Table 5
+- **seven pattern types** — **1.9**, Five_Principles.md; see also pattern operators
+- **σ (membrane tension)** — **1.5**, 6.AppE (σ disambiguation)
+- **σ_DM-SM (dark matter cross-section bound)** — **5.11.§4**, 6.AppA (P-061)
+- **σ_redeem (redemption operator)** — 1.11 (eschatological context), Zone_Architecture.md Table 6
+- **simulation** — **6.AppB**, 6.5–6.8; see also reproducibility package
+- **Smolin, Lee (cosmological natural selection)** — Bibliography Bib.4 (contrast)
+- **sodium iodide detectors** — 6.AppA (P-061)
+- **soliton (not central to ZA)** — 3.6 (passing reference)
+- **Sommerfeld, Arnold** — 4.1 (historical; fine-structure correction)
+- **source** (of equation / claim; reviewer term) — 6.AppA.§A.1, Biblical_References.md
+- **spaghettification (tidal)** — 5.5 (passing)
+- **spacelike interval (causality)** — 5.1, 6.9 (bypass context)
+- **spacetime** — **5.1**, Zone_Architecture.md Table 1
+- **spin-orbit coupling** — 4.7 (fine-structure)
+- **spontaneous symmetry breaking** — **4.11**, 4.6
+- **Stokes' theorem** — 2.3, 2.6
+- **Strauss, W. A. (PDE)** — (not referenced; foundational PDE textbook contrast)
+- **streaming (MRG output)** — 6.10.§9 (thermal dissipation context)
+
+---
+
+## T
+
+- **tau (particle, τ)**
+  - mass (1776.86 MeV) — **4.10**, 6.AppE (m_τ)
+- **T-XXX technology identifiers (catalog)** — **6.AppF.§F.5**, 6.AppE.§E.9
+- **T-FTL-01 (Temporal Shortcut)** — **6.AppF.§F.1**, 6.9.§3, 6.AppA (P-089, P-090)
+- **T-FTL-02 (Dimensional Bypass)** — **6.AppF.§F.1**, 6.9.§4, 6.AppA (P-091, P-092, P-093)
+- **T-FTL-03 (Zone Tunneling)** — **6.AppF.§F.1**, 6.9.§5, 6.AppA (P-094)
+- **T-FTL-04 (Warp Bubble / Field Distortion)** — **6.AppF.§F.1**, 6.9.§6, 6.AppA (P-095, P-096, P-097)
+- **T-FTL-05 (Consciousness Interface)** — **6.AppF.§F.1**, 6.9.§7, 6.AppA (P-098, P-099)
+- **T-NRG-01 (Membrane Resonance Generator)** — **6.AppF.§F.2**, 6.10.§5–§9, 6.AppA (P-103–P-110)
+- **T-NRG-02 (Waters Above Expansion Sail)** — **6.AppF.§F.2**, 6.10.§6, 6.AppA (P-111, P-113)
+- **T-NRG-03 (Dynamic Casimir Array)** — **6.AppF.§F.2**, 6.10.§5, 6.AppA (P-104, P-109, P-115)
+- **T-NRG-04 (Zone-Boundary Latent-Heat)** — **6.AppF.§F.2**, 6.10.§6, 6.AppA (P-114, P-116, P-117)
+- **T-COM-01 (Entanglement-Based Signaling, null)** — **6.AppF.§F.3**, 6.11, 6.AppA (P-132)
+- **T-COM-02 (Zone-Tunneling Channel)** — **6.AppF.§F.3**, 6.11
+- **T-COM-03 (Waters-Field Modulation Channel)** — **6.AppF.§F.3**, 6.11
+- **T-COM-04 (Consciousness-Interface Channel)** — **6.AppF.§F.3**, 6.11 (shared with T-FTL-05)
+- **T-SNS-01 (Membrane Vibration Interferometer)** — **6.AppF.§F.4**, 6.12
+- **T-SNS-02 (Atom-Interferometer Waters-Field Sensor)** — **6.AppF.§F.4**, 6.12, 6.AppA (P-138)
+- **T-SNS-03 (Dark-Matter Imaging Aperture)** — **6.AppF.§F.4**, 6.12
+- **T-SNS-04 (LIGO Retrofit for Extended Polarizations)** — **6.AppF.§F.4**, 6.12, 6.AppA (P-152)
+- **T-SNS-05 (Life-Detection-from-Space Gravimeter, GRACE-Bio)** — **6.AppF.§F.4**, 6.12
+- **T-SNS-06 (Zone-Boundary Anomaly Cosmology Cross-Correlator)** — **6.AppF.§F.4**, 6.12, 6.AppA (P-146)
+- **temperature (T)**
+  - critical T_c (SC / BEC) — 4.13, 6.AppA (P-044, P-048)
+  - Hawking (T_H) — 5.5, 6.AppE (T_H)
+  - effective (channel noise) — 6.AppE (T_eff)
+- **tension, membrane (σ)** — **1.5**, 6.AppE (σ); see also brane
+- **Temporal Shortcut (T-FTL-01)** — **6.9.§3**, 6.AppF.§F.1
+- **tensor analysis / conventions** — 6.AppE.§E.5
+- **tensor (GW h_+, h_×)** — **5.3**, 6.AppE (h_+, h_×)
+- **Test suite (Vol 6 validation)** — **6.AppB.§B.6** (97/136 PASS); Research/Mathematical_Models/OBSERVATIONAL_PHYSICS_TEST_SUITE.md
+- **theorems
+  - Bell** — **4.4**
+  - CPT — 4.6, 4.13
+  - Goldstone — **4.11**
+  - Holevo — 4.14
+  - no-hair — 5.5
+  - Noether — **1.7**, 3.2
+  - no-signaling — **6.AppA (P-132)**, 4.4
+  - spin-statistics — 4.6
+  - Tsirelson bound — **4.4**, 6.AppE (S_CHSH)
+- **thermodynamics**
+  - laws (complete derivation) — **3.9**
+  - second law — **3.12**, 6.AppA (P-037)
+  - from zone separation — **1.11**
+  - Planck spectrum — **3.10**, 6.AppA (P-038)
+  - Stefan-Boltzmann — **3.10**, 6.AppA (P-039)
+  - kinetic theory — **3.11**
+- **thermal anisotropy (P-146)** — **6.12**, 6.AppA (P-146)
+- **three-generation structure** — **4.10**, 4.13
+- **tohu vavohu (Gen 1:2)** — 1.11, Glossary.md (high-entropy initial state)
+- **topology (zone manifold)** — **1.3**, 6.AppA (P-081, P-082)
+- **total-derivative term (Lagrangian)** — 4.6
+- **TRL (Technology Readiness Level)** — **6.AppF.§F.0**, 6.16
+- **Tsirelson bound** — **4.4**, 6.AppE (S_CHSH)
+- **tunneling, quantum** — **4.3** (uncertainty context), **6.9** (zone tunneling), 6.AppA (P-094)
+- **two-body problem (Kepler)** — **3.3**, 6.AppA (P-036)
+- **T-XXX technology catalog (full)**
+  - FTL (Travel) — T-FTL-01 through T-FTL-05 (5 technologies)
+  - NRG (Energy) — T-NRG-01 through T-NRG-04 (4 technologies)
+  - COM (Communication) — T-COM-01 through T-COM-04 (4 technologies, includes one null)
+  - SNS (Sensors) — T-SNS-01 through T-SNS-06 (6 technologies)
+  - 19 total technology entries — **6.AppF.§F.5**
+- **Tachyon (contrast)** — 6.9 (not required; ZA avoids tachyonic modes)
+- **Taylor, Joseph (binary pulsar)** — 5.3, 6.AppA (P-013)
+- **Technology Roadmap (Vol 6 Ch 16)** — **6.16**, 6.AppF.§F.0; see also NASA TRL scale
+- **telescope (cosmology)** — see JWST, Planck, DESI, Euclid, LSST
+- **tensor (rank-2, GW metric perturbation)** — **5.3**, 6.AppE.§E.5
+- **tetrad / vielbein formalism** — 5.1, 6.AppE.§E.5
+- **theology of creation (Christological anchor)** — see Christ; see also Logos; biblical references
+- **thermal equilibrium** — 1.11 (κ_full, Sabbath), 3.10
+- **thermodynamic limit** — 3.10, 4.13
+- **three-body problem** — 3.3 (passim)
+- **throat (traversable wormhole; contrast)** — Bibliography Bib.7
+- **tight-binding approximation** — 4.13 (SC context)
+- **time**
+  - proper — 5.1, 5.2
+  - flow of (atemporal vs. temporal) — Zone_Architecture.md Table 7
+  - arrow — **3.12**
+  - dilation — **5.2**, 6.AppA (P-013)
+- **TMDs (transverse momentum distributions)** — 4.12 (QCD)
+- **topological insulator (not derived; contrast)** — 4.14
+- **torsion** — 5.1 (GR contrast, Einstein-Cartan)
+- **total cross section (QCD)** — 4.12, 6.AppA (P-022)
+- **transcendence (Z₁, atemporal)** — **1.1**, Zone_Architecture.md
+
+---
+
+## U
+
+- **U(1) gauge (brane topology)** — **2.6**, 1.7 (charge conservation)
+- **UAM (Universal Anomaly Magnitude)** — (not indexed; not used)
+- **uncertainty principle** — **4.3**, 4.2
+- **unification (force landscape)** — **2.11**, 2.9
+- **units (SI / natural / geometric)** — 6.AppE.§E.6
+- **Universal expansion (H)** — **5.8**
+- **universe
+  - age** — **5.8**, 6.AppA (P-028)
+  - cosmological parameters — **5.8**, **5.11**
+  - observable — 5.8 (Firmament Z₂.₂)
+- **universality (coupling constants)** — **2.10**, 4.8
+- **universe size (ξ_A)** — 1.6, 6.AppE (ξ_A)
+- **Unruh effect** — 5.6 (as contrast for Hawking radiation derivation)
+- **UV / IR divergence (renormalization)** — **4.8**, 6.AppA (P-076)
+- **unitarity** — 4.4, 4.5, 6.11 (no-signaling)
+- **upper bound (experimental)** — 6.AppA (passim; e.g., P-055 neutrino mass bound, P-067 proton lifetime)
+
+---
+
+## V
+
+- **vacuum**
+  - energy — **4.9**, 6.AppA (P-076)
+  - state — 4.6, 4.9
+  - QED — 4.9
+- **vacuum permeability (μ_0)** — 2.3, 6.AppE.§E.8
+- **vacuum permittivity (ε_0)** — 2.3, 6.AppE.§E.8
+- **variational principle** — 3.2, 4.6
+- **Vera Rubin Observatory (LSST)** — 6.AppA (P-078, P-092), Bibliography Bib.3
+- **vector GW polarization (h_V1, h_V2)** — **5.3**, 6.AppA (P-068), 6.12
+- **VEV (vacuum expectation value, v = 246 GeV)** — **4.11**, 6.AppE (v)
+- **vibration (membrane)** — **1.5**, 6.7 (simulation), 6.AppA (P-074, P-075)
+- **virtual particle** — 4.7 (Feynman diagram context)
+- **vitamin D (not indexed)** — N/A
+- **Valle, José (neutrino physics)** — (not referenced; contrast)
+- **Van der Waals force** — 6.AppA (P-109 contrast)
+- **vector field (A_μ)** — 2.3, 6.AppE (A_μ)
+- **Vera Rubin Observatory** — see LSST
+- **Veltman, Martinus** — 4.11 (electroweak renormalization, historical)
+- **VEV, see vacuum expectation value**
+- **Vol 6 lifecycle (writing process)** — 6.CLAUDE.md, 6.AppA.§A.1; see also reviewer agents
+- **volume (Foundations)**
+  - Vol 1 — see Foundations Vol 1 (Architecture of Reality)
+  - Vol 2 — see Foundations Vol 2 (Forces and Fields)
+  - Vol 3 — see Foundations Vol 3 (Matter and Motion)
+  - Vol 4 — see Foundations Vol 4 (The Quantum World)
+  - Vol 5 — see Foundations Vol 5 (The Cosmos)
+  - Vol 6 — see Foundations Vol 6 (Predictions and Simulations)
+
+---
+
+## W
+
+- **W boson** — **4.11**, 6.AppA (P-014, P-015)
+- **w (equation of state)** — **5.11**, 6.AppE (w), 6.AppA (P-024, P-063, P-064)
+- **Wald, Robert** — Bibliography Bib.2 (General Relativity textbook)
+- **warp bubble (Alcubierre-like)** — **6.9.§6** (T-FTL-04), **6.AppF.§F.1**, 6.AppA (P-095)
+- **Waters Above (Ψ_A, Z₂.₂.₃)**
+  - as dark energy — **1.6**, **5.11**
+  - field equations — **1.6**
+  - extent (ξ_A) — **1.6**, 5.13
+  - see also biblical references (Gen 1:6–8)
+- **Waters Below (Ψ_B, Z₂.₂.₁)**
+  - as dark matter — **1.6**, **5.11**
+  - field equations — **1.6**
+  - extent (η_B) — **1.6**, 5.13
+- **Waters duality principle** — **1.8**, 1.6
+- **Waters Field Equations** — **1.6**
+- **Waters-Firmament Coupling Oscillations** — **6.AppA (P-079)**, 6.3, SUSTAINING_COUPLING.md
+- **Waters Field fluctuations** — **6.AppA (P-077, P-078)**, 6.3
+- **wavelength (λ)** — 2.3, 4.1, 6.AppE (λ)
+- **wave-particle duality** — 4.1, Glossary.md
+- **weak interaction / force** — **2.4**, **4.11**
+- **weak mixing angle (θ_W)** — **4.11**, 6.AppA (P-057)
+- **Weinberg, Steven** — Bibliography Bib.2 (QFT I/II/III)
+- **Weinberg angle (sin² θ_W)** — **4.11**, 6.AppA (P-057)
+- **WKB approximation** — **4.3**, **6.9.§5** (zone-tunneling), 6.AppA (P-094)
+- **White dwarf** — 5.5 (stellar end state context)
+- **wick rotation** — 4.8 (renormalization context)
+- **Wilson et al. 2011 (dynamic Casimir)** — **6.10**, **6.AppF.§F.2** (T-NRG-03), Bibliography Bib.3
+- **WIMPs (contrast)** — 6.AppA (P-061)
+- **"Why" chain (Genesis Physics)** — 1.3, Development_Process (methodology)
+- **wormhole (Morris-Thorne)** — Bibliography Bib.7 (historical contrast)
+- **Wayne, John (not referenced)** — N/A
+- **Wheeler, John Archibald** — MTW (Bibliography Bib.1); 5.5 (black hole terminology)
+- **whole-sky survey (CMB-S4)** — 6.AppA (P-082), 5.9
+- **wick rotation (Euclidean QFT)** — 4.8 (renormalization context)
+- **Witten, Edward (string theory; contrast)** — 6.15, Bibliography Bib.4
+- **work function (photoelectric)** — 4.1, 6.AppA (P-046)
+- **WMAP (Wilkinson Microwave Anisotropy Probe)** — 5.9, Bibliography Bib.3 (historical predecessor to Planck)
+- **Waters Field fluctuation spectrum** — **6.AppA (P-078)**, 6.3
+- **Wightman functions** — 4.6 (QFT rigorous formulation; contrast)
+
+---
+
+## X
+
+- **XENONnT** — **6.AppA (P-061)**, Bibliography Bib.3
+- **ξ (xi, compact dim coord)** — **1.4**, 6.AppE (ξ)
+- **ξ_A (Waters Above extent)** — **1.6**, 5.13, 6.AppE (ξ_A)
+- **X-rays** — 6.AppA (P-047) (Compton context); 5.5 (black hole / accretion)
+
+---
+
+## Y
+
+- **Yang-Mills theory** — 2.6, 4.6
+- **Yukawa coupling** — **4.11**, 6.AppE (y_t, y_b, y_τ, y_e)
+- **Yukawa potential** — 6.AppA (P-070) (KK graviton Yukawa falloff)
+
+---
+
+## Z
+
+- **Z (zone label, integer)** — **1.1**, 6.AppE (Z)
+- **Z₀ (Godhead)** — **1.1**, Zone_Architecture.md Table 1
+- **Z₁ (Heaven Prime)** — **1.1**, Zone_Architecture.md
+- **Z₂ (Earth Prime)** — **1.1**, Zone_Architecture.md
+- **Z₂.₁ (Atemporal Domain)** — **1.1**, Zone_Architecture.md
+- **Z₂.₂ (Firmament Domain)** — **1.5**, Zone_Architecture.md
+- **Z₂.₂.₁ (Waters Below)** — **1.6**, Zone_Architecture.md; see Waters Below
+- **Z₂.₂.₂ (Condensed Matter)** — **1.6**, Zone_Architecture.md
+- **Z₂.₂.₃ (Waters Above)** — **1.6**, Zone_Architecture.md; see Waters Above
+- **Z boson** — **4.11**, 6.AppA (P-016, P-017)
+- **zero-point energy** — **4.9** (membrane modes), 6.AppA (P-076)
+- **zone architecture**
+  - overall — **1**, Zone_Architecture.md
+  - boundaries — 1.6, Zone_Architecture.md Table 4
+  - labels (nested notation) — 6.AppE.§E.7
+- **Zone Boundary Anomaly Cosmology Cross-Correlator (T-SNS-06)** — **6.12**, 6.AppF.§F.4, 6.AppA (P-146)
+- **zone-boundary latent heat (T-NRG-04)** — **6.10**, 6.AppF.§F.2, 6.AppA (P-116)
+- **zone-boundary oscillation (controlled)** — **6.10.§7.3**, 6.AppA (P-117)
+- **zone interface (Glossary)** — Glossary.md, 1.9
+- **Zone Lagrangian** — **2.5**, 4.6
+- **zone manifold** — **1.3**, 1.4
+- **zone number conservation (Z, novel)** — **6.AppA (P-081)**, 1.7
+- **zone topology** — **1.3**, 6.AppA (P-081)
+- **zone transitions**
+  - cosmological (CMB imprints) — **6.AppA (P-082)**, 6.3
+  - Firmament ↔ Waters Below — 6.10 (latent heat)
+- **Zone Tunneling (T-FTL-03, T-COM-02)** — **6.9.§5**, 6.11, 6.AppF.§F.1, 6.AppA (P-094)
+- **Zürich Formulation (historical)** — (not used; Einstein 1915 contrast placeholder)
+- **zone hierarchy (Axiom 1)** — **1.1**, Zone_Architecture.md Table 1; see also Axiom 1
+- **zone Lagrangian (L_ZA)** — **2.5**, 4.6, 6.AppE (L_ZA)
+- **Zone of Silence (not used in ZA)** — N/A (acoustics reserved terminology contrast)
+- **zones (summary)** — Zone_Architecture.md (all tables); see also individual Z₀, Z₁, Z₂, Z₂.₁–Z₂.₂.₃ entries
+
+---
+
+## Appendix G.1: Entry-Count Ledger
+
+The Master Index contains entries spanning the following categories (counts as of last Navigator audit; see STATUS.md for the current-audit ledger):
+
+- Named concepts (general physics and zone-architecture): ~420 headings
+- People (historical scientists, reviewers, biblical references): ~65 person entries
+- Particles and fields: ~55 (leptons, quarks, bosons, neutrinos, Waters Above / Below, etc.)
+- Equations (named, with locator): ~30 (Noether conservation identities, Maxwell, Schwarzschild, FRW, Waters Field, Einstein field equations, etc.)
+- Experiments: ~50 (LHC, LIGO, Planck, DESI, XENONnT, Super-Kamiokande, Vera Rubin, etc.)
+- Fields and forces: 4 force entries (strong, weak, EM, gravity) + composite landscape
+- Technologies (T-XXX): 19 distinct IDs, all resolved to Appendix F
+- Theorems: 9 entries (Bell, Noether, Goldstone, CPT, Holevo, Tsirelson, no-signaling, no-hair, spin-statistics)
+- Constants: ~30 entries (α, ℏ, c, G, Λ, H₀, k_B, Planck scales, VEV, masses)
+- Scripture references: 15 verses with locators (Genesis 1:1 through Revelation 21; Hebrews, Colossians, John 1:1, Romans, Psalms, 1 Corinthians, 2 Peter)
+- P-XXX prediction identifiers: all 153 predictions cross-referenced through Appendix A; not individually enumerated here (use Appendix A § A.13 as the authoritative catalog)
+- Cross-references ("see" and "see also"): ~180 redirects ensuring that a reader who looks up either the colloquial or formal name finds the entry
+- Disambiguations (same symbol, multiple meanings — σ, λ, ρ, τ, Z, Λ): routed to 6.AppE.§E.3
+
+The Master Index does not replicate the full P-XXX catalog (which lives in Appendix A) or the full T-XXX catalog (Appendix F) or the full symbol arbitration (Appendix E). It serves as the navigation substrate that lets a reader find every substantive cross-volume mention of any concept and then follow the chain into whichever appendix holds the canonical technical treatment.
+
+## Appendix G.2: Reader-Orientation Guide
+
+For a reader entering the *Foundations* series for the first time, the Master Index functions as a compass rather than a destination. A suggested entry pattern:
+
+- Readers curious about the zone architecture itself should start with the entries for **zone architecture**, **Firmament**, **Waters Above**, **Waters Below**, **Godhead**, and **Heaven Prime**, then follow the cross-references into Appendix E (notation) and the `Zone_Architecture.md` reference.
+- Readers drawn by the physics-from-Genesis claim should begin with the entries for **biblical references**, **axioms (Genesis Physics)**, **Five Governing Principles**, and **Four-Epochs timeline**.
+- Readers who want to see what the framework predicts — and can be falsified by — should enter through **P-XXX prediction identifiers**, **falsification**, and **prediction (testable, as framework contract)**, which all lead to Appendix A.
+- Readers interested in the technology claims should start with **T-XXX technology identifiers**, **NASA TRL scale**, and the individual **T-FTL-**, **T-NRG-**, **T-COM-**, **T-SNS-** entries, which all resolve to Appendix F.
+- Readers who want to verify that the math adds up should follow **simulations**, **reproducibility package**, **Test suite**, **derivation-chain audit**, and **equation registry** — these entries open into Appendices B and C (problem sets / solutions).
+- Readers with standard-physics training looking for the recoveries (Maxwell, Einstein, Standard Model, etc.) should enter through **Maxwell's equations**, **Einstein field equations**, **Standard Model**, **Schrödinger equation**, **Dirac equation**, **conservation laws**, and **Noether's theorem**.
+
+Each of these entry patterns leads, in two or three steps, into the canonical chapter or appendix where the concept is most fully developed. A reader who does not yet know which name to look up can scan the alphabetical index; a reader who does know can jump directly.
+
+## Appendix G.3: Maintenance Protocol
+
+Audit triggers: any chapter revision in any volume; quarterly consistency check; creation of any new named concept, prediction, or technology identifier; any reviewer-agent finding that names a concept absent from the index; any reader-reported discovery of a substantive mention the index missed. The Navigator reviewer runs five concept spot-checks on every audit — see STATUS.md for the current spot-check ledger. Discrepancies between a chapter's content and its Master-Index locators are resolved in favor of whichever was most recently audited against the canonical source.
+
+When a new chapter is added to any volume, the chapter author is responsible for submitting to the Navigator a list of new or extended concepts with their chapter locators. The Navigator merges those concepts into the index, adds primary-locator bolding where warranted, and creates any necessary cross-references to existing entries.
+
+When a concept's name changes mid-project (e.g., renaming a field or technology), both the old and new name remain in the index for the life of the series, with the old name pointing to the new via "see" cross-reference. The Master Index never silently removes an entry.
+
+*End of Master Index. This index is the navigation substrate of the Foundations Series. Last Navigator audit: 2026-04-20.*
+
+*Last Navigator audit: 2026-04-20.*

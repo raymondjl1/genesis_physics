@@ -37,7 +37,7 @@ You are running **seven audit domains**, each with specific checks. For every ch
 The process documents define a set of artifacts that must exist for each book/volume. Verify:
 
 **1.1 — Per-Book Required Files**
-For EACH of these folders: `Book_2_The_Hidden_Architecture/`, `Book_1_The_Firmament_Equations/`, `Book_0_The_Foundations/`, `Book_3_The_Creators_Blueprint/`:
+For EACH of these folders: `Book_2_The_Hidden_Architecture/`, `Book_1_Hidden_Architecture/` *(renamed April 2026 from `Book_1_The_Firmament_Equations/`)*, `Book_0_The_Foundations/`, `Book_3_The_Creators_Blueprint/`:
 - [ ] `README.md` exists and is up-to-date (references current series structure, not old 3-book structure)
 - [ ] `STATUS.md` exists and reflects current state
 - [ ] `CLAUDE.md` exists with book-specific instructions

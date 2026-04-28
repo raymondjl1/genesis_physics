@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Genesis Physica · Seal Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    html, body { margin: 0; padding: 0; background: #1a1410; color: #c8b88a;
+                 font-family: Georgia, serif; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 48px 32px; }
+    h1 { font-family: 'Cinzel', Georgia, serif; font-weight: 600;
+         letter-spacing: 0.18em; font-size: 22px; margin: 0 0 8px; color: #f5e8c8; }
+    p.lede { margin: 0 0 40px; opacity: 0.8; font-style: italic; }
+    section { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px;
+              align-items: end; margin-bottom: 56px; }
+    .cell { text-align: center; }
+    .cell svg { display: block; margin: 0 auto; }
+    .cell .lab { margin-top: 12px; font-family: 'Cinzel', Georgia, serif;
+                 font-size: 11px; letter-spacing: 0.2em; opacity: 0.7; }
+    .field { background: linear-gradient(180deg, #a87838, #6a4010);
+             padding: 56px; border-radius: 4px; }
+    .field svg { display: block; margin: 0 auto; }
+    .scales { display: flex; gap: 32px; align-items: end; justify-content: center;
+              padding: 32px; background: #efe6cf; border-radius: 4px; color: #2a1a08;}
+    .scales > div { text-align: center; }
+    .scales img { display: block; image-rendering: -webkit-optimize-contrast; }
+    .scales .lab { margin-top: 10px; font-size: 11px; letter-spacing: 0.2em; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <h1>GENESIS · PHYSICA · MASTER SEAL · v1</h1>
+    <p class="lede">Monochrome pressed-wax mark. Two colors only: oxblood wax, cream impression.</p>
+
+    <h1 style="margin-top:24px;">On the master canvas (1024 × 1024)</h1>
+    <div style="display:flex; justify-content:center; padding: 24px 0;">
+      <object type="image/svg+xml" data="seal_master.svg" width="540" height="540"></object>
+    </div>
+
+    <h1>On the franchise field (vellum / burnt-umber)</h1>
+    <div class="field">
+      <object type="image/svg+xml" data="seal_master.svg" width="320" height="320"></object>
+    </div>
+
+    <h1 style="margin-top:56px;">Cross-scale legibility (PNG previews from sandbox)</h1>
+    <p class="lede" style="margin-bottom:16px;">Note: PNGs below were rendered without typography — see the SVG above for the rim text.</p>
+    <div class="scales">
+      <div><img src="seal_280.png" width="280" height="280"/><div class="lab">280 · MASTER</div></div>
+      <div><img src="seal_120.png" width="120" height="120"/><div class="lab">120 · STAMP</div></div>
+      <div><img src="seal_68.png"  width="68"  height="68" /><div class="lab">68 · KINDLE</div></div>
+      <div><img src="seal_32.png"  width="32"  height="32" /><div class="lab">32 · FAVICON</div></div>
+    </div>
+
+  </div>
+</body>
+</html>

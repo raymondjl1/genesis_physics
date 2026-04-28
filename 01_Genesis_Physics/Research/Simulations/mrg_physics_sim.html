@@ -1,0 +1,1372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MRG Physics Simulator — Membrane Resonance Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:#0a0e17;font-family:'Segoe UI',system-ui,sans-serif;font-size:13px;color:#e2e8f0}
+
+.app-shell{display:flex;flex-direction:column;height:100vh}
+.header{flex-shrink:0;display:flex;align-items:center;gap:12px;padding:8px 14px;background:#0d1421;border-bottom:1px solid #1e2d40}
+.header-brand{flex:1;min-width:0}
+.header-brand h1{font-size:16px;font-weight:700;color:#e2e8f0;white-space:nowrap}
+.header-brand p{font-size:11px;color:#64748b;white-space:nowrap}
+.header-preset{display:flex;flex-direction:column;gap:2px}
+.hdr-label{font-size:10px;color:#64748b;font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.header-preset select{background:#0a0e17;border:1px solid #1e2d40;border-radius:4px;color:#e2e8f0;font-size:12px;padding:4px 8px;cursor:pointer}
+.header-actions{display:flex;align-items:center;gap:8px}
+.status-dot{width:8px;height:8px;border-radius:50%;background:#475569}
+.status-dot.running{background:#f59e0b;animation:pulse 1s infinite}
+.status-dot.done{background:#22c55e}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.btn-run{background:#0ea5e9;color:#fff;border:none;border-radius:5px;padding:8px 20px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap}
+.btn-run:hover{background:#0284c7}
+
+.body-row{display:flex;flex:1;min-height:0;overflow:hidden}
+
+/* ── CONFIG PANEL ── */
+.config-panel{width:310px;flex-shrink:0;display:flex;flex-direction:column;overflow:hidden;border-right:1px solid #1e2d40}
+.ptab-bar{display:flex;flex-shrink:0;border-bottom:1px solid #1e2d40}
+.ptab{flex:1;padding:8px 4px;background:none;border:none;color:#64748b;font-size:12px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;transition:color .15s}
+.ptab:hover{color:#94a3b8}
+.ptab.active{color:#38bdf8;border-bottom-color:#38bdf8}
+.ptab-content{display:none;flex:1;overflow-y:auto;padding:10px}
+.ptab-content.active{display:block}
+.section{margin-bottom:14px}
+.section-title{font-size:11px;color:#94a3b8;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px;padding-bottom:4px;border-bottom:1px solid #1e2d40}
+.field{display:flex;flex-direction:column;gap:3px;margin-bottom:8px}
+.flabel{font-size:12px;color:#94a3b8;font-weight:500}
+.funit{color:#64748b;font-size:11px}
+.fhelp{font-size:11px;color:#64748b;margin-top:1px}
+input[type=number],input[type=text],select.finput{background:#0d1421;border:1px solid #1e2d40;border-radius:4px;color:#e2e8f0;font-size:12px;padding:4px 7px;width:100%}
+input[type=number]:focus,input[type=text]:focus,select.finput:focus{outline:none;border-color:#38bdf8}
+input[type=range]{width:100%;accent-color:#38bdf8}
+.derived-row{display:flex;justify-content:space-between;align-items:center;padding:3px 0;border-bottom:1px solid #0d1421}
+.derived-key{font-size:12px;color:#64748b}
+.derived-val{font-size:12px;color:#38bdf8;font-weight:600}
+.risk-tag{display:inline-block;padding:2px 7px;border-radius:3px;font-size:11px;font-weight:600;margin-top:4px}
+.risk-ok{background:#14532d;color:#4ade80}
+.risk-warn{background:#451a03;color:#fb923c}
+.risk-fail{background:#450a0a;color:#f87171}
+.export-btn{display:block;width:100%;padding:7px;background:#0d1421;border:1px solid #1e2d40;border-radius:4px;color:#e2e8f0;font-size:12px;font-weight:600;cursor:pointer;margin-bottom:6px;text-align:center}
+.export-btn:hover{border-color:#38bdf8;color:#38bdf8}
+
+/* ── RESULT PANEL ── */
+.result-panel{flex:1;min-width:0;display:flex;flex-direction:column;overflow:hidden}
+.kpi-bar{display:flex;gap:6px;padding:7px 8px;flex-shrink:0;border-bottom:1px solid #1e2d40;background:#0d1421}
+.kpi-card{flex:1;background:#111827;border:1px solid #1e2d40;border-radius:5px;padding:6px 10px;min-width:0}
+.kpi-label{font-size:11px;color:#64748b;font-weight:600;text-transform:uppercase;letter-spacing:.3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.kpi-value{font-size:20px;font-weight:700;color:#38bdf8;line-height:1.1}
+.kpi-sub{font-size:11px;color:#64748b}
+.kpi-card.warn .kpi-value{color:#fb923c}
+.kpi-card.fail .kpi-value{color:#f87171}
+.kpi-card.good .kpi-value{color:#4ade80}
+
+.events-bar{display:flex;align-items:center;gap:6px;padding:5px 8px;flex-shrink:0;border-bottom:1px solid #1e2d40;flex-wrap:wrap}
+.ev-label{font-size:11px;color:#64748b;font-weight:700;letter-spacing:.5px;text-transform:uppercase}
+.ev-hint{font-size:11px;color:#475569;font-style:italic}
+.epill{padding:3px 9px;border-radius:3px;font-size:11px;font-weight:600;background:#111827;color:#475569;border:1px solid #1e2d40;cursor:default;white-space:nowrap}
+.epill.active{color:#fff;border-color:transparent}
+.epill.green.active{background:#166534}
+.epill.amber.active{background:#92400e}
+.epill.red.active{background:#7f1d1d}
+.epill.blue.active{background:#1e3a5f}
+
+.rtab-bar{display:flex;flex-shrink:0;border-bottom:1px solid #1e2d40;overflow-x:auto}
+.rtab{padding:7px 13px;background:none;border:none;color:#64748b;font-size:12px;font-weight:600;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;transition:color .15s}
+.rtab:hover{color:#94a3b8}
+.rtab.active{color:#38bdf8;border-bottom-color:#38bdf8}
+
+.rtab-content{display:none;flex:1;overflow:hidden;padding:7px;flex-direction:column;gap:6px}
+.rtab-content.active{display:flex}
+#rtab-guide,#rtab-dynamics{overflow-y:auto}
+#rtab-dynamics{display:none;flex-direction:column;gap:6px;padding:7px}
+#rtab-dynamics.active{display:flex}
+
+.cbox{background:#111827;border:1px solid #1e2d40;border-radius:5px;padding:8px;display:flex;flex-direction:column}
+.ctitle{font-size:11px;color:#64748b;font-weight:700;text-transform:uppercase;letter-spacing:.3px;margin-bottom:1px}
+.ctitle-sub{font-size:11px;color:#64748b;margin-bottom:6px}
+.chart-wrap{position:relative;flex:1;min-height:0}
+.chart-wrap canvas{position:absolute;inset:0}
+
+.cg1{display:grid;grid-template-columns:1fr;grid-template-rows:1fr;gap:6px;flex:1;min-height:0}
+.cg2{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:1fr;gap:6px;flex:1;min-height:0}
+.cg3{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr;gap:6px;flex:1;min-height:0}
+.cgdyn{display:grid;grid-template-columns:repeat(2,1fr);grid-auto-rows:230px;gap:6px}
+
+/* Guide tab */
+#rtab-guide{padding:20px 24px;font-size:13px;line-height:1.6}
+#rtab-guide h2{font-size:15px;color:#e2e8f0;font-weight:700;margin-bottom:8px}
+#rtab-guide h3{font-size:12px;color:#94a3b8;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin:14px 0 6px}
+#rtab-guide p{color:#94a3b8;margin-bottom:8px;font-size:12px}
+#rtab-guide ol,#rtab-guide ul{padding-left:18px;color:#94a3b8;font-size:12px;margin-bottom:10px}
+#rtab-guide li{margin-bottom:4px}
+.guide-table{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:12px}
+.guide-table th{text-align:left;padding:5px 8px;background:#0d1421;color:#64748b;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.3px}
+.guide-table td{padding:5px 8px;border-top:1px solid #1e2d40;color:#94a3b8;vertical-align:top}
+.guide-table td:first-child{color:#38bdf8;font-weight:600;white-space:nowrap}
+.badge-legend{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:10px}
+.guide-badge{padding:3px 8px;border-radius:3px;font-size:11px;font-weight:600;color:#fff}
+</style>
+</head>
+<body>
+<div class="app-shell">
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-brand">
+    <h1>MRG Physics Simulator</h1>
+    <p>Membrane Resonance Generator — Casimir extraction feasibility &amp; falsification suite</p>
+  </div>
+  <div class="header-preset">
+    <span class="hdr-label">Device Preset</span>
+    <select id="presetSel" onchange="loadPreset()">
+      <option value="0">Phase 1 — $150 Garage ($4 boundaries, 100 nm)</option>
+      <option value="1">Phase 2 — Lab ($50 boundaries, 75 nm)</option>
+      <option value="2" selected>Reference Design (200 boundaries, 50 nm)</option>
+      <option value="3">Cryogenic (200 boundaries, 50 nm, 77 K)</option>
+    </select>
+  </div>
+  <div class="header-actions">
+    <div class="status-dot" id="statusDot"></div>
+    <button class="btn-run" onclick="runSim()">&#9654; RUN SIMULATION</button>
+  </div>
+</div>
+
+<!-- BODY -->
+<div class="body-row">
+
+<!-- CONFIG PANEL -->
+<div class="config-panel" id="config-panel">
+  <div class="ptab-bar">
+    <button class="ptab active" onclick="switchCTab(this,'device')">Device</button>
+    <button class="ptab" onclick="switchCTab(this,'experiment')">Experiment</button>
+    <button class="ptab" onclick="switchCTab(this,'export')">Export</button>
+  </div>
+
+  <!-- DEVICE TAB -->
+  <div class="ptab-content active" id="ctab-device">
+    <div class="section">
+      <div class="section-title">Stage 1 — Resonant Cavity</div>
+      <div class="field">
+        <label class="flabel">Cavity Radius <span class="funit">mm</span></label>
+        <input type="number" id="p_radius" value="77" min="10" max="200" step="0.5">
+        <span class="fhelp">Sets TE₁₁ cutoff frequency</span>
+      </div>
+      <div class="field">
+        <label class="flabel">Operating Temperature <span class="funit">K</span></label>
+        <input type="number" id="p_temp" value="300" min="4" max="400" step="1">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Stage 2 — Dielectric Stack</div>
+      <div class="field">
+        <label class="flabel">Gap Size <span class="funit">nm</span></label>
+        <input type="number" id="p_gap" value="50" min="5" max="1000" step="1">
+        <span class="fhelp">Casimir pressure ∝ 1/d⁴ — halving gap → 16× force</span>
+      </div>
+      <div class="field">
+        <label class="flabel">Number of Boundaries <span class="funit">N</span></label>
+        <input type="number" id="p_nbnd" value="200" min="1" max="2000" step="1">
+      </div>
+      <div class="field">
+        <label class="flabel">Dielectric Constant <span class="funit">ε_r</span></label>
+        <input type="number" id="p_epsr" value="4000" min="1" max="15000" step="10">
+        <span class="fhelp">BaTiO₃ ≈ 4000; STO ≈ 310; Al₂O₃ ≈ 9</span>
+      </div>
+      <div class="field">
+        <label class="flabel">Active Area <span class="funit">cm²</span></label>
+        <input type="number" id="p_area" value="25" min="0.1" max="400" step="0.5">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Stage 3–4 — Harvest Parameters</div>
+      <div class="field">
+        <label class="flabel">η (Replenishment Efficiency)</label>
+        <input type="number" id="p_eta" value="0.001" min="1e-12" max="1" step="0" style="font-size:11px">
+        <span class="fhelp">THE unknown. QM: η≡0. Genesis framework: η&gt;0.</span>
+      </div>
+      <div class="field">
+        <label class="flabel">Rectenna Efficiency <span class="funit">η_r</span></label>
+        <input type="number" id="p_etarect" value="0.60" min="0.1" max="0.95" step="0.01">
+      </div>
+      <div class="field">
+        <label class="flabel">Magnetic Bias Field <span class="funit">T</span></label>
+        <input type="number" id="p_bfield" value="1.4" min="0" max="3" step="0.1">
+        <span class="fhelp">N52 NdFeB ≈ 1.4 T. Framework predicts output ∝ B.</span>
+      </div>
+      <div class="field">
+        <label class="flabel">Thermal Resistance <span class="funit">°C/W</span></label>
+        <input type="number" id="p_rth" value="5" min="0.5" max="50" step="0.5">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Derived (live)</div>
+      <div id="derived-block"></div>
+    </div>
+  </div>
+
+  <!-- EXPERIMENT TAB -->
+  <div class="ptab-content" id="ctab-experiment">
+    <div class="section">
+      <div class="section-title">η Sweep Range</div>
+      <div class="field">
+        <label class="flabel">η Min (log₁₀)</label>
+        <input type="number" id="p_etamin" value="-12" min="-15" max="-1" step="1">
+      </div>
+      <div class="field">
+        <label class="flabel">η Max (log₁₀)</label>
+        <input type="number" id="p_etamax" value="0" min="-10" max="0" step="1">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Temperature Sweep</div>
+      <div class="field">
+        <label class="flabel">T Min <span class="funit">K</span></label>
+        <input type="number" id="p_tmin" value="77" min="4" max="290" step="1">
+      </div>
+      <div class="field">
+        <label class="flabel">T Max <span class="funit">K</span></label>
+        <input type="number" id="p_tmax" value="400" min="100" max="600" step="1">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Falsification — Test 4</div>
+      <div class="field">
+        <label class="flabel">Dielectric Materials to Compare</label>
+        <span class="fhelp" style="font-size:11px;color:#64748b">Fixed set: vacuum, PTFE, glass, Al₂O₃, STO, BaTiO₃. Uses current gap &amp; boundaries.</span>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">SNR Parameters</div>
+      <div class="field">
+        <label class="flabel">Detection SNR <span class="funit">dB</span></label>
+        <input type="number" id="p_snr" value="10" min="3" max="30" step="1">
+      </div>
+      <div class="field">
+        <label class="flabel">Amplifier Noise Figure <span class="funit">dB</span></label>
+        <input type="number" id="p_nf" value="3" min="0" max="20" step="0.5">
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Boundary Variation (Power tab)</div>
+      <div class="field">
+        <label class="flabel">N Max for Sweep</label>
+        <input type="number" id="p_nmax" value="500" min="10" max="5000" step="10">
+      </div>
+    </div>
+  </div>
+
+  <!-- EXPORT TAB -->
+  <div class="ptab-content" id="ctab-export">
+    <div class="section">
+      <div class="section-title">Export Simulation Data</div>
+      <div class="field">
+        <label class="flabel">Filename prefix</label>
+        <input type="text" id="p_fname" value="mrg_sim">
+      </div>
+      <button class="export-btn" onclick="exportCSV()">&#8595; Power vs η (CSV)</button>
+      <button class="export-btn" onclick="exportCasimirCSV()">&#8595; Casimir vs Gap (CSV)</button>
+      <button class="export-btn" onclick="exportFalsificationCSV()">&#8595; Falsification Suite (CSV)</button>
+      <button class="export-btn" onclick="exportJSON()">&#8595; Full State (JSON)</button>
+    </div>
+    <div class="section">
+      <div class="section-title">Current Parameter Set</div>
+      <div id="export-summary" style="font-size:11px;color:#64748b;line-height:1.8"></div>
+    </div>
+  </div>
+</div><!-- /config-panel -->
+
+<!-- RESULT PANEL -->
+<div class="result-panel">
+
+  <!-- KPI BAR -->
+  <div class="kpi-bar">
+    <div class="kpi-card" id="kpi-freq">
+      <div class="kpi-label">Cavity Freq</div>
+      <div class="kpi-value" id="kv-freq">—</div>
+      <div class="kpi-sub">GHz  TE₁₁</div>
+    </div>
+    <div class="kpi-card" id="kpi-pressure">
+      <div class="kpi-label">Casimir Pressure</div>
+      <div class="kpi-value" id="kv-pressure">—</div>
+      <div class="kpi-sub" id="ks-pressure">Pa at gap</div>
+    </div>
+    <div class="kpi-card" id="kpi-pnet">
+      <div class="kpi-label">Net Power</div>
+      <div class="kpi-value" id="kv-pnet">—</div>
+      <div class="kpi-sub" id="ks-pnet">W at current η</div>
+    </div>
+    <div class="kpi-card" id="kpi-etamin">
+      <div class="kpi-label">Min Detectable η</div>
+      <div class="kpi-value" id="kv-etamin">—</div>
+      <div class="kpi-sub" id="ks-etamin">at 300 K</div>
+    </div>
+    <div class="kpi-card" id="kpi-snr">
+      <div class="kpi-label">SNR</div>
+      <div class="kpi-value" id="kv-snr">—</div>
+      <div class="kpi-sub">dB at current η &amp; T</div>
+    </div>
+    <div class="kpi-card" id="kpi-stiction">
+      <div class="kpi-label">Stiction Force</div>
+      <div class="kpi-value" id="kv-stiction">—</div>
+      <div class="kpi-sub">N  (pull-in risk)</div>
+    </div>
+  </div>
+
+  <!-- EVENTS BAR -->
+  <div class="events-bar">
+    <span class="ev-label">Device Status</span>
+    <span class="ev-hint">hover for details</span>
+    <span class="epill blue" id="ev-cavity" title="">Cavity OK</span>
+    <span class="epill green" id="ev-casimir" title="">Casimir OK</span>
+    <span class="epill amber" id="ev-dcf" title="">DCE Gap</span>
+    <span class="epill" id="ev-stiction" title="">Stiction</span>
+    <span class="epill" id="ev-curie" title="">Curie Risk</span>
+    <span class="epill" id="ev-detection" title="">Detectable</span>
+  </div>
+
+  <!-- RESULT TABS -->
+  <div class="rtab-bar">
+    <button class="rtab active" onclick="switchRTab(this,'guide')">How to Use</button>
+    <button class="rtab" onclick="switchRTab(this,'overview')">Overview</button>
+    <button class="rtab" onclick="switchRTab(this,'casimir')">Casimir</button>
+    <button class="rtab" onclick="switchRTab(this,'power')">Power</button>
+    <button class="rtab" onclick="switchRTab(this,'noise')">Noise &amp; SNR</button>
+    <button class="rtab" onclick="switchRTab(this,'falsification')">Falsification</button>
+    <button class="rtab" onclick="switchRTab(this,'dynamics')">Dynamics</button>
+  </div>
+
+  <!-- GUIDE TAB -->
+  <div class="rtab-content active" id="rtab-guide">
+    <h2>Membrane Resonance Generator — Physics Simulator</h2>
+    <p>This simulator models the MRG across six physics domains and generates quantitative predictions for five independent falsification tests. The central question: does the quantum vacuum replenish energy on extraction (η &gt; 0)? Standard QM predicts η ≡ 0 exactly. The Genesis Physics framework predicts η &gt; 0.</p>
+    <h3>Quick Start</h3>
+    <ol>
+      <li>Select a device preset from the header dropdown (start with Reference Design)</li>
+      <li>Adjust device parameters in the <strong>Device</strong> config tab on the left</li>
+      <li>Click <strong>▶ RUN SIMULATION</strong> — charts populate and KPI cards update</li>
+      <li>Navigate result tabs to explore different physics domains</li>
+      <li>Use the <strong>Experiment</strong> tab to adjust sweep ranges for η and temperature</li>
+    </ol>
+    <h3>Device Presets</h3>
+    <table class="guide-table">
+      <tr><th>Preset</th><th>Boundaries</th><th>Gap</th><th>Temp</th><th>Purpose</th></tr>
+      <tr><td>Phase 1 — $150</td><td>4</td><td>100 nm</td><td>300 K</td><td>Gate test — any η &gt; 0 measurable?</td></tr>
+      <tr><td>Phase 2 — Lab</td><td>50</td><td>75 nm</td><td>300 K</td><td>Lab-grade measurement of η</td></tr>
+      <tr><td>Reference Design</td><td>200</td><td>50 nm</td><td>300 K</td><td>Full-power demonstration device</td></tr>
+      <tr><td>Cryogenic</td><td>200</td><td>50 nm</td><td>77 K</td><td>Best SNR — liquid nitrogen cooling</td></tr>
+    </table>
+    <h3>Result Tabs</h3>
+    <table class="guide-table">
+      <tr><th>Tab</th><th>What it shows</th></tr>
+      <tr><td>Overview</td><td>Net power vs η (log-log sweep). The single most important chart.</td></tr>
+      <tr><td>Casimir</td><td>Casimir pressure vs gap, Lifshitz correction vs ε_r</td></tr>
+      <tr><td>Power</td><td>Net power vs N boundaries, power vs gap scaling</td></tr>
+      <tr><td>Noise &amp; SNR</td><td>Thermal noise floor, minimum detectable η vs temperature</td></tr>
+      <tr><td>Falsification</td><td>Five independent QM vs Genesis Physics test predictions</td></tr>
+      <tr><td>Dynamics</td><td>Skin depth, stiction force, boundary velocity, ZPF energy (scrollable)</td></tr>
+    </table>
+    <h3>Device Status Badges</h3>
+    <div class="badge-legend">
+      <span class="guide-badge" style="background:#1e3a5f">Cavity OK</span>
+      <span class="guide-badge" style="background:#166534">Casimir OK</span>
+      <span class="guide-badge" style="background:#92400e">DCE Gap</span>
+      <span class="guide-badge" style="background:#166534">No Stiction Risk</span>
+      <span class="guide-badge" style="background:#7f1d1d">Stiction Risk</span>
+      <span class="guide-badge" style="background:#7f1d1d">Curie Risk</span>
+      <span class="guide-badge" style="background:#166534">Detectable</span>
+    </div>
+    <p><strong>DCE Gap</strong> is always amber — the MRG boundary velocity is ~8 orders of magnitude below the Wilson 2011 DCE threshold. This is an honest limitation: the photon generation mechanism is static-boundary mode mismatch, not classic dynamic Casimir. The DCE badge is informational, not a failure flag.</p>
+    <h3>The η Parameter</h3>
+    <p>η is the fraction of extracted vacuum energy replenished before the next cycle. It is the single unknown that separates standard QM (η=0) from the framework (η&gt;0). All power calculations are linear in η. Experiment is the only arbiter.</p>
+  </div>
+
+  <!-- OVERVIEW TAB -->
+  <div class="rtab-content" id="rtab-overview">
+    <div class="cg1">
+      <div class="cbox">
+        <div class="ctitle">Net Power vs Replenishment Efficiency η</div>
+        <div class="ctitle-sub">Log-log sweep — threshold lines at useful power levels · Standard QM predicts P_net = 0 W for all η</div>
+        <div class="chart-wrap"><canvas id="ch_overview"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CASIMIR TAB -->
+  <div class="rtab-content" id="rtab-casimir">
+    <div class="cg2">
+      <div class="cbox">
+        <div class="ctitle">Casimir Pressure vs Gap</div>
+        <div class="ctitle-sub">Ideal conductors &amp; Lifshitz-corrected (BaTiO₃) · Log-log · P ∝ 1/d⁴</div>
+        <div class="chart-wrap"><canvas id="ch_casimir_gap"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Lifshitz Correction Factor vs ε_r</div>
+        <div class="ctitle-sub">φ(ε) = (ε−1)/(ε+1) — approaches 1 for large ε · current ε_r marked</div>
+        <div class="chart-wrap"><canvas id="ch_lifshitz"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- POWER TAB -->
+  <div class="rtab-content" id="rtab-power">
+    <div class="cg2">
+      <div class="cbox">
+        <div class="ctitle">Net Power vs Number of Boundaries</div>
+        <div class="ctitle-sub">P_net scales linearly with N · current design point marked</div>
+        <div class="chart-wrap"><canvas id="ch_power_n"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Net Power vs Gap Size</div>
+        <div class="ctitle-sub">P_net ∝ 1/d⁴ (Casimir scaling) · current gap marked · stiction limit shown</div>
+        <div class="chart-wrap"><canvas id="ch_power_gap"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOISE TAB -->
+  <div class="rtab-content" id="rtab-noise">
+    <div class="cg2">
+      <div class="cbox">
+        <div class="ctitle">Thermal Noise Floor vs Temperature</div>
+        <div class="ctitle-sub">P_noise = k_B · T · BW · NF · SNR — current device signal overlaid</div>
+        <div class="chart-wrap"><canvas id="ch_noise_t"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Minimum Detectable η vs Temperature</div>
+        <div class="ctitle-sub">Cryogenic cooling directly reduces η_min · current T marked</div>
+        <div class="chart-wrap"><canvas id="ch_etamin_t"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FALSIFICATION TAB -->
+  <div class="rtab-content" id="rtab-falsification">
+    <div class="cg3">
+      <div class="cbox">
+        <div class="ctitle">Test 3 — Orientation Dependence</div>
+        <div class="ctitle-sub">P(θ)/P_max vs angle from vertical · QM: zero at all angles · GP: cos²(θ)</div>
+        <div class="chart-wrap"><canvas id="ch_f3"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Test 4 — Dielectric Scaling</div>
+        <div class="ctitle-sub">Normalized power vs ε_r · QM: K^0.5 (Lifshitz) · GP: K^0.333</div>
+        <div class="chart-wrap"><canvas id="ch_f4"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Test 5 — Spectral Temperature Independence</div>
+        <div class="ctitle-sub">Normalized peak power vs T · QM: linear in T · GP: constant (vacuum source)</div>
+        <div class="chart-wrap"><canvas id="ch_f5"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DYNAMICS TAB -->
+  <div class="rtab-content" id="rtab-dynamics">
+    <div class="cgdyn">
+      <div class="cbox">
+        <div class="ctitle">Skin Depth vs Frequency</div>
+        <div class="ctitle-sub">OFHC copper (ρ=1.68×10⁻⁸ Ω·m) · cavity operating point marked</div>
+        <div class="chart-wrap"><canvas id="ch_skin"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Stiction Force vs N Boundaries</div>
+        <div class="ctitle-sub">Total Casimir pull-in force at design gap · danger threshold at 100 N</div>
+        <div class="chart-wrap"><canvas id="ch_stiction"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Boundary Velocity vs Gap × Frequency</div>
+        <div class="ctitle-sub">v = 0.02·d·f · DCE threshold (0.25c) shown · MRG is far below threshold</div>
+        <div class="chart-wrap"><canvas id="ch_velocity"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">ZPF Energy per Mode vs Frequency</div>
+        <div class="ctitle-sub">E_zpf = ½ħω · cavity Q enhances effective mode density</div>
+        <div class="chart-wrap"><canvas id="ch_zpf"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Case Temperature Rise vs η</div>
+        <div class="ctitle-sub">ΔT = P_dissipated × R_th · BaTiO₃ Curie limit 120 °C shown</div>
+        <div class="chart-wrap"><canvas id="ch_temp"></canvas></div>
+      </div>
+      <div class="cbox">
+        <div class="ctitle">Gross Power vs η (Linear Scale)</div>
+        <div class="ctitle-sub">P_gross (before η) = constant · P_net = P_gross × η × η_rect</div>
+        <div class="chart-wrap"><canvas id="ch_gross"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /result-panel -->
+</div><!-- /body-row -->
+</div><!-- /app-shell -->
+
+<script>
+'use strict';
+
+// ══════════════════════════════════════════════════════════
+// PHYSICAL CONSTANTS
+// ══════════════════════════════════════════════════════════
+const HBAR  = 1.0546e-34;
+const C_    = 2.998e8;
+const KB    = 1.381e-23;
+const MU0   = 1.2566e-6;
+const PI    = Math.PI;
+const X11P  = 1.8412; // first zero of J₁'
+const RHO_CU = 1.68e-8; // OFHC copper resistivity, Ω·m
+
+// ══════════════════════════════════════════════════════════
+// PRESETS
+// ══════════════════════════════════════════════════════════
+const PRESETS = [
+  { name:'Phase 1',       radius:77, gap:100, nbnd:4,   epsr:4000, area:25, temp:300, eta:1e-3,  etarect:0.60, bfield:1.4, rth:5  },
+  { name:'Phase 2 Lab',   radius:77, gap:75,  nbnd:50,  epsr:4000, area:25, temp:300, eta:1e-3,  etarect:0.60, bfield:1.4, rth:5  },
+  { name:'Reference',     radius:77, gap:50,  nbnd:200, epsr:4000, area:25, temp:300, eta:1e-3,  etarect:0.60, bfield:1.4, rth:5  },
+  { name:'Cryogenic',     radius:77, gap:50,  nbnd:200, epsr:4000, area:25, temp:77,  eta:1e-3,  etarect:0.60, bfield:1.4, rth:5  },
+];
+const DEFAULT_PRESET = 2;
+
+// ══════════════════════════════════════════════════════════
+// PHYSICS ENGINE
+// ══════════════════════════════════════════════════════════
+
+function cavityFreq(R_mm) {
+  const R = R_mm * 1e-3;
+  return (X11P * C_) / (2 * PI * R);
+}
+
+function skinDepth(f, rho) {
+  return Math.sqrt(2 * rho / (2 * PI * f * MU0));
+}
+
+function cavityQ(R_mm, f) {
+  const R = R_mm * 1e-3;
+  const ds = skinDepth(f, RHO_CU);
+  return R / (2 * ds);
+}
+
+function casimirIdeal(d_nm) {
+  const d = d_nm * 1e-9;
+  return (PI*PI * HBAR * C_) / (240 * Math.pow(d, 4));
+}
+
+function lifshitzCorr(eps_r) {
+  return (eps_r - 1) / (eps_r + 1);
+}
+
+function casimirLifshitz(d_nm, eps_r, T) {
+  const P0 = casimirIdeal(d_nm);
+  const phi = lifshitzCorr(eps_r);
+  const d = d_nm * 1e-9;
+  const lT = HBAR * C_ / (KB * T);
+  let therm = 1.0;
+  if (d > 0.05 * lT) therm = 1 + 2*(d/lT)*Math.exp(-2*d/lT);
+  return P0 * phi * therm;
+}
+
+function grossPower(P_cas, area_cm2, gap_nm, f, N) {
+  const A = area_cm2 * 1e-4;
+  const d = gap_nm * 1e-9;
+  const dx = 0.02 * d;
+  return P_cas * A * dx * f * N;
+}
+
+function netPower(P_gross, eta, eta_rect) {
+  return P_gross * eta * eta_rect;
+}
+
+function stictionForce(P_cas, area_cm2, N) {
+  return P_cas * (area_cm2 * 1e-4) * N;
+}
+
+function thermalNoise(T, BW) {
+  return KB * T * BW;
+}
+
+function minDetectPower(T, BW, snr_db, nf_db) {
+  return KB * T * BW * Math.pow(10, snr_db/10) * Math.pow(10, nf_db/10);
+}
+
+function minDetectEta(P_gross, eta_rect, T, BW, snr_db, nf_db) {
+  const Pm = minDetectPower(T, BW, snr_db, nf_db);
+  return Pm / (P_gross * eta_rect);
+}
+
+function dceRatio(gap_nm, f) {
+  const v = 0.02 * (gap_nm*1e-9) * f;
+  return v / (0.25 * C_);
+}
+
+function snrDB(P_net, T, BW, nf_db) {
+  const Pn = KB * T * BW * Math.pow(10, nf_db/10);
+  if (Pn <= 0 || P_net <= 0) return -99;
+  return 10*Math.log10(P_net / Pn);
+}
+
+function caseTempRise(P_gross, eta, eta_rect, rth) {
+  const P_net = P_gross * eta * eta_rect;
+  const P_waste = P_net * (1 - eta_rect) + P_gross * (1-eta) * 0.4;
+  return P_waste * rth;
+}
+
+function zpfEnergy(f) { return 0.5 * HBAR * 2*PI*f; }
+
+// ══════════════════════════════════════════════════════════
+// READ INPUTS
+// ══════════════════════════════════════════════════════════
+function getParams() {
+  return {
+    radius  : +document.getElementById('p_radius').value,
+    gap     : +document.getElementById('p_gap').value,
+    nbnd    : +document.getElementById('p_nbnd').value,
+    epsr    : +document.getElementById('p_epsr').value,
+    area    : +document.getElementById('p_area').value,
+    temp    : +document.getElementById('p_temp').value,
+    eta     : +document.getElementById('p_eta').value,
+    etarect : +document.getElementById('p_etarect').value,
+    bfield  : +document.getElementById('p_bfield').value,
+    rth     : +document.getElementById('p_rth').value,
+    etamin  : +document.getElementById('p_etamin').value,
+    etamax  : +document.getElementById('p_etamax').value,
+    tmin    : +document.getElementById('p_tmin').value,
+    tmax    : +document.getElementById('p_tmax').value,
+    snr     : +document.getElementById('p_snr').value,
+    nf      : +document.getElementById('p_nf').value,
+    nmax    : +document.getElementById('p_nmax').value,
+  };
+}
+
+// ══════════════════════════════════════════════════════════
+// CHART DEFAULTS
+// ══════════════════════════════════════════════════════════
+const CD = {
+  animation: false,
+  responsive: true,
+  maintainAspectRatio: false,
+  plugins: {
+    legend: { display: true, labels: { color:'#94a3b8', font:{size:11}, boxWidth:12 } },
+    tooltip: { enabled:true, bodyFont:{family:'Segoe UI',size:11} }
+  },
+  scales: {
+    x: { ticks:{color:'#64748b',font:{size:11}}, grid:{color:'#1a2235'}, border:{color:'#1e2d40'} },
+    y: { ticks:{color:'#64748b',font:{size:11}}, grid:{color:'#1a2235'}, border:{color:'#1e2d40'} }
+  }
+};
+
+const AX = (title, isLog=false) => ({
+  title:{display:true,text:title,color:'#64748b',font:{size:11}},
+  ticks:{color:'#64748b',font:{size:11}},
+  grid:{color:'#1a2235'},
+  border:{color:'#1e2d40'},
+  ...(isLog ? {type:'logarithmic'} : {})
+});
+
+// ══════════════════════════════════════════════════════════
+// CHART REGISTRY
+// ══════════════════════════════════════════════════════════
+const CHARTS = {};
+
+function mkChart(id, cfg) {
+  const ctx = document.getElementById(id).getContext('2d');
+  if (CHARTS[id]) { CHARTS[id].destroy(); }
+  CHARTS[id] = new Chart(ctx, cfg);
+  return CHARTS[id];
+}
+
+function initCharts() {
+  // Overview: power vs eta
+  mkChart('ch_overview', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('η (replenishment efficiency)',true)}, y:{...AX('Net Power P_net (W)',true)} }} });
+
+  // Casimir gap
+  mkChart('ch_casimir_gap', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Gap d (nm)',true)}, y:{...AX('Casimir Pressure (Pa)',true)} }} });
+
+  // Lifshitz correction
+  mkChart('ch_lifshitz', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Dielectric Constant ε_r',true)}, y:{...AX('Lifshitz Correction φ(ε)')} }} });
+
+  // Power vs N
+  mkChart('ch_power_n', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Number of Boundaries N')}, y:{...AX('Net Power P_net (W)',true)} }} });
+
+  // Power vs gap
+  mkChart('ch_power_gap', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Gap d (nm)',true)}, y:{...AX('Net Power P_net (W)',true)} }} });
+
+  // Noise vs T
+  mkChart('ch_noise_t', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Temperature (K)')}, y:{...AX('Power (W)',true)} }} });
+
+  // Min eta vs T
+  mkChart('ch_etamin_t', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Temperature (K)')}, y:{...AX('Min Detectable η',true)} }} });
+
+  // Falsification 3: angular
+  mkChart('ch_f3', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Angle from Vertical θ (°)')}, y:{...AX('Normalized Power P(θ)/P_max')} }} });
+
+  // Falsification 4: dielectric scaling
+  mkChart('ch_f4', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Dielectric Constant ε_r',true)}, y:{...AX('Normalized Power (arb. units)',true)} }} });
+
+  // Falsification 5: temperature independence
+  mkChart('ch_f5', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Temperature (K)')}, y:{...AX('Normalized Peak Power')} }} });
+
+  // Dynamics
+  mkChart('ch_skin', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Frequency (GHz)',true)}, y:{...AX('Skin Depth δ_s (μm)')} }} });
+
+  mkChart('ch_stiction', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Number of Boundaries N')}, y:{...AX('Stiction Force (N)')} }} });
+
+  mkChart('ch_velocity', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Gap × Frequency  d·f (nm·GHz)')}, y:{...AX('Boundary Velocity / c',true)} }} });
+
+  mkChart('ch_zpf', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('Frequency (GHz)')}, y:{...AX('ZPF Energy per Mode (J)',true)} }} });
+
+  mkChart('ch_temp', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('η (replenishment efficiency)',true)}, y:{...AX('Case Temperature Rise (°C)')} }} });
+
+  mkChart('ch_gross', { type:'line', data:{datasets:[]},
+    options:{...CD, scales:{x:{...AX('η (replenishment efficiency)',true)}, y:{...AX('Net Power P_net (W)',true)} }} });
+}
+
+// ══════════════════════════════════════════════════════════
+// HELPERS
+// ══════════════════════════════════════════════════════════
+function fmtSI(v, unit='', dp=3) {
+  if (!isFinite(v) || v === 0) return '0 ' + unit;
+  const abs = Math.abs(v);
+  if (abs >= 1e9)  return (v/1e9).toFixed(dp)  + ' G' + unit;
+  if (abs >= 1e6)  return (v/1e6).toFixed(dp)  + ' M' + unit;
+  if (abs >= 1e3)  return (v/1e3).toFixed(dp)  + ' k' + unit;
+  if (abs >= 1)    return v.toFixed(dp)          + ' '  + unit;
+  if (abs >= 1e-3) return (v*1e3).toFixed(dp)  + ' m'  + unit;
+  if (abs >= 1e-6) return (v*1e6).toFixed(dp)  + ' μ'  + unit;
+  if (abs >= 1e-9) return (v*1e9).toFixed(dp)  + ' n'  + unit;
+  if (abs >= 1e-12)return (v*1e12).toFixed(dp) + ' p'  + unit;
+  return v.toExponential(2) + ' ' + unit;
+}
+
+function logRange(lo, hi, n) {
+  const pts = [];
+  for (let i=0; i<n; i++) pts.push(Math.pow(10, lo + (hi-lo)*i/(n-1)));
+  return pts;
+}
+
+function linRange(lo, hi, n) {
+  const pts = [];
+  for (let i=0; i<n; i++) pts.push(lo + (hi-lo)*i/(n-1));
+  return pts;
+}
+
+function annoLine(val, label, color='#f59e0b', axis='y') {
+  // Returns a Chart.js annotation plugin annotation object (not used — we draw as dataset)
+  return { x: val, y: val, color, label };
+}
+
+// ══════════════════════════════════════════════════════════
+// MAIN RUN
+// ══════════════════════════════════════════════════════════
+let _simHasRun = false;
+
+function runSim() {
+  document.getElementById('statusDot').className = 'status-dot running';
+  const p = getParams();
+
+  // ── Core scalars ──────────────────────────────────────
+  const f     = cavityFreq(p.radius);
+  const Q     = cavityQ(p.radius, f);
+  const BW    = f / Q;
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const P_net = netPower(P_grs, p.eta, p.etarect);
+  const F_stic= stictionForce(P_cas, p.area, p.nbnd);
+  const eta_min= minDetectEta(P_grs, p.etarect, p.temp, BW, p.snr, p.nf);
+  const snr_db = snrDB(P_net, p.temp, BW, p.nf);
+  const dce_r  = dceRatio(p.gap, f);
+  const dT     = caseTempRise(P_grs, p.eta, p.etarect, p.rth);
+  const curie_risk = (p.temp - 273.15 + dT) > 120;
+
+  // ── Update KPI cards ──────────────────────────────────
+  document.getElementById('kv-freq').textContent = (f/1e9).toFixed(3) + ' GHz';
+  document.getElementById('kv-pressure').textContent = fmtSI(P_cas, 'Pa', 1);
+  document.getElementById('ks-pressure').textContent = `Pa at ${p.gap} nm gap`;
+
+  const pnetEl = document.getElementById('kv-pnet');
+  pnetEl.textContent = fmtSI(P_net, 'W', 2);
+  document.getElementById('ks-pnet').textContent = `at η=${p.eta.toExponential(1)}`;
+  document.getElementById('kpi-pnet').className = 'kpi-card' + (P_net > 1 ? ' good' : P_net > 1e-6 ? '' : '');
+
+  document.getElementById('kv-etamin').textContent = eta_min < 1e-15 ? '<1e-15' : eta_min.toExponential(1);
+  document.getElementById('ks-etamin').textContent = `at ${p.temp} K, SNR ${p.snr} dB`;
+
+  const snrEl = document.getElementById('kv-snr');
+  snrEl.textContent = snr_db.toFixed(1) + ' dB';
+  document.getElementById('kpi-snr').className = 'kpi-card' + (snr_db > 10 ? ' good' : snr_db > 0 ? ' warn' : ' fail');
+
+  const sticEl = document.getElementById('kv-stiction');
+  sticEl.textContent = F_stic.toFixed(1) + ' N';
+  document.getElementById('kpi-stiction').className = 'kpi-card' + (F_stic > 500 ? ' fail' : F_stic > 100 ? ' warn' : '');
+
+  // ── Update derived block ──────────────────────────────
+  updateDerived();
+
+  // ── Event badges ──────────────────────────────────────
+  function badge(id, active, cls, tip) {
+    const el = document.getElementById(id);
+    el.className = 'epill ' + cls + (active ? ' active' : '');
+    el.title = tip;
+  }
+  badge('ev-cavity',    true,  'blue',  `f_c = ${(f/1e9).toFixed(4)} GHz, Q = ${Q.toFixed(0)}, BW = ${(BW/1e3).toFixed(1)} kHz`);
+  badge('ev-casimir',   true,  'green', `Casimir pressure = ${P_cas.toFixed(1)} Pa, Lifshitz φ = ${lifshitzCorr(p.epsr).toFixed(4)}`);
+  badge('ev-dcf',       true,  'amber', `DCE threshold ratio = ${dce_r.toExponential(2)} (need > 1.0 for standard DCE; MRG uses static-boundary mode mismatch)`);
+  badge('ev-stiction',  F_stic > 100, F_stic > 500 ? 'red' : F_stic > 100 ? 'amber' : 'green',
+        `Total Casimir pull-in force = ${F_stic.toFixed(1)} N across ${p.nbnd} boundaries`);
+  badge('ev-curie',     curie_risk, 'red',
+        `Case temp rise = ${dT.toFixed(1)} °C. BaTiO₃ Curie = 120 °C. Ambient = ${(p.temp-273.15).toFixed(0)} °C`);
+  badge('ev-detection', p.eta > eta_min, 'green',
+        `Current η=${p.eta.toExponential(1)} vs min detectable η=${eta_min.toExponential(2)}`);
+
+  // ── Build chart data ──────────────────────────────────
+  updateOverview(p, f, Q, BW);
+  updateCasimir(p, f);
+  updatePower(p, f, Q, BW);
+  updateNoise(p, f, Q, BW);
+  updateFalsification(p, f, Q, BW);
+  updateDynamics(p, f, Q);
+
+  // ── Export summary ────────────────────────────────────
+  document.getElementById('export-summary').innerHTML =
+    `Radius: ${p.radius} mm | Gap: ${p.gap} nm | N: ${p.nbnd}<br>` +
+    `ε_r: ${p.epsr} | Area: ${p.area} cm² | T: ${p.temp} K<br>` +
+    `η: ${p.eta} | η_rect: ${p.etarect}<br>` +
+    `f_c: ${(f/1e9).toFixed(3)} GHz | Q: ${Q.toFixed(0)}<br>` +
+    `P_gross: ${fmtSI(P_grs,'W',2)} | P_net: ${fmtSI(P_net,'W',2)}`;
+
+  document.getElementById('statusDot').className = 'status-dot done';
+
+  if (!_simHasRun) {
+    _simHasRun = true;
+    const btn = document.querySelector('.rtab[onclick*="overview"]');
+    if (btn) switchRTab(btn, 'overview');
+  }
+}
+
+// ══════════════════════════════════════════════════════════
+// CHART UPDATE FUNCTIONS
+// ══════════════════════════════════════════════════════════
+
+function updateOverview(p, f, Q, BW) {
+  const etas = logRange(p.etamin, p.etamax, 120);
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+
+  const pnets = etas.map(e => Math.max(1e-18, netPower(P_grs, e, p.etarect)));
+
+  // Threshold lines as constant datasets
+  const thresholds = [
+    { val:1e-6,  label:'1 μW (detection floor)', color:'#475569' },
+    { val:1e-3,  label:'1 mW (concept proven)',  color:'#0ea5e9' },
+    { val:1.0,   label:'1 W (useful)',            color:'#22c55e' },
+    { val:30.0,  label:'30 W (laptop)',           color:'#f59e0b' },
+  ];
+
+  const datasets = [{
+    label: 'P_net (current device)',
+    data: etas.map((e,i) => ({x:e, y:pnets[i]})),
+    borderColor: '#38bdf8',
+    backgroundColor: 'rgba(56,189,248,0.08)',
+    borderWidth: 2.5,
+    pointRadius: 0,
+    fill: false,
+    tension: 0.1,
+  }];
+
+  thresholds.forEach(t => {
+    datasets.push({
+      label: t.label,
+      data: [{x:etas[0],y:t.val},{x:etas[etas.length-1],y:t.val}],
+      borderColor: t.color,
+      borderWidth: 1,
+      borderDash: [4,4],
+      pointRadius: 0,
+      fill: false,
+    });
+  });
+
+  CHARTS.ch_overview.data.datasets = datasets;
+  CHARTS.ch_overview.update();
+}
+
+function updateCasimir(p, f) {
+  const gaps = logRange(1, 3, 100); // 10 nm to 1000 nm
+  const epsVals = [1.0, 10, 100, 1000, 4000];
+  const colors = ['#475569','#0ea5e9','#22c55e','#f59e0b','#38bdf8'];
+  const datasets = [];
+
+  epsVals.forEach((eps, i) => {
+    datasets.push({
+      label: eps === 1 ? 'Ideal conductors' : `ε_r = ${eps}`,
+      data: gaps.map(g => ({x: g*10, y: casimirLifshitz(g*10, eps, p.temp)})),
+      borderColor: colors[i],
+      borderWidth: i === epsVals.length-1 ? 2.5 : 1.5,
+      pointRadius: 0,
+      fill: false,
+      tension: 0.1,
+    });
+  });
+
+  // Current design point
+  const Pc = casimirLifshitz(p.gap, p.epsr, p.temp);
+  datasets.push({
+    label: `Design point (${p.gap} nm, ε_r=${p.epsr})`,
+    data: [{x: p.gap, y: Pc}],
+    borderColor: '#f43f5e',
+    backgroundColor: '#f43f5e',
+    borderWidth: 0,
+    pointRadius: 7,
+    pointStyle: 'crossRot',
+  });
+
+  CHARTS.ch_casimir_gap.data.datasets = datasets;
+  CHARTS.ch_casimir_gap.update();
+
+  // Lifshitz correction vs eps_r
+  const epsRange = logRange(0, 4, 100); // 1 to 10000
+  datasets.length = 0;
+  datasets.push({
+    label: 'φ(ε) = (ε−1)/(ε+1)',
+    data: epsRange.map(e => ({x: e, y: lifshitzCorr(e)})),
+    borderColor: '#38bdf8',
+    borderWidth: 2,
+    pointRadius: 0,
+    fill: false,
+    tension: 0.2,
+  });
+  datasets.push({
+    label: `Current ε_r=${p.epsr}: φ=${lifshitzCorr(p.epsr).toFixed(4)}`,
+    data: [{x: p.epsr, y: lifshitzCorr(p.epsr)}],
+    borderColor: '#f43f5e',
+    backgroundColor: '#f43f5e',
+    borderWidth: 0,
+    pointRadius: 7,
+    pointStyle: 'crossRot',
+  });
+
+  CHARTS.ch_lifshitz.data.datasets = datasets;
+  CHARTS.ch_lifshitz.update();
+}
+
+function updatePower(p, f, Q, BW) {
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+
+  // Power vs N boundaries
+  const nVals = linRange(1, p.nmax, 100);
+  CHARTS.ch_power_n.data.datasets = [{
+    label: 'P_net vs N boundaries',
+    data: nVals.map(n => ({x: n, y: Math.max(1e-18, netPower(grossPower(P_cas, p.area, p.gap, f, n), p.eta, p.etarect))})),
+    borderColor: '#38bdf8', borderWidth: 2, pointRadius: 0, fill: false, tension: 0.1,
+  },{
+    label: `Design point (N=${p.nbnd})`,
+    data: [{x: p.nbnd, y: Math.max(1e-18, netPower(grossPower(P_cas, p.area, p.gap, f, p.nbnd), p.eta, p.etarect))}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_power_n.update();
+
+  // Power vs gap
+  const gVals = logRange(1, 3, 100); // 10 to 1000 nm
+  const stiction_limit_N = 100;
+  const datasets_g = [{
+    label: 'P_net vs gap',
+    data: gVals.map(g => ({x: g*10, y: Math.max(1e-18, netPower(grossPower(casimirLifshitz(g*10, p.epsr, p.temp), p.area, g*10, f, p.nbnd), p.eta, p.etarect))})),
+    borderColor: '#38bdf8', borderWidth: 2, pointRadius: 0, fill: false, tension: 0.1,
+  },{
+    label: `Design gap (${p.gap} nm)`,
+    data: [{x: p.gap, y: Math.max(1e-18, netPower(P_cas*p.area*1e-4*0.02*p.gap*1e-9*f*p.nbnd, p.eta, p.etarect))}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_power_gap.data.datasets = datasets_g;
+  CHARTS.ch_power_gap.update();
+}
+
+function updateNoise(p, f, Q, BW) {
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const P_net_cur = netPower(P_grs, p.eta, p.etarect);
+
+  const temps = linRange(p.tmin, p.tmax, 100);
+
+  // Noise vs T
+  const noiseFloor = temps.map(T => thermalNoise(T, BW));
+  const minDetect  = temps.map(T => minDetectPower(T, BW, p.snr, p.nf));
+
+  CHARTS.ch_noise_t.data.datasets = [{
+    label: 'Thermal noise kTB',
+    data: temps.map((T,i) => ({x:T, y:noiseFloor[i]})),
+    borderColor:'#475569', borderWidth:1.5, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: `Min detectable (SNR=${p.snr} dB, NF=${p.nf} dB)`,
+    data: temps.map((T,i) => ({x:T, y:minDetect[i]})),
+    borderColor:'#f59e0b', borderWidth:1.5, borderDash:[4,4], pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: `P_net at η=${p.eta.toExponential(1)}`,
+    data: [{x:p.tmin, y:P_net_cur},{x:p.tmax, y:P_net_cur}],
+    borderColor:'#38bdf8', borderWidth:2, borderDash:[6,3], pointRadius:0, fill:false,
+  }];
+  CHARTS.ch_noise_t.update();
+
+  // Min detectable eta vs T
+  CHARTS.ch_etamin_t.data.datasets = [{
+    label: 'Min detectable η',
+    data: temps.map(T => ({x:T, y: minDetectEta(P_grs, p.etarect, T, BW, p.snr, p.nf)})),
+    borderColor:'#22c55e', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: `Current η=${p.eta.toExponential(1)}`,
+    data: [{x:p.tmin, y:p.eta},{x:p.tmax, y:p.eta}],
+    borderColor:'#38bdf8', borderWidth:2, borderDash:[6,3], pointRadius:0, fill:false,
+  },{
+    label: `Current T (${p.temp} K)`,
+    data: [{x:p.temp, y:minDetectEta(P_grs, p.etarect, p.temp, BW, p.snr, p.nf)}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_etamin_t.update();
+}
+
+function updateFalsification(p, f, Q, BW) {
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const P_net = netPower(P_grs, p.eta, p.etarect);
+
+  // ── Test 3: Angular dependence ──────────────────────
+  const angles = linRange(0, 90, 91);
+  const GP_angular = angles.map(th => Math.pow(Math.cos(th * PI/180), 2));
+  const QM_angular = angles.map(() => 0);
+
+  CHARTS.ch_f3.data.datasets = [{
+    label: 'Genesis Physics: P(θ) = P_max·cos²(θ)',
+    data: angles.map((a,i) => ({x:a, y:GP_angular[i]})),
+    borderColor:'#38bdf8', borderWidth:2.5, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: 'Standard QM: P(θ) = 0 (isotropic vacuum)',
+    data: angles.map(a => ({x:a, y:0.0001})),
+    borderColor:'#f43f5e', borderWidth:2, borderDash:[4,4], pointRadius:0, fill:false,
+  }];
+  CHARTS.ch_f3.update();
+
+  // ── Test 4: Dielectric scaling ──────────────────────
+  const materials = [
+    {name:'Vacuum', eps:1.0},
+    {name:'PTFE',   eps:2.1},
+    {name:'Glass',  eps:3.75},
+    {name:'Al₂O₃', eps:9.0},
+    {name:'STO',    eps:310},
+    {name:'BaTiO₃',eps:4000},
+  ];
+  const eps_vals = materials.map(m=>m.eps);
+  const norm = (eps_vals[0]**0.5); // normalize to vacuum
+  const QM_scale = eps_vals.map(e => (e**0.5) / norm);
+  const GP_scale = eps_vals.map(e => (e**(1/3)) / (1.0**(1/3)));
+
+  CHARTS.ch_f4.data.datasets = [{
+    label: 'QM Lifshitz: P ∝ ε^0.5',
+    data: eps_vals.map((e,i) => ({x:e, y:QM_scale[i]})),
+    borderColor:'#f59e0b', borderWidth:2, pointRadius:5, fill:false, tension:0.1,
+  },{
+    label: 'Genesis Physics: P ∝ ε^(1/3)',
+    data: eps_vals.map((e,i) => ({x:e, y:GP_scale[i]})),
+    borderColor:'#38bdf8', borderWidth:2.5, pointRadius:5, fill:false, tension:0.1,
+  }];
+  CHARTS.ch_f4.update();
+
+  // ── Test 5: Temperature independence ──────────────────────
+  const T_arr = linRange(77, 400, 50);
+  const T_ref = 300;
+  const QM_T  = T_arr.map(T => T / T_ref);         // linear in T
+  const GP_T  = T_arr.map(() => 1.0);               // constant (vacuum source)
+
+  CHARTS.ch_f5.data.datasets = [{
+    label: 'Standard QM: P_peak ∝ T (thermal)',
+    data: T_arr.map((T,i) => ({x:T, y:QM_T[i]})),
+    borderColor:'#f59e0b', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: 'Genesis Physics: P_peak = const (vacuum source)',
+    data: T_arr.map((T,i) => ({x:T, y:GP_T[i]})),
+    borderColor:'#38bdf8', borderWidth:2.5, pointRadius:0, fill:false, tension:0.1,
+  }];
+  CHARTS.ch_f5.update();
+}
+
+function updateDynamics(p, f, Q) {
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+
+  // Skin depth vs frequency
+  const freqs_ghz = linRange(0.1, 5, 100);
+  CHARTS.ch_skin.data.datasets = [{
+    label: 'OFHC Copper δ_s',
+    data: freqs_ghz.map(fghz => ({x:fghz, y: skinDepth(fghz*1e9, RHO_CU)*1e6})),
+    borderColor:'#38bdf8', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: `Operating point (${(f/1e9).toFixed(3)} GHz)`,
+    data: [{x:f/1e9, y:skinDepth(f, RHO_CU)*1e6}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_skin.update();
+
+  // Stiction force vs N
+  const nVals = linRange(1, p.nmax, 100);
+  CHARTS.ch_stiction.data.datasets = [{
+    label: 'Total stiction force',
+    data: nVals.map(n => ({x:n, y:stictionForce(P_cas, p.area, n)})),
+    borderColor:'#f59e0b', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: 'Danger threshold (100 N)',
+    data: [{x:0,y:100},{x:p.nmax,y:100}],
+    borderColor:'#f43f5e', borderWidth:1.5, borderDash:[4,4], pointRadius:0, fill:false,
+  },{
+    label: `Design point (N=${p.nbnd})`,
+    data: [{x:p.nbnd, y:stictionForce(P_cas, p.area, p.nbnd)}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_stiction.update();
+
+  // Boundary velocity vs d·f
+  const df_vals = logRange(-2, 3, 100); // 0.01 to 1000 nm·GHz
+  CHARTS.ch_velocity.data.datasets = [{
+    label: 'v/c = 0.02·d·f / c',
+    data: df_vals.map(df => ({x:df, y: 0.02*(df*1e-9*1e9)/C_})),
+    borderColor:'#38bdf8', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: 'DCE threshold (0.25c)',
+    data: [{x:df_vals[0],y:0.25},{x:df_vals[df_vals.length-1],y:0.25}],
+    borderColor:'#f43f5e', borderWidth:1.5, borderDash:[4,4], pointRadius:0, fill:false,
+  },{
+    label: `MRG design (${p.gap}nm·${(f/1e9).toFixed(2)}GHz = ${(p.gap*(f/1e9)).toFixed(1)} nm·GHz)`,
+    data: [{x: p.gap*(f/1e9), y: 0.02*(p.gap*1e-9*f)/C_}],
+    borderColor:'#22c55e', backgroundColor:'#22c55e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_velocity.update();
+
+  // ZPF energy per mode vs frequency
+  const frange = linRange(0.1, 5, 100);
+  CHARTS.ch_zpf.data.datasets = [{
+    label: 'E_zpf = ½ħω',
+    data: frange.map(fghz => ({x:fghz, y:zpfEnergy(fghz*1e9)})),
+    borderColor:'#a78bfa', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: `Cavity (${(f/1e9).toFixed(3)} GHz)`,
+    data: [{x:f/1e9, y:zpfEnergy(f)}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_zpf.update();
+
+  // Case temp rise vs eta
+  const eta_arr = logRange(-6, 0, 80);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  CHARTS.ch_temp.data.datasets = [{
+    label: 'ΔT_case',
+    data: eta_arr.map(e => ({x:e, y:caseTempRise(P_grs, e, p.etarect, p.rth)})),
+    borderColor:'#fb923c', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  },{
+    label: 'BaTiO₃ Curie limit (120 °C above ambient)',
+    data: [{x:eta_arr[0],y:120},{x:eta_arr[eta_arr.length-1],y:120}],
+    borderColor:'#f43f5e', borderWidth:1.5, borderDash:[4,4], pointRadius:0, fill:false,
+  },{
+    label: `Current η=${p.eta.toExponential(1)}`,
+    data: [{x:p.eta, y:caseTempRise(P_grs, p.eta, p.etarect, p.rth)}],
+    borderColor:'#f43f5e', backgroundColor:'#f43f5e', borderWidth:0, pointRadius:7, pointStyle:'crossRot',
+  }];
+  CHARTS.ch_temp.update();
+
+  // Gross power vs eta (linear scale, simple)
+  CHARTS.ch_gross.data.datasets = [{
+    label: `P_gross (constant) = ${fmtSI(P_grs,'W',2)}`,
+    data: [{x:eta_arr[0],y:P_grs},{x:eta_arr[eta_arr.length-1],y:P_grs}],
+    borderColor:'#475569', borderWidth:1.5, borderDash:[4,4], pointRadius:0, fill:false,
+  },{
+    label: 'P_net = P_gross × η × η_rect',
+    data: eta_arr.map(e => ({x:e, y:Math.max(1e-18, netPower(P_grs, e, p.etarect))})),
+    borderColor:'#38bdf8', borderWidth:2, pointRadius:0, fill:false, tension:0.1,
+  }];
+  CHARTS.ch_gross.update();
+}
+
+// ══════════════════════════════════════════════════════════
+// DERIVED LIVE UPDATE
+// ══════════════════════════════════════════════════════════
+function updateDerived() {
+  const p = getParams();
+  const f   = cavityFreq(p.radius);
+  const Q   = cavityQ(p.radius, f);
+  const BW  = f / Q;
+  const ds  = skinDepth(f, RHO_CU) * 1e6; // μm
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const P_net = netPower(P_grs, p.eta, p.etarect);
+  const F_st  = stictionForce(P_cas, p.area, p.nbnd);
+  const dce   = dceRatio(p.gap, f);
+  const dT    = caseTempRise(P_grs, p.eta, p.etarect, p.rth);
+
+  const rows = [
+    ['f_cutoff',     `${(f/1e9).toFixed(4)} GHz`],
+    ['Q (unloaded)', Q.toFixed(0)],
+    ['Bandwidth',    `${(BW/1e3).toFixed(2)} kHz`],
+    ['Skin depth',   `${ds.toFixed(3)} μm`],
+    ['Casimir P',    `${P_cas.toFixed(1)} Pa`],
+    ['F_stiction',   `${F_st.toFixed(1)} N`],
+    ['P_gross',      fmtSI(P_grs, 'W', 2)],
+    ['P_net',        fmtSI(P_net, 'W', 2)],
+    ['DCE ratio',    dce.toExponential(2)],
+    ['ΔT_case',      `${dT.toFixed(1)} °C`],
+  ];
+
+  document.getElementById('derived-block').innerHTML =
+    rows.map(([k,v]) =>
+      `<div class="derived-row"><span class="derived-key">${k}</span><span class="derived-val">${v}</span></div>`
+    ).join('');
+}
+
+// ══════════════════════════════════════════════════════════
+// TAB SWITCHING
+// ══════════════════════════════════════════════════════════
+function switchCTab(btn, id) {
+  document.querySelectorAll('.ptab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.ptab-content').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('ctab-'+id).classList.add('active');
+}
+
+function switchRTab(btn, id) {
+  document.querySelectorAll('.rtab').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.rtab-content').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  document.getElementById('rtab-'+id).classList.add('active');
+  requestAnimationFrame(() => {
+    Object.values(CHARTS).forEach(c => { try { c.resize(); } catch(e){} });
+  });
+}
+
+// ══════════════════════════════════════════════════════════
+// PRESET LOADER
+// ══════════════════════════════════════════════════════════
+function loadPreset() {
+  const idx = +document.getElementById('presetSel').value;
+  const pr  = PRESETS[idx];
+  document.getElementById('p_radius').value  = pr.radius;
+  document.getElementById('p_gap').value     = pr.gap;
+  document.getElementById('p_nbnd').value    = pr.nbnd;
+  document.getElementById('p_epsr').value    = pr.epsr;
+  document.getElementById('p_area').value    = pr.area;
+  document.getElementById('p_temp').value    = pr.temp;
+  document.getElementById('p_eta').value     = pr.eta;
+  document.getElementById('p_etarect').value = pr.etarect;
+  document.getElementById('p_bfield').value  = pr.bfield;
+  document.getElementById('p_rth').value     = pr.rth;
+  updateDerived();
+  runSim();
+}
+
+// ══════════════════════════════════════════════════════════
+// EXPORT FUNCTIONS
+// ══════════════════════════════════════════════════════════
+function csvDownload(content, name) {
+  const a = document.createElement('a');
+  a.href = 'data:text/csv;charset=utf-8,' + encodeURIComponent(content);
+  a.download = document.getElementById('p_fname').value + '_' + name + '.csv';
+  a.click();
+}
+
+function exportCSV() {
+  const p = getParams();
+  const f = cavityFreq(p.radius);
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const etas = logRange(p.etamin, p.etamax, 100);
+  let csv = 'eta,P_net_W,P_net_mW\n';
+  etas.forEach(e => {
+    const pn = netPower(P_grs, e, p.etarect);
+    csv += `${e.toExponential(4)},${pn.toExponential(4)},${(pn*1e3).toExponential(4)}\n`;
+  });
+  csvDownload(csv, 'power_vs_eta');
+}
+
+function exportCasimirCSV() {
+  const p = getParams();
+  const gaps = logRange(1, 3, 100);
+  let csv = 'gap_nm,P_ideal_Pa,P_lifshitz_Pa\n';
+  gaps.forEach(g => {
+    const d = g * 10;
+    csv += `${d.toFixed(2)},${casimirIdeal(d).toExponential(4)},${casimirLifshitz(d, p.epsr, p.temp).toExponential(4)}\n`;
+  });
+  csvDownload(csv, 'casimir_vs_gap');
+}
+
+function exportFalsificationCSV() {
+  const p = getParams();
+  let csv = 'test,variable,QM_value,GP_value\n';
+  // Test 3
+  for (let th=0; th<=90; th+=5) {
+    csv += `3_angular,theta_deg_${th},0,${Math.pow(Math.cos(th*PI/180),2).toFixed(4)}\n`;
+  }
+  // Test 4
+  const mats = [{name:'vacuum',eps:1},{name:'PTFE',eps:2.1},{name:'glass',eps:3.75},{name:'Al2O3',eps:9},{name:'STO',eps:310},{name:'BaTiO3',eps:4000}];
+  mats.forEach(m => {
+    csv += `4_dielectric,eps_${m.eps},${(m.eps**0.5).toFixed(4)},${(m.eps**(1/3)).toFixed(4)}\n`;
+  });
+  // Test 5
+  for (let T=77; T<=400; T+=10) {
+    csv += `5_spectral,T_K_${T},${(T/300).toFixed(4)},1.0000\n`;
+  }
+  csvDownload(csv, 'falsification_suite');
+}
+
+function exportJSON() {
+  const p = getParams();
+  const f = cavityFreq(p.radius);
+  const Q = cavityQ(p.radius, f);
+  const P_cas = casimirLifshitz(p.gap, p.epsr, p.temp);
+  const P_grs = grossPower(P_cas, p.area, p.gap, f, p.nbnd);
+  const state = {
+    params: p, derived: {
+      f_GHz: f/1e9, Q, bandwidth_kHz: f/Q/1e3,
+      skin_depth_um: skinDepth(f, RHO_CU)*1e6,
+      casimir_pressure_Pa: P_cas,
+      P_gross_W: P_grs,
+      P_net_W: netPower(P_grs, p.eta, p.etarect),
+      stiction_N: stictionForce(P_cas, p.area, p.nbnd),
+      dce_ratio: dceRatio(p.gap, f),
+    }
+  };
+  const a = document.createElement('a');
+  a.href = 'data:application/json;charset=utf-8,' + encodeURIComponent(JSON.stringify(state, null, 2));
+  a.download = document.getElementById('p_fname').value + '_state.json';
+  a.click();
+}
+
+// ══════════════════════════════════════════════════════════
+// INIT
+// ══════════════════════════════════════════════════════════
+document.addEventListener('DOMContentLoaded', () => {
+  initCharts();
+  updateDerived();
+
+  document.querySelectorAll('#config-panel input').forEach(el => {
+    el.addEventListener('input', updateDerived);
+  });
+
+  // Suppress Guide→Overview switch during initial auto-load
+  _simHasRun = true;
+  document.getElementById('presetSel').value = DEFAULT_PRESET;
+  loadPreset();
+  _simHasRun = false;
+});
+</script>
+</body>
+</html>

@@ -948,7 +948,8 @@ Formulate this precisely: Define an entropy function $S(\eta)$ on the zone manif
 ### Genesis Physics (This Series)
 - Chapter 1: Seven Axioms of Genesis Physics
 - Chapter 2: Mathematical Foundations (Manifolds, Bundles, Differential Forms)
-- Vol 2, Book 1: *Firmament Equations* — Einstein equations and curvature calculations on the Zone Manifold
+- Foundations Vol 2 (Forces and Fields) — Einstein equations and curvature calculations on the Zone Manifold
+- Book 1 (Popular Science Flagship): *The Hidden Architecture — A Physics of the First Page* — lay-reader summary of gravity / membrane curvature, citing the Foundations derivations
 
 ### Supplementary
 - Wald, *General Relativity* (1984) — modern formulation of Einstein's theory

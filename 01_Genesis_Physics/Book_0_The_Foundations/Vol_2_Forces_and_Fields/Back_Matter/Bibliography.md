@@ -396,7 +396,7 @@ A graduate-level physics textbook deriving all four fundamental forces from zone
    [KK resonances at colliders]
 
 ### Brane World Models
-*Note: These references describe alternative approaches to extra-dimensional physics. The zone architecture shares mathematical tools (warp factors, KK reduction) but differs in physical interpretation. Comparative analysis continues in Book 1 (The Firmament Equations).*
+*Note: These references describe alternative approaches to extra-dimensional physics. The zone architecture shares mathematical tools (warp factors, KK reduction) but differs in physical interpretation. Accessible comparative analysis appears in Book 1 (Popular Science Flagship: *The Hidden Architecture — A Physics of the First Page*, Ch 6 "More Room Than You Think"); full rigorous comparison is completed in the later Foundations volumes of this series.*
 
 8. Rubakov, V. A., Shaposhnikov, M. E., "Do We Live Inside a Domain Wall?," *Physics Letters B*, 125, 136–142 (1983). DOI: 10.1016/0370-2693(83)91253-4.
    [Early brane localization concepts]

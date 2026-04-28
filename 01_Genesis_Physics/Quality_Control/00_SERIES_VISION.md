@@ -14,10 +14,12 @@ A complete physics education rebuilt from the ground up, starting from the archi
 
 | Product | Title | Audience | Format |
 |---------|-------|----------|--------|
-| **Foundations Series** (6 volumes) | *The Foundations of Genesis Physics* | Graduate physics / professional | Textbook series |
-| **Book 1** | *The Firmament Equations* | Physicists, engineers | Single volume |
-| **Book 2** | *The Hidden Architecture of Creation* | Curious lay readers | Single volume |
-| **The Creator's Blueprint** | *Genesis Physics: The Creator's Blueprint* | Homeschool families, parents | Teaching resource |
+| **Foundations Series** (6 volumes) | *The Foundations of Genesis Physics* | Graduate physics / professional | Textbook series (encyclopedia) |
+| **Popular Science Flagship** | *Genesis Physics: The Hidden Architecture — A Physics of the First Page* | Intelligent lay reader (Greene/Rovelli audience) | Single volume (folder: `Book_1_Hidden_Architecture/`) |
+| **Family Edition** | *Genesis Physics: The Creator's Blueprint (Family Edition)* | Homeschool families, parents, educators | Teaching resource (folder: `Book_3_The_Creators_Blueprint/`) |
+| *(archival)* | *The Hidden Architecture of Creation* (original Book 2) | — | Folded into Popular Science Flagship April 2026 |
+
+**Launch order (April 2026 repositioning):** Family Edition → Popular Science Flagship → Foundations Series (built in parallel as encyclopedia). The flagship's folder was renamed April 2026 from `Book_1_The_Firmament_Equations/` to `Book_1_Hidden_Architecture/`, and the GitHub label was renamed in parallel from `book:firmament-equations` to `book:hidden-architecture`.
 
 ---
 

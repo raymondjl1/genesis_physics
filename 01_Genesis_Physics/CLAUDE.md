@@ -25,17 +25,21 @@ The #1 governing principle of this entire project: **no concept is ever introduc
 │   ├── Papers/               ← Research papers (docx)
 │   ├── Peer_Review/          ← Critic and skeptic analysis
 │   └── Simulations/          ← Computational validations
-├── Book_0_The_Foundations/            ← 6-volume graduate textbook series (BUILD FIRST)
-├── Book_1_The_Firmament_Equations/    ← Physicist-level monograph (BUILD 2ND)
-├── Book_2_The_Hidden_Architecture/    ← Zero equations, general audience (BUILD 3RD)
-└── Book_3_The_Creators_Blueprint/     ← Scripture-first, homeschool families (BUILD LAST)
+├── Book_0_The_Foundations/            ← 6-volume graduate textbook series (encyclopedia; build in parallel)
+├── Book_1_Hidden_Architecture/    ← *The Hidden Architecture: A Physics of the First Page* — Popular Science Flagship (Launch SECOND) [folder renamed April 2026 from Book_1_The_Firmament_Equations/]
+├── Book_2_The_Hidden_Architecture/    ← ARCHIVAL — source material for Book 1 flagship (do not draft new standalone chapters here)
+└── Book_3_The_Creators_Blueprint/     ← The Creator's Blueprint (Family Edition) — Scripture-first, homeschool families (Launch FIRST)
 ```
 
-## Build Order (STRICT)
+## Launch Order (April 2026 repositioning)
 
-**Book 0 (The Foundations) → Book 1 (The Firmament Equations) → Book 2 (The Hidden Architecture) → Book 3 (The Creator's Blueprint)**
+**Family Edition (Book 3 folder) → Popular Science Flagship *The Hidden Architecture: A Physics of the First Page* (Book 1 folder) → Foundations Series (Book 0, built in parallel)**
 
-Every claim cascades upward. Never write a higher-level book before the foundation it rests on is complete. No rewrites — get it right the first time by building bottom-up.
+The Family Edition launches first because it serves the warmest, most word-of-mouth-driven audience (Christian homeschool families) and seeds the author platform for the popular-science flagship. The Foundations Series does not need a marketing launch — it is the encyclopedia that exists so the trade books can cite it.
+
+## Content Cascade (unchanged)
+
+Every claim still cascades upward. Never write a higher-level book before the foundation it rests on is complete. The Foundations Series must be substantially complete on the topics a trade book covers *before* the trade book drafts those topics. The Family Edition's physics content must trace through the Popular Science Flagship to the Foundations Series.
 
 ## Before You Write ANYTHING
 
@@ -100,12 +104,14 @@ When `gh` CLI is available:
 
 ## Products at a Glance
 
-| # | Title | Audience | Equations | Voice | Build Order |
+| # | Title | Audience | Equations | Voice | Launch Order |
 |---|-------|----------|-----------|-------|-------------|
-| 0 | **The Foundations of Genesis Physics** (6 vols) | Grad students/physicists | Heavy (LaTeX) | Feynman writing a textbook | **1st** |
-| 1 | **The Firmament Equations** | Working physicists | Moderate | Brian Greene's *Elegant Universe* | **2nd** |
-| 2 | **The Hidden Architecture** | Intelligent layperson | ZERO | Brian Cox meets C.S. Lewis | **3rd** |
-| 3 | **The Creator's Blueprint** | Homeschool families | None | Warm, encouraging teacher | **4th** |
+| 0 | **The Foundations of Genesis Physics** (6 vols) | Grad students/physicists | Heavy (LaTeX) | Feynman writing a textbook | **Parallel** (encyclopedia) |
+| 1 | ***The Hidden Architecture — A Physics of the First Page*** | Intelligent layperson (Greene/Rovelli reader) | Light (named equations, no derivations) | Jeff L. Raymond canonical voice (see `AUTHOR_VOICE_AND_BACKGROUND.md`) | **2nd** |
+| 2 | *(archival — folded into Book 1 flagship)* | — | — | — | — |
+| 3 | **The Creator's Blueprint (Family Edition)** | Homeschool families | None | Family-Edition specialization of the canonical voice | **1st** |
+
+Canonical voice and author background for the entire franchise: `AUTHOR_VOICE_AND_BACKGROUND.md` (root of this folder).
 
 ## What NOT to Do
 

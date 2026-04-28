@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  THE EXODUS PROTOCOL · GENESIS PHYSICA
+  Master franchise seal · v1
+  Monochrome pressed-wax aesthetic. Two colors only:
+    - wax body:        #9a1818 (oxblood)
+    - impression ink:  #f5e8c8 (warm cream)
+  No gradients. No glows. One soft outer shadow on the wax disc itself.
+  Designed for legible silhouette down to 32px favicon.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+
+  <defs>
+    <!-- ====================================================
+         Curved baselines for rim text.  Radius 350 — sits just
+         inside the inner rim line at r=362.
+
+         rim-top:    LEFT (162,512) → RIGHT (862,512), arc OVER
+                     the top.  Path tangent points right; outward
+                     normal points up (away from center) → glyphs
+                     appear upright.  Text reads left→right.
+                     Use literal "GENESIS · PHYSICA".
+
+         rim-bottom: RIGHT (862,512) → LEFT (162,512), arc UNDER
+                     the bottom.  Path tangent points left; outward
+                     normal points down (away from center) →
+                     glyphs are upright when text content is
+                     written in REVERSED reading order.  The text
+                     appears left→right when viewed.
+                     Use REVERSED string for "PRINCIPIUM · ET · FINIS".
+         ==================================================== -->
+    <!-- rim-top: left to right, arcing OVER the top of the circle.
+         sweep-flag 0 traces the upper half (y < 512) when going
+         from left to right. -->
+    <path id="rim-top"
+          d="M 162,512 A 350,350 0 0 1 862,512"
+          fill="none"/>
+    <!-- rim-bottom: right to left, arcing UNDER the bottom of
+         the circle. The path travels right→left along the bottom
+         so the path's "outward-normal" side (where glyph tops sit)
+         points away from the disc center → upright glyphs.
+         The text content is therefore written in REVERSED reading
+         order so the visual reads left→right correctly. -->
+    <path id="rim-bottom"
+          d="M 862,512 A 350,350 0 0 1 162,512"
+          fill="none"/>
+
+    <!-- Single soft outer shadow — the only effect permitted by the brief. -->
+    <filter id="press" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="6" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.45"/></feComponentTransfer>
+      <feMerge><feMergeNode in="off"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- ============================================================
+       1.  THE WAX DISC
+       Slightly irregular circle so it reads as pressed, not drawn.
+       ============================================================ -->
+  <g filter="url(#press)">
+    <!-- Wax body. Path is a near-circle with small radial wobbles. -->
+    <path fill="#9a1818" d="
+      M 512,92
+      C 628,93 738,138 822,222
+      C 906,306 935,418 932,512
+      C 933,624 893,734 812,820
+      C 728,902 624,933 512,932
+      C 396,931 287,886 204,802
+      C 120,718 91,608 92,512
+      C 90,398 134,289 218,206
+      C 302,122 408,91 512,92 Z"/>
+  </g>
+
+  <!-- ============================================================
+       2.  RIM RULES + RIM TEXT
+       Two thin concentric circles, intentionally hand-jittered.
+       Cream ink on the wax.
+       ============================================================ -->
+  <g fill="none" stroke="#f5e8c8" stroke-linecap="round">
+    <!-- Outer rim line -->
+    <circle cx="512" cy="512" r="402" stroke-width="3" stroke-dasharray="0" opacity="0.92"/>
+    <!-- Inner rim line — slightly thinner, defines the text band -->
+    <circle cx="512" cy="512" r="362" stroke-width="1.6" opacity="0.85"/>
+    <!-- Innermost rule that frames the figure -->
+    <circle cx="512" cy="512" r="312" stroke-width="1.2" opacity="0.70"/>
+  </g>
+
+  <!-- ============================================================
+       RIM TEXT  (textPath following the arcs declared in <defs>)
+
+       rim-top    arcs from (152,512) clockwise across the top
+                  to (872,512) — so text reading left-to-right
+                  along this path naturally curves over the top.
+       rim-bottom arcs from (152,512) counter-clockwise across
+                  the bottom to (872,512) — so text reading
+                  left-to-right curves under the bottom upright.
+
+       Both arcs have radius 360 (just inside the r=362 inner rim).
+       startOffset="50%" centers each phrase along its arc.
+       ============================================================ -->
+
+  <text fill="#f5e8c8"
+        font-family="Cinzel, 'Trajan Pro', 'Cormorant Garamond', Georgia, serif"
+        font-size="58" font-weight="600"
+        letter-spacing="14"
+        text-anchor="middle">
+    <textPath href="#rim-top" startOffset="50%">GENESIS · PHYSICA</textPath>
+  </text>
+
+  <text fill="#f5e8c8"
+        font-family="Cinzel, 'Trajan Pro', 'Cormorant Garamond', Georgia, serif"
+        font-size="46" font-weight="500"
+        letter-spacing="10"
+        text-anchor="middle">
+    <!-- Reversed string: rim-bottom path travels right→left so the
+         text's left-most rendered glyph ('P' of PRINCIPIUM) must be
+         the LAST character of the string. -->
+    <textPath href="#rim-bottom" startOffset="50%">SINIF · TE · MUIPICNIRP</textPath>
+  </text>
+
+  <!-- Rim divider stars at 9 o'clock and 3 o'clock — separate the two Latin lines -->
+  <g fill="#f5e8c8">
+    <circle cx="123"  cy="512" r="6"/>
+    <circle cx="901"  cy="512" r="6"/>
+  </g>
+
+  <!-- ============================================================
+       3.  THE COSMOLOGICAL FIGURE
+       All elements live inside the r=312 frame.
+       Vertical axis: 512.  Vertical layout (y-coords):
+         260  Source point         (Z1 / Heaven Prime)
+         270–470  Beam              (Day 1 light / Logos descending)
+         330, 360  Waters Above     (dark energy)
+         470–540  Firmament band    (the raqia / 3-brane)
+         600  Seven stars (arc)     (cosmos / baryonic matter)
+         680, 710  Waters Below     (dark matter)
+       ============================================================ -->
+  <g stroke="#f5e8c8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- 3a. THE SOURCE
+         A single radiant point with a few short rays.  No glow,
+         no gradient — rays are graphic ink only. -->
+    <g stroke-width="3.5" stroke-linecap="round">
+      <!-- Radiant strokes — slightly longer and more spread, hand-drawn lengths. -->
+      <line x1="512" y1="208" x2="512" y2="246"/>
+      <line x1="478" y1="222" x2="494" y2="252"/>
+      <line x1="546" y1="222" x2="530" y2="252"/>
+      <line x1="452" y1="248" x2="482" y2="262"/>
+      <line x1="572" y1="248" x2="542" y2="262"/>
+    </g>
+    <!-- The Source itself: a solid filled disc -->
+    <circle cx="512" cy="272" r="9" fill="#f5e8c8" stroke="none"/>
+
+    <!-- 3b. THE BEAM (Day 1 light descending)
+         A tapered single ink stroke, NOT a rendered cone.
+         Drawn as two converging ink lines so it reads as graphic
+         rays rather than a popsicle stick. -->
+    <g stroke-width="2.4" opacity="0.95">
+      <line x1="510" y1="282" x2="500" y2="468"/>
+      <line x1="514" y1="282" x2="524" y2="468"/>
+      <!-- A central thin axis line — the column of light. -->
+      <line x1="512" y1="282" x2="512" y2="468" stroke-width="1.6" opacity="0.75"/>
+    </g>
+
+    <!-- 3c. WATERS ABOVE
+         Two horizontal wave-pair lines.  Each is a gentle sine
+         drawn left to right.  Reads clearly as water, not as dots. -->
+    <g stroke-width="3" opacity="0.95">
+      <path d="M 248,332
+               C 296,318 344,346 392,332
+               C 440,318 488,346 536,332
+               C 584,318 632,346 680,332
+               C 728,318 776,346 776,332"/>
+      <path d="M 248,366
+               C 296,352 344,380 392,366
+               C 440,352 488,380 536,366
+               C 584,352 632,380 680,366
+               C 728,352 776,380 776,366"/>
+    </g>
+
+    <!-- 3d. THE FIRMAMENT (raqia / 3-brane)
+         The dominant feature.  A complete shape — a long thick
+         horizontal bar with squared-off ends so it reads as a
+         finished membrane, not a fading edge.  Filled cream. -->
+    <g>
+      <!-- Main band, drawn as a path so we can give it slightly
+           hand-pressed corners (not perfect rect). -->
+      <path fill="#f5e8c8" stroke="none" d="
+        M 198,484
+        L 826,482
+        L 828,538
+        L 196,540
+        Z"/>
+      <!-- A second, thinner inner rule running along the band:
+           lets the firmament read as a structured membrane, not
+           a slab.  Still a single color. -->
+      <line x1="216" y1="511" x2="808" y2="511" stroke="#9a1818" stroke-width="1.4" opacity="0.55"/>
+    </g>
+
+    <!-- 3e. SEVEN STARS / COSMOS (the days; baryonic matter)
+         Six to seven luminous points arranged in a shallow arc
+         below the firmament.  Filled cream discs, hand-spaced. -->
+    <g fill="#f5e8c8" stroke="none">
+      <!-- Deeper arc so the seven stars read as a curve, not a row. -->
+      <circle cx="320" cy="638" r="7"/>
+      <circle cx="386" cy="616" r="7"/>
+      <circle cx="450" cy="600" r="7"/>
+      <circle cx="512" cy="594" r="8.5"/>   <!-- center star, slightly larger -->
+      <circle cx="574" cy="600" r="7"/>
+      <circle cx="638" cy="616" r="7"/>
+      <circle cx="704" cy="638" r="7"/>
+    </g>
+
+    <!-- 3f. WATERS BELOW
+         Mirror of waters above. Pushed slightly further down to
+         give the deeper star-arc room to breathe. -->
+    <g stroke-width="3" opacity="0.95">
+      <path d="M 248,694
+               C 296,680 344,708 392,694
+               C 440,680 488,708 536,694
+               C 584,680 632,708 680,694
+               C 728,680 776,708 776,694"/>
+      <path d="M 248,728
+               C 296,714 344,742 392,728
+               C 440,714 488,742 536,728
+               C 584,714 632,742 680,728
+               C 728,714 776,742 776,728"/>
+    </g>
+
+  </g>
+
+  <!-- ============================================================
+       4.  COLOPHON DOT
+       A single small star at the very bottom of the inner frame —
+       a quiet anchor.  Optional.
+       ============================================================ -->
+  <circle cx="512" cy="800" r="3.5" fill="#f5e8c8"/>
+
+</svg>
