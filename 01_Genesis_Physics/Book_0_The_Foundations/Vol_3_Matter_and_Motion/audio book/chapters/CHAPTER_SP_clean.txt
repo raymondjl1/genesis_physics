@@ -1,0 +1,83 @@
+Date: April 7, 2026
+Status: SPEC COMPLETE
+Author: Jeff Raymond (via Claude)
+Lifecycle Phase: 1 — Spec
+
+Overview.
+
+The Vol 3 back matter comprises four components, each with a distinct pedagogical and reference function:
+
+1. Appendix A: Key Results from Volumes 1–2 — A concise but complete reference of every Vol 1 and Vol 2 equation cited anywhere in Vol 3. The student should be able to look up any referenced result without flipping back to earlier volumes.
+2. Appendix B: Experimental Mechanics Data — All experimental data (force measurements, material properties, thermodynamic constants) used or predicted in Vol 3, with sources.
+3. Problem Sets with Selected Solutions (Ch 1–12) — 3–5 problems per chapter spanning computational, conceptual, and challenge difficulty.
+4. Bibliography — 100+ references spanning foundational papers, modern experiments, textbooks, and zone-specific sources.
+
+This back matter differs from Vol 2's in one critical respect: Appendix A is a back-reference, not a math review. Vol 2's Appendix A was a vector-calculus / tensor toolkit. Vol 3 assumes that toolkit (and Vol 1 Appendix B's notation) and instead collects the specific equations Vol 3 cites, so the student has them at fingertip distance.
+
+Component Requirements.
+
+Appendix A: Key Results from Volumes 1–2.
+
+Req ID: BM-A01. Requirement: Every Vol 1 equation cited in Vol 3 must appear. Acceptance Criteria: Cross-check against all 12 chapter drafts; no orphan citations.
+Req ID: BM-A02. Requirement: Every Vol 2 equation cited in Vol 3 must appear. Acceptance Criteria: Cross-check against all 12 chapter drafts.
+Req ID: BM-A03. Requirement: Each entry must reproduce the full equation, not a placeholder. Acceptance Criteria: Student can read off the result without opening Vol 1/2.
+Req ID: BM-A04. Requirement: Organized by volume → chapter → equation number. Acceptance Criteria: Linear lookup by citation tag `(1.Ch.Eq)` or `(2.Ch.Eq)`.
+Req ID: BM-A05. Requirement: Each result carries a one-line "what it says" gloss. Acceptance Criteria: Not just the equation — the meaning.
+Req ID: BM-A06. Requirement: Cross-referenced from Vol 3 chapters. Acceptance Criteria: Each entry lists which Vol 3 chapters cite it.
+Req ID: BM-A07. Requirement: Notation matches Vol 1 Appendix B exactly. Acceptance Criteria: Every symbol consistent.
+
+Appendix B: Experimental Mechanics Data.
+
+Req ID: BM-B01. Requirement: Tabulate all material properties used. Acceptance Criteria: Elastic moduli, densities, yield strengths, speeds of sound — Cu, Al, Fe, Diamond, H₂O, air.
+Req ID: BM-B02. Requirement: Tabulate all thermodynamic constants. Acceptance Criteria: k_B, N_A, R, σ_SB, c_1, c_2 Planck radiation constants; with CODATA source.
+Req ID: BM-B03. Requirement: Tabulate all kinetic/transport coefficients. Acceptance Criteria: Viscosity, thermal conductivity, diffusion for standard gases/liquids at STP.
+Req ID: BM-B04. Requirement: Planck spectrum data. Acceptance Criteria: CMB temperature, peak wavelength, u_total — COBE/FIRAS + Planck 2018.
+Req ID: BM-B05. Requirement: Phase transition data. Acceptance Criteria: Critical points (H₂O, CO₂), latent heats, Curie temperatures; electroweak scale.
+Req ID: BM-B06. Requirement: Particle masses used in Ch 6–7. Acceptance Criteria: e, μ, τ, u, d, s, c, b, t, W, Z, Higgs — PDG 2024.
+Req ID: BM-B07. Requirement: Orbital mechanics data. Acceptance Criteria: Planetary semi-major axes, periods, eccentricities — verify Kepler's 3rd law.
+Req ID: BM-B08. Requirement: Zone-derived vs. measured comparison. Acceptance Criteria: Side-by-side with % agreement where the framework makes a prediction.
+Req ID: BM-B09. Requirement: Every number cites its source. Acceptance Criteria: CODATA year, PDG year, NIST database, COBE/FIRAS paper, etc..
+
+Problem Sets.
+
+Req ID: BM-P01. Requirement: 4–5 problems per chapter (48–60 total). Acceptance Criteria: Spanning computational, conceptual, and challenge.
+Req ID: BM-P02. Requirement: At least 1 fully worked solution per chapter. Acceptance Criteria: Student can trace the reasoning.
+Req ID: BM-P03. Requirement: No forward references. Acceptance Criteria: Problems use only Vols 1–3 (Ch 1–12) material.
+Req ID: BM-P04. Requirement: Cover each chapter's major derivations. Acceptance Criteria: At least one problem per headline result.
+Req ID: BM-P05. Requirement: Include "explain why" problems. Acceptance Criteria: Not just computation.
+Req ID: BM-P06. Requirement: At least 3 challenge problems extending the derivations. Acceptance Criteria: Push the framework.
+Req ID: BM-P07. Requirement: **The Student reviewer's priority**. Acceptance Criteria: Problems must be genuinely solvable using only the zone framework.
+
+Bibliography.
+
+Req ID: BM-R01. Requirement: 100+ references. Acceptance Criteria: Foundational, textbooks, modern experiments, zone-specific.
+Req ID: BM-R02. Requirement: Organized by category. Acceptance Criteria: (1) Foundational papers (2) Textbooks (3) Experimental papers (4) Data compilations (5) Zone-specific.
+Req ID: BM-R03. Requirement: Complete citation format. Acceptance Criteria: Author(s), Title, Journal/Publisher, Year, DOI where available.
+Req ID: BM-R04. Requirement: Every in-text citation appears. Acceptance Criteria: Cross-check against all 12 chapters.
+
+Prerequisites.
+
+- All 12 Vol 3 chapter drafts (all present in Ch01...Ch12 folders)
+- Vol 1 Appendix B (Notation Reference) — canonical authority
+- Vol 1 & Vol 2 complete (as per WRITING_PROMPT.md, assumed)
+- Vol 2 Back Matter (as format model)
+
+Verification Criteria.
+
+- [ ] All Vol 1/Vol 2 equations cited in Vol 3 appear in Appendix A
+- [ ] All notation matches Vol 1 Appendix B
+- [ ] Every number in Appendix B cites its source
+- [ ] Problem sets reference only Vols 1–3
+- [ ] Bibliography ≥ 100 entries
+- [ ] No forward references to Vol 4+
+- [ ] All 9 assigned Vol 3 reviewers pass
+- [ ] Student reviewer's question — "Can I actually solve these?" — answered YES
+
+Lifecycle Phases.
+
+1. Spec — this document ✓
+2. Outline — component layout with figure/table plan
+3. Draft — Appendix A → Appendix B → Problem Sets → Bibliography
+4. Self-Review — full pass using Vol 2 Self-Review as model
+5. Reviewer Agents — 9 reviewer pass
+6. Finalize — mark VERIFIED and deliver

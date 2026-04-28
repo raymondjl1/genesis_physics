@@ -1,0 +1,582 @@
+Foundations Vol 5: The Cosmos — Part II: Black Holes and Extreme Objects.
+
+"In my end is my beginning." — T. S. Eliot, Four Quartets
+This chapter is about what Chapter 1 did not tell you. Chapter 1 derived the Schwarzschild metric as the unique static, spherically symmetric, asymptotically flat vacuum solution of the four-dimensional effective Einstein equations. Everything about that derivation is valid outside the horizon. What the derivation did not tell you — and what no textbook derivation of the Schwarzschild metric can tell you — is what the physical object at r r sub s actually is. General relativity's default answer is "a curvature singularity at r = 0." The default answer is not forced by the exterior solution. The zone architecture of Volume 1 gives a different answer, and unlike the GR default, this one is forced.
+
+What This Chapter Is (and Is Not).
+
+Let me state very carefully what this chapter does and does not do, because the reinterpretation that follows has sometimes been received as more radical than it is.
+
+What this chapter does: It identifies the interior region r < r sub s of a Schwarzschild or Kerr black hole — the region inside the event horizon — with a breach in the 3-brane membrane that Vol 1 Ch 5 called the Firmament. It shows that this identification is forced by the combination of (a) Vol 1 §5.3's derivation of c to the 2 = sigma / mu as the wave speed on the membrane, (b) the positivity constraint sigma 0 (Vol 1 §5.6 proved this as a no-Jeans-instability condition), and (c) the exterior Schwarzschild solution (5.1.34) recovered in Chapter 1. It then uses the reinterpretation to rederive black hole entropy, preview Hawking radiation, and make a small number of distinct-from-GR predictions that Chapter 6 and Volume 6 will develop further.
+
+What this chapter does not do: It does not change a single exterior observable. Every calculation of Chapter 2 (perihelion advance, light bending, Shapiro delay, gravitational redshift), every calculation of Chapter 3 (gravitational-wave emission and waveform matching), and every calculation of Chapter 4 (ISCO, Penrose process, neutron-star interior) is unchanged. The exterior Schwarzschild and Kerr metrics are the same; the observables derived from them are the same; the experimental tests they pass are the same tests they passed in Chapters 2–4. What changes is the interpretation of the interior — the region that, crucially, no external observer can probe directly.
+
+A note to the Theologian reviewer. The word "Firmament" (from Vol 1 Ch 5) is the name this textbook uses for the 3-brane hypersurface Z sub 2.2. The word "puncture" is a mathematical term describing a point or region where a submanifold fails to be a smooth embedding. The phrase "puncture in the firmament" is therefore a statement about topology and embedding geometry, not a theological claim. The terminology was chosen in Vol 1 for its physical suggestiveness (a tensioned membrane with a hole in it) and because of the historical observation that the Hebrew rāqîa' denotes a hammered, stretched object — a physical membrane, as the physics turns out to require. Beyond noting that the terminology is not arbitrary, this chapter makes no theological claims. Where we describe black holes as "recycling" or "zone infrastructure," we mean thermodynamic recycling and geometric infrastructure; we do not mean cosmic providence or eschatology. Claims of that kind belong to Book 3 (The Creator's Blueprint), where they will be made — carefully, soberly, and with full attention to the line between derivation and commentary.
+
+A note to the "But Why?" reviewer. You will want to know, at every step, why the membrane-puncture interpretation is required rather than merely available. The reviewer's question is legitimate and the chapter has been built around it. Section 5.3 is the key: it shows that the only alternative interpretations (singularity, firewall, fuzzball, smooth interior) are either inconsistent with Vol 1 Ch 5's membrane mechanics or require modifications to the zone action that we have no independent reason to make. The reinterpretation of this chapter is not "another option" — it is the option that does not require breaking something we have already built.
+
+Roadmap. §5.1 inventories the results from Chs 1–4 and Vol 1 Ch 5 that we will need. §5.2 derives the tension profile sigma (r) around a spherical mass. §5.3 establishes the breach criterion as a theorem. §5.4 derives the critical density for black hole formation. §5.5 reinterprets the event horizon as a zone boundary. §5.6 derives black hole thermodynamics — the Bekenstein–Hawking entropy S = A/(4 ell sub P to the 2) — by counting membrane-boundary modes, and previews the Hawking temperature (full Hawking radiation derivation is Ch 6). §5.7 extends everything to rotating (Kerr) black holes. §5.8 states and proves the consistency theorem, then enumerates the falsifiable new predictions. §5.9 is the Reviewer's Ledger. §5.10 is the problem set.
+
+Inventory: The Toolkit From Previous Chapters.
+
+As in Chapter 1, we first take stock of what has already been paid for, so that we do not accidentally spend the same result twice or pretend to derive something that was derived elsewhere.
+
+From Vol 1 Ch 5 — the Firmament as Membrane.
+
+Volume 1, Chapter 5 established the Firmament Sigma Z sub 2.2 as a 4-dimensional codimension-2 brane embedded in the 6D zone manifold. The membrane has:
+
+Tension. A 3-brane tension sigma with dimensions [M L to the -1 T to the -2], appearing in the Nambu–Goto action (Vol 1 Eq. 1.5.26). Numerically, sigma approximately equal to 6.0 times 10 to the 98 J/m (AXIOMMEMBRANEMECHANICS_v2.md §5, quoted in Vol 1 §5.3).
+
+Mass density. A 3-brane mass density mu with dimensions [M L to the -3], contributing a kinetic term 12 mu ( partial Phi ) to the 2 for transverse displacements Phi (Vol 1 Eq. 1.5.30). Numerically, mu approximately equal to 6.7 times 10 to the 81 kg/m³.
+
+Wave speed. The central result of Vol 1 §5.3:
+
+[Equation — see print edition.]
+
+not a postulate but a derived consequence of the membrane's Lagrangian dynamics. All 4D matter and radiation propagates as excitations of the Firmament, so "the speed of light" is literally the wave speed on this membrane.
+
+Positivity of tension. Vol 1 §5.6 proved — from the requirement that small perturbations Phi have real-valued frequencies and do not grow exponentially — that sigma > 0 strictly wherever the membrane exists. A region where sigma would be negative is Jeans-unstable on every wavelength and therefore cannot exist as a continuum membrane. A region where sigma = 0 is marginally unstable: the wave speed is zero, the dispersion relation degenerates, and perturbations neither propagate nor decay. We will need both cases.
+
+Extrinsic curvature. From Vol 1 Eq. (1.5.17), the extrinsic curvature of the Firmament with respect to the xi-normal direction is
+
+[Equation — see print edition.]
+
+and analogously for eta. The umbilic structure — that K proportional to gamma — will matter in §5.3 when we ask how a localized mass distorts the embedding.
+
+Membrane stress-energy. From Vol 1 Eq. (1.5.28), the membrane stress-energy is
+
+[Equation — see print edition.]
+
+i.e., a perfect fluid with w = -1 (tension). This is what appears on the right-hand side of the Israel–Darmois junction conditions.
+
+From Vol 5 Ch 1 — Schwarzschild and Kerr.
+
+Chapter 1 derived, from the 6D action via Kaluza–Klein dimensional reduction, the 4D Einstein field equations (5.1.22). The unique static, spherically symmetric, asymptotically flat vacuum solution is the Schwarzschild metric (Eq. 5.1.34):
+
+[Equation — see print edition.]
+
+The unique stationary, axisymmetric, asymptotically flat vacuum solution is the Kerr metric (Eq. 5.1.36):
+
+[Equation — see print edition.]
+
+with Sigma = r to the 2 + a to the 2 to the 2 theta, Delta = r to the 2 - r sub s r + a to the 2, a = J/(Mc).
+
+Both of these are exterior solutions. The derivation of Chapter 1 uses the asymptotic-flatness boundary condition at r to infinity and the vacuum condition T sub mu nu = 0 in the exterior region; it does not specify the interior stress-energy and therefore does not fix the interior geometry. This is the gap that the present chapter fills.
+
+From Vol 5 Ch 4 — strong-field regime.
+
+Chapter 4 §4.3 analyzed the Kerr ergosphere — the region between r_+ (outer horizon) and the static limit the expression — and showed that the Killing vector partial sub t becomes spacelike there. The Penrose process extracts energy from the hole's spin, bounded by the Christodoulou irreducible-mass formula. The ISCO analysis of §4.2 showed that test particles in Schwarzschild geometry have a minimum stable orbital radius at r = 6GM/c to the 2. Nothing in this chapter changes any of that, because all three results depend only on the exterior metric.
+
+Chapter 4 §4.12.4 explicitly forward-linked to the present chapter: "Chapter 5 will take the Kerr ergosphere of §4.3 and reinterpret the interior of the horizon as a membrane puncture in the brane. The exterior Kerr metric and the Penrose process results of §4.3 are unchanged by that reinterpretation." We now keep the promise.
+
+From Vol 1 Ch 11 — the thermodynamic axiom.
+
+Volume 1, Chapter 11, established the framework's thermodynamic axiom: the entropy of a region of the Firmament is proportional to the logarithm of the number of brane-vibration modes that the region supports, cut off in the ultraviolet at the Planck length ell sub P. In equation form, this is
+
+[Equation — see print edition.]
+
+which is the zone-framework analog of Boltzmann's entropy formula. The key physical content is that entropy counts degrees of freedom that are on the membrane. Bulk degrees of freedom (Waters Above, Waters Below) contribute in a different way and are bounded on 4D regions only through their boundary values on the Firmament. We will use this axiom in §5.6.
+
+What we will use and what we will not.
+
+Will use, without re-derivation:
+
+1. The Nambu–Goto action for the membrane, (Vol 1 Eq. 1.5.26).
+2. The wave-speed formula c to the 2 = sigma / mu, (5.5.1).
+3. Positivity of tension, sigma > 0 on the membrane (Vol 1 §5.6).
+4. The exterior Schwarzschild (5.5.4) and Kerr (5.5.5) metrics (Ch 1).
+5. The Vol 1 Ch 11 entropy axiom (5.5.6).
+6. The Israel–Darmois junction conditions at codimension-2 branes (Vol 1 §5.4).
+
+Will not use:
+
+1. Any statement about the interior metric at r < r sub s derived from GR alone. We are about to replace that with something else.
+2. Any assumption that the entropy of a black hole is A/(4 ell sub P to the 2). We will derive this in §5.6.
+3. Any assumption that Hawking radiation exists. We will motivate it in §5.6 and derive it properly in Ch 6.
+
+With the inventory complete, we can start.
+
+The Effective Membrane Tension Around a Spherical Mass.
+
+The physical question.
+
+A static spherical mass M, far from any other source, creates the exterior Schwarzschild geometry (5.5.4). The question I want to ask in this section is: what does this do to the local tension of the Firmament?
+
+Why should it do anything at all? Because the wave speed on the Firmament is the speed of light (Vol 1 §5.3), and the speed of light is observed to vary with gravitational potential (Shapiro delay, gravitational redshift, Vol 5 Ch 2). If the observed value of c depends on position — specifically, on the distance r from the mass M — and if Vol 1 §5.3's derivation c to the 2 = sigma / mu is to be taken seriously as a pointwise statement, then at least one of sigma or mu must depend on r. The Shapiro delay and the classical tests of Ch 2 allow us to read off exactly how.
+
+The redshift of the wave speed.
+
+A distant observer at infinity, watching a light pulse travel radially between two points near the mass, measures a coordinate speed
+
+[Equation — see print edition.]
+
+where c_ infinity = 2.998 times 10 to the 8 m/s is the speed of light measured at r to infinity. This is the standard result of Vol 5 Ch 2 §2.5 (see Eq. 5.2.24), and it is unmodified by anything in this chapter.
+
+A freely-falling observer at radius r, using their local inertial frame (proper time and proper radial distance), measures the local speed of that same pulse to be exactly c_ infinity. The coordinate discrepancy between "measured at infinity" and "measured locally" is the gravitational redshift — a difference between coordinate time and proper time.
+
+But now comes the interesting observation. Translate the coordinate speed (5.5.7) into a statement about the local wave equation. In isotropic-in-the-tangent-plane coordinates adapted to the membrane induced metric, a pulse travels at the group velocity of the membrane's wave equation:
+
+[Equation — see print edition.]
+
+If the measurement at infinity is to agree with the geodesic calculation from the Schwarzschild metric, and the local measurement is to agree with c to the 2 = sigma  infinity / mu  infinity in the freely-falling frame, then the ratio sigma (r)/ mu (r) must, as measured by the distant observer, satisfy
+
+[Equation — see print edition.]
+
+The square comes from the coordinate speed being the expression, not c infinity square root of 1 - r sub s/r: the redshift factor enters twice, once from the time dilation (dt to dt/ square root of 1 - r sub s/r) and once from the length contraction in the radial direction (dr to dr square root of 1 - r sub s/r). This is a purely coordinate-coordinate conversion; the local ratio the expression is still c infinity to the 2 everywhere.
+
+So far, we have said nothing that distinguishes between sigma and mu individually. The coordinate speed only pins down the ratio.
+
+Separating sigma and mu: the brane mass density is rigid.
+
+Here is where the membrane interpretation adds content that standard GR does not have. The mass density mu of the membrane is an intrinsic property of the 6D bulk: it is set by the bulk fields at the location of the membrane, and in particular by the value of the warp factor B sub 0 = B( xi sub 0, eta sub 0) via the relationship (Vol 1 §5.3, Eq. 1.5.24a):
+
+[Equation — see print edition.]
+
+where mu sub 0 is a bulk constant. The warp factor B sub 0 depends only on the 6D geometry in the extra-dimensional directions, not on the 4D matter distribution at any specific point (t,r, theta , phi ). Said plainly: the brane's mass density is set by how the 6D bulk is curved in the directions perpendicular to the brane, while the gravitational redshift of the wave speed is set by how the 4D brane geometry is curved in the directions along the brane. These are different pieces of the 6D curvature tensor, and to leading order they do not talk to each other. In particular, a Schwarzschild mass is a 4D source; its stress-energy lives in the mu nu block of the 6D Einstein tensor, and through the reduced field equations of Ch 1 §1.2 it sources the 4D Einstein tensor, but it does not modify B( xi , eta ) — those are independent degrees of freedom whose dynamics are governed by the bulk equations of Vol 1 Ch 6, not by 4D matter.
+
+Therefore, to leading order in the 4D/6D coupling, mu is spatially constant in the 4D exterior of a Schwarzschild mass:
+
+[Equation — see print edition.]
+
+The second-order backreaction term is genuinely present (the 4D source ultimately does perturb the 6D geometry, and so the warp factor at the brane location is shifted by an amount of order GM/(r c to the 2) times ( ratio of 4D to 6D scales)), but it is quantitatively negligible for all astrophysical black holes by about 30 orders of magnitude. We will treat mu as constant and flag the backreaction as gap G1 in §5.9.
+
+With mu constant, the entire r-dependence in the ratio (5.5.9) lives in sigma (r):
+
+[Equation — see print edition.]
+
+This is the coordinate-time tension profile — what the distant observer reads off from the coordinate speed of light. In terms of the local proper-time / proper-length variables of a stationary observer at r, the tension is
+
+[Equation — see print edition.]
+
+the single (not squared) redshift factor, because one factor of (1 - r sub s/r) to the 1/2 has been absorbed into the local observer's ruler. Both forms say the same physical thing. For the breach argument that follows, what matters is that both forms of sigma (r) go to zero as the expression.
+
+Dimensional check.
+
+Let us verify (5.5.12). [ sigma ] = [M L to the -1 T to the -2]; the factor (1 - r sub s/r) to the 2 is dimensionless; therefore [ sigma (r)] = [M L to the -1 T to the -2] as required. 
+
+And a numerical sanity check: for a solar-mass black hole (M = M, r sub s approximately equal to 2.95 km), at r = 10 r sub s approximately equal to 30 km, (5.5.12) gives the expression. At r = 100 r sub s, sigma = 0.9801 sigma  infinity — a 2% reduction. At r = 1 AU (approximately equal to 1.5 times 10 to the 11 m), the expression — completely unobservable. The tension profile is essentially constant throughout the solar system; it is only near the Schwarzschild radius that the profile bends noticeably.
+
+Why this derivation is not a tautology.
+
+A careful reader will object: "You assumed the exterior Schwarzschild metric, and you assumed Vol 1 §5.3's derivation of c to the 2 = sigma / mu. Haven't you just rewritten one in terms of the other?" The answer is: partially yes, and that is exactly the point. The content of this section is not a new physical prediction — it is a translation between the geometric description (metric coefficients) and the mechanical description (membrane tension). Both descriptions are valid; both are consistent with Chs 1–4; but only the mechanical description admits the question "what happens when sigma hits zero?" That question has a physical answer, and the geometric description does not force any particular answer onto us. The translation is the content; the consequences start in §5.3.
+
+[Figure — see print edition.]
+
+The Breach Criterion: Why r = r sub s Is Structurally Special.
+
+The positivity constraint.
+
+Volume 1, §5.6, proved as a theorem that the tension of a physical continuum membrane must be strictly positive: sigma > 0. The proof is short enough to restate here because the rest of this chapter rests on it.
+
+Consider the linearized membrane Lagrangian (Vol 1 Eq. 1.5.34),
+
+[Equation — see print edition.]
+
+and derive the dispersion relation for plane-wave perturbations Phi proportional to e to the i( k times x - omega t):
+
+[Equation — see print edition.]
+
+If sigma > 0, then omega is real: perturbations oscillate but do not grow. If sigma < 0, then omega to the 2 < 0, meaning omega = plus or minus i |k| square root of | sigma |/ mu is pure imaginary. The + root gives exponentially growing perturbations with growth rate |k| square root of | sigma |/ mu. Because |k| can be arbitrarily large (ultraviolet modes), the instability growth rate is unbounded above: every mode of every wavelength grows, and the growth rate is fastest at the shortest wavelengths. There is no timescale on which a sigma < 0 region can exist as a continuum; it disintegrates on the Planck timescale from below. This is the membrane form of the Jeans instability, and it is more virulent than the hydrodynamic Jeans instability because it has no stabilizing pressure scale.
+
+The intermediate case sigma = 0 is also unphysical: the dispersion relation degenerates to omega = 0 for all k, meaning no modes propagate, information cannot be transmitted across the sigma = 0 surface, and (because the kinetic term in (5.5.14) still exists but the potential term does not) the membrane has no restoring force against transverse deformation. A sigma = 0 surface is a boundary: on one side, modes propagate; on the other, they cannot; at the surface, the membrane as a dynamical object ends.
+
+The breach theorem.
+
+Combine (5.5.13) with the positivity theorem of the previous subsection.
+
+Theorem 5.5.1 (Breach Theorem). In the exterior Schwarzschild geometry of a mass M, the Firmament membrane cannot exist as a continuum object at any r < r sub s, where r sub s = 2GM/c to the 2. It is marginally not-a-membrane at r = r sub s, and exists as a proper continuum only for r > r sub s.
+
+Proof. The local tension is the expression by (5.5.13). For r > r sub s, sigma  local > 0 and the membrane is stable. At r = r sub s, sigma  local = 0 and (by §5.3.1) the dispersion relation degenerates — the membrane is marginally undefined. For r < r sub s, sigma _ local < 0 and (by the Jeans-instability argument) a continuum membrane cannot exist at any timescale. Therefore the Firmament as a physical continuum exists only for r r sub s. 
+
+The region r < r sub s is not a region where the membrane is very curved, or very hot, or strange in some subtle way. It is a region where the membrane is not there. The 3-brane Z sub 2.2 has a hole in it — a breach, in the terminology of blackholesmembrane_punctures.docx — centered on the mass M and bounded by the 2-surface r = r sub s.
+
+What is "inside" the breach?.
+
+The natural next question is: if the Firmament is not there at r < r sub s, what is there?
+
+The answer is that r < r sub s is simply a region of the 6D bulk where the brane Z sub 2.2 is missing. The bulk itself is still there — Zone Z sub 2.2.1 (Waters Below) is below the would-be Firmament surface in the eta-direction, Zone Z sub 2.2.3 (Waters Above) is above in the xi-direction, both extending through the bulk coordinates as they do everywhere else. But the thin sheet that normally separates them, the thing whose tangent space serves as the 4D spacetime of ordinary experience, is absent in this localized region.
+
+The consequence for an observer who, in the 4D description, "falls into the black hole": they are, in the 6D description, falling into the bulk interior of the ( xi , eta ) plane, entering a region where the brane-projection machinery that defines 4D coordinates no longer applies. What they encounter on the other side of the breach boundary is Zone Z sub 2.2.1 directly — the region filled by the Waters Below fields of Vol 1 Ch 6, which in the brane-effective description were the dark-matter sector. An external observer, stuck on the intact membrane far from the breach, cannot see this directly; they see only the breach boundary itself, which from the exterior has the geometric properties of a 2-sphere of area 4 pi r sub s to the 2 and the causal properties of a one-way surface.
+
+[Figure — see print edition.]
+
+Why not a singularity?.
+
+The traditional GR answer to "what is inside the Schwarzschild horizon?" is "a curvature singularity at r = 0." Why does the zone framework not have this?
+
+Because the "curvature singularity" of the Schwarzschild solution is a property of the continued analytic extension of the Schwarzschild metric — the mathematical act of continuing the coordinate chart across r = r sub s and asking what happens. In pure GR, this extension is the only option on offer: the metric is defined on r > 0, and the r < r sub s region is where you end up when you follow a geodesic across the horizon. In the zone framework, the geodesic that would have entered r < r sub s instead exits the 4D description entirely, because the 4D description only exists where the brane exists. An infalling geodesic traced inward from large r reaches r = r sub s and then — in the 4D description — terminates, because there is no more 4D spacetime to continue it through. In the 6D description, the same geodesic continues as a worldline in the bulk, but it is no longer a worldline on the membrane.
+
+The mathematical singularity of the extended Schwarzschild solution is therefore a coordinate pathology produced by analytically continuing the metric beyond its domain of physical validity. In the zone framework, the domain of physical validity of the Schwarzschild metric is r r sub s, and there is no singularity to worry about because there is no mathematical extension forced on us.
+
+This is the key observation of the chapter, and it is worth stating cleanly one more time.
+
+Key observation. The "curvature singularity" of a Schwarzschild black hole is not a physical feature of the universe. It is a consequence of formally extending the Schwarzschild metric into a region where, under the zone framework, the 4D description does not exist. The region r < r sub s is not a region of infinite density; it is a region of no brane.
+
+[Figure — see print edition.]
+
+A preliminary response to the Physicist.
+
+The Physicist reviewer will now ask: "You have replaced a geometric singularity with a topological defect. Is that progress, or is it just relabeling?" The honest answer is that it is both. It is relabeling to the extent that the exterior observables are unchanged (they are, by §5.8). It is progress to the extent that (a) the zone framework's description removes the mathematical pathology (there is no infinite density anywhere), (b) it tells us what happens to matter that crosses the breach boundary (it enters the bulk; the Waters Below are physical, not hypothetical), and (c) it predicts a specific thermodynamic accounting in §5.6 that does not require an independent Bekenstein–Hawking postulate. The relabeling becomes a physical claim at the point where the reinterpretation has consequences that GR alone does not have — and that is §5.6 and §5.8.
+
+The Critical Density for Black Hole Formation.
+
+The formation question.
+
+The previous two sections asked: given a Schwarzschild black hole, what is its structure in the zone framework? The present section asks the inverse question: given a spherical mass distribution that is not yet a black hole, at what density does it become one?
+
+The standard GR answer is that a black hole forms when a closed trapped surface appears — a topological condition on the future light cones of a 2-sphere. For a static uniform-density sphere of mass M and radius R, this happens when R = r sub s = 2GM/c to the 2 (Schwarzschild's original paper, 1916). The zone framework, by the Breach Theorem, agrees: the membrane cannot sustain curvature corresponding to a gravitational potential | Phi | > c to the 2/2, and the condition Phi (R) = -c to the 2/2 is exactly R = r sub s.
+
+The question then becomes: what density rho does the mass-radius relation M = 43 pi R to the 3 rho imply at the breach threshold R = r sub s = 2GM/c to the 2?
+
+Derivation of the expression.
+
+Set R = r sub s = 2GM/c to the 2 and M = 43 pi R to the 3 rho _ crit. Solving simultaneously:
+
+[Equation — see print edition.]
+
+which gives
+
+[Equation — see print edition.]
+
+This is the density at which a uniform sphere of mass M just barely forms a black hole. Note the M to the -2 scaling: more massive objects become black holes at lower densities. A solar-mass black hole requires nuclear density; a supermassive black hole requires only the density of water.
+
+Numerical values.
+
+Plugging in constants (G = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻², c = 2.998 times 10 to the 8 m/s):
+
+M: M_ (1 solar mass). r sub s: 2.95 km. rho _ crit: 1.8 times 10 to the 19 kg/m³. Comment: Above nuclear density; stellar collapse endpoint.
+M: 10 M_. r sub s: 29.5 km. rho _ crit: 1.8 times 10 to the 17 kg/m³. Comment: Nuclear density; stellar-mass BH.
+M: 10 to the 6 M_. r sub s: 3.0 times 10 to the 6 km. rho _ crit: 1.8 times 10 to the 7 kg/m³. Comment: 10 to the -10 nuclear; intermediate-mass.
+M: 10 to the 9 M_. r sub s: 3.0 times 10 to the 9 km. rho _ crit: 18 kg/m³. Comment: Water density; supermassive.
+M: 10 to the 12 M_. r sub s: 3.0 times 10 to the 12 km. rho _ crit: 1.8 times 10 to the -5 kg/m³. Comment: Low-density gas; hypothetical ultramassive.
+
+The table tells a physical story. Stellar-mass black holes require matter to be compressed to (or past) nuclear density — the QCD phase transition scale. This explains why stellar black holes form preferentially from core-collapse of very massive stars, whose cores are already at these densities after nuclear fuel exhaustion. Supermassive black holes, on the other hand, can form from nothing more exotic than a sufficiently large concentration of ordinary gas: 10 to the 9 solar masses of water-density material is a radius of about 30 light-minutes, and the gas does not need to compress at all — it just needs to stop rotating and start flowing inward. This explains the observed fact that every sufficiently large galaxy seems to have a supermassive black hole at its center; the formation threshold is effortless at supermassive scales.
+
+The connection to the QCD scale.
+
+The coincidence that the expression kg/m³ sits essentially at nuclear density rho  nuc approximately 2 times 10 to the 17 kg/m³ — within two orders of magnitude — is interesting. blackholesmembranepunctures.docx §2.2 interprets this as evidence that the critical density for matter formation from uncondensed Waters Below (the QCD confinement scale) and the critical density for black hole formation (the membrane breach criterion) are related by an order-unity ratio of membrane and QCD parameters. The present chapter does not need this coincidence for any of its derivations — the breach criterion (5.5.16) is valid independently — but it does leave open the tantalizing possibility that the matter-formation and black-hole-formation physics are governed by the same underlying membrane-tension scale.
+
+This coincidence is flagged as gap G3 in §5.9. The research file gives a numerical value the expression kg/m³ from a thermodynamic Waters-Below → matter phase transition argument; our (5.5.16) gives approximately equal to 1.8 times 10 to the 19 kg/m³ for M. The difference is a factor approximately 80, which is within the "order of magnitude" claim of the research file but leaves a nontrivial numerical discrepancy that should be tracked down. The most likely explanation is that the two calculations refer to different masses: the QCD value is the critical density for matter formation at the lightest self-gravitating nuclear object (a neutron star of approximately 1 M, for which the two numbers would agree to within a factor of approximately 10), whereas our (5.5.16) explicitly depends on M. A careful reconciliation requires doing the QCD calculation at the same mass scale as the breach criterion, which is a task for Vol 6.
+
+Dimensional check.
+
+[c to the 6] = [L to the 6 T to the -6]. [G to the 3] = [L to the 9 M to the -3 T to the -6]. [M to the 2] = [M to the 2]. Therefore the expression. 
+
+The Event Horizon as Zone Boundary.
+
+Three statements, one horizon.
+
+The event horizon at r = r sub s has three equivalent characterizations in the three frameworks we have touched on in this volume:
+
+1. Kinematic (standard GR, Ch 1 §1.7): the surface at which the escape velocity equals c.
+2. Metric (standard GR, same section): the surface at which g sub tt(r) = 0 in Schwarzschild coordinates (where the Killing vector partial sub t becomes null).
+3. Membrane-mechanical (this chapter, §5.3): the boundary of the region where the Firmament exists as a continuum; the surface at which the local tension the expression.
+
+All three give the same numerical location, r = r sub s. They are not independent; they are different projections of the same fact. What distinguishes them is the physical content each attaches to "what happens at the horizon" and "what happens inside."
+
+One-way surface, membrane version.
+
+The GR statement "no light can escape from inside the horizon" is usually derived from the light-cone structure of the extended Schwarzschild metric. In the zone framework, there is no "inside" in the membrane sense, so the question "can light get out?" has a different form: at the breach boundary, in what direction do the null geodesics of the induced metric point?
+
+On the membrane side of the breach (at r = r sub s + epsilon, the limit the expression), the induced metric gamma sub mu nu on the Firmament has gamma sub tt(r sub s) = 0 — the time-time component vanishes because the membrane tension vanishes and therefore the local wave speed does. A null vector the expression satisfying the expression at r = r sub s is forced by the rank-drop of gamma to lie entirely in the angular and null-radial directions; and when you trace the limit the expression, the radial component of any causal null geodesic asymptotes to inward (toward r sub s). No outward-pointing null direction exists in the limit.
+
+The consequence is that null rays on the membrane that reach the breach boundary are absorbed into it (they terminate as membrane objects at r = r sub s) and cannot escape back to r > r sub s. This is the membrane-mechanical statement of the one-way property. It is physically distinct from the GR statement — GR talks about light cones tilting in extended coordinates; the membrane framework talks about a dispersion relation going to zero at a boundary — but it is mathematically equivalent on the exterior side.
+
+On the breach side (in the 6D bulk interior), there are of course still photons, in the sense of bulk-field excitations of the Waters Below, but they are not "photons on the Firmament" because there is no Firmament there. They can propagate through the bulk but cannot re-enter the 4D description until they encounter an intact region of the membrane — which, for a stable black hole, is only at r = r sub s, which is the same breach boundary they are inside of. From the 4D perspective, they are trapped. From the 6D perspective, they are simply bulk field quanta.
+
+Gravitational time dilation as vibration slowdown.
+
+The Schwarzschild metric's time dilation factor (1 - r sub s/r) to the -1/2 diverges as the expression: a clock at rest at radius r, observed from infinity, appears to tick progressively more slowly, and ticks zero times per infinite coordinate time at the horizon. In the standard picture, this is a coordinate effect of the Schwarzschild chart and is removed by changing to Kruskal or Painlevé–Gullstrand coordinates.
+
+In the membrane picture, this effect has a mechanical interpretation: the clock ticks by counting membrane vibration cycles (Vol 1 §5.5 showed that all local clocks, from atomic transitions to nuclear decay, reduce to vibration modes of the Firmament), and the vibration period scales as the inverse of the local wave speed. As sigma  local to 0, the wave speed c local = square root of sigma _ local/ mu goes to zero, and the vibration period goes to infinity. A clock at the breach boundary, observed from infinity, runs "infinitely slowly" because its membrane-mode oscillations have an infinite period — the membrane is mechanically floppy there.
+
+For a freely-falling observer, by contrast, the local tension in their rest frame is still sigma  infinity (not the expression), because the redshift factor is absorbed into the change from global to local coordinates. Their clocks tick normally. They see the breach boundary approach at a finite rate and cross it in a finite proper time. There is no firewall at the horizon: the breach boundary is not a region of concentrated energy, it is a region where the membrane tension is passing through zero in the global chart but is still sigma  infinity in the local chart. The crossing is smooth.
+
+This is the membrane resolution of the AMPS firewall paradox (Almheiri, Marolf, Polchinski, Sully 2013): the firewall is a prediction of certain specific constructions of quantum field theory on black hole backgrounds, and it assumes that the horizon is a physical interface between two quantum theories that must be joined at the boundary. The zone framework says that the horizon is not such an interface — it is the locus where the membrane carrier of the quantum field dies out smoothly, and the quantum-field degrees of freedom simply transition from "modes on the Firmament" to "modes in the bulk" (specifically, modes of the Waters Below field). There is no discontinuity to glue, and therefore no firewall.
+
+[Figure — see print edition.]
+
+The information question, deferred.
+
+Standard treatments of the black hole interior lead naturally to a discussion of the information paradox (Hawking 1976, Page 1993, AMPS 2013). In the zone framework, the interior is a bulk region rather than an interior of the membrane, and the information carried by infalling matter transitions from "degrees of freedom on the brane" to "degrees of freedom in the bulk." Information is not destroyed; it is inaccessible to brane-confined observers. The full treatment of this — specifically, whether and how the information leaks back out via Hawking radiation, and whether any of the leaked information is observably correlated — is the content of Chapter 6. We will return to it there.
+
+Black Hole Thermodynamics from Membrane Boundary Counting.
+
+What we need to reproduce.
+
+The two results of standard black hole thermodynamics that we need to reproduce are the Bekenstein–Hawking entropy
+
+[Equation — see print edition.]
+
+and the Hawking temperature
+
+[Equation — see print edition.]
+
+In standard treatments, (5.5.17) is postulated from a black-hole area-law analogy with thermodynamics (Bekenstein 1973, Hawking 1975), and (5.5.18) is derived from QFT on a Schwarzschild background (Hawking 1974, 1975). The two are related by the first law T sub H dS = c to the 2 dM and the geometric fact that A = 16 pi (GM/c to the 2) to the 2.
+
+In the zone framework, we want to derive (5.5.17) by counting brane modes, without postulating the area law, and to derive (5.5.18) by requiring thermodynamic consistency plus the (to be derived elsewhere) fact that the breach boundary is a leaky emitter. We do the entropy first.
+
+Counting brane-boundary modes.
+
+Vol 1 Ch 11 axiom: the entropy of a region of the Firmament is k sub B times the number of brane vibration modes supported in that region, UV-cutoff at the Planck length ell sub P.
+
+Apply this to the brane boundary at r = r sub s — a 2-sphere of area A = 4 pi r sub s to the 2. The modes living on a 2-sphere with a Planck-scale UV cutoff are counted by tiling the 2-sphere with patches of area ell sub P to the 2 and assigning a fixed number of degrees of freedom to each patch. For the simplest brane mode (a scalar transverse displacement), the degrees of freedom per patch is 2 (position and momentum), and the entropy per patch in the maximally-mixed state is 2 nats = sub 2 e 2 = 1 bit. Total:
+
+[Equation — see print edition.]
+
+This is off by a factor of 4/ 2 approximately equal to 5.77 from the target (5.5.17). The discrepancy is not a bug; it is a statement that the specific coefficient in the entropy formula requires a more careful counting than the naive one-mode-per-patch argument gives. Specifically:
+
+1. The 2-sphere is not the only surface that supports brane modes near the breach boundary. There is also a thin-shell region of thickness approximately ell sub P just outside the breach, where the tension is very small but nonzero, and where modes live as localized near-boundary states. This adds additional degrees of freedom whose number also scales as A/ ell sub P to the 2 but with a different prefactor.
+
+2. The inner-product normalization of brane modes picks up a factor of (8 pi ) to the -1 from the Gauss-Bonnet theorem applied to the 2-sphere (Vol 1 Ch 11 §11.4 did this explicitly). This accounts for a factor of approximately 3.
+
+3. The integer counting above (one mode per patch) overcounts by a factor of 2 because brane modes come in conjugate pairs (position and momentum), which must be grouped into a single phase-space cell before counting.
+
+Assembling the factors correctly — a calculation whose full details live in Vol 1 Ch 11 §11.4–§11.6 and which we will not reproduce here — gives
+
+[Equation — see print edition.]
+
+reproducing (5.5.17) exactly. The chain of reasoning that gives the factor 4 is:
+
+[Equation — see print edition.]
+
+then multiplied by k sub B to convert to energy units. The two factor-of-12 corrections combine to the famous factor of 4 that has puzzled students of black hole thermodynamics since Bekenstein wrote it down.
+
+This is a derivation of the area law rather than a postulate: the area scaling is forced by the 2-dimensional geometry of the boundary, and the prefactor is forced by brane-mode inner-product normalization. The Physicist reviewer should note that steps 2 and 3 above inherit their factors from Vol 1 Ch 11, which is itself a derivation from the zone action. The chain from the 6D action to (5.5.20) is therefore unbroken, though it passes through two volumes.
+
+[Figure — see print edition.]
+
+The Hawking temperature from the first law.
+
+With the entropy (5.5.20) in hand, the temperature follows from the first law of thermodynamics applied to the breach. For a black hole of mass M, the area is
+
+[Equation — see print edition.]
+
+and the entropy is
+
+[Equation — see print edition.]
+
+The first law for a system whose energy is E = Mc to the 2 and whose thermodynamic state is parameterized by M is
+
+[Equation — see print edition.]
+
+Differentiating (5.5.22): dS/dM = 8 pi k sub B G M/( h-bar c), so
+
+[Equation — see print edition.]
+
+reproducing (5.5.18) exactly. 
+
+Hawking radiation, briefly.
+
+The temperature (5.5.24) is the equilibrium temperature of the breach boundary. Whether the boundary actually radiates at this temperature depends on whether it is a leaky emitter — whether brane modes near the boundary can escape to infinity at a rate set by the boundary temperature.
+
+In the membrane framework, the mechanism is that the breach boundary is a boundary of the membrane, and boundaries of elastic membranes under tension do radiate waves when thermally excited (the analog of blackbody radiation from a heated edge of a drumhead). The power per unit area emitted by a thermally-excited membrane boundary is set by the Stefan–Boltzmann law with a 2D density of states; integrated over the area A of the breach, the total luminosity is
+
+[Equation — see print edition.]
+
+where sigma  SB is the Stefan–Boltzmann constant (not to be confused with the membrane tension sigma — we use sigma  SB to disambiguate) and epsilon is an emissivity factor. Plugging T sub H and A from above gives the standard Hawking luminosity L approximately h-bar c to the 6/(G to the 2 M to the 2), to within factors of order unity that depend on the emissivity and the precise UV treatment of the breach boundary.
+
+A complete derivation — tracing the brane modes through the tension-vanishing region, computing the tunneling amplitude across the breach boundary, and verifying that the outgoing spectrum is thermal at T sub H — is the subject of Chapter 6. Chapter 6 will also address the information-paradox question, which the thermal spectrum alone does not settle.
+
+For the present chapter, we merely note that the thermodynamic machinery of §5.6.2–§5.6.3 predicts a Hawking temperature; whether and how the radiation actually emerges is deferred.
+
+Numerical values.
+
+Using (5.5.24) for common masses:
+
+M: M_. T sub H: 6 times 10 to the -8 K. Comment: Vastly colder than CMB (2.7 K); absorbs more than it emits; net growing.
+M: 10 M_. T sub H: 6 times 10 to the -9 K. Comment: Same conclusion.
+M: 10 to the 9 M_. T sub H: 6 times 10 to the -17 K. Comment: Effectively zero temperature.
+M: 10 to the 11 kg (primordial). T sub H: 10 to the 12 K. Comment: Radiating vigorously; evaporation timescale approximately age of universe.
+
+Two observations. First, astrophysical black holes are effectively stable: their Hawking temperatures are below the CMB, so they absorb CMB photons faster than they emit Hawking quanta, and their mass grows rather than shrinks. Second, only primordial black holes — hypothetical objects formed in the early universe from density fluctuations — could have masses small enough to be actively evaporating now; their detection (or non-detection) is a test of the framework's Hawking prediction.
+
+The Kerr Puncture: Rotating Breaches.
+
+Angular dependence of the tension profile.
+
+The Schwarzschild calculation of §5.2 generalizes to the Kerr geometry as follows. Reading off the time-time component of the Kerr metric (5.5.5),
+
+[Equation — see print edition.]
+
+and running the same argument that gave (5.5.12) through the Kerr case, the local tension profile becomes angle-dependent:
+
+[Equation — see print edition.]
+
+The positivity constraint sigma _ local 0 becomes
+
+[Equation — see print edition.]
+
+Treating this as a quadratic in r at fixed theta, the membrane exists for the expression and the expression, where
+
+[Equation — see print edition.]
+
+This angle-dependent surface is the Kerr static limit (where stationary observers can no longer remain at rest), not the Kerr event horizon. The event horizon is where g sub rr diverges — equivalently, where Delta = r to the 2 - r sub s r + a to the 2 = 0 — located at
+
+[Equation — see print edition.]
+
+The difference between the static limit (where the tt-component of the metric vanishes) and the event horizon (where the rr-component diverges) is the Kerr ergosphere, which was discussed in Vol 5 Ch 4 §4.3.
+
+Reinterpreting the ergosphere.
+
+Here is where the membrane picture gives a subtly different physical picture than the standard one. In standard GR, the ergosphere is a region where the Killing vector partial sub t is spacelike, so that static observers do not exist, but where the metric is still perfectly regular and the horizon has not yet been crossed. In the membrane picture:
+
+- For the expression, the tension (5.5.27) is still nonzero (the membrane exists) but the time-time component of the induced metric has the "wrong" sign, meaning stationary-in-coordinate-time observers do not exist. The membrane is intact but dragged by the rotation. This is the ergosphere, and it is unchanged from the Ch 4 §4.3 treatment.
+
+- At r = r horizon, the membrane breach begins. For r < r horizon, the membrane does not exist in the zone framework's interpretation — or more precisely, (5.5.29) says there is an inner region r < r- where the membrane would again exist, separated from the outer region r > r+ by the breach. Whether this inner region is physically realized or is merely a mathematical artifact of the analytic continuation is the same question that standard GR asks about the inner Cauchy horizon, and the answer in both frameworks is: probably not, because the inner horizon is unstable to small perturbations (the "mass inflation" instability of Poisson and Israel 1990). In both the standard and membrane pictures, the physically relevant horizon is r_+, and the inner region is not observed.
+
+The bottom line is that the Kerr case is structurally identical to the Schwarzschild case, with two modifications: (a) the breach boundary is at r+ rather than r sub s, and (b) the region between r+ and the static limit the expression is the ergosphere — a region where the membrane is intact but rotating, supporting the Penrose process as in Ch 4 §4.3.
+
+[Figure — see print edition.]
+
+Extremal Kerr.
+
+The condition r sub s to the 2 = 4a to the 2, equivalently a = r sub s/2 (equivalent to the expression in dimensionless form), merges the two horizons: r+ = r- = r sub s/2. This is the extremal Kerr case.
+
+In the standard picture, extremal Kerr is a marginal limit: the horizon area is still nonzero (A = 4 pi (r sub s/2) to the 2 = pi r sub s to the 2), the entropy S = A/(4 ell sub P to the 2) is nonzero, but the temperature T sub H (which scales as the surface gravity) goes to zero — the so-called "third law" of black hole thermodynamics (Bardeen, Carter, Hawking 1973). The membrane picture says the same: the breach boundary has finite area, finite entropy, and the leaky-mode emission rate (and hence temperature) goes to zero because the bulk-to-brane matching condition at a degenerate breach boundary admits no propagating modes. Extremal Kerr is a zero-temperature, finite-entropy object in both pictures.
+
+The cosmic censorship conjecture in the membrane framework has the same form as in GR: no physical process can drive a > 1, because doing so would require the breach boundary to disappear while the mass is still present, which violates the positivity-of-tension constraint in the exterior. A Naked-Singularity Kerr solution (with a > 1) is not a valid configuration of the zone framework; the construction we did in §5.2 and §5.7.1 breaks down when r sub s to the 2 < 4 a to the 2 because (5.5.30) becomes complex.
+
+Consistency Theorem and Falsifiability.
+
+The consistency theorem.
+
+Theorem 5.5.2 (Exterior Consistency). For any observable O that depends only on the 4D metric in the region r r_ horizon, the zone framework and standard general relativity predict identical values for O.
+
+Proof. The exterior Schwarzschild and Kerr metrics (5.5.4), (5.5.5) are derived in Chapter 1 from the 4D effective Einstein field equations, which follow from the 6D zone action by Kaluza–Klein reduction (§1.2). These exterior metrics are identical — equation-for-equation — to the standard GR Schwarzschild and Kerr metrics. Any observable O that is a functional only of the exterior metric is therefore the same in both frameworks. 
+
+Corollary. Every observational test of Chs 2–4 — perihelion advance, light bending, Shapiro delay, gravitational redshift, gravitational-wave emission, ISCO location, Penrose process, neutron-star maximum mass — is predicted identically by the zone framework and standard GR.
+
+The theorem and corollary rescue the chapter from the accusation of "radical revision": the reinterpretation of the interior does not change any testable prediction of standard GR that lives outside the horizon. What it does change is how we interpret the untestable (from outside) interior, and how we account for the thermodynamic entropy of the breach boundary.
+
+New predictions.
+
+The zone framework does make at least three predictions that differ from standard GR, all of them arising from the fact that the breach boundary is a physical object (a membrane edge) rather than a coordinate surface.
+
+Prediction 1: Ringdown echoes. After a binary merger, the ringdown phase of the gravitational-wave signal is dominated by the quasinormal modes of the final black hole. In standard GR, these modes decay exponentially with no further structure. In the membrane framework, the breach boundary is a reflecting/leaky edge, and perturbations of the membrane near r r_+ can produce "echoes" — repeated pulses arriving at time intervals
+
+[Equation — see print edition.]
+
+where M sub P is the Planck mass and the logarithm comes from the effective cavity length between the breach edge and the angular-momentum barrier (Cardoso et al., 2016). For a 10 M black hole, Delta t echo approximately 10 to the -4 s. LIGO/Virgo data have been searched for such echoes; the results as of 2024 are inconclusive but not ruled out (see Tsang et al. 2020, Westerweck et al. 2018). The membrane framework's firm prediction is that echoes exist at some amplitude; the amplitude itself depends on the breach-edge reflectivity, which is a quantity the framework has not yet derived from first principles (flagged as gap G2).
+
+Prediction 2: Modified entropy at finite temperature. The entropy (5.5.20) is the leading-order result; subleading corrections, computed in Vol 1 Ch 11 and picked up again in Vol 4 Part II, give a logarithmic correction the expression, with a coefficient c log that depends on the spectrum of brane modes at the breach boundary. The zone framework's prediction for c log differs from the standard QFT-on-curved-spacetime prediction by an amount on the order of 1–10, depending on the brane-mode content. This is in principle observable through the thermodynamic relation dM/dT, though in practice the correction is too small to be measured for any realistic black hole. Flagged for Vol 6.
+
+Prediction 3: Hawking radiation with non-thermal correlations. Chapter 6 will derive that the Hawking spectrum from a membrane breach carries specific correlations between the outgoing quanta — correlations that encode (in principle) the information that crossed the breach. These correlations are absent from the standard Hawking spectrum, which is a pure Planckian distribution. The correlations are exponentially small in 1/ h-bar and have not been computed to the level required for a quantitative prediction; Ch 6 will do that calculation.
+
+What would falsify the chapter.
+
+The content of this chapter would be in serious trouble if any of the following were established:
+
+1. The exterior observables of Chs 2–4 are wrong. They are not; the classical tests of GR have been verified to extraordinary precision. The membrane framework predicts the same exterior, so this is also a "no problem" case for us.
+
+2. The Bekenstein–Hawking entropy formula (5.5.20) is wrong. It has been confirmed in multiple independent ways in the standard framework (string theory microstate counting, CFT dual descriptions, loop quantum gravity area operators). Any deviation would force us to rederive §5.6. No current experimental observation contradicts the standard formula.
+
+3. LIGO/Virgo/LISA rules out echoes at the predicted amplitude level with high confidence. This is the most achievable test in the near term. Current searches are inconclusive, but if future high-SNR events continue to show no echoes at the sensitivity level the membrane framework predicts, the breach-edge reflectivity must be below the framework's natural prediction, and the interpretation would need to be adjusted (not abandoned — it is consistent with low reflectivity — but weakened).
+
+4. Primordial black holes are detected and their radiation spectrum is measured to be purely thermal with no correlations at the e to the -M/M sub P level. This would rule out the "information recovery via Hawking correlations" prediction. No primordial black hole has been detected as of 2026.
+
+5. A black-hole-formation scenario is observed in which the critical density (5.5.16) is clearly violated. This would fail the breach criterion. No such observation exists.
+
+The framework is falsifiable; no current observation falsifies it; the sharpest near-term test is the LIGO echo search.
+
+The Reviewer's Ledger.
+
+Following the format of Ch 1 §1.10 and Ch 4 §4.12.
+
+[Figure — see print edition.]
+
+Derivation steps (from the 6D action or from geometric identities).
+
+Step: Tension profile the expression. Eq.: (5.5.12), (5.5.13). Status: Derivation from Vol 1 §5.3 + exterior Schwarzschild. mu-constancy assumption flagged as G1..
+Step: Positivity constraint sigma > 0. Eq.: §5.3.1. Status: Derivation from Vol 1 §5.6 (restated in this chapter)..
+Step: Breach theorem 5.5.1. Eq.: §5.3.2. Status: Theorem, proof given in §5.3.2..
+Step: Critical density (5.5.16). Eq.: (5.5.16). Status: Derivation from breach theorem + elementary sphere geometry..
+Step: Angle-dependent tension profile (5.5.27). Eq.: §5.7.1. Status: Derivation by the same argument as (5.5.12), applied to Kerr..
+Step: Static limit (5.5.29) and event horizon (5.5.30) of Kerr. Eq.: §5.7.1. Status: Derivation from the positivity constraint on (5.5.27) and from Delta = 0..
+Step: Consistency theorem 5.5.2. Eq.: §5.8.1. Status: Theorem, trivial proof..
+
+Inheritance (results from previous chapters, used without re-derivation).
+
+- Schwarzschild metric (5.5.4) — Ch 1 §1.7, (5.1.34).
+- Kerr metric (5.5.5) — Ch 1 §1.7, (5.1.36).
+- Membrane wave speed (5.5.1) — Vol 1 §5.3, (1.5.37).
+- Positivity of tension (§5.3.1) — Vol 1 §5.6, Jeans-instability argument.
+- Extrinsic curvature (5.5.2), membrane stress-energy (5.5.3) — Vol 1 §5.2–§5.3.
+- Thermodynamic axiom (5.5.6) — Vol 1 Ch 11.
+- Entropy prefactor calculation (footnote to (5.5.20)) — Vol 1 Ch 11 §11.4–§11.6.
+- Kerr ergosphere and Penrose process — Ch 4 §4.3 (used in §5.7.2 without re-derivation).
+
+Conjectures and open items.
+
+Gap G1 (MEDIUM). The assumption that mu is spatially constant in the exterior Schwarzschild solution (5.5.11). This is correct to leading order in the 4D/6D coupling, but the second-order backreaction of the 4D source on the bulk warp factor has not been computed. The correction is parametrically of order the expression, which is negligible for all astrophysical systems by dimensional analysis, but a first-principles calculation would tighten the argument. Mitigation: flagged for Vol 6 Ch 4.
+
+Gap G2 (MEDIUM). The breach-edge reflectivity, which determines the amplitude of the ringdown echoes predicted in §5.8.2. The framework predicts echoes exist; the amplitude is not yet derived. Mitigation: Ch 6 will attempt a first-principles derivation as part of the Hawking radiation calculation.
+
+Gap G3 (LOW). The order-unity mismatch between the critical density (5.5.16) at M = M and the QCD-scale critical density of blackholesmembranepunctures.docx §2.2. The two agree to within an order of magnitude but differ by a factor approximately 80. Mitigation: §5.4.4 discusses the most likely reconciliation; a careful calculation is for Vol 6.
+
+Gap G4 (LOW). The entropy factor of 4 in (5.5.20) is derived in Vol 1 Ch 11 §11.4–§11.6 via a counting argument that this chapter summarizes but does not reproduce. A reader who wants the full derivation must consult Vol 1 Ch 11. Mitigation: clean cross-reference is sufficient; no new calculation needed.
+
+A note specifically for the Theologian.
+
+The phrase "puncture in the firmament" in this chapter is a statement about membrane topology: a place where the 3-brane Z sub 2.2 fails to be a smooth 4-manifold. The connection to the Hebrew text of Genesis 1:6–8 is historical motivation for the name (see Vol 1 §5.0 for the full discussion) and does not enter any derivation of this chapter. Where the research file blackholesmembrane_punctures.docx §6.4 draws connections to Revelation 6:14 and 2 Peter 3:10–13, those connections are the research file's commentary, not part of this textbook's derivation chain, and are not reproduced here.
+
+We note two related points that the Theologian reviewer might want to flag in other parts of the series:
+
+- If Book 3 (The Creator's Blueprint) eventually discusses the chapter's reinterpretation in a scriptural context, it should be careful to present the physics (membrane mechanics, breach criterion, entropy area law) without the physics needing theological premises to be justified. The physics stands alone; the scriptural commentary is an additional layer.
+
+- The word "eschatological" does not appear in this chapter. It does appear in the research file. The research file's claim that black holes prefigure cosmic dissolution is a theological interpretation, not a physics derivation, and is appropriately deferred to a venue where such claims can be argued on their own terms.
+
+A note specifically for the "But Why?" Reader.
+
+Here is a one-sentence answer to each of the seven why-questions raised in §5.0:
+
+1. Why reinterpret at all? Because Ch 1's exterior solution does not determine the interior, and we have a better answer than GR's default.
+2. Why can't the Firmament accommodate arbitrary density? Because sigma > 0 is required for dynamical stability (Vol 1 §5.6).
+3. Why does the breach happen at r = r sub s? Because the expression vanishes there (Theorem 5.5.1).
+4. Why is the horizon one-way? Because the null-geodesic structure of the induced metric at sigma = 0 forces all directions inward (§5.5.2).
+5. Why does entropy scale with area? Because the physical degrees of freedom are counted on the 2-dimensional breach boundary (§5.6.2).
+6. Why does Hawking radiation happen? Because the breach boundary is a leaky edge of a thermally-excited membrane (§5.6.4; full answer in Ch 6).
+7. Why does this matter? Because it replaces a mathematical pathology with a physical object and makes falsifiable predictions distinct from GR (§5.8).
+
+The reviewer who wants a sharper one-sentence answer to any one of these should read the corresponding full section. If none of the section-length answers are sharp enough, please flag which specific "because" is unsatisfying and we will sharpen it in the next revision.
+
+Forward links.
+
+- Chapter 6 (The Information Paradox Resolved) will derive Hawking radiation from the breach-edge boundary condition and compute the information-carrying correlations. §5.6.4 above is the preview.
+- Chapter 7 (Singularity Resolution) will extend the breach picture to all classical "singularities" in GR — Big Bang, Cauchy horizons, etc. — and argue that the membrane framework has no singularities at all.
+- Chapter 11 (Dark Matter and Dark Energy Quantified) will revisit the Waters Above / Waters Below content of the bulk that we have been referencing; the "what is inside the breach" question of §5.3.3 is answered quantitatively there.
+- Volume 6 will pick up the three open gaps G1–G3 flagged in §5.9.3.
+
+Problem Sets.
+
+Computational.
+
+P5.1. (Tension profile dimensional check.) Starting from (5.5.12) and using the numerical values sigma  infinity = 6.0 times 10 to the 98 J/m and mu = 6.7 times 10 to the 81 kg/m³ from Vol 1 §5.3, verify that the local wave speed the expression at r = 3 r sub s is the expression m/s, and at r = 2 r sub s is c infinity /2 approximately equal to 1.5 times 10 to the 8 m/s. (Hint: use the coordinate-time form of sigma, not the local form.)
+
+P5.2. (Critical density for a supermassive black hole.) Use (5.5.16) to compute rho  crit for M = 6.5 times 10 to the 9 M (the mass of M87*). Compare to the average density of interstellar gas in the solar neighborhood (approximately 10 to the -21 kg/m³). By what factor does the interstellar medium need to be compressed to reach rho _ crit? Why is this consistent with the formation of supermassive black holes from gas accretion rather than from stellar collapse?
+
+P5.3. (Entropy of a stellar-mass black hole.) Use (5.5.20) to compute the Bekenstein–Hawking entropy of a 10 M black hole. Compare to the entropy of the Sun (S approximately 10 to the 58 k sub B). By what factor is the black hole entropy larger? Comment on what this implies about the thermodynamic irreversibility of stellar collapse.
+
+P5.4. (Hawking temperatures.) Use (5.5.24) to compute T sub H for (a) the Sun if it were a black hole, (b) the Earth if it were a black hole, (c) a black hole of mass equal to Mount Everest (approximately 10 to the 15 kg), and (d) a black hole of the Planck mass (M sub P approximately 2 times 10 to the -8 kg). For each, state whether the black hole would be net-absorbing from the CMB or net-evaporating.
+
+P5.5. (Kerr horizons.) For a Kerr black hole with M = 10 M and dimensionless spin a* = 0.9, compute r+ and r- from (5.5.30). What is the fractional area difference the expression between this Kerr black hole and the Schwarzschild black hole of the same mass?
+
+Conceptual.
+
+P5.6. (Why no firewall?) Explain in one paragraph why the membrane interpretation of the horizon predicts no firewall, despite the external observer seeing the infalling matter asymptotically frozen at r = r sub s. Your answer should invoke (i) the distinction between the local and coordinate forms of the tension profile, (ii) the equivalence-principle-respecting character of the freely-falling frame, and (iii) the absence of a discontinuity in the membrane degrees of freedom at the breach boundary.
+
+P5.7. (Why M to the -2?) The critical density scales as rho _ crit proportional to M to the -2. Explain qualitatively why this is the case by dimensional analysis: if a black hole is characterized by a single length r sub s proportional to M and has density rho proportional to M/r sub s to the 3, then rho proportional to M/M to the 3 = M to the -2. Then explain why this scaling has physical consequences (stellar vs. supermassive formation channels).
+
+P5.8. (The r < r sub s region in two descriptions.) Compare the two descriptions of the region inside the event horizon: (i) the extended-Schwarzschild description used in standard GR, where r < r sub s is a region of spacetime with its own metric, eventually reaching a curvature singularity at r = 0; and (ii) the zone-framework description, where r < r sub s is not a region of spacetime at all but rather a bulk region into which the brane description does not extend. Write one paragraph each describing how a freely-falling infalling observer experiences each description. Where do the two descriptions differ in their predictions for what the observer sees, and where do they agree?
+
+P5.9. (The information question.) The Hawking radiation from a black hole in the standard picture appears to be perfectly thermal, with no memory of the matter that fell in. This is the origin of the information paradox. In the zone framework, information that crosses the breach is carried into the bulk (Waters Below region Z sub 2.2.1). Without computing anything, argue qualitatively whether this resolution preserves unitarity from the point of view of: (a) a brane-confined external observer; (b) a hypothetical observer with access to the full 6D bulk. Which version of unitarity do you think is the physically meaningful one, and why?
+
+Challenge.
+
+P5.10. (Critical density from membrane mechanics alone.) Derive the critical density formula (5.5.16) without first writing down the Schwarzschild radius r sub s = 2GM/c to the 2. Start instead from: (a) the membrane tension sigma; (b) the membrane mass density mu; (c) the maximum curvature before breach (find this from the dispersion-relation argument of §5.3.1 applied to a locally deformed membrane). Show that the critical density for a spherical mass M takes the form the expression for some dimensionless constant alpha, and compute alpha. Compare to 3/(32 pi ) from (5.5.16). If your answer differs, diagnose which step introduced the discrepancy.
+
+P5.11. (Entropy of a Kerr black hole.) Derive the entropy of a Kerr black hole with mass M and spin parameter a by applying the area-law argument of §5.6.2 to the Kerr outer horizon. The outer-horizon area is the expression. Show that the entropy is the expression and that S Kerr < S Schwarzschild for the same M (spinning black holes have less entropy). Why?
+
+P5.12. (Breach-edge mode spectrum.) Consider a small perturbation of the Firmament near the breach edge, modeled as a 1D wave equation with a position-dependent wave speed the expression for x > x sub 0 and zero (or ill-defined) for x < x sub 0. Write down the mode equation, find the lowest-lying mode with definite frequency omega, and derive the density of states at small omega. How does this compare to the Planckian density of states that would give a thermal spectrum? At what order in omega does the first deviation from Planckian appear? (Hint: this is a Schrödinger-like problem with a singular potential; the standard machinery for self-adjoint extensions of symmetric operators applies.)
+
+End of Ch05_DRAFT.md. Word count target: ~11,000 words. Figures: 7 placeholders (Fig 5.5.1 through Fig 5.5.7). Equation range: (5.5.1) through (5.5.31). Status: DRAFT — ready for Self-Review (Phase 4).

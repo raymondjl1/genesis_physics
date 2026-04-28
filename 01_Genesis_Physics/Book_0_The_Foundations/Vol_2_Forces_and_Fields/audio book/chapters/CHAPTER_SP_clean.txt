@@ -1,0 +1,66 @@
+Date: April 7, 2026
+Status: SPEC COMPLETE
+Author: Jeff Raymond (via Claude)
+
+Overview.
+
+The Vol 2 back matter comprises four components that serve distinct pedagogical and reference functions:
+
+1. Appendix A: Vector Calculus and Tensor Analysis Review — Mathematical toolkit for the volume
+2. Appendix B: Experimental Data Tables — Every number cited or predicted, with sources
+3. Problem Sets with Selected Solutions (Ch 1–11) — Exercises spanning the full difficulty range
+4. Bibliography — 150+ references spanning foundational papers, textbooks, and modern experiments
+
+Component Requirements.
+
+Appendix A: Vector Calculus and Tensor Analysis Review.
+
+Req ID: BM-A01. Requirement: Cover all vector calculus used in Vol 2. Acceptance Criteria: Gradient, divergence, curl, Laplacian, Stokes/Gauss theorems.
+Req ID: BM-A02. Requirement: Cover tensor analysis through rank-2. Acceptance Criteria: Index notation, raising/lowering, covariant derivative, Christoffel symbols.
+Req ID: BM-A03. Requirement: Cover differential forms used in Vol 2. Acceptance Criteria: Exterior derivative, Hodge star, wedge product — as used in Maxwell derivation.
+Req ID: BM-A04. Requirement: Cover Kaluza-Klein reduction math. Acceptance Criteria: Extra-dimensional integration, warp factors, dimensional reduction technique.
+Req ID: BM-A05. Requirement: Match Vol 1 Appendix B notation exactly. Acceptance Criteria: Every symbol, convention, index range must be consistent.
+Req ID: BM-A06. Requirement: No new physics — math review only. Acceptance Criteria: Appendix A teaches math tools, not physics results.
+
+Appendix B: Experimental Data Tables.
+
+Req ID: BM-B01. Requirement: Tabulate ALL coupling constants. Acceptance Criteria: G₄, α, α_s, α_w, sin²θ_W — zone-derived and measured values with errors.
+Req ID: BM-B02. Requirement: Tabulate ALL force measurements. Acceptance Criteria: Newton's constant experiments, Gravity Probe B, LIGO, PSR B1913+16.
+Req ID: BM-B03. Requirement: Every number cites its source. Acceptance Criteria: PDG year, CODATA year, LIGO collaboration paper, etc..
+Req ID: BM-B04. Requirement: Include zone-derived vs. measured comparison. Acceptance Criteria: Side-by-side: zone prediction, experimental value, percentage agreement.
+Req ID: BM-B05. Requirement: Tabulate running coupling data. Acceptance Criteria: α_i^{-1}(Q) at decade energy intervals from 1 GeV to 10^{16} GeV.
+Req ID: BM-B06. Requirement: Include cosmological parameters. Acceptance Criteria: Ω_Λ, Ω_DM, Ω_b, H₀, w — zone vs. Planck 2018.
+Req ID: BM-B07. Requirement: Include membrane parameters. Acceptance Criteria: σ, μ, ξ_A, η_B, L_eff, λ, γ — values and uncertainties.
+Req ID: BM-B08. Requirement: Include GR observable tests. Acceptance Criteria: Mercury precession, light deflection, Shapiro delay, frame-dragging, GW strain.
+
+Problem Sets.
+
+Req ID: BM-P01. Requirement: 3–5 problems per chapter (33–55 total). Acceptance Criteria: Spanning computational, conceptual, and challenge difficulty.
+Req ID: BM-P02. Requirement: Selected solutions provided. Acceptance Criteria: At least 1 worked solution per chapter.
+Req ID: BM-P03. Requirement: No forward references. Acceptance Criteria: Problems use only Vol 1 + Vol 2 (Ch 1–11) material.
+Req ID: BM-P04. Requirement: Cover all key derivations. Acceptance Criteria: At least one problem per major derivation result.
+Req ID: BM-P05. Requirement: Include "explain why" problems. Acceptance Criteria: Not just computation — test understanding of WHY.
+Req ID: BM-P06. Requirement: Challenge problems push boundaries. Acceptance Criteria: At least 3 challenge problems that extend the derivations.
+
+Bibliography.
+
+Req ID: BM-R01. Requirement: 150+ references. Acceptance Criteria: Spanning foundational, modern experimental, and textbook sources.
+Req ID: BM-R02. Requirement: Organized by category. Acceptance Criteria: Foundational Papers, Textbooks, Modern Experiments, Zone-Specific.
+Req ID: BM-R03. Requirement: Complete citation format. Acceptance Criteria: Author(s), Title, Journal/Publisher, Year, DOI where available.
+Req ID: BM-R04. Requirement: Every in-text citation appears. Acceptance Criteria: Cross-check against all 11 chapters.
+
+Prerequisites.
+
+- All 11 Vol 2 chapter drafts (VERIFIED or in progress)
+- Vol 1 Appendix B (Notation Reference) — canonical authority
+- QualityControl/Reference/Symboland_Constants.md
+
+Verification Criteria.
+
+- [ ] All notation matches Vol 1 Appendix B exactly
+- [ ] New Vol 2 symbols listed as additions to the notation system
+- [ ] Every experimental value in Appendix B cites its source
+- [ ] Problem sets reference only Vol 1 + Vol 2 material
+- [ ] Bibliography contains 150+ entries
+- [ ] No forward references to Vol 3+
+- [ ] All 9 assigned reviewers pass

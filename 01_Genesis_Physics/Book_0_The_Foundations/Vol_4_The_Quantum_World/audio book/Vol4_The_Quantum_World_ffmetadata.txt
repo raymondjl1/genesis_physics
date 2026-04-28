@@ -1,0 +1,119 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 4 — The Quantum World
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 4 — The Quantum World
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=3348936
+title=Chapter 1: Why the Universe is Quantum
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3348936
+END=8167272
+title=Chapter 2: The Schrödinger Equation Derived
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8167272
+END=11435568
+title=Chapter 3: The Uncertainty Principle — Why It Must Be True
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11435568
+END=13323816
+title=Chapter 4: Entanglement and Nonlocality
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13323816
+END=16643712
+title=Chapter 5: The Measurement Problem Solved
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16643712
+END=20653128
+title=Chapter 6: Second Quantization and Zone Fields
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20653128
+END=25247040
+title=Chapter 7: Perturbation Theory and Feynman Diagrams
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=25247040
+END=29419631
+title=Chapter 8: Renormalization in Zone Architecture
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29419631
+END=32505695
+title=Chapter 9: The Casimir Effect and Vacuum Energy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=32505695
+END=36933575
+title=Chapter 10
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=36933575
+END=41372015
+title=Chapter 11 — The Electroweak Theory
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=41372015
+END=45652919
+title=Chapter 12 — Quantum Chromodynamics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=45652919
+END=50550071
+title=Chapter 13
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=50550071
+END=55614431
+title=Chapter 14
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=55614431
+END=57269999
+title=Appendix A — Key Results from Volumes 1 Through 3
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=57269999
+END=59534567
+title=Appendix B — Particle Data Tables
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=59534567
+END=60656231
+title=Appendix C — Feynman Rules for Zone Architecture
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=60656231
+END=64612823
+title=Bibliography
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=64612823
+END=66486239
+title=Problem Sets with Selected Solutions

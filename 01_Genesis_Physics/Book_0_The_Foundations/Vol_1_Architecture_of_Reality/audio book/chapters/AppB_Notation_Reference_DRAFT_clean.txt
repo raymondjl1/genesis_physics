@@ -1,0 +1,676 @@
+Foundations Vol 1: Architecture of Reality.
+
+CANONICAL AUTHORITY FOR ENTIRE GENESIS PHYSICS SERIES
+
+Status: DRAFT
+Date: April 6, 2026
+Maintainer: Jeff Raymond
+
+This appendix is the single authoritative reference for all mathematical notation, symbol definitions, conventions, and equation numbering in the Genesis Physics series. Every subsequent volume in Book 0 (Foundations Vols 2–6) and all Books 1–3 defer to this appendix for notation standards. In the event of any ambiguity or conflict, the definitions and conventions stated here (first edition, printed version) take absolute precedence.
+
+B.1 Notational Conventions and Typographic Rules.
+
+B.1.1 Scalar, Vector, and Tensor Notation.
+
+The following typographic conventions are used throughout Genesis Physics to distinguish mathematical objects by their intrinsic type:
+
+Object Type: **Scalar**. Typographic Style: Italic lowercase or Greek. Example: phi, rho, T, alpha. Interpretation: Dimensionless or single-valued real/complex number.
+Object Type: **Vector**. Typographic Style: Bold lowercase. Example: v, E, p. Interpretation: Three-component spatial vector; v = (v sub 1, v sub 2, v sub 3) in Cartesian coordinates.
+Object Type: **Rank-2 Tensor**. Typographic Style: Index notation or script. Example: T to the mu nu, g sub mu nu, R. Interpretation: Manifold-dependent object; Einstein summation applies.
+Object Type: **Higher-rank Tensor**. Typographic Style: Index notation. Example: R sub mu nu rho sigma, T to the mu sub nu rho. Interpretation: Riemann curvature, mixed tensors, etc..
+Object Type: **Fields** (spacetime functions). Typographic Style: Uppercase Greek or Psi. Example: Psi ( r,t), Phi ( r,t), the expression. Interpretation: Function of spacetime coordinates.
+Object Type: **Quantum operators**. Typographic Style: Letter with circumflex. Example: H, p, x, S. Interpretation: Observable or action operator in Hilbert space.
+Object Type: **Zone labels**. Typographic Style: Blackboard-bold or Z with subscripts. Example: Z sub 2, Z sub 2.2.1, Z sub atemporal. Interpretation: Labeled topological regions of manifold.
+Object Type: **Manifolds/Spaces**. Typographic Style: Calligraphic. Example: M, H, S. Interpretation: Underlying geometric space.
+Object Type: **Special functions**. Typographic Style: Roman font. Example: (x), (x), (x), Tr. Interpretation: Standard functions; trace operator.
+
+B.1.2 Index Conventions.
+
+Einstein Summation Convention: Repeated indices — one raised (superscript), one lowered (subscript) — are summed from 0 to the maximum index value unless explicitly suppressed with a summation symbol or other notation. For example:
+
+[Equation — see print edition.]
+
+in 6D spacetime (indices 0–5), or
+
+[Equation — see print edition.]
+
+in 4D spacetime (indices 0–3).
+
+Spatial indices (Latin letters): Indices i, j, k, ell , m, n run from 1 to 3, representing the three spatial directions. Example: v = v to the i e sub i where e sub i is the i-th spatial basis vector.
+
+Spacetime indices (Greek letters, 4D): Indices mu , nu , rho , sigma , lambda , tau run from 0 to 3, representing time (0) and the three spatial directions (1, 2, 3). Example: the expression is a 4-vector.
+
+Spacetime indices (Greek letters, 6D): Indices mu , nu , rho , sigma , lambda , tau run from 0 to 6, representing time (0), the three observable spatial directions (1, 2, 3), and the two extra-dimensional directions (5, 6). NOTE: Index 4 is deliberately omitted from 6D spacetime to avoid confusion with 4D indices. The index set is {0, 1, 2, 3, 5, 6}.
+
+Capital Latin indices (A, B, C, D): These denote 6D tensor indices in contexts where Greek letters may cause ambiguity (e.g., when both Greek spacetime and Greek field indices appear). Capital Latin indices also run over {0, 1, 2, 3, 5, 6}.
+
+Index raising and lowering: Indices are raised and lowered using the metric tensor. In 4D:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Similarly in 6D with g to the AB and g sub AB.
+
+B.1.3 Partial Derivatives, Covariant Derivatives, and Operators.
+
+Notation: partial _ mu. Name: Partial derivative. Definition/Meaning: the expression. Context: Flat spacetime; no metric dependence.
+Notation: nabla _ mu. Name: Covariant derivative. Definition/Meaning: the expression connection terms. Context: Curved spacetime; metric-compatible.
+Notation: = g to the mu nu nabla _ mu nabla _ nu. Name: d'Alembertian (wave operator). Definition/Meaning: Laplacian in curved spacetime. Context: Scalar wave equation: phi = 0.
+Notation: d. Name: Exterior derivative. Definition/Meaning: Wedge product of partial derivatives. Context: Differential forms; rank increases by 1.
+Notation: *. Name: Hodge star. Definition/Meaning: Duality operator on p-forms. Context: *alpha has degree n - p in n-dimensional manifold.
+Name: Wedge product. Definition/Meaning: Alternating product of differential forms. Context: a b = - b a.
+Notation: nabla times. Name: Curl. Definition/Meaning: the expression. Context: Spatial vector; returns vector.
+Notation: nabla times. Name: Divergence. Definition/Meaning: nabla times v = partial sub i v to the i (summed). Context: Spatial vector; returns scalar.
+Notation: nabla to the 2 = Delta. Name: Laplacian. Definition/Meaning: partial sub i partial sub i (spatial) or  (temporal). Context: Scalar/vector diffusion equations.
+
+B.1.4 Boxed and Highlighted Equations.
+
+Equations of particular importance — foundational results, conservation laws, metric solutions — are enclosed in boxes throughout the text:
+
+[Equation — see print edition.]
+
+Such equations are permanent reference points. Their equation numbers are cited repeatedly throughout the series. Any such equation that appears in a boxed context in this volume retains that status in all downstream volumes.
+
+B.1.5 Physical Dimensions.
+
+All quantities carry physical dimensions expressed in the MLT system (Mass, Length, Time) and their variants. For example:
+
+Symbol: v (velocity). Dimension: [LT⁻¹]. Units: m/s.
+Symbol: F (force). Dimension: [MLT⁻²]. Units: kg·m/s² = N (Newton).
+Symbol: sigma (tension). Dimension: [ML⁻¹T⁻²]. Units: kg/(m·s²).
+Symbol: rho (density). Dimension: [ML⁻³]. Units: kg/m³.
+Symbol: kappa (power density). Dimension: [ML⁻¹T⁻³]. Units: kg/(m·s³).
+Symbol: h-bar (reduced Planck). Dimension: [ML²T⁻¹]. Units: J·s.
+
+When a quantity is dimensionless, we explicitly note [ dimensionless].
+
+B.2 Index Conventions — Detailed.
+
+B.2.1 Four-Dimensional Spacetime (4D Context).
+
+When working in standard 4D spacetime (most of classical general relativity, standard cosmology):
+
+- Greek indices (mu , nu ,) range from 0 to 3
+  - 0 = time coordinate
+  - 1, 2, 3 = spatial coordinates (x, y, z)
+- Latin indices (i, j, k,) range from 1 to 3 (spatial only)
+
+Example: The energy-momentum tensor T to the mu nu has 16 components. The energy density is T to the 00. Spatial pressure components are T to the 11, T to the 22, T to the 33.
+
+B.2.2 Six-Dimensional Spacetime (6D Context).
+
+When working in the full 6D embedding space (Chapter 3 onward):
+
+- Greek indices (mu , nu ,) range over {0, 1, 2, 3, 5, 6}
+  - 0 = time coordinate (from Big Bang forward)
+  - 1, 2, 3 = three observed spatial directions
+  - 5 = Waters Above direction (ξ coordinate, compactified at Hubble scale)
+  - 6 = Waters Below direction (η coordinate, compactified at nuclear scale)
+  - 4 is intentionally skipped to avoid confusion with 4D (time + 3 space) indexing
+
+- Capital Latin indices (A, B, C, D) are equivalent and also range over {0, 1, 2, 3, 5, 6}
+
+When reducing from 6D to 4D (Chapter 15), indices {0, 1, 2, 3} are preserved as the effective 4D subspace, and indices {5, 6} are integrated out or compactified.
+
+B.2.3 Summation Convention Suppression.
+
+When summation is not intended, we explicitly use the sum symbol:
+
+[Equation — see print edition.]
+
+or we use different index types (e.g., free upper index on a tensor with a fixed lower index).
+
+B.3 Coordinate Systems and Metric Signatures.
+
+B.3.1 Standard Coordinates.
+
+Cartesian spatial coordinates:
+
+[Equation — see print edition.]
+
+Spacetime coordinates (4D):
+
+[Equation — see print edition.]
+
+where t = c times tau (proper time scaled by speed of light).
+
+Spacetime coordinates (6D):
+
+[Equation — see print edition.]
+
+where:
+- xi = Waters Above coordinate; spatial extent ~3 times 10 to the 26 m (Hubble scale)
+- eta = Waters Below coordinate; spatial extent ~1.3 times 10 to the -15 m (nuclear scale)
+
+B.3.2 Metric Signatures and Conventions.
+
+4D Minkowski metric (flat spacetime):
+
+[Equation — see print edition.]
+
+This is the mostly plus convention: one timelike dimension (negative eigenvalue), three spacelike dimensions (positive eigenvalues). The invariant interval is:
+
+[Equation — see print edition.]
+
+6D Minkowski metric (flat 6D):
+
+[Equation — see print edition.]
+
+One timelike dimension (μ=0), five spacelike dimensions (μ ∈ {1,2,3,5,6}). The invariant interval is:
+
+[Equation — see print edition.]
+
+General curved metrics: When spacetime is curved (Chapters 6–8), the metric g sub mu nu or g sub AB replaces eta sub mu nu, but the signature is preserved: one timelike, the rest spacelike.
+
+B.3.3 Scale Factor and Cosmic Expansion.
+
+Cosmological scale factor:
+
+[Equation — see print edition.]
+
+Normalized to a(t sub 0) = 1 at present epoch. A distance that was L sub 0 at early times becomes L(t) = a(t) times L sub 0 at present.
+
+Friedmann-Robertson-Walker (FRW) metric in 4D:
+
+[Equation — see print edition.]
+
+(in units where c=1).
+
+Hubble parameter:
+
+[Equation — see print edition.]
+
+Hubble constant (present value):
+
+[Equation — see print edition.]
+
+B.4 Zone Notation and Hierarchy.
+
+B.4.1 Complete Zone Taxonomy.
+
+The universe is partitioned into a hierarchy of zones, each labeled with decimal subscripts. The notation is strict and permanent.
+
+Symbol: Z sub 0. Full Name: Godhead. Description: Transcendent source; pre-creation; infinite dimensionality. Parent Zone: None. Temporal?: Atemporal. Observed?: No. Key Field: N/A.
+Symbol: Z sub 1. Full Name: Heaven Prime. Description: Transcendent causality source; seat of Divine order; atemporal domain of infinite structure. Parent Zone: Z sub 0. Temporal?: Atemporal. Observed?: No (revealed). Key Field: Logos structure.
+Symbol: Z sub 2. Full Name: Earth Prime. Description: The material cosmos; temporal, spacetime-bound; creation epoch through present. Parent Zone: Z sub 1. Temporal?: Temporal. Observed?: Yes (partially). Key Field: Spacetime manifold.
+Symbol: Z sub 2.1. Full Name: Atemporal Domain. Description: Transcendent structure within material creation; non-local information field; quantum entanglement substrate. Parent Zone: Z sub 2. Temporal?: Atemporal. Observed?: No (hidden). Key Field: Quantum phase.
+Symbol: Z sub 2.2. Full Name: Firmament Domain. Description: Observable universe; the 3D + time membrane separating Waters Above from Below. Parent Zone: Z sub 2. Temporal?: Temporal. Observed?: Yes. Key Field: Metric g sub mu nu.
+Symbol: Z sub 2.2.1. Full Name: Waters Below. Description: Dark matter field Psi sub B; attractive; gravitational scaffolding; ~27% energy density. Parent Zone: Z sub 2.2. Temporal?: Temporal. Observed?: Indirect. Key Field: Psi sub B( r,t).
+Symbol: Z sub 2.2.2. Full Name: Condensed Matter. Description: Baryonic matter: atoms, molecules, stars, galaxies, life; visible universe; ~5% energy density. Parent Zone: Z sub 2.2. Temporal?: Temporal. Observed?: Yes (direct). Key Field: Atomic/nuclear fields.
+Symbol: Z sub 2.2.3. Full Name: Waters Above. Description: Dark energy field Psi sub A; repulsive; cosmic acceleration; ~68% energy density. Parent Zone: Z sub 2.2. Temporal?: Temporal. Observed?: Indirect. Key Field: Psi sub A( r,t).
+
+Terminological note on "Firmament." The Hebrew word Raqia (Firmament) refers to the boundary surface that separates the Waters Above from the Waters Below. In zone notation, the Firmament Domain Z sub 2.2 is the larger region encompassing three subzones: Waters Below (Z sub 2.2.1), Condensed Matter (Z sub 2.2.2), and Waters Above (Z sub 2.2.3). When precision is required, "Firmament proper" or "Firmament boundary" denotes the physical membrane surface partial Z sub 2.2, while "Firmament Domain" denotes the full region Z sub 2.2. The Glossary entry "Firmament (Zone 2.2.2)" refers to Condensed Matter — the baryonic subzone where we reside — which sits on the membrane boundary. Context determines the intended sense; when ambiguity is possible, use the zone label explicitly.
+
+B.4.2 Zone Boundary Notation.
+
+Notation: partial Z. Meaning: Boundary of zone Z. Example: partial Z sub 2.2. Interpretation: The Firmament; interface between observable and transcendent.
+Notation: Z Z'. Meaning: Intersection of zones. Example: Z sub 2.1 Z sub 2.2. Interpretation: Quantum entanglement; non-local coupling.
+Notation: Z sub boundary. Meaning: Operator at zone interface. Example: [φ] sub partial Z. Interpretation: Jump discontinuity of field φ across boundary.
+Notation: Int(Z). Meaning: Interior of zone. Example: Int(Z sub 2.2). Interpretation: Observable universe away from boundaries.
+
+B.4.3 Phase Notation.
+
+The universe evolves through four thermodynamic phases, labeled with Roman numerals (always) or Arabic numerals (when explicitly contrasted with equation numbers):
+
+Phase: Creation. Roman Numeral: **I**. Arabic Numeral: 1. Era: Genesis Days 1–6. κ Regime: kappa sub create (supercritical). Entropy: Decreasing. Examples: Ordering, pattern formation.
+Phase: Edenic. Roman Numeral: **II**. Arabic Numeral: 2. Era: Post-Sabbath; hypothetical sustained state. κ Regime: kappa sub full (equilibrium). Entropy: Zero production. Examples: Perfect repair; no aging.
+Phase: Fall. Roman Numeral: **III**. Arabic Numeral: 3. Era: Post-Fall to present. κ Regime: kappa sub partial (subcritical). Entropy: Increasing. Examples: Decay, thermodynamic arrow.
+Phase: Redemption. Roman Numeral: **IV**. Arabic Numeral: 4. Era: Future restoration. κ Regime: kappa sub redeem (recovery). Entropy: Decreasing. Examples: Entropy reversal; renewal.
+
+Notation rule: When phase labels appear in equations alongside equation numbers, use Roman numerals to avoid confusion. For example, "Phase II of creation corresponds to equation (1.2.5)" is clear; "Phase 2 of creation corresponds to equation (1.2.5)" risks ambiguity.
+
+B.5 Field Variables.
+
+B.5.1 Core Fields.
+
+Symbol: Psi sub A( xi ). Full Name: Waters Above field. Type: Scalar / Klein-Gordon. Domain: Z sub 2.2.3. Meaning: Dark energy; repulsive vacuum; cosmological constant source. Identification: Λ component; equation of state w = -1. First Defined: Ch 1.
+Symbol: Psi sub B( eta ). Full Name: Waters Below field. Type: Scalar / Klein-Gordon. Domain: Z sub 2.2.1. Meaning: Dark matter; attractive gravitational component; matter-like scaling. Identification: Dark matter halo; equation of state w = 0. First Defined: Ch 1.
+Symbol: psi ( r,t). Full Name: Fermion field / wave function. Type: Spinor or complex scalar. Domain: Z sub 2.2. Meaning: Electron, quark, or generic matter field; fulfills Dirac or Schrödinger equation. Identification: Baryonic matter; leptons & quarks. First Defined: Ch 9.
+Symbol: psi sub human. Full Name: Human consciousness state. Type: Density matrix or wave function. Domain: Z sub 2.1 Z sub 2.2. Meaning: Quantum entanglement of neural correlates; spans atemporal and temporal zones. Identification: Imago Dei; interface operator. First Defined: Ch 13.
+Symbol: phi ( r,t). Full Name: Scalar field (generic). Type: Scalar. Domain: Generic. Meaning: Placeholder for any massless or massive scalar field; used in derivations. Identification: Inflaton, Higgs-like scalars. First Defined: Ch 2.
+
+B.5.2 Gauge and Connection Fields.
+
+Symbol: the expression. Full Name: Electromagnetic 4-potential. Type: 1-form / 4-vector. Dimension: 4D. Meaning: Encodes electric and magnetic fields via F sub mu nu = partial _ mu A_ nu - partial _ nu A_ mu. First Defined: Ch 10.
+Symbol: A sub A( x). Full Name: Gauge connection (6D). Type: 1-form / 6-vector. Dimension: 6D. Meaning: Generalizes A_ mu to full 6D spacetime. First Defined: Ch 4.
+Symbol: the expression. Full Name: Christoffel symbols. Type: Connection coefficients. Dimension: 4D. Meaning: the expression. First Defined: Ch 5.
+Symbol: Gamma to the A sub BC. Full Name: Christoffel symbols (6D). Type: Connection coefficients. Dimension: 6D. Meaning: 6D analogue of the expression. First Defined: Ch 4.
+
+B.5.3 Metric and Curvature Tensors.
+
+Symbol: g sub AB. Full Name: 6D metric tensor. Type: Tensor. Rank: (0,2) symmetric. Meaning: Fundamental geometry of 6D spacetime; encodes distance and causality. First Defined: Ch 3.
+Symbol: g to the AB. Full Name: Inverse 6D metric. Type: Tensor. Rank: (2,0) symmetric. Meaning: g to the AC g sub CB = delta to the A sub B. First Defined: Ch 3.
+Symbol: g sub mu nu. Full Name: 4D metric tensor. Type: Tensor. Rank: (0,2) symmetric. Meaning: Induced metric on 4D Firmament submanifold. First Defined: Ch 5.
+Symbol: h sub mu nu. Full Name: Metric perturbation. Type: Tensor. Rank: (0,2) symmetric. Meaning: Small deviation from Minkowski: g sub mu nu = eta sub mu nu + h sub mu nu. First Defined: Ch 7.
+Symbol: R sub AB. Full Name: 6D Ricci tensor. Type: Tensor. Rank: (0,2) symmetric. Meaning: Contraction of 6D Riemann: the expression. First Defined: Ch 6.
+Symbol: R sub mu nu. Full Name: 4D Ricci tensor. Type: Tensor. Rank: (0,2) symmetric. Meaning: Contraction of 4D Riemann on Firmament. First Defined: Ch 6.
+Symbol: R sub ABCD. Full Name: 6D Riemann tensor. Type: Tensor. Rank: (0,4). Meaning: Full 6D curvature tensor; measures spacetime bending. First Defined: Ch 5.
+Symbol: R. Full Name: Ricci scalar. Type: Scalar. Rank: 0. Meaning: R = g to the AB R sub AB (contraction of Ricci tensor). First Defined: Ch 6.
+
+B.5.4 Scale Factor and Expansion Functions.
+
+Symbol: a(t). Meaning: Cosmic scale factor (4D). Function Form: Positive, dimensionless; a(t sub 0)=1. First Defined: Ch 4.
+Symbol: A( xi , eta ). Meaning: 4D warp factor. Function Form: A( xi , eta ) = a(t) times f( xi , eta ); depends on extra dimensions. First Defined: Ch 4.
+Symbol: B( xi , eta ). Meaning: Extra-dimensional warp factor. Function Form: B( xi , eta ) modifies geometry in xi , eta directions. First Defined: Ch 4.
+Symbol: h(t, x). Meaning: Metric perturbation on Firmament. Function Form: Spatial-temporal small oscillation field; drives gravitational waves. First Defined: Ch 8.
+
+B.6 Operators and Functional Objects.
+
+B.6.1 Differential and Integral Operators.
+
+Symbol: nabla _ mu. Name: Covariant derivative. Definition: the expression. Context: Curved spacetime. First Defined: Ch 5.
+Symbol: partial _ mu. Name: Partial derivative. Definition: the expression. Context: Flat spacetime or local. First Defined: Ch 2.
+Name: d'Alembertian. Definition: = g to the mu nu nabla _ mu nabla _ nu (4D); = g to the AB nabla sub A nabla sub B (6D). Context: Wave equations. First Defined: Ch 6.
+Symbol: nabla times. Name: Curl. Definition: the expression. Context: Spatial vectors. First Defined: Ch 5.
+Symbol: nabla times. Name: Divergence. Definition: nabla times v = partial sub i v to the i. Context: Spatial vectors. First Defined: Ch 5.
+Symbol: d. Name: Exterior derivative. Definition: Acts on p-forms; d to the 2 = 0. Context: Differential forms. First Defined: Ch 2.
+Symbol: *. Name: Hodge star. Definition: Duality on p-forms; * * alpha = (-1) to the p(n-p) alpha in n dimensions. Context: Differential forms. First Defined: Ch 2.
+Name: Wedge product. Definition: Alternating product; alpha beta = (-1) to the pq beta alpha (p-form alpha, q-form beta). Context: Differential forms. First Defined: Ch 2.
+Symbol: delta. Name: Codifferential. Definition: delta = (-1) to the n(p+1)+1 * d * on p-forms in n-dimensional space. Context: Differential forms. First Defined: Ch 2.
+Symbol: integral sub M. Name: Integral over manifold. Definition: Integrate a top-form over region M. Context: Manifold calculus. First Defined: Ch 2.
+
+B.6.2 Pattern Operators.
+
+Seven fundamental pattern operators P sub 1, , P sub 7 act on fields to generate physical structures. Each has a corresponding infinitesimal generator L sub i.
+
+Symbol: P sub 1. Operator Name: Localization. Infinitesimal Generator: L sub 1. Action: Concentrates field energy at a point or region. Meaning: Creates quantum particles from field background. First Defined: Ch 10.
+Symbol: P sub 2. Operator Name: Extension. Infinitesimal Generator: L sub 2. Action: Spreads field energy across larger region. Meaning: Deconfinement; dilution of boundary layers. First Defined: Ch 10.
+Symbol: P sub 3. Operator Name: Repetition. Infinitesimal Generator: L sub 3. Action: Repeats pattern with integer multiplicity. Meaning: Creates multi-particle states; quantization levels. First Defined: Ch 11.
+Symbol: P sub 4. Operator Name: Transformation. Infinitesimal Generator: L sub 4. Action: Rotates or mixes field components. Meaning: Symmetry rotations; gauge transformations. First Defined: Ch 11.
+Symbol: P sub 5. Operator Name: Recursion. Infinitesimal Generator: L sub 5. Action: Applies self-similarly at multiple scales. Meaning: Fractal structures; hierarchical emergence. First Defined: Ch 11.
+Symbol: P sub 6. Operator Name: Threshold. Infinitesimal Generator: L sub 6. Action: Activates new phase or structure above critical value. Meaning: Phase transitions; critical phenomena. First Defined: Ch 12.
+Symbol: P sub 7. Operator Name: Cycle. Infinitesimal Generator: L sub 7. Action: Periodic return to initial state with accumulated phase. Meaning: Time-reversal; cyclic thermodynamic processes. First Defined: Ch 13.
+
+B.6.3 Quantum Operators.
+
+Symbol: H. Name: Hamiltonian. Eigenvalue Equation: the expression. Meaning: Total energy operator; governs time evolution. First Defined: Ch 9.
+Symbol: p sub i. Name: Momentum (spatial). Eigenvalue Equation: the expression. Meaning: Momentum in direction i. First Defined: Ch 9.
+Symbol: x sub i. Name: Position (spatial). Eigenvalue Equation: the expression. Meaning: Position in direction i; [ x sub i, p sub j] = i h-bar delta to the i sub j. First Defined: Ch 9.
+Symbol: S sub i. Name: Spin (component). Eigenvalue Equation: the expression. Meaning: Spin angular momentum; eigenstates are plus or minus h-bar /2 for fermions. First Defined: Ch 9.
+Symbol: N sub n. Name: Number operator. Eigenvalue Equation: the expression. Meaning: Counts excitations (photons, phonons) in mode n. First Defined: Ch 10.
+Symbol: the expression. Name: Annihilation/Creation. Eigenvalue Equation: the expression. Meaning: Lower/raise excitation count in mode n. First Defined: Ch 10.
+Symbol: U( theta ). Name: Unitary operator. Eigenvalue Equation: the expression. Meaning: Symmetry transformation; preserves probability norm. First Defined: Ch 9.
+
+B.7 Constants and Parameters.
+
+B.7.1 Fundamental Membrane Properties.
+
+These are the deepest level of constants in Genesis Physics: properties of the primordial membrane (Firmament) from which all physics derives.
+
+Symbol: sigma. Name: Membrane tension. Value: 6.0 times 10 to the 98. Units: kg/(m·s²). Dimension: [ML⁻¹T⁻²]. Meaning: 3-brane surface tension; fundamental creation parameter. Interpretation: Energy per unit area of membrane defect. First Defined: Ch 1.
+Symbol: mu. Name: Membrane mass density. Value: 6.7 times 10 to the 81. Units: kg/m³. Dimension: [ML⁻³]. Meaning: Volume mass density of membrane material. Interpretation: "Mass" of Firmament substrate. First Defined: Ch 1.
+
+Note: sigma and mu cannot be independently derived within standard physics. In Genesis Physics, they follow from the structure of the Firmament itself and the open system axiom. Their ratio determines the speed of light.
+
+B.7.2 Derived Fundamental Constants.
+
+These constants are derived from membrane properties and geometric couplings, following from first principles rather than observation alone.
+
+Symbol: c. Name: Speed of light. Value: 2.998 times 10 to the 8. Units: m/s. Dimension: [LT⁻¹]. Genesis Physics Formula: c = square root of sigma / mu. Meaning: Characteristic velocity of membrane waves; light speed. Standard Value: Standard. First Defined: Ch 1.
+Symbol: G. Name: Gravitational constant. Value: 6.674 times 10 to the -11. Units: m³/(kg·s²). Dimension: [L³M⁻¹T⁻²]. Genesis Physics Formula: G = c to the 4 over 8 pi sigma L sub eff to the 2. Meaning: Strength of geometric spacetime curvature coupling. Standard Value: Standard. First Defined: Ch 5.
+Symbol: h-bar. Name: Reduced Planck constant. Value: 1.055 times 10 to the -34. Units: J·s. Dimension: [ML²T⁻¹]. Genesis Physics Formula: Derived from atemporal domain Z sub 2.1 structure. Meaning: Quantum action unit; nonlocality scale. Standard Value: Standard. First Defined: Ch 10.
+Symbol: alpha to the -1. Name: Fine structure constant (reciprocal). Value: 137.036. Units: Dimensionless. Dimension: [1]. Genesis Physics Formula: alpha to the -1 = 1.44 times ( xi sub A / eta sub B). Meaning: Electromagnetic coupling strength; emergent from scale hierarchy. Standard Value: Standard. First Defined: Ch 1.
+
+B.7.3 Cosmological Parameters.
+
+Symbol: Lambda. Name: Cosmological constant (curvature). Value: 1.1 times 10 to the -52. Units: m⁻². Dimension: [L⁻²]. Meaning: Spatial curvature density; vacuum energy scale. First Defined: Ch 4.
+Symbol: H sub 0. Name: Hubble constant (present). Value: 67.4. Units: km/(s·Mpc). Dimension: [T⁻¹]. Meaning: Present expansion rate; observed from Type Ia supernovae. First Defined: Ch 4.
+Symbol: H sub creation. Name: Hubble rate at creation. Value: approximately 3 times 10 to the 14 H sub 0. Units: Variable. Dimension: [T⁻¹]. Meaning: Exponential early expansion during Phase I. First Defined: Ch 4.
+Symbol: a sub 0. Name: Present scale factor. Value: 1. Units: Dimensionless. Dimension: [1]. Meaning: By definition a(t sub now) = 1. First Defined: Ch 4.
+Symbol: a sub recombination. Name: Scale factor at recombination. Value: approximately 10 to the -3. Units: Dimensionless. Dimension: [1]. Meaning: At z approximately 1000; when photons decouple from matter. First Defined: Ch 4.
+
+B.7.4 Scale Parameters: Waters Extents.
+
+Symbol: xi sub A. Name: Waters Above extent. Value: approximately 3 times 10 to the 26. Units: m. Dimension: [L]. Meaning: Characteristic scale of dark energy field Psi sub A. Role: Hubble-scale radius; cosmological horizon. First Defined: Ch 1.
+Symbol: eta sub B. Name: Waters Below extent. Value: approximately 1.3 times 10 to the -15. Units: m. Dimension: [L]. Meaning: Characteristic scale of dark matter field Psi sub B. Role: QCD length scale; nuclear binding. First Defined: Ch 1.
+Symbol: xi sub A / eta sub B. Name: Scale hierarchy ratio. Value: approximately 2.3 times 10 to the 41. Units: Dimensionless. Dimension: [1]. Meaning: Determines fine structure constant via logarithm. Role: Controls all electromagnetic phenomena. First Defined: Ch 1.
+
+B.7.5 Effective Coupling Parameters.
+
+Symbol: L sub eff. Name: Effective coupling length. Value: 8.96 times 10 to the -29. Units: m. Dimension: [L]. Meaning: Length scale at which 6D geometry couples to 4D spacetime; controls gravitational strength. Genesis Physics Origin: Kaluza-Klein compactification radius. First Defined: Ch 4.
+Symbol: kappa. Name: Sustaining field power density. Value: —. Units: kg/(m·s³). Dimension: [ML⁻¹T⁻³]. Meaning: Power per unit volume input from transcendent domain Z sub 1 to maintain physical order. Genesis Physics Origin: Mechanism of creation and maintenance. First Defined: Ch 1.
+
+Sustaining field regimes:
+
+Parameter: kappa sub create. Regime: Supercritical. Value/State: much greater than kappa sub full. Meaning: Rapid ordering; entropy decreasing sharply. Thermodynamic Phase: Creation (Phase I). First Defined: Ch 1.
+Parameter: kappa sub full. Regime: Equilibrium. Value/State: Baseline value. Meaning: Perfect repair of entropy production; net dS/dt = 0. Thermodynamic Phase: Edenic (Phase II). First Defined: Ch 1.
+Parameter: kappa sub partial. Regime: Subcritical. Value/State: kappa sub full (1 - epsilon ). Meaning: Partial repair only; net entropy increase; epsilon approximately 10 to the -27 to 10 to the -60. Thermodynamic Phase: Fall (Phase III). First Defined: Ch 1.
+Parameter: kappa sub redeem. Regime: Recovery. Value/State: TBD. Meaning: Entropy reversal; restoration toward Edenic. Thermodynamic Phase: Redemption (Phase IV). First Defined: Ch 12.
+
+B.7.6 Energy Density Parameters (Friedmann Equation).
+
+Symbol: Omega _ Lambda. Name: Dark energy density parameter. Current Value: 0.684 (68.4%). Density Scaling: Constant (rho _ Lambda proportional to a to the 0). Equation of State: w_ Lambda = -1. Identification: Waters Above Psi sub A. First Defined: Ch 1.
+Symbol: Omega sub DM. Name: Dark matter density parameter. Current Value: 0.266 (26.6%). Density Scaling: Matter-like (rho sub B proportional to a to the -3). Equation of State: w sub B approximately equal to 0. Identification: Waters Below Psi sub B. First Defined: Ch 1.
+Symbol: Omega sub b. Name: Baryonic matter density parameter. Current Value: 0.049 (4.9%). Density Scaling: Matter-like (rho sub m proportional to a to the -3). Equation of State: w sub m approximately equal to 0. Identification: Condensed matter Z sub 2.2.2. First Defined: Ch 1.
+Symbol: Omega sub total. Name: Total density parameter. Current Value: 0.999 approximately equal to 1. Density Scaling: —. Equation of State: —. Identification: Flat universe; critical density. First Defined: Ch 4.
+
+B.7.7 Density Values.
+
+Quantity: Dark energy density. Symbol: rho sub A. Current Value: 5.8 times 10 to the -27. Units: kg/m³. Physical Meaning: Energy density of Waters Above. First Defined: Ch 1.
+Quantity: Dark matter density. Symbol: rho sub B. Current Value: 2.3 times 10 to the -27. Units: kg/m³. Physical Meaning: Energy density of Waters Below. First Defined: Ch 1.
+Quantity: Baryonic matter density. Symbol: rho sub matter. Current Value: 4.2 times 10 to the -28. Units: kg/m³. Physical Meaning: Energy density of visible universe. First Defined: Ch 1.
+Quantity: Critical density. Symbol: rho sub c. Current Value: approximately 2.3 times 10 to the 17. Units: kg/m³. Physical Meaning: QCD phase transition threshold; defines flat geometry. First Defined: Ch 4.
+
+B.7.8 Fundamental Physical Constants.
+
+Symbol: k sub B. Name: Boltzmann constant. Value: 1.381 times 10 to the -23. Units: J/K. Dimension: [ML²T⁻²K⁻¹]. Use: Thermodynamic scaling; entropy unit. First Defined: Ch 11.
+Symbol: epsilon sub 0. Name: Electric permittivity of vacuum. Value: 8.854 times 10 to the -12. Units: F/m = C²/(N·m²). Dimension: [M⁻¹L⁻³T⁴I²]. Use: Coulomb force scaling; arises from Psi sub A structure. First Defined: Ch 10.
+Symbol: mu sub 0. Name: Magnetic permeability of vacuum. Value: 4 pi times 10 to the -7. Units: H/m = N/A². Dimension: [MLT⁻²I⁻²]. Use: Ampère force scaling; relates to Psi sub B structure. First Defined: Ch 10.
+
+B.8 Thermodynamic Variables and Functions.
+
+B.8.1 State Variables.
+
+Symbol: T. Name: Temperature. Units: K (Kelvin). Dimension: [Θ] (temperature). Meaning: Measure of thermal kinetic energy; T = 1/(k sub B beta ). Conjugate Variable: Entropy S (via dU = TdS - PdV). First Defined: Ch 11.
+Symbol: S. Name: Entropy. Units: J/K. Dimension: [ML²T⁻²K⁻¹]. Meaning: Measure of disorder; S = k sub B Omega where Omega = microstates. Conjugate Variable: Temperature T (via dU = TdS - PdV). First Defined: Ch 11.
+Symbol: U. Name: Internal energy. Units: J. Dimension: [ML²T⁻²]. Meaning: Total energy of system excluding rest mass and external fields. Conjugate Variable: Temperature/Entropy (via dU = TdS - PdV + mu sub i dN sub i). First Defined: Ch 11.
+Symbol: H. Name: Enthalpy. Units: J. Dimension: [ML²T⁻²]. Meaning: H = U + PV; natural thermodynamic potential at constant pressure. Conjugate Variable: Temperature/Pressure (via dH = TdS + VdP). First Defined: Ch 11.
+Symbol: F (or A). Name: Helmholtz free energy. Units: J. Dimension: [ML²T⁻²]. Meaning: F = U - TS; minimized at equilibrium at constant T, V. Conjugate Variable: Entropy/Volume (via dF = -SdT - PdV). First Defined: Ch 11.
+Symbol: G. Name: Gibbs free energy. Units: J. Dimension: [ML²T⁻²]. Meaning: G = H - TS = U + PV - TS; determines spontaneity. Conjugate Variable: Pressure/Temperature (via dG = -SdT + VdP). First Defined: Ch 11.
+Symbol: P. Name: Pressure. Units: Pa = N/m². Dimension: [ML⁻¹T⁻²]. Meaning: Force per unit area; energy density. Conjugate Variable: Volume (via dU = ... - PdV). First Defined: Ch 11.
+Symbol: V. Name: Volume. Units: m³. Dimension: [L³]. Meaning: Physical extent of system. Conjugate Variable: Pressure (via dU = ... - PdV). First Defined: Ch 11.
+Symbol: mu sub i. Name: Chemical potential (species i). Units: J/mol. Dimension: [ML²T⁻²]. Meaning: Energy cost to add one particle of species i. Conjugate Variable: Particle number N sub i (via dU = TdS - PdV + mu sub i dN sub i). First Defined: Ch 11.
+Symbol: N sub i. Name: Particle number (species i). Units: Dimensionless. Dimension: [1]. Meaning: Count of particles of type i. Conjugate Variable: Chemical potential mu sub i. First Defined: Ch 11.
+
+B.8.2 Derived Quantities.
+
+Symbol: C sub V. Name: Heat capacity (const. volume). Definition: C sub V = ( partial U / partial T) sub V. Units: J/K. Meaning: Energy to raise temperature by 1 K at constant volume. First Defined: Ch 11.
+Symbol: C sub P. Name: Heat capacity (const. pressure). Definition: C sub P = ( partial H / partial T) sub P. Units: J/K. Meaning: Energy to raise temperature by 1 K at constant pressure. First Defined: Ch 11.
+Symbol: beta. Name: Inverse temperature. Definition: beta = 1/(k sub B T). Units: K⁻¹. Meaning: Thermodynamic inverse; appears in Boltzmann factors. First Defined: Ch 11.
+Symbol: Omega. Name: Grand canonical partition function. Definition: Omega = sum sub N sub i [- beta (E - mu sub i N sub i)]. Units: Dimensionless. Meaning: Normalization for statistical ensemble; determines all thermodynamics. First Defined: Ch 11.
+Symbol: Z( beta ). Name: Canonical partition function. Definition: Z( beta ) = sum sub n [- beta E sub n]. Units: Dimensionless. Meaning: Sums over all microscopic states weighted by Boltzmann factor. First Defined: Ch 11.
+Symbol: sigma sub T. Name: Entropy production rate. Definition: sigma sub T = dS/dt > 0 (Fall phase). Units: J/(K·s). Meaning: Rate of disorder generation; nonzero in Phase III. First Defined: Ch 12.
+
+B.9 Equation Numbering Scheme.
+
+B.9.1 Permanent Format.
+
+All equations in the Genesis Physics series use a three-part numbering scheme that is permanent and invariant across all editions:
+
+[Equation — see print edition.]
+
+where:
+
+- V = Volume number within Book 0 (Foundations). V ∈ {1, 2, 3, 4, 5, 6}
+  - Vol 1 = Architecture of Reality
+  - Vol 2 = Forces and Fields
+  - Vol 3 = Matter and Motion
+  - Vol 4 = The Quantum World
+  - Vol 5 = The Cosmos
+  - Vol 6 = Predictions and Simulations
+
+- C = Chapter number within the volume. C ∈ {1, 2, ..., 11} for Vol 1 (other volumes may differ)
+
+- N = Equation sequence number within the chapter. N ∈ {1, 2, 3, ...}; resets for each chapter
+
+Examples:
+
+- (1.1.3) = Volume 1, Chapter 1 (Axioms and Definitions), Equation 3
+- (1.11.14) = Volume 1, Chapter 11 (Sustaining Coupling and Thermodynamic Phases), Equation 14
+- (2.3.7) = Volume 2, Chapter 3, Equation 7
+
+B.9.2 Special Marking: Boxed Key Results.
+
+Equations of foundational importance are displayed in boxes:
+
+[Equation — see print edition.]
+
+Boxed equations are reference anchors. Their numbers are cited across multiple chapters and throughout downstream volumes. A boxed equation number is permanent: (1.3.5) refers to the same equation in all printings, all languages, and all editions. Never renumber a boxed equation.
+
+B.9.3 Chapter Equation Ranges (Vol 1).
+
+To locate equations by approximate topic, here are the equation counts per chapter:
+
+Chapter: Ch 1. Topic: Axioms and Definitions. Approx. Eqs: 25. Range: (1.1.1)–(1.1.25).
+Chapter: Ch 2. Topic: Mathematical Preliminaries. Approx. Eqs: 40. Range: (1.2.1)–(1.2.40).
+Chapter: Ch 3. Topic: The Zone Manifold. Approx. Eqs: 35. Range: (1.3.1)–(1.3.35).
+Chapter: Ch 4. Topic: The 6D Embedding Space. Approx. Eqs: 45. Range: (1.4.1)–(1.4.45).
+Chapter: Ch 5. Topic: The Firmament Manifold. Approx. Eqs: 50. Range: (1.5.1)–(1.5.50).
+Chapter: Ch 6. Topic: Curvature and Dynamics. Approx. Eqs: 45. Range: (1.6.1)–(1.6.45).
+Chapter: Ch 7. Topic: Membrane Mechanics. Approx. Eqs: 40. Range: (1.7.1)–(1.7.40).
+Chapter: Ch 8. Topic: Zone Boundaries and Discontinuities. Approx. Eqs: 35. Range: (1.8.1)–(1.8.35).
+Chapter: Ch 9. Topic: The Waters Duality. Approx. Eqs: 50. Range: (1.9.1)–(1.9.50).
+Chapter: Ch 10. Topic: Particles and Fields. Approx. Eqs: 55. Range: (1.10.1)–(1.10.55).
+Chapter: Ch 11. Topic: Sustaining Coupling and Thermodynamic Phases. Approx. Eqs: 60. Range: (1.11.1)–(1.11.60).
+
+Total equations in Vol 1: ~475
+
+B.10 Complete Alphabetical Symbol Table.
+
+This comprehensive table lists every mathematical symbol, variable, constant, operator, and field used in Volume 1: Architecture of Reality. Symbols are organized alphabetically (Latin first, then Greek), with columns for: symbol, name, definition, physical dimensions, first chapter defined, and category (scalar, vector, tensor, operator, constant, or field).
+
+B.10.1 Latin Letters.
+
+Symbol: A. Name: Warp factor (4D). Definition/Meaning: Metric coefficient A( xi , eta ); rescales 4D part of 6D metric. Dimension: Dimensionless. First Chapter: 4. Category: Scalar field.
+Symbol: A sub A. Name: Gauge connection (6D). Definition/Meaning: Generalizes 4D electromagnetic potential to 6D. Dimension: [ML²T⁻¹I⁻¹]. First Chapter: 4. Category: 1-form / Vector field.
+Symbol: A_ mu. Name: Electromagnetic 4-potential. Definition/Meaning: Encodes E and B fields; F sub mu nu = partial _ mu A_ nu - partial _ nu A_ mu. Dimension: [MLT⁻²I⁻¹]. First Chapter: 10. Category: 1-form / Vector field.
+Symbol: a(t). Name: Cosmic scale factor. Definition/Meaning: Expansion history; a(t sub 0) = 1 today. Dimension: Dimensionless. First Chapter: 4. Category: Scalar function.
+Symbol: B. Name: Warp factor (extra-dimensional). Definition/Meaning: Metric coefficient in xi , eta directions. Dimension: Dimensionless. First Chapter: 4. Category: Scalar field.
+Symbol: B sub i. Name: Magnetic field (spatial component). Definition/Meaning: 3-vector; B = nabla times A. Dimension: [MT⁻²I⁻¹]. First Chapter: 10. Category: Vector field.
+Symbol: C sub P. Name: Heat capacity at constant pressure. Definition/Meaning: C sub P = ( partial H / partial T) sub P. Dimension: [ML²T⁻²K⁻¹]. First Chapter: 11. Category: Scalar.
+Symbol: C sub V. Name: Heat capacity at constant volume. Definition/Meaning: C sub V = ( partial U / partial T) sub V. Dimension: [ML²T⁻²K⁻¹]. First Chapter: 11. Category: Scalar.
+Symbol: c. Name: Speed of light. Definition/Meaning: c = square root of sigma / mu = 2.998 times 10 to the 8 m/s. Dimension: [LT⁻¹]. First Chapter: 1. Category: Constant.
+Symbol: d. Name: Exterior derivative. Definition/Meaning: Acts on p-forms; d to the 2 = 0. Dimension: —. First Chapter: 2. Category: Operator.
+Symbol: E. Name: Energy (total). Definition/Meaning: Total energy; eigenvalue of H. Dimension: [ML²T⁻²]. First Chapter: 9. Category: Scalar.
+Symbol: E sub i. Name: Electric field (spatial component). Definition/Meaning: 3-vector; E = - nabla phi - partial sub t A. Dimension: [MLT⁻³I⁻¹]. First Chapter: 10. Category: Vector field.
+Symbol: F. Name: Helmholtz free energy. Definition/Meaning: F = U - TS; minimized at constant T, V. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar thermodynamic potential.
+Symbol: F sub mu nu. Name: Electromagnetic field tensor. Definition/Meaning: F sub mu nu = partial _ mu A_ nu - partial _ nu A_ mu. Dimension: [MT⁻²I⁻¹]. First Chapter: 10. Category: Rank-2 tensor.
+Symbol: G. Name: Gibbs free energy. Definition/Meaning: G = H - TS = U + PV - TS. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar thermodynamic potential.
+Symbol: G. Name: Gravitational constant. Definition/Meaning: the expression m³/(kg·s²). Dimension: [L³M⁻¹T⁻²]. First Chapter: 1. Category: Constant.
+Symbol: H. Name: Enthalpy. Definition/Meaning: H = U + PV. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar thermodynamic potential.
+Symbol: H sub 0. Name: Hubble constant (present). Definition/Meaning: H sub 0 = 67.4 km/(s·Mpc). Dimension: [T⁻¹]. First Chapter: 4. Category: Constant.
+Symbol: H(t). Name: Hubble parameter (time-dependent). Definition/Meaning: H(t) = a/a. Dimension: [T⁻¹]. First Chapter: 4. Category: Scalar function.
+Symbol: H. Name: Hamiltonian operator. Definition/Meaning: Total energy operator; governs time evolution i h-bar partial sub t. Dimension: psi = H. First Chapter: psi. Category: [ML²T⁻²].
+Symbol: h. Name: Metric perturbation. Definition/Meaning: Small deviation h sub mu nu; g sub mu nu = eta sub mu nu + h sub mu nu. Dimension: Dimensionless. First Chapter: 7. Category: Rank-2 tensor field.
+Symbol: h sub mu nu. Name: Metric perturbation tensor (4D). Definition/Meaning: Perturbation around Minkowski metric. Dimension: Dimensionless. First Chapter: 7. Category: Rank-2 symmetric tensor.
+Symbol: i. Name: Imaginary unit. Definition/Meaning: i to the 2 = -1. Dimension: Dimensionless. First Chapter: 2. Category: Constant.
+Symbol: j. Name: Current density (spacetime). Definition/Meaning: Charge per unit time per unit area; the expression. Dimension: [L⁻²I]. First Chapter: 10. Category: 1-form / 4-vector.
+Symbol: k. Name: Boltzmann constant. Definition/Meaning: Actually k sub B (see below). Dimension: —. First Chapter: 11. Category: —.
+Symbol: k sub B. Name: Boltzmann constant. Definition/Meaning: k sub B = 1.381 times 10 to the -23 J/K. Dimension: [ML²T⁻²K⁻¹]. First Chapter: 11. Category: Constant.
+Symbol: L sub eff. Name: Effective coupling length. Definition/Meaning: Kaluza-Klein radius; L sub eff = 8.96 times 10 to the -29 m. Dimension: [L]. First Chapter: 4. Category: Constant.
+Symbol: m. Name: Mass (particle). Definition/Meaning: Rest mass; energy equivalent E sub 0 = mc to the 2. Dimension: [M]. First Chapter: 9. Category: Scalar.
+Symbol: mu. Name: Membrane mass density. Definition/Meaning: Volume mass density; mu = 6.7 times 10 to the 81 kg/m³. Dimension: [ML⁻³]. First Chapter: 1. Category: Constant.
+Symbol: mu sub i. Name: Chemical potential (species i). Definition/Meaning: Energy cost to add particle; mu sub i = ( partial U/ partial N sub i) sub S,V. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar.
+Symbol: N. Name: Total particle number. Definition/Meaning: Count of all particles in system. Dimension: Dimensionless. First Chapter: 11. Category: Scalar.
+Symbol: N sub i. Name: Particle number (species i). Definition/Meaning: Count of particles of type i. Dimension: Dimensionless. First Chapter: 11. Category: Scalar.
+Symbol: N sub n. Name: Number operator. Definition/Meaning: the expression; counts excitations in mode n. Dimension: Dimensionless. First Chapter: 10. Category: Operator.
+Symbol: P. Name: Pressure. Definition/Meaning: Force per unit area; thermodynamic conjugate to volume. Dimension: [ML⁻¹T⁻²]. First Chapter: 11. Category: Scalar.
+Symbol: P sub i. Name: Pattern operator (generic). Definition/Meaning: i 1, 2, ..., 7; generates physical structures. Dimension: —. First Chapter: 10. Category: Operator.
+Symbol: p. Name: Momentum (particle). Definition/Meaning: Linear momentum; eigenvalue of p. Dimension: [MLT⁻¹]. First Chapter: 9. Category: Scalar or 3-vector.
+Symbol: p sub i. Name: Momentum (component). Definition/Meaning: Component in direction i. Dimension: [MLT⁻¹]. First Chapter: 9. Category: Scalar.
+Symbol: p sub i. Name: Momentum operator (component). Definition/Meaning: p sub i = -i h-bar partial sub i. Dimension: [MLT⁻¹]. First Chapter: 9. Category: Operator.
+Symbol: Q. Name: Heat (thermodynamic). Definition/Meaning: Energy transfer via temperature difference. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar.
+Symbol: R. Name: Ricci scalar. Definition/Meaning: Contraction R = g to the mu nu R sub mu nu; curvature measure. Dimension: [L⁻²]. First Chapter: 6. Category: Scalar.
+Symbol: R sub mu nu. Name: Ricci tensor (4D). Definition/Meaning: Contraction of Riemann; the expression. Dimension: [L⁻²]. First Chapter: 6. Category: Rank-2 symmetric tensor.
+Symbol: R sub AB. Name: Ricci tensor (6D). Definition/Meaning: 6D analogue of Ricci tensor. Dimension: [L⁻²]. First Chapter: 6. Category: Rank-2 symmetric tensor.
+Symbol: R sub mu nu rho sigma. Name: Riemann tensor (4D). Definition/Meaning: Full 4D curvature tensor. Dimension: [L⁻²]. First Chapter: 5. Category: Rank-4 tensor.
+Symbol: R sub ABCD. Name: Riemann tensor (6D). Definition/Meaning: Full 6D curvature tensor. Dimension: [L⁻²]. First Chapter: 5. Category: Rank-4 tensor.
+Symbol: S. Name: Entropy. Definition/Meaning: Measure of disorder; S = k sub B Omega. Dimension: [ML²T⁻²K⁻¹]. First Chapter: 11. Category: Scalar.
+Symbol: S sub i. Name: Spin operator (component). Definition/Meaning: Spin in direction i; eigenstates plus or minus h-bar /2 for fermions. Dimension: [ML²T⁻¹]. First Chapter: 9. Category: Operator.
+Symbol: T. Name: Temperature. Definition/Meaning: Absolute temperature in Kelvin. Dimension: [Θ]. First Chapter: 11. Category: Scalar.
+Symbol: the expression or T to the mu nu. Name: Stress-energy tensor. Definition/Meaning: Energy density, momentum density, stress; source in Einstein equations. Dimension: [ML⁻¹T⁻²]. First Chapter: 6. Category: Rank-2 tensor.
+Symbol: t. Name: Time coordinate. Definition/Meaning: Temporal coordinate; t = 0 at Big Bang. Dimension: [T]. First Chapter: 1. Category: Coordinate.
+Symbol: U. Name: Internal energy. Definition/Meaning: Total microscopic energy minus rest mass and external fields. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar thermodynamic potential.
+Symbol: U( theta ). Name: Unitary operator. Definition/Meaning: Symmetry transformation; the expression. Dimension: —. First Chapter: 9. Category: Operator.
+Symbol: V. Name: Volume. Definition/Meaning: Physical extent of system. Dimension: [L³]. First Chapter: 11. Category: Scalar.
+Symbol: W. Name: Work (thermodynamic). Definition/Meaning: Energy transfer via mechanical means; W = integral P dV. Dimension: [ML²T⁻²]. First Chapter: 11. Category: Scalar.
+Symbol: x, y, z. Name: Spatial coordinates (Cartesian). Definition/Meaning: Orthogonal Euclidean coordinates; r = (x, y, z). Dimension: [L]. First Chapter: 1. Category: Coordinates.
+Symbol: x to the i. Name: Spatial coordinate (indexed). Definition/Meaning: i-th spatial direction; i 1, 2, 3. Dimension: [L]. First Chapter: 2. Category: Coordinate.
+Symbol: the expression. Name: Spacetime coordinate (4D). Definition/Meaning: mu 0, 1, 2, 3; x to the 0 = ct (or t in natural units). Dimension: [L] or [T]. First Chapter: 1. Category: Coordinate.
+Symbol: x to the A. Name: Spacetime coordinate (6D). Definition/Meaning: A 0, 1, 2, 3, 5, 6; includes extra dimensions. Dimension: [L] or [T]. First Chapter: 3. Category: Coordinate.
+Symbol: x sub i. Name: Position operator (component). Definition/Meaning: Position in direction i; [ x sub i, p sub j] = i h-bar delta sub j to the i. Dimension: [L]. First Chapter: 9. Category: Operator.
+Symbol: a sub n. Name: Annihilation operator (mode n). Definition/Meaning: Lowers excitation count; the expression. Dimension: —. First Chapter: 10. Category: Operator.
+Symbol: the expression. Name: Creation operator (mode n). Definition/Meaning: Raises excitation count; the expression. Dimension: —. First Chapter: 10. Category: Operator.
+
+B.10.2 Greek Letters.
+
+Symbol: alpha. Name: Fine structure constant. Definition/Meaning: Dimensionless electromagnetic coupling; alpha = 1/137.036. Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: alpha to the -1. Name: Fine structure constant (reciprocal). Definition/Meaning: the expression. Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: beta. Name: Inverse temperature. Definition/Meaning: beta = 1/(k sub B T). Dimension: [K⁻¹]. First Chapter: 11. Category: Scalar.
+Symbol: the expression. Name: Christoffel symbols (4D). Definition/Meaning: Connection coefficients; the expression. Dimension: Dimensionless. First Chapter: 5. Category: Connection.
+Symbol: Gamma to the A sub BC. Name: Christoffel symbols (6D). Definition/Meaning: 6D analogues of Christoffel symbols. Dimension: Dimensionless. First Chapter: 4. Category: Connection.
+Symbol: gamma. Name: Lorentz factor. Definition/Meaning: gamma = 1/ square root of 1 - v to the 2/c to the 2. Dimension: Dimensionless. First Chapter: 4. Category: Scalar.
+Symbol: delta. Name: Codifferential. Definition/Meaning: delta = (-1) to the n(p+1)+1 * d * on p-forms in n-d space. Dimension: —. First Chapter: 2. Category: Operator.
+Symbol: delta to the i sub j. Name: Kronecker delta (spatial). Definition/Meaning: 1 if i = j, 0 otherwise. Dimension: Dimensionless. First Chapter: 2. Category: Tensor.
+Symbol: the expression. Name: Kronecker delta (spacetime). Definition/Meaning: 1 if mu = nu, 0 otherwise. Dimension: Dimensionless. First Chapter: 3. Category: Tensor.
+Symbol: Delta. Name: Laplacian (spatial). Definition/Meaning: Delta = nabla to the 2 = partial sub i partial sub i (sum over i). Dimension: [L⁻²]. First Chapter: 2. Category: Operator.
+Symbol: epsilon. Name: Degradation parameter. Definition/Meaning: Smallness of sustaining field reduction in Fall; epsilon approximately 10 to the -27 to 10 to the -60. Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: epsilon to the ijk. Name: Levi-Civita symbol (spatial). Definition/Meaning: Totally antisymmetric; epsilon to the 123 = 1 in right-handed coords. Dimension: Dimensionless. First Chapter: 2. Category: Tensor.
+Symbol: epsilon to the mu nu rho sigma. Name: Levi-Civita symbol (4D). Definition/Meaning: Totally antisymmetric; related to volume form d to the 4x. Dimension: Dimensionless. First Chapter: 5. Category: Tensor.
+Symbol: epsilon sub 0. Name: Electric permittivity of vacuum. Definition/Meaning: epsilon sub 0 = 8.854 times 10 to the -12 F/m; relates to Psi sub A structure. Dimension: [M⁻¹L⁻³T⁴I²]. First Chapter: 10. Category: Constant.
+Symbol: eta. Name: Waters Below coordinate. Definition/Meaning: Extra-dimensional; characteristic scale eta sub B approximately 1.3 times 10 to the -15 m. Dimension: [L]. First Chapter: 3. Category: Coordinate.
+Symbol: eta sub mu nu. Name: Minkowski metric (4D). Definition/Meaning: diag(-1, +1, +1, +1). Dimension: Dimensionless. First Chapter: 1. Category: Metric tensor.
+Symbol: eta sub AB. Name: Minkowski metric (6D). Definition/Meaning: diag(-1, +1, +1, +1, +1, +1). Dimension: Dimensionless. First Chapter: 3. Category: Metric tensor.
+Symbol: theta. Name: Generic angle / rotation parameter. Definition/Meaning: Dimensionless angle; parameterizes U( theta ) rotations. Dimension: Dimensionless. First Chapter: 9. Category: Scalar.
+Symbol: theta. Name: Poloidal angle. Definition/Meaning: Angular coordinate in toroidal/cylindrical systems. Dimension: Dimensionless. First Chapter: 3. Category: Coordinate.
+Symbol: iota. Name: Twisted field variable. Definition/Meaning: Twist parameter in membrane oscillations. Dimension: Dimensionless. First Chapter: 7. Category: Scalar.
+Symbol: kappa. Name: Sustaining field power density. Definition/Meaning: Power per unit volume from transcendent domain; [ML⁻¹T⁻³]. Dimension: [ML⁻¹T⁻³]. First Chapter: 1. Category: Scalar field.
+Symbol: lambda. Name: Eigenvalue (generic). Definition/Meaning: Eigenvalue of operator O; O. Dimension: psi = lambda. First Chapter: psi. Category: Varies.
+Symbol: lambda. Name: Wavelength. Definition/Meaning: Distance between wave peaks; lambda = c/f for light. Dimension: [L]. First Chapter: 7. Category: Scalar.
+Symbol: Lambda. Name: Cosmological constant. Definition/Meaning: Curvature density; Lambda = 1.1 times 10 to the -52 m⁻². Dimension: [L⁻²]. First Chapter: 4. Category: Constant.
+Symbol: mu. Name: Chemical potential. Definition/Meaning: Actually written mu sub i (see Latin section). Dimension: —. First Chapter: —. Category: —.
+Symbol: mu. Name: Membrane mass density. Definition/Meaning: mu = 6.7 times 10 to the 81 kg/m³. Dimension: [ML⁻³]. First Chapter: 1. Category: Constant.
+Symbol: mu sub 0. Name: Magnetic permeability of vacuum. Definition/Meaning: mu sub 0 = 4 pi times 10 to the -7 H/m; from Psi sub B structure. Dimension: [MLT⁻²I⁻²]. First Chapter: 10. Category: Constant.
+Symbol: nu. Name: Frequency. Definition/Meaning: Oscillations per unit time; nu = c/ lambda for light. Dimension: [T⁻¹]. First Chapter: 7. Category: Scalar.
+Symbol: nu sub e, nu _ mu , nu _ tau. Name: Neutrino flavors. Definition/Meaning: Three types of leptons; weakly interacting fermions. Dimension: —. First Chapter: 10. Category: Particle types.
+Symbol: xi. Name: Waters Above coordinate. Definition/Meaning: Extra-dimensional; characteristic scale xi sub A approximately 3 times 10 to the 26 m. Dimension: [L]. First Chapter: 3. Category: Coordinate.
+Symbol: Pi. Name: Conjugate momentum. Definition/Meaning: Functional derivative Pi = delta S / delta phi. Dimension: [ML²T⁻¹]. First Chapter: 2. Category: Scalar field.
+Symbol: rho. Name: Density (mass). Definition/Meaning: Mass per unit volume. Dimension: [ML⁻³]. First Chapter: 4. Category: Scalar field.
+Symbol: rho sub A. Name: Dark energy density. Definition/Meaning: Energy density of Waters Above; ~5.8 times 10 to the -27 kg/m³. Dimension: [ML⁻³]. First Chapter: 1. Category: Scalar.
+Symbol: rho sub B. Name: Dark matter density. Definition/Meaning: Energy density of Waters Below; ~2.3 times 10 to the -27 kg/m³. Dimension: [ML⁻³]. First Chapter: 1. Category: Scalar.
+Symbol: rho sub matter. Name: Baryonic density. Definition/Meaning: Ordinary matter; ~4.2 times 10 to the -28 kg/m³. Dimension: [ML⁻³]. First Chapter: 1. Category: Scalar.
+Symbol: rho sub c. Name: Critical density. Definition/Meaning: Density for flat geometry; ~2.3 times 10 to the 17 kg/m³ at QCD transition. Dimension: [ML⁻³]. First Chapter: 4. Category: Scalar.
+Symbol: sigma. Name: Membrane 3-brane tension. Definition/Meaning: Surface tension; sigma = 6.0 times 10 to the 98 kg/(m·s²). Dimension: [ML⁻¹T⁻²]. First Chapter: 1. Category: Constant.
+Symbol: sigma sub T. Name: Entropy production rate. Definition/Meaning: Rate of disorder generation; sigma sub T = dS/dt > 0 in Phase III. Dimension: [ML²T⁻³K⁻¹]. First Chapter: 12. Category: Scalar.
+Symbol: tau. Name: Proper time. Definition/Meaning: Time measured along particle worldline; the expression. Dimension: [T]. First Chapter: 4. Category: Coordinate.
+Symbol: Phi. Name: Scalar field (generic). Definition/Meaning: Placeholder for any spacetime scalar field. Dimension: Varies. First Chapter: 2. Category: Scalar field.
+Symbol: phi. Name: Scalar field (generic, lower-case). Definition/Meaning: Often used for inflaton, Higgs-like fields. Dimension: Varies. First Chapter: 2. Category: Scalar field.
+Symbol: chi. Name: Spinor / Weyl fermion. Definition/Meaning: 2-component spinor; appears in weak interactions. Dimension: —. First Chapter: 9. Category: Spinor field.
+Symbol: Psi. Name: Wave function / Fermion field. Definition/Meaning: Generic fermion; satisfies Dirac equation. Dimension: —. First Chapter: 9. Category: Spinor field.
+Symbol: Psi sub A( xi ). Name: Waters Above field. Definition/Meaning: Dark energy scalar; the expression. Dimension: Varies. First Chapter: 1. Category: Scalar field.
+Symbol: Psi sub B( eta ). Name: Waters Below field. Definition/Meaning: Dark matter scalar; the expression. Dimension: Varies. First Chapter: 1. Category: Scalar field.
+Symbol: psi. Name: Generic fermion field. Definition/Meaning: Dirac spinor; 4-component for electron, quark, etc.. Dimension: —. First Chapter: 9. Category: Spinor field.
+Symbol: psi sub human. Name: Human consciousness state. Definition/Meaning: Quantum state spanning Z sub 2.1 and Z sub 2.2; density matrix formalism. Dimension: —. First Chapter: 13. Category: Density matrix / Wave function.
+Symbol: omega. Name: Angular frequency. Definition/Meaning: Frequency times 2 pi; omega = 2 pi nu. Dimension: [T⁻¹]. First Chapter: 7. Category: Scalar.
+Symbol: omega sub k. Name: Equation of state parameter (species k). Definition/Meaning: Pressure-to-density ratio; P sub k = omega sub k rho sub k. Dimension: Dimensionless. First Chapter: 4. Category: Scalar.
+Symbol: Omega sub i. Name: Density parameter (species i). Definition/Meaning: Fractional energy density; Omega sub i = rho sub i / rho sub c. Dimension: Dimensionless. First Chapter: 1. Category: Scalar.
+Symbol: Omega _ Lambda. Name: Dark energy density parameter. Definition/Meaning: Omega _ Lambda = 0.684 (68.4%). Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: Omega sub DM. Name: Dark matter density parameter. Definition/Meaning: Omega sub DM = 0.266 (26.6%). Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: Omega sub b. Name: Baryonic matter density parameter. Definition/Meaning: Omega sub b = 0.049 (4.9%). Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+Symbol: Omega sub total. Name: Total density parameter. Definition/Meaning: Omega sub total approximately equal to 1 (flat universe). Dimension: Dimensionless. First Chapter: 1. Category: Constant.
+
+B.11 Operator and Mathematical Object Summary.
+
+B.11.1 Differential Forms and Exterior Algebra.
+
+Object: Scalar 0-form. Notation: f(x). Degree: 0. Meaning: Function on manifold. First Chapter: 2.
+Object: 1-form. Notation: the expression. Degree: 1. Meaning: Covector field; dual to tangent vectors. First Chapter: 2.
+Object: 2-form. Notation: the expression. Degree: 2. Meaning: Antisymmetric tensor field; encodes area elements. First Chapter: 2.
+Object: p-form. Notation: the expression. Degree: p. Meaning: Fully antisymmetric rank-p tensor. First Chapter: 2.
+Object: Exterior derivative. Notation: d : p -forms to (p+1) -forms. Degree: Increases degree by 1; d to the 2 = 0. Meaning: 2.
+Object: Hodge star. Notation: * : p -forms to (n-p) -forms. Degree: Dimension-dependent duality; ** alpha = (-1) to the p(n-p) alpha. Meaning: 2.
+
+B.11.2 Fiber Bundles and Gauge Theory.
+
+Object: Principal bundle. Notation: P(M, G). Interpretation: Base space M, structure group G; encodes gauge symmetries. Context: Electromagnetic gauge U(1), Yang-Mills. First Chapter: 2.
+Object: Gauge connection. Notation: A Omega to the 1( ad P). Interpretation: 1-form taking values in Lie algebra; defines covariant derivative. Context: Generalizes electromagnetic potential. First Chapter: 2.
+Object: Curvature 2-form. Notation: F = dA + A A. Interpretation: Encodes field strength; vanishes for flat connection. Context: Generalizes E, B fields. First Chapter: 2.
+
+B.11.3 Tensor Symmetries and Index Conventions.
+
+Symmetry: Symmetric. Notation: the expression. Meaning: Unchanged under index swap. Example: Metric g sub mu nu, Ricci tensor.
+Symmetry: Antisymmetric. Notation: the expression. Meaning: Changes sign under index swap. Example: Electromagnetic field tensor F sub mu nu.
+Symmetry: Trace. Notation: the expression. Meaning: Contraction of same index up and down. Example: R = g to the mu nu R sub mu nu is Ricci scalar.
+
+B.12 Cross-References and Verification Checklist.
+
+B.12.1 Consistency with Reference Documents.
+
+This appendix is checked for consistency against:
+
+- QualityControl/Reference/Symboland_Constants.md — All constants (σ, μ, c, G, ℏ, α, κ, ε, etc.) match exactly
+- Quality_Control/Reference/Glossary.md — All zone names, phases, and theological terms match canonical forms
+- All Chapter Drafts (Ch 1–11) — Every symbol used in manuscript is listed in B.10
+
+B.12.2 Completeness Verification.
+
+Component: Scalar symbols. Status: ✓ Complete. Notes: All constants, fields, thermodynamic variables listed.
+Component: Vector/Tensor symbols. Status: ✓ Complete. Notes: Metric tensors, curvature, stress-energy all defined.
+Component: Operators. Status: ✓ Complete. Notes: Differential, quantum, pattern operators all present.
+Component: Index conventions. Status: ✓ Complete. Notes: 4D, 6D, Latin, Greek all explicitly stated.
+Component: Zone notation. Status: ✓ Complete. Notes: Z sub 0 through Z sub 2.2.3 with hierarchies.
+Component: Equation numbering. Status: ✓ Defined. Notes: (V.C.N) scheme permanent and unambiguous.
+Component: Constants. Status: ✓ Complete. Notes: Membrane, derived, cosmological, scale parameters all tabulated.
+Component: Thermodynamic variables. Status: ✓ Complete. Notes: All state variables and derived quantities present.
+
+B.12.3 Forward Compatibility.
+
+This appendix is designed to remain compatible with:
+
+- Future Genesis Physics volumes (Vol 2–6)
+- Books 1–3 of the series (novel and game)
+- Research papers building on Foundations
+
+New symbols introduced in downstream volumes are added to a supplementary version of this appendix (B-EXTENDED), not replacing any entries here. This ensures permanent backward compatibility.
+
+B.13 Using This Reference.
+
+B.13.1 For Authors and Contributors.
+
+1. Before writing a chapter: Scan Section B.10 (Alphabetical Table) for symbols you plan to use
+2. When introducing a new symbol: Add it to this appendix immediately with chapter and equation numbers
+3. When citing constants: Reference the values in Section B.7, not elsewhere
+4. When referencing equations: Use the (V.C.N) format from Section B.9
+
+B.13.2 For Readers.
+
+1. Looking up a symbol? Jump to Section B.10 and search alphabetically
+2. Need operator definitions? See Section B.6
+3. Checking metric signature? See Section B.3
+4. Zone notation questions? See Section B.4
+5. Equation numbering format? See Section B.9
+
+B.13.3 For Reviewers and Quality Control.
+
+1. Every symbol in Chapters 1–11 appears in this appendix: Quality checklist
+2. No symbol appears twice with different meanings: Consistency check
+3. All dimensions are physically reasonable: Dimensional analysis check
+4. Zone notation is hierarchically consistent: Topology check
+5. Constants match QualityControl/Reference/Symboland_Constants.md: Cross-check
+
+B.14 Version and Maintenance.
+
+Version: 1.0 (First Edition)
+Date Created: April 6, 2026
+Last Updated: April 6, 2026
+Maintainer: Jeff Raymond
+
+Change Log:
+
+- v1.0 (2026-04-06): Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
+
+Future Maintenance:
+
+This appendix remains open for clarification and refinement until the Vol 1 manuscript enters final copy-editing (estimated June 2026). After that date, it becomes locked for this edition. Corrections post-publication require a formal errata process.
+
+B.15 Canonical Authority Statement.
+
+CRITICAL NOTE:
+
+This Appendix B, as printed in the first edition of Foundations Vol 1: Architecture of Reality, is the single authoritative reference for all mathematical notation in the Genesis Physics series.
+
+In the event of any discrepancy between this appendix and:
+- Symbols used in Vol 1 Chapters 1–11
+- Symbols in Books 1–3
+- Symbols in Vol 2–6 of Foundations
+- Research papers in the Research/ folder
+
+This appendix takes absolute precedence.
+
+All downstream volumes and products defer to this reference. Notation is permanent once published.
+
+END OF APPENDIX B
+
+Next: Appendix C — Hebrew Word Analysis (forthcoming)
+References: Quality_Control/Reference/, Research/Foundations/, Chapter 1–11 Drafts

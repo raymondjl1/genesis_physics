@@ -1,0 +1,377 @@
+A reference for every Vol 1 and Vol 2 equation cited in Volume 3. The student can look up any referenced result here without flipping back to earlier volumes.
+
+A.1 How to Use This Appendix.
+
+Throughout Volume 3, we cite prior results using compact tags:
+
+- (1.Ch.Eq) — Volume 1, Chapter Ch, Equation Eq
+- (2.Ch.Eq) — Volume 2, Chapter Ch, Equation Eq
+- (3.Ch.Eq) — Volume 3 (this volume), Chapter Ch, Equation Eq
+
+Every tag of the first two kinds that appears anywhere in Vol 3 is reproduced in this appendix, with the equation in full, a one-line gloss of what it says, and a list of Vol 3 chapters that use it. Notation follows Vol 1 Appendix B (Notation Reference) exactly — see that appendix for the master symbol list.
+
+The appendix is structured in three parts:
+
+- §A.2 Volume 1 results (by chapter)
+- §A.3 Volume 2 results (by chapter)
+- §A.4 Reverse index: which Vol 3 chapter cites which Vol 1/2 equation
+
+If you are reading Vol 3 and hit an equation you do not recognize, check the tag, jump here, and you will find it.
+
+A.2 Volume 1: Architecture of Reality — Results Used in Vol 3.
+
+A.2.1 Chapter 1 — Axioms and Definitions.
+
+Open System Axiom. The zone manifold is not an isolated system; energy and information flow across its boundary through the sustaining coupling kappa (t).
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 12 (First Law extension; arrow of time). 
+
+Five Governing Principles (named but formalized in Ch 8): Variation, Symmetry, Quantization, Conservation, Degradation.
+Used in Vol 3: Ch 1, 2, 9, 12.
+
+A.2.2 Chapter 2 — Mathematical Preliminaries.
+
+Vol 3 cites no specific equation from Ch 2; it assumes the vector calculus and tensor analysis results compiled in Vol 2 Appendix A. See §A.3 of that appendix for the specific identities reused in Vol 3 Ch 4–5.
+
+A.2.3 Chapter 3 — The Zone Manifold.
+
+Zone metric (6D).
+
+[Equation — see print edition.]
+
+Coordinates the expression (mu = 0,1,2,3) label the 4D Firmament; y to the a (a = 4,5) label the two compact extra dimensions.
+Used in Vol 3: Ch 1 (geodesic derivation), Ch 2 (Lagrangian), Ch 6–7 (KK reduction).
+
+Flat-space limit.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1 (first law from geodesic + flat-space limit).
+
+A.2.4 Chapter 4 — The 6D Embedding Space.
+
+Embedding isometry. The zone manifold embeds isometrically in R to the 6,0 (spatial) × R to the 0,1 (temporal), with the Firmament as the 4D hypersurface of fixed extra-dimensional radius:
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 6 (standing-wave mode counting).
+
+A.2.5 Chapter 5 — The Firmament Manifold.
+
+Firmament wave equation for the membrane displacement field Phi (x,y):
+
+[Equation — see print edition.]
+
+where sub 4 = eta to the mu nu partial  mu partial  nu is the 4D d'Alembertian and nabla sub y to the 2 is the Laplacian on the compact extra dimensions.
+Used in Vol 3: Ch 6 (standing-wave mode spectrum), Ch 7 (Higgs as KK mode).
+
+KK mode expansion. Because the extra dimensions are compact with circumference 2 pi L sub eff, separation of variables gives:
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 6, 7.
+
+Membrane tension.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7 (electroweak vacuum), Ch 5 (stress-tensor scale setting).
+
+A.2.6 Chapter 6 — Waters Field Equations.
+
+Waters Below field equation (the equation that becomes Navier-Stokes under a Madelung transform):
+
+[Equation — see print edition.]
+
+where Psi sub B is the complex Waters Below scalar, U' the potential derivative, and G sub int the coupling to the Waters Above field Psi sub A.
+Used in Vol 3: Ch 5 (continuum/fluid), Ch 11 (transport), Ch 12 (entropy).
+
+Madelung transformation. Writing Psi sub B = square root of rho e to the iS/ h-bar and separating real/imaginary parts of (1.6.15) yields the continuity equation and the Euler equation plus a quantum pressure term:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 5 (the central continuum/Navier-Stokes derivation).
+
+Waters stress-energy tensor (schematic — full form spans (1.6.22)–(1.6.41)):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 5 (stress tensor via Waters side), Ch 9 (first-law source J).
+
+A.2.7 Chapter 7 — Symmetries and Conservation Laws.
+
+Covariant conservation of stress-energy (from diffeomorphism invariance of the zone action):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1 (third law / action-reaction), Ch 5 (Cauchy stress symmetry).
+
+Noether momentum current (from spatial translation invariance):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1, 4, 5, 11.
+
+Rotational Killing vectors (SO(3) spatial isotropy):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 3 (central force planar reduction), Ch 4 (rigid body).
+
+Angular momentum conservation.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 3, 4.
+
+A.2.8 Chapter 8 — Five Governing Principles.
+
+Total zone action (principle of stationary action in its Vol 1 form):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 2, 9.
+
+A.2.9 Chapter 9 — Pattern Operators and Seven Types.
+
+Seven pattern types P sub 1, , P sub 7 — the topological/resonance classes identified in Vol 1 Ch 9. Vol 3 uses only the enumeration; no specific equation is cited beyond the catalog itself.
+Used in Vol 3: Ch 6 (Chladni / topological defect classification).
+
+A.2.10 Chapter 10 — Quantization from Boundary Conditions.
+
+Discrete-spectrum theorem. For any field on the zone manifold subject to periodic boundary conditions on the compact extra dimensions, the eigenvalue spectrum is discrete:
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 6, 10 (Planck spectrum derivation).
+
+A.2.11 Chapter 11 — Thermodynamics from Zone Separation.
+
+6D action restricted to thermodynamic sector.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 10.
+
+Multiplicity from membrane defect counting.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9 (Zeroth Law), Ch 10.
+
+Boltzmann entropy.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 10, 12.
+
+Zero-point + thermal energy (per mode of angular frequency omega):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9 §9.6.4, Ch 10 (Planck).
+
+First Law — closed system form.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9.
+
+First Law — open system form.
+
+[Equation — see print edition.]
+
+where delta E_ kappa is the sustaining-input term. This is the open-system generalization that makes the zone framework thermodynamically complete.
+Used in Vol 3: Ch 9, 12.
+
+Source term for the sustaining input.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 12.
+
+Partition function.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 10, 11.
+
+Boltzmann distribution.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9, 10, 11, 12.
+
+Entropy growth in Phase 3 (post-Fall).
+
+[Equation — see print edition.]
+
+where L is a positive functional of the system's state and Delta kappa = kappa sub full - kappa sub partial > 0.
+Used in Vol 3: Ch 9 (Second Law), Ch 12 (arrow of time).
+
+Third Law.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9.
+
+Debye-like density of states.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9 §9.7.3.
+
+Debye low-temperature entropy and heat capacity.
+
+[Equation — see print edition.]
+
+In three dimensions this is the famous T to the 3 law.
+Used in Vol 3: Ch 9 §9.7.3.
+
+Unattainability of T=0.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 9 §9.7.4.
+
+A.3 Volume 2: Forces and Fields — Results Used in Vol 3.
+
+A.3.1 Chapter 1 — Why Forces Exist.
+
+Vol 3 cites the conceptual result — "all fundamental forces arise from gauge structure on the zone manifold" — but no specific numbered equation from Ch 1.
+
+A.3.2 Chapter 2 — Gravity from Zone Curvature.
+
+Four-dimensional Newton constant from membrane tension.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1 (F=ma with gravitational coupling), Ch 3 (Kepler's third law), Ch 8 (gravitational aspects of phase transitions).
+
+Geodesic equation for a test particle of proper time tau:
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1 (first law derivation), Ch 3 (orbital mechanics from curvature).
+
+A.3.3 Chapter 3 — Electromagnetism from Membrane Wave Propagation.
+
+Maxwell's equations in tensor form.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 5 (optics subsection), Ch 10 (photon modes for Planck spectrum).
+
+Vacuum wave speed.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 5, 10.
+
+A.3.4 Chapter 4 — Strong and Weak Forces from Zone Boundary Effects.
+
+Coupling scale hierarchy.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7 (mass hierarchy), Ch 8 (electroweak transition).
+
+A.3.5 Chapter 5 — The Zone Lagrangian.
+
+Zone action.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1, 2, 9.
+
+Full zone Lagrangian (schematic; the complete expression occupies (2.5.2)–(2.5.19)):
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1, 2.
+
+Variational principle — master field equation.
+
+[Equation — see print edition.]
+
+for every field phi to the I.
+Used in Vol 3: Ch 1 (F=ma as a special case), Ch 2, Ch 9.
+
+A.3.6 Chapter 6 — Gauge Theory from Zone Symmetries.
+
+Electroweak gauge group structure.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7 (mass generation).
+
+A.3.7 Chapter 7 — Classical Electrodynamics Complete.
+
+EM field tensor and Lagrangian.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 10 (photon modes).
+
+Radiation Poynting flux.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 10 (Stefan-Boltzmann cross-check).
+
+A.3.8 Chapter 8 — Gravitational Field Theory.
+
+Weak-field Newtonian limit.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 1 (F=ma in gravitational field), Ch 3 (Kepler).
+
+A.3.9 Chapter 9 — The Hierarchy Problem Solved.
+
+Electroweak / Planck scale ratio.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7 (why v ≪ M_Pl), Ch 8.
+
+A.3.10 Chapter 10 — Running Couplings and Zone Energy Scales.
+
+One-loop running of the gauge couplings.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7 (Yukawa coupling hierarchy), Ch 8 (phase transition scale).
+
+A.3.11 Chapter 11 — The Force Landscape.
+
+Force summary table. Gravity, electromagnetism, weak, strong — their relative strengths at Q = 1 GeV and at Q = M sub Z.
+
+[Equation — see print edition.]
+
+Used in Vol 3: Ch 7, 8, 9 (context for which forces dominate at which scales).
+
+A.4 Reverse Index — Which Vol 3 Chapter Uses Which Vol 1/2 Result.
+
+Vol 3 Chapter: 1 (Newton as theorems). Vol 1 equations used: (1.1.1), (1.3.12), (1.3.31), (1.7.17), (1.7.30), (1.8.3). Vol 2 equations used: (2.2.29), (2.2.44), (2.5.1), (2.5.20), (2.5.21), (2.8.24).
+Vol 3 Chapter: 2 (Lagrangian / Hamiltonian). Vol 1 equations used: (1.3.12), (1.8.3). Vol 2 equations used: (2.5.1), (2.5.20), (2.5.21).
+Vol 3 Chapter: 3 (Central force). Vol 1 equations used: (1.7.31), (1.7.33). Vol 2 equations used: (2.2.29), (2.2.44), (2.8.24).
+Vol 3 Chapter: 4 (Rigid body). Vol 1 equations used: (1.7.17), (1.7.30), (1.7.31), (1.7.33). Vol 2 equations used: —.
+Vol 3 Chapter: 5 (Continuum / fluids). Vol 1 equations used: (1.6.15), (1.6.19)–(1.6.21), (1.6.22), (1.7.17), (1.7.30), (1.7.33). Vol 2 equations used: (2.3.27), (2.3.41).
+Vol 3 Chapter: 6 (Standing waves). Vol 1 equations used: (1.4.18), (1.5.51), (1.5.63), (1.10.22) (Vol 1 Ch 9 pattern types). Vol 2 equations used: —.
+Vol 3 Chapter: 7 (Origin of mass). Vol 1 equations used: (1.5.51), (1.5.63), (1.5.74). Vol 2 equations used: (2.4.33), (2.6.18), (2.9.11), (2.10.7).
+Vol 3 Chapter: 8 (Phase transitions). Vol 1 equations used: (1.11.10), (1.11.25), (1.11.37). Vol 2 equations used: (2.4.33), (2.9.11), (2.10.7).
+Vol 3 Chapter: 9 (Four laws). Vol 1 equations used: (1.1.1), (1.8.3), (1.11.1), (1.11.2), (1.11.10), (1.11.14), (1.11.18), (1.11.19), (1.11.20), (1.11.25), (1.11.37), (1.11.46), (1.11.49), (1.11.54)–(1.11.57). Vol 2 equations used: (2.5.1).
+Vol 3 Chapter: 10 (Stat mech). Vol 1 equations used: (1.5.63), (1.10.22), (1.11.1), (1.11.2), (1.11.10), (1.11.14), (1.11.25), (1.11.37). Vol 2 equations used: (2.3.27), (2.7.5), (2.7.38).
+Vol 3 Chapter: 11 (Kinetic theory). Vol 1 equations used: (1.6.15), (1.7.30), (1.11.25), (1.11.37). Vol 2 equations used: —.
+Vol 3 Chapter: 12 (Entropy / arrow). Vol 1 equations used: (1.1.1), (1.6.15), (1.11.10), (1.11.19), (1.11.20), (1.11.46). Vol 2 equations used: —.
+
+Orphan check (self-test for this appendix). Every equation listed in §A.2 and §A.3 appears in at least one row of the table above. If a future revision of Vol 3 adds a citation not in the table, this appendix must be updated. If a future revision removes a citation, the corresponding entry may be archived but should not be deleted until Vol 4 has confirmed it is also unused downstream.
+
+End of Appendix A. For experimental numerical values referenced by these equations, see Appendix B. For notation, see Vol 1 Appendix B.

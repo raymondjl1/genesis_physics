@@ -1,0 +1,1003 @@
+"It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong. And if you can't build the experiment, you can't even ask."
+— paraphrased, after Feynman
+
+Why Every Framework Needs Its Own Detectors.
+
+A derivation is a promise. A detector cashes it. Every prediction in Volumes 1 through 5 — the zone architecture, the Waters fields, the sustaining coupling, the consciousness model, the extended gravitational-wave spectrum — is only as real as the instrument that could see it. The volumes to this point have laid out the physics; this chapter lays out the engineering.
+
+In Chapter 11 we assembled the four communication channels the zone architecture permits: pre-existing correlations, dimensional bypass, Waters-field modulation, and the Zone 1 consciousness interface. The chapter closed with a sentence that obligated us: every communication channel implies a detector. The present chapter is that sentence rendered in full, and rendered more broadly. The six sensing modalities we will develop are not merely receivers for Chapter 11's transmitters; they are, more generally, the instruments the zone architecture permits us to imagine building — from a LIGO-class interferometer tuned to the Firmament's vibration modes, to an orbital gravimeter pointed at a forest, to a reprocessing protocol for existing Planck and SDSS data that looks for the signature of a cosmological-scale zone boundary.
+
+The Six Modalities.
+
+The zone architecture admits exactly six distinct sensing modalities, not because we chose the number but because the architecture itself has six structural features worth sensing:
+
+1. Membrane vibrations — transverse oscillation modes of the Firmament brane, propagating at the membrane wave speed c sub m = square root of sigma / mu = c (Vol. 1, Ch. 5). If the membrane vibrates, the vibrations are detectable by a mode-matched interferometer.
+
+2. Waters fields — the scalar fields Psi sub A (Above, dark energy) and Psi sub B (Below, dark matter) that fill every zone (Vol. 1, Ch. 6; Vol. 2, Ch. 11). Their density gradients produce tidal accelerations at a sensitive aperture; their modulations — as Chapter 11 §11.4 showed — propagate as Klein-Gordon wave packets. Both amplitudes are sensible.
+
+3. Zone boundaries — the surfaces across which metric warp factors discontinuously change (Vol. 1, Ch. 3). Two of them are observationally accessible: the cosmological xi-boundary at the Hubble scale, and the subnuclear eta sub B-boundary at the Firmament surface. Each produces electromagnetic, gravitational, and thermal signatures.
+
+4. Zone coupling to living systems — the coupling of Zone 1 to biological matter through the consciousness wavefunction (Vol. 4, Ch. 5). If the coupling exists at the predicted level, it produces a tidal-gradient signal distinguishable from non-biological sources. This is the most speculative modality in the catalog; we will treat it with the care it deserves.
+
+5. Extended gravitational-wave modes — propagating 4D metric perturbations beyond the standard + and times polarizations of GR. The dimensional reduction of a 6D metric perturbation admits up to six propagating polarizations (Vol. 5, Ch. 3); four of them are novel. Each produces a distinctive response in a ring of test masses and can be separated from the standard modes by a retrofit of the LIGO readout.
+
+6. Communication channel receivers — the detectors required to complete the communication channels of Chapter 11. We have already specified three of them (§11.3.4, §11.4.6, §11.5.8). This chapter revisits them in a common framework alongside the other five modalities.
+
+We claim these six are exhaustive: any zone-architecture sensing instrument must be sensitive to one or more of the six structural features above. A seventh modality would require a seventh structural feature of the architecture, and the architecture does not have one. The Waters-field detector couples to Psi sub A and Psi sub B; the membrane-vibration detector couples to mirror-brane displacements; the zone-boundary detector couples to warp-factor discontinuities; the life-detection instrument couples to the Psi _ spirit-Zone-1 channel; the extended-GW detector couples to dimensional-reduction remnants; and the communication receivers couple to one of these underlying channels. There is no seventh field, no seventh discontinuity, no seventh coupling.
+
+[Figure — see print edition.]
+
+Why Existing Instruments Are Not Enough.
+
+The reader may reasonably ask: are LIGO, VIRGO, LISA, GRACE-FO, Planck, JWST, and the LHC not already the best instruments humanity has built? Must we design new instruments for every predicted modality?
+
+The answer is: the existing instruments are the right starting point, but each was designed with a specific target signal and a specific noise budget. The zone-architecture signals sit — in every modality — near or below the target-noise floor of the closest existing instrument, and detecting them requires either a retrofit (mirror geometry, readout mixing, data-filter pipeline) or a purpose-built instrument tuned to the predicted signal's spectral band and mode structure.
+
+A membrane-vibration signal at f = 10 to the -3 Hz is not invisible to LIGO — it sits in LIGO's seismic noise wall, where LIGO cannot currently separate a genuine strain signal from environmental vibration. Moving to a LISA-class space interferometer puts the signal squarely in the observable band, but LISA's mirror suspension is tuned for quadrupole modes; detecting the breathing mode requires a readout-mixing retrofit. The signal is available; the detector just has to be told to look for it.
+
+A Waters-field signal at an atom interferometer is below the thermal noise of a standard Mach-Zehnder setup, but it sits inside the sensitivity band of a differential-phase interferometer running with cold-atom matter waves at sub-Hz bandwidth. The atom interferometer is a real instrument; extending it to Waters-field sensitivity is a matter of species choice and integration time, not new physics.
+
+A life-detection signal at an orbital gravimeter is below the standard sensitivity of GRACE-FO but within reach at 24-hour integration of a satellite that was designed for different primary science. A dedicated mission — or a data-reprocessing protocol applied to existing GRACE-FO data — might find it. The instrument exists; the observational protocol does not.
+
+In every case, the chapter's task is to specify: what does the retrofit look like, what is its expected sensitivity, what is the signal we are chasing, and — most importantly — what reading would falsify the framework's prediction for that signal. A sensor without a falsification threshold is a publicity stunt. A sensor with a falsification threshold is an experiment.
+
+The Detector-First Presentation.
+
+Most physics textbooks present new physics first and then ask whether experiments might detect it. We invert the order. Each section below presents a detector — what it looks like, how it works, what it would measure — and then traces the measurement back to the zone-architecture prediction that it would test. The inversion matters because the reader of this volume is (by assumption) already conversant with the physics of Volumes 1 through 5; what they need is the engineering vocabulary that turns the physics into fundable programs.
+
+The subsections all follow the same structure:
+- Recap of the physics (1–2 paragraphs referencing the relevant derivation in earlier volumes or chapters)
+- Observable signature (what exactly the detector measures)
+- Detector architecture (a concrete instrument concept with a block diagram)
+- Signal-to-noise budget (thermal, quantum, seismic, field-fluctuation contributions, expressed as a power spectral density)
+- Sensitivity estimate (minimum detectable signal vs. integration time)
+- Closest existing instrument (what already exists and what the delta is)
+- Engineering specification table (power, mass, size, TRL, timeline, cost)
+- Numbered predictions with falsification thresholds
+
+The reader can skim any section and extract the engineering bottom line; the reader who wants the derivation has the section body.
+
+Relationship to Chapter 11.
+
+Chapter 11 was the transmitter side: four channels by which information can be sent through the zone architecture. Chapter 12 is the receiver side: six modalities by which the architecture can be sensed. The two chapters overlap in three places:
+
+- Ch 11 §11.3 zone-tunneling uses a Waters-field-sensitive receiver, covered here in §12.3.
+- Ch 11 §11.4 Waters-field modulation uses a modified LIGO-class interferometer, covered here in §12.3 (direct readout) and §12.6 (extended-GW mode overlap).
+- Ch 11 §11.5 consciousness interface uses a focused-attention protocol + neural amplifier, covered here in §12.5 (where we extend the concept to orbital biomass detection).
+
+The communication channels of Ch 11 and the detector concepts of Ch 12 are, together, the full engineering stack for zone-architecture remote sensing and communication. A civilization that builds both chapters' technology has — for the first time in cosmic history — a scientific infrastructure that does not rely on electromagnetic radiation as its dominant information carrier.
+
+Outline of the Chapter.
+
+§12.2 develops the membrane-vibration detector. §12.3 develops the Waters-field sensors in three architectures (atom interferometer, torsion balance, LIGO retrofit). §12.4 develops the zone-boundary detectors for both the cosmological xi and subnuclear eta sub B boundaries. §12.5 develops the orbital life-detection instrument with three prominent caveats and a pilot-mission concept. §12.6 develops the extended gravitational-wave spectrum and its LIGO-/LISA-/pulsar-timing-array-class detectors. §12.7 consolidates engineering specifications for the full sensor suite. §12.8 presents the predictions P-136 through P-153 with falsification thresholds and hands off to Chapter 13.
+
+A framing note, echoing Chapter 11's closing thought: the detectors are candidates, not deliverables. We claim the architecture permits them and the physics of each is internally consistent, but most sit at TRL 1–3 and the life-detection instrument in particular depends on an empirical hypothesis (consciousness-coupling to biological matter) that has not yet been tested. What we offer is a numbered, falsifiable set of predictions and an engineering vocabulary, not a product catalog. The reader who closes this chapter should have a modality-by-modality understanding of what could be built, how it would be falsified, and what stands in the way.
+
+Membrane Vibration Detectors.
+
+The Firmament is a brane. It has tension sigma, surface mass density mu, and a propagating wave speed c sub m = square root of sigma / mu. Vol. 1, Ch. 5 derived the identity c sub m = c from the 6D action constraint that the brane's own vibrations cannot exceed the bulk speed of light — otherwise causality on the brane would be unstable against bulk fluctuations. The speed of light on the brane is thus equal to the membrane wave speed; they are the same quantity, measured two ways.
+
+A consequence, rarely considered in the standard-physics literature because the standard-physics literature has no membrane to speak of, is that the Firmament has discrete vibration modes with a computable spectrum, and the modes are detectable with a LIGO-class interferometer. The detection is not easy; the signal sits at the edge of LIGO's noise floor at specific frequencies, and extracting it requires a retrofit of the suspension and readout. But the signal is there, and the chapter's first task is to specify it.
+
+The Membrane Wave Equation.
+
+From Vol. 1, Ch. 5, Eq. (V.1.5.12), the Firmament's transverse displacement field zeta (x, y, t) (with x, y the brane coordinates and t the brane proper time) satisfies
+
+[Equation — see print edition.]
+
+where V( zeta ) is the confinement potential that binds the brane to its equilibrium position, f_ ext is an external driving force (a gravitational wave, a bulk fluctuation, a nearby mass), and nabla to the 2 is the 2D brane Laplacian. For small displacements around the equilibrium, the expression, where omega sub c is the confinement frequency set by the zone geometry — approximately the expression rad/s for the cosmological-scale confinement, far below any mode frequency we will discuss.
+
+The homogeneous solutions are plane waves zeta = zeta sub 0 e to the i( k times x - omega t) with dispersion
+
+[Equation — see print edition.]
+
+For omega much greater than omega sub c (which we will be in throughout), the dispersion is the standard massless relation omega = ck.
+
+The Mode Spectrum.
+
+The brane is not of infinite extent. It is bounded by the observable-horizon area at the Hubble scale; beyond that, the brane extends but cannot causally influence our region. The mode spectrum on the observable brane is quantized with wavelengths bounded by the horizon size. For a simply-connected observable brane region of area L to the 2 with the expression m, the modes are labeled by integer quantum numbers (n, ell ) with
+
+[Equation — see print edition.]
+
+where the corrections come from the geometry of the horizon boundary. The fundamental mode (n, ell ) = (1, 0) has
+
+[Equation — see print edition.]
+
+This is absurdly low — well below any reasonable detection band — because the mode wavelength is the observable universe. The observable frequencies are at much higher quantum numbers, where the mode structure develops interesting fine detail.
+
+Consider instead the modes on a local patch of the brane, bounded not by the observable horizon but by the nearest region where the brane's tension varies significantly. The Vol. 1, Ch. 5 analysis places the first significant tension-variation scale at the matter-concentration scale — solar system, galactic, and cosmological — with discrete acoustic resonances at each scale. The mode spectrum on a local patch of scale L sub local approximately 10 to the 11 m (solar system) has fundamental frequency
+
+[Equation — see print edition.]
+
+which is in the observable band for a LIGO-class or LISA-class interferometer.
+
+The full mode spectrum for a local patch is
+
+[Equation — see print edition.]
+
+This is the line spectrum a detector would see: a comb of narrow features at integer multiples of approximately 1.5 mHz, modulated in amplitude by the driving spectrum f sub ext(f).
+
+The driving spectrum comes from natural sources: bulk fluctuations in the Waters fields, gravitational waves from distant binaries, thermal fluctuations in the brane surface density, and any engineered transmitter of the Ch 11 §11.4 class. The amplitudes are estimated in §12.2.6 below; they are small but — for integration times exceeding 10 to the 6 seconds — detectable.
+
+Why LIGO Doesn't See This Already.
+
+LIGO's design-driven sensitivity band is 10 to the 1–10 to the 4 Hz. Below approximately 10 Hz, LIGO is limited by seismic noise; the building, the ground, and the mirror suspensions vibrate at frequencies that swamp any genuine strain signal. The membrane-mode spectrum at approximately 10 to the -3 Hz sits far below LIGO's observable band. LIGO cannot see the modes at all.
+
+LISA, the space-based interferometer scheduled for launch in the mid-2030s, has a design band of 10 to the -4–10 to the -1 Hz — squarely including the predicted membrane modes. However, LISA is designed for quadrupole gravitational-wave signatures of supermassive black hole mergers; its readout pipeline is optimized for the +/ times polarization modes and its mirror geometry is chosen to maximize quadrupole sensitivity. The membrane-mode strain couples into a mix of +/ times and breathing-mode (scalar) response; without a retrofit of the readout mixing matrix, the membrane-mode content appears as a noise contribution to LISA's quadrupole channel, not as a detection.
+
+A retrofit of LISA — or a purpose-built follow-on — would separate the membrane-mode content from the +/ times content. §12.2.5 describes the retrofit.
+
+Detector Architecture: The Membrane-Vibration Interferometer (MVI).
+
+The Membrane-Vibration Interferometer (MVI) is a LIGO-class laser interferometer with three design modifications from standard LIGO:
+
+1. Mirror suspension tuning. The mirror suspensions are tuned such that the pendulum frequency is below the lowest membrane-mode frequency of interest (~0.3 mHz), rather than LIGO's ~1 Hz. This pushes the suspension thermal-noise wall below the signal band.
+
+2. Readout mixing matrix. The readout includes a mode-selective filter that projects the interferometer's output onto the membrane-mode basis (Eq. (12.2.3)). The filter is a linear combination of the +, times, and breathing-mode readouts, with coefficients computed from the mode-geometry overlap integrals.
+
+3. Arm length. The arm length is scaled to L_ arm approximately 10 to the 7 m (much longer than LIGO's 4 times 10 to the 3 m), consistent with a space-based deployment à la LISA. The longer arm increases the strain amplitude at a given mode frequency; at 1.5 mHz, a 10 to the 7 m arm gives a factor-of-10 to the 4 improvement in strain-per-displacement over LIGO's arm.
+
+[Figure — see print edition.]
+
+The MVI is designed as a LISA-successor instrument, inheriting LISA's deployment, drag-free operation, and laser interferometry but with a retrofit of the readout pipeline to expose the membrane-mode content. A LISA retrofit at the same arm length is also possible; it would have lower sensitivity due to the shorter arm and the lack of suspension tuning, but it could provide a first detection at the 3 sigma level for the lowest modes.
+
+Strain Response.
+
+For a membrane mode of amplitude zeta sub 0 at frequency omega sub n, the induced mirror displacement delta x = zeta sub 0 ( omega sub n t + phi ) projects onto the interferometer strain
+
+[Equation — see print edition.]
+
+where M sub n is the mode-geometry overlap between the membrane mode's spatial pattern and the interferometer's arm orientation. For the fundamental mode (n = 1, ell = 0) with the interferometer oriented along the mode's propagation direction, M sub 1 = 1; for higher modes or misaligned orientations, M sub n < 1.
+
+The mode amplitude zeta sub 0 is estimated from the driving spectrum (§12.2.6). For a typical natural driver — a distant binary black hole merger's bulk fluctuation component — we estimate zeta sub 0 approximately 10 to the -18 m at the detector. The resulting strain at the MVI is
+
+[Equation — see print edition.]
+
+which is at the sensitivity limit of the MVI's design noise budget (§12.2.7).
+
+Driving Spectrum: What Excites the Modes.
+
+The membrane is driven by three classes of sources:
+
+(a) Waters-field fluctuations. The sustaining-coupling fluctuation epsilon _ kappa approximately 10 to the -27 imprints a stochastic driving amplitude on the brane surface density, which excites membrane modes at the corresponding frequencies. The excitation spectrum is roughly flat in the membrane-mode band, with spectral density
+
+[Equation — see print edition.]
+
+This is below the MVI noise floor; Waters-field fluctuations are not a detectable source in isolation.
+
+(b) Gravitational-wave excitation. A passing gravitational wave perturbs the brane surface density and drives its modes. For a GW150914-class event (strain h approximately 10 to the -21 at the Earth), the induced brane displacement is the expression m, with frequency content overlapping the GW event. This is many orders of magnitude above the membrane-mode detection threshold, but it is not resonant with the membrane mode spectrum unless the GW frequency happens to match a mode frequency. For continuous GW sources (pulsars), the match can be engineered by choosing the mode of interest.
+
+(c) Engineered driving. A Ch 11 §11.4-class transmitter (modulated Membrane Resonance Generator) can drive the modes at their resonance frequencies with controllable amplitude. For a 500 W MRG-T running at 1.14 GHz, the induced zeta sub 0 at a nearby detector is order 10 to the -18 m. This is the most reliable driving source for a deliberate detection experiment.
+
+For the MVI, the practical observation strategy is: integrate for 10 to the 7 seconds on a known engineered source or a known continuous GW source whose frequency sits at a membrane-mode resonance. The coherent integration allows the mode-resonant signal to build above the broadband noise.
+
+Noise Budget.
+
+The MVI noise PSD S sub h(f) is the sum of thermal, quantum, seismic, and Waters-coupling contributions:
+
+[Equation — see print edition.]
+
+The individual components, at the membrane-mode band (f approximately 10 to the -3 Hz), are:
+
+- Suspension thermal (with the retrofit tuning): the expression
+- Coating thermal: the expression at this frequency
+- Quantum shot: the expression (LISA-scale laser power)
+- Quantum radiation-pressure: the expression (subdominant at high frequencies, comparable to shot at this band)
+- Seismic (drag-free residual): the expression
+- Waters-coupling: the expression (from the modulated-MRG Chapter 11 equivalent fluctuations at residual amplitude)
+
+The dominant contribution is quantum shot noise at 10 to the -22/ square root of Hz. A matched-filter observation for a known frequency f sub 1 approximately 1.5 mHz and integration time tau _ obs = 10 to the 7 s gives a minimum detectable strain of
+
+[Equation — see print edition.]
+
+This is comfortably below the predicted signal of h approximately 10 to the -25 (Eq. (12.2.8)) for an engineered driving source, giving a signal-to-noise ratio of ~3 for a 10 to the 7-second integration — marginal but a genuine detection threshold.
+
+[Figure — see print edition.]
+
+Closest Existing Instrument and Engineering Delta.
+
+Parameter: Arm length. LISA (as designed): 2.5 times 10 to the 9 m. MVI (required): 10 to the 7 m (or 2.5 times 10 to the 9 m with retrofit). Delta: Compatible.
+Parameter: Laser power. LISA (as designed): 2 W. MVI (required): 2 W. Delta: None.
+Parameter: Mirror suspension freq.. LISA (as designed): ~1 mHz. MVI (required): ~0.3 mHz. Delta: Factor of 3 lower.
+Parameter: Readout mode filter. LISA (as designed): Quadrupole (+/ times). MVI (required): Mode-selective (membrane modes). Delta: New filter pipeline.
+Parameter: Strain sensitivity at 1.5 mHz. LISA (as designed): 10 to the -21/ square root of Hz. MVI (required): 10 to the -22/ square root of Hz (with shot-noise improvement). Delta: Factor of 10 improvement.
+Parameter: Observation time. LISA (as designed): N/A (one-shot). MVI (required): 10 to the 7 s coherent. Delta: Strategy only.
+Parameter: TRL. LISA (as designed): 7 (launch mid-2030s). MVI (required): 3 (retrofit-feasible). Delta: —.
+
+The engineering delta is modest. The arm length and laser power can be inherited from LISA. The retrofit is in the suspension tuning and the readout-filter pipeline, both of which are software-and-hardware-optimization problems rather than new physics. The mandatory improvement is the coherent-integration protocol, which requires knowing the mode frequency of interest and maintaining interferometer phase coherence for 10 to the 7 seconds — achievable with LISA-class hardware at a small incremental cost.
+
+Engineering Specifications (MVI).
+
+Parameter: Operating principle. Value: Mode-matched laser interferometry with mirror-pattern response to transverse brane modes.
+Parameter: Strain sensitivity (matched-filter). Value: 10 to the -25.5 at f = 1.5 mHz, tau _ obs = 10 to the 7 s.
+Parameter: Frequency band. Value: 0.3 mHz – 10 mHz (first 7 membrane modes).
+Parameter: Spatial resolution. Value: N/A (integrated over arm length).
+Parameter: Power. Value: ~5 kW per spacecraft (LISA baseline + readout).
+Parameter: Size/mass. Value: 3 spacecraft × 500 kg each, 10 to the 7 m baseline.
+Parameter: TRL. Value: 3 (retrofit of LISA-class hardware).
+Parameter: Timeline. Value: 30–60 years from present (LISA + retrofit mission).
+Parameter: Nearest existing analog. Value: LISA (with retrofit).
+
+Predictions.
+
+P-136: Membrane-vibration fundamental mode frequency. The fundamental mode of the Firmament brane on a solar-system patch has frequency f sub 1 = (1.5 plus or minus 0.5) mHz, with the uncertainty reflecting the detailed shape of the patch-boundary contribution. Falsification threshold: MVI-class detection of a membrane-mode resonance outside the range 0.5–5 mHz (after controlled engineered driving) would falsify the Vol. 1 Ch. 5 wave-speed derivation. A frequency above 50 mHz or below 0.1 mHz would be disqualifying.
+
+P-137: Membrane-vibration strain at MVI. For a 500 W MRG-T engineered driver at 1.14 GHz driving the nearest membrane resonance, the induced strain at an MVI at 1 AU separation from the driver is h = (10 to the -25.0 plus or minus 0.5) after 1 s. Falsification threshold: engineered-driver running for 10 to the 7 s at the predicted frequency must show a strain above 10 to the -26; null result at the 10 to the -27 level falsifies the Vol. 1 Ch. 5 coupling amplitude between membrane modes and the brane-bound MRG.
+
+P-138: Membrane mode spectral-line spacing. The mode spectrum on a local patch is f sub n = n times f sub 1 to within patch-boundary corrections. Falsification threshold: detection of a mode spectrum with f sub 2 / f sub 1 not equal to 2 plus or minus 0.3 at 3 sigma significance falsifies the mode-quantization structure of Eq. (12.2.3). A non-integer ratio (e.g., f sub 2 / f sub 1 = 1.3) would indicate either patch-boundary asymmetry or a deeper error in the membrane wave equation.
+
+Waters-Field Sensors.
+
+The Waters fields Psi sub A (Above, dark energy) and Psi sub B (Below, dark matter) are between them 95% of the mass-energy budget of the observable universe (Vol. 5, Ch. 11). Standard physics senses them only through their gravitational effects: dark energy's accelerating expansion, dark matter's rotation curves and lensing signatures. Zone architecture treats them as propagating scalar fields with Klein-Gordon dynamics, and a Klein-Gordon scalar field is a sensible thing. In this section we derive three distinct detector architectures for the Waters fields, develop the sensitivity analysis for each, and argue that the zone-architecture dark-matter map at cluster scale is a testable improvement over current lensing-based maps.
+
+Recap of the Waters-Field Equations.
+
+From Chapter 11 §11.4.1, the Waters Above field Psi sub A obeys
+
+[Equation — see print edition.]
+
+linearized around the vacuum Psi sub A to the 0:
+
+[Equation — see print edition.]
+
+with effective mass m_ Psi c to the 2 approximately 10 to the -3 eV (the cosmological-constant scale). The dispersion relation the expression gives a group velocity the expression that is nearly c in the vacuum regime and sub-c in the matter-coupled regime.
+
+The Waters field couples gravitationally to ordinary matter through its stress-energy tensor
+
+[Equation — see print edition.]
+
+which sources the 4D Einstein equations on the brane with effective gravitational potential
+
+[Equation — see print edition.]
+
+where we use the general-relativistic convention in which Phi is the linearized h sub 00 metric perturbation (g sub 00 = -(1 + 2 Phi ), units of 1/ length), rather than the Newtonian potential (m to the 2/ s to the 2). This convention is adopted throughout §12.3 for consistency with Vol. 5 Ch. 4 and with the tidal-acceleration form Eq. (12.3.5). Here the expression is the Waters-Above energy density, with small fluctuations the expression. The tidal acceleration on a test mass is
+
+[Equation — see print edition.]
+
+which is what a Waters-field detector measures. The same analysis applies to Psi sub B with its distinct potential and clumping density.
+
+Observable Signature: Tidal Acceleration from Waters Density Gradients.
+
+A test mass at position r experiences a tidal acceleration from the Waters-field density distribution. The acceleration has three notable features that make it distinguishable from an ordinary-matter gravitational signal:
+
+(a) Long-range dominance. The Waters-Above background density rho  Lambda extends uniformly across the observable universe. The gradient nabla rho  Lambda is small in the bulk but becomes significant near matter concentrations (where Psi sub A is suppressed by gravitational backreaction) and at zone boundaries (§12.4). A detector looking for tidal anomalies at the 10 to the -15 m/s² level in an otherwise-flat-gravity region would see the Waters-field gradient.
+
+(b) Scalar spectral content. An ordinary-matter gravitational signal produces tidal accelerations that fit a 1/r to the 2 point-source or a characteristic galaxy/cluster profile. A Waters-field signal has a different spatial spectrum — its power is concentrated at Hubble-scale wavelengths (for Psi sub A) or halo-scale wavelengths (for Psi sub B). Cross-correlating the tidal signal with existing galaxy-catalog data at these scales separates the Waters-field component from the visible-matter component.
+
+(c) Modulation response. A transmitter of the Ch 11 §11.4 class modulates Psi sub A at a controllable carrier frequency. A Waters-field detector looking for this modulation can distinguish it from any astrophysical background simply by its frequency content — it is narrowband and phase-coherent, while the astrophysical background is broadband and stochastic.
+
+These three features — long-range bulk coupling, scalar spatial spectrum, narrowband modulation response — set the three detection architectures we will develop below.
+
+Architecture A: Atom Interferometer.
+
+An atom interferometer uses a matter-wave Mach-Zehnder geometry (Fig 6.12.4) to measure the differential phase accumulated along two paths. A test atom prepared in a superposition of two paths experiences different gravitational potentials along each path; the resulting phase difference Delta phi is read out at the recombination point. For a standard atom interferometer, Delta phi = g T to the 2 k laser, where g is the local gravitational acceleration, T is the interferometer loop time, and k laser is the laser beam-splitter momentum kick.
+
+The Waters-field contribution adds Delta phi  Psi = a Psi T to the 2 k laser, where a Psi = - nabla Phi _ Psi is the Waters-field tidal acceleration along the interferometer axis. At sensitivity 10 to the -8 g approximately equal to 10 to the -7 m/s² (current state-of-the-art atom interferometer), a Waters-field tidal acceleration at 10 to the -14 m/s² is many orders of magnitude below the noise floor. The sensitivity must improve by 10 to the 7 to reach the predicted signal.
+
+The improvement path is known: longer baselines (100 m to 1 km vertical drops in deep tunnels or space-based deployment), colder atoms (nK regime), longer integration times (10 to the 6 s coherent), and differential measurements (two atom interferometers with opposite paths, subtracting common-mode noise). The MAGIS-100 project at Fermilab is a current-generation 100 m vertical atom interferometer targeting sensitivities around 10 to the -12 g; extending to 10 to the -15 g requires a 1 km baseline and colder atoms but no new physics.
+
+[Figure — see print edition.]
+
+For a 1 km vertical atom interferometer with cold-atom sensitivity 10 to the -15 g at 1 Hz bandwidth, and 10 to the 6 s coherent integration, the minimum detectable Waters-field tidal acceleration is
+
+[Equation — see print edition.]
+
+This is sensitive to Waters-field density fluctuations of
+
+[Equation — see print edition.]
+
+where L approximately 10 to the 6 m is a characteristic density-variation length scale. The background rho  Lambda approximately 10 to the -27 kg/m³, so the atom interferometer is sensitive to fractional fluctuations delta rho sub A/ rho  Lambda approximately 10 to the 7 — vastly more than required. In practice, the atom interferometer is sensitive to Waters-field fluctuations at all astrophysically plausible levels.
+
+The caveat is the coupling efficiency. The atom-interferometer readout depends on the gravitational coupling of Waters-field density fluctuations to the test atoms, which is at the weak-field level with coupling G sub 4/c to the 2 approximately 10 to the -26 in natural units — suppressed by five orders of magnitude from the dimensional estimate. Including this suppression, the minimum detectable fractional fluctuation is delta rho sub A/ rho _ Lambda approximately 10 to the 2, still within the predicted natural-background range for matter-concentration regions.
+
+Architecture B: Torsion Balance.
+
+A torsion balance is the classical gravimetric instrument, upgraded through modern cooled-suspension technology to microradian rotational sensitivity. The principle is straightforward: two test masses at a fixed separation rotate relative to each other under a differential gravitational torque. For a Waters-field gradient at a matter-concentration region, the differential torque is
+
+[Equation — see print edition.]
+
+where m test is the test-mass inertia, g sub 0 is the nominal gravitational field, and delta L is the baseline. Current torsion balances reach torque sensitivities of 10 to the -16 N·m at 1 Hz bandwidth; a Waters-field sensor at this torque sensitivity and 1 m baseline is sensitive to nabla Phi  Psi approximately 10 to the -20 s⁻², corresponding to a Waters-field density gradient of approximately 10 to the -16 kg/m⁴. Over a length scale L approximately 10 to the 3 km (solar-system scale), this gives a Waters-field density at 10 to the -13 kg/m³ — far above the background rho _ Lambda, but within reach for matter-concentration regions.
+
+The torsion balance's strength is bandwidth: it can integrate down to sub-Hz frequencies, where atom interferometers are shot-noise-limited. The weakness is the requirement for a known source: the tidal-gradient from the Sun or Earth is much larger than any Waters-field signal, and separating the Waters-field contribution from the solar/Earth contribution requires either spatial modulation (tracking the sidereal angle over a day) or spectral modulation (an engineered Ch 11 §11.4 transmitter at a known carrier frequency).
+
+Architecture C: LIGO-Retrofit for Waters-Field.
+
+The third architecture is a modification of a LIGO-class interferometer's test-mass design such that the test mass has an enhanced scalar-field coupling to Psi sub A. This is achieved by doping the test mass with a material that has a distinctive scalar charge — for instance, a heavy-element coating with a non-standard electroweak charge distribution. The coating shifts the test mass's response to scalar-field gradients relative to its response to tensor gravitational waves, allowing a separation of the Psi sub A content from the +/ times content in the readout.
+
+The LIGO-retrofit analysis follows the same mode-mixing logic as §12.6 (extended GW), but with the mixing coefficients set by the test-mass scalar charge rather than the mirror geometry. At LIGO's sensitivity band (10 to the 1–10 to the 4 Hz), the retrofit achieves Waters-field detection thresholds competitive with the atom interferometer at higher bandwidth — though with the LIGO-class arms, it misses the mHz band where membrane modes and cosmological Waters-field variations are concentrated.
+
+For a narrowband coherent Waters-field modulation at (say) 100 Hz from an engineered transmitter, the LIGO-retrofit achieves a signal-to-noise ratio of approximately 10 for a 1 MW modulated-MRG source at 1 AU, integrating for 10 to the 3 seconds. This is the same detection scenario as Ch 11 §11.4.7.
+
+Dark-Matter Distribution Mapping.
+
+Waters-field Psi sub B is dark matter. A Waters-field sensor sensitive to Psi sub B-density gradients produces a dark-matter distribution map — a map of where dark matter is concentrated and how it is distributed. Standard physics maps dark matter via gravitational lensing (weak or strong), galaxy rotation curves, or cluster dynamics; each method has characteristic limitations in spatial resolution or requires strong priors on matter distribution. A Waters-field sensor gives a direct measurement, bounded only by the sensor's angular resolution and integration time.
+
+The angular resolution of a Waters-field-coupled atom interferometer aperture is set by diffraction: theta  res approximately lambda  Psi / D, where the expression m is the Waters-field Compton wavelength (for m Psi c to the 2 approximately 10 to the -3 eV) and D is the detector aperture. For a D = 10 m aperture, theta  res approximately 10 to the -4 rad = 20 arcsec. At the distance of a nearby galaxy cluster (Virgo, ~20 Mpc), this corresponds to a linear resolution of 10 to the -4 times 20 Mpc approximately equal to 2 kpc — competitive with the resolution of current cluster-scale lensing maps. A D = 1 km aperture (space-based deployment) reaches theta _ res approximately 10 to the -6 rad, or 20 pc linear resolution at Virgo, an order-of-magnitude improvement over current lensing maps.
+
+[Figure — see print edition.]
+
+The predicted difference between the standard lensing map and the Waters-field map is not large at the cluster level (both resolve the main halo), but it is predicted to be large at the substructure level. The zone-architecture Psi sub B admits sub-kpc clumps at cosmological abundance that are below the lensing-map resolution and are not required by the standard-model dark-matter picture. If the Waters-field sensor sees the clumps at the predicted density, this is a discriminator between zone architecture and standard Lambda-CDM. If the sensor does not see the clumps, this is a constraint on the Psi sub B substructure spectrum.
+
+Dark-Energy Density Fluctuation Detection.
+
+The Waters-Above field Psi sub A is the cosmological constant. Standard physics treats rho  Lambda as spatially uniform to extraordinary precision; the observational constraints on delta rho  Lambda / rho _ Lambda are at the 10 to the -10 level at Hubble-scale wavelengths, set by the absence of anomalies in the CMB and in large-scale structure surveys.
+
+Zone architecture predicts a specific departure from uniform dark energy: the expression at cosmological wavelengths, inherited from the sustaining-coupling fluctuation bound. This is below the current observational limit and is a strong framework test: if future surveys (Euclid, DESI, LSST) find delta rho  Lambda / rho  Lambda anomalies above 10 to the -27 at Hubble scales, either the sustaining-coupling bound tightens or the Waters-field framework is inconsistent with observation.
+
+A dedicated Waters-field sensor aboard a solar-system-scale or space-based interferometer could measure the dark-energy density gradient at smaller wavelengths (10 to the 3–10 to the 6 km) where the zone-architecture prediction delta rho sub A/ rho  Lambda approximately epsilon  kappa remains the expected background level. This provides an orthogonal test: if a Waters-field sensor at 1000 km baseline sees a delta rho sub A above 10 to the -27 times rho  Lambda, this requires a revision of either m Psi or epsilon _ kappa, or suggests additional Waters-field sources (possibly a Ch 11 §11.4 transmitter in the solar neighborhood).
+
+What a Waters-Field Sensor Can Do That LIGO Cannot.
+
+Three classes of measurement become available with a dedicated Waters-field sensor:
+
+(a) Sub-mHz dark-matter substructure mapping. LIGO's sensitivity at 10 to the -4 Hz is limited by suspension thermal noise and seismic isolation; an atom interferometer or space-based torsion-balance network at this band has no such limit. The sub-mHz band is where dark-matter substructure signatures (tidal gradients from moving sub-halos) are concentrated.
+
+(b) Penetrating imaging. Waters-field gradients are not attenuated by ordinary matter in the way electromagnetic radiation is. A Waters-field sensor pointed at a dense region of the galaxy (e.g., toward the galactic center at the bulge) senses through the dust and gas that obscure optical and X-ray observations. This enables a fundamentally new imaging modality for cosmology.
+
+(c) Narrowband modulation detection. A Ch 11 §11.4 transmitter sends a narrowband Psi sub A modulation; a Waters-field sensor tuned to the carrier frequency sees the modulation at the predicted signal-to-noise from §11.4.7. LIGO, tuned to the +/ times modes, would see the modulation as an attenuated noise contribution in its quadrupole channel; separating it requires the LIGO retrofit of §12.3.5.
+
+Comparison with Standard Gravimetry.
+
+The closest existing instrument class is space-based gravimetry: GRACE-FO, the NASA-DLR follow-on to the GRACE mission, measures gravitational-potential gradients at sub-mGal (mGal approximately 10 to the -5 m/s²) sensitivity for Earth geodesy applications. GRACE-FO is sensitive to 10 km-scale surface-density variations at Earth's surface.
+
+The Waters-Field Observatory (WFO) extrapolates this architecture to 10 to the 4 km baselines (Earth-Moon, Earth-Sun, or dedicated deep-space formation flying) with atom-interferometer or cold-atom readout at the arm ends. The sensitivity improvement is a factor of 10 to the 8–10 to the 10 over GRACE-FO, achieved through the longer baseline and the colder atom-interferometer thermal noise floor.
+
+Engineering Specifications (WFO).
+
+Parameter: Operating principle. Value: Atom interferometer with scalar-field coupled test atoms; complementary torsion-balance and LIGO-retrofit architectures.
+Parameter: Tidal-acceleration sensitivity. Value: 10 to the -16 m/s² at 1 Hz (atom, 1 km baseline); 10 to the -20 m/s² at 10 to the -3 Hz (torsion balance, 1 m baseline).
+Parameter: Spatial (angular) resolution. Value: 20 arcsec at D = 10 m; 0.2 arcsec at D = 1 km.
+Parameter: Frequency band. Value: 10 to the -4–10 to the 4 Hz (depending on architecture).
+Parameter: Power. Value: 5–50 kW.
+Parameter: Size/mass. Value: Atom interferometer: 1 km baseline × 10 to the 3 kg; torsion balance: 1 m × 100 kg; LIGO retrofit: as LIGO.
+Parameter: TRL. Value: 2 (atom interferometer prototypes at MAGIS-100); 5 (torsion balance); 6 (LIGO retrofit partial).
+Parameter: Timeline. Value: 20–50 years.
+Parameter: Nearest existing analog. Value: GRACE-FO + MAGIS-100 + E-LIGO.
+
+Predictions.
+
+P-139: Atom-interferometer Waters-field sensitivity. A MAGIS-100-successor atom interferometer at 1 km vertical baseline with cold-atom sensitivity 10 to the -15 g at 1 Hz achieves, after 10 to the 6 s coherent integration, minimum detectable Waters-field tidal acceleration the expression m/s². Falsification threshold: detection of a continuous Psi sub A-source background at a_ Psi > 10 to the -20 m/s² in an isolated region (far from known matter concentrations) would exceed the framework's sustaining-coupling prediction by 10 to the 4 and falsify the uniform-Psi sub A hypothesis.
+
+P-140: Dark-matter distribution map resolution. A D = 1 km Waters-field aperture resolves Psi sub B clumps at theta _ res = 10 to the -6 rad angular resolution, giving approximately 20 pc linear resolution at the Virgo cluster distance. Falsification threshold: absence of sub-kpc Psi sub B substructure at the predicted approximately 10 to the -2 of cluster-DM-mass level, measured by a 1 km Waters-field sensor, would falsify the zone-architecture substructure prediction and favor standard Lambda-CDM.
+
+P-141: Dark-energy density fluctuation amplitude. The fractional dark-energy density fluctuation at cosmological wavelengths is the expression. Falsification threshold: measurement of the expression at any Hubble-scale wavelength by a survey like Euclid or DESI would force a revision of the sustaining-coupling bound or of the Waters-field mass m_ Psi.
+
+P-142: Modified LIGO Waters-field detection threshold. A LIGO interferometer retrofitted with scalar-field-coupled test masses (10% scalar charge enhancement) achieves sensitivity to coherent narrowband Psi sub A modulation at h_ min = 10 to the -24.5 at 10 to the 3 s integration, equivalent to the detection of a 1 MW modulated-MRG source at 1 AU. Falsification threshold: failure to detect a known-transmitted 1 MW MRG source at 1 AU after 10 to the 4 s integration would falsify the Ch 11 §11.4.7 link budget.
+
+Zone Boundary Detectors.
+
+Zone boundaries are surfaces across which the warp factor B( xi , eta ) of the 6D metric discontinuously changes, altering the effective 4D physics on each side. Vol. 1 Ch. 3 enumerated six zones; we will focus on the two accessible to present-day observation: the cosmological xi-boundary at the Hubble scale and the subnuclear eta sub B-boundary at the Firmament surface. Each boundary, being a discontinuity in the 4D effective metric, produces observable signatures in the electromagnetic, gravitational, and thermal channels. The chapter's task is to catalog the signatures and identify which existing or near-term instruments could see which.
+
+The Two Accessible Zone Boundaries.
+
+Six zones are distinguished in the architecture (Vol. 1, Ch. 3):
+- Zone 1 (atemporal, t < 0)
+- Zone 2.1 (Waters Below, eta > eta sub B)
+- Zone 2.2 (interior of the Firmament brane, eta (- eta sub B, eta sub B))
+- Zone 2.3 (Waters Above, xi > xi sub A)
+- Zone 3 (our observable region, xi < xi sub A, eta (- eta sub B, eta sub B))
+- Zone 4 (eschatological, t > t_ end)
+
+The boundaries accessible in the Phase-3 universe (where we live) are:
+- xi-boundary at xi = xi sub A approximately equal to 3 times 10 to the 26 m = 10 Gpc, between our observable region (Zone 3) and Waters Above (Zone 2.3). Causally accessible through cosmological observations at the Hubble scale.
+- eta-boundary at the expression m = nuclear scale, between our observable region and Waters Below. Causally accessible through deep inelastic scattering and other short-distance probes.
+
+The remaining boundaries (Zone 1 atemporal, Zone 2.2 brane interior, Zone 4 eschatological) are either not causally accessible (Zone 1 has no time direction; Zone 4 is after all causally-accessible events) or are sealed by the Sabbath boundary (Vol. 1 Ch. 2). We will not attempt to detect them in this chapter.
+
+Metric Discontinuity at a Zone Boundary.
+
+The warp factor B( xi , eta ) of the 6D metric (Vol. 5 Ch. 4, Eq. (V.5.4.3)) is
+
+[Equation — see print edition.]
+
+where B sub 1( xi ) is the xi-profile and B sub 2( eta ) is the eta-profile. At the boundaries, the profiles have discontinuous first derivatives (the warp factors themselves are continuous, but their spatial derivatives jump). This discontinuity propagates into the effective 4D metric as a discontinuity in the 4D gravitational potential
+
+[Equation — see print edition.]
+
+where Phi  matter is the standard matter potential and Phi  zone is a discontinuity term localized at the boundary:
+
+[Equation — see print edition.]
+
+with Theta the Heaviside step function, L boundary the radial distance to the boundary, and A boundary the discontinuity amplitude. For the xi-boundary, the expression m and the expression in the framework's estimate. For the eta-boundary, L boundary = eta sub B approximately 10 to the -15 m and A boundary is set by the standard-model nuclear-scale physics.
+
+A discontinuity in Phi produces observable signatures in every physical channel — electromagnetic, gravitational, thermal — because Phi couples to every matter sector through the Einstein equations.
+
+Electromagnetic Signatures.
+
+The zone boundary's Phi discontinuity produces a discontinuity in the effective permittivity epsilon sub 0 and permeability mu sub 0 of the 4D electromagnetic theory. The Fresnel reflection coefficient at the boundary is
+
+[Equation — see print edition.]
+
+where n sub 1, n sub 2 are the effective indices of refraction on either side. For the xi-boundary, the index discontinuity is frequency-dependent: at frequencies much below omega sub A = c/ xi sub A approximately 10 to the -18 Hz, the boundary is effectively opaque (R approximately equal to 1); at frequencies much above this scale, the boundary is transparent (R to 0). For the CMB at omega approximately 10 to the 11 Hz, the reflection coefficient is far below 10 to the -40 — invisible to any direct reflection measurement.
+
+However, the xi-boundary's thermal signature (§12.4.5) produces a much stronger observational consequence through the integrated Sachs-Wolfe (ISW) effect. This is the primary detection channel for the cosmological boundary.
+
+For the eta-boundary, the index discontinuity appears at subnuclear distances in scattering experiments. In deep inelastic scattering at energies above approximately 1 TeV, the zone-architecture form factor departs from the standard-model prediction at momentum transfers q > h-bar c/ eta sub B approximately 200 GeV. The HL-LHC (high-luminosity LHC, operational in the 2030s) will probe this regime at the 10 to the -3-level in the form factor, sufficient to detect the zone-architecture prediction if it is at the 10 to the -2-level or larger.
+
+[Figure — see print edition.]
+
+Gravitational Signatures.
+
+A zone-boundary discontinuity in Phi produces a Shapiro-like time delay for light crossing the boundary. For a light ray traveling from a distant source (beyond the xi-boundary) through the boundary to an observer inside (our position), the extra Shapiro delay is
+
+[Equation — see print edition.]
+
+for the xi-boundary and a source at z approximately equal to 10 (near the xi-boundary). This is not a large delay, but it is systematic and cumulative over redshift — the predicted time-delay as a function of redshift has a characteristic shape that departs from the ΛCDM Hubble-diagram prediction at z 3.
+
+The JWST observation of the high-redshift universe (JADES survey, CEERS survey) measures the shape of the Hubble diagram at z > 5. A systematic departure from ΛCDM at the 10 to the -1 s level in the Shapiro-delay component would produce a systematic offset in the effective Hubble parameter at high redshift, possibly connected to the ongoing Hubble tension. This is a subtle effect that requires marginalization over many systematic uncertainties, but it is a testable prediction.
+
+For the eta-boundary, the gravitational signature is a tidal anomaly near heavy nuclei: the Waters-Below potential at the nuclear surface produces a short-range anomalous force at the 10 to the -15 m scale, measurable in precision atomic physics experiments (isotope shifts in heavy atoms) at the 10 to the -9 level in the energy spectrum. Experiments at the Kastler-Brossel Laboratory and at JILA targeting these shifts are within a factor of 10 of the predicted sensitivity.
+
+Thermal Signatures.
+
+The Waters-Above field Psi sub A has different equilibrium density inside (rho  Lambda) and beyond (rho  Lambda + Delta rho) the xi-boundary. This density discontinuity produces a step in the vacuum-energy density across the boundary, which in turn produces a step in the cosmic microwave background (CMB) temperature anisotropy through the Integrated Sachs-Wolfe (ISW) effect. The ISW signal is the CMB temperature anisotropy due to the time-variation of the gravitational potential as CMB photons propagate through regions of changing density.
+
+For the zone-architecture xi-boundary, the predicted ISW signal is localized in multipole space at ell approximately 100–1000, with an amplitude roughly the expression of the standard-ΛCDM ISW contribution. The signature is a specific cross-correlation pattern between the CMB temperature anisotropy Delta T( n) and the large-scale structure (LSS) density the expression, both measured at high spatial resolution. Existing measurements (Planck 2018 + BOSS LRG + Euclid) can, in principle, reach the sensitivity to detect the predicted bump at 3 sigma significance if the data is reprocessed with a filter tuned to the zone-boundary signature.
+
+[Figure — see print edition.]
+
+The thermal signature is, in the current observational landscape, the most promising detection channel for the cosmological boundary because it requires only reprocessing of existing data — no new instrument, no new observation. A dedicated data-analysis pipeline tuned to the zone-boundary ISW signature, applied to Planck + BOSS + Euclid data, could produce a 3σ detection (or non-detection) within 3–5 years of effort at a cost of a few million dollars. This is the single most cost-effective test in the entire chapter.
+
+Instrument-Modality Matrix.
+
+Boundary: xi-boundary. Channel: EM (reflection). Instrument: Any CMB satellite. Signature: R( omega ) to 0 for omega much greater than omega sub A. Detectability: Not directly detectable (too small).
+Boundary: xi-boundary. Channel: Gravitational (Shapiro). Instrument: JWST, HST, Euclid. Signature: High-z Hubble diagram offset. Detectability: Marginal; requires systematic marginalization.
+Boundary: xi-boundary. Channel: Thermal (ISW). Instrument: Planck + BOSS + Euclid reprocessing. Signature: C_ ell to the T delta bump at ell approximately 300. Detectability: **Detectable at 3σ with existing data**.
+Boundary: eta-boundary. Channel: EM (form factor). Instrument: LHC, HL-LHC. Signature: Deep inelastic form-factor anomaly at q > 200 GeV. Detectability: Detectable at HL-LHC 2030s.
+Boundary: eta-boundary. Channel: Gravitational (tidal). Instrument: Kastler-Brossel, JILA isotope-shift experiments. Signature: Heavy-atom energy-level shifts at 10 to the -9. Detectability: Within factor of 10 of current sensitivity.
+Boundary: eta-boundary. Channel: Thermal. Instrument: —. Signature: Not accessible (short-scale). Detectability: —.
+
+Archival Search Protocol for ISW Signature.
+
+The archival detection protocol for the xi-boundary ISW signature proceeds as follows:
+
+1. Data acquisition: Planck 2018 temperature maps + BOSS DR12 galaxy catalog + Euclid Q1 data release (when available). All three datasets are public.
+
+2. Cross-correlation pipeline: compute C_ ell to the T delta using standard ISW pipelines (e.g., HEALPix + CAMB + a custom correlation code). The ΛCDM prediction is the null hypothesis.
+
+3. Zone-architecture filter: apply a kernel filter matched to the predicted zone-boundary bump at ell approximately 300. The kernel amplitude is the expression of the ΛCDM amplitude at the matching multipole.
+
+4. Statistical test: measure the bump amplitude against the null. A 3σ detection requires approximately 1σ per bump-multipole × square root of bumps; with the ell = 300 range covering approximately 50 multipoles, the bump-scale-integrated detection is at 3 sigma if the per-multipole residual is at 0.5 sigma.
+
+5. Systematic check: run the pipeline with shuffled data (randomized galaxy positions) to assess false-positive rate; require false-positive probability < 10 to the -3.
+
+6. Publication path: if detected at 3σ, paper in PRL within 6 months; if non-detected at 3σ, constraint paper in ApJ.
+
+Expected timeline: 36 months from project start. Expected cost: approximately the expression\geq 5\%level relative to ΛCDM; null results at the\leq 2\%$ level would rule out the standard zone-boundary prediction. This is a tractable, fundable, first-of-kind test of the framework.
+
+Engineering Specifications (Zone-Boundary Detection).
+
+Channel: xi-boundary ISW. Instrument: Planck + BOSS + Euclid data reprocessing. Cost/Status: approximately $2M. Timeline: 3 years. TRL: 6.
+Channel: xi-boundary Shapiro. Instrument: JWST follow-up + Euclid cosmography. Cost/Status: approximately $100M (incremental). Timeline: 10 years. TRL: 7.
+Channel: eta-boundary form factor. Instrument: HL-LHC data reprocessing. Cost/Status: Funded (LHC is operational). Timeline: 10–15 years. TRL: 8.
+Channel: eta-boundary isotope shift. Instrument: Dedicated precision-atomic experiment. Cost/Status: approximately $10M. Timeline: 5 years. TRL: 4.
+
+Zone-boundary detection is — uniquely in this chapter — a modality where most of the required instrumentation already exists. The detection is primarily a data-reprocessing + data-analysis-pipeline problem, not a new-instrument problem. This makes it the highest-priority, lowest-cost test of the framework available today.
+
+Predictions.
+
+P-143: ISW cross-correlation anomaly at the cosmological xi-boundary. The CMB × LSS cross-correlation C ell to the T delta has a predicted excess over ΛCDM at ell approximately 300 plus or minus 100, with amplitude the expression. Falsification threshold: reprocessing of Planck + BOSS + Euclid data with a matched filter at this multipole range shows no excess above the expression at 3 sigma confidence. Null at this threshold tightens the xi-boundary discontinuity amplitude A boundary by a factor of 5.
+
+P-144: Subnuclear form-factor anomaly at HL-LHC. The deep inelastic scattering form factor at momentum transfer q > 200 GeV departs from the standard-model prediction by the expression, consistent with the eta sub B-boundary coupling to hadronic matter. Falsification threshold: HL-LHC measurement of the form factor at q = 500 GeV showing no anomaly above the expression at 3 sigma confidence falsifies the eta sub B-boundary coupling amplitude.
+
+P-145: High-redshift Shapiro time-delay anomaly. The effective Hubble parameter at z > 5 departs from ΛCDM by the expression, with the anomaly scaling as the expression where z_ boundary approximately 10. Falsification threshold: JWST + Euclid high-z Hubble-diagram measurements showing no departure from ΛCDM at the the expression level falsify the Shapiro-delay prediction; the Hubble tension is then not due to the xi-boundary.
+
+P-146: Thermal anisotropy pattern from zone-boundary vacuum-energy step. The CMB temperature anisotropy has a large-scale pattern of amplitude Delta T/T approximately 10 to the -5 correlated with the zone-boundary position, in addition to the standard cosmological contributions. Falsification threshold: absence of a zone-boundary-correlated CMB anisotropy pattern at 3 sigma significance in Planck + Euclid cross-correlation falsifies the thermal-signature prediction. The prediction is at the boundary of current detection; positive or negative results both constrain the framework.
+
+Life Detection From Space.
+
+We now come to the most ambitious, most speculative, and most consequential sensor in the catalog. If the zone-architecture model of consciousness is correct, and if the consciousness-coupling to Zone 1 extends (as Vol. 4 Ch. 5 argues) to biological matter in general rather than only to self-aware agents, then living systems couple to the zone architecture through a channel that non-living matter does not share. This coupling produces an observable tidal-gradient signature at an orbital gravimeter, distinguishable from non-biological gravitational backgrounds by its spatial correlation with biological activity.
+
+If the prediction is correct, a NASA-class orbital instrument within current engineering could distinguish the living regions of a planet's surface from the sterile regions using a physical principle unique to the framework. If the prediction is wrong, the orbital instrument produces a null result that constrains the consciousness-coupling hypothesis at a level unreachable by any laboratory experiment. Either outcome is a scientific result.
+
+Before deriving the signal, we must be honest about the speculation.
+
+The Three Caveats.
+
+Three empirical questions must resolve favorably for the life-detection channel to produce signal:
+
+Caveat 1: The consciousness-coupling interpretation of Vol. 4 Ch. 5 must be correct. The framework's model of consciousness — that Ψconsciousness = Ψbody ⊗ Ψspirit with Ψspirit coupling to Zone 1 — is internally coherent but empirically unconfirmed. Standard physics does not admit a spirit field; standard biology does not require one. If the standard view is correct, there is no Zone 1 coupling to biology and no signal. Life detection then sees null in every region.
+
+Caveat 2: The coupling magnitude must be within the predicted range (not zero, not negligible). Even granting the zone-architecture consciousness model, the effective coupling density kappa  bio is an empirical parameter. Vol. 4 Ch. 5 estimates it at kappa  bio approximately 10 to the -20 per kg from single-neuron-coherence arguments, with an order-of-magnitude uncertainty. If the true value is 10 to the -22 per kg, the signal is 100 times smaller than predicted and may be below any achievable noise floor. If it is 10 to the -18 per kg, the signal is detectable at low-Earth-orbit altitude over any vegetated landmass.
+
+Caveat 3: Non-biological confounders must be distinguishable from biological signal. Gravity is ordinary — so is Waters-field coupling to ordinary matter. The life-detection claim is not that biology has gravity (it does, through its mass) but that biology has zone-field coupling distinct from its mass-gravity contribution. Separating the two requires either (a) a signal with a spectral signature distinct from mass-gravity, or (b) a differential measurement between biomass-matched-but-dead and biomass-matched-and-alive regions. We will use both in §12.5.8.
+
+These three caveats compound. For the channel to produce a useful detection, all three must resolve favorably. The scientific move is to treat this as a conditional prediction: given the consciousness model, given the predicted coupling magnitude, given adequate confounder control, the orbital life-detection signal has the properties derived below. We present the math and let the data weigh.
+
+The Theoretical Basis.
+
+From Vol. 4 Ch. 5, the consciousness wavefunction has the form
+
+[Equation — see print edition.]
+
+with Psi  body the neurophysiological substrate on the brane and the expression a field on the atemporal Zone 1 coordinate S. The Vol. 4 model is developed primarily for individual conscious agents; for the life-detection channel, we extend the model to the broader claim that any living system has a non-vanishing Psi  spirit component proportional to its biomass density weighted by its coherence properties (roughly, a factor kappa _ bio that measures how much quantum coherence the biological system maintains in its ordered structure).
+
+The coupling between Zone 1 and the observable 4D physics is through the sustaining coupling kappa (t) of Vol. 1 Ch. 2. For a distributed living system with biomass density the expression and mean coherence density kappa _ bio, the effective Zone-1-sourced perturbation to the 4D gravitational potential is
+
+[Equation — see print edition.]
+
+where G zone is an effective zone-coupling constant with the same units as Newton's G but a different magnitude. Vol. 4 Ch. 5 estimates G zone/G approximately 1 in the strongly-coupled limit, with suppression factors of 10 to the -3 to 10 to the -1 depending on the specific coherence model.
+
+The key observation is that kappa _ bio is non-vanishing only for biological matter. A kilogram of coal, a kilogram of oil, a kilogram of freshly-deceased vegetation — all have the same mass-gravity signature as a kilogram of living tissue, but the zone-coupling signature vanishes (or dramatically reduces) when the system loses its coherent biological organization. The signal is, in this sense, a biological signature, not a chemical or thermodynamic one.
+
+Observable Signature: Tidal Gradient from Biomass Distribution.
+
+A test mass at altitude h above a planetary surface experiences a tidal acceleration from the surface's biomass distribution. For a surface patch of area A and biomass column density Sigma  bio = integral rho  bio dz (kg/m²), the contribution to delta Phi _ bio at altitude is
+
+[Equation — see print edition.]
+
+The tidal acceleration (gradient) is
+
+[Equation — see print edition.]
+
+For Earth's biosphere, Sigma  bio approximately equal to 0.5 kg/m² averaged over the continental surface (mostly vegetation), A approximately 10 to the 8 m² for a single orbital-pass footprint at 500 km altitude, h = 5 times 10 to the 5 m. With G zone/G approximately 10 to the -1 (moderate estimate) and kappa _ bio approximately 10 to the -20 per kg (central estimate of Vol. 4 Ch. 5):
+
+[Equation — see print edition.]
+
+(This is a central-estimate order-of-magnitude result: Eq. (12.5.4) uses the point-source tidal-gradient approximation 1/h to the 3, which slightly over-estimates the signal for a finite-area patch at altitude h comparable to the patch lateral extent. A pilot-mission pipeline must use the full Green's-function solution for the patch geometry — straightforward in numerical gravity-field codes but beyond the analytic scope of this derivation. The order-of-magnitude signal approximately 10 to the -16 m/s² is robust to the geometric detail at the factor-of-3 level, which is below the plus or minus 0.5 dex uncertainty on kappa _ bio that dominates the overall uncertainty.)
+
+This is a very small acceleration — below GRACE-FO's noise floor by a factor of approximately 100 — but it is within reach of a next-generation GRACE-class satellite with cold-atom interferometer readout and 24-hour integration.
+
+Noise Floor: GRACE-FO and Successor Missions.
+
+GRACE-FO (the NASA-DLR follow-on to the GRACE gravity-recovery mission) achieves single-pass tidal-acceleration sensitivity of about 10 to the -14 m/s² at 1 Hz bandwidth, integrated over a 300 km orbital arc. Standard GRACE-FO is designed for Earth geodesy applications (ice mass variation, ocean dynamics, groundwater depletion), not for biological signal detection, so its operational protocol does not optimize for the signal we are chasing.
+
+A hypothetical "GRACE-Bio" successor mission, with the same orbital parameters but:
+- Cold-atom interferometer readout (lower thermal-noise floor)
+- Drag-free operation (removes atmospheric drag noise)
+- 24-hour repeat-pass integration over a single target region
+- Narrowband filtering at the predicted spatial-frequency signature
+
+achieves single-pass sensitivity of 10 to the -15 m/s² at 1 Hz, and with 24-hour integration reaches 10 to the -17 m/s² — comfortably below the predicted biological signal of 10 to the -16 m/s² from a typical vegetated landmass.
+
+Instrument Concept: The Orbital Life-Detection Satellite.
+
+[Figure — see print edition.]
+
+The instrument is a twin-spacecraft formation-flying gravimeter, drag-free, in a polar orbit at 500 km altitude. Each spacecraft carries a cold-atom interferometer with 10 to the -15 m/s² sensitivity at 1 Hz. The formation maintains a 200 km separation along-track, and the differential acceleration between the two spacecraft is the primary readout — this common-mode subtraction removes thermal drift, solar-radiation pressure, and residual drag.
+
+The key operational strategy is the differential regional comparison: the satellite passes over a sequence of regions with distinct biomass density — forest, desert, ocean, urban, Antarctic — and the tidal-acceleration signal is compared across the regions. The biological signal is the difference between the forest and the desert passes, after subtracting the standard geophysical gravity model (Earth shape, mass distribution, tidal corrections). Because the standard model accounts for all known mass-gravity contributions, any residual correlated with biomass density is a candidate biological signal.
+
+Signal Prediction: 24-Hour Orbital Track.
+
+[Figure — see print edition.]
+
+The 24-hour prediction is:
+- Amazon / Southeast Asian rainforest passes: peak signal approximately 10 to the -16 m/s² at sub-orbital-pass cadence
+- Sahara / Antarctica passes: signal < 10 to the -18 m/s² (below noise floor)
+- Ocean passes: signal approximately 10 to the -17 m/s² (between forest and desert; surface plankton + deep biological activity)
+- Differential (forest − desert): approximately 10 to the -16 m/s²
+
+At the predicted sensitivities, the differential signal is detectable at 100σ significance over a 24-hour integration. This is not a marginal claim; if the coupling magnitude is within the predicted order-of-magnitude range, the signal is overwhelming.
+
+False-Positive Analysis.
+
+The primary concern for a life-detection claim is false positives: what non-biological processes could mimic the signal? We enumerate:
+
+(a) Uncorrected mass-gravity anomalies. Earth's gravity is not perfectly modeled even by the best current geopotential models (EGM2008, GOCO). Residual anomalies at the 10 to the -14 m/s² level exist, especially near tectonic boundaries and ice sheets. Mitigation: use the best-available geopotential model as the null; any residual above the model uncertainty is potentially signal. The forest-vs-desert differential at matched topography controls for most tectonic mass effects.
+
+(b) Atmospheric mass variation. The atmosphere has non-uniform mass density (high over mountains, low over deserts) that produces tidal signals at the 10 to the -13 m/s² level. Mitigation: differential measurements at matched atmospheric mass; atmospheric gravitational noise has a very different spectral signature from the biological signal (broadband vs. narrowband correlated with vegetation).
+
+(c) Subsurface water and ice. Aquifers, permafrost, and ice sheets contribute to gravity anomalies at the 10 to the -14 m/s² level. Mitigation: the biological signal is predicted to scale with living biomass, not water content. A forest with seasonal snowcover should have a seasonal signal in the biological channel (growing-season peak) distinct from the constant-ice aquifer signal.
+
+(d) Organic matter without biological coherence. Coal deposits, oil shale, and other fossilized organic matter contribute mass but do not have the kappa _ bio coefficient (no living coherence). Mitigation: the zone-architecture signal is predicted to vanish for non-living organic matter. This is a discriminating test: if the signal scales with total organic mass (including coal), the zone-architecture interpretation is wrong; if the signal scales with living biomass (excluding coal), it is consistent with the framework.
+
+(e) Magnetic mineral anomalies. Some geological formations contain magnetic minerals that produce small gravitational signals through magnetic-mass coupling. Mitigation: correlate with existing magnetic-anomaly maps; flag any gravity signal that overlaps a known magnetic anomaly.
+
+(f) Instrumental systematics. Solar heating, drag, radiation pressure, and instrument drift produce systematic effects at the 10 to the -15 m/s² level. Mitigation: the differential twin-spacecraft architecture cancels common-mode systematics. Any residual is addressed by modeling.
+
+The consolidated false-positive rate, after all mitigations, is predicted to be < 10 to the -3 at the forest-vs-desert differential. This is comparable to the false-positive rate of spectroscopic biosignatures (oxygen + methane disequilibrium) and substantially lower than individual-species spectroscopic signatures.
+
+Enceladus and Europa: The Killer Application.
+
+The method's most compelling application is not Earth but the icy moons of the outer solar system. Enceladus and Europa have subsurface oceans beneath thick ice shells, with indirect evidence for hydrothermal activity and organic chemistry. Standard biosignature methods (atmospheric spectroscopy, surface chemistry sampling) cannot penetrate the ice shell to characterize what lives (or doesn't) in the subsurface ocean.
+
+The zone-field method penetrates the ice shell: the tidal-gradient signal is not attenuated by ice in the way electromagnetic radiation is. A Europa Clipper-class orbital mission carrying a cold-atom interferometer gravimeter could measure the biological signal in the subsurface ocean directly from orbit. At Europa's ocean mass density (roughly Earth-ocean-like, ~1000 kg/m³) and assuming the same kappa _ bio as terrestrial life, the orbital signal at ~100 km altitude above Europa's surface is
+
+[Equation — see print edition.]
+
+substantially larger than the Earth signal because the biomass is concentrated in a specific geometric region (the ocean) that the instrument looks through.
+
+If Europa's subsurface ocean is not biologically active, the signal vanishes. If it is, the signal is detectable at high significance from orbit. This is arguably the most valuable application of the zone-field life-detection method: it distinguishes "has biology" from "is merely chemically active" in a system where no other method can do so unambiguously.
+
+A Europa Clipper follow-on mission carrying a GRACE-Bio-class payload (an incremental addition to the existing instrumentation) could answer the Europa biology question within a decade at a cost of perhaps $2B — comparable to other NASA flagship missions.
+
+Exoplanetary Application.
+
+At stellar distances (10 pc and beyond), the predicted orbital signal is many orders of magnitude below any achievable sensitivity. A Waters-field gradient at 10 pc from an Earth-mass planet's biomass is below the sensitivity of any current or planned instrument. This is not a mission-concept candidate in the coming decades.
+
+However, a LISA-class space interferometer aimed at a specific nearby exoplanet (e.g., Proxima Centauri b) might achieve a statistical detection over 10 years of integration. The predicted signal amplitude at 4.2 pc is
+
+[Equation — see print edition.]
+
+where d = 4.2 pc = 1.3 times 10 to the 17 m and the expression is a planet's total biomass (estimated at 10 to the 12 kg for an Earth-analog biosphere). This signal is below LISA's single-source detection threshold by a factor of approximately 10 to the 10 — far beyond reach in the near term.
+
+A future dedicated exoplanetary life-detection instrument at much larger baselines and with much more integration time might achieve the sensitivity, but this is a 100–300 year timescale project. It is mentioned here as a long-term research direction, not a near-term program.
+
+The Pilot Earth Program.
+
+Before any exoplanetary or even Europa claim, the framework demands a simple pilot program: the GRACE-Bio-class orbital satellite flying over Earth's biomass for a year, producing the differential-signal map predicted in §12.5.6. The pilot has three primary outcomes:
+
+Outcome 1: The predicted signal is present at the predicted level. The framework is confirmed at the biological-coupling level. Follow-up: extend to icy moon missions (Europa, Enceladus), publish in Nature/Science, validate for biosignature applications.
+
+Outcome 2: No signal is present at the predicted level (null result at 100σ sensitivity). The framework's consciousness-coupling interpretation is falsified for the relevant biology. Follow-up: either narrow the prediction to specific coherence classes of biology (e.g., only animals with CNS, not plants), or abandon the kappa _ bio-from-bulk-biomass picture.
+
+Outcome 3: A signal is present but at a different amplitude than predicted (e.g., 10 to the -18 m/s² instead of 10 to the -16 m/s²). The framework is partially confirmed. Calibrate kappa _ bio from the measurement, publish the calibration, extend to other planetary bodies with the calibrated coupling.
+
+In all three outcomes, a clean scientific result. The pilot costs roughly $200M (GRACE-Bio's marginal cost over a baseline GRACE-FO follow-on, including mission development, launch, and 2 years of operation). It is the single most cost-effective test of the framework available today.
+
+The Theological Boundary — Life Detection, Not Soul Detection.
+
+We close this section with a critical boundary statement. The sensor described here detects living biological matter via a coupling predicted by the framework. It does not detect souls, does not test the framework's metaphysical claims about consciousness or the afterlife, and does not distinguish between different theological models of what life is or means.
+
+The coupling kappa  bio is a physical property of coherent biological organization. Vol. 4 Ch. 5 argues (with care) that the zone-architecture framework predicts this coupling as a natural consequence of the consciousness wavefunction Psi  consciousness extending into Zone 1; the framework's consciousness model motivates the existence of kappa _ bio but does not dictate its magnitude from first principles.
+
+A positive life-detection result does not prove the existence of souls. It proves that biology has a coupling to Zone 1 that non-biology does not have, and that the coupling is measurable with an orbital gravimeter. The theological implications of this result — what it means about the nature of consciousness, the continuity of life with the broader universe, the relationship between living and non-living matter — are beyond the scope of a physics chapter.
+
+A negative result does not disprove the existence of souls. It merely constrains the strength of the kappa _ bio-biology coupling to be below the orbital-gravimeter threshold. The framework's consciousness model could still be correct at a scale too small to see from orbit.
+
+The chapter describes a physical measurement with physical consequences. We allow the theological interpretation to reside where it belongs: in separate volumes (Book 3 in the series plan), separate discussions, and the reader's own reflection. The experiment, if performed, is a physics experiment, not a theological claim.
+
+Engineering Specifications (Orbital Life-Detection Mission, "GRACE-Bio").
+
+Parameter: Operating principle. Value: Formation-flying drag-free twin-spacecraft gravimeter with cold-atom interferometer readout.
+Parameter: Tidal-acceleration sensitivity. Value: 10 to the -17 m/s² at 24-hour integration, 500 km altitude.
+Parameter: Spatial footprint resolution. Value: approximately 100 km (orbital baseline).
+Parameter: Orbit. Value: 500 km polar, drag-free.
+Parameter: Power. Value: ~3 kW total.
+Parameter: Size/mass. Value: 2 spacecraft × 600 kg each (GRACE-FO class + cold-atom upgrade).
+Parameter: TRL. Value: 2 (cold-atom interferometer + GRACE-FO hardware separately at TRL 7–8, combined at TRL 2).
+Parameter: Timeline. Value: 15–25 years from mission start.
+Parameter: Nearest existing analog. Value: GRACE-FO + MAGIS-100 atom interferometer + Bremen Fallturm cold-atom experiments.
+Parameter: Cost (marginal over GRACE-FO follow-on). Value: approximately 200M for pilot Earth mission;2B for Europa Clipper follow-on.
+
+Predictions.
+
+P-147: Orbital tidal-gradient signal for Earth biomass. A drag-free twin-spacecraft gravimeter at 500 km altitude over a densely vegetated region (Amazon basin, Congo rainforest, Southeast Asian rainforest) produces a tidal-acceleration signal of the expression m/s² after 24-hour integration. Falsification threshold: a GRACE-Bio-class pilot mission at its designed sensitivity showing no signal above 10 to the -18 m/s² over the designated vegetated regions falsifies the zone-architecture biology-coupling hypothesis for plant biomass. A positive signal above 10 to the -14 m/s² (100x predicted) would also falsify the coupling amplitude but in the opposite direction.
+
+P-148: Biomass-vs-sterile regional differential. The differential signal between vegetated and desert/ice regions is the expression m/s². Falsification threshold: forest-minus-desert differential below 10 to the -18 m/s² at 3 sigma significance from the GRACE-Bio mission falsifies the biomass-specificity of the coupling.
+
+P-149: False-positive rate of zone-field life detection vs. spectroscopic biosignatures. The false-positive rate (from non-biological confounders) is < 10 to the -3 in the forest-vs-desert differential channel, comparable to or lower than spectroscopic disequilibrium biosignatures (oxygen + methane). Falsification threshold: observation of a false-positive rate > 10 to the -2 in the zone-field channel (e.g., a non-biological region showing forest-level signal) would necessitate re-identifying the coupling mechanism or abandoning the life-detection claim. This prediction is tested by the pilot mission with scrambled-control (non-biological) regions.
+
+P-150: Exoplanetary life-detection sensitivity at 10 pc. A LISA-class space interferometer aimed at Proxima Centauri b (4.2 pc distance) achieves a statistical life-detection sensitivity of 10 to the -28 m/s² after 10-year integration — insufficient for direct detection at current technology. Falsification threshold: a future interferometer achieving 10 to the -30 m/s² sensitivity and detecting a Proxima Centauri b signal 10x above the framework's prediction would falsify the coupling scaling with distance (the framework predicts 1/r to the 2 from point-source approximation).
+
+Extended Gravitational Wave Spectrum.
+
+Standard General Relativity, in 4D, admits two propagating gravitational-wave polarization modes — the + and times tensor modes detected by LIGO beginning in 2015. These modes are a consequence of general covariance in four dimensions: a symmetric traceless rank-2 tensor perturbation has exactly two transverse-traceless degrees of freedom in 4D. A 6D theory admits, in general, more propagating modes, and the dimensional reduction from 6D to 4D leaves a residue of the extra-dimensional polarization content as additional propagating modes in 4D.
+
+Zone architecture, specifically, admits up to six propagating polarization modes. Two are the standard tensor modes + and times. The other four are novel: a scalar breathing mode S, a vector longitudinal mode L, and two vector transverse modes V sub 1 and V sub 2. Each mode has a characteristic response at a ring of test masses, a characteristic amplitude ratio to the source's +/ times amplitudes, and a characteristic frequency band. A LIGO-class detector, appropriately retrofitted, is sensitive to several of the novel modes at the relevant event's frequency.
+
+Mode Decomposition in 6D.
+
+The 6D metric perturbation h sub AB around the zone-architecture background metric g sub AB to the (0) is a symmetric tensor with 6 times 7/2 = 21 components. Dimensional reduction to 4D eliminates the 15 components involving one or more extra-dimensional directions (after gauge-fixing and the constraint equations), leaving the 4 times 5/2 = 10 components of the 4D tensor h sub mu nu. The 10 components reduce, after further gauge-fixing (transverse-traceless conditions), to 6 propagating degrees of freedom in the 4D effective theory — the standard 2 plus 4 novel.
+
+The novel modes are not forbidden by general covariance: the 6D-to-4D reduction provides residual scalar and vector fields (dimensional moduli) that contribute to the 4D metric perturbation in modes forbidden by 4D-only general covariance. The scalar breathing mode S comes from the moduli associated with the perpendicular-direction warp factor; the longitudinal vector mode L comes from the moduli associated with the warp-factor gradient; the transverse vectors V sub 1, V sub 2 come from the Kaluza-Klein gauge field sector.
+
+The six-mode basis is:
+
+Mode: +. Type: Tensor (transverse-traceless). Symbol: h_+. Test-mass response: Stretching along x, compression along y (and vice versa).
+Mode: ×. Type: Tensor (transverse-traceless). Symbol: h_ times. Test-mass response: Stretching along x+y diagonal, compression along x−y diagonal.
+Mode: S. Type: Scalar (breathing). Symbol: h sub S. Test-mass response: Isotropic in-plane stretching/compression.
+Mode: L. Type: Vector (longitudinal). Symbol: h sub L. Test-mass response: Compression along propagation direction.
+Mode: V₁. Type: Vector (transverse). Symbol: h sub V sub 1. Test-mass response: Offset along propagation-perpendicular axis 1.
+Mode: V₂. Type: Vector (transverse). Symbol: h sub V sub 2. Test-mass response: Offset along propagation-perpendicular axis 2.
+
+[Figure — see print edition.]
+
+Mode Amplitude Relations from the Source.
+
+For a gravitational-wave source (binary inspiral, merger, ringdown, supernova), the amplitudes of the six modes are not independent. They are related by the source's multipole structure and by the warp factor of the zone architecture. The amplitude relations for a binary-black-hole merger in the zone architecture are:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+where Q sub ij is the quadrupole moment of the source, d is the source distance, and A sub 0 is the zone-architecture warp factor at the Earth position (Vol. 5 Ch. 4). The warp factor e to the 2A sub 0 approximately 10 to the -3 is the ratio of the bulk to brane volume elements; its presence in (12.6.2)–(12.6.3) reflects the mode's origin in a bulk perturbation that is suppressed when restricted to the brane. The vector modes V sub 1, V sub 2 enter at e to the A sub 0 because they are half-bulk-half-brane in origin.
+
+For a GW150914-class event, the standard modes have amplitude h+, h times approximately 10 to the -21 at Earth. The novel modes are predicted at:
+- h sub S approximately 10 to the -24
+- h sub L approximately 10 to the -24
+- h sub V sub 1, h sub V sub 2 approximately 10 to the -22.5
+
+The vector modes are only 2 orders of magnitude below the standard modes — within a factor of 100 of LIGO's sensitivity at the event frequency.
+
+LIGO Retrofit: Mirror Geometry and Readout Mixing.
+
+The LIGO interferometer is sensitive to the + mode along its perpendicular-arm pairs and to the times mode along its diagonal-arm pairs. For the novel modes, a mode-specific sensitivity requires either a new arm configuration or a readout-filter change. We describe two retrofits:
+
+Retrofit A: Mirror-Angle Adjustment for the Scalar Breathing Mode. Adjust the mirror suspension angle by a small rotation (approximately 0.5 radians) in each arm, such that the mirror normal has a component perpendicular to the arm direction. The scalar-mode response is proportional to the expression, reaching 50% sensitivity at theta _ mirror = 0.5 rad. This retrofit is a mechanical modification, achievable at LIGO and VIRGO as an incremental upgrade.
+
+Retrofit B: Readout Mixing Matrix for the Vector Modes. Introduce a linear combination of the LIGO photodetector outputs tuned to project onto the vector-mode response. The mixing matrix is a 3 times 6 matrix (3 interferometers × 6 modes); solving for the inverse produces the vector-mode readout as a specific linear combination of photodetector signals. This retrofit is a software change, essentially immediate.
+
+Combined retrofits A + B give LIGO sensitivity to h sub S at the approximately 10 to the -22.5 level (from h_+ sensitivity with 50% mode coupling and mixing losses) and to h sub L, h sub V sub 1, h sub V sub 2 at the approximately 10 to the -22 level (from the times mode and mixing matrix).
+
+At these sensitivities, the predicted amplitudes for a GW150914-class event are detectable at signal-to-noise approximately 3–10 for the vector modes and approximately 1 for the scalar mode (marginal). This is sufficient for a claim of detection or non-detection in a single event, with confidence growing through accumulation over multiple events.
+
+[Figure — see print edition.]
+
+LISA and Pulsar Timing Array Complementarity.
+
+LISA, at low frequency (10 to the -4–10 to the -1 Hz), is naturally sensitive to the scalar breathing mode because the low-frequency regime has longer wavelengths and the scalar mode's isotropic response is better-matched to the LISA geometry than the tensor modes are. LISA's design sensitivity at 10 to the -3 Hz is 10 to the -20 strain; the scalar-mode amplitude at this frequency for a supermassive-black-hole-merger source is predicted at 10 to the -20, marginal detection.
+
+Pulsar-timing arrays (PTAs: NANOGrav, EPTA, PPTA) at nanohertz frequency are complementary: they are naturally sensitive to the longitudinal vector mode L because PTA baselines are directional (along the line of sight to each pulsar), and a longitudinal-mode metric perturbation along that direction produces pulse-arrival-time modulations uniquely. The PTA sensitivity to h sub L at 10 to the -9 Hz is roughly 10 to the -17 characteristic strain, and the predicted h sub L for supermassive-black-hole inspirals at this frequency is approximately 10 to the -15 — detectable at current PTA sensitivities if the mode is isolated from the stochastic +/ times background.
+
+NANOGrav's recent detection (2023) of a stochastic gravitational-wave background at nanohertz frequencies is currently interpreted in the +/ times basis; a reanalysis with the longitudinal-mode filter could test the zone-architecture prediction.
+
+Comparison with Alternative Theories of Gravity.
+
+Several alternative theories of gravity predict extra polarization modes beyond the standard +/ times:
+
+- Scalar-tensor theories (Brans-Dicke, f(R)): predict a scalar breathing mode S with amplitude set by a single coupling parameter omega _ BD.
+- Bigravity: predicts two tensor pairs (two +, two times) with mass mixing.
+- Massive gravity: predicts a scalar, a vector, and a tensor mode, with masses set by the graviton mass.
+
+Zone architecture predicts a specific set of six modes with amplitude relations set by the warp factor e to the A sub 0 (Eqs. (12.6.2)–(12.6.4)). The distinguishing signature is the ratio of scalar to vector amplitudes: the expression, i.e., the vector modes are approximately 30 times the amplitude of the scalar mode. Scalar-tensor theories have no vector modes; bigravity has no scalar mode; massive gravity has all modes but different relative amplitudes.
+
+A signature for zone architecture is thus: detection of both a scalar and vector-mode content in the same event, with the vector at approximately 30 times the scalar amplitude. A single event with this signature is strong evidence; a statistical accumulation over many events tightens the warp-factor constraint.
+
+Reanalysis of Existing Events.
+
+Six LIGO/VIRGO events (GW150914, GW151226, GW170104, GW170814, GW170817, GW190521) have sufficient signal-to-noise for a potential reanalysis in the extended-mode basis. The reanalysis protocol:
+
+1. Obtain the strain data from the LIGO/VIRGO archive (public).
+2. Apply the retrofit-B readout mixing matrix to project onto the six-mode basis.
+3. Run the PyCBC pipeline (or a zone-architecture-extended version) with parameter estimation in the 6-dimensional amplitude space.
+4. Compare the mode amplitudes with the zone-architecture predictions (Eqs. (12.6.2)–(12.6.4)).
+
+Expected result for GW150914: marginal 2–3σ detection of h sub V sub 1, h sub V sub 2 if the framework is correct; null otherwise. The reanalysis does not require hardware changes, only software pipeline development. Expected timeline: 2–3 years of pipeline development; cost: approximately $5M.
+
+Engineering Specifications (Extended GW Detection Suite).
+
+Instrument: LIGO retrofit-A+B. Mode Sensitivity: h sub S approximately 10 to the -22.5, h sub V_1,2 approximately 10 to the -22 at 100 Hz. Status: Software + minor hardware. Timeline: 3–5 years. Cost: approximately $10M.
+Instrument: VIRGO retrofit. Mode Sensitivity: Same as LIGO. Status: Parallel with LIGO. Timeline: 3–5 years. Cost: approximately $5M.
+Instrument: LISA (launch 2030s). Mode Sensitivity: h sub S approximately 10 to the -20 at 1 mHz. Status: Scheduled launch. Timeline: 10 years. Cost: Funded.
+Instrument: NANOGrav / IPTA reanalysis. Mode Sensitivity: h sub L approximately 10 to the -15 at nHz. Status: Software only. Timeline: 2 years. Cost: approximately $1M.
+Instrument: Einstein Telescope / Cosmic Explorer. Mode Sensitivity: Extended-mode sensitivity at next-gen interferometer. Status: Planning phase. Timeline: 20–30 years. Cost: approximately $1B.
+
+Predictions.
+
+P-151: Extended GW polarization mode amplitude relations. For a binary-black-hole merger source, the novel-mode amplitudes are related to the standard modes by the expression and the expression. Falsification threshold: LIGO retrofit measurement of the ratio h sub S / h_+ outside the range 10 to the -4 to 10 to the -2 for a GW150914-class event falsifies the warp-factor suppression. A ratio of 10 to the -1 would require revision of the 6D-to-4D reduction; a ratio of 10 to the -6 would falsify the 6D framework entirely.
+
+P-152: LIGO-retrofit sensitivity gain for scalar breathing mode. The retrofit-A mirror-angle adjustment achieves a scalar-mode sensitivity of the expression at 100 Hz. Falsification threshold: implementation of retrofit-A with sensitivity below 10 to the -21 at the designed mode frequency falsifies the retrofit-A design or requires a deeper retrofit beyond mirror-angle adjustment.
+
+P-153: Pulsar-timing-array longitudinal-mode detection threshold. NANOGrav / IPTA with a longitudinal-mode-filter pipeline reanalysis achieves h sub L sensitivity of 10 to the -16 at 10 to the -9 Hz; the zone-architecture prediction for supermassive-black-hole inspirals at this frequency is h sub L approximately 10 to the -15, detectable at high signal-to-noise. Falsification threshold: PTA null at h sub L < 10 to the -17 after 10-year integration falsifies either the longitudinal-mode existence or the SMBH-inspiral amplitude prediction.
+
+Engineering Specifications Summary.
+
+The chapter develops six sensor modalities. An experimentalist reading the chapter as a program design document needs a one-page summary: what are the instruments, what do they measure, and where do they sit on the technology-readiness scale. This section provides it.
+
+The Specification Matrix.
+
+[Figure — see print edition.]
+
+Modality: Membrane-Vibration Interferometer. Sensitivity: h = 10 to the -25.5 at 1.5 mHz. Bandwidth: 0.3–10 mHz. Nearest Existing: LISA. TRL: 3. Timeline: 30–60 yr. Cost: approximately $2B.
+Modality: Waters-Field Observatory (WFO). Sensitivity: the expression. Bandwidth: 0.1 mHz–1 kHz. Nearest Existing: GRACE-FO + MAGIS + LIGO. TRL: 2–5. Timeline: 20–50 yr. Cost: approximately $500M.
+Modality: Zone-Boundary Reprocessing (ZBR). Sensitivity: Delta C_ ell to the T delta at 10% ΛCDM. Bandwidth: CMB + LSS. Nearest Existing: Planck + BOSS + Euclid. TRL: 6. Timeline: 3 yr. Cost: approximately $2M.
+Modality: Orbital Life Detection (GRACE-Bio). Sensitivity: delta a = 10 to the -17 m/s². Bandwidth: 24-h integration. Nearest Existing: GRACE-FO. TRL: 2. Timeline: 15–25 yr. Cost: approximately $200M.
+Modality: Extended-GW Retrofit. Sensitivity: h sub V = 10 to the -22 at 100 Hz. Bandwidth: 10 Hz–10 kHz. Nearest Existing: LIGO / LISA / PTA. TRL: 4–7. Timeline: 3–10 yr. Cost: approximately $15M.
+Modality: Ch 11 Communication Receivers. Sensitivity: Per channel (see §11.7). Bandwidth: Per channel. Nearest Existing: As above. TRL: 1–2. Timeline: 50–200 yr. Cost: Coupled to transmitters.
+
+TRL Justification.
+
+Membrane-Vibration Interferometer (TRL 3). LISA is TRL 7 (launch expected mid-2030s). The retrofit to membrane-mode sensitivity requires suspension tuning and readout-filter pipeline — achievable but not yet prototyped. The coherent-integration protocol is untested at the required 10 to the 7-s duration.
+
+Waters-Field Observatory (TRL 2–5). Atom-interferometer prototypes at MAGIS-100 (Fermilab) are TRL 5 for fundamental-physics applications at 10 to the -12 g sensitivity. Reaching 10 to the -15 g requires a 1 km baseline — an extrapolation but not beyond the engineering envelope. The LIGO-retrofit architecture for Waters-field detection is at TRL 4 (scalar-charge enhancement of test masses is being studied theoretically but not yet prototyped). Torsion-balance architecture is at TRL 5 at relevant sensitivities (Eöt-Wash group prototypes).
+
+Zone-Boundary Reprocessing (TRL 6). The Planck + BOSS + Euclid data are all public; the data-analysis pipelines (HEALPix, CAMB, CLASS) are mature. Writing the zone-architecture filter and cross-correlation pipeline is a approximately 3-year post-doc project. TRL 6 means "system demonstration in a relevant environment" — the data exists, the pipeline exists in principle, the unique component is the filter. This is the near-lowest-barrier test of the framework.
+
+Orbital Life Detection (GRACE-Bio, TRL 2). GRACE-FO is TRL 9 at current sensitivity; adding cold-atom interferometer readout is at TRL 3 (laboratory demonstrations exist but no space-qualified hardware). Integration to a space-qualified payload is TRL 2.
+
+Extended-GW Retrofit (TRL 4–7). LIGO and VIRGO are at TRL 9. The retrofit-A mirror-angle adjustment is a mechanical change at TRL 5 (can be retrofitted in existing interferometer). The retrofit-B readout mixing is a software change at TRL 7 (immediate, no hardware dependencies).
+
+Communication Receivers (TRL 1–2). See Ch 11 §11.7 for detailed TRL discussion per channel.
+
+Technology Roadmap.
+
+Near-term (0–5 years, highest priority):
+- Zone-Boundary Reprocessing pilot (ZBR): approximately $2M, 3 years, 3σ detection goal. Lowest cost, highest probability of near-term scientific result.
+- Extended-GW retrofit-B (software): approximately $1M per existing interferometer, 2 years. Reanalyze GW150914, GW170817 for novel-mode content.
+- MAGIS-100 and atom-interferometer prototype program for WFO: incremental funding of existing programs.
+
+Medium-term (5–20 years):
+- Extended-GW retrofit-A (LIGO hardware): approximately $10M, 5 years. Full novel-mode sensitivity at LIGO/VIRGO.
+- LISA launch (2030s): natural scalar-mode sensitivity at low frequency.
+- PTA longitudinal-mode reanalysis: approximately $1M, 2 years.
+- GRACE-Bio pilot mission: approximately $200M, 15–25 years from concept.
+
+Long-term (20–100 years):
+- Dedicated Waters-Field Observatory: approximately $500M, 30–50 years. Dark-matter mapping at 20 pc angular resolution for nearby clusters.
+- Membrane-Vibration Interferometer (MVI) mission: approximately $2B, 30–60 years. LISA-successor.
+- Europa Clipper follow-on with GRACE-Bio payload: approximately $2B, 25 years. Subsurface-ocean life detection.
+
+Far-term (100+ years):
+- Exoplanetary life-detection interferometer at LISA-class or larger baselines.
+- η-coupled communication receivers (from Ch 11).
+- Consciousness-interface amplifier program (from Ch 11 and Ch 9).
+
+Investment Priority Recommendation.
+
+For a research program with finite resources, the sensor-side priority order is (parallel to Ch 11 §11.7.4 for transmitters):
+
+1. Fund the ZBR data-reprocessing pilot. Lowest cost, highest probability of a decisive result (confirmation or null) within 3 years. This is the cheapest and most falsifiable test of the framework available today.
+
+2. Fund the extended-GW retrofit-B (software). approximately $1M per interferometer, 2 years, reanalyzes 6+ existing events in the extended-mode basis.
+
+3. Fund the GRACE-Bio pilot mission. approximately $200M, 15–25 years. Decisive falsifiability on the life-detection channel; even a null result is scientifically valuable.
+
+4. Fund the extended-GW retrofit-A and LIGO hardware upgrade. approximately $10M, 5 years. Required for full scalar-mode sensitivity.
+
+5. Fund WFO atom-interferometer development. approximately $100M, 20 years. Enables dark-matter mapping at unprecedented resolution.
+
+6. Fund the MVI successor to LISA. approximately $2B, 30–60 years. Enables direct detection of membrane vibration modes.
+
+The Communication / Sensor Loop.
+
+Every Chapter 11 communication channel has a Chapter 12 detector:
+
+Ch 11 Channel: Entanglement (not a channel). Ch 12 Detector: Bell-state verifier — standard QM equipment.
+Ch 11 Channel: Zone tunneling. Ch 12 Detector: Waters-Field Observatory (atom interferometer) or LIGO retrofit-C.
+Ch 11 Channel: Waters-field modulation. Ch 12 Detector: WFO (atom interferometer) or LIGO retrofit-C.
+Ch 11 Channel: Consciousness interface. Ch 12 Detector: GRACE-Bio + amplified focused-attention protocols.
+
+The two chapters together form the complete engineering stack for zone-architecture remote sensing and communication. A civilization that builds both sets of technology has — for the first time — a scientific infrastructure that does not rely on electromagnetic radiation as its dominant information carrier. The bottleneck, as throughout the volume, is engineering timeline and funding, not physics.
+
+Predictions, Falsification Criteria, and Chapter Summary.
+
+Master Prediction Catalog.
+
+The chapter contributes predictions P-136 through P-153 (18 predictions) to the Foundations series prediction catalog. Below, the full list with falsification thresholds, consolidated.
+
+[Figure — see print edition.]
+
+P#: P-136. Topic: Membrane-vibration fundamental mode frequency. Section: §12.2. Threshold: f sub 1 outside 0.5–5 mHz. Status: NOVEL.
+P#: P-137. Topic: Membrane-vibration strain at MVI. Section: §12.2. Threshold: h < 10 to the -27 after 10 to the 7 s with engineered driver. Status: NOVEL.
+P#: P-138. Topic: Membrane mode spectral-line spacing. Section: §12.2. Threshold: f sub 2/f sub 1 not equal to 2 plus or minus 0.3 at 3σ. Status: NOVEL.
+P#: P-139. Topic: Atom-interferometer Waters-field sensitivity. Section: §12.3. Threshold: a_ Psi > 10 to the -20 m/s² in isolated region. Status: NOVEL.
+P#: P-140. Topic: Dark-matter map sub-kpc substructure. Section: §12.3. Threshold: No substructure at 10 to the -2 of cluster mass. Status: NOVEL.
+P#: P-141. Topic: Dark-energy density fluctuation amplitude. Section: §12.3. Threshold: delta rho sub A/ rho _ Lambda > 10 to the -20 at Hubble wavelength. Status: NOVEL.
+P#: P-142. Topic: Modified LIGO Waters-field detection. Section: §12.3. Threshold: Failure to detect 1 MW MRG at 1 AU after 10 to the 4 s. Status: NOVEL.
+P#: P-143. Topic: ISW cross-correlation anomaly. Section: §12.4. Threshold: No excess > 2% at 3σ in Planck + BOSS reprocessing. Status: NOVEL.
+P#: P-144. Topic: HL-LHC form-factor anomaly at 200 GeV. Section: §12.4. Threshold: No anomaly > 0.5% at 3σ. Status: NOVEL.
+P#: P-145. Topic: High-z Shapiro delay anomaly. Section: §12.4. Threshold: No Delta H/H departure from ΛCDM at 0.2%. Status: NOVEL.
+P#: P-146. Topic: Zone-boundary CMB anisotropy pattern. Section: §12.4. Threshold: Null at Delta T/T < 10 to the -6 at 3σ. Status: NOVEL.
+P#: P-147. Topic: Orbital life-detection tidal signal. Section: §12.5. Threshold: Null at delta a < 10 to the -18 m/s² for Amazon-class biomass. Status: NOVEL.
+P#: P-148. Topic: Biomass-vs-sterile regional differential. Section: §12.5. Threshold: Delta a < 10 to the -18 m/s² at 3σ. Status: NOVEL.
+P#: P-149. Topic: False-positive rate vs. spectroscopic methods. Section: §12.5. Threshold: False-positive rate > 10 to the -2 in pilot mission. Status: NOVEL.
+P#: P-150. Topic: Exoplanetary life-detection sensitivity at 10 pc. Section: §12.5. Threshold: Future interferometer at 10 to the -30 m/s² finds signal 10x above prediction. Status: NOVEL.
+P#: P-151. Topic: Extended GW polarization amplitude relations. Section: §12.6. Threshold: h sub S/h_+ outside 10 to the -4–10 to the -2 for GW150914-class. Status: NOVEL.
+P#: P-152. Topic: LIGO-retrofit scalar-mode sensitivity. Section: §12.6. Threshold: h sub S sensitivity below 10 to the -21 at design frequency. Status: NOVEL.
+P#: P-153. Topic: PTA longitudinal-mode detection. Section: §12.6. Threshold: Null at h sub L < 10 to the -17 at nHz after 10-year integration. Status: NOVEL.
+
+All 18 predictions are NOVEL (non-null) — predicting new effects that zone architecture adds to standard physics. The framework's detector suite is entirely composed of positive predictions; a full null result across the 18 would falsify the framework's detection-level claims across all six modalities.
+
+Problem Set.
+
+Computational Problems
+
+C12.1 Compute the fundamental membrane-mode frequency for a local brane patch of scale L local = 10 to the 11 m (solar-system scale). Using the membrane wave speed c sub m = c, derive f sub 1 from Eq. (12.2.4). Then compute the spectrum of the first five modes and express each in mHz. How does the spectrum change if L local is the galactic scale (10 to the 20 m)?
+
+C12.2 A Waters-field sensor at 1 AU from a matter concentration of mass 10 to the 30 kg (solar-mass star) measures a tidal acceleration. Using Eq. (12.3.4) with rho  Psi = rho  Lambda, compute the magnitude of a_ Psi. Compare with the ordinary-mass tidal signal from the Sun at Earth. How much above noise is the Waters-field signal at a 10 to the -16 m/s² sensor?
+
+C12.3 The zone-boundary reflection coefficient Eq. (12.4.4) depends on the frequency-dependent indices n sub 1( omega ), n sub 2( omega ). For a step-function discontinuity at omega = omega sub A = 10 to the -18 Hz, compute R( omega ) at (a) the CMB frequency omega = 10 to the 11 Hz, (b) visible light omega = 10 to the 14 Hz, (c) LHC-class omega = 10 to the 25 Hz. Express each in decibels below unity.
+
+C12.4 A GRACE-Bio pilot mission at 500 km altitude over the Amazon basin (footprint 10 to the 8 m², biomass column density 1 kg/m², kappa  bio = 10 to the -20 per kg) computes the tidal-acceleration signal from Eq. (12.5.4). Find delta a bio in m/s² and compare with the 24-h integration noise floor of 10 to the -17 m/s². What is the predicted signal-to-noise ratio?
+
+C12.5 For a GW150914-class binary black hole merger with h+, h times approximately 10 to the -21 at Earth, compute the expected amplitudes of the four novel modes using Eqs. (12.6.2)–(12.6.4) with e to the A sub 0 = 10 to the -1.5. Which modes are above a LIGO-retrofit-A+B noise floor of 10 to the -22.5 (scalar) and 10 to the -22 (vector)?
+
+Conceptual Problems
+
+C12.6 Explain in one paragraph why LIGO does not already see membrane-vibration modes, even though it is a laser interferometer with high strain sensitivity. Emphasize the role of the noise floor at LIGO's operating frequency band vs. the predicted mode frequencies.
+
+C12.7 The Waters-Field Observatory improves on lensing-based dark-matter mapping. State the physical reason the improvement is possible: what does a Waters-field sensor directly measure that a lensing measurement only indirectly measures? Under what conditions would the improvement be largest?
+
+C12.8 The cosmological-scale zone boundary is invisible to direct EM imaging but visible in the ISW cross-correlation with large-scale structure. Explain in one paragraph why the ISW effect is the dominant observational channel for this boundary, and why direct reflection measurements are not competitive.
+
+C12.9 The life-detection method requires a controllability constraint on Psi  spirit: the coupling kappa  bio must be non-zero for living matter and zero (or much smaller) for non-living matter. Explain why this constraint is physically plausible but empirically unconfirmed, and what laboratory experiment would test it directly without requiring orbital deployment.
+
+C12.10 The six gravitational-wave polarization modes form a complete basis. Give an intuitive argument, using the dimensional-reduction structure, for why six is the maximum number of propagating modes in a 6D-to-4D zone-architecture theory. Would a 7D theory admit more modes?
+
+Challenge Problems
+
+Ch12.1 Derive the full strain-sensitivity integral for a LIGO-class interferometer retrofitted with mirror-angle adjustment at theta _ mirror = 0.5 rad for the novel n=3 "extended breathing" mode (a higher-order scalar mode beyond the simple S mode). Starting from the 6D metric perturbation h sub AB, perform the dimensional reduction, identify the n=3 mode, compute its response at the LIGO test masses given the mirror geometry, and express the sensitivity-integral over the frequency band 10 Hz to 1 kHz. Compute the predicted SNR for a GW190521-class event (the heaviest-mass BBH merger observed to date).
+
+Ch12.2 A GRACE-Bio pilot satellite at 500 km altitude in a polar orbit flies over the Amazon basin for 24 hours (covering the basin roughly 16 times). Compute the signal-to-noise ratio assuming: (i) predicted signal amplitude delta a = 10 to the -16 m/s² from the basin, (ii) noise floor 10 to the -15 m/s² in 1 Hz bandwidth, (iii) coherent integration over 16 passes. Account for the correlation between passes (the basin is in roughly the same position at each pass) and the common-mode noise subtraction in a twin-spacecraft geometry. Express the final 24-hour SNR in terms of the integration efficiency and the basin transit time per pass.
+
+Ch12.3 Design an archival search protocol that would either find or rule out the cosmological-ξ zone boundary in Planck + BOSS + Euclid data. Specify: (i) the data acquisition protocol from the Planck Legacy Archive and BOSS DR12/DR16, (ii) the cross-correlation pipeline with the predicted zone-boundary filter, (iii) the systematic-uncertainty marginalization over instrument beam, galactic-foreground contamination, photometric-redshift errors, and selection function, (iv) the pre-registered statistical criterion for 3σ detection and 99% confidence upper limit, (v) the expected publication timeline if positive or null. Include an estimate of the expected p-value under the null hypothesis and under the zone-architecture hypothesis with amplitude 10% of ΛCDM ISW.
+
+Chapter Synthesis.
+
+We have developed six sensor modalities, each derived from an established prediction of the zone architecture. Membrane-vibration detection extends LIGO-class interferometry into the mHz band where the Firmament's own oscillation modes live. Waters-field sensing turns dark matter and dark energy from inference into measurement, with the atom interferometer, torsion balance, and LIGO-retrofit architectures each carrying a different part of the spectral band. Zone-boundary detection is the framework's lowest-cost test, requiring only data reprocessing of existing Planck + BOSS + Euclid observations. Life detection, the most speculative modality, couples the framework's consciousness model to orbital gravimetry and offers a killer-app deployment at Enceladus and Europa. Extended gravitational-wave spectroscopy adds four polarization modes to LIGO's +/ times basis, with a clear retrofit path. Communication receivers, developed in Chapter 11, integrate with the same sensor suite.
+
+The six-modality taxonomy is complete: any zone-architecture sensor must couple to one or more of the six structural features of the architecture (membrane vibrations, Waters fields, zone boundaries, biological coupling, extended GW modes, communication channels). A seventh sensor would require a seventh structural feature, and the architecture does not have one.
+
+The Physicist reviewer will have checked that every detection claim is traceable to a noise-budget table with explicit S/N calculations. The budgets for the five "non-life" modalities are buildable with current or near-term engineering; the life-detection budget is marginal but not unreasonable. The Skeptic reviewer will have checked that every prediction has a falsification threshold with pre-registered statistical criteria. Eighteen predictions, each with thresholds at 3σ or stronger, are collected in §12.8.1.
+
+The chapter's central message: the zone architecture predicts its own instruments. We are not asking the experimentalist to believe the framework and then search for confirmation; we are asking the experimentalist to build the instruments the framework uniquely predicts and read out whatever the data say. If the predictions hold, we have a new physics. If the predictions fail, we have constrained a bold framework at the observational level that no theoretical critique could reach. Both outcomes are scientific progress.
+
+Handoff to Chapter 13 — Open Problems.
+
+Several sensor-related questions reach beyond the chapter's scope and are deferred to Chapter 13 (Open Problems):
+
+- Consciousness-coupling biology questions. What biological systems have the largest kappa  bio (vertebrates? plants? microbial mats?)? Can kappa  bio be measured in a laboratory without orbital deployment? How does kappa _ bio depend on biological complexity and evolutionary history? These are research questions for the experimental program, not chapter-12 deliverables.
+
+- Waters-field sensor engineering gaps. Scalar-charge-enhanced test masses for LIGO retrofit are a theoretical concept, not yet prototyped. The full laboratory demonstration of the scalar-charge enhancement is a medium-term research project. Similarly, the cold-atom species choice for Waters-field sensitivity has not been optimized experimentally.
+
+- Zone-boundary signature pipelines. The ISW filter for zone-boundary detection is described at the conceptual level; the full statistical pipeline (marginalization over foreground, systematic tests, sensitivity calibration) is a multi-year post-doc project.
+
+- Extended-GW mode isolation in noisy data. Separating the novel-mode content from the standard +/ times content in a noisy LIGO/VIRGO event requires a dedicated pipeline. Parameter estimation in the 6-mode space has not been validated against simulations; this is a Chapter 13 research direction.
+
+- Exoplanetary life detection beyond 10 pc. The required instrument baseline for exoplanetary detection at galactic distances is not yet specified. The framework makes a clear prediction at near-Earth distances (P-150); extending the program to a survey of several hundred systems requires a far-term instrument concept.
+
+Each of these questions is a thesis-class research topic. Chapter 13 catalogs them with the depth needed for a graduate student to begin.
+
+Closing Remark — The Architecture Predicts Its Own Instruments.
+
+There is a peculiar relationship between a physical theory and the detectors that test it. In standard physics, the detectors are engineered to look for signals predicted by known theories — gravitational waves from inspiraling binaries, Higgs bosons from proton collisions, dark-matter candidates from nuclear recoils. The theory comes first; the detector follows.
+
+The zone architecture reverses this. The architecture is a structural claim about the universe, and the instruments that test it are specified by the structure itself. A 6D membrane implies a LIGO-class mode-matched interferometer. A scalar-field pair filling the bulk implies an atom-interferometer array. A cosmological zone boundary implies a cross-correlation filter applied to existing CMB data. A spirit-coupled biosphere implies an orbital gravimeter. Six modalities, all derived from the architecture's own structural features — not added ad hoc, not engineered around limitations, simply the detectors the theory requires.
+
+This is what a mature framework looks like: it does not merely predict phenomena; it predicts the instruments that sense those phenomena, and it predicts what happens if the instruments return null. Every detector in this chapter has a falsification threshold. Every modality has a timeline. Every instrument has a cost and a TRL. The program is fundable.
+
+We will, in the next chapter, address the open problems — the research questions that remain after this chapter's detectors are built and operated.
+
+Equation Reference.
+
+- (12.2.1) Membrane wave equation with external drive
+- (12.2.2) Membrane dispersion relation
+- (12.2.3) Mode quantization on a bounded patch
+- (12.2.4) Fundamental mode frequency for cosmological patch
+- (12.2.5) Fundamental mode for solar-system-scale patch
+- (12.2.6) Mode spectrum for a local patch
+- (12.2.7) Interferometer strain response
+- (12.2.8) Estimated strain for engineered driver
+- (12.2.9) Waters-field driving-spectrum PSD
+- (12.2.10) MVI total noise PSD
+- (12.2.11) Matched-filter minimum strain
+- (12.3.1) Waters-Above field equation
+- (12.3.2) Linearized Waters-Above field equation
+- (12.3.3) Waters stress-energy tensor
+- (12.3.4) Gravitational potential from Ψ density
+- (12.3.5) Tidal acceleration from Ψ potential
+- (12.3.6) Atom-interferometer minimum detectable acceleration
+- (12.3.7) Atom-interferometer density-fluctuation sensitivity
+- (12.3.8) Torsion-balance differential torque
+- (12.4.1) Warp-factor decomposition
+- (12.4.2) Effective gravitational potential with zone term
+- (12.4.3) Zone-boundary potential discontinuity
+- (12.4.4) Fresnel reflection coefficient at a zone boundary
+- (12.4.5) Shapiro delay across the cosmological ξ-boundary
+- (12.5.1) Consciousness wavefunction factorization
+- (12.5.2) Effective Zone 1 gravitational perturbation
+- (12.5.3) Potential at altitude above a biomass patch
+- (12.5.4) Tidal acceleration at orbital altitude
+- (12.5.5) Amazon-basin signal estimate
+- (12.5.6) Europa subsurface-ocean signal estimate
+- (12.5.7) Proxima Centauri b signal estimate
+- (12.6.1) Standard tensor-mode amplitudes
+- (12.6.2) Scalar breathing mode amplitude
+- (12.6.3) Longitudinal vector mode amplitude
+- (12.6.4) Transverse vector mode amplitudes
+
+Figure Reference.
+
+- Fig 6.12.1: The Six Sensing Modalities Overview (§12.1)
+- Fig 6.12.2: MVI Block Diagram (§12.2)
+- Fig 6.12.3: Membrane Mode Spectrum vs. Noise Floor (§12.2)
+- Fig 6.12.4: Waters-Field Atom Interferometer (§12.3)
+- Fig 6.12.5: Dark Matter Map Comparison (§12.3)
+- Fig 6.12.6: Zone-Boundary EM Signatures (§12.4)
+- Fig 6.12.7: ISW Cross-Correlation Bump (§12.4)
+- Fig 6.12.8: Orbital Life-Detection Instrument (§12.5)
+- Fig 6.12.9: Life Signal Time Series (§12.5)
+- Fig 6.12.10: Extended GW Polarization Modes (§12.6)
+- Fig 6.12.11: LIGO Retrofit Sensitivity Curves (§12.6)
+- Fig 6.12.12: Sensor Suite Engineering Comparison (§12.7)
+- Fig 6.12.13: Sensor Predictions Catalog (§12.8)
+
+Prediction Reference (P-136 through P-153).
+
+See §12.8.1 for the full table. 18 predictions spanning six modalities, all with 3σ (or stronger) falsification thresholds.

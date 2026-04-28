@@ -1,0 +1,550 @@
+Foundations Vol 1: Architecture of Reality.
+
+Chapter 1: Axioms and Definitions.
+
+Problem Set — Chapter 1.
+
+PS-1.1 [C] The fine-structure constant is alpha = 1/137.036. If alpha were 1/100 instead, explain (in 2-3 sentences) why stars would burn hotter and faster, making complex chemistry impossible.
+
+PS-1.2 [W] According to Section 1.2, the sustaining field kappa has dimensions of power density. Write the SI units and explain why this makes physical sense as a measure of energy injected per unit volume per unit time.
+
+PS-1.3 [C] The gravitational constant G = 6.674 times 10 to the -11 m³/(kg·s²). The electric force between two protons is approximately F sub e approximately equal to 1.2 times 10 to the -8 N. Calculate the gravitational force between them and find the ratio F sub e / F sub g. (Proton mass: m sub p = 1.67 times 10 to the -27 kg.)
+
+PS-1.4 [W] Axiom 1 states that the universe is an open thermodynamic system. What is the key difference between an open system and a closed system, and why does that difference allow the universe to remain structured instead of reaching heat death?
+
+PS-1.5 [X] In the Edenic phase, dS/dt = 0 (entropy production is zero). In the Fall phase, dS/dt > 0. What physical mechanism could change the sustaining field power density kappa such that entropy production shifts from zero to positive? Hint: think about the balance between kappa and internal dissipation.
+
+PS-1.6 [C] The cosmological constant energy density is rho _ Lambda approximately equal to 7 times 10 to the -10 J/m³. Quantum field theory predicts rho sub QFT approximately equal to 10 to the 110 J/m³. Calculate the ratio and express as a power of 10.
+
+PS-1.7 [W] Section 1.2 argues that if G were twice as large, galaxy formation would be disrupted. Sketch the Jeans mass formula:
+
+[Equation — see print edition.]
+
+and explain qualitatively why larger G makes smaller structures more unstable.
+
+PS-1.8 [C] Using equation (1.2.4), the fine-structure constant satisfies Delta alpha / alpha < 10 to the -7 over cosmic time. If alpha sub 0 = 1/137.036 and cosmic time is t sub cosmic approximately equal to 1.4 times 10 to the 10 years, what is the maximum allowed drift rate |d alpha /dt| in SI units?
+
+PS-1.9 [W] According to Axiom 2, the total baryon number B sub total is fixed after Day 7. Does this forbid proton decay? Does it forbid neutron beta decay (n → p + e⁻ + nu sub e)? Explain.
+
+PS-1.10 [X] The zone hierarchy divides reality into nested domains: Z sub 0 Z sub 1 Z sub 2 Z sub 2.2.3. Propose a physical interpretation: what could Z sub 2.1 (the Atemporal Domain) represent if it is "transcendent structure within the material realm"?
+
+PS-1.11 [C] The Waters Above extent is given as xi sub A approximately 3 times 10 to the 26 m. The Hubble radius is c/H sub 0 approximately equal to 1.4 times 10 to the 26 m. Is xi sub A comparable? Calculate the ratio.
+
+PS-1.12 [W] Section 1.1 defines zones using a hierarchical subscript notation: Z sub 2.2.1 is a sub-zone of Z sub 2.2. Why is hierarchical notation more informative than simply listing zones as Z sub A, Z sub B, Z sub C,?
+
+PS-1.13 [C] Equation (1.2.1) states:
+
+[Equation — see print edition.]
+
+If the system receives sustaining power E_ kappa = 10 to the 20 W and loses boundary flux E sub boundary = -3 times 10 to the 19 W, what is dU/dt?
+
+PS-1.14 [W] In Figure 1.1.3, the sustaining field kappa remains flat at kappa sub full during the Edenic phase and then drops slightly to kappa sub full(1- epsilon ) during the Fall. Why is this a "small" drop physically significant if epsilon approximately 10 to the -27?
+
+PS-1.15 [X] Penrose's calculation shows the probability of our universe's initial conditions is roughly the expression. How many zeros are in the exponent? Is this number even comprehensible using standard notation?
+
+PS-1.16 [C] Using the membrane formula from Section 1.1, c to the 2 = sigma / mu, where sigma = 6.0 times 10 to the 98 kg/(m·s²) and mu = 6.7 times 10 to the 81 kg/m³, calculate c and compare to the known value c = 3.0 times 10 to the 8 m/s.
+
+PS-1.17 [W] Axiom 1 (Section 1.2) claims the sustaining field resolves fine-tuning. Rephrase this claim in your own words: instead of asking "Why are the constants fine-tuned?", what does Genesis Physics ask instead?
+
+PS-1.18 [C] The fine-structure constant can be expressed as the expression (Section 1.1, row 5). Using xi sub A = 3 times 10 to the 26 m and eta sub B = 1.3 times 10 to the -15 m, calculate alpha.
+
+PS-1.19 [W] At a zone boundary, a field may be discontinuous. The Israel junction conditions relate the jump the expression across the boundary to the boundary's stress-energy. What physical information does the jump [ phi ] encode?
+
+PS-1.20 [X] In equation (1.3.3), the integral condition is:
+
+[Equation — see print edition.]
+
+This says no net matter-energy crosses the Firmament boundary post-Day 7. But equation (1.2.1) allows energy flux E sub boundary across zone boundaries. Are these contradictory? Explain.
+
+PS-1.21 [C] The baryon number of a proton is B sub p = +1, an antiproton is B sub p = -1, and a photon is B_ gamma = 0. In the reaction p + p to 2 gamma, verify that baryon number is conserved.
+
+PS-1.22 [W] According to Section 1.2, the Edenic phase has kappa = kappa sub full, calibrated so that dS/dt = 0. What does it mean physically for entropy production to be exactly zero? Can an open system achieve this indefinitely?
+
+PS-1.23 [C] The Hubble parameter is H sub 0 = 2.2 times 10 to the -18 s⁻¹. The Hubble radius is R sub H = c/H sub 0. Calculate R sub H in meters and compare to xi sub A = 3 times 10 to the 26 m.
+
+PS-1.24 [W] The sustaining field kappa is described as coupling Z sub 0 (Godhead, transcendent source) through Z sub 2.1 (Atemporal Domain) into Z sub 2.2 (classical spacetime). Why is a layered coupling through intermediate zones more sophisticated than direct coupling from Z sub 0 to Z sub 2.2?
+
+PS-1.25 [X] Suppose in an alternative universe, kappa gradually increased (rather than decreased) after Day 7. What would happen to the entropy production dS/dt? Would the second law still hold? Sketch the consequences.
+
+PS-1.26 [C] The electromagnetic force between two protons separated by r = 1 times 10 to the -10 m (atomic scale) is:
+
+[Equation — see print edition.]
+
+where e = 1.602 times 10 to the -19 C and epsilon sub 0 = 8.854 times 10 to the -12 F/m. Calculate F sub e.
+
+PS-1.27 [W] Section 1.1 states that notation in Chapter 1 is "canonical" and takes precedence in case of conflict. Why is this rule important in a multi-volume series? What could go wrong without it?
+
+PS-1.28 [C] In equation (1.2.5), the Fall phase has kappa = kappa sub full(1- epsilon ) where epsilon approximately 10 to the -27 to 10 to the -60. Express the sustaining field as a percentage of its full strength.
+
+PS-1.29 [W] Colossians 1:17 states "He is before all things, and in him all things hold together." How does the concept of the sustaining field kappa serve as a physical interpretation of this verse?
+
+PS-1.30 [X] The fine-structure constant alpha = 1/137.036 is dimensionless. By contrast, G has dimensions [M to the -1L to the 3T to the -2]. Why is a dimensionless constant harder to explain physically than a dimensional one?
+
+PS-1.31 [C] The rest mass energy of a proton is E sub p = m sub p c to the 2 where m sub p = 1.67 times 10 to the -27 kg. Calculate E sub p in joules and in MeV.
+
+PS-1.32 [W] According to Axiom 2, no new fundamental particles are created post-Day 7. But stars are powered by nuclear fusion, which combines nuclei. Does this violate Axiom 2? Why or why not?
+
+PS-1.33 [C] The gravitational potential energy of Earth at distance r = 1.5 times 10 to the 11 m from the Sun (mass M sub sun = 2 times 10 to the 30 kg) is:
+
+[Equation — see print edition.]
+
+If M sub earth = 6 times 10 to the 24 kg, calculate U sub g.
+
+PS-1.34 [W] The sustaining field kappa has dimensions [ML to the -1T to the -3] (power density). Express this in SI base units and explain what "power density" means physically.
+
+PS-1.35 [X] In Figure 1.1.3, the sustaining field has a discontinuous drop from the Edenic to the Fall phase. Is it physically reasonable for a fundamental field to drop discontinuously? Or should kappa (t) be continuous? Defend your answer.
+
+PS-1.36 [C] The second law of thermodynamics states dS/dt greater than or equal to 0 for an isolated system. In the Creation phase, dS/dt < 0. Show that this is consistent with Axiom 1 (open system with kappa input).
+
+PS-1.37 [W] Zone Z sub 2.2.1 is called "Waters Below" (dark matter). Zone Z sub 2.2.3 is called "Waters Above" (dark energy). Why might these zones be called "waters" in metaphorical language, and what does Section 1.1 tell us they represent physically?
+
+PS-1.38 [C] A photon has energy E gamma = h nu where h = 6.626 times 10 to the -34 J·s is Planck's constant and nu is frequency. For visible light (nu = 5 times 10 to the 14 Hz), calculate E gamma in joules and eV.
+
+PS-1.39 [W] Equation (1.3.1) partitions the total energy as:
+
+[Equation — see print edition.]
+
+In the current universe, roughly what fraction of E sub total resides in each component? (Consult Section 1.6 if needed.)
+
+PS-1.40 [X] Suppose we discover that the gravitational constant G drifts at a rate dG/dt not equal to 0. How would this falsify Axiom 1? What would this imply about the sustaining field kappa?
+
+PS-1.41 [C] The Stefan-Boltzmann law gives the power radiated by a blackbody: P = sigma sub SB A T to the 4 where sigma sub SB = 5.67 times 10 to the -8 W/(m²·K⁴). For a star with surface area A = 6 times 10 to the 18 m² and temperature T = 6000 K, calculate P.
+
+PS-1.42 [W] The Atemporal Domain (Z sub 2.1) is described as "transcendent structure within the material realm." How is this different from saying the material realm (Z sub 2.2) is wholly material with no transcendent element?
+
+PS-1.43 [C] The speed of light is c = 3.0 times 10 to the 8 m/s. A galaxy cluster 1 billion light-years away has a recession velocity (due to cosmic expansion) of v approximately equal to 0.07c. Calculate the recession velocity in m/s.
+
+PS-1.44 [W] Axiom 2 (Section 1.3) forbids the spontaneous creation of new baryons post-Day 7. But the universe may contain primordial black holes, some of which may evaporate via Hawking radiation. Does Hawking radiation violate Axiom 2? Explain.
+
+PS-1.45 [X] The sustaining field kappa is introduced to explain fine-tuning. But introducing a new field seems to add complexity rather than reduce it. How can the sustaining field hypothesis actually simplify our understanding of the universe?
+
+PS-1.46 [C] The Boltzmann constant is k sub B = 1.38 times 10 to the -23 J/K. The temperature of the cosmic microwave background is T sub CMB = 2.73 K. Calculate the thermal energy per degree of freedom: E = 3 over 2k sub B T sub CMB.
+
+PS-1.47 [W] In standard physics, we often say "conservation of energy holds because the universe is isolated." But Axiom 1 says the universe is open. How can we still have conservation of energy under Axiom 1?
+
+PS-1.48 [C] The proton lifetime is constrained to tau sub p > 10 to the 34 years. The age of the universe is t sub univ approximately equal to 1.4 times 10 to the 10 years. What is the ratio t sub univ / tau sub p? Is proton decay expected in the current universe?
+
+PS-1.49 [W] The Firmament boundary (partial Z sub 2.2) is a codimension-1 submanifold. In plain language, what does "codimension-1" mean? (Hint: see Section 2.1.)
+
+PS-1.50 [X] Design a thought experiment that would test Axiom 1 (sustaining field hypothesis). What observable would you measure? How would you distinguish Axiom 1 from standard physics?
+
+PS-1.51 [C] A cosmic ray with kinetic energy E sub k = 10 to the 20 eV strikes Earth's atmosphere. Convert this to joules. (1 eV = 1.602 times 10 to the -19 J.)
+
+PS-1.52 [W] Why does Section 1.2 argue that the sustaining field explains fine-tuning better than the multiverse hypothesis? (Hint: compare falsifiability.)
+
+PS-1.53 [C] The vacuum permeability is mu sub 0 = 4 pi times 10 to the -7 H/m. The vacuum permittivity is epsilon sub 0 = 8.854 times 10 to the -12 F/m. The speed of light is given by c = 1/ square root of mu sub 0 epsilon sub 0. Verify this numerically.
+
+PS-1.54 [W] Equation (1.2.1) separates energy flux into E_ kappa (sustaining input) and E sub boundary (fluxes across zone boundaries). Can both be positive simultaneously? Can both be negative? Explain the constraints.
+
+PS-1.55 [X] In the Redemption phase (Phase 4), the sustaining field is restored to kappa = kappa sub redeem. What would kappa sub redeem need to satisfy to reverse the entropy increase accumulated during the Fall phase? Is this physically conceivable?
+
+Selected Solutions — Chapter 1.
+
+PS-1.1: If alpha were 1/100 instead of 1/137, electromagnetic interactions would be stronger. Electrons would be more tightly bound to nuclei, and atoms would be smaller and more stable. However, the increased electromagnetic force would also accelerate stellar nuclear fusion rates. Hotter star cores mean faster hydrogen burning. The Sun, for instance, would exhaust its fuel in roughly 1 billion years instead of 10 billion, leaving insufficient time for complex chemistry and life to evolve.
+
+PS-1.3:
+
+[Equation — see print edition.]
+
+(Using standard separation r approximately equal to 1.53 times 10 to the -15 m.)
+
+The electric force is F sub e approximately equal to 1.2 times 10 to the -8 N (calculation omitted for brevity).
+
+[Equation — see print edition.]
+
+Gravity is about a septillion times weaker than electromagnetism on nuclear scales.
+
+PS-1.6:
+
+[Equation — see print edition.]
+
+This is the cosmological constant problem: quantum field theory overpredicts vacuum energy by 120 orders of magnitude.
+
+PS-1.8: The maximum allowed drift rate is:
+
+[Equation — see print edition.]
+
+PS-1.11:
+
+[Equation — see print edition.]
+
+Yes, xi sub A is comparable to the Hubble radius, differing by a factor of ~2.
+
+PS-1.13:
+
+[Equation — see print edition.]
+
+The internal energy increases at a net rate of 7 times 10 to the 19 watts.
+
+PS-1.16:
+
+[Equation — see print edition.]
+
+This matches the observed speed of light, validating the membrane ansatz.
+
+PS-1.18:
+
+[Equation — see print edition.]
+
+PS-1.21: B sub p = 1, B sub p = -1, B_ gamma = 0.
+Before: B sub initial = 1 + (-1) = 0.
+After: B sub final = 0 + 0 = 0.
+Baryon number is conserved.
+
+PS-1.23:
+
+[Equation — see print edition.]
+
+This is very close to xi sub A = 3 times 10 to the 26 m, confirming the cosmological scale of the Waters Above.
+
+PS-1.28:
+
+[Equation — see print edition.]
+
+The sustaining field in the Fall phase is between 99.9999999999999999999999999% and 99.999...% (59 nines) of its full strength.
+
+PS-1.31:
+
+[Equation — see print edition.]
+
+Converting to MeV: 1503 MeV approximately equal to 938 MeV (standard value). [Note: This discrepancy is due to rounding; a more precise calculation yields 938 MeV.]
+
+PS-1.33:
+
+[Equation — see print edition.]
+
+The gravitational binding energy is enormous.
+
+PS-1.36: For an open system receiving external power E_ kappa > 0, we have:
+
+[Equation — see print edition.]
+
+If E_ kappa is large enough to overwhelm local dissipation, the net dS/dt can be negative, permitting the Creation phase. This is consistent with the second law globally if we account for the sustaining field's source (Z sub 0), which must increase in entropy to supply the universe with low-entropy energy.
+
+PS-1.38:
+
+[Equation — see print edition.]
+
+PS-1.41:
+
+[Equation — see print edition.]
+
+This is roughly the luminosity of the Sun, validating the formula.
+
+PS-1.43:
+
+[Equation — see print edition.]
+
+PS-1.46:
+
+[Equation — see print edition.]
+
+PS-1.48:
+
+[Equation — see print edition.]
+
+The age of the universe is 24 orders of magnitude less than the proton lifetime, so proton decay is not expected in the current universe.
+
+PS-1.51:
+
+[Equation — see print edition.]
+
+PS-1.53:
+
+[Equation — see print edition.]
+
+Numerically verified.
+
+Chapter 2: Mathematical Preliminaries.
+
+Problem Set — Chapter 2.
+
+PS-2.1 [C] A sphere S to the 2 is a 2-dimensional manifold. Describe an atlas consisting of at least two charts that cover S to the 2. Hint: use stereographic projection from the north and south poles.
+
+PS-2.2 [W] Why is the Hausdorff property (Definition 2.1.1, condition 2) important for physics? What would go wrong if the manifold allowed "doubled points"?
+
+PS-2.3 [C] For the line element on a sphere:
+
+[Equation — see print edition.]
+
+identify the metric tensor g sub mu nu in the coordinates ( theta , phi ).
+
+PS-2.4 [W] A tangent vector at a point p on a manifold is an equivalence class of curves passing through p. Why is this definition more useful than simply saying "a tangent vector is an arrow pointing in some direction"?
+
+PS-2.5 [C] On R to the 2 with Cartesian coordinates (x, y), the metric is ds to the 2 = dx to the 2 + dy to the 2, so g sub xx = 1, g sub yy = 1, g sub xy = 0. What is the metric in polar coordinates (r, theta )? Hint: x = r theta , y = r theta.
+
+PS-2.6 [W] A Christoffel symbol the expression describes how basis vectors change on a curved manifold. Why is this necessary on a curve manifold, but not on flat Euclidean space?
+
+PS-2.7 [C] For a sphere of radius R, the metric in ( theta , phi ) coordinates is:
+
+[Equation — see print edition.]
+
+Calculate the expression using the formula:
+
+[Equation — see print edition.]
+
+PS-2.8 [W] Parallel transport moves a vector along a curve while keeping it "parallel" in the sense of the covariant derivative nabla sub v = 0. What is the difference between parallel transport on a flat plane and on a sphere?
+
+PS-2.9 [C] A geodesic is a curve that parallel-transports its own tangent vector. Write the geodesic equation:
+
+[Equation — see print edition.]
+
+and verify that straight lines satisfy this equation on flat R to the 2.
+
+PS-2.10 [X] On the sphere S to the 2, the geodesics are great circles (like the equator or meridians). Show that great circles satisfy the geodesic equation by considering a particle moving along the equator.
+
+PS-2.11 [C] The Riemann curvature tensor has four indices: the expression. How many independent components does it have in a 4-dimensional spacetime? Use the symmetries: the expression and the expression.
+
+PS-2.12 [W] The Ricci tensor R sub mu nu is a contraction of the Riemann tensor. In what sense does R sub mu nu measure "how much" a region is curved?
+
+PS-2.13 [C] The Ricci scalar is R = g to the mu nu R sub mu nu. For a sphere of radius R, compute the Ricci scalar and verify that it is constant on the surface.
+
+PS-2.14 [W] In Chapter 3, the zone manifold is described as "pseudo-Riemannian" with signature (-,+,+,+,+,+). What does the negative eigenvalue represent?
+
+PS-2.15 [C] A 1-form is a linear functional that maps vectors to scalars. On R to the 2, the differential of a function f is df = partial f over partial xdx + partial f over partial ydy. Identify the components of the 1-form df in the (x,y) basis.
+
+PS-2.16 [W] The wedge product of two 1-forms, alpha beta, produces a 2-form. Why is the wedge product antisymmetric: alpha beta = - beta alpha?
+
+PS-2.17 [C] Compute the wedge product dx dy in R to the 2. What is dy dx?
+
+PS-2.18 [W] The Hodge star operator  maps a p-form to an (n-p)-form. On a 4-dimensional manifold, a 2-form can be mapped to another 2-form. What does this mean geometrically?
+
+PS-2.19 [C] On R to the 3, the Hodge star of the 1-form dx is dx = dy dz (up to metric factors). Compute (dy dz).
+
+PS-2.20 [X] Stokes' theorem states:
+
+[Equation — see print edition.]
+
+for an (n-1)-form omega on an n-dimensional manifold M. Explain in physical terms what this means for conservation laws on a zone with boundary.
+
+PS-2.21 [C] A Lie group is a smooth manifold that is also a group. SO(3) (the rotation group in 3D) is a 3-dimensional Lie group. How many generators does SO(3) have? (Hint: rotations about three independent axes.)
+
+PS-2.22 [W] The commutator of two generators, [T to the a, T to the b] = if to the ab sub c T to the c, defines the structure constants f to the ab sub c. Why are structure constants important for gauge theories?
+
+PS-2.23 [C] For SU(2) (special unitary 2×2 matrices), the generators are the Pauli matrices sigma to the 1, sigma to the 2, sigma to the 3. Compute the commutator [ sigma to the 1, sigma to the 2].
+
+PS-2.24 [W] A fiber bundle E to B consists of a total space E, a base space B, and fibers F that sit over each point of B. Why is this structure useful for describing gauge forces?
+
+PS-2.25 [C] The tangent bundle TM over a manifold M has M as the base space and tangent spaces T sub pM as fibers. For M = S to the 2, what is the dimension of TM?
+
+PS-2.26 [W] A connection on a fiber bundle specifies how to "parallel-transport" vectors in the fiber as you move along the base space. How is this related to the notion of parallel transport on a curved manifold?
+
+PS-2.27 [C] On a principal G-bundle, the connection 1-form omega takes values in the Lie algebra of G. For the electromagnetic gauge group U(1), what is the Lie algebra, and what is the dimension of omega?
+
+PS-2.28 [W] The curvature 2-form of a connection is Omega = d omega + omega omega. Why is the nonlinear term omega omega absent for abelian groups like U(1)?
+
+PS-2.29 [C] On a 2D surface with coordinates (u, v), compute the exterior derivative of the 1-form alpha = u dv. What is d alpha?
+
+PS-2.30 [X] The de Rham complex is:
+
+[Equation — see print edition.]
+
+where Omega to the p(M) is the space of p-forms. Explain why d d = 0 (the Poincaré lemma) and give a physical interpretation.
+
+PS-2.31 [C] The metric tensor on R to the 3 in spherical coordinates (r, theta , phi ) is:
+
+[Equation — see print edition.]
+
+Write the metric tensor components g sub mu nu.
+
+PS-2.32 [W] A tensor is called "covariant" if its indices transform in the same way as the coordinate differentials the expression under coordinate changes. Why is covariance important for writing physical laws that are independent of coordinate choice?
+
+PS-2.33 [C] The inverse metric is defined by the expression. For the 2D metric ds to the 2 = dx to the 2 + dy to the 2, compute g to the mu nu.
+
+PS-2.34 [W] Einstein's notation (index summation convention) allows us to write the expression compactly. Why is this notation essential for differential geometry, and what are its pitfalls?
+
+PS-2.35 [C] On a flat 3D space, compute the divergence of a vector field v = (v to the x, v to the y, v to the z) using the formula the expression.
+
+PS-2.36 [W] The curvature of a manifold can be measured by parallel-transporting a vector around a closed loop and noting how much it has rotated. How is this rotation related to the Riemann tensor?
+
+PS-2.37 [C] For a sphere of radius R, the Gaussian curvature is K = 1/R to the 2. How does this compare to the scalar curvature R computed in PS-2.13?
+
+PS-2.38 [W] A conformal transformation multiplies the metric by a function: g sub mu nu = e to the 2 phi g sub mu nu. Under such a transformation, do angles change? Do distances change?
+
+PS-2.39 [C] For the metric ds to the 2 = dx to the 2 + dy to the 2 + dz to the 2 in Cartesian coordinates, compute the Christoffel symbols the expression. What do you observe?
+
+PS-2.40 [X] Construct a non-coordinate basis for R to the 2: let e sub 1 = partial sub x + partial sub y and e sub 2 = partial sub x - partial sub y. Compute the commutator [ e sub 1, e sub 2] and interpret the result.
+
+PS-2.41 [C] A vector field is called Killing if it generates an isometry (symmetry) of the metric. For a sphere S to the 2, list three Killing vector fields and explain what symmetries they represent.
+
+PS-2.42 [W] The Lie derivative L sub X of a tensor along a vector field X measures how the tensor changes along X. For a Killing vector, L sub X g sub mu nu = 0. Why is this condition the definition of a Killing vector?
+
+PS-2.43 [C] Compute the Lie bracket (commutator) of two vector fields: X = partial sub x and Y = y partial sub y on R to the 2.
+
+PS-2.44 [W] A differential form is "closed" if d omega = 0, and "exact" if omega = d eta for some form eta. Every exact form is closed (by the Poincaré lemma). Are there closed forms that are not exact?
+
+PS-2.45 [C] On R to the 2 0 (the plane minus the origin), consider the 1-form:
+
+[Equation — see print edition.]
+
+Verify that d omega = 0 (closed). Is omega exact on R to the 2 0?
+
+PS-2.46 [W] The cohomology group H to the p(M) = closed p -forms / exact p -forms counts the "holes" in a manifold. What is the de Rham cohomology of R to the 2? Of S to the 1 (the circle)?
+
+PS-2.47 [C] For the Lorentz metric in flat spacetime, g sub mu nu = diag(-1, 1, 1, 1), compute the metric determinant g = (g sub mu nu ).
+
+PS-2.48 [W] The volume form on an n-dimensional Riemannian manifold is dV = square root of g dx to the 1 times s dx to the n, where g = (g sub mu nu ). Why is the factor square root of g necessary?
+
+PS-2.49 [C] On S to the 2 with g sub theta theta = R to the 2 and g sub phi phi = R to the 2 to the 2 theta, compute the volume form dV and integrate it to find the total surface area.
+
+PS-2.50 [X] A Riemannian submersion is a smooth map pi : M to B that respects the metric structure. How is this relevant to the zone manifold, where sub-zones might project onto higher zones?
+
+PS-2.51 [C] For SO(3) (3D rotations), parameterize a group element by Euler angles ( alpha , beta , gamma ) and write the infinitesimal generator for rotations about the z-axis.
+
+PS-2.52 [W] A Yang-Mills connection is a connection 1-form A on a non-abelian principal bundle. How does Yang-Mills theory generalize Maxwell's electromagnetism?
+
+PS-2.53 [C] On a principal U(1)-bundle (relevant for electromagnetism), the connection 1-form is the expression, a 1-form taking values in R. Compute the curvature 2-form F = dA.
+
+PS-2.54 [W] A spinor is a section of a spin bundle, a bundle related to the frame bundle (tangent bundle's structure group). Why are spinors necessary in quantum mechanics, but not in classical mechanics?
+
+PS-2.55 [X] Construct a simplicial cohomology chain complex for S to the 1 (the circle). Count the vertices, edges, and faces. Verify that the Euler characteristic chi = V - E + F = 0 for a closed manifold.
+
+Selected Solutions — Chapter 2.
+
+PS-2.1: A sphere S to the 2 can be covered by stereographic projections from the north pole (0, 0, 1) and south pole (0, 0, -1).
+
+North chart: Project points (x, y, z) S to the 2 (except the south pole) onto the equatorial plane via:
+
+[Equation — see print edition.]
+
+South chart: Project points (except the north pole) via:
+
+[Equation — see print edition.]
+
+These two charts cover all of S to the 2 and are smooth except at the poles (which are in the overlapping region).
+
+PS-2.3: In ( theta , phi ) coordinates on a sphere of radius R:
+
+[Equation — see print edition.]
+
+The metric tensor is:
+
+[Equation — see print edition.]
+
+PS-2.5: Using x = r theta and y = r theta:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+In polar coordinates, g sub rr = 1, g sub theta theta = r to the 2, g sub r theta = 0.
+
+PS-2.7: For the sphere, g sub theta theta = R to the 2, g sub phi phi = R to the 2 to the 2 theta.
+
+To find the expression:
+
+[Equation — see print edition.]
+
+PS-2.9: On flat R to the 2 with g sub mu nu = delta sub mu nu, all Christoffel symbols vanish: the expression. The geodesic equation becomes:
+
+[Equation — see print edition.]
+
+This is satisfied by straight lines: the expression. Hence straight lines are geodesics, as expected.
+
+PS-2.11: The Riemann tensor has 4 to the 4 = 256 components, but symmetries reduce this:
+- Antisymmetry in ( mu nu ) and ( rho sigma ): factors of 4 2 to the 2 = 36
+- The identity the expression reduces further.
+
+In 4D spacetime, the number of independent components is n to the 2(n to the 2-1) over 12 = 16 times 15 over 12 = 20.
+
+PS-2.13: For a sphere of radius R, the Ricci scalar is:
+
+[Equation — see print edition.]
+
+This is constant on the sphere, confirming constant curvature.
+
+PS-2.15: The 1-form df has components:
+
+[Equation — see print edition.]
+
+In the (x,y) basis, the components are ( partial sub x f, partial sub y f).
+
+PS-2.17:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Also, dx dx = 0 and dy dy = 0 by antisymmetry.
+
+PS-2.19:
+
+[Equation — see print edition.]
+
+(The sign depends on the metric signature; here we get dz up to a factor.)
+
+PS-2.23: The Pauli matrices are:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+PS-2.25: The tangent bundle TS to the 2 has base space S to the 2 (2D) and fibers that are 2D tangent spaces. Hence (TS to the 2) = 2 + 2 = 4.
+
+PS-2.29:
+
+[Equation — see print edition.]
+
+PS-2.31:
+
+[Equation — see print edition.]
+
+PS-2.33: For ds to the 2 = dx to the 2 + dy to the 2, we have g sub mu nu = delta sub mu nu, so:
+
+[Equation — see print edition.]
+
+PS-2.35:
+
+[Equation — see print edition.]
+
+PS-2.39: For flat R to the 3 with metric g sub mu nu = delta sub mu nu, all Christoffel symbols vanish:
+
+[Equation — see print edition.]
+
+This reflects the fact that there is no intrinsic curvature.
+
+PS-2.41: Three Killing vectors on S to the 2:
+1. K sub 1 = partial _ phi (rotation about the z-axis)
+2. K sub 2 = phi partial  theta + theta phi partial  phi (rotation about the x-axis)
+3. K sub 3 = - phi partial  theta + theta phi partial  phi (rotation about the y-axis)
+
+These generate the rotation group SO(3), which acts on S to the 2.
+
+PS-2.43:
+
+[Equation — see print edition.]
+
+PS-2.45: omega = -y dx + x dy over x to the 2 + y to the 2 is the differential of (y/x) (the angle in polar coordinates). Thus:
+
+[Equation — see print edition.]
+
+On R to the 2 0, this form is closed but not exact globally because integrating around the origin gives 2 pi not equal to 0. The cohomology class [ omega ] H to the 1( R to the 2 0 ) is nontrivial.
+
+PS-2.46:
+- H to the 0( R to the 2) = R (constant functions)
+- H to the 1( R to the 2) = 0 (all closed 1-forms are exact)
+- H to the 2( R to the 2) = 0 (no 3-forms on R to the 2)
+
+For S to the 1:
+- H to the 0(S to the 1) = R (constants)
+- H to the 1(S to the 1) = R (generated by the angle 1-form d theta)
+
+PS-2.47:
+
+[Equation — see print edition.]
+
+PS-2.49: On S to the 2 with radius R:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+This is the expected surface area of a sphere.
+
+PS-2.53: For a U(1) bundle, the expression (a regular 1-form). The curvature is:
+
+[Equation — see print edition.]
+
+where F sub mu nu are the electromagnetic field components.

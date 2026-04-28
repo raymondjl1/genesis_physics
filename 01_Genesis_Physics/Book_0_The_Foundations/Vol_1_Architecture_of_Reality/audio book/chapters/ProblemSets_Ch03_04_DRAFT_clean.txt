@@ -1,0 +1,383 @@
+Foundations Vol 1: Architecture of Reality.
+
+Chapter 3: The Zone Manifold.
+
+Problem Set — Chapter 3.
+
+PS-3.1 [C] The zone manifold M sub Z is described as a 6D pseudo-Riemannian space with signature (-,+,+,+,+,+). What does the negative signature in the first component represent physically?
+
+PS-3.2 [W] A zone is described as a "persistent submanifold" of M sub Z. What does "persistent" mean, and how is this different from an arbitrary submanifold?
+
+PS-3.3 [C] The zone hierarchy is Z sub 0 Z sub 1 Z sub 2 (Z sub 2.1 Z sub 2.2), where Z sub 2.2 further stratifies into Z sub 2.2.1, Z sub 2.2.2, Z sub 2.2.3. Draw a Venn diagram representing this hierarchy and label each zone with its description from Chapter 1.
+
+PS-3.4 [W] The boundary partial Z sub 2.2 (the Firmament) is a codimension-1 hypersurface in the 6D zone manifold. What does codimension-1 mean, and what is the dimension of partial Z sub 2.2?
+
+PS-3.5 [C] If the zone manifold is 6D and the Firmament is a codimension-1 hypersurface, what is the intrinsic dimension of the Firmament as a submanifold?
+
+PS-3.6 [W] A fiber bundle structure is described in the zone manifold (Chapter 3.2). Why would a fiber bundle structure be useful for describing zones? What could the fibers represent?
+
+PS-3.7 [C] On the zone manifold M sub Z with metric g sub mu nu (signature (-,+,+,+,+,+)), the determinant g = (g sub mu nu ) is negative. Does this cause any problems for defining a volume element? Explain.
+
+PS-3.8 [W] Christoffel symbols describe how basis vectors change on a curved manifold. How would Christoffel symbols on M sub Z differ from those on flat R to the 6?
+
+PS-3.9 [C] For a 6D pseudo-Riemannian manifold, the number of independent components of the Riemann tensor is given by a formula analogous to the 4D case. Calculate the number of independent components. (Hint: use N = n to the 2(n to the 2-1) over 12 with n=6.)
+
+PS-3.10 [X] Propose a coordinate system for the zone manifold that reflects the hierarchical structure. How would you embed the 4D observable universe (Z sub 2.2 in spacetime coordinates) within the full 6D manifold?
+
+PS-3.11 [C] The Israel junction conditions relate the metric discontinuity across a hypersurface to its stress-energy. Write the general form of a junction condition and interpret the terms.
+
+PS-3.12 [W] At the Firmament boundary, the metric components may be discontinuous. How do we ensure that field equations remain well-defined across such a discontinuity?
+
+PS-3.13 [C] If the zone manifold is pseudo-Riemannian, the metric has both positive and negative eigenvalues. The timelike direction has signature -1. In a coordinate system (t, x, y, z, xi , eta ), which coordinate is timelike?
+
+PS-3.14 [W] Block-diagonal metrics (mentioned in Chapter 3.3) have the form:
+
+[Equation — see print edition.]
+
+What physical advantage does this structure provide for the zone manifold?
+
+PS-3.15 [C] On the zone manifold, the metric components are position-dependent: the expression. In the Atemporal Domain Z sub 2.1, the metric might be different from that in Z sub 2.2. How does this model the different physical regimes of different zones?
+
+PS-3.16 [W] A geodesic on M sub Z follows the equation the expression. What does a geodesic represent physically on the zone manifold?
+
+PS-3.17 [C] Parallel transport of a vector along a curve keeps the vector "parallel" (covariant derivative zero). For a vector crossing from Z sub 2.2 into the Atemporal Domain Z sub 2.1, how would the metric change affect parallel transport?
+
+PS-3.18 [W] The zone manifold is compact or non-compact depending on its boundary topology. Is the zone manifold likely to be compact (like a sphere) or non-compact (like Euclidean space)? Defend your choice.
+
+PS-3.19 [C] The Ricci tensor R sub mu nu contracts the Riemann tensor. For Einstein's equations, the expression. If the zone manifold is empty of matter (T sub mu nu = 0), what is the vacuum equation?
+
+PS-3.20 [X] Dark sectors are described as emerging from the geometry of the zone manifold. Propose a mechanism by which geometric properties (e.g., curvature in extra dimensions) could give rise to the observed dark matter and dark energy.
+
+PS-3.21 [C] The scalar curvature R = g to the mu nu R sub mu nu summarizes the total curvature at a point. On a sphere of radius R sub 0, the scalar curvature is R = 2/R sub 0 to the 2. What is the scalar curvature for a flat R to the 4?
+
+PS-3.22 [W] The Ricci scalar depends on the metric. If we rescale the metric by a constant factor, g sub mu nu = lambda to the 2 g sub mu nu, how does the scalar curvature transform?
+
+PS-3.23 [C] For a metric with block-diagonal structure the expression, compute the determinant g = (g sub mu nu ).
+
+PS-3.24 [W] A singularity in the metric (where g sub mu nu becomes infinite or singular) indicates a breakdown of the classical description. Could the zone manifold have physical singularities at its boundaries?
+
+PS-3.25 [C] If the zone manifold admits a Killing vector (a symmetry), then there is a conserved quantity. For a time-translational symmetry, the conserved quantity is energy. What conserved quantity would correspond to a symmetry of spatial translations along a zone boundary?
+
+PS-3.26 [W] The Firmament is embedded as a hypersurface in the 6D zone manifold. The induced metric on the Firmament is obtained by restricting g sub mu nu to tangent vectors in the Firmament. How does this induced metric relate to the 4D spacetime metric of Z sub 2.2?
+
+PS-3.27 [C] The extrinsic curvature K sub mu nu of a hypersurface measures how the hypersurface is curved in the ambient space. For a flat hyperplane in R to the n, what is K sub mu nu?
+
+PS-3.28 [W] The mean curvature K = g to the mu nu K sub mu nu is the trace of extrinsic curvature. For a spherical bubble, is the mean curvature positive or negative?
+
+PS-3.29 [C] The Gauss-Codazzi equations relate the extrinsic and intrinsic curvatures of a hypersurface embedded in an ambient space. These equations are consistency conditions. Why are they necessary?
+
+PS-3.30 [X] Propose a mathematical structure for the zone manifold's stratification. Can zones overlap? Can zones be disconnected? Use the zone hierarchy to guide your construction.
+
+PS-3.31 [C] The transition function between two coordinate charts on M sub Z is a diffeomorphism. For a zone boundary, two charts (one on each side) may overlap or touch. How should the transition function behave at the boundary?
+
+PS-3.32 [W] Topological defects (like knots or monopoles) can exist on manifolds depending on the manifold's topology. Could the zone manifold support topological defects? What would they represent physically?
+
+PS-3.33 [C] A manifold is called orientable if we can consistently define a "right-handed" coordinate system globally. Is the zone manifold with signature (-,+,+,+,+,+) orientable?
+
+PS-3.34 [W] The area element on a hypersurface is the expression, where h = (h sub ij) is the determinant of the induced metric. Why is the induced metric necessary here?
+
+PS-3.35 [C] For the Firmament (a codimension-1 hypersurface in 6D M sub Z), how many independent components does the induced metric have?
+
+PS-3.36 [W] A conformal structure is defined by metrics that differ by a positive scalar function. The zone manifold might have a natural conformal structure if its metric can be written as g sub mu nu = e to the 2 phi g sub mu nu for some "reference" metric g. Why would conformal structure be interesting?
+
+PS-3.37 [C] The volume of a region U on M sub Z is integral sub U square root of |g| d to the 6x. The factor |g| accounts for metric distortion. For block-diagonal metrics, express |g| in terms of the diagonal blocks.
+
+PS-3.38 [W] A curvature perturbation is a small deviation of the metric from a background. Linearized gravity studies how such perturbations propagate. On the zone manifold, would we expect large or small curvature perturbations in the observable universe Z sub 2.2?
+
+PS-3.39 [C] The Weyl tensor C sub mu nu rho sigma is the traceless part of the Riemann tensor. Unlike the Ricci tensor, which vanishes in vacuum, the Weyl tensor can be nonzero even in matter-free regions. What does this represent physically?
+
+PS-3.40 [X] Construct a simple model: a 6D zone manifold as a product space M sub Z = Z sub compact times Z sub non-compact, where the compact part represents internal structure and the non-compact part represents spacetime. How would fields behave differently in each part?
+
+PS-3.41 [C] For a spherically symmetric metric on a 4D subspace of M sub Z, the line element is:
+
+[Equation — see print edition.]
+
+How many metric functions must be determined?
+
+PS-3.42 [W] Junction conditions (Israel-Darmois) require matching the metric and its first derivatives across a thin-shell hypersurface. Why does matching the metric alone not suffice?
+
+PS-3.43 [C] For a thin shell at radius r = R with mass M, the jump in extrinsic curvature is related to the shell's surface tension. Write the junction condition in the form [K sub mu nu ] = (function of stress-energy).
+
+PS-3.44 [W] The Einstein tensor G sub mu nu = R sub mu nu - 1 over 2g sub mu nu R is the left-hand side of Einstein's equations. Why is the Einstein tensor special? (Hint: its divergence vanishes.)
+
+PS-3.45 [C] For a Schwarzschild metric (spherically symmetric vacuum solution):
+
+[Equation — see print edition.]
+
+identify the event horizon radius (where g sub tt = 0).
+
+PS-3.46 [W] Could the zone manifold M sub Z have an event horizon? If so, what would it mean for information to cross the Firmament?
+
+PS-3.47 [C] A homogeneous space is one that "looks the same" at every point (e.g., R to the n or the sphere S to the n). Is the zone manifold homogeneous? Why or why not?
+
+PS-3.48 [W] The Weyl tensor has the same dimensions as the Riemann tensor but vanishes in 2D and 3D. In what dimension does the Weyl tensor first become nontrivial? What is the relevance to 6D?
+
+PS-3.49 [C] For a 6D manifold with N independent Riemann components, how many independent Weyl components are there? (Hint: use N sub Weyl = N sub Riemann - N sub Ricci and the properties of contractions.)
+
+PS-3.50 [X] Propose how the zone manifold might encode the four phases of cosmic history (Creation, Edenic, Fall, Redemption). Could different phases correspond to different metric configurations on the same underlying manifold?
+
+PS-3.51 [C] A Killing vector satisfies L sub K g sub mu nu = 0. For a zone manifold with translational symmetry along a direction perpendicular to the Firmament, what form does the Killing vector take?
+
+PS-3.52 [W] Orbifolds are quotient spaces M / G where G is a group acting on M. Could the zone hierarchy be modeled as an orbifold structure?
+
+PS-3.53 [C] The ADM decomposition splits spacetime as a foliation of spacelike hypersurfaces. On the zone manifold, could we foliate M sub Z by spacelike zones?
+
+PS-3.54 [W] Heterotic string theory uses a 10D spacetime, not 6D. Why might Genesis Physics choose 6D over 10D or 4D? (Hint: balance between richness and tractability.)
+
+PS-3.55 [X] Design a thought experiment: if you could navigate the zone manifold, starting in Z sub 2.2 and trying to reach Z sub 0, what would you expect to observe at each zone boundary? What would be the ultimate destination?
+
+Selected Solutions — Chapter 3.
+
+PS-3.1: The negative signature in the first component represents the timelike direction. In signature (-,+,+,+,+,+), the first coordinate (usually t) is timelike, and the remaining five are spacelike. Timelike intervals have ds to the 2 < 0; spacelike intervals have ds to the 2 > 0.
+
+PS-3.3: The hierarchy forms nested regions:
+- Z sub 0 (outermost, transcendent source)
+- Z sub 1 (Heaven Prime, causality)
+- Z sub 2 (Earth Prime, material cosmos)
+  - Z sub 2.1 (Atemporal Domain, branching off)
+  - Z sub 2.2 (Firmament Domain, temporal)
+    - Z sub 2.2.1 (Waters Below, dark matter)
+    - Z sub 2.2.2 (Condensed Matter, baryons)
+    - Z sub 2.2.3 (Waters Above, dark energy)
+
+PS-3.5: If the zone manifold is 6D and the Firmament is codimension-1, then the Firmament is 6 - 1 = 5-dimensional.
+
+PS-3.9: For n = 6:
+
+[Equation — see print edition.]
+
+PS-3.13: In coordinates (t, x, y, z, xi , eta ) with signature (-,+,+,+,+,+), the coordinate t is timelike (associated with the negative signature).
+
+PS-3.19: For vacuum (T sub mu nu = 0) with cosmological constant:
+
+[Equation — see print edition.]
+
+Equivalently:
+
+[Equation — see print edition.]
+
+PS-3.21: For flat R to the 4, the metric is g sub mu nu = eta sub mu nu (the Minkowski metric), which is constant. The Riemann tensor vanishes everywhere, so the Ricci tensor and scalar curvature both vanish:
+
+[Equation — see print edition.]
+
+PS-3.22: Under the rescaling g sub mu nu = lambda to the 2 g sub mu nu:
+
+[Equation — see print edition.]
+
+The scalar curvature scales inversely with the square of the metric rescaling.
+
+PS-3.23: For a block-diagonal metric the expression:
+
+[Equation — see print edition.]
+
+PS-3.27: For a flat hyperplane in R to the n, the hyperplane is not curved within the ambient space. The extrinsic curvature is:
+
+[Equation — see print edition.]
+
+PS-3.33: Yes, the zone manifold is orientable if it admits a consistent global choice of orientation. A pseudo-Riemannian manifold with signature (-,+,+,+,+,+) is orientable (like Minkowski spacetime).
+
+PS-3.35: An induced metric on a codimension-1 hypersurface is a 5×5 matrix (5D submanifold), which has 5 times 6 over 2 = 15 independent components (symmetric matrix).
+
+PS-3.37: For block-diagonal metrics:
+
+[Equation — see print edition.]
+
+where g sub A, g sub B, g sub C are the determinants of the diagonal blocks.
+
+PS-3.41: A spherically symmetric metric in 4D has three metric functions: Phi (r), Lambda (r), and the spatial metric (which depends on the angular coordinates through the factor r to the 2). So typically three functions must be determined.
+
+PS-3.45: The event horizon radius is where g sub tt = 0:
+
+[Equation — see print edition.]
+
+This is the Schwarzschild radius.
+
+PS-3.49: In 6D, the total number of independent Riemann components is N = 105. The Ricci tensor has 6 times 7 over 2 = 21 independent components. The Weyl tensor is the trace-free part:
+
+[Equation — see print edition.]
+
+PS-3.51: For a translational symmetry perpendicular to the Firmament (say, in a direction xi normal to the boundary), the Killing vector is:
+
+[Equation — see print edition.]
+
+This generates translations along the normal direction while preserving the metric.
+
+Chapter 4: The 6D Embedding Space.
+
+Problem Set — Chapter 4.
+
+PS-4.1 [C] The 6D embedding space has metric signature (-,+,+,+,+,+). The 4D FRW spacetime has signature (-,+,+,+). How do we recover the 4D metric from the 6D metric?
+
+PS-4.2 [W] Why is it necessary to embed the 4D observable universe in a 6D space rather than keeping everything in 4D? What physical principle motivates higher dimensions?
+
+PS-4.3 [C] The warp factors A( xi , eta ) and B( xi , eta ) control how the metric components vary with extra-dimensional coordinates xi and eta. Write the general form of the metric in terms of A and B.
+
+PS-4.4 [W] The separability ansatz assumes the expression. What assumption is implicit in this form? How might a non-separable warp factor complicate the physics?
+
+PS-4.5 [C] For the Waters Above, the expression. Compute dA_ xi over d xi and explain what this derivative represents.
+
+PS-4.6 [W] The equation of state parameter w for a fluid is defined by p = w rho c to the 2. If w = -1, what type of matter or energy does this represent?
+
+PS-4.7 [C] For the Waters Above with equation of state w = -1, verify that the warp factor the expression is consistent with a dark energy solution.
+
+PS-4.8 [W] The Waters Below warp factor is the expression. This is a Gaussian confinement. What physical property does Gaussian confinement model?
+
+PS-4.9 [C] For the Waters Below, compute dB_ eta over d eta and evaluate it at eta = 0 and eta = eta sub B.
+
+PS-4.10 [X] The question "Why 6D and not 4, 5, 7, or 10D?" is answered via dimensional counting. Propose the counting argument: what constraints (from physics, symmetry, or consistency) might single out 6D?
+
+PS-4.11 [C] The speed of light is derived from membrane properties: c to the 2 = sigma / mu, where sigma = 6.0 times 10 to the 98 kg/(m·s²) and mu = 6.7 times 10 to the 81 kg/m³. Calculate c again and verify the dimensions.
+
+PS-4.12 [W] The membrane is described as a 3-brane embedded in 6D space. What does "3-brane" mean, and how is it different from a 2-brane or 4-brane?
+
+PS-4.13 [C] The Nambu-Goto action for a p-brane is the expression, where T is the brane tension and h sub alpha beta is the induced metric. For the Firmament (a 3-brane), write the action.
+
+PS-4.14 [W] The Firmament is a 3-dimensional membrane in 4D spacetime, embedded in 6D. How many extra dimensions are "wrapped up" or "compactified" around the Firmament?
+
+PS-4.15 [C] If the extra-dimensional coordinates xi and eta have ranges xi [0, L sub A] and eta [- eta sub B, eta sub B], are these dimensions compactified? What would it mean for them to be?
+
+PS-4.16 [W] The 4D FRW limit is recovered by taking a reduction or compactification of the 6D space. Describe qualitatively how this reduction works.
+
+PS-4.17 [C] In FRW coordinates on the 4D subspace, the metric is:
+
+[Equation — see print edition.]
+
+where a(t) is the scale factor and the expression. How does this connect to the 6D embedding?
+
+PS-4.18 [X] Randall-Sundrum and other extra-dimensional models place matter and forces on 3-branes embedded in higher dimensions. How does Genesis Physics' structure compare to these scenarios?
+
+PS-4.19 [C] The metric in the embedding space can be written in block form:
+
+[Equation — see print edition.]
+
+(schematic). How many dimensions are represented in this metric?
+
+PS-4.20 [W] Kaluza-Klein theory unifies gravity and electromagnetism by introducing a fifth dimension. Genesis Physics uses six dimensions. Could the extra dimensions in Genesis Physics have a similar unifying role?
+
+PS-4.21 [C] The covariant derivative in 6D space involves Christoffel symbols the expression in 6D. How many components does a rank-3 tensor the expression have in 6D?
+
+PS-4.22 [W] A higher-dimensional theory must specify how matter and fields are distributed in the extra dimensions. Are the Waters Above and Waters Below localized to specific values of xi and eta, or spread throughout?
+
+PS-4.23 [C] If the Waters Above extends from xi = 0 to xi = L sub A, and the Waters Below extends from eta = - eta sub B to eta = eta sub B, are these regions overlapping or nested?
+
+PS-4.24 [W] The fine-structure constant is related to the logarithmic ratio the expression. Why is a logarithm of a ratio natural in this context?
+
+PS-4.25 [C] Using xi sub A = 3 times 10 to the 26 m and eta sub B = 1.3 times 10 to the -15 m, compute xi sub A / eta sub B and then ( xi sub A / eta sub B).
+
+PS-4.26 [W] In a simple 5D Kaluza-Klein theory, the fifth dimension is compactified (looped around). Is the same true for the extra dimensions in Genesis Physics?
+
+PS-4.27 [C] The metric determinant in the embedding space is g = (g sub mu nu ) (6×6 determinant). If the metric is block-diagonal with blocks of sizes 4×4 (spacetime), 1×1 (xi), and 1×1 (eta), express g in terms of the block determinants.
+
+PS-4.28 [W] What is the physical significance of the "reduction" from 6D to 4D? Does it mean the extra dimensions are truly unobservable, or just that they are not directly probed in current experiments?
+
+PS-4.29 [C] In 6D, the FRW universe (4D part) might be described with an additional metric term for the extra dimensions. Write a schematic metric combining FRW + extra dimensions.
+
+PS-4.30 [X] Propose how the sustaining field kappa might propagate in the 6D embedding space. Is it confined to 4D, or does it extend into the extra dimensions?
+
+PS-4.31 [C] The scale factor a(t) in FRW metrics measures the expansion of the universe. How would the 4D scale factor relate to the warp factors A( xi , eta ) and B( xi , eta )?
+
+PS-4.32 [W] In standard cosmology, the Hubble parameter H = a/a describes the expansion rate. Could an analogous parameter be defined for the extra dimensions in Genesis Physics?
+
+PS-4.33 [C] The metric components must be continuous and (except at boundaries) smooth for the physics to be well-defined. Are the warp factors the expression and the expression continuous everywhere?
+
+PS-4.34 [W] The visible universe (Z sub 2.2.2, baryonic matter) is a 4D subspace of the 6D embedding. What role does the extra-dimensional structure play in confining ordinary matter to 4D?
+
+PS-4.35 [C] A lightcone at a point on the 4D subspace defines which distant events are causally connected. How does the embedding into 6D alter the lightcone structure?
+
+PS-4.36 [W] The speed of light c is derived from membrane properties in Genesis Physics, not assumed. How does this derivation avoid circularity (i.e., assuming c to define lightcones)?
+
+PS-4.37 [C] For the Firmament as a 3-brane, its worldvolume is 4D (three spatial + one time). The embedding space is 6D. How many normal directions are perpendicular to the Firmament?
+
+PS-4.38 [W] Lorentz invariance is a cornerstone of special and general relativity. Is Lorentz invariance preserved on the 3-brane (Firmament) if the embedding space is 6D?
+
+PS-4.39 [C] The metric of the 4D subspace can be expressed in terms of the 6D metric via the induced metric h sub mu nu = g sub mu nu - n mu n nu, where n mu is the normal to the subspace. For the Firmament, how many normal directions contribute to n mu n_ nu?
+
+PS-4.40 [X] Design a thought experiment: if you could send a signal perpendicular to the Firmament (into the extra dimensions), what would you expect to observe? Would the signal propagate to infinity or get trapped?
+
+PS-4.41 [C] The tensor transformation law states that a rank-(p,q) tensor has n to the p times n to the q components in n-dimensional space. In 6D, how many components does a rank-(2,1) tensor have?
+
+PS-4.42 [W] Could there be additional universe branches embedded in the 6D space parallel to our own? How would the warp factors A and B determine the structure?
+
+PS-4.43 [C] The cosmological constant Lambda in the 4D FRW limit is related to the curvature of the embedding space. Write the relation (schematically) between Lambda and the curvature of the 6D space.
+
+PS-4.44 [W] Extra-dimensional theories can be tested via deviation from Newton's law at very short distances. Why would extra dimensions lead to such deviations?
+
+PS-4.45 [C] If the extra dimensions have sizes xi sub A approximately 10 to the 26 m and eta sub B approximately 10 to the -15 m (vastly different), how would an observer's perspective depend on which direction they probe?
+
+PS-4.46 [W] The fine-structure constant alpha = 1/137 is dimensionless. How can it be expressed as a function of dimensional parameters like xi sub A and eta sub B?
+
+PS-4.47 [C] For a field theory in 6D, the action has the form the expression. How does the volume element square root of -g d to the 6x differ from 4D?
+
+PS-4.48 [W] The compactification of extra dimensions is a way to reconcile higher-dimensional theory with the observed 4D universe. Is the compactification in Genesis Physics static or dynamic?
+
+PS-4.49 [C] For small deviations from the background metric, g sub mu nu = g to the (0) sub mu nu + h sub mu nu (linearized perturbations), the Einstein equations become linear in h. Write the linearized form.
+
+PS-4.50 [X] Propose a scenario where the 6D embedding space plays a dynamical role in the evolution of the universe. Can the shape or size of the extra dimensions change over cosmic time?
+
+PS-4.51 [C] A brane-localized field is one that exists primarily or exclusively on the brane (Firmament) and has exponentially suppressed values far from it. Write a schematic profile for such a field as a function of the normal coordinate.
+
+PS-4.52 [W] In braneworld scenarios, gravity can "leak" into the bulk (extra dimensions). Would we observe this as a modification of Newton's law on the Firmament?
+
+PS-4.53 [C] The geodesic equation the expression in 6D has how many independent component equations?
+
+PS-4.54 [W] Could the sustaining field kappa be identified with a bulk field propagating in the 6D embedding space? How would its dynamics differ from standard matter fields?
+
+PS-4.55 [X] Design a complete conceptual model: a 6D embedding space with warp factors, the Firmament as a 3-brane, the Waters Above and Below as extended regions, and the 4D observable universe as a subspace. Sketch the major features and explain how all zones fit together.
+
+Selected Solutions — Chapter 4.
+
+PS-4.1: The 4D spacetime metric is recovered by restricting the 6D metric to the 4D subspace (setting the extra-dimensional coordinates to specific values or integrating them out). Schematically, if the 6D metric is G sub mu nu (with mu , nu = 0, , 5) and the 4D subspace is coordinates (t, r, theta , phi ), then the 4D metric is g sub mu nu = G sub mu nu | sub 4D subspace (with mu , nu = 0, 1, 2, 3).
+
+PS-4.3: The general form of the 6D metric with warp factors is:
+
+[Equation — see print edition.]
+
+(Schematic; the exact form depends on the coordinate system.)
+
+PS-4.5:
+
+[Equation — see print edition.]
+
+This derivative is negative, indicating that the warp factor decreases (becomes less exponential) as xi increases. This controls the strength of dark energy's effect at different scales.
+
+PS-4.6: If w = -1, we have p = - rho c to the 2. This is the equation of state of a cosmological constant or vacuum energy. The pressure is negative (repulsive), leading to cosmic acceleration.
+
+PS-4.9:
+
+[Equation — see print edition.]
+
+At eta = 0: dB_ eta over d eta = 0 (extremum, consistent with a Gaussian profile centered at eta =0).
+
+At eta = eta sub B: dB_ eta over d eta = -1 over eta sub B (boundary slope).
+
+PS-4.11: As computed in Chapter 1 (PS-1.16):
+
+[Equation — see print edition.]
+
+Dimensions: [ sigma ] = kg/(m·s to the 2 ), [ mu ] = kg/m to the 3. Thus [ sigma / mu ] = ( m/s) to the 2, and square root of sigma / mu has dimensions of velocity. ✓
+
+PS-4.25:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+PS-4.27: For a block-diagonal metric with blocks G sub 4D (4×4), g sub xi xi (1×1), and g sub eta eta (1×1):
+
+[Equation — see print edition.]
+
+PS-4.29: A schematic metric combining FRW + extra dimensions:
+
+[Equation — see print edition.]
+
+(The factors e to the 2A and e to the 2B warp the extra-dimensional metric.)
+
+PS-4.37: A 3-brane in 6D space has 6 - 3 = 3 codimension. Thus there are 3 normal directions perpendicular to the Firmament.
+
+PS-4.39: For a 4D subspace (the Firmament) embedded in 6D, there are 2 normal directions. Thus n mu n nu is a 2×2 matrix (in normal space), contributing 2 to the induced metric calculation.
+
+PS-4.41: A rank-(2,1) tensor has 6 to the 2 times 6 to the 1 = 36 times 6 = 216 components.
+
+PS-4.45: For vastly different extra-dimensional sizes (xi sub A much greater than eta sub B), probing along the xi direction reveals a cosmological-scale structure, while probing along eta reveals nuclear-scale physics. Observers would perceive very different physics depending on direction.
+
+PS-4.53: The geodesic equation in 6D has 6 independent component equations (one for each value of mu = 0, 1, , 5).

@@ -1,0 +1,174 @@
+{
+  "volume": {
+    "num": 1,
+    "key": "Vol1",
+    "folder": "Vol_1_Architecture_of_Reality",
+    "title": "Genesis Physics: The Foundations, Volume 1 — Architecture of Reality",
+    "author": "Jeff Raymond",
+    "back_matter_dir": "Manuscript",
+    "back_matter_patterns": [
+      "AppA_",
+      "AppB_",
+      "AppC_",
+      "Bibliography_",
+      "ProblemSets_Ch01",
+      "ProblemSets_Ch03",
+      "ProblemSets_Ch05",
+      "ProblemSets_Ch07"
+    ]
+  },
+  "chapters": [
+    {
+      "key": "Ch01",
+      "title": "Chapter 1: Axioms and Definitions",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_01_Axioms_and_Definitions\\Ch01_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch01_clean.txt",
+      "word_count": 11451,
+      "char_count": 74347
+    },
+    {
+      "key": "Ch02",
+      "title": "Chapter 2: Mathematical Preliminaries",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_02_Mathematical_Preliminaries\\Ch02_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch02_clean.txt",
+      "word_count": 12527,
+      "char_count": 75257
+    },
+    {
+      "key": "Ch03",
+      "title": "Chapter 3: The Zone Manifold",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_03_The_Zone_Manifold\\Ch03_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch03_clean.txt",
+      "word_count": 8238,
+      "char_count": 50809
+    },
+    {
+      "key": "Ch04",
+      "title": "Chapter 4: The 6D Embedding Space",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_04_The_6D_Embedding_Space\\Ch04_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch04_clean.txt",
+      "word_count": 15747,
+      "char_count": 95172
+    },
+    {
+      "key": "Ch05",
+      "title": "Chapter 5: The Firmament Manifold",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_05_The_Firmament_Manifold\\Ch05_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch05_clean.txt",
+      "word_count": 9103,
+      "char_count": 54271
+    },
+    {
+      "key": "Ch06",
+      "title": "Chapter 6: Waters Field Equations",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_06_Waters_Field_Equations\\Ch06_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch06_clean.txt",
+      "word_count": 8235,
+      "char_count": 50221
+    },
+    {
+      "key": "Ch07",
+      "title": "Chapter 7: Symmetries and Conservation Laws",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_07_Symmetries_and_Conservation_Laws\\Ch07_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch07_clean.txt",
+      "word_count": 6344,
+      "char_count": 40703
+    },
+    {
+      "key": "Ch08",
+      "title": "Chapter 8: The Five Governing Principles as Constraints",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_08_Five_Governing_Principles\\Ch08_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch08_clean.txt",
+      "word_count": 7913,
+      "char_count": 51813
+    },
+    {
+      "key": "Ch09",
+      "title": "Chapter 9: Pattern Operators and the Seven Types",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_09_Pattern_Operators_and_Seven_Types\\Ch09_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch09_clean.txt",
+      "word_count": 10404,
+      "char_count": 64921
+    },
+    {
+      "key": "Ch10",
+      "title": "Chapter 10: Quantization from Boundary Conditions",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_10_Quantization_from_Boundary_Conditions\\Ch10_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch10_clean.txt",
+      "word_count": 8932,
+      "char_count": 56941
+    },
+    {
+      "key": "Ch11",
+      "title": "Chapter 11: Thermodynamics from Zone Separation",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Ch_11_Thermodynamics_from_Zone_Separation\\Ch11_Thermodynamics_from_Zone_Separation.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Ch11_clean.txt",
+      "word_count": 10171,
+      "char_count": 62379
+    },
+    {
+      "key": "AppA_Mathematical_Prerequisite",
+      "title": "Appendix A: Mathematical Prerequisites Reference",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\AppA_Mathematical_Prerequisites_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\AppA_Mathematical_Prerequisite_clean.txt",
+      "word_count": 5398,
+      "char_count": 32480
+    },
+    {
+      "key": "AppB_Notation_Reference_DRAFT",
+      "title": "Appendix B: Complete Notation Reference",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\AppB_Notation_Reference_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\AppB_Notation_Reference_DRAFT_clean.txt",
+      "word_count": 9321,
+      "char_count": 63389
+    },
+    {
+      "key": "AppC_Hebrew_Analysis_DRAFT",
+      "title": "Appendix C: Hebrew Word Analysis",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\AppC_Hebrew_Analysis_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\AppC_Hebrew_Analysis_DRAFT_clean.txt",
+      "word_count": 6452,
+      "char_count": 42856
+    },
+    {
+      "key": "Bibliography_DRAFT",
+      "title": "Bibliography: Foundations Vol 1 — Architecture of Reality",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\Bibliography_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\Bibliography_DRAFT_clean.txt",
+      "word_count": 4909,
+      "char_count": 35044
+    },
+    {
+      "key": "ProblemSets_Ch01_02_DRAFT",
+      "title": "Problem Sets: Chapters 1–2",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\ProblemSets_Ch01_02_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\ProblemSets_Ch01_02_DRAFT_clean.txt",
+      "word_count": 5566,
+      "char_count": 30561
+    },
+    {
+      "key": "ProblemSets_Ch03_04_DRAFT",
+      "title": "Problem Sets: Chapters 3–4",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\ProblemSets_Ch03_04_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\ProblemSets_Ch03_04_DRAFT_clean.txt",
+      "word_count": 4680,
+      "char_count": 27348
+    },
+    {
+      "key": "ProblemSets_Ch05_06_DRAFT",
+      "title": "Problem Sets: Chapters 5–6",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\ProblemSets_Ch05_06_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\ProblemSets_Ch05_06_DRAFT_clean.txt",
+      "word_count": 4727,
+      "char_count": 27985
+    },
+    {
+      "key": "ProblemSets_Ch07_11_DRAFT",
+      "title": "Problem Sets for Chapters 7–11",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\Manuscript\\ProblemSets_Ch07_11_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_1_Architecture_of_Reality\\audio book\\chapters\\ProblemSets_Ch07_11_DRAFT_clean.txt",
+      "word_count": 10829,
+      "char_count": 65573
+    }
+  ]
+}

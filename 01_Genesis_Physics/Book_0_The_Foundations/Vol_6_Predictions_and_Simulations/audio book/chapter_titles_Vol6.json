@@ -1,0 +1,204 @@
+{
+  "volume": {
+    "num": 6,
+    "key": "Vol6",
+    "folder": "Vol_6_Predictions_and_Simulations",
+    "title": "Genesis Physics: The Foundations, Volume 6 — Predictions and Simulations",
+    "author": "Jeff Raymond",
+    "back_matter_dir": "Back_Matter",
+    "back_matter_patterns": [
+      "APPENDIX_A",
+      "APPENDIX_B",
+      "APPENDIX_D",
+      "APPENDIX_E",
+      "APPENDIX_F",
+      "Bibliography"
+    ]
+  },
+  "chapters": [
+    {
+      "key": "Ch01",
+      "title": "Chapter 1: Predictions That Match Observation",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_01_Predictions_That_Match_Observation\\Ch01_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch01_clean.txt",
+      "word_count": 9206,
+      "char_count": 60541
+    },
+    {
+      "key": "Ch02",
+      "title": "Chapter 2: Predictions That Differ from Standard Physics",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_02_Predictions_That_Differ\\Ch02_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch02_clean.txt",
+      "word_count": 8964,
+      "char_count": 58055
+    },
+    {
+      "key": "Ch03",
+      "title": "Chapter 3: Novel Predictions",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_03_Novel_Predictions\\Ch03_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch03_clean.txt",
+      "word_count": 10857,
+      "char_count": 73752
+    },
+    {
+      "key": "Ch04",
+      "title": "Chapter 4: Falsification Criteria",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_04_Falsification_Criteria\\Ch04_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch04_clean.txt",
+      "word_count": 7822,
+      "char_count": 51042
+    },
+    {
+      "key": "Ch05",
+      "title": "Chapter 5: Simulation Methodology",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_05_Simulation_Methodology\\Ch05_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch05_clean.txt",
+      "word_count": 6231,
+      "char_count": 42921
+    },
+    {
+      "key": "Ch06",
+      "title": "Chapter 6: N-Body Simulations with Zone Corrections",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_06_N_Body_Simulations\\Ch06_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch06_clean.txt",
+      "word_count": 5809,
+      "char_count": 38665
+    },
+    {
+      "key": "Ch07",
+      "title": "Chapter 7: Membrane Vibration Spectra",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_07_Membrane_Vibration_Spectra\\Ch07_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch07_clean.txt",
+      "word_count": 7022,
+      "char_count": 42144
+    },
+    {
+      "key": "Ch08",
+      "title": "Chapter 8: Reproducibility Package",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_08_Reproducibility_Package\\Ch08_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch08_clean.txt",
+      "word_count": 5235,
+      "char_count": 36177
+    },
+    {
+      "key": "Ch09",
+      "title": "Chapter 9: FTL Travel — Mechanisms, Feasibility, and Engineering Pathways",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_09_FTL_Travel\\Ch09_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch09_clean.txt",
+      "word_count": 25916,
+      "char_count": 172710
+    },
+    {
+      "key": "Ch10",
+      "title": "Chapter 10 — Energy Harvesting from Zone Architecture",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_10_Energy_Harvesting\\Ch10_FINAL.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch10_clean.txt",
+      "word_count": 13040,
+      "char_count": 83893
+    },
+    {
+      "key": "Ch11",
+      "title": "Chapter 11: FTL Communication and Zone-Based Signal Transmission",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_11_FTL_Communication\\Ch11_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch11_clean.txt",
+      "word_count": 16403,
+      "char_count": 104355
+    },
+    {
+      "key": "Ch12",
+      "title": "Chapter 12: Advanced Sensors and Detection Systems",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_12_Advanced_Sensors\\Ch12_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch12_clean.txt",
+      "word_count": 17557,
+      "char_count": 116981
+    },
+    {
+      "key": "Ch13",
+      "title": "Chapter 13: Consciousness and the Zone Interface",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_13_Consciousness_and_the_Zone_Interface\\Ch13_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch13_clean.txt",
+      "word_count": 15131,
+      "char_count": 100904
+    },
+    {
+      "key": "Ch14",
+      "title": "Chapter 14: Open Problems",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_14_Open_Problems\\Ch14_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch14_clean.txt",
+      "word_count": 17085,
+      "char_count": 116034
+    },
+    {
+      "key": "Ch15",
+      "title": "Chapter 15: Connections to Other Programs",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_15_Connections_to_Other_Programs\\Ch15_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch15_clean.txt",
+      "word_count": 16426,
+      "char_count": 115184
+    },
+    {
+      "key": "Ch16",
+      "title": "Chapter 16 — The Technology Roadmap",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_16_The_Technology_Roadmap\\Ch16_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch16_clean.txt",
+      "word_count": 12968,
+      "char_count": 89840
+    },
+    {
+      "key": "Ch17",
+      "title": "Chapter 17 — The Research Program",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Ch_17_The_Research_Program\\Ch17_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Ch17_clean.txt",
+      "word_count": 8500,
+      "char_count": 57522
+    },
+    {
+      "key": "APPENDIX_A_Complete_Prediction",
+      "title": "Appendix A: Complete Prediction Index",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\APPENDIX_A_Complete_Prediction_Index.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\APPENDIX_A_Complete_Prediction_clean.txt",
+      "word_count": 16764,
+      "char_count": 109271
+    },
+    {
+      "key": "APPENDIX_B_Simulation_Code_Rep",
+      "title": "Appendix B: Simulation Code Repository",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\APPENDIX_B_Simulation_Code_Repository.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\APPENDIX_B_Simulation_Code_Rep_clean.txt",
+      "word_count": 5905,
+      "char_count": 40381
+    },
+    {
+      "key": "APPENDIX_D_Selected_Solutions",
+      "title": "Appendix D — Selected Solutions",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\APPENDIX_D_Selected_Solutions.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\APPENDIX_D_Selected_Solutions_clean.txt",
+      "word_count": 20966,
+      "char_count": 131589
+    },
+    {
+      "key": "APPENDIX_E_Notation_Reference",
+      "title": "Appendix E: Notation Reference — Complete Series",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\APPENDIX_E_Notation_Reference.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\APPENDIX_E_Notation_Reference_clean.txt",
+      "word_count": 8729,
+      "char_count": 59336
+    },
+    {
+      "key": "APPENDIX_F_Technology_Applicat",
+      "title": "Appendix F: Technology Application Summary",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\APPENDIX_F_Technology_Application_Summary.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\APPENDIX_F_Technology_Applicat_clean.txt",
+      "word_count": 9806,
+      "char_count": 69829
+    },
+    {
+      "key": "Bibliography",
+      "title": "Comprehensive Bibliography — The Foundations Series",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\Back_Matter\\Bibliography.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_6_Predictions_and_Simulations\\audio book\\chapters\\Bibliography_clean.txt",
+      "word_count": 12545,
+      "char_count": 91138
+    }
+  ]
+}

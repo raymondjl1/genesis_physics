@@ -1,0 +1,240 @@
+Foundations Vol 4, The Quantum World — Back Matter
+
+"The experimental particle physicist and the theoretical particle physicist have opposite relationships to decimal places. The experimentalist loves every one of them. The theorist who cannot reproduce them ought to admit it." — Vol 4, preface to Chapter 10
+
+This appendix tabulates the data Volume 4 is actually accountable to. Experimental values are taken from the Particle Data Group's 2024 Review of Particle Physics (PDG-2024), CODATA 2022 for fundamental constants, and the most recent measurements of QED precision observables. Zone-architecture predictions are derived in Chapters 1 through 14 and in the research files listed in Appendix A and the Bibliography.
+
+No cherry-picking. This is the design principle of this appendix. Every particle in the Standard Model summary of PDG-2024 appears below. Every fractional error is reported, including the ones that embarrass the framework. An honest table with 1000× errors in half the rows is worth ten times more than a selective table of 1% agreements.
+
+B.0 How to Read These Tables.
+
+Status classes.
+
+Every row in every table carries a status class. The class is a compact summary of how the number was produced:
+
+Class: **REFERENCE**. Meaning: This quantity is a fundamental constant of nature with no zone-architecture prediction — we just cite the measured value..
+Class: **CALIBRATION**. Meaning: The zone framework *fits* this quantity; we do not claim to predict it. Predictions of other quantities derive from this fit..
+Class: **RIGOROUS**. Meaning: Derived end-to-end in Vol 4 from the Firmament wave equation with no adjustable parameters. Matching to experiment at this row is a real test..
+Class: **APPROXIMATE**. Meaning: Derived from a model that involves a truncation, a simplifying ansatz, or a phenomenological profile (e.g. assumed Higgs wavefunction shape). Error bars reflect the model uncertainty in addition to experimental error..
+Class: **PHENOMENOLOGICAL**. Meaning: The prediction uses a small number of fit parameters calibrated from other data; the row is a *consistency check*, not a prediction from first principles..
+Class: **OPEN**. Meaning: The framework does not yet yield a reliable prediction. The row reports the magnitude of the current disagreement so the reader knows exactly how much work remains..
+
+Fractional error.
+
+[Equation — see print edition.]
+
+For OPEN rows the column reads as an order-of-magnitude disagreement rather than a precision measurement. Writing "1000×" means the predicted value is off by a factor of roughly 10 to the 3; this is not a 0.1% error, it is a three-order-of-magnitude error and is reported as such.
+
+Units.
+
+All masses in MeV or GeV as appropriate. Energies in the same units. Mixing angles in degrees. Neutrino mass-squared differences in eV to the 2. The CODATA-2022 value of the elementary charge is used implicitly wherever charge is quoted.
+
+B.1 Fundamental Constants Used in Volume 4.
+
+Constant: Planck's reduced constant. Symbol: h-bar. Value: 1.054 571 817 times 10 to the -34 J·s. Source: CODATA 2022. Zone-framework status: Derived (1.10.12) — geometric.
+Constant: Speed of light (vacuum). Symbol: c. Value: 2.997 924 58 times 10 to the 8 m/s (exact). Source: CODATA 2022. Zone-framework status: Derived c= square root of sigma / mu (1.5.8).
+Constant: Elementary charge. Symbol: e. Value: 1.602 176 634 times 10 to the -19 C (exact). Source: CODATA 2022. Zone-framework status: REFERENCE.
+Constant: Fine-structure constant. Symbol: alpha. Value: 7.297 352 5643(11) times 10 to the -3. Source: CODATA 2022. Zone-framework status: REFERENCE.
+Constant: Fine-structure constant. Symbol: alpha to the -1. Value: 137.035 999 084(21). Source: CODATA 2022. Zone-framework status: RIGOROUS (limit of running — Ch 8).
+Constant: Strong coupling at M sub Z. Symbol: alpha sub s(M sub Z). Value: 0.118 0(9). Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 8, Ch 12.
+Constant: Fermi constant. Symbol: G sub F. Value: 1.166 378 7(6) times 10 to the -5 GeVto the -2. Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 11.
+Constant: Weak mixing angle. Symbol: to the 2 theta sub W(M sub Z). Value: 0.231 22(4). Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 11.
+Constant: Higgs VEV. Symbol: v. Value: 246.219 65(6) GeV. Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 11.
+Constant: QCD scale. Symbol: the expression. Value: 210 plus or minus 14 MeV. Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 12.
+Constant: Newton's constant. Symbol: G. Value: 6.674 30(15) times 10 to the -11 m³/kg/s². Source: CODATA 2022. Zone-framework status: Derived (3.2.8).
+Constant: Boltzmann constant. Symbol: k sub B. Value: 1.380 649 times 10 to the -23 J/K (exact). Source: CODATA 2022. Zone-framework status: Derived (Vol 3 Ch 11).
+
+Reading note.
+
+The fine-structure constant alpha is listed as REFERENCE in the table row and as RIGOROUS in the comment column. This is not a contradiction. The value at zero momentum is a fit input; what is RIGOROUS in Vol 4 Ch 8 is the running of alpha to higher energies from that input. In the framework's current state, alpha itself plays the role that h-bar played in Vol 1 Ch 10: a geometric quantity whose numerical value is set by the extra-dimensional scales. Chapter 8 §8.6 derives the one-loop flow; the two-loop correction is GitHub #26 and is not yet in this edition.
+
+B.2 Atomic and Nuclear Scales.
+
+Quantity: Bohr radius. Symbol: a sub 0. Value: 5.291 772 105 times 10 to the -11 m. Source: CODATA 2022.
+Quantity: Rydberg energy. Symbol: R_ infinity hc. Value: 13.605 693 122 994(26) eV. Source: CODATA 2022.
+Quantity: Electron Compton wavelength. Symbol: lambda sub e. Value: 2.426 310 2386 times 10 to the -12 m. Source: CODATA 2022.
+Quantity: Classical electron radius. Symbol: r sub e. Value: 2.817 940 3262 times 10 to the -15 m. Source: CODATA 2022.
+Quantity: Proton charge radius. Symbol: r sub p. Value: 0.840 75(64) fm. Source: CODATA 2022.
+Quantity: Nuclear magneton. Symbol: mu sub N. Value: 5.050 783 7461 times 10 to the -27 J/T. Source: CODATA 2022.
+Quantity: Bohr magneton. Symbol: mu sub B. Value: 9.274 010 0657 times 10 to the -24 J/T. Source: CODATA 2022.
+
+Each of these is reproduced by Vol 4 as a consequence of the Schrödinger equation (Ch 2) applied to a Coulomb potential, with corrections from QED precision calculations (Ch 7). The Rydberg formula is a textbook exercise; it appears in Problem P4.2.3.
+
+B.3 QED Precision Observables.
+
+These are the measurements that made QED the most accurately tested theory in history. Vol 4 Ch 7 and Ch 8 reproduce them to the orders of perturbation theory claimed; the framework inherits the QED perturbative structure and so these rows are, at best, ties with conventional QED.
+
+Observable: Electron g-factor anomaly a sub e. Measured value: 0.001 159 652 181 09(26). Vol 4 status: RIGOROUS (one-loop) + APPROXIMATE (higher loops). Chapter: Ch 7 §7.8.
+Observable: Electron g-factor. Measured value: g sub e = 2(1+a sub e) = 2.002 319 304 362(8). Vol 4 status: Ditto. Chapter: Ch 7.
+Observable: Muon g-factor anomaly a_ mu. Measured value: 0.001 165 920 57(25). Vol 4 status: APPROXIMATE; the 4.2σ Fermilab discrepancy is an open question for both SM and zone framework. Chapter: Ch 7 §7.9.
+Observable: Lamb shift (2S sub 1/2 - 2P sub 1/2, H). Measured value: 1057.845(3) MHz. Vol 4 status: APPROXIMATE (self-energy + vacuum polarization to leading order). Chapter: Ch 7 §7.10.
+Observable: Running coupling alpha (M sub Z) to the -1. Measured value: 127.951(9). Vol 4 status: APPROXIMATE (one-loop RG flow from alpha to the -1(0)=137.036). Chapter: Ch 8.
+Observable: Bell inequality (CHSH). Measured value: S = 2.69–2.83 (various experiments). Vol 4 status: RIGOROUS prediction S=2 square root of 2=2.828 from zone topology. Chapter: Ch 4.
+
+The electron g-2 honest note.
+
+The zone framework reproduces Schwinger's famous one-loop result a sub e to the (1)= alpha /(2 pi ) at the same rigor as standard QED because Ch 7 derives the same Feynman rules. Higher-loop contributions (two-loop, three-loop, four-loop, five-loop — the precision that matches experiment at the twelfth decimal place) are taken over from the published QED literature rather than recomputed independently. Claiming "we derive g-2 to twelve digits" would be dishonest; the truthful statement is "we reproduce the one-loop structure; the higher-loop precision is QED's, and we inherit it because our Feynman rules are those of QED at the scales tested."
+
+B.4 Charged Leptons.
+
+Particle: Electron, the expression. m_ exp (PDG 2024): 0.510 998 950 69(16) MeV. Zone prediction: —. Fractional error: —. Status: **CALIBRATION**.
+Particle: Muon, the expression. m_ exp (PDG 2024): 105.658 375 5(23) MeV. Zone prediction: approximately equal to 105.7 MeV. Fractional error: the expression. Status: APPROXIMATE.
+Particle: Tau, the expression. m_ exp (PDG 2024): 1776.93(9) MeV. Zone prediction: approximately equal to 1775 MeV. Fractional error: the expression. Status: APPROXIMATE.
+
+Mass ratios (the actual predictions).
+
+The zone framework does not compute absolute charged-lepton masses from first principles — the electron mass is set as a calibration point, and the hierarchy parameter alpha _ hier (Vol 3 Eq. 3.7.9) is fit from the lepton sector. What it does predict are the ratios:
+
+Ratio: m_ mu /m sub e. Measured: 206.768 282 4(46). Predicted: approximately equal to 207. Fractional error: the expression.
+Ratio: m_ tau /m sub e. Measured: 3477.15(18). Predicted: approximately equal to 3477. Fractional error: the expression.
+Ratio: m_ tau /m_ mu. Measured: 16.818 0(9). Predicted: approximately equal to 16.8. Fractional error: the expression.
+
+The spin-1/2 open problem (GitHub #1).
+
+The Firmament is a bosonic membrane. Spin-1/2 excitations are supposed to arise from topological vortices in the Waters fields (Vol 1 Eq. 1.9.19; Vol 3 Eq. 3.6.5), but the Goldstone–Wilczek mechanism used in Ch 10 currently works as a mapping — it identifies half-integer winding with half-integer angular momentum — rather than as a first-principles derivation of the full Dirac equation from the bosonic Firmament action. This is the most important open problem in the framework; it is flagged here, discussed at length in Ch 10 §10.7, and it is why every lepton row above is tagged APPROXIMATE rather than RIGOROUS. Until the fermion derivation is completed, the lepton sector cannot be claimed as a prediction.
+
+B.5 Quarks.
+
+Running MS-bar masses at mu =2 GeV for u, d, s; at mu =m sub c for c; at mu =m sub b for b; on-shell/pole-scheme for t. PDG 2024 values.
+
+Quark: Up, u. m_ exp: 2.16 to the +0.07 sub -0.26 MeV. Zone prediction: approximately equal to 2.2 MeV. Fractional error: the expression (but see note). Status: APPROXIMATE.
+Quark: Down, d. m_ exp: 4.67 to the +0.48 sub -0.17 MeV. Zone prediction: approximately equal to 4.7 MeV. Fractional error: the expression. Status: APPROXIMATE.
+Quark: Strange, s. m_ exp: 93 to the +11 sub -5 MeV. Zone prediction: approximately equal to 95 MeV. Fractional error: the expression. Status: APPROXIMATE.
+Quark: Charm, c. m_ exp: 1.273(4) GeV. Zone prediction: approximately equal to 1.28 GeV. Fractional error: the expression. Status: APPROXIMATE.
+Quark: Bottom, b. m_ exp: 4.183(7) GeV. Zone prediction: approximately equal to 4.20 GeV. Fractional error: the expression. Status: APPROXIMATE.
+Quark: Top, t. m_ exp: 172.57(29) GeV. Zone prediction: approximately equal to 172 GeV. Fractional error: the expression. Status: APPROXIMATE.
+
+Warning: the apparent agreement is inflated.
+
+The light-quark rows in this table look suspiciously good. They are not as good as they look. Three effects conspire:
+
+1. Scheme dependence. Light-quark masses are scheme-dependent (MS-bar vs. pole, and sensitive to Lambda _ QCD). Quoting a number to 5% accuracy when the scheme-dependent spread between m sub u and 2 m sub u spans a factor of 2 is pretending to have a better prediction than we do.
+2. Hierarchy parameter reuse. The hierarchy parameter alpha _ hier from the lepton sector is applied to the quark sector with the implicit assumption that the same parameter works across both. This assumption is not derived; it is a fit that happens to succeed.
+3. Overlap-integral truncation. The Higgs wavefunction overlap is evaluated with an assumed Gaussian-like profile. A different profile changes the numbers at the 10–20% level; the chosen profile is the one that matches experiment best.
+
+When all three honesty corrections are applied, the usable statement is: the zone framework predicts the quark mass pattern correctly at the order-of-magnitude level, and the mass ratios within a generation to ~10%. That is a real result; it should not be inflated into "0.4% agreement."
+
+B.6 Gauge Bosons and the Higgs.
+
+Particle: Photon, gamma. m_ exp (PDG 2024): <10 to the -18 eV (upper limit). Zone prediction: 0 (exact). Fractional error: —. Status: RIGOROUS.
+Particle: Gluon, g. m_ exp (PDG 2024): 0 (by construction). Zone prediction: 0 (exact). Fractional error: —. Status: RIGOROUS.
+Particle: the expression. m_ exp (PDG 2024): 80.369 2(133) GeV. Zone prediction: 80.4 GeV. Fractional error: the expression. Status: APPROXIMATE.
+Particle: Z to the 0. m_ exp (PDG 2024): 91.188 0(20) GeV. Zone prediction: 91.2 GeV. Fractional error: the expression. Status: APPROXIMATE.
+Particle: Higgs, h to the 0. m_ exp (PDG 2024): 125.20(11) GeV. Zone prediction: approximately equal to 125.1 GeV. Fractional error: the expression. Status: APPROXIMATE.
+
+Reading note.
+
+The photon and gluon masses are exactly zero for the same reason: they are the Goldstone modes of the unbroken gauge symmetries the expression and SU(3) sub c. This is one of the few places in the table where the zone framework produces a rigorous value. The W and Z masses are APPROXIMATE rather than RIGOROUS because the electroweak VEV v is calibrated from the Fermi constant rather than derived from the Waters-Above parameters xi sub A, kappa sub A at first-principle rigor (GitHub #25). The Higgs mass row inherits the same status.
+
+B.7 Hadrons.
+
+Hadron masses are not predicted at precision level by the zone framework. QCD bound-state masses require non-perturbative calculation (lattice QCD), and the zone framework currently inherits those lattice results rather than reproducing them ab initio.
+
+Hadron: Proton, p. Quark content: uud. m_ exp (MeV): 938.272 088 16(29). Zone status: APPROXIMATE (QCD binding inherited from lattice).
+Hadron: Neutron, n. Quark content: udd. m_ exp (MeV): 939.565 420 52(54). Zone status: APPROXIMATE.
+Hadron: n-p mass difference. Quark content: —. m_ exp (MeV): 1.293 332 36(46). Zone status: APPROXIMATE; EM correction estimated at approximately -0.76 MeV — the electromagnetic calculation is still model-dependent at the ~4% level.
+Hadron: Pion, the expression. Quark content: u d, d u. m_ exp (MeV): 139.570 39(17). Zone status: APPROXIMATE (chiral perturbation inherited).
+Hadron: Pion, pi to the 0. Quark content: (u u - d d)/ square root of 2. m_ exp (MeV): 134.976 8(5). Zone status: APPROXIMATE.
+Hadron: Kaon, the expression. Quark content: u s, s u. m_ exp (MeV): 493.677(13). Zone status: APPROXIMATE.
+Hadron: Kaon, K to the 0, K to the 0. Quark content: d s, s d. m_ exp (MeV): 497.611(13). Zone status: APPROXIMATE.
+Hadron: Eta, eta. Quark content: mixed. m_ exp (MeV): 547.862(17). Zone status: APPROXIMATE.
+Hadron: Rho, rho. Quark content: u u, d d. m_ exp (MeV): 775.26(25). Zone status: APPROXIMATE.
+Hadron: J/ psi. Quark content: c c. m_ exp (MeV): 3096.900(6). Zone status: APPROXIMATE.
+Hadron: Upsilon. Quark content: b b. m_ exp (MeV): 9460.40(10). Zone status: APPROXIMATE.
+Hadron: Lambda. Quark content: uds. m_ exp (MeV): 1115.683(6). Zone status: APPROXIMATE.
+Hadron: the expression. Quark content: uus, dds, uds. m_ exp (MeV): 1189.37, 1197.449, 1192.642. Zone status: APPROXIMATE.
+Hadron: the expression. Quark content: dss, uss. m_ exp (MeV): 1321.71, 1314.86. Zone status: APPROXIMATE.
+Hadron: the expression. Quark content: sss. m_ exp (MeV): 1672.45(29). Zone status: APPROXIMATE.
+
+The 94% rule for proton mass.
+
+Only about 6 MeV of the proton's 938 MeV comes from quark rest masses. The remaining the expression is strong-interaction binding energy — gluon fields, quark kinetic energy, and vacuum condensates. The zone framework shows why this must be so (the confinement scale Lambda _ QCD is set by the membrane tension in Ch 12), but it does not compute the exact number 938.272 from first principles any more than standard QCD does. Both frameworks currently rely on lattice calculation for that digit.
+
+B.8 Neutrinos — the Honest 1000× Regime.
+
+This is the section the reader should pay the closest attention to. Neutrino masses are the single largest unsolved number problem in the zone framework and, frankly, in particle physics generally.
+
+Absolute neutrino masses.
+
+Quantity: sum m_ nu. Experimental bound: < 0.12 eV (cosmology). Zone framework prediction: approximately 10–100 eV (naive overlap integral). Disagreement: **≈ 100×–1000×**.
+Quantity: m_ nu effective (KATRIN). Experimental bound: < 0.8 eV. Zone framework prediction: See above. Disagreement: Same.
+Quantity: m sub beta beta (0 nu beta beta). Experimental bound: < 0.06–0.17 eV. Zone framework prediction: Not predicted. Disagreement: —.
+
+The honest story.
+
+If one naïvely applies the same Yukawa-overlap-integral mechanism that gives the charged leptons to the neutrino sector, one gets absolute neutrino masses in the eV–keV range. The actual upper limit from cosmology is roughly 0.1 eV summed over all three flavors. The current framework is therefore off by two to three orders of magnitude — a factor of ~100 to ~1000 — on the absolute scale.
+
+This is GitHub issue #2's most dramatic manifestation. The published partial solution (06-NEUTRINO_PHYSICS.md) invokes a strong suppression from the neutrinos having near-vanishing overlap with the Higgs profile; the suppression factor needed is of order 10 to the -6, and the mechanism to produce a suppression that large without adjustable parameters is not yet in hand.
+
+Mixing angles and mass-squared differences (predicted).
+
+The framework does better on the structure of the neutrino sector than on absolute masses.
+
+Parameter: Delta m sub 21 to the 2. Measured (PDG 2024): 7.53(18) times 10 to the -5 eV². Zone framework status: APPROXIMATE; order of magnitude matches, factor uncertainty.
+Parameter: Delta m sub 32 to the 2 (normal ordering). Measured (PDG 2024): 2.455(28) times 10 to the -3 eV². Zone framework status: APPROXIMATE.
+Parameter: to the 2 theta sub 12. Measured (PDG 2024): 0.307(13). Zone framework status: APPROXIMATE.
+Parameter: to the 2 theta sub 23. Measured (PDG 2024): 0.546(21). Zone framework status: APPROXIMATE.
+Parameter: to the 2 theta sub 13. Measured (PDG 2024): 0.0220(7). Zone framework status: APPROXIMATE.
+Parameter: delta _ CP (Dirac phase). Measured (PDG 2024): approximately 1.2 pi (weakly constrained). Zone framework status: OPEN.
+Parameter: Mass ordering. Measured (PDG 2024): Normal favored. Zone framework status: OPEN.
+
+The mixing structure emerges from the topology of the Waters fields and is consistent at the pattern level with the observed PMNS matrix. The absolute scale is the open hole.
+
+B.9 CKM and PMNS Mixing Matrices.
+
+CKM (quark mixing).
+
+Magnitudes from PDG-2024 global fit:
+
+[Equation — see print edition.]
+
+The Jarlskog invariant the expression — the single number that quantifies CP violation in the quark sector — is not derived in the zone framework at present. Chapter 13 identifies the topological origin of CP violation in the Waters-field phase but does not compute J from first principles (GitHub #3). The CKM matrix is therefore PHENOMENOLOGICAL in Vol 4.
+
+PMNS (lepton mixing).
+
+Magnitudes (normal ordering):
+
+[Equation — see print edition.]
+
+PMNS entries are less precisely known than CKM. The zone framework predicts the order of magnitude of the large mixing angles (see Ch 13) but the absolute values are fit from data.
+
+B.10 Headline Honesty Table.
+
+This is the single table that should be shown to anyone who asks "how well does the zone-architecture framework work?" It aggregates every row above into a one-page honest report.
+
+Sector: Fundamental. Quantity: c, h-bar, G. Error class: —. Status: Derived geometric. Notes / GitHub: Vol 1, Vol 3.
+Sector: QED. Quantity: alpha to the -1(0). Error class: —. Status: CALIBRATION. Notes / GitHub: Fit input.
+Sector: QED. Quantity: alpha to the -1(M sub Z). Error class: 0.01%. Status: APPROXIMATE (one-loop). Notes / GitHub: Ch 8; two-loop = #26.
+Sector: QED. Quantity: Electron g-2. Error class: 0.00000003%. Status: APPROXIMATE (inherits higher-loop QED). Notes / GitHub: Ch 7.
+Sector: QED. Quantity: Muon g-2. Error class: 4.2σ anomaly in SM. Status: OPEN for both SM and zone. Notes / GitHub: Ch 7.
+Sector: QED. Quantity: Lamb shift. Error class: approximately 10 to the -3. Status: APPROXIMATE. Notes / GitHub: Ch 7.
+Sector: QED. Quantity: CHSH Bell test. Error class: the expression. Status: RIGOROUS (topology). Notes / GitHub: Ch 4.
+Sector: Leptons. Quantity: m sub e. Error class: —. Status: CALIBRATION. Notes / GitHub: —.
+Sector: Leptons. Quantity: m_ mu /m sub e, m_ tau /m sub e. Error class: the expression. Status: APPROXIMATE. Notes / GitHub: Subject to spin-1/2 gap (#1).
+Sector: Quarks. Quantity: m sub c, m sub b, m sub t. Error class: the expression. Status: APPROXIMATE. Notes / GitHub: Heavy-quark regime, but cf. note §B.5.
+Sector: Quarks. Quantity: m sub u, m sub d, m sub s. Error class: Scheme-dependent; nominal the expression. Status: APPROXIMATE. Notes / GitHub: Honest error ~10–20%.
+Sector: Gauge bosons. Quantity: m_ gamma, m sub g. Error class: Exact. Status: RIGOROUS. Notes / GitHub: Unbroken symmetries.
+Sector: Gauge bosons. Quantity: M sub W, M sub Z. Error class: 0.01–0.04%. Status: APPROXIMATE. Notes / GitHub: Higgs mechanism #25.
+Sector: Higgs. Quantity: m sub h. Error class: 0.1%. Status: APPROXIMATE. Notes / GitHub: #25.
+Sector: Hadrons. Quantity: All baryons & mesons. Error class: the expression. Status: APPROXIMATE (lattice inherited). Notes / GitHub: Not first-principles in zone.
+Sector: Neutrinos. Quantity: Absolute masses sum m_ nu. Error class: **~100× to ~1000×**. Status: **OPEN**. Notes / GitHub: **#2 — the 1000× problem**.
+Sector: Neutrinos. Quantity: Mixing angles theta sub ij. Error class: Order of magnitude. Status: APPROXIMATE. Notes / GitHub: #2.
+Sector: Neutrinos. Quantity: CP phase delta _ CP. Error class: —. Status: OPEN. Notes / GitHub: #3.
+Sector: CKM. Quantity: Magnitudes. Error class: —. Status: PHENOMENOLOGICAL. Notes / GitHub: #3.
+Sector: CKM. Quantity: Jarlskog J. Error class: —. Status: OPEN. Notes / GitHub: #3.
+Sector: PMNS. Quantity: Full matrix. Error class: —. Status: PHENOMENOLOGICAL. Notes / GitHub: #2, #3.
+Sector: EW. Quantity: to the 2 theta sub W. Error class: 0.02%. Status: APPROXIMATE. Notes / GitHub: #25.
+Sector: Strong. Quantity: alpha sub s(M sub Z). Error class: 1%. Status: APPROXIMATE. Notes / GitHub: #26.
+Sector: Strong. Quantity: Lambda _ QCD. Error class: the expression. Status: APPROXIMATE. Notes / GitHub: Ch 12.
+Sector: Fermion sector. Quantity: Dirac structure from bosonic membrane. Error class: **Derivation incomplete**. Status: **OPEN**. Notes / GitHub: **#1 — the blocker**.
+
+What this table says out loud.
+
+- Nine rows are at the precision-physics level (0.01% or better). Every one of them inherits perturbative structure from Vol 2 / Ch 7, not new physics.
+- Roughly twenty rows are APPROXIMATE at the 1–10% level — respectable, but not claims of discovery.
+- Three rows are OPEN with errors larger than a factor of 100. The neutrino sector dominates. These are where the next round of work is needed.
+- One row is the gating blocker for the entire framework: the derivation of fermions from the bosonic membrane (GitHub #1). Until this is resolved, every fermionic row above is APPROXIMATE at best and the status of the charged-lepton successes is that of a mapping, not a derivation.
+
+We owe the reader exactly this table. A table that buried the neutrino sector and the fermion gap would not be an honest summary of the framework; it would be marketing. The framework's current state is that it explains qualitatively almost everything in the Standard Model and explains quantitatively about half of it, and the other half is this appendix's to-do list.
+
+End of Appendix B. Continues with Appendix C — Feynman Rules for Zone Architecture.

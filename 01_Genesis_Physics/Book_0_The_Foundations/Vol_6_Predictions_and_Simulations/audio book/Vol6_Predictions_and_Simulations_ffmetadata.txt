@@ -1,0 +1,143 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 6 — Predictions and Simulations
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 6 — Predictions and Simulations
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=5036352
+title=Chapter 1: Predictions That Match Observation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5036352
+END=9383544
+title=Chapter 2: Predictions That Differ from Standard Physics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9383544
+END=14591592
+title=Chapter 3: Novel Predictions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14591592
+END=18256968
+title=Chapter 4: Falsification Criteria
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18256968
+END=21470208
+title=Chapter 5: Simulation Methodology
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=21470208
+END=24862152
+title=Chapter 6: N-Body Simulations with Zone Corrections
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=24862152
+END=28876488
+title=Chapter 7: Membrane Vibration Spectra
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28876488
+END=31829904
+title=Chapter 8: Reproducibility Package
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=31829904
+END=44142120
+title=Chapter 9: FTL Travel — Mechanisms, Feasibility, and Engineering Pathways
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=44142120
+END=51102072
+title=Chapter 10 — Energy Harvesting from Zone Architecture
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=51102072
+END=58537680
+title=Chapter 11: FTL Communication and Zone-Based Signal Transmission
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=58537680
+END=67117968
+title=Chapter 12: Advanced Sensors and Detection Systems
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=67117968
+END=73970424
+title=Chapter 13: Consciousness and the Zone Interface
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=73970424
+END=82028232
+title=Chapter 14: Open Problems
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=82028232
+END=89441400
+title=Chapter 15: Connections to Other Programs
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=89441400
+END=95834280
+title=Chapter 16 — The Technology Roadmap
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=95834280
+END=99558264
+title=Chapter 17 — The Research Program
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=99558264
+END=109673568
+title=Appendix A: Complete Prediction Index
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=109673568
+END=113106480
+title=Appendix B: Simulation Code Repository
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=113106480
+END=123307440
+title=Appendix D — Selected Solutions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=123307440
+END=129484152
+title=Appendix E: Notation Reference — Complete Series
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=129484152
+END=135543648
+title=Appendix F: Technology Application Summary
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=135543648
+END=144795792
+title=Comprehensive Bibliography — The Foundations Series

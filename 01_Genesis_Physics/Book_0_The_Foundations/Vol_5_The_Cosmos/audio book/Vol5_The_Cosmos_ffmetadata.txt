@@ -1,0 +1,125 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 5 — The Cosmos
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 5 — The Cosmos
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=6361344
+title=Chapter 1: Einstein Field Equations Recovered
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=6361344
+END=10970616
+title=Chapter 2: Classical Tests
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10970616
+END=16757112
+title=Chapter 3: Gravitational Waves
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16757112
+END=23643192
+title=Chapter 4: Strong-Field Gravity
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=23643192
+END=28443624
+title=Chapter 5: Black Holes as Zone Infrastructure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28443624
+END=33977160
+title=Chapter 6: The Information Paradox Resolved
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=33977160
+END=39910608
+title=Chapter 7: Singularity Resolution
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=39910608
+END=43901952
+title=Chapter 8: Zone Cosmological Model
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=43901952
+END=49809960
+title=Chapter 9: The CMB and Early Universe
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=49809960
+END=54608784
+title=Chapter 10: Large-Scale Structure
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=54608784
+END=60479064
+title=Chapter 11. Dark Matter and Dark Energy Quantified
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=60479064
+END=65005272
+title=Chapter 12: The Starlight Problem and Chronology
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=65005272
+END=69526128
+title=Chapter 13: The Fine Structure Constant from First Principles
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=69526128
+END=72957120
+title=Chapter 14
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=72957120
+END=76739832
+title=Chapter 15: Why These Constants?
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=76739832
+END=78540720
+title=Appendix A — Key Results from Volumes 1 Through 4
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=78540720
+END=80793072
+title=Appendix B — Cosmological Data Tables
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=80793072
+END=81816264
+title=Appendix C — Derivations of Fundamental Constants Summary Table
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=81816264
+END=84440496
+title=Bibliography
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=84440496
+END=87452448
+title=Problem Sets with Selected Solutions

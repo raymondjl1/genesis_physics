@@ -1,0 +1,813 @@
+Foundations of Genesis Physics — Volume 2: Forces and Fields
+
+"The field is the seat of all energy and all force."
+— Adapted from Maxwell's conception of the electromagnetic field
+
+The Road from Zone Geometry to Classical E&M.
+
+In Chapter 3 we accomplished something that standard physics never does: we derived Maxwell's equations. We showed that the off-diagonal metric components of the 6D zone manifold, upon Kaluza-Klein reduction, yield the electromagnetic four-potential A_ mu. The gauge invariance that every textbook postulates emerged as coordinate freedom in the xi-direction (Eq. 2.3.9). The four Maxwell equations followed — two from the Euler-Lagrange equations of the gauge sector, two from the Bianchi identity — with not a single free parameter (Eqs. 2.3.27–2.3.42). The constants epsilon sub 0, mu sub 0, and c were not inputs; they were outputs, computed from warp-factor integrals over the extra dimensions (Eqs. 2.3.29–2.3.33). Even the fine structure constant alpha to the -1 approximately equal to 137 found its geometric origin in the ratio of zone extents (Eqs. 2.3.69–2.3.82).
+
+In Chapters 5 and 6 we assembled the complete zone Lagrangian (Eq. 2.5.1) and showed that the gauge group U(1) times SU(2) times SU(3) is uniquely forced by zone manifold topology (Theorem 2.6.1). The electromagnetic U(1) sector is the isometry group of the xi-direction circle (Eqs. 2.6.2–2.6.5).
+
+The present chapter asks: given that we have Maxwell's equations from first principles, what follows?
+
+The answer is: all of classical electrodynamics. Every result in Jackson's monumental textbook — radiation, waveguides, optics, circuits, shielding — follows from the four equations we derived in Chapter 3 and the Lagrangian formalism of Chapter 5. No new postulates are needed. No new constants must be introduced. The Firmament membrane gave us Maxwell's equations; those equations give us the rest.
+
+[Figure — see print edition.]
+
+The roadmap (Fig. 2.7.1) illustrates the logical flow. From the 6D zone metric (Vol 1), Chapter 3 derived the four Maxwell equations. From those four equations, the present chapter branches into six domains: wave propagation (§7.2), radiation (§7.3), boundary phenomena (§7.4), waveguides (§7.5), circuits (§7.6), and optics (§7.7), with conducting media (§7.8) as a cross-cutting application. Each domain traces back to Chapter 3. No detours are needed.
+
+Let us begin with the most fundamental consequence of Maxwell's equations: electromagnetic waves.
+
+Electromagnetic Waves — Propagation, Polarization, and Energy.
+
+The wave equation from Maxwell's equations.
+
+Why do disturbances in the electromagnetic field propagate? Because the two curl equations — Faraday's law and the Ampère-Maxwell law — couple changes in E to changes in B and vice versa. A time-varying electric field generates a magnetic field; that changing magnetic field regenerates an electric field. The coupled dance propagates through space as a wave.
+
+Let us make this precise. We begin with the two source-free curl equations derived in Chapter 3:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+These are Faraday's law (Eq. 2.3.42) and the vacuum Ampère-Maxwell law (Eq. 2.3.27 with J = 0), restated here for reference.
+
+Take the curl of (2.7.1):
+
+[Equation — see print edition.]
+
+Substituting (2.7.2) into the right side:
+
+[Equation — see print edition.]
+
+Using the vector identity the expression and noting that Gauss's law in vacuum (Eq. 2.3.27) gives nabla times E = 0:
+
+[Equation — see print edition.]
+
+An identical derivation starting from (2.7.2) yields the same equation for B:
+
+[Equation — see print edition.]
+
+Here we have used the relation epsilon sub 0 mu sub 0 = 1/c to the 2 (Eq. 2.3.33), which is not a separate fact but a consequence of the warp-factor integrals.
+
+Equations (2.7.5) and (2.7.6) are the electromagnetic wave equations. They tell us that the electromagnetic field propagates at speed c — the membrane wave speed derived in Vol 1 (Eq. 1.5.36) as c to the 2 = sigma / mu, where sigma is the Firmament tension and mu its mass density. The wave speed is a material property of the Firmament membrane, not an arbitrary constant of nature.
+
+Plane wave solutions and dispersion.
+
+The wave equation (2.7.5) admits plane wave solutions of the form:
+
+[Equation — see print edition.]
+
+Substituting into (2.7.5) yields the dispersion relation:
+
+[Equation — see print edition.]
+
+This is the dispersion relation of a non-dispersive medium. Both the phase velocity the expression and the group velocity v sub g = partial omega / partial | k| = c equal the speed of light. Electromagnetic waves in vacuum carry information at exactly c, with no frequency dependence — from radio waves at approximately 10 to the 3 Hz to gamma rays at approximately 10 to the 20 Hz, a span of 17 orders of magnitude.
+
+Why is vacuum non-dispersive? Because the zone Lagrangian's gauge sector (Eq. 2.5.1, L_ gauge) contains only the standard kinetic term -1 over 4F sub mu nu F to the mu nu. Higher-derivative corrections (e.g., F to the 4 terms) are suppressed by the zone energy scale — the characteristic energy set by the compactification radius of the extra dimensions, which is far above any classical electromagnetic frequency. These corrections would introduce dispersion, but in the classical limit they are negligible: the ratio of photon energy to the zone scale is vanishingly small for all frequencies we consider here.
+
+Transversality and polarization.
+
+Gauss's law in vacuum (nabla times E = 0) constrains the wave. For the plane wave (2.7.7):
+
+[Equation — see print edition.]
+
+Therefore k times E sub 0 = 0: the electric field is transverse — perpendicular to the direction of propagation. Similarly, nabla times B = 0 yields k times B sub 0 = 0.
+
+Faraday's law (2.7.1) relates the two amplitudes:
+
+[Equation — see print edition.]
+
+The triad ( k, E sub 0, B sub 0) is mutually orthogonal, with | B sub 0| = | E sub 0|/c.
+
+[Figure — see print edition.]
+
+Why exactly two polarization states? The propagation direction k is fixed. In the plane perpendicular to k, there are exactly two independent directions — call them e sub 1 and e sub 2. Any polarization is a superposition:
+
+[Equation — see print edition.]
+
+where E sub 1 and E sub 2 are complex amplitudes. The relative magnitude and phase determine the polarization state:
+
+- Linear polarization: E sub 2/E sub 1 is real. The electric field oscillates in a fixed plane.
+- Circular polarization: |E sub 1| = |E sub 2| and E sub 2/E sub 1 = plus or minus i. The electric field traces a circle. The +i case gives left-circular; the -i case gives right-circular.
+- Elliptical polarization: The general case. The field traces an ellipse.
+
+[Figure — see print edition.]
+
+This two-fold polarization degeneracy is a direct consequence of the Firmament's codimension. The Firmament is a 4D membrane in 6D; electromagnetic waves propagate along it with their fields confined to the transverse directions within the membrane. On a 4D membrane, a wave propagating in one spatial direction leaves 2 transverse spatial dimensions — hence exactly 2 polarization states. If the Firmament had different codimension, or if we lived in a different-dimensional space, the number of polarizations would differ.
+
+Energy transport: Poynting's theorem.
+
+Electromagnetic waves carry energy. To derive the energy transport, we appeal to the zone Lagrangian's gauge sector. In Chapter 3 we stated Poynting's theorem (Eqs. 2.3.94–2.3.98). Here we derive it from the full Lagrangian formalism of Chapter 5.
+
+The electromagnetic energy density is:
+
+[Equation — see print edition.]
+
+The energy flux (Poynting vector) is:
+
+[Equation — see print edition.]
+
+Taking the time derivative of u and using Maxwell's equations (2.7.1)–(2.7.2):
+
+[Equation — see print edition.]
+
+Substituting partial B/ partial t = - nabla times E from (2.7.1) and the expression from the full Ampère-Maxwell law:
+
+[Equation — see print edition.]
+
+Using the vector identity the expression:
+
+[Equation — see print edition.]
+
+This is Poynting's theorem — the local energy conservation law for the electromagnetic field. The left side is the rate of change of field energy density plus the divergence of energy flux. The right side, - J times E, is the rate at which the field does work on charges (or receives energy from them). In vacuum (J = 0), energy is exactly conserved: partial u/ partial t + nabla times S = 0.
+
+This result is the Noether current for time-translation invariance of the electromagnetic Lagrangian. The zone Lagrangian (Eq. 2.5.1) is invariant under t to t + const (a Poincaré symmetry, Vol 1 Ch 7); Noether's theorem guarantees a conserved energy current, and Poynting's vector is precisely that current.
+
+For a plane wave, the time-averaged Poynting vector is:
+
+[Equation — see print edition.]
+
+The intensity I = | S | has dimensions of power per unit area (W/m²) and is proportional to E sub 0 to the 2 — a result that will matter for optics (§7.7) and for the photoelectric effect (which Vol 4 will treat quantum-mechanically).
+
+Radiation pressure. A plane wave impinging on a perfectly absorbing surface transfers momentum at the rate p rad = I/c per unit area. For a perfectly reflecting surface, the pressure doubles: p rad = 2I/c. This follows from the electromagnetic momentum density g = S/c to the 2 = epsilon sub 0 E times B.
+
+Electromagnetic Potentials and Radiation.
+
+Potentials as fundamental geometric objects.
+
+In Chapter 3 we showed that the electromagnetic four-potential A_ mu is not an auxiliary construct but the off-diagonal component of the 6D metric (Eq. 2.3.1). The physical fields E and B are derived quantities:
+
+[Equation — see print edition.]
+
+where phi = A sub 0 (the time component) and A = (A sub 1, A sub 2, A sub 3) (the spatial components).
+
+The field strength tensor is:
+
+[Equation — see print edition.]
+
+This is gauge-invariant: the transformation A mu to A mu + partial _ mu Lambda (Eq. 2.3.9, arising from reparameterization xi to xi + Lambda (x) in the extra dimension) leaves F sub mu nu unchanged.
+
+Gauge choices.
+
+The gauge freedom allows us to impose one additional condition on A_ mu, simplifying calculations without changing the physics.
+
+Lorenz gauge: the expression, or equivalently:
+
+[Equation — see print edition.]
+
+In this gauge, Maxwell's equations decouple into wave equations for each component:
+
+[Equation — see print edition.]
+
+where the expression is the d'Alembertian. These are manifestly Lorentz-covariant — as they must be, since the wave speed c is the Firmament's intrinsic speed.
+
+Coulomb gauge: nabla times A = 0. This gauge is not Lorentz-covariant but separates the instantaneous Coulomb field from the radiative transverse field. It is useful for near-field problems and connects naturally to the electrostatic limit.
+
+Why two gauges? Because different problems benefit from different simplifications. The Lorenz gauge respects Lorentz invariance and is natural for radiation; the Coulomb gauge separates longitudinal (non-radiative) from transverse (radiative) degrees of freedom. The physics is identical in both — only the book-keeping differs.
+
+Retarded potentials.
+
+The wave equations (2.7.21) in the Lorenz gauge have a unique causal solution given by the retarded Green's function:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+where the retarded time is:
+
+[Equation — see print edition.]
+
+[Figure — see print edition.]
+
+Why retarded and not advanced? Because the Green's function of the wave equation admits both retarded and advanced solutions. The retarded solution respects causality: the field at ( r, t) depends on the source at earlier times, not later ones. This is not a boundary condition we impose by hand — it follows from the arrow of time established by the Degradation Principle (Vol 1, Ch 8, Eq. 1.8.12), which ensures entropy increases and effects follow causes.
+
+Radiation from accelerating charges.
+
+Now we derive the central result: accelerating charges radiate. A charge q moving with velocity v(t) and acceleration a(t) produces, at large distances, radiation fields that fall off as 1/r (unlike the 1/r to the 2 Coulomb field).
+
+To extract the radiation field, we evaluate the retarded potentials (2.7.22–2.7.23) for a point charge q at position r sub 0(t) with velocity v(t) and acceleration a(t).
+
+The vector potential is:
+
+[Equation — see print edition.]
+
+where the expression and the denominator accounts for the retardation effect (the source moves during signal transit). The electric field obtained from E = - nabla phi - partial A/ partial t separates into two terms:
+
+[Equation — see print edition.]
+
+The first term is the generalized Coulomb field (it falls as 1/R to the 2 and carries no net energy to infinity). The second term — the radiation field — falls as 1/R and carries energy away from the source. Only accelerating charges contribute to this term. The separation arises because the time derivative partial A/ partial t applied to the 1/R potential generates both a 1/R to the 2 piece (from differentiating 1/R itself) and a 1/R piece (from differentiating the velocity-dependent numerator, which introduces the acceleration a). It is this second contribution that survives at large R and constitutes radiation.
+
+In the non-relativistic limit (v much less than c), the radiation field simplifies to:
+
+[Equation — see print edition.]
+
+where r points from source to field point, and all quantities are evaluated at the retarded time. The corresponding magnetic field is B rad = r times E rad/c.
+
+The double cross product gives the angular pattern: | r times ( r times a)| = a theta, where theta is the angle between r and a. The radiation intensity is therefore proportional to to the 2 theta: maximum perpendicular to the acceleration, zero along the acceleration axis. This is the dipole radiation pattern.
+
+[Figure — see print edition.]
+
+The total power radiated is obtained by integrating the Poynting vector over a sphere:
+
+[Equation — see print edition.]
+
+This is the Larmor formula, derived here from the retarded-potential solution of the zone-architecture Maxwell equations. Every quantity in this expression has been derived from zone geometry: q is quantized by xi-topology (Eq. 2.3.83), epsilon sub 0 from warp-factor integrals (Eq. 2.3.29), and c from membrane mechanics (Eq. 1.5.36).
+
+The Larmor formula answers a deep question: why do accelerating charges radiate? Because the retarded-potential solution of the wave equation couples field propagation to source dynamics. An accelerating source creates a kink in the field lines — that kink propagates outward at c as radiation. The mechanism is purely geometric: the wave equation on the Firmament membrane forces field disturbances to propagate, and acceleration creates those disturbances.
+
+Oscillating dipole. For a harmonically oscillating dipole p(t) = p sub 0 e to the -i omega t, the time-averaged radiated power is:
+
+[Equation — see print edition.]
+
+The omega to the 4 dependence explains why the sky is blue: Rayleigh scattering involves atmospheric molecules acting as oscillating dipoles driven by sunlight, and the shorter-wavelength (higher-frequency) blue light is scattered far more strongly than red.
+
+Worked Example 7.2: Synchrotron Radiation Power.
+An electron (q = 1.60 times 10 to the -19 C) in a synchrotron has centripetal acceleration a = v to the 2/R where v approximately equal to c and R = 100 m. Using the Larmor formula (2.7.26):
+the expression m/s²
+the expression
+the expression W
+This is tiny per electron, but a synchrotron beam with N approximately 10 to the 12 electrons radiates approximately 4.6 μW — visible as synchrotron radiation, a direct confirmation of the Larmor formula. (The full relativistic treatment, using the Liénard formula the expression with gamma much greater than 1, gives enormously larger power at GeV energies. The non-relativistic Larmor formula here gives only the conceptual mechanism.)
+
+Radiation reaction. The radiated energy must come from somewhere — it comes from the kinetic energy of the charge, implying a radiation-reaction force. The Abraham-Lorentz force is F_ rad = q to the 2 over 6 pi epsilon sub 0 c to the 3 a. This expression involves the time derivative of acceleration and leads to well-known pathologies (runaway solutions, pre-acceleration). These are artifacts of treating point charges classically and are resolved in the quantum treatment (Vol 4). We note the issue honestly and move on.
+
+Boundary Conditions, Reflection, and Refraction.
+
+The four boundary conditions.
+
+When electromagnetic waves encounter an interface between two media, continuity conditions on the fields determine the reflected and transmitted waves. These conditions are not additional postulates — they follow directly from Maxwell's equations applied to the boundary.
+
+[Figure — see print edition.]
+
+Consider a planar interface between medium 1 (permittivity epsilon sub 1, permeability mu sub 1) and medium 2 (epsilon sub 2, mu sub 2). Applying Maxwell's equations in integral form to a thin pillbox straddling the interface, and to a thin rectangular loop, we obtain four conditions:
+
+From Gauss's law (nabla times D = rho sub f), using a pillbox of vanishing height:
+
+[Equation — see print edition.]
+
+where sigma sub f is the free surface charge density. In the absence of free surface charge: epsilon sub 1 E sub 1 = epsilon sub 2 E sub 2.
+
+From nabla times B = 0 (no magnetic monopoles), same pillbox:
+
+[Equation — see print edition.]
+
+This is always true — there are no magnetic surface charges.
+
+From Faraday's law (nabla times E = - partial B/ partial t), using a thin loop:
+
+[Equation — see print edition.]
+
+Tangential E is always continuous.
+
+From Ampère-Maxwell law (nabla times H = J sub f + partial D/ partial t), thin loop:
+
+[Equation — see print edition.]
+
+where K sub f is the free surface current density. In the absence of free surface currents: H sub 1 = H sub 2, or equivalently B sub 1 / mu sub 1 = B sub 2 / mu sub 2.
+
+These four conditions — two on normal components, two on tangential — are the complete set needed to solve any boundary-value problem in electromagnetism.
+
+Snell's law of refraction.
+
+Consider a plane wave incident on a planar interface. The tangential E-field must be continuous everywhere on the boundary at all times. This forces the tangential components of all three wavevectors (incident, reflected, transmitted) to match:
+
+[Equation — see print edition.]
+
+From the first equality: theta sub r = theta sub i (angle of reflection equals angle of incidence).
+
+From the second, using k = n omega /c where n is the refractive index:
+
+[Equation — see print edition.]
+
+This is Snell's law. It was not postulated — it followed from the continuity of tangential E at the interface, which itself followed from Faraday's law, which was derived from the zone manifold in Chapter 3.
+
+The refractive index n = c/v_ phase = square root of epsilon sub r mu sub r is the ratio of the vacuum wave speed (set by the Firmament membrane) to the wave speed in the medium. In standard treatments, n is measured; in zone architecture, it can in principle be computed from the material's electromagnetic response to the zone-derived fields.
+
+Fresnel equations.
+
+The boundary conditions not only determine the direction of reflected and transmitted waves but also their amplitudes. The results depend on the polarization state.
+
+Consider s-polarization (E perpendicular to the plane of incidence, i.e., parallel to the interface). The electric field has only a tangential component. Applying the boundary conditions (2.7.30) and (2.7.31):
+
+From tangential E continuity (2.7.30):
+
+[Equation — see print edition.]
+
+From tangential H continuity (2.7.31), using H = B/ mu approximately equal to nE/( mu sub 0 c) for non-magnetic media:
+
+[Equation — see print edition.]
+
+The minus sign on E sub r arises because the reflected wave's wavevector has the opposite normal component. Solving this 2 times 2 system for r sub s = E sub r/E sub i and t sub s = E sub t/E sub i:
+
+[Equation — see print edition.]
+
+For p-polarization (E in the plane of incidence), the analysis is analogous but the field components that are tangential and normal swap roles. Applying the same boundary conditions yields:
+
+[Equation — see print edition.]
+
+Note the asymmetry: for s-polarization, the numerator is n sub 1 theta sub i - n sub 2 theta sub t; for p-polarization, it is n sub 2 theta sub i - n sub 1 theta sub t. This asymmetry is why Brewster's angle exists for p-polarization but not for s-polarization (in non-magnetic media).
+
+Energy conservation provides a consistency check. The reflectance and transmittance must satisfy R + T = 1, where R = |r| to the 2 and T = |t| to the 2 (n sub 2 theta sub t)/(n sub 1 theta sub i). The factor of n sub 2 theta sub t/(n sub 1 theta sub i) accounts for the change in beam cross-section and wave impedance at the interface. The reader should verify this as an exercise (Problem 7.2).
+
+[Figure — see print edition.]
+
+[Figure — see print edition.]
+
+Brewster's angle. Setting r sub p = 0 gives n sub 2 theta sub i = n sub 1 theta sub t. Combined with Snell's law, this yields:
+
+[Equation — see print edition.]
+
+At Brewster's angle, the reflected light is purely s-polarized. This is the principle behind polarizing sunglasses and Brewster windows in laser cavities.
+
+Total internal reflection.
+
+When n sub 1 > n sub 2 (light going from a denser to a rarer medium), Snell's law gives theta sub t = (n sub 1/n sub 2) theta sub i > 1 for angles above the critical angle:
+
+[Equation — see print edition.]
+
+For theta sub i > theta sub c, theta sub t becomes imaginary. Physically, this means the transmitted wavenumber component normal to the interface, k sub z = (n sub 2 omega /c) theta sub t, is purely imaginary — so the plane-wave factor e to the ik sub z z becomes a real exponential decay e to the - kappa z rather than an oscillation. No transmitted propagating wave exists and the wave is totally reflected. However, an evanescent field penetrates into medium 2, decaying exponentially with depth:
+
+[Equation — see print edition.]
+
+The evanescent wave carries no net energy into medium 2 (the time-averaged Poynting vector normal to the interface vanishes). This phenomenon is the basis of optical fibers, which confine light by total internal reflection, and of frustrated total internal reflection used in optical beam splitters.
+
+Waveguides and Confined Electromagnetic Fields.
+
+Why confinement quantizes modes.
+
+In Vol 1, Chapter 10, we showed that boundary conditions on the zone manifold quantize allowed states. The same mechanism operates here in a more familiar setting. When electromagnetic waves propagate inside a hollow conductor of finite cross-section, the boundary conditions at the walls (E = 0 and B = 0 on a perfect conductor) restrict the allowed transverse field patterns to discrete modes — just as standing waves on a string can only have wavelengths that fit the string length.
+
+Rectangular waveguide.
+
+Consider a rectangular waveguide with cross-section a times b (a > b), aligned along the z-axis. We seek solutions propagating as e to the i(k sub z z - omega t) with fields confined to the interior.
+
+We begin from the full wave equation (2.7.5) and assume a field of the form the expression, where psi stands for any field component. Substituting into the wave equation and separating the longitudinal propagation from the transverse structure:
+
+[Equation — see print edition.]
+
+where the transverse wavenumber is:
+
+[Equation — see print edition.]
+
+This is a 2D Helmholtz equation — the same mathematical structure that appears in quantum mechanics for a particle in a box (and for the same reason: boundary conditions on a finite domain).
+
+For a rectangular waveguide, we further separate variables: the expression. Each factor satisfies X'' + k sub x to the 2 X = 0 and Y'' + k sub y to the 2 Y = 0 with k sub x to the 2 + k sub y to the 2 = k_ to the 2. The boundary conditions determine the allowed solutions.
+
+TM modes (B sub z = 0 everywhere; the longitudinal component is E sub z). The tangential electric field must vanish at a perfect conductor, so E sub z = 0 at all four walls: x = 0, x = a, y = 0, y = b. The vanishing at x = 0 and y = 0 selects sine functions; the vanishing at x = a and y = b quantizes the wavenumbers: k sub x = m pi /a, k sub y = n pi /b with m, n = 1, 2, 3, Therefore:
+
+[Equation — see print edition.]
+
+with m, n greater than or equal to 1 (both must be at least 1 for TM modes; m = 0 or n = 0 gives E sub z = 0 identically). The transverse wavenumber is:
+
+[Equation — see print edition.]
+
+The transverse E and B components are derived from E sub z using the relation between longitudinal and transverse fields that follows from Maxwell's equations:
+
+[Equation — see print edition.]
+
+These relations show that once E sub z is known, all other field components follow. The transverse fields inherit the sine/cosine structure of E sub z.
+
+TE modes (E sub z = 0 everywhere; the longitudinal component is B sub z). The boundary condition for B sub z at a perfect conductor is partial B sub z/ partial n = 0 (the normal derivative vanishes), which follows from E_ = 0 at the wall via Maxwell's equations. This selects cosine functions with the same quantized wavenumbers:
+
+[Equation — see print edition.]
+
+with m, n greater than or equal to 0 (but not both zero — that would give a uniform field with no transverse structure, hence no guided mode). The same k_ relation (2.7.41) holds, and the transverse fields follow from analogous relations to (2.7.41a).
+
+Cutoff frequencies and dispersion.
+
+For propagation, k sub z must be real, which requires omega > ck_. The cutoff frequency for the (m,n) mode is:
+
+[Equation — see print edition.]
+
+Below this frequency, k sub z is imaginary and the wave decays exponentially (evanescent). The mode with the lowest cutoff is TEsub 10 (with m=1, n=0):
+
+[Equation — see print edition.]
+
+This is the fundamental mode. For omega sub 10 < omega < omega sub 01, only the TEsub 10 mode propagates — single-mode operation.
+
+[Figure — see print edition.]
+
+The dispersion relation for a propagating mode is:
+
+[Equation — see print edition.]
+
+[Figure — see print edition.]
+
+Notice the structure: because boundary conditions force a nonzero transverse wavenumber k, the wave must devote part of its total omega /c budget to the transverse directions. Only the remainder goes into longitudinal propagation. This is why the waveguide mode behaves as though it has mass — the confined transverse degrees of freedom act as an energy threshold that must be exceeded before longitudinal propagation can occur. Formally, this is a massive dispersion relation, identical in form to the relativistic energy-momentum relation the expression with an effective mass m effc to the 2 = h-bar omega sub mn. The phase and group velocities are:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+The phase velocity exceeds c, but the group velocity (which carries energy and information) is always less than c. Their product is v_ ph times v sub g = c to the 2, a universal relation.
+
+Why do waveguides have cutoff frequencies? The transverse boundary conditions quantize the allowed transverse wavenumbers (just as boundary conditions quantize energy levels in Vol 1, Ch 10). A minimum transverse wavenumber implies a minimum frequency for propagation. Below cutoff, the wave cannot "fit" inside the guide and decays exponentially. This is the same boundary-condition quantization mechanism that operates throughout zone architecture — here applied to a macroscopic electromagnetic system.
+
+Cylindrical waveguides and optical fibers.
+
+In cylindrical geometry (radius a), the transverse equation separates in polar coordinates and involves Bessel functions J sub m( kappa r) inside the core and modified Bessel functions K sub m( gamma r) in the cladding. The matching conditions at r = a yield the characteristic equation for guided modes.
+
+The key parameter is the V-number:
+
+[Equation — see print edition.]
+
+For V < 2.405 (the first zero of J sub 0), only the fundamental LPsub 01 mode propagates — single-mode fiber. This is the design regime for long-distance telecommunications, where single-mode operation minimizes pulse dispersion.
+
+In cylindrical coordinates, the transverse wave equation (2.7.39) becomes a Bessel equation. Inside the core (r < a), the radial dependence is J sub m( kappa r) where the expression, beta = k sub z is the propagation constant, and k sub 0 = omega /c. In the cladding (r > a), the field must decay: the radial dependence is K sub m( gamma r) where the expression. Matching E sub z, H sub z, E phi, and H phi at r = a yields the characteristic equation:
+
+[Equation — see print edition.]
+
+This is a transcendental equation in beta that must be solved numerically for each azimuthal order m. The V-number (2.7.48) determines how many solutions exist: for V < 2.405, only the fundamental LPsub 01 mode propagates.
+
+The physics is identical to the rectangular case: boundary conditions at the core-cladding interface quantize the allowed transverse modes. The difference is geometry (cylindrical vs. rectangular) and the confining mechanism (total internal reflection at the core-cladding interface rather than conducting walls).
+
+Worked Example 7.1: Standard Single-Mode Fiber.
+An SMF-28 optical fiber has n core = 1.4681, n clad = 1.4629, and core radius a = 4.1 μm. At lambda = 1550 nm:
+the expression
+Since V = 2.05 < 2.405, only the fundamental LPsub 01 mode propagates — single-mode operation, as designed. At lambda = 1260 nm, V = 2.52 > 2.405, and the fiber becomes multi-mode. The cutoff wavelength is lambda sub c = 1260 nm for this fiber design.
+
+Circuit Theory as a Limit of Field Theory.
+
+From fields to circuits.
+
+[Figure — see print edition.]
+
+Circuit theory is not a separate subject. It is the quasi-static, lumped-element limit of Maxwell's equations. When the dimensions of a circuit are much smaller than the electromagnetic wavelength (ell much less than lambda = c/f), the fields are well-approximated by their static or slowly-varying forms, and the distributed Maxwell equations reduce to ordinary differential equations relating voltage and current at discrete nodes.
+
+Let us make this reduction explicit.
+
+Ohm's law.
+
+In a conductor, free electrons experience the zone-derived Coulomb force from the electric field and collisional drag from the lattice. The Drude model gives the equation of motion for an electron:
+
+[Equation — see print edition.]
+
+where tau is the mean free time between collisions. In steady state (d v/dt = 0):
+
+[Equation — see print edition.]
+
+The current density is J = -ne v sub d (where n is the electron number density):
+
+[Equation — see print edition.]
+
+This is Ohm's law in its local form. For a uniform wire of length L and cross-section A, integrating gives V = IR with R = L/( sigma A) = rho L/A.
+
+Every quantity traces to zone architecture: e from xi-topology (Eq. 2.3.83), m sub e from the Yukawa coupling to the Higgs sector (treated in Vol 4), and epsilon sub 0 (which determines the Coulomb force) from warp-factor integrals.
+
+Kirchhoff's current law (KCL).
+
+Kirchhoff's current law states that the total current entering a node equals the total current leaving it:
+
+[Equation — see print edition.]
+
+This is not a separate law. It is the integral form of charge conservation:
+
+[Equation — see print edition.]
+
+In steady state (partial rho / partial t = 0), integrating over a small volume containing the node and applying the divergence theorem gives J times d A = 0, which is exactly (2.7.52).
+
+Charge conservation itself is a Noether current: it follows from the U(1) gauge symmetry of the zone Lagrangian (Vol 1, Ch 7, Eqs. 1.7.35–1.7.36; Vol 2, Ch 6, Eqs. 2.6.2–2.6.5). KCL is gauge symmetry in disguise.
+
+Kirchhoff's voltage law (KVL).
+
+For a closed loop in a circuit:
+
+[Equation — see print edition.]
+
+This follows from the conservative nature of the electrostatic field. In the static limit, nabla times E = 0 (Faraday's law with partial B/ partial t = 0), so E is the gradient of a potential: E = - nabla phi. The line integral around a closed loop vanishes:
+
+[Equation — see print edition.]
+
+which is (2.7.54). When time-varying magnetic flux is present, KVL generalizes to include EMFs from Faraday's law, but the origin remains the same: Maxwell's equations on the zone manifold.
+
+Capacitance.
+
+A capacitor stores energy in the electric field between its plates. For parallel plates of area A separated by distance d:
+
+Gauss's law (derived in Ch 3) gives the field between the plates:
+
+[Equation — see print edition.]
+
+The voltage is V = Ed = Q d/( epsilon sub 0 A), giving:
+
+[Equation — see print edition.]
+
+The energy stored is:
+
+[Equation — see print edition.]
+
+The last form makes explicit that the energy resides in the electric field — this is the EM energy density u sub E = epsilon sub 0 E to the 2/2 from Eq. (2.7.12), integrated over the volume between the plates.
+
+With a dielectric of relative permittivity epsilon sub r: C = epsilon sub 0 epsilon sub r A/d.
+
+Inductance and Faraday's law.
+
+An inductor stores energy in the magnetic field. For a solenoid of N turns, length ell, and cross-sectional area A:
+
+Ampère's law (from Ch 3) gives the field inside:
+
+[Equation — see print edition.]
+
+The total magnetic flux linkage is Psi = NBA = mu sub 0 N to the 2 IA/ ell, giving:
+
+[Equation — see print edition.]
+
+Faraday's law (Eq. 2.7.1) gives the induced EMF:
+
+[Equation — see print edition.]
+
+The energy stored is:
+
+[Equation — see print edition.]
+
+Again, the energy resides in the magnetic field — this is u sub B = B to the 2/(2 mu sub 0) from Eq. (2.7.12).
+
+LC and RLC oscillations.
+
+Combining a capacitor and inductor in series:
+
+[Equation — see print edition.]
+
+This is a simple harmonic oscillator with natural frequency:
+
+[Equation — see print edition.]
+
+Energy oscillates between the electric field (capacitor) and the magnetic field (inductor) at frequency omega sub 0.
+
+Adding resistance R gives the damped oscillator:
+
+[Equation — see print edition.]
+
+The solution depends on the damping ratio Gamma = R/(2L) relative to omega sub 0:
+
+- Underdamped (Gamma < omega sub 0): Q(t) = Q sub 0 e to the - Gamma t ( omega sub d t + phi ) with the expression
+- Critically damped (Gamma = omega sub 0): Q(t) = (A + Bt)e to the - omega sub 0 t
+- Overdamped (Gamma > omega sub 0): two real exponential decays
+
+For a driven RLC circuit with V(t) = V sub 0 omega t, the current amplitude is:
+
+[Equation — see print edition.]
+
+Maximum current occurs at resonance: omega = omega sub 0 = 1/ square root of LC, where I sub 0 = V sub 0/R. The quality factor Q = omega sub 0 L/R measures the resonance sharpness.
+
+[Figure — see print edition.]
+
+The connection to waveguides is not accidental. Both waveguide cutoff (§7.5) and circuit resonance are manifestations of boundary-condition quantization interacting with the wave equation. The waveguide is a distributed system; the RLC circuit is the lumped-element limit of the same physics.
+
+Worked Example 7.3: AM Radio Tuner.
+An AM radio station broadcasts at f sub 0 = 1000 kHz. Design a tuning circuit with C = 200 pF.
+Required inductance: the expression μH.
+For Q = 50 (reasonable for a practical coil): the expression Ω.
+The bandwidth is Delta f = f sub 0/Q = 1000/50 = 20 kHz. This is exactly wide enough to pass the 10 kHz audio bandwidth of an AM signal while rejecting adjacent stations at plus or minus 10 kHz spacing.
+Every parameter in this design traces to zone-derived physics: the resonance frequency to 1/ square root of LC (which combines Gauss's law through C and Faraday's law through L), the Q-factor to the ratio of stored to dissipated energy (from Poynting's theorem, Eq. 2.7.16).
+
+Optics from Electromagnetic Waves.
+
+Optics as applied electrodynamics.
+
+Optics is not a separate discipline. It is electrodynamics at wavelengths near lambda approximately 400–700 nm, where the human visual system operates. Every optical phenomenon follows from the wave solutions of §7.2 and the boundary conditions of §7.4. This section derives the essential results, establishing the foundation that Vol 3 will extend to wave mechanics.
+
+Geometric optics: the short-wavelength limit.
+
+When the wavelength is much smaller than the scale of obstacles and apertures, the wave nature of light can be approximated by rays — lines perpendicular to the wavefronts. This is the eikonal approximation.
+
+Write the electric field as E( r) = E sub 0( r)e to the ik sub 0 S( r), where S( r) is the eikonal (phase function) and k sub 0 = 2 pi / lambda is the vacuum wavenumber. Substituting into the wave equation and keeping leading order in k sub 0 to infinity yields the eikonal equation:
+
+[Equation — see print edition.]
+
+The rays are the curves r(s) satisfying d r/ds = nabla S/n, which obey:
+
+[Equation — see print edition.]
+
+This is the ray equation — the "equation of motion" for light rays in a medium with spatially varying index n( r). In uniform media (nabla n = 0), rays travel in straight lines. At interfaces where n changes discontinuously, Snell's law (2.7.33) governs the ray direction.
+
+Thin lens equation.
+
+For a thin lens with spherical surfaces of radii R sub 1 and R sub 2, applying Snell's law at each interface in the paraxial (small angle) approximation yields the lensmaker's equation:
+
+[Equation — see print edition.]
+
+where f is the focal length and n is the lens index relative to the surrounding medium. The thin lens equation relating object distance s, image distance s', and focal length is:
+
+[Equation — see print edition.]
+
+This is entirely a consequence of Snell's law applied in the paraxial limit — and Snell's law was derived from Maxwell's equations (§7.4.2), which were derived from zone geometry (Ch 3).
+
+Interference.
+
+When two coherent waves overlap, their fields add vectorially. The intensity (proportional to | E| to the 2) shows interference fringes.
+
+Double-slit interference. Two slits separated by distance d, illuminated by a plane wave of wavelength lambda, produce an intensity pattern on a distant screen:
+
+[Equation — see print edition.]
+
+Bright fringes occur at d theta = m lambda (m = 0, plus or minus 1, plus or minus 2,).
+
+Diffraction.
+
+When a wave passes through an aperture of width a, it spreads. The intensity pattern for a single slit is:
+
+[Equation — see print edition.]
+
+The central maximum has angular half-width Delta theta approximately equal to lambda /a. This sets the fundamental diffraction limit: no optical system can resolve features smaller than about lambda /(2 NA), where NA is the numerical aperture. This limit is intrinsic to the wave nature of electromagnetic radiation — it is not a technological limitation but a consequence of the wave equation (2.7.5).
+
+[Figure — see print edition.]
+
+Dispersion in media.
+
+In a material medium, the refractive index depends on frequency: n( omega ). This dispersion causes different wavelengths to travel at different speeds, producing rainbow-like spectral separation and pulse broadening.
+
+The origin of dispersion is the resonant response of bound electrons (or ions) in the medium. Near a resonance frequency omega sub 0, the Lorentz oscillator model gives:
+
+[Equation — see print edition.]
+
+where f sub j are oscillator strengths, omega sub j are resonance frequencies, and gamma sub j are damping constants.
+
+In transparent regions (far from resonances), the Cauchy formula provides a practical approximation:
+
+[Equation — see print edition.]
+
+with constants A, B, C determined by the material.
+
+The group velocity in a dispersive medium is:
+
+[Equation — see print edition.]
+
+When dn/d omega > 0 (normal dispersion), v sub g < c/n < c. Near resonances, anomalous dispersion can occur where v sub g appears to exceed c — but the signal velocity (which carries information) never does.
+
+This establishes the optics and wave-propagation foundation that Vol 3 inherits for its treatment of wave mechanics. The wave equation (2.7.5), dispersion relation (2.7.8), boundary conditions (§7.4), and dispersion in media (2.7.73) are all passed forward as established results.
+
+Electromagnetic Waves in Conducting Media.
+
+Maxwell's equations in a conductor.
+
+In a conducting medium with conductivity sigma (derived in §7.6.2), the current density J = sigma E modifies the wave equation. Starting from the full Ampère-Maxwell law:
+
+[Equation — see print edition.]
+
+For good conductors at frequencies below optical (sigma much greater than epsilon sub 0 omega), the conduction current dominates the displacement current. Taking the curl and following the same procedure as §7.2.1:
+
+[Equation — see print edition.]
+
+This is a diffusion equation, not a wave equation. Electromagnetic fields in a good conductor do not propagate — they diffuse.
+
+Skin depth.
+
+For a plane wave E = E sub 0 e to the i(kz - omega t) x entering a conductor, substituting into (2.7.77) gives a complex wavenumber:
+
+[Equation — see print edition.]
+
+where the skin depth is:
+
+[Equation — see print edition.]
+
+The field decays exponentially:
+
+[Equation — see print edition.]
+
+[Figure — see print edition.]
+
+The skin depth scales as delta proportional to 1/ square root of f: higher frequencies penetrate less. For copper (sigma = 5.96 times 10 to the 7 S/m):
+
+Frequency: 60 Hz. Skin Depth: 8.5 mm. Regime: Power transmission — current uses full cross-section.
+Frequency: 1 kHz. Skin Depth: 2.1 mm. Regime: Audio frequencies.
+Frequency: 1 MHz. Skin Depth: 66 μm. Regime: Radio — surface current only.
+Frequency: 1 GHz. Skin Depth: 2.1 μm. Regime: Microwave — extreme surface confinement.
+
+Faraday cage shielding.
+
+A conducting enclosure shields its interior from external electromagnetic fields. For static fields, the shielding is perfect: charges redistribute on the surface to cancel the interior field exactly.
+
+For dynamic fields at frequency omega, the shielding effectiveness depends on the ratio of wall thickness t to skin depth delta:
+
+[Equation — see print edition.]
+
+A 1 mm copper wall provides:
+- At 60 Hz: 1.0 dB (poor — skin depth exceeds thickness)
+- At 1 MHz: 132 dB (excellent — thousands of skin depths)
+- At 1 GHz: 4200+ dB (impenetrable)
+
+The attenuation is exponential in t/ delta — the same exponential mechanism that makes confinement absolute in the strong force (Ch 4). In both cases, geometry (here the conducting boundary; there the Z sub 3 orbifold) creates a barrier that fields cannot cross.
+
+Practical applications.
+
+The skin effect and Faraday cage shielding have immediate engineering consequences derived entirely from Maxwell's equations:
+
+Power transmission: At 50/60 Hz, the skin depth in copper is approximately9 mm. Solid conductors are effective. For large currents, hollow conductors or bundled cables save material without losing conductivity.
+
+Radio-frequency design: At MHz frequencies, skin depth drops to tens of micrometers. Only the surface carries current, so thin plating (silver or gold over copper) is as effective as solid metal. Coaxial cables need only a thin outer conductor for shielding.
+
+Microwave shielding: Mesh with aperture spacing much less than delta blocks microwave fields. This is why the window of a microwave oven has a metal mesh with approximately1 mm holes — the holes are far smaller than the approximately12 cm microwave wavelength and much smaller than the skin depth at 2.45 GHz.
+
+Summary and the Classical Electrodynamics Landscape.
+
+What we have derived.
+
+This chapter, combined with Chapter 3, constitutes a complete derivation of classical electrodynamics from zone architecture. Let us survey what has been established:
+
+Domain: **Wave propagation**. Key Results: Wave equation (2.7.5), dispersion omega = c. Zone Architecture Origin: k.
+Domain: **Radiation**. Key Results: Retarded potentials (2.7.22–23), Larmor formula (2.7.26), dipole pattern. Zone Architecture Origin: Lorenz gauge wave eq → Green's function → retarded solution; causality from Degradation Principle.
+Domain: **Boundary phenomena**. Key Results: 4 boundary conditions (2.7.28–31), Snell's law (2.7.33), Fresnel equations (2.7.34–35), total internal reflection (2.7.37). Zone Architecture Origin: Maxwell Eqs integrated across interface; tangential continuity from Faraday, normal from Gauss.
+Domain: **Waveguides**. Key Results: TE/TM modes (2.7.40–42), cutoff frequencies (2.7.43), massive dispersion (2.7.45). Zone Architecture Origin: Wave eq + conducting BCs → transverse quantization; same mechanism as Vol 1 Ch 10.
+Domain: **Circuits**. Key Results: Ohm (2.7.51), Kirchhoff (2.7.52, 54), C (2.7.57), L (2.7.60), LC/RLC (2.7.63–66). Zone Architecture Origin: Quasi-static limit of Maxwell; KCL = charge conservation (Noether/U(1)); KVL = conservative E-field.
+Domain: **Optics**. Key Results: Geometric optics (2.7.67–68), thin lens (2.7.70), interference (2.7.71), diffraction (2.7.72), dispersion (2.7.73). Zone Architecture Origin: Short-wavelength limit of wave eq; wave superposition; material response to zone-derived fields.
+Domain: **Conducting media**. Key Results: Skin depth (2.7.79), Faraday cage (2.7.81). Zone Architecture Origin: Maxwell + J = σE → diffusion eq; exponential decay from complex k.
+
+Every entry in the right column traces back to Chapter 3's derivation of Maxwell's equations from 6D zone geometry, supplemented by the Lagrangian formalism of Chapter 5 and the gauge theory of Chapter 6. No additional postulates were introduced.
+
+Comparison with standard treatment.
+
+A standard electrodynamics course (at the level of Jackson or Griffiths) covers the same material — but postulates Maxwell's equations and treats epsilon sub 0, mu sub 0, c, and gauge invariance as empirical inputs. In zone architecture:
+
+- Maxwell's equations are derived from 6D geometry (Ch 3)
+- epsilon sub 0 and mu sub 0 are calculated from warp-factor integrals (Ch 3)
+- c is the Firmament's wave speed (Vol 1, Ch 5)
+- Gauge invariance is coordinate freedom (Ch 3, Eq. 2.3.9)
+- The fine structure constant has geometric origin (Ch 3, Eqs. 2.3.69–82)
+
+The applications derived in this chapter are identical to those in standard electrodynamics — they must be, since they follow from the same Maxwell equations. The difference is foundational: the student knows why these equations hold, rather than accepting them on empirical authority.
+
+What Vol 3 inherits.
+
+Volume 3 (Matter and Motion) will use the following results from this chapter:
+
+1. Wave equation and dispersion (§7.2): Foundation for wave mechanics and quantum wave equations
+2. Optics (§7.7): Geometric optics as the classical limit of quantum mechanics (Hamilton-Jacobi ↔ eikonal)
+3. Dispersion in media (§7.7.6): Material response framework extended to quantum oscillators
+4. Poynting's theorem (§7.2.4): Energy conservation framework for matter-field interactions
+5. Boundary conditions (§7.4): Quantum boundary-value problems follow the same mathematical structure
+
+Open questions.
+
+Two areas remain incomplete at the classical level:
+
+Radiation reaction. The Abraham-Lorentz force (§7.3.4) involves third-order time derivatives and admits pathological solutions. This is a well-known difficulty in classical electrodynamics that is resolved only in quantum electrodynamics (Vol 4). We note this honestly as an intrinsic limitation of classical field theory, not a gap in zone architecture.
+
+Nonlinear electrodynamics. At very high field strengths (approaching the Schwinger limit the expression V/m), quantum pair-production effects modify Maxwell's equations. These are quantum corrections to the classical theory and will be treated in Vol 4.
+
+Both open questions are resolved by the same mechanism: quantization of the electromagnetic field on the zone manifold. The classical treatment given here is the complete and correct low-energy limit.
+
+Problems.
+
+Computational.
+
+Problem 7.1. A plane electromagnetic wave in vacuum has electric field amplitude E sub 0 = 100 V/m. Calculate: (a) the magnetic field amplitude, (b) the time-averaged Poynting vector magnitude, and (c) the radiation pressure on a perfectly reflecting surface. Express all intermediate steps using zone-derived constants.
+
+Problem 7.2. Calculate the Fresnel reflection coefficients r sub s and r sub p for light passing from air (n sub 1 = 1.00) to glass (n sub 2 = 1.52) at angles of incidence theta = 0°, 30°, 56.3° (Brewster), and 80°. Verify that the expression (energy conservation) at each angle.
+
+Problem 7.3. A rectangular waveguide has dimensions a = 2.286 cm and b = 1.016 cm (standard WR-90). (a) Calculate the cutoff frequencies for the first five modes. (b) Determine the frequency range for single-mode (TEsub 10) operation. (c) At f = 10 GHz, calculate the phase velocity, group velocity, and guide wavelength.
+
+Problem 7.4. Calculate the skin depth in copper (sigma = 5.96 times 10 to the 7 S/m) at frequencies of 60 Hz, 1 kHz, 1 MHz, and 1 GHz. For each, determine the shielding effectiveness of a 0.5 mm copper sheet.
+
+Problem 7.5. An oscillating electric dipole with | p sub 0| = 10 to the -29 C·m radiates at f = 5 times 10 to the 14 Hz (visible light). Calculate: (a) the total radiated power using Eq. (2.7.27), (b) the radiation resistance R_ rad = P/I sub 0 to the 2, and (c) the electric field amplitude at distance r = 1 m along the equatorial plane.
+
+Problem 7.6. Design an RLC circuit to resonate at f sub 0 = 1 MHz with quality factor Q = 100. Given C = 100 pF, determine L and R. Calculate the bandwidth and the current amplitude at resonance for a driving voltage of 1 V.
+
+Problem 7.7. Calculate the critical angle for total internal reflection at a glass-air interface (n glass = 1.50). For an optical fiber with core index n core = 1.48 and cladding index n_ clad = 1.46, calculate the V-number at lambda = 1550 nm for a core radius of a = 4.1 μm. Is this single-mode?
+
+Problem 7.8. A radio transmitter operates at 100 MHz with antenna current amplitude I sub 0 = 5 A. Model the antenna as a short dipole of length ell = 1 m. Calculate the radiated power, the radiation resistance, and the electric field strength at distance r = 10 km along the equatorial plane.
+
+Conceptual.
+
+Problem 7.9. Explain why electromagnetic waves in vacuum have exactly two polarization states. Connect your answer to (a) the dimensionality of the Firmament membrane and (b) the transversality condition from Gauss's law.
+
+Problem 7.10. A waveguide has a cutoff frequency — below it, waves cannot propagate. But vacuum has no cutoff frequency. What is fundamentally different about the two situations? Connect your answer to boundary-condition quantization (Vol 1, Ch 10).
+
+Problem 7.11. Kirchhoff's current law says sum I = 0 at a node. Derive this from (a) the continuity equation and (b) the Noether current for U(1) gauge symmetry. Show that KCL is gauge symmetry in a practical disguise.
+
+Problem 7.12. Why is the retarded potential the physical solution rather than the advanced potential? Your answer should reference (a) the Degradation Principle from Vol 1, Ch 8, and (b) the thermodynamic arrow of time.
+
+Problem 7.13. At Brewster's angle, reflected light is perfectly polarized. Explain why this occurs from the boundary conditions (§7.4), and discuss why the phenomenon depends on polarization direction relative to the plane of incidence.
+
+Problem 7.14. Explain why the Poynting vector S = (1/ mu sub 0) E times B points in the direction of energy flow. Connect this to (a) the direction of wave propagation and (b) the Noether current for time-translation symmetry.
+
+Challenge.
+
+Problem 7.15. Derive the guided modes of a cylindrical waveguide of radius a with perfectly conducting walls. Show that the transverse wave equation in cylindrical coordinates yields Bessel functions, write the characteristic equation for TE and TM modes, and calculate the first three cutoff frequencies in terms of Bessel zeros.
+
+Problem 7.16. Derive the complete angular distribution of radiation from an oscillating electric dipole: electric field, magnetic field, Poynting vector, and differential power dP/d Omega as functions of angle theta. Integrate to recover the Larmor formula (2.7.26). Show that the radiation pattern has to the 2 theta dependence and explain the physical reason.
+
+Problem 7.17. Design a Faraday cage to attenuate a 900 MHz cellular signal by at least 60 dB using copper sheet. (a) Calculate the required thickness. (b) The cage has ventilation holes of diameter 5 mm; explain why these do not compromise shielding at 900 MHz. (c) At what frequency would 5 mm holes begin to leak significantly?
+
+Problem 7.18. Starting from the wave equation (2.7.5) and the eikonal ansatz, derive the thin-film interference condition for a film of thickness d and index n in air. Show that constructive interference occurs at 2nd = (m + 1/2) lambda for light reflected from the film. Explain the factor of 1/2 in terms of the phase shift at reflection (connecting to the Fresnel equations of §7.4.3).
+
+This chapter has shown that the four Maxwell equations derived in Chapter 3 from the zone manifold are sufficient to produce all of classical electrodynamics. From radiation to circuits, from waveguides to optics, every result traces back to the Firmament membrane. In Chapter 8, we turn to the other geometric force — gravity — and develop the full gravitational field theory that seeds Volume 5's treatment of general relativity and cosmology.
+
+Selected Solutions.
+
+Solution 7.1. (a) the expression T. (b) the expression W/m². (c) For perfect reflection: the expression Pa.
+
+Solution 7.2. At normal incidence (theta = 0°): r sub s = r sub p = (1.00 - 1.52)/(1.00 + 1.52) = -0.206. Reflectance the expression. At Brewster's angle (theta sub B = 56.3°): r sub p = 0 exactly; r sub s = -0.385, giving the expression. Energy conservation check at 30°: theta sub t = (1.00 times 30°/1.52) = 19.2°; the expression; t sub s = 0.760; R sub s = 0.0576; the expression; R sub s + T sub s = 1.000 ✓.
+
+Solution 7.3. (a) Cutoff frequencies the expression. TEsub 10: the expression GHz. TEsub 20: 13.12 GHz. TEsub 01: f sub 01 = c/(2b) = 14.76 GHz. TEsub 11 = TMsub 11: square root of f sub 10 to the 2 + f sub 01 to the 2 = 16.15 GHz. TEsub 30: 19.68 GHz. (b) Single-mode range: 6.56 GHz < f < 13.12 GHz (TEsub 10 only). (c) At f = 10 GHz: the expression mto the -1; v ph = 2 pi f/k sub z = 3.98 times 10 to the 8 m/s; v sub g = c to the 2/v ph = 2.26 times 10 to the 8 m/s; lambda sub g = 2 pi /k sub z = 3.98 cm.
+
+Solution 7.4. delta = square root of 2/( omega mu sub 0 sigma ). At 60 Hz: the expression mm. SE for 0.5 mm: 8.68 times 0.5/8.5 = 0.51 dB (poor). At 1 kHz: delta = 2.1 mm; SE = 2.1 dB. At 1 MHz: delta = 66 μm; SE = 65.8 dB (excellent). At 1 GHz: delta = 2.1 μm; SE = 2071 dB (impenetrable).
+
+Solution 7.7. Critical angle: theta sub c = (1/1.50) = 41.8°. V-number: the expression. Since V = 4.03 > 2.405, this fiber is not single-mode at 1550 nm — it supports approximately V to the 2/2 approximately equal to 8 modes. For single-mode operation at 1550 nm, the core radius would need to be a < 4.1 times 2.405/4.03 = 2.45 μm, or the index difference would need to be reduced.
+
+Solution 7.9. (Conceptual) EM waves propagate on the 4D Firmament membrane embedded in 6D. A wave propagating in the z direction on this membrane has its fields in the transverse plane. On the 4D Firmament, the spatial transverse plane perpendicular to z is 2-dimensional (spanned by x and y). Gauss's law nabla times E = 0 (Eq. 2.3.27, derived from 6D geometry) enforces transversality: k times E sub 0 = 0 (Eq. 2.7.9). With k fixing one direction, two orthogonal directions remain — hence exactly two polarization states. In a hypothetical 5D membrane, there would be 3 polarization states; in 3D, only 1. The number 2 is a direct consequence of the Firmament's dimensionality.
+
+Solution 7.11. (Conceptual) (a) From continuity: In steady state, partial rho / partial t = 0, so nabla times J = 0. Integrating over a volume enclosing the node and applying the divergence theorem: J times d A = 0, which is sum I sub k = 0. (b) From Noether: The zone Lagrangian (Eq. 2.5.1) has U(1) gauge symmetry (the xi-direction isometry, Eqs. 2.6.2–2.6.5). By Noether's first theorem (Vol 1, Ch 7, Eq. 1.7.6), this symmetry generates a conserved current the expression with the expression. The spatial integral of j to the 0 is the total charge, and the expression in the steady state is the continuity equation. KCL is the practical manifestation of gauge symmetry: every time an engineer applies KCL to a circuit node, they are (unknowingly) invoking the xi-direction isometry of the 6D zone manifold.
+
+Solution 7.12. (Conceptual) The wave equation to the 2 phi = - rho / epsilon sub 0 admits two Green's function solutions: the retarded one (t ret = t - r/c, field depends on past sources) and the advanced one (t adv = t + r/c, field depends on future sources). Both are mathematically valid. The physical solution is the retarded one because: (a) The Degradation Principle (Vol 1, Ch 8) establishes a thermodynamic arrow of time. Entropy increases; effects follow causes. The advanced solution would require effects to precede causes, violating the entropy gradient. (b) The retarded boundary condition corresponds to outgoing radiation — energy flows away from the source. The advanced boundary condition would require incoming radiation converging on the source from spatial infinity — a state of absurdly low entropy that the Degradation Principle forbids. The selection of retarded over advanced potentials is not an arbitrary choice but a consequence of the thermodynamic structure established in Vol 1.

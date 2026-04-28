@@ -1,0 +1,119 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 1 — Architecture of Reality
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 1 — Architecture of Reality
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=5357736
+title=Chapter 1: Axioms and Definitions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5357736
+END=10798584
+title=Chapter 2: Mathematical Preliminaries
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10798584
+END=14242008
+title=Chapter 3: The Zone Manifold
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=14242008
+END=20989512
+title=Chapter 4: The 6D Embedding Space
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20989512
+END=24929616
+title=Chapter 5: The Firmament Manifold
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=24929616
+END=28540488
+title=Chapter 6: Waters Field Equations
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28540488
+END=31401480
+title=Chapter 7: Symmetries and Conservation Laws
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=31401480
+END=35017368
+title=Chapter 8: The Five Governing Principles as Constraints
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=35017368
+END=39776760
+title=Chapter 9: Pattern Operators and the Seven Types
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=39776760
+END=43943136
+title=Chapter 10: Quantization from Boundary Conditions
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=43943136
+END=48473088
+title=Chapter 11: Thermodynamics from Zone Separation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=48473088
+END=50932344
+title=Appendix A: Mathematical Prerequisites Reference
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=50932344
+END=56745552
+title=Appendix B: Complete Notation Reference
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=56745552
+END=59808192
+title=Appendix C: Hebrew Word Analysis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=59808192
+END=63416496
+title=Bibliography: Foundations Vol 1 — Architecture of Reality
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=63416496
+END=69377328
+title=Problem Sets: Chapters 1–2
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=69377328
+END=75338160
+title=Problem Sets: Chapters 3–4
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=75338160
+END=81298992
+title=Problem Sets: Chapters 5–6
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=81298992
+END=87259824
+title=Problem Sets for Chapters 7–11

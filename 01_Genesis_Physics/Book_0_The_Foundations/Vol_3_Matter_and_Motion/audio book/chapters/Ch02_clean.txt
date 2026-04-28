@@ -1,0 +1,1117 @@
+The Variational Foundations of Classical Dynamics.
+
+"The action is the hero of the story."
+— attributed to Richard Feynman
+
+Why Formalism Matters — From F=ma to the Action Principle.
+
+Chapter 1 accomplished something that standard physics textbooks skip: it derived F=ma from the geometry of the zone manifold. The student now holds Newton's three laws not as axioms but as theorems, traced back to the zone action, the geodesic equation, and covariant conservation of stress-energy.
+
+But there's a problem.
+
+F=ma, as Newton formulated it, is a vector equation. It works beautifully when you can identify all the forces and decompose them into Cartesian components. For a ball rolling down a smooth incline, you draw the free-body diagram, resolve forces, and apply m a = sum F. The calculation takes half a page.
+
+Now consider a double pendulum — a pendulum hanging from the end of another pendulum. Two masses, two rigid rods, four forces (two tensions, two weights). The constraint forces (tensions) do no work, but they couple the motion of both masses. In Cartesian coordinates, you have four equations of motion, four constraint equations, and six unknowns (four positions plus two tensions). The problem is solvable, but brutally complicated. The constraint forces — which you don't care about — dominate the algebra.
+
+Or consider a bead sliding on a rotating wire hoop. Or the three-body gravitational problem. Or 10 to the 23 molecules in a gas. In each case, the Newtonian approach buries the physics under constraint forces that you must track but don't want.
+
+There must be a better way. And there is — and it isn't new. It's the same variational principle that the zone framework is built upon.
+
+Recall what Volume 1, Chapter 8 established: the Five Governing Principles constrain the zone action S total (Eq. 1.8.3). The physical field configurations are stationary points of that action. Volume 2, Chapter 5 constructed the complete zone Lagrangian L zone (Eq. 2.5.20) and derived every field equation from delta S_ total = 0 (Eq. 2.5.21). Chapter 1 of this volume extracted F=ma by varying the test particle action (Eq. 3.1.7) with respect to the worldline.
+
+In every case, the method was the same: write the action, vary it, set the variation to zero. This is the variational principle — the engine beneath everything.
+
+This chapter does not introduce a new principle. It systematizes the principle you already know. The Lagrangian formulation is the systematic application of delta S = 0 to particle mechanics. The Hamiltonian formulation is a mathematical reshaping of the same content that reveals deeper structure. Both are already implicit in the zone framework. We're making them explicit.
+
+Here is the program:
+
+- §2.2 derives the particle Lagrangian from the zone Lagrangian — showing that L = T - V is not a postulate but a consequence of dimensional reduction.
+- §2.3 derives the Euler-Lagrange equations and shows they reproduce F=ma (consistency with Chapter 1).
+- §2.4 introduces the Legendre transform and constructs the Hamiltonian.
+- §2.5 derives Hamilton's equations and explores phase space.
+- §2.6 develops Poisson brackets — the algebraic structure of classical mechanics.
+- §2.7 treats canonical transformations — the symmetries of phase space.
+- §2.8 presents the Hamilton-Jacobi equation — the bridge to quantum mechanics.
+- §2.9 takes stock of what was derived and what comes next.
+
+[Figure — see print edition.]
+
+The Particle Lagrangian from the Zone Action.
+
+Notation convention. This chapter works at two scales: the field level (zone Lagrangian density L, field Hamiltonian density H) and the particle level (particle Lagrangian L, particle Hamiltonian H). Calligraphic letters (L, H) always denote field-level densities on the zone manifold; italic letters (L, H) always denote particle-level functions of generalized coordinates and momenta. The Einstein summation convention (repeated indices summed) is used throughout; all summation indices run over the 4D spacetime or n-dimensional configuration space unless explicitly stated otherwise. Summation over 6D zone-manifold indices is always written with explicit limits.
+
+The Chain of Reduction.
+
+The zone Lagrangian (Vol 2, Ch 5, Eq. 2.5.20) is a density on the 6D zone manifold:
+
+[Equation — see print edition.]
+
+This describes everything: geometry, fields, forces, matter, and sustaining. But a single particle — an electron moving through space, say — doesn't need the full 6D field theory. It needs the effective description: what does the zone framework predict for the trajectory of a localized object?
+
+The reduction proceeds in three steps:
+
+Step 1: From 6D to 4D (Kaluza-Klein Reduction). Volume 2, Chapter 5, §5.5 showed that integrating the zone Lagrangian over the two extra dimensions ( xi , eta ) yields an effective 4D Lagrangian. The gravitational sector produces the 4D Einstein-Hilbert action. The gauge sectors produce the Standard Model gauge Lagrangian. The matter sector produces 4D Dirac fields. All coupling constants become integrals of warp factors over the extra dimensions.
+
+Step 2: From 4D Fields to Test Particle. When we focus on a single localized particle (a "test particle" — one whose own gravitational and electromagnetic fields are negligible), the full 4D field theory reduces to the test particle action. Chapter 1 already wrote this down (Eq. 3.1.7):
+
+[Equation — see print edition.]
+
+where m is the rest mass and f_ mu encodes external forces. This is the particle's worldline action — the action for a 0-dimensional object (a point) moving through 4D spacetime.
+
+Step 3: From Relativistic to Non-Relativistic. In the non-relativistic limit (v much less than c, weak fields), the proper time d tau approximately equal to dt, and the test particle action becomes:
+
+[Equation — see print edition.]
+
+where L is the Lagrangian — a function of generalized coordinates q to the i, their time derivatives q to the i, and possibly time t.
+
+Deriving L = T - V.
+
+Let's perform Step 3 explicitly. Start with the test particle action (Eq. 3.1.7) in the non-relativistic limit. For a particle of mass m in a gravitational potential Phi ( x) and an electromagnetic potential (V sub EM, A):
+
+Why proper time? A relativistic particle's worldline is a curve through spacetime, and we need a parameter to measure "how much time the particle experiences" along that curve — independent of any observer's clock. Proper time tau is that parameter: it is the elapsed time measured by a clock traveling with the particle. It is the natural choice because it is a Lorentz scalar — all observers agree on its value — which means an action built from d tau is automatically coordinate-invariant, inheriting the diffeomorphism invariance of the zone manifold. The proper time element is:
+
+[Equation — see print edition.]
+
+So the free-particle action becomes:
+
+[Equation — see print edition.]
+
+The constant -mc to the 2 doesn't affect the equations of motion (it vanishes under variation), so we can drop it. The gravitational coupling adds -m Phi, and the electromagnetic coupling adds q( A times v - V sub EM). Collecting terms:
+
+[Equation — see print edition.]
+
+For a purely mechanical system (no electromagnetic fields), this simplifies to:
+
+[Equation — see print edition.]
+
+where T = 1 over 2mv to the 2 is the kinetic energy and V = m Phi is the potential energy.
+
+This is not a postulate. It is the non-relativistic limit of the test particle action on the zone manifold. The student has now seen L = T - V derived, not assumed. Every textbook that starts with "the Lagrangian is T - V" is starting in the middle of the story. The beginning of the story is the zone action.
+
+Generalized Coordinates.
+
+The power of the Lagrangian formulation lies in its indifference to coordinates. The action (Eq. 3.2.1) is a scalar — it doesn't care whether you describe the particle's position in Cartesian, polar, spherical, or any other coordinate system. Why? Because the action is an integral of L dt, and L was derived from the test particle action the expression, which is built from geometric objects (proper time, the force one-form) that have no preferred coordinate system. The coordinate-freedom of the particle action is a direct inheritance from the zone manifold's diffeomorphism invariance (Vol 1, Ch 7): physics is independent of how you label points.
+
+Let q to the 1, q to the 2, , q to the n be any set of n independent coordinates that describe the system's configuration. These are generalized coordinates. They need not be lengths or angles; they need only specify the system's state uniquely. The number n is the number of degrees of freedom.
+
+For a single particle in 3D space without constraints: n = 3, and (q to the 1, q to the 2, q to the 3) could be (x, y, z) or (r, theta , phi ) or any other set.
+
+For a double pendulum confined to a plane: n = 2, and (q to the 1, q to the 2) = ( theta sub 1, theta sub 2) — the two angles. The constraint forces (tensions) disappear from the problem entirely.
+
+This is the practical payoff. In the Newtonian approach, constraints introduce forces you must track. In the Lagrangian approach, constraints reduce the number of coordinates. You never see the tension in a pendulum rod; you work directly with the angle.
+
+The kinetic energy in generalized coordinates takes the form:
+
+[Equation — see print edition.]
+
+where M sub ij(q) is the mass matrix (or inertia tensor in generalized coordinates), which depends on the coordinates but not on velocities. This quadratic form in velocities is a direct consequence of the metric structure of the zone manifold: the kinetic energy is the squared length of the velocity vector, measured with the metric.
+
+The Lagrangian becomes:
+
+[Equation — see print edition.]
+
+Constraints and Degrees of Freedom.
+
+A system of N particles in 3D has 3N Cartesian coordinates. If k constraint equations relate these coordinates:
+
+[Equation — see print edition.]
+
+then the system has n = 3N - k degrees of freedom. By choosing generalized coordinates (q to the 1, , q to the n) that automatically satisfy the constraints, the constraint forces vanish from the Lagrangian.
+
+There is a deep connection here to the zone framework. In Volume 1, Chapter 8, the Five Principles were expressed as constraint functionals C sub i[S] (Eq. 1.8.2), and the constrained action was formed using Lagrange multipliers (Eq. 1.8.3). The method we're using here for mechanical constraints — reducing coordinates to eliminate constraint forces — is the same mathematical technique applied at a different scale. The zone action has constraints that narrow the space of valid field configurations; a mechanical system has constraints that narrow the space of valid particle configurations. In both cases, the right choice of variables makes the constraints invisible.
+
+The Euler-Lagrange Equations.
+
+The Variational Principle.
+
+The action for a mechanical system is:
+
+[Equation — see print edition.]
+
+The principle of stationary action states: the physical trajectory q to the i(t) is the one that makes S stationary with respect to small variations delta q to the i(t) that vanish at the endpoints:
+
+[Equation — see print edition.]
+
+This is not a new principle. It is the same principle that governs the zone action (Vol 2 Ch 5, Eq. 2.5.21): delta S_ total = 0. The zone action is a functional of fields phi to the a(x to the A) over 6D spacetime. The particle action is a functional of trajectories q to the i(t) over 1D time. The mathematics is identical; the domain is different.
+
+Derivation.
+
+We compute delta S by substituting q to the i(t) + delta q to the i(t) into the action and expanding to first order:
+
+[Equation — see print edition.]
+
+where we sum over repeated indices i. Since delta q to the i = d( delta q to the i)/dt, integrate the second term by parts:
+
+[Equation — see print edition.]
+
+The boundary term vanishes because delta q to the i(t sub 1) = delta q to the i(t sub 2) = 0. Combining:
+
+[Equation — see print edition.]
+
+Since delta q to the i(t) is arbitrary (subject to endpoint conditions), the integrand must vanish for each i:
+
+[Equation — see print edition.]
+
+These are the Euler-Lagrange equations — n second-order ordinary differential equations for the n generalized coordinates. They are the necessary and sufficient conditions for a trajectory to be a stationary point of the action.
+
+Consistency Check: Recovering F=ma.
+
+For a single particle in Cartesian coordinates with the expression:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+The Euler-Lagrange equation for x gives:
+
+[Equation — see print edition.]
+
+This is precisely Newton's Second Law (Eq. 3.1.10 from Chapter 1). The Euler-Lagrange equations and the direct variational derivation of Chapter 1 agree exactly. 
+
+The Power of Generalized Coordinates: Worked Examples.
+
+Example 1: The Simple Pendulum
+
+A mass m hangs from a rigid, massless rod of length ell, swinging in a vertical plane. The Newtonian approach requires resolving gravity and tension into tangential and radial components. The Lagrangian approach uses one coordinate: the angle theta.
+
+Kinetic energy: T = 1 over 2m ell to the 2 theta to the 2
+
+Potential energy (with zero at the pivot): V = -mg ell theta
+
+Lagrangian:
+
+[Equation — see print edition.]
+
+Euler-Lagrange:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+One equation, one unknown. The tension never appears. The constraint (fixed rod length) was absorbed into the choice of coordinate theta.
+
+For small angles (theta approximately equal to theta), this reduces to simple harmonic motion with period T = 2 pi square root of ell /g. The constraint force — the tension — does no work and carries no physical information about the pendulum's oscillation. The Lagrangian approach discards it automatically.
+
+Example 2: The Double Pendulum
+
+Two masses m sub 1 and m sub 2 connected by rigid rods of lengths ell sub 1 and ell sub 2. Generalized coordinates: ( theta sub 1, theta sub 2).
+
+The positions are:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Kinetic energy:
+
+[Equation — see print edition.]
+
+Potential energy:
+
+[Equation — see print edition.]
+
+The Lagrangian L = T - V gives two coupled Euler-Lagrange equations — complex, but systematically derivable. The four constraint forces (two tensions, each with two components) never appear. A problem that would be nightmarish in Newtonian mechanics becomes merely algebraically tedious in the Lagrangian approach.
+
+This is not a mathematical trick. It is a consequence of the zone framework's variational foundation: because physics is governed by the action, and the action is a scalar, the equations of motion can be expressed in any coordinates without introducing fictitious forces.
+
+Constrained Systems and Lagrange Multipliers.
+
+Sometimes constraints are useful — you want to know the constraint force (e.g., when does a bead fly off a wire?). The Lagrangian approach handles this via Lagrange multipliers, exactly as the zone framework handles the Five Principles (Vol 1, Ch 8, §8.3.3).
+
+For a constraint f(q to the 1, , q to the n, t) = 0, augment the Lagrangian:
+
+[Equation — see print edition.]
+
+The Euler-Lagrange equations for L' with respect to q to the i give:
+
+[Equation — see print edition.]
+
+The right-hand side is the constraint force. The Euler-Lagrange equation for lambda recovers the constraint f = 0.
+
+Compare this directly with the constrained zone action (Vol 1, Ch 8, Eq. 1.8.3):
+
+[Equation — see print edition.]
+
+The structure is identical. Lagrange multipliers are Lagrange multipliers, whether they constrain a bead on a wire or the zone action under the Five Principles. The zone framework uses the same mathematics at every scale.
+
+Noether's Theorem for Particle Mechanics.
+
+Volume 1, Chapter 7 derived Noether's theorem for the zone action: every continuous symmetry produces a conserved current. The same theorem applies to the particle Lagrangian, and the proof is simpler because we're in one dimension (time) instead of six.
+
+Theorem (Noether). If the Lagrangian L(q, q, t) is invariant under a continuous transformation q to the i to q to the i + epsilon delta q to the i (to first order in epsilon), then the quantity:
+
+[Equation — see print edition.]
+
+is conserved: dQ/dt = 0 along solutions of the Euler-Lagrange equations.
+
+Proof. The invariance condition is delta L = 0 under q to the i to q to the i + epsilon delta q to the i:
+
+[Equation — see print edition.]
+
+Using the Euler-Lagrange equations (3.2.12) to replace partial L/ partial q to the i:
+
+[Equation — see print edition.]
+
+Therefore Q = partial L over partial q to the i delta q to the i is constant in time. 
+
+Applications:
+
+Symmetry: Spatial translation in x. Transformation: delta x = 1. Conserved Quantity: Linear momentum p sub x = m x.
+Symmetry: Rotation about z-axis. Transformation: delta phi = 1. Conserved Quantity: Angular momentum L sub z = mr to the 2 phi.
+Symmetry: Time translation (partial L/ partial t = 0). Transformation: delta t = 1. Conserved Quantity: Energy H = sum sub i p sub i q to the i - L.
+
+The last line deserves emphasis: when the Lagrangian has no explicit time dependence, the energy is conserved. This follows from the Symmetry Principle (Vol 1, Ch 8, §8.6): God's unchanging nature implies time-translation invariance, which implies energy conservation. We proved this at the zone level in Vol 1, Ch 7. Now we see it again at the particle level. Same principle, same consequence, different scale.
+
+The Legendre Transform — From Velocities to Momenta.
+
+Why Transform?.
+
+The Lagrangian L(q, q, t) is a function of coordinates and velocities. The equations of motion (3.2.12) are n second-order ODEs. This is natural for the configuration-space picture: you specify positions and velocities at one time, and the equations predict positions and velocities at all other times.
+
+But there's another picture — and it will prove more fundamental.
+
+Instead of positions and velocities, consider positions and momenta. The reason is threefold:
+
+1. Thermodynamics and statistical mechanics (Chapters 9–12 of this volume) operate in phase space (q, p), not configuration space (q, q). The entropy, partition function, and Boltzmann distribution are all defined on phase space. The Degradation Principle (Vol 1, Ch 8, §8.7.5) is naturally expressed as a constraint on Hamiltonian flow in phase space (Eq. 1.8.29).
+
+2. Quantum mechanics (Volume 4) replaces classical phase-space variables with operators satisfying [ q, p] = i h-bar. This commutator is the quantum version of a structure we'll discover shortly: the Poisson bracket. The Hamiltonian formulation is the direct classical antecedent of quantum theory.
+
+3. The mathematics is more symmetric. The Lagrangian treats q and q asymmetrically (one is the derivative of the other). The Hamiltonian treats q and p on equal footing — they are independent variables in phase space. This symmetry has deep geometric meaning.
+
+Canonical Momentum.
+
+Define the canonical momentum conjugate to q to the i:
+
+[Equation — see print edition.]
+
+For a particle with L = 1 over 2M sub ij q to the i q to the j - V(q) (Eq. 3.2.5), this gives:
+
+[Equation — see print edition.]
+
+In Cartesian coordinates, p sub i = m x sub i — the ordinary momentum. In polar coordinates, p_ theta = mr to the 2 theta — the angular momentum. The canonical momentum generalizes the concept of momentum to any coordinate system.
+
+Notice the connection to Noether's theorem (Eq. 3.2.19): the conserved quantity associated with a coordinate translation delta q to the i = 1 is precisely the canonical momentum p sub i. Momentum is the Noether charge of translational symmetry — at both the zone level (Vol 1, Ch 7) and the particle level.
+
+For a charged particle in an electromagnetic field, the Lagrangian (Eq. 3.2.2) gives:
+
+[Equation — see print edition.]
+
+The canonical momentum includes a contribution from the vector potential. This is not the "mechanical momentum" m x sub i; it is the total momentum including the field. This distinction, which often confuses students in standard courses, is natural in the zone framework: the canonical momentum is the derivative of the total action (particle plus field coupling) with respect to velocity. The field contributes.
+
+The Legendre Transform.
+
+The Legendre transform replaces the velocity variables q to the i with the momentum variables p sub i. It is defined by:
+
+[Equation — see print edition.]
+
+where, on the right-hand side, q to the i is expressed as a function of (q, p) by inverting the relation p sub i = partial L/ partial q to the i.
+
+The function H is the Hamiltonian.
+
+Geometric interpretation. The Legendre transform maps from the tangent bundle TQ (the space of positions and velocities) to the cotangent bundle the expression (the space of positions and momenta). This is not just a change of variables — it is a change of arena. The tangent bundle is where Lagrangian mechanics lives. The cotangent bundle — phase space — is where Hamiltonian mechanics lives. Phase space has a natural geometric structure (the symplectic form) that the tangent bundle lacks. We'll meet it shortly.
+
+[Figure — see print edition.]
+
+Invertibility. The Legendre transform is invertible if and only if the mass matrix M sub ij (Eq. 3.2.4) is non-degenerate: (M sub ij) not equal to 0. This is guaranteed for all mechanical systems we consider: a degenerate mass matrix would mean that some velocity component doesn't contribute to kinetic energy, which would indicate a gauge degree of freedom (a subject for field theory, not particle mechanics).
+
+When Does H = E?.
+
+A crucial question: Is the Hamiltonian the same as the total energy?
+
+Not always. But under two conditions — both of which have zone-architectural origins — the answer is yes.
+
+Condition 1: The Lagrangian has no explicit time dependence (partial L/ partial t = 0).
+
+Condition 2: The kinetic energy is a homogeneous quadratic function of velocities: T = 1 over 2M sub ij(q) q to the i q to the j.
+
+When both hold, Euler's theorem on homogeneous functions gives:
+
+[Equation — see print edition.]
+
+Therefore:
+
+[Equation — see print edition.]
+
+The Hamiltonian equals the total energy.
+
+Why do these conditions hold? Condition 1 follows from the Symmetry Principle: when the laws of physics are time-independent (which they are in Phase 3, to the precision set by epsilon 10 to the -27), the Lagrangian has no explicit time dependence. Condition 2 follows from the metric structure of the zone manifold: the kinetic energy is the squared length of the velocity vector, which is necessarily quadratic in the velocity components.
+
+When these conditions fail — for example, in a rotating reference frame, where the metric effectively acquires time-dependent cross terms — the Hamiltonian and energy differ. The rotating-frame Hamiltonian includes a centrifugal potential and Coriolis terms that make H not equal to T + V. This is not a defect; it is the correct description of mechanics in a non-inertial frame.
+
+Worked Example: Simple Harmonic Oscillator.
+
+The simple harmonic oscillator (SHO) is the simplest non-trivial system and the prototype for everything from molecular vibrations to quantum field theory. Let's work through it in both formalisms.
+
+Lagrangian:
+
+[Equation — see print edition.]
+
+Canonical momentum: p = m x, so x = p/m.
+
+Hamiltonian:
+
+[Equation — see print edition.]
+
+This equals T + V — confirming Eq. (3.2.24) for this case.
+
+Hamilton's Equations of Motion.
+
+Derivation from the Modified Hamilton's Principle.
+
+The Hamiltonian formulation has its own variational principle. Express the action in terms of (q, p) rather than (q, q):
+
+[Equation — see print edition.]
+
+This is the modified Hamilton's principle (sometimes called the phase-space action). The integrand p sub i q to the i - H is called the Poincaré-Cartan form.
+
+Requiring delta S = 0 with respect to independent variations delta q to the i and delta p sub i (with delta q to the i vanishing at the endpoints, but delta p sub i unconstrained):
+
+Variation with respect to q to the i:
+
+[Equation — see print edition.]
+
+(after integrating p sub i delta q to the i by parts, dropping the boundary term).
+
+Variation with respect to p sub i:
+
+[Equation — see print edition.]
+
+Since delta q to the i and delta p sub i are arbitrary, both integrands must vanish:
+
+[Equation — see print edition.]
+
+These are Hamilton's equations — a system of 2n first-order ODEs, mathematically equivalent to the n second-order Euler-Lagrange equations (3.2.12).
+
+Verification: Equivalence with Euler-Lagrange.
+
+Let's verify that Hamilton's equations reproduce the Euler-Lagrange equations.
+
+From H = p sub i q to the i - L, compute:
+
+[Equation — see print edition.]
+
+But p sub j = partial L/ partial q to the j, so the last two terms cancel:
+
+[Equation — see print edition.]
+
+Similarly:
+
+[Equation — see print edition.]
+
+Hamilton's second equation gives:
+
+[Equation — see print edition.]
+
+Combined with p sub i = partial L/ partial q to the i:
+
+[Equation — see print edition.]
+
+This is the Euler-Lagrange equation (3.2.12). The two formulations are fully equivalent. 
+
+Worked Example: Simple Harmonic Oscillator in Hamilton's Equations.
+
+Using the Hamiltonian (Eq. 3.2.26):
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Combining: m x = p = -kx, which gives x + omega to the 2 x = 0 with omega = square root of k/m.
+
+The solution is:
+
+[Equation — see print edition.]
+
+[Figure — see print edition.]
+
+The phase portrait — the trajectory in the (x, p) plane — is an ellipse:
+
+[Equation — see print edition.]
+
+Every point on the ellipse has the same energy. The trajectory circulates clockwise (for our sign conventions). This is the Hamiltonian's natural language: not a function of time, but a flow in phase space.
+
+Phase Space and Liouville's Theorem.
+
+The phase space of a system with n degrees of freedom is the 2n-dimensional space with coordinates (q to the 1, , q to the n, p sub 1, , p sub n). Hamilton's equations define a flow on phase space: they tell you how the state (q, p) evolves in time.
+
+A fundamental property of Hamiltonian flow is Liouville's theorem: the phase-space volume is preserved.
+
+Theorem (Liouville). The volume element d to the nq d to the np is invariant under the time evolution generated by Hamilton's equations.
+
+Proof. Consider a small volume element Delta Gamma at time t. Under Hamilton's equations, each point in Delta Gamma evolves to a new point at time t + dt. The Jacobian of the time-evolution map is:
+
+[Equation — see print edition.]
+
+Using Hamilton's equations:
+
+[Equation — see print edition.]
+
+The trace of the Jacobian (which determines the rate of volume change) is:
+
+[Equation — see print edition.]
+
+The trace vanishes by the symmetry of mixed partial derivatives. Therefore the Jacobian determinant equals 1 (to first order in dt), and the volume is preserved. 
+
+Why does Liouville's theorem matter? Because it is the classical foundation of statistical mechanics. When we treat 10 to the 23 particles as a statistical ensemble (Chapters 9–12), the distribution function rho (q, p, t) evolves on phase space. Liouville's theorem says the phase-space density is conserved along trajectories — the fundamental starting point for the Boltzmann equation and for equilibrium statistical mechanics.
+
+[Figure — see print edition.]
+
+Connection to the Degradation Principle.
+
+Volume 1, Chapter 8, §8.7.5 expressed the Degradation Principle in Hamiltonian language. The canonical momenta Pi sub a = partial L/ partial phi to the a and the Hamiltonian H = Pi sub a phi to the a - L define phase-space dynamics for the zone fields (Eqs. 1.8.27–1.8.28). The Degradation constraint requires:
+
+[Equation — see print edition.]
+
+Now we can unpack this. Liouville's theorem says the phase-space density rho is conserved along individual trajectories. But the coarse-grained entropy — the entropy computed from a smoothed version of rho — can increase, because fine-grained structure below the coarse-graining scale is lost. This is the mechanism of the Second Law: Hamiltonian dynamics preserves information perfectly at the fine-grained level, but the information becomes inaccessible at the macroscopic level.
+
+The Degradation Principle (Phase 3) says this inaccessibility is a one-way process: coarse-grained entropy increases monotonically during the Fall phase. In the Edenic Phase (Phase 2), the sustaining field kappa _ full was strong enough to maintain the coarse-grained structure — entropy production was zero. The weakening of kappa in Phase 3 allows the natural tendency of Hamiltonian dynamics (spreading in phase space, loss of macroscopic coherence) to proceed unchecked.
+
+We will develop this connection fully in Chapters 9–12. For now, the key point is: the Hamiltonian formulation is not just a mathematical convenience. It is the natural arena for the Degradation Principle and for thermodynamics.
+
+Poisson Brackets and the Algebra of Observables.
+
+Definition and Motivation.
+
+Hamilton's equations (3.2.28) describe how q and p evolve. But what about an arbitrary function f(q, p, t) on phase space? How does it evolve?
+
+[Equation — see print edition.]
+
+Substituting Hamilton's equations:
+
+[Equation — see print edition.]
+
+The sum defines a bilinear operation on phase-space functions:
+
+[Equation — see print edition.]
+
+This is the Poisson bracket of f and g. The time evolution of any observable is:
+
+[Equation — see print edition.]
+
+If f has no explicit time dependence, then f is conserved if and only if f, H = 0.
+
+Fundamental Brackets.
+
+What happens when we compute the Poisson bracket of the canonical variables themselves — the building blocks of phase space? Since q and p are the independent coordinates and momenta from which all other observables are constructed, their mutual brackets must encode the fundamental structure of phase space. And indeed they do — the results follow directly from the definition (Eq. 3.2.31) by straightforward computation:
+
+[Equation — see print edition.]
+
+These are the fundamental Poisson brackets. They encode the canonical structure of phase space. Any two coordinates commute (positions don't "interfere" with each other). Any two momenta commute (momenta don't interfere with each other either). But a coordinate and its conjugate momentum have bracket equal to the Kronecker delta — they are maximally "entangled" in the Poisson-bracket sense. This asymmetry between same-type and conjugate-pair brackets is the algebraic fingerprint of the symplectic structure.
+
+The student should note these carefully, because in Volume 4, the transition to quantum mechanics will be made by the replacement:
+
+[Equation — see print edition.]
+
+The fundamental brackets (3.2.33) become the canonical commutation relations [ q to the i, p sub j] = i h-bar delta to the i sub j — the foundation of quantum mechanics. The Poisson bracket is the classical shadow of the quantum commutator. We will not develop this further here (that is Vol 4's business), but the student should know that the algebraic structure being built in this section is not transient — it is the permanent mathematical language of physics.
+
+Properties of Poisson Brackets.
+
+The Poisson bracket satisfies three algebraic properties:
+
+1. Antisymmetry: f, g = - g, f
+
+2. Leibniz rule (derivation): fg, h = f g, h + g f, h
+
+3. Jacobi identity: f, g, h + g, h, f + h, f, g = 0
+
+These three properties define a Lie algebra structure on the space of phase-space functions. The fact that classical observables form a Lie algebra is not an accident — it reflects the symplectic geometry of phase space. The Poisson bracket is the Lie bracket induced by the symplectic form omega = sum sub i dp sub i dq to the i.
+
+The Jacobi identity deserves special attention. It ensures consistency of time evolution: the bracket f, g, h can be computed in any order without contradiction. Physically, it means that the conservation laws themselves are consistent — if A and B are both conserved, then A, B is also conserved (this is sometimes called the "Poisson theorem").
+
+Conservation Laws via Poisson Brackets.
+
+A quantity Q(q, p) is conserved if and only if:
+
+[Equation — see print edition.]
+
+This provides a systematic test for conservation. Given any candidate conserved quantity, compute its bracket with the Hamiltonian. If it vanishes, Q is conserved.
+
+Example: Angular Momentum. For a particle in a central potential V(r) in 2D polar coordinates, the Hamiltonian is:
+
+[Equation — see print edition.]
+
+Test whether L sub z = p_ theta is conserved:
+
+[Equation — see print edition.]
+
+since H does not depend on theta. Therefore p_ theta = L sub z is conserved. 
+
+This connects directly to Noether's theorem: the coordinate theta is cyclic (absent from H), so its conjugate momentum is conserved. Noether via the Lagrangian and Poisson brackets via the Hamiltonian give the same result. The zone framework's symmetry structure (Vol 1, Ch 7) manifests identically in both formalisms.
+
+The Angular Momentum Algebra.
+
+The components of angular momentum in 3D are:
+
+[Equation — see print edition.]
+
+Their Poisson brackets are:
+
+[Equation — see print edition.]
+
+This is the Lie algebra so(3) — the algebra of rotations in 3D. The Poisson bracket reproduces the rotation group's algebraic structure. This is another instance of Noether's theorem at work: rotational symmetry (a continuous group) produces angular momentum (a set of conserved quantities), and the Poisson brackets of those quantities reproduce the symmetry group's algebra.
+
+In Volume 4, this algebra becomes [ L sub x, L sub y] = i h-bar L sub z, and the quantization of angular momentum — the fact that its measured values are discrete multiples of h-bar — follows directly.
+
+Canonical Transformations.
+
+Motivation: Phase-Space Coordinate Freedom.
+
+On the zone manifold, physics is independent of coordinates — this is diffeomorphism invariance (Vol 1, Ch 7). The equations of motion have the same form in any coordinate system because the action is a scalar.
+
+Phase space has an analogous property. The Hamiltonian equations (3.2.28) have a specific form:
+
+[Equation — see print edition.]
+
+A canonical transformation is a change of phase-space coordinates:
+
+[Equation — see print edition.]
+
+that preserves this form — Hamilton's equations in the new coordinates have the same structure, possibly with a different Hamiltonian K(Q, P, t):
+
+[Equation — see print edition.]
+
+Not every change of variables is canonical. Canonical transformations are the special ones that preserve the symplectic structure of phase space — the Poisson bracket relations.
+
+[Figure — see print edition.]
+
+The Symplectic Condition.
+
+A transformation (q, p) to (Q, P) is canonical if and only if the fundamental Poisson brackets are preserved:
+
+[Equation — see print edition.]
+
+where the brackets on the left are computed using the OLD variables (q, p).
+
+There is a compact way to state this condition using matrices. Think of it by analogy: a rotation in ordinary space preserves the length of vectors, which means it preserves the metric (R to the T I R = I). A canonical transformation preserves not lengths but oriented areas in phase space — the symplectic form — so it satisfies an analogous matrix equation, but with the metric replaced by the symplectic matrix.
+
+Defining the Jacobian matrix M of the transformation:
+
+[Equation — see print edition.]
+
+the symplectic condition is:
+
+[Equation — see print edition.]
+
+where J is the standard symplectic matrix:
+
+[Equation — see print edition.]
+
+A matrix satisfying Eq. (3.2.39) is called symplectic. Canonical transformations are symplectomorphisms — the symmetry group of the symplectic form omega = sum sub i dp sub i dq to the i.
+
+Generating Functions.
+
+Canonical transformations can be systematically constructed using generating functions. Why are there exactly four types? A canonical transformation maps old variables (q, p) to new variables (Q, P). To specify the transformation, you need a function that bridges old and new — but you have a choice: which pair of variables (one old, one new) do you use as the independent arguments? There are four possible pairings: (q, Q), (q, P), (p, Q), and (p, P). Each choice produces a different type of generating function. They are related to each other by Legendre transforms — the same operation that connects L and H.
+
+Type 1: F sub 1(q, Q, t)
+
+[Equation — see print edition.]
+
+Type 2: F sub 2(q, P, t)
+
+[Equation — see print edition.]
+
+Type 3: F sub 3(p, Q, t)
+
+[Equation — see print edition.]
+
+Type 4: F sub 4(p, P, t)
+
+[Equation — see print edition.]
+
+The different types are related by Legendre transforms (the same tool we used to go from L to H). The student should master Type 2, which is the most commonly used.
+
+Example: The Identity Transformation. The generating function F sub 2 = q to the i P sub i gives p sub i = P sub i and Q to the i = q to the i — the identity. This verifies that the identity is canonical (as it should be).
+
+Example: The Exchange Transformation. The generating function F sub 1 = q to the i Q sub i gives p sub i = Q sub i and P sub i = -q to the i. This swaps coordinates and momenta (with a sign). This transformation underscores the democratic treatment of q and p in Hamiltonian mechanics — they can be interchanged without affecting the form of the equations.
+
+Worked Example: Simplifying the Harmonic Oscillator.
+
+To see canonical transformations earn their keep, let's apply one to the harmonic oscillator — a system we already solved (§2.5.3), but whose phase-space trajectory (an ellipse) suggests a natural simplification: transform to coordinates in which the trajectory is a circle traversed at constant speed.
+
+The Hamiltonian is H = p to the 2/(2m) + 1 over 2m omega to the 2 x to the 2 (Eq. 3.2.26). We seek new variables (Q, P) in which H depends only on P (so that Q evolves linearly in time). This is exactly the action-angle transformation previewed in §2.8.6.
+
+Use a Type-2 generating function of the form:
+
+[Equation — see print edition.]
+
+Wait — this mixes old and new variables in a way that requires care. Instead, work from the known action-angle result. Define:
+
+[Equation — see print edition.]
+
+Step 1: Verify this is canonical. Compute the Poisson bracket:
+
+[Equation — see print edition.]
+
+From the transformation: x to the 2 = (2P/m omega ) to the 2 Q and p to the 2 = 2m omega P to the 2 Q, so H = P omega ( to the 2 Q + to the 2 Q) = omega P.
+
+One can verify (by computing the partial derivatives explicitly) that Q, P sub x,p = 1. 
+
+Step 2: The new Hamiltonian. In the new variables:
+
+[Equation — see print edition.]
+
+This depends only on P — the problem is solved.
+
+Step 3: Hamilton's equations in the new variables.
+
+[Equation — see print edition.]
+
+So P = const (the action variable — proportional to the energy) and Q = omega t + Q sub 0 (the angle variable — increases uniformly). The elliptical phase-space trajectory in (x, p) has become uniform circular motion in (Q, P).
+
+This is the payoff of canonical transformations: a problem with non-trivial dynamics becomes trivial in the right coordinates. The physics hasn't changed — the oscillator still oscillates — but the mathematical description has been reduced to its simplest possible form. For the harmonic oscillator this is merely elegant; for more complex systems (the Kepler problem in Chapter 3, or multi-body dynamics), canonical transformations can be the difference between solvable and intractable.
+
+Infinitesimal Canonical Transformations.
+
+Why study infinitesimal transformations when we already have the full generating-function machinery? Because every continuous symmetry is built from infinitesimal ones — a finite rotation is a sequence of tiny rotations, a finite time step is a sequence of tiny time steps. The infinitesimal version reveals which phase-space function generates which transformation, connecting symmetries, conservation laws, and dynamics in a single unified picture.
+
+For an infinitesimal transformation (q, p) to (q + delta q, p + delta p) generated by a function G(q, p):
+
+[Equation — see print edition.]
+
+where epsilon is an infinitesimal parameter.
+
+This is profound: every phase-space function G generates a canonical transformation, and every canonical transformation is generated by a phase-space function. The Poisson bracket is the infinitesimal generator.
+
+Special cases:
+
+- G = H generates time evolution (Hamilton's equations).
+- G = p sub i generates translations in q to the i.
+- G = L sub z generates rotations about the z-axis.
+
+Symmetries, conservation laws, and canonical transformations are three faces of the same coin. This is Noether's theorem, viewed from the Hamiltonian side.
+
+The Hamilton-Jacobi Equation and the Classical-Quantum Bridge.
+
+The Idea.
+
+Is there a canonical transformation that makes the problem trivial? That is, a transformation to new variables (Q, P) in which the new Hamiltonian K = 0, so that Q to the i = P sub i = 0 — all the new coordinates and momenta are constants of the motion?
+
+If such a transformation exists, then finding it is equivalent to solving the problem completely. The answer to "is there such a transformation?" is yes — always. Finding it requires solving a partial differential equation called the Hamilton-Jacobi equation.
+
+Derivation.
+
+We seek a Type-2 generating function S(q, P, t) such that the new Hamiltonian vanishes:
+
+[Equation — see print edition.]
+
+From the Type-2 relations (Eq. 3.2.42):
+
+[Equation — see print edition.]
+
+Substituting into K = 0:
+
+[Equation — see print edition.]
+
+This is the Hamilton-Jacobi (H-J) equation — a first-order partial differential equation for the function S(q, P, t), called Hamilton's principal function.
+
+For a system with n degrees of freedom, the H-J equation is one PDE in n + 1 variables (q to the 1, , q to the n, t). A complete solution contains n constants of integration alpha sub 1, , alpha sub n (which become the new momenta P sub i = alpha sub i). The new coordinates are:
+
+[Equation — see print edition.]
+
+Together, the 2n constants ( alpha sub i, beta sub i) determine the trajectory completely.
+
+Connection to the Action.
+
+Hamilton's principal function S has a physical interpretation: it is the action evaluated along the classical trajectory:
+
+[Equation — see print edition.]
+
+where the integral is taken along the path that satisfies the Euler-Lagrange equations with the given boundary conditions. This closes the circle: the action, which was our starting point (the zone action, the variational principle), turns out to be the generating function that solves the equations of motion.
+
+Separation of Variables and Conservation Laws.
+
+When the Hamiltonian has a separable structure — typically because of symmetries — the H-J equation admits a separated solution:
+
+[Equation — see print edition.]
+
+Each function W sub i(q to the i) satisfies an ODE. The separation constants are the conserved quantities (energy, angular momentum, etc.).
+
+Example: Central Force Problem (Preview of Chapter 3).
+
+For a particle in a central potential V(r), in spherical coordinates (r, theta , phi ):
+
+[Equation — see print edition.]
+
+The H-J equation separates: the expression, where L sub z = p_ phi is the z-component of angular momentum (a constant because phi is cyclic). The theta-equation yields the total angular momentum L as a separation constant. The r-equation yields the orbit equation. Chapter 3 will develop this in full.
+
+The Eikonal Limit and the Bridge to Quantum Mechanics.
+
+The Hamilton-Jacobi equation contains within it the seeds of quantum mechanics. To see this, consider a free particle with Hamiltonian H = p to the 2/2m. The H-J equation is:
+
+[Equation — see print edition.]
+
+Now consider the substitution S = -i h-bar psi, where psi is some complex function. Then the expression, and the H-J equation becomes:
+
+[Equation — see print edition.]
+
+In the limit h-bar to 0, the second term dominates, and we recover the classical H-J equation. But if we keep h-bar finite and add the second-derivative term, we get something very close to the Schrödinger equation:
+
+[Equation — see print edition.]
+
+This is not a derivation of quantum mechanics — that must wait for Volume 4, where the zone architecture's boundary conditions (Vol 1, Ch 10) provide the physical reason for quantization. But it shows that the Hamilton-Jacobi equation is the classical limit of the Schrödinger equation. Lagrangian/Hamiltonian mechanics is not replaced by quantum mechanics; it is contained within it as the h-bar to 0 limit.
+
+The hierarchy is:
+
+[Equation — see print edition.]
+
+[Figure — see print edition.]
+
+Action-Angle Variables.
+
+For periodic systems (like the harmonic oscillator or planetary orbits), there exists a particularly useful canonical transformation to action-angle variables (w, J).
+
+The action variable is:
+
+[Equation — see print edition.]
+
+where the integral is over one complete period of the motion. The angle variable w increases uniformly in time:
+
+[Equation — see print edition.]
+
+where nu is the frequency of the motion.
+
+In action-angle variables, the Hamiltonian depends only on J: H = H(J). The equations of motion are:
+
+[Equation — see print edition.]
+
+The motion is uniform on a torus in phase space. This is the simplest possible form of Hamiltonian dynamics.
+
+Connection to quantization (preview). In the old quantum theory (Bohr-Sommerfeld), the quantization condition was J = n h-bar — the action variable takes integer multiples of Planck's constant. Volume 4 will derive this from the zone architecture's boundary conditions (Vol 1, Ch 10), but the fact that it's the action variable that gets quantized is no coincidence. The action variable is the invariant of the classical orbit — the quantity that survives the transition to quantum mechanics.
+
+What Is Derived, What Is Formalism, and What Comes Next.
+
+What We DERIVED in This Chapter (From Zone Principles).
+
+1. The particle Lagrangian L = T - V (Eq. 3.2.3): Derived as the non-relativistic limit of the test particle action on the zone manifold (Eq. 3.1.7), which itself is extracted from the zone Lagrangian (Eq. 2.5.20) via KK reduction and the test particle limit.
+
+2. The Euler-Lagrange equations (Eq. 3.2.12): Derived from the variational principle delta S = 0 (the same principle that governs the zone action, Vol 2 Ch 5 Eq. 2.5.21). Verified to reproduce F=ma (Eq. 3.1.10).
+
+3. Noether's theorem for particles (Eq. 3.2.19): The particle-level version of the zone-level Noether theorem (Vol 1, Ch 7). Symmetries produce conservation laws at every scale.
+
+4. The Hamiltonian H and Hamilton's equations (Eqs. 3.2.23, 3.2.28): Derived from the Lagrangian via the Legendre transform. The Hamiltonian equals the total energy under conditions that trace to the Symmetry Principle and the metric structure of the zone manifold.
+
+5. Liouville's theorem (Eq. 3.2.30): A consequence of the Hamiltonian structure. Phase-space volume is conserved — the classical foundation for the Degradation Principle and statistical mechanics.
+
+6. The connection between Hamiltonian flow and the Degradation Principle (§2.5.5): The zone framework's entropy constraint (Vol 1, Ch 8 §8.7.5) is naturally expressed in the Hamiltonian language developed here.
+
+What Is Mathematical Formalism (Not Physical Claims).
+
+1. The Legendre transform is a mathematical operation, not a physical derivation. It reorganizes the same information into a different form.
+
+2. Poisson brackets are a mathematical structure on phase space. They encode Hamiltonian mechanics algebraically but add no new physical content beyond Hamilton's equations.
+
+3. Canonical transformations and generating functions are coordinate-change machinery. They simplify problems but do not change the physics.
+
+4. The Hamilton-Jacobi equation is a reformulation of Hamilton's equations as a PDE. It is mathematically equivalent to the Euler-Lagrange equations.
+
+Comparison with Standard Textbooks.
+
+In standard classical mechanics (Goldstein, Landau & Lifshitz, Taylor), the Lagrangian L = T - V is typically postulated as a starting point. The student is told "define the Lagrangian as kinetic minus potential energy" and then derives the Euler-Lagrange equations from the action principle.
+
+This is pedagogically efficient but conceptually backwards. It treats the action principle as a mathematical trick rather than a fundamental statement about the structure of reality. The zone framework inverts this: the action principle is the foundation (Vol 1, Ch 8), the zone Lagrangian is constructed from axioms (Vol 2, Ch 5), and the particle Lagrangian is extracted from it. The student who follows this path understands why L = T - V — not just that it works.
+
+What Comes Next.
+
+This chapter built the formal machinery. The next three chapters apply it:
+
+- Chapter 3 (Central Force Problems): The Lagrangian and Hamiltonian methods, applied to the gravitational and Coulomb potentials. Kepler's problem solved via Hamilton-Jacobi separation. Orbital mechanics derived from zone gravity (Vol 2, Ch 2).
+
+- Chapter 4 (Rigid Body Dynamics): The Lagrangian approach to rotating systems. Euler angles, Euler's equations, the spinning top — all derived from the zone conservation laws (Vol 1, Ch 7).
+
+- Chapter 5 (Continuum Mechanics and Fluid Dynamics): The Lagrangian and Hamiltonian formulations extended from particles to continuous media. Connection back to the Waters field equations (Vol 1, Ch 6).
+
+Beyond Part I, the Hamiltonian formulation will be essential for:
+
+- Part III (Chapters 9–12): Thermodynamics and statistical mechanics. Phase space, Liouville's theorem, and the Boltzmann distribution are all Hamiltonian constructs.
+
+- Volume 4 (Quantum Mechanics): The canonical commutation relations, the Schrödinger equation, and the path integral all emerge from the Hamiltonian/Lagrangian structure built here.
+
+The student now holds the complete toolkit of classical mechanics. Every tool traces back to the zone action.
+
+Problem Sets.
+
+Set 1: Computational Problems.
+
+Problem 2.1: The Pendulum via Lagrangian Mechanics
+
+A simple pendulum of mass m and length ell swings in a vertical plane.
+
+(a) Write the Lagrangian using theta as the generalized coordinate.
+(b) Derive the equation of motion using the Euler-Lagrange equations.
+(c) Find the period of small oscillations.
+(d) Compute the canonical momentum p_ theta and the Hamiltonian the expression.
+(e) Verify that Hamilton's equations reproduce the same equation of motion.
+
+Solution:
+
+(a) L = 1 over 2m ell to the 2 theta to the 2 + mg ell theta (Eq. 3.2.13).
+
+(b) Euler-Lagrange: m ell to the 2 theta + mg ell theta = 0, i.e., theta + (g/ ell ) theta = 0 (Eq. 3.2.14).
+
+(c) For small theta: theta + (g/ ell ) theta = 0. Period: T = 2 pi square root of ell /g.
+
+(d) p_ theta = partial L/ partial theta = m ell to the 2 theta, so the expression.
+
+the expression
+
+(e) the expression ✓
+p_ theta = - partial H/ partial theta = -mg ell theta
+Combined: m ell to the 2 theta = -mg ell theta ✓
+
+Problem 2.2: Bead on a Rotating Hoop
+
+A bead of mass m slides without friction on a circular hoop of radius R that rotates about a vertical diameter with angular velocity omega.
+
+(a) Using the angle theta from the bottom of the hoop as the generalized coordinate, show that the Lagrangian is:
+
+[Equation — see print edition.]
+
+(b) Find the equilibrium positions (where theta = 0 and theta = 0).
+(c) Show that for omega to the 2 > g/R, a new stable equilibrium appears at theta sub 0 = g/(R omega to the 2).
+
+Solution:
+
+(a) The bead's position in the lab frame: x = R theta omega t, y = R theta omega t, z = R(1- theta ). Computing v to the 2 = x to the 2 + y to the 2 + z to the 2:
+
+the expression
+
+So the expression and V = mgR(1- theta ).
+
+the expression ✓
+
+(b) Euler-Lagrange: the expression
+
+At equilibrium: theta ( omega to the 2 R theta - g) = 0
+
+Solutions: theta = 0 (bottom), theta = pi (top), and theta sub 0 = g/(R omega to the 2) (if omega to the 2 > g/R).
+
+(c) When omega to the 2 > g/R, the ratio g/(R omega to the 2) < 1, so theta sub 0 = g/(R omega to the 2) has a solution with 0 < theta sub 0 < pi /2. Stability analysis (computing partial to the 2V_ eff/ partial theta to the 2) shows this is stable while theta = 0 becomes unstable — a pitchfork bifurcation.
+
+Problem 2.3: Two-Body Gravitational Problem
+
+Two masses m sub 1 and m sub 2 interact gravitationally with no external forces.
+
+(a) Write the Lagrangian in center-of-mass and relative coordinates.
+(b) Show that the center-of-mass moves uniformly and the relative coordinate satisfies a one-body problem with reduced mass mu = m sub 1 m sub 2/(m sub 1 + m sub 2).
+(c) Compute the Hamiltonian and verify that H = E (total energy).
+
+Solution:
+
+(a) Let R = (m sub 1 r sub 1 + m sub 2 r sub 2)/(m sub 1 + m sub 2) and r = r sub 1 - r sub 2.
+
+the expression
+
+(b) The CM Euler-Lagrange equation: (m sub 1+m sub 2) R = 0 → uniform motion. The relative coordinate equation: mu r = -G sub 4 m sub 1 m sub 2 r/r to the 2.
+
+(c) p sub R = (m sub 1+m sub 2) R, p sub r = mu r.
+
+the expression ✓
+
+Problem 2.4: Hamilton's Equations for a Central Force
+
+For a particle of mass m in a central potential V(r) in 2D polar coordinates:
+
+(a) Write the Lagrangian L(r, theta , r, theta ).
+(b) Find the canonical momenta p sub r and p_ theta.
+(c) Construct the Hamiltonian the expression.
+(d) Write Hamilton's equations. Show that p_ theta (angular momentum) is conserved.
+(e) Reduce to a one-dimensional problem in r using the conservation of p_ theta.
+
+Solution:
+
+(a) the expression
+
+(b) p sub r = m r, p_ theta = mr to the 2 theta
+
+(c) the expression (Eq. 3.2.35)
+
+(d) r = p sub r/m, the expression, the expression, p theta = - partial H/ partial theta = 0 → p theta is conserved.
+
+(e) With p_ theta = L (constant): the expression where the expression.
+
+Problem 2.5: Generating Function for the Oscillator
+
+For the simple harmonic oscillator with H = p to the 2/(2m) + 1 over 2kx to the 2:
+
+(a) Find the Type-2 generating function F sub 2(x, P) that transforms to action-angle variables (w, J).
+(b) Express H in terms of J alone.
+(c) Verify that w increases linearly in time with frequency nu = omega /(2 pi ).
+
+Solution:
+
+(a) The H-J equation: the expression
+
+the expression
+
+S = integral square root of 2m(E - 1 over 2kx to the 2) dx
+
+The action variable: the expression where omega = square root of k/m.
+
+Therefore E = J omega /(2 pi ) = J nu and the generating function is F sub 2 = S(x, J) with E = E(J).
+
+(b) H = J omega /(2 pi ) — linear in J.
+
+(c) w = partial H/ partial J = omega /(2 pi ) = nu → w = nu t + w sub 0. ✓
+
+Set 2: Conceptual Problems.
+
+Problem 2.6: Why Least Action, Not Least Energy?
+
+A ball rolling down a hill minimizes potential energy at the bottom. Why isn't the fundamental principle "least energy" instead of "least action"?
+
+Solution:
+
+"Least energy" describes equilibrium — a static state. "Least action" (more precisely, stationary action) describes motion — a trajectory through time. The action integrates L = T - V over the entire path, balancing kinetic and potential energy. A ball rolling down a hill increases kinetic energy while decreasing potential; neither is minimized along the trajectory. What is stationary is the action — the time integral of their difference.
+
+The zone framework explains why: the Five Principles constrain the action (Vol 1, Ch 8), not the energy. Energy conservation is a consequence of the action's time-translation symmetry (Noether's theorem), but the action is more fundamental.
+
+Problem 2.7: When Is H not equal to E?
+
+Give a physical example where the Hamiltonian is NOT equal to the total energy, and explain why.
+
+Solution:
+
+Consider a bead on a rotating hoop (Problem 2.2). In the rotating frame, the effective Lagrangian includes a 1 over 2mR to the 2 omega to the 2 to the 2 theta term that looks like negative potential energy. The Hamiltonian (computed from this Lagrangian) is:
+
+the expression
+
+This differs from the total kinetic-plus-potential energy because the constraint (forced rotation at omega) does work on the bead. Condition 2 of §2.4.4 fails: the kinetic energy in the lab frame includes cross terms between theta and omega that make T not purely quadratic in theta.
+
+The Hamiltonian is the conserved quantity associated with time-translation symmetry in the rotating frame — which is not the total energy in the lab frame.
+
+Problem 2.8: What Do Poisson Brackets Mean Physically?
+
+Explain the physical meaning of L sub x, L sub y = L sub z (Eq. 3.2.36) without using any formulas.
+
+Solution:
+
+L sub x, L sub y = L sub z says: if you perform an infinitesimal rotation about the x-axis (generated by L sub x) followed by an infinitesimal rotation about the y-axis (generated by L sub y), and then undo both in reverse order, the net effect is an infinitesimal rotation about the z-axis. The Poisson bracket measures the "failure to commute" of two transformations — and for rotations, rotating about x then y is not the same as rotating about y then x. The difference is a rotation about z.
+
+Problem 2.9: Why Do Canonical Transformations Preserve Physics?
+
+Explain, in terms of the zone framework, why canonical transformations preserve the form of Hamilton's equations.
+
+Solution:
+
+Hamilton's equations arise from the variational principle delta S = 0 applied to the phase-space action (Eq. 3.2.27). Canonical transformations preserve the symplectic form omega = dp dq, which is the geometric structure that makes the variational principle well-defined in phase space.
+
+This is the phase-space analog of diffeomorphism invariance on the zone manifold (Vol 1, Ch 7): just as the zone action is a scalar under coordinate transformations on M sub Z, the phase-space action is invariant (up to boundary terms) under canonical transformations. Physics doesn't depend on how you label the states.
+
+Problem 2.10: From Zone Action to Poisson Brackets
+
+Trace the logical chain from the zone action (Vol 2, Ch 5) to the fundamental Poisson bracket q, p = 1. List each step and the equation where it occurs.
+
+Solution:
+
+1. Zone action S_ total constructed from axioms (Vol 2, Ch 5, Eq. 2.5.1)
+2. Variational principle delta S_ total = 0 gives field equations (Vol 2, Ch 5, Eq. 2.5.21)
+3. Test particle action extracted via KK reduction (Vol 3, Ch 1, Eq. 3.1.7)
+4. Non-relativistic limit gives particle Lagrangian L = T - V (Vol 3, Ch 2, Eq. 3.2.3)
+5. Variational principle gives Euler-Lagrange equations (Eq. 3.2.12)
+6. Legendre transform gives Hamiltonian (Eq. 3.2.23)
+7. Modified Hamilton's principle gives Hamilton's equations (Eq. 3.2.28)
+8. Hamilton's equations imply q, p = 1 (Eq. 3.2.33)
+
+Every step traces back to the zone action. The fundamental Poisson bracket is not a postulate — it is a consequence of the zone framework's variational structure.
+
+Set 3: Challenge Problems.
+
+Problem 2.11: Lagrangian for a Charged Particle from Zone Gauge Coupling
+
+Starting from the zone gauge sector (Vol 2, Ch 5, Eq. 2.5.10) and the matter-gauge coupling in the zone Lagrangian, derive the Lagrangian for a classical charged particle in an electromagnetic field:
+
+[Equation — see print edition.]
+
+Show that the Euler-Lagrange equations give the Lorentz force law.
+
+Solution Sketch:
+
+Start from the matter sector (Eq. 2.5.13) with the covariant derivative D mu = partial  mu + iqA_ mu for U(1). In the test-particle limit, the gauge coupling adds the expression to the worldline action. In the non-relativistic limit:
+
+the expression
+
+Adding to the free-particle Lagrangian: L = 1 over 2mv to the 2 - q phi + q A times x
+
+Canonical momentum: p = m x + q A (Eq. 3.2.22).
+
+Euler-Lagrange for x sub i:
+
+the expression
+
+Expanding the time derivative of A sub i using the chain rule:
+
+the expression
+
+Identifying the expression and the expression:
+
+m x = q( E + v times B)
+
+This is the Lorentz force law — derived from the zone gauge sector.
+
+Problem 2.12: Liouville's Theorem from Hamilton's Equations
+
+Prove Liouville's theorem directly: show that the divergence of the Hamiltonian vector field in phase space vanishes.
+
+Solution:
+
+The Hamiltonian vector field is the expression.
+
+The divergence is:
+
+the expression
+
+by the equality of mixed partials (assuming H is C to the 2).
+
+Since the divergence vanishes, the flow is incompressible, and by the divergence theorem, the volume of any region of phase space is preserved under time evolution. 
+
+Problem 2.13: Hamilton-Jacobi and the Eikonal Equation
+
+Show that the Hamilton-Jacobi equation for a free particle in 3D:
+
+[Equation — see print edition.]
+
+is equivalent to the eikonal equation of geometric optics:
+
+[Equation — see print edition.]
+
+when S = S sub 0( x) - Et and the appropriate identifications are made. Explain why this means light rays are "particle trajectories" and vice versa.
+
+Solution:
+
+For S = S sub 0( x) - Et: | nabla S sub 0| to the 2 = 2mE = p to the 2, i.e., | nabla S sub 0| = p. The gradient nabla S sub 0 points along the momentum — along the trajectory.
+
+For the eikonal equation: consider a monochromatic wave psi = A e to the ik sub 0 phi ( x) in a medium with index n( x). The eikonal approximation (short wavelength limit) gives | nabla phi | to the 2 = n to the 2. The gradient nabla phi points along the ray direction.
+
+Identifying S sub 0/ h-bar k sub 0 phi and p/ h-bar k sub 0 n, the equations are identical. Light rays and particle trajectories are both described by Hamilton-Jacobi theory — the ray is the classical limit of the wave, and the particle trajectory is the classical limit of the quantum wavefunction.
+
+This is the deep reason why optics and mechanics share the same mathematical structure: both are limits of wave theories (electromagnetic theory and quantum mechanics, respectively), and both are governed by variational principles (Fermat's principle for optics, Hamilton's principle for mechanics).
+
+Problem 2.14: Noether's Theorem for Time-Dependent Symmetries
+
+Generalize Noether's theorem to the case where the Lagrangian is invariant under a transformation that also shifts time: t to t + epsilon tau (q), q to the i to q to the i + epsilon xi to the i(q).
+
+Show that the conserved quantity is:
+
+[Equation — see print edition.]
+
+and verify that for tau = 1, xi = 0 (time translation), Q = -H (energy conservation).
+
+Solution:
+
+Under the transformation t to t + epsilon tau, q to the i to q to the i + epsilon xi to the i, the Lagrangian transforms as:
+
+the expression
+
+where delta q to the i = xi to the i - q to the i tau (the change in velocity accounting for the time reparametrization).
+
+Invariance requires delta (L dt) = 0, which gives delta L + L tau = 0.
+
+Using the Euler-Lagrange equations to simplify, and collecting total time derivatives:
+
+the expression
+
+the expression
+
+For tau = 1, xi = 0: Q = -H, so dH/dt = 0 — energy is conserved. 
+
+This chapter has built the complete formal apparatus of classical mechanics — Lagrangian and Hamiltonian — from the variational structure of the zone framework. Every equation traces back to the zone action. The student now has the tools to solve any classical mechanics problem; the next chapters apply them.

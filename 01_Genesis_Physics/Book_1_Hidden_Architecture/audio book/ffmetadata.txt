@@ -1,0 +1,97 @@
+;FFMETADATA1
+title=Genesis Physics: The Hidden Architecture
+artist=Jeff Raymond
+album=Genesis Physics: The Hidden Architecture
+genre=Audiobook
+comment=Genesis Physics Series — Book 1
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=1454640
+title=Chapter 1 — The Most Ignored Page in Science
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=1454640
+END=3270552
+title=Chapter 2 — Reading Genesis Like an Engineer
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3270552
+END=5444208
+title=Chapter 3 — The Architecture Revealed
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=5444208
+END=7480368
+title=Chapter 4 — The Membrane Between Worlds
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7480368
+END=9424776
+title=Chapter 5 — The Hidden Energy
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=9424776
+END=11691216
+title=Chapter 6 — More Room Than You Think
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=11691216
+END=13817448
+title=Chapter 7 — Movement, Pattern, Interface
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=13817448
+END=16068480
+title=Chapter 8 — Seven Days, Seven Patterns
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=16068480
+END=18342624
+title=Chapter 9 — Where Matter Comes From
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=18342624
+END=20827944
+title=Chapter 10 — Why Gravity Pulls and Light Shines
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=20827944
+END=23027736
+title=Chapter 11 — The Rules the Universe Can't Break
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=23027736
+END=25603464
+title=Chapter 12 — Faster Than Light, Darker Than Dark
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=25603464
+END=28049352
+title=Chapter 13 — The Starlight Problem Solved
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=28049352
+END=30155184
+title=Chapter 14 — What This Changes
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30155184
+END=31617576
+title=Chapter 15 — The Road Ahead
+

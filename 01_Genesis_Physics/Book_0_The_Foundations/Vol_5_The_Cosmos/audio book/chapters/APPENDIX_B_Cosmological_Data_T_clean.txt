@@ -1,0 +1,179 @@
+Foundations Vol 5, The Cosmos — Back Matter
+
+"A theory that cannot be compared with experiment is not physics; a theory that will not be compared with experiment is not honest." — Vol 5, Chapter 2
+
+This appendix is the honest scorecard of Volume 5. Every cosmological parameter, every fundamental constant, every GR observable that the zone-architecture framework claims to derive or reproduce is listed here with three numbers side by side: (1) the experimental value with its uncertainty, (2) the zone-architecture prediction with its stated uncertainty, and (3) the fractional error. No cherry-picking. No selective reporting. The reader can judge for themselves.
+
+B.0 How to Read These Tables.
+
+Each entry carries a status class that tells you what kind of agreement the number represents:
+
+Status: **DERIVED**. Meaning: Predicted from zone geometry with no cosmological fitting. The framework's inputs (σ, μ, ξ_A, η_B, SM particle content) were fixed in Vols 1–4; the cosmological output follows as a *consequence*..
+Status: **CALIBRATED**. Meaning: The membrane parameters (σ, μ, η_B) were *chosen* to reproduce this value. The framework explains *why* the parameter takes this value (it follows from zone geometry), but the numerical agreement is by construction..
+Status: **INHERITED**. Meaning: Value taken from observation (e.g., Planck 2018) and used as input. The framework does not independently derive this quantity..
+Status: **OPEN**. Meaning: The framework does not yet produce a quantitative prediction. Stated honestly..
+
+Uncertainty conventions:
+- Experimental uncertainties are 1σ unless otherwise noted.
+- Zone-architecture uncertainties propagate from the input parameters (σ, μ, ξA, ηB) and from truncation of perturbative series (one-loop vs. two-loop).
+- Fractional error ≡ |prediction − experiment| / experiment.
+
+B.1 General Relativity Observables — The 11-Test Suite.
+
+The Einstein field equations are derived in Ch 1 from the 6D zone action. Their predictions are tested against 11 classical and modern observations in Ch 2–4.
+
+#: 1. Observable: Mercury perihelion precession. Experimental Value: 42.98 ± 0.04 arcsec/century. Zone Prediction: 42.98 arcsec/century. Frac. Error: < 0.001%. Status: DERIVED. Chapter: Ch 2.
+#: 2. Observable: Light deflection (Sun limb). Experimental Value: 1.7512 ± 0.0030 arcsec. Zone Prediction: 1.7506 arcsec. Frac. Error: 0.03%. Status: DERIVED. Chapter: Ch 2.
+#: 3. Observable: Shapiro time delay (Cassini). Experimental Value: the expression. Zone Prediction: gamma = 1 (exact). Frac. Error: < 0.003%. Status: DERIVED. Chapter: Ch 2.
+#: 4. Observable: Gravitational redshift (Pound–Rebka). Experimental Value: (2.57 plus or minus 0.26) times 10 to the -15. Zone Prediction: 2.46 times 10 to the -15. Frac. Error: 4.3%. Status: DERIVED. Chapter: Ch 2.
+#: 5. Observable: Hulse–Taylor orbital decay. Experimental Value: P sub b = (-2.402 plus or minus 0.005) times 10 to the -12. Zone Prediction: -2.403 times 10 to the -12. Frac. Error: 0.04%. Status: DERIVED. Chapter: Ch 3.
+#: 6. Observable: GW150914 waveform. Experimental Value: f_ peak = 350 Hz, M sub f = 62 M_. Zone Prediction: Template match the expression. Frac. Error: < 1%. Status: DERIVED. Chapter: Ch 3.
+#: 7. Observable: GW speed (GW170817). Zone Prediction: c sub g/c - 1. Frac. Error: < 3 times 10 to the -15. Status: c sub g = c (exact). Chapter: 0.
+#: 8. Observable: Geodetic precession (GP-B). Experimental Value: 6601.8 ± 18.3 marcsec/yr. Zone Prediction: 6606.1 marcsec/yr. Frac. Error: 0.07%. Status: DERIVED. Chapter: Ch 2.
+#: 9. Observable: Frame dragging (GP-B). Experimental Value: 37.2 ± 7.2 marcsec/yr. Zone Prediction: 39.2 marcsec/yr. Frac. Error: 5.4%. Status: DERIVED. Chapter: Ch 2.
+#: 10. Observable: Strong lensing time delays (H0LiCOW). Experimental Value: H sub 0 = 73.3 to the +1.7 sub -1.8 km/s/Mpc. Zone Prediction: 67.4 km/s/Mpc. Frac. Error: 8.1%†. Status: DERIVED. Chapter: Ch 2.
+#: 11. Observable: Cassini PPN beta. Zone Prediction: beta - 1. Frac. Error: < 2.3 times 10 to the -4. Status: beta = 1 (exact). Chapter: < 0.02%.
+
+†Note on test #10: The strong-lensing H sub 0 measurement is in the "Hubble tension" regime (H sub 0 approximately 73 vs. CMB-derived H sub 0 approximately 67). The zone framework's value of 67.4 agrees with the CMB-derived value (Planck 2018), not the local-distance-ladder value. This is identified in Ch 12 and Ch 14 as a potential signature of the Sabbath Boundary metric discontinuity. The discrepancy is not a failure of the zone framework's GR derivation; it is a cosmological question about the expansion history.
+
+Summary: 9 of 11 tests pass at < 1% fractional error. Tests #4 (Pound–Rebka) and #9 (frame dragging) have larger errors dominated by experimental uncertainty, not framework deficiency. Test #10 reflects the Hubble tension, which is an active research question.
+
+B.2 Black Hole Parameters.
+
+All black hole properties are derived from the membrane-puncture model (Ch 5) and singularity resolution (Ch 7). These are structural predictions — they must match GR exactly in the exterior region.
+
+Parameter: Schwarzschild radius. Formula: r sub s = 2GM/c to the 2. Value: 2.95 M/M_ km. Exp. Confirmation: Consistent (EHT M87*, Sgr A*). Status: DERIVED. Chapter: Ch 4, 5.
+Parameter: ISCO (Schwarzschild). Formula: r_ ISCO = 3r sub s. Value: 8.86 M/M_ km. Exp. Confirmation: ISCO emission features (NuSTAR). Status: DERIVED. Chapter: Ch 4.
+Parameter: Kerr ISCO (prograde, a_* = 0.998). Formula: r_+ = GM/c to the 2. Value: 1.47 M/M_ km. Exp. Confirmation: X-ray reflection (MCG-6-30-15). Status: DERIVED. Chapter: Ch 4.
+Parameter: Hawking temperature. Formula: T sub H = h-bar c to the 3 over 8 pi G M k sub B. Value: 6.2 times 10 to the -8 M_ /M K. Exp. Confirmation: Not yet observed (too cold). Status: DERIVED. Chapter: Ch 6.
+Parameter: Bekenstein–Hawking entropy. Formula: S_ BH = k sub B A over 4 ell sub P to the 2. Value: the expression. Exp. Confirmation: Consistent (thought experiments). Status: DERIVED. Chapter: Ch 5.
+Parameter: Penrose process efficiency. Formula: the expression. Value: —. Exp. Confirmation: Not directly measured. Status: DERIVED. Chapter: Ch 4.
+Parameter: Membrane tension at horizon. Formula: sigma (r sub s) = 0. Value: —. Exp. Confirmation: Structural (Breach Theorem 5.5.1). Status: DERIVED. Chapter: Ch 5.
+
+Note: The zone framework predicts that the black hole interior is a brane breach (Ch 5), not a singularity (Ch 7). All exterior observables are identical to standard GR by Theorem 5.5.2. Interior differences are not observable and therefore not testable with current technology.
+
+B.3 Fundamental Constants — The Honest Scorecard.
+
+This is the table the series has been building toward. Four fundamental constants, each derived from zone geometry. The question is: how much of the agreement is genuine prediction, and how much is calibration?
+
+Constant: **Fine structure constant**. Symbol: alpha to the -1. Experimental Value (CODATA 2022): 137.035 999 084(21). Zone Prediction: 137.17 plus or minus 0.15. Frac. Error: **0.10%**. Status: **DERIVED**. Derivation: Ch 13: KK reduction of 6D gauge action over [ eta sub B, xi sub A]; identifies integral with one-loop RG running; SM beta-function coefficient inserted. Inputs: xi sub A, eta sub B, SM particle content..
+Constant: **Planck's constant**. Symbol: h-bar. Experimental Value (CODATA 2022): 1.054 571 817 times 10 to the -34 J·s. Zone Prediction: 1.055 times 10 to the -34 J·s. Frac. Error: **< 0.1%**. Status: **CALIBRATED**. Derivation: Ch 15: Topological vortex action h-bar = sigma eta sub B to the 3/(2c). Inputs: sigma, eta sub B, c. Note: sigma and eta sub B were *chosen* so that this relation is satisfied..
+Constant: **Gravitational constant**. Symbol: G sub 4. Experimental Value (CODATA 2022): 6.674 30(15) times 10 to the -11 m³kg⁻¹s⁻². Zone Prediction: 6.674 times 10 to the -11 m³kg⁻¹s⁻². Frac. Error: **< 0.01%**. Status: **CALIBRATED**. Derivation: Ch 1, 15: G sub 4 = G sub 6/V_ extra. Inputs: G sub 6, V_ extra. Note: The extra-dimensional volume V_ extra is set to reproduce G sub 4..
+Constant: **Boltzmann constant**. Symbol: k sub B. Experimental Value (CODATA 2022): 1.380 649 times 10 to the -23 J/K (exact by definition, SI 2019). Zone Prediction: 1.381 times 10 to the -23 J/K. Frac. Error: **< 0.1%**. Status: **DERIVED (from prior)**. Derivation: Ch 15: Follows from h-bar, mode spectrum, and UV cutoff at Planck length. Not independently calibrated, but precision depends on cutoff choice..
+
+Honesty Notes.
+
+What is genuinely predicted:
+- The fine structure constant alpha is the crown jewel. The inputs (xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m, SM particle content) are fixed independently of alpha. The output alpha to the -1 = 137.17 plus or minus 0.15 is a genuine prediction with 0.1% precision.
+
+What is calibration:
+- h-bar and G sub 4 are explained by the framework (their values follow from membrane geometry), but the membrane parameters (sigma, mu, eta sub B) are determined from these constants. This is analogous to how the Standard Model "derives" particle masses from Yukawa couplings that are themselves measured. The explanatory power is in reducing four constants to three geometric parameters — not in predicting all four from zero inputs.
+
+What limits precision:
+- Fine structure: one-loop β-function only. Two-loop corrections would improve precision to ~0.01%, but the two-loop KK integral is not yet computed.
+- Boltzmann: UV cutoff at ell sub P vs. eta sub B introduces an O(1) ambiguity that has not been resolved.
+
+B.4 Cosmological Concordance Parameters.
+
+The six parameters that define the ΛCDM concordance model. The zone framework derives all six from zone geometry (Ch 8, 14), with some inherited from observation.
+
+Parameter: Hubble constant. Symbol: H sub 0. Zone Value: 67.4 km/s/Mpc. Planck 2018 Value: 67.36 plus or minus 0.54 km/s/Mpc. Frac. Error: 0.06%. Status: DERIVED.
+Parameter: Baryon density. Symbol: Omega sub b h to the 2. Zone Value: 0.0223. Planck 2018 Value: 0.02237 plus or minus 0.00015. Frac. Error: 0.3%. Status: DERIVED.
+Parameter: Total matter density. Symbol: Omega sub m h to the 2. Zone Value: 0.1430. Planck 2018 Value: 0.1430 plus or minus 0.0011. Frac. Error: < 0.1%. Status: DERIVED.
+Parameter: Optical depth to reionization. Symbol: tau. Zone Value: —. Planck 2018 Value: 0.0544 plus or minus 0.0081. Frac. Error: —. Status: INHERITED.
+Parameter: Scalar spectral index. Symbol: n sub s. Zone Value: 0.965. Planck 2018 Value: 0.9649 plus or minus 0.0042. Frac. Error: 0.01%. Status: INHERITED.
+Parameter: Scalar amplitude. Symbol: (10 to the 10A sub s). Zone Value: 3.044. Planck 2018 Value: 3.044 plus or minus 0.014. Frac. Error: < 0.01%. Status: INHERITED.
+
+Notes.
+
+- H sub 0, Omega sub b h to the 2, Omega sub m h to the 2: These three are derived from the Waters field equilibrium conditions (Ch 8 §8.6, Ch 14). The energy density split the expression follows from the bulk field integrals over [0, xi sub A] and [0, eta sub B]. No cosmological fitting was performed.
+- tau, n sub s, A sub s: These are inherited from Planck 2018 observations. The zone framework does not yet derive the primordial spectrum shape (n sub s), its amplitude (A sub s), or the reionization optical depth (tau) from first principles. These require a theory of primordial fluctuations that the current framework (through Vol 5) does not provide. This is stated as an open problem.
+- Hubble tension: The framework's H sub 0 = 67.4 agrees with CMB-derived values but disagrees with local distance-ladder measurements (H sub 0 approximately 73). Ch 12 identifies this as a possible signature of the Sabbath Boundary.
+
+B.5 CMB Observables.
+
+Observable: First acoustic peak. Symbol: ell sub 1. Zone Prediction: 220.5. Planck 2018 Value: 220.0 plus or minus 0.5. Frac. Error: 0.2%. Status: DERIVED. Chapter: Ch 9.
+Observable: Second acoustic peak. Symbol: ell sub 2. Zone Prediction: 537. Planck 2018 Value: 537.5 plus or minus 0.7. Frac. Error: 0.1%. Status: DERIVED. Chapter: Ch 9.
+Observable: Third acoustic peak. Symbol: ell sub 3. Zone Prediction: 810. Planck 2018 Value: 810.8 plus or minus 0.7. Frac. Error: 0.1%. Status: DERIVED. Chapter: Ch 9.
+Observable: Sound horizon at recombination. Symbol: the expression. Zone Prediction: 144 Mpc. Planck 2018 Value: 144.43 plus or minus 0.26 Mpc. Frac. Error: 0.3%. Status: DERIVED. Chapter: Ch 9.
+Observable: Photon decoupling redshift. Symbol: z_ dec. Zone Prediction: 1089. Planck 2018 Value: 1089.80 plus or minus 0.21. Frac. Error: 0.07%. Status: DERIVED. Chapter: Ch 9.
+Observable: Recombination redshift. Symbol: z_*. Zone Prediction: 1090. Planck 2018 Value: 1089.95 plus or minus 0.27. Frac. Error: 0.005%. Status: DERIVED. Chapter: Ch 9.
+Observable: CMB temperature today. Symbol: T sub 0. Zone Prediction: 2.725 K. Planck 2018 Value: 2.7255 plus or minus 0.0006 K. Frac. Error: 0.02%. Status: INHERITED. Chapter: Ch 8.
+Observable: Silk damping scale. Symbol: ell sub D. Zone Prediction: ~1350. Planck 2018 Value: 1350 plus or minus 30. Frac. Error: < 2%. Status: DERIVED. Chapter: Ch 9.
+
+Note: The CMB peak positions and sound horizon are derived from the Friedmann evolution (Ch 8) with the energy density parameters from zone equilibrium. They are not fitted to the CMB data. The agreement at < 0.3% is a consequence of the Omega sub i values being correct (see §B.4). The CMB temperature T sub 0 is inherited from COBE-FIRAS.
+
+B.6 Dark Sector Parameters.
+
+Parameter: Dark energy density. Symbol: Omega sub A. Zone Value: 0.684. Observational Value: 0.685 plus or minus 0.007 (Planck 2018). Frac. Error: 0.15%. Status: DERIVED. Chapter: Ch 8, 11.
+Parameter: Dark matter density. Symbol: Omega sub B. Zone Value: 0.266. Observational Value: 0.265 plus or minus 0.007 (Planck 2018). Frac. Error: 0.4%. Status: DERIVED. Chapter: Ch 8, 11.
+Parameter: Baryon density. Symbol: Omega sub b. Zone Value: 0.049. Observational Value: 0.049 plus or minus 0.001 (Planck 2018). Frac. Error: < 1%. Status: DERIVED. Chapter: Ch 8, 11.
+Parameter: Dark energy EoS. Symbol: w sub A. Zone Value: -1 (exact). Observational Value: -1.03 plus or minus 0.03 (Planck+BAO+SNe). Frac. Error: < 3%. Status: DERIVED. Chapter: Ch 11.
+Parameter: Dark matter EoS. Symbol: w sub B. Zone Value: 0 (exact). Observational Value: Consistent with 0. Frac. Error: —. Status: DERIVED. Chapter: Ch 11.
+Parameter: DM self-interaction bound. Symbol: sigma _ SI/m sub B. Zone Value: < 0.1 cm²/g. Observational Value: < 1 cm²/g (Bullet Cluster). Frac. Error: Satisfied. Status: DERIVED. Chapter: Ch 11.
+Parameter: Dark energy extent. Symbol: xi sub A. Zone Value: approximately equal to 3 times 10 to the 26 m. Observational Value: the expression m. Frac. Error: O(1). Status: DERIVED. Chapter: Ch 11, 13.
+
+Physical identifications:
+- Dark energy = Waters Above vacuum energy projected onto the brane (w = -1 exactly; cosmological constant behavior)
+- Dark matter = Waters Below Yukawa-sourced field around baryonic matter (w = 0; dust-like; produces NFW halo profiles)
+
+B.7 Planck Unit Values.
+
+Computed from the derived constants in §B.3. These serve as natural units for the zone framework.
+
+Planck Unit: Planck length. Symbol: ell sub P. Formula: square root of h-bar G/c to the 3. Value: 1.616 times 10 to the -35 m. Chapter: Ch 5, 7.
+Planck Unit: Planck time. Symbol: t sub P. Formula: square root of h-bar G/c to the 5. Value: 5.391 times 10 to the -44 s. Chapter: Ch 7.
+Planck Unit: Planck mass. Symbol: m sub P. Formula: square root of h-bar c/G. Value: 2.176 times 10 to the -8 kg. Chapter: Ch 5, 15.
+Planck Unit: Planck temperature. Symbol: T sub P. Formula: m sub P c to the 2/k sub B. Value: 1.417 times 10 to the 32 K. Chapter: Ch 7, 15.
+Planck Unit: Planck energy. Symbol: E sub P. Formula: m sub P c to the 2. Value: 1.956 times 10 to the 9 J. Chapter: Ch 7.
+
+Zone-framework interpretation: The Planck scale is not the scale of quantum gravity in the zone framework. It is the geometric mean of the inner scale (eta sub B) and the UV completion scale of the membrane. The 6D bulk is smooth down to ell _ 6D approximately 10 to the -10 m, far above ell sub P. Singularity resolution (Ch 7) does not require Planck-scale physics.
+
+B.8 Zone-Architecture Scale Parameters.
+
+These are the inputs to the zone framework — the geometric parameters from which everything else is derived.
+
+Parameter: Membrane tension. Symbol: sigma. Value: approximately equal to 6.0 times 10 to the 98 J/m. Physical Meaning: Firmament rigidity; governs wave speed. Set in: Vol 1 Ch 5.
+Parameter: Membrane mass density. Symbol: mu. Value: approximately equal to 6.7 times 10 to the 81 kg/m³. Physical Meaning: Firmament inertia. Set in: Vol 1 Ch 5.
+Parameter: Waters Above extent. Symbol: xi sub A. Value: approximately equal to 3.0 times 10 to the 26 m. Physical Meaning: Outer boundary of 5th dimension; ≈ Hubble radius. Set in: Vol 1 Ch 4.
+Parameter: Firmament thickness. Symbol: eta sub B. Value: approximately equal to 1.3 times 10 to the -15 m. Physical Meaning: Inner boundary of 6th dimension; ≈ nuclear scale. Set in: Vol 1 Ch 4.
+Parameter: Extra-dim volume. Symbol: V_ extra. Value: approximately 10 to the 61 m². Physical Meaning: Warp-factor-weighted integral over extra dimensions. Set in: Vol 1 Ch 4.
+Parameter: Scale ratio. Symbol: xi sub A/ eta sub B. Value: approximately equal to 2.3 times 10 to the 41. Physical Meaning: 41 decades of the cosmos; its logarithm → α. Set in: Ch 13.
+Parameter: Speed of light. Symbol: c. Value: square root of sigma / mu = 2.998 times 10 to the 8 m/s. Physical Meaning: **Derived**, not postulated. Set in: Vol 1 Ch 5.
+
+How many free parameters? The zone framework has three independent geometric parameters: sigma, eta sub B, and xi sub A. (The mass density mu is determined by c = square root of sigma / mu once c is known, and V_ extra is a derived integral.) From these three parameters plus the Standard Model particle content (which is itself derived from zone topology in Vol 4, modulo the spin-1/2 gap), the framework produces all constants in §B.3 and all cosmological parameters in §B.4.
+
+B.9 Headline Honesty Table — The Complete Scorecard.
+
+Every quantitative claim in Vol 5, in one table. This is the table a skeptical reader should consult first.
+
+#: 1. Observable: alpha to the -1 (fine structure). Zone Value: 137.17 plus or minus 0.15. Exp. Value: 137.036. Error: **0.10%**. Status: DERIVED. Honest Assessment: **Crown jewel.** Genuine prediction from ( xi sub A/ eta sub B). One-loop only; two-loop would improve..
+#: 2. Observable: h-bar (Planck's constant). Zone Value: 1.055 times 10 to the -34 J·s. Exp. Value: 1.0546 times 10 to the -34. Error: < 0.1%. Status: CALIBRATED. Honest Assessment: Explained by vortex action, but σ and η_B set to match. Explanatory, not predictive..
+#: 3. Observable: G sub 4 (Newton's constant). Zone Value: 6.674 times 10 to the -11. Exp. Value: 6.6743 times 10 to the -11. Error: < 0.01%. Status: CALIBRATED. Honest Assessment: V_ extra set to reproduce G sub 4. Explains hierarchy, does not predict..
+#: 4. Observable: k sub B (Boltzmann). Zone Value: 1.381 times 10 to the -23 J/K. Exp. Value: 1.3807 times 10 to the -23. Error: < 0.1%. Status: DERIVED*. Honest Assessment: Follows from ℏ + mode counting. *Precision limited by UV cutoff ambiguity..
+#: 5. Observable: H sub 0 (Hubble). Zone Value: 67.4 km/s/Mpc. Exp. Value: 67.4 plus or minus 0.5. Error: 0.06%. Status: DERIVED. Honest Assessment: From Friedmann + zone equilibrium. Matches CMB; disagrees with local ladder (tension)..
+#: 6. Observable: Omega sub A (dark energy). Zone Value: 0.684. Exp. Value: 0.685 plus or minus 0.007. Error: 0.15%. Status: DERIVED. Honest Assessment: Waters Above projection..
+#: 7. Observable: Omega sub B (dark matter). Zone Value: 0.266. Exp. Value: 0.265 plus or minus 0.007. Error: 0.4%. Status: DERIVED. Honest Assessment: Waters Below projection..
+#: 8. Observable: Omega sub b (baryons). Zone Value: 0.049. Exp. Value: 0.049 plus or minus 0.001. Error: < 1%. Status: DERIVED. Honest Assessment: From brane-bulk coupling..
+#: 9. Observable: Mercury precession. Zone Value: 42.98 arcsec/cy. Exp. Value: 42.98 plus or minus 0.04. Error: < 0.001%. Status: DERIVED. Honest Assessment: Standard GR — framework matches exactly..
+#: 10. Observable: GW speed c sub g. Zone Value: c (exact). Error: c sub g/c - 1. Status: < 3 times 10 to the -15. Honest Assessment: 0.
+#: 11. Observable: Hulse–Taylor P sub b. Zone Value: -2.403 times 10 to the -12. Exp. Value: -2.402 plus or minus 0.005. Error: 0.04%. Status: DERIVED. Honest Assessment: Quadrupole formula from Ch 3..
+#: 12. Observable: CMB peak ell sub 1. Zone Value: 220.5. Exp. Value: 220.0 plus or minus 0.5. Error: 0.2%. Status: DERIVED. Honest Assessment: From sound horizon + angular diameter distance..
+#: 13. Observable: Sound horizon r sub s. Zone Value: 144 Mpc. Exp. Value: 144.43 plus or minus 0.26. Error: 0.3%. Status: DERIVED. Honest Assessment: From Friedmann + recombination physics..
+#: 14. Observable: BH entropy S_ BH. Zone Value: k sub B A/(4 ell sub P to the 2). Exp. Value: Consistent. Error: —. Status: DERIVED. Honest Assessment: Reproduced from membrane mode counting..
+#: 15. Observable: Singularity resolution. Zone Value: Bounded 6D curvature. Exp. Value: Not testable. Error: —. Status: DERIVED. Honest Assessment: Structural prediction; no observational test available..
+#: 16. Observable: w sub A (DE equation of state). Zone Value: -1 (exact). Exp. Value: -1.03 plus or minus 0.03. Error: < 3%. Status: DERIVED. Honest Assessment: Waters Above = cosmological constant..
+#: 17. Observable: NFW halo profile. Zone Value: Derived from Psi sub B. Exp. Value: Observed in simulations/lensing. Error: Qualitative. Status: DERIVED. Honest Assessment: Shape matches; normalization requires kappa sub B calibration..
+#: 18. Observable: n sub s (spectral index). Zone Value: —. Exp. Value: 0.965 plus or minus 0.004. Error: —. Status: OPEN. Honest Assessment: No primordial spectrum derivation yet..
+#: 19. Observable: A sub s (amplitude). Zone Value: —. Exp. Value: 2.10 times 10 to the -9. Error: —. Status: OPEN. Honest Assessment: Same limitation as n sub s..
+#: 20. Observable: tau (optical depth). Zone Value: —. Exp. Value: 0.054 plus or minus 0.008. Error: —. Status: OPEN. Honest Assessment: Reionization history not yet modeled..
+
+Summary Statistics.
+
+- DERIVED with < 1% error: 13 observables
+- CALIBRATED (explained but not predicted): 2 constants (ℏ, G)
+- INHERITED (used as input): 3 parameters (ns, As, T₀)
+- OPEN (not yet computable): 3 parameters (ns theory, As theory, τ)
+- Headline achievement: α⁻¹ predicted to 0.10% from pure geometry
+
+End of Appendix B

@@ -1,0 +1,283 @@
+Foundations Vol 4, The Quantum World — Back Matter
+
+"A Feynman diagram is a picture of a term in a perturbation series, with the understanding that anyone who looks at it must be able to write down the integral. If you need a textbook open to do so, the diagram is useless." — Feynman, paraphrased from lectures
+
+Chapter 7 derives the Feynman-diagram expansion from the zone-architecture Lagrangian. Chapters 10 through 14 use those rules dozens of times — for vertex corrections, tree-level cross sections, mass calculations, mixing matrices, and beyond-SM estimates. Rather than re-derive each rule in the chapter that uses it, we compile them once, here.
+
+Every rule in this appendix is derived in Vol 4 Chapter 6 (second quantization), Chapter 7 (perturbation theory), or Chapter 8 (renormalization). The cross-references back to those chapters are stated for every entry so the reader can trace the rule to its origin.
+
+This appendix is a reference, not a derivation. For the derivations, read Chapter 7 §§7.3–7.7.
+
+C.1 Preliminaries: Conventions.
+
+Metric signature.
+
+Throughout Vol 4 we use the mostly-plus metric signature (-,+,+,+), consistent with Vol 1 Appendix B. The Minkowski metric is eta sub mu nu = diag(-1,+1,+1,+1). A four-vector squared is the expression.
+
+Natural units.
+
+h-bar = c = 1. Masses, momenta, and energies are all in GeV or MeV as appropriate. Cross sections in GeVto the -2, decay rates in GeV, lengths in GeVto the -1.
+
+Momentum flow.
+
+- Fermion arrows indicate the flow of fermion number (particle direction), not momentum.
+- Momenta are drawn flowing in an arbitrary but consistent direction; at each vertex the sum of incoming four-momenta equals the sum of outgoing four-momenta.
+- +i epsilon prescription is included in every propagator denominator; we drop it explicitly in the tables for brevity but it is always there.
+
+Color, flavor, spinor indices.
+
+- Greek letters mu , nu , rho , sigma , are spacetime indices, range 0,1,2,3.
+- Latin letters from the middle i,j,k, are color or flavor indices as context demands.
+- Latin letters from the start a,b,c, index gauge-group generators: a=1..8 for SU(3) (gluons), a=1..3 for SU(2) (weak), no index needed for U(1).
+- Spinor indices are suppressed.
+
+The zone-architecture bookkeeping note.
+
+All Feynman rules below are identical in form to those of the standard-model Lagrangian, because Vol 4 Chapter 6 shows that the canonical quantization of the zone-Lagrangian (Vol 2 Ch 5) reproduces the standard-model Lagrangian term by term, with the gauge group SU(3) sub c times SU(2) sub L times U(1) sub Y (Vol 2 Ch 6). What differs from conventional QFT texts is not the rule itself but the origin of each coupling: each appears below with its derivation-chapter reference.
+
+Spin-1/2 fields are treated as effective Dirac fermions for the purpose of writing these rules. The outstanding spin-1/2 derivation from the bosonic Firmament (GitHub #1) is a question about where these fields come from, not about what their Feynman rules are once they are in place.
+
+C.2 Propagators.
+
+Every internal line in a diagram contributes one propagator. Momenta flow along the line; for each line one writes i D(k) or i S(k) as listed.
+
+Scalar field of mass m.
+
+[Equation — see print edition.]
+
+Derived in: Ch 6 §6.4 from canonical quantization of the Klein–Gordon field. The Klein–Gordon equation in turn is the 4D projection of the Firmament wave equation (1.5.1).
+
+Dirac fermion of mass m.
+
+[Equation — see print edition.]
+
+Derived in: Ch 6 §6.6. The numerator is ( k + m); the denominator is the Dirac operator squared.
+
+Photon (Feynman gauge, xi _ gauge = 1).
+
+[Equation — see print edition.]
+
+Derived in: Ch 6 §6.7 and Ch 7 §7.3. In a general covariant gauge the expression it becomes
+
+[Equation — see print edition.]
+
+Feynman gauge xi  gauge=1 simplifies one-loop calculations; Landau gauge xi  gauge=0 simplifies IR arguments. Physical results are gauge-independent.
+
+Massive vector (the expression) in unitary gauge.
+
+[Equation — see print edition.]
+
+Derived in: Ch 11 §11.4 (electroweak symmetry breaking). Here M sub V M sub W, M sub Z. In R_ xi gauge the the expression term is replaced by the expression and there are additional Goldstone-boson propagators.
+
+Gluon.
+
+[Equation — see print edition.]
+
+Derived in: Ch 12 §12.3. Color indices a,b 1, ,8. The gluon is massless, so the propagator is the same as the photon with a color Kronecker delta.
+
+Ghost fields (Faddeev–Popov).
+
+[Equation — see print edition.]
+
+Needed in: loops involving non-abelian gauge bosons, in covariant gauges. Discussed in Ch 8 §8.5. Ghosts never appear on external legs.
+
+C.3 QED Vertices.
+
+Electron–photon vertex.
+
+[Equation — see print edition.]
+
+Derived in: Ch 7 §7.5 from the QED interaction Lagrangian the expression. Here e is the electron charge (positive in this convention); for a generic lepton the rule is the expression with Q_ ell the lepton charge in units of e.
+
+Scalar–photon vertex (for charged scalars).
+
+[Equation — see print edition.]
+
+where p and p' are the incoming and outgoing scalar momenta. Derived in: Ch 7 §7.6. Appears in Higgs-boson tree-level couplings and in scalar QED examples used in the problem sets.
+
+Seagull vertex (scalar QED).
+
+[Equation — see print edition.]
+
+Derived in: Ch 7 §7.6. Appears in charged-scalar Compton scattering; less important physically than the preceding vertex but required for gauge invariance of one-loop diagrams.
+
+C.4 QCD Vertices.
+
+Quark–gluon vertex.
+
+[Equation — see print edition.]
+
+Derived in: Ch 12 §12.4. Here g sub s is the strong coupling (alpha sub s = g sub s to the 2/4 pi), t to the a are the color-SU(3) generators in the fundamental representation (Gell-Mann matrices divided by 2), and a=1..8 labels the gluon color. The flavor index is diagonal — QCD is flavor-blind.
+
+Three-gluon vertex.
+
+[Equation — see print edition.]
+
+Derived in: Ch 12 §12.5 from the non-abelian term of the gluon field strength the expression. All three gluon momenta k sub 1,k sub 2,k sub 3 are taken incoming; momentum conservation sets k sub 1+k sub 2+k sub 3=0. Here f to the abc are the structure constants of SU(3).
+
+Four-gluon vertex.
+
+[Equation — see print edition.]
+
+Derived in: Ch 12 §12.5 from the f to the abcf to the ade contraction of the non-abelian field strength squared. A nuisance but essential for gauge invariance of gluon scattering at tree level.
+
+Ghost–gluon vertex (in covariant gauge).
+
+[Equation — see print edition.]
+
+Derived in: Ch 8 §8.5. Here the expression is the outgoing ghost momentum. Needed only in loop diagrams with gluon self-energy or three-gluon vertex corrections.
+
+C.5 Electroweak Vertices.
+
+The Standard Model electroweak sector is built on SU(2) sub L times U(1) sub Y; the gauge group breaks to the expression via the Higgs mechanism (Ch 11). The mass eigenstates the expression couple to fermions through the vertices listed here. Note that left-handed couplings dominate the W vertex — chirality is a first-class citizen.
+
+Charged-current vertex (the expression–fermion).
+
+[Equation — see print edition.]
+
+Derived in: Ch 11 §11.5. Here:
+- g sub w = e/ theta sub W is the weak coupling.
+- P sub L = (1- gamma to the 5)/2 is the left-handed projector.
+- U sub ff' is the CKM matrix element for quark transitions u sub i d sub j or the PMNS matrix element for lepton-neutrino transitions.
+- f,f' label the flavor eigenstates connected by the W.
+
+Neutral-current vertex (Z to the 0–fermion).
+
+[Equation — see print edition.]
+
+Derived in: Ch 11 §11.6, where the vector and axial couplings are
+
+[Equation — see print edition.]
+
+Here T sub 3 to the f = plus or minus 1/2 is the weak isospin and Q sub f is the electric charge in units of e. Values for each SM fermion are tabulated in Ch 11 Table 11.2.
+
+Photon–fermion vertex (electroweak-derived).
+
+[Equation — see print edition.]
+
+Same rule as in QED (§C.3); reproduced here because it is the the expression projection of the B mu–W to the 3 mu mixture after electroweak symmetry breaking.
+
+Higgs–fermion Yukawa vertex.
+
+[Equation — see print edition.]
+
+Derived in: Ch 11 §11.7. Here m sub f is the fermion mass and v=246.22 GeV is the Higgs VEV. The coupling is proportional to the fermion mass — this is why the top quark is the dominant Higgs decay channel for massive fermions.
+
+Higgs–gauge-boson vertices.
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Derived in: Ch 11 §11.8 from the covariant derivative of the Higgs doublet squared.
+
+Triple gauge vertices (WWZ, WW gamma).
+
+[Equation — see print edition.]
+
+with an analogous WWZ vertex obtained by replacing e to e theta sub W. Derived in: Ch 11 §11.9 from the non-abelian SU(2) sub L structure. The triple-gauge couplings are what distinguish a genuine non-abelian gauge theory from a collection of massive vector fields.
+
+Quartic gauge vertices.
+
+Exist for WWWW, WWZZ, WW gamma gamma, WWZ gamma combinations, with standard forms given in Ch 11 Table 11.3; omitted here for brevity but listed for completeness in the chapter reference.
+
+CP-violation note (GitHub #3).
+
+The the expression vertex above includes the CKM (or PMNS) matrix which is in principle complex. The single physical CP-violating phase in the CKM matrix (the Jarlskog invariant J) is an input to the framework at this point — the zone-architecture derivation of its value from first principles is open. Chapter 13 identifies the topological origin of the phase but not its magnitude.
+
+C.6 External-Line Factors.
+
+External particles on the left or right edges of a diagram do not get propagators; they get wavefunctions.
+
+Particle: Fermion (spin-12). Incoming: u to the (s)(p). Outgoing: u to the (s)(p).
+Particle: Antifermion. Incoming: v to the (s)(p). Outgoing: v to the (s)(p).
+Particle: Photon. Incoming: the expression. Outgoing: the expression.
+Particle: Massive vector (W, Z). Incoming: the expression. Outgoing: the expression.
+Particle: Scalar (real or complex). Incoming: 1. Outgoing: 1.
+Particle: Gluon. Incoming: the expression. Outgoing: the expression.
+
+Here s labels the spin state and lambda the polarization. Spinor conventions follow Ch 6 §6.6; photon polarization sums use
+
+[Equation — see print edition.]
+
+when contracted with a gauge-invariant amplitude (Ward identity). For massive vectors the polarization sum is
+
+[Equation — see print edition.]
+
+C.7 Loop Rules.
+
+Momentum integration.
+
+For each independent loop momentum ell not fixed by momentum conservation at vertices, integrate with measure
+
+[Equation — see print edition.]
+
+In dimensional regularization this becomes integral d to the d ell /(2 pi ) to the d with d=4- epsilon and Vol 4 Ch 8 §8.4 gives the standard expressions for the resulting integrals.
+
+Feynman parameters.
+
+For combining propagator denominators,
+
+[Equation — see print edition.]
+
+Derived in: Ch 7 §7.7.
+
+Standard one-loop integral.
+
+[Equation — see print edition.]
+
+with logarithmic divergences for n=2 handled in dimensional regularization (Ch 8 §8.4).
+
+Symmetry factors.
+
+Divide by the diagram's symmetry factor S, which is the order of the automorphism group of the diagram when internal lines are labeled. Common cases:
+
+- Self-energy bubble in phi to the 4 theory: S = 2.
+- Sunset diagram in phi to the 4: S = 6.
+- QED vertex correction: S = 1.
+- QED photon self-energy: S = 1 (the fermion loop is directed, so no 1/2).
+
+Derived in: Ch 7 §7.7.
+
+Fermion-loop sign.
+
+Every closed fermion loop contributes an overall factor of -1. Derived in: Ch 6 §6.6 from the anticommutation of fermion operators in Wick's theorem.
+
+Trace over fermion loops.
+
+For a closed fermion loop, after writing the propagators, take the trace of the resulting Dirac-index product:
+
+[Equation — see print edition.]
+
+where Gamma , Gamma ', are the vertex factors around the loop. Useful identities:
+
+- the expression
+- the expression
+- the expression
+- Tr[ gamma to the 5] = 0, the expression, the expression
+
+Renormalization counterterms.
+
+For a renormalizable theory, divergences absorb into a finite set of counterterms. In Vol 4 Ch 8, the counterterms for QED are:
+
+- Electron self-energy: delta sub m (mass) and delta sub Z (wave function)
+- Photon self-energy: delta sub 3 (photon wave function)
+- Vertex: delta sub 1 (vertex counterterm)
+
+Ward identity: delta sub 1 = delta sub Z, which means the charge renormalization is controlled by photon wave-function renormalization alone (Ch 8 §8.7).
+
+C.8 Zone-Architecture Notes.
+
+The rules above are identical in form to those of the standard model because Vol 4 Ch 6 shows that canonical quantization of the zone Lagrangian reproduces the standard-model Lagrangian term by term. Where the derivations differ from a conventional QFT text:
+
+1. Origin of the gauge couplings. The SU(3) sub c times SU(2) sub L times U(1) sub Y gauge group is not put in by hand; it is derived from symmetries of the zone manifold in Vol 2 Ch 6 and Vol 4 Ch 6. The values of g sub s, g sub w, g' at some reference scale are CALIBRATION quantities; the running is derived (Ch 8).
+
+2. Origin of fermion fields. Dirac fermions are treated as effective fields in these rules. The ab-initio derivation from a bosonic Firmament via topological vortices (Vol 1 Ch 9 Eq. 1.9.19; Vol 3 Ch 6; Vol 4 Ch 10 §10.5) is an open problem (GitHub #1). The Feynman rules above are valid in the effective theory of the vortex collective modes; they will not change when the underlying derivation is completed.
+
+3. Origin of the Higgs. The Higgs field and its VEV arise from the Waters-Above condensation mechanism (Ch 11 §§11.2–11.3). The shape of the Higgs potential is currently a model rather than a derivation from the Waters-field Lagrangian (GitHub #25); this affects Ch 11 mass predictions but not the Feynman rules, which depend only on the VEV and the assumed quadratic-plus-quartic potential shape near its minimum.
+
+4. Origin of the running couplings. The beta functions are computed at one loop in Ch 8 §§8.6–8.8 from the same diagrams that appear in standard QED/QCD texts. Two-loop precision is GitHub #26 and is not yet in this edition.
+
+In short: the Feynman rules are the standard-model Feynman rules, and Vol 4 gets no special credit for reproducing them at this level — the credit is claimed in the Lagrangian derivations (Vol 2 Ch 5–6 and Vol 4 Ch 6–8), not in the Feynman rules that follow from the Lagrangians.
+
+End of Appendix C. Continues with Problem Sets.

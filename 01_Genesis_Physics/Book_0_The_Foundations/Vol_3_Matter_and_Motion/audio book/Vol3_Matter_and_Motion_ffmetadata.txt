@@ -1,0 +1,101 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 3 — Matter and Motion
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 3 — Matter and Motion
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=3674184
+title=Chapter 1: Newton's Laws as Theorems
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=3674184
+END=8247624
+title=Chapter 2: Lagrangian and Hamiltonian Mechanics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=8247624
+END=12750504
+title=Chapter 3: Central Force Problems
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=12750504
+END=15408432
+title=Chapter 4: Rigid Body Dynamics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15408432
+END=19669632
+title=Chapter 5: Continuum Mechanics and Fluid Dynamics
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=19669632
+END=23865336
+title=Chapter 6: Standing Waves and Stable Configurations
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=23865336
+END=27480144
+title=Chapter 7: The Origin of Mass
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=27480144
+END=30736776
+title=Chapter 8: Phase Transitions in Zone Architecture
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=30736776
+END=35054064
+title=Chapter 9: The Four Laws — Complete Derivation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=35054064
+END=38636952
+title=Chapter 10: Statistical Mechanics on the Zone Manifold
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=38636952
+END=42159120
+title=Chapter 11: Kinetic Theory and Transport
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=42159120
+END=46658544
+title=Chapter 12: Entropy, Information, and the Arrow of Time
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=46658544
+END=47861112
+title=APPENDIX A: Key Results from Volumes 1–2
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=47861112
+END=49884288
+title=APPENDIX B: Experimental Mechanics Data
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=49884288
+END=51580440
+title=Bibliography — Volume 3: Matter and Motion
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=51580440
+END=54307152
+title=Problem Sets with Selected Solutions — Volume 3

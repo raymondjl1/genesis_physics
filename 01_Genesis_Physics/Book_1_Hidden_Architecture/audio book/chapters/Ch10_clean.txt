@@ -1,0 +1,231 @@
+Chapter 10. Chapter 10 — Why Gravity Pulls and Light Shines.
+
+The same hardware, doing two jobs.
+
+There is a specific view I carried around Hood River for most of a decade, and it is worth standing in before the physics starts.
+
+A ScanEagle on a test stand. Small airframe, long slender wing, a nose full of sensors, an engine behind a prop, avionics packed into every cubic inch that will hold them. The drone is tied down to a fixture that can measure thrust and vibration. The engine is running. The radios are up. The spectrum analyzers on the bench are watching the airframe and the datalink and the GPS receiver and the telemetry link all at once.
+
+What every engineer in that cell is doing, all day, every day, is managing two kinds of physics on the same piece of hardware simultaneously.
+
+The first kind is gravity. The airframe has weight. The fuel has weight, and the weight changes as the fuel burns. The center of gravity shifts when the payload shifts. The thrust has to overcome weight to get off the rail, and the wing has to generate lift equal to weight to stay in the air. Gravity is not a topic we think about in that cell. It is a constant presence — a bookkeeping operation the world is doing on the airframe, every second, whether we are watching or not. The drone's existence is a long argument with gravity that we have to win every second it is airborne.
+
+The second kind is electromagnetism. The radios are radiating. The datalink is pushing a carrier out of the airframe and punching through the test-cell walls to the ground station across the parking lot. The GPS receiver is picking up satellite signals from twelve thousand miles up — signals that are electromagnetic waves from birds orbiting in the dark over us. The avionics bus is running differential signaling at a specific impedance. The engine's ignition coil is kicking a spark across a plug gap that hammers the RF spectrum with broadband noise that the shielding is supposed to keep out of everything else. Electromagnetism is also not a topic we think about in that cell. It is also a constant presence — another bookkeeping operation the world is doing on the airframe, every second.
+
+What the engineers in the cell do not do, ever, is treat those two kinds of physics as coming from two different worlds. They are two inputs to the same flight model. The drone is one object, and the world is doing two kinds of accounting on it at the same time.
+
+That operator posture — one object, two kinds of accounting — is what I want to bring into the physics itself.
+
+Because the claim the chapter is about to make is that this is not a coincidence of engineering. It is not that the drone happens to experience two separate force laws that the textbooks arrange on adjacent shelves. The claim is that the two kinds of accounting the world is doing on the airframe are two different views of the same underlying thing. Not an analogy. A mechanism. Gravity and electromagnetism are two behaviors of one substrate — the firmament, the stretched 4D membrane Chapter 4 laid out and Chapter 9 put particles on.
+
+That is the chapter.
+
+Two forces, two frameworks, no unification.
+
+Before I can claim a unification I need to name what the field actually has, without flinching.
+
+Mainstream physics has two theories for the two most familiar forces, and they are two of the most precisely tested scientific theories in the history of the species.
+
+General relativity, Einstein's 1915 theory, describes gravity as the curvature of spacetime under mass and energy. It predicts the perihelion precession of Mercury, the bending of starlight by the sun, the slowing of clocks in gravitational fields, the orbital decay of binary pulsars, the specific waveforms of gravitational waves from colliding black holes. Every one of those predictions has been tested, and every one has come in consistent with the theory. The field's internal joke is that if you want a gravitational measurement that disagrees with general relativity, you will have to invent a better experiment than anyone has invented yet.
+
+Quantum electrodynamics, the Feynman-Schwinger-Tomonaga theory of the 1940s, describes electromagnetism at the quantum level as the exchange of photons between charged particles. It predicts the magnetic moment of the electron to more than ten decimal places of agreement with measurement — a precision that corresponds, roughly, to measuring the distance between Los Angeles and New York to within the width of a human hair. QED is the most precisely tested quantitative theory of anything, ever.
+
+Both theories are real. Both are successful. Both match nature, separately, to extraordinary precision.
+
+And they do not fit together.
+
+The attempt to fuse them — to build a single mathematical theory in which gravity is quantized the way electromagnetism is quantized — runs into infinities in the quantum treatment of gravity that nobody has managed to renormalize. Every promising candidate produces divergent integrals that cannot be tamed by the standard techniques that work for QED. String theory has been the largest organized attempt at fusion for forty years and has produced a beautiful mathematical structure without yet producing a set of quantitative predictions that match nature better than the existing separate theories do. Loop quantum gravity, causal dynamical triangulations, asymptotic safety, twistor theory — each is a serious research program, each has made partial progress, and none has closed the problem. The field's shared understanding is that unification of gravity and the other forces, at the quantum level, is the single largest open problem in fundamental physics.
+
+Einstein himself spent the last thirty years of his life on a smaller version of the same problem — a classical unification of gravity and electromagnetism, without the quantum piece. He did not succeed. His correspondence late in life is candid about it. He died in 1955 with the unification manuscript unfinished on the nightstand.
+
+That is where the field is. Two theories, no fusion, a century-long shared problem. I am going to name that cleanly, because the chapter is about to make a specific claim and I do not want the reader to think the claim is larger than it is.
+
+Here is the specific claim.
+
+At the classical level — which is to say, at the level where general relativity and Maxwell's equations do their work, before quantum effects enter — gravity and electromagnetism share a substrate in this framework. Both force laws fall out of the same 6D action that Chapters 4, 6, and 9 have been walking around. Not as coincidence. As projections of a single mathematical object onto 4D physics.
+
+That is a classical unification. It is what Einstein was reaching for in his last three decades. It is not quantum gravity — the framework's quantum-gravity work is ongoing and Book 1 does not summarize it — and it is not a unification with the strong and weak forces, which are Chapter 11 territory. It is the unification of the two forces this chapter is about, at the classical level the reader experiences them, from a single starting point.
+
+This is the second payoff chapter of Book 1. Chapter 9 cashed the first check. This one cashes the second. The rest argues the mechanism through in plain English.
+
+The trampoline, recalled.
+
+I need the controlling analogy one more time, because the chapter's whole job is to show two behaviors of the same medium, and the analogy has to carry both.
+
+A trampoline, in a backyard, with the springs under tension and the fabric taut. The reader knows this object — pop-science books and PBS specials have used it as a stand-in for the fabric of spacetime for decades. Chapter 4 planted the trampoline. Chapter 9 used it lightly. This chapter makes it work harder.
+
+What can a trampoline do?
+
+Stand on it. The fabric dips under your feet. The dip has a shape — deeper right under you, shallower as you move out, dying off at the rim. It is a local deformation of the trampoline, forced by your weight and resisted by the trampoline's tension. Drop a bowling ball on it. The dip is deeper, the slopes steeper. If a marble happened to be sitting on the trampoline near the bowling ball, it would not sit still. It would roll along the slope of the dip, downhill, toward the ball. The bowling ball has not pulled on the marble through any mysterious action at a distance. The bowling ball has changed the shape of the surface the marble is sitting on, and the marble, following the new shape, rolls downhill.
+
+That is the first thing the trampoline does. It carries a local curvature, forced by what is sitting on it, and other things on the trampoline follow the curvature.
+
+The second thing it does is different.
+
+Leave the trampoline empty again. Tap the edge — a sharp knock with the back of your hand, or a coin dropped on the fabric near the rim. A ripple runs across the surface. It propagates away from where you tapped, crosses the trampoline, reaches the opposite edge, and either reflects or dies in the springs. The ripple does not sit anywhere. It travels. It moves at a speed set by the trampoline's physical properties — tension and mass per unit area. Tighten the springs, it goes faster. Loosen them, it goes slower. Swap the fabric for something heavier, it slows down. The speed of the ripple is the square root of tension divided by density — the standard wave-speed formula any introductory physics class runs through in the first week for any stretched medium.
+
+The speed of a wave on a stretched medium is not a parameter you pick. It is forced by the medium. The medium cannot support a wave at any other speed.
+
+Chapter 4 stated this in words for the firmament. The firmament is a stretched 4D membrane with a specific tension and a specific mass per unit area, and disturbances on it propagate at the square root of tension over density. That wave speed is what we measure as the speed of light. Two hundred and ninety-nine million, seven hundred and ninety-two thousand, four hundred and fifty-eight meters per second — not a fundamental constant inserted into the theory, but the wave speed of the firmament, derivable in principle from the membrane's tension and density.
+
+So the trampoline has two behaviors. It dips under weight. It carries waves. Both come out of the same object, both are forced by the trampoline's physical properties. Same is true of the firmament. Those two behaviors are what this chapter matches to gravity and electromagnetism.
+
+The trampoline analogy has limits. A trampoline is 2D; the firmament is 4D. A trampoline has no equivalent of the waters-above condensate Chapter 9 introduced, so a trampoline's "particles" have no rest mass mechanism. A trampoline has no off-diagonal geometric structure; the gauge structure electromagnetism relies on has no analog in a backyard trampoline. The trampoline is a metaphor for the architecture, not a miniature of it. When the analogy breaks I will say so.
+
+With that on the table, the chapter can move to the physics.
+
+Gravity as the membrane bending under weight.
+
+Put the image together.
+
+The firmament is the stretched 4D membrane from Chapter 4. Sitting on it are the standing-wave patterns Chapter 9 identified as particles — localized patterns with mass, where mass is the geometric overlap of the pattern with the waters-above condensate. Each pattern has energy density, continuously, everywhere the pattern lives. That energy density presses on the firmament — not as an analogy, not as a way of speaking, but mechanically, the way a bowling ball on a trampoline presses on the fabric.
+
+The membrane's tension resists the press, and the result is a specific curvature profile around the pattern. Deep near the pattern. Shallower with distance. Dying off at a rate set by the geometry of how a 4D membrane curves around a point source.
+
+A neighboring pattern on the firmament, sitting some distance away, feels that curvature as a local slope. The membrane is not flat where the neighbor sits; it is tilted, bending toward the first pattern. The neighbor, like a marble on a dipped trampoline, follows the slope. Its natural motion — what it would do if the membrane were flat — is modified by the fact that the membrane is not flat. The neighbor drifts along the curvature, toward the first pattern.
+
+That drift is what we experience as gravitational attraction.
+
+Stated plainly. Gravity is not a force in the Newtonian sense of one object reaching across empty space to pull on another. Gravity is the shape of the membrane. Each pattern presses on the membrane, curving it locally. Each other pattern on the curved membrane drifts along the curvature toward its neighbors. The total motion of patterns, aggregated, is what the human-sized world calls the gravitational pull of one object on another.
+
+The inverse-square law of Newtonian gravity — the law every high-school physics student memorizes — comes out of the geometry of how a membrane curves around a point source in three spatial dimensions and how the curvature's slope falls off with distance. Newton's law is the weak-field limit of this picture. Foundations Volume 2, Chapter 2 (Gravity) carries the derivation — it starts from the 6D action and the membrane's tension, writes down the equation that governs how the membrane curves around a localized pattern, and shows that the far-field behavior matches Newton's law with a specific numerical value for the gravitational constant G.
+
+At larger scales, near black holes, around neutron stars, out at the global geometry of the universe, the weak-field picture breaks down. The membrane's curvature near a massive pattern is not a small dip anymore; it is a dramatic local deformation. At those scales the full picture is the one Einstein wrote down in 1915, which has become famous under the name Einstein's field equations — a set of ten coupled partial differential equations that govern how the membrane's 4D geometry responds to whatever matter and energy are riding on it.
+
+This is the first named object of the chapter, and per the rule I am working under, I name it and do not write it. Einstein's field equations are what the framework recovers at the 4D projection of the 6D action for the gravitational sector of the membrane's behavior. Foundations Volume 2, Chapter 8 (Gravitational Field Theory) and Volume 5, Chapter 1 (Einstein Field Equations) carry the derivation — they start from the 6D action, integrate over the extra dimensions the way Chapter 6 described, and produce Einstein's field equations as the 4D piece that governs the membrane's shape. The reader who wants the mathematical detail goes to those two Foundations chapters. The reader following Book 1 gets the mechanism: the equations that govern how spacetime curves under matter and energy fall out of this framework as the equations that govern how the firmament curves under standing-wave patterns on it.
+
+The scorecard.
+
+Earth's surface gravity — the 9.82 meters per second squared that every high-school student memorizes as little-g — comes out of the framework as the curvature produced by Earth's mass, integrated across Earth, evaluated at Earth's surface radius. The framework's computed value matches the measured value to better than a quarter of a percent. Mercury's orbital period around the sun, one of the early numerical tests of any gravity theory and the test whose Einstein correction first convinced the physics community that general relativity was right, comes out of the framework to twelve thousandths of a percent of the measured value. The lunar tides on Earth — the differential gravitational pull of the Moon across Earth's diameter, which every sailor has felt and every tide chart is built on — come out to seven hundredths of a percent. Gravitational lensing of starlight by the sun, first measured in the 1919 solar-eclipse expedition that turned Einstein into a public figure, comes out to within the arcsecond-level precision of modern measurements. Geodetic precession of a gyroscope in orbit around Earth — the tiny wobble Gravity Probe B measured in 2004 — comes out to better than half a percent of the measured value.
+
+Those numbers live, in full, in the research document APPLIEDGRAVITYCALCULATIONS.md under the framework's Classical Mechanics research folder. The chapter is summarizing; the research document is doing the work.
+
+What the framework adds, over standard general relativity, is where the curvature comes from. Mainstream GR writes down Einstein's field equations as a description of how the metric tensor responds to the stress-energy tensor, takes that description as a postulate, and validates it against data. The framework reads the metric tensor as the local geometry of a physical 4D membrane, and Einstein's field equations as the equations governing the membrane's mechanical response to the weight on it. Same math. Different physical interpretation. The curvature is not abstract; it is the local shape of a specific physical substrate.
+
+The reader should leave this section holding the gravity mechanism: standing-wave pattern presses on the membrane, membrane curves, neighboring patterns drift along the curvature. Einstein's field equations are named as the governing equations; the reader knows where to find the math.
+
+Light as the membrane vibrating.
+
+Now the second behavior.
+
+Leave the gravity picture for a moment. No bowling ball. The trampoline empty. The firmament unweighted, flat, at rest.
+
+Flick it. Disturb the membrane somewhere — accelerate a charged standing-wave pattern sitting on it, or strike the membrane with any disturbance that does not settle into a localized pattern. The disturbance does not stay put. It moves. A ripple propagates across the membrane, away from where it was made, at the membrane's wave speed — the square root of tension over mass density, the same formula any stretched medium obeys.
+
+For the firmament, that speed is 299,792,458 meters per second. The speed of light.
+
+That is the second behavior of the trampoline. Waves propagate across it at a forced speed. On the firmament, the forced speed is c.
+
+A photon, in this framework, is one such traveling wave on the firmament. A specific disturbance of what physicists call the off-diagonal components of the 6D metric — the piece of the geometry that couples the ordinary spatial directions of the membrane to the extra-dimensional axes, which Chapter 6 laid out structurally — that carries energy and momentum across the membrane at c.
+
+What a photon is not, in this framework, is a little ball flying through space. What a photon is not is a particle sitting on the membrane the way an electron does. A photon is something the membrane is doing. A wave, traveling, at the wave speed of the medium. The photon has no rest mass because it has no localized part of itself that has to sit still; there is nothing for the waters-above condensate to couple to, because the photon is entirely a propagating disturbance of the membrane itself. That is why the photon moves at c and not some slower speed. If the photon had any reach into the waters above, any overlap with the condensate, it would have rest mass and it would move slower. It does not. It moves at the wave speed of the medium it is a disturbance of. Chapter 9 introduced this; Chapter 10 uses it.
+
+The full classical theory of what happens when the firmament vibrates is the theory every undergraduate electrical engineer has memorized under a specific name. Maxwell's equations. Four coupled partial differential equations, written down by James Clerk Maxwell in the 1860s, that govern how electric fields and magnetic fields behave in space and time.
+
+Named. Not written. The four laws, by name:
+
+Gauss's law for electricity — electric fields diverge from regions of positive charge and converge on regions of negative charge.
+
+Gauss's law for magnetism — there are no magnetic monopoles; magnetic field lines close on themselves.
+
+Faraday's law — a time-varying magnetic flux through a surface generates an electromotive force around the boundary of the surface, which is how every electric generator in the world produces power.
+
+Ampère-Maxwell law — an electric current, plus a time-varying electric field, generates a magnetic field, which is the reason radios transmit and inductors work.
+
+Those four laws, combined with the constitutive relations between fields and matter, describe every classical electromagnetic phenomenon there is: static electric fields, steady currents, radio waves, light, microwaves, the operation of every generator and motor and transformer ever built, every antenna, every fiber-optic cable. Engineering electromagnetism runs on Maxwell's equations, every day, in every piece of hardware I have ever worked with.
+
+The framework recovers all four of Maxwell's equations from the 6D action. Foundations Volume 2, Chapter 3 (Electromagnetism) and Volume 2, Chapter 7 (Classical E&M) carry the derivation. The 6D action contains a gauge piece — the part of the membrane's mathematical description that governs its off-diagonal metric components — and when that action is projected from 6D down to 4D by integrating over the extra dimensions, the resulting 4D equations are Maxwell's equations. Not analogs of Maxwell's equations. Not something that looks like Maxwell's equations in some limit. Exactly the four equations Maxwell wrote down in the 1860s, falling out as the gauge piece of the 4D projection.
+
+Along with Maxwell's equations, the framework recovers several named consequences that the reader probably knows individually. The electromagnetic wave equation — the statement that electric and magnetic fields satisfy a wave equation in vacuum, with wave speed c — comes out as the direct consequence of taking Maxwell's equations in a charge-free region. Coulomb's law — the inverse-square law for the force between static electric charges — comes out as the static limit of Gauss's law. The permittivity of free space, ε₀, and the magnetic permeability of free space, μ₀, the two named constants that set the strength of electric and magnetic interactions in vacuum, come out of the 6D action with specific values. The relationship ε₀ μ₀ = 1 / c² — the identity that Maxwell himself used to predict that light is an electromagnetic wave, because the wave speed that falls out of his equations is the square root of one over the product of those two constants, and that wave speed matched the measured speed of light — falls out of the framework's derivation automatically. The speed of light equals the reciprocal of the square root of the permittivity times the permeability. That identity is structural, not coincidental. It is the statement that the wave speed of the membrane is the same thing as the speed at which electromagnetic disturbances propagate on it — because they are the same disturbances.
+
+Gauge invariance — the deep symmetry of electromagnetism that says you can shift the electromagnetic potentials in a specific mathematical way without changing the physical fields — comes out of the framework as the reparameterization freedom in the extra-dimensional coordinates. When you integrate over the extra dimensions, there is freedom in how you choose the coordinates on those dimensions, and that freedom manifests in 4D as gauge freedom. Gauge invariance, in mainstream electromagnetism, is a postulate you impose to get a sensible theory. In the framework, gauge invariance is a geometric consequence of the 6D architecture — it falls out of the projection.
+
+The numerical scorecard. The speed of light c at 299,792,458 meters per second — which the framework reads as a derived property of the firmament, the square root of membrane tension over membrane density. The permittivity ε₀ at 8.854 × 10⁻¹² farads per meter. The permeability μ₀ at 1.257 × 10⁻⁶ henries per meter. Their product's reciprocal matching c² to machine precision. All four of Maxwell's equations recovered. Coulomb's law recovered. The electromagnetic wave equation recovered. Gauge invariance recovered. That full scorecard, with derivation steps, lives in the research document MAXWELLFROMZONE_ARCHITECTURE.md under the framework's Electromagnetism research folder.
+
+The reader should leave this section holding the light mechanism: a disturbance on the membrane propagates across it at the membrane's wave speed; that wave speed is c; the equations that govern the disturbance are Maxwell's equations; and the relationship ε₀μ₀ = 1/c² is structural, reflecting that the wave speed of the firmament is what we call the speed of light because that is what it is.
+
+Two forces, one substrate.
+
+Stand back.
+
+Section 4 did gravity as the membrane curving under the weight of a standing-wave pattern. Section 5 did light as the membrane carrying a traveling wave across it. One membrane. Two behaviors. The claim of this section — the chapter's central claim — is that those two behaviors come out of one mathematical object.
+
+The 6D action that Chapter 4 introduced by property, Chapter 6 set up geometrically, and Chapter 9 assumed without fanfare, contains two pieces. The first is the 6D Einstein-Hilbert action — the gravitational piece, which governs how the 6D geometry curves under whatever is sitting in it. The second is a gauge piece, which governs the off-diagonal metric components — the part of the geometry that couples ordinary space to the extra-dimensional axes.
+
+When the 6D action is projected from 6D down to 4D by integrating over the extra dimensions — the Kaluza-Klein move that Chapter 6 flagged structurally and the research documents walk through — the two pieces produce two different 4D equation systems.
+
+The gravitational piece of the 6D action produces the 4D Einstein field equations. Gravity, from the gravitational piece. Foundations Volume 2, Chapter 8 and Volume 5, Chapter 1 carry that derivation.
+
+The gauge piece of the 6D action produces the 4D Maxwell equations. Electromagnetism, from the gauge piece. Foundations Volume 2, Chapter 7 carries that derivation.
+
+Same starting object. Two projections. Two classical force laws. The gravitational projection describes what the firmament does when its shape changes in response to matter. The gauge projection describes what the firmament does when its off-diagonal coupling to the extra dimensions propagates. Different questions asked of the same membrane. Different equations coming out.
+
+That is what a classical unification looks like.
+
+Einstein, in the last thirty years of his career, was looking for something like this — a single classical action from which both forces would fall out. He tried unified field theories, five-dimensional Kaluza-Klein approaches, non-symmetric metric tensors, torsion-based geometries. He never found a version that worked. The version that works in this framework is the 6D action with the specific zone architecture Chapter 3 lays out, projected to 4D the way Chapter 6 describes. That is the mathematical structure Einstein was reaching for and did not find in his lifetime.
+
+A comparison that will occur to any reader familiar with recent physics. The Kaluza-Klein move the framework uses is not string theory's Kaluza-Klein move. String theory's extra dimensions are compactified — rolled up small enough that their effects are invisible at ordinary length scales, with the gauge structure coming from the specific geometry of the compactification. The framework's extra dimensions are structural, built into the zone architecture the universe itself has, with the gauge structure coming from the zone structure's off-diagonal metric components rather than from a compactification manifold. Same mathematical technique — integrate over extra dimensions, project to 4D — different physical content. Chapter 6 made this point architecturally; the chapter here uses it.
+
+The framework's unification is classical. The quantum unification — a quantum theory of gravity that passes the same stringent tests the Standard Model passes for electromagnetism — is a different and harder problem, and the framework's work on it is not yet at the stage Book 1 can stake claims on. I will come back to this in the honesty section.
+
+There is a question a physics-educated reader will want asked next. If gravity and electromagnetism share a classical substrate, why is one of them roughly ten-to-the-forty-second times weaker than the other? The gravitational force between two electrons is on the order of 10⁻⁴² times the electric force between them. Mainstream physics has no first-principles derivation of that hierarchy. It is a measured ratio, not a derived one.
+
+The framework has a candidate answer at the order-of-magnitude level. Gravity and electromagnetism couple to different pieces of the 6D geometry, and the two pieces respond to the extra-dimensional length in different geometric ways. Gravity couples to the global shape of the membrane — to the way the whole 6D geometry curves in response to matter sitting in it. The gravitational coupling picks up the full extra-dimensional volume, and that volume depends on the extra-dim length raised to a high power. A small length raised to a high power is a very small number. Electromagnetism couples to the off-diagonal metric components — to the specific piece of the geometry that mixes ordinary space with the extra-dimensional axes. That coupling depends on the length in a much gentler way, at a lower power. Same length, different exponents — and the ratio of a high-power term to a low-power term, with a small length plugged in, is an enormous number. The length, per the derivation in Foundations Volume 2, Chapter 2 and the research document APPLIEDGRAVITYCALCULATIONS.md section 1.5, is on the order of 10⁻⁵⁸ meters. Plug that length into the ratio and the result lands in the 10⁴² neighborhood — the right order of magnitude for the observed hierarchy.
+
+The word that matters here is ballpark. The framework's current calculation is order-of-magnitude. The structure is right — the couplings have the geometric dependencies they need, and the length has the value it needs for the hierarchy to land where it lands. The exact 10⁴² is not yet a precision prediction. Turning the order-of-magnitude argument into a precision one is work in progress. Builder's honesty: the chapter says so and does not dress it up.
+
+The reader should leave this section holding the classical unification: one 6D action, two projections, Einstein's field equations from the gravitational piece and Maxwell's equations from the gauge piece, both forces riding on the same firmament.
+
+The edges of what is solved.
+
+Builder's honesty is a voice pillar of this book, and a reader who has just watched a classical unification land is the reader most likely to overestimate what it means. Before the chapter closes I owe the honest account of what the framework does and does not do on the gravity-and-electromagnetism front.
+
+The confidence ladder.
+
+Strong-confidence, tight agreement with nature. All four of Maxwell's equations recovered from the 6D action. Einstein's field equations recovered at the 4D projection. The speed of light c as the membrane's wave speed, derived from tension over density. The relationship ε₀μ₀ = 1/c² recovered automatically — structural, not imposed. Gauss's law for electricity, Gauss's law for magnetism, Faraday's law, Ampère-Maxwell, all four derived. Coulomb's law derived as the static limit. The electromagnetic wave equation derived. Gauge invariance derived from extra-dimensional reparameterization freedom. Newton's inverse-square law for gravity as the weak-field limit of the membrane's curvature. Earth's surface gravity to better than a quarter of a percent. Mercury's orbital period to twelve thousandths of a percent. Lunar tides to seven hundredths of a percent. Gravitational lensing of starlight to arcsecond precision. Gyroscope precession in Earth orbit to better than half a percent. These are the framework's strongest claims at the force level, and they are exactly where classical gravity and classical electromagnetism genuinely share a substrate in the framework.
+
+Moderate-confidence, order-of-magnitude. The ratio of gravity's strength to electromagnetism's — the 10⁴² hierarchy. The framework produces the right order of magnitude from the geometric dependency of the two couplings on the extra-dimensional length. The structure of the hierarchy is derived; the precision — why the ratio is specifically 10⁴² and not 10⁴¹ or 10⁴³ — is work in progress.
+
+Open. The full quantum theory of gravity. The framework has a classical unification. It does not yet have a quantum theory of gravity that passes the kinds of stringent tests the Standard Model passes for electromagnetism. The framework's quantum-gravity work lives in Foundations Volume 5, Chapter 4, and is ongoing. This chapter unifies gravity and electromagnetism at the classical level; the quantum-gravity piece is open.
+
+Open. Full inclusion of the strong and weak nuclear forces at the precision this chapter achieves. Chapter 11 takes up the strong and weak forces at the level of the rules they impose on matter. Foundations Volume 2, Chapter 4 (Strong Force) and Volume 2, Chapter 5 (Weak Force) carry the rigorous 6D-action derivations — both forces do fall out of the same 6D action, in the same Kaluza-Klein way, which is to say the framework has in principle a full four-force classical unification. The quantitative treatment at the precision this chapter claims for gravity and electromagnetism is not there yet.
+
+Open. Gravitational waves at the full framework level. The framework predicts gravitational waves exist; they are oscillations of the membrane's curvature propagating at c. LIGO's observations since 2015 are consistent with the framework's predictions in the same way they are consistent with general relativity — which is the framework's classical limit. The full framework treatment, including any quantum corrections and any corrections from the membrane's coupling to the waters below, is not yet at the stage to stake precision claims on beyond the GR agreement.
+
+Open. The precision derivation of the Newton constant G from the 6D gravitational coupling and the effective extra-dimensional length. The framework produces G at the measured value, with the 10⁻⁵⁸ meter length plugged in. Whether that length is itself derivable from more fundamental geometric properties of the zone architecture, or whether it is an input to the theory at this stage, is a question the ongoing research is working on.
+
+That is the honest account. None of the open items is waved away; each has a mechanism identified and a research path documented. On the largest questions — why gravity and electromagnetism are the forms they are, why they share a substrate, why Maxwell's equations and Einstein's field equations fall out of the same action — the framework has a specific answer and the field has a hundred-year-old open problem. On the smaller and harder questions — quantum gravity, the precision of the strength hierarchy, the full framework of gravitational waves beyond GR — the framework still has work. I would rather name the gaps than cover them.
+
+What is new in this chapter is that a framework starting from a handful of architectural axioms has produced the two most familiar classical force laws as projections of a single mathematical object — without inserting either force law as a postulate, without treating them as separate physical phenomena, and without finessing the century-long problem mainstream physics is still working on. That classical unification is the contribution. The honesty about what remains is the price of the honesty about what works.
+
+Closing — the second check cashed.
+
+Stand back.
+
+Ten chapters in, the reader is holding five things.
+
+The architecture, from Chapters 3 through 6. A 6D manifold with zones, a firmament under tension, the waters above and the waters below as reservoirs on either side.
+
+The grammar, from Chapter 7. Seven pattern operators — the verbs that act on configurations of the membrane.
+
+The textual corroboration, from Chapter 8. A document written thousands of years ago that, read as a specification, describes the same seven operations in the same order the framework's physics independently requires.
+
+The origin of matter, from Chapter 9. Particles as standing-wave patterns on the firmament. Rest masses as geometric overlaps with the waters-above condensate. The three generations as mode numbers along an extra-dimensional axis. More than 99% of ordinary matter's mass as binding energy — the tension of the pattern holding the particles together, not the particles themselves.
+
+And now, from this chapter, the two most familiar classical forces as two projections of one 6D action.
+
+Gravity is the membrane bending under the weight of standing-wave patterns that ride on it. Einstein's field equations fall out of the gravitational piece of the 6D action at the 4D projection. The scorecard: Earth surface gravity to better than a quarter of a percent; Mercury's orbit to twelve thousandths of a percent; lunar tides to seven hundredths; gravitational lensing to arcsecond precision; gyroscope precession to better than half a percent.
+
+Light is the membrane carrying traveling waves at wave speed c. Maxwell's equations fall out of the gauge piece of the 6D action at the same 4D projection. The scorecard: all four of Maxwell's equations recovered; Coulomb's law, the electromagnetic wave equation, gauge invariance, the identity ε₀μ₀ = 1/c² — all structural consequences of the membrane's physics.
+
+Same membrane. Two behaviors. One 6D action. Two projections. Two force laws. That is the classical unification Einstein was reaching for in his last three decades and did not find in his lifetime. The framework offers it as a specific mathematical construction documented in Foundations Volume 2, Chapters 2 through 8, and Volume 5, Chapter 1.
+
+What this chapter did. Opened with a scene from a ScanEagle test cell where gravity and electromagnetism are bookkeeping on the same airframe at the same time. Named the field's century-long shared open problem cleanly. Recalled the trampoline / drumhead analogy from Chapter 4. Unpacked gravity as the membrane curving under the weight of standing-wave patterns. Unpacked light as the membrane carrying waves at c. Named the classical unification of the two forces as projections of one 6D action. Gave the numerical scorecards without writing the equations. Was honest about what remains open — quantum gravity, the precision of the strength hierarchy, full strong-and-weak-force inclusion at this rigor level.
+
+What this chapter did not do. Reproduce the math — Foundations carries that. Claim a quantum unification — that work is ongoing and the chapter said so. Fold in the strong and weak forces — Chapter 11 and Foundations Volume 2 Chapters 4 and 5 handle them. Preach. The theological resonance of gravity and light come from the same membrane the first page of Genesis names as what separates the waters above from the waters below is in the architecture, not in the sentence. A reader who notices it notices it. A reader who does not notice it still has the physics.
+
+Hand off to Chapter 11.
+
+With particles from Chapter 9 and the two most familiar forces from Chapter 10 in place, the natural next question is the hard rules those particles and forces have to obey. Conservation of energy. Conservation of charge. The second law of thermodynamics. Causality. The speed-of-light limit. Mainstream physics takes these as axioms, or derives them after the fact from Noether's theorem applied to the symmetries of whatever theory is being used. The framework derives them as consequences of the architecture itself. The membrane's structure, the zone geometry, the properties of the 6D action — those together force the conservation laws, the thermodynamic arrow, the causal structure, the speed limit. Chapter 11 walks that argument through.
+
+That is what comes next.

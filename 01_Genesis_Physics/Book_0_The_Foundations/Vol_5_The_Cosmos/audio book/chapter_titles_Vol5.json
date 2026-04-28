@@ -1,0 +1,173 @@
+{
+  "volume": {
+    "num": 5,
+    "key": "Vol5",
+    "folder": "Vol_5_The_Cosmos",
+    "title": "Genesis Physics: The Foundations, Volume 5 — The Cosmos",
+    "author": "Jeff Raymond",
+    "back_matter_dir": "Back_Matter",
+    "back_matter_patterns": null
+  },
+  "chapters": [
+    {
+      "key": "Ch01",
+      "title": "Chapter 1: Einstein Field Equations Recovered",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_01_Einstein_Field_Equations_Recovered\\Ch01_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch01_clean.txt",
+      "word_count": 14915,
+      "char_count": 87436
+    },
+    {
+      "key": "Ch02",
+      "title": "Chapter 2: Classical Tests",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_02_Classical_Tests\\Ch02_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch02_clean.txt",
+      "word_count": 10168,
+      "char_count": 61984
+    },
+    {
+      "key": "Ch03",
+      "title": "Chapter 3: Gravitational Waves",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_03_Gravitational_Waves\\Ch03_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch03_clean.txt",
+      "word_count": 12813,
+      "char_count": 77159
+    },
+    {
+      "key": "Ch04",
+      "title": "Chapter 4: Strong-Field Gravity",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_04_Strong_Field_Gravity\\Ch04_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch04_clean.txt",
+      "word_count": 15835,
+      "char_count": 94076
+    },
+    {
+      "key": "Ch05",
+      "title": "Chapter 5: Black Holes as Zone Infrastructure",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_05_Black_Holes_as_Zone_Infrastructure\\Ch05_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch05_clean.txt",
+      "word_count": 11261,
+      "char_count": 66748
+    },
+    {
+      "key": "Ch06",
+      "title": "Chapter 6: The Information Paradox Resolved",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_06_The_Information_Paradox_Resolved\\Ch06_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch06_clean.txt",
+      "word_count": 12557,
+      "char_count": 77083
+    },
+    {
+      "key": "Ch07",
+      "title": "Chapter 7: Singularity Resolution",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_07_Singularity_Resolution\\Ch07_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch07_clean.txt",
+      "word_count": 13536,
+      "char_count": 82386
+    },
+    {
+      "key": "Ch08",
+      "title": "Chapter 8: Zone Cosmological Model",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_08_Zone_Cosmological_Model\\Ch08_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch08_clean.txt",
+      "word_count": 8711,
+      "char_count": 51233
+    },
+    {
+      "key": "Ch09",
+      "title": "Chapter 9: The CMB and Early Universe",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_09_The_CMB_and_Early_Universe\\Ch09_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch09_clean.txt",
+      "word_count": 12982,
+      "char_count": 76569
+    },
+    {
+      "key": "Ch10",
+      "title": "Chapter 10: Large-Scale Structure",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_10_Large_Scale_Structure\\Ch10_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch10_clean.txt",
+      "word_count": 10549,
+      "char_count": 63365
+    },
+    {
+      "key": "Ch11",
+      "title": "Chapter 11. Dark Matter and Dark Energy Quantified",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_11_Dark_Matter_and_Dark_Energy_Quantified\\Ch11_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch11_clean.txt",
+      "word_count": 13176,
+      "char_count": 77446
+    },
+    {
+      "key": "Ch12",
+      "title": "Chapter 12: The Starlight Problem and Chronology",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_12_The_Starlight_Problem_and_Chronology\\Ch12_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch12_clean.txt",
+      "word_count": 9375,
+      "char_count": 64958
+    },
+    {
+      "key": "Ch13",
+      "title": "Chapter 13: The Fine Structure Constant from First Principles",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_13_Fine_Structure_Constant_from_First_Principles\\Ch13_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch13_clean.txt",
+      "word_count": 10705,
+      "char_count": 60887
+    },
+    {
+      "key": "Ch14",
+      "title": "Chapter 14",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch_14_Critical_Density_and_Cosmological_Parameters\\Ch14_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch14_clean.txt",
+      "word_count": 6358,
+      "char_count": 40516
+    },
+    {
+      "key": "Ch15",
+      "title": "Chapter 15: Why These Constants?",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Ch15_Why_These_Constants\\Ch15_Why_These_Constants_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Ch15_clean.txt",
+      "word_count": 8288,
+      "char_count": 51375
+    },
+    {
+      "key": "APPENDIX_A_Key_Results_from_Vo",
+      "title": "Appendix A — Key Results from Volumes 1 Through 4",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Back_Matter\\APPENDIX_A_Key_Results_from_Volumes_1_through_4.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\APPENDIX_A_Key_Results_from_Vo_clean.txt",
+      "word_count": 2897,
+      "char_count": 17399
+    },
+    {
+      "key": "APPENDIX_B_Cosmological_Data_T",
+      "title": "Appendix B — Cosmological Data Tables",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Back_Matter\\APPENDIX_B_Cosmological_Data_Tables.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\APPENDIX_B_Cosmological_Data_T_clean.txt",
+      "word_count": 3687,
+      "char_count": 22797
+    },
+    {
+      "key": "APPENDIX_C_Derivations_of_Fund",
+      "title": "Appendix C — Derivations of Fundamental Constants Summary Table",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Back_Matter\\APPENDIX_C_Derivations_of_Fundamental_Constants.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\APPENDIX_C_Derivations_of_Fund_clean.txt",
+      "word_count": 1887,
+      "char_count": 11365
+    },
+    {
+      "key": "Bibliography",
+      "title": "Bibliography",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Back_Matter\\Bibliography.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Bibliography_clean.txt",
+      "word_count": 3395,
+      "char_count": 23976
+    },
+    {
+      "key": "Problem_Sets_with_Selected_Sol",
+      "title": "Problem Sets with Selected Solutions",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\Back_Matter\\Problem_Sets_with_Selected_Solutions.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_5_The_Cosmos\\audio book\\chapters\\Problem_Sets_with_Selected_Sol_clean.txt",
+      "word_count": 6409,
+      "char_count": 36470
+    }
+  ]
+}

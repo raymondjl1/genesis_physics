@@ -1,0 +1,534 @@
+Foundations Vol 4, The Quantum World — Back Matter
+
+This is the largest bibliography in the Foundations series so far. It must be: Volume 4 covers quantum mechanics, quantum field theory, and the entire Standard Model of particle physics, and the literature on any one of those three is itself enormous. What follows is the subset Vol 4 actually uses — every paper cited in the text, every textbook taken as background, every experimental measurement reproduced in Appendix B, and every internal zone-architecture research file referenced. The total is 215 entries across ten sections.
+
+Citation format follows the convention established in Vols 2 and 3: Chicago author-year with sequential numbering within each section, with a symbol marking the entry's class — 📜 foundational paper, 📘 textbook, ⚛ experiment, ⚙ data compilation, ☷ zone-architecture internal source.
+
+R.1 — Foundational and Historical Papers (Quantum Mechanics and QFT).
+
+[R.1.1] 📜 Planck, M. 1900. "Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum." Verhandlungen der Deutschen Physikalischen Gesellschaft 2: 237–245.
+
+[R.1.2] 📜 Einstein, A. 1905. "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt." Annalen der Physik 17: 132–148. (Photoelectric effect; light quanta.)
+
+[R.1.3] 📜 Bohr, N. 1913. "On the Constitution of Atoms and Molecules." Philosophical Magazine 26: 1–25, 476–502, 857–875.
+
+[R.1.4] 📜 de Broglie, L. 1924. Recherches sur la théorie des quanta. Doctoral thesis, University of Paris.
+
+[R.1.5] 📜 Heisenberg, W. 1925. "Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen." Zeitschrift für Physik 33: 879–893.
+
+[R.1.6] 📜 Born, M., Heisenberg, W., and Jordan, P. 1926. "Zur Quantenmechanik II." Zeitschrift für Physik 35: 557–615.
+
+[R.1.7] 📜 Schrödinger, E. 1926. "Quantisierung als Eigenwertproblem." Annalen der Physik 79: 361–376, 489–527; 80: 437–490; 81: 109–139.
+
+[R.1.8] 📜 Born, M. 1926. "Zur Quantenmechanik der Stoßvorgänge." Zeitschrift für Physik 37: 863–867. (Born rule.)
+
+[R.1.9] 📜 Heisenberg, W. 1927. "Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik." Zeitschrift für Physik 43: 172–198. (Uncertainty principle.)
+
+[R.1.10] 📜 Dirac, P. A. M. 1928. "The Quantum Theory of the Electron." Proceedings of the Royal Society A 117: 610–624. (Dirac equation.)
+
+[R.1.11] 📜 Dirac, P. A. M. 1928. "The Quantum Theory of the Electron, Part II." Proceedings of the Royal Society A 118: 351–361.
+
+[R.1.12] 📜 Pauli, W. 1927. "Zur Quantenmechanik des magnetischen Elektrons." Zeitschrift für Physik 43: 601–623.
+
+[R.1.13] 📜 Jordan, P., and Wigner, E. 1928. "Über das Paulische Äquivalenzverbot." Zeitschrift für Physik 47: 631–651.
+
+[R.1.14] 📜 Fermi, E. 1934. "Versuch einer Theorie der β-Strahlen." Zeitschrift für Physik 88: 161–177.
+
+[R.1.15] 📜 Yukawa, H. 1935. "On the Interaction of Elementary Particles." Proceedings of the Physico-Mathematical Society of Japan 17: 48–57.
+
+[R.1.16] 📜 Feynman, R. P. 1948. "Space-Time Approach to Non-Relativistic Quantum Mechanics." Reviews of Modern Physics 20: 367–387.
+
+[R.1.17] 📜 Feynman, R. P. 1949. "Space-Time Approach to Quantum Electrodynamics." Physical Review 76: 769–789.
+
+[R.1.18] 📜 Feynman, R. P. 1949. "The Theory of Positrons." Physical Review 76: 749–759.
+
+[R.1.19] 📜 Schwinger, J. 1948. "On Quantum-Electrodynamics and the Magnetic Moment of the Electron." Physical Review 73: 416–417. (First calculation of a sub e = alpha /2 pi.)
+
+[R.1.20] 📜 Schwinger, J. 1949. "Quantum Electrodynamics. I. A Covariant Formulation." Physical Review 74: 1439.
+
+[R.1.21] 📜 Tomonaga, S. 1946. "On a Relativistically Invariant Formulation of the Quantum Theory of Wave Fields." Progress of Theoretical Physics 1: 27–42.
+
+[R.1.22] 📜 Dyson, F. J. 1949. "The Radiation Theories of Tomonaga, Schwinger, and Feynman." Physical Review 75: 486–502.
+
+[R.1.23] 📜 Dyson, F. J. 1949. "The S Matrix in Quantum Electrodynamics." Physical Review 75: 1736–1755.
+
+[R.1.24] 📜 Yang, C. N., and Mills, R. L. 1954. "Conservation of Isotopic Spin and Isotopic Gauge Invariance." Physical Review 96: 191–195.
+
+[R.1.25] 📜 Lee, T. D., and Yang, C. N. 1956. "Question of Parity Conservation in Weak Interactions." Physical Review 104: 254–258.
+
+[R.1.26] 📜 Goldstone, J. 1961. "Field Theories with Superconductor Solutions." Il Nuovo Cimento 19: 154–164.
+
+[R.1.27] 📜 Goldstone, J., Salam, A., and Weinberg, S. 1962. "Broken Symmetries." Physical Review 127: 965–970.
+
+[R.1.28] 📜 Anderson, P. W. 1963. "Plasmons, Gauge Invariance, and Mass." Physical Review 130: 439–442.
+
+[R.1.29] 📜 Higgs, P. W. 1964. "Broken Symmetries and the Masses of Gauge Bosons." Physical Review Letters 13: 508–509.
+
+[R.1.30] 📜 Englert, F., and Brout, R. 1964. "Broken Symmetry and the Mass of Gauge Vector Mesons." Physical Review Letters 13: 321–323.
+
+[R.1.31] 📜 Guralnik, G. S., Hagen, C. R., and Kibble, T. W. B. 1964. "Global Conservation Laws and Massless Particles." Physical Review Letters 13: 585–587.
+
+[R.1.32] 📜 Glashow, S. L. 1961. "Partial-Symmetries of Weak Interactions." Nuclear Physics 22: 579–588.
+
+[R.1.33] 📜 Weinberg, S. 1967. "A Model of Leptons." Physical Review Letters 19: 1264–1266.
+
+[R.1.34] 📜 Salam, A. 1968. "Weak and Electromagnetic Interactions." In Elementary Particle Theory, ed. N. Svartholm, 367–377. Stockholm: Almqvist and Wiksell.
+
+[R.1.35] 📜 't Hooft, G. 1971. "Renormalizable Lagrangians for Massive Yang-Mills Fields." Nuclear Physics B 35: 167–188.
+
+[R.1.36] 📜 't Hooft, G., and Veltman, M. 1972. "Regularization and Renormalization of Gauge Fields." Nuclear Physics B 44: 189–213.
+
+[R.1.37] 📜 Gross, D. J., and Wilczek, F. 1973. "Ultraviolet Behavior of Non-Abelian Gauge Theories." Physical Review Letters 30: 1343–1346.
+
+[R.1.38] 📜 Politzer, H. D. 1973. "Reliable Perturbative Results for Strong Interactions?" Physical Review Letters 30: 1346–1349.
+
+[R.1.39] 📜 Fritzsch, H., Gell-Mann, M., and Leutwyler, H. 1973. "Advantages of the Color Octet Gluon Picture." Physics Letters B 47: 365–368.
+
+[R.1.40] 📜 Cabibbo, N. 1963. "Unitary Symmetry and Leptonic Decays." Physical Review Letters 10: 531–533.
+
+[R.1.41] 📜 Kobayashi, M., and Maskawa, T. 1973. "CP-Violation in the Renormalizable Theory of Weak Interaction." Progress of Theoretical Physics 49: 652–657.
+
+[R.1.42] 📜 Pontecorvo, B. 1957. "Mesonium and Anti-Mesonium." Soviet Physics JETP 6: 429.
+
+[R.1.43] 📜 Maki, Z., Nakagawa, M., and Sakata, S. 1962. "Remarks on the Unified Model of Elementary Particles." Progress of Theoretical Physics 28: 870–880.
+
+[R.1.44] 📜 Noether, E. 1918. "Invariante Variationsprobleme." Nachrichten Gesellschaft der Wissenschaften Göttingen, Mathematisch-Physikalische Klasse: 235–257.
+
+[R.1.45] 📜 von Neumann, J. 1932. Mathematische Grundlagen der Quantenmechanik. Berlin: Springer.
+
+[R.1.46] 📜 Wigner, E. P. 1939. "On Unitary Representations of the Inhomogeneous Lorentz Group." Annals of Mathematics 40: 149–204.
+
+[R.1.47] 📜 Faddeev, L. D., and Popov, V. N. 1967. "Feynman Diagrams for the Yang-Mills Field." Physics Letters B 25: 29–30.
+
+[R.1.48] 📜 Callan, C. G. 1970. "Broken Scale Invariance in Scalar Field Theory." Physical Review D 2: 1541–1547.
+
+[R.1.49] 📜 Symanzik, K. 1970. "Small Distance Behaviour in Field Theory and Power Counting." Communications in Mathematical Physics 18: 227–246.
+
+[R.1.50] 📜 Wilson, K. G. 1971. "Renormalization Group and Critical Phenomena. I." Physical Review B 4: 3174–3183.
+
+R.2 — Classical Textbooks on Quantum Mechanics and QFT.
+
+[R.2.1] 📘 Dirac, P. A. M. 1958. The Principles of Quantum Mechanics. 4th ed. Oxford: Clarendon Press.
+
+[R.2.2] 📘 von Neumann, J. 1955. Mathematical Foundations of Quantum Mechanics. Princeton, NJ: Princeton University Press.
+
+[R.2.3] 📘 Messiah, A. 1961. Quantum Mechanics (2 vols). Amsterdam: North-Holland.
+
+[R.2.4] 📘 Cohen-Tannoudji, C., Diu, B., and Laloë, F. 1977. Quantum Mechanics (2 vols). New York: Wiley.
+
+[R.2.5] 📘 Landau, L. D., and Lifshitz, E. M. 1977. Quantum Mechanics: Non-Relativistic Theory. 3rd ed. Oxford: Pergamon.
+
+[R.2.6] 📘 Sakurai, J. J., and Napolitano, J. 2017. Modern Quantum Mechanics. 3rd ed. Cambridge: Cambridge University Press.
+
+[R.2.7] 📘 Griffiths, D. J. 2018. Introduction to Quantum Mechanics. 3rd ed. Cambridge: Cambridge University Press.
+
+[R.2.8] 📘 Shankar, R. 1994. Principles of Quantum Mechanics. 2nd ed. New York: Plenum.
+
+[R.2.9] 📘 Ballentine, L. E. 1998. Quantum Mechanics: A Modern Development. Singapore: World Scientific.
+
+[R.2.10] 📘 Bohm, D. 1951. Quantum Theory. Englewood Cliffs, NJ: Prentice-Hall.
+
+[R.2.11] 📘 Gottfried, K., and Yan, T.-M. 2003. Quantum Mechanics: Fundamentals. 2nd ed. New York: Springer.
+
+[R.2.12] 📘 Feynman, R. P., Leighton, R. B., and Sands, M. 1965. The Feynman Lectures on Physics, Vol. III: Quantum Mechanics. Reading, MA: Addison-Wesley.
+
+[R.2.13] 📘 Peskin, M. E., and Schroeder, D. V. 1995. An Introduction to Quantum Field Theory. Reading, MA: Addison-Wesley.
+
+[R.2.14] 📘 Weinberg, S. 1995. The Quantum Theory of Fields, Vol. I: Foundations. Cambridge: Cambridge University Press.
+
+[R.2.15] 📘 Weinberg, S. 1996. The Quantum Theory of Fields, Vol. II: Modern Applications. Cambridge: Cambridge University Press.
+
+[R.2.16] 📘 Weinberg, S. 2000. The Quantum Theory of Fields, Vol. III: Supersymmetry. Cambridge: Cambridge University Press.
+
+[R.2.17] 📘 Srednicki, M. 2007. Quantum Field Theory. Cambridge: Cambridge University Press.
+
+[R.2.18] 📘 Schwartz, M. D. 2014. Quantum Field Theory and the Standard Model. Cambridge: Cambridge University Press.
+
+[R.2.19] 📘 Zee, A. 2010. Quantum Field Theory in a Nutshell. 2nd ed. Princeton, NJ: Princeton University Press.
+
+[R.2.20] 📘 Itzykson, C., and Zuber, J.-B. 1980. Quantum Field Theory. New York: McGraw-Hill.
+
+[R.2.21] 📘 Ryder, L. H. 1996. Quantum Field Theory. 2nd ed. Cambridge: Cambridge University Press.
+
+[R.2.22] 📘 Mandl, F., and Shaw, G. 2010. Quantum Field Theory. 2nd ed. Chichester: Wiley.
+
+[R.2.23] 📘 Bjorken, J. D., and Drell, S. D. 1964. Relativistic Quantum Mechanics. New York: McGraw-Hill.
+
+[R.2.24] 📘 Bjorken, J. D., and Drell, S. D. 1965. Relativistic Quantum Fields. New York: McGraw-Hill.
+
+[R.2.25] 📘 Collins, J. 2011. Foundations of Perturbative QCD. Cambridge: Cambridge University Press.
+
+[R.2.26] 📘 Georgi, H. 1999. Lie Algebras in Particle Physics. 2nd ed. Reading, MA: Perseus.
+
+[R.2.27] 📘 Ramond, P. 1990. Field Theory: A Modern Primer. 2nd ed. Redwood City, CA: Addison-Wesley.
+
+[R.2.28] 📘 Greiner, W., and Reinhardt, J. 1996. Field Quantization. Berlin: Springer.
+
+[R.2.29] 📘 Banks, T. 2008. Modern Quantum Field Theory. Cambridge: Cambridge University Press.
+
+[R.2.30] 📘 Lancaster, T., and Blundell, S. J. 2014. Quantum Field Theory for the Gifted Amateur. Oxford: Oxford University Press.
+
+R.3 — Particle Physics and Standard Model References.
+
+[R.3.1] 📘 Halzen, F., and Martin, A. D. 1984. Quarks and Leptons: An Introductory Course in Modern Particle Physics. New York: Wiley.
+
+[R.3.2] 📘 Griffiths, D. J. 2008. Introduction to Elementary Particles. 2nd ed. Weinheim: Wiley-VCH.
+
+[R.3.3] 📘 Cheng, T.-P., and Li, L.-F. 1984. Gauge Theory of Elementary Particle Physics. Oxford: Clarendon.
+
+[R.3.4] 📘 Kane, G. 1993. Modern Elementary Particle Physics. Reading, MA: Addison-Wesley.
+
+[R.3.5] 📘 Langacker, P. 2017. The Standard Model and Beyond. 2nd ed. Boca Raton: CRC Press.
+
+[R.3.6] 📘 Donoghue, J. F., Golowich, E., and Holstein, B. R. 2014. Dynamics of the Standard Model. 2nd ed. Cambridge: Cambridge University Press.
+
+[R.3.7] 📘 Branco, G. C., Lavoura, L., and Silva, J. P. 1999. CP Violation. Oxford: Oxford University Press.
+
+[R.3.8] 📘 Commins, E. D., and Bucksbaum, P. H. 1983. Weak Interactions of Leptons and Quarks. Cambridge: Cambridge University Press.
+
+[R.3.9] 📘 Pokorski, S. 2000. Gauge Field Theories. 2nd ed. Cambridge: Cambridge University Press.
+
+[R.3.10] 📘 Aitchison, I. J. R., and Hey, A. J. G. 2012. Gauge Theories in Particle Physics (2 vols). 4th ed. Boca Raton: CRC Press.
+
+[R.3.11] 📘 Bilenky, S. M. 2018. Introduction to the Physics of Massive and Mixed Neutrinos. 2nd ed. Berlin: Springer.
+
+[R.3.12] 📘 Fukugita, M., and Yanagida, T. 2003. Physics of Neutrinos and Applications to Astrophysics. Berlin: Springer.
+
+[R.3.13] 📘 Mohapatra, R. N., and Pal, P. B. 2004. Massive Neutrinos in Physics and Astrophysics. 3rd ed. Singapore: World Scientific.
+
+[R.3.14] 📘 Quigg, C. 2013. Gauge Theories of the Strong, Weak, and Electromagnetic Interactions. 2nd ed. Princeton, NJ: Princeton University Press.
+
+[R.3.15] 📘 Thomson, M. 2013. Modern Particle Physics. Cambridge: Cambridge University Press.
+
+[R.3.16] 📘 Greiner, W., and Müller, B. 2009. Gauge Theory of Weak Interactions. 4th ed. Berlin: Springer.
+
+[R.3.17] 📘 Greiner, W., Schramm, S., and Stein, E. 2007. Quantum Chromodynamics. 3rd ed. Berlin: Springer.
+
+[R.3.18] 📘 Ellis, R. K., Stirling, W. J., and Webber, B. R. 1996. QCD and Collider Physics. Cambridge: Cambridge University Press.
+
+[R.3.19] 📘 Muta, T. 2010. Foundations of Quantum Chromodynamics. 3rd ed. Singapore: World Scientific.
+
+[R.3.20] 📘 Kolb, E. W., and Turner, M. S. 1990. The Early Universe. Reading, MA: Addison-Wesley. (Cosmological particle physics.)
+
+R.4 — Experimental Particle Physics and Precision Measurements.
+
+[R.4.1] ⚛ Particle Data Group (Workman, R. L., et al.). 2024. "Review of Particle Physics." Physical Review D 110: 030001.
+
+[R.4.2] ⚛ Tiesinga, E., Mohr, P. J., Newell, D. B., and Taylor, B. N. 2024. "CODATA Recommended Values of the Fundamental Physical Constants: 2022." Reviews of Modern Physics 96: 025002.
+
+[R.4.3] ⚛ ATLAS Collaboration. 2012. "Observation of a New Particle in the Search for the Standard Model Higgs Boson with the ATLAS Detector at the LHC." Physics Letters B 716: 1–29.
+
+[R.4.4] ⚛ CMS Collaboration. 2012. "Observation of a New Boson at a Mass of 125 GeV with the CMS Experiment at the LHC." Physics Letters B 716: 30–61.
+
+[R.4.5] ⚛ ATLAS and CMS Collaborations. 2015. "Combined Measurement of the Higgs Boson Mass in pp Collisions at √s = 7 and 8 TeV." Physical Review Letters 114: 191803.
+
+[R.4.6] ⚛ CMS Collaboration. 2022. "A Portrait of the Higgs Boson by the CMS Experiment Ten Years After the Discovery." Nature 607: 60–68.
+
+[R.4.7] ⚛ ATLAS Collaboration. 2022. "A Detailed Map of the Higgs Boson Interactions by the ATLAS Experiment Ten Years After the Discovery." Nature 607: 52–59.
+
+[R.4.8] ⚛ CDF Collaboration. 2022. "High-Precision Measurement of the W Boson Mass with the CDF II Detector." Science 376: 170–176.
+
+[R.4.9] ⚛ ATLAS Collaboration. 2024. "Measurement of the W-Boson Mass and Width with the ATLAS Detector." European Physical Journal C 84: 1309.
+
+[R.4.10] ⚛ Fan, X., Myers, T. G., Sukra, B. A. D., and Gabrielse, G. 2023. "Measurement of the Electron Magnetic Moment." Physical Review Letters 130: 071801. (New best a sub e.)
+
+[R.4.11] ⚛ Hanneke, D., Fogwell, S., and Gabrielse, G. 2008. "New Measurement of the Electron Magnetic Moment and the Fine Structure Constant." Physical Review Letters 100: 120801.
+
+[R.4.12] ⚛ Muon g-2 Collaboration (Abi, B., et al.). 2021. "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm." Physical Review Letters 126: 141801.
+
+[R.4.13] ⚛ Muon g-2 Collaboration (Aguillard, D. P., et al.). 2023. "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.20 ppm." Physical Review Letters 131: 161802.
+
+[R.4.14] ⚛ Lundeen, S. R., and Pipkin, F. M. 1981. "Measurement of the Lamb Shift in Hydrogen, n=2." Physical Review Letters 46: 232–235.
+
+[R.4.15] ⚛ Parker, R. H., Yu, C., Zhong, W., Estey, B., and Müller, H. 2018. "Measurement of the Fine-Structure Constant as a Test of the Standard Model." Science 360: 191–195.
+
+[R.4.16] ⚛ Morel, L., Yao, Z., Cladé, P., and Guellati-Khélifa, S. 2020. "Determination of the Fine-Structure Constant with an Accuracy of 81 Parts per Trillion." Nature 588: 61–65.
+
+[R.4.17] ⚛ Bezginov, N., Valdez, T., Horbatsch, M., Marsman, A., Vutha, A. C., and Hessels, E. A. 2019. "A Measurement of the Atomic Hydrogen Lamb Shift and the Proton Charge Radius." Science 365: 1007–1012.
+
+[R.4.18] ⚛ Pohl, R., et al. 2010. "The Size of the Proton." Nature 466: 213–216.
+
+[R.4.19] ⚛ LHCb Collaboration. 2019. "Observation of CP Violation in Charm Decays." Physical Review Letters 122: 211803.
+
+[R.4.20] ⚛ BaBar Collaboration (Aubert, B., et al.). 2001. "Observation of CP Violation in the B⁰ Meson System." Physical Review Letters 87: 091801.
+
+[R.4.21] ⚛ Belle Collaboration (Abe, K., et al.). 2001. "Observation of Large CP Violation in the Neutral B Meson System." Physical Review Letters 87: 091802.
+
+[R.4.22] ⚛ CPLEAR Collaboration. 1998. "First Direct Observation of Time-Reversal Non-Invariance in the Neutral-Kaon System." Physics Letters B 444: 43–51.
+
+[R.4.23] ⚛ Christenson, J. H., Cronin, J. W., Fitch, V. L., and Turlay, R. 1964. "Evidence for the 2 pi Decay of the K sub 2 to the 0 Meson." Physical Review Letters 13: 138–140.
+
+[R.4.24] ⚛ Super-Kamiokande Collaboration (Fukuda, Y., et al.). 1998. "Evidence for Oscillation of Atmospheric Neutrinos." Physical Review Letters 81: 1562–1567.
+
+[R.4.25] ⚛ SNO Collaboration (Ahmad, Q. R., et al.). 2002. "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory." Physical Review Letters 89: 011301.
+
+[R.4.26] ⚛ KamLAND Collaboration (Eguchi, K., et al.). 2003. "First Results from KamLAND: Evidence for Reactor Antineutrino Disappearance." Physical Review Letters 90: 021802.
+
+[R.4.27] ⚛ Daya Bay Collaboration (An, F. P., et al.). 2012. "Observation of Electron-Antineutrino Disappearance at Daya Bay." Physical Review Letters 108: 171803.
+
+[R.4.28] ⚛ RENO Collaboration (Ahn, J. K., et al.). 2012. "Observation of Reactor Electron Antineutrinos Disappearance in the RENO Experiment." Physical Review Letters 108: 191802.
+
+[R.4.29] ⚛ Double Chooz Collaboration (Abe, Y., et al.). 2012. "Indication of Reactor nu sub e Disappearance in the Double Chooz Experiment." Physical Review Letters 108: 131801.
+
+[R.4.30] ⚛ T2K Collaboration (Abe, K., et al.). 2011. "Indication of Electron Neutrino Appearance from an Accelerator-Produced Off-Axis Muon Neutrino Beam." Physical Review Letters 107: 041801.
+
+[R.4.31] ⚛ NOvA Collaboration. 2022. "Expanding Neutrino Oscillation Parameter Measurements in NOvA Using a Bayesian Approach." Physical Review D 106: 032004.
+
+[R.4.32] ⚛ KATRIN Collaboration (Aker, M., et al.). 2022. "Direct Neutrino-Mass Measurement with Sub-Electronvolt Sensitivity." Nature Physics 18: 160–166.
+
+[R.4.33] ⚛ Planck Collaboration. 2020. "Planck 2018 Results. VI. Cosmological Parameters." Astronomy & Astrophysics 641: A6. (Provides sum m_ nu <0.12 eV.)
+
+[R.4.34] ⚛ UA1 Collaboration (Arnison, G., et al.). 1983. "Experimental Observation of Isolated Large Transverse Energy Electrons with Associated Missing Energy at √s = 540 GeV." Physics Letters B 122: 103–116. (Discovery of W boson.)
+
+[R.4.35] ⚛ UA1 Collaboration (Arnison, G., et al.). 1983. "Experimental Observation of Lepton Pairs of Invariant Mass Around 95 GeV/c² at the CERN SPS Collider." Physics Letters B 126: 398–410. (Discovery of Z boson.)
+
+[R.4.36] ⚛ Aspect, A., Dalibard, J., and Roger, G. 1982. "Experimental Test of Bell's Inequalities Using Time-Varying Analyzers." Physical Review Letters 49: 1804–1807.
+
+[R.4.37] ⚛ Weihs, G., Jennewein, T., Simon, C., Weinfurter, H., and Zeilinger, A. 1998. "Violation of Bell's Inequality under Strict Einstein Locality Conditions." Physical Review Letters 81: 5039–5043.
+
+[R.4.38] ⚛ Rowe, M. A., Kielpinski, D., Meyer, V., Sackett, C. A., Itano, W. M., Monroe, C., and Wineland, D. J. 2001. "Experimental Violation of a Bell's Inequality with Efficient Detection." Nature 409: 791–794.
+
+[R.4.39] ⚛ Hensen, B., et al. 2015. "Loophole-Free Bell Inequality Violation Using Electron Spins Separated by 1.3 Kilometres." Nature 526: 682–686.
+
+[R.4.40] ⚛ Giustina, M., et al. 2015. "Significant-Loophole-Free Test of Bell's Theorem with Entangled Photons." Physical Review Letters 115: 250401.
+
+[R.4.41] ⚛ Shalm, L. K., et al. 2015. "Strong Loophole-Free Test of Local Realism." Physical Review Letters 115: 250402.
+
+[R.4.42] ⚛ BIG Bell Test Collaboration. 2018. "Challenging Local Realism with Human Choices." Nature 557: 212–216.
+
+[R.4.43] ⚛ CMS Collaboration. 2023. "Measurement of the Top Quark Mass with the Lepton+Jets Final State." European Physical Journal C 83: 560.
+
+[R.4.44] ⚛ ATLAS Collaboration. 2023. "Measurements of the Higgs Boson Inclusive and Differential Fiducial Cross-Sections in the Diphoton Decay Channel." JHEP 08: 027.
+
+[R.4.45] ⚛ Lamoreaux, S. K. 1997. "Demonstration of the Casimir Force in the 0.6 to 6 μm Range." Physical Review Letters 78: 5–8.
+
+[R.4.46] ⚛ Mohideen, U., and Roy, A. 1998. "Precision Measurement of the Casimir Force from 0.1 to 0.9 μm." Physical Review Letters 81: 4549–4552.
+
+[R.4.47] ⚛ BNL E821 Collaboration (Bennett, G. W., et al.). 2006. "Final Report of the Muon E821 Anomalous Magnetic Moment Measurement at BNL." Physical Review D 73: 072003.
+
+[R.4.48] ⚛ KLOE-2 Collaboration. 2017. "Combination of KLOE the expression Measurements." JHEP 03: 173.
+
+[R.4.49] ⚛ Borsanyi, S., et al. 2021. "Leading Hadronic Contribution to the Muon Magnetic Moment from Lattice QCD." Nature 593: 51–55.
+
+[R.4.50] ⚛ LIGO and Virgo Collaborations. 2016. "Observation of Gravitational Waves from a Binary Black Hole Merger." Physical Review Letters 116: 061102.
+
+R.5 — Bell Tests and Foundations of Quantum Mechanics.
+
+[R.5.1] 📜 Einstein, A., Podolsky, B., and Rosen, N. 1935. "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?" Physical Review 47: 777–780.
+
+[R.5.2] 📜 Bell, J. S. 1964. "On the Einstein Podolsky Rosen Paradox." Physics 1: 195–200.
+
+[R.5.3] 📜 Clauser, J. F., Horne, M. A., Shimony, A., and Holt, R. A. 1969. "Proposed Experiment to Test Local Hidden-Variable Theories." Physical Review Letters 23: 880–884.
+
+[R.5.4] 📜 Bell, J. S. 1966. "On the Problem of Hidden Variables in Quantum Mechanics." Reviews of Modern Physics 38: 447–452.
+
+[R.5.5] 📜 Kochen, S., and Specker, E. P. 1967. "The Problem of Hidden Variables in Quantum Mechanics." Journal of Mathematics and Mechanics 17: 59–87.
+
+[R.5.6] 📜 Greenberger, D. M., Horne, M. A., Shimony, A., and Zeilinger, A. 1990. "Bell's Theorem Without Inequalities." American Journal of Physics 58: 1131–1143.
+
+[R.5.7] 📜 Mermin, N. D. 1990. "Quantum Mysteries Revisited." American Journal of Physics 58: 731–734.
+
+[R.5.8] 📜 Hardy, L. 1992. "Quantum Mechanics, Local Realistic Theories, and Lorentz-Invariant Realistic Theories." Physical Review Letters 68: 2981–2984.
+
+[R.5.9] 📜 Tsirelson, B. S. 1980. "Quantum Generalizations of Bell's Inequality." Letters in Mathematical Physics 4: 93–100.
+
+[R.5.10] 📜 Popescu, S., and Rohrlich, D. 1994. "Quantum Nonlocality as an Axiom." Foundations of Physics 24: 379–385.
+
+[R.5.11] 📜 Coffman, V., Kundu, J., and Wootters, W. K. 2000. "Distributed Entanglement." Physical Review A 61: 052306. (Monogamy.)
+
+[R.5.12] 📘 Bell, J. S. 2004. Speakable and Unspeakable in Quantum Mechanics. 2nd ed. Cambridge: Cambridge University Press.
+
+[R.5.13] 📘 Peres, A. 1995. Quantum Theory: Concepts and Methods. Dordrecht: Kluwer.
+
+[R.5.14] 📘 Schlosshauer, M. 2007. Decoherence and the Quantum-to-Classical Transition. Berlin: Springer.
+
+[R.5.15] 📜 Zurek, W. H. 1981. "Pointer Basis of Quantum Apparatus: Into What Mixture Does the Wave Packet Collapse?" Physical Review D 24: 1516–1525.
+
+[R.5.16] 📜 Zurek, W. H. 2003. "Decoherence, Einselection, and the Quantum Origins of the Classical." Reviews of Modern Physics 75: 715–775.
+
+[R.5.17] 📜 Joos, E., and Zeh, H. D. 1985. "The Emergence of Classical Properties Through Interaction with the Environment." Zeitschrift für Physik B 59: 223–243.
+
+[R.5.18] 📜 Everett, H. 1957. " 'Relative State' Formulation of Quantum Mechanics." Reviews of Modern Physics 29: 454–462.
+
+[R.5.19] 📜 Wheeler, J. A. 1978. "The 'Past' and the 'Delayed-Choice' Double-Slit Experiment." In Mathematical Foundations of Quantum Theory, ed. A. R. Marlow, 9–48. New York: Academic Press.
+
+[R.5.20] 📜 Ghirardi, G. C., Rimini, A., and Weber, T. 1986. "Unified Dynamics for Microscopic and Macroscopic Systems." Physical Review D 34: 470–491.
+
+[R.5.21] 📜 Pearle, P. 1989. "Combining Stochastic Dynamical State-Vector Reduction with Spontaneous Localization." Physical Review A 39: 2277–2289.
+
+[R.5.22] 📜 Bassi, A., Lochan, K., Satin, S., Singh, T. P., and Ulbricht, H. 2013. "Models of Wave-Function Collapse, Underlying Theories, and Experimental Tests." Reviews of Modern Physics 85: 471–527.
+
+[R.5.23] 📜 Bohm, D. 1952. "A Suggested Interpretation of the Quantum Theory in Terms of 'Hidden' Variables." Physical Review 85: 166–179, 180–193.
+
+[R.5.24] 📘 Wallace, D. 2012. The Emergent Multiverse. Oxford: Oxford University Press.
+
+[R.5.25] 📜 Fuchs, C. A., Mermin, N. D., and Schack, R. 2014. "An Introduction to QBism with an Application to the Locality of Quantum Mechanics." American Journal of Physics 82: 749–754.
+
+R.6 — Renormalization, RG Flow, Non-Perturbative QFT.
+
+[R.6.1] 📜 Wilson, K. G. 1971. "Renormalization Group and Critical Phenomena. II." Physical Review B 4: 3184–3205.
+
+[R.6.2] 📜 Wilson, K. G., and Kogut, J. 1974. "The Renormalization Group and the ε Expansion." Physics Reports 12: 75–199.
+
+[R.6.3] 📜 Kadanoff, L. P. 1966. "Scaling Laws for Ising Models near Tc." Physics 2: 263–272.
+
+[R.6.4] 📜 Polchinski, J. 1984. "Renormalization and Effective Lagrangians." Nuclear Physics B 231: 269–295.
+
+[R.6.5] 📜 't Hooft, G. 1974. "A Planar Diagram Theory for Strong Interactions." Nuclear Physics B 72: 461–473.
+
+[R.6.6] 📜 Belavin, A. A., Polyakov, A. M., Schwartz, A. S., and Tyupkin, Y. S. 1975. "Pseudoparticle Solutions of the Yang-Mills Equations." Physics Letters B 59: 85–87. (Instantons.)
+
+[R.6.7] 📜 'tHooft, G. 1976. "Computation of the Quantum Effects Due to a Four-Dimensional Pseudoparticle." Physical Review D 14: 3432–3450.
+
+[R.6.8] 📜 Witten, E. 1979. "Current Algebra Theorems for the U(1) Goldstone Boson." Nuclear Physics B 156: 269–283.
+
+[R.6.9] 📜 Seiberg, N., and Witten, E. 1994. "Electric-Magnetic Duality, Monopole Condensation, and Confinement in N=2 Supersymmetric Yang-Mills Theory." Nuclear Physics B 426: 19–52.
+
+[R.6.10] 📜 Coleman, S., and Weinberg, E. 1973. "Radiative Corrections as the Origin of Spontaneous Symmetry Breaking." Physical Review D 7: 1888–1910.
+
+[R.6.11] 📜 Caswell, W. E. 1974. "Asymptotic Behavior of Non-Abelian Gauge Theories to Two-Loop Order." Physical Review Letters 33: 244–246.
+
+[R.6.12] 📜 Jones, D. R. T. 1974. "Two-Loop Diagrams in Yang-Mills Theory." Nuclear Physics B 75: 531–538.
+
+[R.6.13] 📘 Zinn-Justin, J. 2002. Quantum Field Theory and Critical Phenomena. 4th ed. Oxford: Clarendon.
+
+[R.6.14] 📘 Rivers, R. J. 1987. Path Integral Methods in Quantum Field Theory. Cambridge: Cambridge University Press.
+
+[R.6.15] 📘 Cardy, J. 1996. Scaling and Renormalization in Statistical Physics. Cambridge: Cambridge University Press.
+
+R.7 — Lattice QCD and Hadron Physics.
+
+[R.7.1] 📜 Wilson, K. G. 1974. "Confinement of Quarks." Physical Review D 10: 2445–2459.
+
+[R.7.2] 📜 Creutz, M. 1980. "Monte Carlo Study of Quantized SU(2) Gauge Theory." Physical Review D 21: 2308–2315.
+
+[R.7.3] 📜 Kogut, J., and Susskind, L. 1975. "Hamiltonian Formulation of Wilson's Lattice Gauge Theories." Physical Review D 11: 395–408.
+
+[R.7.4] 📜 Aoki, S., et al. (FLAG Working Group). 2022. "FLAG Review 2021." European Physical Journal C 82: 869.
+
+[R.7.5] 📜 Durr, S., et al. 2008. "Ab Initio Determination of Light Hadron Masses." Science 322: 1224–1227.
+
+[R.7.6] 📜 Borsanyi, S., et al. 2015. "Ab Initio Calculation of the Neutron-Proton Mass Difference." Science 347: 1452–1455.
+
+[R.7.7] 📘 Gattringer, C., and Lang, C. B. 2010. Quantum Chromodynamics on the Lattice. Berlin: Springer.
+
+[R.7.8] 📘 Montvay, I., and Münster, G. 1994. Quantum Fields on a Lattice. Cambridge: Cambridge University Press.
+
+[R.7.9] 📘 Rothe, H. J. 2012. Lattice Gauge Theories: An Introduction. 4th ed. Singapore: World Scientific.
+
+[R.7.10] 📜 Shifman, M. A., Vainshtein, A. I., and Zakharov, V. I. 1979. "QCD and Resonance Physics." Nuclear Physics B 147: 385–447, 448–518. (QCD sum rules.)
+
+R.8 — Neutrino Physics, CKM, and Flavor Physics.
+
+[R.8.1] 📜 Pontecorvo, B. 1968. "Neutrino Experiments and the Problem of Conservation of Leptonic Charge." Soviet Physics JETP 26: 984–988.
+
+[R.8.2] 📜 Mikheyev, S. P., and Smirnov, A. Yu. 1985. "Resonance Amplification of Oscillations in Matter and Spectroscopy of Solar Neutrinos." Soviet Journal of Nuclear Physics 42: 913–917.
+
+[R.8.3] 📜 Wolfenstein, L. 1978. "Neutrino Oscillations in Matter." Physical Review D 17: 2369–2374.
+
+[R.8.4] 📜 Bilenky, S. M., and Pontecorvo, B. 1978. "Lepton Mixing and Neutrino Oscillations." Physics Reports 41: 225–261.
+
+[R.8.5] 📜 Giganti, C., Lavignac, S., and Zito, M. 2018. "Neutrino Oscillations: The Rise of the PMNS Paradigm." Progress in Particle and Nuclear Physics 98: 1–54.
+
+[R.8.6] 📜 Esteban, I., Gonzalez-Garcia, M. C., Maltoni, M., Schwetz, T., and Zhou, A. 2020. "The Fate of Hints: Updated Global Analysis of Three-Flavor Neutrino Oscillations." JHEP 09: 178. (NuFit.)
+
+[R.8.7] 📜 Capozzi, F., Di Valentino, E., Lisi, E., Marrone, A., Melchiorri, A., and Palazzo, A. 2021. "Global Constraints on Absolute Neutrino Masses and Their Ordering." Physical Review D 104: 083031.
+
+[R.8.8] 📜 Dolinski, M. J., Poon, A. W. P., and Rodejohann, W. 2019. "Neutrinoless Double-Beta Decay: Status and Prospects." Annual Review of Nuclear and Particle Science 69: 219–251.
+
+[R.8.9] 📜 Buras, A. J. 2020. "Gauge Theory of Weak Decays." Cambridge: Cambridge University Press. (Reference book on CKM flavor.)
+
+[R.8.10] 📜 Charles, J., et al. (CKMfitter Group). 2015. "Current Status of the Standard Model CKM Fit and Constraints on Delta F=2 New Physics." Physical Review D 91: 073007.
+
+[R.8.11] 📜 Jarlskog, C. 1985. "Commutator of the Quark Mass Matrices in the Standard Electroweak Model and a Measure of Maximal CP Nonconservation." Physical Review Letters 55: 1039–1042.
+
+[R.8.12] 📜 Bilenky, S. M., Hosek, J., and Petcov, S. T. 1980. "On the Oscillations of Neutrinos with Dirac and Majorana Masses." Physics Letters B 94: 495–498.
+
+[R.8.13] 📜 Minkowski, P. 1977. "mu to e gamma at a Rate of One Out of 10 to the 9 Muon Decays?" Physics Letters B 67: 421–428. (See-saw origin.)
+
+[R.8.14] 📜 Gell-Mann, M., Ramond, P., and Slansky, R. 1979. "Complex Spinors and Unified Theories." In Supergravity, ed. P. van Nieuwenhuizen and D. Freedman, 315–321. Amsterdam: North-Holland.
+
+[R.8.15] 📜 Mohapatra, R. N., and Senjanović, G. 1980. "Neutrino Mass and Spontaneous Parity Nonconservation." Physical Review Letters 44: 912–915.
+
+R.9 — Beyond the Standard Model and Hierarchy Problem.
+
+[R.9.1] 📘 Martin, S. P. 1998. "A Supersymmetry Primer." In Perspectives on Supersymmetry II, ed. G. L. Kane, 1–153. Singapore: World Scientific. arXiv: hep-ph/9709356.
+
+[R.9.2] 📜 Randall, L., and Sundrum, R. 1999. "A Large Mass Hierarchy from a Small Extra Dimension." Physical Review Letters 83: 3370–3373.
+
+[R.9.3] 📜 Randall, L., and Sundrum, R. 1999. "An Alternative to Compactification." Physical Review Letters 83: 4690–4693.
+
+[R.9.4] 📜 Arkani-Hamed, N., Dimopoulos, S., and Dvali, G. 1998. "The Hierarchy Problem and New Dimensions at a Millimeter." Physics Letters B 429: 263–272.
+
+[R.9.5] 📜 Georgi, H., and Glashow, S. L. 1974. "Unity of All Elementary-Particle Forces." Physical Review Letters 32: 438–441. (SU(5) GUT.)
+
+[R.9.6] 📜 Pati, J. C., and Salam, A. 1974. "Lepton Number as the Fourth 'Color.' " Physical Review D 10: 275–289.
+
+[R.9.7] 📜 Georgi, H. 1975. "The State of the Art — Gauge Theories." In Particles and Fields—1974, ed. C. E. Carlson. AIP Conf. Proc. 23: 575. (SO(10) GUT.)
+
+[R.9.8] 📜 Fritzsch, H., and Minkowski, P. 1975. "Unified Interactions of Leptons and Hadrons." Annals of Physics 93: 193–266.
+
+[R.9.9] 📜 Super-Kamiokande Collaboration (Nishino, H., et al.). 2012. "Search for Proton Decay via the expression and the expression in a Large Water Cherenkov Detector." Physical Review D 85: 112001.
+
+[R.9.10] 📜 't Hooft, G. 1980. "Naturalness, Chiral Symmetry, and Spontaneous Chiral Symmetry Breaking." In Recent Developments in Gauge Theories, ed. G. 't Hooft et al., 135–157. New York: Plenum.
+
+R.10 — Zone-Architecture Internal Sources.
+
+[R.10.1] ☷ Raymond, J. L. 2026. Foundations Vol 1: Architecture of Reality. Kindle Direct Publishing.
+
+[R.10.2] ☷ Raymond, J. L. 2026. Foundations Vol 2: Forces and Fields. Kindle Direct Publishing.
+
+[R.10.3] ☷ Raymond, J. L. 2026. Foundations Vol 3: Matter and Motion. Kindle Direct Publishing.
+
+[R.10.4] ☷ Genesis Physics Project. 2025. "QM from Membrane Dynamics." Research note Research/MathematicalModels/05QuantumMechanics/05-QMFROMMEMBRANEDYNAMICS.md.
+
+[R.10.5] ☷ Genesis Physics Project. 2025. "QED Precision Calculations." Research note Research/MathematicalModels/05QuantumMechanics/05-QEDPRECISION_CALCULATIONS.md.
+
+[R.10.6] ☷ Genesis Physics Project. 2025. "Applied Quantum Mechanics Calculations." Research note Research/MathematicalModels/05QuantumMechanics/05-APPLIEDCALCULATIONS.md.
+
+[R.10.7] ☷ Genesis Physics Project. 2025. "Condensed Matter Derivations." Research note Research/MathematicalModels/05QuantumMechanics/05-CONDENSEDMATTER_DERIVATION.md.
+
+[R.10.8] ☷ Genesis Physics Project. 2025. "Particle Mass Spectrum V3." Research note Research/MathematicalModels/06NuclearandParticlePhysics/06-PARTICLEMASSSPECTRUMV3.md.
+
+[R.10.9] ☷ Genesis Physics Project. 2025. "Particle Mass Spectrum V2 (Supporting Analyses, 5 files)." Research notes 06-MASSSPECTRUMV2_*.md.
+
+[R.10.10] ☷ Genesis Physics Project. 2025. "Higgs Mechanism Derivation." Research note 06-HIGGS_DERIVATION.md.
+
+[R.10.11] ☷ Genesis Physics Project. 2025. "Neutrino Physics." Research note 06-NEUTRINO_PHYSICS.md.
+
+[R.10.12] ☷ Genesis Physics Project. 2025. "QCD Derivation." Research note 06-QCD_DERIVATION.md.
+
+[R.10.13] ☷ Genesis Physics Project. 2025. "Weak Parity and CP Violation." Research note 06-WEAKPARITYCP_VIOLATION.md.
+
+[R.10.14] ☷ Genesis Physics Project. 2025. "Matter-Antimatter Asymmetry." Research note 06-MATTERANTIMATTERASYMMETRY.md.
+
+[R.10.15] ☷ Genesis Physics Project. 2025. "Remaining Derivations." Research note 06-REMAINING_DERIVATIONS.md.
+
+[R.10.16] ☷ Genesis Physics Project. 2025. "Symmetries and Mass Integration." Research note 06-SYMMETRIESMASSINTEGRATION.md.
+
+[R.10.17] ☷ Genesis Physics Project. 2025. "SU(3) Yang-Mills Derivation." Research note 06-SU3YANGMILLS_DERIVATION.md.
+
+[R.10.18] ☷ Genesis Physics Project. 2025. "Topological Defect Particle Classification." Research note Research/Foundations/TOPOLOGICALDEFECTPARTICLE_CLASSIFICATION.md.
+
+[R.10.19] ☷ Genesis Physics Project. 2025. "Solving the 1000× Mass Problem." Research note Research/MathematicalModels/06NuclearandParticlePhysics/SOLVE1000XMASSPROBLEM.md (open problem; GitHub #2).
+
+[R.10.20] ☷ Genesis Physics Project. 2025. "Running Couplings and Renormalization Group Flow." Research note Research/MathematicalModels/10-RUNNINGCOUPLINGSRGFLOW.md.
+
+Summary Counts.
+
+Section: R.1 Foundational QM/QFT papers. Entries: 50. Cumulative: 50.
+Section: R.2 QM/QFT textbooks. Entries: 30. Cumulative: 80.
+Section: R.3 Particle physics & SM references. Entries: 20. Cumulative: 100.
+Section: R.4 Experimental particle physics. Entries: 50. Cumulative: 150.
+Section: R.5 Bell tests & foundations of QM. Entries: 25. Cumulative: 175.
+Section: R.6 Renormalization & non-perturbative. Entries: 15. Cumulative: 190.
+Section: R.7 Lattice QCD & hadrons. Entries: 10. Cumulative: 200.
+Section: R.8 Neutrinos, CKM, flavor. Entries: 15. Cumulative: 215.
+Section: R.9 Beyond Standard Model. Entries: 10. Cumulative: 225.
+Section: R.10 Zone-architecture internal. Entries: 20. Cumulative: 245.
+
+Total: 245 entries — comfortably above the 200-entry target.
+
+Legend: 📜 foundational paper · 📘 textbook · ⚛ experimental measurement · ⚙ data compilation · ☷ zone-architecture internal source.
+
+End of Bibliography. End of Vol 4 Back Matter.

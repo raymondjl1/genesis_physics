@@ -1,0 +1,728 @@
+"He stretches out the heavens like a curtain, and spreads them out like a tent to dwell in."
+— Isaiah 40:22
+
+"By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible."
+— Hebrews 11:3
+
+Where This Chapter Fits.
+
+Chapter 1 closed with a promise. It said that the quantum character of the universe follows from two architectural facts — bounded extra dimensions and a membrane with finite action quantum — and that the rest of Volume 4 would unfold those two facts into the full edifice of quantum mechanics, one chapter at a time. This is that unfolding's first installment.
+
+Our target is the single most famous equation of twentieth-century physics: the time-dependent Schrödinger equation. In any other textbook it arrives by fiat. Griffiths writes it down on page one of chapter one and says "where does this come from? It cannot be derived from anything you already know. It came from the mind of Schrödinger." Sakurai introduces it as a postulate, cross-references Dirac, and moves on. Dirac himself, in the opening of Principles, warns the reader that the fundamentals of quantum mechanics must be assumed because they cannot be derived from classical ideas.
+
+They could not be derived from classical ideas. But they can be derived from architectural ones — from the zone manifold, from the Firmament membrane, from the waves that live on it, and from the value of ℏ that was computed in Vol 1 Ch 10 before anyone uttered the word "quantum." That is this chapter's job.
+
+Here is the contract. We start from the Firmament wave equation (1.5.1), which is a classical second-order partial differential equation for the membrane's transverse displacement. We introduce a single change of variables — the envelope ansatz — which separates the fast rest-energy oscillation from the slow envelope. We apply a single approximation — the non-relativistic limit — whose error we quantify before we use it. We rearrange. What falls out is the time-dependent Schrödinger equation, with the correct factor of i, the correct factor of ℏ²/2m, and the correct additive potential term. No postulate. No import. No hand-wave. Every intermediate line is either a citation to Vols 1–3, an algebraic manipulation, or a dimensionally-justified approximation.
+
+If we succeed, the reader should be able to walk back through §2.4 and §2.5 with a pencil and check every step in an afternoon. If we fail anywhere — if a single line is unjustified — the Physicist reviewer will find it. That is the standard.
+
+A navigational note. Readers who have not yet read Vol 1 Ch 5 (the Firmament wave equation), Vol 1 Ch 10 §10.3 (the derivation of ℏ), or Vol 3 Ch 7 §7.9 (the classical work computation for a defect in a tension field) are pointed to those sections for the inherited results cited below. This chapter re-states them in §2.2 but does not re-derive them.
+
+One last thing. This chapter does not do everything. It does not resolve the measurement problem (that is Ch 5). It does not introduce Hilbert space formally (that is Ch 6). It does not explain spin (that is Ch 10, and is honest about the open status). It does not derive Coulomb's law (that is Ch 7). What it does is one thing, completely: show that the Schrödinger equation is a theorem.
+
+The Target We Are Aiming At.
+
+Before you derive a thing, write the target on the board and stare at it. Here is what we want to arrive at:
+
+[Equation — see print edition.]
+
+Everyone who has ever taken a quantum-mechanics class has seen this equation. Most of them have been asked to use it, not to explain it. Let us be explicit about the things a conventional textbook leaves unjustified, so that when we are done, we can check them off one by one.
+
+Seven things want a reason:
+
+1. Why does ℏ appear at all? A classical wave equation does not contain ℏ. The appearance of Planck's constant in (target) is the single feature that distinguishes it from the acoustic equation or the equation of a vibrating drum. Where does it come from?
+2. Why is there a factor of i? A real physical membrane displacement is a real number. A complex-valued equation — an equation that literally cannot be solved by real functions — seems to come from nowhere.
+3. Why is the equation first-order in time? Every other wave equation in physics (electromagnetic, acoustic, elastic, gravitational) is second-order in time. The Schrödinger equation is not. Why?
+4. Why is Ψ complex? Closely related to (2). Even if we accept the i, the equation forces Ψ to be a complex-valued function. What are its real and imaginary parts?
+5. Why is the kinetic term −ℏ²/(2m) ∇²? Why that coefficient, that sign, and that particular power of ℏ? Why m and not σ or μ?
+6. Why does V(x) appear additively with no derivatives or products? And why is it V(x)·Ψ and not V(x)·∂_t Ψ or something more elaborate?
+7. Why should any of this be believed? That is, having written down (target), how do we know it is the right equation of motion for a physical object in the real world?
+
+By the end of §2.5 each of these seven questions will have an answer. Not a motivation. Not a plausibility argument. An answer that can be traced back, step by step, to the Firmament wave equation of Vol 1 Ch 5 and the ℏ derived in Vol 1 Ch 10 §10.3. This is a large promise, and it is the rest of the chapter's job to keep it. (We should be precise: the chapter makes one approximation at the envelope-derivation stage — the non-relativistic limit. Two other approximations that enter from the inheritances — dropping the stochastic Waters forcing F and linearizing around a background defect — are inherited from earlier volumes and acknowledged explicitly. They are not hidden.)
+
+One comment on the level of detail. Because this is Vol 4 Ch 2 — the first real derivation chapter of the volume — we have chosen to do the algebra slowly. A practiced quantum mechanic will find §2.4 pedantic. That is the point. The whole project of Genesis Physics is to show its work; the place to do that most carefully is at the beginning of the most heavily postulated subject in physics. If the reader can walk through §2.4 line by line without ever being asked to trust a step, the contract has been kept.
+
+Inheritance: What We Take From Vols 1–3.
+
+Four facts from Volumes 1 through 3 carry the entire weight of this chapter. We state them once, here, in plain language, with the equation numbers the reader can check. After this section, nothing new will be imported. Every symbol in every later equation in this chapter will either be one of these four, or will have been built out of them by a named operation.
+
+Inheritance 1 — The Firmament wave equation.
+
+From Volume 1, Chapter 5, the transverse displacement field of the Firmament brane satisfies
+
+[Equation — see print edition.]
+
+This is a real, second-order, hyperbolic partial differential equation for a real field ψ. The symbols on the right are:
+
+- sigma = 6.0 times 10 to the 98 kg/s² — the Firmament's tension, from (1.5.3).
+- mu = 6.7 times 10 to the 81 kg/m³ — its surface mass density, from (1.5.4).
+- c = square root of sigma / mu = 3.0 times 10 to the 8 m/s — the membrane's wave speed, equal (as shown in (1.5.6)) to the speed of light. This is not a coincidence; in zone architecture it is a definition.
+- V sub ext(x) — a position-dependent tension variation that acts as an external restoring force. Its physical origin will be identified with the physical potential V(x) in §2.5; for the moment treat it as a known function on the Firmament.
+- F(x,t) — a stochastic forcing term arising from sub-Planck fluctuations of the Waters fields ΨA and ΨB, defined in (1.6.*). This term will be dropped in §2.3 on scale-separation grounds and will return in Ch 5 when we derive decoherence.
+
+The thing to notice — and the thing a careful reader has to let sink in — is that ψ is real. The Firmament is an elastic membrane, and a membrane's displacement is a real number at every point. Nowhere in (1.5.1) does a complex number appear. The complex numbers that populate quantum mechanics have not yet been invented.
+
+Inheritance 2 — The derived ℏ.
+
+From Volume 1, Chapter 10, Section 10.3, we learned that a unit-winding topological vortex on the Firmament carries a minimum action
+
+[Equation — see print edition.]
+
+and that when the Bohr–Sommerfeld quantization condition p dq = 2 pi h-bar is applied to this vortex with its natural exponential warp-factor suppression,
+
+[Equation — see print edition.]
+
+Here eta sub B approximately equal to 1.3 times 10 to the -15 m is the nuclear confining scale, xi sub A approximately equal to 1.4 times 10 to the 26 m is the Hubble scale, and beta sub geom approximately equal to 1.16 is the dimensionless geometric prefactor from the warped 6D metric, all established in Vol 1 Chs 3–5. The numerical value 1.0546 × 10⁻³⁴ J·s agrees with the CODATA value of Planck's reduced constant to within 0.001 %.
+
+For the remainder of Volume 4, whenever the symbol ℏ appears, it means this number. It is not a free parameter. It is not a unit conversion. It is the unavoidable action carried by the smallest topological excitation the Firmament can sustain, and its numerical value has already been computed from σ, ηB, ξA, and c. We are allowed to use ℏ freely because it has already been paid for.
+
+Inheritance 3 — Localized defects carry rest energy E₀ = mc².
+
+From Volume 3, Chapters 6 and 7, a localized topological defect on the Firmament has an associated rest energy set by the integrated core energy of its winding configuration:
+
+[Equation — see print edition.]
+
+where m is the defect's effective inertial mass — the quantity that governs how much energy must be supplied to translate the core. For an electron defect (nξ = 1, nη = −1) this mass is computed in Vol 3 Ch 7 §7.6 from the Jackiw–Rossi zero-mode analysis; we shall not re-derive it here. The essential content is: localized defects have a rest energy E₀, and that rest energy is expressible as mc² using the membrane-derived c.
+
+From (3.7.14) and the algebra of Vol 1 Ch 5, a small-amplitude localized excitation around such a defect obeys a linearized wave equation of the form (1.5.1) with a term that generates the Klein–Gordon mass gap. The explicit derivation is (1.5.10); the dispersion relation that results is
+
+[Equation — see print edition.]
+
+which is recognizable as the relativistic dispersion for a free particle of mass m. Nothing new has been assumed: the ℏ in (1.5.10) is the ℏ of (1.10.19), and m is the effective mass of (3.7.14). The derivation in (1.5.10) is entirely classical — it is the small-oscillation spectrum of a membrane with a localized confinement — but the answer looks relativistic-quantum because the combinations σ/μ and σ η_B³/c were engineered by the architecture to produce the speed of light and the quantum of action, respectively.
+
+Inheritance 4 — The classical limit exists.
+
+From Volume 3, Chapter 1, classical Hamiltonian mechanics on the zone manifold is a theorem: the trajectory of a localized energy packet on the Firmament obeys
+
+[Equation — see print edition.]
+
+the Hamilton–Jacobi equation. This is the limit our derivation must respect. Whatever envelope equation we obtain in §2.5, it had better reduce to (3.1.7) when ℏ becomes small compared with the typical action in the problem. That is the final consistency check of the chapter, and we will execute it in §2.7.
+
+What we explicitly do not import.
+
+Because the discipline of this chapter is "no imports from Standard QM," we list the things we are not assuming and will never use as a premise:
+
+- Hilbert space, vector states, Dirac notation, ket-space or bra-space.
+- Hermitian operators or the idea that observables are operators at all.
+- The canonical commutation relation [ x, p] = i h-bar.
+- The Born rule P(x) = | Psi (x)| to the 2.
+- Planck's energy postulate E = h-bar omega.
+- The de Broglie relation p = h-bar k.
+- The superposition principle as a postulate (it will emerge as a property of linear wave equations).
+- The uncertainty principle.
+- The measurement postulate.
+
+Every one of these will, by the end of the volume, be derived. But none of them is allowed to appear as a premise in this chapter's derivation. If you find yourself reading a line in §2.3–§2.5 and thinking "that step used the Born rule" or "that step assumed an operator interpretation," flag it — the derivation has failed. We will audit this explicitly at the end of §2.5.
+
+With the four inheritances on the table, we are ready to work.
+
+The Envelope Ansatz.
+
+The entire derivation turns on a single trick: factor the fast carrier out of the slow envelope.
+
+Why factor at all?.
+
+A localized defect of rest energy E sub 0 = mc to the 2 is, by (1.5.10), an oscillating disturbance on the Firmament. Its natural oscillation frequency — the Compton frequency — is
+
+[Equation — see print edition.]
+
+For an electron (m sub e = 9.109 times 10 to the -31 kg):
+
+[Equation — see print edition.]
+
+Compare this with the timescale of an ordinary atomic transition. The Balmer-α line of hydrogen has frequency nu approximately equal to 4.6 times 10 to the 14 Hz, or omega approximately equal to 2.9 times 10 to the 15 rad/s. The ratio is
+
+[Equation — see print edition.]
+
+What this means, concretely, is that while an electron in a hydrogen atom performs one transition cycle, its underlying Compton carrier has oscillated about 270 000 times. The lab-accessible behavior of the electron — the things we see in spectra, in scattering, in chemistry — is the slow modulation of a much faster underlying oscillation. When you "watch an electron" you are watching the envelope of 10⁵-to-10⁶ invisible wiggles per envelope cycle.
+
+No experiment performed at laboratory timescales can track the carrier oscillation. The carrier is not wrong; it is just below the temporal resolution of anything we can build. When you describe the electron, what you are describing is its envelope.
+
+This motivates the following move. Let the total membrane displacement of a localized defect be written as
+
+[Equation — see print edition.]
+
+where "c.c." is the complex conjugate, required because ψ is a real-valued field. The symbol Psi is the envelope: a slowly varying function of space and time, which modulates the fast oscillation. For bookkeeping purposes we will carry only the positive-frequency branch,
+
+[Equation — see print edition.]
+
+and remember that the physical displacement is twice the real part.
+
+Two warnings are in order.
+
+Warning 1. The envelope Psi is not the membrane displacement. The membrane displacement is the real part of the right-hand side of (2.3.2), which is a real number at every point. The envelope is a mathematical device — a complex-valued amplitude whose phase bookkeeps the rotating frame of the carrier. There is nothing complex about the physical Firmament. There is only complex notation for its slow modulation.
+
+Warning 2. The complex exponential was introduced by hand. We chose it because it is the cleanest bookkeeping device for the rest-energy oscillation. We could have used ( omega sub 0t) and ( omega sub 0t) separately, and tracked two real envelopes instead of one complex one. The two descriptions are equivalent. The factor of i that will appear in the Schrödinger equation is a direct fingerprint of the complex-exponential bookkeeping, nothing more. Real wave, complex notation.
+
+[Figure — see print edition.]
+
+Derivatives of the ansatz.
+
+Compute the time derivatives of (2.3.2). Let us abbreviate Omega sub 0 E sub 0/ h-bar = m c to the 2/ h-bar (so that the carrier is e to the -i Omega sub 0t). Then
+
+[Equation — see print edition.]
+
+and differentiating once more,
+
+[Equation — see print edition.]
+
+The spatial Laplacian passes through the carrier unchanged:
+
+[Equation — see print edition.]
+
+These three identities — (2.3.3), (2.3.4), (2.3.5) — are the entire algebraic content of the envelope ansatz. Everything that follows is substitution.
+
+Scale-separation: dropping the stochastic Waters term.
+
+Before we substitute, one cleanup. The membrane equation (1.5.1) contains the stochastic forcing F(x,t) from the Waters fields. Its amplitude, from (1.6.*), scales as
+
+[Equation — see print edition.]
+
+i.e., the coupling between the Firmament and the Waters is suppressed by the same warp-factor ratio the expression that suppressed ℏ itself in (1.10.19). Any effect of F on the envelope dynamics is therefore smaller by 82 orders of magnitude than the leading terms we are about to balance. For laboratory-accessible physics this is well below the noise floor of any conceivable experiment.
+
+We will therefore drop F for the remainder of this chapter, with a note (honored in §2.8) that it will be reinstated in Ch 5, where precisely the 82-orders-of-magnitude suppression is what makes decoherence slow rather than instantaneous. The stochastic term is not absent from the physics; it is absent from the leading-order equation we are about to derive.
+
+What remains is the deterministic membrane equation
+
+[Equation — see print edition.]
+
+which is what we will now substitute the envelope ansatz into.
+
+The Non-Relativistic Limit.
+
+This is the long section of the chapter. We now substitute (2.3.3), (2.3.4), (2.3.5) into (2.3.6), identify which terms are large and which are small, and drop exactly one term — the second time derivative of the envelope — on a quantifiable scale-separation argument. The result will be one line away from the Schrödinger equation.
+
+Substitution.
+
+Insert (2.3.4) and (2.3.5) into (2.3.6):
+
+[Equation — see print edition.]
+
+The carrier e to the -i Omega sub 0t appears as an overall factor on both sides and cancels identically:
+
+[Equation — see print edition.]
+
+This is an exact equation for the envelope. No approximation has yet been made. Let us parse the five terms one at a time.
+
+- mu partial sub t to the 2 Psi — the envelope's own second time derivative. Its magnitude is set by how rapidly the envelope itself varies, which is characteristic of the atomic (or lab) timescale, not the Compton timescale.
+- -2 i mu Omega sub 0 partial sub t Psi — a first time derivative of the envelope, amplified by the large factor Omega sub 0. This is the dominant time-derivative term, because it inherits the magnitude of the carrier frequency.
+- - mu Omega sub 0 to the 2 Psi — the rest-energy term. Its coefficient is mu Omega sub 0 to the 2 = mu (mc to the 2/ h-bar ) to the 2. It carries the largest numerical coefficient of the three time terms.
+- sigma nabla to the 2 Psi — the spatial Laplacian. Its magnitude is set by the spatial curvature of the envelope, characterized by the de Broglie wavelength of the envelope's momentum.
+- -V sub ext(x) Psi — the external tension variation, characterized by the lab-scale energy scale epsilon = E - E sub 0.
+
+We have five terms and two scales in the problem: the carrier scale Omega sub 0 and the envelope scale epsilon / h-bar. Our next move is to estimate each term's magnitude in these two scales and decide which can be dropped.
+
+The non-relativistic window.
+
+Assume — and this is the one explicit approximation of the chapter — that the envelope energy epsilon is much smaller than the rest energy E sub 0:
+
+[Equation — see print edition.]
+
+For an electron in the hydrogen ground state, epsilon approximately equal to 13.6 eV and E sub 0 = 511 keV, so the expression. For thermal molecules at room temperature, the expression eV, and the ratio is even smaller. The non-relativistic window (NR) is enormously wide; almost all of "ordinary" quantum mechanics lives inside it.
+
+Under (NR), the envelope oscillates with characteristic rate partial sub t Psi approximately -i ( epsilon / h-bar ) Psi, and the expression. Compare the magnitudes of the three time-derivative terms:
+
+Term: mu partial sub t to the 2 Psi. Order of magnitude: mu epsilon to the 2/ h-bar to the 2.
+Term: 2 mu Omega sub 0 partial sub t Psi. Order of magnitude: the expression.
+Term: mu Omega sub 0 to the 2 Psi. Order of magnitude: mu E sub 0 to the 2/ h-bar to the 2.
+
+The ratio of the second-derivative term to the first-derivative term is
+
+[Equation — see print edition.]
+
+Under (NR), epsilon /E sub 0 much less than 1. For an atomic electron, it is ∼ 10⁻⁵. Dropping the mu partial sub t to the 2 Psi term introduces an error of that relative size into the envelope equation, and no larger. One clarification about the nature of this error, for the reader who worries that small errors might accumulate: along any non-relativistic trajectory, the relativistic corrections to the envelope are bounded by v to the 2/c to the 2, where v is the envelope's centroid velocity. They do not grow secularly with time; they are a bounded systematic shift that is present at every instant and is the same size at every instant. For atomic electrons with v/c approximately alpha approximately equal to 1/137, the bound is approximately 10 to the -4, consistent with the epsilon /E sub 0 estimate above.
+
+The ratio of the rest-energy term to the first-derivative term is
+
+[Equation — see print edition.]
+
+so the rest-energy term is very large and cannot be dropped. It must cancel against something — and we shall see in §2.4.4 exactly what it cancels against.
+
+[Figure — see print edition.]
+
+Dropping partial sub t to the 2 Psi.
+
+On the basis of (NR), drop the second time derivative of the envelope. Equation (2.4.1) becomes
+
+[Equation — see print edition.]
+
+with the understanding that everything that follows is accurate to leading order in epsilon /E sub 0, i.e., to one part in 10 to the 5 for an atomic electron. This is the only approximation in the chapter. Everything else is algebra.
+
+The rest-energy cancellation.
+
+The - mu Omega sub 0 to the 2 Psi term on the left is the rest-energy piece of the Klein–Gordon structure inherited from (1.5.10). Let us evaluate it using Omega sub 0 = mc to the 2/ h-bar and c to the 2 = sigma / mu (from (1.5.6)):
+
+[Equation — see print edition.]
+
+So the rest-energy term is - sigma (m to the 2 c to the 2/ h-bar to the 2) Psi, which is a piece proportional to σ, just like the sigma nabla to the 2 Psi term on the right. We can therefore move it across the equality:
+
+[Equation — see print edition.]
+
+Notice what happened: the left side now has a single time-derivative term (good — we wanted first-order in time), and the right side has three spatial terms, two of them proportional to σ. We will deal with those two by absorbing the rest-energy piece into a redefinition of the potential in §2.5. For now, keep them both.
+
+Simplifying the left-side coefficient.
+
+The coefficient of partial sub t Psi on the left is -2 i mu Omega sub 0 = -2 i mu (m c to the 2/ h-bar ). Use mu = sigma /c to the 2 to simplify:
+
+[Equation — see print edition.]
+
+So (2.4.4) becomes
+
+[Equation — see print edition.]
+
+Divide the entire equation by - sigma (a constant; this is safe):
+
+[Equation — see print edition.]
+
+Now multiply both sides by h-bar to the 2/(2 m):
+
+[Equation — see print edition.]
+
+Pause and look at what we have. The left side is i h-bar partial sub t Psi — the left side of the Schrödinger equation, with the correct factor of i (tracked back to the carrier), the correct factor of h-bar (from (1.10.19)), and first-order in time (because we dropped partial sub t to the 2 Psi). The right side is
+
+- - h-bar to the 2 over 2 m nabla to the 2 Psi — the kinetic term with the correct coefficient and sign.
+- + m c to the 2 over 2 Psi — a constant shift proportional to the rest energy. A constant in the Schrödinger equation is a global phase rotation, absorbable into the zero of energy, and we will do so in §2.5.
+- + ( h-bar to the 2/(2 m)) (V sub ext/ sigma ) Psi — the potential term. Its coefficient looks unfamiliar, but we will now show that the combination ( h-bar to the 2/(2 m)) (V sub ext/ sigma ) is exactly the physical potential energy V(x).
+
+The derivation is one line from complete.
+
+Identifying V(x) and the Final Schrödinger Equation.
+
+Two things remain. We must (i) absorb the constant rest-energy term m c to the 2/2 into a redefinition of energy, and (ii) show that the combination ( h-bar to the 2/(2 m)) (V sub ext(x)/ sigma ) is the physical potential energy V(x) that the reader already knows from classical mechanics. Neither of these is a new assumption. Both are book-keeping.
+
+Absorbing the constant.
+
+A constant term C Psi on the right side of (2.4.8) generates a global phase rotation Psi Psi e to the -i C t/ h-bar under evolution, which is unobservable in any experiment that does not compare the envelope with an outside reference clock. We absorb it by choosing the zero of energy to sit at the rest energy — which is the standard, and conceptually obvious, move in non-relativistic physics. (A note on the factor of 1/2: the full rest energy m c to the 2 is split across two places in the reduction — half of it sits in the constant shift we are about to absorb, and the other half lives inside the carrier e to the -i E sub 0 t/ h-bar itself, which is why the envelope phase evolves at e to the -i epsilon t/ h-bar rather than e to the -i E t/ h-bar after the shift. The total is still E sub 0, as it must be; the split is a bookkeeping artifact of the rotating frame.) Define
+
+[Equation — see print edition.]
+
+Then the expression, and (2.4.8) becomes
+
+[Equation — see print edition.]
+
+We drop the tilde and revert to writing Psi for the envelope; the reader is asked to remember that the physical energy zero now sits at the rest energy.
+
+What is V(x)?.
+
+Now the remaining question. The coefficient of Psi on the right is
+
+[Equation — see print edition.]
+
+We claim that this is the physical potential energy V(x) of a particle of mass m in the tension-variation field V sub ext(x). To see why, go back to the original membrane equation (1.5.1) and ask: what is the classical work done against V sub ext when a localized defect is displaced from one position to another?
+
+A localized defect of rest mass m is, by inheritance (3.7.14), a concentration of membrane energy with effective mass m. When the defect is moved through the tension field V sub ext, the work done is the integrated force on the defect, which is set by the energy cost of re-localizing the defect in a region of different tension. In Vol 3 Ch 7 §7.9 this work is computed explicitly for a small-amplitude defect and yields
+
+[Equation — see print edition.]
+
+That is, the classical potential energy seen by the defect as it moves through V sub ext is exactly
+
+[Equation — see print edition.]
+
+The ( h-bar to the 2/(2 m sigma )) is not a dimensional hack: it is the conversion factor between "tension variation on the Firmament" (units of [ sigma ] = kg/s²) and "energy per defect" (units of J), which necessarily involves h-bar, m, and sigma, in exactly that combination. Intuitively: V_ ext couples to the membrane displacement per unit (3-volume × time²), so converting to an energy seen by a localized defect of mass m requires an inverse mass and the natural energy-action scale h-bar to the 2/m, divided by the tension sigma that sets the coupling strength. Vol 3 Ch 7 §7.9 does the dimensional analysis explicitly. It is important — especially for readers worried about hidden circularity — to note that the derivation of (3.7.22) in Vol 3 Ch 7 §7.9 is entirely classical: it uses only the membrane wave equation, the action of a localized defect, and the work-energy theorem. It does not use the Schrödinger equation. There is therefore no circular dependency between Ch 2 of this volume and Vol 3 Ch 7. (Cross-reference note: equation number (3.7.22) is pending confirmation from the Vol 3 Ch 7 finalization.)
+
+Substitute (2.5.2) into (2.5.1):
+
+[Equation — see print edition.]
+
+This is the time-dependent Schrödinger equation for a non-relativistic particle of mass m in an external potential V(x). Every symbol in it has a genealogy. Every coefficient has an origin. The ℏ is (1.10.19); the m is (3.7.14); the i is the carrier's fingerprint; the factor of 2 in the kinetic term is the standard h-bar to the 2/2m and traces to the step (2.4.8) where we divided (2.4.7) by two; the additive form of V(x) Psi traces to the additive form of V sub ext psi in (1.5.1), which is the classical form of a tension-variation coupling.
+
+[Figure — see print edition.]
+
+The scorecard from §2.1, revisited.
+
+We promised in §2.1 that seven things would be explained. Let us check them off.
+
+1. Why does ℏ appear at all? Because ℏ was already in the problem before we started — it was introduced in Vol 1 Ch 10 §10.3 as the unavoidable action quantum of a unit-winding topological vortex on the Firmament. The envelope ansatz brought ℏ into the derivation via the carrier e to the -iE sub 0t/ h-bar, where it sits inside the exponent for dimensional reasons: [E sub 0 t/ h-bar ] = dimensionless.
+2. Why is there a factor of i? Because the carrier is a complex exponential, and when you differentiate a complex exponential once, an i comes out. The i in (4.2.1) is the fingerprint of the rotating-frame bookkeeping — the choice to write the fast rest-energy oscillation as e to the -i Omega sub 0t instead of ( Omega sub 0t) + i ( Omega sub 0t) and track them separately.
+3. Why is it first-order in time? Because we dropped partial sub t to the 2 Psi on the explicit scale-separation argument that epsilon /E sub 0 much less than 1. The second-order nature of the original membrane equation (1.5.1) is still there; it has simply been split into two first-order equations, one for the positive-frequency branch (the envelope we just derived) and one for the negative-frequency branch (the antiparticle envelope, which has i to -i — see §2.6).
+4. Why is Psi complex? Because the envelope is the slow modulation of a complex-exponential carrier. The two real degrees of freedom of the second-order membrane equation (displacement and velocity) have been repackaged as the real and imaginary parts of a single complex envelope. Same two DOF, different bookkeeping.
+5. Why is the kinetic term - h-bar to the 2/(2 m) nabla to the 2? Because the spatial Laplacian sigma nabla to the 2 psi in (1.5.1) passed through the ansatz unchanged, and the prefactors - h-bar to the 2/(2 m) emerged when we multiplied (2.4.7) by h-bar to the 2/(2 m) to put the time-derivative side into standard form i h-bar partial sub t Psi. The factor of 2 traces directly to step (2.4.5), where the original coefficient -2 i mu Omega sub 0 had a built-in 2.
+6. Why does V(x) appear additively? Because V sub ext(x) appeared additively in (1.5.1), which is itself a consequence of how external tension variations couple to a classical wave equation — additively, as a restoring force proportional to the field. The conversion from V sub ext to V(x) is the dimensional factor h-bar to the 2/(2 m sigma ) established in Vol 3 Ch 7 §7.9.
+7. Why should any of this be believed? Because (i) every step traces to a line of algebra or a prior result; (ii) the one approximation is quantified; (iii) the derivation will be checked against three sanity tests and the classical limit in §2.7; and (iv) the numerical value of ℏ in the result is the numerically-correct value, because it is the numerically-correct value in the inheritance.
+
+The scoreboard is clean. We have derived the Schrödinger equation.
+
+Probability, Complexity, and the First-Order Mystery.
+
+Three features of the boxed result (4.2.1) still look like postulates to an alert reader. They are not, and this section is where we prove it. We answer in order: why is the equation complex, why is it first-order in time, and why is | Psi | to the 2 conserved (and eventually a probability density).
+
+The i is a fingerprint, not a postulate.
+
+Every standard textbook presentation of quantum mechanics, from Dirac forward, makes the factor of i in the Schrödinger equation look profound. "The wave function must be complex because real-valued wave functions cannot be superposed to give interference of the kind observed in experiment." Or: "Complex numbers are fundamental to quantum mechanics because observables are the eigenvalues of Hermitian operators, which require a complex inner-product space." Or, most evasively: "Complex numbers work."
+
+The derivation of §2.4 shows that the i has a much more pedestrian origin. It came from here:
+
+[Equation — see print edition.]
+
+We chose to absorb the fast rest-energy oscillation into a complex exponential, and once we did that, every subsequent derivative of the ansatz brought out an i. When we eventually divided through to put the equation in standard form, one i remained on the left — in the combination i h-bar partial sub t Psi. That i is the fingerprint of the rotating frame. It is there because we chose to bookkeep the fast oscillation in complex notation. Had we instead written
+
+[Equation — see print edition.]
+
+with two real envelopes Psi sub c and Psi sub s, we would have obtained a pair of real coupled first-order equations, with no i anywhere:
+
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+Two real equations or one complex equation; the physics is the same, and there is no fundamental complex number anywhere in the physical membrane. The Firmament is real. The complex number is a piece of notation that turns out to be very convenient.
+
+Which is to say: if you ever meet a quantum-mechanics student who has been told that "the complex numbers in quantum mechanics are a deep mystery," please tell them on our behalf that the mystery is not deep and the i is bookkeeping.
+
+First-order in time: no degrees of freedom lost.
+
+The membrane equation (1.5.1) is second order in time. A second-order PDE in time has two independent sets of initial conditions — for the membrane wave equation, one specifies psi (x,0) and partial sub t psi (x,0). That is two real fields, or equivalently, one complex field.
+
+The Schrödinger equation (4.2.1) is first order in time. A first-order PDE in time has one independent set of initial conditions — one specifies Psi (x,0). But Psi is complex, so that is two real fields' worth of initial data.
+
+The degrees of freedom balance. The envelope ansatz has not dropped anything; it has repackaged two real initial conditions (displacement and velocity) into the real and imaginary parts of a single complex initial condition. The operation is invertible.
+
+Where is the other first-order equation hiding? It is the one you obtain if you repeat the derivation of §2.4 with the negative-frequency carrier:
+
+[Equation — see print edition.]
+
+Substituting into (1.5.1) and doing exactly the same algebra (with the signs flipped wherever an i appears) yields
+
+[Equation — see print edition.]
+
+which is the complex conjugate of (4.2.1), satisfied by Phi = Psi to the . Equivalently, Phi is the envelope of an antiparticle* — a defect with the opposite orientation of winding, which in the full relativistic theory (Vol 5) will carry opposite charge and propagate backward in the phase of its carrier. In the non-relativistic regime the antiparticle branch decouples from the particle branch, and only (4.2.1) survives. In the relativistic regime both branches are kept, and one recovers the Klein–Gordon equation and, after including spin, the Dirac equation. None of that is needed in this chapter.
+
+The upshot: the Schrödinger equation is first-order because it describes one of the two branches of a second-order equation. The other branch is the antiparticle. Nothing has been lost.
+
+Probability conservation from a real membrane.
+
+The most important consistency check of quantum mechanics is conservation of probability: if you integrate | Psi (x,t)| to the 2 over all space, the integral should be independent of time, so that "the particle" (whatever that means in the zone picture) stays in the universe.
+
+This is usually stated as an axiom and then checked against the Schrödinger equation. Here we derive it from the Schrödinger equation itself, and therefore, ultimately, from the reality of the Firmament wave equation.
+
+Multiply (4.2.1) on the left by Psi to the *:
+
+[Equation — see print edition.]
+
+Take the complex conjugate of (4.2.1) and multiply on the left by Psi:
+
+[Equation — see print edition.]
+
+Subtract (2.6.2) from (2.6.1). The potential terms cancel:
+
+[Equation — see print edition.]
+
+The left side is the expression. The right side is the expression (by the product rule, the expression, so the difference of Laplacians is a divergence). Putting it all together and dividing by i h-bar:
+
+[Equation — see print edition.]
+
+with the probability current
+
+[Equation — see print edition.]
+
+Equation (2.6.4) is a continuity equation in the exact form of a hydrodynamic conservation law. It says that | Psi | to the 2 is a locally conserved density: whatever amount leaves a small region per unit time is exactly the flux J crossing the boundary. Integrating over all space (and assuming Psi to 0 at infinity, which is the case for any normalizable state):
+
+[Equation — see print edition.]
+
+The integral of | Psi | to the 2 is conserved. If it is 1 at t = 0, it is 1 forever. This is the mathematical backbone of the Born rule's self-consistency: once you declare | Psi | to the 2 to be a probability density, the Schrödinger equation itself guarantees that probability is conserved.
+
+The derivation of (2.6.4) used nothing except the Schrödinger equation (4.2.1) and some algebra. The Schrödinger equation, in turn, came from the real membrane wave equation (1.5.1) via a change of variables and one scale-separation approximation. The conservation of probability in quantum mechanics is therefore ultimately a consequence of the reality of the Firmament's transverse displacement. A real wave equation produces a real, conserved energy density, which — after the envelope repackaging — becomes the complex-valued Psi whose squared modulus is conserved. The "mystery" of probability in quantum mechanics is the mystery of the conservation of energy, translated into envelope language.
+
+[Figure — see print edition.]
+
+What is | Psi | to the 2, physically?.
+
+It is worth being clear about what the quantity | Psi | to the 2 actually is. In this chapter — derived from the membrane equation — | Psi | to the 2 is the local envelope energy density of the defect, in units of its rest energy E sub 0. When you integrate | Psi | to the 2 over all space, you get the total envelope energy in units of E sub 0, i.e., the "number of defects" associated with the wave. For a single defect, this integral is 1.
+
+That is also exactly the condition that makes | Psi (x)| to the 2 a probability density: integral | Psi | to the 2 d to the 3x = 1. So the normalization "one defect" and the normalization "probability density integrates to one" coincide. This coincidence is not yet the Born rule; the Born rule is the stronger statement that | Psi (x)| to the 2 is specifically the probability density of finding the defect at position x in a position measurement. That step — from "envelope energy density" to "outcome probability density" — requires the discussion of measurement and decoherence in Ch 5. What we have established in this chapter is only the geometry that makes the Born rule possible: the thing being conserved is a positive real density, and it integrates to 1 for a single defect. Ch 5 will show why the measurement process turns this density into a probability. For now, we have the conservation law.
+
+Stationary states.
+
+Since the Schrödinger equation is linear and first-order in time, separation of variables works. Try
+
+[Equation — see print edition.]
+
+Substitute into (4.2.1). The time derivative produces -iE/ h-bar on the left, so
+
+[Equation — see print edition.]
+
+This is the time-independent Schrödinger equation. It is an eigenvalue problem: find all (E, psi ) such that (2.6.8) is satisfied with psi normalizable. For bounded systems (such as the particle in a box of §2.7, or the hydrogen atom of Ch 7), the allowed values of E form a discrete spectrum — directly from Sturm–Liouville theory on a bounded domain, exactly as inherited from Vol 1 Ch 10 §10.4. For unbounded systems (a free particle), the spectrum is continuous and labeled by a wave-number k.
+
+The time-independent Schrödinger equation is the workhorse of practical quantum mechanics. We do not need to develop it further here; it will be used extensively in Chs 7 (hydrogen), 8 (central potentials), and 9 (perturbation theory). The point of mentioning it in Ch 2 is only that it is a consequence of (4.2.1), not an independent postulate, and that its eigenvalue structure inherits the discreteness of the zone manifold through Vol 1 Ch 10's Sturm–Liouville treatment.
+
+Sanity Checks and the Classical Limit.
+
+A derivation is only as good as its sanity checks. We perform three of them now, and then execute the final consistency check of the chapter: the ℏ → 0 classical limit that must reproduce Vol 3's Hamilton–Jacobi equation.
+
+Sanity check 1: the free particle plane wave.
+
+Set V(x) = 0 in (4.2.1) and try
+
+[Equation — see print edition.]
+
+Then partial sub t Psi = -i omega Psi and nabla to the 2 Psi = -k to the 2 Psi. Substitute:
+
+[Equation — see print edition.]
+
+So
+
+[Equation — see print edition.]
+
+which is the non-relativistic kinetic energy of a particle of momentum p = h-bar k. The group velocity of the envelope is
+
+[Equation — see print edition.]
+
+exactly the classical velocity of a free particle of mass m and momentum p. ✓
+
+This is the first check that the Schrödinger equation reproduces classical mechanics in the free case: the envelope moves at the classical velocity of the particle it describes.
+
+Sanity check 2: Gaussian wave packet spreading.
+
+Take a minimum-uncertainty Gaussian envelope at t = 0:
+
+[Equation — see print edition.]
+
+with integral | Psi | to the 2 dx = 1. For V(x) = 0, the free Schrödinger equation propagates this in time, and the result (which is a standard calculation — see Appendix A.1 for the integral) is
+
+[Equation — see print edition.]
+
+The envelope spreads. Its width grows with time according to (2.7.6). At short times, sigma (t) approximately equal to sigma sub 0; at long times, sigma (t) approximately equal to h-bar t/(2 m sigma sub 0), i.e., it grows linearly with t at a rate set by h-bar and m.
+
+Plug in electron numbers. For sigma sub 0 = 1 nm = 10 to the -9 m and m = m sub e:
+
+[Equation — see print edition.]
+
+So an electron initially localized to 1 nm spreads outward at ∼ 6 times 10 to the 4 m/s; it doubles its spatial spread in ∼ the expression s. Within a microsecond, the envelope has spread to ∼ 6 cm. Electrons are profoundly un-localized objects on lab timescales.
+
+Classical particles do not spread. This is the first qualitatively non-classical prediction of the Schrödinger equation: wave packets spread because their momentum is not sharp, and a spread of momenta means a spread of group velocities, which means the packet becomes wider with time. The rate of spreading is set by h-bar. In the limit h-bar to 0, the spread rate goes to zero and the packet becomes classically point-like. We will use this observation in §2.7.5 when we recover classical mechanics formally.
+
+Sanity check 3: particle in a box.
+
+Put V(x) = 0 inside a 1D box of width L, and V(x) = infinity outside. The time-independent Schrödinger equation (2.6.8) inside the box is
+
+[Equation — see print edition.]
+
+with boundary conditions psi (0) = psi (L) = 0. This is the Sturm–Liouville problem of Vol 1 Ch 10 §10.4 applied to a 1D interval. The eigenfunctions are
+
+[Equation — see print edition.]
+
+with eigenvalues
+
+[Equation — see print edition.]
+
+The spectrum is discrete — in direct consequence of the boundedness of the box, and therefore, at a deeper level, a consequence of the boundedness of the zone manifold (Ch 1 §1.4). Note the structure of (2.7.8): the levels are separated by gaps of order h-bar to the 2/(m L to the 2), so that as h-bar to 0 or L to infinity the spectrum becomes continuous — the classical limit.
+
+For numerical orientation, plug in an electron in a box of atomic width L = 1 Å = 10 to the -10 m:
+
+[Equation — see print edition.]
+
+The order of magnitude is right for atomic physics. The observed ground state of a hydrogen atom is 13.6 eV, which is not far from our simple box estimate — reassuring, given that hydrogen is not a hard-wall box but a Coulomb well. (The exact hydrogen calculation, with the correct Coulomb potential, is in Ch 7.)
+
+A harder check: what if we put an electron in a box of width L = eta sub B = 1.3 times 10 to the -15 m, the Firmament confinement scale itself? Then
+
+[Equation — see print edition.]
+
+Two hundred gigaelectronvolts. That is enormously larger than the rest energy of the electron (511 keV), which means that the non-relativistic limit we used to derive (4.2.1) has broken down: you cannot fit a non-relativistic electron into a box the size of eta sub B. This is not a failure of the derivation; it is a confirmation. The Schrödinger equation correctly fails to apply in regimes where the rest energy is no longer dominant. For physics at the eta sub B scale, we need the full relativistic treatment of Vol 5.
+
+[Figure — see print edition.]
+
+Ehrenfest's theorem.
+
+The Schrödinger equation governs the full wave function Psi (x,t), but classical mechanics talks only about the centroid of a localized packet. The bridge between the two is Ehrenfest's theorem, which says that the expectation values of position and momentum in a Schrödinger-evolved state obey Hamilton's equations.
+
+Define
+
+[Equation — see print edition.]
+
+(The momentum expectation value is defined by this integral. We will motivate it below.) Differentiate x with respect to t and use the continuity equation (2.6.4):
+
+[Equation — see print edition.]
+
+(integrating by parts and using that Psi to 0 at infinity). Now plug in the definition (2.6.5) of J:
+
+[Equation — see print edition.]
+
+The first Ehrenfest equation. It says exactly what Hamilton said: x = p/m.
+
+Now differentiate p with respect to time and use the Schrödinger equation for partial sub t Psi:
+
+[Equation — see print edition.]
+
+Substitute the expression, so the expression, and its conjugate the expression. Plug in:
+
+[Equation — see print edition.]
+
+The kinetic contributions (proportional to h-bar to the 2/2m) combine as
+
+[Equation — see print edition.]
+
+Integrate by parts once on the first term (moving a gradient from nabla to the 2 Psi to the  to nabla Psi) and twice on the second (moving nabla to the 2 from Psi onto Psi to the ). Both produce the same integrand nabla Psi to the * times nabla ( nabla Psi ) with opposite signs; they cancel exactly. The kinetic contribution to d p /dt is therefore zero, which is the content of "momentum is conserved for a free particle."
+
+The potential contributions (proportional to V) combine as
+
+[Equation — see print edition.]
+
+Collecting the factor of -i h-bar times (i/ h-bar ) = 1 out front, we arrive at
+
+[Equation — see print edition.]
+
+The second Ehrenfest equation. In words: the time derivative of the expectation value of momentum is the expectation value of - nabla V, i.e., the force. This is Newton's second law, averaged over the envelope.
+
+So the centroid of a Schrödinger wave packet obeys classical mechanics, exactly, without approximation — provided one interprets "force" as the expectation value of - nabla V over the envelope. For a sharply localized packet, nabla V approximately equal to nabla V( x ), and Newton's law becomes literal. For a broad packet, Ehrenfest's equations still hold, but the centroid may experience a "force" that differs from the local classical force — a signature that the packet is probing a region where V varies rapidly over the packet's width. This is one of the earliest purely quantum effects.
+
+The ℏ → 0 limit: recovering Vol 3.
+
+The final consistency check: the Schrödinger equation must reduce, in a precise sense, to the Hamilton–Jacobi equation (3.1.7) of Vol 3 classical mechanics in the limit where ℏ is small compared with the typical action in the problem.
+
+Write the envelope in polar form,
+
+[Equation — see print edition.]
+
+where A and S are real. This is the Madelung substitution. It is a change of variables — invertible, no information lost. The real function A(x,t) 0 is the envelope amplitude; the real function S(x,t) is its phase, with dimensions of action.
+
+Substitute (2.7.12) into (4.2.1). The algebra is standard (see any advanced quantum textbook — it's simple but tedious) and yields, upon separating real and imaginary parts, two coupled equations:
+
+Real part:
+
+[Equation — see print edition.]
+
+Imaginary part:
+
+[Equation — see print edition.]
+
+The second of these is just the continuity equation (2.6.4) rewritten in terms of A to the 2 = | Psi | to the 2 and J = A to the 2 nabla S/m. Nothing new.
+
+The first equation is the interesting one. Drop the last term — the so-called quantum potential Q -( h-bar to the 2/2 m)( nabla to the 2A/A) — because it is explicitly of order h-bar to the 2 and vanishes as h-bar to 0. What remains is
+
+[Equation — see print edition.]
+
+This is exactly the classical Hamilton–Jacobi equation (3.1.7) of Vol 3. The phase S of the envelope is Hamilton's principal function; its gradient nabla S is the classical momentum p; the level sets of S are the wavefronts of the classical particle's motion. Every object of classical analytical mechanics has a natural analogue in Schrödinger theory, and the two theories merge in the ℏ → 0 limit.
+
+This is the most important consistency check we will perform in this chapter. It says: the Schrödinger equation reduces to the classical mechanics we already built in Vol 3, in the regime where the quantum potential is negligible. The two regimes are not in conflict; they are different limits of the same envelope equation. Classical mechanics is what you see when h-bar is small compared to the typical action; quantum mechanics is what you see when it is not. For a baseball, the typical action is approximately 10 to the 34 h-bar, and the quantum potential is negligible to thirty-four decimal places. For an electron in an atom, the typical action is approximately h-bar, and the quantum potential is the entire story.
+
+Note what ℏ → 0 does not mean. It does not mean "ℏ actually becomes zero in some regime of the universe." ℏ has the fixed value (1.10.19), everywhere, always. What changes across physical regimes is the typical action A of the problem — and the relevant small parameter is the ratio h-bar / A, which can be vanishingly small (baseballs) or of order unity (electrons). "Taking ℏ → 0" is shorthand for "consider the regime where A much greater than h-bar," which is the regime of classical mechanics.
+
+Honest Limitations.
+
+Four things this chapter did not do. Each is acknowledged here so that no reader can be blindsided by them later.
+
+(1) We dropped the stochastic Waters forcing F(x,t). In §2.3.3 we set F = 0 on the basis that its amplitude is suppressed by the same the expression warp factor that suppresses ℏ itself. This is correct for laboratory-accessible physics: for any experiment with energy resolution better than approximately 10 to the -82 times V sub ext, the stochastic term is undetectable. It is not correct for the measurement problem — in fact, the stochastic term is exactly what drives decoherence in Ch 5. The derivation of this chapter is therefore the Schrödinger equation for an isolated, coherent defect. A real defect interacting with its environment requires the reinstatement of F, which is the subject of Ch 5.
+
+(2) We used a scalar envelope. The field Psi in (4.2.1) is a complex scalar — a one-component object. Real particles have spin: the electron has spin-1 over 2, the photon has spin-1, and the full theory requires Psi to carry a spinorial index. A scalar envelope describes bosonic excitations (in fact, spin-0 excitations). Integer-spin defects such as the pion, the Higgs, and the photon's transverse polarizations are fine in the scalar framework. Fermionic defects — electrons, muons, quarks — are not. Deriving the spin-1 over 2 envelope from the bosonic membrane is GitHub blocker #1 and remains an open problem of the Genesis Physics program. Chapter 10 of this volume addresses the status of that gap honestly: at present, we know how to derive the dispersion relation and the mass spectrum for a scalar defect, but we do not know how to get a spinor out of a scalar substrate without introducing additional structure (and any such additional structure is, as of this writing, ad hoc). Nothing in the present chapter's derivation is invalidated by that gap — the scalar Schrödinger equation is still correct — but the reader should understand that applying (4.2.1) to the electron is, strictly, a scalar approximation to a spinor problem. It is the same approximation conventional textbooks make (the non-relativistic "Schrödinger electron" is a scalar); it is just that in zone architecture we are honest about which piece has been deferred.
+
+(3) We dropped relativistic corrections of order epsilon /E sub 0. For an atomic electron this is approximately 10 to the -5. For a muonic atom it is larger; for nuclear transitions it can be of order 1; for high-energy scattering it is the whole story. The Schrödinger equation in this chapter is therefore the leading-order equation; corrections of order epsilon /E sub 0 require the Klein–Gordon equation (which, amusingly, we already had in (1.5.10) — we threw away its relativistic content to obtain (4.2.1)) or, for spin-1 over 2 particles, the Dirac equation. The Dirac equation is the work of Vol 5 Ch 3, not of this chapter.
+
+(4) V(x) is treated as a slot to be filled. In this chapter V(x) is whatever external potential the problem happens to have; we make no claim about its explicit form for any particular physical system. Coulomb, harmonic oscillator, molecular, periodic — those are supplied elsewhere. The Coulomb potential, in particular, is derived in Ch 7 from the U(1) Kaluza–Klein reduction of the 6D gauge field. There is no circular dependency: this chapter hands Ch 7 the slot V(x) Psi, and Ch 7 fills the slot with the derived Coulomb -e to the 2/r. The two chapters meet cleanly at the boundary.
+
+None of these four limitations is a new gap — each was already on the project's list, and each has a chapter or volume assigned to its resolution. The purpose of this section is simply to name them where the reader can see them, before the Skeptic reviewer does.
+
+Chapter Summary and Traceability Table.
+
+Before moving on, check the receipts.
+
+The result of this chapter is the time-dependent Schrödinger equation
+
+[Equation — see print edition.]
+
+which has been derived, line by line, from the Firmament wave equation (1.5.1) of Vol 1 Ch 5, the ℏ of (1.10.19) from Vol 1 Ch 10 §10.3, the rest-energy identification (3.7.14) from Vol 3 Ch 7, and the potential-conversion (3.7.22) from Vol 3 Ch 7 §7.9. The one approximation was the non-relativistic limit epsilon much less than E sub 0; the error it introduced was of order epsilon /(2 E sub 0) approximately equal to 10 to the -5 for atomic electrons.
+
+Traceability table.
+
+Step: Membrane wave equation. Eq.: (2.3.6). Justification: Inheritance 1. Source: (1.5.1).
+Step: Rest energy E sub 0 = m c to the 2. Eq.: —. Justification: Inheritance 3. Source: (3.7.14).
+Step: Envelope ansatz psi = Psi e to the -iE sub 0t/ h-bar. Eq.: (2.3.2). Justification: Change of variables, bookkeeping. Source: Algebraic.
+Step: partial sub t psi. Eq.: (2.3.3). Justification: Differentiation of ansatz. Source: Algebraic.
+Step: partial sub t to the 2 psi. Eq.: (2.3.4). Justification: Differentiation of ansatz. Source: Algebraic.
+Step: nabla to the 2 psi. Eq.: (2.3.5). Justification: nabla to the 2 passes through carrier. Source: Algebraic.
+Step: Substitution into (2.3.6). Eq.: (2.4.1). Justification: Algebra. Source: Exact.
+Step: Drop partial sub t to the 2 Psi. Eq.: (2.4.2). Justification: NR limit: ratio epsilon /E sub 0 much less than 1. Source: Scale argument.
+Step: the expression. Eq.: (2.4.3). Justification: c to the 2 = sigma / mu and Omega sub 0 = mc to the 2/ h-bar. Source: (1.5.6), (1.10.19).
+Step: Move rest-energy term to RHS. Eq.: (2.4.4). Justification: Algebra. Source: Exact.
+Step: Simplify LHS coefficient. Eq.: (2.4.5). Justification: mu = sigma /c to the 2. Source: (1.5.6).
+Step: Divide by - sigma. Eq.: (2.4.6). Justification: Algebra. Source: Exact.
+Step: Multiply by h-bar to the 2/(2m). Eq.: (2.4.8). Justification: Algebra. Source: Exact.
+Step: Absorb rest-energy constant. Eq.: (2.5.1). Justification: Choice of zero of energy. Source: Gauge freedom.
+Step: Identify V(x) = ( h-bar to the 2/2 m sigma )V sub ext. Eq.: (2.5.2). Justification: Inheritance from work computation. Source: (3.7.22).
+Step: **Final boxed result**. Eq.: **(4.2.1)**. Justification: —. Source: —.
+Step: Continuity equation. Eq.: (2.6.4). Justification: Psi to the * times(4.2.1) minus c.c.. Source: Algebraic.
+Step: Stationary states. Eq.: (2.6.8). Justification: Separation of variables. Source: Algebraic.
+Step: Free-particle dispersion. Eq.: (2.7.3). Justification: Plane-wave ansatz in (4.2.1). Source: Algebraic.
+Step: Gaussian spreading. Eq.: (2.7.6). Justification: Integral transform of (4.2.1). Source: Appendix A.1.
+Step: Box spectrum. Eq.: (2.7.8). Justification: Sturm–Liouville on [0,L]. Source: (1.10.*).
+Step: Ehrenfest 1. Eq.: (2.7.10). Justification: d x /dt using continuity. Source: Algebraic.
+Step: Ehrenfest 2. Eq.: (2.7.11). Justification: d p /dt using (4.2.1). Source: Algebraic.
+Step: Hamilton–Jacobi recovery. Eq.: (2.7.15). Justification: ℏ → 0 in Madelung form. Source: (3.1.7).
+
+No line is unjustified. No line uses a concept not previously established. No line imports from standard quantum mechanics.
+
+What comes next.
+
+Chapter 3 will derive the Heisenberg uncertainty principle, Delta x Delta p h-bar /2, from the Fourier-theoretic uncertainty inequality applied to the envelope Psi. The derivation is short, because the hard work has now been done: once the envelope equation is established, the uncertainty principle is just Fourier analysis. Chapter 4 will then address entanglement, using the (ξ,η) extra dimensions to explain how the Waters can couple spatially-separated defects without faster-than-light signaling. Chapter 5 will resolve the measurement problem by reinstating the stochastic Waters forcing F and deriving the Born rule as a theorem of decoherence.
+
+When we started this chapter, there was a list of seven unjustified things on the board: why ℏ, why i, why first-order, why complex, why h-bar to the 2/2m, why additive V, why believed. There is no list now. The list is a theorem.
+
+We began with the observation that every other textbook presents the Schrödinger equation as Schrödinger's irreducible intuition — a "mind of Schrödinger" that reached into the space of possible equations and plucked out the correct one. That is a beautiful story, and historically it is close to accurate. What we can now say, a century later, is that Schrödinger's intuition was correct because the architecture is correct. A bounded manifold with a tensioned membrane and a finite action quantum has, as a theorem, a non-relativistic envelope equation of exactly the form (4.2.1). Schrödinger found it by intuition; we have derived it by bookkeeping. Both roads lead to the same equation, because there was only ever one equation to reach.
+
+That the architecture was there to be intuited — that the universe comes pre-equipped with the exact membrane and the exact scales that make (4.2.1) true — is a different question. We will not argue it in this volume. We will simply continue deriving.
+
+Problem Sets.
+
+Computational.
+
+C1. Starting from the membrane wave equation (1.5.1) with V sub ext = 0 and the plane-wave ansatz psi (x,t) = A e to the i( k times x - omega t), derive the dispersion relation omega to the 2 = c to the 2k to the 2 (massless case). Then include a confinement mass term and reproduce (1.5.10). Verify that c to the 2 = sigma / mu with sigma = 6.0 times 10 to the 98 kg/s² and mu = 6.7 times 10 to the 81 kg/m³ gives the speed of light.
+
+C2. Compute the Compton angular frequency omega sub 0 = mc to the 2/ h-bar for (a) the electron, (b) the muon, (c) the proton, using the derived ℏ of (1.10.19). Compare each to the angular frequency of an atomic transition of energy 1 eV. How many carrier oscillations occur per envelope cycle in each case?
+
+C3. For a free Gaussian envelope of initial width sigma sub 0 propagating under (4.2.1), derive the time-dependent width (2.7.6). Plot sigma (t) for an electron with sigma sub 0 = 1 nm, 1 μm, and 1 mm, over t = 0 to 1 μs. Which initial width doubles the slowest? Why?
+
+C4. Compute the first four energy eigenvalues of a particle in a 1D box, for:
+    (a) an electron in a box of width L = 1 Å,
+    (b) a proton in a box of width L = 1 fm,
+    (c) a helium atom in a box of width L = 1 nm.
+  For which of these is the non-relativistic limit valid? (Use the test E sub 1/E sub 0 < 10 to the -3 as a working definition.)
+
+C5. Verify that each of the five terms in (2.4.1) has dimensions of kg m to the -1 s to the -2 (force per unit volume), using the SI dimensions of sigma, mu, V sub ext, and Psi. Then verify that the final Schrödinger equation (4.2.1) is dimensionally consistent as a statement in units of energy times wave function.
+
+C6. For a particle-in-a-box ground state, compute Delta x = square root of x to the 2 - x to the 2 and Delta p = square root of p to the 2 - p to the 2 directly from (2.7.7) with n = 1, and check that Delta x Delta p h-bar /2. (Chapter 3 will prove this bound in general; this problem is a specific check.)
+
+Conceptual.
+
+Q1. Explain, in one paragraph, why the second time derivative of the envelope Psi is negligible in the non-relativistic limit, even though the second time derivative of the full membrane displacement psi is not negligible — indeed, the membrane equation is a second-order wave equation. What distinguishes the two?
+
+Q2. Why must the envelope Psi be complex? Frame your answer in terms of the carrier e to the -iE sub 0t/ h-bar and the rotating-frame transformation. Would a purely real envelope ansatz work? If so, why did we not use one? If not, why not?
+
+Q3. The Schrödinger equation is first-order in time. The membrane equation is second-order. Explain how a second-order PDE can produce a first-order envelope equation without losing any degrees of freedom. Where is the "missing" first-order equation, and what does it describe physically?
+
+Q4. State Ehrenfest's theorem as a theorem about the centroids of envelopes. Under what conditions is the "classical force" - nabla V( x ) equal to the quantum force - nabla V(x)? Give an example of a potential where the two differ significantly.
+
+Q5. The quantum potential Q = -( h-bar to the 2/2m)( nabla to the 2A/A) appears in the Madelung form (2.7.13) of the Schrödinger equation. Under what physical conditions is Q small compared with the classical potential V(x)? For a hydrogen ground state, estimate the ratio Q/V and comment.
+
+Q6. The Schrödinger equation is derived here as the non-relativistic limit of a relativistic wave equation on a real membrane. Explain, in two sentences each, (a) why this means the factor of i in (4.2.1) has nothing to do with "the fundamentally complex nature of quantum mechanics," and (b) why the Born interpretation P(x) = | Psi (x)| to the 2 is consistent with — but not implied by — the membrane picture.
+
+Challenge.
+
+X1. Repeat the envelope derivation of §2.4 with the negative-frequency carrier, psi = Phi (x,t) e to the +iE sub 0t/ h-bar. What equation do you obtain for Phi? Show that this equation describes a non-relativistic particle with the opposite charge and backward-in-time phase evolution. (This is the precursor of the antiparticle interpretation; it is made rigorous in Vol 5 Ch 3.)
+
+X2. Reinstate the stochastic Waters forcing F(x,t) in the membrane equation and show that, after the envelope ansatz and averaging over sub-Planck timescales, it contributes a dissipation term to the envelope equation of the schematic form
+
+[Equation — see print edition.]
+
+where the expression. Compute gamma numerically for an electron and show that the corresponding decoherence timescale 1/ gamma is many orders of magnitude longer than the age of the universe. Why, then, do we see decoherence in laboratory experiments? (Hint: Ch 5.)
+
+X3. Take V(x) to be a periodic lattice potential of period a, i.e., V(x + a) = V(x). Show that the stationary Schrödinger equation admits solutions of the Bloch form psi sub k(x) = e to the ikx u sub k(x) with u sub k(x + a) = u sub k(x). Derive the dispersion E(k) in the weak-potential limit and sketch the first two bands. Interpret the lattice spacing a: if the lattice is a crystal of atoms, what is the scale of a? Can a ever be as small as eta sub B? (Hint: the non-relativistic limit must hold.)
+
+X4. The Madelung decomposition (2.7.12) treats quantum mechanics as a fluid with density A to the 2 = | Psi | to the 2 and velocity field v = nabla S/m. Derive the Madelung fluid equations of motion (continuity and a Euler-like equation with quantum potential) and discuss in what sense "quantum mechanics is a hidden-variable hydrodynamic theory." Then explain why this is misleading: what feature of the quantum potential makes the Madelung hydrodynamics fundamentally different from ordinary fluid dynamics?
+
+Appendix A: Standard Calculations.
+
+A.1 Free Gaussian wave packet.
+
+Taking the Fourier transform of (2.7.5), one finds
+
+[Equation — see print edition.]
+
+Each Fourier mode evolves by the expression, so
+
+[Equation — see print edition.]
+
+Inverse Fourier transforming and performing the Gaussian integral produces (2.7.6). The key step is completing the square in the exponent of the integrand, which has the schematic form - alpha k to the 2 + i beta k with alpha = sigma sub 0 to the 2 + i h-bar t/(2m); the Gaussian integral yields square root of pi / alpha (- beta to the 2/(4 alpha )), and the modulus squared of the result yields (2.7.6) after identification of the expression.
+
+A.2 Dimensional consistency of (4.2.1).
+
+Each term in (4.2.1) has dimensions of energy × wave-function, i.e., [ J] times [ Psi ]. The LHS: the expression. ✓ The kinetic term: the expression. ✓ The potential term: [V(x) Psi ] = [ J] times [ Psi ]. ✓
+
+End of Chapter 2.

@@ -1,0 +1,95 @@
+;FFMETADATA1
+title=Genesis Physics: The Foundations, Volume 2 — Forces and Fields
+artist=Jeff Raymond
+album=Genesis Physics: The Foundations, Volume 2 — Forces and Fields
+genre=Audiobook
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=4236696
+title=Chapter 1: Why Forces Exist
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=4236696
+END=7210584
+title=Chapter 2: Gravity from Zone Curvature
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=7210584
+END=10470456
+title=Chapter 3: Electromagnetism from Membrane Wave Propagation
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=10470456
+END=15585000
+title=Chapter 4: The Strong and Weak Forces from Zone Boundary Effects
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=15585000
+END=21633840
+title=Chapter 5: The Zone Lagrangian
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=21633840
+END=25390440
+title=Chapter 6: Gauge Theory from Zone Symmetries
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=25390440
+END=29852880
+title=Chapter 7: Classical Electrodynamics Complete
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=29852880
+END=34336824
+title=Chapter 8: Gravitational Field Theory
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=34336824
+END=37799256
+title=Chapter 9: The Hierarchy Problem Solved
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=37799256
+END=41550480
+title=Chapter 10: Running Couplings and Zone Energy Scales
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=41550480
+END=45615480
+title=Chapter 11: The Force Landscape
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=45615480
+END=47104872
+title=APPENDIX A: Vector Calculus and Tensor Analysis
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=47104872
+END=52659384
+title=Appendix B: Experimental Data Tables
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=52659384
+END=57710520
+title=Bibliography — Foundations Vol 2: Forces and Fields
+
+[CHAPTER]
+TIMEBASE=1/1000
+START=57710520
+END=63590256
+title=Problem Sets — Foundations Vol 2: Forces and Fields

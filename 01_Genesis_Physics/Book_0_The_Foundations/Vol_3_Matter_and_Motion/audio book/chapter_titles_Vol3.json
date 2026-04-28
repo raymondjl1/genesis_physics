@@ -1,0 +1,141 @@
+{
+  "volume": {
+    "num": 3,
+    "key": "Vol3",
+    "folder": "Vol_3_Matter_and_Motion",
+    "title": "Genesis Physics: The Foundations, Volume 3 — Matter and Motion",
+    "author": "Jeff Raymond",
+    "back_matter_dir": "Back_Matter",
+    "back_matter_patterns": null
+  },
+  "chapters": [
+    {
+      "key": "Ch01",
+      "title": "Chapter 1: Newton's Laws as Theorems",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_01_Newtons_Laws_as_Theorems\\Ch01_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch01_clean.txt",
+      "word_count": 9328,
+      "char_count": 56296
+    },
+    {
+      "key": "Ch02",
+      "title": "Chapter 2: Lagrangian and Hamiltonian Mechanics",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_02_Lagrangian_and_Hamiltonian_Mechanics\\Ch02_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch02_clean.txt",
+      "word_count": 10532,
+      "char_count": 63213
+    },
+    {
+      "key": "Ch03",
+      "title": "Chapter 3: Central Force Problems",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_03_Central_Force_Problems\\Ch03_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch03_clean.txt",
+      "word_count": 10242,
+      "char_count": 60103
+    },
+    {
+      "key": "Ch04",
+      "title": "Chapter 4: Rigid Body Dynamics",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_04_Rigid_Body_Dynamics\\Ch04_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch04_clean.txt",
+      "word_count": 6305,
+      "char_count": 37225
+    },
+    {
+      "key": "Ch05",
+      "title": "Chapter 5: Continuum Mechanics and Fluid Dynamics",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_05_Continuum_Mechanics_and_Fluid_Dynamics\\Ch05_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch05_clean.txt",
+      "word_count": 9429,
+      "char_count": 58282
+    },
+    {
+      "key": "Ch06",
+      "title": "Chapter 6: Standing Waves and Stable Configurations",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_06_Standing_Waves_and_Stable_Configurations\\Ch06_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch06_clean.txt",
+      "word_count": 9993,
+      "char_count": 60609
+    },
+    {
+      "key": "Ch07",
+      "title": "Chapter 7: The Origin of Mass",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_07_The_Origin_of_Mass\\Ch07_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch07_clean.txt",
+      "word_count": 7968,
+      "char_count": 47782
+    },
+    {
+      "key": "Ch08",
+      "title": "Chapter 8: Phase Transitions in Zone Architecture",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_08_Phase_Transitions_in_Zone_Architecture\\Ch08_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch08_clean.txt",
+      "word_count": 7043,
+      "char_count": 44629
+    },
+    {
+      "key": "Ch09",
+      "title": "Chapter 9: The Four Laws — Complete Derivation",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_09_The_Four_Laws_Complete_Derivation\\Ch09_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch09_clean.txt",
+      "word_count": 9541,
+      "char_count": 59354
+    },
+    {
+      "key": "Ch10",
+      "title": "Chapter 10: Statistical Mechanics on the Zone Manifold",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_10_Statistical_Mechanics_on_the_Zone_Manifold\\Ch10_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch10_clean.txt",
+      "word_count": 7233,
+      "char_count": 45830
+    },
+    {
+      "key": "Ch11",
+      "title": "Chapter 11: Kinetic Theory and Transport",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_11_Kinetic_Theory_and_Transport\\Ch11_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch11_clean.txt",
+      "word_count": 7525,
+      "char_count": 47672
+    },
+    {
+      "key": "Ch12",
+      "title": "Chapter 12: Entropy, Information, and the Arrow of Time",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Ch_12_Entropy_Information_and_the_Arrow_of_Time\\Ch12_DRAFT.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Ch12_clean.txt",
+      "word_count": 10325,
+      "char_count": 64498
+    },
+    {
+      "key": "APPENDIX_A_Key_Results_from_Vo",
+      "title": "APPENDIX A: Key Results from Volumes 1–2",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Back_Matter\\APPENDIX_A_Key_Results_from_Volumes_1_and_2.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\APPENDIX_A_Key_Results_from_Vo_clean.txt",
+      "word_count": 2125,
+      "char_count": 12830
+    },
+    {
+      "key": "APPENDIX_B_Experimental_Mechan",
+      "title": "APPENDIX B: Experimental Mechanics Data",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Back_Matter\\APPENDIX_B_Experimental_Mechanics_Data.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\APPENDIX_B_Experimental_Mechan_clean.txt",
+      "word_count": 2903,
+      "char_count": 16859
+    },
+    {
+      "key": "Bibliography",
+      "title": "Bibliography — Volume 3: Matter and Motion",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Back_Matter\\Bibliography.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Bibliography_clean.txt",
+      "word_count": 2366,
+      "char_count": 16565
+    },
+    {
+      "key": "Problem_Sets_with_Solutions",
+      "title": "Problem Sets with Selected Solutions — Volume 3",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\Back_Matter\\Problem_Sets_with_Solutions.md",
+      "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_3_Matter_and_Motion\\audio book\\chapters\\Problem_Sets_with_Solutions_clean.txt",
+      "word_count": 5944,
+      "char_count": 33163
+    }
+  ]
+}

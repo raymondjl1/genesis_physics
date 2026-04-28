@@ -1,0 +1,415 @@
+A.1 Vector Calculus in Three Dimensions.
+
+A.1.1 Gradient, Divergence, and Curl.
+
+The gradient of a scalar field phi ( r) is a vector pointing in the direction of steepest increase:
+
+[Equation — see print edition.]
+
+In coordinates other than Cartesian, the gradient must account for the metric. In spherical coordinates (r, theta , phi ):
+
+[Equation — see print edition.]
+
+The divergence of a vector field F = (F sub x, F sub y, F sub z) measures its "spreading out":
+
+[Equation — see print edition.]
+
+In spherical coordinates:
+
+[Equation — see print edition.]
+
+The curl of a vector field measures local rotation:
+
+[Equation — see print edition.]
+
+Component-by-component:
+
+[Equation — see print edition.]
+
+A.1.2 The Laplacian and Poisson Equation.
+
+The Laplacian of a scalar field phi is:
+
+[Equation — see print edition.]
+
+In spherical coordinates:
+
+[Equation — see print edition.]
+
+Poisson's equation relates the Laplacian to a source:
+
+[Equation — see print edition.]
+
+where rho is charge density. In the source-free region, nabla to the 2 phi = 0 (Laplace's equation).
+
+A.1.3 Integral Theorems.
+
+Gauss's Divergence Theorem:
+
+[Equation — see print edition.]
+
+The flux of F through a closed surface equals the integral of the divergence over the enclosed volume.
+
+Stokes's Curl Theorem:
+
+[Equation — see print edition.]
+
+The line integral of F around a closed curve equals the flux of its curl through any surface bounded by that curve.
+
+Green's Identities:
+
+First identity:
+
+[Equation — see print edition.]
+
+Second identity:
+
+[Equation — see print edition.]
+
+A.1.4 Key Vector Identities.
+
+[Equation — see print edition.]
+
+These identities are essential for electromagnetic theory and fluid mechanics. The first two tell us that conservative forces have zero curl, and solenoidal fields have zero divergence.
+
+A.2 Tensor Analysis on Curved Manifolds.
+
+A.2.1 Index Notation and Summation Convention.
+
+In index notation, a vector is written the expression (contravariant) or V_ mu (covariant). We adopt Einstein summation: repeated indices are summed over unless otherwise stated.
+
+Example:
+
+[Equation — see print edition.]
+
+Key convention:
+- Greek indices mu , nu , run 0–3 in 4D (or 0, 1, 2, 3, 5, 6 in 6D with compactified extra dimensions).
+- Latin indices i, j, k run 1–3 for spatial components.
+- Capital indices A, B, C, D run 1–6 in 6D spacetime.
+
+A.2.2 Metric Tensor and Raising/Lowering.
+
+The metric tensor g sub mu nu defines distances and inner products:
+
+[Equation — see print edition.]
+
+We adopt the convention signature (-,+,+,+) in 4D:
+
+[Equation — see print edition.]
+
+The inverse metric g to the mu nu satisfies the expression.
+
+Raising and lowering indices:
+
+[Equation — see print edition.]
+
+For a rank-2 tensor:
+
+[Equation — see print edition.]
+
+A.2.3 Christoffel Symbols and Covariant Derivative.
+
+The Christoffel symbols encode how basis vectors change in curved space:
+
+[Equation — see print edition.]
+
+These are not tensor components; they vanish in special coordinates (e.g., Riemann normal coordinates).
+
+The covariant derivative of a vector the expression is:
+
+[Equation — see print edition.]
+
+For a covariant vector:
+
+[Equation — see print edition.]
+
+For a rank-2 tensor:
+
+[Equation — see print edition.]
+
+The covariant derivative is a true tensor operator: the expression transforms as a rank-2 tensor.
+
+A.2.4 Riemann, Ricci, and Scalar Curvature.
+
+The Riemann curvature tensor is defined through the commutator of covariant derivatives:
+
+[Equation — see print edition.]
+
+Explicitly:
+
+[Equation — see print edition.]
+
+Ricci tensor (contraction):
+
+[Equation — see print edition.]
+
+Ricci scalar (second contraction):
+
+[Equation — see print edition.]
+
+These encode the intrinsic curvature of the manifold. Flat space has R sub mu nu = 0 and R = 0.
+
+A.2.5 Geodesic Equation.
+
+A geodesic is the shortest path on a curved manifold. A test particle following a geodesic satisfies:
+
+[Equation — see print edition.]
+
+where tau is the proper time. In flat space, geodesics are straight lines.
+
+A.3 Differential Forms.
+
+A.3.1 p-Forms and the Exterior Derivative.
+
+A p-form is a totally antisymmetric tensor:
+
+[Equation — see print edition.]
+
+The wedge product  is antisymmetric: the expression and the expression.
+
+Examples:
+- 0-form (scalar): f(x)
+- 1-form (covector): the expression
+- 2-form: the expression
+
+The exterior derivative d increases the degree by 1:
+
+[Equation — see print edition.]
+
+Key property: d(d omega ) = 0 (nilpotency).
+
+A.3.2 Hodge Star Operator.
+
+The Hodge star maps p-forms to (n-p)-forms in n dimensions:
+
+[Equation — see print edition.]
+
+where epsilon is the Levi-Civita symbol and square root of |g| is the volume element.
+
+Properties:
+- ** omega = (-1) to the p(n-p) omega
+- In 4D Minkowski space with signature (-,+,+,+): *(dx to the 0 dx to the 1) = -dx to the 2 dx to the 3
+
+Worked Example: Hodge Star in 3D Euclidean Space
+
+In 3D Euclidean space (n = 3, g sub ij = delta sub ij, so square root of |g| = 1), compute *dx to the 1.
+
+Since dx to the 1 is a 1-form (p = 1), its Hodge dual is a (3 - 1) = 2-form:
+
+[Equation — see print edition.]
+
+Similarly: dx to the 2 = dx to the 3 dx to the 1, and dx to the 3 = dx to the 1 dx to the 2.
+
+Now consider a 1-form the expression (representing a magnetic field). Its Hodge dual is:
+
+[Equation — see print edition.]
+
+This is a 2-form — exactly what we integrate over a surface to compute magnetic flux Phi sub B = integral sub S  omega. The Hodge star converts the vector B into the flux 2-form. This is why nabla times B = 0 becomes d( omega ) = 0 in form language: a closed 2-form has zero exterior derivative, meaning no magnetic monopoles.
+
+Worked Example: Hodge Star in 4D Minkowski Space
+
+In 4D with signature (-,+,+,+), the Hodge dual of a 2-form is another 2-form. For the electromagnetic field tensor F = E sub x dx to the 0 dx to the 1 +, the dual swaps electric and magnetic components:
+
+[Equation — see print edition.]
+
+The minus sign arises from the Minkowski metric (g sub 00 = -1). This is why E and B mix under Lorentz boosts — the Hodge star encodes the duality of the electromagnetic field, and the metric signature determines the sign structure of that duality.
+
+A.3.3 Maxwell's Equations in Form Language.
+
+The electromagnetic field is a 2-form:
+
+[Equation — see print edition.]
+
+where $F_{\mu\nu} = 
+
+[Equation — see print edition.]
+
+$.
+
+Maxwell's equations become:
+
+(Homogeneous) dF = 0
+
+This encodes Gauss's law for magnetism (nabla times B = 0) and Faraday's law (nabla times E = - partial B/ partial t).
+
+(Inhomogeneous) d(*F) = J
+
+where J = rho dx to the 0 dx to the 1 dx to the 2 dx to the 3 is the current 3-form.
+
+This encodes Gauss's law (nabla times E = rho / epsilon sub 0) and Ampère-Maxwell law (the expression).
+
+A.3.4 Stokes's Theorem for Differential Forms.
+
+Generalized Stokes theorem:
+
+[Equation — see print edition.]
+
+where M is an oriented manifold and partial M is its boundary.
+
+This unifies all classical integral theorems:
+- Divergence theorem: integral sub V d(V) = sub S V
+- Stokes curl theorem: sub C A = integral sub S dA
+
+A.4 Kaluza-Klein Reduction Technique.
+
+A.4.1 Overview: Unifying Gravity and Electromagnetism.
+
+In 1919, Kaluza proposed that if spacetime has 6 dimensions (4 macroscopic + 1 compact), Einstein's gravity in 6D automatically reproduces 4D gravity plus Maxwell electromagnetism. This is the Kaluza-Klein hypothesis.
+
+Modern extensions compactify to 6 total extra dimensions (10D total for superstring theory), with each compactified dimension contributing gauge fields.
+
+A.4.2 The 6D Metric and Ansatz.
+
+We assume spacetime is R to the 3,1 times K, where K is a compact 2D manifold (e.g., T to the 2 or a Calabi-Yau).
+
+The 6D metric is:
+
+[Equation — see print edition.]
+
+where:
+- the expression (mu = 0,1,2,3) are macroscopic coordinates.
+- the expression (alpha = 5,6) are compact coordinates.
+- V sub K(y) = e to the 2 Phi (y) is the warp factor (volume of the compact space).
+- g to the (1) sub alpha beta (y) is the metric on K.
+
+The ansatz assumes the metric has block-diagonal form (no mixing of macroscopic and compact coordinates in the leading order):
+
+[Equation — see print edition.]
+
+A.4.3 Reduction of Einstein–Hilbert Action.
+
+In 6D, the Einstein–Hilbert action is:
+
+[Equation — see print edition.]
+
+where M sub 6 is the 6D Planck mass and R sub 6 is the 6D Ricci scalar.
+
+After reduction (integrating over the compact dimensions):
+
+[Equation — see print edition.]
+
+The key formula relates the 4D and 6D Planck masses:
+
+[Equation — see print edition.]
+
+where the expression is the volume of the extra dimensions.
+
+If M sub 6 approximately 10 to the 18 GeV (high string scale) and V sub extra approximately (2 pi R) to the 2 with R approximately 10 to the -32 m (TeV scale), then M sub 4 approximately 10 to the 19 GeV, consistent with observation.
+
+A.4.4 Emergence of Gauge Fields from Geometry.
+
+The 6D Einstein equations R sub AB = 0 (in vacuum) decompose under reduction:
+
+For the macroscopic part, we get 4D Einstein equations with effective curvature corrections:
+
+[Equation — see print edition.]
+
+where G sub mu nu to the ( extra) arises from geometry of the compact dimensions.
+
+Crucially, the 6D metric components G sub mu alpha transform as gauge fields in 4D. After decomposition:
+
+[Equation — see print edition.]
+
+where the expression are Killing vectors (symmetries) of K, and A_ mu to the a become gauge potentials in 4D.
+
+The corresponding field strength is:
+
+[Equation — see print edition.]
+
+and these satisfy Yang-Mills equations:
+
+[Equation — see print edition.]
+
+Result: A single gravitational theory in higher dimensions unifies with gauge theory in lower dimensions.
+
+A.4.5 Volume Integrals and Effective Coupling Constants.
+
+When reducing an action from 6D to 4D, couplings transform as:
+
+[Equation — see print edition.]
+
+For example, if the fine-structure constant in 6D is alpha sub 6 approximately 1/137, the 4D value is modified by the compactification volume. This mechanism is how higher-dimensional unification predicts 4D coupling strengths.
+
+A.5 New Notation Introduced in Volume 2.
+
+Below is a comprehensive table of all new symbols, tensors, and constants introduced in Vol. 2: Forces and Fields. Symbols from Vol. 1 are not repeated here.
+
+**Symbol**: F sub mu nu. **Name/Description**: Electromagnetic field tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 3.
+**Symbol**: F to the mu nu. **Name/Description**: Contravariant electromagnetic tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 3.
+**Symbol**: *F sub mu nu. **Name/Description**: Hodge dual of field tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 3.
+**Symbol**: the expression. **Name/Description**: Four-current density. **Type**: Vector. **Introduced Ch.**: 3.
+**Symbol**: rho (x). **Name/Description**: Charge density (3D). **Type**: Scalar. **Introduced Ch.**: 3.
+**Symbol**: J(x). **Name/Description**: Current density (3D vector). **Type**: Vector. **Introduced Ch.**: 3.
+**Symbol**: alpha sub s. **Name/Description**: Strong coupling constant (QCD). **Type**: Scalar. **Introduced Ch.**: 4.
+**Symbol**: sigma _ QCD. **Name/Description**: QCD string tension. **Type**: Scalar. **Introduced Ch.**: 4.
+**Symbol**: Lambda _ QCD. **Name/Description**: QCD scale (~200 MeV). **Type**: Scalar. **Introduced Ch.**: 4.
+**Symbol**: b sub i. **Name/Description**: Beta-function coefficient. **Type**: Scalar. **Introduced Ch.**: 4.
+**Symbol**: beta ( alpha sub s). **Name/Description**: Beta function for running coupling. **Type**: Function. **Introduced Ch.**: 4.
+**Symbol**: G sub mu nu. **Name/Description**: Einstein tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 5.
+**Symbol**: T sub mu nu. **Name/Description**: Stress-energy tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 5.
+**Symbol**: the expression. **Name/Description**: Mixed stress-energy tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: 5.
+**Symbol**: rho _ m. **Name/Description**: Matter density. **Type**: Scalar. **Introduced Ch.**: 5.
+**Symbol**: p_ m. **Name/Description**: Matter pressure. **Type**: Scalar. **Introduced Ch.**: 5.
+**Symbol**: h sub mu nu. **Name/Description**: Gravitational wave perturbation. **Type**: Rank-2 tensor. **Introduced Ch.**: 5.
+**Symbol**: the expression. **Name/Description**: Mixed gravitational perturbation. **Type**: Rank-2 tensor. **Introduced Ch.**: 5.
+**Symbol**: M sub c. **Name/Description**: Compactification mass scale. **Type**: Scalar. **Introduced Ch.**: 6.
+**Symbol**: V sub extra. **Name/Description**: Volume of extra dimensions. **Type**: Scalar. **Introduced Ch.**: 6.
+**Symbol**: V sub K. **Name/Description**: Warp factor. **Type**: Function. **Introduced Ch.**: 6.
+**Symbol**: M sub 6. **Name/Description**: 6D Planck mass. **Type**: Scalar. **Introduced Ch.**: 6.
+**Symbol**: kappa sub 6. **Name/Description**: 6D gravitational coupling. **Type**: Scalar. **Introduced Ch.**: 6.
+**Symbol**: L_ eff. **Name/Description**: Effective 4D Lagrangian. **Type**: Scalar density. **Introduced Ch.**: 6.
+**Symbol**: Phi (y). **Name/Description**: Dilaton field (compact coords). **Type**: Scalar. **Introduced Ch.**: 6.
+**Symbol**: E_ GUT. **Name/Description**: Grand Unified Theory scale. **Type**: Energy. **Introduced Ch.**: 7.
+**Symbol**: alpha _ GUT. **Name/Description**: Unified coupling at GUT scale. **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: to the 2 theta sub W. **Name/Description**: Weinberg angle (squared). **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: g, g'. **Name/Description**: Weak and hypercharge coupling constants. **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: v = 246 GeV. **Name/Description**: Higgs vacuum expectation value. **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: m sub W, m sub Z. **Name/Description**: W and Z boson masses. **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: m sub H. **Name/Description**: Higgs boson mass. **Type**: Scalar. **Introduced Ch.**: 7.
+**Symbol**: Gamma _ alpha to the mu nu. **Name/Description**: Christoffel symbol. **Type**: Symbol (not tensor). **Introduced Ch.**: A.2.
+**Symbol**: the expression. **Name/Description**: Riemann curvature tensor. **Type**: Rank-4 tensor. **Introduced Ch.**: A.2.
+**Symbol**: R sub mu nu. **Name/Description**: Ricci tensor. **Type**: Rank-2 tensor. **Introduced Ch.**: A.2.
+**Symbol**: R. **Name/Description**: Ricci scalar (curvature). **Type**: Scalar. **Introduced Ch.**: A.2.
+**Symbol**: d omega. **Name/Description**: Exterior derivative of form omega. **Type**: Differential form. **Introduced Ch.**: A.3.
+**Symbol**: * omega. **Name/Description**: Hodge dual of form omega. **Type**: Differential form. **Introduced Ch.**: A.3.
+**Symbol**: epsilon sub mu sub 1 mu sub n. **Name/Description**: Levi-Civita symbol. **Type**: Symbol (not tensor). **Introduced Ch.**: A.3.
+
+A.6 Quick Reference: Problem Types and Tools.
+
+When solving problems in Vol. 2, the table below guides you to the appropriate mathematical framework:
+
+**Problem Type**: Find field lines / flux through surface. **Primary Tool**: Divergence theorem, Gauss's law. **Section**: A.1.3. **Key Equation**: sub S F times d A = integral sub V nabla times F dV.
+**Problem Type**: Find circulation / induced EMF. **Primary Tool**: Stokes's curl theorem, Faraday's law. **Section**: A.1.3. **Key Equation**: the expression.
+**Problem Type**: Solve for potential (source-free). **Primary Tool**: Laplace's equation, harmonic functions. **Section**: A.1.2. **Key Equation**: nabla to the 2 phi = 0.
+**Problem Type**: Solve for potential (with source). **Primary Tool**: Poisson equation, Green's functions. **Section**: A.1.2. **Key Equation**: nabla to the 2 phi = - rho / epsilon sub 0.
+**Problem Type**: Motion in gravitational field. **Primary Tool**: Geodesic equation, Christoffel symbols. **Section**: A.2.5. **Key Equation**: the expression.
+**Problem Type**: Curvature of spacetime. **Primary Tool**: Riemann/Ricci tensors, Einstein equation. **Section**: A.2.4. **Key Equation**: G sub mu nu = 8 pi G T sub mu nu.
+**Problem Type**: Electromagnetic field in vacuum. **Primary Tool**: Maxwell equations (form language). **Section**: A.3.3. **Key Equation**: dF = 0, d(*F) = 0.
+**Problem Type**: Electromagnetic field with sources. **Primary Tool**: Inhomogeneous Maxwell. **Section**: A.3.3. **Key Equation**: d(*F) = J.
+**Problem Type**: Unify gravity and gauge theory. **Primary Tool**: Kaluza-Klein reduction. **Section**: A.4. **Key Equation**: M sub 4 to the 2 = M sub 6 to the 4 / V sub extra.
+**Problem Type**: Running of coupling constants. **Primary Tool**: RG equations, beta functions. **Section**: Ch. 4. **Key Equation**: mu d alpha sub s over d mu = beta ( alpha sub s).
+**Problem Type**: Linearized gravity (weak fields). **Primary Tool**: Perturbation theory, gravitational waves. **Section**: Ch. 5. **Key Equation**: h sub mu nu ansatz with g sub mu nu = eta sub mu nu + h sub mu nu.
+**Problem Type**: Scalar field dynamics. **Primary Tool**: Klein-Gordon equation, variational principle. **Section**: Ch. 2. **Key Equation**: ( + m to the 2) phi = 0.
+
+Notes on Conventions and Usage.
+
+1. Signature convention: Throughout Vol. 2, we use signature (-,+,+,+) for 4D and (-,+,+,+,+,+) for 6D. Some textbooks use (+,-,-,-); always check.
+
+2. Raising and lowering: The metric lowers indices on the left, raises on the right: the expression.
+
+3. Covariant vs. partial derivative: In curved spacetime, always use covariant derivatives nabla  mu instead of partial derivatives partial  mu. Partial derivatives are not tensors.
+
+4. Differential forms: Forms are powerful in 4D spacetime but cumbersome in higher-dimensional calculations. Use forms when elegance is valued (Maxwell equations); use components when doing detailed computations.
+
+5. Kaluza-Klein: The reduction procedure requires specifying the compactification manifold K. Different topologies (torus, Calabi-Yau, etc.) give different physics.
+
+6. Notation conflicts: The symbol R means Ricci scalar in curved-space sections but gas constant in thermodynamic contexts—always check the chapter context.
+
+References for Further Study.
+
+- Differential geometry: O'Neill, Semi-Riemannian Geometry (comprehensive); Carroll, Spacetime and Geometry (physicists' approach).
+- Differential forms: Frankel, The Geometry of Physics (unified treatment); Nakahara, Geometry, Topology, and Physics.
+- Kaluza-Klein: Overduin & Wesson, Physics Reports 283 (1997) 303–378 (classic review); Cheng, Relativity, Gravitation and Cosmology (textbook treatment).
+- Maxwell in forms: Misner, Thorne & Wheeler, Gravitation (Ch. 3; the standard reference).
+
+Appendix A ends here. Return to the main text, Chapter 3, for applications to electromagnetism in curved spacetime.

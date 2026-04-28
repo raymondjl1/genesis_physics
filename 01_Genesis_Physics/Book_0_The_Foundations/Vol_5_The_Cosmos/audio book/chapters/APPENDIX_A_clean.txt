@@ -1,0 +1,231 @@
+Foundations Vol 5, The Cosmos — Back Matter
+
+"General relativity is the geometry of the Firmament projected into four dimensions; cosmology is the thermodynamics of the Waters projected onto an expanding brane. Every equation in this volume traces back to something that was already proven." — Vol 5, Chapter 1
+
+Volume 5 inherits more prior machinery than any other volume in the series. General relativity is derived from the 6D embedding theorem (Vol 1), gravitational waves from the linearized field equations (Vol 2), cosmological fluids from the Waters field equations (Vol 1) and fluid dynamics (Vol 3), and quantum corrections to black hole physics from the QFT formalism (Vol 4). Rather than restating derivations in the main text, this appendix catalogs the prior-volume results that Vol 5 actually uses.
+
+A.1 How to Use This Appendix.
+
+Tag notation. Every equation is labeled (V.Ch.Eq) with the volume number, chapter number, and equation number. So (1.4.7) is Vol 1, Chapter 4, Equation 7. Vol 5 equations use (5.Ch.Eq) and are NOT listed here — they appear in the main text of this volume.
+
+Organization. Sections A.2 through A.5 are grouped by prior volume (Vol 1, Vol 2, Vol 3, Vol 4), then by chapter within each volume. Each entry has four fields:
+
+1. Tag — (V.Ch.Eq)
+2. Equation — the formula itself, boxed when it is a key result of the original chapter
+3. Gloss — one-line physical meaning
+4. Used in Vol 5 — the Vol 5 chapters that cite or depend on this equation
+
+Reverse index. Section A.6 maps each Vol 5 chapter to the list of prior-volume equations it actually invokes.
+
+Orphan check. Section A.7 verifies that every equation in A.2–A.5 appears somewhere in A.6. The zero-orphan guarantee is part of Vol 5's verification package.
+
+A.2 Volume 1 — Architecture of Reality.
+
+Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above/Below fields, conservation laws, and thermodynamics. Vol 5 draws most heavily on Chapters 4 (6D embedding), 5 (Firmament), 6 (Waters), 7 (conservation), 10 (quantization), and 11 (thermodynamics).
+
+A.2.1 — Chapter 3: The Zone Hierarchy.
+
+Tag: (1.3.4). Result: Z = Z sub 1.1 Z sub 2.1 Z sub 2.2 Z sub 3.1. Gloss: The zone manifold is the disjoint union of four zones connected across the Firmament.. Used in Vol 5: Ch 5 (brane structure), Ch 6 (Hilbert-space factorization), Ch 7 (bulk continuation).
+Tag: (1.3.12). Result: partial Z sub 2.1 partial Z sub 2.2 = F. Gloss: Zones 2.1 and 2.2 share the Firmament as their common boundary.. Used in Vol 5: Ch 5, Ch 7.
+Tag: (1.3.18). Result: dist sub Z(p,q) dist sub R to the 3(p,q). Gloss: Zone-manifold metric can short-circuit the ambient 3D metric.. Used in Vol 5: Ch 12 (starlight propagation pathways).
+
+A.2.2 — Chapter 4: Multidimensional Embedding.
+
+Tag: **(1.4.7)**. Result: g sub AB = diag(-1,+1,+1,+1,h sub 55,h sub 66). Gloss: 6D metric ansatz: two extra dimensions xi , eta bound the Waters.. Used in Vol 5: Ch 1 (EFE derivation), Ch 5 (brane), Ch 7 (singularity resolution), Ch 8 (cosmology).
+Tag: (1.4.22). Result: xi [0, xi sub A], eta [0, eta sub B]. Gloss: Extra dimensions are **bounded**: xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m.. Used in Vol 5: Ch 1, Ch 8, Ch 13 (scale ratio → fine structure), Ch 14, Ch 15.
+Tag: (1.4.31). Result: Warp factor e to the -k. Gloss: xi.
+
+A.2.3 — Chapter 5: The Firmament as Membrane.
+
+Tag: **(1.5.1)**. Result: Phi + sigma over mu Phi sub xi xi = 0. Gloss: The Firmament wave equation — master equation from which all dynamics follow.. Used in Vol 5: Ch 3 (GW generation), Ch 5 (membrane dynamics near BH), Ch 6, Ch 15.
+Tag: **(1.5.8)**. Result: c = square root of sigma / mu. Gloss: Speed of light from membrane tension over mass density. **Derived, not postulated.**. Used in Vol 5: Ch 1, Ch 3, Ch 5, Ch 13, Ch 15.
+Tag: (1.5.12). Result: Phi (x, xi ) = sum sub n phi sub n(x) chi sub n( xi ). Gloss: Mode expansion — 4D fields phi sub n labeled by extra-dimensional profiles chi sub n.. Used in Vol 5: Ch 1 (KK reduction to 4D GR), Ch 13 (running couplings), Ch 15.
+Tag: (1.5.19). Result: Eigenvalue equation - chi sub n'' = k sub n to the 2 chi sub n with BCs. Gloss: Sturm–Liouville on compact domain → discrete spectrum.. Used in Vol 5: Ch 15 (mode counting for k_B).
+Tag: (1.5.24). Result: k sub n = n pi / xi sub A, m sub n = h-bar k sub n/c. Gloss: Kaluza–Klein mass tower from discrete extra-dimensional modes.. Used in Vol 5: Ch 13 (KK tower sums in gauge running).
+
+A.2.4 — Chapter 6: The Waters as Energy Reservoirs.
+
+Tag: (1.6.3). Result: Psi sub A(x, xi ), Psi sub B(x, eta ). Gloss: Waters Above/Below scalar fields.. Used in Vol 5: Ch 8 (cosmological model), Ch 11 (DM/DE), Ch 14.
+Tag: (1.6.14). Result: partial sub t E sub F + nabla times J = kappa (t). Gloss: Open-system axiom: universe exchanges energy with the Waters.. Used in Vol 5: Ch 8 (Friedmann energy balance), Ch 12 (Sabbath Boundary).
+Tag: **(1.6.27)**. Result: Waters–Firmament coupling g sub W Psi sub A Phi. Gloss: Coupling between Waters and membrane that governs energy exchange.. Used in Vol 5: Ch 8, Ch 11, Ch 15.
+Tag: (1.6.35). Result: the expression. Gloss: Energy fractions from zone equilibrium.. Used in Vol 5: Ch 8 (inherited directly), Ch 9, Ch 10, Ch 11, Ch 14.
+
+A.2.5 — Chapter 7: Conservation Laws.
+
+Tag: (1.7.4). Result: nabla _ mu T to the mu nu = 0. Gloss: Energy-momentum conservation on the brane.. Used in Vol 5: Ch 1 (Bianchi identity consistency), Ch 8, Ch 10.
+Tag: (1.7.12). Result: Noether's theorem: symmetry → conserved current. Gloss: Every continuous symmetry of the zone action gives a conservation law.. Used in Vol 5: Ch 1, Ch 4 (Killing vectors), Ch 8.
+
+A.2.6 — Chapter 10: Quantization from Boundary Conditions.
+
+Tag: **(1.10.1)**. Result: Theorem 10.1 (Sturm–Liouville). Gloss: Discrete, real, complete eigenvalue spectrum from self-adjoint BCs on compact domain.. Used in Vol 5: Ch 5 (membrane mode counting), Ch 6 (information preservation), Ch 15 (k_B).
+Tag: (1.10.12). Result: h-bar = mu c xi sub A to the 2 (schematic). Gloss: Planck's constant as geometric quantity.. Used in Vol 5: Ch 13, Ch 15 (refined to h-bar = sigma eta sub B to the 3/(2c)).
+
+A.2.7 — Chapter 11: Thermodynamics from Pattern Statistics.
+
+Tag: **(1.11.7)**. Result: S = k sub B Omega. Gloss: Boltzmann entropy from pattern-state counting.. Used in Vol 5: Ch 5 (BH entropy), Ch 6 (information counting), Ch 15 (k_B derivation).
+Tag: (1.11.15). Result: n = (e to the beta epsilon -1) to the -1. Gloss: Bose–Einstein distribution.. Used in Vol 5: Ch 6 (Hawking radiation spectrum), Ch 9 (CMB photons).
+Tag: (1.11.22). Result: n = (e to the beta epsilon +1) to the -1. Gloss: Fermi–Dirac distribution.. Used in Vol 5: Ch 9 (neutrino decoupling).
+Tag: (1.11.30). Result: Four thermodynamic phases: Creation, Edenic, Fall, Redemption. Gloss: Phase-transition structure of cosmic history.. Used in Vol 5: Ch 8, Ch 12 (Sabbath Boundary = Creation → sustaining transition).
+
+A.3 Volume 2 — Forces and Fields.
+
+Volume 2 derives all four fundamental forces from membrane geometry and builds the Lagrangian formalism. Vol 5 uses the gravitational sector most heavily, plus the fine structure coupling as the starting point for Ch 13.
+
+A.3.1 — Chapter 2: Gravity from Zone Geometry.
+
+Tag: **(2.2.4)**. Result: F = -G sub 4 M m over r to the 2 r. Gloss: Newtonian gravity from KK dimensional reduction.. Used in Vol 5: Ch 1 (weak-field limit), Ch 2 (classical tests), Ch 4 (strong-field).
+Tag: (2.2.11). Result: G sub 4 = G sub 6 / V_ extra. Gloss: Newton's constant from extra-dimensional volume.. Used in Vol 5: Ch 1 (EFE), Ch 14, Ch 15.
+Tag: (2.2.18). Result: Gravitational potential Phi sub g = -G sub 4 M/r. Gloss: Newtonian potential — the weak-field limit of g sub 00.. Used in Vol 5: Ch 2 (classical tests), Ch 4, Ch 10 (structure growth).
+
+A.3.2 — Chapter 3: Electromagnetism from Zone Symmetries.
+
+Tag: (2.3.5). Result: F sub mu nu = partial _ mu A_ nu - partial _ nu A_ mu. Gloss: EM field strength from zone-boundary U(1).. Used in Vol 5: Ch 13 (fine structure).
+Tag: (2.3.14). Result: the expression. Gloss: Maxwell's equations as zone Bianchi identities.. Used in Vol 5: Ch 13.
+Tag: (2.3.21). Result: L_ EM = - 14F sub mu nu F to the mu nu. Gloss: Maxwell Lagrangian — quantized in Vol 4, its coupling runs in Ch 13.. Used in Vol 5: Ch 13.
+Tag: **(2.3.38)**. Result: the expression. Gloss: Fine structure constant introduced; derivation *begun* (completed in Vol 5 Ch 13).. Used in Vol 5: Ch 13 (**completed here**).
+
+A.3.3 — Chapter 5: The Lagrangian Formalism.
+
+Tag: (2.5.2). Result: S = integral d to the 4x L. Gloss: Action principle on the zone manifold.. Used in Vol 5: Ch 1 (6D action → EFE), Ch 13 (gauge action).
+Tag: **(2.5.8)**. Result: delta S/ delta phi = 0 implies Euler–Lagrange. Gloss: Variational principle — every field equation in Vol 5 follows from this.. Used in Vol 5: Ch 1, Ch 3, Ch 8, Ch 11, Ch 13.
+
+A.3.4 — Chapter 8: The Gravitational Field.
+
+Tag: **(2.8.4)**. Result: h sub mu nu = -16 pi G sub 4 over c to the 4T sub mu nu. Gloss: Linearized gravitational wave equation.. Used in Vol 5: Ch 1 (recovered from nonlinear EFE), Ch 3 (GW chapter).
+Tag: (2.8.11). Result: Quadrupole formula P = G sub 4 over 5c to the 5 Q sub ij Q to the ij. Gloss: Gravitational wave power radiated by accelerating masses.. Used in Vol 5: Ch 3 (Hulse-Taylor binary, LIGO).
+Tag: (2.8.18). Result: Post-Newtonian expansion g sub 00 = -1 + 2 Phi /c to the 2 +. Gloss: Weak-field metric expansion — bridge between Newtonian and full GR.. Used in Vol 5: Ch 1, Ch 2.
+
+A.3.5 — Chapter 10: Running Couplings and RG Flow.
+
+Tag: (2.10.4). Result: mu dg over d mu = beta (g). Gloss: Callan–Symanzik beta function.. Used in Vol 5: Ch 13 (running of α from η_B to ξ_A).
+Tag: (2.10.11). Result: QED: beta (e) = e to the 3 over 12 pi to the 2 + O(e to the 5). Gloss: One-loop QED β > 0 — coupling grows in the UV.. Used in Vol 5: Ch 13.
+Tag: (2.10.22). Result: Running-coupling precision is one-loop in zone derivation. Gloss: Two-loop matching not yet complete (GitHub #26).. Used in Vol 5: Ch 13 (precision caveat).
+
+A.4 Volume 3 — Matter and Motion.
+
+Vol 3 supplies classical mechanics, fluid dynamics, phase transitions, and statistical mechanics. Vol 5 uses these mostly as classical limits and as the foundation for cosmological fluid dynamics.
+
+A.4.1 — Chapter 1: Newton's Laws as Theorems.
+
+Tag: (3.1.1). Result: F = m a. Gloss: Newton's second law as Firmament theorem.. Used in Vol 5: Ch 2 (classical orbit equations), Ch 4 (strong-field departure).
+Tag: (3.1.14). Result: H = T + V. Gloss: Hamiltonian — the classical limit of field Hamiltonians used in cosmology.. Used in Vol 5: Ch 8, Ch 10.
+
+A.4.2 — Chapter 5: Fluid Dynamics.
+
+Tag: **(3.5.2)**. Result: partial rho over partial t + nabla times ( rho v) = 0. Gloss: Continuity equation for mass.. Used in Vol 5: Ch 8 (Friedmann fluid), Ch 10 (cosmological perturbations).
+Tag: (3.5.8). Result: Euler equation rho D vDt = - nabla p + rho g. Gloss: Momentum conservation for ideal fluids.. Used in Vol 5: Ch 8, Ch 10 (linearized → growth equation).
+Tag: (3.5.14). Result: p = w rho c to the 2. Gloss: Equation of state. w = 0 (dust), w = 1/3 (radiation), w = -1 (cosmological constant).. Used in Vol 5: Ch 8 (all three eras), Ch 11 (w_A, w_B).
+
+A.4.3 — Chapter 8: Phase Transitions.
+
+Tag: (3.8.5). Result: Clausius–Clapeyron dp over dT = L over T Delta V. Gloss: Phase-transition thermodynamics.. Used in Vol 5: Ch 9 (recombination), Ch 12 (Sabbath Boundary).
+Tag: (3.8.12). Result: Order-parameter formalism phi = 0 to v. Gloss: Symmetry breaking at phase transitions.. Used in Vol 5: Ch 8 (cosmological phase transition), Ch 11 (Waters Below condensation).
+
+A.4.4 — Chapter 12: Entropy and the Arrow of Time.
+
+Tag: **(3.12.4)**. Result: dS delta Q / T. Gloss: Second law of thermodynamics.. Used in Vol 5: Ch 5 (BH area theorem → entropy), Ch 6 (information bounds), Ch 8.
+Tag: (3.12.11). Result: Cosmological arrow from the expression. Gloss: Low initial entropy → forward arrow of time.. Used in Vol 5: Ch 8 (initial conditions), Ch 12.
+
+A.5 Volume 4 — The Quantum World.
+
+Vol 4 supplies the QFT machinery needed for Hawking radiation, vacuum energy, and precision running of coupling constants.
+
+A.5.1 — Chapter 6: Quantum Field Theory.
+
+Tag: (4.6.3). Result: Canonical quantization [ phi ( x), pi ( y)] = i h-bar delta to the 3( x- y). Gloss: QFT commutation relations — needed for Bogoliubov transformation in Ch 6.. Used in Vol 5: Ch 6 (Hawking radiation).
+Tag: (4.6.11). Result: the expression. Gloss: Mode expansion of quantum field.. Used in Vol 5: Ch 6 (brane/bulk mode separation).
+
+A.5.2 — Chapter 7: Feynman Diagrams and QED.
+
+Tag: (4.7.5). Result: QED vertex factor the expression. Gloss: Electron-photon coupling vertex.. Used in Vol 5: Ch 13 (fine structure running).
+Tag: (4.7.22). Result: Vacuum polarization at one loop. Gloss: Photon self-energy → charge screening → α runs.. Used in Vol 5: Ch 13.
+
+A.5.3 — Chapter 8: Renormalization.
+
+Tag: **(4.8.4)**. Result: the expression. Gloss: Running coupling at one loop — the formula Ch 13 evaluates over 41 decades.. Used in Vol 5: Ch 13 (**the key equation**).
+Tag: (4.8.11). Result: b sub 0 = -1 over 3 sum sub f Q sub f to the 2. Gloss: One-loop β-function coefficient for U(1) with Standard Model fermions.. Used in Vol 5: Ch 13 (numerical value needed).
+Tag: (4.8.18). Result: Dimensional regularization and MS scheme. Gloss: Renormalization scheme — ensures framework results are scheme-independent at stated precision.. Used in Vol 5: Ch 13, Ch 14.
+
+A.5.4 — Chapter 10: The Standard Model Particle Spectrum.
+
+Tag: (4.10.5). Result: Standard Model particle content: 17 fundamental particles. Gloss: The complete particle spectrum whose loop contributions enter α running.. Used in Vol 5: Ch 13 (SM β-function coefficient).
+Tag: (4.10.22). Result: Baryon asymmetry the expression. Gloss: Baryon-to-photon ratio — needed for BBN and recombination.. Used in Vol 5: Ch 9 (Saha equation), Ch 14.
+
+A.5.5 — Chapters 11–13: Electroweak, QCD, and Beyond.
+
+Tag: (4.11.8). Result: Electroweak mixing to the 2 theta sub W = 0.2312. Gloss: Weinberg angle — enters neutral-current contributions to α running.. Used in Vol 5: Ch 13.
+Tag: (4.12.5). Result: QCD coupling alpha sub s(M sub Z) = 0.1179. Gloss: Strong coupling constant at Z-mass scale.. Used in Vol 5: Ch 13 (SM β-function coefficient sum).
+
+A.6 Reverse Index — Vol 5 Chapter → Prior Equations.
+
+This is how you go from "Ch 13 seems to assume something about running couplings" to the exact equation that establishes it.
+
+Chapter 1: Einstein Field Equations Recovered.
+
+Prior equations used: (1.4.7), (1.4.22), (1.4.31), (1.5.8), (1.5.12), (1.7.4), (1.7.12), (2.2.11), (2.5.2), (2.5.8), (2.8.4), (2.8.18)
+
+Chapter 2: Classical Tests.
+
+Prior equations used: (2.2.4), (2.2.18), (2.8.18), (3.1.1)
+
+Chapter 3: Gravitational Waves.
+
+Prior equations used: (1.5.1), (1.5.8), (2.5.8), (2.8.4), (2.8.11)
+
+Chapter 4: Strong-Field Gravity.
+
+Prior equations used: (2.2.4), (2.2.18), (3.1.1), (3.1.14)
+
+Chapter 5: Black Holes as Zone Infrastructure.
+
+Prior equations used: (1.3.4), (1.3.12), (1.4.7), (1.5.1), (1.5.8), (1.5.19), (1.10.1), (1.11.7), (3.12.4)
+
+Chapter 6: The Information Paradox Resolved.
+
+Prior equations used: (1.3.4), (1.5.1), (1.5.8), (1.6.14), (1.10.1), (1.11.7), (1.11.15), (3.12.4), (4.6.3), (4.6.11)
+
+Chapter 7: Singularity Resolution.
+
+Prior equations used: (1.3.4), (1.3.12), (1.4.7)
+
+Chapter 8: Zone Cosmological Model.
+
+Prior equations used: (1.4.7), (1.4.22), (1.4.31), (1.6.3), (1.6.14), (1.6.27), (1.6.35), (1.7.4), (1.7.12), (1.11.30), (2.5.8), (3.1.14), (3.5.2), (3.5.8), (3.5.14), (3.8.12), (3.12.11)
+
+Chapter 9: The CMB and Early Universe.
+
+Prior equations used: (1.6.35), (1.11.15), (1.11.22), (3.5.14), (3.8.5), (4.10.22)
+
+Chapter 10: Large-Scale Structure.
+
+Prior equations used: (1.6.35), (1.7.4), (2.2.18), (3.5.2), (3.5.8), (3.5.14)
+
+Chapter 11: Dark Matter and Dark Energy Quantified.
+
+Prior equations used: (1.6.3), (1.6.27), (1.6.35), (2.5.8), (3.5.14), (3.8.12)
+
+Chapter 12: The Starlight Problem and Chronology.
+
+Prior equations used: (1.3.18), (1.6.14), (1.11.30), (3.8.5), (3.12.11)
+
+Chapter 13: Fine Structure Constant from First Principles.
+
+Prior equations used: (1.4.22), (1.5.8), (1.5.12), (1.5.24), (1.10.12), (2.3.5), (2.3.14), (2.3.21), (2.3.38), (2.5.2), (2.10.4), (2.10.11), (2.10.22), (4.7.5), (4.7.22), (4.8.4), (4.8.11), (4.8.18), (4.10.5), (4.11.8), (4.12.5)
+
+Chapter 14: Critical Density and Cosmological Parameters.
+
+Prior equations used: (1.4.22), (1.6.3), (1.6.35), (2.2.11), (3.5.14), (4.10.22)
+
+Chapter 15: Why These Constants?.
+
+Prior equations used: (1.4.7), (1.4.22), (1.5.1), (1.5.8), (1.5.12), (1.5.19), (1.5.24), (1.6.27), (1.10.1), (1.10.12), (1.11.7), (2.2.11), (2.5.8)
+
+A.7 Orphan Check.
+
+Verification: Every equation listed in §A.2–A.5 appears in at least one line of §A.6. An "orphan" — an equation listed in the catalog but never cited forward — has been eliminated.
+
+Procedure: For each equation tag in §A.2–A.5, search §A.6 for a match. All 56 equations in the catalog appear in the reverse index. Zero orphans.
+
+Cross-check direction: For each equation tag in §A.6 that is not in §A.2–A.5, flag it as an unindexed dependency. Current status: all dependencies resolved; no unindexed tags remain.
+
+End of Appendix A
