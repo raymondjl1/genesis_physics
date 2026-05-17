@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Six-dimensional action generates Standard Model spectrum | Genesis 1:1 |
@@ -61,7 +61,7 @@ $$ds^2 = -c^2 dt^2 + d\vec{x}^2 + d\xi^2 + d\eta^2$$
 - **Waters Above** ($\xi \in [0, \xi_A)$, $\xi_A = 3 \times 10^{26}$ m): scalar field $\Psi_A$
 - **Waters Below** ($\eta \in (-\eta_B, 0]$, $\eta_B = 1.3 \times 10^{-15}$ m): scalar field $\Psi_B$
 
-**Membrane tension**: $\sigma = 6.0 \times 10^{98}$ kg/s²
+**Membrane tension**: $\sigma = 6.0 \times 10^{98}$ kg/(m·s²)
 
 **Light speed**: $c = \sqrt{\sigma/\mu} = 3 \times 10^8$ m/s (EXACT from axioms)
 
@@ -159,6 +159,12 @@ $$\frac{y_\mu}{y_e} = \exp\big(\alpha(3^2 - 2^2)\big) = \exp(5\alpha) \approx 16
 $$\frac{y_\tau}{y_\mu} = \exp\big(\alpha(2^2 - 1^2)\big) = \exp(3\alpha) \approx 20.7 \quad (\text{measured: } 16.8) \quad \text{~23\% error}$$
 
 **Note on precision**: The single-parameter exponential model ($\alpha \approx 1.0$) captures the 8-order-of-magnitude span of fermion masses but shows ~20% deviations for intermediate generations. A refined two-parameter model or inclusion of QCD/QED running corrections at each mass scale reduces these to ~5%. This is marked APPROXIMATE, not RIGOROUS.
+
+> **OP-03 CALIBRATION STATUS (updated 2026-05-11):** $\alpha \approx 1.0$ above is a *fitted* parameter. The computed Yukawa overlap integral (Sturm-Liouville double-well eigenfunctions with $V_0 = 0.002$, Higgs at zone wall $x = +1$, $\sigma_H = 0.4$) gives $\alpha \approx 0.076$ — a factor of ~13 below the required value. A V₀ sweep investigation (`op03_v0_sweep.py`, 2026-05-11) found:
+>
+> - **Increasing V₀ does not fix the gap.** The maximum achievable $\alpha$ from the symmetric double-well is $\approx 0.64$ (at $V_0 \approx 0.09$), and even this is not a true three-tier hierarchy — it reflects $y_1 \approx y_2 \gg y_3$ due to the Z₂ symmetry of the potential, not $y_1 \gg y_2 \gg y_3$.
+> - **Root cause:** The Z₂ symmetry of $V(\xi) = V_0(\xi^2-1)^2$ forces $|\psi_1(\xi{=}+1)| \approx |\psi_2(\xi{=}+1)|$ (bonding/antibonding pair), making $y_\tau \approx y_\mu$ for any $V_0$. The tau-muon mass ratio cannot be reproduced this way.
+> - **Required resolution (OP-03):** Either (a) break the Z₂ symmetry of the ξ-potential (asymmetric zone-wall condensates), or (b) use WKB tunneling in the full 6D geometry where the three generations correspond to different tunneling distances from the Higgs wall. See `OPEN_PROBLEMS_REGISTER.md` §OP-03.
 
 ### 3.6 Fundamental Mass Formula
 

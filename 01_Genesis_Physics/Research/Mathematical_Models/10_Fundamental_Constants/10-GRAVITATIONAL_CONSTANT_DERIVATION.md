@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth"; "by him all things are held together" | Genesis 1:1; Colossians 1:17 |
@@ -597,7 +597,7 @@ where A₀ is a characteristic cross-sectional area. Then:
 
 $$G_4 = \frac{c^4 A_0}{8\pi \sigma V_{\text{extra}}}$$
 
-Numerically, with σ ~ 6×10⁹⁸ kg/s² (Planck scale), c = 3×10⁸ m/s, and V_extra ~ 10³⁰ m²:
+Numerically, with σ ~ 6×10⁹⁸ kg/(m·s²) (Planck scale), c = 3×10⁸ m/s, and V_extra ~ 10³⁰ m²:
 
 $$G_4 \sim \frac{(3 \times 10^8)^4 \times 1}{10^{99} \times 10^{30}} \sim \frac{10^{33}}{10^{129}} \sim 10^{-96}$$
 

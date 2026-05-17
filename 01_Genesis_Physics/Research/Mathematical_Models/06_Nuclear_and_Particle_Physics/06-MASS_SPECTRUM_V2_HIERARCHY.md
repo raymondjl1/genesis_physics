@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Waters separated by membrane with distinct coupling constants | Genesis 1:6-7 |
@@ -52,7 +52,7 @@ This is the fundamental scale where quantum gravity becomes important.
 **In Genesis Physics**: G relates to the membrane geometry. Specifically:
 $$G = \frac{c^2}{\sigma} \times (\text{geometric factor from 6D embedding})$$
 
-Given σ = 6.0×10⁹⁸ kg/s² and c = 3×10⁸ m/s:
+Given σ = 6.0×10⁹⁸ kg/(m·s²) and c = 3×10⁸ m/s:
 $$\sigma/c^2 = \frac{6.0 \times 10^{98}}{9 \times 10^{16}} = 6.67 \times 10^{81} \text{ kg/m}^2$$
 
 This equals μ (volume mass density) by design: **c² = σ/μ** ✓
@@ -94,7 +94,7 @@ This huge ratio (m_Planck/m_η ~ 10²⁰) begins to explain the hierarchy proble
 
 From σ alone (without other parameters), can we construct a mass?
 
-Dimensionally: [σ] = kg/s² and we need [M]. We need to combine with c and ℏ:
+Dimensionally: [σ] = kg/(m·s²) and we need [M]. We need to combine with c and ℏ:
 
 $$m_{\sigma} = \sqrt{\frac{\sigma \hbar}{c^3}}$$
 
@@ -718,7 +718,7 @@ Let's list every independent parameter:
    - **Status: Fixed by observation (Compton wavelength of nucleons)**
 
 **Membrane Parameters**
-6. **σ** = 6.0×10⁹⁸ kg/s² (Membrane tension)
+6. **σ** = 6.0×10⁹⁸ kg/(m·s²) (Membrane tension)
    - Determines c = √(σ/μ)
    - **Status: DERIVED from σ/μ = c², not independent**
 
@@ -1065,7 +1065,7 @@ To complete the framework, we need to:
 3. G = 6.674×10⁻¹¹ m³/(kg·s²) (determined by membrane geometry)
 4. ξ_A = 3×10²⁶ m (observed: Hubble radius)
 5. η_B = 1.3×10⁻¹⁵ m (observed: nuclear scale)
-6. σ = 6.0×10⁹⁸ kg/s² (derived: σ = μc²)
+6. σ = 6.0×10⁹⁸ kg/(m·s²) (derived: σ = μc²)
 7. μ = 6.7×10⁸² kg/m² (derived: μ = ρ_Planck η_B)
 
 **Free Parameters (Must Be Determined)**:

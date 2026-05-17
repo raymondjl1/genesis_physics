@@ -302,17 +302,25 @@ This shows how 4D gravity is weakened by the large extra dimensions.
 
 **Field dynamics**: Scalar field $\Psi_B(\eta)$ with confinement potential $V_B(\Psi_B)$ that is periodic or quadratic in $\Psi_B$.
 
-#### 3.4.1 Approximate Solution: Gaussian Confinement
+#### 3.4.1 Waters Below Warp Profile — Canonical Form
 
-For confinement due to a quadratic potential:
+> **⚠ OP-2.WP Resolution (Rev. 2026-05-15).** Two warp profile forms were in use: (1) the Gaussian form below (from quadratic potential, "soft wall"); and (2) constant B_η ≈ const from the RS-type derivation in `WARP_FUNCTION_DERIVATION_RT1WF.md` §3.3. These conflict. See `B_ETA_WARP_RESOLUTION_OP2WP.md` for the full analysis. **Canonical leading-order form: B_η ≈ const.** The Gaussian is retained as a sub-leading approximation valid when V_B is harmonic near its minimum. The self-consistent resolution requires OP-A_η (Ψ_B field equation solved in metric background).
 
-$$\boxed{B_\eta(\eta) = -\frac{\eta^2}{2\eta_B^2}, \quad \eta \in [0, \eta_B]}$$
+**Canonical leading-order form (RT-1.WF, RS-type):**
 
-or equivalently:
+$$\boxed{B_\eta(\eta) \approx B_{0,\eta} = \text{const}, \quad \eta \in [0, \eta_B]}$$
 
-$$e^{2B_\eta(\eta)} = \exp\left(-\frac{\eta^2}{\eta_B^2}\right)$$
+The confinement in this regime is driven by the warp factor A_η(η) = −κ_B(η − η_0), κ_B ≈ 1/η_B, which gives exponential suppression e^{2A_η} → 0 as η → η_B without B_η needing to vary.
 
-This exponential suppression confines fields to $\eta < \eta_B$.
+**Sub-leading approximation: Gaussian Confinement (soft wall, for harmonic V_B)**
+
+For confinement dominated by a quadratic potential V_B ~ (1/2)m²Ψ_B²:
+
+$$B_\eta(\eta) \approx -\frac{\eta^2}{2\eta_B^2}, \quad e^{2B_\eta(\eta)} = \exp\left(-\frac{\eta^2}{\eta_B^2}\right) \tag{sub-leading}$$
+
+This is the soft-wall AdS/QCD form (Karch-Katz-Son-Stephanov 2006). It applies when the volume-element suppression from B_η dominates over A_η confinement — i.e., when V_B is harmonic and A_η is small. It should not be used as the default Waters Below metric.
+
+**At the Firmament (η = η₀):** Both forms give e^{2B_η(η₀)} = e^{2B_{0,η}} ≈ 1 (by normalization), so the G₄ integral, the α⁻¹ derivation, and the ħ formula are unaffected by this choice at leading order.
 
 #### 3.4.2 Confinement Scale and Dark Matter
 

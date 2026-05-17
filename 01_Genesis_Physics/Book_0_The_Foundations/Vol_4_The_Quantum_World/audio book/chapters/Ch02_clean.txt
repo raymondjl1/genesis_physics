@@ -1,4 +1,4 @@
-"He stretches out the heavens like a curtain, and spreads them out like a tent to dwell in."
+﻿"He stretches out the heavens like a curtain, and spreads them out like a tent to dwell in."
 — Isaiah 40:22
 
 "By faith we understand that the universe was created by the word of God, so that what is seen was not made out of things that are visible."
@@ -54,7 +54,7 @@ From Volume 1, Chapter 5, the transverse displacement field of the Firmament bra
 
 This is a real, second-order, hyperbolic partial differential equation for a real field ψ. The symbols on the right are:
 
-- sigma = 6.0 times 10 to the 98 kg/s² — the Firmament's tension, from (1.5.3).
+- sigma = 6.0 times 10 to the 98 kg/(m·s²) — the Firmament's tension, from (1.5.3).
 - mu = 6.7 times 10 to the 81 kg/m³ — its surface mass density, from (1.5.4).
 - c = square root of sigma / mu = 3.0 times 10 to the 8 m/s — the membrane's wave speed, equal (as shown in (1.5.6)) to the speed of light. This is not a coincidence; in zone architecture it is a definition.
 - V sub ext(x) — a position-dependent tension variation that acts as an external restoring force. Its physical origin will be identified with the physical potential V(x) in §2.5; for the moment treat it as a known function on the Firmament.
@@ -318,7 +318,7 @@ That is, the classical potential energy seen by the defect as it moves through V
 
 [Equation — see print edition.]
 
-The ( h-bar to the 2/(2 m sigma )) is not a dimensional hack: it is the conversion factor between "tension variation on the Firmament" (units of [ sigma ] = kg/s²) and "energy per defect" (units of J), which necessarily involves h-bar, m, and sigma, in exactly that combination. Intuitively: V_ ext couples to the membrane displacement per unit (3-volume × time²), so converting to an energy seen by a localized defect of mass m requires an inverse mass and the natural energy-action scale h-bar to the 2/m, divided by the tension sigma that sets the coupling strength. Vol 3 Ch 7 §7.9 does the dimensional analysis explicitly. It is important — especially for readers worried about hidden circularity — to note that the derivation of (3.7.22) in Vol 3 Ch 7 §7.9 is entirely classical: it uses only the membrane wave equation, the action of a localized defect, and the work-energy theorem. It does not use the Schrödinger equation. There is therefore no circular dependency between Ch 2 of this volume and Vol 3 Ch 7. (Cross-reference note: equation number (3.7.22) is pending confirmation from the Vol 3 Ch 7 finalization.)
+The ( h-bar to the 2/(2 m sigma )) is not a dimensional hack: it is the conversion factor between "tension variation on the Firmament" (units of [ sigma ] = kg/(m·s²)) and "energy per defect" (units of J), which necessarily involves h-bar, m, and sigma, in exactly that combination. Intuitively: V_ ext couples to the membrane displacement per unit (3-volume × time²), so converting to an energy seen by a localized defect of mass m requires an inverse mass and the natural energy-action scale h-bar to the 2/m, divided by the tension sigma that sets the coupling strength. Vol 3 Ch 7 §7.9 does the dimensional analysis explicitly. It is important — especially for readers worried about hidden circularity — to note that the derivation of (3.7.22) in Vol 3 Ch 7 §7.9 is entirely classical: it uses only the membrane wave equation, the action of a localized defect, and the work-energy theorem. It does not use the Schrödinger equation. There is therefore no circular dependency between Ch 2 of this volume and Vol 3 Ch 7. (Cross-reference note: equation number (3.7.22) is pending confirmation from the Vol 3 Ch 7 finalization.)
 
 Substitute (2.5.2) into (2.5.1):
 
@@ -663,7 +663,7 @@ Problem Sets.
 
 Computational.
 
-C1. Starting from the membrane wave equation (1.5.1) with V sub ext = 0 and the plane-wave ansatz psi (x,t) = A e to the i( k times x - omega t), derive the dispersion relation omega to the 2 = c to the 2k to the 2 (massless case). Then include a confinement mass term and reproduce (1.5.10). Verify that c to the 2 = sigma / mu with sigma = 6.0 times 10 to the 98 kg/s² and mu = 6.7 times 10 to the 81 kg/m³ gives the speed of light.
+C1. Starting from the membrane wave equation (1.5.1) with V sub ext = 0 and the plane-wave ansatz psi (x,t) = A e to the i( k times x - omega t), derive the dispersion relation omega to the 2 = c to the 2k to the 2 (massless case). Then include a confinement mass term and reproduce (1.5.10). Verify that c to the 2 = sigma / mu with sigma = 6.0 times 10 to the 98 kg/(m·s²) and mu = 6.7 times 10 to the 81 kg/m³ gives the speed of light.
 
 C2. Compute the Compton angular frequency omega sub 0 = mc to the 2/ h-bar for (a) the electron, (b) the muon, (c) the proton, using the derived ℏ of (1.10.19). Compare each to the angular frequency of an atomic transition of energy 1 eV. How many carrier oscillations occur per envelope cycle in each case?
 

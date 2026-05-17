@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | All particles derive from six-dimensional geometry | Genesis 1:1 |
@@ -68,7 +68,7 @@ This creates a 6D pseudo-Riemannian manifold M⁶ = M⁴ × [0, ξ_A) × (-η_B,
 
 | Parameter | Value | Interpretation |
 |-----------|-------|-----------------|
-| σ (membrane tension) | 6.0×10⁹⁸ kg/s² | Energy per unit area |
+| σ (membrane tension) | 6.0×10⁹⁸ kg/(m·s²) | Energy per unit area |
 | μ (volume mass density) | 6.7×10⁸¹ kg/m³ | Mass per unit volume |
 | c = √(σ/μ) | 3×10⁸ m/s | Membrane wave speed (= light speed) |
 | ℏ | 1.055×10⁻³⁴ J·s | Reduced Planck constant |

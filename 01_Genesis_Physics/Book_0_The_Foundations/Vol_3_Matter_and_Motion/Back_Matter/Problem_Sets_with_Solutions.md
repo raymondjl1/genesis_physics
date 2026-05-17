@@ -1,4 +1,4 @@
-# Problem Sets with Selected Solutions — Volume 3
+﻿# Problem Sets with Selected Solutions — Volume 3
 
 *Problems are labeled by difficulty: **[C]** computational, **[X]** conceptual, **[\*]** challenge. Each chapter provides 4–5 problems. At least one problem per chapter is worked in full; others receive answer keys or hints. All problems reference only Volumes 1–3; none require material from Volumes 4–6. Equation tags follow Appendix A conventions.*
 
@@ -265,7 +265,7 @@ The spectrum is discrete (because the geometry is bounded), quantized by the two
 
 ### Problem 7.1 [C] ⭐ — Electroweak VEV from membrane tension
 
-**Problem.** Using the Ch 7 §7.3 derivation, estimate the Higgs VEV $v$ from the membrane tension $\sigma \approx 6\times 10^{98}$ kg/s² and compare to the PDG value $v = 246.22$ GeV (Appendix B.6.4).
+**Problem.** Using the Ch 7 §7.3 derivation, estimate the Higgs VEV $v$ from the membrane tension $\sigma \approx 6\times 10^{98}$ kg/(m·s²) and compare to the PDG value $v = 246.22$ GeV (Appendix B.6.4).
 
 **Solution.** The Ch 7 §7.3 result (schematically):
 $$v^2 \;\sim\; \frac{\sigma\,L_{\text{eff}}^2}{\hbar c}\cdot e^{-c_1 (L_{\text{eff}}/\ell_{\text{Pl}})^2}$$

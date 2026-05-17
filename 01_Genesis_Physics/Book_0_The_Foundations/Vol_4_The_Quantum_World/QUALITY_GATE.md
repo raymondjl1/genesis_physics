@@ -63,7 +63,7 @@ Answer every "shut up and calculate" in quantum physics. Wave-particle duality, 
 
 | Ch | Physicist | But Why? | Writing | Consistency | Skeptic | Student | Overall |
 |----|----------|----------|---------|-------------|---------|---------|---------|
-| 1  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-07** |
+| 1  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-07; P0 fix applied 2026-05-11** (P1-D: §1.3.2 ℏ overclaim removed; §1.0, §1.4, §1.8 updated for consistency) |
 | 6  | PASS | PASS | PASS | PASS (minor) | PASS (minor) | PASS (minor) | **VERIFIED 2026-04-08** |
 | 7  | PASS (minor) | PASS | PASS (minor) | PASS | PASS (minor) | PASS | **VERIFIED 2026-04-08** |
 | 8  | PASS | PASS | PASS | PASS (minor) | PASS (minor) | PASS | **VERIFIED 2026-04-08** |
@@ -71,7 +71,12 @@ Answer every "shut up and calculate" in quantum physics. Wave-particle duality, 
 | 10 | PASS (minor) | PASS (minor) | PASS (minor) | PASS (minor) | PASS (honest) | PASS (minor) | **VERIFIED 2026-04-08 — with documented OPEN problems** |
 | 11 | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-08** |
 | 12 | PASS (1 minor) | PASS (1 minor) | PASS (3 minor) | PASS (1 minor) | PASS | PASS (3 minor) | **VERIFIED 2026-04-09** |
-| 2-5, 13-14 | — | — | — | — | — | — | IN PROGRESS / NOT STARTED |
+| 2  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-08** |
+| 3  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-08** |
+| 4  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-08** |
+| 5  | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED 2026-04-08** |
+| 13 | PASS | PASS | PASS | PASS (minor) | PASS | PASS | **VERIFIED 2026-04-09 — Ch13_VERIFIED.md created 2026-05-11** |
+| 14 | PASS | PASS | PASS | PASS (minor) | PASS | PASS | **VERIFIED 2026-04-09 — Ch14_VERIFIED.md created 2026-05-11** |
 | **Back Matter** | PASS | PASS | PASS (1 minor) | PASS (1 minor) | PASS | PASS (2 minor) | **VERIFIED 2026-04-09 — 6 minors deferred** |
 
 ### Back Matter — Notes
@@ -115,6 +120,51 @@ The following Chapter 10 specific tests must be added to `test_nuclear_physics.p
 3. Evaluate overlap integral (4.10.18) for Gaussian $H(\xi)$; verify the exponential form (4.10.19) to leading order.
 4. Reproduce Table 4.10.1 from calibrated $y_0$ and $\alpha$; verify residuals match quoted values.
 Until Ch10-T1 is complete, the numerical claims in §§10.2–10.4, 10.6–10.7 are verified only by the standalone derivations in `06-PARTICLE_MASS_SPECTRUM_V3.md`.
+
+### Post-Phase Review Note (2026-05-11)
+
+A comprehensive post-phase review of all 14 chapters and back matter was conducted on 2026-05-11. The full report is at `POST_PHASE_REVIEW_REPORT.md`. Key findings:
+
+- **P1-A (this file):** Gate table corrected — Ch 2–5 and Ch 13–14 entries updated from "IN PROGRESS / NOT STARTED" to their actual VERIFIED/FINAL statuses.
+- **P1-B RESOLVED (2026-05-11):** Ch 13 and Ch 14 VERIFIED.md records created. See `Ch_13_The_CKM_and_PMNS_Matrices/Ch13_VERIFIED.md` and `Ch_14_Beyond_the_Standard_Model/Ch14_VERIFIED.md`.
+- **P1-C RESOLVED (2026-05-11):** ξ_A canonical value reconciled. Ch 1 DRAFT.md and Ch 3 DRAFT.md updated to use ξ_A ≈ 3×10²⁶ m throughout, consistent with Symbol_and_Constants.md. Ch 1 §1.3.2, Fig 4.1.4, §1.4, problems 1.2/1.4/1.9, and chapter summary updated; Ch 3 §3.2 text updated with note that Waters Above extend beyond the observable universe (consistent with Genesis 1). Physical note: ξ_A > Hubble radius (~1.4×10²⁶ m) because the Waters Above zone extends beyond the observable universe. With ξ_A = 3×10²⁶ m, the required β_geom ≈ 249 (reduced from ~556 with the old value); the β_geom open problem remains.
+- **P1-D RESOLVED (2026-05-11):** Ch 1 §1.3.2 ℏ overclaim corrected. Removed "four significant figures / 0.03% agreement" claim. §1.3.2 now states: the framework establishes the FORM of ℏ as (πσ η_B³/2c)(η_B/ξ_A)² β_geom; with canonical parameters, β_geom ≈ 480 is required to match experiment; computing β_geom from zone topology is the primary open problem. §1.4 paragraph introducing β_geom updated to remove "≈ 1.16" assertion and replace with the correct open-problem framing. The §1.4 Derivation Status box already correctly documented the gap and is retained. Opening paragraph of §1.0 updated to remove "four significant figures" claim. Chapter Summary §1.8 updated to remove approximate numerical value. Problem 1.2 was already correctly framed (asks students to compute the discrepancy and find the required β_geom). Both sections are now internally consistent: the framework derives the FORM; β_geom is the open frontier.
+- **P1-E:** Add β_geom calibration disclosure note to Vol 1 (1.10.19).
+- **P1-F (Ch10-T1):** Test suite additions for Nielsen-Olesen, Sturm-Liouville, overlap integral, Table 4.10.1.
+- No P0 blockers identified. Volume is ready for pre-publication pass with P1 items resolved first.
+
+---
+
+### Chapter 13 — Notes
+
+- **Title:** The CKM and PMNS Matrices
+- **Role:** Closes Part III (The Standard Model Derived). Closes the Ch 11 §11.9 CP gap (GitHub #3 relabeled BLOCKER → APPROXIMATE).
+- **Word count:** ~10,000 (31–33 pages); 33 numbered equations — below spec floor of 43 (variance to be documented in VERIFIED record).
+- **Figures:** 4 (Fig 4.13.1–4.13.4)
+- **Equations:** (4.13.1)–(4.13.33), contiguous
+- **Key results:** V_CKM = U_u† U_d structure RIGOROUS; Wolfenstein λ_framework ~0.3 vs PDG 0.225 (factor 1.5, APPROXIMATE); PMNS angles match experimental 1σ bands (PHENOMENOLOGICAL); δ_CP^lepton = 3π/2 heuristic (OPEN); Dirac/Majorana question OPEN; baryogenesis chain to η_B routed to Vol 5.
+- **Open problems:** All inherit from Ch 10 (CKM: OPEN 10.3; Higgs: OPEN 11.1). No new OPEN problems introduced.
+- **Reviewer notes:** All 9 reviewers ACCEPT per Ch13_REVIEWER_NOTES.md. Physicist required three clarifications (error budget for J_CP, unitarity triangle β angle, V_bdry citation). All applied in FINAL.
+- **Administrative gap:** No Ch13_VERIFIED.md exists. Must be created (P1-B per POST_PHASE_REVIEW_REPORT.md).
+- **Files:** Ch13_SPEC.md, Ch13_OUTLINE.md, Ch13_DRAFT.md, Ch13_SELF_REVIEW.md, Ch13_REVIEWER_NOTES.md, Ch13_FINAL.md
+- **Status:** FINAL 2026-04-09. Awaiting VERIFIED record.
+
+---
+
+### Chapter 14 — Notes
+
+- **Title:** Beyond the Standard Model
+- **Role:** Closes Vol 4. Organized as zone-architecture predictions (not a BSM survey). 14-row falsification table; 12-item research roadmap with 2 CRITICAL (spin-½, fermion mass scale), 4 HIGH.
+- **Word count:** ~9,800 body + problem set
+- **Figures:** 5 (Fig 4.14.1–4.14.5) — architecture map, DM classes, falsification table, research roadmap, dependency DAG
+- **Key structural results:** Four dark matter classes (A-D); proton decay prediction; zone graviton; additional neutrino species; stochastic gravitational-wave background. All with specific experimental thresholds.
+- **Numerical honesty:** Top quark decay width 1.56 GeV predicted vs 2.00±0.1 PDG (25%, RR-6 roadmap); hierarchy problem routed to Vol 2 Ch 9 (not re-derived).
+- **Reviewer notes:** All 6 assigned reviewers PASS per Ch14_REVIEWER_NOTES.md. Skeptic's BLOCKING concern about Prediction 14.1 "2% envelope" wording was addressed in FINAL — threshold tied to current worst-case agreement (0.50% for M_Z).
+- **Administrative gap:** No Ch14_VERIFIED.md exists. Must be created (P1-B per POST_PHASE_REVIEW_REPORT.md).
+- **Files:** Ch14_SPEC.md, Ch14_OUTLINE.md, Ch14_DRAFT.md, Ch14_SELF_REVIEW.md, Ch14_REVIEWER_NOTES.md, Ch14_FINAL.md
+- **Status:** FINAL 2026-04-09. Awaiting VERIFIED record.
+
+---
 
 ### Chapter 1 — Notes
 

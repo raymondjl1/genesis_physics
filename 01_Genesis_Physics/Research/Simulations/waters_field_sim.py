@@ -1,4 +1,4 @@
-"""
+﻿"""
 Waters Field Equations Numerical Simulator
 ============================================
 
@@ -33,7 +33,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # Physical Constants (SI units)
 # ============================================================================
 
-SIGMA = 6.0e98          # kg/s²  (membrane tension)
+SIGMA = 6.0e98          # kg/(m·s²)  (membrane tension)
 MU = 6.7e81             # kg/m³  (membrane surface density)
 C = 3.0e8               # m/s    (speed of light)
 G = 6.674e-11           # m³ kg⁻¹ s⁻²

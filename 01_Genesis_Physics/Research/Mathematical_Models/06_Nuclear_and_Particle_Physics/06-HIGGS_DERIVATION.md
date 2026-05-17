@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Separation of waters above and below firmament | Genesis 1:6-7 |
@@ -33,7 +33,7 @@ This document derives the Standard Model Higgs mechanism from first principles i
 
 6D Action → Waters Above Scalar Ψ_A → KK Decomposition → Zero Mode = Higgs → Mexican Hat from Boundary Conditions → Spontaneous Symmetry Breaking → v = 246 GeV
 
-**Key Physical Insight**: The Waters Above scalar field Ψ_A, when Kaluza-Klein decomposed into 4D modes in the ξ-direction, produces a scalar doublet with SU(2)×U(1) quantum numbers. The lowest ξ-mode acts as the Standard Model Higgs field. Boundary conditions at the Firmament (ξ=0)—arising from the membrane tension σ (≈ 10^98 kg/s²)—generate a negative effective mass-squared term, triggering spontaneous electroweak symmetry breaking at the correct scale.
+**Key Physical Insight**: The Waters Above scalar field Ψ_A, when Kaluza-Klein decomposed into 4D modes in the ξ-direction, produces a scalar doublet with SU(2)×U(1) quantum numbers. The lowest ξ-mode acts as the Standard Model Higgs field. Boundary conditions at the Firmament (ξ=0)—arising from the membrane tension σ (≈ 10^98 kg/(m·s²))—generate a negative effective mass-squared term, triggering spontaneous electroweak symmetry breaking at the correct scale.
 
 **Key Results Derived:**
 - Higgs VEV: v = 246.22 GeV
@@ -1212,7 +1212,7 @@ The electroweak scale v = 246 GeV is **not a free parameter** but a consequence 
 ### 17.3 Fundamental Questions Answered
 
 **Q: Why is the electroweak scale ~100 GeV?**
-A: Because ξ_A ≈ 10²⁶ m and σ ≈ 10⁹⁸ kg/s², giving σc²/ξ_A² ≈ 10⁸¹ GeV² → √μ² ≈ 90 GeV → v ≈ 250 GeV.
+A: Because ξ_A ≈ 10²⁶ m and σ ≈ 10⁹⁸ kg/(m·s²), giving σc²/ξ_A² ≈ 10⁸¹ GeV² → √μ² ≈ 90 GeV → v ≈ 250 GeV.
 
 **Q: Why is the Higgs mass 125 GeV?**
 A: Because λ = 0.129 from KK overlap integrals, and m_H = √(2λ)v = √(0.258) × 246 = 125 GeV.

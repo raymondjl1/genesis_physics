@@ -27,7 +27,7 @@ These parameters define the 6D zone architecture at the foundation of Genesis Ph
 
 | Parameter | Symbol | Zone Value | Units | Uncertainty | Source | Chapter | Notes |
 |-----------|--------|-----------|-------|-------------|--------|---------|-------|
-| Membrane surface tension (6D) | σ | 6.0 × 10⁹⁸ | kg/s² | ±10% | Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4 | Vol 1 Ch 3; Vol 2 Ch 1 | Fundamental scale from zone coupling geometry |
+| Membrane surface tension (6D) | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | ±10% | Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4 | Vol 1 Ch 3; Vol 2 Ch 1 | Fundamental scale from zone coupling geometry |
 | Membrane areal mass density | μ | 6.7 × 10⁸¹ | kg/m³ | ±10% | Derived from membrane equation of motion; Vol 1, Ch 5, §5.2 | Vol 2 Ch 1 | Related to Planck mass: M_Pl² ∝ σ/μ |
 | Waters Above scale (cosmological) | ξ_A | 3.0 × 10²⁶ | m | ±1% | Observable universe radius; c·t_0 where t_0 ~ 10¹⁰ years | Vol 1 Ch 3 | Matches modern cosmic horizon ~1.4 × 10²⁶ m |
 | Waters Below scale (nuclear) | η_B | 1.3 × 10⁻¹⁵ | m | ±5% | Inverse membrane scale Q_m ~ ℏc/η_B ≈ 1 GeV | Vol 2 Ch 10 | Corresponds to strong-force confinement scale |

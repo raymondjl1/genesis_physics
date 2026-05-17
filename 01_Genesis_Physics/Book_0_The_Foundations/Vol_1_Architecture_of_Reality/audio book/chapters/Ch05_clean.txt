@@ -1,4 +1,4 @@
-Introduction — The Stage Becomes a Player.
+﻿Introduction — The Stage Becomes a Player.
 
 [Figure — see print edition.]
 
@@ -470,7 +470,7 @@ Dimensional verification:
 
 [Equation — see print edition.]
 
-Key insight: Why gravity is weak. The gravitational constant G sub 4 proportional to 1/ sigma. Since sigma approximately equal to 6.0 times 10 to the 98 kg/s² is enormously large, G sub 4 is enormously small. Gravity is weak not because of small extra dimensions or fine-tuned parameters, but because the membrane tension is enormous. It costs an extraordinary amount of energy to bend the Firmament. This is the Genesis Physics solution to the hierarchy problem.
+Key insight: Why gravity is weak. The gravitational constant G sub 4 proportional to 1/ sigma. Since sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) is enormously large, G sub 4 is enormously small. Gravity is weak not because of small extra dimensions or fine-tuned parameters, but because the membrane tension is enormous. It costs an extraordinary amount of energy to bend the Firmament. This is the Genesis Physics solution to the hierarchy problem.
 
 Vibration Modes: The Membrane Spectrum.
 
@@ -694,7 +694,7 @@ Geometry (§5.1–§5.2):
 - The Gauss-Codazzi-Ricci equations relate brane geometry to bulk geometry
 
 Physics (§5.3–§5.4):
-- The membrane tension sigma approximately equal to 6.0 times 10 to the 98 kg/s² and mass density mu approximately equal to 6.7 times 10 to the 81 kg/m³
+- The membrane tension sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) and mass density mu approximately equal to 6.7 times 10 to the 81 kg/m³
 - The speed of light is derived: c to the 2 = sigma / mu (Eq. (1.5.37))
 - Lorentz invariance is a consequence of membrane uniformity, not a postulate
 - Junction conditions relate the metric jump across the Firmament to sigma
@@ -724,7 +724,7 @@ Problem 5.2. For the warp factor the expression, compute both extrinsic curvatur
 
 Problem 5.3. Starting from the Nambu-Goto action (Eq. (1.5.26)), derive the membrane stress-energy tensor S sub mu nu = - sigma gamma sub mu nu by explicit variation with respect to gamma to the mu nu.
 
-Problem 5.4. Verify the numerical agreement of c to the 2 = sigma / mu using sigma = 6.0 times 10 to the 98 kg/s² and mu = 6.7 times 10 to the 81 kg/m³. Compute sigma / mu to 3 significant figures, take the square root, and express the percentage deviation from the CODATA value c = 299 792 458 m/s. (A deviation below 1% is consistent with rounding in the reported values of sigma and mu.)
+Problem 5.4. Verify the numerical agreement of c to the 2 = sigma / mu using sigma = 6.0 times 10 to the 98 kg/(m·s²) and mu = 6.7 times 10 to the 81 kg/m³. Compute sigma / mu to 3 significant figures, take the square root, and express the percentage deviation from the CODATA value c = 299 792 458 m/s. (A deviation below 1% is consistent with rounding in the reported values of sigma and mu.)
 
 Problem 5.5. Solve the wave equation (1.5.35) for a sinusoidal perturbation Phi ( r,t) = Phi sub 0 (kx - omega t). Find the relation omega (k) and verify it matches the dispersion relation (1.5.54) with omega sub 0 = 0.
 
@@ -732,7 +732,7 @@ Problem 5.6. Compute the junction condition (Eq. (1.5.46)) for a Z sub 2-symmetr
 
 Problem 5.7. For a confined mode with quantum numbers the expression and xi sub A = 3 times 10 to the 26 m, compute the rest mass m sub 0 from Eq. (1.5.58) (ignoring E sub bind). Compare to known particle masses. Comment on the result.
 
-Problem 5.8. Using Eq. (1.5.47), compute G sub 4 from sigma = 6.0 times 10 to the 98 kg/s² and ell sub eff = 8.96 times 10 to the -29 m. Compare to the measured value G = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻².
+Problem 5.8. Using Eq. (1.5.47), compute G sub 4 from sigma = 6.0 times 10 to the 98 kg/(m·s²) and ell sub eff = 8.96 times 10 to the -29 m. Compare to the measured value G = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻².
 
 Problem 5.9. Compute the Gauss equation (Eq. (1.5.22)) for the case K to the (i) sub mu nu = k sub i gamma sub mu nu (umbilic embedding) and show that the intrinsic Riemann tensor is related to the projected bulk Riemann tensor plus terms proportional to the expression.
 

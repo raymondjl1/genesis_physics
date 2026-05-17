@@ -1,4 +1,4 @@
-"""
+﻿"""
 Genesis Physics: Cosmological Quantification Test Suite
 ========================================================
 
@@ -58,7 +58,7 @@ K_B = 1.380649e-23                      # Boltzmann constant [J/K]
 H_PLANCK = 6.62607015e-34               # Full Planck constant [J·s]
 
 # Membrane parameters (Genesis Physics)
-SIGMA = 6.0e99                          # Membrane tension [kg/s²]
+SIGMA = 6.0e98                          # Membrane tension [kg/(m·s²)]
 MU = 6.7e81                             # Membrane volume mass density [kg/m³]
 C_SQUARED = SIGMA / MU                  # ≈ 9.0×10¹⁶ m²/s²
 

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Genesis Physics: Optics and Waves Test Suite
 ==============================================
 
@@ -21,7 +21,7 @@ All calculations derive from:
 - QM wave function = membrane displacement amplitude
 - Matter waves: de Broglie λ = h/p
 - Firmament parameters:
-  - Membrane tension σ = 6.0×10⁹⁸ kg/s²
+  - Membrane tension σ = 6.0×10⁹⁸ kg/(m·s²)
   - Volume mass density μ = 6.7×10⁸¹ kg/m³
   - c² = σ/μ → c = 3.00×10⁸ m/s
   - Fine structure constant: α ≈ 1/137
@@ -40,7 +40,7 @@ from typing import Tuple, List
 # ============================================================================
 
 # Fundamental membrane parameters (from Genesis Physics framework)
-SIGMA = 6.0e99      # Membrane tension [kg/s²]
+SIGMA = 6.0e98      # Membrane tension [kg/(m·s²)]
 MU = 6.7e81         # Volume mass density [kg/m³]
 C = 3.0e8           # Speed of light [m/s]
 C_SQUARED = C**2    # [m²/s²]

@@ -3,6 +3,10 @@
 
 ---
 
+> **Scope and Epistemic Status of This Appendix:** The Hebrew grammatical analysis presented here informs the *physical interpretation* and motivates the conceptual vocabulary of the zone architecture. It does not constitute physical proof, mathematical theorem, or derivation. Correspondences between Hebrew terms and zone labels are hermeneutical and organizational tools — they guided the initial framework design and provide naming conventions. Physical claims about expansion rates, κ-transitions, zone boundaries, and field equations must be derived from the zone field equations (Chapters 3–8), not from grammatical analysis. Where this appendix makes a structural claim (e.g., "the Raqia separates the Waters"), the corresponding physics is established independently in the main text; the Hebrew analysis is supporting context, not evidence.
+
+---
+
 ## C.0 Introduction
 
 This appendix answers a straightforward question: **Where does the zone architecture come from?**

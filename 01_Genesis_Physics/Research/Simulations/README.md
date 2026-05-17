@@ -1,4 +1,4 @@
-# Genesis Physics Numerical Simulations
+﻿# Genesis Physics Numerical Simulations
 
 **Location:** `/sessions/trusting-quirky-cannon/mnt/ExodusProtocol/01_Genesis_Physics/Research/Simulations/`
 
@@ -83,7 +83,7 @@ Membrane vibration mode spectrum calculator.
 - `spectrum_comparison.png` — Analytical vs numerical
 
 **Physical Constants:**
-- σ = 6.0×10⁹⁸ kg/s² (membrane tension)
+- σ = 6.0×10⁹⁸ kg/(m·s²) (membrane tension)
 - μ = 6.7×10⁸¹ kg/m³ (surface density)
 - Wave speed: v = √(σ/μ) ≈ 0.32c
 
@@ -147,7 +147,7 @@ Complete technical report with:
 
 | Parameter | Value | Unit | Description |
 |-----------|-------|------|-------------|
-| σ | 6.0×10⁹⁸ | kg/s² | Membrane tension |
+| σ | 6.0×10⁹⁸ | kg/(m·s²) | Membrane tension |
 | μ | 6.7×10⁸¹ | kg/m³ | Membrane surface density |
 | ξ_A | 3.0×10²⁶ | m | Waters Above coherence length |
 | η_B | 1.3×10⁻¹⁵ | m | Waters Below coherence length |

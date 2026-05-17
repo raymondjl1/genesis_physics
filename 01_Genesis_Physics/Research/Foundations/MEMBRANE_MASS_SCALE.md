@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6-7 "Let there be a firmament... a solid expanse" | Genesis 1:6-7 |
@@ -234,7 +234,7 @@ This is **many orders of magnitude below** the stated σ ≈ 10⁹⁸. The discr
 
 **Step 3: Solve for ℓ_eff using the target value**
 
-If σ ≈ 6.0 × 10⁹⁸ kg/s² is the correct value, then:
+If σ ≈ 6.0 × 10⁹⁸ kg/(m·s²) is the correct value, then:
 
 $$6.0 \times 10^{98} = \frac{8.05 \times 10^{34}}{8\pi \times 6.674 \times 10^{-11} \times \ell_{\text{eff}}^2}$$
 
@@ -374,7 +374,7 @@ M_membrane characterizes the **energy density of the membrane substrate**. It is
 
 Physically:
 - **μ = 6.7 × 10⁸¹ kg/m³** is the mass density of the membrane material
-- **σ = 6.0 × 10⁹⁸ kg/s²** is the tension (energy density), related to the "stiffness" of the membrane
+- **σ = 6.0 × 10⁹⁸ kg/(m·s²)** is the tension (energy density), related to the "stiffness" of the membrane
 - **c² = σ/μ** is the wave speed, universal for all excitations (light, gravity) on this medium
 
 ### 4.2 Hierarchy Problem Solution
@@ -411,7 +411,7 @@ $$\frac{G_N m^2}{\hbar c} \sim (10^{-16})^2 \sim 10^{-32}$$
 
 The extreme weakness of gravity for ordinary matter is because the coupling is suppressed by (m/M_P)² ≈ 10⁻³².
 
-This is **not mysterious** in Genesis Physics: gravity couples to the membrane tension σ, which is about 10⁹⁸ kg/s² — an enormous stiffness. The deflection angle of a light ray passing a star is:
+This is **not mysterious** in Genesis Physics: gravity couples to the membrane tension σ, which is about 10⁹⁸ kg/(m·s²) — an enormous stiffness. The deflection angle of a light ray passing a star is:
 
 $$\theta \sim \frac{G m}{R c^2} = \frac{1}{8\pi \sigma \ell_{\text{eff}}^2 R} \sim 10^{-6} \text{ rad}$$
 
@@ -430,7 +430,7 @@ This is small because the membrane resists bending so strongly.
 | Planck length | ℓ_P | √(ℏG₄/c³) | 1.616 × 10⁻³⁵ | m | Direct ✓ |
 | Planck mass | M_P | √(ℏc/G₄) | 2.176 × 10⁻⁸ | kg | Direct ✓ |
 | Effective length (derived) | ℓ_eff | From σ and G₄ | 2.8 × 10⁻²⁹ | m | From σ target ✓ |
-| **Brane tension** | **σ** | **G = c⁴/(8πσℓ_eff²)** | **6.0 × 10⁹⁸** | **kg/s²** | **Primary result** |
+| **Brane tension** | **σ** | **G = c⁴/(8πσℓ_eff²)** | **6.0 × 10⁹⁸** | **kg/(m·s²)** | **Primary result** |
 | **Membrane density** | **μ** | **μ = σ/c²** | **6.7 × 10⁸¹** | **kg/m³** | **Derived from σ** |
 | Wave speed check | c² | σ/μ | 8.988 × 10¹⁶ | m²/s² | (2.998 × 10⁸)² ✓ |
 | Membrane mass density | M_membrane | μ × ℓ_P² | 1.74 × 10¹² | kg | Order magnitude Planck mass |
@@ -517,7 +517,7 @@ The following questions require solution of the full 6D Einstein equations:
 
 1. **Derivation of ℓ_eff from first principles**: Is ℓ_eff truly set by the domain wall thickness, or does it come from a deeper geometric property of the zone architecture?
 
-2. **Why σ ≈ 10⁹⁸ kg/s² specifically?**: This enormous value seems fine-tuned. Does it emerge from natural scales in the theory, or does it require anthropic explanation (Axiom 1: sustaining)?
+2. **Why σ ≈ 10⁹⁸ kg/(m·s²) specifically?**: This enormous value seems fine-tuned. Does it emerge from natural scales in the theory, or does it require anthropic explanation (Axiom 1: sustaining)?
 
 3. **The domain wall profile**: Solve Φ(ξ,η) explicitly to determine the transverse structure of the Firmament.
 

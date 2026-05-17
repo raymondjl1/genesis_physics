@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Human experience of physical laws) | Genesis 1:27 |
@@ -126,12 +126,12 @@ By dimensional analysis and membrane mechanics (AXIOM_MEMBRANE_MECHANICS_v2.md):
 $$\boxed{G = \frac{c^4}{8\pi \sigma L_{\text{eff}}}}$$
 
 where:
-- $\sigma = 6.0 \times 10^{99}$ kg/s² is membrane tension
+- $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) is membrane tension
 - $c = 3.0 \times 10^8$ m/s is speed of light
 - $L_{\text{eff}} = 8.03 \times 10^{-58}$ m is the effective coupling length
 
 This yields:
-$$G = \frac{(3.0 \times 10^8)^4}{8\pi \times 6.0 \times 10^{99} \times 8.03 \times 10^{-58}} = 6.674 \times 10^{-11} \text{ m³/(kg·s²)} \quad \checkmark$$
+$$G = \frac{(3.0 \times 10^8)^4}{8\pi \times 6.0 \times 10^{98} \times 8.03 \times 10^{-58}} = 6.674 \times 10^{-11} \text{ m³/(kg·s²)} \quad \checkmark$$
 
 ---
 
@@ -510,7 +510,7 @@ $$G = \frac{c^4}{8\pi \sigma L_{\text{eff}}}$$
 $$[G] = \frac{[LT^{-1}]^4}{[MT^{-2}] [L]} = \frac{L^4 T^{-4}}{ML T^{-2}} = \frac{L^3}{M T^2} \quad \checkmark$$
 
 **Numerical value:**
-$$G = \frac{(3.0 \times 10^8)^4}{8\pi \times 6.0 \times 10^{99} \times 8.03 \times 10^{-58}} = 6.674 \times 10^{-11} \text{ m³/(kg·s²)}$$
+$$G = \frac{(3.0 \times 10^8)^4}{8\pi \times 6.0 \times 10^{98} \times 8.03 \times 10^{-58}} = 6.674 \times 10^{-11} \text{ m³/(kg·s²)}$$
 
 ### 5.2 Gravitational Potential
 

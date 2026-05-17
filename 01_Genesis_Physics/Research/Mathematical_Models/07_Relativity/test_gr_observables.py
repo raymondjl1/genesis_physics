@@ -1,4 +1,4 @@
-"""
+﻿"""
 Genesis Physics: General Relativity Observables Test Suite
 ===========================================================
 
@@ -21,7 +21,7 @@ All calculations derive from:
 - Genesis Physics framework: gravity = η-direction curvature
 - Schwarzschild metric: ds² = -(1-r_s/r)c²dt² + dr²/(1-r_s/r) + r²dΩ²
 - Kerr metric for frame dragging
-- c² = σ/μ where σ = 6.0×10⁹⁸ kg/s², μ = 6.7×10⁸² kg/m²
+- c² = σ/μ where σ = 6.0×10⁹⁸ kg/(m·s²), μ = 6.7×10⁸² kg/m²
 - G = 6.674×10⁻¹¹ m³/(kg·s²)
 
 Test criteria: <5% error on all tests
@@ -37,7 +37,7 @@ from typing import Tuple
 # GENESIS PHYSICS CONSTANTS
 # ============================================================================
 
-SIGMA = 6.0e99  # Membrane tension [kg/s²]
+SIGMA = 6.0e98  # Membrane tension [kg/(m·s²)]
 MU = 6.7e81     # Volume mass density [kg/m³]
 C_SQUARED = 9.0e16  # Speed of light squared [m²/s²]
 C = 3.0e8  # c = 3.00×10⁸ m/s (exact measured value)

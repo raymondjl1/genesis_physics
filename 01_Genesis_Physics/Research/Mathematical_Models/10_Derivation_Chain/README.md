@@ -1,4 +1,4 @@
-# Genesis Physics Derivation Chains Test Suite
+﻿# Genesis Physics Derivation Chains Test Suite
 
 ## Overview
 
@@ -51,7 +51,7 @@ The custom test runner (`run_all_tests()`) collects all results and reports:
 
 ```
 c_derived = √(σ/μ)
-σ = 6.0e98 kg/s² (membrane tension)
+σ = 6.0e98 kg/(m·s²) (membrane tension)
 μ = 6.7e81 kg/m³ (volume mass density)
 ```
 

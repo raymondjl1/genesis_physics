@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning God created the heavens and the earth" — Precision of EM phenomena reflects divine craftsmanship | Genesis 1:1 |
@@ -40,7 +40,7 @@ This document completes five critical electromagnetic derivations from the Genes
 ### 1.1 Membrane Oscillations and EM Modes
 
 From AXIOM_MEMBRANE_MECHANICS_v2.md, the Firmament is an elastic membrane with:
-- Surface tension: σ ≈ 6.0 × 10⁹⁸ kg/s²
+- Surface tension: σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 - Mass density: μ ≈ 5.0 × 10¹⁹ kg/m (per unit area)
 - Speed of light (membrane wave speed): c = √(σ/μ) ≈ 3 × 10⁸ m/s
 

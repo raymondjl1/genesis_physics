@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -380,7 +380,7 @@ $$[\text{force}] = c^4 / G$$
 
 | Parameter | Symbol | Natural Units | SI Units |
 |-----------|--------|---|---|
-| Membrane tension | σ | $M_{\text{Pl}}^3$ | kg/s² |
+| Membrane tension | σ | $M_{\text{Pl}}^3$ | kg/(m·s²) |
 | Mass density | μ | $M_{\text{Pl}}^4 / c^3$ | kg/m³ |
 | Wave velocity | c = √(σ/μ) | 1 | m/s |
 | Brane thickness | η_B | $M_{\text{Pl}}^{-1}$ | m |

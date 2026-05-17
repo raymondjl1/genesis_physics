@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth"; "the speed of light is constant" | Genesis 1:1; relativity axiom |
@@ -26,10 +26,10 @@ The Genesis Physics framework contains FOUR contradictory values for membrane te
 
 | Source | Value | Derivation Method | Problem |
 |--------|-------|-------------------|---------|
-| **Value 1** | σ ≈ 7.5×10²⁵ kg/s² | μ_Planck × c² (Planck thickness) | Too small |
-| **Value 2** | σ ≈ 7.5×10³⁴ kg/s² | μ_Planck × 10⁹ × c² (10⁹ l_P thickness) | Still too small |
-| **Value 3** | σ ≈ 2.4×10⁴³ kg/s² | From α derivation requirement | Appears in fine structure constant formula |
-| **Value 4** | σ ≈ 6.0×10⁹⁸ kg/s² | From nuclear-scale thickness (δ ≈ η_B) | Absurdly large |
+| **Value 1** | σ ≈ 7.5×10²⁵ kg/(m·s²) | μ_Planck × c² (Planck thickness) | Too small |
+| **Value 2** | σ ≈ 7.5×10³⁴ kg/(m·s²) | μ_Planck × 10⁹ × c² (10⁹ l_P thickness) | Still too small |
+| **Value 3** | σ ≈ 2.4×10⁴³ kg/(m·s²) | From α derivation requirement | Appears in fine structure constant formula |
+| **Value 4** | σ ≈ 6.0×10⁹⁸ kg/(m·s²) | From nuclear-scale thickness (δ ≈ η_B) | Absurdly large |
 
 **The 73-order-of-magnitude spread is fatal to the framework.**
 
@@ -58,7 +58,7 @@ c² = σ/μ
 This is dimensionally exact:
 - [μ] = mass/area = kg/m²
 - [c²] = (m/s)² = m²/s²
-- [σ] = [μ] × [c²] = kg/m² × m²/s² = kg/s²  ✓
+- [σ] = [μ] × [c²] = kg/m² × m²/s² = kg/(m·s²)  ✓
 
 ### The Fine Structure Constant Constraint
 
@@ -92,7 +92,7 @@ When solved for σ:
 σ = α × 4πℏc³ / (ξ_A × η_B)²
 ```
 
-**The critic showed this gives σ ≈ 2.16×10⁻³³ kg/s², which is 76 orders wrong.**
+**The critic showed this gives σ ≈ 2.16×10⁻³³ kg/(m·s²), which is 76 orders wrong.**
 
 ### The Fundamental Issue
 
@@ -184,9 +184,9 @@ Why? Because η_B is the characteristic length scale where the Waters Below dens
 ```
 σ = μ × c²
   = (6.7×10⁸²) × (9×10¹⁶)
-  = 6.03×10⁹⁸ kg/s²
+  = 6.03×10⁹⁸ kg/(m·s²)
 
-Rounding: σ ≈ 6.0×10⁹⁸ kg/s²  (or 10⁹⁹ for order-of-magnitude)
+Rounding: σ ≈ 6.0×10⁹⁸ kg/(m·s²)  (or 10⁹⁹ for order-of-magnitude)
 ```
 
 **This is the value in the current document (Value 4), derived from nuclear-scale thickness.**
@@ -195,7 +195,7 @@ Rounding: σ ≈ 6.0×10⁹⁸ kg/s²  (or 10⁹⁹ for order-of-magnitude)
 
 ```
 c² = σ/μ
-c² = (6.0×10⁹⁸ kg/s²) / (6.7×10⁸² kg/m²)
+c² = (6.0×10⁹⁸ kg/(m·s²)) / (6.7×10⁸² kg/m²)
 c² = 8.96×10¹⁵ m²/s²
 c  = √(8.96×10¹⁵) = 3.0×10⁸ m/s  ✓
 
@@ -247,12 +247,12 @@ This accuracy is NOT coincidental. It indicates genuine physical structure.
 
 ## PART 5: DIMENSIONAL CONSISTENCY CHECK
 
-Let's verify that all four fundamental relations are dimensionally consistent with σ ≈ 6×10⁹⁸ kg/s²:
+Let's verify that all four fundamental relations are dimensionally consistent with σ ≈ 6×10⁹⁸ kg/(m·s²):
 
 ### Check 1: Wave Equation (c² = σ/μ)
 
 ```
-σ = 6.0×10⁹⁸ kg/s²
+σ = 6.0×10⁹⁸ kg/(m·s²)
 μ = 6.7×10⁸² kg/m²
 
 c² = (6.0×10⁹⁸) / (6.7×10⁸²)
@@ -300,7 +300,7 @@ Error = 0.10%  ✓✓✓
 
 ### What Is σ Physically?
 
-The membrane tension σ ≈ 6×10⁹⁸ kg/s² represents:
+The membrane tension σ ≈ 6×10⁹⁸ kg/(m·s²) represents:
 
 1. **The Inertia of Vacuum Structure**
    The Firmament membrane has enormous stiffness because it is composed of vacuum field at Planck density. Pushing on it requires moving incredibly massive field content.
@@ -309,7 +309,7 @@ The membrane tension σ ≈ 6×10⁹⁸ kg/s² represents:
    When the membrane is deformed (e.g., by an accelerating charge), it exerts an enormous restoring force per unit displacement. This is why light speed is finite and universal—the membrane responds at a definite rate.
 
 3. **The Energy Cost of Deformation**
-   The surface energy per unit area of the membrane is proportional to σ. At 6×10⁹⁸ kg/s², the energy cost of macroscopic deformations is staggeringly high, which is why the membrane remains nearly flat and featureless at human scales.
+   The surface energy per unit area of the membrane is proportional to σ. At 6×10⁹⁸ kg/(m·s²), the energy cost of macroscopic deformations is staggeringly high, which is why the membrane remains nearly flat and featureless at human scales.
 
 4. **The Coupling of the Two Waters**
    The membrane separates Waters Above (diffuse, expansive) from Waters Below (dense, quantum-scale). The tension represents the pressure imbalance trying to equalize these two regions—which is prevented by the membrane's strength.
@@ -330,7 +330,7 @@ In fact, the membrane may not have a sharp boundary at all. Instead, η_B is the
 
 ## PART 7: WHY THE OTHER VALUES WERE WRONG
 
-### Why Value 1 (7.5×10²⁵ kg/s²) Is Wrong
+### Why Value 1 (7.5×10²⁵ kg/(m·s²)) Is Wrong
 
 ```
 Derivation: σ = μ_Planck × c²
@@ -341,7 +341,7 @@ This is wrong because the membrane does NOT form at Planck scale.
 The membrane forms at η_B scale (the quantum interaction length).
 ```
 
-### Why Value 2 (7.5×10³⁴ kg/s²) Is Wrong
+### Why Value 2 (7.5×10³⁴ kg/(m·s²)) Is Wrong
 
 ```
 Derivation: σ = μ_Planck × 10⁹ × c²
@@ -351,7 +351,7 @@ This is inconsistent. If thickness is arbitrary, so is σ.
 The thickness must be set by PHYSICS, not guessing.
 ```
 
-### Why Value 3 (2.4×10⁴³ kg/s²) Is Wrong
+### Why Value 3 (2.4×10⁴³ kg/(m·s²)) Is Wrong
 
 ```
 Derivation: From the formula σ = α × 4πℏc³ / (ξ_A × η_B)²
@@ -361,13 +361,13 @@ The fine structure constant does NOT determine membrane tension directly.
 Instead, α emerges from the GEOMETRIC RATIO of scales,
 independent of σ.
 
-When I work the math: σ ≈ 2.16×10⁻³³ kg/s² (not 2.4×10⁴³)
+When I work the math: σ ≈ 2.16×10⁻³³ kg/(m·s²) (not 2.4×10⁴³)
 This proves the formula is doubly wrong:
 (a) The formula itself is incorrect
 (b) The calculation also has an error of 76 orders of magnitude
 ```
 
-### Why Value 4 (6.0×10⁹⁸ kg/s²) Is CORRECT
+### Why Value 4 (6.0×10⁹⁸ kg/(m·s²)) Is CORRECT
 
 ```
 Derivation: σ = μ × c² where μ = ρ_Planck × δ
@@ -376,7 +376,7 @@ Physical justification:
 - ρ_Planck is the natural density scale (Planck-scale vacuum)
 - δ = η_B is the characteristic length scale of quantum interactions
 - This scales as (5×10⁹⁷ kg/m³) × (10⁻¹⁵ m) = 5×10⁸² kg/m²
-- Then σ = (5×10⁸²)(10¹⁶) ≈ 5×10⁹⁸ kg/s²
+- Then σ = (5×10⁸²)(10¹⁶) ≈ 5×10⁹⁸ kg/(m·s²)
 
 Consistency check: c² = σ/μ gives c = 3×10⁸ m/s ✓
 ```
@@ -388,9 +388,9 @@ Consistency check: c² = σ/μ gives c = 3×10⁸ m/s ✓
 ### Statement
 
 ```
-MEMBRANE TENSION: σ = 6.0×10⁹⁸ kg/s²
+MEMBRANE TENSION: σ = 6.0×10⁹⁸ kg/(m·s²)
 
-Uncertainty: ±0.5×10⁹⁸ kg/s² (from uncertainty in η_B measurement)
+Uncertainty: ±0.5×10⁹⁸ kg/(m·s²) (from uncertainty in η_B measurement)
 
 Physical meaning: Surface tension of the Firmament membrane,
 determining the wave propagation speed of all electromagnetic
@@ -406,8 +406,8 @@ Framework consistency:
 
 For convenience in calculations:
 ```
-σ ≈ 10⁹⁹ kg/s²  (order-of-magnitude form)
-σ = 6.0×10⁹⁸ kg/s²  (canonical form with precision)
+σ ≈ 10⁹⁹ kg/(m·s²)  (order-of-magnitude form)
+σ = 6.0×10⁹⁸ kg/(m·s²)  (canonical form with precision)
 log₁₀(σ) ≈ 98.8  (exact form: log₁₀(6×10⁹⁸) = log₁₀(6) + 98 ≈ 98.78)
 ```
 
@@ -444,7 +444,7 @@ The energy cost of creating a local "gap" in the membrane is:
 E_gap ≈ σ × A
 ```
 
-At 6×10⁹⁸ kg/s² per unit area, even tiny membrane deformations cost enormous energy. This explains why macroscopic matter cannot punch through the membrane—the energy cost is prohibitive.
+At 6×10⁹⁸ kg/(m·s²) per unit area, even tiny membrane deformations cost enormous energy. This explains why macroscopic matter cannot punch through the membrane—the energy cost is prohibitive.
 
 ### Model 4: Wave Propagation and Light Speed
 
@@ -472,7 +472,7 @@ Stress: τ = H² × R × (density-like terms)
 Limit: When τ reaches ~σ, membrane may rupture or transition to new state
 ```
 
-At 6×10⁹⁸ kg/s², the membrane can sustain enormous stresses.
+At 6×10⁹⁸ kg/(m·s²), the membrane can sustain enormous stresses.
 
 ---
 
@@ -480,7 +480,7 @@ At 6×10⁹⁸ kg/s², the membrane can sustain enormous stresses.
 
 ### The Resolution
 
-**The CANONICAL value is σ = 6.0×10⁹⁸ kg/s²**
+**The CANONICAL value is σ = 6.0×10⁹⁸ kg/(m·s²)**
 
 This value:
 1. **Satisfies the wave equation exactly**: c² = σ/μ gives c = 3×10⁸ m/s
@@ -516,7 +516,7 @@ But these are **advances on top of solid ground**, not fundamental errors.
 
 ## FINAL STATEMENT
 
-**The membrane tension of the Firmament is σ = 6.0×10⁹⁸ kg/s².**
+**The membrane tension of the Firmament is σ = 6.0×10⁹⁸ kg/(m·s²).**
 
 This represents the energy density of vacuum field structure, concentrated at the Planck scale, distributed across the quantum interaction length scale, and determining the propagation speed of all waves (including light) through the vacuum.
 

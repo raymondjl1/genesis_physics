@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -103,7 +103,7 @@ The Firmament (Zone 2.2) is an elastic 4D brane embedded in 6D spacetime with:
 
 | Parameter | Meaning | Value |
 |-----------|---------|-------|
-| σ | Brane tension (energy per unit area) | 6.0 × 10⁹⁸ kg/s² |
+| σ | Brane tension (energy per unit area) | 6.0 × 10⁹⁸ kg/(m·s²) |
 | μ | Volume mass density | 6.7 × 10⁸¹ kg/m³ |
 | c = √(σ/μ) | Wave speed on brane | 2.998 × 10⁸ m/s |
 | V_4D | 4D volume (spatial extent of Firmament) | ~(ξ_A)³ ~ 10⁷⁸ m³ |
@@ -634,7 +634,7 @@ $$= \frac{\sigma^2 \eta_B^6}{c^2 \eta_B^2 \mu k_B} = \frac{\sigma^2 \eta_B^4}{(\
 
 $$= \frac{\sigma^2 \eta_B^4}{\sigma k_B} = \frac{\sigma \eta_B^4}{k_B}$$
 
-With σ = 6.0 × 10⁹⁸ kg/s² and η_B = 1.3 × 10⁻¹⁵ m:
+With σ = 6.0 × 10⁹⁸ kg/(m·s²) and η_B = 1.3 × 10⁻¹⁵ m:
 
 $$T_{\text{transition}} \sim \frac{6.0 \times 10^{98} \times (1.3 \times 10^{-15})^4}{1.381 \times 10^{-23}}$$
 

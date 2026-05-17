@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """
 =============================================================================
 GENESIS PHYSICS DERIVATION CHAINS TEST SUITE
@@ -898,14 +898,14 @@ class DimensionalConsistencyAudit:
 
     1. c² = σ/μ
        [c²] = (m/s)² = m²/s²
-       [σ] = kg/s² (force per length)
+       [σ] = kg/(m·s²) (force per length)
        [μ] = kg/m³ (volume mass density)
-       [σ/μ] = (kg/s²) / (kg/m³) = m²/s² ✓
+       [σ/μ] = (kg/(m·s²)) / (kg/m³) = m²/s² ✓
 
     2. G = c⁴/(8πσℓ²)
        [G] = m³/(kg·s²)
        [c⁴] = m⁴/s⁴
-       [σℓ²] = (kg/s²) × m² = kg·m²/s²
+       [σℓ²] = (kg/(m·s²)) × m² = kg·m²/s²
        [c⁴/(σℓ²)] = (m⁴/s⁴) / (kg·m²/s²) = m²/(kg·s²) ✗ WRONG!
        ** This formula has a dimensional error **
 

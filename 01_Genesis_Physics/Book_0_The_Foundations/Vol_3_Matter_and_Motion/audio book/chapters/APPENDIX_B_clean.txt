@@ -1,4 +1,4 @@
-Every number cited, predicted, or compared against in Vol 3, together with its source. Where the zone framework makes a prediction, the experimental value and the percent agreement are shown side-by-side.
+﻿Every number cited, predicted, or compared against in Vol 3, together with its source. Where the zone framework makes a prediction, the experimental value and the percent agreement are shown side-by-side.
 
 B.1 Fundamental Constants.
 
@@ -19,7 +19,7 @@ Quantity: Vacuum permittivity. Symbol: epsilon sub 0. Value: 8.854 187 8128(13) 
 Quantity: Vacuum permeability. Symbol: mu sub 0. Value: 1.256 637 062 12(19) times 10 to the -6. Units: N/A². Source: CODATA 2022.
 Quantity: Atomic mass unit. Symbol: u. Value: 1.660 539 068 92(52) times 10 to the -27. Units: kg. Source: CODATA 2022.
 
-Zone cross-check. Vol 2 Ch 2 Eq. (2.2.29) gives G sub 4 = c to the 4/(8 pi sigma L sub eff to the 2). With sigma approximately equal to 6 times 10 to the 98 kg/s² and L sub eff fixed by (2.9.11), the zone-derived value is G sub 4 = 6.674 times 10 to the -11 m³/(kg·s²) — agreement with the CODATA measurement at the fourth decimal, within the experimental uncertainty.
+Zone cross-check. Vol 2 Ch 2 Eq. (2.2.29) gives G sub 4 = c to the 4/(8 pi sigma L sub eff to the 2). With sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) and L sub eff fixed by (2.9.11), the zone-derived value is G sub 4 = 6.674 times 10 to the -11 m³/(kg·s²) — agreement with the CODATA measurement at the fourth decimal, within the experimental uncertainty.
 
 B.2 Material Properties (Ch 4–5).
 

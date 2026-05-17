@@ -1,4 +1,4 @@
-Deriving ℏ, G, and k_B from Zone Architecture
+﻿Deriving ℏ, G, and k_B from Zone Architecture
 
 "The most incomprehensible thing about the universe is that it is comprehensible."
 — Albert Einstein
@@ -52,7 +52,7 @@ What We Will Do Instead.
 
 In the following sections, we derive ℏ, G, and k_B from the parameters of the zone architecture:
 
-Parameter: Brane tension. Symbol: σ. Value: 6.0 × 10⁹⁸ kg/s². Established In: Vol 1, Ch 5.
+Parameter: Brane tension. Symbol: σ. Value: 6.0 × 10⁹⁸ kg/(m·s²). Established In: Vol 1, Ch 5.
 Parameter: Volume mass density. Symbol: μ. Value: 6.7 × 10⁸¹ kg/m³. Established In: Vol 1, Ch 5.
 Parameter: Waters Above extent. Symbol: ξ_A. Value: 1.4 × 10²⁶ m. Established In: Vol 1, Ch 6.
 Parameter: Nuclear confinement scale. Symbol: η_B. Value: 1.3 × 10⁻¹⁵ m. Established In: Vol 1, Ch 6.
@@ -247,7 +247,7 @@ Gravity is the curvature of spacetime in the presence of mass-energy. In the Gen
 
 Why is G so small? Two reasons, working together:
 
-First, the Firmament is extraordinarily stiff. Its tension σ ≈ 6 × 10⁹⁸ kg/s² is an almost incomprehensibly large number. Bending a membrane with this tension requires enormous force. This is why everyday masses (a person, a car, a building) produce negligible gravitational fields — they simply cannot bend the Firmament appreciably.
+First, the Firmament is extraordinarily stiff. Its tension σ ≈ 6 × 10⁹⁸ kg/(m·s²) is an almost incomprehensibly large number. Bending a membrane with this tension requires enormous force. This is why everyday masses (a person, a car, a building) produce negligible gravitational fields — they simply cannot bend the Firmament appreciably.
 
 Second, gravity in the Genesis Physics framework is fundamentally a 6D phenomenon. The gravitational field lines emanating from a mass don't just spread out in the three spatial dimensions we observe — they also leak into the two extra dimensions (ξ and η). This dilution over extra-dimensional volume further weakens the effective 4D gravitational coupling.
 
@@ -603,7 +603,7 @@ Standard physics answers: we don't know. Measure them and move on.
 
 The anthropic principle answers: because otherwise we wouldn't be here to ask. A tautology.
 
-The zone architecture answers: because the Firmament is an elastic membrane with tension σ ≈ 6 × 10⁹⁸ kg/s² embedded in a 6D spacetime with extra dimensions spanning scales from 10⁻¹⁵ m to 10²⁶ m. The topology of this membrane quantizes action (giving ℏ). The extra-dimensional volume dilutes gravity (giving G). The oscillation modes couple energy to temperature (giving k_B). The architecture determines the constants. The constants determine the physics. The physics determines the chemistry, the stars, the planets, the conditions for life.
+The zone architecture answers: because the Firmament is an elastic membrane with tension σ ≈ 6 × 10⁹⁸ kg/(m·s²) embedded in a 6D spacetime with extra dimensions spanning scales from 10⁻¹⁵ m to 10²⁶ m. The topology of this membrane quantizes action (giving ℏ). The extra-dimensional volume dilutes gravity (giving G). The oscillation modes couple energy to temperature (giving k_B). The architecture determines the constants. The constants determine the physics. The physics determines the chemistry, the stars, the planets, the conditions for life.
 
 A universe whose constants are derived is a universe with an architecture. An architecture implies a structure that exists for a reason — not by accident. Whether the reader chooses to ask who designed the architecture is a question this textbook leaves open. The physics, as always, stands on its own mathematics.
 

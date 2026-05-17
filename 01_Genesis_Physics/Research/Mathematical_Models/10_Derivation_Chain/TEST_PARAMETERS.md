@@ -1,4 +1,4 @@
-# Genesis Physics Derivation Chains — Test Parameters
+﻿# Genesis Physics Derivation Chains — Test Parameters
 
 This document lists all physical constants, measurement references, and tolerance values used in the derivation chain test suite.
 
@@ -52,7 +52,7 @@ This document lists all physical constants, measurement references, and toleranc
 
 | Parameter | Symbol | Value | Unit | Meaning |
 |-----------|--------|-------|------|---------|
-| Membrane tension | σ | 6.0e98 | kg/s² | Restoring force per length |
+| Membrane tension | σ | 6.0e98 | kg/(m·s²) | Restoring force per length |
 | Volume mass density | μ | 6.7e81 | kg/m³ | Mass per unit 3-volume |
 | Effective coupling length | ℓ_eff | 8.96e-29 | m | Scale of membrane-Waters coupling |
 

@@ -188,6 +188,32 @@ $$H(t) = \frac{\dot{a}(t)}{a(t)} = \frac{d \ln a}{dt}$$
 **Hubble constant (present value):**
 $$H_0 = 67.4 \text{ km/s/Mpc}$$
 
+### B.3.4 Scalar Field Kinetic Term Sign Convention
+
+**This is the authoritative statement for the entire series.**
+
+With metric signature $(-,+,+,+,+,+)$, the kinetic term for any real scalar field $\Psi$ in the action is:
+
+$$\mathcal{L}_{\text{kin}} = -\frac{1}{2} g^{AB} \partial_A \Psi \, \partial_B \Psi$$
+
+The **negative sign** is mandatory. With this signature, $g^{00} = -1/c^2$ (timelike), so the time-derivative contribution to the kinetic term is:
+
+$$-\frac{1}{2} g^{00} (\partial_t \Psi)^2 = +\frac{1}{2c^2}(\dot{\Psi})^2 > 0$$
+
+which gives positive kinetic energy as required. A **positive** sign in front of $g^{AB}\partial_A\Psi\partial_B\Psi$ would give negative kinetic energy for time derivatives — this is an error. The Waters action (Ch 6, Eq. 1.6.4; Ch 7, Eq. 1.7.4) uses this convention throughout. Any equation in the series showing $+\frac{1}{2}g^{AB}\partial_A\Psi\partial_B\Psi$ without an explicit sign-flip note is erroneous.
+
+### B.3.5 Canonical Scale Parameter Values
+
+The Waters Above extent $\xi_A$ and Waters Below extent $\eta_B$ appear throughout the series. The canonical reference values used in all numerical estimates are:
+
+| Symbol | Canonical Value | Units | Basis |
+|--------|----------------|-------|-------|
+| $\xi_A$ | $3.0 \times 10^{26}$ | m | Hubble radius; characteristic scale of dark energy field $\Psi_A$ |
+| $\eta_B$ | $1.3 \times 10^{-15}$ | m | Nuclear scale; characteristic scale of dark matter field $\Psi_B$ |
+| $\xi_A / \eta_B$ | $\sim 2.3 \times 10^{41}$ | dimensionless | Scale hierarchy ratio; determines $\alpha^{-1} \approx 1.44 \ln(\xi_A/\eta_B)$ |
+
+**Note:** Some chapters use $\xi_A \approx 1.4 \times 10^{26}$ m (comoving Hubble radius) or $\xi_A \approx 4.4 \times 10^{26}$ m (observable universe diameter). The canonical value $3.0 \times 10^{26}$ m is the geometric mean estimate used for order-of-magnitude derivations. When a specific derivation requires a more precise value, it is stated locally.
+
 ---
 
 ## B.4 Zone Notation and Hierarchy
@@ -220,16 +246,16 @@ The universe is partitioned into a hierarchy of zones, each labeled with decimal
 
 ### B.4.3 Phase Notation
 
-The universe evolves through four thermodynamic phases, labeled with Roman numerals (always) or Arabic numerals (when explicitly contrasted with equation numbers):
+The universe evolves through four thermodynamic phases, labeled **always with Arabic numerals** throughout the Genesis Physics series:
 
-| Phase | Roman Numeral | Arabic Numeral | Era | κ Regime | Entropy | Examples |
-|-------|--------------|----------------|-----|----------|---------|----------|
-| Creation | **I** | 1 | Genesis Days 1–6 | $\kappa_{\text{create}}$ (supercritical) | Decreasing | Ordering, pattern formation |
-| Edenic | **II** | 2 | Post-Sabbath; hypothetical sustained state | $\kappa_{\text{full}}$ (equilibrium) | Zero production | Perfect repair; no aging |
-| Fall | **III** | 3 | Post-Fall to present | $\kappa_{\text{partial}}$ (subcritical) | Increasing | Decay, thermodynamic arrow |
-| Redemption | **IV** | 4 | Future restoration | $\kappa_{\text{redeem}}$ (recovery) | Decreasing | Entropy reversal; renewal |
+| Phase | Arabic Numeral | Era | κ Regime | Entropy | Examples |
+|-------|----------------|-----|----------|---------|----------|
+| Creation | **1** | Genesis Days 1–6 | $\kappa_{\text{create}}$ (supercritical) | Decreasing | Ordering, pattern formation |
+| Edenic | **2** | Post-Sabbath; hypothetical sustained state | $\kappa_{\text{full}}$ (equilibrium) | Zero production | Perfect repair; no aging |
+| Fall | **3** | Post-Fall to present | $\kappa_{\text{partial}}$ (subcritical) | Increasing | Decay, thermodynamic arrow |
+| Redemption | **4** | Future restoration | $\kappa_{\text{redeem}}$ (recovery) | Decreasing | Entropy reversal; renewal |
 
-**Notation rule:** When phase labels appear in equations alongside equation numbers, use Roman numerals to avoid confusion. For example, "Phase II of creation corresponds to equation (1.2.5)" is clear; "Phase 2 of creation corresponds to equation (1.2.5)" risks ambiguity.
+**Notation rule:** Phase labels are **always Arabic numerals** (1, 2, 3, 4). Roman numerals (I, II, III, IV) are **never** used for phases in this series. This rule is established in Chapter 1, §1.9 and governs all downstream volumes and books. Arabic numerals are unambiguous even when they appear alongside equation numbers: "Phase 2" and "equation (1.2.5)" are structurally distinct and cannot be confused in context.
 
 ---
 
@@ -271,10 +297,12 @@ The universe evolves through four thermodynamic phases, labeled with Roman numer
 
 | Symbol | Meaning | Function Form | First Defined |
 |--------|---------|----------------|---------------|
-| $a(t)$ | Cosmic scale factor (4D) | Positive, dimensionless; $a(t_0)=1$ | Ch 4 |
-| $A(\xi, \eta)$ | 4D warp factor | $A(\xi, \eta) = a(t) \cdot f(\xi, \eta)$; depends on extra dimensions | Ch 4 |
-| $B(\xi, \eta)$ | Extra-dimensional warp factor | $B(\xi, \eta)$ modifies geometry in $\xi, \eta$ directions | Ch 4 |
+| $a(t)$ | FRW scale factor (4D cosmological) | Positive, dimensionless function of cosmological time; $a(t_0)=1$ today. Appears in the 4D FRW metric $ds^2 = -dt^2 + a(t)^2(dx^2+dy^2+dz^2)$. **Distinct from the warp factor $A(\xi,\eta)$** — see note below. | Ch 4 |
+| $A(\xi, \eta)$ | Warp factor (extra-dimensional) | Dimensionless function of the extra-dimensional coordinates $\xi$ (Waters Above) and $\eta$ (Waters Below). Appears in the 6D metric as $ds^2 = A^2(\xi,\eta)\,\eta_{\mu\nu}\,dx^\mu dx^\nu + \ldots$ (Vol 1 Ch 4–5, Eq. (1.4.*)). Controls how the 6D bulk geometry couples to 4D physics at each extra-dimensional location. **Distinct from the cosmological scale factor $a(t)$** — see note below. | Ch 4 |
+| $B(\xi, \eta)$ | Extra-dimensional warp factor | Dimensionless function of $\xi, \eta$; modifies the geometry specifically in the $\xi, \eta$ directions of the 6D metric. | Ch 4 |
 | $h(t, \mathbf{x})$ | Metric perturbation on Firmament | Spatial-temporal small oscillation field; drives gravitational waves | Ch 8 |
+
+> **Clarifying note on $A(\xi,\eta)$ vs $a(t)$.** These two functions appear at different levels of the zone hierarchy and must not be conflated. The warp factor $A(\xi,\eta)$ is a property of the static (or slowly-varying) extra-dimensional geometry — it encodes how the 6D bulk warps between zones. The FRW scale factor $a(t)$ is a property of the 4D cosmological evolution of the observable universe — it encodes how spatial distances grow with cosmic time. Both appear in the full 6D framework: $A(\xi,\eta)$ enters through the bulk metric ansatz (Vol 1 Ch 4), while $a(t)$ enters through the effective 4D metric induced on the Firmament after integrating out the extra dimensions (Vol 5 Ch 1). An earlier draft of this section incorrectly stated $A(\xi,\eta) = a(t)\cdot f(\xi,\eta)$; that conflation is wrong and has been corrected here.
 
 ---
 
@@ -486,12 +514,12 @@ To locate equations by approximate topic, here are the equation counts per chapt
 | Ch 3 | The Zone Manifold | 35 | (1.3.1)–(1.3.35) |
 | Ch 4 | The 6D Embedding Space | 45 | (1.4.1)–(1.4.45) |
 | Ch 5 | The Firmament Manifold | 50 | (1.5.1)–(1.5.50) |
-| Ch 6 | Curvature and Dynamics | 45 | (1.6.1)–(1.6.45) |
-| Ch 7 | Membrane Mechanics | 40 | (1.7.1)–(1.7.40) |
-| Ch 8 | Zone Boundaries and Discontinuities | 35 | (1.8.1)–(1.8.35) |
-| Ch 9 | The Waters Duality | 50 | (1.9.1)–(1.9.50) |
-| Ch 10 | Particles and Fields | 55 | (1.10.1)–(1.10.55) |
-| Ch 11 | Sustaining Coupling and Thermodynamic Phases | 60 | (1.11.1)–(1.11.60) |
+| Ch 6 | Waters Field Equations | 45 | (1.6.1)–(1.6.45) |
+| Ch 7 | Symmetries and Conservation Laws | 40 | (1.7.1)–(1.7.40) |
+| Ch 8 | Five Governing Principles | 35 | (1.8.1)–(1.8.35) |
+| Ch 9 | Pattern Operators and Seven Types | 50 | (1.9.1)–(1.9.50) |
+| Ch 10 | Quantization from Boundary Conditions | 55 | (1.10.1)–(1.10.55) |
+| Ch 11 | Thermodynamics from Zone Separation | 60 | (1.11.1)–(1.11.60) |
 
 **Total equations in Vol 1:** ~475
 
@@ -505,7 +533,7 @@ This comprehensive table lists every mathematical symbol, variable, constant, op
 
 | Symbol | Name | Definition/Meaning | Dimension | First Chapter | Category |
 |--------|------|-------------------|-----------|----------------|----------|
-| $A$ | Warp factor (4D) | Metric coefficient $A(\xi, \eta)$; rescales 4D part of 6D metric | Dimensionless | 4 | Scalar field |
+| $A$ | Warp factor (extra-dimensional) | Metric coefficient $A(\xi, \eta)$; appears in 6D metric as $ds^2 = A^2(\xi,\eta)\eta_{\mu\nu}dx^\mu dx^\nu + \ldots$; **distinct from cosmological scale factor $a(t)$** (see §B.5.4) | Dimensionless | 4 | Scalar field |
 | $A_A$ | Gauge connection (6D) | Generalizes 4D electromagnetic potential to 6D | [ML²T⁻¹I⁻¹] | 4 | 1-form / Vector field |
 | $A_\mu$ | Electromagnetic 4-potential | Encodes $\mathbf{E}$ and $\mathbf{B}$ fields; $F_{\mu\nu} = \partial_\mu A_\nu - \partial_\nu A_\mu$ | [MLT⁻²I⁻¹] | 10 | 1-form / Vector field |
 | $a(t)$ | Cosmic scale factor | Expansion history; $a(t_0) = 1$ today | Dimensionless | 4 | Scalar function |
@@ -722,14 +750,16 @@ New symbols introduced in downstream volumes are added to a supplementary versio
 
 ## B.14 Version and Maintenance
 
-**Version:** 1.0 (First Edition)
+**Version:** 1.1 (P0 Fix Pass)
 **Date Created:** April 6, 2026
-**Last Updated:** April 6, 2026
+**Last Updated:** May 11, 2026
 **Maintainer:** Jeff Raymond
 
 **Change Log:**
 
 - **v1.0 (2026-04-06):** Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
+- **v1.1 (2026-05-11):** P0 fix — §B.5.4 warp factor definition corrected. A(ξ,η) was incorrectly stated as a(t)·f(ξ,η); corrected to define A(ξ,η) as the warp factor appearing in the 6D metric ds² = A²(ξ,η)η_μν dx^μ dx^ν + …, explicitly distinguished from the FRW cosmological scale factor a(t). Clarifying note added to §B.5.4. a(t) entry expanded with explicit reference to the FRW metric. B.10.1 alphabetical table entry for A updated. (Resolves QUALITY_GATE P1-001.)
+- **v1.2 (2026-05-11):** Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Membrane Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
 
 **Future Maintenance:**
 

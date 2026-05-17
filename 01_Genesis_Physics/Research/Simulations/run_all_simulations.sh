@@ -3,7 +3,8 @@
 # Genesis Physics Simulation Suite - All Tests
 # Runs all three simulation modules with output to stdout and files
 
-SIMDIR="/sessions/trusting-quirky-cannon/mnt/ExodusProtocol/01_Genesis_Physics/Research/Simulations"
+# Locate this script's directory portably — works when called from any working directory
+SIMDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$SIMDIR"
 
 echo "======================================================================"

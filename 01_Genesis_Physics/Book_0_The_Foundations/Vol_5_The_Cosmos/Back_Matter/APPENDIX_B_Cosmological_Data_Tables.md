@@ -171,7 +171,7 @@ These are the *inputs* to the zone framework — the geometric parameters from w
 
 | Parameter | Symbol | Value | Physical Meaning | Set in |
 |-----------|--------|-------|-----------------|--------|
-| Membrane tension | $\sigma$ | $\approx 6.0 \times 10^{98}$ J/m | Firmament rigidity; governs wave speed | Vol 1 Ch 5 |
+| Membrane tension | $\sigma$ | $\approx 6.0 \times 10^{98}$ kg/(m·s²) | Firmament rigidity; governs wave speed | Vol 1 Ch 5 |
 | Membrane mass density | $\mu$ | $\approx 6.7 \times 10^{81}$ kg/m³ | Firmament inertia | Vol 1 Ch 5 |
 | Waters Above extent | $\xi_A$ | $\approx 3.0 \times 10^{26}$ m | Outer boundary of 5th dimension; ≈ Hubble radius | Vol 1 Ch 4 |
 | Firmament thickness | $\eta_B$ | $\approx 1.3 \times 10^{-15}$ m | Inner boundary of 6th dimension; ≈ nuclear scale | Vol 1 Ch 4 |

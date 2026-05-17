@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light, and there was light" — Light phenomena manifest divine radiance | Genesis 1:3 |
@@ -277,7 +277,7 @@ where ψ represents the transverse displacement of the Firmament membrane from e
 **Physical Interpretation:**
 
 The Firmament is a 4D elastic brane embedded in 6D spacetime with:
-- **Surface tension σ**: Restoring force per unit length [σ] = N/m = kg/s²
+- **Surface tension σ**: Restoring force per unit length [σ] = N/m = kg/(m·s²)
 - **Volume mass density μ**: Mass per unit volume [μ] = kg/m³
 
 For small transverse displacements ψ(x,y,z,t) from equilibrium:
@@ -301,7 +301,7 @@ $$\boxed{c^2 = \frac{\sigma}{\mu}}$$
 **Numerical Values for the Firmament:**
 
 The Genesis Physics framework specifies:
-- **σ = 6.0×10⁹⁸ kg/s²** (from zone architecture and fine structure constant)
+- **σ = 6.0×10⁹⁸ kg/(m·s²)** (from zone architecture and fine structure constant)
 - **μ = 6.7×10⁸² kg/m²** (from dimensionless ratios in higher zones)
 
 Therefore:

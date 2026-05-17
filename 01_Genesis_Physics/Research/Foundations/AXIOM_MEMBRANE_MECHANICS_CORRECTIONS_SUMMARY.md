@@ -1,4 +1,4 @@
-# Axiom 3: Membrane Mechanics — Corrections Summary
+﻿# Axiom 3: Membrane Mechanics — Corrections Summary
 ## 5 Dimensional Errors Fixed (v1 → v2)
 
 **Date**: April 5, 2026
@@ -11,7 +11,7 @@
 
 ### The Problem (FAIL-1)
 ```
-Stated: σ = c⁵/(ℏG) with units [kg/s²]
+Stated: σ = c⁵/(ℏG) with units [kg/(m·s²)]
 
 Dimensional check:
   c⁵/(ℏG) → [L⁵T⁻⁵]/([ML²T⁻¹][L³M⁻¹T⁻²])
@@ -84,7 +84,7 @@ The two-step derivation (σ from gravity, then μ from the wave speed relation) 
 
 ### The Problem (FAIL-3)
 ```
-Stated: σ ≈ 6.0 × 10⁹⁸ kg/s², μ ≈ 6.7 × 10⁸² kg/m²
+Stated: σ ≈ 6.0 × 10⁹⁸ kg/(m·s²), μ ≈ 6.7 × 10⁸² kg/m²
 
 Check:
   σ/μ = 6.0 × 10⁹⁸ / 6.7 × 10⁸² = 0.896 × 10¹⁶ ≈ 9.0 × 10¹⁵ m²/s²
@@ -98,7 +98,7 @@ Problem: OFF BY FACTOR OF 10 (should be 10¹⁶, not 10¹⁵)
 ### The Fix (v2)
 ```
 CORRECTED VALUES:
-  σ ≈ 6.0 × 10⁹⁸ kg/s² (unchanged)
+  σ ≈ 6.0 × 10⁹⁸ kg/(m·s²) (unchanged)
   μ ≈ 6.7 × 10⁸¹ kg/m³ (corrected exponent: 10⁸¹ not 10⁸²)
 
 Verification:

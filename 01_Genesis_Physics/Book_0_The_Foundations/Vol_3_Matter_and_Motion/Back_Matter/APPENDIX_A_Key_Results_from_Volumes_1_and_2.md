@@ -68,7 +68,7 @@ $$\Phi(x,y) = \sum_{n,\ell} \phi_{n\ell}(x)\, Y_{n\ell}(y), \qquad m_{n\ell}^2 =
 *Used in Vol 3: Ch 6, 7.*
 
 **Membrane tension.**
-$$\sigma \approx 6 \times 10^{98}\;\text{kg/s}^2 \tag{1.5.74}$$
+$$\sigma \approx 6 \times 10^{98}\;\text{kg/(m·s}^2\text{)} \tag{1.5.74}$$
 *Used in Vol 3: Ch 7 (electroweak vacuum), Ch 5 (stress-tensor scale setting).*
 
 ### A.2.6 Chapter 6 — Waters Field Equations

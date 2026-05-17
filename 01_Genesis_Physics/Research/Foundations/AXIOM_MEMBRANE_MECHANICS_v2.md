@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6 "firmament" (rāqîa') — a stretched or beaten surface | Genesis 1:6 |
@@ -30,7 +30,7 @@
 c² = σ / μ
 
 where:
-  σ = membrane tension (energy per unit 3-volume) ≈ 6.0 × 10⁹⁸ kg/s² (exact form below)
+  σ = membrane tension (energy per unit 3-volume) ≈ 6.0 × 10⁹⁸ kg/(m·s²) (exact form below)
   μ = volume mass density (mass per unit 3-volume) ≈ 6.7 × 10⁸¹ kg/m³
 ```
 
@@ -63,7 +63,7 @@ For this relation to hold, σ and μ must have the correct dimensions.
 ```
 [σ] = [Energy / Volume] = [M L² T⁻²] / [L³] = [M L⁻¹ T⁻²]
 
-In SI units: σ has units of [kg/s²] (equivalently: J/m³ = Pa)
+In SI units: σ has units of [kg/(m·s²)] (equivalently: J/m³ = Pa)
 ```
 
 **Dimensional verification for c² = σ/μ**:
@@ -232,7 +232,7 @@ Then the membrane tension scales as:
 But the exact coefficient requires the 6D field equation solution. **The derivation gap is documented in VALIDATION_REPORT_2026-04-05.**
 
 **For now, we work with the numerical values**:
-- σ ≈ 6.0 × 10⁹⁸ kg/s² (to be derived in Phase 0)
+- σ ≈ 6.0 × 10⁹⁸ kg/(m·s²) (to be derived in Phase 0)
 - μ ≈ 6.7 × 10⁸¹ kg/m³ (to be derived in Phase 0)
 
 **Verification**:
@@ -313,10 +313,10 @@ Using G = 6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻², c = 2.998 × 10⁸ m/s, and ass
   = (2.998 × 10⁸)⁴ / (8π × 6.674 × 10⁻¹¹ × (10⁻²)²)
   = 8.06 × 10³⁴ / (1.68 × 10⁻¹¹ × 10⁻⁴)
   = 8.06 × 10³⁴ / 1.68 × 10⁻¹⁵
-  ≈ 4.8 × 10⁴⁹ kg/s²
+  ≈ 4.8 × 10⁴⁹ kg/(m·s²)
 ```
 
-This is many orders of magnitude below the stated σ ≈ 10⁹⁸ kg/s². The discrepancy indicates that ℓ_eff must be much smaller. Setting the equation equal to the desired value:
+This is many orders of magnitude below the stated σ ≈ 10⁹⁸ kg/(m·s²). The discrepancy indicates that ℓ_eff must be much smaller. Setting the equation equal to the desired value:
 
 ```
 10⁹⁸ = 8.06 × 10³⁴ / (1.68 × 10⁻¹¹ × ℓ_eff²)
@@ -401,7 +401,7 @@ This predicts that the electron mass is determined by geometry, not by a free Hi
 
 | **Quantity** | **Formula** | **Dimensions** | **Numerical Value** | **Verification** |
 |---|---|---|---|---|
-| Membrane tension | σ ≈ 10⁹⁸ | [M L⁻¹ T⁻²] | 6.0 × 10⁹⁸ kg/s² | ✓ |
+| Membrane tension | σ ≈ 10⁹⁸ | [M L⁻¹ T⁻²] | 6.0 × 10⁹⁸ kg/(m·s²) | ✓ |
 | Surface mass density | μ = σ/c² | [M L⁻³] | 6.7 × 10⁸¹ kg/m³ | σ/c² = 6.0×10⁹⁸ / 8.99×10¹⁶ = 6.67×10⁸¹ ✓ |
 | Speed of light | c = √(σ/μ) | [L T⁻¹] | 2.998 × 10⁸ m/s | √(σ/μ) ✓ |
 | Ratio σ/μ = c² | c² = σ/μ | [L² T⁻²] | 8.99 × 10¹⁶ m²/s² | (2.998×10⁸)² ✓ |
@@ -421,7 +421,7 @@ This predicts that the electron mass is determined by geometry, not by a free Hi
 
 **Numerical**:
 ```
-σ = 6.0 × 10⁹⁸ kg/s²
+σ = 6.0 × 10⁹⁸ kg/(m·s²)
 μ = 6.7 × 10⁸¹ kg/m³
 c² = σ/μ = (6.0 × 10⁹⁸) / (6.7 × 10⁸¹)
    = 0.896 × 10¹⁷ m²/s²
@@ -464,7 +464,7 @@ This is the key physical insight of Genesis Physics regarding the hierarchy prob
 
 | **Item** | **v1 (Incorrect)** | **v2 (Corrected)** | **Error Fixed** |
 |---|---|---|---|
-| **σ definition** | "force per unit length [kg/s²]" | "energy per unit 3-volume [M L⁻¹ T⁻²]" | Clarified that 4D membrane has different dimensional structure than 2D drumhead; μ now has correct dimensions |
+| **σ definition** | "force per unit length [kg/(m·s²)]" | "energy per unit 3-volume [M L⁻¹ T⁻²]" | Clarified that 4D membrane has different dimensional structure than 2D drumhead; μ now has correct dimensions |
 | **σ dimensional expression** | σ = c⁵/(ℏG) has dims [T⁻²] | σ = c⁴/(8πGℓ_eff²) has dims [M L⁻¹ T⁻²] ✓ | Fixed FAIL-1: missing mass and length factors |
 | **μ definition** | "mass per unit area [kg/m²]" | "mass per unit 3-volume [M L⁻³]" | Clarified units to be [kg/m³] not [kg/m²] for 4D membrane analogy |
 | **μ dimensional expression** | μ = c³/(ℏG) has dims [L⁻²] | μ = σ/c² has dims [M L⁻³] ✓ | Fixed FAIL-2: supply missing mass factor via c² ratio |

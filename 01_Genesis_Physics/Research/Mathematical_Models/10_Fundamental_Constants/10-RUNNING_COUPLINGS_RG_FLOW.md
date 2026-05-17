@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -130,11 +130,11 @@ Membrane tension dominates when the characteristic tension energy exceeds partic
 (1.10) σ ~ ℏ c (E_Planck)^3
 ```
 
-From Genesis Physics parameters: σ ≈ 6.0 × 10^98 kg/s²
+From Genesis Physics parameters: σ ≈ 6.0 × 10^98 kg/(m·s²)
 
 ```
 (1.11) E_Planck ~ √(σ/(ℏμ))
-       = √((6.0 × 10^98 kg/s²) / ((1.055 × 10^-34 J·s)(6.7 × 10^81 kg/m³)))
+       = √((6.0 × 10^98 kg/(m·s²)) / ((1.055 × 10^-34 J·s)(6.7 × 10^81 kg/m³)))
        = √((6.0 × 10^98) / (7.07 × 10^49))
        = √(8.48 × 10^48) s^{-1}
        = 2.91 × 10^24 s^{-1}
@@ -776,7 +776,7 @@ In Genesis Physics, the Firmament tension σ plays an analogous role. The Planck
 
 ```
 (4.15) E_Planck = √(σ/(ℏμ))
-       = √((6.0 × 10^{98} kg/s²) / ((1.055 × 10^{-34})(6.7 × 10^{81})))
+       = √((6.0 × 10^{98} kg/(m·s²)) / ((1.055 × 10^{-34})(6.7 × 10^{81})))
        ≈ 1.22 × 10^{19} GeV
 ```
 
@@ -932,7 +932,7 @@ The 5% discrepancy likely comes from:
 **Parameter Set 1: Membrane Properties**
 
 ```
-(6.1)  σ = 6.0 × 10^{98} kg/s²      (tension)
+(6.1)  σ = 6.0 × 10^{98} kg/(m·s²)      (tension)
        μ = 6.7 × 10^{82} kg/m²      (mass density)
        c² = σ/μ = 9 × 10^{16} m²/s² ✓
 ```
@@ -1088,7 +1088,7 @@ e = 1.602 × 10^{-19} C
 G = 6.674 × 10^{-11} m³/(kg·s²)
 
 Genesis Parameters:
-σ = 6.0 × 10^{98} kg/s²  (Firmament tension)
+σ = 6.0 × 10^{98} kg/(m·s²)  (Firmament tension)
 μ = 6.7 × 10^{82} kg/m²  (surface mass density)
 ξ_A = 3 × 10^{26} m  (Waters Above extent)
 η_B = 1.3 × 10^{-15} m  (Waters Below extent)

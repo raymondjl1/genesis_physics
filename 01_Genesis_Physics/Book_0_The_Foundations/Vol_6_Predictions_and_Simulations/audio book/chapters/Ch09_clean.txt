@@ -1821,7 +1821,7 @@ Predicted value: The energy required to lift matter out of the Firmament potenti
 
 [Equation — see print edition.]
 
-where σ ~ 10^48 J/m is membrane tension (Vol 1, Ch 5, equation (1.5.12)), and Δη is the extra-dimensional displacement.
+where σ approximately 6.0 times 10 to the 98 kg per m s squared is membrane tension (Vol 1, Ch 5, equation (1.5.12); Symbol_and_Constants.md), and Δη is the extra-dimensional displacement. (Updated to canonical σ per 0516_Rev_001.)
 Standard GR predicts: No brane, no binding energy. Objects are just at rest in spacetime.
 Experimental precision required: Precision measurement of the energy density required to create a "bubble" of modified spacetime in a controlled experiment. This requires quantum field theory in curved spacetime, at energy scales beyond current accelerators, or via precision measurements of vacuum energy density.
 Distinguishing experiment:
@@ -1831,7 +1831,7 @@ Distinguishing experiment:
 Falsification threshold: If precision measurements of vacuum energy or negative energy density show that the energy cost scales as volume (like 3D material) rather than area (like a membrane), then Mechanism 2's binding energy prediction is falsified. This would suggest that the Firmament is not a membrane, or that brane mechanics don't apply.
 
 P-094: Macroscopic Quantum Tunneling Probability is Exponentially Suppressed
-Predicted value: The quantum tunneling probability for a 1 kg object through a zone boundary (barrier height V₀ ~ 10^98 J, barrier width L ~ 10^-20 m) is:
+Predicted value: The quantum tunneling probability for a 1 kg object through a zone boundary (barrier height V₀ approximately 10 to the 115 J from canonical sigma squared over 2 mu; legacy value 10 to the 98 J; barrier width L approximately 10 to the -20 m) is:
 
 [Equation — see print edition.]
 
@@ -1922,7 +1922,7 @@ Predicted value: The speed of light arises from membrane mechanics:
 
 [Equation — see print edition.]
 
-where σ ~ 10^48 J/m is membrane tension and μ ~ 10^-17 kg/m is membrane mass per unit area. This can be measured directly or inferred from the relationship between gravitational and electromagnetic wave speeds.
+where σ approximately 6.0 times 10 to the 98 kg per m s squared is membrane tension and μ approximately 6.7 times 10 to the 81 kg per m cubed is membrane volume mass density (Vol 1 Ch 5 / Symbol_and_Constants.md). This can be measured directly or inferred from the relationship between gravitational and electromagnetic wave speeds. (Updated to canonical σ, μ per 0516_Rev_001.)
 Standard GR predicts: c is a universal constant, a fundamental dimension of spacetime itself.
 Experimental precision required: Measurement of electromagnetic and gravitational wave propagation speeds in different regions of spacetime. If c varies as 1/√(local tension), we'd expect variations correlated with local geometry. High-precision comparisons of light speed in different gravitational potentials (weak vs. strong fields).
 Distinguishing experiment:
@@ -2027,7 +2027,7 @@ where A₀ is the amplitude and L is the width of the warped region.
 
 Problem 9.2: WKB Tunneling Probability Through Zone Boundary
 
-A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the interface between Firmament and Waters Below. The potential barrier has height V₀ = σ²/(2μ) ~ 10^98 J and width L ~ 10^-20 m (Planck scale).
+A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the interface between Firmament and Waters Below. The potential barrier has height V₀ equals sigma squared over 2 mu. With canonical sigma 6.0 times 10 to the 98 kg per m s squared and mu 6.7 times 10 to the 81 kg per m cubed, V₀ is approximately 10 to the 115 in SI base units (legacy value 10 to the 98 J). Width L approximately 10 to the -20 m (Planck scale).
 
 (a) Write the WKB tunneling probability formula:
 
@@ -2037,7 +2037,7 @@ A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the inte
 
 [Equation — see print edition.]
 
-(c) Plug in numbers: m = 1 kg, ℏ = 1.05 × 10^-34 J·s, V₀ = 10^98 J, L = 10^-20 m.
+(c) Plug in numbers: m = 1 kg, ℏ = 1.05 × 10^-34 J·s, V₀ approximately 10 to the 115 J (canonical), L = 10^-20 m.
 
 (d) Calculate log₁₀(P). How many zeros does P have in its exponent?
 
@@ -2222,7 +2222,7 @@ Prediction P-100 states that the speed of light arises from membrane mechanics: 
    - Laser light paths from satellites to ground stations
    - Gravitational redshift measurement facilities
 
-(b) What is the predicted fractional change δc/c at the Earth-Moon Lagrange point L1 compared to Earth's surface, if c² = σ/μ? Use σ ~ 10^48 J/m and estimate μ from the metric.
+(b) What is the predicted fractional change δc/c at the Earth-Moon Lagrange point L1 compared to Earth's surface, if c² = σ/μ? Use σ approximately 6.0 times 10 to the 98 kg per m s squared and μ approximately 6.7 times 10 to the 81 kg per m cubed.
 
 (c) Write the null-hypothesis test: If c is constant to precision δc/c < 10^-18, then the hypothesis c² = σ/μ is falsified.
 

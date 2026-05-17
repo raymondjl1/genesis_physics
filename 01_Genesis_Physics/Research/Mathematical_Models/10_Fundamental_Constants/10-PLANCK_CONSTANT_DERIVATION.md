@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -58,7 +58,7 @@ From the foundation documents:
 
 | Parameter | Value | Source |
 |-----------|-------|--------|
-| Brane tension σ | 6.0 × 10⁹⁸ kg/s² | AXIOM_MEMBRANE_MECHANICS_v2 |
+| Brane tension σ | 6.0 × 10⁹⁸ kg/(m·s²) | AXIOM_MEMBRANE_MECHANICS_v2 |
 | Surface mass density μ | 6.7 × 10⁸¹ kg/m³ | AXIOM_MEMBRANE_MECHANICS_v2 |
 | Speed of light c | 2.998 × 10⁸ m/s | c² = σ/μ (derived) |
 | Hubble length ξ_A | 1.4 × 10²⁶ m | METRIC_6D_SOLUTIONS |
@@ -264,7 +264,7 @@ Combining sections 2 and 3:
 $$\boxed{\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\eta_B}{\xi_A}\right)^{2\lambda} \times \beta_{\text{geom}}} \quad \text{...(4.1)}$$
 
 where:
-- σ = 6.0 × 10⁹⁸ kg/s² (membrane tension)
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) (membrane tension)
 - η_B = 1.3 × 10⁻¹⁵ m (Waters Below confinement scale = nuclear scale)
 - ξ_A = 1.4 × 10²⁶ m (Waters Above extent = Hubble length)
 - c = 3.0 × 10⁸ m/s (speed of light)
@@ -362,7 +362,7 @@ More precisely, the action quantum depends on:
 3. The warp geometry: A(ξ, η) and B(ξ, η) from solving the 6D Einstein equations
 
 With refined values (obtained from Phase 0 field equation solutions):
-- σ_eff ≈ 6.0 × 10⁹⁸ kg/s² (unchanged to first approximation)
+- σ_eff ≈ 6.0 × 10⁹⁸ kg/(m·s²) (unchanged to first approximation)
 - η_B ≈ 1.3 × 10⁻¹⁵ m (corresponds to nuclear scale)
 - ξ_A ≈ 1.4 × 10²⁶ m (corresponds to Hubble scale)
 
@@ -581,7 +581,7 @@ None of these inputs rely on ℏ. The entire 6D theory (ACTION_6D_COMPLETE) is f
 $$\boxed{\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\eta_B}{\xi_A}\right)^2 \approx 1.055 \times 10^{-34} \text{ J·s}}$$
 
 with:
-- σ = 6.0 × 10⁹⁸ kg/s² (to be precisely derived from Phase 0 field solutions)
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) (to be precisely derived from Phase 0 field solutions)
 - η_B = 1.3 × 10⁻¹⁵ m (nuclear scale)
 - ξ_A = 1.4 × 10²⁶ m (Hubble scale)
 - c = 3.0 × 10⁸ m/s (derived from c² = σ/μ)
@@ -622,7 +622,7 @@ The remarkable fact: **All three definitions are identical in Genesis Physics.**
 
 ### 10.1 Derivation of σ and μ from First Principles
 
-This derivation assumes σ ≈ 6 × 10⁹⁸ kg/s² and μ ≈ 6.7 × 10⁸¹ kg/m³ as input. The next step (Phase 0) is to:
+This derivation assumes σ ≈ 6 × 10⁹⁸ kg/(m·s²) and μ ≈ 6.7 × 10⁸¹ kg/m³ as input. The next step (Phase 0) is to:
 
 1. Solve the 6D field equations from S_total (ACTION_6D_COMPLETE) with full coupling between gravity, gauge fields, matter, and the Waters
 2. Determine σ and μ self-consistently from the brane action density

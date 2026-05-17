@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | All 7 foundational axioms from Genesis narrative | Genesis 1-3 |
@@ -113,7 +113,7 @@ How does reducing sustaining coupling cause radioactive decay, biological aging,
 
 **FAIL-1: σ = c⁵/(ℏG) — AXIOM_MEMBRANE_MECHANICS.md**
 ```
-Stated: σ = c⁵/(ℏG) with units [kg/s²]
+Stated: σ = c⁵/(ℏG) with units [kg/(m·s²)]
 Check:  c⁵/(ℏG) → [L⁵T⁻⁵]/([ML²T⁻¹][L³M⁻¹T⁻²]) = [L⁵T⁻⁵]/[L⁵T⁻³] = [T⁻²]
 Expected: [ML⁻²T⁻²] (energy per unit 4-area)
 Result: DIMENSIONAL MISMATCH — missing mass and length factors
@@ -130,7 +130,7 @@ Result: DIMENSIONAL MISMATCH — missing mass factor
 
 **FAIL-3: σ/μ numerical value — AXIOM_MEMBRANE_MECHANICS.md**
 ```
-Stated: σ ≈ 6.0 × 10⁹⁸ kg/s², μ ≈ 6.7 × 10⁸² kg/m²
+Stated: σ ≈ 6.0 × 10⁹⁸ kg/(m·s²), μ ≈ 6.7 × 10⁸² kg/m²
 Check:  σ/μ = 6.0×10⁹⁸ / 6.7×10⁸² = 0.896 × 10¹⁶ ≈ 9.0 × 10¹⁵
 Expected: c² = 9.0 × 10¹⁶ m²/s²
 Result: OFF BY FACTOR OF 10
@@ -278,7 +278,7 @@ The claim α⁻¹ = 1.44 × ln(ξ_A/η_B) = 137.036 is the most important quanti
 | AXIOM_MEMBRANE_MECHANICS.md | σ, μ dimensional expressions incomplete | FIXED — introduced M_membrane mass parameter, documented derivation gap |
 | AXIOM_MEMBRANE_MECHANICS.md | G = c⁴/(8πσA_eff) dimensional error | FIXED — changed A_eff to L_eff (length, not area), added dimensional check |
 | AXIOM_MEMBRANE_MECHANICS.md | m²c⁴ mass-energy equation mismatch | FIXED — rewrote as E² relation with E_bind² (all terms now [energy²]) |
-| AXIOM_MEMBRANE_MECHANICS.md | "energy per unit 4-area" unclear | FIXED — clarified units as [kg/s²] and [kg/m²] (2D analogy) |
+| AXIOM_MEMBRANE_MECHANICS.md | "energy per unit 4-area" unclear | FIXED — clarified units as [kg/(m·s²)] and [kg/m²] (2D analogy) |
 | All 6 axiom papers | Cross-reference: OPEN_SYSTEM_AXIOM.md → AXIOM_OPEN_SYSTEM.md | FIXED |
 | 5 archive papers | μ = 6.7×10⁸² → 6.7×10⁸¹ | FIXED in WATERS_FIELD_EQUATIONS, QUICKREF, SPINOR_FIELDS, EXPERIMENTAL_PREDICTIONS |
 | FIVE_PRINCIPLES_FORMALIZED.md | OPEN_SYSTEM_AXIOM.md reference | FIXED → AXIOM_OPEN_SYSTEM.md |

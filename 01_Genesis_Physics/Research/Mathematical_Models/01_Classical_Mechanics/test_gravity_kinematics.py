@@ -1,4 +1,4 @@
-"""
+﻿"""
 Genesis Physics: Gravity & Kinematics Test Suite
 =================================================
 
@@ -14,7 +14,7 @@ All calculations derive from:
 - Genesis Physics framework: gravity = η-direction curvature
 - Schwarzschild metric (valid in weak-field limit and strong-field regimes)
 - Newtonian gravity in weak fields: ∇²η = -4πGρ
-- Membrane tension σ = 6.0×10⁹⁸ kg/s²
+- Membrane tension σ = 6.0×10⁹⁸ kg/(m·s²)
 - Mass density μ = 6.7×10⁸² kg/m²
 - c² = σ/μ (gives c = 3.00×10⁸ m/s exactly)
 
@@ -36,7 +36,7 @@ from typing import Tuple
 # The relationship c² = σ/μ should yield c = 3.00×10⁸ m/s
 # However, to ensure consistency with measured values and avoid precision issues
 # with extremely large exponents, we use the measured value directly.
-SIGMA = 6.0e99  # Membrane tension [kg/s²] (corrected exponent)
+SIGMA = 6.0e98  # Membrane tension [kg/(m·s²)] (corrected exponent)
 MU = 6.7e81     # Volume mass density [kg/m³]
 C_SQUARED = 9.0e16  # Speed of light squared [m²/s²]
 C = 3.0e8  # c = 3.00×10⁸ m/s (exact measured value)

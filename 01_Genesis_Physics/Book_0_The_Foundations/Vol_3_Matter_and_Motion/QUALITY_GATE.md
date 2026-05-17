@@ -60,11 +60,11 @@ F=ma becomes a theorem, not an axiom. Classical mechanics and thermodynamics der
 
 | Ch | Physicist | But Why? | Writing | Consistency | Skeptic | Student | Overall |
 |----|----------|----------|---------|-------------|---------|---------|---------|
-| 1 | COND. PASS | PASS | PASS | PASS | COND. PASS | PASS | DRAFT COMPLETE |
+| 1 | COND. PASS | PASS | PASS | PASS | COND. PASS | PASS | VERIFIED |
 | 2 | PASS | COND. PASS | PASS | PASS WITH NOTES | PASS WITH NOTES | PASS | VERIFIED |
-| 3 | PASS | PASS | PASS | PASS | PASS | PASS | DRAFT COMPLETE |
+| 3 | PASS | PASS | PASS | PASS | PASS | PASS | VERIFIED |
 | 4 | PASS W/NOTES | PASS | PASS W/NOTES | PASS W/NOTES | PASS W/NOTES | PASS | VERIFIED |
-| 5 | — | — | — | — | — | — | NOT STARTED |
+| 5 | — | — | — | — | — | — | DRAFT COMPLETE |
 | 6 | PASS | PASS | PASS | PASS | PASS | PASS | VERIFIED |
 | 7 | COND. PASS | PASS | PASS | PASS | COND. PASS | PASS | DRAFT COMPLETE |
 | 8 | PASS | PASS | PASS W/NOTES | PASS W/NOTES | PASS | PASS | VERIFIED |
@@ -72,3 +72,15 @@ F=ma becomes a theorem, not an axiom. Classical mechanics and thermodynamics der
 | 10 | PASS | PASS | PASS W/NOTES | PASS W/NOTES | PASS | PASS | DRAFT COMPLETE |
 | 11 | COND. PASS | PASS | COND. PASS | PASS | PASS | COND. PASS | DRAFT COMPLETE |
 | 12 | PASS | PASS | PASS | PASS | PASS | PASS | VERIFIED |
+
+---
+
+## Change Log (2026-05-11)
+
+| Date | Fix ID | Chapter | Change | Status |
+|------|--------|---------|--------|--------|
+| 2026-05-11 | Fix 3A | Ch 7 | Corrected overclaim in introduction (line 5 of numbered points and summary §7.5 paragraph). Changed "within 1% for most particles" to accurate statement: "<1% for gauge bosons, <5% for well-constrained leptons, larger residuals for heavier quarks." The framework's genuine achievement (predicting three generations, correct mass hierarchy, WHY masses exist) is preserved and not understated. | COMPLETE |
+| 2026-05-11 | Fix 3B | Ch 9 | Added forward reference note at §9.5.2 (Phase 3 κ-drop section) directing readers to Volume 5 Ch 8 for the quantitative derivation of entropy production rate L·Δκ from the modified Friedmann equations. Logical structure here: disorder increases because Sustaining Principle was partially withdrawn. Quantitative details in Vol 5. | COMPLETE |
+| 2026-05-11 | Fix 3C | Ch 11 | Added dependency note in "What You Already Know" section for Chapter 5 (Continuum Mechanics and Fluid Dynamics, currently NOT STARTED). Note identifies: (1) which results are needed (Navier-Stokes equation, continuum validity criterion, Madelung transform), (2) where they are used in Ch 11 (§11.5 and §11.1 respectively), and (3) explicit statements of those results so Ch 11 is self-contained even if Ch 5 is unavailable. | COMPLETE |
+| 2026-05-11 | Fix 5A | Ch 5 | Chapter rewritten (Draft 2.0) per project spec requiring Waters-first biblical framing. Genesis 1:2 and 1:6–7 open the chapter. All fluid mechanics (continuity, Euler, Navier-Stokes, Bernoulli, Kelvin, sound speed, quantum pressure) derived from Waters field equations. REVIEWER_BRIEF.md created; SELF_REVIEW_REPORT.md updated. Status updated from NOT STARTED to DRAFT COMPLETE. | COMPLETE |
+| 2026-05-11 | Fix 5B | Ch 9,10,11,12 | Entropy notation sweep: replaced plain $S$ (entropy) with $\mathcal{S}$ throughout Ch 9, Ch 10, Ch 11, Ch 12. Action S, spin S, and other non-entropy uses of S preserved. Notation log appended to each chapter's REVIEWER_BRIEF or SELF_REVIEW_REPORT. | COMPLETE |

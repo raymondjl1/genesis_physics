@@ -1,4 +1,4 @@
-"""
+﻿"""
 Membrane Vibrations Spectrum Calculator
 ========================================
 
@@ -8,7 +8,7 @@ Solves the membrane wave equation:
   ρ ∂²u/∂t² = σ ∇²u + boundary corrections
 
 Where:
-  - σ = membrane tension (6.0e98 kg/s²)
+  - σ = membrane tension (6.0e98 kg/(m·s²))
   - ρ = membrane surface density (6.7e81 kg/m³)
   - ξ_A = Waters Above coherence length (3.0e26 m)
   - η_B = Waters Below coherence length (1.3e-15 m)
@@ -38,7 +38,7 @@ C = 3.0e8               # m/s
 M_PLANCK = 2.176e-8     # kg
 
 # Membrane parameters
-SIGMA = 6.0e98          # kg/s²  (tension)
+SIGMA = 6.0e98          # kg/(m·s²)  (tension)
 MU = 6.7e81             # kg/m³  (surface density)
 XI_A = 3.0e26           # m      (Waters Above scale)
 ETA_B = 1.3e-15         # m      (Waters Below scale)
@@ -318,7 +318,7 @@ class MembraneModeAnalyzer:
         print("="*70)
 
         print(f"\nPhysical Parameters:")
-        print(f"  Membrane tension (σ):        {SIGMA:.3e} kg/s²")
+        print(f"  Membrane tension (σ):        {SIGMA:.3e} kg/(m·s²)")
         print(f"  Membrane density (μ):        {MU:.3e} kg/m³")
         print(f"  Wave speed (v = √(σ/μ)):     {WAVE_SPEED:.3e} m/s")
         print(f"  Wave speed ratio (v/c):      {WAVE_SPEED_RATIO:.6e}")

@@ -1,4 +1,4 @@
-# Axiom 3 Corrections: Implementation Guide
+﻿# Axiom 3 Corrections: Implementation Guide
 ## Membrane Mechanics v1 → v2 (April 5, 2026)
 
 **Quick Start**: Use **AXIOM_MEMBRANE_MECHANICS_v2.md** as the authoritative source for all future work.
@@ -131,7 +131,7 @@ Step 4: Verify numerically
 
 ### 1. The Membrane Tension σ Is Enormous
 ```
-σ ≈ 6.0 × 10⁹⁸ kg/s²
+σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 
 This is extraordinarily large — makes the membrane incredibly stiff.
 Result: Gravity is weak (bending costs huge energy).
@@ -205,7 +205,7 @@ FUTURE (v3):     AXIOM_MEMBRANE_MECHANICS_v3.md
 
 c = 2.998e8  # m/s, [L T⁻¹]
 G = 6.674e-11  # m³ kg⁻¹ s⁻², [L³ M⁻¹ T⁻²]
-sigma = 6.0e98  # kg/s², [M L⁻¹ T⁻²]
+sigma = 6.0e98  # kg/(m·s²), [M L⁻¹ T⁻²]
 mu = 6.7e81  # kg/m³, [M L⁻³]
 
 # Test 1: c² = σ/μ

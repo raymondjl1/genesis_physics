@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:14-19 (Creation of light; sun, moon, stars; light as fundamental) | Genesis 1:14-19 |
@@ -80,7 +80,7 @@ $$\boxed{S_4^{\text{EM}} = -\frac{1}{4}\int d^4 x \sqrt{-g_4} \, F_{\mu\nu}^{\te
 On the Firmament (4D brane), the EM field propagates with:
 - **Wave equation**: (∂²/∂t² - ∇²)A_μ = 0 (in Lorenz gauge)
 - **Speed of propagation**: c = √(σ/μ) derived from membrane mechanics
-  - σ = 6.0 × 10⁹⁸ kg/s² (brane tension)
+  - σ = 6.0 × 10⁹⁸ kg/(m·s²) (brane tension)
   - μ = 6.7 × 10⁸¹ kg/m³ (volume mass density)
   - c = 2.998 × 10⁸ m/s (observed)
 

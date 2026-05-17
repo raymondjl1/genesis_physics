@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Comprehensive particle physics from six dimensions | Genesis 1:1 |
@@ -126,7 +126,7 @@ where:
 **From MEMBRANE_MASS_SCALE.md:**
 
 The Firmament brane is characterized by:
-- **Brane tension:** $\sigma \approx 6.0 \times 10^{98}$ kg/s² [dimensions: M T⁻²]
+- **Brane tension:** $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) [dimensions: M T⁻²]
 - **Membrane area density:** $\mu \approx 6.7 \times 10^{81}$ kg/m³ [dimensions: M L⁻³]
 - **Characteristic length scale:** $\eta_B \approx 1.3 \times 10^{-15}$ m
 

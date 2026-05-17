@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -67,7 +67,7 @@ For a unit topological defect (winding number = 1):
 $$S_{\text{vortex}} \sim \pi \sigma \eta_B^3 / c \quad \text{...(1.3)}$$
 
 where:
-- **σ** = Firmament brane tension ≈ 6 × 10⁹⁸ kg/s² (from AXIOM_MEMBRANE_MECHANICS_v2)
+- **σ** = Firmament brane tension ≈ 6 × 10⁹⁸ kg/(m·s²) (from AXIOM_MEMBRANE_MECHANICS_v2)
 - **η_B** = nuclear scale ≈ 1.3 × 10⁻¹⁵ m (from zone geometry)
 - **c** = speed of light
 

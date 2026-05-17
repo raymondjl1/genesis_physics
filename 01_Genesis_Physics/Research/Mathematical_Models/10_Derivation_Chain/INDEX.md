@@ -1,4 +1,4 @@
-# 10_Derivation_Chain — Complete Index
+﻿# 10_Derivation_Chain — Complete Index
 
 ## What Is This Directory?
 
@@ -307,7 +307,7 @@ echo "Exit code: $?"  # 0 = all pass, 1 = any fail
 ### Speed of Light (Test 1)
 ```
 c = √(σ/μ)
-σ = 6.0e98 kg/s² (membrane tension)
+σ = 6.0e98 kg/(m·s²) (membrane tension)
 μ = 6.7e81 kg/m³ (volume density)
 Result: c ≈ 2.998e8 m/s ✓
 ```

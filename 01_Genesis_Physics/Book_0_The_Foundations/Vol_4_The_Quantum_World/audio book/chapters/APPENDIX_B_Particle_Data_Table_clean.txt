@@ -1,4 +1,4 @@
-Foundations Vol 4, The Quantum World — Back Matter
+﻿Foundations Vol 4, The Quantum World — Back Matter
 
 "The experimental particle physicist and the theoretical particle physicist have opposite relationships to decimal places. The experimentalist loves every one of them. The theorist who cannot reproduce them ought to admit it." — Vol 4, preface to Chapter 10
 
@@ -41,7 +41,7 @@ Constant: Fermi constant. Symbol: G sub F. Value: 1.166 378 7(6) times 10 to the
 Constant: Weak mixing angle. Symbol: to the 2 theta sub W(M sub Z). Value: 0.231 22(4). Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 11.
 Constant: Higgs VEV. Symbol: v. Value: 246.219 65(6) GeV. Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 11.
 Constant: QCD scale. Symbol: the expression. Value: 210 plus or minus 14 MeV. Source: PDG 2024. Zone-framework status: APPROXIMATE — Ch 12.
-Constant: Newton's constant. Symbol: G. Value: 6.674 30(15) times 10 to the -11 m³/kg/s². Source: CODATA 2022. Zone-framework status: Derived (3.2.8).
+Constant: Newton's constant. Symbol: G. Value: 6.674 30(15) times 10 to the -11 m³/kg/(m·s²). Source: CODATA 2022. Zone-framework status: Derived (3.2.8).
 Constant: Boltzmann constant. Symbol: k sub B. Value: 1.380 649 times 10 to the -23 J/K (exact). Source: CODATA 2022. Zone-framework status: Derived (Vol 3 Ch 11).
 
 Reading note.

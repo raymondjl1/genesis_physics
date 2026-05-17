@@ -25,7 +25,7 @@ From Vol 1 Ch 5 — the Firmament as Membrane.
 
 Volume 1, Chapter 5 established the Firmament Sigma Z sub 2.2 as a 4-dimensional codimension-2 brane embedded in the 6D zone manifold. The membrane has:
 
-Tension. A 3-brane tension sigma with dimensions [M L to the -1 T to the -2], appearing in the Nambu–Goto action (Vol 1 Eq. 1.5.26). Numerically, sigma approximately equal to 6.0 times 10 to the 98 J/m (AXIOMMEMBRANEMECHANICS_v2.md §5, quoted in Vol 1 §5.3).
+Tension. A 3-brane tension sigma with dimensions [M L to the -1 T to the -2], appearing in the Nambu–Goto action (Vol 1 Eq. 1.5.26). Numerically, sigma approximately equal to 6.0 times 10 to the 98 kg per m s squared (equivalently J per m cubed = Pa for a 3-brane tension; see AXIOMMEMBRANEMECHANICS_v2.md §5, quoted in Vol 1 §5.3).
 
 Mass density. A 3-brane mass density mu with dimensions [M L to the -3], contributing a kinetic term 12 mu ( partial Phi ) to the 2 for transverse displacements Phi (Vol 1 Eq. 1.5.30). Numerically, mu approximately equal to 6.7 times 10 to the 81 kg/m³.
 
@@ -551,7 +551,7 @@ Problem Sets.
 
 Computational.
 
-P5.1. (Tension profile dimensional check.) Starting from (5.5.12) and using the numerical values sigma  infinity = 6.0 times 10 to the 98 J/m and mu = 6.7 times 10 to the 81 kg/m³ from Vol 1 §5.3, verify that the local wave speed the expression at r = 3 r sub s is the expression m/s, and at r = 2 r sub s is c infinity /2 approximately equal to 1.5 times 10 to the 8 m/s. (Hint: use the coordinate-time form of sigma, not the local form.)
+P5.1. (Tension profile dimensional check.) Starting from (5.5.12) and using the numerical values sigma  infinity = 6.0 times 10 to the 98 kg per m s squared and mu = 6.7 times 10 to the 81 kg/m³ from Vol 1 §5.3, verify that the local wave speed the expression at r = 3 r sub s is the expression m/s, and at r = 2 r sub s is c infinity /2 approximately equal to 1.5 times 10 to the 8 m/s. (Hint: use the coordinate-time form of sigma, not the local form.)
 
 P5.2. (Critical density for a supermassive black hole.) Use (5.5.16) to compute rho  crit for M = 6.5 times 10 to the 9 M (the mass of M87*). Compare to the average density of interstellar gas in the solar neighborhood (approximately 10 to the -21 kg/m³). By what factor does the interstellar medium need to be compressed to reach rho _ crit? Why is this consistent with the formation of supermassive black holes from gas accretion rather than from stellar collapse?
 

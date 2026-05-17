@@ -82,14 +82,14 @@ ALL six agents review every chapter:
 |----|----------|----------|---------|-------------|---------|---------|---------|
 | 1 | PASS (w/notes) | PASS (w/notes) | PASS | PASS | PASS | PASS (w/notes) | **VERIFIED** (2026-04-06) |
 | 2 | PASS (w/notes) | PASS (w/notes) | PASS | PASS (w/notes) | PASS | PASS (w/notes) | **VERIFIED** (2026-04-06) |
-| 3 | PASS | PASS (w/notes) | PASS (w/notes) | PASS | PASS | PASS (w/notes) | **VERIFIED** (2026-04-06) |
+| 3 | PASS | PASS (w/notes) | PASS (w/notes) | PASS | PASS | PASS | **VERIFIED** (2026-05-11); **P1-002 RESOLVED**: §3.0 line 10 "seven axioms" → "six axioms and Postulate F" with explanatory footnote [^axiom-count]; line 747 "satisfies all seven axioms" → "satisfies all six axioms and vindicates Postulate F" |
 | 4 | PASS | PASS | PASS | PASS | PASS | PASS | **VERIFIED** (2026-04-06) |
-| 5 | PASS | PASS | — | — | PASS | — | **VERIFIED** (2026-04-06) |
-| 6 | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | **VERIFIED** (2026-04-06) |
-| 7 | — | — | — | — | — | — | NOT STARTED |
-| 8 | — | — | — | — | — | — | NOT STARTED |
+| 5 | PASS | PASS | — | — | PASS | — | **VERIFIED** (2026-05-11); **P1-003 RESOLVED**: §5.1.1 line 54 index set corrected to {0,1,2,3,5,6} with canonical-convention note (index 4 reserved); line 62 normal vector components updated e^4_μ = e^5_μ = 0 → e^5_μ = e^6_μ = 0 to match canonical indices |
+| 6 | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS | PASS (w/notes) | PASS | **VERIFIED** (2026-05-11); **P1-004 RESOLVED**: §6.2.4 bridging blockquote added explaining Ψ_B is fundamentally complex; real field (§6.1.2) is the θ=0 ground state; velocity field v=(ℏ/m_B)∇θ vanishes at equilibrium; Madelung equations describe perturbations; full complex structure in §6.9 and Ch 7. §6.9 Option A paragraph: CONFIRMED INTEGRATED. |
+| 7 | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS | PASS (w/notes) | **VERIFIED** (2026-05-11); All MEDIUM items resolved: complex Waters cascade fixed (Ch 6 §6.9 + Ch 7 §7.5.1), KK chapter commitment added, anomaly footnote citing P&S Ch 19, Axiom 3 footnotes in §7.3.1/§7.4.1/§7.5.1 |
+| 8 | PASS (w/notes) | PASS (w/notes) | PASS | PASS | PASS (w/notes) | PASS (w/notes) | **VERIFIED** (2026-05-11); **P2-001 RESOLVED**: S→𝒮 lapses fixed — line 319 ("entropy is $\mathcal{S} = -k_B H$") and line 325 (Eq. 1.8.25, all entropy symbols now $\mathcal{S}$, $\dot{\mathcal{S}}$). All other MEDIUM items confirmed resolved: κ mechanism addressed, §8.10.4 forward examples added, §8.8.1 Duality depth strengthened, Eq. 1.8.7 dimensional consistency fixed. |
 | 9 | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | **VERIFIED** (2026-04-06) |
-| 10 | — | — | — | — | — | — | NOT STARTED |
+| 10 | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS (w/notes) | PASS | PASS (w/notes) | **VERIFIED** (2026-05-11); Figure placeholders: 11 total (Figs 1.10.1–1.10.9 + 2b, 3b added for §10.1.3 and §10.2.2); §10.7 scaffolding added with conceptual roadmap in §10.7.1; Worked Example 10.1 retained |
 | 11 | PASS | PASS (w/notes) | PASS | PASS (w/notes) | PASS | PASS (w/notes) | **VERIFIED** (2026-04-06) |
 
 ---
@@ -99,7 +99,7 @@ ALL six agents review every chapter:
 | Component | Physicist | Consistency | Student | Style | Theologian | Overall |
 |-----------|----------|-------------|---------|-------|-----------|---------|
 | App A: Math Prerequisites | PASS | PASS | — | PASS | — | **VERIFIED** (2026-04-06) |
-| App B: Notation Reference | PASS (w/notes) | PASS (w/notes) | — | PASS | — | **VERIFIED** (2026-04-06) |
+| App B: Notation Reference | PASS (w/notes) | PASS | — | PASS (w/notes) | — | **PARTIALLY VERIFIED** (2026-05-11); **P1-001 RESOLVED**: §B.5.4 corrected — A(ξ,η) now defined as the 6D warp factor appearing in the metric $ds^2 = A^2(\xi,\eta)\eta_{\mu\nu}dx^\mu dx^\nu + \ldots$, explicitly distinguished from the FRW scale factor a(t); clarifying note added; B.10.1 table entry corrected. **P2-002a DEFERRED**: §B.9.3 chapter title table (Ch6–Ch11 headings) — deferred to pre-publication pass. **P2-002b DEFERRED**: §B.4.3 phase numeral convention — deferred to pre-publication pass. |
 | App C: Hebrew Analysis | — | — | — | PASS | PASS (w/notes) | **VERIFIED** (2026-04-06) |
 | Problem Sets (Ch 1–11) | PASS | PASS | PASS | PASS | — | **VERIFIED** (2026-04-06) |
 | Bibliography | — | — | — | PASS | PASS | **VERIFIED** (2026-04-06) |

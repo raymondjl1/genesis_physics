@@ -1,4 +1,4 @@
-In which we compute the particle mass spectrum predicted by membrane vibrations, discover that the framework gets the right neighborhood but the wrong house, and learn to treat an honest 1000× discrepancy as a research program rather than a refutation.
+﻿In which we compute the particle mass spectrum predicted by membrane vibrations, discover that the framework gets the right neighborhood but the wrong house, and learn to treat an honest 1000× discrepancy as a research program rather than a refutation.
 
 Why the Membrane Spectrum Matters.
 
@@ -26,7 +26,7 @@ The firmament membrane — the boundary between the Waters Above and Waters Belo
 
 where σ is the membrane tension and μ is the membrane surface density. These are not free parameters — they are derived from the zone manifold's metric properties in Volume 2, Chapter 3:
 
-- σ = 6.0 × 10⁹⁸ kg/s² — the membrane tension. This extraordinary number reflects the Planck-scale rigidity of the firmament. For comparison, the tension of a steel guitar string is about 80 N — the firmament is stiffer by a factor of 10⁹⁷.
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) — the membrane tension. This extraordinary number reflects the Planck-scale rigidity of the firmament. For comparison, the tension of a steel guitar string is about 80 N — the firmament is stiffer by a factor of 10⁹⁷.
 
 - μ = 6.7 × 10⁸¹ kg/m³ — the membrane surface density. (Strictly, this is a volume density; the code treats the membrane as having a characteristic thickness set by the Waters Below coherence length, making μ an effective surface mass per unit area when multiplied by η_B.)
 
@@ -452,7 +452,7 @@ from scipy.special import jn_zeros
 
 HBAR = 1.055e-34        # J·s
 C = 3.0e8               # m/s
-SIGMA = 6.0e98           # kg/s²
+SIGMA = 6.0e98           # kg/(m·s²)
 MU = 6.7e81              # kg/m³
 ETA_B = 1.3e-15          # m
 MeVperkg = 5.609e29    # MeV/c² per kg

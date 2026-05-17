@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6 "firmament" (rāqîa') — a stretched or beaten surface | Genesis 1:6 |
@@ -29,7 +29,7 @@
 c² = σ / μ
 
 where:
-  σ = membrane tension ≈ 6.0 × 10⁹⁸ kg/s² (force per unit length, analogous to surface tension)
+  σ = membrane tension ≈ 6.0 × 10⁹⁸ kg/(m·s²) (energy per unit 3-volume; equivalently force per unit area; analogous to surface tension generalized to a 3-brane)
   μ = membrane mass density ≈ 6.7 × 10⁸¹ kg/m² (mass per unit area)
 ```
 
@@ -59,7 +59,7 @@ For the 4D Firmament membrane embedded in 6D spacetime:
 c² = σ / μ
 
 where:
-  σ = membrane tension [kg/s²] (force per unit length; analogous to surface tension T)
+  σ = membrane tension [kg/(m·s²)] (energy per unit 3-volume; equivalently force per unit area; analogous to surface tension T for a 3-brane)
   μ = membrane surface mass density [kg/m²] (mass per unit area; analogous to ρ_surface)
 ```
 
@@ -80,10 +80,10 @@ The membrane tension and mass density can be expressed in terms of known constan
 μ_base = c³ / (ℏG)    [dimensions: L⁻²]
 ```
 
-These have the correct RATIO (σ_base/μ_base = c² ✓) but lack a factor of mass [M] needed for the physical units [kg/s²] and [kg/m²] respectively. The missing factor comes from the membrane's embedding in the 6D bulk geometry — specifically, the effective mass scale M_membrane set by the zone architecture:
+These have the correct RATIO (σ_base/μ_base = c² ✓) but lack a factor of mass [M] needed for the physical units [kg/(m·s²)] and [kg/m²] respectively. The missing factor comes from the membrane's embedding in the 6D bulk geometry — specifically, the effective mass scale M_membrane set by the zone architecture:
 
 ```
-σ = M_membrane × c⁵ / (ℏG) ≈ 6.0 × 10⁹⁸ kg/s²
+σ = M_membrane × c⁵ / (ℏG) ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 μ = M_membrane × c³ / (ℏG) ≈ 6.7 × 10⁸¹ kg/m²
 
 where:
@@ -132,7 +132,7 @@ G = c⁴ / (8πσ × L_eff)
 
 where:
   L_eff = effective length scale from the 6D embedding geometry [m]
-  σ = membrane tension [kg/s²]
+  σ = membrane tension [kg/(m·s²)]
 
 Dimensional check:
   [c⁴] = [L⁴T⁻⁴]

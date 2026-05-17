@@ -1,4 +1,4 @@
-"""
+﻿"""
 Genesis Physics: Thermodynamic Laws Test Suite
 ===============================================
 
@@ -24,7 +24,7 @@ This test suite validates the following thermodynamic laws derived from Genesis 
 
 GENESIS PHYSICS FRAMEWORK:
 - The Firmament is a 4D membrane in 6D spacetime
-- Membrane parameters: σ = 6.0×10⁹⁸ kg/s², μ = 6.7×10⁸² kg/m²
+- Membrane parameters: σ = 6.0×10⁹⁸ kg/(m·s²), μ = 6.7×10⁸² kg/m²
 - c² = σ/μ = 9.0×10¹⁶ m²/s², c = 3.0×10⁸ m/s
 - Temperature T = mean kinetic energy of membrane excitations: (3/2)k_B T = <E_kinetic>
 - Quantized vibration modes: ω_n = (n·π·c)/L for n = 1,2,3,...
@@ -67,7 +67,7 @@ R = 8.314462618  # J/(mol·K)
 N_A = 6.02214076e23  # particles/mol
 
 # Genesis Physics membrane parameters
-SIGMA = 6.0e99  # Membrane tension [kg/s²]
+SIGMA = 6.0e98  # Membrane tension [kg/(m·s²)]
 MU = 6.7e81     # Membrane surface density [kg/m³]
 C_SQUARED = SIGMA / MU  # Should be ~9.0e16 m²/s²
 

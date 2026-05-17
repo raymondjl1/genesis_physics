@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Firmament membrane surface tension defines particle masses | Genesis 1:6 |
@@ -24,7 +24,7 @@
 
 | Parameter | Value | Physical Interpretation |
 |-----------|-------|-------------------------|
-| σ | 6.0×10⁹⁸ kg/s² | Membrane tension (surface energy per unit area) |
+| σ | 6.0×10⁹⁸ kg/(m·s²) | Membrane tension (surface energy per unit area) |
 | μ | 6.7×10⁸¹ kg/m³ | Volume mass density (μ = ρ_Planck × η_B) |
 | c | 3×10⁸ m/s | Wave speed: c = √(σ/μ) |
 | ξ_A | 3×10²⁶ m | Cosmic boundary (Waters Above) |
@@ -618,10 +618,10 @@ This is a **well-defined mass scale**, set by the nuclear geometry (η_B).
 ### 9.2 Verification: c = √(σ/μ)
 
 ```
-σ = 6.0×10⁹⁸ kg/s²
+σ = 6.0×10⁹⁸ kg/(m·s²)
 μ = 6.7×10⁸² kg/m²
 
-σ/μ = (6.0×10⁹⁸ kg/s²) / (6.7×10⁸² kg/m²)
+σ/μ = (6.0×10⁹⁸ kg/(m·s²)) / (6.7×10⁸² kg/m²)
     = (6.0 / 6.7) × 10⁹⁸⁻⁸² m²/s²
     = 0.896 × 10¹⁶ m²/s²
     = 8.96×10¹⁵ m²/s²
@@ -692,7 +692,7 @@ But these are **NOT in the axioms** — they would require additional specificat
 
 | Constant | Value |
 |----------|-------|
-| Membrane tension σ | 6.0×10⁹⁸ kg/s² |
+| Membrane tension σ | 6.0×10⁹⁸ kg/(m·s²) |
 | Volume mass density μ | 6.7×10⁸¹ kg/m³ |
 | Wave speed c | 3×10⁸ m/s |
 | Waters Below thickness η_B | 1.3×10⁻¹⁵ m |

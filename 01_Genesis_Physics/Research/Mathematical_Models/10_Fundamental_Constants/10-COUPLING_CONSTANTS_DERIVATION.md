@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -265,7 +265,7 @@ In extra dimensions, the strong coupling relates to the Firmament's resistance t
 α_s = (T_color/σ) × e^{-2A_0}
 
 where:
-- σ ≈ 6.0 × 10⁹⁸ kg/s² (Firmament tension)
+- σ ≈ 6.0 × 10⁹⁸ kg/(m·s²) (Firmament tension)
 - e^{-2A_0} (warp factor correction, crucial for matching)
 - T_color: color field tension scale
 

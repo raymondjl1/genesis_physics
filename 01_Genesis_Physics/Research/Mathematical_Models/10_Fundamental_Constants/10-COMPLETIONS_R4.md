@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
@@ -58,7 +58,7 @@ All calculations use the following fundamental parameters (from AXIOM_MEMBRANE_M
 
 | Parameter | Symbol | Value | Unit | Meaning |
 |-----------|--------|-------|------|---------|
-| Firmament brane tension | σ | 6.0 × 10⁹⁸ | kg/s² | Membrane elasticity |
+| Firmament brane tension | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | Membrane elasticity |
 | Surface mass density | μ | 6.7 × 10⁸¹ | kg/m³ | Membrane inertia |
 | Speed of light | c | 2.998 × 10⁸ | m/s | c² = σ/μ |
 | Nuclear confinement scale | η_B | 1.3 × 10⁻¹⁵ | m | Waters Below extent |
@@ -341,7 +341,7 @@ This is the characteristic energy scale of 6D quantum gravity.
 
 $$M_{6,Pl}^4 \sim \sigma$$
 
-where σ ≈ 6 × 10⁹⁸ kg/s² is the brane tension.
+where σ ≈ 6 × 10⁹⁸ kg/(m·s²) is the brane tension.
 
 **Estimation** (order of magnitude):
 $$M_{6,Pl} \sim (6 \times 10^{98})^{1/4} \sim 10^{25} \text{ kg} \quad \text{(~10¹⁶ GeV)}$$
@@ -810,7 +810,7 @@ Genesis Physics derives the three fundamental constants of Category 10:
 3. **Avogadro's number N_A** is a conventional scale ratio reflecting the hierarchy from atomic to human-scale masses
 
 All three are explained not as independent accidents but as **necessary consequences of the 6D zone architecture** with:
-- Brane tension σ ≈ 6 × 10⁹⁸ kg/s²
+- Brane tension σ ≈ 6 × 10⁹⁸ kg/(m·s²)
 - Hubble-scale zone extent ξ_A ≈ 10²⁶ m
 - Nuclear-scale confinement η_B ≈ 10⁻¹⁵ m
 - Exponential warp factors providing geometric suppression/enhancement

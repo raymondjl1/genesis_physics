@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:3-5 (Creation of light; divine measure) | Genesis 1:3-5 |
@@ -38,7 +38,7 @@ was introduced in AXIOM_MEMBRANE_MECHANICS_v2.md to resolve dimensional inconsis
 
 3. **Physical interpretation**: The tiny value reflects gravity's extreme weakness compared to membrane tension. It is a consequence of the mismatch between:
    - The 4D gravitational coupling G = 6.674 × 10⁻¹¹ m³/(kg·s²)
-   - The membrane stiffness σ ≈ 6.0 × 10⁹⁸ kg/s²
+   - The membrane stiffness σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 
 4. **G and σ are independently determined**:
    - **G**: Fixed by observation (Cavendish experiment, modern tests)
@@ -169,7 +169,7 @@ This is the **effective coupling length** that emerges from integrating the warp
 **Given constants:**
 - c = 2.998 × 10⁸ m/s
 - G = 6.674 × 10⁻¹¹ m³/(kg·s²) [Newton's constant, observational]
-- σ = 6.0 × 10⁹⁸ kg/s² [membrane tension, from AXIOM_MEMBRANE_MECHANICS_v2]
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) [membrane tension, from AXIOM_MEMBRANE_MECHANICS_v2]
 
 **Step 1: Compute c⁴**
 
@@ -313,7 +313,7 @@ $$L_{\text{eff}} \sim \sqrt{\frac{\text{membrane wave speed squared}}{\text{grav
 
 A smaller L_eff means weaker gravitational coupling (larger G would require larger L_eff). In Genesis Physics:
 
-- **σ is enormous** (~10⁹⁸ kg/s²), making the membrane extremely stiff
+- **σ is enormous** (~10⁹⁸ kg/(m·s²)), making the membrane extremely stiff
 - **L_eff is tiny** (~9 × 10⁻²⁹ m), effectively suppressing gravity
 - **The combination** G = c⁴/(8πσL_eff²) gives gravity its observed weakness
 
@@ -452,7 +452,7 @@ The brane tension σ emerges from the 6D Einstein equations with boundary condit
 
 $$\sigma = \int_{\text{transverse}} \left[\frac{1}{2}(\nabla \Phi)^2 + V(\Phi)\right] d^2\xi$$
 
-where Φ is a scalar field with potential V. The value σ ≈ 6.0 × 10⁹⁸ kg/s² is **determined by the zone geometry and field potential**, not free.
+where Φ is a scalar field with potential V. The value σ ≈ 6.0 × 10⁹⁸ kg/(m·s²) is **determined by the zone geometry and field potential**, not free.
 
 ### 6.2 Independence of Parameters
 
@@ -497,7 +497,7 @@ The system is **neither underdetermined nor overdetermined**; it is exactly dete
 | **Quantity** | **Symbol** | **Formula** | **Dimensions** | **Numerical Value** | **Units** |
 |---|---|---|---|---|---|
 | Speed of light | c | Observable | [LT⁻¹] | 2.998 × 10⁸ | m/s |
-| Membrane tension | σ | 6D Einstein equations | [ML⁻¹T⁻²] | 6.0 × 10⁹⁸ | kg/s² |
+| Membrane tension | σ | 6D Einstein equations | [ML⁻¹T⁻²] | 6.0 × 10⁹⁸ | kg/(m·s²) |
 | Membrane density | μ | σ/c² | [ML⁻³] | 6.7 × 10⁸¹ | kg/m³ |
 | **Gravitational constant** | **G** | **Observable** | **[L³M⁻¹T⁻²]** | **6.674 × 10⁻¹¹** | **m³/(kg·s²)** |
 | Wave speed squared | c² = σ/μ | Ratio | [L²T⁻²] | 8.988 × 10¹⁶ | m²/s² |

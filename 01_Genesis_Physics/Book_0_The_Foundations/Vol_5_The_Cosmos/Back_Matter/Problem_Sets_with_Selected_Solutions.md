@@ -149,7 +149,7 @@ For comparison: hydrogen fusion converts 0.7% of rest mass to energy; the Penros
 
 ## Chapter 5 — Black Holes as Zone Infrastructure
 
-**P5.5.1 ★** Using Eq. (5.5.1), verify that the wave speed $c = \sqrt{\sigma/\mu}$ gives $c = 3 \times 10^8$ m/s for $\sigma \approx 6.0 \times 10^{98}$ J/m and $\mu \approx 6.7 \times 10^{81}$ kg/m³. Why are these extreme values not physically problematic? (Hint: what are the natural units of the Firmament?)
+**P5.5.1 ★** Using Eq. (5.5.1), verify that the wave speed $c = \sqrt{\sigma/\mu}$ gives $c = 3 \times 10^8$ m/s for $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) and $\mu \approx 6.7 \times 10^{81}$ kg/m³. Why are these extreme values not physically problematic? (Hint: what are the natural units of the Firmament?)
 
 **P5.5.2 ★★** The Breach Theorem (5.5.1) states that the membrane tension vanishes at $r = r_s$: $\sigma(r) = \sigma_\infty(1 - r_s/r) \to 0$ as $r \to r_s$. Derive the Bekenstein–Hawking entropy $S_\text{BH} = k_B A/(4\ell_P^2)$ from the mode-counting argument of §5.8: count the number of membrane oscillation modes with wavelength $\lambda \ge \ell_P$ on a sphere of area $A$, and show that $\ln\Omega \propto A/\ell_P^2$.
 

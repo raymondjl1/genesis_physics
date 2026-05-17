@@ -1,4 +1,4 @@
-> **⚠️ ARCHIVED — OBE (Overtaken By Events)**
+﻿> **⚠️ ARCHIVED — OBE (Overtaken By Events)**
 >
 > This was the full derivation document. Moved to archive because the Waters field content has been restructured into AXIOM_WATERS_DUALITY.md (Axiom 6) and the broader axiom framework. Retained as source reference for detailed derivations.
 >
@@ -80,7 +80,7 @@ The Firmament is a 4D hypersurface embedded in 6D space. Its action is given by 
 ```
 
 where:
-- σ = 6.0×10⁹⁸ kg/s² is the membrane tension (surface energy density)
+- σ = 6.0×10⁹⁸ kg/(m·s²) is the membrane tension (surface energy density)
 - g_ind is the determinant of the induced metric on the 4D Firmament hypersurface
 - d⁴x = dt dx dy dz (4D volume element)
 
@@ -1598,8 +1598,8 @@ CANONICAL VALUES (as of April 4, 2026)
 
 Speed of light:                c = 3.0×10⁸ m/s
 Gravitational constant:        G = 6.674×10⁻¹¹ m³/(kg·s²)
-Membrane tension:              σ = 6.0×10⁹⁸ kg/s²
-Volume mass density:           μ = 6.7×10⁸¹ kg/m³
+Membrane tension:              σ = 6.0×10⁹⁸ kg/(m·s²)
+Volume mass density:           μ = 6.7×10⁸¹ kg/m³    [T2-10 CONFIRMED 2026-05-16: units kg/m³ correct for 3D spatial brane (c²=σ/μ: [kg/(m·s²)]/[kg/m³]=[m²/s²]✓); 00_Archive/WATERS_FIELD_EQUATIONS.md says "Surface mass density" with kg/m² — dimensionally inconsistent. Active file is canonical.]
 
 Waters Above scale:            ξ_A ≈ 3×10²⁶ m  (~ observable universe)
 Waters Below scale:            η_B ≈ 1.3×10⁻¹⁵ m  (~ nuclear scale)

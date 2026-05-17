@@ -1,4 +1,4 @@
-# APPENDIX B: Experimental Mechanics Data
+﻿# APPENDIX B: Experimental Mechanics Data
 
 *Every number cited, predicted, or compared against in Vol 3, together with its source. Where the zone framework makes a prediction, the experimental value and the percent agreement are shown side-by-side.*
 
@@ -25,7 +25,7 @@ All values from **CODATA 2022** (Tiesinga, Mohr, Newell, and Taylor, 2024) unles
 | Vacuum permeability | $\mu_0$ | $1.256\,637\,062\,12(19)\times 10^{-6}$ | N/A² | CODATA 2022 |
 | Atomic mass unit | $u$ | $1.660\,539\,068\,92(52)\times 10^{-27}$ | kg | CODATA 2022 |
 
-**Zone cross-check.** Vol 2 Ch 2 Eq. (2.2.29) gives $G_4 = c^4/(8\pi\sigma L_{\text{eff}}^2)$. With $\sigma \approx 6\times 10^{98}$ kg/s² and $L_{\text{eff}}$ fixed by (2.9.11), the zone-derived value is $G_4 = 6.674\times 10^{-11}$ m³/(kg·s²) — agreement with the CODATA measurement at the fourth decimal, within the experimental uncertainty.
+**Zone cross-check.** Vol 2 Ch 2 Eq. (2.2.29) gives $G_4 = c^4/(8\pi\sigma L_{\text{eff}}^2)$. With $\sigma \approx 6\times 10^{98}$ kg/(m·s²) and $L_{\text{eff}}$ fixed by (2.9.11), the zone-derived value is $G_4 = 6.674\times 10^{-11}$ m³/(kg·s²) — agreement with the CODATA measurement at the fourth decimal, within the experimental uncertainty.
 
 ---
 

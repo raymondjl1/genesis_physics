@@ -1,4 +1,4 @@
-# Genesis Physics Numerical Simulations
+﻿# Genesis Physics Numerical Simulations
 ## Waters Field Equations & Structure Formation
 
 **Date:** April 2026
@@ -52,7 +52,7 @@ To handle extreme scale ranges (from 10⁻¹⁵ m to 10²⁶ m), all simulations
 **Physical constants (SI units):**
 | Parameter | Value | Unit | Description |
 |-----------|-------|------|-------------|
-| σ | 6.0×10⁹⁸ | kg/s² | Membrane tension |
+| σ | 6.0×10⁹⁸ | kg/(m·s²) | Membrane tension |
 | μ | 6.7×10⁸¹ | kg/m³ | Membrane surface density |
 | c | 3.0×10⁸ | m/s | Speed of light |
 | G | 6.67×10⁻¹¹ | m³ kg⁻¹ s⁻² | Gravitational constant |

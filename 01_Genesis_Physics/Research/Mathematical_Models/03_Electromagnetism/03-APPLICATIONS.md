@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light" — Electromagnetic waves are fundamental to the created order | Genesis 1:3 |
@@ -37,7 +37,7 @@ From the 6D membrane architecture:
 
 | Parameter | Value | Meaning |
 |-----------|-------|---------|
-| Membrane tension σ | 6.0×10⁹⁸ kg/s² | Elasticity of Firmament |
+| Membrane tension σ | 6.0×10⁹⁸ kg/(m·s²) | Elasticity of Firmament |
 | Surface density μ | 6.7×10⁸² kg/m² | 4D membrane inertia |
 | c² = σ/μ | 9.0×10¹⁶ m²/s² | Speed of light squared |
 | c (exact) | 3.0×10⁸ m/s | Universal speed limit |

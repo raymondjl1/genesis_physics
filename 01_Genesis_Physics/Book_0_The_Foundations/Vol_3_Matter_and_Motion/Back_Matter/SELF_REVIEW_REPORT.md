@@ -1,4 +1,4 @@
-# Self-Review Report — Vol 3 Back Matter
+﻿# Self-Review Report — Vol 3 Back Matter
 
 **Lifecycle Phase:** 4 — Self-Review
 **Date:** April 7, 2026
@@ -70,7 +70,7 @@ Every symbol used in the Back Matter has been cross-checked against Vol 1 Append
 | $g_{\mu\nu}$ | 4D Firmament metric | ✓ matches Vol 1 Ch 3 |
 | $h_{ab}$ | extra-dimensional metric | ✓ |
 | $\Psi_A, \Psi_B$ | Waters Above / Below complex scalars | ✓ |
-| $\sigma$ | membrane tension (kg/s²) — *not* to be confused with σ_SB (Stefan-Boltzmann) | ✓ disambiguated (Appendix B.1 tags σ_SB explicitly) |
+| $\sigma$ | membrane tension (kg/(m·s²)) — *not* to be confused with σ_SB (Stefan-Boltzmann) | ✓ disambiguated (Appendix B.1 tags σ_SB explicitly) |
 | $L_{\text{eff}}$ | effective KK length | ✓ |
 | $\kappa(t)$ | sustaining coupling | ✓ matches Vol 1 Ch 11 + Vol 3 Ch 12 |
 | $Z(T)$ | canonical partition function | ✓ |

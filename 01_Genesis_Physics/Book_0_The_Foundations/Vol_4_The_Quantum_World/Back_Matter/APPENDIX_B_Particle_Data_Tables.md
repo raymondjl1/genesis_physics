@@ -1,4 +1,4 @@
-# Appendix B — Particle Data Tables
+﻿# Appendix B — Particle Data Tables
 
 *Foundations Vol 4, The Quantum World — Back Matter*
 
@@ -51,7 +51,7 @@ All masses in MeV or GeV as appropriate. Energies in the same units. Mixing angl
 | Weak mixing angle | $\sin^2\theta_W(M_Z)$ | $0.231\,22(4)$ | PDG 2024 | APPROXIMATE — Ch 11 |
 | Higgs VEV | $v$ | $246.219\,65(6)$ GeV | PDG 2024 | APPROXIMATE — Ch 11 |
 | QCD scale | $\Lambda_\text{QCD}^{(5)}$ | $210\pm 14$ MeV | PDG 2024 | APPROXIMATE — Ch 12 |
-| Newton's constant | $G$ | $6.674\,30(15)\times 10^{-11}$ m³/kg/s² | CODATA 2022 | Derived (3.2.8) |
+| Newton's constant | $G$ | $6.674\,30(15)\times 10^{-11}$ m³/kg/(m·s²) | CODATA 2022 | Derived (3.2.8) |
 | Boltzmann constant | $k_B$ | $1.380\,649\times 10^{-23}$ J/K (exact) | CODATA 2022 | Derived (Vol 3 Ch 11) |
 
 ### Reading note

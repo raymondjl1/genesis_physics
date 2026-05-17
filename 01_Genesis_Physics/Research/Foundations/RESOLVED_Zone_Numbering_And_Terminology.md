@@ -373,7 +373,7 @@ Energy: ΔE = (ρ_c - ρ_below) × V × c² × η_transition
 
 **Membrane Tension Rule:**
 ```
-Firmament stress: σ = T / width ≈ 2.4×10⁴³ Pa (when corrected from membrane tension error)
+Firmament stress: σ = 6.0×10⁹⁸ kg/(m·s²) (canonical 3-brane tension; equivalently Pa = J/m³; see Quality_Control/Reference/Symbol_and_Constants.md)
 Breakthrough occurs at: σ > σ_critical (unknown value)
 Current state: σ << σ_critical (membrane stable)
 ```

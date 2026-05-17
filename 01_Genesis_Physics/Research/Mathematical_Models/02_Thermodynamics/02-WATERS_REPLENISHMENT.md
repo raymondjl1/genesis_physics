@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6-7 (Waters Above and Below); Colossians 1:17 (Christ sustains all things) | Genesis 1:6-7, Colossians 1:17 |
@@ -1172,7 +1172,7 @@ The Genesis Physics framework answers the question "Where does the universe's en
 | $P_A, P_B, P_F$ | Pressure in each reservoir | Pa |
 | $H(t)$ | Hubble parameter | s⁻¹ |
 | $a(t)$ | Scale factor (cosmic expansion) | dimensionless |
-| $\sigma$ | Membrane surface tension | kg/s² |
+| $\sigma$ | Membrane surface tension | kg/(m·s²) |
 | $\mu$ | Membrane surface density | kg/m² |
 | $\lambda$ | Dissipation parameter | s⁻¹ |
 | $\beta$ | Relaxation timescale parameter | s⁻¹ |
@@ -1205,7 +1205,7 @@ The Genesis Physics framework answers the question "Where does the universe's en
 **Framework parameters**:
 - $\xi_A \approx 3 \times 10^{26}$ m
 - $\eta_B \approx 1.3 \times 10^{-15}$ m
-- $\sigma = 6.0 \times 10^{98}$ kg/s²
+- $\sigma = 6.0 \times 10^{98}$ kg/(m·s²)
 - $\mu = 6.7 \times 10^{82}$ kg/m²
 
 **Cosmological observables**:

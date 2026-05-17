@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Particles are topological defects in membrane structure | Genesis 1:6 |
@@ -686,7 +686,7 @@ The effective dimensionality depends on which directions the soliton extends:
 ### Summary Table of All Soliton Types
 
 **Notation:**
-- σ = 6.0×10⁹⁸ kg/s²
+- σ = 6.0×10⁹⁸ kg/(m·s²)
 - μ = 6.7×10⁸² kg/m²
 - v_A ≈ (6m_A²/λ_A)^(1/2) (vacuum expectation value)
 - c = 3×10⁸ m/s

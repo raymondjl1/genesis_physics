@@ -1,4 +1,4 @@
-"""
+﻿"""
 TEST SUITE: Genesis Physics Unique Predictions
 ===============================================
 
@@ -69,7 +69,7 @@ class Constants:
     # GP-specific constants
     xi_A = 3.0e26                      # Waters Above scale (m)
     eta_B = 1.3e-15                    # Boundary zone scale (m)
-    sigma_membrane = 6.0e98            # Membrane tension (kg/s²)
+    sigma_membrane = 6.0e98            # Membrane tension (kg/(m·s²))
     l_eff_sq = (c**4) / (8 * np.pi * G * sigma_membrane)
 
     # CMB temperature
@@ -708,7 +708,7 @@ class TestGravityWeaknessDerived:
 
     Genesis Physics Explanation:
     - G = c⁴ / (8πσℓ_eff²)
-    - σ = membrane tension = 6.0 × 10⁹⁸ kg/s²
+    - σ = membrane tension = 6.0 × 10⁹⁸ kg/(m·s²)
     - ℓ_eff = effective length scale
     - Enormous σ → tiny G → gravity weak
     - Hierarchy emerges naturally from geometry
@@ -745,7 +745,7 @@ class TestGravityWeaknessDerived:
         l_eff_sq = Constants.l_eff_sq
 
         print(f"\n  Speed of light:       c = {c:.3e} m/s")
-        print(f"  Membrane tension:     σ = {sigma:.3e} kg/s²")
+        print(f"  Membrane tension:     σ = {sigma:.3e} kg/(m·s²)")
         print(f"  Effective length²:    ℓ_eff² = {l_eff_sq:.3e} m²")
 
         G_calc = c**4 / (8 * np.pi * sigma * l_eff_sq)

@@ -413,7 +413,7 @@ The research file 07-FTLMECHANISMSFORMAL.md Part 2 computes this cost as
 
 [Equation — see print edition.]
 
-where sigma is the membrane tension and Delta eta is the perpendicular excursion. From Vol 1 Ch 5 §1.5.3, the membrane tension is sigma approximately 10 to the 98 J/m — an enormous value set by the bulk cosmological constant and the Planck mass.
+where sigma is the membrane tension and Delta eta is the perpendicular excursion. From Vol 1 Ch 5 §1.5.3, the membrane tension is sigma approximately 6.0 times 10 to the 98 kg per m s squared (equivalently J per m cubed; energy per unit 3-volume) — an enormous value set by the bulk cosmological constant and the Planck mass.
 
 Energy-range honesty.
 
@@ -604,7 +604,7 @@ Results inherited from within the zone framework.
 - The 6D metric ansatz (5.4.27) is Vol 1 Ch 4 (1.4.12).
 - The warp-factor solution A( xi , eta sub 0) = A sub 0 - lambda sub A | xi - xi sub 0| is Vol 1 Ch 6 (1.6.29) and neighbors.
 - The Waters-Above field stress-energy (5.4.38) is Vol 1 Ch 6 (1.6.11).
-- The membrane tension sigma approximately 10 to the 98 J/m is Vol 1 Ch 5 §1.5.3.
+- The membrane tension sigma approximately 6.0 times 10 to the 98 kg per m s squared (energy per unit 3-volume) is Vol 1 Ch 5 §1.5.3.
 - The dimensional-bypass starlight result (5.4.33) is Vol 1 Ch 6 §1.6.5.
 - The brane-tension coefficient c_ sigma used in (5.4.25) is Vol 5 Ch 3 §3.9.
 - The linearized Einstein equation (5.4.35) is Vol 5 Ch 3 (5.3.10).

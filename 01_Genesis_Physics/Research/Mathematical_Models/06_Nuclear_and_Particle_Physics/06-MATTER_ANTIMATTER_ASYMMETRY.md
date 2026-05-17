@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Asymmetry in upper and lower waters creates particle-antiparticle imbalance | Genesis 1:6-7 |
@@ -469,7 +469,7 @@ The energy scale is set by the membrane tension and zone separation:
 
 $$E_{\text{zone}} = \sigma \times A_{\text{Firmament}} \tag{4.8)$$
 
-where $\sigma \approx 6 \times 10^{98}$ kg/s² and the Firmament area at Day 2 is order the observable universe size at that moment.
+where $\sigma \approx 6 \times 10^{98}$ kg/(m·s²) and the Firmament area at Day 2 is order the observable universe size at that moment.
 
 Rough estimate: $E_{\text{zone}} \sim 10^{85}$ J, giving an effective temperature:
 
@@ -670,7 +670,7 @@ From the 6D action and zone architecture:
 |-----------|-------|-----------------|
 | $\xi_A$ | $3 \times 10^{26}$ m | Waters Above scale |
 | $\eta_B$ | $1.3 \times 10^{-15}$ m | Waters Below scale |
-| $\sigma$ | $6 \times 10^{98}$ kg/s² | Membrane tension |
+| $\sigma$ | $6 \times 10^{98}$ kg/(m·s²) | Membrane tension |
 | $\mu$ | $6.7 \times 10^{81}$ kg/m³ | Volume mass density |
 | $c$ | $3 \times 10^8$ m/s | Speed of light |
 | $\alpha^{-1}$ | $137.26$ | Fine structure constant |
@@ -1012,7 +1012,7 @@ The matter-antimatter asymmetry is not an unexplained cosmological accident. It 
 | η_B (Waters Below scale) | $1.3 \times 10^{-15}$ m | Zone architecture |
 | Asymmetry ratio | $2.3 \times 10^{41}$ | ξ_A / η_B |
 | **Membrane Parameters** |  |  |
-| Tension σ | $6.0 \times 10^{98}$ kg/s² | ACTION_6D_COMPLETE |
+| Tension σ | $6.0 \times 10^{98}$ kg/(m·s²) | ACTION_6D_COMPLETE |
 | Volume mass density μ | $6.7 \times 10^{81}$ kg/m³ | ACTION_6D_COMPLETE |
 | Firmament mass-energy | $\sqrt{\sigma \mu} \approx 2 \times 10^{91}$ J | Geometric mean |
 | **Coupling Constants** |  |  |

@@ -1,4 +1,4 @@
-Introduction — Why Do Things Weigh What They Weigh?.
+﻿Introduction — Why Do Things Weigh What They Weigh?.
 
 An electron weighs 0.511 MeV. A top quark weighs 173 GeV. The ratio between them is about 340,000 to one. Why?
 
@@ -16,7 +16,7 @@ This chapter fills that gap. We will derive the entire mass-generation mechanism
 
 1. The Higgs field is not postulated. It is the lowest Kaluza-Klein mode of the Waters Above scalar field Psi sub A — the same field we introduced in Vol 1 Chapter 5. (§7.1)
 
-2. The Mexican hat potential is not assumed. It emerges from the boundary conditions at the Firmament, where the membrane tension sigma approximately equal to 6 times 10 to the 98 kg/s² creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
+2. The Mexican hat potential is not assumed. It emerges from the boundary conditions at the Firmament, where the membrane tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
 
 3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak scale v = 246.22 GeV is fixed by the zone geometry. (§7.3)
 
@@ -147,7 +147,7 @@ Everything changes because of the Firmament.
 
 The Membrane Tension Effect.
 
-The Firmament is a domain wall with tension sigma = 6.0 times 10 to the 98 kg/s² (Vol 1, Eq. 1.5.28). When the Waters Above field Psi sub A couples to this boundary, the membrane generates an additional potential contribution.
+The Firmament is a domain wall with tension sigma = 6.0 times 10 to the 98 kg/(m·s²) (Vol 1, Eq. 1.5.28). When the Waters Above field Psi sub A couples to this boundary, the membrane generates an additional potential contribution.
 
 The physical mechanism is as follows. The Waters field near xi = 0 experiences the enormous stress-energy of the Firmament. The membrane is not a passive boundary — it is a dynamical object whose tension curves the ambient geometry. In Vol 1 §5.4, we computed the extrinsic curvature tensor K to the ( xi ) sub mu nu (Eq. 1.5.17) and showed that it creates a discontinuity in the normal derivative of the metric at the Firmament surface. This discontinuity — the junction condition (Eq. 1.5.42) — means that fields living on either side of the membrane experience a potential "step" at xi = 0.
 

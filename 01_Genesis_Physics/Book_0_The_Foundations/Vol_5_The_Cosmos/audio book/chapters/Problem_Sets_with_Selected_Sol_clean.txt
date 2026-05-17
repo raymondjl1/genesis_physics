@@ -141,7 +141,7 @@ For comparison: hydrogen fusion converts 0.7% of rest mass to energy; the Penros
 
 Chapter 5 — Black Holes as Zone Infrastructure.
 
-P5.5.1 ★ Using Eq. (5.5.1), verify that the wave speed c = square root of sigma / mu gives c = 3 times 10 to the 8 m/s for sigma approximately equal to 6.0 times 10 to the 98 J/m and mu approximately equal to 6.7 times 10 to the 81 kg/m³. Why are these extreme values not physically problematic? (Hint: what are the natural units of the Firmament?)
+P5.5.1 ★ Using Eq. (5.5.1), verify that the wave speed c = square root of sigma / mu gives c = 3 times 10 to the 8 m/s for sigma approximately equal to 6.0 times 10 to the 98 kg per m s squared and mu approximately equal to 6.7 times 10 to the 81 kg/m³. Why are these extreme values not physically problematic? (Hint: what are the natural units of the Firmament?)
 
 P5.5.2 ★★ The Breach Theorem (5.5.1) states that the membrane tension vanishes at r = r sub s: the expression as r to r sub s. Derive the Bekenstein–Hawking entropy the expression from the mode-counting argument of §5.8: count the number of membrane oscillation modes with wavelength lambda ell sub P on a sphere of area A, and show that Omega proportional to A/ ell sub P to the 2.
 

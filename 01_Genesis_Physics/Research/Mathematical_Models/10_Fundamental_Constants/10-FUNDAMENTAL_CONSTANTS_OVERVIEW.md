@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth"; "the Lord upholds all things by the word of his power" | Genesis 1:1; Hebrews 1:3 |
@@ -492,7 +492,7 @@ $$\text{(67)} \quad \frac{G m_e^2}{e^2/(4\pi\epsilon_0)} \approx 10^{-38}$$
 
 Standard physics has no explanation for this huge ratio. It is empirically measured, and gravity "just is" weak.
 
-**Genesis Physics Answer**: Gravity is weak because it involves **macroscopic curvature of the Firmament itself**. Bending the extraordinarily stiff membrane (tension σ ~ 10⁹⁸ kg/s²) requires enormous energy. In contrast, electromagnetic forces involve rearrangements of light fields that sit atop the membrane and require much less energy.
+**Genesis Physics Answer**: Gravity is weak because it involves **macroscopic curvature of the Firmament itself**. Bending the extraordinarily stiff membrane (tension σ ~ 10⁹⁸ kg/(m·s²)) requires enormous energy. In contrast, electromagnetic forces involve rearrangements of light fields that sit atop the membrane and require much less energy.
 
 **Scaling Argument**: The gravitational field strength should be proportional to:
 
@@ -599,7 +599,7 @@ $$\text{(85)} \quad \frac{c^4}{\sigma} = \frac{8.1 \times 10^{33}}{6 \times 10^{
 
 Hmm, this has wrong dimensions. Let me recheck.
 
-[c⁴/σ] = (m/s)⁴ / (kg/s²) = m⁴/(s⁴) × (s²/kg) = m⁴/(s² kg)
+[c⁴/σ] = (m/s)⁴ / (kg/(m·s²)) = m⁴/(s⁴) × (s²/kg) = m⁴/(s² kg)
 
 [G] = m³/(kg·s²)
 

@@ -1,4 +1,4 @@
-In which we stand at the summit and see the whole territory — every force, every energy scale, every prediction, and every way this framework could be wrong.
+﻿In which we stand at the summit and see the whole territory — every force, every energy scale, every prediction, and every way this framework could be wrong.
 
 Introduction — One Geometry, Four Shadows.
 
@@ -63,7 +63,7 @@ Zone Parameter: Waters Below extent. Symbol: η_B ≈ 1.3×10⁻¹⁵ m. Role: S
 Zone Parameter: Waters Above warp slope. Symbol: λ = 41. Role: Controls gravitational dilution.
 Zone Parameter: Waters Below warp decay. Symbol: γ = 10¹⁵ m⁻¹. Role: Controls strong force confinement.
 Zone Parameter: Firmament position. Symbol: (ξ₀, η₀). Role: Determines junction conditions.
-Zone Parameter: Firmament tension. Symbol: σ ≈ 6.0×10⁹⁸ kg/s². Role: Sets speed of light, Planck scale.
+Zone Parameter: Firmament tension. Symbol: σ ≈ 6.0×10⁹⁸ kg/(m·s²). Role: Sets speed of light, Planck scale.
 Zone Parameter: 6D gravitational constant. Symbol: G₆. Role: Sets overall gravitational strength.
 
 From these seven parameters, all 19 Standard Model parameters follow as geometric integrals. The reduction from 19 to 7 is not cosmetic — it represents genuine explanatory power. Where the Standard Model says "measure it," zone architecture says "calculate it from the shape of the extra dimensions."

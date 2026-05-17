@@ -1,4 +1,4 @@
-> **DERIVATION TRACEABILITY MATRIX**
+﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let the earth bring forth grass, the herb yielding seed" — Condensed matter structure supports life's complexity | Genesis 1:11 |
@@ -68,7 +68,7 @@ Superfluidity & Quantized Vortices
 | Debye temperature | Θ_D | (100-1000) | K | [Θ] |
 | Boltzmann constant | k_B | 1.380649×10⁻²³ | J/K | [ML²T⁻²Θ⁻¹] |
 | Fine structure constant | α | 1/137.036 | — | [dimensionless] |
-| Brane tension | σ | 6.0×10⁹⁸ | kg/s² | [MT⁻²] |
+| Brane tension | σ | 6.0×10⁹⁸ | kg/(m·s²) | [MT⁻²] |
 | Nuclear scale | η_B | 1.3×10⁻¹⁵ | m | [L] |
 | Hubble scale | ξ_A | 1.4×10²⁶ | m | [L] |
 
@@ -91,7 +91,7 @@ $$\mu \frac{∂²ψ}{∂t²} = σ ∇²ψ - V_ext(x)ψ + \mathcal{F}(x,t)$$
 
 where:
 - μ = 6.7×10⁸¹ kg/m³ (surface mass density)
-- σ = 6.0×10⁹⁸ kg/s² (brane tension)
+- σ = 6.0×10⁹⁸ kg/(m·s²) (brane tension)
 - Wave speed: c = √(σ/μ) = 3×10⁸ m/s (exact!)
 - V_ext = external potential (lattice, defects)
 - ℱ = stochastic force from Waters fluctuations
