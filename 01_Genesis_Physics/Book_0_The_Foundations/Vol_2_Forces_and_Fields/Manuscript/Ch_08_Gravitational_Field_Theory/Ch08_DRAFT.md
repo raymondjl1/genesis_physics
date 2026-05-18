@@ -20,6 +20,8 @@ Newton's theory of gravity has a fatal flaw, and Newton himself knew it. In a fa
 
 The problem is action at a distance. In Newton's formulation, if the Sun were to suddenly vanish, the Earth would instantly feel the change in gravitational pull — faster than light, violating the causal structure of spacetime. This is not merely a philosophical concern. The zone manifold $\mathcal{M}_Z$ has a definite causal structure: the metric (Eq. 1.4.2) defines light cones, and no physical influence can propagate outside them. Information on the zone manifold travels at the Firmament membrane wave speed $c$ — the same speed that governs electromagnetic waves (Ch 3, Eq. 2.3.33; Ch 7, Eq. 2.7.5). A theory of gravity that permits instantaneous propagation is *inconsistent* with the zone architecture.
 
+> **Structural reminder.** *Firmament* (and, where they appear later, *Waters Above / Waters Below*) are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+
 The resolution is the same one Einstein found in 1915, but we arrive at it from a different direction. Chapter 2 derived the 4D Einstein field equations (Eq. 2.2.12) as a consequence of the 6D zone action. Those equations are fully relativistic — they respect the causal structure of the Firmament. Newtonian gravity is their weak-field, slow-motion limit. The full equations describe a *gravitational field* that propagates, carries energy, and obeys the same causality constraints as every other field on the zone manifold.
 
 This chapter makes that gravitational field theory explicit. We will:

@@ -11,7 +11,7 @@
 
 ## §2.1 Why Formalism Matters — From F=ma to the Action Principle
 
-Chapter 1 accomplished something that standard physics textbooks skip: it derived F=ma from the geometry of the zone manifold. The student now holds Newton's three laws not as axioms but as theorems, traced back to the zone action, the geodesic equation, and covariant conservation of stress-energy.
+Chapter 1 accomplished something that standard physics textbooks skip: it derived F=ma from the geometry of the zone manifold. The student now holds Newton's three laws not as axioms but as theorems, traced back to the zone action, the geodesic equation, and covariant conservation of stress-energy. Per Ch 1 §1.1, the test-particle action used in that derivation descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8. Everything in this chapter inherits that pedigree.
 
 But there's a problem.
 

@@ -287,6 +287,8 @@ Second, vastness serves a purpose even without FTL. It means that stars are sepa
 
 Genesis 1:28 says: "Be fruitful and multiply; fill the earth and subdue it." This is interpreted by some theologians as a mandate to expand, explore, and master the environment. If God intended for humanity to fill the earth (and the cosmos), why give us a cosmos we can't reach?
 
+> **Motivation, not derivation.** Gen 1:28 motivates dominion over creation as the human vocation; this is the cultural mandate that grounds scientific inquiry and the long-term aspiration toward cosmic-scale engineering, not a derivation of any prediction in this chapter. None of the FTL predictions follows from Gen 1:28. What it supplies is a reason to *ask* the questions of §9.10 — not a license to claim scriptural warrant for any specific mechanism.
+
 This is a better argument. And the honest answer is: **this mandate applies to Phase 4, not Phase 3.**
 
 Phase 3 is not the final chapter. It's the middle of the story. In Phase 3, humanity is adolescent—smart enough to understand the universe, not mature enough to be trusted with all its capabilities. We build and explore and invent within the constraints of the second law. We learn. We develop the wisdom to use power responsibly.

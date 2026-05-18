@@ -11,6 +11,9 @@
 
 ## §7.0 What This Chapter Is (and Is Not)
 
+> **Structural reminder.** *Firmament* is this textbook's term for the 3-brane hypersurface $Z_{2.2}$ derived in Vol 1 Ch 5, named after the Hebrew *rāqîaʿ* (Gen 1:6–8) for a hammered, stretched membrane. *Waters Above / Waters Below* are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
+
 Before stating any theorem, let me say carefully what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
 
 **What this chapter does.** It identifies the hidden completeness premise of the Penrose–Hawking singularity theorems — the premise that the spacetime manifold is the maximal Lorentzian manifold compatible with the field equations and that there is no boundary into which incomplete geodesics can exit. It shows that this premise fails in the zone framework, because the 4D spacetime of GR is the Firmament $\Sigma = Z_{2.2}$ embedded in the 6D zone manifold $Z$ (Vol 1 Ch 4), and the Firmament has a boundary $\partial\Sigma$ — the breach edge of Chapter 5. It then proves a continuation lemma (Lemma 5.7.1): every Firmament geodesic that terminates at $\partial\Sigma$ admits a unique 6D continuation as a worldline in the bulk. From the lemma it derives three regularization theorems: one for the Schwarzschild and Kerr black hole interiors (Theorem 5.7.2), one for the Big Bang (Theorem 5.7.3), and a generic theorem covering essentially all spacetimes obeying the Vol 1 axioms (Theorem 5.7.4). It compares the resulting picture with loop quantum gravity, string theory, and asymptotic safety, and argues that the Firmament membrane resolution is, alone among these, *generic, free of fine-tuning, and derivable* rather than postulated.

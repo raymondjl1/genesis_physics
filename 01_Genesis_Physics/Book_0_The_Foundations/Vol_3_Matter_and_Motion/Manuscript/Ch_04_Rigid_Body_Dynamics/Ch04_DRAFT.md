@@ -13,7 +13,7 @@
 
 In Volume 1, Chapter 7, we derived angular momentum conservation from the zone manifold's rotational symmetry. The argument was clean: the spatial isotropy of the zone manifold (no direction is privileged — "God does not show favoritism," Acts 10:34) produces three rotational Killing vectors (Eq. 1.7.31), Noether's theorem yields three conserved angular momentum components (Eq. 1.7.33), and the total angular momentum of any isolated system is constant.
 
-In Chapter 3, we wielded this conservation law to powerful effect: it confined central force orbits to planes, reduced the Kepler problem to a single radial ODE, and explained why planetary orbits close. But every application so far has treated angular momentum as a property of *point particles* — objects with mass but no spatial extent.
+In Chapter 3, we wielded this conservation law to powerful effect: it confined central force orbits to planes, reduced the Kepler problem to a single radial ODE, and explained why planetary orbits close. But every application so far has treated angular momentum as a property of *point particles* — objects with mass but no spatial extent. Per Ch 1 §1.1, the test-particle action underwriting these results descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8; the rotating extended bodies of this chapter live on that same surface.
 
 Real objects are not points. A spinning figure skater, a tumbling asteroid, a precessing gyroscope — these are extended bodies whose rotation involves the coordinated motion of every constituent particle. The question is: **what does angular momentum conservation look like for an extended object?**
 

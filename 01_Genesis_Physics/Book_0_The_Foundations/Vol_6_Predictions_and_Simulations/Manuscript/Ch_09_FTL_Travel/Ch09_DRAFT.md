@@ -1803,6 +1803,8 @@ Second, vastness serves a purpose even without FTL. It means that stars are sepa
 
 Genesis 1:28 says: "Be fruitful and multiply; fill the earth and subdue it." This is interpreted by some theologians as a mandate to expand, explore, and master the environment. If God intended for humanity to fill the earth (and the cosmos), why give us a cosmos we can't reach?
 
+> **Motivation, not derivation.** Gen 1:28 motivates dominion over creation as the human vocation; this is the cultural mandate that grounds scientific inquiry and the long-term aspiration toward cosmic-scale engineering, not a derivation of any prediction in this chapter. None of P-091 through P-094 follows from Gen 1:28. What Gen 1:28 supplies is a reason to *ask* the questions of §9.10 — whether a cosmos this large is consistent with a creature called to fill it; whether the framework's mechanisms can in principle support that calling — not a license to claim that any FTL prediction has scriptural warrant.
+
 This is a better argument. And the honest answer is: **this mandate applies to Phase 4, not Phase 3.**
 
 Phase 3 is not the final chapter. It's the middle of the story. In Phase 3, humanity is adolescent—smart enough to understand the universe, not mature enough to be trusted with all its capabilities. We build and explore and invent within the constraints of the second law. We learn. We develop the wisdom to use power responsibly.
@@ -1932,7 +1934,7 @@ The following predictions span all five mechanisms and the comparative framework
 >
 > **Standard GR (4D only) predicts:** Light takes the shortest path on the Firmament. No bulk paths.
 >
-> **Experimental evidence:** Starlight is observed to reach Earth during the first day of creation (Genesis 1:14–18), when the universe is only hours old. This is impossible if light is confined to the Firmament, because even at light speed, distant starlight cannot reach Earth. The zone architecture resolves this via Mechanism 2: light uses shorter paths through the bulk.
+> **Scriptural witness (not experimental evidence):** Scripture establishes that starlight reached Earth during creation week (Gen 1:14–18); we extrapolate the mechanism — bulk-geodesic shortcuts through the Waters Above — on the assumption that the same dimensional-bypass geometry available to the framework in the post-creation regime was available during the creation epoch. This is an **extrapolation flag**: the framework treats Gen 1:14–18 as a *constraint to be satisfied* by the cosmology, not as experimental data, and the bulk-path mechanism is the framework's *proposed* satisfier — not an observational confirmation of bulk paths. Mechanism 2 is the candidate; whether starlight in fact reached Earth via bulk geodesics is open until an independent observational test (see *Distinguishing experiment* below) constrains it.
 >
 > **Distinguishing experiment:**
 > - This is already observed in the form of starlight. The prediction is not about future observation, but about the *interpretation* of existing data.

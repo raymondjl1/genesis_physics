@@ -16,6 +16,8 @@ This chapter answers those questions. What we will find is both beautiful and un
 
 We will derive the beta functions that govern this running from the zone Lagrangian of Chapter 5, solve the running equations for all three gauge couplings, and discover that they converge toward a single value at extraordinarily high energy — the energy where the probe resolves the full extra-dimensional structure. This convergence is the zone architecture's prediction for grand unification, and it provides one of the most powerful consistency tests of the entire framework.
 
+> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+
 ---
 
 ## 10.1 Why Couplings Run: Energy and Geometry

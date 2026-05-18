@@ -18,6 +18,8 @@ Our target is the single most famous equation of twentieth-century physics: the 
 
 They could not be derived from classical ideas. But they can be derived from architectural ones — from the zone manifold, from the Firmament membrane, from the waves that live on it, and from the value of ℏ that was computed in Vol 1 Ch 10 before anyone uttered the word "quantum." That is this chapter's job.
 
+> **Structural reminder.** *Firmament* and *Waters Above/Below* are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ (Firmament) and the bulk regions carrying $\Psi_A$ / $\Psi_B$. Canonical phrasing follows Ch 10 §10.1.
+
 Here is the contract. We start from the Firmament wave equation (1.5.1), which is a *classical* second-order partial differential equation for the Firmament membrane's transverse displacement. We introduce a single change of variables — the envelope ansatz — which separates the fast rest-energy oscillation from the slow envelope. We apply a single approximation — the non-relativistic limit — whose error we quantify before we use it. We rearrange. What falls out is the time-dependent Schrödinger equation, with the correct factor of i, the correct factor of ℏ²/2m, and the correct additive potential term. No postulate. No import. No hand-wave. Every intermediate line is either a citation to Vols 1–3, an algebraic manipulation, or a dimensionally-justified approximation.
 
 If we succeed, the reader should be able to walk back through §2.4 and §2.5 with a pencil and check every step in an afternoon. If we fail anywhere — if a single line is unjustified — the Physicist reviewer will find it. That is the standard.

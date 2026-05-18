@@ -4,6 +4,8 @@
 
 ## Part I: Quantum Mechanics from Firmament Dynamics
 
+> **Structural reminder.** *Firmament* and *Waters Above/Below* are not metaphor. They are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ (Firmament) and the extra-dimensional bulk regions carrying the scalar fields $\Psi_A$ (Waters Above) and $\Psi_B$ (Waters Below). Canonical phrasing follows Ch 10 §10.1: "the four-dimensional firmament membrane coupled to the extra-dimensional Waters Above scalar field."
+
 ---
 
 > *"In the beginning was the Word, and the Word was with God, and the Word was God. … All things were made through Him, and without Him nothing was made that has been made."*

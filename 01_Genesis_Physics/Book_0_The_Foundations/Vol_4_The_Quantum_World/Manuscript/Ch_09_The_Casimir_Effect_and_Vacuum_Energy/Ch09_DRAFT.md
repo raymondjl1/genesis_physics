@@ -19,7 +19,9 @@ figures: 5 (Fig 4.9.1–4.9.5)
 
 ## §9.0 Introduction — The Energy of Nothing
 
-Chapter 8 confronted the divergences that lurk inside every loop integral and showed that zone architecture resolves them with a physical cutoff: the Firmament thickness η_B gives a maximum wavenumber, making every integral finite. But we left a question hanging. The vacuum — the state with no particles at all — is not empty. Chapter 6 showed that the free-field Hamiltonian has the form
+Chapter 8 confronted the divergences that lurk inside every loop integral and showed that zone architecture resolves them with a physical cutoff: the Firmament thickness η_B gives a maximum wavenumber, making every integral finite. But we left a question hanging.
+
+> **Structural reminder.** *Firmament* and *Waters Above/Below* are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ (Firmament) and the bulk regions carrying $\Psi_A$ / $\Psi_B$. Canonical phrasing follows Ch 10 §10.1. The vacuum — the state with no particles at all — is not empty. Chapter 6 showed that the free-field Hamiltonian has the form
 
 $$\hat{H} = \sum_{\mathbf{k}} \hbar\omega_{\mathbf{k}}\left(\hat{N}_{\mathbf{k}} + \tfrac{1}{2}\right)$$
 

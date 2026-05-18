@@ -7,6 +7,14 @@ date: 2026-04-09
 word_count: 23,847
 ---
 
+# Part IV: Chronology and Cosmological Reflection
+
+## Preface to Part IV
+
+A brief note on register before Chapter 12 begins. The first eleven chapters of this volume were written in the technical register that the rest of the Foundations Series uses — field equations, derivations, error bars, ledgers of what is proven and what is open. Part IV does not abandon that register; the calculations in Ch 12's starlight chapter, Ch 13's fine-structure derivation, and Ch 14's cosmological-parameter reconciliation are no less rigorous than what came before. But the *kind of question* Part IV asks is different. It asks, finally and explicitly, how the zone-architecture cosmology meets — or fails to meet — the chronological commitments of the text that named its objects in the first place. That meeting is a place where care matters more than confidence. The Skeptic reviewer is welcome to scrutinize every number; the Theologian reviewer is welcome to scrutinize every reading; both should expect to find the chapters more reserved in their claims than the rest of the volume. The structural results — the Sabbath Boundary phase transition, the two-phase expansion mechanism, the derivation of $\alpha$ from $\xi_A/\eta_B$, the cosmological-parameter ledger — are the load-bearing physics, and they are stated as such. The interpretive results — what these mechanisms *say* about the chronological structure named in Gen 1 — are stated as readings rather than as proofs. This is the closing-reflection register: rigorous, reverent, honest about its limits, and unwilling to claim more for itself than the mathematics has earned. Vol 5 ends here, and it ends carefully on purpose.
+
+---
+
 # Chapter 12: The Starlight Problem and Chronology
 
 ## Introduction

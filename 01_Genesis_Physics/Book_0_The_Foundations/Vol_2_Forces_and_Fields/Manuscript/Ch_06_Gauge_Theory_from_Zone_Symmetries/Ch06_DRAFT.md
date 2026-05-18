@@ -6,6 +6,8 @@
 
 In the five chapters behind us, we have done something that no physics textbook does: we have derived all four fundamental forces from a single geometric structure. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from Firmament membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
 
+> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+
 But we committed an honest sin. We *used* the gauge groups U(1), SU(2), and SU(3). We did not *derive* them.
 
 That is the business of this chapter. We are going to answer the question that the Standard Model never answers: **why these gauge groups?** Not SO(10). Not E₆. Not SU(5). Why exactly U(1) × SU(2) × SU(3), and why does this product group force Yang-Mills dynamics as the only consistent classical field theory?

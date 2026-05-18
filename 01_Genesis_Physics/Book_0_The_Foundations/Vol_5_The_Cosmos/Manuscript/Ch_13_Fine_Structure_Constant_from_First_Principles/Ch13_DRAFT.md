@@ -45,6 +45,8 @@ The reason the question is so sharp is that $\alpha$ is not just a coupling — 
 
 ### §13.1.2 What Volume 2 Already Claimed
 
+> **Structural reminder.** *Firmament* is this textbook's term for the 3-brane hypersurface $Z_{2.2}$ derived in Vol 1 Ch 5, named after the Hebrew *rāqîaʿ* (Gen 1:6–8) for a hammered, stretched membrane. *Waters Above / Waters Below* are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
 In Vol 2 Chapter 3 we derived electromagnetism from the wave propagation of the Firmament membrane and performed a preliminary computation of $\alpha$. That chapter reached the scaffold
 
 $$\alpha^{-1} \approx C \cdot \ln\left(\frac{\xi_A}{\eta_B}\right), \tag{5.13.2}$$

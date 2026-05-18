@@ -437,6 +437,18 @@ The zone Lagrangian (2.5.20) is not the most general Lagrangian one could write 
 
 The Five Principles, formalized in Volume 1 Chapter 8, eliminate all of these. Each principle acts as a mathematical constraint that removes a class of otherwise allowed terms. The result is that the zone Lagrangian (2.5.20) is the *unique* two-derivative Lagrangian consistent with all five constraints.
 
+**Biblical anchors (per Vol 1 Ch 8 / `Quality_Control/Reference/Five_Principles.md`).** The Five Principles are not theological gloss attached to a finished physics framework; they are scripturally identified constraints that, when carried into the action, *select* the Lagrangian. The canonical anchors are:
+
+| # | Principle | Biblical anchor | What it constrains in (2.5.20) |
+|---|-----------|----------------|-------------------------------|
+| 1 | Sustaining | Col 1:17; Heb 1:3 | Open-system coupling $\kappa(t)$; sustaining sector (§5.4.2) |
+| 2 | Conservation | Mal 3:6 | Closed-flux boundary condition for $t > t_7$ (§5.4.3) |
+| 3 | Symmetry | (see Vol 1 Ch 8 footnote) | Diffeomorphism + gauge invariance (§5.4.4) |
+| 4 | Degradation | Rom 8:20 | Potential shape forces $dS_\text{total}/dt \ge 0$ (§5.4.5) |
+| 5 | Duality | Gen 1:27 | CPT pairing; $V(\Psi)=V(-\Psi)$ (§5.4.6) |
+
+The role of these references is structural, not decorative. Each verse names a constraint that, in Vol 1 Ch 8, is shown to be mathematically realizable; the subsections that follow show how each constraint cuts the space of allowed Lagrangians until only (2.5.20) remains.
+
 [FIGURE: Fig 2.5.3 — The Five Principles as Lagrangian Constraints. Five horizontal filters, each labeled with a principle name. Arrows show the space of all possible 6D Lagrangians entering from the top. Each filter eliminates a class of terms (labeled in red to the side). The Lagrangian that survives all five filters is the unique zone Lagrangian at the bottom.]
 
 ### §5.4.2 Constraint 1: Sustaining (Active Presence)

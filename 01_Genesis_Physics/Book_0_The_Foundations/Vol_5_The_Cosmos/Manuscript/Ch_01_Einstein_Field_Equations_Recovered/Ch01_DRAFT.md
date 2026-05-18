@@ -11,6 +11,9 @@
 
 ## §1.0 Why This Chapter Matters
 
+> **Structural reminder.** *Firmament* is this textbook's term for the 3-brane hypersurface $Z_{2.2}$ derived in Vol 1 Ch 5, named after the Hebrew *rāqîaʿ* (Gen 1:6–8) for a hammered, stretched membrane. *Waters Above / Waters Below* are the bulk regions $Z_{2.2.3}$ / $Z_{2.2.1}$ on either side (Vol 1 Ch 3–4). The terminology, per Ch 5 §5.0, was chosen because the Hebrew denotes a physical membrane — which is what the physics requires.
+
+
 Volume 2, Chapter 8 gave us a *field theory* of gravity. We linearized the four-dimensional Einstein equations around flat Minkowski space, imposed the harmonic gauge, and extracted the gravitational wave equation $\Box \bar{h}_{\mu\nu} = -\frac{16\pi G_4}{c^4}T_{\mu\nu}$ (Vol 2 Eq. 2.8.12). We predicted two polarization modes. We explained the orbital decay of the Hulse–Taylor binary pulsar to half a percent. We matched the GW150914 waveform observed by LIGO. And in every one of those calculations, we used the same small parameter: $h_{\mu\nu}$ was assumed small, so that the nonlinear terms in the Einstein equations could be dropped.
 
 That assumption is not always justified. Mercury's perihelion advance is a second-order effect in $r_s/a$. The Shapiro time delay is a logarithmic correction that only exists because the spatial metric is curved nontrivially. The bending of starlight by the Sun measures a full factor of 4, and getting the factor right requires the *coupled* deformation of both the time and the radial metric components — a piece of physics that only the nonlinear theory gives. A black hole is the regime $h_{\mu\nu}\sim 1$; linearized gravity is no theory of black holes at all. The expanding universe is a regime where $h_{\mu\nu}$ is literally the whole metric, not a perturbation; linearized gravity is no theory of cosmology either.

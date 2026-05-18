@@ -22,7 +22,11 @@ In Chapter 7, we computed Feynman diagrams and extracted extraordinarily precise
 
 This chapter asks: where do these divergences come from, why are they not disasters, and why in zone architecture they are actually finite?
 
-The answer rests on a simple observation. Chapter 7 treated momentum integrals as if spacetime were infinitely fine-grained—we integrated k from 0 to ∞. But the Firmament is not infinitely fine-grained. It has a thickness into the perpendicular (ξ, η) dimensions. The finest scale we can resolve is the Firmament thickness η_B. Modes with wavelength shorter than η_B don't fit. This means there is a natural ultraviolet cutoff:
+The answer rests on a simple observation. Chapter 7 treated momentum integrals as if spacetime were infinitely fine-grained—we integrated k from 0 to ∞. But the Firmament is not infinitely fine-grained.
+
+> **Structural reminder.** *Firmament* and *Waters Above/Below* are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ (Firmament) and the bulk regions carrying $\Psi_A$ / $\Psi_B$. Canonical phrasing follows Ch 10 §10.1.
+
+It has a thickness into the perpendicular (ξ, η) dimensions. The finest scale we can resolve is the Firmament thickness η_B. Modes with wavelength shorter than η_B don't fit. This means there is a natural ultraviolet cutoff:
 
 $$\Lambda_{\rm zone} = \frac{\hbar c}{\eta_B} \approx 2.4 \times 10^{19} \text{ GeV}$$
 

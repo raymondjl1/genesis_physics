@@ -11,6 +11,9 @@
 
 ## §8.0 What This Chapter Is (and Is Not)
 
+> **Structural reminder.** *Firmament* is this textbook's term for the 3-brane hypersurface $Z_{2.2}$ derived in Vol 1 Ch 5, named after the Hebrew *rāqîaʿ* (Gen 1:6–8) for a hammered, stretched membrane. *Waters Above / Waters Below* are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
+
 Before stating any theorem, let me say what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
 
 **What this chapter does.** It derives the *sustaining-mode* Friedmann equations from two prior pieces of the framework — the Waters field equations of Vol 1 Ch 6 and the recovered Einstein field equations of Vol 5 Ch 1 — and uses them to construct the cosmological model that follows: the energy budget, the era structure, and the integral consequences ($H_0$, age $t_0$, present CMB temperature $T_0$). The Friedmann equations of standard cosmology come out as labeled, numbered theorems whose source terms have known bulk-field origins. The key architectural claim is one sentence long. *The cosmological fluid is the Firmament projection of the Waters fields.* Everything else in the chapter is the consequences of that one sentence.

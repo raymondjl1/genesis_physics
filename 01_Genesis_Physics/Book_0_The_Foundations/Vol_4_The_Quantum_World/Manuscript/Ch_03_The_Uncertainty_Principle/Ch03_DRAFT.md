@@ -14,6 +14,8 @@
 
 Chapter 2 earned the Schrödinger equation. It did so by pulling a single slow envelope out of the fast rest-energy oscillation of the Firmament membrane and showing that the envelope obeys, line by line, the famous equation Schrödinger wrote down in 1926 and that every textbook since has asked its readers to accept on faith. At the end of that chapter we had an envelope $\Psi(x,t)$, a time-dependent equation for it, and a momentum operator $\hat p = -i\hbar\nabla$ — all of it derived, none of it postulated, with the value of $\hbar$ carried in from Vol 1 Ch 10 where it had been computed from the Firmament parameters $\sigma$, $\eta_B$, $\xi_A$, and $\beta_{\text{geom}}$ before the word "quantum" was ever spoken.
 
+> **Structural reminder.** *Firmament* and *Waters Above/Below* are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ (Firmament) and the bulk regions carrying $\Psi_A$ / $\Psi_B$. Canonical phrasing follows Ch 10 §10.1.
+
 This chapter collects the Schrödinger equation's most famous consequence. When Heisenberg wrote down
 
 $$\Delta x \cdot \Delta p \;\geq\; \frac{\hbar}{2} \tag{4.3.target}$$

@@ -42,6 +42,14 @@ Let me be completely clear about what assumptions we *are* making:
 
 These are not trivial assumptions. They're the bedrock of the zone framework. But notice: **none of them explicitly mention force or acceleration.** We will derive those concepts from the geometry.
 
+It is worth tracing the chain that connects the test-particle action used in this chapter back to the named architecture of Vol 1, because the connection is not decorative — it is what licenses every "Firmament" we will write from here on. Vol 1 Ch 5 began with the 6D action functional, varied it under transverse displacement, and derived the existence of a tensioned codimension-2 submanifold $\Sigma \equiv Z_{2.2}$ with membrane tension $\sigma$, mass density $\mu$, and wave speed $c^2 = \sigma/\mu$. That submanifold is the Firmament. The induced metric $\gamma_{\mu\nu}$ on $\Sigma$ is the object onto which the 6D bulk metric pulls back, and it is *this* induced metric that appears in the test-particle action
+
+$$S_{\text{test}} = -m c \int \sqrt{-\gamma_{\mu\nu}(x)\,\dot{x}^\mu \dot{x}^\nu}\, d\tau \tag{3.1.0}$$
+
+whose variation will give us geodesic motion and, in the non-relativistic limit, $F=ma$. The Firmament is therefore not an extra piece of furniture imported from theology; it is the *only* surface on which (3.1.0) is well-defined, because Vol 1 Ch 5 proved that it is the only codimension-2 hypersurface in $\mathcal{M}_Z$ that supports a stable membrane action.
+
+The Hebrew name for that surface, in Gen 1:6–8, is *rāqîaʿ*: a hammered, stretched membrane. The word's lexical content — a tensioned, two-bulk-dividing surface — is the same content the action principle of Vol 1 Ch 5 forced out of the geometry. We did not choose the name to dress up the derivation; we recognized, after the derivation was complete, that the structure it gave us already had a name. Gen 1:6–8 ("*Let there be a firmament in the midst of the waters, and let it divide the waters from the waters*") names exactly the geometric object on which (3.1.0) — and therefore every classical-mechanics result that follows in this volume — is defined. When subsequent chapters of Vol 3 say "the Firmament metric $\gamma_{\mu\nu}$," the reader should hear: the induced metric on the *rāqîaʿ* of Gen 1:6–8, established as the unique tensioned codimension-2 submanifold of $\mathcal{M}_Z$ in Vol 1 Ch 5.
+
 ---
 
 ## [FIGURE 3.1.1: Derivation Roadmap]

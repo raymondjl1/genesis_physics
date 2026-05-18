@@ -71,6 +71,10 @@ Now, with all of that on the table, let us do the physics.
 
 ## §11.1  $SU(2)_L \times U(1)_Y$ from zone geometry  [RIGOROUS — inheriting Vol 2 Ch 6]
 
+> *"He upholds all things by the word of his power."* — Heb 1:3
+
+> **Structural reminder.** *Firmament*, *Waters Above*, and *Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane $\Sigma \equiv Z_{2.2}$ and the bulk regions carrying $\Psi_A$ / $\Psi_B$. Canonical phrasing follows Ch 10 §10.1.
+
 The electroweak gauge group was not chosen. It descends — and I mean this literally, as a group-theoretic descent — from the isometry structure of the coupled $(\xi, \eta)$ extra-dimensional geometry that was set down in Volume 2 Chapter 6. I want to walk you through the inheritance in enough detail that you can see how it forces $SU(2)_L \times U(1)_Y$ and forbids the natural alternatives like $U(1)^2$ or $SU(3)_{\rm ew}$.
 
 Recall the setup. Above the Firmament we have the Waters Above, a complex scalar field $\Psi_A(x^\mu, \xi, \eta)$ living on the interval $\xi \in [0, \xi_A]$ with Dirichlet boundary conditions at the Firmament ($\xi = 0$) and a soft confinement condition at the cosmological edge ($\xi = \xi_A$). Below the Firmament we have the Waters Below, with its own $\Psi_B(x^\mu, \xi, \eta)$ on $\xi \in [-\eta_B, 0]$. Orthogonal to $\xi$ there is the internal direction $\eta$, compactified on a circle of radius $\eta_B \approx 1.3 \times 10^{-15}$ m, the nuclear scale.

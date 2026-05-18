@@ -3,7 +3,15 @@
 
 ---
 
+> *"He is before all things, and in him all things hold together."* — Colossians 1:17
+
+---
+
 ## §1.0 Introduction — The Question Physics Doesn't Answer
+
+> **Sidebar — Grounding the structural vocabulary.** The objects we will treat as load-bearing throughout this volume — the **Firmament** and the **Waters Above / Waters Below** — are not metaphors borrowed from Genesis to dress up physics; they are the names Vol 1 gave to specific geometric structures derived there. Vol 1 Ch 3–4 built the zone manifold $\mathcal{M}_Z$ and identified the 3-brane hypersurface $Z_{2.2}$ as the codimension-2 submanifold on which 4D matter and radiation propagate; Vol 1 Ch 5 fixed its membrane mechanics (tension $\sigma$, density $\mu$, wave speed $c^2 = \sigma/\mu$). Genesis 1:6–8 names this same structure: "And God said, *Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.* … And God called the firmament Heaven." The Hebrew *rāqîaʿ* ("stretched-out thing," "hammered membrane") and the surrounding *mayim* ("waters") above and below denote a tensioned dividing surface separating two bulk regions — which is precisely what Vol 1 derived from the action principle. The text's order is therefore: structure first (Vol 1), naming second. When this volume writes "Firmament" we mean $Z_{2.2}$ with its derived mechanics; when we write "Waters Above" and "Waters Below" we mean the bulk regions $Z_{2.2.3}$ (the $\xi$-side) and $Z_{2.2.1}$ (the $\eta$-side) of Vol 1 Ch 3–4. The Genesis text supplies the architectural vocabulary; the mathematics supplies the content. Neither is decoration for the other.
+
+
 
 Open any physics textbook. You will find the four fundamental forces listed with great precision: gravity, electromagnetism, the strong nuclear force, the weak nuclear force. You will find their coupling constants tabulated. You will find their ranges, their carrier particles, their symmetry groups. The Standard Model organizes three of the four into a single mathematical framework of extraordinary predictive power. General relativity describes the fourth with a geometric elegance that still takes the breath away.
 

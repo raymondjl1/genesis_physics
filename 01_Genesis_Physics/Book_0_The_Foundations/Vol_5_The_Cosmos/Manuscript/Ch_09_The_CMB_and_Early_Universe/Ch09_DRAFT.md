@@ -9,6 +9,9 @@
 
 ## §9.0 What This Chapter Is (and Is Not)
 
+> **Structural reminder.** *Firmament* is this textbook's term for the 3-brane hypersurface $Z_{2.2}$ derived in Vol 1 Ch 5, named after the Hebrew *rāqîaʿ* (Gen 1:6–8) for a hammered, stretched membrane. *Waters Above / Waters Below* are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
+
 Before stating any number, I want to declare what is being derived in this chapter and what is being inherited, because the central technical task — comparing the framework's prediction to Planck 2018 quantitatively — is also the task most easily mistaken for one stronger than it is and for one weaker than it is.
 
 **What this chapter does.** It takes the sustaining-mode cosmological model of Vol 5 Ch 8 — the Firmament-projected Waters fluid, the Friedmann era structure, the four density parameters — and walks the chain from there to the observed structure of the cosmic microwave background. The recombination redshift comes out from the Saha equation applied to the Firmament plasma at the temperature evolved from Ch 8 §8.8.3. The photon decoupling surface comes out from the Boltzmann visibility function. The acoustic peak positions come out from the ratio of the sound horizon to the angular-diameter distance, both computed from the Ch 8 era structure. The peak heights come out from the baryon-loading parameter, which is set by $\Omega_b$ from Ch 8 §8.6.3. The Silk damping envelope comes out from photon diffusion in the prerecombination plasma — and admits, in the framework, an additional and consistent interpretation as membrane viscosity (Vol 1 Ch 5). At the end of the chain, §9.10 computes a quantitative $\chi^2$ against the Planck 2018 binned TT data.

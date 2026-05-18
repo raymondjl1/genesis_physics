@@ -12,7 +12,7 @@ In Volume 2, we derived the gravitational force from the curvature of the zone m
 
 $$G_4 = \frac{c^4}{8\pi\sigma L_{\text{eff}}^2} = 6.674 \times 10^{-11} \; \text{m}^3/(\text{kg} \cdot \text{s}^2) \tag{2.2.29}$$
 
-In Chapter 1, we derived the force equation $m\mathbf{a} = \mathbf{F}$ (Eq. 3.1.10) from the geodesic structure of the zone manifold. In Chapter 2, we built the Lagrangian and Hamiltonian formalisms that transform this force equation into a systematic machinery for solving mechanics problems.
+In Chapter 1, we derived the force equation $m\mathbf{a} = \mathbf{F}$ (Eq. 3.1.10) from the geodesic structure of the zone manifold. In Chapter 2, we built the Lagrangian and Hamiltonian formalisms that transform this force equation into a systematic machinery for solving mechanics problems. Per Ch 1 §1.1, the test-particle action used in both descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8; the central-force orbits derived below live on that same surface.
 
 Now we bring them together. This chapter asks: **what happens when you put a particle in the gravitational field that the zone manifold creates?**
 
