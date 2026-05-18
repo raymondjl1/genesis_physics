@@ -113,57 +113,29 @@ Appendix B of this volume contains a complete notation reference table, organize
 
 ## 1.2 Axiom 1 — God as Active Sustaining Ground
 
-### The Fine-Tuning Crisis
+### The Biblical Claim: Continuous Sustenance
 
-Let us begin with a question that standard physics cannot answer. Why does the universe support life?
+Scripture states explicitly that reality does not stand on its own; it is held in being moment by moment by a continuous act of divine sustenance:
 
-The answer is not obvious. It is, in fact, astronomically improbable.
+> "He is before all things, and in him all things hold together." — Colossians 1:17
 
-Consider the fine-structure constant $\alpha$, which governs the strength of electromagnetic interactions:
+> "The Son is the radiance of God's glory and the exact representation of his being, sustaining all things by his powerful word." — Hebrews 1:3
 
-$$\alpha = \frac{e^2}{4\pi\epsilon_0\hbar c} \approx \frac{1}{137.036}$$
+> "When you hide your face, they are dismayed; when you take away their breath, they die and return to their dust." — Psalm 104:29
 
-This number is dimensionless. It has no units. It simply *is*. And it is fine-tuned to an almost incomprehensible degree.
+Three claims, one architecture. Col 1:17 says cohesion is *present-tense*: things hold together in him. Heb 1:3 names the *mechanism*: an active "upholding" by the word of his power. Ps 104:29 supplies the *failure mode*: withdraw the sustaining act and creatures return to dust. Taken together these verses assert that reality is an *open* system whose continued existence requires continuous input from a transcendent source. Genesis Physics takes that claim at face value and asks what physical structure it forces.
 
-If $\alpha$ were larger — say 1/100 instead of 1/137 — then electromagnetic repulsion in atoms would be stronger. Electrons would be more tightly bound. Stars would burn hotter and faster. The Sun would have exhausted its hydrogen fuel billions of years before Earth formed. No chemistry. No life.
+### The Sustaining Field Mechanism — Formalizing "He Upholds All Things"
 
-If $\alpha$ were smaller — say 1/200 — then atoms would be less tightly bound. Chemical bonds would be weaker. Complex molecules would not form. Again, no chemistry. No life.
+If "in him all things hold together" is load-bearing physics rather than poetry, then the universe is not a closed system governed by fixed laws for all eternity. It is an *open thermodynamic system*, sustained moment by moment by continuous energy input from beyond itself. We name this input the sustaining field, $\kappa$. The field $\kappa$ is the mathematical formalization of the biblical "upholding": the variable in our equations that, if removed, allows things to *not* hold together — exactly Ps 104:29's failure mode.
 
-The habitable window for $\alpha$ is roughly $\pm 1\%$ around its observed value. A 1% change in either direction makes the universe sterile.
-
-Now consider gravity. The gravitational constant $G$ is famously weak. The ratio of the electromagnetic force between two protons to the gravitational force between them is approximately $10^{36}$. This is not a small difference. This is a factor of a trillion trillion trillion.
-
-Why is gravity so weak? If $G$ were larger by even a factor of two, the Jeans mass — the minimum size of a gravitationally unstable cloud — would shrink dramatically. Stars would form from smaller clouds. Small stars would be numerous and short-lived. Planets would rarely form. If $G$ were smaller by a factor of two, galaxy formation becomes difficult. Stars struggle to form. The universe becomes thin and cold.
-
-And then there is the cosmological constant $\Lambda$, the energy density of the vacuum:
-
-$$\rho_\Lambda = \frac{\Lambda c^2}{8\pi G} \approx 7 \times 10^{-10} \text{ J/m}^3$$
-
-Quantum field theory predicts a vacuum energy $10^{120}$ times larger than observed — "the worst prediction in physics." If $\Lambda$ were much larger, the universe would have expanded so rapidly that galaxies, stars, and planets never formed. If $\Lambda$ were negative, the universe would have recollapsed long ago. The observed value is tuned to roughly 1 part in $10^{120}$.
-
-In 2000, Roger Penrose calculated the probability that a universe would arise with initial conditions as precisely ordered as ours. His conclusion: approximately 1 part in $10^{10^{123}}$. That is not merely a large number. The exponent itself is a 1 followed by 123 zeros.
-
-Standard physics responds to this crisis with silence. "These are just the initial conditions. We don't explain initial conditions."
-
-But this is evasion. The initial conditions are not independent of the laws. The laws determine what initial conditions are even *possible*. And the fact that the constants are so exquisitely calibrated that conscious observers can exist suggests something profound: *the universe is not self-explanatory*.
-
-### The Sustaining Field Mechanism
-
-Here is the Genesis Physics answer: The universe is not a closed system governed by fixed laws for all eternity. It is an *open thermodynamic system*, sustained moment by moment by continuous energy input from beyond itself.
-
-We call this input the sustaining field, $\kappa$.
-
-This is not metaphysics. It is mechanism. The sustaining field has energy density. It couples to matter and radiation. It obeys equations of motion. Its effects are observable. The insight is this: in a closed system, entropy always increases:
+This is not metaphysics. It is mechanism. The sustaining field has energy density. It couples to matter and radiation. It obeys equations of motion. Its effects are observable. The biblical claim — "in him all things hold together" — translates into a precise statement in thermodynamics. In a closed system, entropy always increases:
 
 $$\frac{dS}{dt} \geq 0$$
 
 Left to itself, the universe evolves toward maximum entropy — thermal equilibrium, where all energy is evenly distributed, all structure erased, all complexity dead. This is heat death. But the universe is not in equilibrium. It is full of structure, complexity, and order. Stars are far from equilibrium with the cosmic microwave background. Life is nowhere near equilibrium.
 
-How is this possible? Standard physics answers: "Because the initial entropy was very low." But this merely pushes the problem back. *Why* was the initial entropy so low?
-
-Genesis Physics answers: Because the universe is continuously supplied with external energy that permits the maintenance of non-equilibrium states. The sustaining field $\kappa$ does work on the system, coupling $Z_0$ (the transcendent source) through $Z_{2.1}$ (the Atemporal Domain) into $Z_{2.2}$ (classical spacetime). This is a *physical hypothesis* — it makes testable predictions about the constancy of fundamental constants over cosmic time, about the thermodynamic behavior of isolated systems, and about the relationship between dark energy and the cosmic entropy budget. We will catalog these predictions explicitly in Section 1.8.
-
-When we allow the universe to be an open system with continuous external energy input, the fine-tuning problem transforms. The gravitational constant no longer needs to be precisely 1 part in $10^{43}$ relative to electromagnetism by coincidence. The cosmological constant no longer needs to be fine-tuned to 1 part in $10^{120}$ by accident. These values are understood as *parameters of the sustaining field's coupling* — designed to maintain the universe in a state capable of supporting structure and life.
+If reality were closed, Ps 104:29's failure mode would never be needed — there would be nothing to "take away." That cohesion can be withdrawn presupposes that it is being actively given. Genesis Physics names that giving: the universe is continuously supplied with external energy that permits the maintenance of non-equilibrium states. The sustaining field $\kappa$ does work on the system, coupling $Z_0$ (the transcendent source) through $Z_{2.1}$ (the Atemporal Domain) into $Z_{2.2}$ (classical spacetime). This is a *physical hypothesis* — it makes testable predictions about the constancy of fundamental constants over cosmic time, about the thermodynamic behavior of isolated systems, and about the relationship between dark energy and the cosmic entropy budget. We will catalog these predictions explicitly in Section 1.8.
 
 ### The Four Phases of Cosmic Thermodynamics
 
@@ -220,25 +192,13 @@ $$\kappa(t) = \kappa_{\text{full}} \times \begin{cases} \gg 1 & \text{Phase 1 (C
 
 [FIGURE: Fig 1.1.3 — Timeline plot showing κ strength across the four thermodynamic phases. X-axis: cosmic phase (Creation → Edenic → Fall → Redemption). Y-axis: κ/κ_full. Creation phase: steep curve with κ >> κ_full. Edenic: flat line at κ = κ_full. Fall: slight drop to κ = κ_full(1−ε). Redemption: rising curve (restoration). Annotations show dS/dt sign in each phase.]
 
-### Why Axiom 1 Resolves Fine-Tuning
+### Corroboration: The Fine-Tuning Evidence
 
-Under standard physics, the fine constants must be fine-tuned by hand at the universe's beginning. There is no explanation.
+The biblical claim and the $\kappa$ formalism stand on their own — Col 1:17, Heb 1:3, and Ps 104:29 motivate the open-system axiom independently of any astrophysical anomaly. But the framework receives strong *corroboration* from a notorious puzzle in modern cosmology: the apparent fine-tuning of the fundamental constants.
 
-Under Axiom 1, the sustaining field $\kappa$ is the explanatory ground. It is not that gravity "happens" to be weak; rather, the coupling of $\kappa$ to gravitational sources is such that the effective gravitational constant takes the value we observe as a consequence of the sustaining field's design. Similarly for $\alpha$, $\Lambda$, and all other constants: they emerge as derived quantities from the deeper structure.
+Consider the fine-structure constant $\alpha = e^2/(4\pi\epsilon_0\hbar c) \approx 1/137.036$. A $\pm 1\%$ deviation in either direction renders the universe sterile: too large and stars burn out before chemistry can take hold; too small and atomic binding fails. Gravity is weak by a factor of $10^{36}$ relative to electromagnetism; doubling $G$ truncates stellar lifetimes catastrophically, halving it suppresses galaxy formation. The cosmological constant $\Lambda$ is tuned against the quantum-field-theoretic vacuum prediction to roughly 1 part in $10^{120}$ — Carroll's "worst prediction in physics." Penrose (2000) estimated the probability of initial conditions as ordered as ours at roughly $1$ in $10^{10^{123}}$.
 
-This does not eliminate mystery. It transmutes it. The question "Why are the constants what they are?" is replaced by "Why does the sustaining field couple to matter in this particular way?" The second question acknowledges that the universe has a *design principle* — not imposed externally, but woven into its fundamental structure.
-
-### Theological Grounding
-
-We mention theology not to preach, but to note the conceptual correspondence. The sustaining field $\kappa$ embodies the biblical theme of God as active sustainer:
-
-> "He is before all things, and in him all things hold together." — Colossians 1:17
-
-> "The Son is the radiance of God's glory and the exact representation of his being, sustaining all things by his powerful word." — Hebrews 1:3
-
-> "When you hide your face, they are terrified; when you take away their breath, they die and return to the dust." — Psalm 104:29
-
-The sustaining field is the physical mechanism of this sustenance. Reality is structured as an open system that requires continuous input from the transcendent ground. This is not magic. It is physics. But it is physics that takes seriously the claim that reality depends, moment by moment, on something beyond itself.
+Standard physics treats these as brute facts: "These are the initial conditions; we do not explain initial conditions." Under Axiom 1, they are not brute. The sustaining field $\kappa$ is the explanatory ground: the effective values of $\alpha$, $G$, and $\Lambda$ emerge as parameters of $\kappa$'s coupling to the matter and radiation sectors. The question shifts from "Why are the constants so improbably tuned?" to "Why does the sustaining field couple to matter in this particular way?" — a question that admits a mechanism instead of a coincidence. The fine-tuning data does not motivate Axiom 1; it confirms that a universe held together moment by moment is exactly what we observe.
 
 ---
 
