@@ -688,7 +688,7 @@ The composition reflects Heisenberg indeterminacy: better localization (smaller 
 
 ---
 
-## §9.6 Why Seven — The Topological Counting Theorem
+## §9.6 Why Seven — Heuristic Counting Argument for Seven
 
 **Here's the deep question: Why exactly seven operators, not six or eight?**
 
@@ -723,11 +723,13 @@ $$\boxed{\text{Seven independent operators} = \text{4 tangential + 2 normal + 1 
 
 (1.9.24)
 
-### Topological Proof
+### Heuristic Structure of the Count
 
-**Theorem 9.2 (Counting):** The dimension of the space of primitive field operations on a codimension-2 submanifold in 6D is exactly 7.
+**Heuristic 9.2 (Counting):** On a codimension-2 submanifold in 6D, primitive field operations partition naturally into four tangential, two normal, and one topological generator, suggesting a count of 4 + 2 + 1 = 7.
 
-*Proof:*
+This is a *heuristic*, not a theorem: the partition into "tangential / normal / topological" is a choice of classification that lands on seven, and is corroborated — not derived — by independent structural evidence (the K3/Torelli rank-7 result discussed below).
+
+*Heuristic argument:*
 
 Let M be a codimension-2 submanifold (the firmament) in 6D ambient space. The tangent space T_x M at a point x ∈ M is 4-dimensional (spacetime directions). The normal space N_x M perpendicular to T_x M is 2-dimensional (extra-dimensional directions).
 
@@ -771,11 +773,11 @@ Discrete and continuous groups are algebraically distinct: $\mathbb{Z}_N$ has fi
 
 **Independence of the topological operator (1):** The single topological operator $\hat{P}_6$ (threshold) acts on the *stratification* of the manifold — the zone boundaries that partition $M_Z$ into nested regions. It is a spectral projection: it decomposes the field into components above and below a critical value. This is neither a tangential operation (it does not move points on the manifold) nor a normal operation (it does not scale or translate in extra dimensions). It acts on the *fiber* over each point by selecting eigenspaces — a fundamentally different operation from any of the other six.
 
-**Total: 4 + 2 + 1 = 7.** $\square$
+**Total (heuristic): 4 + 2 + 1 = 7.**
 
 ### Comparison with String Theory and Higher Dimensions
 
-Interestingly, this counting matches the symmetry structure of string theory on K3 surface (a 4D complex surface, hence codimension-2 in a 6D target space). The automorphism group of the K3 surface's geometry has rank 7 (the Torelli theorem). This is not coincidence—string worldsheets wrapping codimension-2 cycles are governed by the same topological counting.
+Interestingly, this counting matches the symmetry structure of string theory on a K3 surface (a 4D complex surface, hence codimension-2 in a 6D target space). The automorphism group of the K3 surface's geometry has rank 7 (the Torelli theorem). The K3/Torelli rank-7 result is structurally suggestive but not a proof of the 4+2+1=7 partition; the partition is *chosen* to land on seven and *corroborated* by the K3 structure rather than derived from it. The convergence is real and useful as a sanity check — but it is not a substitute for a first-principles derivation, which remains open (cf. exercise 9.30).
 
 ---
 
@@ -821,7 +823,7 @@ $$\text{Localization} \to \text{Extension} \to \text{Repetition} \to \text{Symme
 
 This is the *logical order of creation*—not the temporal order in which God performed actions (God exists outside time), but the logical prerequisite order in which capabilities must exist for a universe to function.
 
-**[OPEN QUESTION]:** Does this correspondence hold in non-Euclidean topologies or higher-dimensional manifolds? The topological counting argument (Theorem 9.2) only directly applies to codimension-2 surfaces in 6D. In principle, a codimension-3 surface in 7D would have 3 + 3 + 1 = 7 operators *by the same counting*, but with different meanings. A true test of the theory would be to construct physical universes in other topologies and verify that the pattern algebra remains isomorphic.
+**[OPEN QUESTION]:** Does this correspondence hold in non-Euclidean topologies or higher-dimensional manifolds? The topological counting argument (Heuristic 9.2) only directly applies to codimension-2 surfaces in 6D. In principle, a codimension-3 surface in 7D would have 3 + 3 + 1 = 7 operators *by the same counting*, but with different meanings. A true test of the theory would be to construct physical universes in other topologies and verify that the pattern algebra remains isomorphic.
 
 ---
 
@@ -1069,7 +1071,7 @@ can be interpreted as a sum over all compositions of the pattern operators, weig
 
 **9.26.** **Conformal invariance:** A theory is *conformally invariant* if it's invariant under P̂₅ (rescaling) at all scales. Show that this requires the trace of the stress-energy tensor to vanish: T^μ_μ = 0. What does this imply for the running of coupling constants?
 
-**9.27.** **Superstring vacua:** Superstring theory on a Calabi-Yau manifold (6D) compactified to 4D has 10^{500} or more vacua. Each vacuum corresponds to a different choice of how the pattern operators act on the internal (6D) geometry. Use the counting argument (Theorem 9.2) to estimate the number of types of Calabi-Yau compactifications based on pattern-algebra symmetries.
+**9.27.** **Superstring vacua:** Superstring theory on a Calabi-Yau manifold (6D) compactified to 4D has 10^{500} or more vacua. Each vacuum corresponds to a different choice of how the pattern operators act on the internal (6D) geometry. Use the counting argument (Heuristic 9.2) to estimate the number of types of Calabi-Yau compactifications based on pattern-algebra symmetries.
 
 **9.28.** **AdS/CFT correspondence:** The gauge/gravity duality relates a 4D conformal field theory (living on 3+1 spacetime) to 5D anti-de Sitter (AdS) gravity. Show that the pattern operators on the 4D boundary correspond to isometries of AdS, and that P̂₅ (RG flow in 4D) corresponds to radial flow in AdS (holographic flow).
 
