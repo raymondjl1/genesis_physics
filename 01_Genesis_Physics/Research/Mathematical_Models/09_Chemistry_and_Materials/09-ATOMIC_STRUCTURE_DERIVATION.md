@@ -3,15 +3,15 @@
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
-> | Axiom | Membrane Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
+> | Axiom | Firmament Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
 > | Parent Theory | Fine Structure Constant from 6D Geometry | FINE_STRUCTURE_DERIVATION.md |
 > | **This Document** | **Atomic Structure (Hydrogen, Helium, Multi-electron)** | **09-ATOMIC_STRUCTURE_DERIVATION.md** |
 > | Modern Equivalent | Schrödinger Equation & Coulomb Potential | Convergence: Shell structure matches Aufbau principle |
 >
 > *Chain Status: COMPLETE*
 
-# Atomic Structure Derived from the 6D Membrane Framework
+# Atomic Structure Derived from the 6D Firmament Framework
 ## Complete Derivation from First Principles
 
 **Issue #54: [Phase 2.0] Derive Atomic Structure from Membrane — Multi-electron Atoms**
@@ -25,13 +25,13 @@
 
 ## EXECUTIVE SUMMARY
 
-In Genesis Physics, atomic structure **does not arise from postulated quantum mechanics**, but emerges rigorously from the 6D membrane framework through a clear derivation chain:
+In Genesis Physics, atomic structure **does not arise from postulated quantum mechanics**, but emerges rigorously from the 6D Firmament framework through a clear derivation chain:
 
 $$\boxed{\text{6D Action } S_{\text{total}} \to \text{KK Reduction} \to \text{Membrane QM} \to \text{Coulomb Potential} \to \text{Atomic Structure}}$$
 
 This document derives:
 
-1. **The Schrödinger equation** from non-relativistic membrane wave dynamics (not postulated)
+1. **The Schrödinger equation** from non-relativistic Firmament membrane wave dynamics (not postulated)
 2. **The Coulomb potential** from the 6D Green's function (not imported from classical physics)
 3. **Electron spin** from topological defect classification on the Firmament
 4. **The fine structure constant α ≈ 1/137.036** from 6D geometry (not measured)
@@ -53,7 +53,7 @@ This document derives:
 
 Starting from **ACTION_6D_COMPLETE.md**, the total action is:
 
-$$S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}}$$
+$$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}}$$
 
 where the key components for atomic physics are:
 
@@ -61,9 +61,9 @@ where the key components for atomic physics are:
 $$S_{\text{grav}} = \frac{1}{2\kappa_6^2} \int_{\mathcal{M}^6} d^6x \sqrt{-g_6} \, R_6$$
 
 **Brane action (kinetic + intrinsic curvature on Firmament Σ):**
-$$S_{\text{brane}} = -\sigma \int_{\Sigma} d^4x \sqrt{-g_4} + \text{extrinsic curvature terms}$$
+$$S_{\text{Firm}} = -\sigma \int_{\Sigma} d^4x \sqrt{-g_4} + \text{extrinsic curvature terms}$$
 
-where σ is brane tension.
+where σ is Firmament tension.
 
 **Gauge fields (Kaluza-Klein reduction of 6D geometry):**
 $$S_{\text{gauge}} = \int_{\Sigma} d^4x \sqrt{-g_4} \left[ -\frac{1}{4} F_{\mu\nu} F^{\mu\nu} + \text{KK terms} \right]$$
@@ -120,7 +120,7 @@ For **static Coulomb fields** (B = 0, A = 0) and atomic binding (time-independen
 
 $$\boxed{-\frac{\hbar^2}{2m_e} \nabla^2 \psi + V(\mathbf{r}) \psi = E \psi}$$
 
-**This is the Schrödinger equation**, derived (not postulated) from 6D membrane dynamics.
+**This is the Schrödinger equation**, derived (not postulated) from 6D Firmament membrane dynamics.
 
 ---
 
@@ -197,7 +197,7 @@ $$\boxed{V(r) = -\frac{Ze^2}{4\pi\epsilon_0 r} = -\frac{Z\hbar c \alpha}{r}}$$
 
 From TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md:
 
-- **Electrons are fermionic topological defects** on the 4D Firmament brane
+- **Electrons are fermionic topological defects** on the 4D Firmament
 - They carry **$\mathbb{Z}_2$ topological charge** (odd parity under particle exchange)
 - The defect structure classifies via homotopy groups
 
@@ -231,7 +231,7 @@ $$\boxed{\text{Electron spin emerges from fermionic topological defect structure
 
 ## PART 1: HYDROGEN ATOM — EXACT SOLUTION FROM MEMBRANE THEORY
 
-### 1.1 The Problem in the Membrane Framework
+### 1.1 The Problem in the Firmament Framework
 
 **Schrödinger equation** (derived in Part 0):
 
@@ -301,7 +301,7 @@ $$\psi_{100}(r) = \frac{1}{\sqrt{\pi} a_0^{3/2}} \exp\left(-\frac{r}{a_0}\right)
 
 $$r_{\text{prob}} = a_0 = \frac{4\pi\epsilon_0 \hbar^2}{m_e e^2} = \boxed{0.529177 \text{ Å}}$$
 
-**Physical interpretation in membrane framework:**
+**Physical interpretation in Firmament framework:**
 - The Bohr radius is the **characteristic length scale** where membrane curvature (Coulomb potential) and quantum uncertainty (ℏ) balance
 - It emerges from the topological boundary conditions on the Firmament
 - Not an assumed parameter; it follows from first principles
@@ -980,7 +980,7 @@ $$\boxed{\text{6D Action } \to \text{KK Reduction} \to \text{Membrane QM} \to \t
 
 1. **6D Action** (ACTION_6D_COMPLETE.md)
    - Fundamental 6D Einstein-Hilbert action
-   - 4D Firmament as brane with tension
+   - 4D Firmament as Firmament with tension
    - No free parameters at this level
 
 2. **Kaluza-Klein Reduction** (Part 0, Section 1)
@@ -1031,7 +1031,7 @@ $$\boxed{\text{6D Action } \to \text{KK Reduction} \to \text{Membrane QM} \to \t
 
 **Result**: Atomic structure is **not arbitrary**, but uniquely determined by 6D membrane geometry.
 
-### 8.3 Unification: Quantum Mechanics as Membrane Dynamics
+### 8.3 Unification: Quantum Mechanics as Firmament Dynamics
 
 **Standard approach (textbook):**
 - Postulate Schrödinger equation
@@ -1042,7 +1042,7 @@ $$\boxed{\text{6D Action } \to \text{KK Reduction} \to \text{Membrane QM} \to \t
 
 **Genesis Physics approach (this document):**
 - Start from 6D Einstein equations
-- Derive Schrödinger equation from membrane waves
+- Derive Schrödinger equation from Firmament waves
 - Derive Pauli exclusion from fermionic topology
 - Derive ℏ, α, m_e, e from 6D geometry
 - Solve for atomic structure
@@ -1130,7 +1130,7 @@ All follow naturally from atomic structure.
 
 | Quantity | Derived From | Result | Accuracy |
 |----------|------------|--------|----------|
-| Schrödinger equation | 6D membrane dynamics | Exact (non-relativistic) | — |
+| Schrödinger equation | 6D Firmament membrane dynamics | Exact (non-relativistic) | — |
 | Coulomb potential | 6D Green's function | -e²/(4πε₀r) | Exact |
 | Fine structure constant | 6D geometry | α⁻¹ = 137.036 | 0.0001% |
 | Electron spin | Topological defects | s = ±ℏ/2 | Exact |
@@ -1190,9 +1190,9 @@ All follow naturally from atomic structure.
 
 ### 10.4 Final Statement
 
-This document has demonstrated that **atomic structure emerges from the 6D membrane framework without external assumptions**:
+This document has demonstrated that **atomic structure emerges from the 6D Firmament framework without external assumptions**:
 
-1. **Quantum mechanics**: Derived from membrane dynamics (not postulated)
+1. **Quantum mechanics**: Derived from Firmament membrane dynamics (not postulated)
 2. **Coulomb potential**: Derived from 6D Green's function (not imported)
 3. **Fine structure constant**: Derived from 6D geometry (not measured)
 4. **Pauli exclusion**: Derived from fermionic topology (not assumed)

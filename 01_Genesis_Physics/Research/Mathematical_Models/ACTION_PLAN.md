@@ -36,7 +36,7 @@ These are the irreducible problems blocking large test clusters. They require ge
 ### **0.1: Fermion (Spin-1/2) Emergence from Bosonic Membrane — DECISIVE**
 
 **Problem Statement:**
-The framework has derived bosonic membrane modes, Maxwell's equations, and quantum mechanics from membrane dynamics. However, spin-1/2 fermions (electrons, quarks, neutrinos) have not been derived from the underlying bosonic system. Current approach uses SU(3)×SU(2)×U(1) phenomenologically; the fundamental origin of half-integer spin from purely integer-spin excitations is unexplained.
+The framework has derived bosonic Firmament membrane modes, Maxwell's equations, and quantum mechanics from Firmament membrane dynamics. However, spin-1/2 fermions (electrons, quarks, neutrinos) have not been derived from the underlying bosonic system. Current approach uses SU(3)×SU(2)×U(1) phenomenologically; the fundamental origin of half-integer spin from purely integer-spin excitations is unexplained.
 
 **Specific Work Needed:**
 1. Investigate whether 6D zone symmetry supports spinor representations (spinors as topological defects or anyonic excitations in membrane phase space)
@@ -61,14 +61,14 @@ This is the single hardest problem in the framework. Spinors in curved (6D) spac
 
 **Dependencies:**
 - Fundamentals of Membrane Architecture (Research/Mathematical_Models/01_6D_Zone_Architecture.md)
-- Quantum Mechanics from Membrane Dynamics (Research/Mathematical_Models/04_Quantum_Mechanics_Derivation.md)
+- Quantum Mechanics from Firmament Dynamics (Research/Mathematical_Models/04_Quantum_Mechanics_Derivation.md)
 - Current SU(3)×SU(2)×U(1) Phenomenology (Research/Mathematical_Models/Particle_Mass_Spectrum_v2.md)
 
 **Approach:**
 1. Start with topological considerations: can membranes support spinor excitations (e.g., vortices with half-integer winding)?
 2. Explore anyonic statistics: if membrane phases allow non-Abelian statistics, fermionic statistics may emerge
 3. Investigate whether Dirac equation can be derived as wave equation on spinor-valued membrane field
-4. Calculate electron mass from first principles using coupling to membrane tension/density
+4. Calculate electron mass from first principles using coupling to Firmament tension/density
 
 **Success Criteria:**
 - Spin-1/2 behavior derived from bosonic system without ad-hoc assumption
@@ -113,7 +113,7 @@ Requires understanding of spontaneous symmetry breaking in 6D; also depends on s
 **Approach:**
 1. Map Higgs field to Waters Above condensate (dark energy)
 2. Derive Yukawa coupling strength from membrane/boson interaction vertex
-3. Use membrane tension σ and density μ to set energy scale
+3. Use Firmament tension σ and density μ to set energy scale
 4. Compare with known masses; iterate on coupling constants
 5. Predict unmeasured properties (e.g., lighter generation neutrino masses)
 
@@ -204,11 +204,11 @@ These 46 PARTIAL tests have the mathematical framework in place; they need expli
 - Boltzmann Distribution
 
 **Work Needed:**
-1. **Second Law**: Derive entropy increase from membrane disorder (coarse-graining membrane modes) — connect to H-theorem or information loss
+1. **Second Law**: Derive entropy increase from membrane disorder (coarse-graining Firmament modes) — connect to H-theorem or information loss
 2. **Third Law**: Show that entropy → 0 as T → 0 from membrane ground state uniqueness
-3. **Boltzmann Distribution**: Derive from statistical mechanics of membrane excitations (partition function formalism)
+3. **Boltzmann Distribution**: Derive from statistical mechanics of Firmament excitations (partition function formalism)
 
-**Difficulty:** **Low-Medium** (Statistical mechanics applied to membrane modes; framework exists)
+**Difficulty:** **Low-Medium** (Statistical mechanics applied to Firmament modes; framework exists)
 
 **Dependencies:**
 - Quantum Mechanics from Membrane (Research/Mathematical_Models/04_Quantum_Mechanics_Derivation.md)
@@ -423,7 +423,7 @@ These require new theoretical work but within the existing framework. Each opens
 Phase transitions (solid-liquid-gas) and latent heat depend on intermolecular forces, which haven't been derived from first principles in the framework.
 
 **Specific Work Needed:**
-1. **Molecular Structure from Membrane**: Derive how bosonic membrane modes bind together to form molecules (atoms first, then molecules)
+1. **Molecular Structure from Membrane**: Derive how bosonic Firmament modes bind together to form molecules (atoms first, then molecules)
 2. **Intermolecular Forces**: Calculate van der Waals forces from membrane field interactions
 3. **Latent Heat**: Show energy cost of breaking/forming bonds during phase transition
 4. **Phase Diagram**: Predict P-T diagram topology from bond strength and entropy

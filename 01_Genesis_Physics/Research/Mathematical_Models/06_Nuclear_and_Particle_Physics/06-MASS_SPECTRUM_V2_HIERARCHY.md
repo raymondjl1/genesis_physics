@@ -49,7 +49,7 @@ $$m_{Planck} = \sqrt{\frac{\hbar c}{G}} = 2.176 \times 10^{-8} \text{ kg} = 1.22
 
 This is the fundamental scale where quantum gravity becomes important.
 
-**In Genesis Physics**: G relates to the membrane geometry. Specifically:
+**In Genesis Physics**: G relates to the Firmament membrane geometry. Specifically:
 $$G = \frac{c^2}{\sigma} \times (\text{geometric factor from 6D embedding})$$
 
 Given σ = 6.0×10⁹⁸ kg/(m·s²) and c = 3×10⁸ m/s:
@@ -90,7 +90,7 @@ $$\frac{m_{Planck}}{m_{\eta}} = \frac{2.176 \times 10^{-8}}{2.71 \times 10^{-28}
 
 This huge ratio (m_Planck/m_η ~ 10²⁰) begins to explain the hierarchy problem.
 
-#### Scale 4: The Membrane Tension Mass Scale
+#### Scale 4: The Firmament Tension Mass Scale
 
 From σ alone (without other parameters), can we construct a mass?
 
@@ -118,7 +118,7 @@ For now, denote it **m_gap** — to be determined.
 | Scale | Formula | Value | Log₁₀(m/kg) | Physical Meaning |
 |-------|---------|-------|-------------|-----------------|
 | m_Planck | √(ℏc/G) | 2.18×10⁻⁸ kg | -7.66 | Gravity scale |
-| m_σ | √(σℏ/c³) | 1.53×10¹⁹ kg | 19.18 | Membrane tension |
+| m_σ | √(σℏ/c³) | 1.53×10¹⁹ kg | 19.18 | Firmament tension |
 | m_η | ℏ/(c·η_B) | 2.71×10⁻²⁸ kg | -27.57 | Nuclear scale |
 | m_ξ | ℏ/(c·ξ_A) | 1.17×10⁻⁶⁹ kg | -68.93 | Cosmological scale |
 | m_w (weak) | ? | ~10⁻²⁵ kg | -25 | W/Z boson range |
@@ -194,7 +194,7 @@ $$\Box\Psi_B - m_B^2\Psi_B - \lambda_B\Psi_B^3 - G_{int}\Psi_A = -\rho_{matter}$
 
 The interaction term G_int couples the two fields. Consistency requires that when one field condenses, it feeds back to determine the other field's parameters.
 
-**Self-Consistency Condition**: Suppose Ψ_A develops a VEV. The back-reaction on the membrane (through the coupling) must be self-consistent.
+**Self-Consistency Condition**: Suppose Ψ_A develops a VEV. The back-reaction on the Firmament (through the coupling) must be self-consistent.
 
 In the mean-field approximation:
 $$G_{int} v_A \approx \text{source term in equation (C)}$$
@@ -235,11 +235,11 @@ This is **the framework's proposed resolution of the hierarchy problem**: not fi
 
 ### 3.1 Setting Up the Eigenvalue Problem
 
-We now consider the coupled system of membrane modes and Waters fields. Linearize around the equilibrium ⟨Ψ_A⟩ = v_A, ⟨Ψ_B⟩ ≈ 0.
+We now consider the coupled system of Firmament modes and Waters fields. Linearize around the equilibrium ⟨Ψ_A⟩ = v_A, ⟨Ψ_B⟩ ≈ 0.
 
 Let's expand the fields in normal modes:
 
-**Membrane modes**:
+**Firmament modes**:
 $$\eta(\mathbf{x},t) = \sum_{n} a_n(t) e_n(\mathbf{x})$$
 $$\xi(\mathbf{x},t) = \sum_{m} b_m(t) f_m(\mathbf{x})$$
 
@@ -306,19 +306,19 @@ The higher eigenvalue becomes heavier by ~G_int, the lower becomes lighter.
 
 **Case 2: Hierarchy (Ω_η ≪ Ω_B)**
 
-If the membrane mode is much lighter than the Waters mode, the lower eigenvalue is:
+If the Firmament mode is much lighter than the Waters mode, the lower eigenvalue is:
 
 $$\omega_-^2 \approx \Omega_η^2 - \frac{G_{int}^2}{\Omega_B^2 + m_B^2}$$
 
-The membrane mode is **slightly suppressed** but remains the lighter mode.
+The Firmament mode is **slightly suppressed** but remains the lighter mode.
 
 **Case 3: Hierarchy (Ω_η ≫ Ω_B)**
 
-If the membrane mode is much heavier:
+If the Firmament mode is much heavier:
 
 $$\omega_+^2 \approx \Omega_η^2 + \frac{G_{int}^2}{\Omega_η^2}$$
 
-The membrane mode is essentially unaffected (correction ~ O(1/Ω_η²)).
+The Firmament mode is essentially unaffected (correction ~ O(1/Ω_η²)).
 
 ### 3.4 Mass Splitting Mechanism
 
@@ -351,7 +351,7 @@ The **density of states** in the mass spectrum determines how many particles hav
 
 ### 4.1 The Simplest Mode: Pure Membrane η-Vibration
 
-The membrane, with tension σ and surface density μ, confined to size η_B:
+The Firmament membrane, with tension σ and surface density μ, confined to size η_B:
 
 Dispersion relation:
 $$\omega^2 = c^2 k^2 = c^2 \left(\frac{n\pi}{\eta_B}\right)^2$$
@@ -373,14 +373,14 @@ $$\boxed{m_n = n \cdot \pi \cdot \frac{\hbar}{c \cdot \eta_B} = n \cdot \pi \cdo
 - ρ-meson: 770 MeV ✓ (close to 942 MeV)
 - ω-meson: 783 MeV ✓ (close to 942 MeV)
 
-**Assessment**: Simple membrane modes overshoot the pion mass but match meson masses reasonably. The pion might arise from a different excitation (combination mode or collective mode).
+**Assessment**: Simple Firmament modes overshoot the pion mass but match meson masses reasonably. The pion might arise from a different excitation (combination mode or collective mode).
 
 ### 4.2 Coupled Membrane + Waters Below
 
-When the membrane η-mode couples to a Waters Below excitation:
+When the Firmament η-mode couples to a Waters Below excitation:
 
 The 2D eigenvalue problem (as above) gives splitting. If we denote:
-- Membrane mode: ω_m = πc/η_B (first harmonic)
+- Firmament mode: ω_m = πc/η_B (first harmonic)
 - Waters Below mode: ω_B = √(m_B² + k_B²)
 
 where k_B is some internal wavenumber.
@@ -411,7 +411,7 @@ where $m_{\xi} = 1.17 \times 10^{-69}$ kg ≈ 6.5×10⁻³⁹ eV.
 - k=2: m₂ = 2π × 10⁻⁶⁹ kg
 - ...
 
-These are **cosmologically light modes** — they are the dark energy fluctuations. They do not couple directly to matter (which is on the membrane).
+These are **cosmologically light modes** — they are the dark energy fluctuations. They do not couple directly to matter (which is on the Firmament).
 
 **Physical meaning**: These are the long-wavelength gravitational waves and cosmological perturbations.
 
@@ -493,7 +493,7 @@ This is analogous to how nuclear binding makes nuclei lighter than their constit
 
 ### 6.1 Generation Masses from Mode Quantum Numbers
 
-If different particle families (generations) correspond to different quantum numbers in the membrane eigenvalue problem, their masses are:
+If different particle families (generations) correspond to different quantum numbers in the Firmament eigenvalue problem, their masses are:
 
 $$m_{n,\ell,s} = \hbar\omega_n / c^2$$
 
@@ -543,7 +543,7 @@ From Kaluza-Klein reduction, the EM gauge field A_μ arises from g_μξ (metric 
 
 **Why is the photon massless?**
 
-The photon corresponds to a 4D transverse wave on the membrane with no excitation in the extra dimensions (ξ, η):
+The photon corresponds to a 4D transverse wave on the Firmament membrane with no excitation in the extra dimensions (ξ, η):
 $$\psi_{photon} = e^{-i(ωt - \mathbf{k}·\mathbf{r})} \quad (k_ξ = 0, k_η = 0)$$
 
 From the dispersion relation:
@@ -575,7 +575,7 @@ This is a massless wave equation. The graviton propagates at speed c.
 
 Diffeomorphism invariance (general coordinate transformations) of the theory prevents mass terms for the graviton. A mass term would break this fundamental symmetry.
 
-In the Waters framework, the graviton is a collective mode of the entire membrane dynamics. Its masslessness is guaranteed by:
+In the Waters framework, the graviton is a collective mode of the entire Firmament membrane dynamics. Its masslessness is guaranteed by:
 $$\text{Diff-invariance} \implies \text{No mass for } h_{μν}$$
 
 ### 7.3 Other Protected Massless Modes
@@ -624,7 +624,7 @@ Based on the analysis above, we can organize the spectrum:
 **Level 1: Lightest Massive Modes (eV-MeV)**
 | Particle | Mass (MeV) | Origin | Framework |
 |----------|-----------|--------|-----------|
-| Electron | 0.511 | ℓ=1 membrane mode | η-confined |
+| Electron | 0.511 | ℓ=1 Firmament mode | η-confined |
 | Electron neutrino | ~10⁻⁶ | Coupled system | Waters coupling |
 | Muon neutrino | ~10⁻⁴ | Coupled system | Waters coupling |
 
@@ -718,7 +718,7 @@ Let's list every independent parameter:
    - **Status: Fixed by observation (Compton wavelength of nucleons)**
 
 **Membrane Parameters**
-6. **σ** = 6.0×10⁹⁸ kg/(m·s²) (Membrane tension)
+6. **σ** = 6.0×10⁹⁸ kg/(m·s²) (Firmament tension)
    - Determines c = √(σ/μ)
    - **Status: DERIVED from σ/μ = c², not independent**
 
@@ -1022,7 +1022,7 @@ To complete the framework, we need to:
    - This is the most critical gap
 
 2. **Pion mass is wrong by factor of 3**
-   - Simple membrane modes give 471 MeV vs. 140 MeV observed
+   - Simple Firmament modes give 471 MeV vs. 140 MeV observed
    - Requires explaining why the lightest hadron is so light
    - Might involve special quark substructure or mode mixing
 

@@ -29,7 +29,7 @@ The 9 tests:
 9. Olbers' Paradox - Resolve via finite creation + Firmament expansion
 
 All calculations derived from:
-- Genesis Physics 6D membrane framework
+- Genesis Physics 6D Firmament framework
 - Friedmann equation: H² = (8πG/3)(ρ_m + ρ_Λ) - k/a² + Λ/3
 - Sound horizon and baryon acoustic oscillations
 - Primordial nucleosynthesis freeze-out physics (Day 1 of creation)

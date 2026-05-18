@@ -167,7 +167,7 @@ PS-3.1, PS-3.3, PS-3.5, PS-3.9, PS-3.13, PS-3.19, PS-3.21, PS-3.22, PS-3.23, PS-
 - Compactification and dimensional reduction
 - Membrane physics
 - Lorentz invariance on branes
-- Coupling between bulk and brane
+- Coupling between bulk and Firmament
 
 **Solutions Provided:**
 PS-4.1, PS-4.3, PS-4.5, PS-4.9, PS-4.11, PS-4.13, PS-4.25, PS-4.27, PS-4.29, PS-4.31, PS-4.37, PS-4.39, PS-4.41, PS-4.45, PS-4.53 (11 solutions, ~20%)
@@ -181,9 +181,9 @@ PS-4.1, PS-4.3, PS-4.5, PS-4.9, PS-4.11, PS-4.13, PS-4.25, PS-4.27, PS-4.29, PS-
 - Firmament as codimension-2 hypersurface (4D intrinsic dimension)
 - Embedding map and induced metric
 - Extrinsic curvature and mean curvature
-- Nambu-Goto brane action
-- Membrane stress-energy tensor
-- Speed of light as membrane wave speed
+- Nambu-Goto Firmament action
+- Firmament membrane stress-energy tensor
+- Speed of light as Firmament membrane wave speed
 - Israel-Darmois junction conditions
 - Vibration modes: scalar, vector, tensor
 - Dispersion relations and stability

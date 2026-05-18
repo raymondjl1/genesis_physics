@@ -1,7 +1,7 @@
-# Chapter 7 Quality Gate Review: Membrane Vibration Spectra
+﻿# Chapter 7 Quality Gate Review: Firmament Vibration Spectra
 ## Comprehensive 8-Reviewer Assessment
 
-**Chapter:** Chapter 7: Membrane Vibration Spectra
+**Chapter:** Chapter 7: Firmament Vibration Spectra
 **Volume:** Volume 6 (Predictions and Simulations)
 **Date:** April 11, 2026
 **Review Scope:** Full chapter draft (567 lines)
@@ -56,7 +56,7 @@ OVERALL: [X] PASS  [ ] PASS WITH NOTES  [ ] FAIL
    This is exemplary falsifiability.
 
 9. **Internal consistency with prior chapters** (cross-reference spot check):
-   - Membrane tension σ = 6.0×10⁹⁸ kg/s² matches Symbol_and_Constants.md ✓
+   - Membrane tension σ = 6.0×10⁹⁸ kg/(m·s²) matches Symbol_and_Constants.md ✓
    - Waters Below coherence length η_B = 1.3×10⁻¹⁵ m matches stated constant ✓
    - Wave speed v = 2.993×10⁸ m/s (99.75% of c) computed consistently ✓
    - Equation numbers use Vol 6 chapter notation (6.7.X) consistently ✓
@@ -102,7 +102,7 @@ OVERALL: [ ] PASS  [X] PASS WITH NOTES  [ ] FAIL
 ## "But Why?" Moments (Violations Found)
 
 1. **Orphan statement: "But why those specific membrane parameters?"** (Section 7.2.1)
-   - The chapter states σ = 6.0 × 10⁹⁸ kg/s² and μ = 6.7 × 10⁸¹ kg/m³, then adds "(they are derived from the zone manifold's metric properties in Volume 2, Chapter 3)."
+   - The chapter states σ = 6.0 × 10⁹⁸ kg/(m·s²) and μ = 6.7 × 10⁸¹ kg/m³, then adds "(they are derived from the zone manifold's metric properties in Volume 2, Chapter 3)."
    - This is a **forward dependency and a truncated explanation.** The reader is told "they come from Volume 2" without understanding why. The chapter says "these are not free parameters" but doesn't show *how* zone manifold geometry produces these specific values.
    - **Missing:** A sentence or paragraph explaining the conceptual mechanism. "The membrane is the boundary of the zone manifold (Zone 2.2.3 | Zone 2.2.1). Its tension σ and surface density μ emerge from the metric curvature and geodesic distances in that geometry, yielding Planck-scale rigidity because the zones are separated at the geometric scale set by..."
    - **Fix:** Either include the derivation sketch or add: "The zone manifold is a 6D structure with metric-determined intrinsic geometry. Membrane tension and density follow from the curvature radius at the zone boundary. We defer the full derivation to Volume 2, Chapter 3, but the intuition is this: stiffer = smaller radius = higher Planck-scale rigidity."
@@ -307,7 +307,7 @@ OVERALL: [ ] PASS  [X] PASS WITH NOTES  [ ] FAIL
 ### Passed Checks
 
 1. **Numerical Constants — All match canonical sources**
-   - σ = 6.0×10⁹⁸ kg/s² ✓ (Symbol_and_Constants.md)
+   - σ = 6.0×10⁹⁸ kg/(m·s²) ✓ (Symbol_and_Constants.md)
    - μ = 6.7×10⁸¹ kg/m³ ✓ (canonical)
    - η_B = 1.3×10⁻¹⁵ m ✓ (canonical Waters Below coherence length)
    - v = 2.993×10⁸ m/s ✓ (computed as √(σ/μ) correctly)

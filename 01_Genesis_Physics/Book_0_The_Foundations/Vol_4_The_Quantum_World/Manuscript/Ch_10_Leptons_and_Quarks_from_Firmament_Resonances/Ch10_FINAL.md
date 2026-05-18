@@ -1,5 +1,5 @@
 # Chapter 10
-## Leptons and Quarks from Membrane Resonances
+## Leptons and Quarks from Firmament Resonances
 
 > *"Nature uses only the longest threads to weave her patterns, so each small piece of her fabric reveals the organization of the entire tapestry."* — R. P. Feynman, *The Character of Physical Law* (1965)
 >
@@ -14,8 +14,8 @@
 
 | Symbol | Meaning | First appearance |
 |--------|---------|-----------------|
-| $\Psi_A$ | Waters Above complex scalar field on the membrane | §10.1, Eq. (4.10.1) |
-| $\xi$ | Coordinate along the extra dimension transverse to the membrane | §10.1 |
+| $\Psi_A$ | Waters Above complex scalar field on the Firmament | §10.1, Eq. (4.10.1) |
+| $\xi$ | Coordinate along the extra dimension transverse to the Firmament | §10.1 |
 | $\eta_B$ | Compactification scale, $\eta_B \sim 1.3 \times 10^{-15}$ m | §10.1 |
 | $v$ | Electroweak VEV, $v = 246.22$ GeV (convention: $v/\sqrt 2 \approx 174.1$ GeV) | §10.4 |
 | $\lambda_A$ | $\Psi_A$ self-coupling | Eq. (4.10.2) |
@@ -43,13 +43,13 @@ If the framework cannot do this, Volume 4 fails. It does not fail quietly; it fa
 
 I want to be direct with you about two things before we begin.
 
-**The first crack.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions, obeying Pauli exclusion and anticommutation, and no amount of shaking a bosonic field will hand you a fermion. We will have to confront this head-on, and when we do, in Section 10.5, I will not hide from you that the framework currently *does not solve this problem*. It has a candidate route (Jackiw-Rossi, Goldstone-Wilczek) that works *if* we postulate an auxiliary spinor field on the membrane, and that postulate is not currently derived from anything more fundamental. It is tracked as GitHub issue #1. I will mark it OPEN and I will not paper over it.
+**The first crack.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions, obeying Pauli exclusion and anticommutation, and no amount of shaking a bosonic field will hand you a fermion. We will have to confront this head-on, and when we do, in Section 10.5, I will not hide from you that the framework currently *does not solve this problem*. It has a candidate route (Jackiw-Rossi, Goldstone-Wilczek) that works *if* we postulate an auxiliary spinor field on the Firmament, and that postulate is not currently derived from anything more fundamental. It is tracked as GitHub issue #1. I will mark it OPEN and I will not paper over it.
 
 **The second crack.** When the research files were first drafted (V2), the naive identification of particle masses with Kaluza-Klein tower modes gave errors of roughly 1000×. The V3 rewrite fixed the identification problem — fermion masses come from the Yukawa overlap integral, not from the compactification tower — and the errors dropped substantially. But they did not drop to zero. With a single-parameter exponential fit, the framework predicts lepton masses with residuals of a few percent on some particles and ~19% on others; quark masses are worse. The tau is a *calibration*, not a prediction; the muon and electron are *predictions* whose errors we will report in full. We will also report the leave-one-out residuals so you can see how much the result depends on which particle we calibrate to. This is tracked as GitHub issues #2 and #26.
 
 These two cracks are the point of this chapter. If you are a skeptical reader, and I hope you are, you will want to know exactly where the framework succeeds, exactly where it fails, and exactly what is still an open problem. That is what the rigor labels in every section header are for. RIGOROUS means the derivation is tight within the framework's assumptions. APPROXIMATE means we are using a controlled approximation whose error we can estimate. PHENOMENOLOGICAL means we are matching a pattern whose underlying derivation is not yet complete. OPEN means there is a known gap that current research does not close. Read the labels; trust them; hold me to them.
 
-The roadmap for the chapter is Figure 4.10.1. We will start by classifying membrane excitations (§10.1), find the topological vortices among them (§10.2), count the ladder of ξ-modes and discover that it has exactly three rungs (§10.3), derive the Yukawa overlap formula that turns the ladder into masses (§10.4), confront the spin-1/2 problem in full (§10.5), and then work through lepton, quark, and hadron predictions with honest residuals (§§10.6–10.8). Section 10.9 is the honest ledger — every particle, every error, every cherry-picking diagnostic — and §10.10 is the list of things this framework genuinely gets right that the Standard Model does not even attempt. Section 10.11 routes the remaining open problems to future chapters. Section 10.12 confirms the test-suite result.
+The roadmap for the chapter is Figure 4.10.1. We will start by classifying Firmament excitations (§10.1), find the topological vortices among them (§10.2), count the ladder of ξ-modes and discover that it has exactly three rungs (§10.3), derive the Yukawa overlap formula that turns the ladder into masses (§10.4), confront the spin-1/2 problem in full (§10.5), and then work through lepton, quark, and hadron predictions with honest residuals (§§10.6–10.8). Section 10.9 is the honest ledger — every particle, every error, every cherry-picking diagnostic — and §10.10 is the list of things this framework genuinely gets right that the Standard Model does not even attempt. Section 10.11 routes the remaining open problems to future chapters. Section 10.12 confirms the test-suite result.
 
 [FIGURE: Fig 4.10.1 — Chapter 10 roadmap. Flow: Membrane (Ψ_A) → vortex solutions → ξ-ladder → generation count → Yukawa overlap → mass formula → predictions. Two red "crack" markers annotate §10.5 (spin-1/2) and §10.9 (residuals).]
 
@@ -57,7 +57,7 @@ Honesty is the deliverable. Let us begin.
 
 ---
 
-## 10.1 The membrane mode picture [RIGOROUS]
+## 10.1 The Firmament mode picture [RIGOROUS]
 
 Every elementary particle in this framework is, by postulate, a localized, topologically characterized, resonant excitation of the four-dimensional firmament membrane coupled to the extra-dimensional Waters Above scalar field $\Psi_A(x^\mu, \xi)$. This is the starting claim. Everything in this chapter is an attempt to spell it out until it is either vindicated or falsified.
 
@@ -73,7 +73,7 @@ V(|\Psi_A|^2) = \frac{\lambda_A}{4}\left(|\Psi_A|^2 - v_A^2\right)^2.
 $$
 The capital indices $M, N$ run over the six bulk dimensions $(x^0, x^1, x^2, x^3, \xi, \eta)$; the Greek indices $\mu, \nu$ will be reserved for the four membrane coordinates. The scale $v_A$ is the vacuum expectation value set in Volume 3 Chapter 6, and $\lambda_A$ is the self-coupling. These are not free parameters — they were fixed by matching the cosmological density and the Higgs mass, respectively. We are inheriting them from prior chapters, not fitting them here.
 
-A general finite-energy solution to the equations of motion derived from (4.10.1) can be labeled by three quantities. First, its transverse profile along the compact $\xi$-direction — call this the **mode number** $n_\xi = 1, 2, 3, \ldots$. Second, the integer winding of the $\Psi_A$ phase around the asymptotic circle at spatial infinity in the membrane — call this the **topological charge** $n_w \in \mathbb{Z}$. Third, the four-dimensional profile of the solution on the membrane, which is the envelope we think of as the "particle" in ordinary spacetime. The first label will turn out to count generations, the second will turn out to be electric charge (up to a coupling we fix later), and the third will give us the localized wave-packet picture of a particle.
+A general finite-energy solution to the equations of motion derived from (4.10.1) can be labeled by three quantities. First, its transverse profile along the compact $\xi$-direction — call this the **mode number** $n_\xi = 1, 2, 3, \ldots$. Second, the integer winding of the $\Psi_A$ phase around the asymptotic circle at spatial infinity in the Firmament membrane — call this the **topological charge** $n_w \in \mathbb{Z}$. Third, the four-dimensional profile of the solution on the Firmament membrane, which is the envelope we think of as the "particle" in ordinary spacetime. The first label will turn out to count generations, the second will turn out to be electric charge (up to a coupling we fix later), and the third will give us the localized wave-packet picture of a particle.
 
 To extract the effective 4D physics, we integrate the six-dimensional action over the $\xi$- and $\eta$-directions. Writing
 $$
@@ -95,7 +95,7 @@ I want to pause over equation (4.10.5) because it is the fulcrum of the chapter.
 
 Dimensional cross-check: $[\chi_{n_\xi}] = L^{-1/2}$ (so that $\int |\chi|^2 d\xi$ is dimensionless), $[V_\xi] = L^{-2}$, and $[m^2] = L^{-2}$ in natural units. Both sides of (4.10.5) balance. ✓
 
-The triple $(n_\xi, n_w, \text{4D envelope})$ is what we will mean, for the rest of this chapter, by "a particle." The next step is to show that the topological label $n_w$ is forced on us by the vacuum structure of the membrane, not optional.
+The triple $(n_\xi, n_w, \text{4D envelope})$ is what we will mean, for the rest of this chapter, by "a particle." The next step is to show that the topological label $n_w$ is forced on us by the vacuum structure of the Firmament, not optional.
 
 ---
 
@@ -110,7 +110,7 @@ $$
 $$
 The vacuum manifold — the set of all field configurations that minimize the potential — is topologically a circle $S^1$.
 
-Now consider a finite-energy configuration on the two-dimensional slice of the membrane transverse to some straight-line defect. At spatial infinity, the field must approach the vacuum manifold (otherwise the energy density does not fall off fast enough for the total energy to be finite). So the boundary of our two-dimensional slice — a circle at infinity — is mapped into the vacuum manifold circle. This is a map $S^1 \to S^1$, and such maps are classified up to continuous deformation by their winding number, which is an integer:
+Now consider a finite-energy configuration on the two-dimensional slice of the Firmament transverse to some straight-line defect. At spatial infinity, the field must approach the vacuum manifold (otherwise the energy density does not fall off fast enough for the total energy to be finite). So the boundary of our two-dimensional slice — a circle at infinity — is mapped into the vacuum manifold circle. This is a map $S^1 \to S^1$, and such maps are classified up to continuous deformation by their winding number, which is an integer:
 $$
 n_w = \frac{1}{2\pi} \oint \partial_\phi \theta\, d\phi \in \mathbb{Z},
 \tag{4.10.7}
@@ -158,7 +158,7 @@ Q = n_w\, e.
 $$
 This is the charge quantization law. Every observer in every frame agrees on $n_w$ because it is an integer defined by topology, and every vortex carries a charge that is an integer multiple of $e$. Fractional charges — the $\pm\tfrac{1}{3}, \pm\tfrac{2}{3}$ of quarks — will arise in §10.7 from a color-triplet generalization in which the $U(1)$ winding is shared among three internal components. The framework's prediction is that *color-singlet* states must have integer charge, and this matches observation.
 
-**What we have done so far.** We have shown that the membrane, by virtue of its vacuum manifold topology alone, supports stable, integer-charged, localized excitations. We have not yet shown they are spin-1/2 (that is §10.5), and we have not yet computed their masses (that is §§10.3–10.6). But the basic object — the vortex — is on the table, and its charge is quantized by a theorem, not by a postulate.
+**What we have done so far.** We have shown that the Firmament, by virtue of its vacuum manifold topology alone, supports stable, integer-charged, localized excitations. We have not yet shown they are spin-1/2 (that is §10.5), and we have not yet computed their masses (that is §§10.3–10.6). But the basic object — the vortex — is on the table, and its charge is quantized by a theorem, not by a postulate.
 
 ---
 
@@ -171,7 +171,7 @@ $$
 -\frac{d^2 \chi_{n_\xi}}{d\xi^2} + V_\xi(\xi)\, \chi_{n_\xi}(\xi) = m_{n_\xi}^{2}\, \chi_{n_\xi}(\xi),
 \tag{4.10.14}
 $$
-subject to boundary conditions inherited from the membrane-bulk geometry (Volume 1 Chapter 5). The potential $V_\xi(\xi)$ is the effective one-dimensional potential obtained from the bulk embedding. For the canonical zone geometry of Genesis Physics, it is well-approximated as a double-well:
+subject to boundary conditions inherited from the Firmament-bulk geometry (Volume 1 Chapter 5). The potential $V_\xi(\xi)$ is the effective one-dimensional potential obtained from the bulk embedding. For the canonical zone geometry of Genesis Physics, it is well-approximated as a double-well:
 $$
 V_\xi(\xi) = V_0 \left[\left(\xi/\eta_B\right)^2 - 1\right]^2,
 \tag{4.10.15}
@@ -211,7 +211,7 @@ This is the opposite of what a naive reader would guess: the *lowest* transverse
 
 We have vortices and we have a ladder of three ξ-modes. To get particle masses, we need to couple these two structures together and let the Higgs give them mass. This is where the Yukawa coupling comes in.
 
-The Higgs field $H(x^\mu, \xi)$ is itself a mode on the membrane, and its derivation will be the subject of Chapter 11. For the purposes of this chapter we take its ξ-profile as given: a normalized function $H(\xi)$ peaked near the center of the wells and decaying away from them. The 4D Yukawa coupling of the $n_\xi$-th fermion generation to the Higgs is then obtained by integrating the 6D Yukawa interaction $\lambda_0\, \bar\psi\, H\, \psi$ over the ξ-direction:
+The Higgs field $H(x^\mu, \xi)$ is itself a mode on the Firmament, and its derivation will be the subject of Chapter 11. For the purposes of this chapter we take its ξ-profile as given: a normalized function $H(\xi)$ peaked near the center of the wells and decaying away from them. The 4D Yukawa coupling of the $n_\xi$-th fermion generation to the Higgs is then obtained by integrating the 6D Yukawa interaction $\lambda_0\, \bar\psi\, H\, \psi$ over the ξ-direction:
 $$
 y_{n_\xi} = \lambda_0 \int_0^{\eta_B} \chi_{n_\xi}(\xi)^{\ast}\, H(\xi)\, \chi_1(\xi)\, d\xi,
 \tag{4.10.18}
@@ -234,7 +234,7 @@ $$
 m_f = y_{n_\xi}\, \frac{v}{\sqrt 2},
 \tag{4.10.20}
 $$
-where $v = 246.22$ GeV is the Higgs vacuum expectation value on the membrane. We are using $v$ as an empirical input here, not a derivation — the derivation of $v$ from the Higgs potential itself is an open item (GitHub #25) that will be treated in Chapter 11. If you want to know how much of the particle spectrum is "real prediction" vs. "parameter fit," note that $v$ is one parameter, $y_0$ is another, and $\alpha$ is a third, and in principle the framework should derive all three. Currently: $v$ is empirical, $y_0$ is empirical (set by matching to the tau), and $\alpha \approx 1.0$ is computed from the overlap geometry. So the lepton sector, within this approximation, has one genuine prediction ($\alpha$) and two calibrations ($v$, $y_0$). That is the honest accounting.
+where $v = 246.22$ GeV is the Higgs vacuum expectation value on the Firmament membrane. We are using $v$ as an empirical input here, not a derivation — the derivation of $v$ from the Higgs potential itself is an open item (GitHub #25) that will be treated in Chapter 11. If you want to know how much of the particle spectrum is "real prediction" vs. "parameter fit," note that $v$ is one parameter, $y_0$ is another, and $\alpha$ is a third, and in principle the framework should derive all three. Currently: $v$ is empirical, $y_0$ is empirical (set by matching to the tau), and $\alpha \approx 1.0$ is computed from the overlap geometry. So the lepton sector, within this approximation, has one genuine prediction ($\alpha$) and two calibrations ($v$, $y_0$). That is the honest accounting.
 
 **Dimensional check.** $[y_{n_\xi}] = \mathrm{dimensionless}$, $[v] = \mathrm{mass}$, $[m_f] = \mathrm{mass}$. ✓
 
@@ -244,7 +244,7 @@ The master mass formula (4.10.20) combined with the ladder (4.10.19) and the thr
 
 ## 10.5 Spin-1/2 from a bosonic membrane [OPEN — the BLOCKER]
 
-> **OPEN PROBLEM 10.1.** *The framework does not currently derive spin-1/2 fermions from the bosonic membrane $\Psi_A$ alone. A route exists via the Jackiw-Rossi index theorem, but that route requires an independent spinor field on the membrane as an additional postulate. Tracked as GitHub issue #1 (BLOCKER).*
+> **OPEN PROBLEM 10.1.** *The framework does not currently derive spin-1/2 fermions from the bosonic membrane $\Psi_A$ alone. A route exists via the Jackiw-Rossi index theorem, but that route requires an independent spinor field on the Firmament as an additional postulate. Tracked as GitHub issue #1 (BLOCKER).*
 
 Read the box above before you read the rest of this section. I have put the problem at the top, in the clearest language I can manage, because this is where an honest framework earns or loses its reader's trust.
 
@@ -263,7 +263,7 @@ There are two known routes in the literature, and I will describe both honestly.
 > (v) Each zero mode is a two-state system (filled or empty); filling one half-fills the Dirac sea locally, which gives fermion number $\tfrac{1}{2}$ and spin $\tfrac{1}{2}$ for the unit vortex.
 > (vi) Exchanging two such vortex-plus-filled-zero-mode composites picks up the exchange phase $-1$, which is the Pauli sign.
 >
-> **The catch:** step (ii) is not derived — it assumes the fermion field $\psi$ already exists on the membrane. That assumption is what this chapter calls OPEN 10.1.
+> **The catch:** step (ii) is not derived — it assumes the fermion field $\psi$ already exists on the Firmament. That assumption is what this chapter calls OPEN 10.1.
 
 ### Route A: Goldstone-Wilczek / Jackiw-Rossi
 
@@ -287,9 +287,9 @@ which is the minus sign of fermionic exchange. Pauli exclusion follows from the 
 
 **This is a beautiful result. And it does not solve our problem.**
 
-The reason is the precondition. Jackiw-Rossi requires an *independent* spinor field $\psi$ on the membrane. If you do not already have a spinor field, the theorem has nothing to say. And the membrane, as we have built it up from Volume 1 through Volume 4 Chapter 9, has only the bosonic scalar $\Psi_A$ and its cousin $\Psi_B$. There is no $\psi$.
+The reason is the precondition. Jackiw-Rossi requires an *independent* spinor field $\psi$ on the Firmament. If you do not already have a spinor field, the theorem has nothing to say. And the Firmament, as we have built it up from Volume 1 through Volume 4 Chapter 9, has only the bosonic scalar $\Psi_A$ and its cousin $\Psi_B$. There is no $\psi$.
 
-To proceed in the literature-standard way, we would have to *add* a spinor field $\psi$ by hand, as a new primordial field on the membrane, with its own Lagrangian, its own coupling to $\Psi_A$, and — critically — its own Grassmann algebra. At that point we would have *postulated* fermion statistics; we would not have *derived* them. The derivation would reduce to: "spin-1/2 exists because we assumed a spinor field exists." This is not a derivation; it is a relabeling of the mystery.
+To proceed in the literature-standard way, we would have to *add* a spinor field $\psi$ by hand, as a new primordial field on the Firmament, with its own Lagrangian, its own coupling to $\Psi_A$, and — critically — its own Grassmann algebra. At that point we would have *postulated* fermion statistics; we would not have *derived* them. The derivation would reduce to: "spin-1/2 exists because we assumed a spinor field exists." This is not a derivation; it is a relabeling of the mystery.
 
 ### Route B: Anyonic statistics from 2+1D braiding
 
@@ -303,17 +303,17 @@ Kitaev and others have shown that certain 2+1D lattice models support Ising-anyo
 
 I have to ask you to trust the framework temporarily for the rest of this chapter. Here is the structure of the trust I am asking for.
 
-**Assumption 10.1 (working, not derived).** There exists, on the membrane, an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$, such that the Jackiw-Rossi theorem applies. We call it "working" rather than "temporary" to be honest about timescales: no committed future chapter of this volume closes this gap, and the routes in (a)–(c) below are research directions rather than scheduled deliverables.
+**Assumption 10.1 (working, not derived).** There exists, on the Firmament, an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$, such that the Jackiw-Rossi theorem applies. We call it "working" rather than "temporary" to be honest about timescales: no committed future chapter of this volume closes this gap, and the routes in (a)–(c) below are research directions rather than scheduled deliverables.
 
 **Consequence.** Every $n_w = 1$ vortex in $\Psi_A$ binds a single fermionic zero mode, giving a spin-1/2 fermion with integer electric charge $|e|$, Pauli exclusion, and canonical anticommutation. The $n_w = -1$ vortex gives the antiparticle.
 
 **Status.** Assumption 10.1 is OPEN. Current research directions include:
-(a) Deriving $\psi$ from a supersymmetric extension of the membrane in which $\Psi_A$ and $\psi$ are superpartners;
+(a) Deriving $\psi$ from a supersymmetric extension of the Firmament in which $\Psi_A$ and $\psi$ are superpartners;
 (b) Deriving $\psi$ from geometric structure in the 6D bulk (Kähler spinors);
-(c) Deriving fermion statistics from higher-form gauge symmetry on the membrane.
+(c) Deriving fermion statistics from higher-form gauge symmetry on the Firmament.
 None of (a), (b), (c) is complete as of the current research state. See GitHub #1 for the tracking issue.
 
-**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is conditional on Assumption 10.1. They are not independent predictions. If Assumption 10.1 cannot be closed — if there is no way to derive a primordial spinor on the membrane — then the framework either needs to retreat to a weaker claim ("we derive particle *masses* assuming fermions exist") or it is wrong. The current honest position is: the framework is conditionally correct, and the condition is open.
+**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is conditional on Assumption 10.1. They are not independent predictions. If Assumption 10.1 cannot be closed — if there is no way to derive a primordial spinor on the Firmament — then the framework either needs to retreat to a weaker claim ("we derive particle *masses* assuming fermions exist") or it is wrong. The current honest position is: the framework is conditionally correct, and the condition is open.
 
 I will continue, and I will not hide from you when the mass-formula results I quote are contingent on this open assumption. They all are. Every single one.
 
@@ -541,7 +541,7 @@ These are four structural successes. Two of them (generation count, charge quant
 
 Five tracked open problems, each with its current status and routing.
 
-**OPEN 10.1 — Spin-1/2 origin.** The BLOCKER. Tracked as GitHub #1. Current routes: supersymmetric extension of the membrane, Kähler spinors from bulk geometry, higher-form gauge symmetry. None complete. No committed chapter closes this; it is an active research direction.
+**OPEN 10.1 — Spin-1/2 origin.** The BLOCKER. Tracked as GitHub #1. Current routes: supersymmetric extension of the Firmament, Kähler spinors from bulk geometry, higher-form gauge symmetry. None complete. No committed chapter closes this; it is an active research direction.
 
 **OPEN 10.2 — Fermion mass spectrum with running Yukawas applied.** Tracked as GitHub #2 and #26. The RG-running machinery itself was developed in Chapter 8 of this volume; its application to re-computing the fermion mass spectrum from the zone cutoff down to the electroweak scale is the next research step. Expected to reduce the lepton residuals to the few-percent range and the quark residuals from $O(10^{3\text{–}5})$ to $O(10^{-1})$.
 
@@ -605,7 +605,7 @@ These are the tests this chapter *should* have, and writing them is flagged as *
 
 ### Challenge
 
-**P10.8** (★★★★) Construct a candidate primordial spinor field $\psi$ on the membrane. Write down a Lagrangian $\mathcal{L}_\psi$ that couples $\psi$ to $\Psi_A$ via a Yukawa interaction. Verify that the Jackiw-Rossi index theorem applies to vortex backgrounds of $\Psi_A$, giving one zero mode per unit of winding. Identify what is *not* derived by your construction (i.e., what you had to postulate to write $\mathcal{L}_\psi$ at all), and comment on whether this closes OPEN 10.1 or merely relocates it.
+**P10.8** (★★★★) Construct a candidate primordial spinor field $\psi$ on the Firmament. Write down a Lagrangian $\mathcal{L}_\psi$ that couples $\psi$ to $\Psi_A$ via a Yukawa interaction. Verify that the Jackiw-Rossi index theorem applies to vortex backgrounds of $\Psi_A$, giving one zero mode per unit of winding. Identify what is *not* derived by your construction (i.e., what you had to postulate to write $\mathcal{L}_\psi$ at all), and comment on whether this closes OPEN 10.1 or merely relocates it.
 
 **P10.9** (★★★★) The single-$\alpha$ exponential (4.10.19) is too rigid to reproduce the three charged lepton masses simultaneously. Propose a single-parameter modification — for instance, $y_{n_\xi} = y_0 e^{-\alpha n_\xi^{\beta}}$ with $\beta \neq 2$, or $y_{n_\xi} = y_0 (n_\xi + \gamma)^{-\delta}$ — that reduces all three residuals below 1%. Does your modification preserve the derivation of the three-generation count? Does it introduce new free parameters, and if so, how might the framework derive them? How would your modification be falsified by a measurement of the next-generation lepton if one existed?
 
@@ -617,7 +617,7 @@ We set out to derive the fermion spectrum of the Standard Model from one membran
 
 We **derived** that the number of fermion generations is three (§10.3), that electric charge is quantized in integer multiples (§10.2), that neutrinos are naturally millions of times lighter than charged leptons (§10.6, seesaw), and that the proton mass comes out at 0.02% once QCD is taken into account (§10.8).
 
-We **did not** derive that fermions are spin-1/2. That is OPEN 10.1, tracked as GitHub #1 (BLOCKER). The framework currently requires an independent primordial spinor field on the membrane to apply the Jackiw-Rossi theorem, and that spinor field is not itself derived from more basic postulates. Every mass-formula result in this chapter is conditional on this open assumption.
+We **did not** derive that fermions are spin-1/2. That is OPEN 10.1, tracked as GitHub #1 (BLOCKER). The framework currently requires an independent primordial spinor field on the Firmament to apply the Jackiw-Rossi theorem, and that spinor field is not itself derived from more basic postulates. Every mass-formula result in this chapter is conditional on this open assumption.
 
 We **approximately** reproduced the lepton spectrum at the 15–19% level using a single-parameter exponential Yukawa formula (§§10.4, 10.6), and we did not reproduce the tree-level quark spectrum at anywhere near competitive precision (§10.7). The lepton residuals are expected to improve with RG running (machinery in Ch 8; application pending). The quark residuals are expected to improve substantially, though likely not fully, with the same running.
 

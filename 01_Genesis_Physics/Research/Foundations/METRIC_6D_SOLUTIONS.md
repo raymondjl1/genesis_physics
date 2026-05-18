@@ -21,13 +21,13 @@
 
 ## Executive Summary
 
-This document provides explicit closed-form and numerical solutions for the 6D spacetime metric **M⁶** across the zone architecture of Genesis Physics. The framework describes a universe as a 4D brane (the Firmament) embedded in 6D bulk spacetime, with three thermodynamic zones:
+This document provides explicit closed-form and numerical solutions for the 6D spacetime metric **M⁶** across the zone architecture of Genesis Physics. The framework describes a universe as a 4D Firmament (the Firmament) embedded in 6D bulk spacetime, with three thermodynamic zones:
 
 - **Zone 2.3 (Waters Above)**: Dark energy dominion (ξ-direction)
-- **Zone 2.2 (Firmament)**: Observable 4D brane with SM physics
+- **Zone 2.2 (Firmament)**: Observable 4D Firmament with SM physics
 - **Zone 2.1 (Waters Below)**: Dark matter confinement (η-direction)
 
-The solutions are derived from the 6D Einstein equations with cosmological constant and brane source terms. Crucially, **the zone extents ξ_A and η_B emerge from the field dynamics**, not input parameters. These solutions recover Friedmann cosmology, dark matter phenomenology, dark energy acceleration, and Newtonian gravity in appropriate limits.
+The solutions are derived from the 6D Einstein equations with cosmological constant and Firmament source terms. Crucially, **the zone extents ξ_A and η_B emerge from the field dynamics**, not input parameters. These solutions recover Friedmann cosmology, dark matter phenomenology, dark energy acceleration, and Newtonian gravity in appropriate limits.
 
 ---
 
@@ -96,7 +96,7 @@ The determinant: $g = -\det(\gamma) \cdot \det(h) = -e^{8A} \cdot e^{4B}$, so $\
 
 The bulk stress-energy tensor splits:
 
-$$T_{AB}^{\text{total}} = T_{AB}^{\text{bulk}} + T_{AB}^{\text{brane}}$$
+$$T_{AB}^{\text{total}} = T_{AB}^{\text{bulk}} + T_{AB}^{\text{Firm}}$$
 
 **Bulk contribution** (from scalar fields $\Psi_A, \Psi_B$ in their respective zones):
 
@@ -104,11 +104,11 @@ $$T_{AB}^{\text{bulk}} = \partial_A \Psi \partial_B \Psi - \frac{1}{2}g_{AB}\lef
 
 **Brane contribution** (Dirac delta at the Firmament):
 
-$$T_{AB}^{\text{brane}} = -\sigma \, g_{AB}^{(4)} \, \delta(\xi - \xi_0) \delta(\eta - \eta_0)$$
+$$T_{AB}^{\text{Firm}} = -\sigma \, g_{AB}^{(4)} \, \delta(\xi - \xi_0) \delta(\eta - \eta_0)$$
 
 where:
-- $\sigma$ is the brane tension (energy density per unit area on the brane)
-- $g_{AB}^{(4)} = \text{diag}(-1, 1, 1, 1, 0, 0)$ is the brane projection
+- $\sigma$ is the Firmament tension (energy density per unit area on the Firmament)
+- $g_{AB}^{(4)} = \text{diag}(-1, 1, 1, 1, 0, 0)$ is the Firmament projection
 
 ### 2.2 6D Einstein Equations with Cosmological Constant
 
@@ -240,11 +240,11 @@ This sets the cosmic horizon scale.
 
 ### 3.3 Zone 2.2: Firmament (4D Brane, Observable Universe)
 
-**Region**: $(\xi, \eta) = (\xi_0, \eta_0)$ (codimension-2 brane in 6D)
+**Region**: $(\xi, \eta) = (\xi_0, \eta_0)$ (codimension-2 Firmament in 6D)
 
 **Field content**: Standard Model fields (matter, radiation, baryonic fields).
 
-The brane has tension:
+The Firmament has tension:
 
 $$\sigma = \frac{3\pi G_4 M_{\text{Pl}}^2}{c^2}$$
 
@@ -252,13 +252,13 @@ where $M_{\text{Pl}} = \sqrt{\hbar c/G_4} \approx 1.22 \times 10^{19}$ GeV is th
 
 #### 3.3.1 Israel Junction Conditions
 
-At the Firmament, the extrinsic curvature has a discontinuity related to the brane tension. The Israel junction conditions in 6D are:
+At the Firmament, the extrinsic curvature has a discontinuity related to the Firmament tension. The Israel junction conditions in 6D are:
 
 $$[K^\mu_\mu] = -\kappa_6^2 \left(\sigma - \frac{1}{4}S\right)$$
 
-where $[K^\mu_\mu]$ is the jump in the trace of extrinsic curvature (discontinuity across the brane), and $S$ is the trace of the brane stress-energy.
+where $[K^\mu_\mu]$ is the jump in the trace of extrinsic curvature (discontinuity across the Firmament), and $S$ is the trace of the Firmament stress-energy.
 
-For a pure tension brane (no matter):
+For a pure tension Firmament (no matter):
 
 $$[K] = -\kappa_6^2 \sigma$$
 
@@ -276,13 +276,13 @@ $$[\partial_\eta A]|_{\eta_0} = -\frac{\kappa_6^2 \sigma}{3}$$
 
 #### 3.3.2 Metric at the Brane
 
-The 4D induced metric on the brane is:
+The 4D induced metric on the Firmament is:
 
-$$\boxed{ds^2|_{\text{brane}} = -e^{2A(\xi_0,\eta_0)} c^2 dt^2 + e^{2A(\xi_0,\eta_0)}\left[\frac{dr^2}{1-kr^2} + r^2d\Omega^2\right]}$$
+$$\boxed{ds^2|_{\text{Firm}} = -e^{2A(\xi_0,\eta_0)} c^2 dt^2 + e^{2A(\xi_0,\eta_0)}\left[\frac{dr^2}{1-kr^2} + r^2d\Omega^2\right]}$$
 
 This is the 4D Friedmann-Robertson-Walker (FRW) metric with warp-factor-modified lapse.
 
-For small deviations from the brane: $e^{2A(\xi_0, \eta_0)} \approx 1$ (brane normalization).
+For small deviations from the Firmament: $e^{2A(\xi_0, \eta_0)} \approx 1$ (Firmament normalization).
 
 #### 3.3.3 Effective 4D Newton Constant
 
@@ -378,7 +378,7 @@ $$A^{(L)}(y_0) = A^{(R)}(y_0), \quad B^{(L)}(y_0) = B^{(R)}(y_0)$$
 
 ### 4.2 Israel Junction Conditions at the Firmament
 
-At the Firmament $(\xi_0, \eta_0)$, we apply the full Israel thin-brane junction formalism.
+At the Firmament $(\xi_0, \eta_0)$, we apply the full Israel thin-Firmament junction formalism.
 
 Define the extrinsic curvature in the $\xi$ direction (treating $\eta$ as transverse):
 
@@ -394,7 +394,7 @@ Similarly in the $\eta$ direction:
 
 $$\left[\frac{\partial A}{\partial \eta}\right] = -\frac{\kappa_6^2 \sigma}{3}$$
 
-**Physical interpretation**: The kinks in the warp factor are sourced by the brane tension $\sigma$.
+**Physical interpretation**: The kinks in the warp factor are sourced by the Firmament tension $\sigma$.
 
 ### 4.3 The Sabbath Boundary (Temporal Junction)
 
@@ -428,7 +428,7 @@ $$-\frac{d^2\Psi_A}{d\xi^2} - \frac{3}{L_A}\frac{1}{\xi}\frac{d\Psi_A}{d\xi} = \
 For a quartic potential: $V_A(\Psi_A) = \lambda_A (\Psi_A^2 - v_A^2)^2$.
 
 **Boundary conditions**:
-- At $\xi = \xi_0$ (Firmament): $\Psi_A(\xi_0) = \Psi_A^{\text{brane}}$ (coupled to brane dynamics)
+- At $\xi = \xi_0$ (Firmament): $\Psi_A(\xi_0) = \Psi_A^{\text{Firm}}$ (coupled to Firmament dynamics)
 - At $\xi = \xi_A$: $\partial_\xi \Psi_A = 0$ (turning point / ground state)
 
 The reaching of the ground state defines $\xi_A$. The "pressure" at the turning point becomes zero:
@@ -507,17 +507,17 @@ $$R^{(6)} = -12\left[\partial_\xi^2 A_\xi + 3(\partial_\xi A_\xi)^2 - \frac{\Lam
 
 **Induced 4D metric**:
 
-$$\boxed{ds^2_{\text{brane}} = -e^{2A(\xi_0,\eta_0)} c^2 dt^2 + a^2(t)\,e^{2A(\xi_0,\eta_0)}\left[\frac{dr^2}{1-kr^2} + r^2 d\Omega^2\right]}$$
+$$\boxed{ds^2_{\text{Firm}} = -e^{2A(\xi_0,\eta_0)} c^2 dt^2 + a^2(t)\,e^{2A(\xi_0,\eta_0)}\left[\frac{dr^2}{1-kr^2} + r^2 d\Omega^2\right]}$$
 
-For normalization, set $A(\xi_0, \eta_0) = 0$ (local coordinates on brane):
+For normalization, set $A(\xi_0, \eta_0) = 0$ (local coordinates on Firmament):
 
-$$ds^2_{\text{brane}} = -c^2 dt^2 + a^2(t)[dr^2/(1-kr^2) + r^2 d\Omega^2]$$
+$$ds^2_{\text{Firm}} = -c^2 dt^2 + a^2(t)[dr^2/(1-kr^2) + r^2 d\Omega^2]$$
 
 This is the standard FRW metric.
 
 **Brane stress-energy** (from matter):
 
-$$T_{\mu\nu}^{\text{brane}} = (\rho + p/c^2)u_\mu u_\nu + p \, g_{\mu\nu}$$
+$$T_{\mu\nu}^{\text{Firm}} = (\rho + p/c^2)u_\mu u_\nu + p \, g_{\mu\nu}$$
 
 where $\rho$ includes contributions from all three zones weighted by their accessible volumes.
 
@@ -527,7 +527,7 @@ where $\rho$ includes contributions from all three zones weighted by their acces
 
 **Warp factors** (separable):
 
-$$A_\xi(\xi) = 0$$ (normalized at brane)
+$$A_\xi(\xi) = 0$$ (normalized at Firmament)
 
 $$A_\eta(\eta) \approx -\frac{\alpha \eta^2}{2\eta_B^2}$$ (small, $\alpha < 0.1$)
 
@@ -555,7 +555,7 @@ The exponential factor confines excitations to $\eta < \eta_B$.
 
 ### 7.1 Far-Zone Limit: Zone 2.3 to de Sitter Space
 
-Far from the brane ($\xi \to \xi_A$), where $\Psi_A$ reaches its ground state:
+Far from the Firmament ($\xi \to \xi_A$), where $\Psi_A$ reaches its ground state:
 
 $$A_\xi(\xi) \to \text{const}, \quad V_A(\Psi_A^{\infty}) = \Lambda_{\text{eff}}$$
 
@@ -569,7 +569,7 @@ This is the **de Sitter solution** describing exponential expansion.
 
 ### 7.2 Near Massive Object: Schwarzschild Limit
 
-Near a non-rotating massive object of mass $M$ on the brane, the metric deviates from FRW to:
+Near a non-rotating massive object of mass $M$ on the Firmament, the metric deviates from FRW to:
 
 $$ds^2 = -\left(1 - \frac{2GM}{rc^2}\right)c^2 dt^2 + \left(1 - \frac{2GM}{rc^2}\right)^{-1}dr^2 + r^2 d\Omega^2 + O(a/r)$$
 
@@ -587,7 +587,7 @@ $$\dot{H} + H^2 + \frac{k}{a^2} = -\frac{4\pi G_4}{3}(\rho_{\text{eff}} + 3p_{\t
 
 where:
 
-$$\rho_{\text{eff}} = \rho_{\text{brane}} + \frac{\rho_{2.1}}{\text{Vol}_{2.1}} + \frac{\rho_{2.3}}{\text{Vol}_{2.3}}$$
+$$\rho_{\text{eff}} = \rho_{\text{Firm}} + \frac{\rho_{2.1}}{\text{Vol}_{2.1}} + \frac{\rho_{2.3}}{\text{Vol}_{2.3}}$$
 
 The energy densities from Zones 2.1 (dark matter) and 2.3 (dark energy) enter through effective contributions.
 
@@ -628,7 +628,7 @@ $$F = -\frac{GMm}{r^2}$$
 - $\eta_B \approx 1.3 \times 10^{-15}$ m (femtometer scale)
 
 **Brane location**:
-- $\xi_0 \approx \xi_A/10 \approx 1.4 \times 10^{25}$ m (example; to be refined by brane dynamics)
+- $\xi_0 \approx \xi_A/10 \approx 1.4 \times 10^{25}$ m (example; to be refined by Firmament dynamics)
 - $\eta_0 \approx \eta_B/2 \approx 6.5 \times 10^{-16}$ m (example; symmetry point)
 
 ### 8.2 Warp Factor Profiles
@@ -650,7 +650,7 @@ $$e^{2A_\xi(\xi)} = \left(\frac{L_A}{\xi}\right)^{4/3}$$
 - At $\xi = \xi_0$: $e^{2A_\xi(\xi_0)} \approx 10^{2.05} \approx 112$
 - At $\xi = \xi_A$: $e^{2A_\xi(\xi_A)} \approx 0.1^{2.05} \approx 0.009$
 
-The metric **redshifts** dramatically away from the brane in the $\xi$ direction.
+The metric **redshifts** dramatically away from the Firmament in the $\xi$ direction.
 
 **Zone 2.1 (Waters Below, $\eta \in [0, \eta_B]$)**:
 
@@ -760,7 +760,7 @@ $$G_4 \sim 10^{-11} \text{ m}^3/(\text{kg·s}^2)$$
 
 ### 9.3 Baryonic Matter on the Brane
 
-**Standard Model fields** reside on the 4D brane (Firmament). Their density is suppressed:
+**Standard Model fields** reside on the 4D Firmament (Firmament). Their density is suppressed:
 
 $$\rho_{\text{baryons}} / \rho_{\text{crit}} \approx 0.049$$
 
@@ -852,7 +852,7 @@ Physically, this represents the moment when the universe transitions from the no
 
 2. **Brane tension**: How is $\sigma$ related to fundamental scales? Is it dynamical?
 
-3. **Matter coupling**: How do SM fields couple to both the brane and the bulk scalars?
+3. **Matter coupling**: How do SM fields couple to both the Firmament and the bulk scalars?
 
 4. **Thermodynamic phases**: How do the Edenic, Fall, and Redemption phases modify the metric solutions?
 

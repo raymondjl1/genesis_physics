@@ -2,9 +2,9 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:25-27 (Creation of living things with distinct kinds; mankind in image of God) | Genesis 1:25-27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
-> | Parent Theory | Membrane Dynamics, Topological Field Theory | ACTION_6D_COMPLETE.md, FERMION_EMERGENCE_FROM_MEMBRANE.md |
-> | **This Document** | **Topological defects as Standard Model particles; homotopy group classification; spin-statistics from brane topology; three generations from extra-dimensional topology** | **TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md** |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Parent Theory | Firmament Dynamics, Topological Field Theory | ACTION_6D_COMPLETE.md, FERMION_EMERGENCE_FROM_MEMBRANE.md |
+> | **This Document** | **Topological defects as Standard Model particles; homotopy group classification; spin-statistics from Firmament topology; three generations from extra-dimensional topology** | **TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md** |
 > | Modern Equivalent | Topological quantum field theory, vortex quantization, monopole classification | Convergence: produces all SM particles with correct quantum numbers and statistics; explains generation structure |
 >
 > *Chain Status: COMPLETE*
@@ -20,7 +20,7 @@
 
 ## Abstract
 
-This document establishes the complete rigorous mapping between topological defects on the 4D Firmament brane (embedded in 6D spacetime) and Standard Model particles. We classify all defect types via homotopy group analysis, derive particle quantum numbers from topological invariants, prove the spin-statistics connection from brane geometry, and explain the three-generation structure through the topology of extra-dimensional space. This provides the mathematical foundation for understanding all particles as excitations of the Firmament itself.
+This document establishes the complete rigorous mapping between topological defects on the 4D Firmament (embedded in 6D spacetime) and Standard Model particles. We classify all defect types via homotopy group analysis, derive particle quantum numbers from topological invariants, prove the spin-statistics connection from Firmament geometry, and explain the three-generation structure through the topology of extra-dimensional space. This provides the mathematical foundation for understanding all particles as excitations of the Firmament itself.
 
 ---
 
@@ -1503,7 +1503,7 @@ This can be understood as a **fine-tuning** or a selection principle: the Genesi
 
 ## Conclusion
 
-This document has established a complete, rigorous mathematical framework for understanding all Standard Model particles as **topological defects on the Firmament brane**.
+This document has established a complete, rigorous mathematical framework for understanding all Standard Model particles as **topological defects on the Firmament**.
 
 ### Key Results:
 

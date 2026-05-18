@@ -24,7 +24,7 @@ The Field Configuration Space: Setting the Stage.
 
 Why Operators?.
 
-From Chapter 6, you know that the universe's state is encoded in field configurations. The Waters Above (ΨA) and Waters Below (ΨB), the membrane perturbations (h_μν), and matter fields all live in field space. Any equation of motion—any evolution equation, any symmetry, any conservation law—is an operation on these configurations.
+From Chapter 6, you know that the universe's state is encoded in field configurations. The Waters Above (ΨA) and Waters Below (ΨB), the Firmament perturbations (h_μν), and matter fields all live in field space. Any equation of motion—any evolution equation, any symmetry, any conservation law—is an operation on these configurations.
 
 But the action S (Eq. 1.7.1) is a functional of field configurations. Noether's theorem (Ch 7) tells you that from each continuous symmetry of S comes a conservation law. The Five Governing Principles (Ch 8) tell you that all symmetries and interactions must respect five mathematical constraints.
 
@@ -473,11 +473,13 @@ Remark on closure. The algebra p sub 7 is not a simple Lie algebra — it is a g
 
 Key Algebraic Results.
 
-Proposition 9.1: The seven pattern operators generate all connected components of the symmetry group of S_total (Eq. 1.7.1) under the Five Governing Principles constraints (Eq. 1.8.38).
+Classification Claim (not yet a theorem): The seven pattern operators P̂₁–P̂₇ are conjectured to form a complete classification of zone-architecture field behaviors. A formal completeness proof — showing the operator algebra is closed under commutation and that no additional independent operators exist — has not yet been constructed and is designated Open Problem 1.PO. Until this proof is given, the seven-type taxonomy should be understood as a well-motivated organizational framework, not a proven theorem.
 
-Proof sketch: The action Stotal is a functional of configurations in F(MZ). Any continuous symmetry of S (say, a Lie group G) acts on configurations via P̂₄. Any local symmetry (gauge invariance) requires a connection, which is transported via P̂₂. Any discrete symmetry (like zone periodicity) is encoded in P̂₃. The derivation of the action via Noether's theorem (Ch 7) requires localization P̂₁ and spectral analysis P̂₆. Time evolution via the Hamiltonian is P̂₇. Dimensional analysis and running couplings involve P̂₅. These seven generators are necessary and sufficient to account for all symmetries of S_total. ∎
+Proposition 9.1 (Conjecture — Pending OP-1.PO): The seven pattern operators are conjectured to generate all connected components of the symmetry group of S_ total (Eq. 1.7.1) under the Five Governing Principles constraints (Eq. 1.8.38).
 
-Corollary 9.1.1: Any field equation derivable from S_total can be expressed as a composition of the seven pattern operators.
+Motivation sketch (not a proof): The action S_ total is a functional of configurations in F(M sub Z). Any continuous symmetry of S (say, a Lie group G) acts on configurations via P sub 4. Any local symmetry (gauge invariance) requires a connection, which is transported via P sub 2. Any discrete symmetry (like zone periodicity) is encoded in P sub 3. The derivation of the action via Noether's theorem (Ch 7) requires localization P sub 1 and spectral analysis P sub 6. Time evolution via the Hamiltonian is P sub 7. Dimensional analysis and running couplings involve P sub 5. These seven generators are argued to be sufficient, but a rigorous closure proof — verifying all commutator identities and confirming no generator is missing — is the subject of Open Problem 1.PO.
+
+Corollary 9.1.1 (Tentative): Any field equation derivable from S_ total can be expressed as a composition of the seven pattern operators. This follows from Proposition 9.1 pending its proof.
 
 Proposition 9.2 (Irreducibility): No proper subset of {P̂₁, …, P̂₇} generates the full p₇ algebra under commutation.
 
@@ -664,15 +666,15 @@ Counting Argument.
 
 The firmament membrane (Chapter 5) is a 4D surface embedded in 6D spacetime. Codimension = 6 - 4 = 2.
 
-The configuration space of the membrane is specified by:
-1. Four tangential directions (on the membrane's surface): x₀, x₁, x₂, x₃ (spacetime)
+The configuration space of the Firmament is specified by:
+1. Four tangential directions (on the Firmament's surface): x₀, x₁, x₂, x₃ (spacetime)
    - Operators: P̂₁ (localize in spacetime), P̂₂ (extend in spacetime)
    - Symmetry: P̂₄ (Lorentz transformations on spacetime)
    - Time: P̂₇ (evolution in the time direction x₀)
 
    These give us: localization, transport, symmetry, cycles.
 
-2. Two normal directions (perpendicular to the membrane): ξ, η
+2. Two normal directions (perpendicular to the Firmament): ξ, η
    - Operators: P̂₃ (periodicity in the extra dimensions—6D toroidal compactification requires periodic boundary conditions)
    - Scaling: P̂₅ (scale the extra dimensions; this is the RG flow in effective 4D theory)
 
@@ -910,7 +912,7 @@ Summary: Key Results.
 (1.9.26)
 
 Forward pointers:
-- Volume 2 (Forces and Fields) applies these operators to the membrane dynamics and derives the effective 4D field equations
+- Volume 2 (Forces and Fields) applies these operators to the Firmament membrane dynamics and derives the effective 4D field equations
 - Volume 3 (Matter and Motion) uses the pattern algebra to connect fluid mechanics back to the Waters field equations
 - Volume 4 (The Quantum World) derives quantum numbers and the Standard Model from representations of p sub 7
 
@@ -928,7 +930,7 @@ Computational Problems (12 total).
 (b) ||P̂₅[Ψ_A]||² — verify that the norm scales correctly
 (c) Show that P̂₅ preserves the form of the wave equation under RG flow
 
-9.3. The membrane has extrinsic curvature K_ij (Chapter 5). Show that the parallel transport P̂₂ of a normal vector n perpendicular to the membrane picks up a correction ∝ K.
+9.3. The Firmament has extrinsic curvature K_ij (Chapter 5). Show that the parallel transport P̂₂ of a normal vector n perpendicular to the Firmament picks up a correction ∝ K.
 
 9.4. For a periodic field Ψ(x) = Ψ(x + L) on a box [0, L]⁴, compute:
 (a) P̂₃^{(L)}[Ψ] — translation by period L

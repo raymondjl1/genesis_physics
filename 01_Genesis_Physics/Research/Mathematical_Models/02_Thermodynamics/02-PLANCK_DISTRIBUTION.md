@@ -2,14 +2,14 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:14-19 (Creation of light; sun, moon, stars; light as fundamental) | Genesis 1:14-19 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics), AXIOM 2 (Waters Duality) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md, AXIOM_WATERS_DUALITY.md |
-> | Parent Theory | 6D Action, KK Dimensional Reduction, Membrane Mode Quantization | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, 02-STATISTICAL_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics), AXIOM 2 (Waters Duality) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md, AXIOM_WATERS_DUALITY.md |
+> | Parent Theory | 6D Action, KK Dimensional Reduction, Firmament Mode Quantization | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, 02-STATISTICAL_MECHANICS.md |
 > | **This Document** | **Planck distribution from KK gauge sector; quantized photons; Stefan-Boltzmann law; Wien's law; CMB temperature; UV catastrophe resolution** | **02-PLANCK_DISTRIBUTION.md** |
 > | Modern Equivalent | Blackbody radiation, quantum field theory of photons, statistical mechanics | Convergence: produces observed Planck spectrum, predicts CMB temperature 2.725 K, resolves UV catastrophe |
 >
 > *Chain Status: COMPLETE*
 
-# Planck Distribution from Membrane Modes
+# Planck Distribution from Firmament Modes
 ## Complete Derivation from 6D Action to Thermal Radiation Laws
 
 **Document**: 02-PLANCK_DISTRIBUTION.md
@@ -28,7 +28,7 @@ This document derives the **complete Planck distribution and all thermal radiati
 1. **EM field emerges** from Kaluza-Klein gauge sector of 6D action
 2. **Quantized photons** arise as bosonic excitations of KK gauge field (even winding topological defects)
 3. **ℏ and k_B** sourced from membrane parameter calculations (separate documents)
-4. **Mode density g(ν)** derived by counting membrane oscillations in a cavity
+4. **Mode density g(ν)** derived by counting Firmament membrane oscillations in a cavity
 5. **Bose-Einstein statistics** proven from spin-statistics theorem on Firmament
 6. **Planck spectrum, Stefan-Boltzmann law, Wien's displacement law** derived without external input
 7. **CMB temperature T_CMB = 2.725 K** predicted as cooled relict radiation from creation epoch
@@ -73,14 +73,14 @@ The effective 4D action:
 
 $$\boxed{S_4^{\text{EM}} = -\frac{1}{4}\int d^4 x \sqrt{-g_4} \, F_{\mu\nu}^{\text{EM}} F^{\mu\nu}_{\text{EM}}}$$
 
-**Physical interpretation**: Electromagnetic waves are **transverse ripples in the geometry of the η-dimension**, mediated by the curvature of the Firmament brane.
+**Physical interpretation**: Electromagnetic waves are **transverse ripples in the geometry of the η-dimension**, mediated by the curvature of the Firmament.
 
 ### 1.3 Photons as Bosonic KK Excitations
 
-On the Firmament (4D brane), the EM field propagates with:
+On the Firmament (4D Firmament), the EM field propagates with:
 - **Wave equation**: (∂²/∂t² - ∇²)A_μ = 0 (in Lorenz gauge)
-- **Speed of propagation**: c = √(σ/μ) derived from membrane mechanics
-  - σ = 6.0 × 10⁹⁸ kg/(m·s²) (brane tension)
+- **Speed of propagation**: c = √(σ/μ) derived from Firmament membrane mechanics
+  - σ = 6.0 × 10⁹⁸ kg/(m·s²) (Firmament tension)
   - μ = 6.7 × 10⁸¹ kg/m³ (volume mass density)
   - c = 2.998 × 10⁸ m/s (observed)
 
@@ -147,7 +147,7 @@ $$g(\nu) = \frac{L^3}{\pi^2} \cdot \frac{4\pi^2\nu^2}{c^2} \cdot \frac{2\pi}{c} 
 
 $$\boxed{g(\nu) = \frac{8\pi\nu^2}{c^3} \quad \text{[modes per unit volume per unit frequency]}}$$
 
-This is the **fundamental mode density**, derivable purely from the membrane geometry and wave equation.
+This is the **fundamental mode density**, derivable purely from the Firmament membrane geometry and wave equation.
 
 ### 2.4 Equivalent Expressions
 

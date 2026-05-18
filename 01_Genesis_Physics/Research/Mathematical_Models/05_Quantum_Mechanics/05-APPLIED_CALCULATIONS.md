@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "And God said, Let the earth bring forth living creatures" — Quantum mechanics enables biological complexity | Genesis 1:24 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics | 05-QM_FROM_MEMBRANE_DYNAMICS.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics | 05-QM_FROM_MEMBRANE_DYNAMICS.md |
 > | **This Document** | **Six QM applications: particle in a box, harmonic oscillator, hydrogen atom, spin-orbit coupling, Zeeman effect, multiparticle entanglement** | **05-APPLIED_CALCULATIONS.md** |
 > | Modern Equivalent | Applied Quantum Mechanics — CONVERGES: energy levels, wave functions, fine structure splitting, spin precession all numerically verified against CODATA 2018 |
 >
@@ -14,16 +14,16 @@
 
 **Date**: April 4, 2026
 **Status**: All 6 tests PASSING (100%)
-**Framework**: Genesis Physics 6D membrane model
+**Framework**: Genesis Physics 6D Firmament model
 
 ---
 
 ## Overview
 
 This document derives six fundamental quantum mechanical phenomena from first principles using the Genesis Physics framework, where:
-- **Wave function** ψ = membrane displacement amplitude
-- **Schrödinger equation** emerges from membrane wave equation (non-relativistic limit)
-- **Zero-point energy** E₀ = (1/2)ℏω per mode (membrane oscillations never cease)
+- **Wave function** ψ = Firmament membrane displacement amplitude
+- **Schrödinger equation** emerges from Firmament membrane wave equation (non-relativistic limit)
+- **Zero-point energy** E₀ = (1/2)ℏω per mode (Firmament membrane oscillations never cease)
 - **Entanglement** = correlation through ξ-η perpendicular dimensions
 - **EM gauge potential** A_μ from 6D metric off-diagonal components
 
@@ -157,7 +157,7 @@ For a path enclosing one flux quantum:
 
 ### Genesis Physics Connection
 
-In the 6D membrane framework:
+In the 6D Firmament framework:
 - **Gauge potential A_μ** emerges from metric off-diagonal components g_{0i}
 - **Magnetic field B** ~ curl of A comes from 6D metric curvature
 - **Phase accumulation** reflects the non-local nature of quantum mechanics
@@ -567,7 +567,7 @@ Below T_c, ⁴He exhibits:
 ### Physical Consistency
 
 All six phenomena:
-1. ✓ Emerge naturally from Genesis Physics 6D membrane framework
+1. ✓ Emerge naturally from Genesis Physics 6D Firmament framework
 2. ✓ Match observed experimental values (within expected tolerances)
 3. ✓ Demonstrate quantum mechanics at macroscopic scales
 4. ✓ Include zero-point energy, entanglement, gauge invariance
@@ -580,7 +580,7 @@ All six phenomena:
 ### How These Phenomena Fit the 6D Model
 
 #### Zero-Point Energy
-All phenomena originate from **ℏω/2 oscillations** in the membrane (both 4D and ξ-η):
+All phenomena originate from **ℏω/2 oscillations** in the Firmament (both 4D and ξ-η):
 - **Casimir**: Confined EM mode energies
 - **Superfluidity**: Ground state energy of Bose condensate
 - **Superconductivity**: Cooper pair formation energy
@@ -612,7 +612,7 @@ Many phenomena involve spontaneous U(1) gauge symmetry breaking:
 
 ### What These Tests Demonstrate
 
-1. **Quantum mechanics from membrane dynamics**: QM is not mysterious; it follows from 6D geometry
+1. **Quantum mechanics from Firmament membrane dynamics**: QM is not mysterious; it follows from 6D geometry
 2. **Zero-point energy is real**: Casimir effect proves vacuum fluctuations have measurable consequences
 3. **Entanglement is fundamental**: Bell test proves QM violates classical locality
 4. **Gauge potential is physical**: Aharonov-Bohm shows A_μ has observable effects
@@ -675,7 +675,7 @@ Genesis Physics **explains where these formulas come from** (6D metric geometry)
 
 All six quantum mechanical phenomena have been successfully derived and tested within the Genesis Physics framework:
 
-1. **Casimir Effect**: Vacuum energy from confined membrane modes → measurable force (0.01% error)
+1. **Casimir Effect**: Vacuum energy from confined Firmament modes → measurable force (0.01% error)
 2. **Aharonov-Bohm Effect**: Gauge potential from 6D metric → observable phase (0.000% error)
 3. **Quantum Entanglement**: ξ-η correlations → Bell inequality violation (0.000% error)
 4. **Quantum Teleportation**: Entanglement + Bell measurement → perfect fidelity (100% quantum advantage)
@@ -683,7 +683,7 @@ All six quantum mechanical phenomena have been successfully derived and tested w
 6. **Superfluidity**: Bose condensation → superfluid flow below T_c (45.3% error, acceptable)
 
 The Genesis Physics framework provides a **unified geometric interpretation** of quantum mechanics, where:
-- All QM phenomena emerge from 6D membrane dynamics
+- All QM phenomena emerge from 6D Firmament membrane dynamics
 - Gauge fields, entanglement, and zero-point energy are geometric in origin
 - Classical and quantum physics unified in single framework
 - Predictions match experimental observations to high precision

@@ -1,17 +1,17 @@
 ---
 product: Foundations Vol 4 — The Quantum World
 chapter: 10
-title: Leptons and Quarks from Membrane Resonances
+title: Leptons and Quarks from Firmament Resonances
 status: SPEC
 created: 2026-04-08
 role: Opens Part III (The Standard Model Derived). THE make-or-break chapter of the entire volume. First chapter to attempt the full fermion spectrum. Honesty is the deliverable.
 ---
 
-# Chapter 10: Leptons and Quarks from Membrane Resonances — CHAPTER SPEC
+# Chapter 10: Leptons and Quarks from Firmament Resonances — CHAPTER SPEC
 
 ## Mission
 
-This chapter confronts the single most consequential test the zone-architecture framework has yet faced: can the membrane produce the Standard Model fermion spectrum? The chapter derives the candidate mechanism (topological vortex defects in the Waters Above field coupled to a Higgs condensate), computes predicted masses for all twelve charged fermions plus the proton and neutron, reports honest error bars for every number, and states openly the two gaps that the framework has not yet closed: the spin-1/2 BLOCKER (GitHub #1) and the residual flavor-hierarchy uncertainty underneath what was once the 1000× mass problem (GitHub #2). Honesty is the deliverable.
+This chapter confronts the single most consequential test the zone-architecture framework has yet faced: can the Firmament membrane produce the Standard Model fermion spectrum? The chapter derives the candidate mechanism (topological vortex defects in the Waters Above field coupled to a Higgs condensate), computes predicted masses for all twelve charged fermions plus the proton and neutron, reports honest error bars for every number, and states openly the two gaps that the framework has not yet closed: the spin-1/2 BLOCKER (GitHub #1) and the residual flavor-hierarchy uncertainty underneath what was once the 1000× mass problem (GitHub #2). Honesty is the deliverable.
 
 ---
 
@@ -38,9 +38,9 @@ This chapter confronts the single most consequential test the zone-architecture 
 | Concept | Established In |
 |---------|---------------|
 | Firmament membrane, tension σ, mass density μ, $c^2 = \sigma/\mu$ | Vol 1 Ch 5 |
-| Boundary-condition quantization of membrane modes | Vol 1 Ch 10 |
+| Boundary-condition quantization of Firmament membrane modes | Vol 1 Ch 10 |
 | Waters Above ($\Psi_A$) and Waters Below ($\Psi_B$) field structure | Vol 1 Ch 6 |
-| Zone Lagrangian, brane action $S = -\sigma\int d^4x\sqrt{-\gamma}$ | Vol 2 Ch 5 |
+| Zone Lagrangian, Firmament action $S = -\sigma\int d^4x\sqrt{-\gamma}$ | Vol 2 Ch 5 |
 | Strong force from zone boundary conditions, short-range claim | Vol 2 Ch 4 |
 | Gauge structure $U(1)\times SU(2)\times SU(3)$ from zone symmetries | Vol 2 Ch 6 |
 | Running couplings, $\alpha^{-1} = 1.44\ln(\xi_A/\eta_B) = 137.18$ | Vol 2 Ch 10 |
@@ -57,7 +57,7 @@ This chapter confronts the single most consequential test the zone-architecture 
 
 ## "Why" Chain
 
-1. **Why should the membrane produce particles at all, rather than a featureless continuum?** — Because topology: the Waters Above field has a degenerate vacuum manifold ($S^1$ from the $\Psi_A$ phase; $\pi_1(S^1) = \mathbb{Z}$ is nontrivial), so finite-energy field configurations with winding number $n = 1$ are topologically stable — they cannot unwind without crossing infinite-energy intermediate states. These winding defects are localized, persistent excitations. That is what a particle is.
+1. **Why should the Firmament produce particles at all, rather than a featureless continuum?** — Because topology: the Waters Above field has a degenerate vacuum manifold ($S^1$ from the $\Psi_A$ phase; $\pi_1(S^1) = \mathbb{Z}$ is nontrivial), so finite-energy field configurations with winding number $n = 1$ are topologically stable — they cannot unwind without crossing infinite-energy intermediate states. These winding defects are localized, persistent excitations. That is what a particle is.
 
 2. **Why is the lepton–quark distinction present at all?** — Because $\Psi_A$ lives in the ξ-sector (Waters Above) and $\Psi_B$ lives in the η-sector (Waters Below), and the gauge groups $SU(3)_C$ and $SU(2)_L \times U(1)_Y$ descend from different zone symmetries (Vol 2 Ch 6). Vortices that couple to the η-sector carry color; vortices that couple only to the ξ-sector do not.
 
@@ -73,7 +73,7 @@ This chapter confronts the single most consequential test the zone-architecture 
 
 8. **Why is the 1000× mass problem not the crisis it once looked like?** — Because the naive identification of fermion masses with Kaluza-Klein modes $m = n\pi\hbar c/\eta_B$ was wrong. The KK tower is bosonic. Fermion masses come from Yukawa coupling to the Higgs VEV, not from compactification along η. The correct identification gives ~0.1% agreement for most particles. But the correction comes with a cost: the vortex mechanism that provides the fermions is itself incomplete, and we must state this openly.
 
-9. **Why is the spin-1/2 gap real and why does stating it openly help?** — Because claiming the problem is solved when we cannot exhibit a complete derivation of an anticommuting field from the bosonic brane is dishonest, and because the most useful thing a framework can do at its frontier is make its remaining challenges legible. The chapter therefore dedicates a full section to what we have (candidate vortex mechanism, Goldstone-Wilczek spin assignment, Jackiw-Rossi index theorem with its preconditions, Aharonov-Bohm exchange phase) and what we do not have (a first-principles proof that the zero-mode fermionic field exists as an independent degree of freedom on the bosonic membrane; a non-circular bootstrap that does not assume the fermion it sets out to derive).
+9. **Why is the spin-1/2 gap real and why does stating it openly help?** — Because claiming the problem is solved when we cannot exhibit a complete derivation of an anticommuting field from the bosonic Firmament is dishonest, and because the most useful thing a framework can do at its frontier is make its remaining challenges legible. The chapter therefore dedicates a full section to what we have (candidate vortex mechanism, Goldstone-Wilczek spin assignment, Jackiw-Rossi index theorem with its preconditions, Aharonov-Bohm exchange phase) and what we do not have (a first-principles proof that the zero-mode fermionic field exists as an independent degree of freedom on the bosonic membrane; a non-circular bootstrap that does not assume the fermion it sets out to derive).
 
 ---
 

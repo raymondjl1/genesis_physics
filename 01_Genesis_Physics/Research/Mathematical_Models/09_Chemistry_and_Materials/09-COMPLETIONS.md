@@ -4,14 +4,14 @@
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
 > | Parent Theory | Atomic Structure from Membrane | 09-ATOMIC_STRUCTURE_DERIVATION.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
 > | **This Document** | **Chemistry (Periodic Table, Bonding, Molecular Structure, Crystallography)** | **09-COMPLETIONS.md** |
 > | Modern Equivalent | Periodic Table & Molecular Orbital Theory | Convergence: Shell filling order (Aufbau), Bond types and energies match MOT predictions |
 >
 > *Chain Status: COMPLETE*
 
 # Chemistry Completions: Deriving Chemical Bonding, Molecular Structure, and Crystallography
-## Complete Derivation of Chemical Phenomena from the 6D Membrane Framework
+## Complete Derivation of Chemical Phenomena from the 6D Firmament Framework
 
 **Framework**: Genesis Physics / Exodus Protocol — 6D Membrane Theory, Membrane Quantum Mechanics
 **Date**: April 5, 2026
@@ -24,7 +24,7 @@
 
 Genesis Physics derives **all of chemistry** from the 6D action functional through membrane-based quantum mechanics. This document completes the derivation chain showing how:
 
-1. **Periodic Table** emerges from membrane mode filling (Aufbau principle)
+1. **Periodic Table** emerges from Firmament membrane mode filling (Aufbau principle)
 2. **Chemical Bonding** (covalent, ionic, metallic, hydrogen) derives from orbital overlap
 3. **Molecular Spectra** (rotational, vibrational, electronic) follow from molecular Schrödinger equation
 4. **Crystal Structures** are constrained by 3D symmetry and Bragg diffraction
@@ -35,7 +35,7 @@ Every result is traced back to: **6D Action → KK Reduction → Membrane QM →
 
 ---
 
-## PART 1: PERIODIC TABLE STRUCTURE FROM MEMBRANE MODE FILLING
+## PART 1: PERIODIC TABLE STRUCTURE FROM Firmament MODE FILLING
 
 ### 1.1 Derivation Chain: Atomic Structure to Periodicity
 
@@ -243,7 +243,7 @@ Covalent bonding arises entirely from:
 1. **Coulomb attraction** between nuclei and shared electrons
 2. **Kinetic energy reduction** when electrons occupy bonding (lower-energy) orbitals
 3. **Pauli exclusion** forcing one electron into bonding orbital, one into (weaker) antibonding
-4. **Membrane QM** (electrons confined to Firmament brane, satisfying Schrödinger equation)
+4. **Membrane QM** (electrons confined to Firmament, satisfying Schrödinger equation)
 
 No additional postulates needed.
 
@@ -644,7 +644,7 @@ Crystal structures are constrained by:
 2. **Electrostatic and bonding energies** (from membrane QM)
 3. **Packing constraints** (minimize volume for given bonding)
 
-The **periodicity** of crystals is a consequence of the **periodic boundary conditions** on the Firmament brane in 6D spacetime.
+The **periodicity** of crystals is a consequence of the **periodic boundary conditions** on the Firmament in 6D spacetime.
 
 $$\boxed{\text{Crystal Structures = Symmetry + Energy Minimization + Periodic Boundary Conditions}} \quad \text{...(7.7)}$$
 
@@ -796,9 +796,9 @@ Superconductivity arises from:
 1. **Electron-phonon interaction**: Lattice vibrations scatter electrons; can also mediate attraction
 2. **Cooper instability**: At the Fermi surface, an attraction **always** leads to pair formation
 3. **BCS ground state**: Many Cooper pairs form a **collective quantum state** with lower energy
-4. **Membrane phonons**: Vibrations of the Firmament brane mediate the electron-phonon coupling
+4. **Membrane phonons**: Vibrations of the Firmament mediate the electron-phonon coupling
 
-The **phonon field** (quantized lattice vibrations) arises from the membrane's elastic properties (brane tension σ, surface mass density μ).
+The **phonon field** (quantized lattice vibrations) arises from the Firmament membrane's elastic properties (Firmament tension σ, surface mass density μ).
 
 $$\boxed{\text{Superconductivity = Cooper Pairing + Collective BCS Ground State + Phonon Mediation}} \quad \text{...(9.5)}$$
 
@@ -808,7 +808,7 @@ $$\boxed{\text{Superconductivity = Cooper Pairing + Collective BCS Ground State 
 
 | Phenomenon | Mechanism | Derivation |
 |------------|-----------|-----------|
-| **Periodic Table** | Aufbau + Pauli exclusion | Membrane modes + fermion statistics |
+| **Periodic Table** | Aufbau + Pauli exclusion | Firmament membrane modes + fermion statistics |
 | **Covalent bonds** | Orbital overlap (σ, π) | Schrödinger equation + overlap integral |
 | **Ionic bonds** | Coulomb + electron transfer | Madelung energy + ionization costs |
 | **Metallic bonds** | Electron delocalization | Bloch waves + band structure |
@@ -824,16 +824,16 @@ $$\boxed{\text{Superconductivity = Cooper Pairing + Collective BCS Ground State 
 
 ## CONCLUSION
 
-Genesis Physics derives **all of chemistry** from the 6D membrane framework:
+Genesis Physics derives **all of chemistry** from the 6D Firmament framework:
 
 $$\text{6D Action} \to \text{KK Reduction} \to \text{Membrane QM} \to \text{Atomic/Molecular/Solid-State Physics} \to \text{Chemistry}$$
 
 Every chemical phenomenon — bonding, molecular structure, crystallography, spectroscopy — emerges from:
 
 1. **The Coulomb force** (from 6D electromagnetism via KK reduction)
-2. **Quantum mechanics** (from membrane wave dynamics)
+2. **Quantum mechanics** (from Firmament membrane wave dynamics)
 3. **Fermi statistics** (from electron topological properties in 4D)
-4. **Periodic boundary conditions** (from finite Firmament brane geometry)
+4. **Periodic boundary conditions** (from finite Firmament geometry)
 
 No additional postulates. No arbitrary parameters. All chemistry is **geometry and quantum mechanics on the Firmament**.
 

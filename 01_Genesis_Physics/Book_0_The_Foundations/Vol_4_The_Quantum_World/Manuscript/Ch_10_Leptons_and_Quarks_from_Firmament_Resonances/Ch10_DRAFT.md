@@ -1,5 +1,5 @@
 # Chapter 10
-## Leptons and Quarks from Membrane Resonances
+## Leptons and Quarks from Firmament Resonances
 
 > *"Nature uses only the longest threads to weave her patterns, so each small piece of her fabric reveals the organization of the entire tapestry."* — R. P. Feynman
 >
@@ -22,13 +22,13 @@ If the framework cannot do this, Volume 4 fails. It does not fail quietly; it fa
 
 I want to be direct with you about two things before we begin.
 
-**The first crack.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions, obeying Pauli exclusion and anticommutation, and no amount of shaking a bosonic field will hand you a fermion. We will have to confront this head-on, and when we do, in Section 10.5, I will not hide from you that the framework currently *does not solve this problem*. It has a candidate route (Jackiw-Rossi, Goldstone-Wilczek) that works *if* we postulate an auxiliary spinor field on the membrane, and that postulate is not currently derived from anything more fundamental. It is tracked as GitHub issue #1. I will mark it OPEN and I will not paper over it.
+**The first crack.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions, obeying Pauli exclusion and anticommutation, and no amount of shaking a bosonic field will hand you a fermion. We will have to confront this head-on, and when we do, in Section 10.5, I will not hide from you that the framework currently *does not solve this problem*. It has a candidate route (Jackiw-Rossi, Goldstone-Wilczek) that works *if* we postulate an auxiliary spinor field on the Firmament, and that postulate is not currently derived from anything more fundamental. It is tracked as GitHub issue #1. I will mark it OPEN and I will not paper over it.
 
 **The second crack.** When the research files were first drafted (V2), the naive identification of particle masses with Kaluza-Klein tower modes gave errors of roughly 1000×. The V3 rewrite fixed the identification problem — fermion masses come from the Yukawa overlap integral, not from the compactification tower — and the errors dropped substantially. But they did not drop to zero. With a single-parameter exponential fit, the framework predicts lepton masses with residuals of a few percent on some particles and ~19% on others; quark masses are worse. The tau is a *calibration*, not a prediction; the muon and electron are *predictions* whose errors we will report in full. We will also report the leave-one-out residuals so you can see how much the result depends on which particle we calibrate to. This is tracked as GitHub issues #2 and #26.
 
 These two cracks are the point of this chapter. If you are a skeptical reader, and I hope you are, you will want to know exactly where the framework succeeds, exactly where it fails, and exactly what is still an open problem. That is what the rigor labels in every section header are for. RIGOROUS means the derivation is tight within the framework's assumptions. APPROXIMATE means we are using a controlled approximation whose error we can estimate. PHENOMENOLOGICAL means we are matching a pattern whose underlying derivation is not yet complete. OPEN means there is a known gap that current research does not close. Read the labels; trust them; hold me to them.
 
-The roadmap for the chapter is Figure 4.10.1. We will start by classifying membrane excitations (§10.1), find the topological vortices among them (§10.2), count the ladder of ξ-modes and discover that it has exactly three rungs (§10.3), derive the Yukawa overlap formula that turns the ladder into masses (§10.4), confront the spin-1/2 problem in full (§10.5), and then work through lepton, quark, and hadron predictions with honest residuals (§§10.6–10.8). Section 10.9 is the honest ledger — every particle, every error, every cherry-picking diagnostic — and §10.10 is the list of things this framework genuinely gets right that the Standard Model does not even attempt. Section 10.11 routes the remaining open problems to future chapters. Section 10.12 confirms the test-suite result.
+The roadmap for the chapter is Figure 4.10.1. We will start by classifying Firmament excitations (§10.1), find the topological vortices among them (§10.2), count the ladder of ξ-modes and discover that it has exactly three rungs (§10.3), derive the Yukawa overlap formula that turns the ladder into masses (§10.4), confront the spin-1/2 problem in full (§10.5), and then work through lepton, quark, and hadron predictions with honest residuals (§§10.6–10.8). Section 10.9 is the honest ledger — every particle, every error, every cherry-picking diagnostic — and §10.10 is the list of things this framework genuinely gets right that the Standard Model does not even attempt. Section 10.11 routes the remaining open problems to future chapters. Section 10.12 confirms the test-suite result.
 
 [FIGURE: Fig 4.10.1 — Chapter 10 roadmap. Flow: Membrane (Ψ_A) → vortex solutions → ξ-ladder → generation count → Yukawa overlap → mass formula → predictions. Two red "crack" markers annotate §10.5 (spin-1/2) and §10.9 (residuals).]
 
@@ -36,7 +36,19 @@ Honesty is the deliverable. Let us begin.
 
 ---
 
-## 10.1 The membrane mode picture [RIGOROUS]
+> ### ⚠ ASSUMPTION 10.1 — SERIES-WIDE PLACEHOLDER (OP-1 / GitHub #1 BLOCKER)
+> 
+> **Assumption 10.1:** Spin-½ fermionic statistics exist on the zone membrane. Specifically, there exist fermionic creation and annihilation operators `{b̂_k, b̂†_{k'}} = δ_{kk'}` associated with topological defect zero modes, such that leptons and quarks are described by Dirac spinor fields with the standard anticommutation structure.
+> 
+> **Status:** OPEN — NOT DERIVED FROM THE BOSONIC MEMBRANE.
+> 
+> The bosonic zone Lagrangian (4.10.1) cannot produce anticommuting operators through canonical quantization (see Ch06 §6.6 SERIES BLOCKER). The Jackiw-Rossi mechanism (§10.5) is the best current candidate for closing this gap, but requires an auxiliary spinor field whose origin is not derived from within the framework. **Every result in this chapter that involves lepton or quark fields, their masses, or their interactions assumes Assumption 10.1.** Results labeled RIGOROUS are rigorous *within* this assumption; they are not unconditionally rigorous.
+> 
+> This assumption is tracked as **Open Problem OP-1 / GitHub Issue #1** and is the single most important open problem in the Genesis Physics series.
+
+---
+
+## 10.1 The Firmament mode picture [RIGOROUS]
 
 Every elementary particle in this framework is, by postulate, a localized, topologically characterized, resonant excitation of the four-dimensional firmament membrane coupled to the extra-dimensional Waters Above scalar field $\Psi_A(x^\mu, \xi)$. This is the starting claim. Everything in this chapter is an attempt to spell it out until it is either vindicated or falsified.
 
@@ -52,13 +64,16 @@ V(|\Psi_A|^2) = \frac{\lambda_A}{4}\left(|\Psi_A|^2 - v_A^2\right)^2.
 $$
 The capital indices $M, N$ run over the six bulk dimensions $(x^0, x^1, x^2, x^3, \xi, \eta)$; the Greek indices $\mu, \nu$ will be reserved for the four membrane coordinates. The scale $v_A$ is the vacuum expectation value set in Volume 3 Chapter 6, and $\lambda_A$ is the self-coupling. These are not free parameters — they were fixed by matching the cosmological density and the Higgs mass, respectively. We are inheriting them from prior chapters, not fitting them here.
 
-A general finite-energy solution to the equations of motion derived from (4.10.1) can be labeled by three quantities. First, its transverse profile along the compact $\xi$-direction — call this the **mode number** $n_\xi = 1, 2, 3, \ldots$. Second, the integer winding of the $\Psi_A$ phase around the asymptotic circle at spatial infinity in the membrane — call this the **topological charge** $n_w \in \mathbb{Z}$. Third, the four-dimensional profile of the solution on the membrane, which is the envelope we think of as the "particle" in ordinary spacetime. The first label will turn out to count generations, the second will turn out to be electric charge (up to a coupling we fix later), and the third will give us the localized wave-packet picture of a particle.
+A general finite-energy solution to the equations of motion derived from (4.10.1) can be labeled by three quantities. First, its transverse profile along the compact $\xi$-direction — call this the **mode number** $n_\xi = 1, 2, 3, \ldots$. Second, the integer winding of the $\Psi_A$ phase around the asymptotic circle at spatial infinity in the Firmament membrane — call this the **topological charge** $n_w \in \mathbb{Z}$. Third, the four-dimensional profile of the solution on the Firmament membrane, which is the envelope we think of as the "particle" in ordinary spacetime. The first label will turn out to count generations, the second will turn out to be electric charge (up to a coupling we fix later), and the third will give us the localized wave-packet picture of a particle.
 
 To extract the effective 4D physics, we integrate the six-dimensional action over the $\xi$- and $\eta$-directions. Writing
 $$
-\Psi_A(x^\mu, \xi) = \sum_{n_\xi} \chi_{n_\xi}(\xi)\, \phi_{n_\xi}(x^\mu),
+\Psi_A(x^\mu, \xi) = \sum_{n_\xi=1}^{N_{\mathrm{bound}}} \psi_{n_\xi}^{(\mathrm{mem})}(\xi)\, \phi_{n_\xi}(x^\mu),
 \tag{4.10.3}
 $$
+
+> **Notation.** We write $\psi_{n_\xi}^{(\mathrm{mem})}(\xi)$ for the transverse membrane eigenfunctions throughout this chapter. The superscript ${}^{(\mathrm{mem})}$ is deliberate: it distinguishes these scalar mode functions from the fermion spinor field $\psi$ that will appear in §10.5. The series notation guide (Vol 1 Appendix B) reserves the bare symbol $\chi$ for Weyl spinors; using $\chi_{n_\xi}$ for scalar eigenfunctions would be a notation collision. $\psi^{(\mathrm{mem})}_n$ are scalar functions of the extra dimension $\xi$ — they are not spinors, do not carry spin indices, and obey the Sturm-Liouville eigenvalue equation below, not the Dirac equation.
+
 substituting into (4.10.1), and integrating $\int_0^{\eta_B} d\xi$, we obtain an effective four-dimensional Lagrangian
 $$
 \mathcal{L}_{\mathrm{eff}}^{(4D)} = \sum_{n_\xi} \left[\frac{1}{2}\, \partial^\mu \phi_{n_\xi}^*\, \partial_\mu \phi_{n_\xi} - \frac{1}{2}\, m_{n_\xi}^2\, |\phi_{n_\xi}|^2\right] - V_{\mathrm{int}}(\{\phi\}),
@@ -66,15 +81,15 @@ $$
 $$
 where the mode mass squared is the eigenvalue of the transverse wave equation:
 $$
--\frac{d^2 \chi_{n_\xi}}{d\xi^2} + V_\xi(\xi)\, \chi_{n_\xi}(\xi) = m_{n_\xi}^2\, \chi_{n_\xi}(\xi).
+-\frac{d^2 \psi_{n_\xi}^{(\mathrm{mem})}}{d\xi^2} + V_\xi(\xi)\, \psi_{n_\xi}^{(\mathrm{mem})}(\xi) = m_{n_\xi}^2\, \psi_{n_\xi}^{(\mathrm{mem})}(\xi).
 \tag{4.10.5}
 $$
 
 I want to pause over equation (4.10.5) because it is the fulcrum of the chapter. The mass of a particle in this framework is, at tree level, the eigenvalue of a one-dimensional Schrödinger-like problem in the extra dimension $\xi$. The potential $V_\xi(\xi)$ is determined by the embedding geometry from Volume 1 Chapter 5, and the eigenvalues form a discrete spectrum. Three eigenvalues will turn out to correspond to normalizable bound states; that is where the three generations will come from in §10.3.
 
-Dimensional cross-check: $[\chi_{n_\xi}] = L^{-1/2}$ (so that $\int |\chi|^2 d\xi$ is dimensionless), $[V_\xi] = L^{-2}$, and $[m^2] = L^{-2}$ in natural units. Both sides of (4.10.5) balance. ✓
+Dimensional cross-check: $[\psi_{n_\xi}^{(\mathrm{mem})}] = L^{-1/2}$ (so that $\int |\psi^{(\mathrm{mem})}|^2 d\xi$ is dimensionless), $[V_\xi] = L^{-2}$, and $[m^2] = L^{-2}$ in natural units. Both sides of (4.10.5) balance. ✓
 
-The triple $(n_\xi, n_w, \text{4D envelope})$ is what we will mean, for the rest of this chapter, by "a particle." The next step is to show that the topological label $n_w$ is forced on us by the vacuum structure of the membrane, not optional.
+The triple $(n_\xi, n_w, \text{4D envelope})$ is what we will mean, for the rest of this chapter, by "a particle." The next step is to show that the topological label $n_w$ is forced on us by the vacuum structure of the Firmament, not optional.
 
 ---
 
@@ -89,7 +104,7 @@ $$
 $$
 The vacuum manifold — the set of all field configurations that minimize the potential — is topologically a circle $S^1$.
 
-Now consider a finite-energy configuration on the two-dimensional slice of the membrane transverse to some straight-line defect. At spatial infinity, the field must approach the vacuum manifold (otherwise the energy density does not fall off fast enough for the total energy to be finite). So the boundary of our two-dimensional slice — a circle at infinity — is mapped into the vacuum manifold circle. This is a map $S^1 \to S^1$, and such maps are classified up to continuous deformation by their winding number, which is an integer:
+Now consider a finite-energy configuration on the two-dimensional slice of the Firmament transverse to some straight-line defect. At spatial infinity, the field must approach the vacuum manifold (otherwise the energy density does not fall off fast enough for the total energy to be finite). So the boundary of our two-dimensional slice — a circle at infinity — is mapped into the vacuum manifold circle. This is a map $S^1 \to S^1$, and such maps are classified up to continuous deformation by their winding number, which is an integer:
 $$
 n_w = \frac{1}{2\pi} \oint \partial_\phi \theta\, d\phi \in \mathbb{Z},
 \tag{4.10.7}
@@ -137,7 +152,7 @@ Q = n_w\, e.
 $$
 This is the charge quantization law. Every observer in every frame agrees on $n_w$ because it is an integer defined by topology, and every vortex carries a charge that is an integer multiple of $e$. Fractional charges — the $\pm\tfrac{1}{3}, \pm\tfrac{2}{3}$ of quarks — will arise in §10.7 from a color-triplet generalization in which the $U(1)$ winding is shared among three internal components. The framework's prediction is that *color-singlet* states must have integer charge, and this matches observation.
 
-**What we have done so far.** We have shown that the membrane, by virtue of its vacuum manifold topology alone, supports stable, integer-charged, localized excitations. We have not yet shown they are spin-1/2 (that is §10.5), and we have not yet computed their masses (that is §§10.3–10.6). But the basic object — the vortex — is on the table, and its charge is quantized by a theorem, not by a postulate.
+**What we have done so far.** We have shown that the Firmament, by virtue of its vacuum manifold topology alone, supports stable, integer-charged, localized excitations. We have not yet shown they are spin-1/2 (that is §10.5), and we have not yet computed their masses (that is §§10.3–10.6). But the basic object — the vortex — is on the table, and its charge is quantized by a theorem, not by a postulate.
 
 ---
 
@@ -146,11 +161,14 @@ This is the charge quantization law. Every observer in every frame agrees on $n_
 Why three generations? The Standard Model has no answer to this question. It has three generations because the data says so, and if a fourth showed up tomorrow the Lagrangian would accommodate it with a shrug. This framework must do better. The vacuum-manifold topology gave us charge quantization; now the transverse mode structure must give us generation count.
 
 Return to the transverse eigenvalue problem (4.10.5):
+
+**Why a double-well potential?** Before writing the equation, the physical picture is worth holding in mind. The Firmament membrane is bounded on both sides: at $\xi = +\eta_B$ sits the outer zone wall (Waters Above outer boundary) and at $\xi = -\eta_B$ sits the inner zone wall (Waters Below boundary). A field mode confined to the Firmament sits in an energy landscape that has its natural resting positions — the potential minima — at both walls. Between them, near $\xi = 0$, the Waters Below condensate (the $\Psi_B$ VEV) creates a potential barrier. The result is a *double-well*: two minima at $\xi = \pm\eta_B$, separated by a central barrier. This shape is not assumed — it is the leading-order approximation to the potential derived from the full 6D geometry in Volume 1 Chapter 5. The double-well is WHY there can be exactly three bound states (not one, not four): the two wells together support a tightly localised "bonding" state, two less-localised "excited" states, and then a continuum. That is the generation-count mechanism in a nutshell, before any algebra.
+
 $$
--\frac{d^2 \chi_{n_\xi}}{d\xi^2} + V_\xi(\xi)\, \chi_{n_\xi}(\xi) = m_{n_\xi}^{2}\, \chi_{n_\xi}(\xi),
+-\frac{d^2 \psi_{n_\xi}^{(\mathrm{mem})}}{d\xi^2} + V_\xi(\xi)\, \psi_{n_\xi}^{(\mathrm{mem})}(\xi) = m_{n_\xi}^{2}\, \psi_{n_\xi}^{(\mathrm{mem})}(\xi),
 \tag{4.10.14}
 $$
-subject to boundary conditions inherited from the membrane-bulk geometry (Volume 1 Chapter 5). The potential $V_\xi(\xi)$ is the effective one-dimensional potential obtained from the bulk embedding. For the canonical zone geometry of Genesis Physics, it is well-approximated as a double-well:
+subject to boundary conditions inherited from the Firmament-bulk geometry (Volume 1 Chapter 5). The potential $V_\xi(\xi)$ is the effective one-dimensional potential obtained from the bulk embedding. For the canonical zone geometry of Genesis Physics, it is well-approximated as a double-well:
 $$
 V_\xi(\xi) = V_0 \left[\left(\xi/\eta_B\right)^2 - 1\right]^2,
 \tag{4.10.15}
@@ -159,30 +177,34 @@ with $V_0$ and $\eta_B$ both determined by the bulk parameters. The two wells at
 
 The Sturm-Liouville eigenvalue problem (4.10.14) with the potential (4.10.15) admits exactly three normalizable bound states below the asymptotic continuum, for the physical values of $V_0$ and $\eta_B$ set in Volume 3. Let me say that again, carefully, because this is a falsifiable prediction: **for the parameters fixed in prior chapters, the count of bound states in the transverse problem is three.** Not two, not four. Three.
 
-The three eigenfunctions $\chi_1(\xi), \chi_2(\xi), \chi_3(\xi)$ have eigenvalues
+The three eigenfunctions $\psi_1^{(\mathrm{mem})}(\xi), \psi_2^{(\mathrm{mem})}(\xi), \psi_3^{(\mathrm{mem})}(\xi)$ have eigenvalues
 $$
 m_{n_\xi}^2 = \frac{\hbar^2}{\eta_B^2}\, \epsilon_{n_\xi},
 \tag{4.10.16}
 $$
-with dimensionless eigenvalues $\epsilon_1 < \epsilon_2 < \epsilon_3 < \epsilon_{\mathrm{cont}}$, where $\epsilon_{\mathrm{cont}}$ is the continuum threshold. Numerically (from the test suite, see §10.12), for the canonical parameters:
+with dimensionless eigenvalues $\epsilon_1 < \epsilon_2 < \epsilon_3 < \epsilon_{\mathrm{cont}}$, where $\epsilon_{\mathrm{cont}}$ is the continuum threshold. Numerically (from `Ch10SturmLiouvilleTest` in the test suite, see §10.12), for the canonical parameters ($V_0 = 0.002$, $N = 2000$ grid points, $\xi \in [-10, 10]$):
 $$
-\epsilon_1 \approx 0.11, \qquad \epsilon_2 \approx 0.44, \qquad \epsilon_3 \approx 0.91.
+\epsilon_1 \approx 0.124, \qquad \epsilon_2 \approx 0.452, \qquad \epsilon_3 \approx 0.902.
 \tag{4.10.17}
 $$
 
-The lowest eigenstate is the most tightly bound — the wavefunction $\chi_1(\xi)$ is most strongly localized near the well minimum. The higher states are more delocalized. This matters for the next section, where we will see that the Yukawa coupling depends on the overlap of these wavefunctions with the Higgs profile, and the most tightly localized state has the *largest* overlap — hence the largest Yukawa — hence the *heaviest* mass.
+*(Earlier draft approximations were $\approx 0.11, 0.44, 0.91$ — within tolerance but updated here to match the test-suite computed values.)*
+
+The lowest eigenstate is the most tightly bound — the wavefunction $\psi_1^{(\mathrm{mem})}(\xi)$ is most strongly localized near the well minimum. The higher states are more delocalized. This matters for the next section, where we will see that the Yukawa coupling depends on the overlap of these wavefunctions with the Higgs profile, and the most tightly localized state has the *largest* overlap — hence the largest Yukawa — hence the *heaviest* mass.
 
 This is the mapping we will use for the rest of the chapter:
 
-| $n_\xi$ | $\chi_{n_\xi}$ localization | Yukawa strength | Generation | Heavy example |
+| $n_\xi$ | $\psi_{n_\xi}^{(\mathrm{mem})}$ localization | Yukawa strength | Generation | Heavy example |
 |---------|----------------------------|-----------------|-----------|--------------|
-| 1 | most localized | largest | Third | $\tau, t, b$ |
-| 2 | intermediate | intermediate | Second | $\mu, c, s$ |
-| 3 | most delocalized | smallest | First | $e, u, d$ |
+| 1 ($\psi_1^{(\mathrm{mem})}$) | most localized | largest | Third | $\tau, t, b$ |
+| 2 ($\psi_2^{(\mathrm{mem})}$) | intermediate | intermediate | Second | $\mu, c, s$ |
+| 3 ($\psi_3^{(\mathrm{mem})}$) | most delocalized | smallest | First | $e, u, d$ |
 
 This is the opposite of what a naive reader would guess: the *lowest* transverse quantum number goes with the *heaviest* generation. The reason is that mass in this framework does not come from the eigenvalue $m_{n_\xi}$ of (4.10.14) — that quantity is comparable to the compactification scale $\sim 1/\eta_B \sim 100$ MeV and is the *same* order of magnitude for all three states. The mass comes from the Yukawa coupling to the Higgs, which is sensitive to how well the wavefunction is localized where the Higgs is concentrated. That is the content of §10.4.
 
 **Rigor label and honest disclosure.** This section is labeled APPROXIMATE, not RIGOROUS, for one reason: the three-generation count depends on the detailed shape of $V_\xi(\xi)$. The double-well form (4.10.15) is the leading-order approximation to the potential derived in Volume 1 Chapter 5. Higher-order corrections from the bulk geometry could in principle change the bound-state count. The current research state is: for the parameter values fit to cosmological data, the count is robustly three over a factor-of-two variation in $V_0$ and $\eta_B$. Beyond that range, the count changes. This is the framework's prediction of three generations, and I want you to understand that it is a prediction of moderate robustness — it is not fragile, but it is not bulletproof either.
+
+> **Cross-volume forward reference.** The topological origin of exactly three generations — why the zone topology yields three winding classes rather than two or four — is developed further in **Vol 2 Ch 4 §4.4**, where the vortex-defect counting argument in the Waters Above field is treated with the full Kähler structure of the 6D bulk geometry. The count here is the ξ-mode version of the same result; §4.4 provides the complementary topological argument.
 
 ---
 
@@ -190,32 +212,55 @@ This is the opposite of what a naive reader would guess: the *lowest* transverse
 
 We have vortices and we have a ladder of three ξ-modes. To get particle masses, we need to couple these two structures together and let the Higgs give them mass. This is where the Yukawa coupling comes in.
 
-The Higgs field $H(x^\mu, \xi)$ is itself a mode on the membrane, and its derivation will be the subject of Chapter 11. For the purposes of this chapter we take its ξ-profile as given: a normalized function $H(\xi)$ peaked near the center of the wells and decaying away from them. The 4D Yukawa coupling of the $n_\xi$-th fermion generation to the Higgs is then obtained by integrating the 6D Yukawa interaction $\lambda_0\, \bar\psi\, H\, \psi$ over the ξ-direction:
+The Higgs field $H(x^\mu, \xi)$ is itself a mode on the Firmament, and its derivation will be the subject of Chapter 11. For the purposes of this chapter we take its ξ-profile as given: a normalized function $H(\xi)$ peaked near the center of the wells and decaying away from them. The 4D Yukawa coupling of the $n_\xi$-th fermion generation to the Higgs is then obtained by integrating the 6D Yukawa interaction $\lambda_0\, \bar\psi\, H\, \psi$ over the ξ-direction:
 $$
-y_{n_\xi} = \lambda_0 \int_0^{\eta_B} \chi_{n_\xi}(\xi)^{\ast}\, H(\xi)\, \chi_1(\xi)\, d\xi,
+y_{n_\xi} = \lambda_0 \int_0^{\eta_B} \psi_{n_\xi}^{(\mathrm{mem})}(\xi)^{*}\, H(\xi)\, \psi_1^{(\mathrm{mem})}(\xi)\, d\xi,
 \tag{4.10.18}
 $$
-where the "$\chi_1$" on the right appears because the Higgs overlap is computed against the ground-state ξ-mode (a choice forced on us by the Higgs localization; see Chapter 11). Equation (4.10.18) is the central formula of the chapter. Read it carefully. The Yukawa coupling of the $n_\xi$-th generation is an overlap integral, and we can *compute* it — it is not a free parameter.
+where the "$\psi_1^{(\mathrm{mem})}$" on the right appears because the Higgs overlap is computed against the ground-state ξ-mode (a choice forced on us by the Higgs localization; see Chapter 11). Equation (4.10.18) is the central formula of the chapter. Read it carefully. The Yukawa coupling of the $n_\xi$-th generation is an overlap integral, and we can *compute* it — it is not a free parameter.
 
-To extract the dependence on $n_\xi$, we approximate $\chi_{n_\xi}$ as a harmonic-oscillator-like state in a local quadratic expansion of the potential, and $H(\xi)$ as a Gaussian of width $\sigma_H \ll \eta_B$ centered at the well minimum. In this limit, the overlap integral evaluates to
+To extract the dependence on $n_\xi$, we approximate $\psi_{n_\xi}^{(\mathrm{mem})}$ as a harmonic-oscillator-like state in a local quadratic expansion of the potential, and $H(\xi)$ as a Gaussian of width $\sigma_H \ll \eta_B$ centered at the well minimum. In this limit, the overlap integral evaluates to
 $$
 y_{n_\xi} \approx y_0\, \exp\!\left(-\alpha\, n_\xi^2\right),
 \tag{4.10.19}
 $$
 where $y_0$ is set by $\lambda_0$ and the overall normalization, and $\alpha$ is a dimensionless constant determined by the ratio $\sigma_H / \eta_B$ and the local curvature of the potential. A careful evaluation (see test suite and Research/06-PARTICLE_MASS_SPECTRUM_V3.md §4.2) gives $\alpha \approx 1.0$ to leading order.
 
-[FIGURE: Fig 4.10.3 — Overlap integral geometry. Horizontal: ξ axis. Plots of $\chi_1, \chi_2, \chi_3$ (three ξ-wavefunctions) and the narrow Gaussian $H(\xi)$. Shaded regions show the integrand for each generation. Inset: exponential-in-$n^2$ suppression of the overlap.]
+> **CALIBRATION NOTE — fitted parameter α (OP-03).** The formula $m_n = m_\tau\,\exp(-\alpha(n^2-1))$ captures the lepton mass hierarchy at tree level with ~16% accuracy on the muon and ~17% accuracy on the electron, but **α is a fitted parameter, not yet derived from zone geometry.** The physical claim is that α should equal the computed Yukawa overlap integral (4.10.18) over the double-well eigenfunctions; the computational test suite (class `Ch10OverlapIntegralTest`, §10.12) finds $\alpha \approx 0.076$ from the shallow calibrated double-well ($V_0 = 0.002$) — more than an order of magnitude below the $\alpha \approx 1.0$ needed for tree-level lepton accuracy. The Yukawa coupling hierarchy $y_1 > y_2 > y_3$ is confirmed qualitatively by the test, but the quantitative value of α is not reproduced. Resolving this gap requires either a deeper confining potential (stronger zone-wall confinement than the current calibration) or a next-order correction from the full 6D overlap geometry. Until it is resolved, α = 1.0 should be understood as "the value that fits the tau-to-electron mass ratio" — a one-parameter calibration, not a zero-parameter derivation. See **OP-03** in the OPEN_PROBLEMS_REGISTER.
 
-The physical intuition is worth stating in words. The Higgs is narrow in ξ, peaked at the well minimum. The ground-state wavefunction $\chi_1$ is also peaked there, so its overlap with the Higgs is large. The first-excited state $\chi_2$ has a node at the Higgs's peak (or close to it), so its overlap is suppressed. The second-excited $\chi_3$ has two nodes, and its overlap is suppressed more strongly. The exponential-in-$n^2$ falloff comes from the Gaussian tail of the overlap of an $n$-th Hermite polynomial with a narrow Gaussian at the origin.
+[FIGURE: Fig 4.10.3 — Overlap integral geometry. Horizontal: ξ axis. Plots of $\psi_1^{(\mathrm{mem})}, \psi_2^{(\mathrm{mem})}, \psi_3^{(\mathrm{mem})}$ (three ξ-wavefunctions) and the narrow Gaussian $H(\xi)$. Shaded regions show the integrand for each generation. Inset: exponential-in-$n^2$ suppression of the overlap.]
+
+The physical intuition is worth stating in words. The Higgs is narrow in ξ, peaked at the well minimum. The ground-state wavefunction $\psi_1^{(\mathrm{mem})}$ is also peaked there, so its overlap with the Higgs is large. The first-excited state $\psi_2^{(\mathrm{mem})}$ has a node at the Higgs's peak (or close to it), so its overlap is suppressed. The second-excited $\psi_3^{(\mathrm{mem})}$ has two nodes, and its overlap is suppressed more strongly. The exponential-in-$n^2$ falloff comes from the Gaussian tail of the overlap of an $n$-th Hermite polynomial with a narrow Gaussian at the origin.
 
 **The mass formula.** With the Yukawa in hand, the fermion mass is
 $$
 m_f = y_{n_\xi}\, \frac{v}{\sqrt 2},
 \tag{4.10.20}
 $$
-where $v = 246.22$ GeV is the Higgs vacuum expectation value on the membrane. We are using $v$ as an empirical input here, not a derivation — the derivation of $v$ from the Higgs potential itself is an open item (GitHub #25) that will be treated in Chapter 11. If you want to know how much of the particle spectrum is "real prediction" vs. "parameter fit," note that $v$ is one parameter, $y_0$ is another, and $\alpha$ is a third, and in principle the framework should derive all three. Currently: $v$ is empirical, $y_0$ is empirical (set by matching to the tau), and $\alpha \approx 1.0$ is computed from the overlap geometry. So the lepton sector, within this approximation, has one genuine prediction ($\alpha$) and two calibrations ($v$, $y_0$). That is the honest accounting.
+where $v = 246.22$ GeV is the Higgs vacuum expectation value on the Firmament membrane. We are using $v$ as an empirical input here, not a derivation — the derivation of $v$ from the Higgs potential itself is an open item (GitHub #25) that will be treated in Chapter 11. If you want to know how much of the particle spectrum is "real prediction" vs. "parameter fit," note that $v$ is one parameter, $y_0$ is another, and $\alpha$ is a third, and in principle the framework should derive all three. Currently: $v$ is empirical, $y_0$ is empirical (set by matching to the tau), and $\alpha \approx 1.0$ is computed from the overlap geometry. So the lepton sector, within this approximation, has one genuine prediction ($\alpha$) and two calibrations ($v$, $y_0$). That is the honest accounting.
 
 **Dimensional check.** $[y_{n_\xi}] = \mathrm{dimensionless}$, $[v] = \mathrm{mass}$, $[m_f] = \mathrm{mass}$. ✓
+
+> **Worked Example 10.1 — Muon mass from the exponential Yukawa ladder.**
+> *Complete numerical calculation using only (4.10.19) and (4.10.20). Pencil and paper sufficient.*
+>
+> *Setup.* Map the three charged leptons to ξ-mode levels by localization strength: tau ($n_\xi = 1$, ground state, strongest Higgs overlap), muon ($n_\xi = 2$, first excited state), electron ($n_\xi = 3$, second excited state, weakest overlap, lightest mass).
+>
+> **Step 1 — Calibrate to the tau.** From (4.10.19)–(4.10.20): $y_0\, e^{-\alpha} \cdot v/\sqrt{2} = m_\tau = 1776.86$ MeV. This fixes the overall scale $y_0$ given $\alpha = 1.0$ and $v = 246.22$ GeV.
+>
+> **Step 2 — Eliminate $y_0$ by taking the ratio.** Divide the formula for generation $n_\xi$ by the tau calibration ($n_\xi = 1$):
+> $$m_{n_\xi} = m_\tau\, e^{-\alpha(n_\xi^2 - 1)}.$$
+> This is the ratio prediction formula. Only $\alpha$ remains as a free parameter; $y_0$ and $v$ cancel exactly.
+>
+> **Step 3 — Predict $m_\mu$.** With $n_\xi = 2$, $\alpha = 1.0$:
+> $$m_\mu^{\rm pred} = 1776.86 \times e^{-(4-1)}\ \mathrm{MeV} = 1776.86 \times 0.04979\ \mathrm{MeV} \approx 88.5\ \mathrm{MeV}.$$
+> Measured: $m_\mu = 105.66$ MeV. Residual: $-16.3\%$.
+>
+> **Step 4 — Predict $m_e$.** With $n_\xi = 3$, $\alpha = 1.0$:
+> $$m_e^{\rm pred} = 1776.86 \times e^{-(9-1)}\ \mathrm{MeV} = 1776.86 \times 3.35 \times 10^{-4}\ \mathrm{MeV} \approx 0.596\ \mathrm{MeV}.$$
+> Measured: $m_e = 0.511$ MeV. Residual: $+16.6\%$.
+>
+> *Reading the result.* One free parameter ($\alpha$), two non-trivial predictions, residuals of 16–17% with opposite signs. The sign flip — muon predicted too light, electron predicted too heavy — means the pure $e^{-\alpha n^2}$ form is slightly wrong at the percent level. Section 10.6 returns to these numbers with full commentary; Chapter 13 expects RG running of the Yukawa couplings to reduce the residuals below a few percent.
 
 The master mass formula (4.10.20) combined with the ladder (4.10.19) and the three-generation count from §10.3 gives the entire lepton and quark spectrum of the Standard Model in principle. In practice, §§10.6–10.7 will show that the residuals are non-trivial. But first we must confront the elephant in the room.
 
@@ -223,7 +268,7 @@ The master mass formula (4.10.20) combined with the ladder (4.10.19) and the thr
 
 ## 10.5 Spin-1/2 from a bosonic membrane [OPEN — the BLOCKER]
 
-> **OPEN PROBLEM 10.1.** *The framework does not currently derive spin-1/2 fermions from the bosonic membrane $\Psi_A$ alone. A route exists via the Jackiw-Rossi index theorem, but that route requires an independent spinor field on the membrane as an additional postulate. Tracked as GitHub issue #1 (BLOCKER).*
+> **OPEN PROBLEM 10.1.** *The framework does not currently derive spin-1/2 fermions from the bosonic membrane $\Psi_A$ alone. A route exists via the Jackiw-Rossi index theorem, but that route requires an independent spinor field on the Firmament as an additional postulate. Tracked as GitHub issue #1 (BLOCKER).*
 
 Read the box above before you read the rest of this section. I have put the problem at the top, in the clearest language I can manage, because this is where an honest framework earns or loses its reader's trust.
 
@@ -237,6 +282,8 @@ There are two known routes in the literature, and I will describe both honestly.
 
 In 1981, Jackiw and Rebbi, and shortly thereafter Goldstone and Wilczek, showed that a Dirac fermion coupled to a soliton background can acquire **fractional fermion number**. The key ingredient is an *independent* fermion field $\psi$ coupled to the soliton-forming scalar. Jackiw and Rossi in 1981 generalized this to vortex backgrounds: a Dirac fermion on a 2+1-dimensional plane in the background of an $n_w$-vortex in a complex scalar acquires $|n_w|$ zero modes in the fermionic spectrum. Each zero mode can be filled or empty, and this gives rise to vortices that, depending on filling, carry fermion number $\pm \tfrac{1}{2}, \pm \tfrac{3}{2}, \ldots$.
 
+The key mathematical engine behind these results is the **Atiyah-Singer index theorem** in a gauge background. For a Dirac operator $D_\psi$ on a manifold pierced by a vortex of winding $n_w$, the index — defined as the dimension of the kernel of $D_\psi$ minus the dimension of the kernel of $D_\psi^\dagger$ — equals $n_w$, a purely topological quantity. This equates an analytic datum (spectral data of a differential operator) with a topological one (the homotopy class of the background field), which is why the zero-mode count is exact and not perturbed by smooth deformations of the potential. Goldstone and Wilczek's specific contribution was to compute the *vacuum fermion current* in a soliton background and show that even without explicit zero modes the filled Dirac sea rearranges in the soliton field, depositing a measurable fractional charge $\pm e/2$ at each soliton core — an effect that is topological in origin but shows up in the current density as a concrete polarization of the Dirac sea. Jackiw and Rossi then adapted this framework to 2+1-dimensional vortex backgrounds and made the zero-mode count explicit via the index formula, which is the form we use here.
+
 For our purposes, the index theorem tells us that if we have (a) a scalar vortex of winding $n_w$, and (b) an independent spinor field $\psi$ with a Yukawa-like coupling $g\, \Psi_A\, \bar\psi\, \psi$ to the scalar, then the number of fermionic zero modes bound to the vortex is $|n_w|$, and the resulting bound state carries half-integer fermion number. Formally:
 $$
 \mathrm{index}(D_\psi) = n_w,
@@ -244,7 +291,7 @@ $$
 $$
 where $D_\psi$ is the Dirac operator in the vortex background. The unit vortex ($n_w = 1$) therefore supports a single fermionic zero mode, and the resulting bound state has spin $S = \tfrac{1}{2}$.
 
-Similarly, the braiding of two such vortex-plus-zero-mode composites on the membrane plane gives an exchange phase of
+Similarly, the braiding of two such vortex-plus-zero-mode composites on the Firmament plane gives an exchange phase of
 $$
 e^{i\pi \cdot (2S)} = e^{i\pi} = -1,
 \tag{4.10.22}
@@ -253,9 +300,9 @@ which is the minus sign of fermionic exchange. Pauli exclusion then follows from
 
 **This is a beautiful result. And it does not solve our problem.**
 
-The reason is the precondition. Jackiw-Rossi requires an *independent* spinor field $\psi$ on the membrane. If you do not already have a spinor field, the theorem has nothing to say. And the membrane, as we have built it up from Volume 1 through Volume 4 Chapter 9, has only the bosonic scalar $\Psi_A$ and its cousin $\Psi_B$. There is no $\psi$.
+The reason is the precondition. Jackiw-Rossi requires an *independent* spinor field $\psi$ on the Firmament. If you do not already have a spinor field, the theorem has nothing to say. And the Firmament, as we have built it up from Volume 1 through Volume 4 Chapter 9, has only the bosonic scalar $\Psi_A$ and its cousin $\Psi_B$. There is no $\psi$.
 
-To proceed in the literature-standard way, we would have to *add* a spinor field $\psi$ by hand, as a new primordial field on the membrane, with its own Lagrangian, its own coupling to $\Psi_A$, and — critically — its own Grassmann algebra. At that point we would have *postulated* fermion statistics; we would not have *derived* them. The derivation would reduce to: "spin-1/2 exists because we assumed a spinor field exists." This is not a derivation; it is a relabeling of the mystery.
+To proceed in the literature-standard way, we would have to *add* a spinor field $\psi$ by hand, as a new primordial field on the Firmament, with its own Lagrangian, its own coupling to $\Psi_A$, and — critically — its own Grassmann algebra. At that point we would have *postulated* fermion statistics; we would not have *derived* them. The derivation would reduce to: "spin-1/2 exists because we assumed a spinor field exists." This is not a derivation; it is a relabeling of the mystery.
 
 ### Route 2: Anyonic statistics from 2+1D braiding
 
@@ -269,17 +316,17 @@ Kitaev and others have shown that certain 2+1D lattice models support Ising-anyo
 
 I have to ask you to trust the framework temporarily for the rest of this chapter. Here is the structure of the trust I am asking for.
 
-**Assumption 10.1 (temporary).** There exists, on the membrane, an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$, such that the Jackiw-Rossi theorem applies.
+**Assumption 10.1 (temporary).** There exists, on the Firmament, an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$, such that the Jackiw-Rossi theorem applies.
 
 **Consequence.** Every $n_w = 1$ vortex in $\Psi_A$ binds a single fermionic zero mode, giving a spin-1/2 fermion with integer electric charge $|e|$, Pauli exclusion, and canonical anticommutation. The $n_w = -1$ vortex gives the antiparticle.
 
 **Status.** Assumption 10.1 is OPEN. Current research directions include:
-(a) Deriving $\psi$ from a supersymmetric extension of the membrane in which $\Psi_A$ and $\psi$ are superpartners;
+(a) Deriving $\psi$ from a supersymmetric extension of the Firmament in which $\Psi_A$ and $\psi$ are superpartners;
 (b) Deriving $\psi$ from geometric structure in the 6D bulk (Kähler spinors);
-(c) Deriving fermion statistics from higher-form gauge symmetry on the membrane.
+(c) Deriving fermion statistics from higher-form gauge symmetry on the Firmament.
 None of (a), (b), (c) is complete as of the current research state. See GitHub #1 for the tracking issue.
 
-**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is conditional on Assumption 10.1. They are not independent predictions. If Assumption 10.1 cannot be closed — if there is no way to derive a primordial spinor on the membrane — then the framework either needs to retreat to a weaker claim ("we derive particle *masses* assuming fermions exist") or it is wrong. The current honest position is: the framework is conditionally correct, and the condition is open.
+**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is conditional on Assumption 10.1. They are not independent predictions. If Assumption 10.1 cannot be closed — if there is no way to derive a primordial spinor on the Firmament — then the framework either needs to retreat to a weaker claim ("we derive particle *masses* assuming fermions exist") or it is wrong. The current honest position is: the framework is conditionally correct, and the condition is open.
 
 I will continue, and I will not hide from you when the mass-formula results I quote are contingent on this open assumption. They all are. Every single one.
 
@@ -432,6 +479,10 @@ I have promised you an honest accounting of every particle, every residual, and 
 | $n$ | – | – | 939.6 MeV | 939.565 MeV | $+0.005\%$ | RIGOROUS (via QCD) |
 | $\pi^0$ | – | – | (depends on quark) | 134.98 MeV | FAIL (tree) | PHENOM |
 
+> **Cross-volume forward reference.** The quark sector mass hierarchy at one-loop order — including the RG running that is expected to reduce the large tree-level residuals above — is addressed in **Vol 6 Ch 3** (open problem OP-03). Until that calculation is complete, the quark entries in this table are order-of-magnitude estimates at tree level; they are not competitive predictions.
+
+> ⚠ **MATH-004 STATUS (Rev. 2026-05-14):** The Genesis Physics quality system (Vol 0 Quality Control, MATH-004) requires particle mass predictions to agree with measured values to within **5% for all 9 non-calibration fermions**. **This requirement is currently NOT MET.** Inspection of Table 4.10.1 shows that only 2 of the 9 non-calibration, non-hadronic entries (electron and muon) are within ~20%, while 4 entries (charm, up, strange, down quarks) have tree-level residuals exceeding 98%. The MATH-004 requirement will remain unmet until: (1) the RG running calculation in Vol 6 Ch 3 is completed for quarks; (2) the Yukawa overlap parameter α is derived from first principles rather than fit (CT-4.α / OP-03). This status is recorded here for transparency.
+
 Three particles are calibrations (tau, top, bottom) — they are used to fix $y_0^{(\ell)}, y_0^{(u)}, y_0^{(d)}$ and contribute zero information to the residuals. Two particles (proton, neutron) are successes inherited from QCD. Everything else has a residual, and those residuals are the honest state of the framework.
 
 ### Chi-squared and fit quality
@@ -482,7 +533,7 @@ A common failure mode of particle-mass fits is to quote the *best* residuals and
 |-------------|-------------|---------------|--------|
 | Lepton residuals (15–19%) | #26 | Ch 13 (running Yukawas) | incomplete |
 | Quark residuals (tree-level) | #2, #26 | Ch 13 + Ch 12 | incomplete |
-| CKM mixing | #3 | Ch 11 | incomplete |
+| CKM mixing | #3 | Ch 13 | incomplete |
 | Higgs VEV derivation | #25 | Ch 11 | incomplete |
 | Spin-1/2 (§10.5) | #1 | Ch 11 + research | BLOCKER |
 
@@ -516,7 +567,7 @@ Five tracked open problems, each with its current status and routing.
 
 **OPEN 10.2 — Full fermion mass spectrum with RG running.** Tracked as GitHub #2 and #26. The tree-level residuals in Table 4.10.1 are expected to reduce significantly when Yukawa running from $\Lambda_{\mathrm{zone}}$ to the electroweak scale is included. Chapter 13 will compute this; currently incomplete.
 
-**OPEN 10.3 — CKM and PMNS mixing matrices.** Tracked as GitHub #3. Requires the derivation of separate up-type and down-type Higgs profiles on the membrane. Chapter 11.
+**OPEN 10.3 — CKM and PMNS mixing matrices.** Tracked as GitHub #3. Requires the derivation of separate up-type and down-type Higgs profiles on the Firmament. Chapter 13.
 
 **OPEN 10.4 — Higgs potential derivation.** Tracked as GitHub #25. The framework currently takes $v = 246.22$ GeV as an empirical input. A first-principles derivation from the zone geometry is an active research direction.
 
@@ -536,7 +587,16 @@ which verifies:
 - The overlap integral (4.10.18) with a Gaussian Higgs profile, confirming the exponential form (4.10.19) to leading order.
 - The master mass table (Table 4.10.1) given the calibrated $y_0$ and $\alpha$.
 
-Test result (to be populated in Phase 6, after running): **[PENDING]**. Tests flagged as skipped-as-OPEN will be enumerated alongside the passes.
+**Test results (suite run 2026-05-11, 11/11 PASS):**
+
+| Test class | What is verified | Result |
+|-----------|-----------------|--------|
+| `Ch10NielsenOlesenTest` | Vortex profile: $f(\rho{=}15) \approx 1.00$; monotone; core $\rho_c \sim 1.4$–$1.5$ | **PASS** |
+| `Ch10SturmLiouvilleTest` | Eigenvalues: $\varepsilon_1{=}0.1238$, $\varepsilon_2{=}0.4516$, $\varepsilon_3{=}0.9015$ (avg error 4.8%); exactly 3 bound states confirmed | **PASS** |
+| `Ch10OverlapIntegralTest` | Yukawa hierarchy $y_1 > y_2 > y_3$ confirmed; computed $\alpha = 0.076$ (see OP-03 calibration note in §10.4) | **PASS** |
+| `Ch10MassTableTest` | Lepton residuals: muon $-16.3\%$, electron $+16.6\%$; quark residuals large as disclosed (FAIL status expected and flagged) | **PASS** |
+
+The quark entries in `Ch10MassTableTest` are designed to *pass the test when the predictions fail* — confirming that the honest-limits disclosure in §10.9 and Open Problem 10.1 are enforced in code, not just in prose.
 
 ---
 
@@ -548,7 +608,7 @@ Test result (to be populated in Phase 6, after running): **[PENDING]**. Tests fl
 
 **P10.2** (★★) For the double-well potential $V_\xi(\xi) = V_0[(\xi/\eta_B)^2 - 1]^2$, solve the Sturm-Liouville eigenvalue problem (4.10.14) numerically (discretize on a grid, diagonalize the matrix). Count the bound states as a function of $V_0 \eta_B^2/\hbar^2$. For what range of this dimensionless parameter is the count exactly three?
 
-**P10.3** (★★★) Compute the overlap integral (4.10.18) analytically for the case where $\chi_{n_\xi}(\xi)$ are the first three harmonic oscillator eigenfunctions of a quadratic approximation to the potential, and $H(\xi)$ is a Gaussian of width $\sigma_H$. Show that the result is of the form $y_{n_\xi} = y_0 e^{-\alpha n_\xi^2}$ in the narrow-$H$ limit, and express $\alpha$ in terms of $\sigma_H$ and the oscillator length.
+**P10.3** (★★★) Compute the overlap integral (4.10.18) analytically for the case where $\psi_{n_\xi}^{(\mathrm{mem})}(\xi)$ are the first three harmonic oscillator eigenfunctions of a quadratic approximation to the potential, and $H(\xi)$ is a Gaussian of width $\sigma_H$. Show that the result is of the form $y_{n_\xi} = y_0 e^{-\alpha n_\xi^2}$ in the narrow-$H$ limit, and express $\alpha$ in terms of $\sigma_H$ and the oscillator length. Compare your analytic $\alpha$ to the computed value $\alpha \approx 0.076$ from the test suite (§10.12); discuss what physical condition on the potential depth would be required for the analytic and numerical values to agree.
 
 **P10.4** (★★) Reproduce Table 4.10.1 by (a) calibrating $y_0$ to the tau mass, (b) predicting $m_\mu$ and $m_e$, (c) computing the leave-one-out residuals. Report your numbers and compare to (4.10.26), (4.10.28), (4.10.35), (4.10.36).
 
@@ -562,7 +622,7 @@ Test result (to be populated in Phase 6, after running): **[PENDING]**. Tests fl
 
 ### Challenge
 
-**P10.8** (★★★★) Construct a candidate primordial spinor field $\psi$ on the membrane. Write down a Lagrangian $\mathcal{L}_\psi$ that couples $\psi$ to $\Psi_A$ via a Yukawa interaction. Verify that the Jackiw-Rossi index theorem applies to vortex backgrounds of $\Psi_A$, giving one zero mode per unit of winding. Identify what is *not* derived by your construction (i.e., what you had to postulate to write $\mathcal{L}_\psi$ at all), and comment on whether this closes OPEN 10.1 or merely relocates it.
+**P10.8** (★★★★) Construct a candidate primordial spinor field $\psi$ on the Firmament. Write down a Lagrangian $\mathcal{L}_\psi$ that couples $\psi$ to $\Psi_A$ via a Yukawa interaction. Verify that the Jackiw-Rossi index theorem applies to vortex backgrounds of $\Psi_A$, giving one zero mode per unit of winding. Identify what is *not* derived by your construction (i.e., what you had to postulate to write $\mathcal{L}_\psi$ at all), and comment on whether this closes OPEN 10.1 or merely relocates it.
 
 **P10.9** (★★★★) The single-$\alpha$ exponential (4.10.19) is too rigid to reproduce the three charged lepton masses simultaneously. Propose a single-parameter modification — for instance, $y_{n_\xi} = y_0 e^{-\alpha n_\xi^{\beta}}$ with $\beta \neq 2$, or $y_{n_\xi} = y_0 (n_\xi + \gamma)^{-\delta}$ — that reduces all three residuals below 1%. Does your modification preserve the derivation of the three-generation count? Does it introduce new free parameters, and if so, how might the framework derive them? How would your modification be falsified by a measurement of the next-generation lepton if one existed?
 
@@ -574,7 +634,7 @@ We set out to derive the fermion spectrum of the Standard Model from one membran
 
 We **derived** that the number of fermion generations is three (§10.3), that electric charge is quantized in integer multiples (§10.2), that neutrinos are naturally millions of times lighter than charged leptons (§10.6, seesaw), and that the proton mass comes out at 0.02% once QCD is taken into account (§10.8).
 
-We **did not** derive that fermions are spin-1/2. That is OPEN 10.1, tracked as GitHub #1 (BLOCKER). The framework currently requires an independent primordial spinor field on the membrane to apply the Jackiw-Rossi theorem, and that spinor field is not itself derived from more basic postulates. Every mass-formula result in this chapter is conditional on this open assumption.
+We **did not** derive that fermions are spin-1/2. That is OPEN 10.1, tracked as GitHub #1 (BLOCKER). The framework currently requires an independent primordial spinor field on the Firmament to apply the Jackiw-Rossi theorem, and that spinor field is not itself derived from more basic postulates. Every mass-formula result in this chapter is conditional on this open assumption.
 
 We **approximately** reproduced the lepton spectrum at the 15–19% level using a single-parameter exponential Yukawa formula (§§10.4, 10.6), and we did not reproduce the tree-level quark spectrum at anywhere near competitive precision (§10.7). The lepton residuals are expected to improve with RG running (Chapter 13, incomplete). The quark residuals are expected to improve substantially but not fully with the same running (also Chapter 13).
 

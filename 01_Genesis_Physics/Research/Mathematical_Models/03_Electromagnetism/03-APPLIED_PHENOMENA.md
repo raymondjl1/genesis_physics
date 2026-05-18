@@ -2,9 +2,9 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light" and "Let the waters under the heaven be gathered together" — EM and matter behavior follows covenant order | Genesis 1:3, 1:9 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | Maxwell's equations from 6D zone architecture | 03-MAXWELL_DERIVATION.md |
-> | **This Document** | **Three EM applied phenomena: EM spectrum, Faraday cage, skin effect from membrane mode restriction** | **03-APPLIED_PHENOMENA.md** |
+> | **This Document** | **Three EM applied phenomena: EM spectrum, Faraday cage, skin effect from Firmament membrane mode restriction** | **03-APPLIED_PHENOMENA.md** |
 > | Modern Equivalent | Classical EM Phenomena — CONVERGES: photon spectrum, Faraday shielding, skin depth all recovered from Maxwell boundary conditions |
 >
 > *Chain Status: COMPLETE*
@@ -25,7 +25,7 @@ This document derives three canonical electromagnetic applied phenomena from fir
 
 **Core Results:**
 - **EM Spectrum:** Full characterization from membrane photon modes, $f \cdot \lambda = c$ for all frequencies, energy classification $E = hf$
-- **Faraday Cage:** Shielding derived from Maxwell boundary conditions on conducting membrane surface, $E_{\text{interior}} = 0$ for static and exponentially attenuated dynamic fields
+- **Faraday Cage:** Shielding derived from Maxwell boundary conditions on conducting Firmament membrane surface, $E_{\text{interior}} = 0$ for static and exponentially attenuated dynamic fields
 - **Skin Effect:** Penetration depth $\delta = \sqrt{2\rho/(\omega\mu_0)}$ from membrane conductivity model with frequency-dependent attenuation
 
 ---
@@ -34,14 +34,14 @@ This document derives three canonical electromagnetic applied phenomena from fir
 
 ### 1.1 Maxwell Equations on 4D Membrane
 
-The 4D membrane embedded in 6D spacetime hosts the electromagnetic field. The field satisfies Maxwell's equations projected onto the membrane:
+The 4D membrane embedded in 6D spacetime hosts the electromagnetic field. The field satisfies Maxwell's equations projected onto the Firmament:
 
 $$\nabla \cdot \vec{E} = \frac{\rho}{\epsilon_0}$$
 $$\nabla \cdot \vec{B} = 0$$
 $$\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}$$
 $$\nabla \times \vec{B} = \mu_0 \vec{j} + \mu_0\epsilon_0\frac{\partial\vec{E}}{\partial t}$$
 
-where operators $\nabla$ and $\times$ act on 4D spatial coordinates $(x,y,z)$ on the membrane.
+where operators $\nabla$ and $\times$ act on 4D spatial coordinates $(x,y,z)$ on the Firmament.
 
 ### 1.2 Wave Equation from Maxwell's Equations
 
@@ -58,7 +58,7 @@ $$c = \frac{1}{\sqrt{\mu_0\epsilon_0}} = 3 \times 10^8\text{ m/s}$$
 
 ### 1.3 Photon Modes on Membrane
 
-Plane wave solutions propagate along the membrane:
+Plane wave solutions propagate along the Firmament membrane:
 $$\vec{E}(\vec{r},t) = \vec{E}_0 e^{i(\vec{k}\cdot\vec{r} - \omega t)}$$
 
 The dispersion relation is:
@@ -468,12 +468,12 @@ per unit volume: $p = \sigma E^2$ (Joule heating).
 
 ## Conclusion
 
-The three EM applied phenomena—electromagnetic spectrum, Faraday cage shielding, and skin effect—emerge naturally from the Genesis Physics 6D membrane framework as manifestations of:
+The three EM applied phenomena—electromagnetic spectrum, Faraday cage shielding, and skin effect—emerge naturally from the Genesis Physics 6D Firmament framework as manifestations of:
 
 1. **Maxwell's equations** on the confined 4D membrane
-2. **Frequency-dependent responses** arising from the membrane structure
+2. **Frequency-dependent responses** arising from the Firmament structure
 3. **Boundary conditions** at material interfaces
-4. **Conductivity and material properties** localized to the membrane
+4. **Conductivity and material properties** localized to the Firmament
 
 The framework reproduces all experimental observations from extremely low frequencies (DC, 50 Hz power lines) to very high frequencies (GHz, THz microwave and millimeter-wave applications) with excellent quantitative agreement. The unifying principle is that **electromagnetic phenomena are field modes of the 4D membrane embedded in 6D bulk spacetime**, subject to classical Maxwell equations with quantum origins in the extra-dimensional geometry.
 

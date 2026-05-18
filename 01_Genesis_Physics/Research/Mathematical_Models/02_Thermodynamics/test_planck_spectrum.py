@@ -23,11 +23,11 @@ BONUS: Verify solar luminosity:
 
 GENESIS PHYSICS FRAMEWORK:
 - The Firmament is a 4D membrane in 6D spacetime
-- Membrane vibration modes are quantized: E_n = ℏω(n + 1/2)
+- Firmament vibration modes are quantized: E_n = ℏω(n + 1/2)
 - For thermal radiation, each mode is a quantum harmonic oscillator
 - Mean energy per mode: <E> = hν/(e^(hν/k_BT) - 1) from Bose-Einstein statistics
 - Density of states for EM modes in a cavity: g(ν)dν = 8πν²/c³ dν
-- Planck's law emerges from counting excited membrane modes
+- Planck's law emerges from counting excited Firmament modes
 
 KEY INSIGHT:
 The spectral radiance B(λ,T) follows from:

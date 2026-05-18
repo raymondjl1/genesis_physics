@@ -29,12 +29,12 @@ A comprehensive Python test suite that validates the central thesis of Genesis P
 ### Test Classes (10 Total)
 
 1. **MembraneToSpeedOfLight**
-   - Derives c from σ (membrane tension) and μ (surface density)
+   - Derives c from σ (Firmament tension) and μ (surface density)
    - **Result:** ✓ PASS (0.18% error)
    - **Formula:** c = √(σ/μ)
 
 2. **MembraneToGravity**
-   - Derives G from membrane tension and coupling length
+   - Derives G from Firmament tension and coupling length
    - **Result:** ✗ FAIL (84.8% error, dimensional issue flagged)
    - **Formula:** G = c⁴ / (8πσℓ²)
    - **Action Required:** Review and correct dimensional analysis

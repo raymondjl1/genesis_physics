@@ -6,7 +6,7 @@ Five volumes of derivation lie behind us. We have built a 6D zone manifold from 
 
 Before we open the catalog, we need to agree on what "match" means. Three levels of agreement appear throughout this chapter, and distinguishing them honestly is essential to the scorecard we present at the end.
 
-Level 1: Exact reproduction. Zone architecture derives the same equation as standard physics. Maxwell's equations emerge identically from the membrane wave propagation analysis of Vol 2, Ch 3. The Schwarzschild metric emerges identically from the 4D projection of the 6D Einstein equations in Vol 5, Ch 1. In these cases, every prediction of standard physics is automatically a prediction of zone architecture, because the mathematical content is the same. The gain is not a different answer — it is the answer to "but why does this equation hold?" Standard physics says: "Here is Maxwell's equation; it works." Zone architecture says: "Here is why electromagnetic fields propagate as waves at speed c — because the membrane's oscillation modes satisfy exactly this wave equation."
+Level 1: Exact reproduction. Zone architecture derives the same equation as standard physics. Maxwell's equations emerge identically from the Firmament membrane wave propagation analysis of Vol 2, Ch 3. The Schwarzschild metric emerges identically from the 4D projection of the 6D Einstein equations in Vol 5, Ch 1. In these cases, every prediction of standard physics is automatically a prediction of zone architecture, because the mathematical content is the same. The gain is not a different answer — it is the answer to "but why does this equation hold?" Standard physics says: "Here is Maxwell's equation; it works." Zone architecture says: "Here is why electromagnetic fields propagate as waves at speed c — because the Firmament membrane's oscillation modes satisfy exactly this wave equation."
 
 Level 2: Numerical agreement. Zone architecture predicts a specific numerical value — from its geometric parameters, not from a fit to data — and that value matches experiment to a stated precision. The fine structure constant, derived in Vol 5, Ch 13 as alpha to the -1 = 137.17 plus or minus 0.15, agrees with the experimental value of 137.035 999 084(21) to 0.10%. This is a different kind of match than Level 1: the framework is making a commitment about a number that standard physics treats as a free parameter.
 
@@ -72,7 +72,7 @@ Source: Vol 4, Ch 7, Eqs (4.7.57)–(4.7.63)
 Falsification threshold: Deviation exceeding experimental uncertainty that cannot be accounted for by higher-order corrections.
 Status: MATCHES
 
-The Lamb shift results from two quantum effects: the electron's self-energy interaction with the vacuum (approximately 1052 MHz contribution) and vacuum polarization (approximately -27 MHz contribution), combining to give the measured splitting (Eq 4.7.62). In zone architecture, both effects arise from the same membrane field dynamics that produce the electron — vacuum fluctuations are membrane vibration modes, and the electron's self-energy is its interaction with its own distortion of the membrane.
+The Lamb shift results from two quantum effects: the electron's self-energy interaction with the vacuum (approximately 1052 MHz contribution) and vacuum polarization (approximately -27 MHz contribution), combining to give the measured splitting (Eq 4.7.62). In zone architecture, both effects arise from the same membrane field dynamics that produce the electron — vacuum fluctuations are Firmament membrane vibration modes, and the electron's self-energy is its interaction with its own distortion of the Firmament membrane.
 
 P-003: Muon Anomalous Magnetic Moment
 Predicted value: Standard QED + hadronic + electroweak contributions
@@ -118,7 +118,7 @@ yielding the expression.
 
 The 0.10% discrepancy from experiment is understood. The coefficient b sub eff aggregates four contributions: b sub QED = 3.67 (the threshold-integrated QED beta function, computed from the known particle content running between eta sub B and xi sub A scales), b sub weak = 2.00 (electroweak mixing contributions), b sub red = 1.40 (the 6D-to-4D Kaluza-Klein reduction coefficient), and b sub hi = 1.00 (higher-loop and metric corrections). These sum to b sub eff = 9.05 (with b sub eff/2 pi = 1.4400). The higher-loop coefficient b sub hi carries the largest uncertainty. Refining this coefficient is an open problem (Chapter 14), not a fundamental obstacle.
 
-A potential circularity concern deserves explicit treatment. The QED beta function b sub QED describes how the electromagnetic coupling runs with energy scale — and in standard QED, this running is parameterized in terms of alpha itself. Does zone architecture assume alpha to derive alpha? No. The beta function coefficient depends on the particle content of the theory (the number and charges of fermion species), not on the numerical value of alpha. Zone architecture determines the particle content from membrane resonance modes (Vol 4, Ch 10) and the gauge group structure from zone symmetries (Vol 2, Ch 6). The beta function coefficient is then computed from these independently determined inputs. The logarithmic form itself — why alpha to the -1 proportional to ( xi sub A/ eta sub B) — emerges from the 2D Green's function of the gauge field propagator on the compactified extra dimensions (Vol 5, Ch 13, Eqs 5.13.25–5.13.28). The reader seeking the complete derivation should consult Vol 5, Ch 13, where each step from the 6D action to the master formula is presented.
+A potential circularity concern deserves explicit treatment. The QED beta function b sub QED describes how the electromagnetic coupling runs with energy scale — and in standard QED, this running is parameterized in terms of alpha itself. Does zone architecture assume alpha to derive alpha? No. The beta function coefficient depends on the particle content of the theory (the number and charges of fermion species), not on the numerical value of alpha. Zone architecture determines the particle content from Firmament resonance modes (Vol 4, Ch 10) and the gauge group structure from zone symmetries (Vol 2, Ch 6). The beta function coefficient is then computed from these independently determined inputs. The logarithmic form itself — why alpha to the -1 proportional to ( xi sub A/ eta sub B) — emerges from the 2D Green's function of the gauge field propagator on the compactified extra dimensions (Vol 5, Ch 13, Eqs 5.13.25–5.13.28). The reader seeking the complete derivation should consult Vol 5, Ch 13, where each step from the 6D action to the master formula is presented.
 
 What matters is the structure of the result. The fine structure constant is a logarithmic function of the ratio between the largest and smallest scales in the zone architecture. It is fixed by geometry — not by accident, not by anthropic selection, and not by fine-tuning. The same geometric ratio that determines alpha also determines the hierarchy between forces:
 
@@ -148,7 +148,7 @@ General Relativity — Every Classical Test Passed.
 
 General relativity is the gold standard for gravitational physics. Einstein's field equations have been confirmed by over a century of increasingly precise measurements. Any framework that claims to derive gravity must reproduce every classical test of GR.
 
-Zone architecture does not modify GR — it recovers GR. The Einstein field equations in 4D emerge as the zero-mode sector of the full 6D gravitational equations when projected onto the brane (Vol 5, Ch 1). The Schwarzschild metric, the geodesic equation, and the full apparatus of classical GR appear as exact results, not approximations. This means every prediction of classical GR is automatically a prediction of zone architecture.
+Zone architecture does not modify GR — it recovers GR. The Einstein field equations in 4D emerge as the zero-mode sector of the full 6D gravitational equations when projected onto the Firmament (Vol 5, Ch 1). The Schwarzschild metric, the geodesic equation, and the full apparatus of classical GR appear as exact results, not approximations. This means every prediction of classical GR is automatically a prediction of zone architecture.
 
 The gain, as with QED, is the "why." Standard GR says spacetime is curved by mass-energy — that is a postulate. Zone architecture says spacetime curvature is the 4D projection of the zone manifold's response to the matter stress-energy tensor — that is a derivation. The curvature mechanism is specified: warp factors A( xi , eta ) and B( xi , eta ) in the extra dimensions respond to sources, and their 4D projection produces the observed metric.
 
@@ -398,7 +398,7 @@ The Tully-Fisher slope is a structural prediction. Zone architecture derives:
 where ell _ is a characteristic zone length scale and G sub int is the effective gravitational coupling at galactic scales (Eq 5.11.14). The exponent of 4 is not a fit — it emerges from the dimensional structure of the Waters Below density profile.
 
 P-030: Galaxy Rotation Curves (SPARC Sample)
-Predicted value: NFW density profile rho sub B(r) = rho sub s/[(r/r sub s)(1+r/r sub s) to the 2] from Waters Below brane field equation; chi to the 2 sub red approximately equal to 0.78–1.24 across 6 galaxies
+Predicted value: NFW density profile rho sub B(r) = rho sub s/[(r/r sub s)(1+r/r sub s) to the 2] from Waters Below Firmament field equation; chi to the 2 sub red approximately equal to 0.78–1.24 across 6 galaxies
 Standard physics value: NFW profile from LambdaCDM N-body simulations
 Experimental value: SPARC survey data
 Precision: chi to the 2 sub red approximately 1 (LambdaCDM-comparable fit quality)
@@ -441,7 +441,7 @@ Falsification threshold: Observation of angular momentum violation in any isolat
 Status: MATCHES
 
 P-034: Charge Conservation
-Predicted value: the expression (from U(1) gauge symmetry on the brane)
+Predicted value: the expression (from U(1) gauge symmetry on the Firmament)
 Standard physics value: Same (gauge invariance)
 Experimental value: Bounded by proton lifetime > 10 to the 34 years; no violation ever observed
 Source: Vol 1, Ch 7; Vol 2, Ch 6
@@ -450,10 +450,10 @@ Status: MATCHES
 
 Classical Mechanics.
 
-Newton's laws are not axioms in zone architecture — they are theorems. The second law (F = ma) is derived from the membrane dynamics of Vol 3, Ch 1, where forces arise from gradients in the zone metric and mass is the membrane's resistance to acceleration (inertia from the coupling to the Waters fields). Kepler's laws then follow as consequences of the zone-derived gravitational potential.
+Newton's laws are not axioms in zone architecture — they are theorems. The second law (F = ma) is derived from the Firmament membrane dynamics of Vol 3, Ch 1, where forces arise from gradients in the zone metric and mass is the Firmament membrane's resistance to acceleration (inertia from the coupling to the Waters fields). Kepler's laws then follow as consequences of the zone-derived gravitational potential.
 
 P-035: Newton's Second Law (F = ma)
-Predicted value: Derived as a theorem from membrane dynamics (Vol 3, Ch 1)
+Predicted value: Derived as a theorem from Firmament membrane dynamics (Vol 3, Ch 1)
 Standard physics value: Axiom in classical mechanics
 Experimental value: Confirmed in every mechanical experiment since 1687
 Source: Vol 3, Ch 1; Test 1.2
@@ -498,10 +498,10 @@ Status: MATCHES
 
 Electromagnetism.
 
-Electromagnetism holds a distinctive position in the zone architecture framework: Maxwell's equations emerge not as postulates but as the wave equations governing oscillations of the Firmament membrane (Vol 2, Ch 3). The speed of light c emerges as the propagation speed of these membrane disturbances, and charge quantization follows from the topological structure of the brane (Vol 2, Ch 6). The electromagnetic test category achieved a perfect 100% pass rate (13 of 13 tests) in the validation suite — the highest of any category.
+Electromagnetism holds a distinctive position in the zone architecture framework: Maxwell's equations emerge not as postulates but as the wave equations governing oscillations of the Firmament membrane (Vol 2, Ch 3). The speed of light c emerges as the propagation speed of these membrane disturbances, and charge quantization follows from the topological structure of the Firmament (Vol 2, Ch 6). The electromagnetic test category achieved a perfect 100% pass rate (13 of 13 tests) in the validation suite — the highest of any category.
 
 P-040: Maxwell's Equations (Complete Set)
-Predicted value: All four equations derived from membrane wave propagation (Vol 2, Ch 3)
+Predicted value: All four equations derived from Firmament membrane wave propagation (Vol 2, Ch 3)
 Standard physics value: Postulated (Maxwell, 1865)
 Experimental value: Confirmed in every electromagnetic experiment for 160 years
 Source: Vol 2, Ch 3; Tests 3.1–3.5
@@ -517,7 +517,7 @@ Falsification threshold: Observation of photon speed different from c in vacuum 
 Status: MATCHES
 
 P-042: Charge Quantization
-Predicted value: Electric charge quantized in units of e (from brane topology)
+Predicted value: Electric charge quantized in units of e (from Firmament topology)
 Standard physics value: Observed fact; partially explained by Dirac's monopole argument
 Experimental value: All measured charges are integer multiples of e/3 (quarks) or e (leptons)
 Source: Vol 2, Ch 3; Vol 2, Ch 6; Test 3.7
@@ -525,7 +525,7 @@ Falsification threshold: Discovery of particles with non-quantized (irrational) 
 Status: MATCHES
 
 P-043: Full Electromagnetic Spectrum
-Predicted value: Complete spectrum from radio through gamma-ray as membrane oscillation modes
+Predicted value: Complete spectrum from radio through gamma-ray as Firmament membrane oscillation modes
 Standard physics value: Same (Maxwell's equations with various source mechanisms)
 Experimental value: All frequency bands observed; generation mechanisms confirmed
 Source: EMPRECISIONCOMPLETIONS; Test 3.6
@@ -552,7 +552,7 @@ Status: MATCHES
 
 Quantum Mechanics.
 
-The quantum predictions in this section represent Level 1 matches — zone architecture derives the Schrödinger equation (Vol 4, Ch 2), the uncertainty principle (Vol 4, Ch 3), and the full machinery of quantum field theory (Vol 4, Ch 6) from the membrane dynamics of the Firmament. The quantum mechanical test category achieved an 88.2% pass rate (15 of 17 tests), with the two PARTIAL results involving entanglement distance-independence and quantum teleportation fidelity calculations that are structurally complete but not yet numerically finalized.
+The quantum predictions in this section represent Level 1 matches — zone architecture derives the Schrödinger equation (Vol 4, Ch 2), the uncertainty principle (Vol 4, Ch 3), and the full machinery of quantum field theory (Vol 4, Ch 6) from the Firmament membrane dynamics of the Firmament. The quantum mechanical test category achieved an 88.2% pass rate (15 of 17 tests), with the two PARTIAL results involving entanglement distance-independence and quantum teleportation fidelity calculations that are structurally complete but not yet numerically finalized.
 
 P-046: Photoelectric Effect
 Predicted value: KE = hf - W (Einstein relation from membrane quantization)
@@ -586,7 +586,7 @@ Source: Vol 4, Ch 9; Test 5.16
 Falsification threshold: Casimir force deviating from the d to the -4 scaling law by the expression after accounting for finite conductivity and temperature corrections.
 Status: MATCHES
 
-The Casimir effect is particularly noteworthy for zone architecture because it demonstrates that the vacuum is not empty — it contains real energy associated with the zero-point fluctuations of quantum fields. In zone architecture, this vacuum energy is the energy of the membrane's ground-state vibrations (Vol 4, Ch 9). The Casimir effect thus provides direct experimental evidence for the physical reality of the membrane's vibrational modes.
+The Casimir effect is particularly noteworthy for zone architecture because it demonstrates that the vacuum is not empty — it contains real energy associated with the zero-point fluctuations of quantum fields. In zone architecture, this vacuum energy is the energy of the Firmament's ground-state vibrations (Vol 4, Ch 9). The Casimir effect thus provides direct experimental evidence for the physical reality of the Firmament's vibrational modes.
 
 Chemistry and Materials.
 
@@ -616,7 +616,7 @@ Where Zone Architecture Matches Standard Physics (Equally Good).
 
 In the following domains, zone architecture derives the same mathematical structures as standard physics and produces identical predictions:
 
-QED precision (P-001 through P-003): The perturbative framework is identical. Accuracy: parts per trillion. Zone architecture adds the derivation of the QED Lagrangian from membrane dynamics, but the numbers are the same.
+QED precision (P-001 through P-003): The perturbative framework is identical. Accuracy: parts per trillion. Zone architecture adds the derivation of the QED Lagrangian from Firmament membrane dynamics, but the numbers are the same.
 
 General relativity (P-007 through P-013): GR is recovered exactly. Accuracy: 0.002% to 1.47%. Zone architecture adds the mechanism (dimensional reduction of 6D geometry), but the predictions are the same.
 
@@ -659,6 +659,16 @@ Category: **Total**. Tests: **136**. PASS: **97**. PARTIAL: **37**. FAIL: **0**.
 
 Three categories achieved 100% pass rates: electromagnetism, nuclear/particle physics, and chemistry. Quantum mechanics reached 88.2%. The weakest category is cosmology at 37.5%, primarily because Big Bang nucleosynthesis (BBN) calculations — requiring detailed nuclear reaction rate implementations — have not yet been developed within the framework. These are NOT YET tests, not failures.
 
+Prediction Type Taxonomy (Rev. 2026-05-14): The 71.3% pass rate cited here includes both Type A and Type B results. Type B predictions (structural, no tuning) carry more evidential weight than Type A retroactive fits. Readers should not treat the overall pass rate as uniform evidence.
+
+- Type A: Retroactive fit — the framework was tuned to match this observable, or the same mathematical structure as standard physics is recovered (e.g., W/Z masses via calibrated Higgs VEV, CMB parameters As and ns fitted to Planck data). Agreement demonstrates consistency, not independent prediction.
+- Type B: Structural prediction — derived from zone topology without fitting to this specific measurement. These carry genuine evidential weight because no parameter was adjusted to match.
+- Type C: Novel prediction — not yet tested experimentally (see Chapter 3).
+
+Key Type B results in this chapter: α⁻¹ = 137.17 (0.10% error, no fitted parameters — the value emerges from the geometric scale ratio), αs = 0.118 (from Z₃ orbifold boundary conditions), Nν = 3 (from topological double-well bound states), charge quantization (from Firmament topology), c = σ/√μ (speed of light from Firmament membrane wave propagation). The Tully-Fisher slope = 4 (exactly, from dimensional structure) and w = −1 (from Waters Above geometric confinement) are also Type B.
+
+Key Type A results: Higgs VEV, W/Z masses (calibrated via VEV fit), CMB amplitude and spectral index parameters (fitted to Planck data). These demonstrate the framework is consistent with observation but do not constitute independent evidence for the zone architecture's correctness.
+
 The complete test suite, with detailed descriptions of all 136 tests and their status, is documented in Research/MathematicalModels/TestResults/TESTRESULTS2026-04-05_DEFINITIVE.md and will be reproduced in full in Appendix A of this volume. The reader is encouraged to examine the individual test entries — particularly the 37 PARTIAL tests — and to ask: Which of these, if they converge to the wrong answer, would constitute genuine disconfirmation? That question is addressed systematically in Chapter 4 (Falsification Criteria).
 
 The critical observation: zero failures. No prediction of zone architecture contradicts any experimental measurement. The 37 PARTIAL tests represent derivations where the framework produces the correct qualitative behavior or functional form but has not yet achieved full numerical precision. The 2 NOT YET tests require specialized work (N-body chaos analysis and Kerr metric derivation from 6D) that does not yet exist.
@@ -671,7 +681,7 @@ Summary Comparison Table.
 
 The following table summarizes all 51 predictions, organized by domain, with precision levels and the zone architecture's distinctive contribution:
 
-Domain: QED Precision. Predictions: P-001 to P-003. Best Precision: 7 times 10 to the -10. Zone Architecture Adds: Derivation of QED from membrane dynamics.
+Domain: QED Precision. Predictions: P-001 to P-003. Best Precision: 7 times 10 to the -10. Zone Architecture Adds: Derivation of QED from Firmament membrane dynamics.
 Domain: Fine Structure & Constants. Predictions: P-004 to P-006. Best Precision: 0.08%. Zone Architecture Adds: **Derives values standard physics cannot explain**.
 Domain: General Relativity. Predictions: P-007 to P-013. Best Precision: 0.002% (Z mass recovery). Zone Architecture Adds: Mechanism for spacetime curvature (dimensional reduction).
 Domain: Particle Physics. Predictions: P-014 to P-023. Best Precision: 0.002% (M sub Z). Zone Architecture Adds: Gauge symmetries from zone structure; N_ nu = 3 from topology.
@@ -679,7 +689,7 @@ Domain: Cosmology. Predictions: P-024 to P-030. Best Precision: the expression. 
 Domain: Conservation Laws. Predictions: P-031 to P-034. Best Precision: Exact. Zone Architecture Adds: Origin in 6D manifold symmetries.
 Domain: Classical Mechanics. Predictions: P-035 to P-036. Best Precision: Exact. Zone Architecture Adds: F = ma as theorem, not axiom.
 Domain: Thermodynamics. Predictions: P-037 to P-039. Best Precision: < 10 to the -4 (Planck spectrum). Zone Architecture Adds: Second Law from zone separation geometry.
-Domain: Electromagnetism. Predictions: P-040 to P-045. Best Precision: the expression. Zone Architecture Adds: Maxwell's equations from membrane oscillations.
+Domain: Electromagnetism. Predictions: P-040 to P-045. Best Precision: the expression. Zone Architecture Adds: Maxwell's equations from Firmament membrane oscillations.
 Domain: Quantum Mechanics. Predictions: P-046 to P-049. Best Precision: the expression (Casimir). Zone Architecture Adds: Schrödinger equation derived; vacuum energy = membrane ground state.
 Domain: Chemistry. Predictions: P-050 to P-051. Best Precision: Structural match. Zone Architecture Adds: Longest derivation chain: axioms → zone geometry → QM → chemistry.
 

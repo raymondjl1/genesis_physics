@@ -18,10 +18,10 @@ This document derives the complete neutrino physics of Genesis Physics from firs
 
 $$\boxed{\text{6D Action} \to \text{Boundary Modes at Zone Interface} \to \text{KK Mode Tower} \to \text{Lightest Modes = Neutrinos} \to \text{Mass from Boundary Mixing} \to \text{PMNS Matrix}}$$
 
-**Key Result**: Neutrinos are not topological defects embedded in the Firmament brane. Instead, they are **zone-boundary modes** localized at the Firmament-Waters interface (η = η₀, ξ = ξ₀). This geometric origin explains:
+**Key Result**: Neutrinos are not topological defects embedded in the Firmament. Instead, they are **zone-boundary modes** localized at the Firmament-Waters interface (η = η₀, ξ = ξ₀). This geometric origin explains:
 
 1. **Zero electric charge**: Boundary modes carry no winding number in ξ-η topological space
-2. **No strong coupling**: Boundary modes decouple from color SU(3) topology of the membrane
+2. **No strong coupling**: Boundary modes decouple from color SU(3) topology of the Firmament membrane
 3. **Weak interaction only**: Coupling to W/Z bosons via boundary condition overlap integrals
 4. **Tiny masses**: Exponential suppression from boundary-to-bulk wavefunction overlap
 5. **Left-handed chirality**: Inherited from ξ-η asymmetry (parity violation structure)
@@ -157,7 +157,7 @@ V_0 e^{-\kappa|\eta - \eta_0|} & \text{for } \eta \lesssim \eta_0 \text{ (Waters
 \end{cases} \tag{2.6)$$
 
 where:
-- $V_0 \sim 100$ GeV is the scale set by the Higgs vacuum expectation value and membrane surface tension
+- $V_0 \sim 100$ GeV is the scale set by the Higgs vacuum expectation value and Firmament membrane surface tension
 - $\lambda, \kappa$ are width parameters characterizing the potential
 - $\eta_0$ is the location of the Firmament (the potential minimum)
 
@@ -218,7 +218,7 @@ This is the **boundary eigenvalue equation** that determines the discrete spectr
 
 ### 3.3 The Three-Family Structure from Topological Dimensions
 
-In the full 6D manifold, the Firmament brane (a 4D hypersurface) can support multiple types of boundary ripples, distinguished by **how the ripple oscillates in the extra dimensions**.
+In the full 6D manifold, the Firmament (a 4D hypersurface) can support multiple types of boundary ripples, distinguished by **how the ripple oscillates in the extra dimensions**.
 
 For ripples localized at η = η₀, there are three independent excitation modes, corresponding to the three **transverse-spatial** directions:
 

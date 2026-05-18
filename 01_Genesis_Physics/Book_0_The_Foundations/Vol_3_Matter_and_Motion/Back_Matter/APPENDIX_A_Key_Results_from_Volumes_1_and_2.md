@@ -58,7 +58,7 @@ $$y^a y^a = L_{\text{eff}}^2 \tag{1.4.18}$$
 
 ### A.2.5 Chapter 5 — The Firmament Manifold
 
-**Firmament wave equation** for the membrane displacement field $\Phi(x,y)$:
+**Firmament wave equation** for the Firmament membrane displacement field $\Phi(x,y)$:
 $$\left(\Box_4 + \nabla_y^2 + m_0^2\right)\Phi(x,y) = 0 \tag{1.5.51}$$
 where $\Box_4 = \eta^{\mu\nu}\partial_\mu\partial_\nu$ is the 4D d'Alembertian and $\nabla_y^2$ is the Laplacian on the compact extra dimensions.
 *Used in Vol 3: Ch 6 (standing-wave mode spectrum), Ch 7 (Higgs as KK mode).*
@@ -67,7 +67,7 @@ where $\Box_4 = \eta^{\mu\nu}\partial_\mu\partial_\nu$ is the 4D d'Alembertian a
 $$\Phi(x,y) = \sum_{n,\ell} \phi_{n\ell}(x)\, Y_{n\ell}(y), \qquad m_{n\ell}^2 = m_0^2 + \frac{n^2 + \ell^2}{L_{\text{eff}}^2} \tag{1.5.63}$$
 *Used in Vol 3: Ch 6, 7.*
 
-**Membrane tension.**
+**Firmament tension.**
 $$\sigma \approx 6 \times 10^{98}\;\text{kg/(m·s}^2\text{)} \tag{1.5.74}$$
 *Used in Vol 3: Ch 7 (electroweak vacuum), Ch 5 (stress-tensor scale setting).*
 
@@ -194,7 +194,7 @@ Vol 3 cites the conceptual result — "all fundamental forces arise from gauge s
 
 ### A.3.2 Chapter 2 — Gravity from Zone Curvature
 
-**Four-dimensional Newton constant from membrane tension.**
+**Four-dimensional Newton constant from Firmament tension.**
 $$\boxed{G_4 = \frac{c^4}{8\pi\sigma L_{\text{eff}}^2} = 6.674 \times 10^{-11}\;\text{m}^3/(\text{kg}\cdot\text{s}^2)} \tag{2.2.29}$$
 *Used in Vol 3: Ch 1 (F=ma with gravitational coupling), Ch 3 (Kepler's third law), Ch 8 (gravitational aspects of phase transitions).*
 
@@ -202,7 +202,7 @@ $$\boxed{G_4 = \frac{c^4}{8\pi\sigma L_{\text{eff}}^2} = 6.674 \times 10^{-11}\;
 $$\boxed{\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu{}_{\alpha\beta}\frac{dx^\alpha}{d\tau}\frac{dx^\beta}{d\tau} = 0} \tag{2.2.44}$$
 *Used in Vol 3: Ch 1 (first law derivation), Ch 3 (orbital mechanics from curvature).*
 
-### A.3.3 Chapter 3 — Electromagnetism from Membrane Wave Propagation
+### A.3.3 Chapter 3 — Electromagnetism from Firmament Wave Propagation
 
 **Maxwell's equations in tensor form.**
 $$\partial_\mu F^{\mu\nu} = \mu_0 J^\nu, \qquad \partial_{[\alpha}F_{\mu\nu]} = 0 \tag{2.3.27}$$

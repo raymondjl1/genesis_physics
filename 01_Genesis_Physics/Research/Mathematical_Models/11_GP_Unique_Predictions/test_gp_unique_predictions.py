@@ -15,7 +15,7 @@ Test Coverage:
 2. DarkMatterNotParticle — σ_SI = 0 exactly (no particle interactions)
 3. FineStructureFromGeometry — α⁻¹ = 137.036 DERIVED from geometry
 4. CosmicEnergyBudgetDerived — 68/27/5 split from structural geometry
-5. GravityWeaknessDerived — hierarchy problem explained via membrane tension
+5. GravityWeaknessDerived — hierarchy problem explained via Firmament tension
 6. SecondLawAsPhaseThree — 2nd law emerges in Phase 3 (Fall), not fundamental
 7. SustainingEnergyBudget — 68% of cosmic energy = Christ's sustaining work
 8. MembranePredictionsForFutureExperiments — DESI, Euclid, CMB-S4 predictions
@@ -69,7 +69,7 @@ class Constants:
     # GP-specific constants
     xi_A = 3.0e26                      # Waters Above scale (m)
     eta_B = 1.3e-15                    # Boundary zone scale (m)
-    sigma_membrane = 6.0e98            # Membrane tension (kg/(m·s²))
+    sigma_membrane = 6.0e98            # Firmament tension (kg/(m·s²))
     l_eff_sq = (c**4) / (8 * np.pi * G * sigma_membrane)
 
     # CMB temperature
@@ -697,7 +697,7 @@ class TestCosmicEnergyBudgetDerived:
 
 class TestGravityWeaknessDerived:
     """
-    TEST 5: Gravity Weakness Explained via Membrane Tension
+    TEST 5: Gravity Weakness Explained via Firmament Tension
 
     The Hierarchy Problem:
     - Gravity is 10³⁶ times weaker than electromagnetism
@@ -708,7 +708,7 @@ class TestGravityWeaknessDerived:
 
     Genesis Physics Explanation:
     - G = c⁴ / (8πσℓ_eff²)
-    - σ = membrane tension = 6.0 × 10⁹⁸ kg/(m·s²)
+    - σ = Firmament tension = 6.0 × 10⁹⁸ kg/(m·s²)
     - ℓ_eff = effective length scale
     - Enormous σ → tiny G → gravity weak
     - Hierarchy emerges naturally from geometry
@@ -723,7 +723,7 @@ class TestGravityWeaknessDerived:
     def __init__(self):
         self.name = "GravityWeaknessDerived"
         self.description = (
-            "Gravity weakness (hierarchy problem) emerges from enormous membrane tension. "
+            "Gravity weakness (hierarchy problem) emerges from enormous Firmament tension. "
             "GP explains why G ≈ 10⁻¹¹ instead of order 1 in natural units."
         )
 
@@ -736,8 +736,8 @@ class TestGravityWeaknessDerived:
 
         errors = []
 
-        # Sub-test 5a: Direct calculation from membrane tension
-        print("\n[5a] Gravitational Constant from Membrane Tension")
+        # Sub-test 5a: Direct calculation from Firmament tension
+        print("\n[5a] Gravitational Constant from Firmament Tension")
         print("  GP Formula: G = c⁴ / (8πσℓ_eff²)")
 
         c = Constants.c
@@ -745,7 +745,7 @@ class TestGravityWeaknessDerived:
         l_eff_sq = Constants.l_eff_sq
 
         print(f"\n  Speed of light:       c = {c:.3e} m/s")
-        print(f"  Membrane tension:     σ = {sigma:.3e} kg/(m·s²)")
+        print(f"  Firmament tension:     σ = {sigma:.3e} kg/(m·s²)")
         print(f"  Effective length²:    ℓ_eff² = {l_eff_sq:.3e} m²")
 
         G_calc = c**4 / (8 * np.pi * sigma * l_eff_sq)
@@ -791,9 +791,9 @@ class TestGravityWeaknessDerived:
         ratio_natural = (Constants.hbar * c) / (Constants.G * m_W**2)
         print(f"  ℏc / (G × M_W²):      {ratio_natural:.3e}")
 
-        # GP explanation: membrane tension
+        # GP explanation: Firmament tension
         print(f"\n  Genesis Physics Explanation:")
-        print(f"    G ∝ 1/σ (inverse of membrane tension)")
+        print(f"    G ∝ 1/σ (inverse of Firmament tension)")
         print(f"    σ = {sigma:.2e} (enormous!)")
         print(f"    Therefore: G is tiny, gravity is weak")
         print(f"    Hierarchy emerges from geometry, not accident")
@@ -815,7 +815,7 @@ class TestGravityWeaknessDerived:
         print("    - Status: No experimental evidence")
         print("  ")
         print("  Approach 3: Genesis Physics")
-        print("    - Membrane tension in 6D zone manifold")
+        print("    - Firmament tension in 6D zone manifold")
         print("    - G derived from fundamental geometry")
         print("    - Predictions: No new particles; geometry explains all")
         print("    - Status: Explains hierarchy, consistent with all observations")
@@ -1298,7 +1298,7 @@ class TestMembranePredictionsForFutureExperiments:
         gamma_lcdm = 6.0 / 11.0  # ≈ 0.545
 
         # GP prediction: slightly modified due to field dynamics
-        # (exact value depends on detailed membrane dynamics)
+        # (exact value depends on detailed Firmament membrane dynamics)
         # For now, assume 2-4% deviation
         gamma_gp = gamma_lcdm * (1 - 0.03)  # 3% lower
 
@@ -1336,7 +1336,7 @@ class TestMembranePredictionsForFutureExperiments:
 
         print(f"\n  Genesis Physics:")
         print(f"    Neutrino masses determined by zone geometry")
-        print(f"    Prediction: (TBD from detailed membrane dynamics)")
+        print(f"    Prediction: (TBD from detailed Firmament membrane dynamics)")
         print(f"    Expected: Σm_ν ≈ 0.06-0.08 eV (testable range)")
 
         print(f"\n  CMB-S4 will improve sensitivity to ~0.02 eV")

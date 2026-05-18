@@ -18,7 +18,7 @@ Here's what we'll show:
 
 1. First Law (Inertia): In the absence of forces, objects move in straight lines at constant velocity. This isn't a mysterious property of matter—it's the statement that geodesics on flat spacetime are straight lines. Remove curvature, remove forces, and you get straight-line motion automatically.
 
-2. Second Law (F=ma): We will show that the form of F=ma—the linear proportionality and equivalence of inertial and gravitational mass—is a geometric consequence of the test particle's coupling to the zone manifold. However, we must be completely honest: the value of mass itself is not derived in this chapter; it is a parameter of the test particle action. We will not derive what an electron's mass is, or why it has the value it does. That derivation comes in Chapter 7 (Origin of Mass) from membrane resonance. What is derived here is that, given any test particle with coupling constant m to the metric, the relationship between external force and acceleration must be exactly F=ma, with the same m appearing in both the inertial and gravitational senses.
+2. Second Law (F=ma): We will show that the form of F=ma—the linear proportionality and equivalence of inertial and gravitational mass—is a geometric consequence of the test particle's coupling to the zone manifold. However, we must be completely honest: the value of mass itself is not derived in this chapter; it is a parameter of the test particle action. We will not derive what an electron's mass is, or why it has the value it does. That derivation comes in Chapter 7 (Origin of Mass) from Firmament resonance. What is derived here is that, given any test particle with coupling constant m to the metric, the relationship between external force and acceleration must be exactly F=ma, with the same m appearing in both the inertial and gravitational senses.
 
 3. Third Law (Action-Reaction): Every action has an equal and opposite reaction. This is not an empirical observation or an independent axiom—it's the consequence of the covariant conservation of stress-energy (derived in Vol 1 Ch 7 from the zone action's diffeomorphism invariance).
 
@@ -400,7 +400,7 @@ What is derived: Given that assumption, the form of the equation of motion (Eq. 
 - The relationship between force and acceleration is necessarily linear in m: F proportional to m times a, not F proportional to m to the 2 times a or F proportional to m to the 1/2 times a or any other power.
 - The same mass m appears in both the inertial sense (how hard it is to accelerate the particle) and the gravitational sense (how strongly it couples to the gravitational potential). This equivalence is not an accident; it's a geometric theorem.
 
-Where the real derivation comes: The value of mass—why an electron has mass m sub e = 9.1 times 10 to the -31 kg and a proton has m sub p = 1.67 times 10 to the -27 kg—is not explained in this chapter. That explanation comes in Chapter 7 (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
+Where the real derivation comes: The value of mass—why an electron has mass m sub e = 9.1 times 10 to the -31 kg and a proton has m sub p = 1.67 times 10 to the -27 kg—is not explained in this chapter. That explanation comes in Chapter 7 (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the Firmament membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
 
 What about uniqueness? The form of the test particle action (Eq. 3.1.7), the expression, is not plucked from thin air. By the Lovelock-type uniqueness arguments (Vol 1 Ch 8, Five Governing Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like m and q). So while we are postulating that the particle action has this form, we are justified in doing so by:
 
@@ -785,7 +785,7 @@ What We POSTULATED (and Why).
 
    This is a postulate. However, it is justified by Lovelock-type uniqueness arguments: this is the unique action that respects diffeomorphism invariance, reparametrization invariance, and locality (Vol 1 Ch 8, Five Governing Principles). Any other form would violate these fundamental symmetries of the zone framework.
 
-2. The Value of Mass (m itself): The coupling constant m is an input at this stage. We do not derive why an electron has the mass it does, or why different particles have different masses. This derivation comes in Chapter 7 (Origin of Mass), where we show that mass arises from standing wave resonances on the Firmament and that the specific masses of elementary particles follow from the membrane boundary conditions.
+2. The Value of Mass (m itself): The coupling constant m is an input at this stage. We do not derive why an electron has the mass it does, or why different particles have different masses. This derivation comes in Chapter 7 (Origin of Mass), where we show that mass arises from standing wave resonances on the Firmament and that the specific masses of elementary particles follow from the Firmament membrane boundary conditions.
 
 3. The Zone Manifold Structure: We assumed that reality is a 6D pseudo-Riemannian manifold with the structure described in Vol 1 Ch 3. This is a postulate.
 
@@ -819,7 +819,7 @@ Our response: The Skeptic is partially right, and we are being honest about it. 
 - What we postulate: That particles have some coupling constant to the metric (call it m). The uniqueness of the action ensures that the coupling must be through the mass term.
 - What we do not claim: That we have derived the value of mass from pure geometry. Different particles have different masses, and explaining those specific values requires the dynamical structure of the Firmament (Chapter 7).
 
-The deeper insight: The zone framework explains why F=ma must be linear and why inertial and gravitational mass must be equal. It does not explain, at this stage, why an electron is 1/1836 of the mass of a proton. That's a legitimate question, and it's answered in Chapter 7 using the membrane resonance picture. By deferring that question honestly, we avoid circular reasoning and respect the logical structure of the physics.
+The deeper insight: The zone framework explains why F=ma must be linear and why inertial and gravitational mass must be equal. It does not explain, at this stage, why an electron is 1/1836 of the mass of a proton. That's a legitimate question, and it's answered in Chapter 7 using the Firmament resonance picture. By deferring that question honestly, we avoid circular reasoning and respect the logical structure of the physics.
 
 Falsification Criteria and Tests.
 
@@ -831,7 +831,7 @@ The zone framework makes specific predictions that can be tested:
 
 2. In the strong-field regime (near black holes, cosmological scales), the predictions should differ from Newton's laws in specific ways predicted by Vol 2 Ch 2 (Einstein's equations on the Firmament). These have been tested extensively (gravitational lensing, perihelion precession, gravitational waves).
 
-3. The gravitational constant G sub 4 should equal c to the 4 / (8 pi sigma L sub eff to the 2) where sigma is the membrane tension and L sub eff is the effective thickness of the Firmament. This is not independently testable with current technology, but it constrains the zone architecture.
+3. The gravitational constant G sub 4 should equal c to the 4 / (8 pi sigma L sub eff to the 2) where sigma is the Firmament tension and L sub eff is the effective thickness of the Firmament. This is not independently testable with current technology, but it constrains the zone architecture.
 
 4. In the regime where quantum effects matter (Vol 4), the classical predictions should fail in ways predicted by the zone quantum theory. This is also well-tested (e.g., the Planck scale, black hole thermodynamics).
 
@@ -1211,7 +1211,7 @@ The student now understands Newton's laws not as mysterious axioms to memorize, 
 References and Further Reading.
 
 - Vol 1 Ch 3: Zone manifold geometry and metric structure.
-- Vol 1 Ch 5: The Firmament as a brane.
+- Vol 1 Ch 5: The Firmament as a Firmament.
 - Vol 1 Ch 7: Noether's theorem and stress-energy conservation.
 - Vol 1 Ch 8: The action principle and Five Governing Principles.
 - Vol 2 Ch 2: Gravity from zone curvature; Newton's force law and the equivalence principle.

@@ -1,5 +1,5 @@
 """
-Membrane Resonance Generator (MRG) — Comprehensive Physics Simulation
+Firmament Resonance Generator (MRG) — Comprehensive Physics Simulation
 ======================================================================
 
 Evaluates the MRG design against both standard quantum mechanics and Genesis Physics.
@@ -1262,7 +1262,7 @@ def print_master_summary(results: Dict):
 
 def run_full_simulation():
     """Run all 6 modules and produce master report + 6 plot files."""
-    print("Genesis Physics — Membrane Resonance Generator Simulation")
+    print("Genesis Physics — Firmament Resonance Generator Simulation")
     print("=" * 70)
     print("Running full analysis: 6 modules, 6 plots")
     print(f"Output directory: {OUTPUT_DIR}")

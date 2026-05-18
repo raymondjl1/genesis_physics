@@ -116,7 +116,7 @@ When discussing zone boundaries:
 
 Current usage conflates:
 - "The Firmament" (correct, singular entity)
-- "The membrane" (ambiguous—which zone?)
+- "The Firmament" (ambiguous—which zone?)
 - "The Firmament membrane" (redundant)
 - "The Raqia" (correct but requires English gloss)
 
@@ -138,9 +138,9 @@ Current usage conflates:
 | "The dome" | Misleading biblical translation (KJV) | The Firmament |
 | "The vault" | Outdated, imprecise | The Firmament |
 | "The sky" | Too vague, conflates with atmosphere | The Firmament |
-| "The membrane" alone | Requires clarification which zone | The Firmament / the Firmament membrane |
+| "The Firmament" alone | Requires clarification which zone | The Firmament / the Firmament membrane |
 | "The Raqia" alone | Hebrew term needs English gloss | Raqia (Firmament) |
-| "The brane" | Reserve for string theory comparison ONLY | The Firmament |
+| "The Firmament" | Reserve for string theory comparison ONLY | The Firmament |
 | "The expanse" | Translation option, but canonical is Firmament | The Firmament (stretched-out thing) |
 
 #### Rule 2.3: Etymology Always Correct Terminology
@@ -200,7 +200,7 @@ Every section's first mention of a Hebrew term requires:
 3. English gloss in parentheses: (Firmament; literally "stretched-out thing")
 
 Example:
-> "The Firmament (Hebrew רָקִיעַ, *raqia'*—literally 'stretched-out thing') serves as the membrane separating the Waters Above from the Waters Below."
+> "The Firmament (Hebrew רָקִיעַ, *raqia'*—literally 'stretched-out thing') serves as the Firmament separating the Waters Above from the Waters Below."
 
 **Subsequent mentions** can use English term only, or "raqia'" in italics if theological emphasis needed.
 
@@ -371,7 +371,7 @@ Energy: ΔE = (ρ_c - ρ_below) × V × c² × η_transition
 | **Emergency crossing** | Black holes may create temporary breaches | Hawking radiation as escape route |
 | **Conservation law** | Momentum + Angular momentum conserved | Waters Above pressure gradient |
 
-**Membrane Tension Rule:**
+**Firmament Tension Rule:**
 ```
 Firmament stress: σ = 6.0×10⁹⁸ kg/(m·s²) (canonical 3-brane tension; equivalently Pa = J/m³; see Quality_Control/Reference/Symbol_and_Constants.md)
 Breakthrough occurs at: σ > σ_critical (unknown value)
@@ -459,8 +459,8 @@ For completeness, also pair when first mentioned:
 | Dark matter | Dark matter (Waters Below) | First mention | "Unknown particles" |
 | Ordinary matter | Ordinary matter (~5%, condensed) | Cosmology | "Regular stuff" |
 | **Firmament Terms** |
-| Main term | The Firmament | All contexts | "Dome," "brane," "expanse" |
-| Synonym (technical) | The Firmament membrane | Physics contexts | "The membrane" alone |
+| Main term | The Firmament | All contexts | "Dome," "Firmament," "expanse" |
+| Synonym (technical) | The Firmament membrane | Physics contexts | "The Firmament" alone |
 | Hebrew | Raqia (רָקִיעַ) | Theological | "The dome," "vault" |
 | Etymology note | "Stretched-out thing" | Educational | Omitting translation |
 | **Hebrew** |
@@ -500,7 +500,7 @@ For completeness, also pair when first mentioned:
 ### Firmament Terminology
 - [ ] "The Firmament" used as primary term (not "membrane," "dome," or "vault")
 - [ ] When discussing physical properties, "Firmament membrane" acceptable
-- [ ] No use of "brane," "expanse," or "dome" without clear context
+- [ ] No use of "Firmament," "expanse," or "dome" without clear context
 - [ ] Hebrew term includes: רָקִיעַ + raqia' + (Firmament) on first mention
 
 ### Waters Terminology
@@ -622,7 +622,7 @@ For completeness, also pair when first mentioned:
 > The critical density threshold at ρ_c ≈ 2.3×10¹⁷ kg/m³ governs transition between Zone 2.2.1 (Waters Below, fluid) and Zone 2.2.2.1 (condensed matter, solid)."
 
 **WRONG:**
-> "There are four zones: Zone 1, 2, 3, and 4. Zone 3 is Earth Prime. The membrane called the raqia separates dark matter from dark energy."
+> "There are four zones: Zone 1, 2, 3, and 4. Zone 3 is Earth Prime. The Firmament called the raqia separates dark matter from dark energy."
 
 ### Example 3: Waters Terminology in Cosmology Section
 

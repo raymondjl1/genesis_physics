@@ -13,8 +13,8 @@ This test suite validates the following predictions from Genesis Physics:
 6. Superfluidity: Derive BEC critical temperature T_c
 
 All calculations derive from:
-- Genesis Physics framework: ψ = membrane displacement amplitude
-- Schrödinger equation derived from membrane wave equation
+- Genesis Physics framework: ψ = Firmament membrane displacement amplitude
+- Schrödinger equation derived from Firmament membrane wave equation
 - Zero-point energy E₀ = (1/2)ℏω per mode
 - Quantum entanglement = ξ-η perpendicular dimension correlation
 - Key constants:
@@ -65,7 +65,7 @@ BOHR_RADIUS = 4 * pi * EPSILON_0 * HBAR**2 / (M_E * E**2)  # a₀ ≈ 0.529e-10 
 @dataclass
 class CasimirEffectTest:
     """
-    Test: Casimir force from zero-point energy of membrane modes
+    Test: Casimir force from zero-point energy of Firmament modes
 
     In Genesis Physics, the Casimir effect arises from the quantum
     vacuum energy (zero-point oscillations) of the EM field confined

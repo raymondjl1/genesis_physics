@@ -37,7 +37,7 @@ from typing import Tuple
 # GENESIS PHYSICS CONSTANTS
 # ============================================================================
 
-SIGMA = 6.0e98  # Membrane tension [kg/(m·s²)]
+SIGMA = 6.0e98  # Firmament tension [kg/(m·s²)]
 MU = 6.7e81     # Volume mass density [kg/m³]
 C_SQUARED = 9.0e16  # Speed of light squared [m²/s²]
 C = 3.0e8  # c = 3.00×10⁸ m/s (exact measured value)

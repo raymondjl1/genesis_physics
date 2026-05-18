@@ -84,14 +84,14 @@ y_t = 0.993
 
 class MembraneToSpeedOfLight:
     """
-    DERIVATION: c from membrane tension and volume mass density
+    DERIVATION: c from Firmament tension and volume mass density
 
     The Firmament is a 4D membrane (3-brane) in 6D spacetime. Its properties:
     - σ (3-brane tension): 6.0e98 kg/(m·s²) = Pa  [M L⁻¹ T⁻²]
     - μ (volume mass density): 6.7e81 kg/m³  [M L⁻³]
 
-    Physics principle: membrane waves propagate at v = sqrt(σ/μ)
-    Genesis Physics claim: the cosmic speed limit c is the membrane wave speed
+    Physics principle: Firmament membrane waves propagate at v = sqrt(σ/μ)
+    Genesis Physics claim: the cosmic speed limit c is the Firmament membrane wave speed
 
     c_derived = sqrt(σ/μ)
 
@@ -1274,7 +1274,7 @@ class LEffSelfConsistency:
     volume of the extra dimensions.
 
     The derivation:
-    1. σ is derived from Axiom 3 (membrane mechanics)
+    1. σ is derived from Axiom 3 (Firmament membrane mechanics)
     2. c is measured (or derived from σ/μ)
     3. G₄ is measured (Cavendish experiment)
     4. L_eff is then PREDICTED (not a free parameter)

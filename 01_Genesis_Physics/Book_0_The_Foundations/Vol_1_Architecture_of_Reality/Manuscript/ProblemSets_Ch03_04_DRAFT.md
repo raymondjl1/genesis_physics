@@ -218,9 +218,9 @@ This generates translations along the normal direction while preserving the metr
 
 **PS-4.11** [C] The speed of light is derived from membrane properties: $c^2 = \sigma/\mu$, where $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and $\mu = 6.7 \times 10^{81}$ kg/m³. Calculate $c$ again and verify the dimensions.
 
-**PS-4.12** [W] The membrane is described as a 3-brane embedded in 6D space. What does "3-brane" mean, and how is it different from a 2-brane or 4-brane?
+**PS-4.12** [W] The Firmament is described as a 3-brane embedded in 6D space. What does "3-brane" mean, and how is it different from a 2-Firmament or 4-Firmament?
 
-**PS-4.13** [C] The Nambu-Goto action for a $p$-brane is $S = -T \int d^{p+1}\sigma \sqrt{-\det(h_{\alpha\beta})}$, where $T$ is the brane tension and $h_{\alpha\beta}$ is the induced metric. For the Firmament (a 3-brane), write the action.
+**PS-4.13** [C] The Nambu-Goto action for a $p$-Firmament is $S = -T \int d^{p+1}\sigma \sqrt{-\det(h_{\alpha\beta})}$, where $T$ is the Firmament tension and $h_{\alpha\beta}$ is the induced metric. For the Firmament (a 3-brane), write the action.
 
 **PS-4.14** [W] The Firmament is a 3-dimensional membrane in 4D spacetime, embedded in 6D. How many extra dimensions are "wrapped up" or "compactified" around the Firmament?
 
@@ -300,7 +300,7 @@ $$ds^2 = -c^2 dt^2 + a(t)^2(dr^2 + r^2 d\Omega^2) + d\xi^2 + d\eta^2$$
 
 **PS-4.50** [X] Propose a scenario where the 6D embedding space plays a dynamical role in the evolution of the universe. Can the shape or size of the extra dimensions change over cosmic time?
 
-**PS-4.51** [C] A brane-localized field is one that exists primarily or exclusively on the brane (Firmament) and has exponentially suppressed values far from it. Write a schematic profile for such a field as a function of the normal coordinate.
+**PS-4.51** [C] A Firmament-localized field is one that exists primarily or exclusively on the Firmament (Firmament) and has exponentially suppressed values far from it. Write a schematic profile for such a field as a function of the normal coordinate.
 
 **PS-4.52** [W] In braneworld scenarios, gravity can "leak" into the bulk (extra dimensions). Would we observe this as a modification of Newton's law on the Firmament?
 

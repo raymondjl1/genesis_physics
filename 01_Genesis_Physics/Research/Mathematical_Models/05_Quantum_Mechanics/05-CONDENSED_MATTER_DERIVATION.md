@@ -2,26 +2,26 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let the earth bring forth grass, the herb yielding seed" — Condensed matter structure supports life's complexity | Genesis 1:11 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics; 6D Membrane Hamiltonian | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics; 6D Membrane Hamiltonian | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **Condensed matter derivations: band structure, Bloch's theorem, BCS superconductivity, BEC superfluidity, quantized vortices from membrane lattice dynamics** | **05-CONDENSED_MATTER_DERIVATION.md** |
 > | Modern Equivalent | Condensed Matter Physics — CONVERGES: band gaps, critical temperatures, Meissner effect, BCS gap formula, vortex quantization all recovered from membrane many-body Hamiltonian |
 >
 > *Chain Status: COMPLETE*
 
-# Genesis Physics: Condensed Matter Phenomena from Membrane Framework
+# Genesis Physics: Condensed Matter Phenomena from Firmament Framework
 ## Issue #66: [Phase 1.2b] Superconductivity, BEC, and Band Structure Derivation
 
 **Date**: April 5, 2026
 **Status**: All 4 tests PASSING (100%)
-**Framework**: Genesis Physics 6D membrane model with complete derivation chain
+**Framework**: Genesis Physics 6D Firmament model with complete derivation chain
 **Phase**: 0 (Foundations) → Phase 1 (Condensed Matter Applications)
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-This document derives all condensed matter phenomena from first principles using the Genesis Physics membrane framework. The derivation chain is:
+This document derives all condensed matter phenomena from first principles using the Genesis Physics Firmament framework. The derivation chain is:
 
 ```
 6D Action (ACTION_6D_COMPLETE)
@@ -44,10 +44,10 @@ Superfluidity & Quantized Vortices
 ```
 
 **Key Physics**:
-- ψ = membrane displacement amplitude (derived, not postulated)
+- ψ = Firmament membrane displacement amplitude (derived, not postulated)
 - ℏ = σ η_B³/2c × (η_B/ξ_A)² (topological vortex quantum)
-- Schrödinger equation from membrane wave equation (non-relativistic limit)
-- Phonons = higher-frequency membrane modes (coupling agent)
+- Schrödinger equation from Firmament membrane wave equation (non-relativistic limit)
+- Phonons = higher-frequency Firmament membrane modes (coupling agent)
 - Electrons = topological defects (fermionic vortex cores)
 - Superconductivity = macroscopic Cooper-pair condensate with gauge symmetry breaking
 - Superfluidity = Bose condensate enabling quantized circulation
@@ -78,20 +78,20 @@ Superfluidity & Quantized Vortices
 
 ## PART I: DERIVATION CHAIN FOUNDATIONS
 
-### 1.1 The Membrane Framework (from QM_FROM_MEMBRANE_DYNAMICS)
+### 1.1 The Firmament Framework (from QM_FROM_MEMBRANE_DYNAMICS)
 
-The Firmament Σ is a 4D elastic brane embedded in 6D Genesis Physics spacetime M⁶ with coordinates:
+The Firmament Σ is a 4D elastic Firmament embedded in 6D Genesis Physics spacetime M⁶ with coordinates:
 $$x^A = (x^μ, ξ, η), \quad μ = 0,1,2,3$$
 
-**Membrane displacement field**:
-$$ψ(x,t) \in ℝ \quad \text{(transverse oscillations perpendicular to brane)}$$
+**Firmament membrane displacement field**:
+$$ψ(x,t) \in ℝ \quad \text{(transverse oscillations perpendicular to Firmament)}$$
 
-**Membrane wave equation**:
+**Firmament membrane wave equation**:
 $$\mu \frac{∂²ψ}{∂t²} = σ ∇²ψ - V_ext(x)ψ + \mathcal{F}(x,t)$$
 
 where:
 - μ = 6.7×10⁸¹ kg/m³ (surface mass density)
-- σ = 6.0×10⁹⁸ kg/(m·s²) (brane tension)
+- σ = 6.0×10⁹⁸ kg/(m·s²) (Firmament tension)
 - Wave speed: c = √(σ/μ) = 3×10⁸ m/s (exact!)
 - V_ext = external potential (lattice, defects)
 - ℱ = stochastic force from Waters fluctuations
@@ -110,7 +110,7 @@ This emerges from the topological action of unit-winding vortex defects confined
 **For fermionic systems** (e.g., electrons in metals): Use Slater determinant
 $$Ψ_{\text{Fermi}}(x_1,...,x_N) = \frac{1}{\sqrt{N!}} \begin{vmatrix} ψ_1(x_1) & ψ_2(x_1) & \cdots & ψ_N(x_1) \\ ψ_1(x_2) & ψ_2(x_2) & \cdots & ψ_N(x_2) \\ \vdots & \vdots & \ddots & \vdots \\ ψ_1(x_N) & ψ_2(x_N) & \cdots & ψ_N(x_N) \end{vmatrix}$$
 
-where ψ_i are single-particle wavefunctions (membrane modes), and N ≈ 10²³ conduction electrons.
+where ψ_i are single-particle wavefunctions (Firmament modes), and N ≈ 10²³ conduction electrons.
 
 **For bosonic systems** (e.g., ⁴He atoms in superfluid): Use condensate coherent state
 $$|Ψ_{\text{Bose}}\rangle = \prod_{i=1}^N |α_0\rangle \quad \text{(all bosons in ground state)}$$
@@ -135,7 +135,7 @@ $$V_{\text{ep}}(x) = g_e \sum_ν u_ν(x) \quad \text{(electron scatters off phon
 
 where u_ν is the displacement of lattice atom at site ν, and g_e is the deformation potential.
 
-Phonons are higher-frequency membrane excitations:
+Phonons are higher-frequency Firmament excitations:
 $$ω_q = v_s |q| + (ω_0^2 + v_s² q²)^{1/2} \quad \text{(acoustic + optical branches)}$$
 
 ---
@@ -144,7 +144,7 @@ $$ω_q = v_s |q| + (ω_0^2 + v_s² q²)^{1/2} \quad \text{(acoustic + optical br
 
 ### 2.1 Periodic Potential on the Firmament Lattice
 
-Consider a crystalline solid with periodic lattice. The Firmament brane experiences periodic deformations from the periodic arrangement of atoms:
+Consider a crystalline solid with periodic lattice. The Firmament experiences periodic deformations from the periodic arrangement of atoms:
 
 $$V_{\text{lattice}}(x) = V_0 \sum_{n \in \mathbb{Z}^3} \delta(x - nR) \quad \text{(point potentials at each lattice site)}$$
 
@@ -253,14 +253,14 @@ Example: Si (band gap 1.1 eV), Ge (0.66 eV)
 
 ---
 
-## PART III: SUPERCONDUCTIVITY FROM MEMBRANE COUPLING
+## PART III: SUPERCONDUCTIVITY FROM Firmament COUPLING
 
 ### 3.1 Electron-Phonon Interaction and Cooper Pairing
 
 In a metal, conduction electrons interact with the lattice through phonon exchange. The microscopic mechanism:
 
 1. Electron 1 moves through lattice, creating a localized lattice deformation (phonon)
-2. This deformation propagates—encoded in membrane oscillation at frequency ω_q
+2. This deformation propagates—encoded in Firmament oscillation at frequency ω_q
 3. Electron 2 is attracted to the deformation and absorbs the phonon
 4. Net result: **effective attractive interaction** between electrons
 
@@ -344,11 +344,11 @@ This ratio is **model-independent** at weak coupling and has been verified in ma
 
 ### 3.5 Physical Origin of Pairing in Genesis Framework
 
-In the Genesis Physics membrane model:
+In the Genesis Physics Firmament model:
 
-1. **Electrons**: Fermionic topological defects (vortex cores) in Firmament brane
+1. **Electrons**: Fermionic topological defects (vortex cores) in Firmament
 2. **Phonons**: Higher-frequency oscillation modes of the Firmament (acoustic, optical branches)
-3. **Pairing mechanism**: When two electron modes propagate through the brane lattice, they can exchange virtual phonons
+3. **Pairing mechanism**: When two electron modes propagate through the Firmament lattice, they can exchange virtual phonons
 4. **Effective attraction**: The net energy gain from phonon mediation outweighs the Coulomb repulsion in an energy shell ℏω_D near the Fermi surface
 5. **Cooper pair**: Bound state = two electron topological defects correlated in phase and momentum
 6. **Condensate**: Below T_c, a macroscopic number of Cooper pairs occupy the ground state, with **spontaneous breaking of U(1) gauge symmetry** (fixed relative phase θ)
@@ -640,11 +640,11 @@ All formulas maintain dimensional correctness throughout.
 
 ## PART VIII: GENESIS PHYSICS INTERPRETATION
 
-### 8.1 Membrane Framework as Unified Condensed Matter Model
+### 8.1 Firmament Framework as Unified Condensed Matter Model
 
 In Genesis Physics:
 
-1. **The Firmament** = 4D elastic brane in 6D spacetime
+1. **The Firmament** = 4D elastic Firmament in 6D spacetime
    - Vibrates like a drum membrane
    - Supports both particle modes (topological defects) and phonon modes (acoustic oscillations)
    - Described by single field ψ(x,t) = transverse displacement
@@ -654,7 +654,7 @@ In Genesis Physics:
    - Mass m arises from core curvature energy and confinement to η_B scale
    - Spin arises from Jackiw-Rossi fermion zero modes
 
-3. **Phonons** = higher-frequency oscillation modes of the brane
+3. **Phonons** = higher-frequency oscillation modes of the Firmament
    - Acoustic branches from membrane elasticity: ω_q ∝ |q|
    - Optical branches from internal atomic structure
    - Coupling to electrons through deformation potential g_e
@@ -670,7 +670,7 @@ In Genesis Physics:
    - Gauge field (photon) becomes massive (Meissner effect)
    - Gap Δ separates ground state from quasiparticle excitations
 
-6. **Bose Condensate** = all bosons in ground-state membrane mode
+6. **Bose Condensate** = all bosons in ground-state Firmament mode
    - Order parameter ⟨ψ⟩ = √n_0 e^{iθ}
    - Gauge symmetry breaking similar to superconductor
    - Superfluid velocity v_s = ℏ∇θ/m enables frictionless flow
@@ -681,7 +681,7 @@ In Genesis Physics:
    - Band gaps from Bragg scattering at k = π/R
    - Metal/insulator distinction from band filling and gap size
 
-### 8.2 Why Membrane Framework is Superior
+### 8.2 Why Firmament Framework is Superior
 
 Traditional condensed matter theory imports:
 - Quantum mechanics (postulated)
@@ -691,7 +691,7 @@ Traditional condensed matter theory imports:
 - Gauge symmetry (assumed)
 
 Genesis Physics **derives** all of these:
-- Quantum mechanics from membrane wave equation
+- Quantum mechanics from Firmament membrane wave equation
 - ℏ from topological vortex quantization (Section 2.4)
 - Coulomb potential from 6D KK reduction (Part of ACTION_6D_COMPLETE)
 - Fermi-Dirac statistics from topological defect quantization
@@ -765,7 +765,7 @@ The slightly higher ratio reflects Niobium's strong-coupling nature (N(0)V ≈ 0
 **6D Action** (ACTION_6D_COMPLETE)
   ↓ Kaluza-Klein reduction
 **4D Effective Theory** with Einstein gravity + gauge fields
-  ↓ Membrane wave dynamics
+  ↓ Firmament membrane wave dynamics
 **Schrödinger Equation** with derived ℏ (QM_FROM_MEMBRANE_DYNAMICS)
   ↓ Many-particle quantum states
 **Slater Determinants & Coherent States**
@@ -782,7 +782,7 @@ Each step:
 - Emerges rigorously from the previous level
 - Maintains dimensional consistency throughout
 - Connects to experimental measurements with O(10-50%) accuracy for weak-coupling, better for intermediate coupling
-- Uses only fundamental parameters: σ (brane tension), η_B (nuclear scale), ξ_A (Hubble scale), c (speed of light)
+- Uses only fundamental parameters: σ (Firmament tension), η_B (nuclear scale), ξ_A (Hubble scale), c (speed of light)
 
 No postulates. No imports. Complete derivation from 6D spacetime geometry.
 
@@ -793,7 +793,7 @@ No postulates. No imports. Complete derivation from 6D spacetime geometry.
 ### Genesis Physics Foundation
 1. ACTION_6D_COMPLETE.md — Master 6D action functional with zone structure
 2. KK_DIMENSIONAL_REDUCTION.md — Kaluza-Klein reduction to 4D physics
-3. 05-QM_FROM_MEMBRANE_DYNAMICS.md — Quantum mechanics from membrane dynamics (ℏ derivation)
+3. 05-QM_FROM_MEMBRANE_DYNAMICS.md — Quantum mechanics from Firmament membrane dynamics (ℏ derivation)
 4. TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md — Particles as topological defects
 
 ### Condensed Matter Theory (Classical)
@@ -853,7 +853,7 @@ Semiconductor: Δ_gap ~ 0.1-3 eV (T-activated)
 **Phase 0 Documents** (Foundation):
 1. ACTION_6D_COMPLETE — 6D master action (April 2026)
 2. KK_DIMENSIONAL_REDUCTION — Classical 4D physics emerges (April 2026)
-3. QM_FROM_MEMBRANE_DYNAMICS — Quantum mechanics derived from membrane waves (April 2026)
+3. QM_FROM_MEMBRANE_DYNAMICS — Quantum mechanics derived from Firmament waves (April 2026)
 4. TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION — Particles as vortex defects (Earlier Phase 0)
 
 **Phase 1 Documents** (Particle & Condensed Matter):

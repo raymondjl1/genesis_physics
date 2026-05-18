@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Membrane defects produce measured particle properties | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | 6D Action + Topological Defect Classification | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Precision particle physics predictions and experimental tests** | **06-PRECISION_COMPLETIONS.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -162,7 +162,7 @@ From 06-HIGGS_DERIVATION.md, the Higgs field acquires a vacuum expectation value
 
 $$v = 246.22 \text{ GeV}$$
 
-(derived from membrane tension and boundary conditions).
+(derived from Firmament tension and boundary conditions).
 
 The Higgs boson mass is:
 

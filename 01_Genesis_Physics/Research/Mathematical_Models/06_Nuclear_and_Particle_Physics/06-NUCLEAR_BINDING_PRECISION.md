@@ -1,10 +1,10 @@
 ﻿> **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
-> | Scripture | Membrane surface tension (σ ≈ 6×10⁹⁸ kg/(m·s²)) binds nucleons | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Scripture | Firmament membrane surface tension (σ ≈ 6×10⁹⁸ kg/(m·s²)) binds nucleons | Genesis 1:6 |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | Topological Defect Classification | 6D_Action.md / KK_Reduction.md |
-> | **This Document** | **Nuclear binding energy and stability from membrane mechanics** | **NUCLEAR_BINDING_PRECISION.md** |
+> | **This Document** | **Nuclear binding energy and stability from Firmament membrane mechanics** | **NUCLEAR_BINDING_PRECISION.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
 >
 > *Chain Status: COMPLETE*

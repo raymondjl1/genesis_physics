@@ -185,6 +185,30 @@ Hubble constant (present value):
 
 [Equation — see print edition.]
 
+B.3.4 Scalar Field Kinetic Term Sign Convention.
+
+This is the authoritative statement for the entire series.
+
+With metric signature (-,+,+,+,+,+), the kinetic term for any real scalar field Psi in the action is:
+
+[Equation — see print edition.]
+
+The negative sign is mandatory. With this signature, g to the 00 = -1/c to the 2 (timelike), so the time-derivative contribution to the kinetic term is:
+
+[Equation — see print edition.]
+
+which gives positive kinetic energy as required. A positive sign in front of g to the AB partial sub A Psi partial sub B Psi would give negative kinetic energy for time derivatives — this is an error. The Waters action (Ch 6, Eq. 1.6.4; Ch 7, Eq. 1.7.4) uses this convention throughout. Any equation in the series showing +1 over 2g to the AB partial sub A Psi partial sub B Psi without an explicit sign-flip note is erroneous.
+
+B.3.5 Canonical Scale Parameter Values.
+
+The Waters Above extent xi sub A and Waters Below extent eta sub B appear throughout the series. The canonical reference values used in all numerical estimates are:
+
+Symbol: xi sub A. Canonical Value: 3.0 times 10 to the 26. Units: m. Basis: Hubble radius; characteristic scale of dark energy field Psi sub A.
+Symbol: eta sub B. Canonical Value: 1.3 times 10 to the -15. Units: m. Basis: Nuclear scale; characteristic scale of dark matter field Psi sub B.
+Symbol: xi sub A / eta sub B. Canonical Value: approximately 2.3 times 10 to the 41. Units: dimensionless. Basis: Scale hierarchy ratio; determines the expression.
+
+Note: Some chapters use xi sub A approximately equal to 1.4 times 10 to the 26 m (comoving Hubble radius) or xi sub A approximately equal to 4.4 times 10 to the 26 m (observable universe diameter). The canonical value 3.0 times 10 to the 26 m is the geometric mean estimate used for order-of-magnitude derivations. When a specific derivation requires a more precise value, it is stated locally.
+
 B.4 Zone Notation and Hierarchy.
 
 B.4.1 Complete Zone Taxonomy.
@@ -200,7 +224,7 @@ Symbol: Z sub 2.2.1. Full Name: Waters Below. Description: Dark matter field Psi
 Symbol: Z sub 2.2.2. Full Name: Condensed Matter. Description: Baryonic matter: atoms, molecules, stars, galaxies, life; visible universe; ~5% energy density. Parent Zone: Z sub 2.2. Temporal?: Temporal. Observed?: Yes (direct). Key Field: Atomic/nuclear fields.
 Symbol: Z sub 2.2.3. Full Name: Waters Above. Description: Dark energy field Psi sub A; repulsive; cosmic acceleration; ~68% energy density. Parent Zone: Z sub 2.2. Temporal?: Temporal. Observed?: Indirect. Key Field: Psi sub A( r,t).
 
-Terminological note on "Firmament." The Hebrew word Raqia (Firmament) refers to the boundary surface that separates the Waters Above from the Waters Below. In zone notation, the Firmament Domain Z sub 2.2 is the larger region encompassing three subzones: Waters Below (Z sub 2.2.1), Condensed Matter (Z sub 2.2.2), and Waters Above (Z sub 2.2.3). When precision is required, "Firmament proper" or "Firmament boundary" denotes the physical membrane surface partial Z sub 2.2, while "Firmament Domain" denotes the full region Z sub 2.2. The Glossary entry "Firmament (Zone 2.2.2)" refers to Condensed Matter — the baryonic subzone where we reside — which sits on the membrane boundary. Context determines the intended sense; when ambiguity is possible, use the zone label explicitly.
+Terminological note on "Firmament." The Hebrew word Raqia (Firmament) refers to the boundary surface that separates the Waters Above from the Waters Below. In zone notation, the Firmament Domain Z sub 2.2 is the larger region encompassing three subzones: Waters Below (Z sub 2.2.1), Condensed Matter (Z sub 2.2.2), and Waters Above (Z sub 2.2.3). When precision is required, "Firmament proper" or "Firmament boundary" denotes the physical Firmament surface partial Z sub 2.2, while "Firmament Domain" denotes the full region Z sub 2.2. The Glossary entry "Firmament (Zone 2.2.2)" refers to Condensed Matter — the baryonic subzone where we reside — which sits on the Firmament boundary. Context determines the intended sense; when ambiguity is possible, use the zone label explicitly.
 
 B.4.2 Zone Boundary Notation.
 
@@ -211,14 +235,14 @@ Notation: Int(Z). Meaning: Interior of zone. Example: Int(Z sub 2.2). Interpreta
 
 B.4.3 Phase Notation.
 
-The universe evolves through four thermodynamic phases, labeled with Roman numerals (always) or Arabic numerals (when explicitly contrasted with equation numbers):
+The universe evolves through four thermodynamic phases, labeled always with Arabic numerals throughout the Genesis Physics series:
 
-Phase: Creation. Roman Numeral: **I**. Arabic Numeral: 1. Era: Genesis Days 1–6. κ Regime: kappa sub create (supercritical). Entropy: Decreasing. Examples: Ordering, pattern formation.
-Phase: Edenic. Roman Numeral: **II**. Arabic Numeral: 2. Era: Post-Sabbath; hypothetical sustained state. κ Regime: kappa sub full (equilibrium). Entropy: Zero production. Examples: Perfect repair; no aging.
-Phase: Fall. Roman Numeral: **III**. Arabic Numeral: 3. Era: Post-Fall to present. κ Regime: kappa sub partial (subcritical). Entropy: Increasing. Examples: Decay, thermodynamic arrow.
-Phase: Redemption. Roman Numeral: **IV**. Arabic Numeral: 4. Era: Future restoration. κ Regime: kappa sub redeem (recovery). Entropy: Decreasing. Examples: Entropy reversal; renewal.
+Phase: Creation. Arabic Numeral: **1**. Era: Genesis Days 1–6. κ Regime: kappa sub create (supercritical). Entropy: Decreasing. Examples: Ordering, pattern formation.
+Phase: Edenic. Arabic Numeral: **2**. Era: Post-Sabbath; hypothetical sustained state. κ Regime: kappa sub full (equilibrium). Entropy: Zero production. Examples: Perfect repair; no aging.
+Phase: Fall. Arabic Numeral: **3**. Era: Post-Fall to present. κ Regime: kappa sub partial (subcritical). Entropy: Increasing. Examples: Decay, thermodynamic arrow.
+Phase: Redemption. Arabic Numeral: **4**. Era: Future restoration. κ Regime: kappa sub redeem (recovery). Entropy: Decreasing. Examples: Entropy reversal; renewal.
 
-Notation rule: When phase labels appear in equations alongside equation numbers, use Roman numerals to avoid confusion. For example, "Phase II of creation corresponds to equation (1.2.5)" is clear; "Phase 2 of creation corresponds to equation (1.2.5)" risks ambiguity.
+Notation rule: Phase labels are always Arabic numerals (1, 2, 3, 4). Roman numerals (I, II, III, IV) are never used for phases in this series. This rule is established in Chapter 1, §1.9 and governs all downstream volumes and books. Arabic numerals are unambiguous even when they appear alongside equation numbers: "Phase 2" and "equation (1.2.5)" are structurally distinct and cannot be confused in context.
 
 B.5 Field Variables.
 
@@ -250,10 +274,12 @@ Symbol: R. Full Name: Ricci scalar. Type: Scalar. Rank: 0. Meaning: R = g to the
 
 B.5.4 Scale Factor and Expansion Functions.
 
-Symbol: a(t). Meaning: Cosmic scale factor (4D). Function Form: Positive, dimensionless; a(t sub 0)=1. First Defined: Ch 4.
-Symbol: A( xi , eta ). Meaning: 4D warp factor. Function Form: A( xi , eta ) = a(t) times f( xi , eta ); depends on extra dimensions. First Defined: Ch 4.
-Symbol: B( xi , eta ). Meaning: Extra-dimensional warp factor. Function Form: B( xi , eta ) modifies geometry in xi , eta directions. First Defined: Ch 4.
+Symbol: a(t). Meaning: FRW scale factor (4D cosmological). Function Form: Positive, dimensionless function of cosmological time; a(t sub 0)=1 today. Appears in the 4D FRW metric the expression. **Distinct from the warp factor A( xi , eta )** — see note below.. First Defined: Ch 4.
+Symbol: A( xi , eta ). Meaning: Warp factor (extra-dimensional). Function Form: Dimensionless function of the extra-dimensional coordinates xi (Waters Above) and eta (Waters Below). Appears in the 6D metric as the expression (Vol 1 Ch 4–5, Eq. (1.4.*)). Controls how the 6D bulk geometry couples to 4D physics at each extra-dimensional location. **Distinct from the cosmological scale factor a(t)** — see note below.. First Defined: Ch 4.
+Symbol: B( xi , eta ). Meaning: Extra-dimensional warp factor. Function Form: Dimensionless function of xi , eta; modifies the geometry specifically in the xi , eta directions of the 6D metric.. First Defined: Ch 4.
 Symbol: h(t, x). Meaning: Metric perturbation on Firmament. Function Form: Spatial-temporal small oscillation field; drives gravitational waves. First Defined: Ch 8.
+
+Clarifying note on A( xi , eta ) vs a(t). These two functions appear at different levels of the zone hierarchy and must not be conflated. The warp factor A( xi , eta ) is a property of the static (or slowly-varying) extra-dimensional geometry — it encodes how the 6D bulk warps between zones. The FRW scale factor a(t) is a property of the 4D cosmological evolution of the observable universe — it encodes how spatial distances grow with cosmic time. Both appear in the full 6D framework: A( xi , eta ) enters through the bulk metric ansatz (Vol 1 Ch 4), while a(t) enters through the effective 4D metric induced on the Firmament after integrating out the extra dimensions (Vol 5 Ch 1). An earlier draft of this section incorrectly stated A( xi , eta ) = a(t) times f( xi , eta ); that conflation is wrong and has been corrected here.
 
 B.6 Operators and Functional Objects.
 
@@ -298,7 +324,7 @@ B.7.1 Fundamental Membrane Properties.
 
 These are the deepest level of constants in Genesis Physics: properties of the primordial membrane (Firmament) from which all physics derives.
 
-Symbol: sigma. Name: Membrane tension. Value: 6.0 times 10 to the 98. Units: kg/(m·s²). Dimension: [ML⁻¹T⁻²]. Meaning: 3-brane surface tension; fundamental creation parameter. Interpretation: Energy per unit area of membrane defect. First Defined: Ch 1.
+Symbol: sigma. Name: Firmament tension. Value: 6.0 times 10 to the 98. Units: kg/(m·s²). Dimension: [ML⁻¹T⁻²]. Meaning: 3-brane surface tension; fundamental creation parameter. Interpretation: Energy per unit area of membrane defect. First Defined: Ch 1.
 Symbol: mu. Name: Membrane mass density. Value: 6.7 times 10 to the 81. Units: kg/m³. Dimension: [ML⁻³]. Meaning: Volume mass density of membrane material. Interpretation: "Mass" of Firmament substrate. First Defined: Ch 1.
 
 Note: sigma and mu cannot be independently derived within standard physics. In Genesis Physics, they follow from the structure of the Firmament itself and the open system axiom. Their ratio determines the speed of light.
@@ -307,7 +333,7 @@ B.7.2 Derived Fundamental Constants.
 
 These constants are derived from membrane properties and geometric couplings, following from first principles rather than observation alone.
 
-Symbol: c. Name: Speed of light. Value: 2.998 times 10 to the 8. Units: m/s. Dimension: [LT⁻¹]. Genesis Physics Formula: c = square root of sigma / mu. Meaning: Characteristic velocity of membrane waves; light speed. Standard Value: Standard. First Defined: Ch 1.
+Symbol: c. Name: Speed of light. Value: 2.998 times 10 to the 8. Units: m/s. Dimension: [LT⁻¹]. Genesis Physics Formula: c = square root of sigma / mu. Meaning: Characteristic velocity of Firmament membrane waves; light speed. Standard Value: Standard. First Defined: Ch 1.
 Symbol: G. Name: Gravitational constant. Value: 6.674 times 10 to the -11. Units: m³/(kg·s²). Dimension: [L³M⁻¹T⁻²]. Genesis Physics Formula: G = c to the 4 over 8 pi sigma L sub eff to the 2. Meaning: Strength of geometric spacetime curvature coupling. Standard Value: Standard. First Defined: Ch 5.
 Symbol: h-bar. Name: Reduced Planck constant. Value: 1.055 times 10 to the -34. Units: J·s. Dimension: [ML²T⁻¹]. Genesis Physics Formula: Derived from atemporal domain Z sub 2.1 structure. Meaning: Quantum action unit; nonlocality scale. Standard Value: Standard. First Defined: Ch 10.
 Symbol: alpha to the -1. Name: Fine structure constant (reciprocal). Value: 137.036. Units: Dimensionless. Dimension: [1]. Genesis Physics Formula: alpha to the -1 = 1.44 times ( xi sub A / eta sub B). Meaning: Electromagnetic coupling strength; emergent from scale hierarchy. Standard Value: Standard. First Defined: Ch 1.
@@ -427,12 +453,12 @@ Chapter: Ch 2. Topic: Mathematical Preliminaries. Approx. Eqs: 40. Range: (1.2.1
 Chapter: Ch 3. Topic: The Zone Manifold. Approx. Eqs: 35. Range: (1.3.1)–(1.3.35).
 Chapter: Ch 4. Topic: The 6D Embedding Space. Approx. Eqs: 45. Range: (1.4.1)–(1.4.45).
 Chapter: Ch 5. Topic: The Firmament Manifold. Approx. Eqs: 50. Range: (1.5.1)–(1.5.50).
-Chapter: Ch 6. Topic: Curvature and Dynamics. Approx. Eqs: 45. Range: (1.6.1)–(1.6.45).
-Chapter: Ch 7. Topic: Membrane Mechanics. Approx. Eqs: 40. Range: (1.7.1)–(1.7.40).
-Chapter: Ch 8. Topic: Zone Boundaries and Discontinuities. Approx. Eqs: 35. Range: (1.8.1)–(1.8.35).
-Chapter: Ch 9. Topic: The Waters Duality. Approx. Eqs: 50. Range: (1.9.1)–(1.9.50).
-Chapter: Ch 10. Topic: Particles and Fields. Approx. Eqs: 55. Range: (1.10.1)–(1.10.55).
-Chapter: Ch 11. Topic: Sustaining Coupling and Thermodynamic Phases. Approx. Eqs: 60. Range: (1.11.1)–(1.11.60).
+Chapter: Ch 6. Topic: Waters Field Equations. Approx. Eqs: 45. Range: (1.6.1)–(1.6.45).
+Chapter: Ch 7. Topic: Symmetries and Conservation Laws. Approx. Eqs: 40. Range: (1.7.1)–(1.7.40).
+Chapter: Ch 8. Topic: Five Governing Principles. Approx. Eqs: 35. Range: (1.8.1)–(1.8.35).
+Chapter: Ch 9. Topic: Pattern Operators and Seven Types. Approx. Eqs: 50. Range: (1.9.1)–(1.9.50).
+Chapter: Ch 10. Topic: Quantization from Boundary Conditions. Approx. Eqs: 55. Range: (1.10.1)–(1.10.55).
+Chapter: Ch 11. Topic: Thermodynamics from Zone Separation. Approx. Eqs: 60. Range: (1.11.1)–(1.11.60).
 
 Total equations in Vol 1: ~475
 
@@ -442,7 +468,7 @@ This comprehensive table lists every mathematical symbol, variable, constant, op
 
 B.10.1 Latin Letters.
 
-Symbol: A. Name: Warp factor (4D). Definition/Meaning: Metric coefficient A( xi , eta ); rescales 4D part of 6D metric. Dimension: Dimensionless. First Chapter: 4. Category: Scalar field.
+Symbol: A. Name: Warp factor (extra-dimensional). Definition/Meaning: Metric coefficient A( xi , eta ); appears in 6D metric as the expression; **distinct from cosmological scale factor a(t)** (see §B.5.4). Dimension: Dimensionless. First Chapter: 4. Category: Scalar field.
 Symbol: A sub A. Name: Gauge connection (6D). Definition/Meaning: Generalizes 4D electromagnetic potential to 6D. Dimension: [ML²T⁻¹I⁻¹]. First Chapter: 4. Category: 1-form / Vector field.
 Symbol: A_ mu. Name: Electromagnetic 4-potential. Definition/Meaning: Encodes E and B fields; F sub mu nu = partial _ mu A_ nu - partial _ nu A_ mu. Dimension: [MLT⁻²I⁻¹]. First Chapter: 10. Category: 1-form / Vector field.
 Symbol: a(t). Name: Cosmic scale factor. Definition/Meaning: Expansion history; a(t sub 0) = 1 today. Dimension: Dimensionless. First Chapter: 4. Category: Scalar function.
@@ -524,7 +550,7 @@ Symbol: eta sub mu nu. Name: Minkowski metric (4D). Definition/Meaning: diag(-1,
 Symbol: eta sub AB. Name: Minkowski metric (6D). Definition/Meaning: diag(-1, +1, +1, +1, +1, +1). Dimension: Dimensionless. First Chapter: 3. Category: Metric tensor.
 Symbol: theta. Name: Generic angle / rotation parameter. Definition/Meaning: Dimensionless angle; parameterizes U( theta ) rotations. Dimension: Dimensionless. First Chapter: 9. Category: Scalar.
 Symbol: theta. Name: Poloidal angle. Definition/Meaning: Angular coordinate in toroidal/cylindrical systems. Dimension: Dimensionless. First Chapter: 3. Category: Coordinate.
-Symbol: iota. Name: Twisted field variable. Definition/Meaning: Twist parameter in membrane oscillations. Dimension: Dimensionless. First Chapter: 7. Category: Scalar.
+Symbol: iota. Name: Twisted field variable. Definition/Meaning: Twist parameter in Firmament membrane oscillations. Dimension: Dimensionless. First Chapter: 7. Category: Scalar.
 Symbol: kappa. Name: Sustaining field power density. Definition/Meaning: Power per unit volume from transcendent domain; [ML⁻¹T⁻³]. Dimension: [ML⁻¹T⁻³]. First Chapter: 1. Category: Scalar field.
 Symbol: lambda. Name: Eigenvalue (generic). Definition/Meaning: Eigenvalue of operator O; O. Dimension: psi = lambda. First Chapter: psi. Category: Varies.
 Symbol: lambda. Name: Wavelength. Definition/Meaning: Distance between wave peaks; lambda = c/f for light. Dimension: [L]. First Chapter: 7. Category: Scalar.
@@ -641,14 +667,16 @@ B.13.3 For Reviewers and Quality Control.
 
 B.14 Version and Maintenance.
 
-Version: 1.0 (First Edition)
+Version: 1.1 (P0 Fix Pass)
 Date Created: April 6, 2026
-Last Updated: April 6, 2026
+Last Updated: May 11, 2026
 Maintainer: Jeff Raymond
 
 Change Log:
 
 - v1.0 (2026-04-06): Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
+- v1.1 (2026-05-11): P0 fix — §B.5.4 warp factor definition corrected. A(ξ,η) was incorrectly stated as a(t)·f(ξ,η); corrected to define A(ξ,η) as the warp factor appearing in the 6D metric ds² = A²(ξ,η)ημν dx^μ dx^ν + …, explicitly distinguished from the FRW cosmological scale factor a(t). Clarifying note added to §B.5.4. a(t) entry expanded with explicit reference to the FRW metric. B.10.1 alphabetical table entry for A updated. (Resolves QUALITYGATE P1-001.)
+- v1.2 (2026-05-11): Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
 
 Future Maintenance:
 

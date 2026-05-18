@@ -1,4 +1,4 @@
-﻿Part III: Patterns and Quantization (continued).
+Part III: Patterns and Quantization (continued).
 
 "He has made everything beautiful in its time. He has also set eternity in the human heart; yet no one can fathom what God has done from beginning to end."
 — Ecclesiastes 3:11
@@ -9,7 +9,7 @@ Introduction — Why the Universe Is Quantized.
 
 You now have a complete classical architecture. The zone manifold (Chapter 3) gives you eight nested domains. The 6D metric (Chapter 4) gives you geometry. The Firmament (Chapter 5) gives you a dynamical membrane where c to the 2 = sigma / mu. The Waters (Chapter 6) give you field equations. Symmetries (Chapter 7) give you conservation laws. The Five Principles (Chapter 8) constrain the action. The seven pattern operators (Chapter 9) generate all field dynamics.
 
-Everything so far has been continuous. Fields vary smoothly. The membrane oscillates with any frequency. Momenta take any value. If the story ended here, you would have a perfectly self-consistent classical universe.
+Everything so far has been continuous. Fields vary smoothly. The Firmament oscillates with any frequency. Momenta take any value. If the story ended here, you would have a perfectly self-consistent classical universe.
 
 But the universe is not classical.
 
@@ -19,13 +19,13 @@ Standard quantum mechanics postulates this discreteness. It declares, as axiom, 
 
 We will do none of that. We will derive all of it.
 
-The central insight of this chapter is simple enough to fit on a napkin: the extra dimensions of the zone manifold have finite extent. The xi-direction (Waters Above) spans from xi = 0 to xi = xi sub A approximately equal to 1.4 times 10 to the 26 m. The eta-direction (Waters Below) spans from eta = 0 to the expression m. The membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
+The central insight of this chapter is simple enough to fit on a napkin: the extra dimensions of the zone manifold have finite extent. The xi-direction (Waters Above) spans from xi = 0 to xi = xi sub A approximately equal to 1.4 times 10 to the 26 m. The eta-direction (Waters Below) spans from eta = 0 to the expression m. The Firmament membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
 
 And boundary conditions on a finite domain produce a discrete spectrum. Always. Inevitably. This is not quantum mechanics — it is Sturm-Liouville theory, known since the 19th century. Quantization is a theorem of the zone architecture, not a postulate of a new theory.
 
 From this single fact, everything follows: the discrete energy spectrum, Planck's constant (derived from membrane parameters), the Schrödinger equation (as a non-relativistic limit), the uncertainty principle (as a Fourier theorem), angular momentum quantization (from topology), and the measurement problem (as decoherence). Each step is a derivation. No step is an axiom.
 
-Notation convention for this chapter: We use lowercase psi (x,t) for the full (relativistic) membrane displacement field and uppercase Psi (x,t) for the slowly-varying non-relativistic envelope — the "wave function" of standard quantum mechanics. The two are related by psi = Psi e to the -imc to the 2t/ h-bar (§10.4.2). This parallels the convention in prior chapters where psi denotes a general field and Psi denotes the Waters fields.
+Notation convention for this chapter: We use lowercase psi (x,t) for the full (relativistic) Firmament membrane displacement field and uppercase Psi (x,t) for the slowly-varying non-relativistic envelope — the "wave function" of standard quantum mechanics. The two are related by psi = Psi e to the -imc to the 2t/ h-bar (§10.4.2). This parallels the convention in prior chapters where psi denotes a general field and Psi denotes the Waters fields.
 
 By the end of this chapter, you will understand why the universe must be quantized — not because God chose discrete physics over continuous physics, but because the architecture of creation, with its bounded zones and topological structure, admits no other possibility. Discreteness is the geometry's doing.
 
@@ -34,7 +34,7 @@ Roadmap:
 - §10.1 establishes the general principle: boundary conditions on bounded domains force discrete spectra.
 - §10.2 applies this to the extra dimensions, deriving the Kaluza-Klein spectrum.
 - §10.3 derives Planck's constant h-bar from membrane parameters — the keystone derivation of this chapter.
-- §10.4 derives the Schrödinger equation from the membrane wave equation.
+- §10.4 derives the Schrödinger equation from the Firmament membrane wave equation.
 - §10.5 derives wave-particle duality and the Heisenberg uncertainty principle.
 - §10.6 derives angular momentum quantization from topological winding.
 - §10.7 opens the pathway to second quantization — from modes to field operators.
@@ -102,6 +102,8 @@ The frequencies are:
 
 Each mode phi sub n is a standing wave pattern on the domain. The mode index n is a quantum number — though at this stage it is purely a consequence of geometry, with no reference to "quantum" physics.
 
+[Figure — see print edition.]
+
 Key result: Quantization is not a feature of quantum mechanics. It is a feature of wave equations on bounded domains. Quantum mechanics inherits it from the geometry of the zone manifold.
 
 [Equation — see print edition.]
@@ -134,7 +136,7 @@ Boundary Conditions at Zone Edges.
 
 The boundary conditions are not arbitrary — they follow from the physics of the zone manifold:
 
-At xi = 0 (inner boundary, near the Firmament): The field must match the brane-localized value. For fields confined to the Firmament (like baryonic matter), this is a Dirichlet condition: f(0) = f sub 0.
+At xi = 0 (inner boundary, near the Firmament): The field must match the Firmament-localized value. For fields confined to the Firmament (like baryonic matter), this is a Dirichlet condition: f(0) = f sub 0.
 
 At xi = xi sub A (outer boundary, Waters Above): The Waters Above potential V sub A( xi ) creates a confining well. At the edge of the zone, the potential rises steeply. The field must vanish or satisfy a regularity condition:
 
@@ -152,6 +154,8 @@ The specific choice depends on the physical situation:
 - Robin (mixed) when there is partial reflection
 
 For the Waters Below (dark matter sector), the confining potential from the Waters field equation (Chapter 6, §6.4) provides an effective Dirichlet condition at eta = eta sub B.
+
+[Figure — see print edition.]
 
 The Discrete Mode Spectrum.
 
@@ -183,6 +187,8 @@ The eta-dimension (Waters Below): eta sub B approximately equal to 1.3 times 10 
 
 Converting to energy: the expression MeV. This is the scale of nuclear physics — the mass of a proton is 938 MeV. The first excited Kaluza-Klein mode in the eta-direction has a mass comparable to a hadron.
 
+⚠ Open Problem — KK Gap vs. Observed Particle Masses: The lightest Kaluza-Klein excitation in the eta-direction has a mass gap of approximately 750 MeV, which is far above the measured electron mass of 0.511 MeV (a factor of approximately 1500). This is a genuine tension: if Standard Model particles arise from KK modes of the zone manifold, the lightest fermionic mode must have a mass at or below 0.511 MeV, not 750 MeV. Reconciling the KK spectrum with the observed particle mass spectrum — particularly for light leptons — is Open Problem OP-2 (see Vol 6 Ch 14). The zero-mode (n = 0) is massless in the flat-space approximation; whether warping, boundary conditions, or a separate mechanism localizes the electron near zero mass is an open question. All particle mass predictions in this volume are provisional pending this resolution.
+
 The xi-dimension (Waters Above): xi sub A approximately equal to 1.4 times 10 to the 26 m. The mode spacing is:
 
 [Equation — see print edition.]
@@ -205,7 +211,7 @@ The Question Behind Every Quantum Formula.
 
 Every equation in quantum mechanics contains h-bar: the Schrödinger equation (i h-bar partial sub t Psi), the uncertainty principle (Delta x Delta p greater than or equal to h-bar /2), the commutation relations ([ x, p] = i h-bar), the de Broglie relation (lambda = h/p). Standard physics takes h-bar = 1.055 times 10 to the -34 J·s as a given — a measured constant with no deeper explanation.
 
-We can do better. In the zone architecture, h-bar is not a free parameter. It is determined by the membrane tension sigma, the confining scale eta sub B, the Hubble length xi sub A, and the speed of light c — all quantities already established in Chapters 4 and 5.
+We can do better. In the zone architecture, h-bar is not a free parameter. It is determined by the Firmament tension sigma, the confining scale eta sub B, the Hubble length xi sub A, and the speed of light c — all quantities already established in Chapters 4 and 5.
 
 The Topological Action Quantum.
 
@@ -215,7 +221,7 @@ The vortex core radius is set by the confining scale of the Waters Below potenti
 
 [Equation — see print edition.]
 
-The elastic energy stored in the vortex follows from the membrane energy density. The Firmament has tension sigma (energy per unit 3-volume, Eq. (1.5.0), Chapter 5). A codimension-2 topological defect distorts the membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
+The elastic energy stored in the vortex follows from the Firmament membrane energy density. The Firmament has tension sigma (energy per unit 3-volume, Eq. (1.5.0), Chapter 5). A codimension-2 topological defect distorts the Firmament membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
 
 [Equation — see print edition.]
 
@@ -225,7 +231,7 @@ The minimum timescale for a quantum process at the core is the light-crossing ti
 
 [Equation — see print edition.]
 
-No physical process on the membrane can occur faster than this — it is the resolution limit set by the wave speed.
+No physical process on the Firmament membrane can occur faster than this — it is the resolution limit set by the wave speed.
 
 The action (energy × time) for the minimum quantum process is:
 
@@ -251,7 +257,7 @@ Setting this equal to 2 pi h-bar (the condition for a single topological quantum
 
 [Equation — see print edition.]
 
-This is the bare action quantum — the natural scale of quantization set by the membrane core.
+This is the bare action quantum — the natural scale of quantization set by the Firmament core.
 
 [Figure — see print edition.]
 
@@ -261,13 +267,15 @@ If we evaluate h-bar sub 0 numerically:
 
 [Equation — see print edition.]
 
-This is approximately 10 to the 79 times too large. The bare quantum is set by the enormous membrane tension — but we don't observe the bare quantum. We observe the effective quantum, suppressed by the exponential warp factor of the 6D geometry.
+This is approximately 10 to the 79 times too large. The bare quantum is set by the enormous Firmament tension — but we don't observe the bare quantum. We observe the effective quantum, suppressed by the exponential warp factor of the 6D geometry.
 
 From the metric solutions (Chapter 4), the warp factor at the Firmament location introduces a suppression:
 
 [Equation — see print edition.]
 
-where A sub 0 is the warp factor at ( xi sub 0, eta sub 0) and beta sub geom approximately equal to 1.16 is a geometric prefactor from the detailed metric calculation.
+where A sub 0 is the warp factor at ( xi sub 0, eta sub 0) and beta sub geom is a geometric prefactor from the detailed metric calculation.
+
+[CT-4.β CORRECTION — 2026-05-15] The earlier editions of this section stated beta sub geom approximately equal to 1.16 and claimed 0.1% agreement with observed h-bar. This was incorrect: with beta sub geom = 1.16, the formula gives approximately 2.2 times 10 to the -37 J·s — off from the observed h-bar = 1.055 times 10 to the -34 J·s by a factor of approximately 480. The source of the error was using eta sub B (the Waters Below nuclear scale, approximately 10 to the -15 m) as a stand-in for xi sub 0 (the Firmament's position in the xi-direction, xi sub 0 approximately equal to 60 l sub Pl). These are physically distinct. The correct warp suppression uses the Waters Above power-law geometry: e to the -2|A sub 0| = ( xi sub 0/L sub A) to the 4/3, where the expression m. With xi sub 0 approximately equal to 60 l sub Pl (derived from kappa sub 6 to the 2 self-consistency, CT-4.β / OP-G6, 2026-05-15), h-bar is reproduced with beta sub geom to the (residual) = 1.000: it is a genuine first-principles prediction. See Research/MathematicalModels/05QuantumMechanics/BETAGEOMDERIVATIONCT4B.md and Research/Foundations/OPG6KAPPA6_DERIVATION.md. Canonical values: kappa sub 6 to the 2 = 6.9 times 10 to the -66 s²/kg, B sub 0 = 28.8, xi sub 0 = 60 l sub Pl. This draft section requires full rewrite to incorporate the correct warp formula.
 
 In the power-law regime relevant to the zone architecture (derived in Chapter 4, §4.3, from the 6D Einstein equations with the warp-factored metric Eq. (1.4.2)):
 
@@ -297,38 +305,38 @@ Numerical evaluation:
 
 Observed value: h-bar = 1.05457182 times 10 to the -34 J·s.
 
-Agreement: Within the expression. 
+[CT-4.β CORRECTION — 2026-05-15] The numerical result 6.9 times 10 to the -37 J·s is off by a factor of approximately 480 from the observed h-bar = 1.055 times 10 to the -34 J·s. The "0.1% agreement" claim previously written here was an arithmetic error. The correct ħ prediction requires the CT-4.β derivation using xi sub 0 = 60 l sub Pl and the Waters Above warp geometry. See the correction note in §10.3.4. This subsection requires rewrite.
 
 Why ℏ Has Its Value — The Physical Interpretation.
 
 Let us pause and appreciate what just happened. The constant h-bar — which appears in every quantum formula, which sets the scale of atomic physics, which determines the size of atoms and the energy of photons — is not a free parameter. It is determined by four quantities:
 
-1. sigma (membrane tension): The elastic stiffness of the Firmament. This sets the energy scale of creation.
+1. sigma (Firmament tension): The elastic stiffness of the Firmament. This sets the energy scale of creation.
 2. eta sub B (nuclear confining scale): The extent of the Waters Below. This sets the size of topological defects (particles).
 3. xi sub A (Hubble length): The extent of the Waters Above. This sets the cosmological scale.
-4. c (speed of light): The wave speed on the membrane. Already derived as c to the 2 = sigma / mu (Chapter 5).
+4. c (speed of light): The wave speed on the Firmament membrane. Already derived as c to the 2 = sigma / mu (Chapter 5).
 
 The hierarchy of scales — eta sub B / xi sub A approximately 10 to the -41 — means the bare quantum is exponentially suppressed. The nuclear scale and the cosmological scale are not independent; they are linked through the warp factor of the 6D geometry. The smallness of h-bar is a consequence of the vastness of the cosmos relative to the nucleus.
 
-This is the answer to the question "Why is h-bar so small?" It is small because the universe is large. The action quantum of a topological vortex is inherently enormous (set by the membrane tension), but the effective quantum — the one we measure — is suppressed by the square of the ratio of the smallest to the largest scale in creation.
+This is the answer to the question "Why is h-bar so small?" It is small because the universe is large. The action quantum of a topological vortex is inherently enormous (set by the Firmament tension), but the effective quantum — the one we measure — is suppressed by the square of the ratio of the smallest to the largest scale in creation.
 
 [Equation — see print edition.]
 
-The Schrödinger Equation from Membrane Dynamics.
+The Schrödinger Equation from Firmament Dynamics.
 
 The Starting Point.
 
-We have the membrane wave equation from Chapter 5 (Eq. (1.5.0)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field psi (x,t) is:
+We have the Firmament membrane wave equation from Chapter 5 (Eq. (1.5.0)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field psi (x,t) is:
 
 [Equation — see print edition.]
 
 where:
-- c to the 2 = sigma / mu is the membrane wave speed (Eq. (1.5.0))
-- m is the rest mass of the membrane excitation (a topological defect)
+- c to the 2 = sigma / mu is the Firmament membrane wave speed (Eq. (1.5.0))
+- m is the rest mass of the Firmament membrane excitation (a topological defect)
 - h-bar is the derived Planck constant (Eq. (1.10.29))
 - The mass term m to the 2c to the 2/ h-bar to the 2 comes from the extra-dimensional eigenvalue (§10.2): a localized excitation on the Firmament with extra-dimensional winding number contributes an effective rest mass
 
-This is the Klein-Gordon equation — but not postulated. It is the membrane wave equation with the mass term arising from extra-dimensional confinement.
+This is the Klein-Gordon equation — but not postulated. It is the Firmament membrane wave equation with the mass term arising from extra-dimensional confinement.
 
 [Figure — see print edition.]
 
@@ -370,7 +378,7 @@ Rearranging, and including an external potential V(x) (from zone curvature, the 
 
 This is the time-dependent Schrödinger equation.
 
-It was not postulated. It was not assumed. It emerged from the membrane wave equation (Chapter 5) in the non-relativistic limit, with h-bar the derived constant from §10.3. The Hamiltonian H = -( h-bar to the 2/2m) nabla to the 2 + V(x) is not an axiom — it is the kinetic energy (from the Laplacian on the membrane) plus the potential energy (from zone curvature).
+It was not postulated. It was not assumed. It emerged from the Firmament membrane wave equation (Chapter 5) in the non-relativistic limit, with h-bar the derived constant from §10.3. The Hamiltonian H = -( h-bar to the 2/2m) nabla to the 2 + V(x) is not an axiom — it is the kinetic energy (from the Laplacian on the Firmament membrane) plus the potential energy (from zone curvature).
 
 What Is the Wave Function?.
 
@@ -378,9 +386,9 @@ In standard quantum mechanics, the wave function Psi (x,t) is an abstract mathem
 
 Psi (x,t) is the slowly-varying envelope of the Firmament membrane displacement at location x and time t.
 
-More precisely: the full membrane displacement psi (x,t) oscillates enormously fast at the rest-mass frequency mc to the 2/ h-bar. This carrier oscillation is unobservable (it's approximately 10 to the 20 Hz for an electron). What we observe is the envelope Psi — the modulation of the displacement that varies on the scale of atomic physics (approximately 10 to the 15 Hz for optical transitions, approximately 10 to the 10 Hz for microwave).
+More precisely: the full Firmament membrane displacement psi (x,t) oscillates enormously fast at the rest-mass frequency mc to the 2/ h-bar. This carrier oscillation is unobservable (it's approximately 10 to the 20 Hz for an electron). What we observe is the envelope Psi — the modulation of the displacement that varies on the scale of atomic physics (approximately 10 to the 15 Hz for optical transitions, approximately 10 to the 10 Hz for microwave).
 
-The wave function is not abstract. It is a membrane excitation.
+The wave function is not abstract. It is a Firmament membrane excitation.
 
 Wave-Particle Duality and the Uncertainty Principle.
 
@@ -390,7 +398,7 @@ Any displacement field on the Firmament can be decomposed into plane-wave modes 
 
 [Equation — see print edition.]
 
-Each plane wave e to the ikx is a momentum eigenstate. The momentum operator — which is the infinitesimal generator of spatial translation on the membrane — is:
+Each plane wave e to the ikx is a momentum eigenstate. The momentum operator — which is the infinitesimal generator of spatial translation on the Firmament membrane — is:
 
 [Equation — see print edition.]
 
@@ -402,13 +410,13 @@ So the momentum eigenvalue is p = h-bar k. Since the wavenumber k = 2 pi / lambd
 
 [Equation — see print edition.]
 
-This is the de Broglie relation — derived, not postulated. It states that a membrane excitation with momentum p has wavelength lambda = h/p. This is a property of waves, not a mysterious quantum postulate.
+This is the de Broglie relation — derived, not postulated. It states that a Firmament excitation with momentum p has wavelength lambda = h/p. This is a property of waves, not a mysterious quantum postulate.
 
 Wave-Particle Duality.
 
-A topological defect on the Firmament (a particle) is a localized excitation — a bump in the membrane displacement. Its wave function Psi (x,t) is concentrated near the defect's position.
+A topological defect on the Firmament (a particle) is a localized excitation — a bump in the Firmament membrane displacement. Its wave function Psi (x,t) is concentrated near the defect's position.
 
-But the same excitation, when Fourier-decomposed, is a superposition of plane waves — each with a definite momentum. The particle is the wave. The wave is the particle. They are not two different things but two descriptions of the same membrane excitation:
+But the same excitation, when Fourier-decomposed, is a superposition of plane waves — each with a definite momentum. The particle is the wave. The wave is the particle. They are not two different things but two descriptions of the same Firmament membrane excitation:
 
 - Particle description: localized in position space, through the localization operator P sub 1 (Chapter 9)
 - Wave description: delocalized in momentum space, through the Fourier decomposition
@@ -427,17 +435,17 @@ Multiplying both sides by h-bar and using p = h-bar k:
 
 [Equation — see print edition.]
 
-This is the Heisenberg uncertainty principle. It is a theorem of Fourier analysis applied to membrane modes, not a postulate of quantum mechanics.
+This is the Heisenberg uncertainty principle. It is a theorem of Fourier analysis applied to Firmament modes, not a postulate of quantum mechanics.
 
 [Figure — see print edition.]
 
 Physical Interpretation.
 
-The uncertainty principle is not about measurement disturbance. It is not about the clumsiness of our instruments. It is a structural property of the membrane:
+The uncertainty principle is not about measurement disturbance. It is not about the clumsiness of our instruments. It is a structural property of the Firmament:
 
-To concentrate a wave packet to width Delta x, you must superpose membrane modes with wavenumbers spanning a range Delta k approximately 1/ Delta x. These modes have momenta spanning Delta p = h-bar Delta k approximately h-bar / Delta x. The more sharply you localize the excitation, the more momentum components you must include. This is the nature of waves — any waves, on any medium.
+To concentrate a wave packet to width Delta x, you must superpose Firmament membrane modes with wavenumbers spanning a range Delta k approximately 1/ Delta x. These modes have momenta spanning Delta p = h-bar Delta k approximately h-bar / Delta x. The more sharply you localize the excitation, the more momentum components you must include. This is the nature of waves — any waves, on any medium.
 
-The factor h-bar /2 sets the scale of the uncertainty: it is determined by the membrane parameters through Eq. (1.10.29). If h-bar were larger (a stiffer membrane with a larger confining scale), quantum effects would be more prominent. If h-bar were smaller (a more suppressed action quantum), quantum effects would be harder to observe. The actual value — 10 to the -34 J·s — means uncertainty is negligible for macroscopic objects but dominant at atomic scales.
+The factor h-bar /2 sets the scale of the uncertainty: it is determined by the Firmament parameters through Eq. (1.10.29). If h-bar were larger (a stiffer membrane with a larger confining scale), quantum effects would be more prominent. If h-bar were smaller (a more suppressed action quantum), quantum effects would be harder to observe. The actual value — 10 to the -34 J·s — means uncertainty is negligible for macroscopic objects but dominant at atomic scales.
 
 Connection to Pattern Operators.
 
@@ -463,7 +471,7 @@ For this to equal e to the im phi, we need e to the 2 pi i m = 1, which requires
 
 [Equation — see print edition.]
 
-The angular momentum quantum number must be an integer. Not because we postulated it, but because the wave function must be single-valued — and single-valuedness is a topological requirement. A multi-valued wave function would mean the membrane displacement has two different values at the same point, which is physically impossible.
+The angular momentum quantum number must be an integer. Not because we postulated it, but because the wave function must be single-valued — and single-valuedness is a topological requirement. A multi-valued wave function would mean the Firmament membrane displacement has two different values at the same point, which is physically impossible.
 
 The Angular Momentum Operator.
 
@@ -505,17 +513,27 @@ Connection to Pattern Operators.
 
 Angular momentum quantization connects to P sub 7 (the cycle operator, Chapter 9, §9.2.7). A cycle of period T in phase space returns the field to its starting configuration. For angular motion, the "period" is 2 pi in the angle phi. The condition U(2 pi ) = I (returning to the identity after one full cycle) forces the eigenvalues of the generator (angular momentum) to be integer multiples of h-bar.
 
-Toward Second Quantization — Field Operators from Membrane Modes.
+Toward Second Quantization — Field Operators from Firmament Modes.
 
 The Problem of Particle Number.
 
-Everything so far is first quantization: we have quantized the properties (energy, momentum, angular momentum) of a single membrane excitation. But the real universe has variable particle number. Photons are emitted and absorbed. Electron-positron pairs are created and annihilated. A formalism that can only describe one particle at a time is incomplete.
+Before the formalism: a conceptual roadmap. Sections §10.1–10.6 have all been about one excitation at a time. We described one electron's energy levels, one photon's momentum, one angular momentum state. This is called first quantization — we quantized the properties of a fixed object. But nature does not work this way. A laser emits photons one after another. A nucleus emits an electron in beta decay. Pair production creates an electron and a positron from a photon. Particle number changes.
 
-The solution is second quantization: promoting the classical membrane modes to quantum operators that can create and destroy excitations. This section establishes the framework; Volume 4 will develop it fully.
+First quantization cannot describe this. If we write down a wave function Psi (x, t) for one particle, there is no place in the formalism to represent "now there are two particles" — or zero. We need a richer framework.
+
+The strategy of second quantization is to treat the field itself as the fundamental object — not individual particles. Instead of asking "where is the electron?", we ask "what is the state of the electron field?" Particles become excitations of the field, like ripples on water. Creating a particle means adding a ripple; annihilating a particle means removing one. The number of ripples can vary.
+
+For the zone architecture, this strategy is natural. The Firmament membrane displacement field psi (x, t) from Chapter 5 is already a classical field with mode expansion (§10.7.2). The second quantization procedure promotes the classical amplitudes a sub n to quantum operators a sub n that create and destroy Firmament membrane excitations. Each excitation corresponds to a particle; the Fock space (§10.7.4) describes any number of such excitations simultaneously.
+
+This section builds the framework in four steps: (1) mode expansion of the classical field, (2) promotion of amplitudes to operators, (3) construction of Fock space, and (4) the resulting quantum field. A worked example in §10.7.3 walks through the simplest case — a single Firmament mode — to make the abstract procedure concrete before the full formalism.
+
+Everything so far is first quantization: we have quantized the properties (energy, momentum, angular momentum) of a single Firmament excitation. But the real universe has variable particle number. Photons are emitted and absorbed. Electron-positron pairs are created and annihilated. A formalism that can only describe one particle at a time is incomplete.
+
+The solution is second quantization: promoting the classical Firmament modes to quantum operators that can create and destroy excitations. This section establishes the framework; Volume 4 will develop it fully.
 
 Mode Expansion of the Membrane Field.
 
-From Chapter 5 (§5.5), the membrane displacement field has a mode expansion. Using the eigenmodes phi sub n(x) from §10.1 (the solutions to the eigenvalue problem on the bounded domain):
+From Chapter 5 (§5.5), the Firmament membrane displacement field has a mode expansion. Using the eigenmodes phi sub n(x) from §10.1 (the solutions to the eigenvalue problem on the bounded domain):
 
 [Equation — see print edition.]
 
@@ -541,7 +559,7 @@ These operators satisfy the canonical commutation relations, which in the zone a
 
 [Equation — see print edition.]
 
-Worked Example 10.1 (Operator Promotion for a Single Mode). Consider a single membrane mode with frequency omega sub 1. Classically, the mode amplitude is a sub 1 = |a sub 1|e to the i phi, and the energy is E = omega sub 1|a sub 1| to the 2. After operator promotion, a sub 1 and the expression satisfy the expression. The energy operator is the expression. The eigenvalues are E sub n = h-bar omega sub 1(n + 1/2) for n = 0, 1, 2, The classical mode could carry any energy; the quantized mode carries energy in chunks of h-bar omega sub 1. This is the discrete spectrum emerging again — now from the operator algebra rather than from boundary conditions directly. The two routes to quantization (boundary conditions in §10.1 and operator commutation here) are mathematically equivalent.
+Worked Example 10.1 (Operator Promotion for a Single Mode). Consider a single Firmament membrane mode with frequency omega sub 1. Classically, the mode amplitude is a sub 1 = |a sub 1|e to the i phi, and the energy is E = omega sub 1|a sub 1| to the 2. After operator promotion, a sub 1 and the expression satisfy the expression. The energy operator is the expression. The eigenvalues are E sub n = h-bar omega sub 1(n + 1/2) for n = 0, 1, 2, The classical mode could carry any energy; the quantized mode carries energy in chunks of h-bar omega sub 1. This is the discrete spectrum emerging again — now from the operator algebra rather than from boundary conditions directly. The two routes to quantization (boundary conditions in §10.1 and operator commutation here) are mathematically equivalent.
 
 Fock Space and the Number Operator.
 
@@ -553,9 +571,9 @@ with eigenvalues N sub n = 0, 1, 2, The state with N sub n quanta in mode n is:
 
 [Equation — see print edition.]
 
-where |0 is the vacuum state — the membrane at rest, with no excitations.
+where |0 is the vacuum state — the Firmament at rest, with no excitations.
 
-The full quantum state of the membrane is a Fock state — a specification of how many quanta occupy each mode:
+The full quantum state of the Firmament is a Fock state — a specification of how many quanta occupy each mode:
 
 [Equation — see print edition.]
 
@@ -563,7 +581,7 @@ The full quantum state of the membrane is a Fock state — a specification of ho
 
 The Quantum Field.
 
-The quantized membrane displacement field is:
+The quantized Firmament membrane displacement field is:
 
 [Equation — see print edition.]
 
@@ -571,7 +589,7 @@ The energy of the quantized field is:
 
 [Equation — see print edition.]
 
-The 1 over 2 is the zero-point energy — even in the vacuum state (N sub n = 0 for all n), the membrane has a nonzero energy. This is a direct consequence of the uncertainty principle: you cannot have simultaneously zero displacement and zero momentum on the membrane. The vacuum fluctuates.
+The 1 over 2 is the zero-point energy — even in the vacuum state (N sub n = 0 for all n), the Firmament membrane has a nonzero energy. This is a direct consequence of the uncertainty principle: you cannot have simultaneously zero displacement and zero momentum on the Firmament membrane. The vacuum fluctuates.
 
 Connection to Pattern Operators.
 
@@ -649,14 +667,14 @@ The probability of outcome i is:
 
 This is the Born rule. In the zone architecture, it is not a postulate but a consequence of decoherence: |c sub i| to the 2 is the weight of branch i in the reduced density matrix after tracing out the environment.
 
-A deeper interpretation: |c sub i| to the 2 is proportional to the energy carried by branch i of the membrane excitation. The branch with larger amplitude carries more energy, couples more strongly to the environment, and is more likely to be the observed outcome. The Born rule is energy-weighted decoherence.
+A deeper interpretation: |c sub i| to the 2 is proportional to the energy carried by branch i of the Firmament excitation. The branch with larger amplitude carries more energy, couples more strongly to the environment, and is more likely to be the observed outcome. The Born rule is energy-weighted decoherence.
 
 No Collapse, No Mystery.
 
 In the zone architecture:
 
-1. Before measurement: System in superposition — the membrane displacement has multiple mode components.
-2. During measurement: System entangles with apparatus and environment — the membrane excitation spreads into the Waters fields.
+1. Before measurement: System in superposition — the Firmament membrane displacement has multiple mode components.
+2. During measurement: System entangles with apparatus and environment — the Firmament membrane excitation spreads into the Waters fields.
 3. After measurement: The environment has absorbed information about which branch is realized. The observer, who cannot track all environmental degrees of freedom, sees a classical outcome.
 
 There is no collapse. There is no mystery. There is no need for a separate "measurement postulate." The Schrödinger equation (derived in §10.4) governs everything — system, apparatus, and environment. The appearance of definite outcomes is a consequence of the zone manifold's enormous number of environmental degrees of freedom.
@@ -670,8 +688,8 @@ This chapter has derived, from the zone architecture established in Chapters 3�
 Result: Discrete mode spectrum. Starting Point: Wave equation on bounded domain. Key Mechanism: Sturm-Liouville theorem (§10.1).
 Result: Kaluza-Klein tower. Starting Point: Extra-dimensional boundary conditions. Key Mechanism: Compact dimensions + zone boundaries (§10.2).
 Result: h-bar = f( sigma , eta sub B, xi sub A, c). Starting Point: Topological vortex action. Key Mechanism: Warp-factor suppression (§10.3).
-Result: Schrödinger equation. Starting Point: Membrane wave equation. Key Mechanism: Non-relativistic envelope approximation (§10.4).
-Result: de Broglie relation lambda = h/p. Starting Point: Fourier decomposition of membrane modes. Key Mechanism: Momentum = h-bar k (§10.5).
+Result: Schrödinger equation. Starting Point: Firmament membrane wave equation. Key Mechanism: Non-relativistic envelope approximation (§10.4).
+Result: de Broglie relation lambda = h/p. Starting Point: Fourier decomposition of Firmament membrane modes. Key Mechanism: Momentum = h-bar k (§10.5).
 Result: Uncertainty Delta x Delta p greater than or equal to h-bar /2. Starting Point: Fourier uncertainty theorem. Key Mechanism: Mathematical property of waves (§10.5).
 Result: L sub z = m h-bar, m Z. Starting Point: Topological winding + single-valuedness. Key Mechanism: Homotopy on S to the 1 (§10.6).
 Result: Creation/annihilation operators. Starting Point: Mode expansion + operator promotion. Key Mechanism: Canonical quantization (§10.7).
@@ -721,11 +739,11 @@ Closing Reflection.
 
 You began this chapter in a continuous, classical universe. You end it in a quantized one.
 
-The transition required no new postulates. No mysterious axioms. No appeal to "quantum logic" or "complementarity principles" or "measurement postulates." Every result followed from the zone architecture: the bounded extra dimensions forced discrete spectra; the topological vortex structure determined h-bar; the membrane wave equation became the Schrödinger equation; Fourier analysis gave the uncertainty principle; topology gave angular momentum quantization; decoherence resolved measurement.
+The transition required no new postulates. No mysterious axioms. No appeal to "quantum logic" or "complementarity principles" or "measurement postulates." Every result followed from the zone architecture: the bounded extra dimensions forced discrete spectra; the topological vortex structure determined h-bar; the Firmament membrane wave equation became the Schrödinger equation; Fourier analysis gave the uncertainty principle; topology gave angular momentum quantization; decoherence resolved measurement.
 
 The universe is quantized because it is bounded. The boundaries are the zone edges — the places where the Waters Above meet the firmament, where the Waters Below end and condensed matter begins. Between these boundaries, wave equations produce standing modes. Standing modes have discrete frequencies. Discrete frequencies are quantum mechanics.
 
-And beneath all of this lies a deeper truth, one that the mathematics reveals but does not explain. The zone architecture — with its hierarchy of scales, its topological structure, its bounded domains — is not arbitrary. The scales eta sub B and xi sub A are not random numbers. The membrane tension sigma is not a coincidence. These parameters are tuned to produce a universe where atoms are stable, where chemistry is possible, where life can exist, where consciousness can arise, where someone can ask "but why?"
+And beneath all of this lies a deeper truth, one that the mathematics reveals but does not explain. The zone architecture — with its hierarchy of scales, its topological structure, its bounded domains — is not arbitrary. The scales eta sub B and xi sub A are not random numbers. The Firmament tension sigma is not a coincidence. These parameters are tuned to produce a universe where atoms are stable, where chemistry is possible, where life can exist, where consciousness can arise, where someone can ask "but why?"
 
 The mathematics cannot answer that last question. But it does, quietly, point to an answer: the architecture of reality was designed to be discovered.
 
@@ -739,13 +757,13 @@ Computational Problems (10 total).
 
 10.2. Using the flat-space approximation for the eta-dimension with Dirichlet boundary conditions, calculate the first three Kaluza-Klein masses m sub eta ,k in units of MeV. Use eta sub B = 1.3 times 10 to the -15 m.
 
-10.3. Verify the derivation of h-bar (Eq. (1.10.29)) numerically. Using sigma = 6.0 times 10 to the 98 kg/(m·s²), eta sub B = 1.3 times 10 to the -15 m, xi sub A = 1.4 times 10 to the 26 m, c = 3.0 times 10 to the 8 m/s, and beta sub geom = 1.16, compute h-bar and compare with the experimental value.
+10.3. [Problem revised 2026-05-15 — CT-4.β correction] The original problem used xi sub A = 1.4 times 10 to the 26 m and beta sub geom = 1.16; the correct canonical value is xi sub A = 3.0 times 10 to the 26 m, and the correct derivation uses xi sub 0 = 60 l sub Pl with the Waters Above power-law warp formula (see §10.3.4 correction note). For historical reference: using the original Eq. (1.10.29) with the corrected xi sub A = 3.0 times 10 to the 26 m, what is the ( eta sub B/ xi sub A) to the 2 suppression, and by what factor does this differ from the observed value? Show that reconciling with h-bar sub obs would require beta sub geom approximately equal to 2556, demonstrating that the proxy formula was fundamentally wrong rather than merely needing a better prefactor.
 
 10.4. A Gaussian wave packet on the Firmament has width Delta x = 1.0 times 10 to the -10 m (about the size of an atom). Calculate the minimum momentum uncertainty Delta p and the corresponding velocity uncertainty Delta v for an electron (m sub e = 9.1 times 10 to the -31 kg).
 
 10.5. For the hydrogen atom, compute the Bohr radius a sub 0 = h-bar to the 2/(m sub e e to the 2) using the derived h-bar from Eq. (1.10.29) (not the experimental value). How close is it to the experimental value of 0.529 times 10 to the -10 m?
 
-10.6. The zero-point energy of a harmonic oscillator is E sub 0 = 1 over 2 h-bar omega. For a membrane mode with omega = 10 to the 15 s⁻¹ (optical frequency), compute E sub 0 in eV. For a mode with omega = 10 to the 20 s⁻¹ (electron rest-mass frequency), compute E sub 0 in MeV.
+10.6. The zero-point energy of a harmonic oscillator is E sub 0 = 1 over 2 h-bar omega. For a Firmament mode with omega = 10 to the 15 s⁻¹ (optical frequency), compute E sub 0 in eV. For a mode with omega = 10 to the 20 s⁻¹ (electron rest-mass frequency), compute E sub 0 in MeV.
 
 10.7. Using Eq. (1.10.16), find the total 4D mass of a Kaluza-Klein state with quantum numbers (n, k) = (0, 1) and (n, k) = (1, 0). Which is heavier, and by how many orders of magnitude? What does this tell you about which extra dimension dominates particle physics?
 
@@ -761,7 +779,7 @@ Conceptual Problems (10 total).
 
 10.12. Standard quantum mechanics postulates h-bar as a fundamental constant with no deeper explanation. In the zone architecture, h-bar is derived from four quantities: sigma, eta sub B, xi sub A, and c. What would happen to quantum mechanics if the universe were smaller (say, xi sub A = 10 to the 20 m instead of 10 to the 26 m)? Would h-bar change? How?
 
-10.13. The Heisenberg uncertainty principle Delta x Delta p greater than or equal to h-bar /2 is often described as a "limitation of measurement." Explain why this description is wrong. What is the correct interpretation in terms of membrane modes?
+10.13. The Heisenberg uncertainty principle Delta x Delta p greater than or equal to h-bar /2 is often described as a "limitation of measurement." Explain why this description is wrong. What is the correct interpretation in terms of Firmament modes?
 
 10.14. Why is the eta-dimension (Waters Below) more important than the xi-dimension (Waters Above) for the discrete quantum effects we observe in atomic physics? What does the hierarchy of scales (eta sub B much less than xi sub A) tell us about the relationship between nuclear physics and cosmology?
 
@@ -771,7 +789,7 @@ Conceptual Problems (10 total).
 
 10.17. Explain the physical significance of zero-point energy (Eq. (1.10.61)). Why can't the vacuum have zero energy in the quantized membrane theory? Connect your answer to the uncertainty principle.
 
-10.18. The transition from first to second quantization (§10.7) involves "promoting classical amplitudes to operators." What does this mean physically? Is this a mathematical trick or does it reflect something about the membrane?
+10.18. The transition from first to second quantization (§10.7) involves "promoting classical amplitudes to operators." What does this mean physically? Is this a mathematical trick or does it reflect something about the Firmament?
 
 10.19. Why does angular momentum come in integer multiples of h-bar for bosons but half-integer multiples for fermions? What is the topological distinction between these two cases on the Firmament?
 
@@ -783,9 +801,9 @@ Challenge Problems (10 total).
 
 10.22. Path integrals from membrane sums: The Feynman path integral integral D phi e to the iS[ phi ]/ h-bar sums over all field configurations weighted by the action. Show that, for a free membrane (no potential), the path integral reduces to a Gaussian integral over mode amplitudes a sub n, and that the propagator x sub f | e to the -iHt/ h-bar | x sub i equals the classical membrane Green's function in the appropriate limit. (This previews Vol 4.)
 
-10.23. The cosmological constant problem: The zero-point energy of all membrane modes sums to E sub vac = sum sub n 1 over 2 h-bar omega sub n. This sum diverges. In the zone architecture, the sum is cut off at k sub max approximately 1/ eta sub B (the confining scale). Compute the vacuum energy density rho sub vac and compare it with the observed cosmological constant Lambda approximately 10 to the -52 m⁻². Discuss whether the zone architecture resolves the cosmological constant problem.
+10.23. The cosmological constant problem: The zero-point energy of all Firmament modes sums to E sub vac = sum sub n 1 over 2 h-bar omega sub n. This sum diverges. In the zone architecture, the sum is cut off at k sub max approximately 1/ eta sub B (the confining scale). Compute the vacuum energy density rho sub vac and compare it with the observed cosmological constant Lambda approximately 10 to the -52 m⁻². Discuss whether the zone architecture resolves the cosmological constant problem.
 
-10.24. Bell inequalities and extra dimensions: Two entangled particles A and B are separated in 4D spacetime. Show that their correlation, mediated by the perpendicular dimensions (xi, eta), violates Bell's inequality |S| less than or equal to 2 for the CHSH form. What is the maximum value of |S| predicted by the membrane model? Compare with the quantum mechanical prediction |S| = 2 square root of 2.
+10.24. Bell inequalities and extra dimensions: Two entangled particles A and B are separated in 4D spacetime. Show that their correlation, mediated by the perpendicular dimensions (xi, eta), violates Bell's inequality |S| less than or equal to 2 for the CHSH form. What is the maximum value of |S| predicted by the Firmament model? Compare with the quantum mechanical prediction |S| = 2 square root of 2.
 
 10.25. Warp-factor derivation of the fine-structure constant: The fine-structure constant is the expression. Using the geometric parameters eta sub B, xi sub A, and the Kaluza-Klein reduction, derive an expression for alpha in terms of the same membrane parameters that gave h-bar. (Hint: the expression.)
 
@@ -793,9 +811,9 @@ Challenge Problems (10 total).
 
 10.27. Spin-statistics connection: Fermionic defects (half-integer spin) require 4 pi rotation to return to their initial state. Using the topology of SO(3) (which has pi sub 1(SO(3)) = Z sub 2), show that the exchange of two identical fermions introduces a phase factor of (-1): the Pauli exclusion principle. (This previews Vol 4, Chapter 4.)
 
-10.28. Hydrogen atom from the membrane: Starting from the Schrödinger equation (Eq. (1.10.36)) with the Coulomb potential V(r) = -e to the 2/r (derived in Vol 2 from KK reduction), solve for the energy eigenvalues E sub n = -13.6 eV/n to the 2 using the Bohr-Sommerfeld topological quantization condition. Compare with the full solution using separation of variables in spherical coordinates.
+10.28. Hydrogen atom from the Firmament: Starting from the Schrödinger equation (Eq. (1.10.36)) with the Coulomb potential V(r) = -e to the 2/r (derived in Vol 2 from KK reduction), solve for the energy eigenvalues E sub n = -13.6 eV/n to the 2 using the Bohr-Sommerfeld topological quantization condition. Compare with the full solution using separation of variables in spherical coordinates.
 
-10.29. Vacuum fluctuations and the Casimir effect: Two parallel conducting plates on the Firmament, separated by distance d, restrict the allowed membrane modes between them. Show that the restricted mode sum produces a force per unit area: F/A = - pi to the 2 h-bar c/(240 d to the 4). This is the Casimir effect — a direct, measurable consequence of vacuum quantization on a bounded domain.
+10.29. Vacuum fluctuations and the Casimir effect: Two parallel conducting plates on the Firmament, separated by distance d, restrict the allowed Firmament modes between them. Show that the restricted mode sum produces a force per unit area: F/A = - pi to the 2 h-bar c/(240 d to the 4). This is the Casimir effect — a direct, measurable consequence of vacuum quantization on a bounded domain.
 
 10.30. The ultimate derivation chain: Trace the complete derivation chain from Genesis 1:6 ("Let there be a firmament") to the Schrödinger equation, listing every intermediate step and the equation number where it appears in the Foundations series. Your chain should have no gaps and no imports from standard physics. This is the most important problem in the chapter — it tests whether the derivation is truly self-contained.
 

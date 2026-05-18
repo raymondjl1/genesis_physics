@@ -1,4 +1,4 @@
-# Chapter 7: Membrane Vibration Spectra — Self-Review
+# Chapter 7: Firmament Vibration Spectra — Self-Review
 
 **Date:** 2026-04-11
 **Reviewer:** Author (self-review before agent review)
@@ -47,7 +47,7 @@
 
 4. **Energy harvesting section (§7.8):** Kept brief but technically grounded. Beat frequency calculation (Eq 6.7.12) provides concrete numbers for Ch 10 to reference. The zero-point energy subtlety (can't extract vacuum energy) is addressed.
 
-5. **Circular membrane formula:** The code uses ω = (λ_{n,m}/a)² × v (quadratic in zero/radius), but the correct physical formula is ω = λ_{n,m} × v/a (linear). The physical-scale tables use the correct linear formula. The code's quadratic formula applies to a different eigenvalue problem (plate vibration, not membrane vibration). This discrepancy in the code should be noted but does not affect the physical analysis since we use the analytical formula for physical-scale predictions.
+5. **Circular membrane formula:** The code uses ω = (λ_{n,m}/a)² × v (quadratic in zero/radius), but the correct physical formula is ω = λ_{n,m} × v/a (linear). The physical-scale tables use the correct linear formula. The code's quadratic formula applies to a different eigenvalue problem (plate vibration, not Firmament vibration). This discrepancy in the code should be noted but does not affect the physical analysis since we use the analytical formula for physical-scale predictions.
 
 ## Overall Assessment
 

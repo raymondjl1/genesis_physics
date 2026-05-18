@@ -17,11 +17,11 @@ This test suite validates optics and wave phenomena derived from Genesis Physics
 All calculations derive from:
 - Genesis Physics framework: Maxwell equations from 6D zone architecture
 - Wave equation on Firmament membrane: ∂²ψ/∂t² = c² ∇²ψ
-- EM waves = transverse membrane oscillations
-- QM wave function = membrane displacement amplitude
+- EM waves = transverse Firmament membrane oscillations
+- QM wave function = Firmament membrane displacement amplitude
 - Matter waves: de Broglie λ = h/p
 - Firmament parameters:
-  - Membrane tension σ = 6.0×10⁹⁸ kg/(m·s²)
+  - Firmament tension σ = 6.0×10⁹⁸ kg/(m·s²)
   - Volume mass density μ = 6.7×10⁸¹ kg/m³
   - c² = σ/μ → c = 3.00×10⁸ m/s
   - Fine structure constant: α ≈ 1/137
@@ -40,7 +40,7 @@ from typing import Tuple, List
 # ============================================================================
 
 # Fundamental membrane parameters (from Genesis Physics framework)
-SIGMA = 6.0e98      # Membrane tension [kg/(m·s²)]
+SIGMA = 6.0e98      # Firmament tension [kg/(m·s²)]
 MU = 6.7e81         # Volume mass density [kg/m³]
 C = 3.0e8           # Speed of light [m/s]
 C_SQUARED = C**2    # [m²/s²]
@@ -317,9 +317,9 @@ class SinglePhotonDoubleSlit:
     """
     Test: Interference pattern from quantum probability |ψ|²
 
-    DERIVATION FROM MEMBRANE DYNAMICS:
-    The QM wave function ψ is the membrane displacement amplitude.
-    For a single photon (transverse membrane oscillation):
+    DERIVATION FROM Firmament membrane DYNAMICS:
+    The QM wave function ψ is the Firmament membrane displacement amplitude.
+    For a single photon (transverse Firmament membrane oscillation):
 
         ψ(x) = ψ₁(x) + ψ₂(x)  [superposition from two slits]
 
@@ -407,7 +407,7 @@ class SingleElectronDoubleSlit:
     DERIVATION FROM GENESIS FRAMEWORK:
     The de Broglie relation λ = h/p emerges from:
     - Momentum p from particle kinematics
-    - Planck relation E = hf from membrane oscillations
+    - Planck relation E = hf from Firmament membrane oscillations
     - Wave equation dispersion: ω = ck
 
     For an electron with momentum p = m_e × v:
@@ -487,7 +487,7 @@ class DispersionTest:
     DERIVATION FROM MEMBRANE OSCILLATOR MODEL:
     The Firmament couples to electromagnetic oscillations through
     the Waters Field. When an EM wave passes through a medium,
-    the oscillating field drives membrane oscillations.
+    the oscillating field drives Firmament membrane oscillations.
 
     For a driven harmonic oscillator with damping:
         m ∂²x/∂t² + γ(∂x/∂t) + kx = F₀ cos(ωt)
@@ -578,7 +578,7 @@ class CherenkovRadiationTest:
     """
     Test: Cherenkov angle for particles faster than local light speed
 
-    DERIVATION FROM MEMBRANE WAVE EQUATION:
+    DERIVATION FROM Firmament membrane WAVE EQUATION:
     In a medium with refractive index n, the local light speed is c/n.
 
     When a charged particle moves faster than c/n (i.e., v > c/n),

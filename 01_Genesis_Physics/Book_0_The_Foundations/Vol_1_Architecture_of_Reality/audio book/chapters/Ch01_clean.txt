@@ -81,15 +81,17 @@ Scale parameters:
 
 Fundamental Constants — A Note on Derivability.
 
-Standard physics treats fundamental constants as irreducible brute facts. In Genesis Physics, they are derived from deeper principles — specifically, from the properties of the membrane structure (the Firmament) and the sustaining field couplings.
+Standard physics treats fundamental constants as irreducible brute facts. In Genesis Physics, they are derived from deeper principles — specifically, from the properties of the Firmament structure (the Firmament) and the sustaining field couplings.
 
-Symbol: c. Standard Value: 2.998 times 10 to the 8 m/s. Genesis Physics Status: Derived: c = square root of sigma / mu (membrane wave speed).
+Symbol: c. Standard Value: 2.998 times 10 to the 8 m/s. Genesis Physics Status: Derived: c = square root of sigma / mu (Firmament membrane wave speed).
 Symbol: G. Standard Value: 6.674 times 10 to the -11 m³/(kg·s²). Genesis Physics Status: Derived: geometric coupling from 6D reduction.
 Symbol: h-bar. Standard Value: 1.055 times 10 to the -34 J·s. Genesis Physics Status: Derived: from Atemporal Domain structure.
-Symbol: alpha to the -1. Standard Value: 137.036. Genesis Physics Status: Derived: 1.44 times ( xi sub A / eta sub B).
+Symbol: alpha to the -1. Standard Value: 137.036. Genesis Physics Status: Functional form derived: K times ( xi sub A / eta sub B); coefficient K = 1.44 empirically constrained (derivation deferred to Vol 2).
 Symbol: kappa. Standard Value: [ML⁻¹T⁻³]. Genesis Physics Status: Fundamental sustaining field power density.
 
-Here, sigma is the membrane 3-brane tension (6.0 times 10 to the 98 kg/(m·s²)) and mu is the membrane volume mass density (6.7 times 10 to the 81 kg/m³). These membrane properties, and the derivations connecting them to observed constants, will be developed rigorously in Chapters 4 and 5.
+Here, sigma is the Firmament membrane 3-brane tension (6.0 times 10 to the 98 kg/(m·s²)) and mu is the Firmament membrane volume mass density (6.7 times 10 to the 81 kg/m³). These membrane properties, and the derivations connecting them to observed constants, will be developed rigorously in Chapters 4 and 5.
+
+On the derivation status of sigma and mu. Two things are established and one is in preparation. What is established: (1) the dimensional analysis — sigma has units [M L to the -1 T to the -2] (energy per unit 3-volume, the correct unit for a 3-brane tension), and mu has units [M L to the -3] (mass per unit 3-volume), both derived from the 6D Nambu-Goto action in Chapter 5; (2) the internal consistency — substituting sigma = 6.0 times 10 to the 98 and mu = 6.7 times 10 to the 81 into c to the 2 = sigma / mu gives c = 2.99 times 10 to the 8 m/s, matching the measured speed of light to 0.3%; and the two values are independently constrained by the pair of relations c to the 2 = sigma / mu and G sub 4 = c to the 4/(8 pi sigma ell sub eff to the 2) together with measured c and G sub 4. What is in preparation: the derivation of the absolute magnitudes of sigma and mu from the 6D field equations directly — that is, computing sigma analytically from the zone geometry via the Israel-Darmois junction conditions (Chapter 5, §5.4) without using c or G sub 4 as inputs. That derivation requires solving the 6D Einstein equations in each zone and matching at the Firmament boundary; it is the principal task of Foundations Volume 6. An earlier version of this notation table stated dimensional formulas sigma = c to the 5/( h-bar G) and mu = c to the 3/( h-bar G) that are dimensionally incorrect (they give units [T to the -2] and [L to the -2] respectively, not Firmament-tension or mass-density units). Those formulas were corrected to the present form in April 2026; the corrected values appear in Research/Foundations/AXIOM\MEMBRANE\MECHANICS\_v2.md and are used consistently throughout Chapters 4–5.
 
 Canonical Authority.
 
@@ -549,7 +551,7 @@ In electromagnetism, positive and negative charges are complementary aspects of 
 
 The universe is built on this principle. God does not create a formless field. He creates two complementary fields in tensor product. Their interaction generates all complexity.
 
-In the Genesis narrative: "Let there be a vault between the waters to separate water from water" (Genesis 1:6). Two waters, separated by the vault (raqia, the Firmament). Life emerges precisely where the two waters interact, mediated by the Firmament.
+In the Genesis narrative: "Let there be a vault between the waters to separate water from water" (Genesis 1:6). Two waters, separated by the Firmament (raqia). Life emerges precisely where the two waters interact, mediated by the Firmament.
 
 Formal Statement.
 
@@ -714,7 +716,7 @@ Hebrew Terminology.
 Transliteration: Bara (בָּרָא). Hebrew: create. Meaning: To bring into being; used exclusively with God as subject.
 Transliteration: Elohim (אֱלֹהִים). Hebrew: God. Meaning: Grammatically plural, singular verbs; emphasizes power.
 Transliteration: Mayim (מַיִם). Hebrew: waters. Meaning: Always plural in Hebrew; primordial creation energy.
-Transliteration: Raqia (רָקִיעַ). Hebrew: firmament. Meaning: From root "to beat out, stretch"; the membrane.
+Transliteration: Raqia (רָקִיעַ). Hebrew: firmament. Meaning: From root "to beat out, stretch"; the Firmament.
 
 Master Symbol Table.
 
@@ -804,7 +806,11 @@ Axiom 5 (Fall Degradation): Post-Fall, kappa weakens by a factor (1 - epsilon ),
 
 Axiom 6 (Duality): God creates through the tensor product of two complementary fields — Psi sub A (Waters Above) and Psi sub B (Waters Below) — generating all complexity, interaction, and structure.
 
-These six are interdependent. Remove one, and the structure fails. Modify one, and everything downstream changes. The equation numbers do not change. The notation is locked. The symbols are permanent.
+⚠ SERIES BLOCKER — OP-1: Postulate F (spin-1/2 statistics from a bosonic membrane) is an unresolved open problem. All downstream results involving fermions depend on this assumption. See Vol 6 Chapter 14, OP-1 for the research agenda.
+
+Postulate F (Primordial Spinor Field — Open Resolution). There exists on the Firmament Sigma an independent primordial spinor field psi with a Yukawa coupling to Psi sub A. This postulate is not derived from Axioms 1–6 at the current state of the framework. It is required to apply the Jackiw-Rossi index theorem (Vol 4 Ch 10 §10.5), which binds fermionic zero modes to topological vortices in Psi sub A and thereby produces spin-½ particles with Pauli exclusion. Without Postulate F, the framework derives only bosonic excitations. Research is ongoing to derive psi from the bosonic structure already present, via: (a) supersymmetric extension of the Firmament membrane action, (b) Kähler spinors from the 6D bulk geometry, or (c) higher-form gauge symmetry. None of these routes is yet complete (Vol 4 Ch 10 Open Problem 10.1; GitHub Issue #1, BLOCKER). Postulate F is stated here so that all particle-physics results in Volumes 2–6 that depend on fermionic excitations are explicitly downstream of this open assumption.
+
+These six axioms, plus Postulate F, constitute the foundational structure of this series. The axioms are interdependent — remove one, and the structure fails. Postulate F is distinguished from the axioms in that it is not yet derived from the others; it is a temporary foundational assumption awaiting resolution in a future volume. The equation numbers do not change. The notation is locked. The symbols are permanent.
 
 Some readers will balk: "Why can't we revisit the axioms? Isn't that how science works?" Yes — at the research frontier, where we test boundaries and question assumptions. But a textbook is a consolidated account of what we know, built on stable foundation. Once the foundation is poured and inspected, you do not dig it up in every chapter. If new data should emerge that contradicts any axiom, a future volume will revise the axioms and build a new edifice. But not here.
 

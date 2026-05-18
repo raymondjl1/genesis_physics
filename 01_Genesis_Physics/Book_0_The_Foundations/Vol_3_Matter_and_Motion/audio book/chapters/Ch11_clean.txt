@@ -34,7 +34,7 @@ Here is the plan:
 
 5. From kinetic theory to Navier-Stokes (§11.6) — We close the loop opened in Chapter 5: the viscous stress tensor in the Navier-Stokes equations emerges directly from the Boltzmann equation. Kinetic theory provides the microscopic justification for the dissipative terms that the Degradation Principle demands.
 
-6. Chemistry connections (§11.7) — Transport properties depend on molecular structure, which traces back to the membrane chemistry framework (09-CHEMISTRY_DERIVATION.md). We show how interatomic potentials determine cross-sections and hence transport coefficients.
+6. Chemistry connections (§11.7) — Transport properties depend on molecular structure, which traces back to the Firmament chemistry framework (09-CHEMISTRY_DERIVATION.md). We show how interatomic potentials determine cross-sections and hence transport coefficients.
 
 [Figure — see print edition.]
 
@@ -42,7 +42,7 @@ What You Already Know.
 
 From Chapter 9, you have:
 - The four laws of thermodynamics derived from zone architecture
-- The entropy production rate dS/dt = L Δκ in Phase 3 (Eq. 3.9.26)
+- The entropy production rate d𝒮/dt = L Δκ in Phase 3 (Eq. 3.9.26)
 - Maxwell relations connecting thermodynamic derivatives (Eqs. 3.9.30–3.9.33)
 
 From Chapter 10, you have:
@@ -54,6 +54,8 @@ From Chapter 5, you have:
 - The stress tensor and Navier-Stokes equations (Eqs. 3.5.22–3.5.25)
 - The connection between Waters field equations and fluid dynamics via the Madelung transform
 - The continuum approximation and its validity conditions (Eq. 3.5.1)
+
+[Note: This chapter draws on results from Chapter 5 (Continuum Mechanics and Fluid Dynamics), which is currently in preparation. Specifically, the stress tensor σij and the Navier-Stokes equations (Eqs. 3.5.22–3.5.25) derived there are used here in §11.5 to close the loop between the bottom-up Boltzmann derivation and the top-down Waters-field derivation of viscous fluid dynamics. The continuum approximation validity condition (Eq. 3.5.1: a ≪ λmfp, where a is the molecular diameter and λmfp is the mean free path) is invoked in §11.1 to justify the molecular chaos assumption. Readers working through the series in order should complete Chapter 5 first. The key results needed here are: (1) the Navier-Stokes momentum equation ρ(Dv/Dt) = −∇p + η∇²v + (ζ + η/3)∇(∇·v), (2) the continuum validity criterion a/λmfp ≪ 1 (Knudsen number Kn ≪ 1), and (3) the Madelung transform connecting the Waters field equation to an Euler-like fluid equation. These three results are stated explicitly where used in this chapter, so the chapter remains self-contained even if Chapter 5 is unavailable.]
 
 From Chapter 2, you have:
 - Hamilton's equations and phase-space dynamics
@@ -146,7 +148,7 @@ where:
 
 The gain-loss structure. The collision integral has two parts: f( v sub 1')f( v sub 2') counts particles scattered into velocity v sub 1 (gain), while f( v sub 1)f( v sub 2) counts particles scattered out of velocity v sub 1 (loss). The net effect is to redistribute particles in velocity space until the gain and loss terms balance — which is equilibrium.
 
-Where do the cross-sections come from? In standard kinetic theory, the differential cross-section d sigma /d Omega is taken from experiment or computed from an assumed interatomic potential. In the zone framework, these cross-sections are derived: the interatomic potentials emerge from the Coulomb interaction (traced to the 6D Green's function through KK reduction, Vol 2 Ch 3) and the overlap of membrane mode wavefunctions (09-CHEMISTRY_DERIVATION.md). For neutral atoms, the dominant interaction at relevant temperatures is the Lennard-Jones potential:
+Where do the cross-sections come from? In standard kinetic theory, the differential cross-section d sigma /d Omega is taken from experiment or computed from an assumed interatomic potential. In the zone framework, these cross-sections are derived: the interatomic potentials emerge from the Coulomb interaction (traced to the 6D Green's function through KK reduction, Vol 2 Ch 3) and the overlap of Firmament membrane mode wavefunctions (09-CHEMISTRY_DERIVATION.md). For neutral atoms, the dominant interaction at relevant temperatures is the Lennard-Jones potential:
 
 [Equation — see print edition.]
 
@@ -314,7 +316,7 @@ Two Routes to the Second Law.
 
 We now have two independent derivations of the Second Law within the zone framework:
 
-Route: **Ch 9 (macroscopic)**. Starting Point: Open system axiom + Degradation Principle. Mechanism: κ-coupling mechanism; entropy production rate dS/dt = LΔκ. Result: Second Law as architectural consequence of Phase 3.
+Route: **Ch 9 (macroscopic)**. Starting Point: Open system axiom + Degradation Principle. Mechanism: κ-coupling mechanism; entropy production rate d𝒮/dt = LΔκ. Result: Second Law as architectural consequence of Phase 3.
 Route: **Ch 11 (microscopic)**. Starting Point: Liouville + molecular chaos. Mechanism: Collision-driven redistribution; H-theorem dH/dt ≤ 0. Result: Second Law as kinetic consequence of information loss.
 
 These are not competing derivations — they are the same physics seen at different scales. The Degradation Principle (Vol 1 Ch 8) operates at the architectural level: when κ drops below its sustaining value, the system can no longer maintain ordered configurations against thermal fluctuations. Molecular chaos (Eq. 3.11.8) is the microscopic expression of this same loss of order: correlations between particles are destroyed faster than they are created.

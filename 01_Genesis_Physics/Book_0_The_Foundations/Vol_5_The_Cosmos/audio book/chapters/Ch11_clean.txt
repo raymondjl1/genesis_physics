@@ -13,9 +13,9 @@ What This Chapter Is (and Is Not).
 
 Chapter 10 ended with a confession. The framework, in the linear regime of structure formation, makes predictions for the growth function the expression, the matter power spectrum P(k), and the amplitude sigma sub 8 that are numerically indistinguishable from those of LambdaCDM. There are no discriminators at linear order. The framework and the standard cosmology pass each other in the night without exchanging a word.
 
-This chapter is different. Here, the framework has real discriminators, and they are sharp enough to bet money on. The dark-energy equation of state is predicted to be exactly w sub A = -1, not "close to -1," and the prediction is an identity, not a fit. The dark matter is predicted to have zero nuclear-recoil signature in direct-detection experiments, because what the framework identifies as dark matter is not a particle at all — it is a brane-localized scalar field inherited from Vol 1 Ch 6. The Bullet Cluster's self-interaction cross-section bound is predicted to be overshot by many orders of magnitude below the bound, not touched from above. And the 27/68 ratio that LambdaCDM takes as an input from observation is predicted by the framework as a function of two warp factors set at nuclear and cosmological scales respectively, with no cosmological-scale tuning allowed.
+This chapter is different. Here, the framework has real discriminators, and they are sharp enough to bet money on. The dark-energy equation of state is predicted to be exactly w sub A = -1, not "close to -1," and the prediction is an identity, not a fit. The dark matter is predicted to have zero nuclear-recoil signature in direct-detection experiments, because what the framework identifies as dark matter is not a particle at all — it is a Firmament-localized scalar field inherited from Vol 1 Ch 6. The Bullet Cluster's self-interaction cross-section bound is predicted to be overshot by many orders of magnitude below the bound, not touched from above. And the 27/68 ratio that LambdaCDM takes as an input from observation is predicted by the framework as a function of two warp factors set at nuclear and cosmological scales respectively, with no cosmological-scale tuning allowed.
 
-The chapter is also honest about what it does not deliver. The Vol 4 Ch 9 promise — to explain why the QFT vacuum-energy estimate is a factor of approximately 10 to the 120 larger than the observed cosmological constant — is paid in this chapter, but only partially. The framework's geometric suppression, worked through from the Waters Above projection using the Vol 1 Ch 6 boundary conditions at the Firmament brane, delivers a factor of the expression. That is too much suppression by a factor of approximately 10 to the 40. The chapter does not paper over this. It argues that the framework provides a structural resolution — the right architectural form, the right two scales, the right cancellation — but not yet a numerical resolution. The residual exponent is deferred to Vol 6 and to brane-thickness corrections that the current chapter cannot compute.
+The chapter is also honest about what it does not deliver. The Vol 4 Ch 9 promise — to explain why the QFT vacuum-energy estimate is a factor of approximately 10 to the 120 larger than the observed cosmological constant — is paid in this chapter, but only partially. The framework's geometric suppression, worked through from the Waters Above projection using the Vol 1 Ch 6 boundary conditions at the Firmament, delivers a factor of the expression. That is too much suppression by a factor of approximately 10 to the 40. The chapter does not paper over this. It argues that the framework provides a structural resolution — the right architectural form, the right two scales, the right cancellation — but not yet a numerical resolution. The residual exponent is deferred to Vol 6 and to Firmament-thickness corrections that the current chapter cannot compute.
 
 Put compactly: the chapter's mood is modest confidence. Unlike Ch 10, it is not coincidence. Unlike Ch 13 (the fine-structure derivation that closes the volume), it is not yet a triumph. It is the middle chapter of the argument — the chapter where the framework stops being a retelling of LambdaCDM in different words and starts being a theory that could be wrong.
 
@@ -27,43 +27,45 @@ Before writing anything new, it is worth listing precisely which results from pr
 
 Vol 1 Ch 6 — the bulk profiles and the boundary conditions.
 
-Vol 1 Ch 6 defined the two Waters fields. Psi sub A lives in the Waters Above region of the bulk — the slab of the six-dimensional zone manifold at xi > 0 above the Firmament brane — and carries the bulk potential V sub A( Psi sub A) whose minimum is at some equilibrium value Psi sub A = Psi sub A to the. The boundary condition at the Firmament brane is that Psi sub A asymptotes to Psi sub A to the for xi xi sub A, with xi sub A approximately equal to 3 times 10 to the 26 m the characteristic xi-direction extent of the Waters Above domain (Vol 1 Eq 1.6.31).
+Vol 1 Ch 6 defined the two Waters fields. Psi sub A lives in the Waters Above region of the bulk — the slab of the six-dimensional zone manifold at xi > 0 above the Firmament — and carries the bulk potential V sub A( Psi sub A) whose minimum is at some equilibrium value Psi sub A = Psi sub A to the. The boundary condition at the Firmament is that Psi sub A asymptotes to Psi sub A to the for xi xi sub A, with xi sub A approximately equal to 3 times 10 to the 26 m the characteristic xi-direction extent of the Waters Above domain (Vol 1 Eq 1.6.31).
 
-Psi sub B lives on the brane itself and carries a potential V sub B( Psi sub B) whose minimum is at zero. The linearized field equation for Psi sub B around a baryonic source is the brane-localized Yukawa equation, whose Green's function (Vol 1 Eq 1.6.35) is
-
-[Equation — see print edition.]
-
-where m sub B is the brane-localized mass of the field, and whose characteristic scale eta sub B approximately equal to 1.3 times 10 to the -15 m is set by the nuclear-scale eta-direction warp factor (Vol 1 Eq 1.6.36).
-
-When the source is extended and the nonlinear back-reaction is carried through — this was done in Vol 1 §6.4, culminating in Eq (1.6.37) — the steady-state density profile of the Psi sub B cloud around a baryonic distribution takes a specific form with rho sub B proportional to r to the -1 inside a scale radius r sub s and rho sub B proportional to r to the -3 outside. This is the Navarro–Frenk–White profile, and its appearance here is not borrowed from the N-body simulation literature — it is a consequence of the brane field equation plus the Jeans equation for isotropic velocity dispersion.
-
-Vol 1 Ch 6 also computed the projected stress-energy of Psi sub A onto the brane. At the minimum of V sub A, the projection is (Vol 1 Eq 1.6.32)
+Psi sub B lives on the Firmament itself and carries a potential V sub B( Psi sub B) whose minimum is at zero. The linearized field equation for Psi sub B around a baryonic source is the Firmament-localized Yukawa equation, whose Green's function (Vol 1 Eq 1.6.35) is
 
 [Equation — see print edition.]
 
-where gamma sub mu nu is the induced metric on the brane. This is the stress-energy of a cosmological constant with density rho sub A = Lambda sub A to the (4) and pressure p sub A = - Lambda sub A to the (4) c to the 2, i.e., equation of state w sub A = -1 exactly. That "exactly" is the whole game; we return to it in §11.6.
+where m sub B is the Firmament-localized mass of the field, and whose characteristic scale eta sub B approximately equal to 1.3 times 10 to the -15 m is set by the nuclear-scale eta-direction warp factor (Vol 1 Eq 1.6.36).
 
-Finally, Vol 1 Ch 6 §6.5 introduced the brane self-coupling lambda sub B for the Psi sub B field — the coefficient of the Psi sub B to the 4 term in V sub B. Order-of-magnitude estimates give lambda sub B approximately 10 to the -30 in dimensionless brane units; this is the number that will enter the Bullet Cluster self-interaction calculation in §11.5.
+When the source is extended and the nonlinear back-reaction is carried through — this was done in Vol 1 §6.4, culminating in Eq (1.6.37) — the steady-state density profile of the Psi sub B cloud around a baryonic distribution takes a specific form with rho sub B proportional to r to the -1 inside a scale radius r sub s and rho sub B proportional to r to the -3 outside. This is the Navarro–Frenk–White profile, and its appearance here is not borrowed from the N-body simulation literature — it is a consequence of the Firmament field equation plus the Jeans equation for isotropic velocity dispersion.
+
+Vol 1 Ch 6 also computed the projected stress-energy of Psi sub A onto the Firmament. At the minimum of V sub A, the projection is (Vol 1 Eq 1.6.32)
+
+[Equation — see print edition.]
+
+where gamma sub mu nu is the induced metric on the Firmament. This is the stress-energy of a cosmological constant with density rho sub A = Lambda sub A to the (4) and pressure p sub A = - Lambda sub A to the (4) c to the 2, i.e., equation of state w sub A = -1 exactly. That "exactly" is the whole game; we return to it in §11.6.
+
+Finally, Vol 1 Ch 6 §6.5 introduced the Firmament self-coupling lambda sub B for the Psi sub B field — the coefficient of the Psi sub B to the 4 term in V sub B. Order-of-magnitude estimates give lambda sub B approximately 10 to the -30 in dimensionless Firmament units; this is the number that will enter the Bullet Cluster self-interaction calculation in §11.5.
 
 Vol 2 Ch 2 and Ch 8 — Newtonian gravity and gravitational lensing.
 
-Vol 2 Ch 2 derived Newtonian gravity from the Firmament eta-equation. The end result is the standard Poisson equation nabla to the 2 Phi = 4 pi G sub 4 rho, with the gravitational potential Phi sourced by all the energy on the brane, not just baryons. Vol 2 Ch 8 then derived the linearized GR lensing deflection angle. Neither of these volumes introduces anything exotic; the chapter uses them because the rotation-curve calculation in §11.3 needs the Newtonian potential and the lensing calculation in §11.4 needs the linearized deflection.
+Vol 2 Ch 2 derived Newtonian gravity from the Firmament eta-equation. The end result is the standard Poisson equation nabla to the 2 Phi = 4 pi G sub 4 rho, with the gravitational potential Phi sourced by all the energy on the Firmament, not just baryons. Vol 2 Ch 8 then derived the linearized GR lensing deflection angle. Neither of these volumes introduces anything exotic; the chapter uses them because the rotation-curve calculation in §11.3 needs the Newtonian potential and the lensing calculation in §11.4 needs the linearized deflection.
 
 Vol 4 Ch 9 — the cosmological-constant problem, deferred.
 
 Vol 4 Ch 9 is the chapter the reader should have most vividly in mind. It computed the QFT vacuum energy by summing zero-point modes up to the zone cutoff and got the expression, which is of order 10 to the 71 GeV to the 4 in natural units. The observed cosmological constant is the expression. The discrepancy is a factor of approximately 10 to the 118, which is the famous 120-order-of-magnitude problem (the exact exponent depends on which cutoff you use; it has ranged in the literature from 10 to the 120 to 10 to the 122).
 
-Vol 4 Ch 9 §9.7 did not resolve this problem — it named it and it made a promise: Vol 5 would show that the Waters Above projection is not the QFT vacuum energy of Vol 4 Ch 9. The Waters Above rho sub A is a separate quantity, set by the bulk minimum of V sub A, and its smallness relative to the QFT estimate is explained by a geometric ratio of bulk and brane scales. The exponent and the precise cancellation were deferred to this chapter.
+Vol 4 Ch 9 §9.7 did not resolve this problem — it named it and it made a promise: Vol 5 would show that the Waters Above projection is not the QFT vacuum energy of Vol 4 Ch 9. The Waters Above rho sub A is a separate quantity, set by the bulk minimum of V sub A, and its smallness relative to the QFT estimate is explained by a geometric ratio of bulk and Firmament scales. The exponent and the precise cancellation were deferred to this chapter.
 
 Section 11.7 pays this promise. The reader will see that the promise is paid partially: structurally, yes; numerically, with a residual.
 
 Vol 5 Ch 8 — the four density parameters.
 
-Vol 5 Ch 8 derived, from the Friedmann equation on the brane plus the inventory of Waters Above, Waters Below, baryons, and radiation, the four density parameters today:
+Vol 5 Ch 8 derived, from the Friedmann equation on the Firmament plus the inventory of Waters Above, Waters Below, baryons, and radiation, the four density parameters today:
 
 [Equation — see print edition.]
 
 Ch 8 also wrote the acceleration equation (Eq 5.8.29) and the formula for the onset of acceleration the expression (Eq 5.8.44). These numbers and these formulas are taken as given here and pushed against the Pantheon+ and DES Y6 data in §11.6.
+
+Note on the 68/27/5 split: The density fractions the expression are classified in this chapter as a prediction derived from zone geometry (warp-factor integrals fixed at non-cosmological scales in Vol 1 §6.7). This classification is correct if the matching parameters ( xi sub A, gamma , sigma ) in Vol 1 §6.7 were genuinely fixed by non-cosmological inputs before the cosmological ratios were computed. If instead any of the warp-factor normalizations were adjusted to reproduce Omega sub A = 0.684, the result would be a consistency check rather than a prediction. The distinction is tracked in Research Task RT-5.ΩA (Ch 8). This chapter inherits the classification from Ch 8 and propagates it faithfully.
 
 Vol 5 Ch 10 — the linear regime coincidence.
 
@@ -71,7 +73,7 @@ Vol 5 Ch 10 confirmed that the framework's the expression, P(k), and sigma sub 8
 
 The Identification: Waters Above ≡ Dark Energy, Waters Below ≡ Dark Matter.
 
-The first load-bearing statement of the chapter is an identification, not a hypothesis. Vol 1 Ch 6 defined two fields and derived their equations of motion. Vol 5 Ch 8 projected their stress-energies onto the brane. The projections yield, on inspection, the two canonical fluids of modern cosmology.
+The first load-bearing statement of the chapter is an identification, not a hypothesis. Vol 1 Ch 6 defined two fields and derived their equations of motion. Vol 5 Ch 8 projected their stress-energies onto the Firmament. The projections yield, on inspection, the two canonical fluids of modern cosmology.
 
 Let us write the identifications cleanly.
 
@@ -89,7 +91,7 @@ A reader who has skimmed Vol 1 might object: "But those identifications are just
 
 [Figure — see print edition.]
 
-Before turning to galaxies, one technical remark. The two projections (5.11.1) and (5.11.2) have different geometric characters. The Waters Above projection is uniform: it is the same Lambda sub A to the (4) everywhere on the brane, because Psi sub A sits at its minimum uniformly. The Waters Below projection is lumpy: it tracks the Yukawa cloud that surrounds each baryonic source, so its magnitude varies with position. That is why Waters Above drives the expansion of the universe (it is smooth) and Waters Below drives the flat rotation curves of galaxies (it is clumpy). The two are not two fluids; they are two geometric boundary conditions on the same brane, one of which happens to be uniform and the other of which happens to be lumpy. The duality of dark energy (smooth) and dark matter (clumpy) in cosmology is therefore not a coincidence in the framework — it is a geometric statement about how two different bulk fields project onto the same brane.
+Before turning to galaxies, one technical remark. The two projections (5.11.1) and (5.11.2) have different geometric characters. The Waters Above projection is uniform: it is the same Lambda sub A to the (4) everywhere on the Firmament, because Psi sub A sits at its minimum uniformly. The Waters Below projection is lumpy: it tracks the Yukawa cloud that surrounds each baryonic source, so its magnitude varies with position. That is why Waters Above drives the expansion of the universe (it is smooth) and Waters Below drives the flat rotation curves of galaxies (it is clumpy). The two are not two fluids; they are two geometric boundary conditions on the same Firmament, one of which happens to be uniform and the other of which happens to be lumpy. The duality of dark energy (smooth) and dark matter (clumpy) in cosmology is therefore not a coincidence in the framework — it is a geometric statement about how two different bulk fields project onto the same Firmament.
 
 Galactic Scale: Rotation Curves and Tully–Fisher.
 
@@ -97,7 +99,7 @@ The NFW profile from Psi sub B.
 
 The rotation-curve problem in galaxies is simple to state. The visible mass in a disk galaxy — stars plus gas — is concentrated within a few kiloparsecs. Newtonian gravity applied to that mass alone gives a Keplerian velocity profile v sub c(r) proportional to r to the -1/2 outside the visible disk. The observed rotation curves are flat, or even slightly rising, out to tens of kiloparsecs. Something else is providing the gravitational pull. The standard model says it is a halo of cold dark matter particles. The framework says it is the Psi sub B cloud inherited from Vol 1 Ch 6.
 
-What does the Psi sub B cloud look like around a galactic baryonic distribution? The answer is a derivation, not a fit. Start from the linearized brane field equation (Vol 1 Eq 1.6.34):
+What does the Psi sub B cloud look like around a galactic baryonic distribution? The answer is a derivation, not a fit. Start from the linearized Firmament field equation (Vol 1 Eq 1.6.34):
 
 [Equation — see print edition.]
 
@@ -105,13 +107,13 @@ where kappa sub B is the baryon–Waters Below coupling set in Vol 1 §6.5 and r
 
 [Equation — see print edition.]
 
-This is the linear solution. It does not yet give a density profile; it gives a field configuration. The density profile enters through the energy density of the field, which at leading order in Psi sub B is the expression. At the galactic scales of interest (r much greater than m sub B to the -1, because the Yukawa scale is microscopic; and also r much less than cosmological), the nonlinear back-reaction through the brane self-coupling lambda sub B Psi sub B to the 4 dominates the equilibrium, not the linear response.
+This is the linear solution. It does not yet give a density profile; it gives a field configuration. The density profile enters through the energy density of the field, which at leading order in Psi sub B is the expression. At the galactic scales of interest (r much greater than m sub B to the -1, because the Yukawa scale is microscopic; and also r much less than cosmological), the nonlinear back-reaction through the Firmament self-coupling lambda sub B Psi sub B to the 4 dominates the equilibrium, not the linear response.
 
 Vol 1 §6.4 carried through this back-reaction — coupling (5.11.3) to the Jeans equation for a self-consistent steady state with isotropic velocity dispersion — and derived a closed-form steady-state density profile. The result (Vol 1 Eq 1.6.37), transcribed here, is
 
 [Equation — see print edition.]
 
-with two parameters rho sub s (a characteristic density) and r sub s (a scale radius) that are determined by the baryonic content and the boundary conditions of the particular galaxy. This is the Navarro–Frenk–White (NFW) density profile. It is identical in form to the profile that N-body simulations of collisionless cold dark matter produce as their universal late-time equilibrium. The framework reaches it from a different direction: not from gravitational N-body dynamics of a particle swarm, but from the brane field equation of Psi sub B and the Jeans equation for its self-consistent steady state. That the two routes converge on the same profile is an encouraging coincidence for the framework and not something the framework could have engineered after the fact — Eq (5.11.6) drops out of the Vol 1 calculation with no knobs to turn.
+with two parameters rho sub s (a characteristic density) and r sub s (a scale radius) that are determined by the baryonic content and the boundary conditions of the particular galaxy. This is the Navarro–Frenk–White (NFW) density profile. It is identical in form to the profile that N-body simulations of collisionless cold dark matter produce as their universal late-time equilibrium. The framework reaches it from a different direction: not from gravitational N-body dynamics of a particle swarm, but from the Firmament field equation of Psi sub B and the Jeans equation for its self-consistent steady state. That the two routes converge on the same profile is an encouraging coincidence for the framework and not something the framework could have engineered after the fact — Eq (5.11.6) drops out of the Vol 1 calculation with no knobs to turn.
 
 [Figure — see print edition.]
 
@@ -119,7 +121,7 @@ Why does the profile have this particular shape — r to the -1 inside, r to the
 
 A small but important point before we move on. The NFW profile (5.11.6) is often criticized in the LambdaCDM literature for having a cusp at the center where the observed profiles of some dwarf galaxies appear to be cored instead — the "cusp–core problem." The framework inherits this tension: Eq (5.11.6) is also a cusp at the center. The framework's defence is the same as LambdaCDM's: the cusp is the collisionless equilibrium, and realistic baryonic feedback (supernova-driven gas outflows) converts an inner cusp into a core on a dynamical time. The framework does not claim to solve the cusp–core problem here; it claims to reproduce the halo shape that collisionless LambdaCDM predicts, and no more. A future paper on baryonic feedback in the Waters Below halo is a natural extension, but it is not load-bearing for this chapter.
 
-One more remark. The derivation of Eq (5.11.6) from the brane field equation plus the Jeans equation is not tied to any assumption about an initial power spectrum of fluctuations. The NFW profile in LambdaCDM emerges from N-body simulations that start with a nearly scale-invariant initial spectrum and let gravity do its work. The framework's NFW emerges from a static field equation that does not know about an initial spectrum at all. That the two routes converge on the same profile is a nontrivial statement about the attractor character of NFW — it is what you get at late times regardless of whether you start from a collisionless particle swarm or from a brane scalar field obeying (5.11.3). This convergence is one of the chapter's quieter encouragements for the framework's identification of Waters Below with dark matter.
+One more remark. The derivation of Eq (5.11.6) from the Firmament field equation plus the Jeans equation is not tied to any assumption about an initial power spectrum of fluctuations. The NFW profile in LambdaCDM emerges from N-body simulations that start with a nearly scale-invariant initial spectrum and let gravity do its work. The framework's NFW emerges from a static field equation that does not know about an initial spectrum at all. That the two routes converge on the same profile is a nontrivial statement about the attractor character of NFW — it is what you get at late times regardless of whether you start from a collisionless particle swarm or from a Firmament scalar field obeying (5.11.3). This convergence is one of the chapter's quieter encouragements for the framework's identification of Waters Below with dark matter.
 
 The circular velocity formula and asymptotic flatness.
 
@@ -168,11 +170,11 @@ Rotation-curve fits with two parameters per galaxy are the easy test. The harder
 
 The slope is 4, and it is extremely tight: SPARC galaxies scatter around (5.11.12) with an rms smaller than the observational uncertainties. This is the relation that MOND famously predicts from its acceleration scale a sub 0; any framework claiming to reproduce galactic dark-matter phenomenology has to reproduce it too.
 
-The framework does. The argument is the one sketched in the Phase 1 "why" chain: the baryonic disk and the Waters Below halo equilibrate through the brane–bulk coupling G sub int from Vol 1 §6.5, which fixes the ratio of halo VEV to baryonic mass. Schematically, the equilibrium condition (derived from the coupled Vol 1 §6.5 perturbation equations in the large-radius, steady-state limit) reads
+The framework does. The argument is the one sketched in the Phase 1 "why" chain: the baryonic disk and the Waters Below halo equilibrate through the Firmament–bulk coupling G sub int from Vol 1 §6.5, which fixes the ratio of halo VEV to baryonic mass. Schematically, the equilibrium condition (derived from the coupled Vol 1 §6.5 perturbation equations in the large-radius, steady-state limit) reads
 
 [Equation — see print edition.]
 
-where ell _ is the characteristic brane-scale length set by the brane tension sigma. The fourth power of v sub c appears because the equilibrium is set by the kinetic-energy density of the halo (rho v to the 2) balancing the potential-energy gradient from the baryonic source, and both scale as v to the 2; the product is v to the 4. Solving (5.11.13) for M sub b gives
+where ell _ is the characteristic Firmament-scale length set by the Firmament tension sigma. The fourth power of v sub c appears because the equilibrium is set by the kinetic-energy density of the halo (rho v to the 2) balancing the potential-energy gradient from the baryonic source, and both scale as v to the 2; the product is v to the 4. Solving (5.11.13) for M sub b gives
 
 [Equation — see print edition.]
 
@@ -180,19 +182,19 @@ which is the BTFR with slope exactly 4 and normalization
 
 [Equation — see print edition.]
 
-Plugging in the Vol 1 §6.5 values for G sub int and ell _ gives A sub fw approximately equal to 40–the expression, depending on the precision of the brane-tension determination. This straddles the McGaugh measurement of approximately equal to 47 without tuning. The slope of 4 is a prediction, not a fit.
+Plugging in the Vol 1 §6.5 values for G sub int and ell _ gives A sub fw approximately equal to 40–the expression, depending on the precision of the Firmament-tension determination. This straddles the McGaugh measurement of approximately equal to 47 without tuning. The slope of 4 is a prediction, not a fit.
 
 [Figure — see print edition.]
 
 A caveat. The derivation of (5.11.14) from the Vol 1 §6.5 perturbation equations is at leading order in the large-radius, equilibrium limit. A full numerical solution of the coupled Psi sub A, Psi sub B system in a realistic disk geometry has not yet been done; this is research gap G3 from the chapter spec. The framework's BTFR slope is good to leading order, and that is enough to satisfy the current observational precision. Precision BTFR tests — which will be possible once the next generation of galaxy surveys is complete — will demand a better calculation. That calculation is left to Vol 6 and to a future numerical paper.
 
-A closer look at the brane–bulk coupling argument.
+A closer look at the Firmament–bulk coupling argument.
 
 Because the BTFR slope of 4 is one of the chapter's cleaner discriminators, it is worth spending a little more time on the derivation. The question is: where exactly does the fourth power come from?
 
 Return to the coupled perturbation equations of Vol 1 §6.5. In the large-radius limit, with the baryonic source treated as a point mass M sub b at the center of a disk and the Psi sub B cloud treated as a quasi-static halo in isotropic velocity equilibrium, the equilibrium condition reduces to a balance between two terms: the gravitational acceleration from the enclosed mass (baryonic plus Psi sub B-cloud), and the isotropic velocity-dispersion gradient of the Psi sub B cloud. The two terms scale as GM/r to the 2 and v to the 2/r respectively, where v is the characteristic velocity of the cloud and M is the total enclosed mass.
 
-Setting them equal gives the virial relation v to the 2 approximately GM/r, which for a halo with M approximately rho sub s r sub s to the 3 and the Jeans equilibrium rho sub s r sub s to the 2 approximately v to the 2/G becomes self-consistent. But the BTFR slope requires one more piece: the coupling between the baryonic source and the halo VEV. Vol 1 §6.5 shows that this coupling has a specific form — the brane–bulk coupling G sub int enters multiplicatively on the right-hand side of the Psi sub B field equation, and in the steady state this multiplicative coupling ties the halo density to the baryonic mass through a linear relationship: the expression.
+Setting them equal gives the virial relation v to the 2 approximately GM/r, which for a halo with M approximately rho sub s r sub s to the 3 and the Jeans equilibrium rho sub s r sub s to the 2 approximately v to the 2/G becomes self-consistent. But the BTFR slope requires one more piece: the coupling between the baryonic source and the halo VEV. Vol 1 §6.5 shows that this coupling has a specific form — the Firmament–bulk coupling G sub int enters multiplicatively on the right-hand side of the Psi sub B field equation, and in the steady state this multiplicative coupling ties the halo density to the baryonic mass through a linear relationship: the expression.
 
 Combining this linear coupling with the virial relation the expression gives
 
@@ -202,7 +204,7 @@ and using the Jeans equilibrium once more to eliminate r sub s in favor of v (i.
 
 [Equation — see print edition.]
 
-which is Eq (5.11.13) with the fourth power made explicit. The fourth power is thus the square of the virial relation, which arose because both the kinetic-energy density rho v to the 2 and the potential-energy density rho times GM/r scale as rho v to the 2, and their equality gives the expression, and the self-consistency of the Jeans equation with the linear brane–bulk coupling then closes the loop.
+which is Eq (5.11.13) with the fourth power made explicit. The fourth power is thus the square of the virial relation, which arose because both the kinetic-energy density rho v to the 2 and the potential-energy density rho times GM/r scale as rho v to the 2, and their equality gives the expression, and the self-consistency of the Jeans equation with the linear Firmament–bulk coupling then closes the loop.
 
 A reader who finds this derivation hand-wavy is right to do so. The full numerical solution of the coupled Psi sub A, Psi sub B system in a realistic rotating disk — which would derive Eq (5.11.14) without any of the dimensional-analysis shortcuts — is research gap G3. The leading-order argument is enough to fix the slope at 4 and the normalization within a factor of two, which is enough for the current observational precision. It is not enough for the next decade.
 
@@ -210,7 +212,7 @@ What the framework does not predict at the galactic scale.
 
 The framework predicts the shape of the halo density profile (NFW, Eq 5.11.6), the slope of the BTFR (4, Eq 5.11.14), and the asymptotic flatness of v sub c(r). It does not predict, from first principles, the individual rho sub s and r sub s of a specific galaxy. Those are set by the particular baryonic history of that galaxy and must be fit per object, exactly as in LambdaCDM.
 
-This is important to state plainly. The epistemic position of the framework at the galactic scale is not "we predict everything"; it is "we predict the same things that N-body LambdaCDM predicts, but from a different source — a brane field equation instead of collisionless particle dynamics." The win is not "fewer free parameters." The win is "the free parameters are derived from a field equation we already had for other reasons." That is research gap G2, stated explicitly.
+This is important to state plainly. The epistemic position of the framework at the galactic scale is not "we predict everything"; it is "we predict the same things that N-body LambdaCDM predicts, but from a different source — a Firmament field equation instead of collisionless particle dynamics." The win is not "fewer free parameters." The win is "the free parameters are derived from a field equation we already had for other reasons." That is research gap G2, stated explicitly.
 
 Cluster Scale: Gravitational Lensing.
 
@@ -232,13 +234,13 @@ The framework's prediction for the convergence is then simply
 
 [Equation — see print edition.]
 
-which is identical in form to the standard LambdaCDM NFW prediction — because both are using the same NFW profile. The framework's contribution is to have derived the NFW profile from a brane field equation; everything after (5.11.6) is ordinary weak-lensing mathematics.
+which is identical in form to the standard LambdaCDM NFW prediction — because both are using the same NFW profile. The framework's contribution is to have derived the NFW profile from a Firmament field equation; everything after (5.11.6) is ordinary weak-lensing mathematics.
 
 [Figure — see print edition.]
 
 The CLASH (Postman et al. 2012) and Hubble Frontier Fields (Lotz et al. 2017) lensing maps provide the cleanest tests. A typical cluster at z approximately 0.3 with virial mass M sub 200 approximately 10 to the 15 M_ has Einstein radius theta sub E approximately 30'' and convergence profile that falls roughly as theta to the -1 inside theta sub E and theta to the -2 outside. Fitting Eq (5.11.18) to CLASH convergence profiles for the 20 clusters in the sample gives chi to the 2 sub red approximately 1.1 with two parameters per cluster (rho sub s, r sub s) — identical, again, to the LambdaCDM NFW fits reported by the CLASH collaboration.
 
-The honest summary here is the same as for rotation curves: the framework reproduces the observed cluster lensing signal with the same number of per-cluster parameters as LambdaCDM, because both predictions reduce to the same NFW profile. The difference is that the framework's NFW is derived from a brane field equation, not from a collisionless-particle N-body simulation.
+The honest summary here is the same as for rotation curves: the framework reproduces the observed cluster lensing signal with the same number of per-cluster parameters as LambdaCDM, because both predictions reduce to the same NFW profile. The difference is that the framework's NFW is derived from a Firmament field equation, not from a collisionless-particle N-body simulation.
 
 Strong lensing and the Einstein radius.
 
@@ -260,7 +262,7 @@ MOND, which sources lensing from the baryonic distribution only, cannot naturall
 
 What the framework predicts for the Bullet Cluster.
 
-The framework's Psi sub B cloud around a baryonic source is not a particle swarm — it is a brane-localized scalar field in a Yukawa-like configuration. Does it pass through a cluster collision, or does it interact with itself?
+The framework's Psi sub B cloud around a baryonic source is not a particle swarm — it is a Firmament-localized scalar field in a Yukawa-like configuration. Does it pass through a cluster collision, or does it interact with itself?
 
 The relevant quantity is the self-interaction cross section per unit mass sigma sub SI/m sub B. For a scalar field with quartic self-coupling lambda sub B Psi sub B to the 4 / 4!, the elastic self-scattering cross section at typical halo velocities v approximately 10 to the 3 km/s is (dimensional analysis plus standard phi to the 4 theory)
 
@@ -270,7 +272,7 @@ Converting to cross section per unit mass by dividing by the effective field qua
 
 [Equation — see print edition.]
 
-Plugging in the Vol 1 §6.5 values — lambda sub B approximately 10 to the -30 (dimensionless) and m sub B approximately 10 to the -22 eV (the characteristic scale of the brane Yukawa, which at the cluster virial scale acts essentially as a wave-like dark matter) — gives
+Plugging in the Vol 1 §6.5 values — lambda sub B approximately 10 to the -30 (dimensionless) and m sub B approximately 10 to the -22 eV (the characteristic scale of the Firmament Yukawa, which at the cluster virial scale acts essentially as a wave-like dark matter) — gives
 
 [Equation — see print edition.]
 
@@ -292,7 +294,7 @@ Why MOND does not pass this test, and why the framework does.
 
 The distinction is architectural, not quantitative. MOND sources lensing and rotation curves from a single entity — the baryonic mass, modified by a nonlinear gravity law. In the Bullet Cluster, the baryonic mass (dominated by the X-ray gas) is in the wrong place for the observed lensing; MOND then has to add a separate dark component to fix it.
 
-The framework has two entities from the start: baryons (on the brane, collisional) and Waters Below (on the brane, collisionless by virtue of weak self-coupling). The Bullet Cluster is exactly what the framework expects when two such entities collide: the collisional one shocks, the collisionless one sails through. The framework does not pass the Bullet Cluster test by adding a component; it passes it by the component structure it already had from Vol 1 Ch 6.
+The framework has two entities from the start: baryons (on the Firmament, collisional) and Waters Below (on the Firmament, collisionless by virtue of weak self-coupling). The Bullet Cluster is exactly what the framework expects when two such entities collide: the collisional one shocks, the collisionless one sails through. The framework does not pass the Bullet Cluster test by adding a component; it passes it by the component structure it already had from Vol 1 Ch 6.
 
 Cosmic Scale: Accelerating Expansion.
 
@@ -302,7 +304,7 @@ The Vol 5 Ch 8 acceleration equation (Eq 5.8.29) states
 
 [Equation — see print edition.]
 
-where rho and p are the total energy density and pressure on the brane. Using the inventory from Ch 8 — Omega sub A = 0.684 (with w sub A = -1), Omega sub B = 0.266, Omega sub b = 0.049 (with w sub B = w sub b = 0), and Omega sub r approximately equal to 9.2 times 10 to the -5 (with w sub r = 1/3) — and dividing by H to the 2, one gets the present-day deceleration parameter:
+where rho and p are the total energy density and pressure on the Firmament. Using the inventory from Ch 8 — Omega sub A = 0.684 (with w sub A = -1), Omega sub B = 0.266, Omega sub b = 0.049 (with w sub B = w sub b = 0), and Omega sub r approximately equal to 9.2 times 10 to the -5 (with w sub r = 1/3) — and dividing by H to the 2, one gets the present-day deceleration parameter:
 
 [Equation — see print edition.]
 
@@ -334,7 +336,7 @@ w sub A = -1 as an identity.
 
 The accelerating expansion, in the framework, is driven by the Waters Above projection (5.11.1), which has equation of state w sub A = -1 exactly. Let us be precise about what "exactly" means.
 
-The Waters Above field Psi sub A sits at the minimum of its bulk potential V sub A. At the minimum, partial V sub A / partial Psi sub A = 0 and the expression (a constant). The brane-projected stress-energy tensor from the Psi sub A sector is, at leading order and at the minimum,
+The Waters Above field Psi sub A sits at the minimum of its bulk potential V sub A. At the minimum, partial V sub A / partial Psi sub A = 0 and the expression (a constant). The Firmament-projected stress-energy tensor from the Psi sub A sector is, at leading order and at the minimum,
 
 [Equation — see print edition.]
 
@@ -367,13 +369,17 @@ The framework is consistent with CMB-anchored H sub 0 and with Pantheon+ q sub 0
 
 The Cosmological-Constant Problem (Vol 4 Ch 9 Promise Paid).
 
-And now we come to the chapter's hardest section, the one that Vol 4 Ch 9 left us with a bill for. The bill reads: the QFT vacuum energy estimated in Vol 4 Ch 9 §9.6 is a factor of roughly 10 to the 120 larger than the observed cosmological constant. Explain the discrepancy or admit you cannot.
+And now we come to the chapter's hardest section, the one that Vol 4 Ch 9 left us with a bill for. The bill reads: the QFT vacuum energy estimated in Vol 4 Ch 9 §9.6 is a factor of roughly 10 to the 41 larger than the observed cosmological constant. Explain the discrepancy or admit you cannot.
+
+⚠ CT-4.Λ Correction — Rev. 2026-05-15. The original version of this section was written with the expression GeV (Planck scale), giving rho sub vac approximately 10 to the 71 GeV to the 4 and a discrepancy of approximately 10 to the 118. This was an arithmetic error in Vol 4 Ch 8 Eq (4.8.10b). The correct zone cutoff is the expression (hadronic/QCD scale), which gives the expression and reduces the discrepancy from approximately 10 to the 118 to approximately 10 to the 41. Furthermore, the Waters suppression mechanism with exponent n = 1 (one equilibration channel) gives the expression, which is within 20% of the observed value with zero free parameters — the compact formula being the expression. Section §11.7.2 onwards discusses the Waters Above projection mechanism (rho sub A), which is a complementary physical picture. The two-scale residual analysis in §11.7.3 should be read in light of the corrected rho sub vac: the remaining open problem is to derive n = 1 from the 6D Waters-Firmament equations (Research Task CT-4.Λ-open-waters). See LAMBDAZONECORRECTION_CT4L.md for full derivation.
 
 What Vol 4 Ch 9 left us with.
 
-Recall the Vol 4 Ch 9 result. Summing zero-point modes of the standard-model quantum fields up to the zone cutoff the expression GeV gives a vacuum energy density
+Recall the Vol 4 Ch 9 result (corrected per CT-4.Λ, Rev. 2026-05-15). Summing zero-point modes of the standard-model quantum fields up to the zone cutoff the expression (the hadronic/QCD scale) gives a vacuum energy density
 
 [Equation — see print edition.]
+
+[SUPERSEDED value — retained for reference: original version stated the expression GeV giving the expression. This was wrong by a factor approximately 10 to the 77 because it confused 1/ eta sub B in SI units (m⁻¹) with h-bar c/ eta sub B in natural units (GeV).]
 
 The observed cosmological constant is
 
@@ -383,23 +389,25 @@ The ratio is
 
 [Equation — see print edition.]
 
-Vol 4 Ch 9 §9.7 observed that the framework has two natural length scales — the brane-scale eta sub B (nuclear, approximately 10 to the -15 m) and the Waters Above domain scale xi sub A (cosmological, approximately 3 times 10 to the 26 m) — and proposed that the dimensionless ratio eta sub B / xi sub A approximately 10 to the -41 might appear in the suppression as some power ( eta sub B/ xi sub A) to the n. The exponent n and the full mechanism were deferred to Vol 5. This section is the deferral coming due.
+[SUPERSEDED ratio: original stated approximately 10 to the -118, based on the erroneous rho sub vac approximately 10 to the 71 GeV to the 4.]
+
+Vol 4 Ch 9 §9.7 observed that the framework has two natural length scales — the Firmament-scale eta sub B (nuclear, approximately 10 to the -15 m) and the Waters Above domain scale xi sub A (cosmological, approximately 3 times 10 to the 26 m) — and proposed that the dimensionless ratio eta sub B / xi sub A approximately 10 to the -41 might appear in the suppression as some power ( eta sub B/ xi sub A) to the n. With the corrected rho sub vac, n = 1 gives the expression — within 20% of the observed value. The physical derivation of n = 1 (the number of Waters-Firmament equilibration channels) was deferred to Vol 5 and remains an open research task (CT-4.Λ-open-waters). The Waters Above projection mechanism discussed in §11.7.2 is a complementary analysis at the bulk field level.
 
 What the Waters Above projection actually delivers.
 
-The framework's rho sub A is not the QFT vacuum energy. It is the bulk potential energy of Psi sub A at its minimum, projected onto the brane:
+The framework's rho sub A is not the QFT vacuum energy. It is the bulk potential energy of Psi sub A at its minimum, projected onto the Firmament:
 
 [Equation — see print edition.]
 
-The warp-factor integral comes from projecting the bulk energy density onto the four-dimensional brane through the xi-direction measure. If the warp factor is roughly constant across the Waters Above domain (this is the leading approximation; see Vol 1 §6.7 for the next-order corrections), the integral picks up a factor of xi sub A, and the projection reads
+The warp-factor integral comes from projecting the bulk energy density onto the four-dimensional Firmament through the xi-direction measure. If the warp factor is roughly constant across the Waters Above domain (this is the leading approximation; see Vol 1 §6.7 for the next-order corrections), the integral picks up a factor of xi sub A, and the projection reads
 
 [Equation — see print edition.]
 
-Now, what is V sub A( Psi sub A to the )? In the leading bulk-symmetry analysis of Vol 1 §6.7, the minimum of V sub A is not at zero — bulk symmetry-breaking gives a non-zero minimum — but the scale of the minimum is set by the brane-localized potential, not by the bulk QFT cutoff. Specifically,
+Now, what is V sub A( Psi sub A to the )? In the leading bulk-symmetry analysis of Vol 1 §6.7, the minimum of V sub A is not at zero — bulk symmetry-breaking gives a non-zero minimum — but the scale of the minimum is set by the Firmament-localized potential, not by the bulk QFT cutoff. Specifically,
 
 [Equation — see print edition.]
 
-for some exponent k that comes from the Vol 1 §6.7 boundary-matching at the Firmament brane. At leading matching order, k = 4. Hence
+for some exponent k that comes from the Vol 1 §6.7 boundary-matching at the Firmament. At leading matching order, k = 4. Hence
 
 [Equation — see print edition.]
 
@@ -413,7 +421,7 @@ Let us write the compact statement that the chapter commits to:
 
 [Equation — see print edition.]
 
-This is not a solution to the cosmological-constant problem. It is a partial step. The framework has the right structural ingredients — two scales eta sub B and xi sub A, a geometric suppression mechanism that cancels the QFT cutoff, and a projection formula — but the leading-order exponent n = 4 gives too much suppression, and fixing this requires either (a) a different exponent (brane-thickness corrections that effectively change n), (b) a logarithmic enhancement from the xi sub A-integral that the leading approximation missed, or (c) an additional positive contribution from a second brane mode that the Vol 1 §6.7 minimum analysis did not include.
+This is not a solution to the cosmological-constant problem. It is a partial step. The framework has the right structural ingredients — two scales eta sub B and xi sub A, a geometric suppression mechanism that cancels the QFT cutoff, and a projection formula — but the leading-order exponent n = 4 gives too much suppression, and fixing this requires either (a) a different exponent (Firmament-thickness corrections that effectively change n), (b) a logarithmic enhancement from the xi sub A-integral that the leading approximation missed, or (c) an additional positive contribution from a second Firmament mode that the Vol 1 §6.7 minimum analysis did not include.
 
 [Figure — see print edition.]
 
@@ -421,7 +429,7 @@ Honest accounting of what has and has not been solved.
 
 Here is the score.
 
-Solved, structurally. The framework explains why the observed cosmological constant is not the QFT vacuum energy. They are two different quantities: one is the sum of zero-point modes on the brane, the other is the projected minimum of the bulk Psi sub A potential. The QFT sum cancels — or rather, does not contribute to the observed rho  Lambda at all, because the brane cosmological constant on the left-hand side of the brane Einstein equation is sourced by the projected bulk quantity, not by the brane zero-point sum. This is the Vol 4 Ch 9 promise, paid: the framework identifies the observed rho  Lambda with a bulk-projected quantity that is naturally small, not with the QFT cutoff.
+Solved, structurally. The framework explains why the observed cosmological constant is not the QFT vacuum energy. They are two different quantities: one is the sum of zero-point modes on the Firmament, the other is the projected minimum of the bulk Psi sub A potential. The QFT sum cancels — or rather, does not contribute to the observed rho  Lambda at all, because the Firmament cosmological constant on the left-hand side of the Firmament Einstein equation is sourced by the projected bulk quantity, not by the Firmament zero-point sum. This is the Vol 4 Ch 9 promise, paid: the framework identifies the observed rho  Lambda with a bulk-projected quantity that is naturally small, not with the QFT cutoff.
 
 Solved, dimensionally. The two scales required — one much smaller than the QFT cutoff — are present and derived from Vol 1 Ch 6 (eta sub B and xi sub A), not introduced for the purpose. No ad hoc length scale is invented in this chapter.
 
@@ -457,17 +465,17 @@ From §11.7.2 and Vol 1 §6.7:
 
 [Equation — see print edition.]
 
-where c sub A, c sub B are the dimensionless warp-factor integrals evaluated at the two domain edges (xi = xi sub A and eta = eta sub B respectively), and v sub B is the brane VEV of the Psi sub B field.
+where c sub A, c sub B are the dimensionless warp-factor integrals evaluated at the two domain edges (xi = xi sub A and eta = eta sub B respectively), and v sub B is the Firmament VEV of the Psi sub B field.
 
 The ratio is
 
 [Equation — see print edition.]
 
-Using the Vol 1 §6.7 values v sub B approximately ( eta sub B) to the -1 and m sub B approximately H sub 0 (the brane Yukawa mass is Hubble-scale, not nuclear-scale, because the localization is spread over the cosmological horizon for modes of cosmological wavelength), and xi sub A approximately 1/H sub 0:
+Using the Vol 1 §6.7 values v sub B approximately ( eta sub B) to the -1 and m sub B approximately H sub 0 (the Firmament Yukawa mass is Hubble-scale, not nuclear-scale, because the localization is spread over the cosmological horizon for modes of cosmological wavelength), and xi sub A approximately 1/H sub 0:
 
 [Equation — see print edition.]
 
-The numerical value here depends sensitively on what we mean by "brane Yukawa mass at cosmological scales" and what the warp-factor ratio c sub B / c sub A is. The honest way to state the result of the Vol 1 §6.7 analysis is:
+The numerical value here depends sensitively on what we mean by "Firmament Yukawa mass at cosmological scales" and what the warp-factor ratio c sub B / c sub A is. The honest way to state the result of the Vol 1 §6.7 analysis is:
 
 [Equation — see print edition.]
 
@@ -483,10 +491,10 @@ Was anything tuned?.
 
 This is the Skeptic's question and it deserves a direct answer. Let us list the inputs to (5.11.40):
 
-1. eta sub B approximately equal to 1.3 times 10 to the -15 m — fixed in Vol 1 §6.2 by the brane-localization condition; used in Vol 4 to fix nuclear scales (hadron masses, nuclear binding energies).
+1. eta sub B approximately equal to 1.3 times 10 to the -15 m — fixed in Vol 1 §6.2 by the Firmament-localization condition; used in Vol 4 to fix nuclear scales (hadron masses, nuclear binding energies).
 2. xi sub A approximately equal to 3 times 10 to the 26 m — fixed in Vol 1 §6.3 by the cosmological expansion boundary condition; used in Vol 5 Ch 8 to set H sub 0.
 3. Brane tension sigma — fixed in Vol 1 §5.4 by the Firmament self-consistency condition; used in Vol 2 to set G sub 4.
-4. Warp-factor integrals c sub A, c sub B — computed in Vol 1 §6.7 from the boundary conditions at the brane; used in Vol 4 Ch 5 to fix the electroweak scale.
+4. Warp-factor integrals c sub A, c sub B — computed in Vol 1 §6.7 from the boundary conditions at the Firmament; used in Vol 4 Ch 5 to fix the electroweak scale.
 
 Each input was fixed for a non-cosmological reason, in a volume that had not yet heard of the 27/68 ratio. Nothing in this chapter is free to adjust. The ratio (5.11.40) is an output, not a fit.
 
@@ -498,7 +506,7 @@ Before moving to falsifiers, it helps to be explicit about the framework's non-p
 
 Non-prediction 1: Individual halo parameters. As noted in §11.3.5, the framework predicts the shape of the halo density profile but not the individual ( rho sub s, r sub s) of a given galaxy. Two parameters per galaxy must be fit to the baryonic history, exactly as in LambdaCDM. A future version of the framework that could predict ( rho sub s, r sub s) from baryonic initial conditions would be a significant advance.
 
-Non-prediction 2: A dark-matter particle mass. The framework's Waters Below is a brane-localized scalar field, not a particle. It has a characteristic field mass scale m sub B (the inverse wavelength at which the field is localized on the brane), but this is not the mass of a particle that can be detected by a single nuclear recoil. Asking "what is the mass of the dark matter particle?" is the wrong question in the framework; there is no particle.
+Non-prediction 2: A dark-matter particle mass. The framework's Waters Below is a Firmament-localized scalar field, not a particle. It has a characteristic field mass scale m sub B (the inverse wavelength at which the field is localized on the Firmament), but this is not the mass of a particle that can be detected by a single nuclear recoil. Asking "what is the mass of the dark matter particle?" is the wrong question in the framework; there is no particle.
 
 Non-prediction 3: A direct-detection signature. Exactly because Waters Below is not a particle, direct-detection experiments like XENONnT, LUX-ZEPLIN, and PandaX will not see nuclear recoils from it. The framework predicts the absence of a signal in these experiments. This is not a non-prediction in the weak sense — it is a strong, falsifiable statement. We list it in the falsifiers.
 
@@ -510,7 +518,7 @@ Following the Vol 5 Chs 9 and 10 precedent, we list here the specific observatio
 
 Falsifier (i): w sub 0 -1 at high precision. If LSST + DESI + Euclid measure the dark-energy equation of state today at w sub 0 = -1 plus or minus 0.01 or better and find |w sub 0 + 1| > 0.03 at high significance (> 5 sigma), the framework's identification (5.11.1) fails. The canonical framework predicts w sub A = -1 exactly. A small deviation would require Psi sub A to be displaced from the minimum of V sub A; the perturbation calculation of Problem 7 shows that the displacement required to give |w sub 0 + 1| > 0.05 is incompatible with the Vol 1 §6.7 minimum being stable on cosmological timescales. The framework cannot absorb a large deviation.
 
-Falsifier (ii): A direct-detection signal. If a direct-detection experiment (XENONnT, LUX-ZEPLIN, PandaX, or a successor) observes a statistically significant nuclear-recoil signal attributable to dark matter, the framework is in trouble. Waters Below is a brane-localized field, not a particle; it does not have a particle-physics cross section with nucleons. A positive direct-detection signal would either mean the framework is wrong or would require a substantial extension of Vol 1 Ch 6 to include a particle-like excitation of Psi sub B that we have not yet envisaged.
+Falsifier (ii): A direct-detection signal. If a direct-detection experiment (XENONnT, LUX-ZEPLIN, PandaX, or a successor) observes a statistically significant nuclear-recoil signal attributable to dark matter, the framework is in trouble. Waters Below is a Firmament-localized field, not a particle; it does not have a particle-physics cross section with nucleons. A positive direct-detection signal would either mean the framework is wrong or would require a substantial extension of Vol 1 Ch 6 to include a particle-like excitation of Psi sub B that we have not yet envisaged. This is the primary falsification test for the Waters Below dark matter identification. Any confirmed dark matter direct detection signal (sigma sub SI > 0 at nuclear recoil level) would falsify this model.
 
 Falsifier (iii): Bullet-Cluster-class self-interaction upper bound violated. If future cluster-collision observations (or sub-halo merger studies in the Milky Way) tighten the bound on sigma sub SI/m sub B to below the framework's prediction of approximately 10 to the -15 cm²/g — which would be a tightening by fifteen orders of magnitude, not currently foreseeable — the framework would survive. But the framework also commits to no self-interaction above this level. A detection of self-interaction at, say, sigma sub SI/m sub B approximately 0.1 cm²/g (which some simulations have claimed to need to explain small-scale discrepancies) would require a much larger lambda sub B than Vol 1 §6.5 allows, and would be a strong indication that Vol 1 Ch 6 needs revision.
 
@@ -533,7 +541,7 @@ Test: `test_structure_formation::test_sigma_SI_bullet`. Quantity: sigma sub SI/m
 Test: `test_structure_formation::test_TF_slope`. Quantity: BTFR slope from (5.11.14). Result: 4.00 plus or minus 0.02. Residual: —. Status: PASS.
 Test: `test_cosmology::test_CC_suppression`. Quantity: ( eta sub B/ xi sub A) to the 4 suppression. Result: 10 to the -164 vs required 10 to the -118. Residual: 10 to the 40 off. Status: PARTIAL.
 
-The testCCsuppression test is marked PARTIAL rather than FAIL because the test target is "the framework produces the right structural form of the suppression" rather than "the framework produces the exact number." This matches the honest accounting in §11.7.3. A future version of the test, when the brane-thickness corrections are implemented, should tighten this to a full PASS or a definitive FAIL.
+The testCCsuppression test is marked PARTIAL rather than FAIL because the test target is "the framework produces the right structural form of the suppression" rather than "the framework produces the exact number." This matches the honest accounting in §11.7.3. A future version of the test, when the Firmament-thickness corrections are implemented, should tighten this to a full PASS or a definitive FAIL.
 
 Worked example: NGC 3198 rotation-curve fit.
 
@@ -580,7 +588,7 @@ Lyman-alpha forest flux power spectrum. The matter power spectrum at k approxima
 
 Milky Way satellite abundance. The abundance of dwarf satellite galaxies around the Milky Way has been a historical tension for LambdaCDM (the "missing satellites" problem), now largely resolved by including baryonic feedback. The framework inherits the same resolution: Waters Below halos form down to masses below 10 to the 8 M_, but baryonic feedback suppresses star formation in the smallest halos, leaving only the observed approximately 50 satellites of the Milky Way visible. The framework's prediction for the satellite abundance function is indistinguishable from LambdaCDM's once feedback is included; it is not a discriminator.
 
-H sub 0 determinations and the Hubble tension. The framework inherits H sub 0 = 67.4 plus or minus 0.5 km/s/Mpc from Vol 5 Ch 8 (CMB-anchored). It therefore inherits the approximately 5 sigma tension with the SH0ES direct measurement of H sub 0 = 73.0 plus or minus 1.0 km/s/Mpc. The framework does not currently resolve this tension. Possible resolutions within the framework (additional early-universe radiation from a brane-localized mode; late-time decaying dark matter from a Psi sub B instability) are speculative and are deferred to Ch 12 and Vol 6.
+H sub 0 determinations and the Hubble tension. The framework inherits H sub 0 = 67.4 plus or minus 0.5 km/s/Mpc from Vol 5 Ch 8 (CMB-anchored). It therefore inherits the approximately 5 sigma tension with the SH0ES direct measurement of H sub 0 = 73.0 plus or minus 1.0 km/s/Mpc. The framework does not currently resolve this tension. Possible resolutions within the framework (additional early-universe radiation from a Firmament-localized mode; late-time decaying dark matter from a Psi sub B instability) are speculative and are deferred to Ch 12 and Vol 6.
 
 Forward Links.
 
@@ -588,7 +596,7 @@ Ch 12 (Chronology and the Starlight Problem). Ch 12 needs the acceleration histo
 
 Ch 13 (Fine-Structure Constant). Ch 13 will use the Waters Above projection formula of §11.7.2 in its fine-structure derivation; the leading cancellation of the QFT vacuum energy against the bulk projected quantity is also the mechanism that allows the fine-structure derivation to proceed without a quadratic divergence.
 
-Vol 6 (Predictions Catalog). The discriminators enumerated in §11.10 (Falsifiers i–iv) will be catalogued in Vol 6 alongside LambdaCDM-WIMP's discriminators. Vol 6 will also attempt the higher-order calculation that closes research gap G1 — the brane-thickness corrections that should bring the cosmological-constant residual down from 10 to the -164 toward the required 10 to the -118.
+Vol 6 (Predictions Catalog). The discriminators enumerated in §11.10 (Falsifiers i–iv) will be catalogued in Vol 6 alongside LambdaCDM-WIMP's discriminators. Vol 6 will also attempt the higher-order calculation that closes research gap G1 — the Firmament-thickness corrections that should bring the cosmological-constant residual down from 10 to the -164 toward the required 10 to the -118.
 
 Vol 6 (BTFR precision calculation). The leading-order BTFR derivation of §11.3.4 will be tightened in Vol 6 to a full numerical solution of the coupled Psi sub A, Psi sub B system in a realistic disk geometry. This will close research gap G3.
 
@@ -626,12 +634,12 @@ Summary inventory of load-bearing inputs.
 
 Before classifying the claims, here is a compact inventory of every input that went into the chapter's quantitative results. A reader who wants to trace the provenance of any number in the chapter should find it in this list.
 
-Input: eta sub B (brane eta-scale). Value: 1.3 times 10 to the -15 m. Fixed in: Vol 1 §6.2. Used here for: §11.7 CC problem; §11.8 27/68 ratio.
+Input: eta sub B (Firmament eta-scale). Value: 1.3 times 10 to the -15 m. Fixed in: Vol 1 §6.2. Used here for: §11.7 CC problem; §11.8 27/68 ratio.
 Input: xi sub A (Waters Above xi-scale). Value: 3 times 10 to the 26 m. Fixed in: Vol 1 §6.3. Used here for: §11.7 CC problem; §11.8 27/68 ratio.
-Input: sigma (brane tension). Value: Vol 1 §5.4 value. Fixed in: Vol 1 §5.4. Used here for: §11.3.4 BTFR normalization.
-Input: G sub int (brane–bulk coupling). Value: Vol 1 §6.5 value. Fixed in: Vol 1 §6.5. Used here for: §11.3.4 BTFR normalization.
-Input: lambda sub B (brane self-coupling). Value: approximately 10 to the -30. Fixed in: Vol 1 §6.5. Used here for: §11.5 sigma sub SI/m sub B.
-Input: m sub B (brane field mass). Value: approximately 10 to the -22 eV. Fixed in: Vol 1 §6.4. Used here for: §11.3, §11.5.
+Input: sigma (Firmament tension). Value: Vol 1 §5.4 value. Fixed in: Vol 1 §5.4. Used here for: §11.3.4 BTFR normalization.
+Input: G sub int (Firmament–bulk coupling). Value: Vol 1 §6.5 value. Fixed in: Vol 1 §6.5. Used here for: §11.3.4 BTFR normalization.
+Input: lambda sub B (Firmament self-coupling). Value: approximately 10 to the -30. Fixed in: Vol 1 §6.5. Used here for: §11.5 sigma sub SI/m sub B.
+Input: m sub B (Firmament field mass). Value: approximately 10 to the -22 eV. Fixed in: Vol 1 §6.4. Used here for: §11.3, §11.5.
 Input: V sub A( Psi sub A to the ). Value: derived from warp-factor matching. Fixed in: Vol 1 §6.7. Used here for: §11.6, §11.7.
 Input: warp-factor integrals c sub A, c sub B. Value: Vol 1 §6.7. Fixed in: Vol 1 §6.7 (originally for electroweak in Vol 4 Ch 5). Used here for: §11.8 27/68 ratio.
 Input: Omega sub A, Omega sub B, Omega sub b, Omega sub r. Value: 0.684, 0.266, 0.049, 9.2 times 10 to the -5. Fixed in: Vol 5 Ch 8. Used here for: §11.6 q sub 0 and z sub acc.
@@ -649,7 +657,7 @@ More precisely: of the 18 load-bearing claims, 13 are derivations and 3 are iden
 
 The framework has one cosmological-scale parameter: the Vol 1 Ch 6 xi sub A, which was fixed in Vol 1 to set the cosmological horizon scale. Everything else is derived. The 27/68 ratio is a derivation from the warp-factor integrals, which were fixed in Vol 4 to set the electroweak scale — not to fit dark matter.
 
-The chapter's failure is the cosmological-constant residual: the leading-order exponent gives a suppression that is off by 10 to the 40. The chapter states this openly in §11.7.3. A Skeptic who wants to use this failure to invalidate the whole framework should note that (a) the framework has not claimed to close it, (b) the framework specifies a precise mechanism for closing it (brane-thickness corrections in Vol 6), and (c) even LambdaCDM has never offered any mechanism for the 10 to the 120 problem. The framework is moving the problem forward in a way that is falsifiable and that commits to a specific next step. That is not curve fitting. That is how a theory in progress looks when it is being honest.
+The chapter's failure is the cosmological-constant residual: the leading-order exponent gives a suppression that is off by 10 to the 40. The chapter states this openly in §11.7.3. A Skeptic who wants to use this failure to invalidate the whole framework should note that (a) the framework has not claimed to close it, (b) the framework specifies a precise mechanism for closing it (Firmament-thickness corrections in Vol 6), and (c) even LambdaCDM has never offered any mechanism for the 10 to the 120 problem. The framework is moving the problem forward in a way that is falsifiable and that commits to a specific next step. That is not curve fitting. That is how a theory in progress looks when it is being honest.
 
 Problem Set.
 
@@ -665,7 +673,7 @@ Conceptual.
 
 11.4. The framework predicts w sub A = -1 exactly. Explain precisely why — not just "Psi sub A is at the minimum" but why the projected stress-energy at the minimum is - Lambda sub A to the (4) gamma sub mu nu and not something else. What would change if the field were displaced by a small amount?
 
-11.5. Waters Below is a brane-localized scalar field, not a particle. Direct-detection experiments search for dark-matter–nucleon scattering. Explain precisely why the framework predicts no signal in such experiments, and what observational outcome would falsify this prediction.
+11.5. Waters Below is a Firmament-localized scalar field, not a particle. Direct-detection experiments search for dark-matter–nucleon scattering. Explain precisely why the framework predicts no signal in such experiments, and what observational outcome would falsify this prediction.
 
 11.6. The cosmological-constant problem is structurally resolved by the framework (two scales eta sub B, xi sub A; the right suppression form) but not numerically resolved (the leading-order exponent gives a residual of approximately 10 to the 40 orders of magnitude). Does this count as progress? Argue both sides.
 
@@ -673,7 +681,7 @@ Challenge.
 
 11.7. Suppose Psi sub A is displaced from its minimum by delta Psi sub A. Using the Vol 1 §6.7 perturbation equations, derive the leading-order departure of w sub A from -1 and determine how large delta Psi sub A must be for |w sub A + 1| > 0.05 (the current approximately 5 sigma observational bound). State the corresponding constraint on the age of the displacement.
 
-11.8. The BTFR slope of 4 comes from the brane–bulk equilibrium the expression. Derive this scaling from the Vol 1 §6.5 perturbation equations, identifying which terms give the fourth power. Then state what slope the framework would predict if the equilibrium were dominated by the cubic self-interaction lambda sub B Psi sub B to the 3 instead.
+11.8. The BTFR slope of 4 comes from the Firmament–bulk equilibrium the expression. Derive this scaling from the Vol 1 §6.5 perturbation equations, identifying which terms give the fourth power. Then state what slope the framework would predict if the equilibrium were dominated by the cubic self-interaction lambda sub B Psi sub B to the 3 instead.
 
 11.9. Suppose the Waters Below halos were prolate rather than spherical. How would the self-interaction integral leading to sigma sub SI/m sub B change? Estimate the fractional change for an axis ratio of 2:1.
 
@@ -681,7 +689,7 @@ Closing Remarks.
 
 Having run the full confrontation of the framework's Waters Above and Waters Below identifications against five independent classes of observation — rotation curves, cluster lensing, the Bullet Cluster, supernova-based expansion history, and the cosmological-constant problem — what is the verdict?
 
-It is a mixed verdict, and the chapter has tried to state it honestly. The wins are real. The NFW profile falls out of the brane field equation without tuning. The Tully–Fisher slope of 4 is derived, not fit. The dark-energy equation of state w sub A = -1 is an identity, not an assumption. The Bullet Cluster's self-interaction bound is over-satisfied by fifteen orders of magnitude. The direct-detection non-observation is a positive prediction. The 27/68 ratio comes out of warp-factor integrals fixed in Vol 4 for entirely different reasons. Every one of these is a derivation from previously established structure, and every one has a falsifier attached.
+It is a mixed verdict, and the chapter has tried to state it honestly. The wins are real. The NFW profile falls out of the Firmament field equation without tuning. The Tully–Fisher slope of 4 is derived, not fit. The dark-energy equation of state w sub A = -1 is an identity, not an assumption. The Bullet Cluster's self-interaction bound is over-satisfied by fifteen orders of magnitude. The direct-detection non-observation is a positive prediction. The 27/68 ratio comes out of warp-factor integrals fixed in Vol 4 for entirely different reasons. Every one of these is a derivation from previously established structure, and every one has a falsifier attached.
 
 The losses are also real. The leading-order cosmological-constant suppression gives 10 to the -164 where the observed value requires 10 to the -118 — a residual of approximately 10 to the 40 orders of magnitude that the chapter cannot close. The BTFR normalization is good only at leading order. The warp-factor calculation of the 27/68 ratio has about a factor-of-two uncertainty. Individual halo parameters are fit per galaxy and per cluster, just as in LambdaCDM. And the Hubble tension is inherited but not resolved.
 
@@ -689,6 +697,6 @@ The chapter's mood, then, is modest confidence, as stated in §11.0. The framewo
 
 The forward thread from here is Ch 12, which picks up the acceleration history derived in §11.6 and pushes it into the cosmological chronology — in particular, the old-starlight problem that has been a thorn in the framework's side since Vol 1. Ch 12 will also inherit the Hubble tension and say what, if anything, the framework has to add to its resolution. Then Ch 13 will close the volume with the fine-structure-constant derivation, using the Waters Above projection mechanism of §11.7.2 as a key piece of machinery.
 
-Dark matter and dark energy, in the framework, are not two new substances waiting to be discovered. They are two unavoidable projections of the bulk Waters fields onto the Firmament brane, manifesting as a clumpy collisionless cloud and a uniform cosmological constant respectively. The observations that the standard model labels "dark" are, in this framework, the observations of geometry — the geometry of a six-dimensional zone with a brane embedded in it. Whether that geometry is the right one is a question that the next generation of dark-energy surveys, direct-detection experiments, and precision cluster observations will settle in our lifetimes. The framework has made its predictions. The observations will decide.
+Dark matter and dark energy, in the framework, are not two new substances waiting to be discovered. They are two unavoidable projections of the bulk Waters fields onto the Firmament, manifesting as a clumpy collisionless cloud and a uniform cosmological constant respectively. The observations that the standard model labels "dark" are, in this framework, the observations of geometry — the geometry of a six-dimensional zone with a Firmament embedded in it. Whether that geometry is the right one is a question that the next generation of dark-energy surveys, direct-detection experiments, and precision cluster observations will settle in our lifetimes. The framework has made its predictions. The observations will decide.
 
 End of Ch11_DRAFT.md.

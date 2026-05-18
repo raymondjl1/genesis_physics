@@ -612,7 +612,7 @@ $$\lambda_n = \left(\frac{n\pi}{L}\right)^2, \quad n = 1, 2, 3, ...$$
 
 For a string of length L = 1 m, calculate the first three eigenvalues λ₁, λ₂, λ₃. What are the corresponding wavelengths?
 
-**PS-10.2** [C] The membrane wave equation with tension σ and linear mass density μ:
+**PS-10.2** [C] The Firmament membrane wave equation with tension σ and linear mass density μ:
 $$\frac{\partial^2 h}{\partial t^2} = \frac{\sigma}{\mu} \nabla^2 h$$
 
 For a square membrane (L × L) with fixed edges, separation of variables gives h(x,y,t) = X(x)Y(y)T(t). The spatial modes are:
@@ -623,7 +623,7 @@ For L = 10 cm, find the five lowest-frequency modes f_{m,n} = ω_{m,n}/(2π) if 
 **PS-10.3** [C] Planck's constant ℏ is derived from membrane parameters:
 $$\hbar = \frac{\pi \sigma \eta_B^3}{2c} \left(\frac{\eta_B}{\xi_A}\right)^2 \beta_{\text{geom}} ≈ 1.055 \times 10^{-34} \text{ J·s}$$
 
-If σ = 6.0×10⁹⁸ kg/(m·s²) (membrane tension), η_B = 1.3×10⁻¹⁵ m (boundary scale; Waters Below extent), ξ_A = 3.0×10²⁶ m (amplitude scale; Waters Above extent — note ξ_A > η_B per canon), and β_geom ≈ 1, calculate ℏ numerically using the formula above and compare to the measured value 1.055×10⁻³⁴ J·s. (Canonical zone-architecture parameters per Symbol_and_Constants.md — value updated per 0516_Rev_001.) [TODO: no solution key exists in this manuscript; downstream solutions doc must be updated to match new numbers.]
+If σ = 6.0×10⁹⁸ kg/(m·s²) (Firmament tension), η_B = 1.3×10⁻¹⁵ m (boundary scale; Waters Below extent), ξ_A = 3.0×10²⁶ m (amplitude scale; Waters Above extent — note ξ_A > η_B per canon), and β_geom ≈ 1, calculate ℏ numerically using the formula above and compare to the measured value 1.055×10⁻³⁴ J·s. (Canonical zone-architecture parameters per Symbol_and_Constants.md — value updated per 0516_Rev_001.) [TODO: no solution key exists in this manuscript; downstream solutions doc must be updated to match new numbers.]
 
 **PS-10.4** [C] Kaluza-Klein mass quantization: the extra-dimensional (z-direction) eigenmodes have masses:
 $$m_n^2 = m_0^2 + \frac{n^2\pi^2}{R_z^2}, \quad n = 0, 1, 2, ...$$
@@ -708,7 +708,7 @@ Why does the zone framework naturally lead to the second picture?
 
 ### Challenge Problems [X]
 
-**PS-10.29** [X] **Derivation of Planck's Constant**: From first principles, show that the membrane parameters uniquely determine ℏ.
+**PS-10.29** [X] **Derivation of Planck's Constant**: From first principles, show that the Firmament parameters uniquely determine ℏ.
 
 Starting point: The Firmament is a membrane under tension σ with boundary layers of thickness η_B. Perturbations oscillate with characteristic amplitude ξ_A and frequency that depends on geometry (factor β_geom).
 

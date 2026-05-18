@@ -220,7 +220,7 @@ B.4.2  membrane_vibrations.py.
 
 Purpose. Computes the eigenfrequency spectrum of the firmament membrane using sparse-matrix diagonalization via SciPy's ARPACK wrapper. Each eigenfrequency omega sub n maps to a particle mass m sub n = h-bar omega sub n / c to the 2.
 
-Vol 6 chapter validated. Chapter 7 (membrane vibration spectra, particle-mass predictions). Results appear in Ch 7 Tables 7.1–7.3 and Figs 7.1–7.4.
+Vol 6 chapter validated. Chapter 7 (Firmament membrane vibration spectra, particle-mass predictions). Results appear in Ch 7 Tables 7.1–7.3 and Figs 7.1–7.4.
 
 Exact command:
 
@@ -234,7 +234,7 @@ Expected runtime. 10–20 seconds. The sparse eigensolver dominates; the rest is
 Expected output files (4 PNG):
 
 File: `spectrum_1d_string.png`. Size: ~120 KB. Content: 1-D mode spectrum: omega sub n and m sub n versus mode number.
-File: `spectrum_circular.png`. Size: ~130 KB. Content: Circular membrane modes indexed by (n, m).
+File: `spectrum_circular.png`. Size: ~130 KB. Content: Circular Firmament membrane modes indexed by (n, m).
 File: `spectrum_vs_particles.png`. Size: ~150 KB. Content: Predicted masses overlaid with electron, muon, Higgs.
 File: `spectrum_comparison.png`. Size: ~100 KB. Content: Analytical omega sub n = n pi v / L versus numerical eigenvalues.
 
@@ -285,7 +285,7 @@ How to interpret the results. The signature result is spectrum_ratio.png. Zone a
 
 B.4.4  energyharvestingsimulation.html.
 
-Purpose. An interactive browser-based visualization of the energy-extraction concept from the firmament membrane. Demonstrates how varying membrane tension and coupling parameters modify the energy density response in the regime where a hypothetical membrane-resonance generator (MRG; technology concept T-NRG-01, Appendix F) would operate.
+Purpose. An interactive browser-based visualization of the energy-extraction concept from the firmament membrane. Demonstrates how varying Firmament tension and coupling parameters modify the energy density response in the regime where a hypothetical membrane-resonance generator (MRG; technology concept T-NRG-01, Appendix F) would operate.
 
 Vol 6 chapter validated. Chapter 10, §10.6 (energy-extraction applications of zone architecture). This is the illustrative component for the T-NRG-01 technology entry in Appendix F.
 
@@ -300,7 +300,7 @@ start Research\Simulations\energyharvestingsimulation.html
 
 `
 
-Expected runtime. Interactive — the visualization is real-time, driven by user input on sliders for membrane tension, coupling strength, and observation window.
+Expected runtime. Interactive — the visualization is real-time, driven by user input on sliders for Firmament tension, coupling strength, and observation window.
 
 Expected output files. None. The visualization is ephemeral; no files are written. Screenshots can be saved manually through the browser.
 

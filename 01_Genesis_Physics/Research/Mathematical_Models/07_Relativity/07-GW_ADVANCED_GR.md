@@ -22,7 +22,7 @@
 
 ## Executive Summary
 
-This document derives gravitational wave physics and advanced general relativistic phenomena from the Genesis Physics 6D membrane framework. We demonstrate that:
+This document derives gravitational wave physics and advanced general relativistic phenomena from the Genesis Physics 6D Firmament framework. We demonstrate that:
 
 1. **Frame Dragging (Lense-Thirring Effect)**: Derived from Kerr metric with precession Ω_LT = 2GJ/(c²r³), matching Gravity Probe B measurements
 2. **Gravitational Wave Generation**: Quadrupole radiation formula P = (32G⁴/5c⁵)(m₁m₂)²(m₁+m₂)/r⁵ from linearized 6D gravity
@@ -468,7 +468,7 @@ These are suppressed by factors of (~10^{-30}) for stellar-mass binaries but cou
 
 ### 8.2 Frame Dragging from Membrane Structure
 
-The Kerr metric emerges in 6D membrane theory as the solution to Einstein equations with specific boundary conditions on the membrane. Frame dragging is a direct consequence of the membrane's rotational symmetry coupling to the 6D bulk.
+The Kerr metric emerges in 6D membrane theory as the solution to Einstein equations with specific boundary conditions on the Firmament. Frame dragging is a direct consequence of the Firmament's rotational symmetry coupling to the 6D bulk.
 
 ---
 
@@ -495,7 +495,7 @@ Genesis Physics 6D membrane theory provides a consistent framework for gravitati
 5. LIGO detections confirm chirp mass formula and frequency evolution
 6. Ringdown observations confirm quasi-normal mode theory
 
-This consistency across multiple independent observations demonstrates that gravity is correctly described by the 6D membrane framework.
+This consistency across multiple independent observations demonstrates that gravity is correctly described by the 6D Firmament framework.
 
 ---
 

@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light, and there was light" — Light reveals the beauty of creation | Genesis 1:3 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | Maxwell's Equations from 6D zone architecture; Optics from Maxwell | 03-MAXWELL_DERIVATION.md, 04-OPTICS_FROM_MAXWELL.md |
 > | **This Document** | **Seven optical completions: double-slit, Brewster's angle, thin lens, standing waves, sound waves, geometric optics from Maxwell and wave mechanics** | **04-COMPLETIONS.md** |
 > | Modern Equivalent | Quantum & Classical Optics — CONVERGES: interference patterns, geometric optics, acoustic waves, resonance conditions all recovered from Maxwell equations and boundary conditions |
@@ -48,11 +48,11 @@ A single photon passes through two slits and creates an interference pattern on 
 From the Genesis Physics 6D action, the electromagnetic field emerges as the metric component:
 $$\boxed{A_\mu^{(6D)} = g_{0i} \text{ (off-diagonal metric component)}}$$
 
-In the membrane (4D), this projects to the standard 4D gauge potential $A_\mu$.
+In the Firmament (4D), this projects to the standard 4D gauge potential $A_\mu$.
 
 #### 1.2 Wave Equation for Photons
 
-Reducing Maxwell's equations to the membrane yields:
+Reducing Maxwell's equations to the Firmament yields:
 $$\boxed{\nabla^2 \mathbf{E} - \frac{1}{c^2}\frac{\partial^2 \mathbf{E}}{\partial t^2} = 0}$$
 
 **Equation (1):** Massless wave equation for electromagnetic field.
@@ -128,8 +128,8 @@ An electron, like all matter, has an associated de Broglie wave. The wavelength 
 
 #### 2.1 De Broglie Relation from Quantum Field Theory
 
-In Genesis Physics, the quantum wave function emerges from membrane displacement amplitude:
-$$\psi(x,t) = \text{membrane oscillation amplitude}$$
+In Genesis Physics, the quantum wave function emerges from Firmament membrane displacement amplitude:
+$$\psi(x,t) = \text{Firmament membrane oscillation amplitude}$$
 
 The canonical momentum-energy relation:
 $$\boxed{E = ℏ\omega, \quad \mathbf{p} = \hbar\mathbf{k}}$$
@@ -175,7 +175,7 @@ $$\Delta y = \frac{0.123 \times 10^{-9} \times 1}{5 \times 10^{-6}} = 2.46 \time
 
 ### Genesis Physics Context
 
-Matter waves emerge from 6D membrane oscillations. The electron's de Broglie wavelength is the spatial period of membrane displacement. Quantum mechanics is the wave mechanics of the Firmament.
+Matter waves emerge from 6D Firmament membrane oscillations. The electron's de Broglie wavelength is the spatial period of Firmament membrane displacement. Quantum mechanics is the wave mechanics of the Firmament.
 
 ---
 
@@ -518,7 +518,7 @@ $$c_s = \sqrt{\frac{5.649 \times 10^{-21}}{4.820 \times 10^{-26}}} = \sqrt{1.172
 
 ### Genesis Physics Context
 
-Sound waves are membrane oscillations in matter. The wave equation emerges from the 6D metric dynamics projected to the baryonic sector. The speed of sound is set by the membrane's mechanical properties (tension and mass density).
+Sound waves are Firmament membrane oscillations in matter. The wave equation emerges from the 6D metric dynamics projected to the baryonic sector. The speed of sound is set by the Firmament membrane's mechanical properties (tension and mass density).
 
 ---
 

@@ -376,7 +376,7 @@ The interaction term must satisfy:
 **For equation (A)** (membrane):
 
 ```
-(3.7)  The energy density in the membrane field is:
+(3.7)  The energy density in the Firmament field is:
 
        ρ_η = (σ/2)[(∂_t η)² + (∇η)²]
 

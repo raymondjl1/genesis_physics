@@ -1,8 +1,8 @@
-# Chapter Spec — Electromagnetism from Membrane Wave Propagation
+# Chapter Spec — Electromagnetism from Firmament Wave Propagation
 
 **Book/Volume:** Foundations Vol 2: Forces and Fields
 **Chapter Number:** Chapter 3
-**Working Title:** Electromagnetism from Membrane Wave Propagation
+**Working Title:** Electromagnetism from Firmament Wave Propagation
 **Status:** VERIFIED
 
 ---
@@ -40,8 +40,8 @@
 | 6D warp-factored metric ds² with off-diagonal gauge components | Vol 1, Ch 4 (Eq. 1.4.2) |
 | Firmament as dynamical membrane: induced metric, extrinsic curvature | Vol 1, Ch 5 |
 | Firmament vibration modes: wave equation, mode spectrum, boundary conditions | Vol 1, Ch 5, §5.5 |
-| Speed of light as membrane wave speed: c² = σ/μ | Vol 1, Ch 5, §5.3 (Eq. 1.5.0) |
-| Membrane tension σ and mass density μ | Vol 1, Ch 5 |
+| Speed of light as Firmament membrane wave speed: c² = σ/μ | Vol 1, Ch 5, §5.3 (Eq. 1.5.0) |
+| Firmament tension σ and mass density μ | Vol 1, Ch 5 |
 | Symmetries and conservation laws via Noether's theorem | Vol 1, Ch 7 |
 | Gauge symmetry from zone geometry | Vol 1, Ch 7, §7.5 |
 | Warp factor solutions: A_ξ logarithmic, B_η exponential | Vol 1, Ch 4, §4.3 |
@@ -63,7 +63,7 @@
 
 3. **Why does EM have the specific structure of Maxwell's equations?** — Because varying the KK-reduced 4D effective action yields exactly the source-free Maxwell equations (Bianchi identity) and the sourced Maxwell equations (Euler-Lagrange equations). The structure is uniquely determined by the 6D geometry.
 
-4. **Why is the speed of light what it is?** — Because c² = σ/μ where σ is membrane tension and μ is membrane mass density (Vol 1, Ch 5). EM waves are Firmament vibrations — their propagation speed is the wave speed on the membrane. c is not a mysterious constant; it's a material property of the Firmament.
+4. **Why is the speed of light what it is?** — Because c² = σ/μ where σ is Firmament tension and μ is membrane mass density (Vol 1, Ch 5). EM waves are Firmament vibrations — their propagation speed is the wave speed on the Firmament membrane. c is not a mysterious constant; it's a material property of the Firmament.
 
 5. **Why does ε₀μ₀ = 1/c²?** — Because ε₀ and μ₀ are both determined by the electromagnetic coupling constant g²_EM, which in turn comes from integrating the warp factors over the extra dimensions. The product ε₀μ₀ = 1/c² is forced by the metric signature.
 
@@ -104,7 +104,7 @@
 | Fig 2.3.3 | Gauge Invariance as Extra-Dimensional Coordinate Freedom | Diagram | §3.2, after gauge derivation | Before/after: ξ-shift ξ → ξ + Λ(x) shown in 6D; same physics, different A_μ in 4D | Makes gauge invariance intuitive — it's just a coordinate choice | ξ, Λ(x), A_μ, A_μ - ∂_μΛ | (2.3.23)–(2.3.26) | Medium |
 | Fig 2.3.4 | Warp Factor Integration: Where ε₀ and μ₀ Come From | Plot/Schematic | §3.3, after coupling derivation | Warp factor profiles A(ξ) and B(η) plotted vs. extra-dimensional coordinates; shaded area = V_extra determining g²_EM | Shows the reader physically where EM coupling strength comes from | ξ_A, η_B, e^{2A}, e^{2B}, V_extra, g²_EM | (2.3.16)–(2.3.22) | Medium |
 | Fig 2.3.5 | The Four Maxwell Equations: From 6D to Your Textbook | Comparison | §3.4, after all four derived | Side-by-side: covariant 4D form vs. 3D vector form vs. physical meaning for each equation | Connects abstract derivation to familiar textbook equations | All four Maxwell equations, E, B, ρ, J | (2.3.27)–(2.3.42) | Complex |
-| Fig 2.3.6 | Speed of Light as Membrane Wave Speed | Schematic | §3.5, after c derivation | Firmament membrane vibrating like a drumskin; wave propagating at c = √(σ/μ); EM wave as membrane excitation | Makes c intuitive — it's a material property, not a mystery | σ, μ, c, wavefronts, Firmament cross-section | (2.3.49)–(2.3.52), (1.5.0) | Medium |
+| Fig 2.3.6 | Speed of Light as Firmament Wave Speed | Schematic | §3.5, after c derivation | Firmament membrane vibrating like a drumskin; wave propagating at c = √(σ/μ); EM wave as Firmament membrane excitation | Makes c intuitive — it's a material property, not a mystery | σ, μ, c, wavefronts, Firmament cross-section | (2.3.49)–(2.3.52), (1.5.0) | Medium |
 | Fig 2.3.7 | Fine Structure Constant from Zone Geometry | Diagram | §3.7, after α derivation | Zone architecture with ξ_A and η_B labeled; logarithmic scale showing how ln(ξ_A/η_B) ≈ 95.2; multiplication by C = 1.44 giving α⁻¹ ≈ 137 | Makes the geometric origin of 1/137 visually concrete | ξ_A, η_B, ln ratio, C, α⁻¹ = 137 | (2.3.69)–(2.3.82) | Complex |
 | Fig 2.3.8 | Charge Quantization from Extra-Dimensional Topology | Schematic | §3.8, after topology argument | ξ-dimension shown as circle/compact space; particle wavefunctions wrapping around with integer winding numbers → discrete charges | Makes charge quantization intuitive — it's like standing waves on a circle | ξ, winding number n, q = nq₀ | (2.3.83)–(2.3.88) | Medium |
 
@@ -154,7 +154,7 @@
 - **Topic sentence:** The speed of light is not a mysterious universal constant — it is the wave speed on the Firmament membrane, determined by its tension and mass density.
 - **"Why" entry point:** Maxwell's equations predict waves at speed 1/√(ε₀μ₀). What IS this speed, physically?
 - **Key content:** ε₀μ₀ = 1/c² from metric signature. c² = σ/μ from Vol 1 Ch 5. EM waves as Firmament vibrations. Why c is invariant: σ and μ are uniform across the Firmament. Lorentz invariance as consequence.
-- **Exit condition:** Reader understands c as a material property and sees why special relativity follows from membrane mechanics.
+- **Exit condition:** Reader understands c as a material property and sees why special relativity follows from Firmament membrane mechanics.
 
 ### Section 6: Electromagnetic Waves, Energy, and Momentum (§3.6)
 - **Topic sentence:** The electromagnetic wave equation, Poynting vector, and energy-momentum conservation all follow directly from the four Maxwell equations we just derived.

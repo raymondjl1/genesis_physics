@@ -25,7 +25,7 @@ The standard. A graduate student with a laptop, a Python installation, and no pr
 
 Repository Structure.
 
-The simulation suite resides in a single directory: Research/Simulations/. This is deliberate — no scattered files across subdirectories, no build systems that must be invoked before anything runs, no configuration files that reference absolute paths on the author's machine (with one exception, noted in Section 8.7).
+The simulation suite resides in a single directory: Research/Simulations/. This is deliberate — no scattered files across subdirectories, no build systems that must be invoked before anything runs, no configuration files that reference absolute paths on the author's machine. The master run script uses portable self-relative path detection (Section 8.7) and the Python modules contain no hardcoded paths at all.
 
 [Figure — see print edition.]
 
@@ -72,7 +72,7 @@ Total output artifacts: 13 PNG plots (generated at runtime).
 
 Module Responsibilities.
 
-The three Python modules are independent — each can be run, modified, and validated separately. They share no code at runtime and import nothing from each other. Their connection is physical, not computational: the Waters field solver (Module 1) establishes that the coupled equations have solutions, the membrane vibration module (Module 2) computes the particle spectrum from those solutions, and the structure formation module (Module 3) tests the cosmological consequences.
+The three Python modules are independent — each can be run, modified, and validated separately. They share no code at runtime and import nothing from each other. Their connection is physical, not computational: the Waters field solver (Module 1) establishes that the coupled equations have solutions, the Firmament membrane vibration module (Module 2) computes the particle spectrum from those solutions, and the structure formation module (Module 3) tests the cosmological consequences.
 
 Module 1: watersfieldsim.py solves the coupled Waters Field Equations using finite differences on regular grids. It implements both 1D and 2D spatial solvers with equilibrium finding, time evolution, and convergence testing. This module validates that the Waters Field Equations are mathematically well-posed and numerically stable — the computational foundation for everything else. Its methods are documented in Chapter 5, §5.4–5.6, and its results are presented in Chapter 5, §5.5.
 
@@ -80,7 +80,7 @@ Module 2: membrane_vibrations.py computes the eigenfrequency spectrum of the fir
 
 Module 3: structure_formation.py compares cosmological structure formation between ΛCDM and Genesis Physics using growth factor evolution, power spectrum computation, and halo mass function calculation. Its results — the ~2–4% scale-dependent differences between the two models — are the subject of Chapter 6.
 
-The special case: energyharvestingsimulation.html is not a Python module. It is a self-contained HTML/JavaScript visualization that demonstrates the energy extraction concept from the firmament membrane. It runs in any modern web browser with no server, no installation, and no dependencies. It is referenced in Chapter 7, §7.8, in connection with the membrane resonance generator concept.
+The special case: energyharvestingsimulation.html is not a Python module. It is a self-contained HTML/JavaScript visualization that demonstrates the energy extraction concept from the firmament membrane. It runs in any modern web browser with no server, no installation, and no dependencies. It is referenced in Chapter 7, §7.8, in connection with the Firmament resonance generator concept.
 
 Environment Specification.
 
@@ -223,7 +223,7 @@ File: `test4_convergence.png`. Content: Energy vs grid resolution with convergen
 
 Console output summary: The script prints test headers, iteration counts for the equilibrium solver, energy values at each time step (Test 2), and final energies for the convergence study. A successful run ends without error messages.
 
-Membrane Vibration Spectrum (membrane_vibrations.py).
+Firmament Vibration Spectrum (membrane_vibrations.py).
 
 Command:
 `bash
@@ -236,14 +236,14 @@ What it does: Runs three analyses:
 
 1. Analysis 1 — 1D string eigenfrequencies. Computes eigenfrequencies for a 1D string with fixed ends (Dirichlet boundary conditions) on a 512-point grid using SciPy's sparse eigensolver. Produces the first 14 modes.
 
-2. Analysis 2 — Circular membrane modes. Computes eigenfrequencies for a circular membrane using a 2D discretization. Produces modes labeled by Bessel function indices (n, m).
+2. Analysis 2 — Circular Firmament modes. Computes eigenfrequencies for a circular membrane using a 2D discretization. Produces modes labeled by Bessel function indices (n, m).
 
 3. Analysis 3 — Analytical vs. numerical comparison. Compares the numerically computed 1D eigenfrequencies with the analytical solution ω_n = nπv/L. Reports the mean relative error.
 
 Output files (4 PNG plots):
 
 File: `spectrum_1d_string.png`. Content: 1D mode spectrum (frequency and mass vs mode number). Size: ~120 KB.
-File: `spectrum_circular.png`. Content: Circular membrane mode spectrum. Size: ~130 KB.
+File: `spectrum_circular.png`. Content: Circular Firmament membrane mode spectrum. Size: ~130 KB.
 File: `spectrum_vs_particles.png`. Content: Predicted masses overlaid with electron, muon, Higgs. Size: ~150 KB.
 File: `spectrum_comparison.png`. Content: Analytical vs numerical eigenfrequency comparison. Size: ~100 KB.
 
@@ -289,7 +289,7 @@ start energyharvestingsimulation.html
 
 Or simply double-click the file in your file manager.
 
-What it shows: An interactive visualization of the energy extraction concept from the firmament membrane. The user can adjust membrane parameters (tension, coupling strength) and observe the energy density response in real time. This is the visualization referenced in Chapter 7, §7.8, in connection with the membrane resonance generator concept.
+What it shows: An interactive visualization of the energy extraction concept from the firmament membrane. The user can adjust membrane parameters (tension, coupling strength) and observe the energy density response in real time. This is the visualization referenced in Chapter 7, §7.8, in connection with the Firmament membrane resonance generator concept.
 
 Requirements: A modern web browser (Chrome, Firefox, Safari, Edge — any version from 2020 or later). No server required. No internet access required. The file is entirely self-contained — all JavaScript and CSS are inline.
 
@@ -318,7 +318,7 @@ Table 8.1: Expected Outputs from watersfieldsim.py
 
 The convergence study is the most important validation. If the final energies at three grid resolutions show the expected O(Δx²) convergence (error roughly quartering when the grid is doubled), the solver is working correctly. If the convergence rate is significantly different — say O(Δx) or no convergence at all — something is wrong with the installation or the source file has been modified.
 
-Membrane Vibrations — Expected Outputs.
+Firmament Vibrations — Expected Outputs.
 
 Table 8.2: Expected Outputs from membrane_vibrations.py
 | Analysis | Quantity | Expected Value | Tolerance | Ch 7 Reference |
@@ -350,6 +350,8 @@ The signature result is the scale-dependent power spectrum ratio: enhancement at
 
 The growth factor ratio at z = 0 must equal 1.000 by construction (both models are normalized to D = 1 at the present epoch). A value different from 1.000 at z = 0 indicates a normalization error.
 
+Note on Table 8.3 expected values. The converged values in Table 8.3 (1.08, 0.96, 0.92 for the power spectrum ratio at k = 0.01, 1.0, 10.0 respectively) are the results of the full parameter convergence study described in §8.5 — specifically, from runs with the higher-resolution parameter set Na = 200 used in the Chapter 6 analysis. A single default run of structureformation.py with the default parameters (N_a = 50) produces preliminary values of approximately 0.87–0.877 for the small-scale ratios, which differ from the converged results. This is expected: the default run is a quick validation check, not the production result. The table values are achieved by running the convergence study as described in §6.5. If your default run produces values near 0.87 rather than 0.92 at k = 10.0, this is correct behavior — the simulation is working; you are simply seeing the pre-convergence estimate.
+
 The Master Run Script.
 
 For readers who prefer a single command that runs everything, the runallsimulations.sh script orchestrates all three Python modules, checks dependencies, captures exit codes, and generates a summary report.
@@ -373,29 +375,29 @@ The script performs the following steps in order:
 6. Lists all generated output files with sizes.
 7. Exits with code 0 if all modules passed, code 1 if any failed.
 
-The Path Issue.
+Portable Path Design.
 
-Important. The runallsimulations.sh script contains a hardcoded path on line 7:
-
-`bash
-SIMDIR="/sessions/trusting-quirky-cannon/mnt/ExodusProtocol/01GenesisPhysics/Research/Simulations"
-`
-
-This path is from the development environment and will not exist on your machine. Before running the script, update this line to point to your local Research/Simulations/ directory. For example:
+The runallsimulations.sh script is designed to be fully portable — it contains no hardcoded paths. Line 7 of the script reads:
 
 `bash
-SIMDIR="/home/username/genesis_physics/Research/Simulations"
+SIMDIR="(cd "(dirname "${BASH_SOURCE[0]}")" && pwd)"
 `
 
-Or, if you are already in the Research/Simulations/ directory, replace the line with:
+This makes the script automatically detect its own location at runtime, regardless of where the repository is installed. You can call the script from any working directory and it will correctly locate the simulation files relative to itself.
+
+No manual editing is required. Simply run:
 
 `bash
-SIMDIR="(cd "(dirname "$0")" && pwd)"
+bash runallsimulations.sh
 `
 
-This makes the script automatically detect its own location.
+from anywhere within the repository, or by absolute path:
 
-Alternatively, bypass the script entirely and run the three Python modules individually using the commands in Section 8.5 — they do not have any hardcoded paths.
+`bash
+bash /path/to/Research/Simulations/runallsimulations.sh
+`
+
+The individual Python modules (watersfieldsim.py, membranevibrations.py, structureformation.py) also contain no hardcoded paths and can be run from any directory — they write output files to the current working directory.
 
 Interpreting the Summary.
 
@@ -478,6 +480,24 @@ The gap is real but bounded. A reader following the instructions in this chapter
 
 The honest summary: the science is reproducible; the packaging is not yet production-grade. Closing this gap is tracked as a planned task and will be completed before the companion repository is published alongside the final volume.
 
+Reproducibility Requirements (Rev. 2026-05-14).
+
+PACKAGING STATUS — Research Task RT-6.REP
+To allow independent reproduction of simulation results without manual environment setup, the package requires the following items. Current status is listed for each:
+1. requirements.txt with pinned versions
+A machine-readable dependency file enabling pip install -r requirements.txt for exact version matching (numpy==1.26.4, scipy==1.13.0, matplotlib==3.9.0).
+Status: PENDING — Research Task RT-6.REP. The file does not yet exist in the repository. It can be created trivially; the delay is administrative, not technical.
+2. Docker/Conda environment file
+A Dockerfile (see §8.8.2 for the intended specification) or environment.yml enabling single-command environment creation on any platform.
+Status: PENDING — RT-6.REP. No container currently packages the simulation environment. This is the highest-priority gap for long-term reproducibility.
+3. Numerical validation thresholds
+Machine-readable tolerance specifications (beyond the prose tables in §8.6) enabling automated pass/fail testing — e.g., a pytest suite that checks all Table 8.1–8.3 values within stated tolerances.
+Status: PARTIAL. Tables 8.1–8.3 provide the tolerance specifications in human-readable form. Automated testing is not yet implemented.
+4. Seed documentation
+Documentation of any random seeds, initialization parameters, or platform-specific numerical settings that affect result reproducibility across operating systems.
+Status: PARTIAL. The current simulation modules use deterministic algorithms (eigenvalue decomposition, finite differences) with no random seeds. Platform-dependent floating-point variation is documented in §8.9, Problem 7. However, any future stochastic extensions (Monte Carlo sampling, N-body integrators with force softening) will require explicit seed documentation.
+Until items 1 and 2 are complete, independent researchers who encounter environment issues should contact the authors for environment specifications. The simulation code itself is fully functional; the gap is packaging automation only.
+
 Troubleshooting Guide.
 
 When the simulations don't run or produce unexpected output, the cause is almost always environmental rather than scientific. This section covers the seven most common failure modes and their fixes.
@@ -531,16 +551,17 @@ matplotlib.use('Agg')
 
 The simulations save plots to files and do not display them interactively, so the Agg backend is fully sufficient.
 
-Problem 4: Hardcoded Path in runallsimulations.sh.
+Problem 4: Script Cannot Find Simulation Files.
 
-Symptom: cd: /sessions/trusting-quirky-cannon/...: No such file or directory
+Symptom: python3: can't open file 'watersfieldsim.py': [Errno 2] No such file or directory (or similar)
 
-Cause: The master run script contains a hardcoded path from the development environment (see Section 8.7.2).
+Cause: The script is being called from a directory that does not contain the simulation files, or the Python module files are not present in the Research/Simulations/ directory.
 
-Fix: Edit line 7 of runallsimulations.sh to point to your local Research/Simulations/ directory. Or replace it with:
+Fix: The script automatically locates itself via (cd "(dirname "${BASH_SOURCE[0]}")" && pwd) — there are no hardcoded paths to edit. Verify that: (1) the script is in the same directory as the .py files; (2) you are calling the correct script path. You can also run the modules individually from within the Research/Simulations/ directory:
 
 `bash
-SIMDIR="(cd "(dirname "$0")" && pwd)"
+cd /path/to/Research/Simulations/
+python3 watersfieldsim.py
 `
 
 Problem 5: Windows Line Endings.

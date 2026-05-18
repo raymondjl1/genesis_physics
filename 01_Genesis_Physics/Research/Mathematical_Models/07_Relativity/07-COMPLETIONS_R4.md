@@ -809,7 +809,7 @@ $$\delta S_4 / \delta g_{\mu\nu} = 0 \Rightarrow R_{\mu\nu} - \frac{1}{2}g_{\mu\
 
 1. **Gravity as geometry**: Gravity is not a force but the curvature of 6D spacetime, emerging from the 6D Einstein-Hilbert action
 2. **Extra dimensions (ξ, η)**: Associated with the "Waters Above" and "Waters Below" theological framework, manifesting as compact extra dimensions with characteristic scale $\sim$ Planck length
-3. **Speed of light from membrane properties**: $c^2 = \sigma/\mu$ where $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) (membrane tension) and $\mu \approx 6.7 \times 10^{81}$ kg/m³ (mass density)
+3. **Speed of light from membrane properties**: $c^2 = \sigma/\mu$ where $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) (Firmament tension) and $\mu \approx 6.7 \times 10^{81}$ kg/m³ (mass density)
 4. **Gravitational constant from KK reduction**: $G_4 = G_6 / V_{\text{extra}}$ solves the hierarchy problem
 5. **All relativistic phenomena from one action**: Frame dragging, gravitational waves, black hole thermodynamics, and merger dynamics all emerge from the same 6D action
 

@@ -37,7 +37,7 @@ Answer every "shut up and calculate" in quantum physics. Wave-particle duality, 
 | 7 | Perturbation Theory and Feynman Diagrams | Feynman diagrams as zone process diagrams. |
 | 8 | Renormalization in Zone Architecture | WHY infinities appear. Zone architecture's natural cutoff. |
 | 9 | Casimir Effect and Vacuum Energy | **Cosmological constant problem solved.** |
-| 10 | Leptons and Quarks from Membrane Resonances | **PARTICLE MASSES CALCULATED.** WHY three generations. |
+| 10 | Leptons and Quarks from Firmament Resonances | **PARTICLE MASSES CALCULATED.** WHY three generations. |
 | 11 | The Electroweak Theory | W, Z masses calculated. Weinberg angle derived. |
 | 12 | Quantum Chromodynamics | Confinement derived. Asymptotic freedom explained. |
 | 13 | CKM and PMNS Matrices | Mixing angles calculated. CP violation explained. |
@@ -96,7 +96,7 @@ Answer every "shut up and calculate" in quantum physics. Wave-particle duality, 
 
 ### Chapter 10 — Notes
 
-- **Title:** Leptons and Quarks from Membrane Resonances
+- **Title:** Leptons and Quarks from Firmament Resonances
 - **Role:** Opens Part III (The Standard Model Derived) of Vol 4. Designated as the **make-or-break** chapter of the volume.
 - **Word count:** ~10,300 (below the 12,000–14,000 target; adequate for content covered)
 - **Figures:** 6 (Fig 4.10.1 – 4.10.6)
@@ -109,7 +109,7 @@ Answer every "shut up and calculate" in quantum physics. Wave-particle duality, 
 - **V4-004 acceptance:** PARTIAL — electron, proton, neutron calculated with error bars; full Standard Model attempted with honest residuals; V4-007 fully satisfied (honest about non-working masses).
 - **V4-005 acceptance:** MET — three generations derived from Sturm-Liouville bound-state count (§10.3).
 - **V4-007 acceptance:** MET in exemplary fashion — honesty is the deliverable of this chapter. See §§10.5, 10.9 in particular.
-- **Files:** `Manuscript/Ch_10_Leptons_and_Quarks_from_Membrane_Resonances/` — Ch10_SPEC.md, Ch10_OUTLINE.md, Ch10_DRAFT.md, Ch10_SELF_REVIEW.md, Ch10_REVIEWER_NOTES.md, Ch10_FINAL.md
+- **Files:** `Manuscript/Ch_10_Leptons_and_Quarks_from_Firmament_Resonances/` — Ch10_SPEC.md, Ch10_OUTLINE.md, Ch10_DRAFT.md, Ch10_SELF_REVIEW.md, Ch10_REVIEWER_NOTES.md, Ch10_FINAL.md
 - **Status:** VERIFIED conditional on the documented OPEN problems. This verification means the chapter is honest and internally consistent, not that the framework's numerical predictions match data at the precision required to compete with the Standard Model. The reader is directed to §10.9 for the honest ledger and §10.10 for the structural successes.
 
 ### ACTION ITEM Ch10-T1 — Test suite additions

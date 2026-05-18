@@ -98,7 +98,7 @@ Structure:
 - §B.9 CKM and PMNS matrices
 - §B.10 Headline honesty table — every SM parameter, its status, fractional error, and GitHub blocker reference
 
-Critical requirement: §B.4 must show electron as CALIBRATION (not a prediction), and must flag lepton ratios as the prediction, not absolute masses. §B.5 must list light quarks with their true scheme-dependent uncertainty (not 1%, which would be dishonest). §B.8 must state that the prompt's invoked "1000× error" regime lives here — neutrino absolute masses are currently predicted only by order-of-magnitude suppression arguments; any attempt to compute absolute values from the current membrane model is off by ~10³ or worse. The table must say so.
+Critical requirement: §B.4 must show electron as CALIBRATION (not a prediction), and must flag lepton ratios as the prediction, not absolute masses. §B.5 must list light quarks with their true scheme-dependent uncertainty (not 1%, which would be dishonest). §B.8 must state that the prompt's invoked "1000× error" regime lives here — neutrino absolute masses are currently predicted only by order-of-magnitude suppression arguments; any attempt to compute absolute values from the current Firmament model is off by ~10³ or worse. The table must say so.
 
 Appendix C: Feynman Rules for Zone Architecture.
 

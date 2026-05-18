@@ -19,7 +19,7 @@ Table: Symbol, Name, Definition / Units, First Appears, Used In, Related.
 
 The compact form, used in quick-reference blocks and the constants table (E.8), trims the locator columns where a symbol is series-wide. "First Appears" is the volume and chapter where the symbol is introduced with its current meaning (not necessarily its first informal mention). "Used In" lists every volume that references the symbol substantively. "Related" names the nearest neighbor symbols the reader should consult for context.
 
-Reading conventions. Where a symbol has different conventional meanings in different sub-disciplines (e.g., σ is membrane tension in Vol 1 but Pauli-matrix index in Vol 4), both senses are listed and disambiguated by the volume tag in the "First Appears" column. Where a symbol appears with a subscript that changes its meaning (e.g., κfull vs. κpartial), each variant has its own row. Where the series uses a symbol in a way that conflicts with ordinary physics convention (rare, but it happens — see κ for sustaining-field power density, not second-law spring-constant), the nonstandard use is flagged with a ⚠ marker in the Definition column.
+Reading conventions. Where a symbol has different conventional meanings in different sub-disciplines (e.g., σ is Firmament tension in Vol 1 but Pauli-matrix index in Vol 4), both senses are listed and disambiguated by the volume tag in the "First Appears" column. Where a symbol appears with a subscript that changes its meaning (e.g., κfull vs. κpartial), each variant has its own row. Where the series uses a symbol in a way that conflicts with ordinary physics convention (rare, but it happens — see κ for sustaining-field power density, not second-law spring-constant), the nonstandard use is flagged with a ⚠ marker in the Definition column.
 
 How to extend Appendix E. When a new chapter introduces a symbol, the chapter author is responsible for (a) checking whether the symbol already exists here, (b) if it does, using it exactly as defined, (c) if it does not, proposing an Appendix E row. The Consistency Auditor reviews the proposed row before the chapter is finalized.
 
@@ -33,17 +33,17 @@ Symbol: `a`. Name: Cosmic scale factor. Definition / Units: Dimensionless; FRW m
 Symbol: `a_e`. Name: Electron anomalous magnetic moment. Definition / Units: Dimensionless; (g sub e-2)/2, computed perturbatively from zone-derived QED. First Appears: 4.Ch 7. Used In: V4, V6. Related: `g_e`, `α`.
 Symbol: `a_μ`. Name: Muon anomalous magnetic moment. Definition / Units: Dimensionless. First Appears: 4.Ch 7. Used In: V4, V6. Related: `a_e`, `α`.
 Symbol: `b_eff`, `b_hi`. Name: One- and two-loop coefficients in α derivation. Definition / Units: Dimensionless. First Appears: 5.Ch 13. Used In: V5, V6. Related: `α`, `ξ_A`, `η_B`.
-Symbol: `c`. Name: Speed of light. Definition / Units: 2.998 × 10⁸ m/s; derived as `c = √(σ/μ)` from membrane mechanics. First Appears: 1.Ch 5. Used In: All vols. Related: `σ`, `μ`, `c_local`.
+Symbol: `c`. Name: Speed of light. Definition / Units: 2.998 × 10⁸ m/s; derived as `c = √(σ/μ)` from Firmament membrane mechanics. First Appears: 1.Ch 5. Used In: All vols. Related: `σ`, `μ`, `c_local`.
 Symbol: `c_local`. Name: Position-dependent local `c`. Definition / Units: `c²_local = c₀²(1 + εR/(c₀²ρ_c))`; zone-architecture correction to classical GR constancy. First Appears: 6.Ch 9. Used In: V6. Related: `c`, `R` (Ricci), `ρ_c`.
 Symbol: `d`. Name: Gap width (Casimir, MRG). Definition / Units: m; boundary separation in dynamic-Casimir and MRG contexts. First Appears: 4.Ch 9. Used In: V4, V6. Related: `F/A`, `κ(f,f_n)`.
-Symbol: `e`. Name: Elementary charge. Definition / Units: 1.602 × 10⁻¹⁹ C; emerges from brane U(1) topology. First Appears: 2.Ch 6. Used In: V2, V4, V6. Related: `α`, `Q`.
+Symbol: `e`. Name: Elementary charge. Definition / Units: 1.602 × 10⁻¹⁹ C; emerges from Firmament U(1) topology. First Appears: 2.Ch 6. Used In: V2, V4, V6. Related: `α`, `Q`.
 Symbol: `f`. Name: Frequency. Definition / Units: Hz; generic frequency variable. First Appears: 1.Ch 5. Used In: All vols. Related: `ω`, `f_n`, `f_1`.
-Symbol: `f_n`. Name: nth resonant mode frequency. Definition / Units: Hz; membrane vibration eigenfrequencies. First Appears: 1.Ch 5. Used In: V1, V6. Related: `f_1`, `ω_n`.
+Symbol: `f_n`. Name: nth resonant mode frequency. Definition / Units: Hz; Firmament membrane vibration eigenfrequencies. First Appears: 1.Ch 5. Used In: V1, V6. Related: `f_1`, `ω_n`.
 Symbol: `g`. Name: Weak gauge coupling. Definition / Units: Dimensionless; SU(2) coupling in electroweak sector. First Appears: 4.Ch 11. Used In: V4, V6. Related: `g'`, `M_W`, `v`.
 Symbol: `g'`. Name: Hypercharge gauge coupling. Definition / Units: Dimensionless; U(1)_Y coupling. First Appears: 4.Ch 11. Used In: V4, V6. Related: `g`, `θ_W`.
 Symbol: `g_e`. Name: Electron g-factor. Definition / Units: Dimensionless; `g_e ≈ 2.002319...` (zone-derived perturbatively). First Appears: 4.Ch 7. Used In: V4, V6. Related: `a_e`.
-Symbol: `g_μν`. Name: Metric tensor. Definition / Units: Dimensionless (coordinate-dependent); 4D-brane or 6D-bulk depending on context. First Appears: 1.Ch 4. Used In: All vols. Related: `η_μν`, `R_μν`.
-Symbol: `h`. Name: Planck constant. Definition / Units: 6.626 × 10⁻³⁴ J·s; derived from brane boundary quantization. First Appears: 4.Ch 1. Used In: V4, V5, V6. Related: `ℏ`, `m_P`.
+Symbol: `g_μν`. Name: Metric tensor. Definition / Units: Dimensionless (coordinate-dependent); 4D-Firmament or 6D-bulk depending on context. First Appears: 1.Ch 4. Used In: All vols. Related: `η_μν`, `R_μν`.
+Symbol: `h`. Name: Planck constant. Definition / Units: 6.626 × 10⁻³⁴ J·s; derived from Firmament boundary quantization. First Appears: 4.Ch 1. Used In: V4, V5, V6. Related: `ℏ`, `m_P`.
 Symbol: `h_+, h_×`. Name: Tensor GW polarizations. Definition / Units: Dimensionless strain amplitudes. First Appears: 5.Ch 3. Used In: V5, V6. Related: `h_S, h_L, h_V1, h_V2`.
 Symbol: `h_S, h_L`. Name: Scalar-breathing, longitudinal-scalar GW modes. Definition / Units: Dimensionless strain; **novel in 6D zone theory**. First Appears: 5.Ch 3. Used In: V5, V6. Related: `h_+`, `h_V1,V2`.
 Symbol: `h_V1, h_V2`. Name: Vector GW polarization modes. Definition / Units: Dimensionless strain; 6D-theory signatures. First Appears: 5.Ch 3. Used In: V5, V6. Related: `h_+`, `h_S`.
@@ -152,7 +152,7 @@ Symbol: `ε_0`. Name: Vacuum permittivity. Definition / Units: 8.854 × 10⁻¹�
 Symbol: `ζ`. Name: Riemann zeta argument (thermodynamic calculations), generic. Definition / Units: Dimensionless. First Appears: 3.Ch 10. Used In: V3. Related: —.
 Symbol: `η`. Name: Efficiency, or compact-dimension coordinate, or Minkowski metric (context). Definition / Units: Dimensionless or m. First Appears: 1.Ch 4. Used In: All vols. Related: `η_B`, `η_μν`.
 Symbol: `η_B`. Name: Waters Below extent (nuclear/QCD boundary). Definition / Units: 1.3 × 10⁻¹⁵ m. First Appears: 1.Ch 6. Used In: V1, V4, V5, V6. Related: `ξ_A`, `α`, `n_η`.
-Symbol: `η_μν`. Name: Minkowski metric (flat spacetime). Definition / Units: Dimensionless; signature `(+,−,−,−)` on brane. First Appears: 1.Ch 4. Used In: All vols. Related: `g_μν`.
+Symbol: `η_μν`. Name: Minkowski metric (flat spacetime). Definition / Units: Dimensionless; signature `(+,−,−,−)` on Firmament. First Appears: 1.Ch 4. Used In: All vols. Related: `g_μν`.
 Symbol: `η_sail, η_harvest, η_osc`. Name: Subscripted extraction-efficiency factors. Definition / Units: Dimensionless. First Appears: 6.Ch 10. Used In: V6. Related: `η`.
 Symbol: `θ_W`. Name: Weinberg (weak mixing) angle. Definition / Units: Radians; `sin²θ_W ≈ 0.23122`. First Appears: 4.Ch 11. Used In: V4, V6. Related: `g`, `g'`, `M_W, M_Z`.
 Symbol: `Θ`. Name: Heaviside step function, or general angle (context). Definition / Units: Dimensionless. First Appears: 1.Ch 10. Used In: V1, V3. Related: `δ`, `θ`.
@@ -183,7 +183,7 @@ Symbol: `ρ_critical`. Name: QCD critical density. Definition / Units: ~2.3 × 1
 Symbol: `ρ_Λ, ρ_vac`. Name: Cosmological-constant / vacuum-energy density. Definition / Units: GeV⁴ or kg/m³; `~10⁻⁴⁷ GeV⁴`. First Appears: 5.Ch 11. Used In: V5, V6. Related: `Λ`, `Ω_Λ`.
 Symbol: `σ`. Name: Membrane 3-brane tension. Definition / Units: 6.0 × 10⁹⁸ kg·m⁻¹·s⁻² ⚠ nonstandard use (not cross-section). First Appears: 1.Ch 5. Used In: V1, V2, V5, V6. Related: `μ`, `c`, `E_binding`.
 Symbol: `σ_DM-SM`. Name: Dark-matter / Standard-Model cross-section. Definition / Units: cm²; zone-architecture predicts exactly 0. First Appears: 5.Ch 11. Used In: V5, V6. Related: `Ψ_B`.
-Symbol: `σ_redeem`. Name: Redemption-phase brane tension (speculative). Definition / Units: kg·m⁻¹·s⁻². First Appears: 1.Ch 11. Used In: V1. Related: `σ`, `κ_redeem`.
+Symbol: `σ_redeem`. Name: Redemption-phase Firmament tension (speculative). Definition / Units: kg·m⁻¹·s⁻². First Appears: 1.Ch 11. Used In: V1. Related: `σ`, `κ_redeem`.
 Symbol: `σ_SB`. Name: Stefan-Boltzmann constant. Definition / Units: 5.670 × 10⁻⁸ W·m⁻²·K⁻⁴. First Appears: 3.Ch 10. Used In: V3, V6. Related: `T`, `j`.
 Symbol: `τ`. Name: Proper time or lifetime (context). Definition / Units: s. First Appears: 5.Ch 2. Used In: V5, V6. Related: `t`, `τ_DM`, `τ_p`.
 Symbol: `τ_couple`. Name: Waters–Firmament coupling oscillation timescale. Definition / Units: s; `~ 2ξ_A/c ~ 60 Gyr`. First Appears: 5.Ch 11. Used In: V5, V6. Related: `ξ_A`, `c`.
@@ -207,10 +207,10 @@ E.4  Mathematical Operators and Relations.
 
 Operators are in order of frequency of appearance across the series. The table below includes only operators whose usage in Genesis Physics requires clarification beyond the ordinary mathematical-physics meaning; universally standard symbols (=, +, −, ×, /, ∑, ∫) are omitted.
 
-Symbol: `∂_μ`. Name: Partial derivative with respect to coordinate `x^μ`. Meaning in Genesis Physics: Standard; `μ ∈ {0,1,2,3}` on brane, `{0,1,2,3,4,5}` on 6D bulk. Used In: V1, V2, V4, V5.
+Symbol: `∂_μ`. Name: Partial derivative with respect to coordinate `x^μ`. Meaning in Genesis Physics: Standard; `μ ∈ {0,1,2,3}` on Firmament, `{0,1,2,3,4,5}` on 6D bulk. Used In: V1, V2, V4, V5.
 Symbol: `∇`. Name: Spatial gradient (3-vector) or covariant derivative (context). Meaning in Genesis Physics: 3-vector gradient in classical contexts; full `∇_μ` (covariant) in GR contexts. Used In: V1–V6.
 Symbol: `∇_μ`. Name: Covariant derivative. Meaning in Genesis Physics: Uses Christoffel symbols of `g_μν`. Used In: V5.
-Symbol: `□`. Name: D'Alembertian operator. Meaning in Genesis Physics: `∂_μ∂^μ = (1/c²)∂²/∂t² − ∇²` on flat brane; `∇_μ∇^μ` on curved spacetime. Used In: V2, V4, V5.
+Symbol: `□`. Name: D'Alembertian operator. Meaning in Genesis Physics: `∂_μ∂^μ = (1/c²)∂²/∂t² − ∇²` on flat Firmament; `∇_μ∇^μ` on curved spacetime. Used In: V2, V4, V5.
 Symbol: `⊗`. Name: Tensor product. Meaning in Genesis Physics: Standard; used for state spaces in V4 and product manifolds in V1. Used In: V1, V4.
 Symbol: `⊕`. Name: Direct sum. Meaning in Genesis Physics: Used for zone decompositions `Z = Z_Above ⊕ Z_Below ⊕ Firmament`-like splittings. Used In: V1, V4.
 Symbol: `≡`. Name: Defined as / identically equal. Meaning in Genesis Physics: Used for definitions (not equations that could fail). Used In: All vols.
@@ -235,19 +235,19 @@ E.5  Tensor and Index Conventions.
 
 These conventions hold across the entire series. Any chapter deviating from them is in error.
 
-Index placement and summation. Einstein summation is implicit: repeated indices, one up and one down, are summed over their range. Upper (contravariant) indices raise; lower (covariant) indices lower. For vectors: V^μ is contravariant, Vμ is covariant, Vμ = gμν V^ν. Indices are raised and lowered only with the metric tensor gμν (brane) or the 6D metric gMN (bulk). In flat-space contexts, ημν substitutes for g_μν.
+Index placement and summation. Einstein summation is implicit: repeated indices, one up and one down, are summed over their range. Upper (contravariant) indices raise; lower (covariant) indices lower. For vectors: V^μ is contravariant, Vμ is covariant, Vμ = gμν V^ν. Indices are raised and lowered only with the metric tensor gμν (Firmament) or the 6D metric gMN (bulk). In flat-space contexts, ημν substitutes for g_μν.
 
-Index ranges. Greek indices (μ, ν, ρ, σ, ...) range over spacetime on the 4D brane: 0, 1, 2, 3, with 0 = ct and 1, 2, 3 = x, y, z. Capital-Latin indices (M, N, P, Q, ...) range over the full 6D bulk: 0, 1, 2, 3, 4, 5, with 4 = ξ and 5 = η. Lower-Latin indices (i, j, k, ...) range over the spatial three-submanifold: 1, 2, 3. Hatted indices (μ̂, ν̂, ...) denote tangent-frame (locally inertial) components rather than coordinate components.
+Index ranges. Greek indices (μ, ν, ρ, σ, ...) range over spacetime on the 4D Firmament: 0, 1, 2, 3, with 0 = ct and 1, 2, 3 = x, y, z. Capital-Latin indices (M, N, P, Q, ...) range over the full 6D bulk: 0, 1, 2, 3, 4, 5, with 4 = ξ and 5 = η. Lower-Latin indices (i, j, k, ...) range over the spatial three-submanifold: 1, 2, 3. Hatted indices (μ̂, ν̂, ...) denote tangent-frame (locally inertial) components rather than coordinate components.
 
-Metric signature. The 4D brane uses signature (+, −, −, −), so that proper time obeys dτ² = g_μν dx^μ dx^ν with the timelike coordinate carrying the positive sign. The 6D bulk extends this to (+, −, −, −, −, −) — one timelike and five spacelike directions. This is the convention fixed in Axiom 5 (equation 1.1.5) and the 6D embedding metric (equation 1.4.1). Any chapter using the opposite signature (−, +, +, +) is in error and must be corrected.
+Metric signature. The 4D Firmament uses signature (+, −, −, −), so that proper time obeys dτ² = g_μν dx^μ dx^ν with the timelike coordinate carrying the positive sign. The 6D bulk extends this to (+, −, −, −, −, −) — one timelike and five spacelike directions. This is the convention fixed in Axiom 5 (equation 1.1.5) and the 6D embedding metric (equation 1.4.1). Any chapter using the opposite signature (−, +, +, +) is in error and must be corrected.
 
 Symmetry and antisymmetry. Round brackets denote symmetrization: T(μν) = ½(Tμν + Tνμ). Square brackets denote antisymmetrization: T[μν] = ½(Tμν − Tνμ). Parentheses and brackets around indices obey the standard normalization factor of 1/n! for n indices.
 
 Levi-Civita tensor. In 4D, ε^{μνρσ} is the fully antisymmetric rank-4 tensor with ε^{0123} = +1 in a right-handed coordinate system. In 6D, ε^{MNPQRS} is the rank-6 analog. The tensor densities differ from the symbols by factors of √|g|; the series uses tensors (normalized), and distinguishes them from the underlying Levi-Civita symbols only when ambiguity arises.
 
-Hodge duality. Used extensively in V2 for electromagnetism (★F = F̃ with F̃{μν} = ½ε{μνρσ}F^{ρσ}) and in V5 for brane-volume forms.
+Hodge duality. Used extensively in V2 for electromagnetism (★F = F̃ with F̃{μν} = ½ε{μνρσ}F^{ρσ}) and in V5 for Firmament-volume forms.
 
-Brane-bulk projections. A quantity living in the 6D bulk is decomposed via the induced metric hμν = gμν − nμnν, where n^μ is the unit normal to the brane. Projections onto the brane use h^μ_ν; projections into the bulk use n^μ.
+Brane-bulk projections. A quantity living in the 6D bulk is decomposed via the induced metric hμν = gμν − nμnν, where n^μ is the unit normal to the Firmament. Projections onto the Firmament use h^μ_ν; projections into the bulk use n^μ.
 
 E.6  Unit and Prefix Conventions.
 
@@ -297,7 +297,7 @@ Symbol: `K_ij`. Meaning: Extrinsic curvature of Firmament hypersurface. Units: m
 Symbol: `[K_ij]`. Meaning: Israel junction-condition discontinuity. Units: m⁻¹. First Appears: 1.Ch 5.
 Symbol: `Ψ_A`. Meaning: Waters Above field. Units: Field amplitude. First Appears: 1.Ch 6.
 Symbol: `Ψ_B`. Meaning: Waters Below field. Units: Field amplitude. First Appears: 1.Ch 6.
-Symbol: `σ, μ`. Meaning: Membrane tension and density. Units: See E.3. First Appears: 1.Ch 5.
+Symbol: `σ, μ`. Meaning: Firmament tension and density. Units: See E.3. First Appears: 1.Ch 5.
 
 Boundary scales.
 
@@ -321,7 +321,7 @@ E.8  Constants Reference.
 
 Complete table of physical constants used anywhere in the series, with the zone-architecture derivation context where available. Values are CODATA 2022 unless otherwise noted.
 
-Constant: Speed of light. Symbol: `c`. Value: 2.998 × 10⁸. Units: m/s. Zone-Architecture Source: `√(σ/μ)` from membrane mechanics. First Appears: 1.Ch 5.
+Constant: Speed of light. Symbol: `c`. Value: 2.998 × 10⁸. Units: m/s. Zone-Architecture Source: `√(σ/μ)` from Firmament membrane mechanics. First Appears: 1.Ch 5.
 Constant: Gravitational constant. Symbol: `G`. Value: 6.674 × 10⁻¹¹. Units: m³·kg⁻¹·s⁻². Zone-Architecture Source: `c⁴/(8πσ·L_eff²)` from 6D reduction. First Appears: 2.Ch 9.
 Constant: Planck constant. Symbol: `h`. Value: 6.626 × 10⁻³⁴. Units: J·s. Zone-Architecture Source: Brane-boundary quantization. First Appears: 4.Ch 1.
 Constant: Reduced Planck constant. Symbol: `ℏ`. Value: 1.055 × 10⁻³⁴. Units: J·s. Zone-Architecture Source: `h/(2π)`. First Appears: 4.Ch 1.
@@ -356,7 +356,7 @@ Constant: Planck length. Symbol: `ℓ_P`. Value: 1.616 × 10⁻³⁵. Units: m. 
 Constant: Planck time. Symbol: `t_P`. Value: 5.39 × 10⁻⁴⁴. Units: s. Zone-Architecture Source: `ℓ_P/c`. First Appears: 4.Ch 9.
 Constant: Planck mass. Symbol: `m_P`. Value: 2.18 × 10⁻⁸. Units: kg. Zone-Architecture Source: `√(ℏc/G)`. First Appears: 4.Ch 9.
 Constant: Planck temperature. Symbol: `T_P`. Value: 1.417 × 10³². Units: K. Zone-Architecture Source: `m_Pc²/k_B`. First Appears: 4.Ch 9.
-Constant: Membrane tension. Symbol: `σ`. Value: 6.0 × 10⁹⁸. Units: kg·m⁻¹·s⁻². Zone-Architecture Source: Fundamental creation parameter. First Appears: 1.Ch 5.
+Constant: Firmament tension. Symbol: `σ`. Value: 6.0 × 10⁹⁸. Units: kg·m⁻¹·s⁻². Zone-Architecture Source: Fundamental creation parameter. First Appears: 1.Ch 5.
 Constant: Membrane density. Symbol: `μ`. Value: 6.7 × 10⁸¹. Units: kg/m³. Zone-Architecture Source: Fundamental creation parameter. First Appears: 1.Ch 5.
 Constant: 6D coupling length. Symbol: `L_eff`. Value: 8.96 × 10⁻²⁹. Units: m. Zone-Architecture Source: 6D → 4D reduction. First Appears: 1.Ch 4.
 Constant: Waters Above extent. Symbol: `ξ_A`. Value: ~3 × 10²⁶. Units: m. Zone-Architecture Source: Hubble-scale boundary. First Appears: 1.Ch 6.
@@ -375,7 +375,7 @@ Categorical labels (master-table canonical). The 153 predictions are partitioned
 Category label: Structural. Count: 7. Representative IDs: P-031, P-032, P-033, P-034, P-050, P-051, P-081. Physical subject: Conservation laws, zone topology, aufbau, bonding.
 Category label: Couplings. Count: 7. Representative IDs: P-004, P-005, P-006, P-056, P-057, P-058, P-065. Physical subject: α, α_s, α_em/α_G, sin²θ_W, α-constancy.
 Category label: Particle. Count: 21. Representative IDs: P-014–P-023, P-052–P-055, P-066, P-067, P-071, P-072, P-074, P-075, P-080. Physical subject: W/Z/Higgs, leptons, quarks, neutrinos, CKM, jets.
-Category label: GR. Count: 14. Representative IDs: P-007–P-013, P-059, P-060, P-068–P-070, P-100, P-101. Physical subject: Classical GR tests, GW, KK modes, brane c.
+Category label: GR. Count: 14. Representative IDs: P-007–P-013, P-059, P-060, P-068–P-070, P-100, P-101. Physical subject: Classical GR tests, GW, KK modes, Firmament c.
 Category label: Cosmology. Count: 17. Representative IDs: P-024–P-030, P-061–P-064, P-073, P-076–P-079, P-082. Physical subject: DE/DM, H₀, age, Ω's, Λ, rotation curves, Waters power spectrum.
 Category label: QM. Count: 4. Representative IDs: P-046, P-047, P-048, P-049. Physical subject: Photoelectric, Compton, BEC, Casimir.
 Category label: EM. Count: 6. Representative IDs: P-040–P-045. Physical subject: Maxwell, c-from-metric, charge quantization, EM spectrum, BCS T_c, Meissner.
@@ -397,7 +397,7 @@ Technology identifier scheme. The T-XXX-NN scheme is the parallel identifier fam
 - T-FTL-03 Zone Tunneling
 - T-FTL-04 Field Distortion / Warp Bubble
 - T-FTL-05 Consciousness Interface
-- T-NRG-01 Membrane Resonance Generator (MRG)
+- T-NRG-01 Firmament Resonance Generator (MRG)
 - T-NRG-02 Waters Above Expansion Sail
 - T-NRG-03 Dynamic Casimir Array
 - T-NRG-04 Zone-Boundary Latent-Heat Extraction
@@ -405,7 +405,7 @@ Technology identifier scheme. The T-XXX-NN scheme is the parallel identifier fam
 - T-COM-02 Zone-Tunneling Channel
 - T-COM-03 Waters-Field Modulation Channel
 - T-COM-04 Consciousness-Interface Channel
-- T-SNS-01 Membrane Vibration Interferometer (MVI)
+- T-SNS-01 Firmament Vibration Interferometer (MVI)
 - T-SNS-02 Atom-Interferometer Waters-Field Sensor
 - T-SNS-03 Dark-Matter Imaging Aperture
 - T-SNS-04 LIGO Retrofit for Extended GW Polarizations

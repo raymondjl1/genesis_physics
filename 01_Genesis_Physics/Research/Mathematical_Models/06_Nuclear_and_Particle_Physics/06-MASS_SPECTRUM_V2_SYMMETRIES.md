@@ -292,7 +292,7 @@ $$C: \psi \leftrightarrow \psi^C$$
 
 This is a **Z₂ symmetry**: C² = 1.
 
-### 3.2 Charge Conjugation from Membrane Modes
+### 3.2 Charge Conjugation from Firmament Modes
 
 **Geometric picture**: A membrane perturbation in the +ξ direction (upward) is the opposite of a perturbation in the -ξ direction (downward).
 
@@ -323,7 +323,7 @@ $$\psi(\xi, \eta) \to (-1)(-1) \psi(-\xi, -\eta) = \psi(-\xi, -\eta)$$
 
 The product is even.
 
-**Interpretation**: A combined ξ-η reflection is a symmetry. This corresponds to **antiparticle creation**: the "upside-down" membrane mode.
+**Interpretation**: A combined ξ-η reflection is a symmetry. This corresponds to **antiparticle creation**: the "upside-down" Firmament mode.
 
 In quantum field theory language, this is **charge conjugation** C.
 
@@ -656,7 +656,7 @@ This asymmetry (left-handed doublets, right-handed singlets) is called **parity 
 
 **In Genesis Physics**: This asymmetry comes from the **fact that ξ and η couple differently to left and right chirality**.
 
-Specifically, a membrane vibration mode with ξ-coupling has different handedness properties than one with η-coupling.
+Specifically, a Firmament vibration mode with ξ-coupling has different handedness properties than one with η-coupling.
 
 **SU(3)_C (color)**:
 - Quarks carry color (red, green, blue): **3D representation**

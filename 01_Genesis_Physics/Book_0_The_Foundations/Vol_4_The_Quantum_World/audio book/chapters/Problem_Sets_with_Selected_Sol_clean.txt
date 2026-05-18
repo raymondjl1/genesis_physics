@@ -16,7 +16,7 @@ Numbering convention. P4.Ch.N is Vol 4, Chapter Ch, Problem N. So P4.7.2 is the 
 
 Chapter 1 — Why the Universe Is Quantum.
 
-P4.1.1 ★ Using Vol 1 Eq. (1.10.12), estimate h-bar from the extra-dimensional parameter xi sub A and the membrane tension sigma and mass density mu used in Vol 1 Ch 5. Compare to the measured value and comment on how tightly xi sub A is constrained.
+P4.1.1 ★ Using Vol 1 Eq. (1.10.12), estimate h-bar from the extra-dimensional parameter xi sub A and the Firmament tension sigma and mass density mu used in Vol 1 Ch 5. Compare to the measured value and comment on how tightly xi sub A is constrained.
 
 P4.1.2 ★ The Sturm–Liouville theorem (Vol 1 Thm. 10.1) states that any self-adjoint second-order operator on a compact domain has a discrete real spectrum. Name one self-adjoint operator from Vol 1 or Vol 2 that does not satisfy the compact-domain hypothesis, and explain why its spectrum is nonetheless computable.
 
@@ -160,7 +160,7 @@ P4.9.2 ★★ Derive the Casimir force from first principles using the zero-poin
 
 P4.9.3 ★★★ Vol 4 Ch 9 §9.7 argues that the Casimir energy is a real physical quantity in the zone framework because the zero-point energy of the Firmament modes in a cavity is physically lower than the zero-point energy in free space. Connect this to the open-system axiom Eq. (1.6.14) and explain in two sentences why the framework does not suffer from the approximately 10 to the 120 cosmological constant disaster of standard QFT.
 
-Chapter 10 — Leptons and Quarks from Membrane Resonances.
+Chapter 10 — Leptons and Quarks from Firmament Resonances.
 
 P4.10.1 ★ Using the Kaluza–Klein ladder Eq. (1.5.24) and the hierarchy parameter alpha  hier of Vol 3 Eq. (3.7.9), compute the ratio m mu /m sub e predicted by the zone framework and compare with the measured value in Appendix B §B.4.
 

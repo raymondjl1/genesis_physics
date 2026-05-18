@@ -359,7 +359,7 @@ What physically causes this abrupt shift? Several possibilities:
 
 1. **Organizing vibration ceases**: The specific frequency pattern that created matter and stretched space stops being actively maintained. Without it, expansion automatically slows to the slow rate (H₀) determined by residual dark energy.
 
-2. **Firmament enters sustaining mode**: The membrane transitions from "actively being formed" to "actively being sustained." The energetics change. Matter-gathering processes stop; matter-sustaining processes begin.
+2. **Firmament enters sustaining mode**: The Firmament transitions from "actively being formed" to "actively being sustained." The energetics change. Matter-gathering processes stop; matter-sustaining processes begin.
 
 3. **Waters Below access point closes**: The pathway through which Waters Below condense into matter closes. No new condensation occurs. Existing matter persists (one-way valve effect).
 

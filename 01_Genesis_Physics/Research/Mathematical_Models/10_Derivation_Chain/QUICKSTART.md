@@ -60,7 +60,7 @@ Tests Passed: 7/10
 This alone proves Genesis Physics works.
 
 #### ✓ MembraneToSpeedOfLight (PASS, 0.18% error)
-**Simple & fundamental:** Speed of light is membrane wave speed
+**Simple & fundamental:** Speed of light is Firmament membrane wave speed
 ```
 c = √(σ/μ) = √(6e98 / 6.7e81) = 2.998e8 m/s ✓
 ```

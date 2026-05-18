@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:1-6 (Creation narrative, axioms embedded) | Genesis 1:1-6 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | **6D Action (Master equation from which all physics derives)** | ACTION_6D_COMPLETE.md |
 > | **This Document** | **Complete 6D action functional; boundary conditions; coupling to Waters; dimensional consistency verified** | **ACTION_6D_COMPLETE.md** |
 > | Modern Equivalent | Einstein-Hilbert action + scalar field action in extra dimensions | Convergence: reduces to standard GR + QFT on the 4D membrane; includes dark sector naturally |
@@ -21,7 +21,7 @@
 
 ## Executive Summary
 
-Genesis Physics describes the universe as a 6-dimensional spacetime manifold M⁶ with coordinates (x^μ, ξ, η) where μ = 0,1,2,3 span 4D spacetime and ξ, η are large (cosmological-scale) extra dimensions. The observable universe is a 4D Firmament brane embedded in this 6D bulk. Dark energy and dark matter are identified with degree-of-freedom localized in the Waters Above (ξ-dominated) and Waters Below (η-dominated) regions respectively.
+Genesis Physics describes the universe as a 6-dimensional spacetime manifold M⁶ with coordinates (x^μ, ξ, η) where μ = 0,1,2,3 span 4D spacetime and ξ, η are large (cosmological-scale) extra dimensions. The observable universe is a 4D Firmament embedded in this 6D bulk. Dark energy and dark matter are identified with degree-of-freedom localized in the Waters Above (ξ-dominated) and Waters Below (η-dominated) regions respectively.
 
 This document presents the **complete, rigorous 6D action functional** from which all of Genesis Physics derives. Every term is written with explicit dimensional consistency in 6D, all boundary conditions are specified, and the dimensional errors of previous approaches are corrected.
 
@@ -49,10 +49,10 @@ The 6D manifold M⁶ is partitioned into three cosmologically-significant zones:
 |------|--------|-----------------|---------|
 | Zone 1 | $\eta < \eta_B$, $\xi < \xi_A$ | Exterior/Creator region | Sustaining field κ source, boundary conditions |
 | Zone 2.1 | $\eta > \eta_B$, $\xi < \xi_A$ | Waters Below bulk | Dark matter (Ψ_B field), confinement dynamics |
-| Zone 2.2 | $\eta_B < \eta < \eta_0$, $\xi_A < \xi < \xi_0$ | Firmament brane | Observable universe, Standard Model (on brane) |
+| Zone 2.2 | $\eta_B < \eta < \eta_0$, $\xi_A < \xi < \xi_0$ | Firmament | Observable universe, Standard Model (on Firmament) |
 | Zone 2.3 | $\eta < \eta_B$, $\xi > \xi_0$ | Waters Above bulk | Dark energy (Ψ_A field), cosmological dynamics |
 
-The Firmament is a 4D brane located at specific coordinates $(\xi = \xi_0, \eta = \eta_0)$ in the extra dimensions, with the brane itself parameterized by 4D coordinates (x^μ).
+The Firmament is a 4D Firmament located at specific coordinates $(\xi = \xi_0, \eta = \eta_0)$ in the extra dimensions, with the Firmament itself parameterized by 4D coordinates (x^μ).
 
 ### 1.3 The 6D Metric and Vielbein Formalism
 
@@ -67,8 +67,8 @@ $$\text{d}s^2 = e^{2\Phi(x^\mu, \xi, \eta)} \left[ (1 + h_{\mu\nu}) g^{(4)}_{\mu
 
 where:
 - $\Phi(x^\mu, \xi, \eta)$: dilaton-like warping factor
-- $g^{(4)}_{\mu\nu}$: standard 4D metric (Einstein metric on brane)
-- $h_{\mu\nu}$: metric perturbations/gravitational waves on brane
+- $g^{(4)}_{\mu\nu}$: standard 4D metric (Einstein metric on Firmament)
+- $h_{\mu\nu}$: metric perturbations/gravitational waves on Firmament
 - $g_{\xi\xi}, g_{\eta\eta}, g_{\xi\eta}$: extra-dimensional metric components
 
 The determinant of the 6D metric:
@@ -85,7 +85,7 @@ where $e_A^M$ are 6D vielbein components and $\eta_{MN} = \text{diag}(+1,-1,-1,-
 
 The total action of Genesis Physics is:
 
-$$\boxed{S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}}$$
+$$\boxed{S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}}$$
 
 Each component is derived below with full dimensional analysis.
 
@@ -141,28 +141,28 @@ where $K_{\text{bdy}}$ is the extrinsic curvature of the boundary hypersurface a
 
 ---
 
-## 4. Brane Sector: $S_{\text{brane}}$
+## 4. Brane Sector: $S_{\text{Firm}}$
 
 ### 4.1 Nambu-Goto Action for the Firmament
 
-The Firmament is a 4-dimensional brane (a hypersurface) embedded in M⁶. Its action is:
+The Firmament is a 4-dimensional Firmament (a hypersurface) embedded in M⁶. Its action is:
 
-$$S_{\text{brane}} = -\sigma \int_{\Sigma} \text{d}^4\xi \sqrt{-\gamma} \left[ 1 + \lambda_B (\text{mean curvature terms}) \right] + S_{\text{rigidity}}$$
+$$S_{\text{Firm}} = -\sigma \int_{\Sigma} \text{d}^4\xi \sqrt{-\gamma} \left[ 1 + \lambda_B (\text{mean curvature terms}) \right] + S_{\text{rigidity}}$$
 
 where:
-- $\Sigma$ is the 4D brane worldvolume
-- $\gamma_{\alpha\beta}$ is the induced metric on the brane (with Greek indices α, β = 0,1,2,3)
-- $\sigma$ is the brane tension (energy per unit 3-volume)
+- $\Sigma$ is the 4D Firmament worldvolume
+- $\gamma_{\alpha\beta}$ is the induced metric on the Firmament (with Greek indices α, β = 0,1,2,3)
+- $\sigma$ is the Firmament tension (energy per unit 3-volume)
 - $\lambda_B$ is the bending rigidity
 
 ### 4.2 Induced Metric on the Brane
 
-The brane is located at fixed extra-dimensional coordinates $(\xi = \xi_0, \eta = \eta_0)$ and is parameterized by the 4D coordinates $x^\mu$.
+The Firmament is located at fixed extra-dimensional coordinates $(\xi = \xi_0, \eta = \eta_0)$ and is parameterized by the 4D coordinates $x^\mu$.
 
 The induced metric is:
 $$\gamma_{\alpha\beta} = \left. g_{AB} \frac{\partial x^A}{\partial \xi^\alpha} \frac{\partial x^B}{\partial \xi^\beta} \right|_{\xi=\xi_0, \eta=\eta_0}$$
 
-where $\xi^\alpha = x^\mu$ are the brane coordinates.
+where $\xi^\alpha = x^\mu$ are the Firmament coordinates.
 
 To leading order (neglecting metric perturbations):
 $$\gamma_{\alpha\beta} \approx e^{2\Phi(\xi_0, \eta_0)} g^{(4)}_{\alpha\beta}$$
@@ -172,7 +172,7 @@ $$\sqrt{-\gamma} = e^{4\Phi(\xi_0, \eta_0)} \sqrt{-g^{(4)}}$$
 
 ### 4.3 Extrinsic Curvature and Rigidity Term
 
-The **Helfrich bending energy** for the brane is:
+The **Helfrich bending energy** for the Firmament is:
 
 $$S_{\text{rigidity}} = \kappa_B \int_{\Sigma} \text{d}^4\xi \sqrt{-\gamma} \, H^2$$
 
@@ -181,7 +181,7 @@ where:
 - $H = \frac{1}{2} \gamma^{\alpha\beta} K_{\alpha\beta}$ is the mean curvature (dimensions: $[L^{-1}]$)
 - $K_{\alpha\beta}$ is the extrinsic curvature tensor
 
-This term represents the resistance of the brane to bending and is critical for brane stability.
+This term represents the resistance of the Firmament to bending and is critical for Firmament stability.
 
 ### 4.4 Dimensional Consistency of Brane Action
 
@@ -192,9 +192,9 @@ This term represents the resistance of the brane to bending and is critical for 
 | $[\sigma]$ | $[M L^{-1} T^{-2}]$ | Brane tension (energy per unit 3-volume) |
 | $[\text{d}^4\xi]$ | $[L^4]$ | Four-dimensional volume |
 | $[\sqrt{-\gamma}]$ | $[1]$ | Induced metric determinant |
-| $[S_{\text{brane}}]$ | $[M L^{-1} T^{-2}] \cdot [L^4] = [M L^3 T^{-2}]$ | ❌ Wrong! |
+| $[S_{\text{Firm}}]$ | $[M L^{-1} T^{-2}] \cdot [L^4] = [M L^3 T^{-2}]$ | ❌ Wrong! |
 
-**Correction:** The brane tension must be understood as:
+**Correction:** The Firmament tension must be understood as:
 $$\sigma_{\text{eff}} = \sigma \times (\text{transverse length scale})$$
 
 In Genesis Physics, this transverse scale is the 6D Planck length:
@@ -204,18 +204,18 @@ Redefine:
 $$\boxed{\tilde{\sigma} = \sigma_0 / \ell_P^2 \quad \text{with} \quad [\tilde{\sigma}] = [M L^{-2} T^{-2}]}$$
 
 Then:
-$$[S_{\text{brane}}] = [M L^{-2} T^{-2}] \cdot [L^4] = [M L^2 T^{-2}]$$
+$$[S_{\text{Firm}}] = [M L^{-2} T^{-2}] \cdot [L^4] = [M L^2 T^{-2}]$$
 
-Still not quite right for action. The issue is that brane dynamics in 6D must be formulated as a **localized source term** in the 6D action rather than a separate worldvolume integral. Instead, write:
+Still not quite right for action. The issue is that Firmament dynamics in 6D must be formulated as a **localized source term** in the 6D action rather than a separate worldvolume integral. Instead, write:
 
-$$S_{\text{brane}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, T^{AB}(x) \delta(\xi - \xi_0) \delta(\eta - \eta_0)$$
+$$S_{\text{Firm}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, T^{AB}(x) \delta(\xi - \xi_0) \delta(\eta - \eta_0)$$
 
-where $T^{AB}$ is the brane stress-energy tensor (dimensions: $[M L^{-2} T^{-2}]$). The delta functions are dimensionless.
+where $T^{AB}$ is the Firmament stress-energy tensor (dimensions: $[M L^{-2} T^{-2}]$). The delta functions are dimensionless.
 
 Proper formulation:
-$$S_{\text{brane}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, \left[ \sigma_{\text{brane}}(x^\mu) \delta(\xi - \xi_0) \delta(\eta - \eta_0) + \kappa_B H^2 \delta(\xi - \xi_0) \delta(\eta - \eta_0) \right]$$
+$$S_{\text{Firm}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, \left[ \sigma_{\text{Firm}}(x^\mu) \delta(\xi - \xi_0) \delta(\eta - \eta_0) + \kappa_B H^2 \delta(\xi - \xi_0) \delta(\eta - \eta_0) \right]$$
 
-with $[\sigma_{\text{brane}}] = [M L^{-2} T^{-2}]$ (energy density in 6D).
+with $[\sigma_{\text{Firm}}] = [M L^{-2} T^{-2}]$ (energy density in 6D).
 
 ---
 
@@ -253,7 +253,7 @@ with $\Lambda_A > 0$ dominating.
 
 **Verification of equation of state:**
 
-For a spatially homogeneous field $\Psi_A(t, \xi, \eta)$ with vanishing spatial gradient on the brane:
+For a spatially homogeneous field $\Psi_A(t, \xi, \eta)$ with vanishing spatial gradient on the Firmament:
 $$\rho_A = \frac{1}{2} \dot{\Psi}_A^2 + V_A \quad \text{and} \quad P_A = \frac{1}{2} \dot{\Psi}_A^2 - V_A$$
 
 If $V_A$ dominates: $\rho_A \approx V_A$ and $P_A \approx -V_A$, yielding:
@@ -399,7 +399,7 @@ For the action to have dimension $[M L^2 T^{-1}]$, we must be careful about the 
 
 ### 7.1 6D Dirac Fermions
 
-The matter content of Genesis Physics consists of 6D Dirac fermions Ψ, which reduce to the Standard Model fermions (quarks and leptons) when restricted to the Firmament brane.
+The matter content of Genesis Physics consists of 6D Dirac fermions Ψ, which reduce to the Standard Model fermions (quarks and leptons) when restricted to the Firmament.
 
 $$S_{\text{matter}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, \bar{\Psi} (i \gamma^A e_A^M D_M - m) \Psi$$
 
@@ -438,7 +438,7 @@ where $y$ is a Yukawa coupling (dimensionless in 6D).
 **Higgs mechanism:** When $\Psi_A$ acquires a VEV $\langle \Psi_A \rangle = v_A$, this generates:
 $$m_{\text{eff}} = y v_A$$
 
-The Standard Model Higgs is then understood as the **radial mode of the Waters Above scalar** when restricted to the Firmament brane.
+The Standard Model Higgs is then understood as the **radial mode of the Waters Above scalar** when restricted to the Firmament.
 
 ### 7.4 Spinor Dimensions in 6D
 
@@ -479,7 +479,7 @@ $$S_{\text{L}} = \int \text{d}^6x \sqrt{-g_6} \, i \bar{\Psi}_L \gamma^A D_A \Ps
 
 Beyond the Yukawa couplings to Ψ_A, the complete interaction sector includes:
 
-$$S_{\text{interaction}} = S_{\text{Yukawa}} + S_{\text{gauge-matter}} + S_{\text{brane-matter}} + S_{\text{zone-couplings}}$$
+$$S_{\text{interaction}} = S_{\text{Yukawa}} + S_{\text{gauge-matter}} + S_{\text{Firmament-matter}} + S_{\text{zone-couplings}}$$
 
 ### 8.1.1 Gauge-Matter Coupling
 
@@ -490,10 +490,10 @@ where $T^{(I)}$ are representation matrices for the gauge group I ∈ {U(1), SU(
 
 ### 8.1.2 Brane-Localized Yukawa
 
-In addition to bulk Yukawa, there is a brane-localized coupling:
-$$S_{\text{Yukawa,brane}} = \int_\Sigma \text{d}^4 x \sqrt{-\gamma} \, y_{\text{brane}} \bar{\Psi}|_\Sigma H \Psi|_\Sigma + \text{h.c.}$$
+In addition to bulk Yukawa, there is a Firmament-localized coupling:
+$$S_{\text{Yukawa,Firmament}} = \int_\Sigma \text{d}^4 x \sqrt{-\gamma} \, y_{\text{Firm}} \bar{\Psi}|_\Sigma H \Psi|_\Sigma + \text{h.c.}$$
 
-where $H$ is the Higgs field on the brane (related to $\Psi_A|_\Sigma$).
+where $H$ is the Higgs field on the Firmament (related to $\Psi_A|_\Sigma$).
 
 ### 8.1.3 Waters Cross-Coupling
 
@@ -602,7 +602,7 @@ where:
 $$G_{AB} = R_{AB} - \frac{1}{2} g_{AB} R_6$$
 
 is the 6D Einstein tensor, and:
-$$T_{AB}^{\text{total}} = T_{AB}^{\text{grav}} + T_{AB}^{\text{brane}} + T_{AB}^{\text{waters}} + T_{AB}^{\text{gauge}} + T_{AB}^{\text{matter}} + T_{AB}^{\text{sustaining}}$$
+$$T_{AB}^{\text{total}} = T_{AB}^{\text{grav}} + T_{AB}^{\text{Firm}} + T_{AB}^{\text{waters}} + T_{AB}^{\text{gauge}} + T_{AB}^{\text{matter}} + T_{AB}^{\text{sustaining}}$$
 
 is the total stress-energy tensor.
 
@@ -661,26 +661,26 @@ where the currents are non-abelian.
 
 ### 11.1 Boundary Condition at the Firmament ($\xi = \xi_0, \eta = \eta_0$)
 
-The Firmament is embedded at specific extra-dimensional coordinates. Boundary conditions relate bulk fields to brane-localized degrees of freedom.
+The Firmament is embedded at specific extra-dimensional coordinates. Boundary conditions relate bulk fields to Firmament-localized degrees of freedom.
 
 **For scalar fields:**
-$$\Psi_A|_{\xi=\xi_0, \eta=\eta_0} = v_A^{\text{brane}} \quad \text{(Waters Above on Firmament)}$$
+$$\Psi_A|_{\xi=\xi_0, \eta=\eta_0} = v_A^{\text{Firm}} \quad \text{(Waters Above on Firmament)}$$
 $$\Psi_B|_{\xi=\xi_0, \eta=\eta_0} = 0 \quad \text{or small} \quad \text{(Waters Below confined)}$$
 
 **Boundary condition interpretation:** The Waters Below cannot propagate to the observable universe; it is confined by the potential and boundary conditions. The Waters Above penetrates but is distributed throughout the bulk, contributing to dark energy.
 
 **For fermions:**
-$$\Psi|_{\text{boundary}} = \begin{pmatrix} \Psi_{\text{chiral,brane}} \\ \Psi_{\text{heavy,bulk}} \end{pmatrix}$$
+$$\Psi|_{\text{boundary}} = \begin{pmatrix} \Psi_{\text{chiral,Firmament}} \\ \Psi_{\text{heavy,bulk}} \end{pmatrix}$$
 
-Light fermions (Standard Model) live on the brane; heavy KK modes decouple in the bulk.
+Light fermions (Standard Model) live on the Firmament; heavy KK modes decouple in the bulk.
 
 **For metric:**
 $$g_{AB}|_{\text{Firmament}} = \text{induced metric } \gamma_{AB}$$
 
-The brane is characterized by the discontinuity in extrinsic curvature:
+The Firmament is characterized by the discontinuity in extrinsic curvature:
 $$[K_{AB}] = \kappa_6^2 \sigma \gamma_{AB}$$
 
-where $[K_{AB}]$ denotes the jump across the brane.
+where $[K_{AB}]$ denotes the jump across the Firmament.
 
 ### 11.2 Boundary Conditions at Waters Below Interface ($\eta = \eta_B$)
 
@@ -720,7 +720,7 @@ $$g_{AB} \to \eta_{AB} + O(1/r^2) \quad \text{(Minkowski at infinity)}$$
 
 This ensures the universe has a well-defined asymptotic structure.
 
-**Regularity:** Singularities appear only at special points (e.g., inside black holes on the brane). The bulk is regular everywhere.
+**Regularity:** Singularities appear only at special points (e.g., inside black holes on the Firmament). The bulk is regular everywhere.
 
 ---
 
@@ -756,7 +756,7 @@ This ensures the universe has a well-defined asymptotic structure.
 | Sector | Contribution to Action | Dimension | Status |
 |--------|------------------------|-----------|--------|
 | Gravitational $S_{\text{grav}}$ | $[1/G_6] \cdot [L^6] \cdot [L^{-2}]$ | $[M L^2 T^{-1}]$ | ✓ |
-| Brane $S_{\text{brane}}$ | $[\sigma] \cdot [L^4]$ | $[M L^{-2} T^{-2}] \cdot [L^4] = [M L^2 T^{-2}]$ | ❌ |
+| Brane $S_{\text{Firm}}$ | $[\sigma] \cdot [L^4]$ | $[M L^{-2} T^{-2}] \cdot [L^4] = [M L^2 T^{-2}]$ | ❌ |
 | Waters kinetic | $[M L^{-2}T^{-1}] \cdot [L^6]$ | $[M L^4 T^{-1}]$ | ❌ |
 | Waters potential | $[M L^{-2}T^{-1}] \cdot [L^6]$ | $[M L^4 T^{-1}]$ | ✓ (if both terms scale same) |
 | Gauge $S_{\text{gauge}}$ | $[L^{-2}] \cdot [L^6]$ | $[L^4]$ | ❌ (missing energy scale) |
@@ -764,8 +764,8 @@ This ensures the universe has a well-defined asymptotic structure.
 
 **Issues identified:**
 
-1. **Brane sector:** Kinetic term for brane embedding has wrong dimension. Resolution: Brane should be treated as a localized source in 6D action, not a separate worldvolume integral. Rewrite as:
-   $$S_{\text{brane}} = \int d^6x \sqrt{-g_6} \, T_{brane}^{AB} \delta(\xi - \xi_0)\delta(\eta - \eta_0)$$
+1. **Brane sector:** Kinetic term for Firmament embedding has wrong dimension. Resolution: Brane should be treated as a localized source in 6D action, not a separate worldvolume integral. Rewrite as:
+   $$S_{\text{Firm}} = \int d^6x \sqrt{-g_6} \, T_{Firm}^{AB} \delta(\xi - \xi_0)\delta(\eta - \eta_0)$$
    where $[T^{AB}] = [M L^{-2} T^{-2}]$ (energy density).
 
 2. **Gauge sector:** Field strength contributes $[L^{-2}]$ but needs energy density. The standard 4D gauge action $\int d^4x \sqrt{-g} F^2$ has dimension $[L^{-2}] \cdot [L^4] = [L^2]$, which is not action. This is because gauge fields in 4D are typically dimensionless and the coupling $g$ is dimensionless. In 6D:
@@ -865,7 +865,7 @@ Observationally, $\rho_{\text{dark}} \approx 0.68 \rho_c$ (critical density).
 From dimensional analysis:
 $$\Lambda_{\text{eff}} = \lambda_A v_A^4$$
 
-where $v_A$ is the VEV of the Waters Above field. The value of $v_A$ is set by minimizing the total potential, including interactions with the brane and boundary conditions.
+where $v_A$ is the VEV of the Waters Above field. The value of $v_A$ is set by minimizing the total potential, including interactions with the Firmament and boundary conditions.
 
 ### 13.3 Dark Matter from Waters Below Confinement
 
@@ -885,13 +885,13 @@ The confinement is achieved through:
 Integrating all sectors:
 
 $$\boxed{\begin{align}
-S_{\text{total}} &= S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}} \\
+S_{\text{total}} &= S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}} \\
 &= \frac{1}{2\kappa_6^2} \int d^6x \sqrt{-g_6} R_6 \\
 &\quad + \int d^6x \sqrt{-g_6} \left[ -\frac{1}{2}g^{AB}\partial_A\Psi_A\partial_B\Psi_A - V_A(\Psi_A) \right. \\
 &\quad \left. -\frac{1}{2}g^{AB}\partial_A\Psi_B\partial_B\Psi_B - V_B(\Psi_B) - G_{\text{int}}\Psi_A\Psi_B \right] \\
 &\quad - \frac{1}{4g^2} \int d^6x \sqrt{-g_6} F_{AB} F^{AB} \\
 &\quad + \int d^6x \sqrt{-g_6} \left[ i\bar{\Psi}\gamma^A e_A^M D_M \Psi - m\bar{\Psi}\Psi - y\bar{\Psi}\Psi_A\Psi \right] \\
-&\quad + \int d^6x \sqrt{-g_6} \, T_{\text{brane}}^{AB} \delta(\xi-\xi_0)\delta(\eta-\eta_0) \\
+&\quad + \int d^6x \sqrt{-g_6} \, T_{\text{Firm}}^{AB} \delta(\xi-\xi_0)\delta(\eta-\eta_0) \\
 &\quad + \int d^6x \sqrt{-g_6} \, \kappa(t) J_{\text{sustaining}}
 \end{align}}$$
 
@@ -982,7 +982,7 @@ The task of Genesis Physics is now to solve this action functional across differ
 ### A.1 Index Conventions
 
 - **Capital Latin** $A, B, C, ... = 0, 1, 2, 3, 4, 5$: full 6D spacetime indices
-- **Greek** $\mu, \nu, \lambda, ... = 0, 1, 2, 3$: 4D spacetime (brane) indices
+- **Greek** $\mu, \nu, \lambda, ... = 0, 1, 2, 3$: 4D spacetime (Firmament) indices
 - **Latin lowercase** $i, j, k, ... = 1, 2, 3$: spatial indices only
 - **Roman** $M, N, P, ... = 0, 1, ..., 5$: tangent space indices (vielbein)
 

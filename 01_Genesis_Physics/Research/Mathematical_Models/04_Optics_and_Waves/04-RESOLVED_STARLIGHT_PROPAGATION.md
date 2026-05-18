@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "And God said, Let there be lights in the firmament of the heaven" — Starlight reaches Earth through covenant mechanisms | Genesis 1:14 |
-> | Axiom | Axiom 1: 6D Spacetime; Axiom 3: Membrane Mechanics; Axiom 2: Waters Duality — metric evolution during creation | ACTION_6D_COMPLETE.md, AXIOM_MEMBRANE_MECHANICS_v2.md, AXIOM_WATERS_DUALITY.md |
+> | Axiom | Axiom 1: 6D Spacetime; Axiom 3: Firmament Mechanics; Axiom 2: Waters Duality — metric evolution during creation | ACTION_6D_COMPLETE.md, AXIOM_MEMBRANE_MECHANICS_v2.md, AXIOM_WATERS_DUALITY.md |
 > | Parent Theory | 6D Action; Optics from Maxwell; 6D geodesics and null propagation | ACTION_6D_COMPLETE.md, 04-OPTICS_FROM_MAXWELL.md |
 > | **This Document** | **Unified starlight propagation: null geodesics in 6D spacetime during creation; reconciliation of spatial shortcuts and time dilation mechanisms** | **04-RESOLVED_STARLIGHT_PROPAGATION.md** |
 > | Modern Equivalent | Relativistic Light Propagation in Curved Spacetime — CONVERGES: null geodesic equation, metric-driven time dilation, comoving distance calculations recovered from 6D geometry |
@@ -841,7 +841,7 @@ The unified solution shows that:
 
 **Chapter 5: Matter Condensation (Waters Below)**
 - **Current status**: Describes how matter condenses at threshold without addressing light's role
-- **Update needed**: Clarify that light (membrane oscillation) and matter condensation are complementary processes in the same metric structure
+- **Update needed**: Clarify that light (Firmament oscillation) and matter condensation are complementary processes in the same metric structure
 - **Specific language**: "When Waters Below condenses into matter at threshold, the organizing vibrations that create this condensation (from the Word) propagate as light through the same membrane. Both use the 6D metric structure."
 
 **Chapter 7: Cosmic Structure (Galaxy Formation)**

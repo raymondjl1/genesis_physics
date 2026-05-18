@@ -19,11 +19,11 @@
 
 ## Overview
 
-This document derives thermodynamic and statistical mechanical phenomena from the 6D membrane framework:
+This document derives thermodynamic and statistical mechanical phenomena from the 6D Firmament framework:
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk\_above}} + S_{\text{bulk\_below}} + S_{\text{interaction}}$$
 
-The membrane (Zone A) is treated as a thermodynamic subsystem coupled to the bulk through boundary conditions. Key parameters:
-- T: temperature (inverse coupling to membrane oscillations)
+The Firmament (Zone A) is treated as a thermodynamic subsystem coupled to the bulk through boundary conditions. Key parameters:
+- T: temperature (inverse coupling to Firmament oscillations)
 - k_B: Boltzmann constant (entropy scale in 6D)
 - Z: partition function (sum over 6D accessible states)
 - β = 1/(k_B T): inverse temperature
@@ -173,7 +173,7 @@ $$\boxed{\text{Absolute zero cannot be attained in finite operations}}$$
 
 **Step 4: Membrane Quantum Ground State**
 
-In the 6D membrane framework, the ground state corresponds to the lowest-energy configuration of membrane oscillations (phonons, ripples) coupled to bulk fields.
+In the 6D Firmament framework, the ground state corresponds to the lowest-energy configuration of Firmament oscillations (phonons, ripples) coupled to bulk fields.
 
 The ground state Hamiltonian is:
 $$H_0 = \sum_{\text{modes}} \hbar\omega_k + E_\text{vacuum}$$

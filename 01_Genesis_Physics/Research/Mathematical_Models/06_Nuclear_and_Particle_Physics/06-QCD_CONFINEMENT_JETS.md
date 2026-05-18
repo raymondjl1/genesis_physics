@@ -22,9 +22,9 @@
 
 ## Executive Summary
 
-This document derives quark confinement and jet physics from the Genesis Physics 6D membrane framework. The physical membrane (Zone A) hosts a dynamical SU(3) gauge theory whose color flux tubes are geometrically realized from the 6D structure. We show that:
+This document derives quark confinement and jet physics from the Genesis Physics 6D Firmament framework. The physical membrane (Zone A) hosts a dynamical SU(3) gauge theory whose color flux tubes are geometrically realized from the 6D structure. We show that:
 
-1. **Quark Confinement**: Color flux tubes emerge from membrane SU(3) structure with string tension σ_str ≈ 0.18 GeV² derived from membrane tension σ
+1. **Quark Confinement**: Color flux tubes emerge from membrane SU(3) structure with string tension σ_str ≈ 0.18 GeV² derived from Firmament tension σ
 2. **Wilson Loop Area Law**: Conformal loop expectation obeys ⟨W(C)⟩ ~ exp(-σ_str·Area), characteristic of confining phase
 3. **Confinement Scale**: Λ_QCD ≈ 217 MeV emerges from membrane thickness η_B and bulk properties
 4. **Jet Formation**: e⁺e⁻ annihilation produces qq̄ pairs that fragment via QCD string breaking
@@ -36,7 +36,7 @@ This document derives quark confinement and jet physics from the Genesis Physics
 
 ### 1.1 Action Principle
 
-The membrane portion of the total action contains the Yang-Mills sector:
+The Firmament portion of the total action contains the Yang-Mills sector:
 
 $$S_{\text{YM}} = -\frac{1}{4g_s^2} \int_{\text{Zone A}} d^4x \sqrt{-g_4} \, F^a_{\mu\nu} F^{a,\mu\nu}$$
 
@@ -44,21 +44,21 @@ where:
 - $g_s$ is the strong coupling (running with scale)
 - $F^a_{\mu\nu}$ are SU(3) color field strength tensors
 - Integration is over the 4D physical membrane (Zone A)
-- $g_4$ is the induced metric determinant on the membrane
+- $g_4$ is the induced metric determinant on the Firmament
 
-### 1.2 Connection to Membrane Tension
+### 1.2 Connection to Firmament Tension
 
-The membrane tension σ sets the scale for non-perturbative QCD effects. In the 6D language, the color charge distribution couples to membrane curvature through the stress-energy tensor:
+The Firmament tension σ sets the scale for non-perturbative QCD effects. In the 6D language, the color charge distribution couples to membrane curvature through the stress-energy tensor:
 
 $$T^{\mu\nu}_{\text{YM}} = \frac{1}{g_s^2}\left(F^\mu_\lambda F^{\nu,\lambda} - \frac{1}{4}\eta^{\mu\nu}F_\lambda F^{\lambda}\right)$$
 
-The string tension σ_str (energy per unit length of color flux tube) is related to the membrane tension σ by dimensional analysis:
+The string tension σ_str (energy per unit length of color flux tube) is related to the Firmament tension σ by dimensional analysis:
 
 $$\sigma_{\text{str}} = \chi \cdot \sigma \cdot \eta_B$$
 
 where:
 - χ ≈ 1 is a dimensionless coupling constant
-- η_B is the membrane thickness (Planck scale × coupling)
+- η_B is the Firmament thickness (Planck scale × coupling)
 - Empirically: σ_str ≈ 0.18 GeV² for the standard model
 
 **Boxed Result:**
@@ -76,7 +76,7 @@ $$\Phi_{\text{color}} = \int_S \vec{E}_a \cdot d\vec{A} = N_c \cdot \text{const}
 
 where the integral is over a surface perpendicular to the tube.
 
-In the 6D picture, this flux tube is a geometric object: a string-like excitation of the membrane with core radius r_core ~ (σ_str)^{-1/2} ≈ 0.4 fm.
+In the 6D picture, this flux tube is a geometric object: a string-like excitation of the Firmament with core radius r_core ~ (σ_str)^{-1/2} ≈ 0.4 fm.
 
 ### 2.2 Linear Potential & Confinement
 
@@ -142,9 +142,9 @@ where A(C) is the minimal surface area enclosed by the contour C.
 - The exponential decay is due to the energy cost of creating a flux tube spanning the loop
 - The decay rate σ_str is the **string tension** (energy per unit area)
 
-### 3.3 Derivation from Membrane Picture
+### 3.3 Derivation from Firmament Picture
 
-In the 6D membrane framework, the Wilson loop is realized as:
+In the 6D Firmament framework, the Wilson loop is realized as:
 
 1. **Gauge connection**: The gauge field A_μ lives on the 4D membrane
 2. **Flux tube**: When quark-antiquark are separated by distance r, the color flux condenses into a tube of cross-sectional area A_tube ~ 1/(σ_str)
@@ -175,7 +175,7 @@ $$b_0 = 11 - \frac{2}{3}N_f = 11 - 2 = 9 \quad \text{(for } N_f = 3 \text{)}$$
 ### 4.2 Scale Hierarchy and Membrane Parameters
 
 The QCD scale is set by the interplay of:
-1. **Membrane tension**: σ (couples quarks to membrane dynamics)
+1. **Firmament tension**: σ (couples quarks to Firmament membrane dynamics)
 2. **Membrane thickness**: η_B ~ 1.6 × 10^{-35} m (Planck length scale)
 3. **Coupling renormalization**: Running from Planck scale to low energy
 
@@ -191,7 +191,7 @@ With M_Planck ≈ 1.22 × 10^{19} GeV:
 
 $$\Lambda_{\text{QCD}} \approx 10^{-24} \times 1.22 \times 10^{19} \, \text{GeV} = 1.2 \times 10^{-5} \, \text{GeV}$$
 
-**Refinement with Membrane Coupling:**
+**Refinement with Firmament Coupling:**
 
 The 6D membrane structure modifies the RGE evolution. The effective scale at which QCD becomes strong is:
 
@@ -418,7 +418,7 @@ The agreement between predictions and experiments confirms:
 
 1. **SU(3) gauge structure**: Color is correctly described as SU(3) symmetry
 2. **Running coupling**: Asymptotic freedom matches QCD renormalization group
-3. **String tension**: Membrane tension σ couples correctly to QCD confinement
+3. **String tension**: Firmament tension σ couples correctly to QCD confinement
 4. **Flux tubes**: 6D geometry naturally produces confining flux tubes
 
 ---
@@ -427,7 +427,7 @@ The agreement between predictions and experiments confirms:
 
 ### 9.1 Deconfinement Transition
 
-At high temperature T ~ T_c ≈ 155 MeV, the membrane undergoes a phase transition to a deconfined quark-gluon plasma (QGP). In the 6D picture, the membrane becomes unstable to perturbations in the extra dimensions, allowing color charge to escape into the bulk.
+At high temperature T ~ T_c ≈ 155 MeV, the Firmament undergoes a phase transition to a deconfined quark-gluon plasma (QGP). In the 6D picture, the Firmament becomes unstable to perturbations in the extra dimensions, allowing color charge to escape into the bulk.
 
 ### 9.2 Color Glass Condensate
 
@@ -463,11 +463,11 @@ All confirm the structure derived here from 6D membrane theory.
 
 **Physical Picture:**
 
-The Genesis Physics 6D membrane framework successfully derives QCD confinement from first principles:
+The Genesis Physics 6D Firmament framework successfully derives QCD confinement from first principles:
 
 1. The physical membrane hosts an SU(3) gauge theory
-2. Color flux is geometrically confined by the membrane structure
-3. String tension emerges from membrane tension σ
+2. Color flux is geometrically confined by the Firmament membrane structure
+3. String tension emerges from Firmament tension σ
 4. Hadronization occurs via QCD string breaking when flux tube energy exceeds 2m_quark
 5. Jet production in e⁺e⁻ annihilation proceeds via parton shower and hadronization
 6. All predictions match experimental observations from LEP and modern colliders

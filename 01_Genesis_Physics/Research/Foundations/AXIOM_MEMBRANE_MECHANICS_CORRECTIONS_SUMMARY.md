@@ -1,4 +1,4 @@
-﻿# Axiom 3: Membrane Mechanics — Corrections Summary
+﻿# Axiom 3: Firmament Mechanics — Corrections Summary
 ## 5 Dimensional Errors Fixed (v1 → v2)
 
 **Date**: April 5, 2026
@@ -36,7 +36,7 @@ Dimensional check:
       = [M L⁻¹ T⁻²] ✓
 
 Interpretation:
-  σ is brane tension = energy per unit 3-volume on the membrane
+  σ is brane tension = energy per unit 3-volume on the Firmament membrane
   ℓ_eff is an effective length scale from the 6D embedding geometry
   This formula emerges from weak-field gravitational theory (Section 3)
 ```
@@ -70,13 +70,13 @@ Dimensional check:
       = [M L⁻³] ✓
 
 Interpretation:
-  μ is surface mass density = mass per unit 3-volume on the membrane
+  μ is surface mass density = mass per unit 3-volume on the Firmament membrane
   This follows directly from the fundamental relation c² = σ/μ
   All three quantities (σ, μ, c) are now coupled, not independent
 ```
 
 ### Why This Matters
-The two-step derivation (σ from gravity, then μ from the wave speed relation) is more principled than trying to construct μ independently. It emphasizes that the membrane's mechanical properties are unified.
+The two-step derivation (σ from gravity, then μ from the wave speed relation) is more principled than trying to construct μ independently. It emphasizes that the Firmament membrane's mechanical properties are unified.
 
 ---
 
@@ -150,7 +150,7 @@ Interpretation:
 ```
 
 ### Why This Matters
-The formula G = c⁴/(8πσℓ_eff²) reveals the structural reason gravity is weak: σ (the membrane tension) is enormous. Gravity is weak not because extra dimensions are small, but because the brane is stiff. This is a key insight for resolving the hierarchy problem.
+The formula G = c⁴/(8πσℓ_eff²) reveals the structural reason gravity is weak: σ (the Firmament tension) is enormous. Gravity is weak not because extra dimensions are small, but because the Firmament is stiff. This is a key insight for resolving the hierarchy problem.
 
 ---
 
@@ -205,7 +205,7 @@ For ground state (n_ξ = 1, n_η = 1), this determines m₀.
 ### Why This Matters
 This correction makes explicit how mass arises from geometry in Genesis Physics. A particle's rest mass is not a free parameter (as in the Standard Model), but derives from:
 1. The confinement wavelengths in the extra dimensions (ξ_A, η_B)
-2. The binding energy of its topological structure on the membrane
+2. The binding energy of its topological structure on the Firmament
 
 This is testable (in principle) once the theory is solved explicitly.
 

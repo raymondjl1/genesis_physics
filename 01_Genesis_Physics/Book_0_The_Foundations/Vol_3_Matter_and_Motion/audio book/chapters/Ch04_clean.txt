@@ -323,7 +323,9 @@ Earth's Chandler wobble. The Earth is an oblate symmetric top with I sub 3/I app
 
 [Equation — see print edition.]
 
-The observed "Chandler wobble" has a period of about 433 days — the difference is due to Earth's elasticity, which standard rigid body theory does not account for. This discrepancy is an honest limit of the rigid body approximation, and it points toward the continuum mechanics of Chapter 5.
+The observed "Chandler wobble" has a period of about 433 days — a 127-day discrepancy from the rigid-body prediction (41% error).
+
+Note: The predicted Chandler wobble period differs from observation at the ~41% level. This discrepancy is attributed to the rigid-body approximation: Earth's actual response includes viscoelastic coupling to zone architecture that is not captured in this chapter's treatment. Including Earth's elasticity (Munk & MacDonald 1960; Dahlen 1976) brings the theoretical period to ~435 days, consistent with observation. This is an expected limitation of the classical approximation, not a falsification. The continuum mechanics framework of Chapter 5 provides the foundation for extending this analysis to viscoelastic bodies.
 
 — The Heavy Symmetric Top: Precession and Nutation.
 

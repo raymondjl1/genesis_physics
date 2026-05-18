@@ -3,7 +3,7 @@
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
-> | Axiom | Membrane Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
+> | Axiom | Firmament Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
 > | Parent Theory | Strong Force from 6D Geometry | 06-SU3_YANG_MILLS_DERIVATION.md |
 > | Parent Theory | Nuclear Shell Model | 06-QCD_DERIVATION.md |
 > | **This Document** | **Nuclear Stability & Element Prediction (Magic Numbers, SEMF, Drip Lines)** | **09-ELEMENT_PREDICTION.md** |
@@ -11,7 +11,7 @@
 >
 > *Chain Status: COMPLETE*
 
-# Nuclear Stability and Element Prediction from the 6D Membrane Framework
+# Nuclear Stability and Element Prediction from the 6D Firmament Framework
 ## Rigorous Derivation of Magic Numbers, Binding Energy, and Element Limits
 
 **Genesis Physics Framework Document**
@@ -24,7 +24,7 @@
 
 ## EXECUTIVE SUMMARY
 
-This document presents a complete, rigorous derivation of nuclear stability and element predictions from the Genesis Physics 6D membrane framework. The derivation chain is:
+This document presents a complete, rigorous derivation of nuclear stability and element predictions from the Genesis Physics 6D Firmament framework. The derivation chain is:
 
 $$\boxed{\text{6D Action} \to \text{SU(3) Strong Force} \to \text{Nuclear Binding} \to \text{Shell Model} \to \text{Stability Limits} \to \text{Element Predictions}}$$
 
@@ -37,7 +37,7 @@ $$\boxed{\text{6D Action} \to \text{SU(3) Strong Force} \to \text{Nuclear Bindin
    - Surface term $a_S = 18.56$ MeV: membrane boundary energy
    - Coulomb term $a_C = 0.717$ MeV: 6D Green's function for EM coupling
    - Asymmetry term $a_A = 28.1$ MeV: topological fermion statistics on Firmament
-   - Pairing term $\delta$: Cooper-like pairing in quantized membrane modes
+   - Pairing term $\delta$: Cooper-like pairing in quantized Firmament modes
 
 3. **Drip lines and stability limits:**
    - Neutron drip line: membrane loses binding force for N > 184–196
@@ -58,11 +58,11 @@ $$\boxed{\text{6D Action} \to \text{SU(3) Strong Force} \to \text{Nuclear Bindin
 The universe is a 6D pseudo-Riemannian manifold M⁶ with coordinates:
 $$x^A = (x^\mu, \xi, \eta), \quad \mu = 0,1,2,3$$
 
-- **x^μ:** 4D spacetime (Firmament brane)
+- **x^μ:** 4D spacetime (Firmament)
 - **ξ ∈ (-∞, +∞):** Waters Above dimension (dark energy, scale ξ_A ~ 10²⁶ m)
 - **η ∈ (-∞, +∞):** Waters Below dimension (dark matter, scale η_B ~ 10⁻¹⁵ m)
 
-The Firmament is a 4D brane at fixed (ξ₀, η₀) coordinates. Particles are topological defects on this brane, and nucleons are composite defects formed from quark topological structures.
+The Firmament is a 4D Firmament at fixed (ξ₀, η₀) coordinates. Particles are topological defects on this Firmament, and nucleons are composite defects formed from quark topological structures.
 
 **Key metric property:** The 6D metric encodes both gravity and internal symmetries through its structure:
 $$g_{AB} = \text{diag}(g_{\mu\nu}^{(4)}, g_{\xi\xi}, g_{\eta\eta}, g_{\xi\eta})$$
@@ -104,7 +104,7 @@ Nucleons (protons and neutrons) are composite topological defects on the Firmame
 
 - **Confinement:** The strong force confines quarks within radius r_confinement ~ 0.7 fm. Quarks cannot be isolated because the potential energy $V(r) = \sigma_s r + \text{const}$ (linear confinement) grows without bound. Here $\sigma_s \approx 0.18$ GeV²/fm is the string tension.
 
-**Critical insight:** The string tension arises from the membrane topology. In the 6D framework, it represents the energy cost of creating a "flux tube" in the η-dimension that threads through the Firmament:
+**Critical insight:** The string tension arises from the Firmament membrane topology. In the 6D framework, it represents the energy cost of creating a "flux tube" in the η-dimension that threads through the Firmament:
 
 $$\sigma_s = \int_{-\infty}^{+\infty} d\eta \, \sqrt{g_{\eta\eta}} \, B_\eta^2$$
 
@@ -120,8 +120,8 @@ Consider A nucleons confined in a spherical region of radius R ≈ 1.2 A^(1/3) f
 
 1. **Strong force attraction** from color confinement
 2. **Coulomb repulsion** (protons only) from electromagnetic coupling
-3. **Quantum kinetic energy** from Pauli exclusion and membrane wave quantization
-4. **Pairing interactions** from Cooper-like correlations on the membrane
+3. **Quantum kinetic energy** from Pauli exclusion and Firmament membrane wave quantization
+4. **Pairing interactions** from Cooper-like correlations on the Firmament membrane
 
 The single-nucleon potential in a nucleus is well-approximated by a Woods-Saxon potential:
 
@@ -129,7 +129,7 @@ $$V(r) = \frac{-V_0}{1 + \exp\left(\frac{r-R}{a}\right)} \quad \text{(Nuclear po
 
 **Derivation of Woods-Saxon form from membrane:**
 
-In the 6D membrane framework, a nucleon at position **r** on the Firmament experiences an effective potential arising from:
+In the 6D Firmament framework, a nucleon at position **r** on the Firmament experiences an effective potential arising from:
 
 1. **Strong force:** The color field creates a confining potential $V_{\text{strong}}(r)$
 2. **Effective charge distribution:** The nucleus creates a mean-field potential from the other A-1 nucleons
@@ -156,13 +156,13 @@ where:
 - $V_{SO}$ is the spin-orbit coupling (crucial at high angular momentum)
 - $\mathbf{l} \cdot \mathbf{s}$ is the orbital-spin coupling
 
-**Spin-orbit coupling origin in membrane framework:**
+**Spin-orbit coupling origin in Firmament framework:**
 
 The spin-orbit term has a fundamental origin in the 6D geometry. A nucleon moving with velocity $\mathbf{v}$ in the 4D Firmament experiences a relativistic electromagnetic-like interaction with the internal color field. This is encoded in the coupling:
 
 $$V_{SO} = -\alpha_s \frac{\sigma_s}{\hbar c} \frac{1}{r} \frac{dV_{\text{strong}}}{dr} \mathbf{l} \cdot \mathbf{s}$$
 
-where $\alpha_s$ is the strong coupling constant. The coefficient is proportional to the string tension $\sigma_s$, reflecting the membrane topology.
+where $\alpha_s$ is the strong coupling constant. The coefficient is proportional to the string tension $\sigma_s$, reflecting the Firmament membrane topology.
 
 **Empirical value:** $V_{SO} \approx 7$ MeV·fm for the Woods-Saxon well is derived from fitting experimental binding energies and magic numbers.
 
@@ -237,9 +237,9 @@ This causes the **highest-j state of a lower shell to drop below the lowest-j st
 
 ### 1.4 Derivation of Magic Number 126 from Membrane Quantization
 
-The membrane framework provides a deeper understanding of why magic numbers occur at these precise values. The strong-force confinement creates a **standing-wave resonance structure** in the η-dimension superimposed on the Firmament.
+The Firmament framework provides a deeper understanding of why magic numbers occur at these precise values. The strong-force confinement creates a **standing-wave resonance structure** in the η-dimension superimposed on the Firmament.
 
-Nucleons confined to a region of radius R ~ 1.2 A^(1/3) fm experience quantized membrane modes. The number of modes up to a given energy scale E_F (Fermi energy) is:
+Nucleons confined to a region of radius R ~ 1.2 A^(1/3) fm experience quantized Firmament modes. The number of modes up to a given energy scale E_F (Fermi energy) is:
 
 $$N(E_F) = \int_0^{E_F} \frac{dE}{2\pi\hbar} \times g(E)$$
 
@@ -302,7 +302,7 @@ $$N_{\text{surface}} \propto 4\pi R^2 \propto A^{2/3}$$
 
 **Derivation from membrane boundary:**
 
-In the 6D framework, the nuclear surface is a boundary of the confining region on the Firmament. The membrane has intrinsic surface tension σ_surf due to the energy cost of the boundary. This creates an additional energy:
+In the 6D framework, the nuclear surface is a boundary of the confining region on the Firmament. The Firmament membrane has intrinsic surface tension σ_surf due to the energy cost of the boundary. This creates an additional energy:
 
 $$E_{\text{surface}} = \sigma_{\text{surf}} \times A^{2/3}$$
 
@@ -331,11 +331,11 @@ where $a_C$ is the Coulomb coefficient.
 
 **Derivation from 6D EM coupling:**
 
-In the 6D framework, the electromagnetic field is localized to the Firmament brane. The Green's function for the Coulomb potential on the brane in a curved 6D geometry includes corrections from the curvature and the extra-dimensional structure:
+In the 6D framework, the electromagnetic field is localized to the Firmament. The Green's function for the Coulomb potential on the Firmament in a curved 6D geometry includes corrections from the curvature and the extra-dimensional structure:
 
 $$G(\mathbf{r}, \mathbf{r}') = \frac{1}{4\pi|\mathbf{r} - \mathbf{r}'|} + \text{corrections from } \xi, \eta \text{ dimensions}$$
 
-For a nucleus at the center of the Firmament, the effective Coulomb interaction is modified by the membrane curvature in the η-direction. The curvature creates a focusing effect (lensing) that slightly increases the effective nuclear radius seen by the Coulomb field.
+For a nucleus at the center of the Firmament, the effective Coulomb interaction is modified by the Firmament curvature in the η-direction. The curvature creates a focusing effect (lensing) that slightly increases the effective nuclear radius seen by the Coulomb field.
 
 This correction factor yields:
 
@@ -354,7 +354,7 @@ For a given A, the total Pauli exclusion energy (kinetic energy from confinement
 
 **Derivation from topological statistics on Firmament:**
 
-In the 6D topological defect framework, nucleons are fermionic defects on the Firmament. The Pauli exclusion principle arises from the topological spin-statistics theorem: when two identical fermions exchange positions on the brane, the wavefunction picks up a phase of π, requiring antisymmetrization.
+In the 6D topological defect framework, nucleons are fermionic defects on the Firmament. The Pauli exclusion principle arises from the topological spin-statistics theorem: when two identical fermions exchange positions on the Firmament, the wavefunction picks up a phase of π, requiring antisymmetrization.
 
 For a system with Z protons and N neutrons in a potential well of radius R and depth V₀, the average kinetic energy is:
 
@@ -380,7 +380,7 @@ Nucleons with the same type (proton-proton or neutron-neutron) and opposite angu
 
 **Derivation from membrane quantum field theory:**
 
-In the membrane framework, nucleons are excitations of the Firmament. The effective interaction between nucleons can be attractive at low energy scales due to single-gluon exchange (in the force-carrying picture) or meson exchange (in effective field theory).
+In the Firmament framework, nucleons are excitations of the Firmament. The effective interaction between nucleons can be attractive at low energy scales due to single-gluon exchange (in the force-carrying picture) or meson exchange (in effective field theory).
 
 Two nucleons with the same type near the Fermi surface can form a bound pair with lower energy. This pairing energy is:
 
@@ -454,7 +454,7 @@ The drip line is reached when this becomes significantly negative.
 
 **Membrane-based prediction of drip line:**
 
-From the membrane framework, the strong force can support nuclei up to a maximum nuclear saturation density ρ_sat ~ 0.16 nucleons/fm³. For a nucleus with A nucleons in a volume V ~ (4π/3)R³:
+From the Firmament framework, the strong force can support nuclei up to a maximum nuclear saturation density ρ_sat ~ 0.16 nucleons/fm³. For a nucleus with A nucleons in a volume V ~ (4π/3)R³:
 
 $$\rho = \frac{A}{V} = \frac{3A}{4\pi R^3} = \frac{3A}{4\pi(1.2 A^{1/3})^3} \approx 0.16 \text{ nucleons/fm}^3$$
 
@@ -553,7 +553,7 @@ The exact location depends on the strength of the shell gap and fine details of 
 
 ## PART IV: THE ELECTRONIC CONSTRAINT AND ELEMENT LIMITS
 
-### 4.1 Electron Orbitals as Membrane Modes
+### 4.1 Electron Orbitals as Firmament Modes
 
 In Genesis Physics, atomic electrons are excitations of the Firmament membrane. The electron wavefunction satisfies the Dirac equation in the electric potential of the nucleus:
 
@@ -578,7 +578,7 @@ $$E_{1s} = m_e c^2 \sqrt{1 - 1} = 0$$
 
 The 1s orbital energy reaches zero. **For Z > 137, the expression becomes imaginary,** indicating that the Dirac vacuum becomes unstable. The electric field is strong enough to spontaneously create electron-positron pairs from the vacuum.
 
-**In membrane language:** The Firmament curvature in the η-direction, created by the intense Coulomb field of a Z > 137 nucleus, becomes so severe that it "tears" the membrane, creating a pair production event.
+**In membrane language:** The Firmament curvature in the η-direction, created by the intense Coulomb field of a Z > 137 nucleus, becomes so severe that it "tears" the Firmament, creating a pair production event.
 
 **Finite nuclear size correction:**
 
@@ -819,7 +819,7 @@ All terms are dimensionally consistent in natural units where ℏ = c = 1.
 
 ### 7.3 Derivation of Coulomb Coefficient from 6D Green's Function
 
-In the 6D membrane framework, the Coulomb coefficient is derived from the Green's function of the 4D Poisson equation modified by 6D geometry:
+In the 6D Firmament framework, the Coulomb coefficient is derived from the Green's function of the 4D Poisson equation modified by 6D geometry:
 
 $$a_C = \frac{3}{20\pi\epsilon_0 r_0} e^2 \times \text{(geometric correction)}$$
 
@@ -837,7 +837,7 @@ This exact match with empirical values confirms the 6D derivation.
 
 ### 8.1 Elements Beyond Z = 118: Synthesis Roadmap
 
-The membrane framework predicts that the following elements should be synthesizable with modern accelerators, ranked by likelihood:
+The Firmament framework predicts that the following elements should be synthesizable with modern accelerators, ranked by likelihood:
 
 **Tier 1 — Very likely (2026–2030):**
 - **Z = 119 (Ununennium):** Already the target of multiple collaborations
@@ -868,9 +868,9 @@ $$\text{Electronic config of Z = 121: } [Og] 8s^2 5g^1$$
 
 ### 8.3 Membrane-Specific Prediction: Coupling Effects at the Island of Stability
 
-The 6D membrane framework predicts a phenomenon **unique to Genesis Physics** that cannot be observed in the standard model:
+The 6D Firmament framework predicts a phenomenon **unique to Genesis Physics** that cannot be observed in the standard model:
 
-**ξ-η membrane coupling effect at the island of stability:**
+**ξ-η Firmament coupling effect at the island of stability:**
 
 At (Z ≈ 114, N ≈ 184), the nucleus is large and highly deformed. In the 6D framework, this deformation couples nucleons to the extra-dimensional modes in the η-dimension.
 
@@ -884,7 +884,7 @@ This would manifest as:
 - Correlated excitations of 6D modes (detectable in coincidence studies)
 - Violating usual conservation laws at the few-percent level
 
-This is **the smoking gun** signature of the 6D membrane framework in nuclear physics.
+This is **the smoking gun** signature of the 6D Firmament framework in nuclear physics.
 
 ---
 
@@ -923,13 +923,13 @@ This is **the smoking gun** signature of the 6D membrane framework in nuclear ph
 
 ## CONCLUSION
 
-This document derives, from first principles of the Genesis Physics 6D membrane framework, the complete structure of nuclear stability, magic numbers, element predictions, and drip lines.
+This document derives, from first principles of the Genesis Physics 6D Firmament framework, the complete structure of nuclear stability, magic numbers, element predictions, and drip lines.
 
 **Key achievements:**
 
-1. **Magic numbers** are derived from membrane mode quantization with spin-orbit coupling
+1. **Magic numbers** are derived from Firmament mode quantization with spin-orbit coupling
 2. **SEMF coefficients** are computed from 6D action parameters, matching experiment to 0.3%
-3. **Binding energies** follow from competing strong force and Coulomb scales in the membrane
+3. **Binding energies** follow from competing strong force and Coulomb scales in the Firmament
 4. **Drip lines and stability limits** emerge from force balance, without arbitrary fitting
 5. **Element limits** reflect the geometry of the 6D zone architecture
 
@@ -939,9 +939,9 @@ This document derives, from first principles of the Genesis Physics 6D membrane 
 - Elements 119–130 synthesis (ongoing)
 - Island of stability at Z ≈ 114 or 120 with N ≈ 184
 - g-block elements (Z = 121–138)
-- 6D membrane coupling effects (unique to Genesis Physics)
+- 6D Firmament coupling effects (unique to Genesis Physics)
 
-The membrane framework is not merely a reinterpretation of known nuclear physics — it provides a **geometric explanation** for why magic numbers occur, why Coulomb repulsion limits elements, and how the universe's zone architecture constrains nuclear stability.
+The Firmament framework is not merely a reinterpretation of known nuclear physics — it provides a **geometric explanation** for why magic numbers occur, why Coulomb repulsion limits elements, and how the universe's zone architecture constrains nuclear stability.
 
 **Reference Documents:**
 - ACTION_6D_COMPLETE.md (6D action functional)

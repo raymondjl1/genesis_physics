@@ -79,7 +79,7 @@ Submanifolds and Zone Boundaries.
 
 Definition 2.1.5 (Submanifold). A subset S M is a submanifold of dimension k < n if, around every point of S, there exists a chart of M in which S appears as the set where (n-k) coordinates vanish.
 
-Zone boundaries are codimension-1 submanifolds: they have one fewer dimension than the ambient manifold. The Firmament partial Z sub 2.2 is a 3-dimensional hypersurface embedded in the 4-dimensional spacetime Z sub 2.2 (or a 5-dimensional hypersurface in the full 6D embedding). This is the mathematical structure on which the membrane mechanics of Chapter 5 rests.
+Zone boundaries are codimension-1 submanifolds: they have one fewer dimension than the ambient manifold. The Firmament partial Z sub 2.2 is a 3-dimensional hypersurface embedded in the 4-dimensional spacetime Z sub 2.2 (or a 5-dimensional hypersurface in the full 6D embedding). This is the mathematical structure on which the Firmament mechanics of Chapter 5 rests.
 
 Why this matters for physics. In standard general relativity, the Israel junction conditions relate the metric on either side of a thin shell (hypersurface) to the shell's stress-energy content. Our zone boundaries play the same role: the Firmament carries tension, energy, and vibrational modes. Making the boundaries precise submanifolds is what allows us to write junction conditions rigorously. (See Chapter 3, Section 3.2 for the explicit construction of the zone manifold and its boundary structure, and Chapter 5, Section 5.1 for the full junction condition analysis on the Firmament.)
 

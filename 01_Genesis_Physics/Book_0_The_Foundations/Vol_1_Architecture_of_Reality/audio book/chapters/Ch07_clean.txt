@@ -55,6 +55,8 @@ where:
 
 [Equation — see print edition.]
 
+[Sign correction Rev. 2026-05-14: The kinetic terms had the wrong sign (+1 over 2) in an earlier version of this equation. The correct sign is -1 over 2g to the AB partial Psi partial Psi throughout this series (Lorentzian signature, positive kinetic energy). This is now consistent with Ch 6 Eq. (1.6.4) and the series sign convention established there.]
+
 - S sub matter encompasses all baryonic matter fields coupled to the metric and Waters fields.
 
 The notation follows our conventions: capital Latin indices A, B = 0, 1, 2, 3, 5, 6 run over all six dimensions; Greek indices mu , nu = 0, 1, 2, 3 run over the four Firmament dimensions; gamma sub mu nu is the induced metric on the Firmament hypersurface; g sub AB is the full 6D metric from Eq. (1.4.2).
@@ -151,7 +153,9 @@ The Why.
 
 Why is energy conserved?
 
-Because God is eternal. "I the LORD do not change" (Malachi 3:6). If the nature of God does not depend on when you examine it, then the laws of physics — which reflect that nature through the zone manifold — cannot depend on time either. In Chapter 4, we identified the Killing vector the expression (Eq. (1.4.32)) as the generator of time translations on the zone manifold. The 6D metric (1.4.2), the membrane action (1.7.3), and the Waters action (1.7.4) are all constructed to be time-translation invariant. Noether's theorem then guarantees a conserved charge. That charge is energy.
+Because God is eternal.[^ax3-energy] "I the LORD do not change" (Malachi 3:6). If the nature of God does not depend on when you examine it, then the laws of physics — which reflect that nature through the zone manifold — cannot depend on time either.
+
+[^ax3-energy]: Axiom 3 (Chapter 1, §1.3) establishes the formal connection: the symmetries of the zone manifold correspond to divine attributes, and every continuous symmetry yields a conserved current via Noether's theorem. This section applies that axiom to the specific case of divine Eternality → time-translation symmetry → conservation of energy. In Chapter 4, we identified the Killing vector the expression (Eq. (1.4.32)) as the generator of time translations on the zone manifold. The 6D metric (1.4.2), the Firmament action (1.7.3), and the Waters action (1.7.4) are all constructed to be time-translation invariant. Noether's theorem then guarantees a conserved charge. That charge is energy.
 
 This is not a metaphor dressed in equations. It is a derivation. Let us make it explicit.
 
@@ -161,12 +165,14 @@ Consider the time-translation Killing vector from Chapter 4:
 
 [Equation — see print edition.]
 
-This generates the transformation t to t + epsilon, x to the i to x to the i, xi to xi, eta to eta. The total action S sub total is invariant because:
+⚠ CORRECTION (Rev. 2026-05-14): In an FRW background with time-dependent scale factor a(t), the vector K to the A sub (t) = delta to the A sub 0 is NOT a Killing vector in general, because the expression when a not equal to 0. Energy conservation in expanding zone geometry requires a different approach: use the Killing vector of the static exterior metric, or appeal to the covariant conservation nabla sub A T to the AB = 0 via the zone field equations. The energy conservation theorem stated here holds in the static limit (a = 0, i.e., Minkowski or static extra-dimensional geometry) or asymptotically (at late times when expansion is negligible). This section requires revision to give a correct energy conservation proof for the dynamical case; the proper treatment in the full FRW background is deferred to Vol 5.
+
+This generates the transformation t to t + epsilon, x to the i to x to the i, xi to xi, eta to eta. The total action S sub total is invariant in the static approximation because:
 
 - The 6D metric (1.4.2) has partial sub t g sub AB = 0 in the cosmological rest frame (the warp factors A( xi , eta ) and B( xi , eta ) depend only on the extra coordinates)
 - The potentials V( Psi sub A) and U( Psi sub B) are time-independent functions of the fields
 - The coupling G sub int is a constant
-- The membrane tension sigma and mass density mu are constants
+- The Firmament tension sigma and mass density mu are constants
 
 The Noether current associated with K to the A sub (t) is the energy-momentum density contracted with the Killing vector:
 
@@ -190,7 +196,7 @@ The total stress-energy tensor decomposes into contributions from each sector:
 
 [Equation — see print edition.]
 
-The individual sectors are not separately conserved — energy flows between them. The membrane absorbs energy from the Waters; matter radiates energy into the Waters Below; the Waters Above drive expansion. But the total is exactly conserved:
+The individual sectors are not separately conserved — energy flows between them. The Firmament absorbs energy from the Waters; matter radiates energy into the Waters Below; the Waters Above drive expansion. But the total is exactly conserved:
 
 [Equation — see print edition.]
 
@@ -198,7 +204,7 @@ This is precisely what we would expect from the Conservation Principle (Principl
 
 Energy in the Effective 4D Theory.
 
-An observer on the Firmament does not measure 6D integrals. They measure 4D quantities. By integrating over the extra dimensions (a process we will formalize as Kaluza-Klein reduction in Volume 2), the 6D conservation law projects to:
+An observer on the Firmament does not measure 6D integrals. They measure 4D quantities. By integrating over the extra dimensions (a process we will formalize as Kaluza-Klein reduction in Volume 2, Chapter 1), the 6D conservation law projects to:
 
 [Equation — see print edition.]
 
@@ -214,7 +220,9 @@ Linear Momentum: God's Omnipresence.
 
 Why is momentum conserved?
 
-Because God is equally present everywhere. "Where can I go from your Spirit? Where can I flee from your presence?" (Psalm 139:7). If no location in space is privileged over any other, then the laws of physics must be the same at all spatial points. This is spatial translation invariance. From Chapter 4, the three spatial Killing vectors are:
+Because God is equally present everywhere.[^ax3-momentum] "Where can I go from your Spirit? Where can I flee from your presence?" (Psalm 139:7). If no location in space is privileged over any other, then the laws of physics must be the same at all spatial points.
+
+[^ax3-momentum]: Axiom 3 (Chapter 1, §1.3) — applied here to the case of divine Omnipresence → spatial-translation symmetry → conservation of momentum. The same axiom will connect rotational symmetry to conservation of angular momentum in §7.4.2. This is spatial translation invariance. From Chapter 4, the three spatial Killing vectors are:
 
 [Equation — see print edition.]
 
@@ -273,7 +281,9 @@ From Duality to Gauge Invariance.
 
 Why is electric charge conserved?
 
-Because God creates through complementary pairs — the Duality Principle (Principle 5). "God created mankind in his own image... male and female he created them" (Genesis 1:27). This pairing permeates all creation: Waters Above and Below, matter and antimatter, positive and negative charge.
+Because God creates through complementary pairs — the Duality Principle (Principle 5).[^ax3-charge] "God created mankind in his own image... male and female he created them" (Genesis 1:27). This pairing permeates all creation: Waters Above and Below, matter and antimatter, positive and negative charge.
+
+[^ax3-charge]: Axiom 3 (Chapter 1, §1.3) — applied here to the case of divine Duality → U(1) gauge symmetry of the Waters fields → conservation of electric charge. The Duality Principle is the fifth of the Five Governing Principles (Chapter 8); its mathematical expression as a gauge symmetry is derived in full in §7.5.2.
 
 In the mathematical framework, duality manifests as a gauge symmetry of the Waters fields. Consider the global phase transformation:
 
@@ -407,7 +417,9 @@ This is a feature, not a bug. It explains why we observe exactly 10 Poincaré co
 
 Quantum Anomalies: The Chiral Anomaly.
 
-A classical symmetry can be destroyed by quantum effects. The most important example is the chiral anomaly (Adler-Bell-Jackiw, 1969).
+A classical symmetry can be destroyed by quantum effects. The most important example is the chiral anomaly (Adler-Bell-Jackiw, 1969).[^anomaly]
+
+[^anomaly]: The anomaly computation requires evaluating a linearly divergent triangle Feynman diagram with two gauge bosons and one axial-current vertex, regulated via Pauli-Villars or dimensional regularization. The full calculation is beyond the scope of Foundations; see Peskin & Schroeder, An Introduction to Quantum Field Theory, Chapter 19 (pp. 655–670) for the detailed derivation. The result — that anomaly cancellation in the Standard Model constrains the fermion content — is presented here as a structural constraint; its derivation is deferred to the advanced QFT treatment in Volume 5.
 
 Consider a massless fermion psi with a classical chiral symmetry:
 

@@ -300,11 +300,20 @@ def _chapter_sort_key(d: Path) -> int:
 
 
 def discover_chapters(vol_dir: Path) -> list[dict]:
-    """Return ordered list of {key, title_hint, file_path} for all chapters."""
-    chapter_dirs = sorted(
-        [d for d in vol_dir.iterdir() if d.is_dir() and re.match(r'Ch[\d_]', d.name)],
-        key=_chapter_sort_key,
-    )
+    """Return ordered list of {key, title_hint, file_path} for all chapters.
+
+    Looks in vol_dir itself AND in vol_dir/Manuscript for Ch_NN folders.
+    """
+    candidates = []
+    for d in vol_dir.iterdir():
+        if d.is_dir() and re.match(r'Ch[\d_]', d.name):
+            candidates.append(d)
+    manuscript_dir = vol_dir / 'Manuscript'
+    if manuscript_dir.exists():
+        for d in manuscript_dir.iterdir():
+            if d.is_dir() and re.match(r'Ch[\d_]', d.name):
+                candidates.append(d)
+    chapter_dirs = sorted(candidates, key=_chapter_sort_key)
     sections = []
     for chdir in chapter_dirs:
         fpath = pick_best_file(chdir)

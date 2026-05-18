@@ -52,13 +52,13 @@ With η_B ≈ 1.3 × 10^{-15} m:
 
 [Equation — see print edition.]
 
-This is the membrane scale — approximately 1 GeV, squarely in the nuclear physics regime. Below this energy, the extra dimensions are invisible and physics looks four-dimensional. Above it, the running of couplings encodes the geometry of the ξ and η directions.
+This is the Firmament scale — approximately 1 GeV, squarely in the nuclear physics regime. Below this energy, the extra dimensions are invisible and physics looks four-dimensional. Above it, the running of couplings encodes the geometry of the ξ and η directions.
 
 The UV and IR Cutoffs.
 
 The running has two natural boundaries imposed by the zone architecture.
 
-The UV cutoff comes from the Firmament tension. At sufficiently high energy, the membrane tension σ dominates all dynamics, and the concept of individual particles breaks down. This occurs at the Planck scale:
+The UV cutoff comes from the Firmament tension. At sufficiently high energy, the Firmament tension σ dominates all dynamics, and the concept of individual particles breaks down. This occurs at the Planck scale:
 
 [Equation — see print edition.]
 
@@ -106,7 +106,7 @@ Beta Functions from the Zone Lagrangian.
 
 From Lagrangian to Running.
 
-In Chapter 5, we assembled the complete zone Lagrangian (2.5.20) from seven sectors: gravitational, brane, waters, gauge, matter, interaction, and sustaining. In Chapter 6, we showed that dimensional reduction produces the 4D effective Lagrangian (2.5.50), which contains Yang-Mills gauge kinetic terms for U(1)Y, SU(2)L, and SU(3)_C with coupling constants determined by warp-factor integrals (2.6.46).
+In Chapter 5, we assembled the complete zone Lagrangian (2.5.20) from seven sectors: gravitational, Firmament, waters, gauge, matter, interaction, and sustaining. In Chapter 6, we showed that dimensional reduction produces the 4D effective Lagrangian (2.5.50), which contains Yang-Mills gauge kinetic terms for U(1)Y, SU(2)L, and SU(3)_C with coupling constants determined by warp-factor integrals (2.6.46).
 
 Now we ask: what happens when we compute quantum corrections to these couplings?
 
@@ -134,6 +134,8 @@ In standard QFT, the beta function coefficients are computed from one-loop Feynm
 where C2(G) is the quadratic Casimir of the adjoint representation, T(Rf) is the Dynkin index of each fermion representation, and T(R_s) is the Dynkin index of each scalar representation.
 
 In Genesis Physics, these coefficients emerge from the 4D effective Lagrangian (2.5.50). The gauge sector of that Lagrangian, after dimensional reduction, has exactly the Standard Model form — we proved this in Chapters 5 and 6. Therefore, the one-loop beta coefficients are identical to the Standard Model values. This is not an assumption; it is a consequence of the Lagrangian structure.
+
+Parameter Disclosure (Rev. 2026-05-14): The beta function coefficients b sub 1 = -41/10, b sub 2 = 19/6, and b sub 3 = 7 derived below (equations 2.10.13–2.10.18) are the Standard Model values, computed from the Standard Model particle content: 3 generations of quarks and leptons, gauge bosons, and 1 Higgs doublet. That particle content is not derived in this volume — it is taken from experiment and will be derived from zone topology in Vol 4. The claim that "the 4D effective Lagrangian has exactly the Standard Model form" (and therefore the same beta coefficients) is a result of the Chapter 5–6 reduction, but it depends on the gauge groups SU(3)×SU(2)×U(1) and the three-generation fermion spectrum, both of which require Vol 4 for their first-principles derivation. Until Vol 4 closes the loop, the values b sub i used here should be understood as Standard Model inputs consistent with the zone architecture, not independently derived from it. The SU(3) derivation also depends on the Z₃ orbifold construction whose rigorous two-dimensional fiber treatment is Research Task RT-2.SU3 (see Ch04 §4.2 correction box).
 
 Let us compute each one.
 
@@ -221,13 +223,13 @@ These are the starting points for running to higher energies.
 
 Boundary Conditions at the Membrane Scale (First-Principles Anchor).
 
-From the zone architecture, the coupling constants at the membrane scale Qm ≈ 1 GeV take their "bare" values before running. These were derived in Chapters 3, 6, and the research derivation 10-COUPLINGCONSTANTS_DERIVATION.md:
+From the zone architecture, the coupling constants at the Firmament scale Qm ≈ 1 GeV take their "bare" values before running. These were derived in Chapters 3, 6, and the research derivation 10-COUPLINGCONSTANTS_DERIVATION.md:
 
 Electromagnetic coupling at membrane scale:
 
 [Equation — see print edition.]
 
-This is the result of the 2D logarithmic Green's function in the extra dimensions, derived in Chapter 3, equation (2.3.63). The membrane-scale value is the "natural" coupling before any running.
+This is the result of the 2D logarithmic Green's function in the extra dimensions, derived in Chapter 3, equation (2.3.63). The Firmament-scale value is the "natural" coupling before any running.
 
 Strong coupling at membrane scale:
 
@@ -247,7 +249,7 @@ The electromagnetic coupling is a combination of U(1)Y and SU(2)L couplings thro
 
 [Equation — see print edition.]
 
-For the electromagnetic coupling specifically, the one-loop running from the membrane scale is:
+For the electromagnetic coupling specifically, the one-loop running from the Firmament scale is:
 
 [Equation — see print edition.]
 
@@ -263,7 +265,7 @@ The measured value αem^{-1}(MZ) ≈ 127.94 tells us that about 9 units of α^{-
 
 Genesis prediction from zone parameters:
 
-Starting from the membrane-scale value (2.10.24) and running to M_Z using the full Standard Model matter content:
+Starting from the Firmament-scale value (2.10.24) and running to M_Z using the full Standard Model matter content:
 
 [Equation — see print edition.]
 
@@ -311,11 +313,11 @@ The one-loop estimate gives ΛQCD ≈ 110 MeV. The accepted value is ΛQCD ≈ 2
 
 Genesis prediction from first principles:
 
-Starting from the membrane-scale value αs(Qm) ≈ 0.38 (equation 2.10.25) and running to M_Z:
+Starting from the Firmament-scale value αs(Qm) ≈ 0.38 (equation 2.10.25) and running to M_Z:
 
 [Equation — see print edition.]
 
-This gives αs(MZ) ≈ 1/7.69 ≈ 0.130 — about 10% above the measured 0.1179. The discrepancy arises because the membrane-scale value αs(Qm) ≈ 0.38 is in the non-perturbative regime where one-loop perturbation theory is unreliable. We are honest about this limitation: the one-loop running from the zone membrane scale gives the correct qualitative behavior (asymptotic freedom) and the right order of magnitude, but the precise anchor at Q_m requires non-perturbative methods that Volume 4 will develop.
+This gives αs(MZ) ≈ 1/7.69 ≈ 0.130 — about 10% above the measured 0.1179. The discrepancy arises because the Firmament-scale value αs(Qm) ≈ 0.38 is in the non-perturbative regime where one-loop perturbation theory is unreliable. We are honest about this limitation: the one-loop running from the zone membrane scale gives the correct qualitative behavior (asymptotic freedom) and the right order of magnitude, but the precise anchor at Q_m requires non-perturbative methods that Volume 4 will develop.
 
 Using the experimentally anchored MZ value as input, the framework reproduces αs at all perturbative scales to better than 1%.
 
@@ -576,7 +578,7 @@ Quantity: α_s(M_Z). Genesis (1-loop + thresholds): 0.1179 (input). Standard Mod
 Quantity: sin^2θ_W(M_Z). Genesis (1-loop + thresholds): 0.2312. Standard Model: 0.23122. Experiment: 0.23122 ± 0.00003. Discrepancy: <0.01%.
 Quantity: E_GUT (one-loop). Genesis (1-loop + thresholds): 10^{13}-10^{17} GeV. Standard Model: 10^{15}-10^{16} GeV. Experiment: untested. Discrepancy: broad range.
 
-Honest assessment: The beta function coefficients are derived exactly from the zone Lagrangian structure and match the Standard Model values perfectly. The running equations at one loop are identical. The discrepancies in numerical running arise from: (a) the precision of the membrane-scale anchor values, and (b) two-loop and higher corrections not yet computed within the full 6D framework.
+Honest assessment: The beta function coefficients are derived exactly from the zone Lagrangian structure and match the Standard Model values perfectly. The running equations at one loop are identical. The discrepancies in numerical running arise from: (a) the precision of the Firmament-scale anchor values, and (b) two-loop and higher corrections not yet computed within the full 6D framework.
 
 What Volume 4 will add: The full two-loop computation in the zone framework requires the renormalization of the 4D effective theory derived from the 6D Lagrangian. This is a natural extension of the RG framework established here, and the one-loop results provide the correct starting point. Volume 4 will perform this computation as part of the quantization of gauge fields on the zone manifold.
 
@@ -633,7 +635,7 @@ Volume 4 (The Quantum World) will quantize the gauge fields on the zone manifold
 
 1. The RG flow framework (equations 2.10.19-2.10.22) as the starting point for renormalization
 2. The beta function coefficients (2.10.13, 2.10.16, 2.10.18) as one-loop seeds for the full quantum calculation
-3. The membrane-scale anchor values (2.10.24-2.10.26) as boundary conditions
+3. The Firmament-scale anchor values (2.10.24-2.10.26) as boundary conditions
 4. The GUT scale estimate (2.10.56) as a target for precision refinement
 5. The threshold-matching procedure (2.10.66-2.10.68) as a template for incorporating additional particles
 

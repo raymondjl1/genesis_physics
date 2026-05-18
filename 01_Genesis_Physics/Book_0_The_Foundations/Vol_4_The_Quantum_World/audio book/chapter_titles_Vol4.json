@@ -11,96 +11,96 @@
   "chapters": [
     {
       "key": "Ch01",
-      "title": "Chapter 1: Why the Universe is Quantum",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_01_Why_the_Universe_is_Quantum\\Ch01_DRAFT.md",
+      "title": "Why the Universe is Quantum",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_01_Why_the_Universe_is_Quantum\\Ch01_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch01_clean.txt",
-      "word_count": 8124,
-      "char_count": 48752
+      "word_count": 9477,
+      "char_count": 56930
     },
     {
       "key": "Ch02",
-      "title": "Chapter 2: The Schrödinger Equation Derived",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_02_The_Schrodinger_Equation_Derived\\Ch02_DRAFT.md",
+      "title": "The Schrodinger Equation Derived",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_02_The_Schrodinger_Equation_Derived\\Ch02_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch02_clean.txt",
-      "word_count": 11446,
-      "char_count": 66379
+      "word_count": 11690,
+      "char_count": 68116
     },
     {
       "key": "Ch03",
       "title": "Chapter 3: The Uncertainty Principle — Why It Must Be True",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_03_The_Uncertainty_Principle\\Ch03_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_03_The_Uncertainty_Principle\\Ch03_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch03_clean.txt",
-      "word_count": 7903,
-      "char_count": 45424
+      "word_count": 7971,
+      "char_count": 45849
     },
     {
       "key": "Ch04",
       "title": "Chapter 4: Entanglement and Nonlocality",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_04_Entanglement_and_Nonlocality\\Ch04_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_04_Entanglement_and_Nonlocality\\Ch04_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch04_clean.txt",
-      "word_count": 3960,
-      "char_count": 25695
+      "word_count": 3961,
+      "char_count": 25705
     },
     {
       "key": "Ch05",
-      "title": "Chapter 5: The Measurement Problem Solved",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_05_The_Measurement_Problem_Solved\\Ch05_FINAL.md",
+      "title": "Chapter 5: The Measurement Problem: How the Zone Selects Classical Reality",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_05_The_Measurement_Problem_Solved\\Ch05_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch05_clean.txt",
-      "word_count": 7473,
-      "char_count": 47513
+      "word_count": 7842,
+      "char_count": 49954
     },
     {
       "key": "Ch06",
       "title": "Chapter 6: Second Quantization and Zone Fields",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_06_Second_Quantization_and_Zone_Fields\\Ch06_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_06_Second_Quantization_and_Zone_Fields\\Ch06_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch06_clean.txt",
-      "word_count": 9185,
-      "char_count": 56620
+      "word_count": 9196,
+      "char_count": 56811
     },
     {
       "key": "Ch07",
       "title": "Chapter 7: Perturbation Theory and Feynman Diagrams",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_07_Perturbation_Theory_and_Feynman_Diagrams\\Ch07_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_07_Perturbation_Theory_and_Feynman_Diagrams\\Ch07_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch07_clean.txt",
-      "word_count": 11811,
-      "char_count": 70637
+      "word_count": 12031,
+      "char_count": 72137
     },
     {
       "key": "Ch08",
       "title": "Chapter 8: Renormalization in Zone Architecture",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_08_Renormalization_in_Zone_Architecture\\Ch08_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_08_Renormalization_in_Zone_Architecture\\Ch08_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch08_clean.txt",
-      "word_count": 9241,
-      "char_count": 58997
+      "word_count": 9683,
+      "char_count": 61739
     },
     {
       "key": "Ch09",
       "title": "Chapter 9: The Casimir Effect and Vacuum Energy",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_09_The_Casimir_Effect_and_Vacuum_Energy\\Ch09_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_09_The_Casimir_Effect_and_Vacuum_Energy\\Ch09_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch09_clean.txt",
-      "word_count": 7116,
-      "char_count": 43938
+      "word_count": 7874,
+      "char_count": 48228
     },
     {
       "key": "Ch10",
       "title": "Chapter 10",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_10_Leptons_and_Quarks_from_Membrane_Resonances\\Ch10_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_10_Leptons_and_Quarks_from_Firmament_Resonances\\Ch10_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch10_clean.txt",
-      "word_count": 10170,
-      "char_count": 60842
+      "word_count": 10173,
+      "char_count": 60895
     },
     {
       "key": "Ch11",
       "title": "Chapter 11 — The Electroweak Theory",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_11_The_Electroweak_Theory\\Ch11_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_11_The_Electroweak_Theory\\Ch11_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch11_clean.txt",
-      "word_count": 10349,
-      "char_count": 59000
+      "word_count": 10352,
+      "char_count": 59040
     },
     {
       "key": "Ch12",
       "title": "Chapter 12 — Quantum Chromodynamics",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_12_Quantum_Chromodynamics\\Ch12_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_12_Quantum_Chromodynamics\\Ch12_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch12_clean.txt",
       "word_count": 9683,
       "char_count": 55976
@@ -108,18 +108,18 @@
     {
       "key": "Ch13",
       "title": "Chapter 13",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_13_The_CKM_and_PMNS_Matrices\\Ch13_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_13_The_CKM_and_PMNS_Matrices\\Ch13_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch13_clean.txt",
-      "word_count": 11127,
-      "char_count": 68248
+      "word_count": 11128,
+      "char_count": 68261
     },
     {
       "key": "Ch14",
       "title": "Chapter 14",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Ch_14_Beyond_the_Standard_Model\\Ch14_FINAL.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Manuscript\\Ch_14_Beyond_the_Standard_Model\\Ch14_FINAL.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Ch14_clean.txt",
-      "word_count": 11648,
-      "char_count": 70558
+      "word_count": 11650,
+      "char_count": 70588
     },
     {
       "key": "APPENDIX_A_Key_Results_from_Vo",
@@ -127,15 +127,15 @@
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Back_Matter\\APPENDIX_A_Key_Results_from_Volumes_1_through_3.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\APPENDIX_A_Key_Results_from_Vo_clean.txt",
       "word_count": 2792,
-      "char_count": 15762
+      "char_count": 15764
     },
     {
       "key": "APPENDIX_B_Particle_Data_Table",
-      "title": "Appendix B — Particle Data Tables",
+      "title": "APPENDIX B Particle Data Tables",
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Back_Matter\\APPENDIX_B_Particle_Data_Tables.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\APPENDIX_B_Particle_Data_Table_clean.txt",
-      "word_count": 3880,
-      "char_count": 24579
+      "word_count": 3887,
+      "char_count": 24622
     },
     {
       "key": "APPENDIX_C_Feynman_Rules_for_Z",
@@ -151,7 +151,7 @@
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Back_Matter\\Bibliography.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Bibliography_clean.txt",
       "word_count": 5193,
-      "char_count": 35982
+      "char_count": 35983
     },
     {
       "key": "Problem_Sets_with_Selected_Sol",
@@ -159,7 +159,7 @@
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\Back_Matter\\Problem_Sets_with_Selected_Solutions.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_4_The_Quantum_World\\audio book\\chapters\\Problem_Sets_with_Selected_Sol_clean.txt",
       "word_count": 3986,
-      "char_count": 23656
+      "char_count": 23658
     }
   ]
 }

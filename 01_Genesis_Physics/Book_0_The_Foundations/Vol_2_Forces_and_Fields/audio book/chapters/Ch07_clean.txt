@@ -51,7 +51,7 @@ An identical derivation starting from (2.7.2) yields the same equation for B:
 
 Here we have used the relation epsilon sub 0 mu sub 0 = 1/c to the 2 (Eq. 2.3.33), which is not a separate fact but a consequence of the warp-factor integrals.
 
-Equations (2.7.5) and (2.7.6) are the electromagnetic wave equations. They tell us that the electromagnetic field propagates at speed c — the membrane wave speed derived in Vol 1 (Eq. 1.5.36) as c to the 2 = sigma / mu, where sigma is the Firmament tension and mu its mass density. The wave speed is a material property of the Firmament membrane, not an arbitrary constant of nature.
+Equations (2.7.5) and (2.7.6) are the electromagnetic wave equations. They tell us that the electromagnetic field propagates at speed c — the Firmament membrane wave speed derived in Vol 1 (Eq. 1.5.36) as c to the 2 = sigma / mu, where sigma is the Firmament tension and mu its mass density. The wave speed is a material property of the Firmament membrane, not an arbitrary constant of nature.
 
 Plane wave solutions and dispersion.
 
@@ -95,7 +95,7 @@ where E sub 1 and E sub 2 are complex amplitudes. The relative magnitude and pha
 
 [Figure — see print edition.]
 
-This two-fold polarization degeneracy is a direct consequence of the Firmament's codimension. The Firmament is a 4D membrane in 6D; electromagnetic waves propagate along it with their fields confined to the transverse directions within the membrane. On a 4D membrane, a wave propagating in one spatial direction leaves 2 transverse spatial dimensions — hence exactly 2 polarization states. If the Firmament had different codimension, or if we lived in a different-dimensional space, the number of polarizations would differ.
+This two-fold polarization degeneracy is a direct consequence of the Firmament's codimension. The Firmament is a 4D membrane in 6D; electromagnetic waves propagate along it with their fields confined to the transverse directions within the Firmament membrane. On a 4D membrane, a wave propagating in one spatial direction leaves 2 transverse spatial dimensions — hence exactly 2 polarization states. If the Firmament had different codimension, or if we lived in a different-dimensional space, the number of polarizations would differ.
 
 Energy transport: Poynting's theorem.
 
@@ -213,7 +213,7 @@ The total power radiated is obtained by integrating the Poynting vector over a s
 
 [Equation — see print edition.]
 
-This is the Larmor formula, derived here from the retarded-potential solution of the zone-architecture Maxwell equations. Every quantity in this expression has been derived from zone geometry: q is quantized by xi-topology (Eq. 2.3.83), epsilon sub 0 from warp-factor integrals (Eq. 2.3.29), and c from membrane mechanics (Eq. 1.5.36).
+This is the Larmor formula, derived here from the retarded-potential solution of the zone-architecture Maxwell equations. Every quantity in this expression has been derived from zone geometry: q is quantized by xi-topology (Eq. 2.3.83), epsilon sub 0 from warp-factor integrals (Eq. 2.3.29), and c from Firmament mechanics (Eq. 1.5.36).
 
 The Larmor formula answers a deep question: why do accelerating charges radiate? Because the retarded-potential solution of the wave equation couples field propagation to source dynamics. An accelerating source creates a kink in the field lines — that kink propagates outward at c as radiation. The mechanism is purely geometric: the wave equation on the Firmament membrane forces field disturbances to propagate, and acceleration creates those disturbances.
 

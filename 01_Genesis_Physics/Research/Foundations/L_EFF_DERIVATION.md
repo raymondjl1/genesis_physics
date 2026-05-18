@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:3-5 (Creation of light; divine measure) | Genesis 1:3-5 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action, KK Dimensional Reduction | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **L_eff derived from 6D Einstein-Hilbert action reduction; effective length scale from zone geometry integration** | **L_EFF_DERIVATION.md** |
 > | Modern Equivalent | Kaluza-Klein volume factors, warped geometry coupling | Convergence: produces consistent gravitational coupling constant; uses standard KK reduction formalism |
@@ -36,13 +36,13 @@ was introduced in AXIOM_MEMBRANE_MECHANICS_v2.md to resolve dimensional inconsis
 
 2. **L_eff ≈ 8.96 × 10⁻²⁹ m**: This effective coupling length characterizes the strength of gravity as determined by the 6D→4D reduction. It is about 10⁶ times the Planck length.
 
-3. **Physical interpretation**: The tiny value reflects gravity's extreme weakness compared to membrane tension. It is a consequence of the mismatch between:
+3. **Physical interpretation**: The tiny value reflects gravity's extreme weakness compared to Firmament tension. It is a consequence of the mismatch between:
    - The 4D gravitational coupling G = 6.674 × 10⁻¹¹ m³/(kg·s²)
-   - The membrane stiffness σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
+   - The Firmament membrane stiffness σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 
 4. **G and σ are independently determined**:
    - **G**: Fixed by observation (Cavendish experiment, modern tests)
-   - **σ**: Derived from c² = σ/μ and membrane mechanics
+   - **σ**: Derived from c² = σ/μ and Firmament membrane mechanics
    - **L_eff**: Predicted as L_eff = √(c⁴/(8πσG)) — a consequence, not a free parameter
 
 5. **Geometric connection**: The zone hierarchy (ξ_A/η_B ~ 10⁴¹) and warp-suppression factors combine to yield the sub-Planckian scale:
@@ -169,7 +169,7 @@ This is the **effective coupling length** that emerges from integrating the warp
 **Given constants:**
 - c = 2.998 × 10⁸ m/s
 - G = 6.674 × 10⁻¹¹ m³/(kg·s²) [Newton's constant, observational]
-- σ = 6.0 × 10⁹⁸ kg/(m·s²) [membrane tension, from AXIOM_MEMBRANE_MECHANICS_v2]
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) [Firmament tension, from AXIOM_MEMBRANE_MECHANICS_v2]
 
 **Step 1: Compute c⁴**
 
@@ -253,7 +253,7 @@ $$\frac{c^4}{\sigma L_{\text{eff}}^2} = G$$
 
 **What does this mean physically?**
 
-Recall that in membrane mechanics, the 4D gravitational coupling arises from the curvature induced by mass on an elastic medium. The equation of motion for a small perturbation of the metric is:
+Recall that in Firmament mechanics, the 4D gravitational coupling arises from the curvature induced by mass on an elastic medium. The equation of motion for a small perturbation of the metric is:
 
 $$\Box \delta h_{\mu\nu} \sim \frac{1}{\sigma} \, T_{\mu\nu}$$
 
@@ -307,13 +307,13 @@ And:
 
 $$L_{\text{eff}} = \sqrt{\frac{c^4}{8\pi\sigma G}} = \sqrt{8.0 \times 10^{-57}} = \sqrt{80.0 \times 10^{-58}} = 8.96 \times 10^{-29} \text{ m}$$
 
-**Physical interpretation**: The scale L_eff represents the effective "coupling length" of gravity to the membrane:
+**Physical interpretation**: The scale L_eff represents the effective "coupling length" of gravity to the Firmament:
 
-$$L_{\text{eff}} \sim \sqrt{\frac{\text{membrane wave speed squared}}{\text{gravitational coupling strength}}} = \sqrt{\frac{c^4}{\sigma G}}$$
+$$L_{\text{eff}} \sim \sqrt{\frac{\text{Firmament membrane wave speed squared}}{\text{gravitational coupling strength}}} = \sqrt{\frac{c^4}{\sigma G}}$$
 
 A smaller L_eff means weaker gravitational coupling (larger G would require larger L_eff). In Genesis Physics:
 
-- **σ is enormous** (~10⁹⁸ kg/(m·s²)), making the membrane extremely stiff
+- **σ is enormous** (~10⁹⁸ kg/(m·s²)), making the Firmament membrane extremely stiff
 - **L_eff is tiny** (~9 × 10⁻²⁹ m), effectively suppressing gravity
 - **The combination** G = c⁴/(8πσL_eff²) gives gravity its observed weakness
 
@@ -432,11 +432,11 @@ $$G = \frac{c^4}{8\pi \sigma L_{\text{eff}}}$$
 
 **Equation 1: Wave Speed Constraint**
 
-The fundamental membrane equation (Axiom 3):
+The fundamental Firmament equation (Axiom 3):
 
 $$c^2 = \frac{\sigma}{\mu}$$
 
-This is **exact**, derived from classical membrane mechanics: wave speed equals √(tension/density). It determines the relationship between σ and μ.
+This is **exact**, derived from classical Firmament membrane mechanics: wave speed equals √(tension/density). It determines the relationship between σ and μ.
 
 **Equation 2: Gravitational Coupling**
 
@@ -446,9 +446,9 @@ $$G = 6.674 \times 10^{-11} \text{ m}^3 \text{ kg}^{-1} \text{ s}^{-2}$$
 
 This is fixed by Cavendish-type experiments, modern torsion balance tests, satellite data, etc.
 
-**Equation 3: Membrane Tension from 6D Theory**
+**Equation 3: Firmament Tension from 6D Theory**
 
-The brane tension σ emerges from the 6D Einstein equations with boundary conditions at the zone interfaces. From domain wall theory (MEMBRANE_MASS_SCALE.md):
+The Firmament tension σ emerges from the 6D Einstein equations with boundary conditions at the zone interfaces. From domain wall theory (MEMBRANE_MASS_SCALE.md):
 
 $$\sigma = \int_{\text{transverse}} \left[\frac{1}{2}(\nabla \Phi)^2 + V(\Phi)\right] d^2\xi$$
 
@@ -470,7 +470,7 @@ Once σ and G are known, L_eff is determined.
 
 | Parameter | Source | Status |
 |-----------|--------|--------|
-| c | Observable; membrane wave speed | **Input** |
+| c | Observable; Firmament membrane wave speed | **Input** |
 | G | Observable; Cavendish experiment, etc. | **Input** |
 | σ | 6D Einstein equations + zone geometry | **Derived** |
 | μ | From c² = σ/μ | **Derived** |
@@ -480,7 +480,7 @@ Once σ and G are known, L_eff is determined.
 
 1. Specify 6D spacetime and zone geometry (ξ_A, η_B, warp factors)
 2. Solve 6D Einstein equations for bulk scalar field Φ(ξ,η)
-3. Calculate brane tension σ from domain wall integral
+3. Calculate Firmament tension σ from domain wall integral
 4. Use c² = σ/μ to get membrane density μ
 5. Observe G experimentally
 6. **Predict** L_eff = √(c⁴/(8πσG))
@@ -497,7 +497,7 @@ The system is **neither underdetermined nor overdetermined**; it is exactly dete
 | **Quantity** | **Symbol** | **Formula** | **Dimensions** | **Numerical Value** | **Units** |
 |---|---|---|---|---|---|
 | Speed of light | c | Observable | [LT⁻¹] | 2.998 × 10⁸ | m/s |
-| Membrane tension | σ | 6D Einstein equations | [ML⁻¹T⁻²] | 6.0 × 10⁹⁸ | kg/(m·s²) |
+| Firmament tension | σ | 6D Einstein equations | [ML⁻¹T⁻²] | 6.0 × 10⁹⁸ | kg/(m·s²) |
 | Membrane density | μ | σ/c² | [ML⁻³] | 6.7 × 10⁸¹ | kg/m³ |
 | **Gravitational constant** | **G** | **Observable** | **[L³M⁻¹T⁻²]** | **6.674 × 10⁻¹¹** | **m³/(kg·s²)** |
 | Wave speed squared | c² = σ/μ | Ratio | [L²T⁻²] | 8.988 × 10¹⁶ | m²/s² |
@@ -626,11 +626,11 @@ This is sub-Planckian: $L_{\text{eff}} / \ell_P \approx 10^6$.
 **Physical meaning:**
 - Not a physical geometric length
 - An effective coupling parameter
-- Emerges from membrane dynamics + 6D geometry
+- Emerges from Firmament membrane dynamics + 6D geometry
 - Explains gravity's weakness: σ is large, L_eff is small
 
 **Independence of parameters:**
-- **c**: Observable (membrane wave speed)
+- **c**: Observable (Firmament membrane wave speed)
 - **G**: Observable (Cavendish constant)
 - **σ**: Derived from 6D equations + zone geometry
 - **L_eff**: Predicted as c⁴/(8πσG)
@@ -662,7 +662,7 @@ The following require explicit solution of 6D field equations:
 
 3. **Connection to Planck scale**: Why is L_eff ≈ 10⁶ × ℓ_P? Is this a logarithmic enhancement from zone geometry, or a deeper property of the 6D theory?
 
-4. **Domain wall thickness**: In the exact solution, what is the transverse extent of the Firmament brane?
+4. **Domain wall thickness**: In the exact solution, what is the transverse extent of the Firmament?
 
 5. **Stability**: Is the Firmament stable against perturbations? What are the quadratic fluctuation spectrum?
 
@@ -672,7 +672,7 @@ The following require explicit solution of 6D field equations:
 
 ## CROSS-REFERENCES
 
-- **AXIOM_MEMBRANE_MECHANICS_v2.md** — Derivation of G = c⁴/(8πσL_eff²) from membrane bending energy
+- **AXIOM_MEMBRANE_MECHANICS_v2.md** — Derivation of G = c⁴/(8πσL_eff²) from Firmament membrane bending energy
 - **KK_DIMENSIONAL_REDUCTION.md** — 6D → 4D reduction formalism and gauge coupling derivation
 - **ACTION_6D_COMPLETE.md** — Complete 6D action functional with all sectors
 - **MEMBRANE_MASS_SCALE.md** — Derivation of σ from domain wall theory

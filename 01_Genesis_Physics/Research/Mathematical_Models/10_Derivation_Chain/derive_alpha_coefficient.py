@@ -18,7 +18,7 @@ the 6D gauge field action after integration over the extra dimensions.
 
 The 4D coupling constant α is determined by the GREEN'S FUNCTION of the
 2D Laplacian on the extra-dimensional space (ξ,η), evaluated at the
-Firmament brane location.
+Firmament location.
 
 For a WARPED 2D space, the Green's function:
     Δ_w G(y,y') = -δ²(y-y') / √g₂
@@ -28,8 +28,8 @@ has a mode expansion:
 
 where ψ_n and λ_n are eigenfunctions/eigenvalues of the warped Laplacian.
 
-The REGULARIZED self-energy at the brane location gives:
-    α⁻¹ = (4π/g₆²) × G_reg(y_brane, y_brane)
+The REGULARIZED self-energy at the Firmament location gives:
+    α⁻¹ = (4π/g₆²) × G_reg(y_Firm, y_Firm)
 
 In 2 dimensions, G_reg has a LOGARITHMIC dependence on the size ratio:
     G_reg ~ C × ln(L_max/L_min) = C × ln(ξ_A/η_B)
@@ -40,7 +40,7 @@ conditions at the zone interfaces.
 APPROACH:
 1. Set up the eigenvalue problem for the warped 2D Laplacian
 2. Compute eigenfunctions and eigenvalues numerically
-3. Evaluate the Green's function at the brane location
+3. Evaluate the Green's function at the Firmament location
 4. Extract the coefficient of ln(ξ_A/η_B)
 
 =============================================================================
@@ -94,7 +94,7 @@ def green_function_coefficient():
     THE GAUGE COUPLING CALCULATION:
 
     The fine structure constant at the Firmament is:
-        α⁻¹ = (4π/g₆²_normalized) × G_reg(y_brane, y_brane)
+        α⁻¹ = (4π/g₆²_normalized) × G_reg(y_Firm, y_Firm)
 
     The 6D gauge coupling g₆ is related to the fundamental scale.
     The NORMALIZED coupling absorbs the overall volume factor.
@@ -151,7 +151,7 @@ def compute_eigenvalue_sum(N_modes=500):
         ψ_{mn}(u,v) = cos(mπu) cos(nπv)
         λ_{mn} = (mπ)² + (nπ)²
 
-    The Green's function at the brane (u₀, v₀):
+    The Green's function at the Firmament (u₀, v₀):
         G(u₀,v₀) = Σ'_{m,n≥0} |ψ_{mn}(u₀,v₀)|² / λ_{mn}
 
     where Σ' excludes the zero mode (m=n=0).
@@ -170,7 +170,7 @@ def compute_eigenvalue_sum(N_modes=500):
     # Method 1: Direct eigenvalue sum on unit square
     # ================================================================
 
-    # The brane sits at u₀ = ln(ξ₀/η_B)/ln(ξ_A/η_B)
+    # The Firmament sits at u₀ = ln(ξ₀/η_B)/ln(ξ_A/η_B)
     # For ξ₀ ~ geometric mean of ξ_A and η_B:
     #   ln(ξ₀/η_B) = ln(ξ_A/η_B)/2 → u₀ = 0.5
 
@@ -399,16 +399,16 @@ def compute_eigenvalue_sum(N_modes=500):
     # THE 9× ENHANCEMENT:
     # The factor of ~9 from flat geometry (1/2π → 1.44) comes from
     # the WARP FACTOR acting as a LENS that concentrates the
-    # gauge field at the brane location.
+    # gauge field at the Firmament location.
 
     # In the warped geometry, the effective Green's function at the
-    # brane is enhanced by the square of the warp factor ratio:
-    # C_warped = C_flat × (e^{A_max}/e^{A_brane})²
+    # Firmament is enhanced by the square of the warp factor ratio:
+    # C_warped = C_flat × (e^{A_max}/e^{A_Firm})²
 
     # For the GP warp: A(ξ) = A₀ - (1/2)ln(ξ/ξ₀)
     # At ξ = η_B (UV): e^{A(η_B)} = e^{A₀} × (η_B/ξ₀)^{-1/2}
     # At ξ = ξ_A (IR): e^{A(ξ_A)} = e^{A₀} × (ξ_A/ξ₀)^{-1/2}
-    # At brane (ξ₀): e^{A(ξ₀)} = e^{A₀}
+    # At Firmament (ξ₀): e^{A(ξ₀)} = e^{A₀}
     # Enhancement: (e^{A(η_B)}/e^{A(ξ₀)})² = (ξ₀/η_B)
 
     # For ξ₀ = √(ξ_A η_B) (geometric mean):
@@ -458,7 +458,7 @@ def compute_eigenvalue_sum(N_modes=500):
     b1 = 41.0/10.0   # U(1)_Y (with GUT normalization 3/5)
     b2 = -19.0/6.0    # SU(2)_L
 
-    # At unification (GP brane scale):
+    # At unification (GP Firmament scale):
     # α₁(M_Z)⁻¹ ≈ 59.0, α₂(M_Z)⁻¹ ≈ 29.6
     # sin²θ_W(M_Z) ≈ 0.2312
 
@@ -511,7 +511,7 @@ def compute_eigenvalue_sum(N_modes=500):
     # 3. Warp-induced: the warp factor modifies the eigenvalue spectrum
     #
     # The COMBINED effect:
-    # C = (1/2π) × Σ_modes |ψ_n(y_brane)|² × (warp weight)_n / (eigenvalue)_n
+    # C = (1/2π) × Σ_modes |ψ_n(y_Firm)|² × (warp weight)_n / (eigenvalue)_n
 
     # In the GP framework, this sum can be computed from the
     # SPECTRAL ZETA FUNCTION of the warped Laplacian.
@@ -574,7 +574,7 @@ def compute_eigenvalue_sum(N_modes=500):
     # Wait, this doesn't seem right either. Let me compute numerically.
 
     # NUMERICAL APPROACH:
-    # Compute the sum C = Σ' 1/λ_n × ψ_n(brane)² on the warped space
+    # Compute the sum C = Σ' 1/λ_n × ψ_n(Firmament)² on the warped space
 
     # For the warped metric on [0,1]×[0,1] with weight w(u,v):
     # The weighted eigenvalue problem:
@@ -617,26 +617,26 @@ def compute_eigenvalue_sum(N_modes=500):
     alpha_w = L  # ≈ 95.24
     # For large α: f₀²(0.5) ≈ α e^{α/2} / e^α = α e^{-α/2} ≈ 0
 
-    # Hmm, this vanishes for large α. The brane at u₀=0.5 is suppressed
+    # Hmm, this vanishes for large α. The Firmament at u₀=0.5 is suppressed
     # relative to the peak at u=1.
 
-    # Let me reconsider the brane position. In the GP framework:
+    # Let me reconsider the Firmament position. In the GP framework:
     # The Firmament is at ξ₀ where physics is 4D-like.
     # This should be near ξ ~ η_B (the UV end), i.e., u₀ → 0.
 
     # For u₀ → 0: f₀(0) = √(α/(e^α-1)) ≈ √α × e^{-α/2}
     # Still suppressed!
 
-    # RESOLUTION: The brane sits at the PEAK of the warp factor,
+    # RESOLUTION: The Firmament sits at the PEAK of the warp factor,
     # which for A = A₀ - (1/2)ln(ξ/ξ₀) with ξ₀ ~ η_B:
     # → The warp factor peaks at ξ = η_B, i.e., u₀ = 0
 
-    # With u₀ = 0 (brane at UV end):
+    # With u₀ = 0 (Firmament at UV end):
     # f₀(0) = √(α/(e^α-1)) ≈ √α for large α
 
     # The η-direction Green's function:
     # G_η(v₀) = Σ_{n>0} cos²(nπv₀) / (nπ)²
-    # For v₀ = 0 (Neumann BC, brane at edge):
+    # For v₀ = 0 (Neumann BC, Firmament at edge):
     # G_η(0) = Σ_{n>0} 1/(nπ)² = 1/6 (using ζ(2) = π²/6)
 
     G_eta = 1.0/6.0  # = π²/(6π²) = 1/6
@@ -651,11 +651,11 @@ def compute_eigenvalue_sum(N_modes=500):
     f0_sq_0 = alpha_w / (math.exp(alpha_w) - 1)  # Practically 0
 
     # This is essentially zero. The problem is that with strong warping,
-    # the zero mode is localized at the OPPOSITE end from the brane.
+    # the zero mode is localized at the OPPOSITE end from the Firmament.
 
     # RESOLUTION: We need the FULL mode sum, not just the zero mode.
 
-    # For the full sum with the brane at u₀:
+    # For the full sum with the Firmament at u₀:
     # C = (1/L) × Σ_{m,n} |f_m(u₀)|² |g_n(v₀)|² / (λ_m + λ_n)
 
     # For the UNweighted Neumann problem on [0,1]:
@@ -731,7 +731,7 @@ def compute_eigenvalue_sum(N_modes=500):
     # but the logarithm ln(ξ_A/η_B) = L is already extracted as the base.
 
     # CORRECT FORMULATION:
-    # In the PHYSICAL coordinates, the Green's function at the brane is:
+    # In the PHYSICAL coordinates, the Green's function at the Firmament is:
     # G_phys(ξ₀,η₀) ∝ C × ln(ξ_A/η_B) + O(1)
     # where C is our desired coefficient.
 
@@ -792,7 +792,7 @@ def compute_eigenvalue_sum(N_modes=500):
     #
     # where w_i is the warp-localization weight (0 ≤ w_i ≤ 1).
     #
-    # For brane-localized fields (SM fermions and gauge bosons): w_i = 1
+    # For Firmament-localized fields (SM fermions and gauge bosons): w_i = 1
     # For bulk fields (graviton, moduli): w_i < 1
     #
     # Total:
@@ -801,7 +801,7 @@ def compute_eigenvalue_sum(N_modes=500):
     # The coefficient:
     #   C = Σ_i b_i × w_i / (2π)
     #
-    # For the SM (all brane-localized, w_i = 1):
+    # For the SM (all Firmament-localized, w_i = 1):
     # We need the TOTAL one-loop contribution to the EM coupling.
 
     # In the Standard Model, the electromagnetic coupling at one-loop:

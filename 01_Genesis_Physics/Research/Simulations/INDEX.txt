@@ -25,12 +25,12 @@ CORE MODULES (1,491 lines of code)
    Run: python3 waters_field_sim.py
 
 2. membrane_vibrations.py (429 lines)
-   Purpose: Compute particle mass spectrum from membrane vibrations
+   Purpose: Compute particle mass spectrum from Firmament membrane vibrations
    Classes:
      - MembraneModeAnalyzer: Eigenmode calculator
    Features:
      - 1D string spectrum (analytical + numerical)
-     - Circular membrane modes (2D vibrations)
+     - Circular Firmament membrane modes (2D vibrations)
      - Comparison with electron, muon, Higgs masses
      - Spectral analysis tools
    Run: python3 membrane_vibrations.py
@@ -93,7 +93,7 @@ From waters_field_sim.py:
 
 From membrane_vibrations.py:
   - spectrum_1d_string.png         (1D mode spectrum)
-  - spectrum_circular.png          (circular membrane modes)
+  - spectrum_circular.png          (circular Firmament membrane modes)
   - spectrum_vs_particles.png      (predicted vs observed masses)
   - spectrum_comparison.png        (analytical vs numerical)
 
@@ -132,7 +132,7 @@ Test Results:
   ✓ 1D Equilibrium Solver - PASSING
   ✓ 2D Field Setup - PASSING
   ✓ 1D String Spectrum - PASSING
-  ✓ Circular Membrane Modes - PASSING
+  ✓ Circular Firmament Modes - PASSING
   ✓ ΛCDM Cosmology - PASSING
   ✓ Genesis Physics Cosmology - PASSING
 
@@ -148,7 +148,7 @@ KEY FINDINGS
    - Nonlinear solver converges in 1-4 iterations
    
 2. Particle Mass Spectrum
-   - Membrane vibrations produce discrete mass spectrum
+   - Firmament membrane vibrations produce discrete mass spectrum
    - Natural emergence without ad-hoc mechanisms
    - Numerical eigensolve matches analytical solutions
 

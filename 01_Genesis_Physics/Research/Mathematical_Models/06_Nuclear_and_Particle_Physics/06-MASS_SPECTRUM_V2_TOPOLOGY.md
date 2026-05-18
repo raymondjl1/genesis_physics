@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Particles are topological defects in membrane structure | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | Topological Defect Classification | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Topological structure of particle masses from membrane defects** | **MASS_SPECTRUM_v2_TOPOLOGY.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -104,7 +104,7 @@ $$M_0^B = \{0\} \quad \text{(unique point, no SSB)}$$
 
 **Membrane vacuum:**
 
-The membrane has no potential—its energy is purely kinetic. The "vacuum" is any static configuration:
+The Firmament has no potential—its energy is purely kinetic. The "vacuum" is any static configuration:
 $$\eta_0 = \text{const}, \quad \xi_0 = \text{const}$$
 
 **Full vacuum manifold:**
@@ -415,7 +415,7 @@ The Firmament is described by two scalar fields:
 **Kinetic energy:**
 $$H_{\text{membrane}} = \frac{\sigma}{2} \int d^3x [(\partial_i \eta)^2 + (\partial_i \xi)^2]$$
 
-where σ is the membrane tension.
+where σ is the Firmament tension.
 
 **Static localized deformation (bump in η-direction):**
 
@@ -445,7 +445,7 @@ $$M_{\text{bump}} \sim \sigma \eta_B^2 m_A \quad \text{(in natural units)}$$
 **Ansatz:** Circular motion in the ξ-η plane:
 $$\xi(r, \theta) = R_v \sin(θ) \cos(n\phi), \quad \eta(r, \theta) = R_v \sin(θ) \sin(n\phi)$$
 
-where φ is the azimuthal angle around the membrane axis, and n is the winding number.
+where φ is the azimuthal angle around the Firmament axis, and n is the winding number.
 
 **Topological charge:** The winding number around the (ξ, η) circle is:
 
@@ -473,7 +473,7 @@ $$Q_{\text{EM}} = n \cdot e \quad \text{(topological charge quantization)}$$
 
 ### 2.8 MEMBRANE KINK IN η-DIRECTION (Type 9)
 
-**Setup:** The membrane itself can support domain-wall-like excitations.
+**Setup:** The Firmament itself can support domain-wall-like excitations.
 
 **Configuration:**
 $$\eta(z) = -\eta_0 \tanh(z/\delta), \quad \xi = \text{const}$$
@@ -502,13 +502,13 @@ $$V_{\text{eff}}(\eta) = V(\eta) + \text{cost for large } |\eta|$$
 Then the domain wall width δ is determined by the balance.
 
 **Characteristic mass:**
-$$\boxed{M_{\text{m-kink}} \sim \sigma \eta_B \quad \text{(membrane tension × Waters scale)}}$$
+$$\boxed{M_{\text{m-kink}} \sim \sigma \eta_B \quad \text{(Firmament tension × Waters scale)}}$$
 
 ---
 
 ### 2.9 MEMBRANE-WATERS COUPLED SOLITON (Type 10)
 
-**Setup:** The most general soliton couples the membrane deformations (η, ξ) to the Waters fields (Φ_A, Φ_B).
+**Setup:** The most general soliton couples the Firmament deformations (η, ξ) to the Waters fields (Φ_A, Φ_B).
 
 **Ansatz:** Static, rotationally symmetric solution:
 $$\eta(r), \xi(r), \Phi_A(r), \Phi_B(r) \quad \text{(all depend on distance from center)}$$
@@ -557,7 +557,7 @@ A Z-string arises when:
 
 **In Genesis Physics context:**
 
-If we consider the full quantum theory (not just classical fields), the membrane-Waters system may admit zero-energy modes localized on topological defects.
+If we consider the full quantum theory (not just classical fields), the Firmament-Waters system may admit zero-energy modes localized on topological defects.
 
 **Bound state mode:**
 
@@ -792,7 +792,7 @@ A topological defect (soliton) can carry intrinsic angular momentum if:
 
 **Honest statement:**
 
-The Genesis Physics framework, as formulated with **only scalar fields (Φ_A, Φ_B) and the membrane (η, ξ)**, does NOT naturally produce fermions.
+The Genesis Physics framework, as formulated with **only scalar fields (Φ_A, Φ_B) and the Firmament (η, ξ)**, does NOT naturally produce fermions.
 
 **Fermions (spin-1/2 particles) require:**
 - Spinor representations of the symmetry group

@@ -88,7 +88,7 @@ The ordering is rational:
 - Colossians 1:16-17: "All things were created... and in him all things hold together"
 
 **Physical Manifestation**:
-- Closed system: Zone 2.2 (Earth Prime + Firmament domain) conserves E, p, L, Q, B, L_lepton
+- Closed system: Zone 2.2 (Earth Prime + Firmament Domain) conserves E, p, L, Q, B, L_lepton
 - Post-Day-7 closure: No external energy input except sustaining field κ
 - Conservation laws: Derived from symmetries via Noether's theorem
 

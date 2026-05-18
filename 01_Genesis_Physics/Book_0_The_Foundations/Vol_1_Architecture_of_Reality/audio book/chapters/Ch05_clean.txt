@@ -1,4 +1,4 @@
-﻿Introduction — The Stage Becomes a Player.
+Introduction — The Stage Becomes a Player.
 
 [Figure — see print edition.]
 
@@ -10,20 +10,20 @@ The Firmament is not a boundary. It is a membrane. The Hebrew word rāqîa' (ר�
 
 What the mathematics does establish is that the 4D hypersurface Z sub 2.2 has the properties of a physical membrane: mass density, tension, elastic response, and the ability to vibrate.
 
-Here is the central insight of this chapter: the Firmament is a dynamical hypersurface. It has its own geometry (the induced metric), its own curvature (both intrinsic and extrinsic), its own stress-energy (membrane tension sigma and mass density mu), and its own dynamics (vibration modes, wave propagation, stability). Every piece of observed physics — every particle, every force, every wave — is an excitation of this membrane or a consequence of its geometry.
+Here is the central insight of this chapter: the Firmament is a dynamical hypersurface. It has its own geometry (the induced metric), its own curvature (both intrinsic and extrinsic), its own stress-energy (Firmament tension sigma and mass density mu), and its own dynamics (vibration modes, wave propagation, stability). Every piece of observed physics — every particle, every force, every wave — is an excitation of this membrane or a consequence of its geometry.
 
 And the most profound result of all: the speed of light c is the wave speed on this membrane.
 
 [Equation — see print edition.]
 
-This is not a postulate. We will derive it from the membrane wave equation, just as one derives the wave speed on a drumhead from its tension and mass per unit area. Lorentz invariance — the cornerstone of special relativity — is a consequence of membrane mechanics. The invariance of c follows from the uniformity of sigma and mu across the Firmament.
+This is not a postulate. We will derive it from the Firmament membrane wave equation, just as one derives the wave speed on a drumhead from its tension and mass per unit area. Lorentz invariance — the cornerstone of special relativity — is a consequence of Firmament membrane mechanics. The invariance of c follows from the uniformity of sigma and mu across the Firmament.
 
 What this chapter covers:
 
 - §5.1 constructs the Firmament as a codimension-2 submanifold: embedding map, induced metric, intrinsic geometry.
-- §5.2 derives the extrinsic curvature — how the Firmament bends into the extra dimensions — and the Gauss-Codazzi-Ricci relations connecting bulk and brane curvature.
+- §5.2 derives the extrinsic curvature — how the Firmament bends into the extra dimensions — and the Gauss-Codazzi-Ricci relations connecting bulk and Firmament curvature.
 - §5.3 derives the Firmament's stress-energy from the Nambu-Goto action and establishes c to the 2 = sigma / mu.
-- §5.4 derives the Israel-Darmois junction conditions from the 6D Einstein equations, relating the metric jump across the Firmament to the membrane's stress-energy.
+- §5.4 derives the Israel-Darmois junction conditions from the 6D Einstein equations, relating the metric jump across the Firmament to the Firmament membrane's stress-energy.
 - §5.5 derives the vibration spectrum: linearized perturbations, wave equation, mode classification, boundary conditions.
 - §5.6 proves stability: dispersion relation, energy conditions, and the physical constraints that keep the Firmament from collapsing.
 
@@ -45,7 +45,7 @@ Definition 5.1.1 (Firmament Embedding). The Firmament Sigma is defined by the em
 
 [Equation — see print edition.]
 
-where the expression are coordinates on the 4D Firmament and X to the A denotes coordinates in the full 6D manifold M sub Z (with A = 0, 1, 2, 3, 4, 5 corresponding to t, x, y, z, xi , eta).
+where the expression are coordinates on the 4D Firmament and X to the A denotes coordinates in the full 6D manifold M sub Z (with A = 0, 1, 2, 3, 5, 6 corresponding to t, x, y, z, xi , eta — the canonical index convention per AppB §B.3; index 4 is reserved and unused to distinguish the extra-dimensional indices from the four observable ones).
 
 The embedding is smooth (Definition 2.1.4, Chapter 2). The tangent vectors to the Firmament are:
 
@@ -68,6 +68,8 @@ Notation. Throughout this chapter, we abbreviate the warp factors evaluated at t
 [Equation — see print edition.]
 
 These are constants (not fields) that set the overall scale of the induced geometry.
+
+RT-1.WF — Partial Resolution (2026-05-15): The warp factors A( xi , eta ) and B( xi , eta ) have been derived to leading order from the 6D Einstein equations in Research/Foundations/WARPFUNCTIONDERIVATIONRT1WF.md. The Firmament-slice values are now established: A sub 0 A( xi sub 0, eta sub 0) = 0 (normalization, exact), the expression (derived, §2.1 Eq.\ 2.4), the expression (derived, §2.2 Eq.\ 2.9), B sub 0 B( xi sub 0, eta sub 0) (calibrated via G sub 4, §4.1). Results in this chapter involving A sub 0, B sub 0, and the normal derivatives are now parametric with known analytical forms rather than purely assumed. Remaining provisional: (1) the exact value of B sub 0 requires calibrating G sub 6; (2) the two junction conditions require sigma  xi not equal to sigma _ eta unless a modified bulk profile applies (Open Problem OP-2.21 in RT-1.WF); (3) bulk-interior values of A and B away from both Firmament slices carry corrections of order kappa sub B xi (§3.3). Quantitative predictions for mode masses using m sub KK approximately h-bar c/ eta sub B are supported at order-of-magnitude level.
 
 Definition 5.1.2 (Unit Normal Vectors). The two unit normal vectors to the Firmament are:
 
@@ -93,7 +95,7 @@ The two normal vectors physically represent the directions one must travel to le
 
 The Induced Metric.
 
-The induced metric on Sigma is the restriction of the 6D metric to directions tangent to the Firmament. It tells us how distances and time intervals are measured by observers who live on the membrane — which is to say, by us.
+The induced metric on Sigma is the restriction of the 6D metric to directions tangent to the Firmament. It tells us how distances and time intervals are measured by observers who live on the Firmament membrane — which is to say, by us.
 
 Definition 5.1.3 (Induced Metric). The induced metric gamma sub mu nu on the Firmament is the pullback of the 6D metric g sub AB via the embedding map:
 
@@ -115,7 +117,7 @@ Physical interpretation: The factor e to the 2A sub 0 is a universal rescaling. 
 
 [Equation — see print edition.]
 
-This is the metric that cosmologists use — the Friedmann-Robertson-Walker metric with flat spatial sections (k = 0). Since brane-confined observers only ever measure the rescaled quantities, we henceforth drop the "phys" subscript and write c and a(t) for the physical (observed) values. The warp factor A sub 0 has been absorbed and is unobservable to brane-confined observers.
+This is the metric that cosmologists use — the Friedmann-Robertson-Walker metric with flat spatial sections (k = 0). Since Firmament-confined observers only ever measure the rescaled quantities, we henceforth drop the "phys" subscript and write c and a(t) for the physical (observed) values. The warp factor A sub 0 has been absorbed and is unobservable to Firmament-confined observers.
 
 Key result: Observers confined to the Firmament see a 4D FRW universe. The extra dimensions are invisible to them, except through their indirect effects on the values of fundamental constants (which depend on A sub 0, B sub 0, and the extra-dimensional geometry).
 
@@ -159,7 +161,7 @@ Imagine a sheet of paper lying flat on a table. The paper has zero intrinsic cur
 
 The Firmament does both. It has intrinsic curvature (the FRW cosmology) AND extrinsic curvature (bending through the xi and eta directions). The extrinsic curvature is what makes the Firmament a membrane rather than just a coordinate surface.
 
-Why does this matter? Because extrinsic curvature is what couples the Firmament to the bulk. It is through extrinsic curvature that the Waters Above and Below exert pressure on the membrane. It is through extrinsic curvature that gravity propagates into the extra dimensions. And it is through the junction conditions (§5.4) that the membrane's own stress-energy — its tension sigma — is related to the jump in extrinsic curvature across the brane.
+Why does this matter? Because extrinsic curvature is what couples the Firmament to the bulk. It is through extrinsic curvature that the Waters Above and Below exert pressure on the Firmament membrane. It is through extrinsic curvature that gravity propagates into the extra dimensions. And it is through the junction conditions (§5.4) that the Firmament membrane's own stress-energy — its tension sigma — is related to the jump in extrinsic curvature across the Firmament.
 
 [Figure — see print edition.]
 
@@ -243,21 +245,21 @@ Simplification for the umbilic case: Since K to the (i) sub mu nu proportional t
 
 where k sub i = e to the -B sub 0 partial sub i A | sub 0 is the mean curvature in direction i. This is the curvature of a maximally symmetric submanifold — further evidence that the Firmament's embedding is highly symmetric.
 
-Membrane Tension and the Speed of Light.
+Firmament Tension and the Speed of Light.
 
 Why Tension?.
 
-Every membrane is characterized by its tension — the energy cost of maintaining the membrane against the forces that would collapse it. A soap bubble has surface tension. A drumhead has tension. The Firmament has 3-brane tension sigma.
+Every membrane is characterized by its tension — the energy cost of maintaining the Firmament membrane against the forces that would collapse it. A soap bubble has surface tension. A drumhead has tension. The Firmament has 3-brane tension sigma.
 
-Why does the Firmament have tension? Consider what it does. It separates the Waters Above (Z sub 2.2.3, dark energy, Psi sub A) from the Waters Below (Z sub 2.2.1, dark matter, Psi sub B). These two fields exert pressure on the membrane from opposite sides: the Waters Above push outward (repulsive, equation of state w approximately equal to -1), and the Waters Below pull inward (attractive, equation of state w approximately equal to 0). The membrane must resist both. The energy per unit 3-volume required to maintain this resistance is sigma.
+Why does the Firmament have tension? Consider what it does. It separates the Waters Above (Z sub 2.2.3, dark energy, Psi sub A) from the Waters Below (Z sub 2.2.1, dark matter, Psi sub B). These two fields exert pressure on the Firmament membrane from opposite sides: the Waters Above push outward (repulsive, equation of state w approximately equal to -1), and the Waters Below pull inward (attractive, equation of state w approximately equal to 0). The Firmament membrane must resist both. The energy per unit 3-volume required to maintain this resistance is sigma.
 
 This is exactly analogous to a capacitor dielectric. The positive and negative plates (Waters Above and Below) want to discharge. The dielectric (Firmament) holds them apart. The energy stored in the separation is the tension.
 
 The Nambu-Goto Action.
 
-The dynamics of a membrane are governed by an action principle, just as particle dynamics are governed by the principle of least action. For a relativistic membrane (a p-brane), the simplest action is the Nambu-Goto action — the generalization of the relativistic particle action to extended objects.
+The dynamics of a membrane are governed by an action principle, just as particle dynamics are governed by the principle of least action. For a relativistic membrane (a p-Firmament), the simplest action is the Nambu-Goto action — the generalization of the relativistic particle action to extended objects.
 
-Convention note. A p-brane is an object with p spatial dimensions; its worldvolume is (p+1)-dimensional. A point particle is a 0-brane (worldline), a string is a 1-brane (worldsheet), and the Firmament is a 3-brane (4D worldvolume). The Nambu-Goto action for a p-brane has dimensions [ML to the 2pT to the -1], which reduces to the familiar [ML to the 2T to the -1] for p = 0 (particle mechanics). The dimensional analysis below confirms this for p = 3.
+Convention note. A p-Firmament is an object with p spatial dimensions; its worldvolume is (p+1)-dimensional. A point particle is a 0-Firmament (worldline), a string is a 1-Firmament (worldsheet), and the Firmament is a 3-brane (4D worldvolume). The Nambu-Goto action for a p-Firmament has dimensions [ML to the 2pT to the -1], which reduces to the familiar [ML to the 2T to the -1] for p = 0 (particle mechanics). The dimensional analysis below confirms this for p = 3.
 
 For the Firmament (a 3-brane):
 
@@ -266,7 +268,7 @@ For the Firmament (a 3-brane):
 where:
 - sigma is the 3-brane tension, with dimensions [ energy/ 3-volume] = [M L to the -1 T to the -2] (see §1.1 and SymbolandConstants.md)
 - gamma = ( gamma sub mu nu ) is the determinant of the induced metric
-- d to the 4x square root of - gamma is the invariant 4-volume element on the brane
+- d to the 4x square root of - gamma is the invariant 4-volume element on the Firmament
 
 The minus sign is conventional: a positive tension resists contraction, just as a positive spring constant resists compression.
 
@@ -284,11 +286,11 @@ Carefully: [d to the 4x] = [T times L to the 3] (since x to the 0 = t has dimens
 
 [Equation — see print edition.]
 
-This is NOT the standard action dimension [ML to the 2T to the -1] — and that is correct, because S sub NG is the action for a 3-brane (3 spatial dimensions), not a point particle. For a p-brane in D spacetime dimensions, the action has dimensions [ML to the 2pT to the -1]. For p = 3: [ML to the 6T to the -1]. The extra factor of [T to the -1] vs. our calculation comes from the integration measure convention — when we write d to the 4x with x to the 0 = ct (dimensionless time), the action has standard dimensions. The key point: the equations of motion derived from this action (specifically the wave speed) are dimensionally verified in §5.3.5.
+This is NOT the standard action dimension [ML to the 2T to the -1] — and that is correct, because S sub NG is the action for a 3-brane (3 spatial dimensions), not a point particle. For a p-Firmament in D spacetime dimensions, the action has dimensions [ML to the 2pT to the -1]. For p = 3: [ML to the 6T to the -1]. The extra factor of [T to the -1] vs. our calculation comes from the integration measure convention — when we write d to the 4x with x to the 0 = ct (dimensionless time), the action has standard dimensions. The key point: the equations of motion derived from this action (specifically the wave speed) are dimensionally verified in §5.3.5.
 
-The Membrane Stress-Energy Tensor.
+The Firmament Stress-Energy Tensor.
 
-Varying the Nambu-Goto action with respect to the induced metric yields the membrane's stress-energy tensor:
+Varying the Nambu-Goto action with respect to the induced metric yields the Firmament membrane's stress-energy tensor:
 
 [Equation — see print edition.]
 
@@ -296,9 +298,9 @@ This is the stress-energy of a perfect fluid at negative pressure (or equivalent
 
 [Equation — see print edition.]
 
-Why negative pressure? The key is that S sub mu nu proportional to gamma sub mu nu — the stress-energy is proportional to the metric itself, not to any preferred velocity. For a perfect fluid, the isotropic pressure p appears multiplied by gamma sub mu nu. With our sign convention (gamma sub 00 < 0, gamma sub ij > 0), a positive coefficient of gamma sub mu nu gives negative spatial stress — meaning the membrane pulls inward (tension) rather than pushing outward (pressure). This is the defining property of tension: a stretched rubber sheet pulls its boundaries inward.
+Why negative pressure? The key is that S sub mu nu proportional to gamma sub mu nu — the stress-energy is proportional to the metric itself, not to any preferred velocity. For a perfect fluid, the isotropic pressure p appears multiplied by gamma sub mu nu. With our sign convention (gamma sub 00 < 0, gamma sub ij > 0), a positive coefficient of gamma sub mu nu gives negative spatial stress — meaning the Firmament membrane pulls inward (tension) rather than pushing outward (pressure). This is the defining property of tension: a stretched rubber sheet pulls its boundaries inward.
 
-The equation of state is w = p/ rho = -1. This is exactly the equation of state of dark energy (a cosmological constant). But here it arises not from vacuum fluctuations but from membrane tension — the physical stretching of the Firmament.
+The equation of state is w = p/ rho = -1. This is exactly the equation of state of dark energy (a cosmological constant). But here it arises not from vacuum fluctuations but from Firmament tension — the physical stretching of the Firmament.
 
 Adding Mass Density: The Massive Membrane.
 
@@ -306,9 +308,9 @@ The Nambu-Goto action describes a membrane with tension but no inertia. Real mem
 
 [Equation — see print edition.]
 
-where the expression is the membrane displacement field — the transverse displacement of the Firmament from its equilibrium position. (We will make this precise in §5.5.)
+where the expression is the Firmament membrane displacement field — the transverse displacement of the Firmament from its equilibrium position. (We will make this precise in §5.5.)
 
-More generally, the membrane's dynamics include a rigidity (bending) term:
+More generally, the Firmament membrane's dynamics include a rigidity (bending) term:
 
 [Equation — see print edition.]
 
@@ -318,13 +320,13 @@ Deriving c² = σ/μ.
 
 Now we derive the central result. Consider small transverse perturbations of the Firmament — oscillations about the equilibrium position ( xi sub 0, eta sub 0). Let the expression be the displacement in the xi-direction (the argument for eta is identical by symmetry).
 
-We work in the small-oscillation limit: | partial sub t Phi | much less than c (non-relativistic oscillation velocity) and | nabla Phi | much less than 1 (small slope). These conditions ensure the linearized Lagrangian below is valid — they are the membrane analog of the small-amplitude assumption for a vibrating string. The full nonlinear analysis (from the Nambu-Goto action) reproduces the same wave speed; the small-oscillation limit merely ensures the equation of motion is linear.
+We work in the small-oscillation limit: | partial sub t Phi | much less than c (non-relativistic oscillation velocity) and | nabla Phi | much less than 1 (small slope). These conditions ensure the linearized Lagrangian below is valid — they are the Firmament membrane analog of the small-amplitude assumption for a vibrating string. The full nonlinear analysis (from the Nambu-Goto action) reproduces the same wave speed; the small-oscillation limit merely ensures the equation of motion is linear.
 
 The kinetic energy density is:
 
 [Equation — see print edition.]
 
-The potential energy density comes from the increase in membrane area (and thus energy) when the membrane is displaced:
+The potential energy density comes from the increase in membrane area (and thus energy) when the Firmament is displaced:
 
 [Equation — see print edition.]
 
@@ -340,7 +342,7 @@ This is a wave equation:
 
 [Equation — see print edition.]
 
-The wave speed on the membrane is:
+The wave speed on the Firmament membrane is:
 
 [Equation — see print edition.]
 
@@ -360,17 +362,17 @@ Agreement: 0.3%. The small discrepancy is consistent with rounding in the report
 
 A note on falsifiability. A skeptical reader will rightly ask: "Didn't you just choose sigma and mu to reproduce c?" The answer is: partially yes, and that is not circular. Here is why.
 
-The membrane framework makes one assumption (c to the 2 = sigma / mu) and uses two parameters (sigma and mu). Fixing c constrains the ratio sigma / mu but leaves the absolute values free. The absolute magnitude of sigma is independently constrained by the gravitational constant via G = c to the 4/(8 pi sigma ell sub eff to the 2) (Eq. (1.5.47)). Once c and G are fixed, sigma and ell sub eff are determined up to one parameter. The theory then makes independent, falsifiable predictions:
+The Firmament framework makes one assumption (c to the 2 = sigma / mu) and uses two parameters (sigma and mu). Fixing c constrains the ratio sigma / mu but leaves the absolute values free. The absolute magnitude of sigma is independently constrained by the gravitational constant via G = c to the 4/(8 pi sigma ell sub eff to the 2) (Eq. (1.5.47)). Once c and G are fixed, sigma and ell sub eff are determined up to one parameter. The theory then makes independent, falsifiable predictions:
 
-1. Gravitational wave speed equals c exactly — tested by GW170817/GRB170817A (|v sub gw - c|/c < 3 times 10 to the -15). A theory with separate gravitational and electromagnetic sectors need not predict this equality; the membrane theory requires it.
+1. Gravitational wave speed equals c exactly — tested by GW170817/GRB170817A (|v sub gw - c|/c < 3 times 10 to the -15). A theory with separate gravitational and electromagnetic sectors need not predict this equality; the Firmament membrane theory requires it.
 
-2. No Lorentz violation at any energy — the membrane predicts exact Lorentz invariance (not approximate). Planck-suppressed violations, predicted by some quantum gravity models, should be absent. Current limit: E sub LIV > 10 to the 19 GeV.
+2. No Lorentz violation at any energy — the Firmament predicts exact Lorentz invariance (not approximate). Planck-suppressed violations, predicted by some quantum gravity models, should be absent. Current limit: E sub LIV > 10 to the 19 GeV.
 
 3. No fifth force from extra dimensions — the extra dimensions are cosmological (not compact), so no short-range Yukawa corrections to gravity. Null results from sub-millimeter gravity tests confirm this.
 
 4. The fine structure constant alpha to the -1 = 1.44 ( xi sub A/ eta sub B) = 137.036 — derived from the same membrane geometry that gives c and G. This is a third observable predicted from the same framework, not fitted independently.
 
-The framework is falsifiable: any of these predictions failing would invalidate the membrane model. The derivation of σ and μ from first principles (the 6D field equations) remains open (Phase 0 work), but the framework is testable in the meantime.
+The framework is falsifiable: any of these predictions failing would invalidate the Firmament membrane model. The derivation of σ and μ from first principles (the 6D field equations) remains open (Phase 0 work), but the framework is testable in the meantime.
 
 Why This Matters: Lorentz Invariance as Membrane Symmetry.
 
@@ -390,7 +392,7 @@ because the Lorentz factor Lambda = (1 - v to the 2/c to the 2) to the -1/2 is p
 
 Expanding and collecting terms, the cross derivatives partial sub t' partial sub x' cancel identically, and the diagonal terms give the expression by the identity Lambda to the 2(1 - v to the 2/c to the 2) = 1. This is the defining property of Lorentz transformations: they are the isometries of the wave operator = c to the -2 partial sub t to the 2 - nabla to the 2. (For a rigorous treatment in the continuum mechanics context, see Landau & Lifshitz, Classical Theory of Fields, §1–§2.) This is a theorem, not an axiom.
 
-Precisely stated: We have shown that if the membrane has uniform tension sigma and uniform mass density mu, then the wave equation on the membrane is Lorentz-invariant with wave speed c = square root of sigma / mu. Standard physics postulates Lorentz invariance and derives consequences. The membrane framework derives Lorentz invariance from a physical condition: spatial uniformity of sigma and mu. The constancy of c is thus a statement about the homogeneity of the Firmament — which, in turn, is maintained by the sustaining field kappa (Axiom 1, §1.2). If sigma or mu varied from place to place, c would vary, and Lorentz invariance would be broken — a prediction that is falsifiable in principle.
+Precisely stated: We have shown that if the Firmament membrane has uniform tension sigma and uniform mass density mu, then the wave equation on the Firmament membrane is Lorentz-invariant with wave speed c = square root of sigma / mu. Standard physics postulates Lorentz invariance and derives consequences. The Firmament framework derives Lorentz invariance from a physical condition: spatial uniformity of sigma and mu. The constancy of c is thus a statement about the homogeneity of the Firmament — which, in turn, is maintained by the sustaining field kappa (Axiom 1, §1.2). If sigma or mu varied from place to place, c would vary, and Lorentz invariance would be broken — a prediction that is falsifiable in principle.
 
 Junction Conditions: Connecting the Two Sides.
 
@@ -398,7 +400,7 @@ The Physical Setup.
 
 The Firmament is a thin shell with stress-energy. On one side lie the Waters Above; on the other, the Waters Below. The fields, and even the geometry, may be different on each side. How do we connect them?
 
-The answer is the Israel-Darmois junction conditions. These are the membrane analog of boundary conditions in electromagnetism (where the normal component of D jumps by the surface charge density sigma sub f). Just as surface charge creates a discontinuity in the electric field, surface stress-energy creates a discontinuity in extrinsic curvature.
+The answer is the Israel-Darmois junction conditions. These are the Firmament membrane analog of boundary conditions in electromagnetism (where the normal component of D jumps by the surface charge density sigma sub f). Just as surface charge creates a discontinuity in the electric field, surface stress-energy creates a discontinuity in extrinsic curvature.
 
 Setup: Two Sides of the Firmament.
 
@@ -420,11 +422,11 @@ But the extrinsic curvature may jump:
 
 The Israel-Darmois Junction Conditions.
 
-The 6D Einstein equations with a brane source (a delta-function stress-energy at xi = xi sub 0) yield:
+The 6D Einstein equations with a Firmament source (a delta-function stress-energy at xi = xi sub 0) yield:
 
 [Equation — see print edition.]
 
-Integrating across the brane (from xi sub 0 - epsilon to xi sub 0 + epsilon and taking epsilon to 0):
+Integrating across the Firmament (from xi sub 0 - epsilon to xi sub 0 + epsilon and taking epsilon to 0):
 
 [Equation — see print edition.]
 
@@ -434,7 +436,7 @@ This is the Israel junction condition for the xi-direction. There is an analogou
 
 Here kappa sub 6 to the 2 = 8 pi G sub 6 is the 6D gravitational coupling.
 
-Substituting the Membrane Stress-Energy.
+Substituting the Firmament Stress-Energy.
 
 For a pure-tension membrane with S sub mu nu = - sigma gamma sub mu nu (Eq. (1.5.28)):
 
@@ -452,15 +454,15 @@ Substituting back:
 
 [Equation — see print edition.]
 
-Result: The jump in extrinsic curvature across the Firmament is proportional to the membrane tension and the induced metric. A higher tension sigma means a larger curvature discontinuity.
+Result: The jump in extrinsic curvature across the Firmament is proportional to the Firmament tension and the induced metric. A higher tension sigma means a larger curvature discontinuity.
 
 Physical Interpretation.
 
-The junction condition (1.5.46) says: the Firmament bends spacetime. The stronger the membrane tension, the more the geometry changes as you cross from one side to the other.
+The junction condition (1.5.46) says: the Firmament bends spacetime. The stronger the Firmament tension, the more the geometry changes as you cross from one side to the other.
 
-This is the membrane analog of how a massive shell in general relativity curves spacetime. The novelty here is that the "mass" is membrane tension sigma, and the "shell" is the Firmament.
+This is the Firmament membrane analog of how a massive shell in general relativity curves spacetime. The novelty here is that the "mass" is Firmament tension sigma, and the "shell" is the Firmament.
 
-From the junction conditions, we can also derive the 4D effective gravitational constant. The 4D Einstein equations on the brane arise by projecting the 6D equations onto the Firmament. The projection procedure introduces the 6D gravitational coupling kappa sub 6 to the 2 = 8 pi G sub 6, where the factor of 8 pi originates from the 6D Einstein equations (just as the familiar 8 pi G in 4D comes from matching Einstein's equations to Newton's law via Poisson's equation; the factor is geometric, arising from the angular integral over the 5-sphere surrounding a point source in 6D). The effective Newton's constant is (per AXIOMMEMBRANEMECHANICS_v2.md, Section 3):
+From the junction conditions, we can also derive the 4D effective gravitational constant. The 4D Einstein equations on the Firmament arise by projecting the 6D equations onto the Firmament. The projection procedure introduces the 6D gravitational coupling kappa sub 6 to the 2 = 8 pi G sub 6, where the factor of 8 pi originates from the 6D Einstein equations (just as the familiar 8 pi G in 4D comes from matching Einstein's equations to Newton's law via Poisson's equation; the factor is geometric, arising from the angular integral over the 5-sphere surrounding a point source in 6D). The effective Newton's constant is (per AXIOMMEMBRANEMECHANICS_v2.md, Section 3):
 
 [Equation — see print edition.]
 
@@ -470,9 +472,15 @@ Dimensional verification:
 
 [Equation — see print edition.]
 
-Key insight: Why gravity is weak. The gravitational constant G sub 4 proportional to 1/ sigma. Since sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) is enormously large, G sub 4 is enormously small. Gravity is weak not because of small extra dimensions or fine-tuned parameters, but because the membrane tension is enormous. It costs an extraordinary amount of energy to bend the Firmament. This is the Genesis Physics solution to the hierarchy problem.
+Key insight: Why gravity is weak. The gravitational constant G sub 4 proportional to 1/ sigma. Since sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) is enormously large, G sub 4 is enormously small. Gravity is weak not because of small extra dimensions or fine-tuned parameters, but because the Firmament tension is enormous. It costs an extraordinary amount of energy to bend the Firmament. This is the Genesis Physics solution to the hierarchy problem.
 
-Vibration Modes: The Membrane Spectrum.
+Derivation Status — Firmament Tension sigma
+The Israel-Darmois junction conditions derived in this section (Eqs. 1.5.42–1.5.46) establish the form of the relation between sigma and the bulk geometry: sigma is sourced by the jump in extrinsic curvature, which in turn derives from the warp factor profile A( xi ) in the Waters Above and Waters Below zones. This is the correct formal structure.
+What these conditions do not directly provide is the absolute numerical value of sigma without additional inputs. Computing sigma from first principles requires (a) solving the 6D Einstein equations in each zone for the warp factor profiles A( xi ), B( eta ), (b) evaluating the warp factor gradient the expression at the Firmament, and (c) inserting into Eq. (1.5.46). These steps require the full 6D field equations with Waters source terms — work deferred to Foundations Volume 6.
+The current value sigma = 6.0 times 10 to the 98 kg/(m·s²) is self-consistent: it satisfies c to the 2 = sigma / mu with mu = sigma /c to the 2 = 6.7 times 10 to the 81 kg/m³ (matching the measured speed of light to 0.3%), and it satisfies G sub 4 = c to the 4/(8 pi sigma ell sub eff to the 2) with ell sub eff approximately equal to 8.96 times 10 to the -29 m (matching the measured gravitational constant). These two constraints together fix both sigma and ell sub eff; the derivation of ell sub eff from the 6D embedding geometry will close the loop in Volume 6.
+Earlier formulas that appeared in this framework — sigma = c to the 5/( h-bar G) and mu = c to the 3/( h-bar G) — were dimensionally incorrect. Those formulas gave units [T to the -2] and [L to the -2] rather than the required [M L to the -1 T to the -2] and [M L to the -3], and produced numerical values inconsistent with the measured c. They were corrected in April 2026 (see Research/Foundations/AXIOM\MEMBRANE\MECHANICS\_v2.md). All equations in the present chapter reflect the corrected formulation.
+
+Vibration Modes: The Firmament Spectrum.
 
 Why Vibration Modes Matter.
 
@@ -499,11 +507,11 @@ The perturbed induced metric, to first order in Phi:
 
 [Equation — see print edition.]
 
-The first two terms come from the shift in warp factor as the brane moves; the last two are the standard "stretching" terms from the displacement gradient.
+The first two terms come from the shift in warp factor as the Firmament moves; the last two are the standard "stretching" terms from the displacement gradient.
 
 The Wave Equation for Transverse Modes.
 
-Substituting into the membrane action (Eq. (1.5.31)) and expanding to second order in the expression (the the expression equation is identical by symmetry):
+Substituting into the Firmament action (Eq. (1.5.31)) and expanding to second order in the expression (the the expression equation is identical by symmetry):
 
 [Equation — see print edition.]
 
@@ -541,7 +549,7 @@ Physical manifestation: gravitational scalar perturbations, breathing modes.
 
 Type II: Vector modes (tangential perturbations of the embedding).
 
-These arise from perturbations of the tangent space of Sigma — rotations of the normal frame as one moves along the brane. They satisfy a different wave equation:
+These arise from perturbations of the tangent space of Sigma — rotations of the normal frame as one moves along the Firmament. They satisfy a different wave equation:
 
 [Equation — see print edition.]
 
@@ -579,7 +587,7 @@ This is the Genesis Physics origin of particle mass: rest mass arises from extra
 
 The Full Dispersion Relation.
 
-The full dispersion relation combines two independent contributions: the along-brane propagation (from §5.5.3, giving c to the 2 k to the 2 + omega sub 0 to the 2) and the extra-dimensional confinement (from §5.5.4, giving quantized momenta p xi , p eta). These combine additively because the wave equation separates: the 6D Laplacian decomposes as the expression (up to warp factor corrections), and the mode decomposition factorizes into 4D propagation times extra-dimensional standing waves. The complete dispersion relation for a membrane excitation with quantum numbers the expression is:
+The full dispersion relation combines two independent contributions: the along-Firmament propagation (from §5.5.3, giving c to the 2 k to the 2 + omega sub 0 to the 2) and the extra-dimensional confinement (from §5.5.4, giving quantized momenta p xi , p eta). These combine additively because the wave equation separates: the 6D Laplacian decomposes as the expression (up to warp factor corrections), and the mode decomposition factorizes into 4D propagation times extra-dimensional standing waves. The complete dispersion relation for a Firmament membrane excitation with quantum numbers the expression is:
 
 [Equation — see print edition.]
 
@@ -611,13 +619,13 @@ From the dispersion relation (Eq. (1.5.54)):
 
 Stability requires omega to the 2 > 0 for all physical wavenumbers k. If omega to the 2 < 0 for any k, that mode grows exponentially (Phi proportional to e to the | omega |t), signaling instability.
 
-Case 1: omega sub 0 to the 2 greater than or equal to 0. Then omega to the 2 > 0 for all k greater than or equal to 0. The membrane is unconditionally stable.
+Case 1: omega sub 0 to the 2 greater than or equal to 0. Then omega to the 2 > 0 for all k greater than or equal to 0. The Firmament is unconditionally stable.
 
 Case 2: omega sub 0 to the 2 < 0. Then there exists a critical wavenumber:
 
 [Equation — see print edition.]
 
-below which omega to the 2 < 0 and the membrane is unstable. Modes with k < k sub c (long-wavelength perturbations) grow exponentially. This is the analog of the Rayleigh-Taylor instability for a membrane between two fluids of different densities.
+below which omega to the 2 < 0 and the Firmament is unstable. Modes with k < k sub c (long-wavelength perturbations) grow exponentially. This is the analog of the Rayleigh-Taylor instability for a membrane between two fluids of different densities.
 
 Evaluating the Effective Mass.
 
@@ -627,7 +635,7 @@ From Eq. (1.5.52):
 
 The sign depends on the warp factor profile A( xi , eta ).
 
-For a confining warp factor (the physically motivated case): A( xi , eta ) decreases as you move away from the Firmament in either extra dimension. This means the expression (the warp factor is concave at the brane). However, the expression always.
+For a confining warp factor (the physically motivated case): A( xi , eta ) decreases as you move away from the Firmament in either extra dimension. This means the expression (the warp factor is concave at the Firmament). However, the expression always.
 
 In the Randall-Sundrum-like geometry where A( xi ) = -| lambda | | xi - xi sub 0| near the brane:
 
@@ -641,7 +649,7 @@ giving the expression. This is negative, suggesting a potential instability at l
 
 Resolution: Stabilization by Waters Pressure.
 
-The analysis above considered the Firmament in isolation. But the Firmament is not isolated — it is sandwiched between the Waters Above and Below. The Waters exert pressure on both sides of the membrane, and this pressure provides the stabilizing force.
+The analysis above considered the Firmament in isolation. But the Firmament is not isolated — it is sandwiched between the Waters Above and Below. The Waters exert pressure on both sides of the Firmament, and this pressure provides the stabilizing force.
 
 We defer the quantitative analysis to Chapter 6 (see specifically §6.4, where the Waters field equations will provide explicit expressions for the pressures P sub A and P sub B exerted on the Firmament, and the coupled membrane-Waters stability will be proven). Here we state the physical argument and the result.
 
@@ -661,8 +669,8 @@ where omega to the 2 sub Waters(k) > 0 for all k (arising from the Waters restor
 
 Proposition 5.6.1 (Membrane Stability Conditions). The Firmament is dynamically stable (all perturbation modes have omega to the 2 > 0) provided:
 
-1. The membrane tension sigma > 0 (the membrane resists contraction)
-2. The membrane mass density mu > 0 (the membrane has inertia)
+1. The Firmament tension sigma > 0 (the Firmament membrane resists contraction)
+2. The Firmament membrane mass density mu > 0 (the Firmament membrane has inertia)
 3. The Waters pressure gradients provide a restoring force that dominates the warp-factor instability at long wavelengths
 
 Conditions 1 and 2 are satisfied by the physical values (sigma approximately equal to 6.0 times 10 to the 98, mu approximately equal to 6.7 times 10 to the 81). Condition 3 will be verified quantitatively in Chapter 6, §6.4, after we derive the Waters field equations. The physical expectation is that stability holds: the warp factor curvature scale lambda is set by the Planck length, while the Waters operate over cosmological scales, so the destabilizing contribution omega to the 2 sub warp proportional to lambda to the 2 is extremely small compared to omega to the 2 sub Waters.
@@ -673,7 +681,7 @@ Energy Conditions.
 
 The stability of the Firmament is also constrained by the energy conditions of general relativity.
 
-Weak energy condition (WEC): the expression for all timelike the expression. For the membrane stress-energy S sub mu nu = - sigma gamma sub mu nu:
+Weak energy condition (WEC): the expression for all timelike the expression. For the Firmament membrane stress-energy S sub mu nu = - sigma gamma sub mu nu:
 
 [Equation — see print edition.]
 
@@ -681,7 +689,7 @@ Weak energy condition (WEC): the expression for all timelike the expression. For
 
 Dominant energy condition (DEC): the expression must be a future-directed causal vector. For a perfect fluid with rho + p greater than or equal to 0 and rho greater than or equal to |p|. Here rho = sigma and p = - sigma, so rho + p = 0 (marginal) and rho = |p| (saturated). The DEC is marginally satisfied.
 
-Strong energy condition (SEC): rho + 3p greater than or equal to 0. Here rho + 3p = sigma - 3 sigma = -2 sigma < 0. The SEC is violated — which is expected and correct. The SEC violation is what allows the membrane to drive accelerated expansion (dark energy behavior). This is consistent with observations: the cosmic acceleration discovered in 1998 requires SEC violation.
+Strong energy condition (SEC): rho + 3p greater than or equal to 0. Here rho + 3p = sigma - 3 sigma = -2 sigma < 0. The SEC is violated — which is expected and correct. The SEC violation is what allows the Firmament membrane to drive accelerated expansion (dark energy behavior). This is consistent with observations: the cosmic acceleration discovered in 1998 requires SEC violation.
 
 Summary and Forward Look.
 
@@ -691,10 +699,10 @@ Geometry (§5.1–§5.2):
 - The Firmament is a codimension-2 submanifold of the 6D zone manifold, embedded at ( xi sub 0, eta sub 0)
 - Its induced metric gamma sub mu nu is a 4D FRW metric — this IS the geometry cosmologists measure
 - Its extrinsic curvature tensors K to the ( xi ) sub mu nu and K to the ( eta ) sub mu nu describe how it bends into each extra dimension
-- The Gauss-Codazzi-Ricci equations relate brane geometry to bulk geometry
+- The Gauss-Codazzi-Ricci equations relate Firmament geometry to bulk geometry
 
 Physics (§5.3–§5.4):
-- The membrane tension sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) and mass density mu approximately equal to 6.7 times 10 to the 81 kg/m³
+- The Firmament tension sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) and mass density mu approximately equal to 6.7 times 10 to the 81 kg/m³
 - The speed of light is derived: c to the 2 = sigma / mu (Eq. (1.5.37))
 - Lorentz invariance is a consequence of membrane uniformity, not a postulate
 - Junction conditions relate the metric jump across the Firmament to sigma
@@ -704,13 +712,13 @@ Dynamics (§5.5–§5.6):
 - Four families of vibration modes: scalar (gravitational), vector (EM), tensor (GW), confined (particle mass)
 - Massless modes propagate at c; massive modes arise from extra-dimensional confinement
 - The dispersion relation the expression is the standard relativistic relation — derived, not assumed
-- The membrane is dynamically stable when coupled to the Waters pressure fields
+- The Firmament membrane is dynamically stable when coupled to the Waters pressure fields
 
 What comes next:
 
-Chapter 6 will derive the Waters field equations — the PDEs governing the dark matter (Psi sub B) and dark energy (Psi sub A) fields on either side of the Firmament. These fields provide the restoring force (§5.6.4) that keeps the membrane stable, and their dynamics determine the cosmic expansion history.
+Chapter 6 will derive the Waters field equations — the PDEs governing the dark matter (Psi sub B) and dark energy (Psi sub A) fields on either side of the Firmament. These fields provide the restoring force (§5.6.4) that keeps the Firmament membrane stable, and their dynamics determine the cosmic expansion history.
 
-Chapter 7 will use the symmetries of the zone manifold (including the membrane symmetries derived here) to derive all conservation laws via Noether's theorem.
+Chapter 7 will use the symmetries of the zone manifold (including the Firmament symmetries derived here) to derive all conservation laws via Noether's theorem.
 
 And when we reach Vol 2, the vector modes of §5.5.4 will be promoted to the electromagnetic field — Maxwell's equations will emerge as the wave equation for normal-frame rotations of the Firmament. The foundations are now in place.
 
@@ -722,7 +730,7 @@ Problem 5.1. Compute the induced metric gamma sub mu nu for the warp-factored 6D
 
 Problem 5.2. For the warp factor the expression, compute both extrinsic curvature tensors K to the ( xi ) sub mu nu and K to the ( eta ) sub mu nu at the Firmament. Express the mean curvatures K to the ( xi ) and K to the ( eta ) in terms of lambda  xi, lambda  eta, B sub 0.
 
-Problem 5.3. Starting from the Nambu-Goto action (Eq. (1.5.26)), derive the membrane stress-energy tensor S sub mu nu = - sigma gamma sub mu nu by explicit variation with respect to gamma to the mu nu.
+Problem 5.3. Starting from the Nambu-Goto action (Eq. (1.5.26)), derive the Firmament membrane stress-energy tensor S sub mu nu = - sigma gamma sub mu nu by explicit variation with respect to gamma to the mu nu.
 
 Problem 5.4. Verify the numerical agreement of c to the 2 = sigma / mu using sigma = 6.0 times 10 to the 98 kg/(m·s²) and mu = 6.7 times 10 to the 81 kg/m³. Compute sigma / mu to 3 significant figures, take the square root, and express the percentage deviation from the CODATA value c = 299 792 458 m/s. (A deviation below 1% is consistent with rounding in the reported values of sigma and mu.)
 
@@ -744,7 +752,7 @@ Problem 5.11. Explain in your own words why the Firmament has two normal vectors
 
 Problem 5.12. The speed of sound in air is v = square root of P/ rho. Compare this to c = square root of sigma / mu. In what sense is the speed of light "the speed of sound on the Firmament"? Where does the analogy break down?
 
-Problem 5.13. Why does membrane tension sigma make gravity weak? Construct a quantitative argument: if sigma were reduced by a factor of 10 to the 10, what would happen to G sub 4? To the gravitational force between two protons at 1 fm separation?
+Problem 5.13. Why does Firmament tension sigma make gravity weak? Construct a quantitative argument: if sigma were reduced by a factor of 10 to the 10, what would happen to G sub 4? To the gravitational force between two protons at 1 fm separation?
 
 Problem 5.14. The SEC is violated by the Firmament's stress-energy (rho + 3p = -2 sigma < 0). Explain why this is necessary for cosmic acceleration. What would happen if the SEC were satisfied?
 
@@ -752,11 +760,11 @@ Problem 5.15. Why is stability not guaranteed for a membrane? Give an example of
 
 Problem 5.16. The dispersion relation (1.5.54) has a gap omega sub 0 for scalar modes. Explain physically what this gap means. Why don't massless particles feel it?
 
-Problem 5.17. If the sustaining field kappa (Axiom 1) were suddenly removed, how would the membrane stability analysis change? Which of the three stability conditions in Proposition 5.6.1 would fail first?
+Problem 5.17. If the sustaining field kappa (Axiom 1) were suddenly removed, how would the Firmament stability analysis change? Which of the three stability conditions in Proposition 5.6.1 would fail first?
 
 Problem 5.18. Explain the connection between "the Firmament is a stretched membrane" and "the universe has a maximum speed." Why must there be a maximum speed on any elastic medium?
 
-Problem 5.19. The induced metric (Eq. (1.5.8)) contains a factor e to the 2A sub 0 from the warp factor. Explain why this factor is unobservable to brane-confined observers. What is observable?
+Problem 5.19. The induced metric (Eq. (1.5.8)) contains a factor e to the 2A sub 0 from the warp factor. Explain why this factor is unobservable to Firmament-confined observers. What is observable?
 
 Problem 5.20. In what sense are particle masses "geometric"? Explain, using Eq. (1.5.58), how the geometry of the extra dimensions determines the mass spectrum.
 
@@ -764,9 +772,9 @@ Challenge Problems.
 
 Problem 5.21. Derive the full Gauss-Codazzi equations (1.5.22–1.5.24) for a codimension-2 embedding from first principles. Start from the definition of the Riemann tensor and the decomposition of the 6D covariant derivative into tangential and normal components.
 
-Problem 5.22. Starting from the full membrane action (Eq. (1.5.31)) including the bending rigidity term kappa sub B H to the 2, derive the equation of motion for transverse perturbations. Show that the bending term contributes a fourth-order spatial derivative kappa sub B nabla to the 4 Phi and discuss its effect on the dispersion relation at high wavenumber.
+Problem 5.22. Starting from the full Firmament membrane action (Eq. (1.5.31)) including the bending rigidity term kappa sub B H to the 2, derive the equation of motion for transverse perturbations. Show that the bending term contributes a fourth-order spatial derivative kappa sub B nabla to the 4 Phi and discuss its effect on the dispersion relation at high wavenumber.
 
-Problem 5.23. The hierarchy problem asks: why is gravity so weak compared to other forces? Using G sub 4 = c to the 4/(8 pi sigma ell sub eff to the 2) (Eq. (1.5.47)), show that if the membrane tension sigma were reduced by a factor of 10 to the 10 while keeping all other quantities fixed, the gravitational constant G sub 4 would increase by a factor of 10 to the 10. Compute the resulting gravitational force between two 1 kg masses at 1 m separation and compare to the present value. Explain in physical terms why a stiffer membrane means weaker gravity.
+Problem 5.23. The hierarchy problem asks: why is gravity so weak compared to other forces? Using G sub 4 = c to the 4/(8 pi sigma ell sub eff to the 2) (Eq. (1.5.47)), show that if the Firmament tension sigma were reduced by a factor of 10 to the 10 while keeping all other quantities fixed, the gravitational constant G sub 4 would increase by a factor of 10 to the 10. Compute the resulting gravitational force between two 1 kg masses at 1 m separation and compare to the present value. Explain in physical terms why a stiffer membrane means weaker gravity.
 
 Problem 5.24. Compute the gravitational wave dispersion relation on the Firmament. Start from the tensor mode equation (Eq. (1.5.56)), include the effect of the bending rigidity kappa sub B, and show that the correction to omega = ck is of order ( kappa sub B/ sigma ) k to the 2 at high frequency.
 
@@ -776,10 +784,10 @@ Problem 5.26. The Firmament has equation of state w = -1. Show that this is the 
 
 Problem 5.27. Prove that the confined-mode mass spectrum (Eq. (1.5.58)) reproduces the Kaluza-Klein tower for a toroidal compactification of the extra dimensions. What modifications are needed for a non-toroidal (warped) compactification?
 
-Problem 5.28. Analyze the coupled membrane-Waters system. Linearize the Waters field equations (preview: Chapter 6) around equilibrium, couple them to the membrane displacement, and show that the full system has omega to the 2 > 0 for all modes.
+Problem 5.28. Analyze the coupled membrane-Waters system. Linearize the Waters field equations (preview: Chapter 6) around equilibrium, couple them to the Firmament membrane displacement, and show that the full system has omega to the 2 > 0 for all modes.
 
-Problem 5.29. Using the fine structure constant formula alpha to the -1 = 1.44 ( xi sub A/ eta sub B), the membrane wave speed c = square root of sigma / mu, and the gravitational coupling G = c to the 4/(8 pi sigma ell sub eff to the 2), express the Planck mass M sub P = square root of h-bar c/G entirely in terms of membrane properties. Verify the numerical value.
+Problem 5.29. Using the fine structure constant formula alpha to the -1 = 1.44 ( xi sub A/ eta sub B), the Firmament membrane wave speed c = square root of sigma / mu, and the gravitational coupling G = c to the 4/(8 pi sigma ell sub eff to the 2), express the Planck mass M sub P = square root of h-bar c/G entirely in terms of membrane properties. Verify the numerical value.
 
-Problem 5.30. (Open-ended.) The Genesis Physics framework derives c from membrane properties: c to the 2 = sigma / mu. During the Creation epoch (Phase 1, Axiom 1), the sustaining field kappa was at supercritical levels (kappa sub create much greater than kappa sub full). Consider two scenarios: (a) the membrane properties sigma and mu are independent of kappa (fundamental constants of the membrane material), or (b) sigma and mu depend on kappa (the membrane is "softened" or "stiffened" by the sustaining field). For each scenario, discuss whether c could have varied during Creation. What observational constraints exist on time-variation of c? (Cite the GW170817 result: |v sub gw - c|/c < 3 times 10 to the -15.)
+Problem 5.30. (Open-ended.) The Genesis Physics framework derives c from membrane properties: c to the 2 = sigma / mu. During the Creation epoch (Phase 1, Axiom 1), the sustaining field kappa was at supercritical levels (kappa sub create much greater than kappa sub full). Consider two scenarios: (a) the Firmament membrane properties sigma and mu are independent of kappa (fundamental constants of the Firmament membrane material), or (b) sigma and mu depend on kappa (the Firmament membrane is "softened" or "stiffened" by the sustaining field). For each scenario, discuss whether c could have varied during Creation. What observational constraints exist on time-variation of c? (Cite the GW170817 result: |v sub gw - c|/c < 3 times 10 to the -15.)
 
 Chapter 5 of Foundations Vol 1: Architecture of Reality. All notation follows Chapter 1, §1.1. Equation numbering: (1.5.N) = Volume 1, Section 5, Equation N.

@@ -27,7 +27,7 @@ Genesis Physics derives **all fundamental physical constants** from the 6D actio
 
 1. **Planck's constant ℏ**: From topological vortex action in 2D extra dimensions
 2. **Gravitational constant G₄**: From 6D Einstein-Hilbert action via KK volume integral
-3. **Boltzmann constant k_B**: From membrane mode counting and thermodynamics
+3. **Boltzmann constant k_B**: From Firmament mode counting and thermodynamics
 4. **Avogadro's number N_A**: From definition N_A = R/k_B (where R is gas constant)
 5. **Cosmological constant Λ**: From Waters Above potential minimum and sustaining coupling
 
@@ -41,7 +41,7 @@ Each constant emerges without fitting parameters — determined entirely by zone
 
 Standard physics imports ℏ = 1.05457 × 10⁻³⁴ J·s from experiment with no theoretical origin. Genesis Physics derives it from fundamental geometry.
 
-**Key insight**: ℏ is the **quantum of action for topological excitations** (vortices) on the Firmament brane in 6D spacetime.
+**Key insight**: ℏ is the **quantum of action for topological excitations** (vortices) on the Firmament in 6D spacetime.
 
 ### 1.2 Topological Vortex on the Membrane
 
@@ -67,7 +67,7 @@ For a unit topological defect (winding number = 1):
 $$S_{\text{vortex}} \sim \pi \sigma \eta_B^3 / c \quad \text{...(1.3)}$$
 
 where:
-- **σ** = Firmament brane tension ≈ 6 × 10⁹⁸ kg/(m·s²) (from AXIOM_MEMBRANE_MECHANICS_v2)
+- **σ** = Firmament tension ≈ 6 × 10⁹⁸ kg/(m·s²) (from AXIOM_MEMBRANE_MECHANICS_v2)
 - **η_B** = nuclear scale ≈ 1.3 × 10⁻¹⁵ m (from zone geometry)
 - **c** = speed of light
 
@@ -278,24 +278,24 @@ Boltzmann's constant k_B = 1.380649 × 10⁻²³ J/K appears in:
 
 ### 3.2 Temperature as Mode Energy Scale
 
-In Genesis Physics, **temperature measures the average energy per accessible membrane mode**:
+In Genesis Physics, **temperature measures the average energy per accessible Firmament mode**:
 
 $$\boxed{T = \frac{\langle E \rangle}{(d/2) k_B}} \quad \text{...(3.1)}$$
 
 where d is the dimensionality and ⟨E⟩ is the average thermal energy.
 
 The Firmament (4D membrane) has modes with:
-- Frequency spacing: determined by wave speed c and brane dimensions
+- Frequency spacing: determined by wave speed c and Firmament dimensions
 - Energy spacing: ℏω (already derived from topological quantization)
 - Number density: counted from the volume and mode spacing
 
-### 3.3 Derivation from Membrane Mode Counting
+### 3.3 Derivation from Firmament Mode Counting
 
 The Firmament supports elastic waves (phonons) with dispersion relation:
 
-$$\omega(\mathbf{k}) = c |\mathbf{k}| \quad \text{(linear dispersion, membrane waves)} \quad \text{...(3.2)}$$
+$$\omega(\mathbf{k}) = c |\mathbf{k}| \quad \text{(linear dispersion, Firmament waves)} \quad \text{...(3.2)}$$
 
-where c = √(σ/μ) = speed of light (membrane wave speed).
+where c = √(σ/μ) = speed of light (Firmament membrane wave speed).
 
 Number of modes with frequency < ω in 4D volume V:
 
@@ -515,7 +515,7 @@ $$w = -1.009 \pm 0.089 \quad \text{(Planck 2018)} \quad \text{...(5.15)}$$
 | **Avogadro's number** | N_A | 6.022 × 10²³ mol⁻¹ | N_A = R/k_B (definitional) | Unit choice |
 | **Cosmological constant** | Λ | 1.1 × 10⁻⁵² m⁻² | Waters Above potential / sustaining coupling | ✓ Derived |
 | **Fine-structure constant** | α | 1/137.036 | ξ_A/η_B ratio (from FINE_STRUCTURE_DERIVATION.md) | ✓ Derived |
-| **Speed of light** | c | 2.998 × 10⁸ m/s | c² = σ/μ (membrane wave speed) | ✓ Derived |
+| **Speed of light** | c | 2.998 × 10⁸ m/s | c² = σ/μ (Firmament membrane wave speed) | ✓ Derived |
 | **Electron mass** | m_e | 9.109 × 10⁻³¹ kg | Topological defect winding (from TOPOLOGICAL_PARTICLE_CLASSIFICATION.md) | ✓ Derived |
 
 ---
@@ -532,7 +532,7 @@ Genesis Physics derives **five of the eight fundamental "constants"** from first
 
 The remaining three (c, α, m_e) are derived elsewhere:
 
-- **c** = √(σ/μ) from membrane mechanics
+- **c** = √(σ/μ) from Firmament membrane mechanics
 - **α** = ln(ξ_A/η_B) from 6D geometry
 - **m_e** = topological defect rest mass from 6D
 

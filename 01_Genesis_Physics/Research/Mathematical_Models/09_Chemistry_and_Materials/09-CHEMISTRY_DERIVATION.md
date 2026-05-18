@@ -4,16 +4,16 @@
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
 > | Parent Theory | Atomic Structure from Membrane | 09-ATOMIC_STRUCTURE_DERIVATION.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics | QM_FROM_MEMBRANE_DYNAMICS.md |
 > | **This Document** | **Chemical Bonding (Covalent, Ionic, Metallic, Hydrogen)** | **09-CHEMISTRY_DERIVATION.md** |
 > | Modern Equivalent | Molecular Orbital Theory & Valence Bond Theory | Convergence: Bond types, bond lengths, and binding energies match experimental data within 0.1%-5% |
 >
 > *Chain Status: COMPLETE*
 
-# Chemistry Derived from the Membrane Framework
+# Chemistry Derived from the Firmament Framework
 ## Complete Derivation of Chemical Bonding, Molecular Structure, and Crystallography from 6D Genesis Physics
 
-**Issue #55: [Phase 2.0] Rewrite 09-CHEMISTRY_DERIVATION.md to properly derive chemical bonding from the 6D membrane framework**
+**Issue #55: [Phase 2.0] Rewrite 09-CHEMISTRY_DERIVATION.md to properly derive chemical bonding from the 6D Firmament framework**
 
 **Author:** Genesis Physics Research Team
 **Date:** April 5, 2026
@@ -24,7 +24,7 @@
 
 ## EXECUTIVE SUMMARY
 
-In Genesis Physics, chemistry is not a separate discipline but rather applied quantum mechanics on the 4D Firmament brane embedded in 6D spacetime. This document presents a complete derivation chain showing how chemical bonding, molecular structure, and crystallography emerge rigorously from the 6D action functional.
+In Genesis Physics, chemistry is not a separate discipline but rather applied quantum mechanics on the 4D Firmament embedded in 6D spacetime. This document presents a complete derivation chain showing how chemical bonding, molecular structure, and crystallography emerge rigorously from the 6D action functional.
 
 **The Derivation Chain:**
 $$\text{6D Action (ACTION\_6D\_COMPLETE.md)} \to \text{KK Reduction (KK\_DIMENSIONAL\_REDUCTION.md)}$$
@@ -32,12 +32,12 @@ $$\to \text{4D Quantum Mechanics} \to \text{Atomic Structure (ATOMIC\_STRUCTURE\
 $$\to \text{Orbital Overlap Energy} \to \text{Chemical Bonding} \to \text{Molecular/Crystal Structure}$$
 
 **Key Results:**
-1. **Covalent bonding** derives from constructive interference of membrane mode wavefunctions
+1. **Covalent bonding** derives from constructive interference of Firmament mode wavefunctions
 2. **Ionic bonding** emerges from the 6D Green's function and electrostatic energy minimization
-3. **Metallic bonding** arises from delocalized membrane modes in periodic potentials
+3. **Metallic bonding** arises from delocalized Firmament modes in periodic potentials
 4. **Hydrogen bonding** results from partial charge distributions traced to membrane geometry
-5. **Crystal structures** are constrained by 3D symmetry and periodic boundary conditions on the membrane
-6. **Molecular geometry (VSEPR)** follows from membrane mode energy minimization in 4D space
+5. **Crystal structures** are constrained by 3D symmetry and periodic boundary conditions on the Firmament
+6. **Molecular geometry (VSEPR)** follows from Firmament mode energy minimization in 4D space
 7. All predictions match experimental data with 0.1% to 5% accuracy depending on system complexity
 
 ---
@@ -51,7 +51,7 @@ The Genesis Physics framework rests on a single 6D action functional that encode
 **Stage 1: The 6D Universe (Foundational)**
 - Starting point: The complete 6D action functional from ACTION_6D_COMPLETE.md
 - 6D spacetime M⁶ with coordinates $(x^\mu, \xi, \eta)$ where $\mu = 0,1,2,3$ and $\xi, \eta$ are large extra dimensions
-- Zone structure: Waters Below ($\eta$-dimension), Firmament (4D brane at $\xi = \xi_0, \eta = \eta_0$), Waters Above ($\xi$-dimension)
+- Zone structure: Waters Below ($\eta$-dimension), Firmament (4D Firmament at $\xi = \xi_0, \eta = \eta_0$), Waters Above ($\xi$-dimension)
 
 **Stage 2: Kaluza-Klein Reduction (KK_DIMENSIONAL_REDUCTION.md)**
 - Decompose the 6D metric using the Kaluza-Klein ansatz
@@ -61,8 +61,8 @@ The Genesis Physics framework rests on a single 6D action functional that encode
 
 **Stage 3: Quantum Mechanics on the Membrane**
 - The 4D Firmament is a non-relativistic wave medium (like a drumhead in 6D)
-- Waves on the membrane satisfy: $\frac{\partial^2 \psi}{\partial t^2} = c^2 \nabla_4^2 \psi$ where $c^2 = \sigma / \mu$
-- Non-relativistic limit (electrons moving slowly compared to membrane wave speed) yields the Schrödinger equation:
+- Waves on the Firmament membrane satisfy: $\frac{\partial^2 \psi}{\partial t^2} = c^2 \nabla_4^2 \psi$ where $c^2 = \sigma / \mu$
+- Non-relativistic limit (electrons moving slowly compared to Firmament membrane wave speed) yields the Schrödinger equation:
 $$\boxed{-\frac{\hbar^2}{2m}\nabla_4^2 \psi(\mathbf{r}) + V(\mathbf{r}) \psi(\mathbf{r}) = E \psi(\mathbf{r})}$$
 
 **Stage 4: Atomic Structure (09-ATOMIC_STRUCTURE_DERIVATION.md)**
@@ -70,7 +70,7 @@ $$\boxed{-\frac{\hbar^2}{2m}\nabla_4^2 \psi(\mathbf{r}) + V(\mathbf{r}) \psi(\ma
 - Coulomb potential: $V(\mathbf{r}) = -\frac{Ze^2}{4\pi\epsilon_0 r}$ arises from charge-induced membrane curvature
 - Obtain discrete energy levels: $E_n = -\frac{Z^2 \cdot 13.6 \text{ eV}}{n^2}$
 - Obtain orbital wavefunctions: $\psi_{n,l,m_l}(\mathbf{r})$
-- Apply Pauli exclusion principle (electrons are fermions on the membrane)
+- Apply Pauli exclusion principle (electrons are fermions on the Firmament)
 - Build the periodic table with quantum numbers $(n, l, m_l, m_s)$
 
 **Stage 5: Orbital Overlap and Bonding Energy (This Document)**
@@ -100,7 +100,7 @@ To understand why chemistry works, consider the dimensional hierarchy:
 
 ---
 
-## PART 1: PERIODIC TABLE STRUCTURE — MEMBRANE MODE FILLING
+## PART 1: PERIODIC TABLE STRUCTURE — Firmament MODE FILLING
 
 ### 1.1 From Atomic Structure to Chemical Periodicity
 
@@ -140,7 +140,7 @@ $$Z_{\text{eff}} = Z - S$$
 
 where $S$ is the **screening constant** (approximate shielding from inner electrons).
 
-The energy of a membrane mode depends on both $n$ and $l$ through the effective potential:
+The energy of a Firmament mode depends on both $n$ and $l$ through the effective potential:
 
 $$E_{n,l} = -\frac{Z_{\text{eff}}^2 \times 13.6 \text{ eV}}{n^2} + \text{(relativistic + fine structure corrections)}$$
 
@@ -164,7 +164,7 @@ Electrons are fermions on the 4D Firmament. The multi-electron wavefunction must
 
 $$\Psi(\mathbf{r}_1, \mathbf{r}_2, \ldots, \mathbf{r}_N) = -\Psi(\mathbf{r}_2, \mathbf{r}_1, \ldots, \mathbf{r}_N)$$
 
-This antisymmetry is a topological property: electrons carry fermionic charge (half-integer spin) on the membrane. At the quantum level, no two electrons can have identical quantum numbers.
+This antisymmetry is a topological property: electrons carry fermionic charge (half-integer spin) on the Firmament. At the quantum level, no two electrons can have identical quantum numbers.
 
 **Consequence:** In each orbital $(n, l, m_l)$, maximum 2 electrons: one with $m_s = +1/2$ (spin up) and one with $m_s = -1/2$ (spin down).
 
@@ -323,7 +323,7 @@ $$I_A - E_{\text{aff},B} < \left|\frac{e^2}{4\pi\epsilon_0 R}\right|$$
 
 The large negative Coulomb term makes the ionic configuration energetically favorable, overcoming the initial ionization cost. The negative total energy indicates a stable compound.
 
-**Key point:** In the membrane framework, ionic bonding represents:
+**Key point:** In the Firmament framework, ionic bonding represents:
 1. Complete electron transfer from one atom to another
 2. Loss of orbital overlap between atoms (they no longer share electrons)
 3. Dominance of electrostatic (Coulomb) energy
@@ -345,13 +345,13 @@ $$G_{6D}(\mathbf{r}, \xi, \eta; \mathbf{r}', \xi', \eta') = \frac{1}{r^2} + \fra
 
 (simplified form; full expression is more complex)
 
-When we integrate over the extra dimensions $\xi$ and $\eta$ (which are very small at the Planck scale and at the Firmament brane location), we obtain:
+When we integrate over the extra dimensions $\xi$ and $\eta$ (which are very small at the Planck scale and at the Firmament location), we obtain:
 
 $$\phi_{\text{4D}}(\mathbf{r}) = \int_{\text{extra}} G_{6D} \, d\xi d\eta \propto \frac{1}{r}$$
 
 This derivation shows that **ionic bonding is fundamentally a consequence of the 6D geometry projected onto the 4D Firmament.**
 
-### 2.6 Metallic Bonding: Delocalized Membrane Modes in Periodic Potentials
+### 2.6 Metallic Bonding: Delocalized Firmament Modes in Periodic Potentials
 
 In metals, valence electrons are neither localized on individual atoms nor transferred to neighbors. Instead, they form **delocalized states** extending throughout the crystal.
 
@@ -899,9 +899,9 @@ Chemistry operates in a specific physical regime where several approximations ar
 - **Low enough in energy** that relativistic corrections are small (~1% for core electrons, negligible for valence)
 - **Large enough in spatial scale** that quantum gravity is completely negligible
 
-### 5.3 Genesis Physics Perspective: Membrane Modes in 4D Spacetime
+### 5.3 Genesis Physics Perspective: Firmament Modes in 4D Spacetime
 
-From the Genesis Physics framework, chemistry is the science of **membrane mode dynamics** on the 4D Firmament brane embedded in 6D spacetime.
+From the Genesis Physics framework, chemistry is the science of **Firmament membrane mode dynamics** on the 4D Firmament embedded in 6D spacetime.
 
 **Equation 5.1 (Total Energy of an Electron on the Membrane):**
 
@@ -912,7 +912,7 @@ $$E_{\text{total}} = \underbrace{E_{\text{kinetic}}}_{\text{momentum in 4D space
 The kinetic energy $E_{\text{kinetic}} = -\frac{\hbar^2}{2m}\nabla^2 \psi$ arises from motion in 4D Firmament space.
 
 The potential energy arises from:
-1. **Coulomb interaction** — Electron (fermionic topological defect on membrane) coupled to electromagnetic field (oscillation mode of the membrane)
+1. **Coulomb interaction** — Electron (fermionic topological defect on membrane) coupled to electromagnetic field (oscillation mode of the Firmament)
 2. **Membrane curvature** — The presence of charges curves the 6D geometry; this curvature is perceived as an effective potential in 4D
 
 When two atoms approach, their electron wavefunctions overlap on the Firmament:
@@ -931,7 +931,7 @@ Key factors:
 1. **No relativistic effects** — Electrons move at ~1–5% the speed of light in molecules
 2. **No quantum electrodynamics** — Lamb shift (~0.01 eV) is negligible compared to 1 eV bonding
 3. **No quantum gravity** — The gravitational coupling is ~$10^{-70}$ eV
-4. **Pauli exclusion works** — Fermionic antisymmetry is rigorously enforced by topological properties of electrons on the membrane
+4. **Pauli exclusion works** — Fermionic antisymmetry is rigorously enforced by topological properties of electrons on the Firmament
 5. **Symmetry is powerful** — Exploiting point group and space group symmetry reduces computational complexity dramatically
 
 Therefore: **Chemistry is proven to work by decades of experimental confirmation, even if some absolute foundations (like the origin of the fine structure constant or electron mass) remain to be fully derived from Genesis Physics.**
@@ -942,7 +942,7 @@ Therefore: **Chemistry is proven to work by decades of experimental confirmation
 
 ### 6.1 What Is Rigorously Proven
 
-✓ **Quantum mechanics from the membrane** — The Schrödinger equation is derived from the 4D Firmament wave equation in the non-relativistic limit.
+✓ **Quantum mechanics from the Firmament membrane** — The Schrödinger equation is derived from the 4D Firmament wave equation in the non-relativistic limit.
 **Reference:** QM_FROM_MEMBRANE_DYNAMICS.md
 
 ✓ **Atomic structure — Hydrogen and helium** — Ground states match experiment to 0.1% accuracy.
@@ -968,7 +968,7 @@ This document presents a **complete logical chain** from the 6D action to chemis
 
 1. **6D action → KK reduction → 4D electromagnetism + gravity** (ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md)
 
-2. **4D spacetime → Membrane wave equation → Schrödinger equation** (QM_FROM_MEMBRANE_DYNAMICS.md)
+2. **4D spacetime → Firmament membrane wave equation → Schrödinger equation** (QM_FROM_MEMBRANE_DYNAMICS.md)
 
 3. **Schrödinger equation → Atomic structure** (09-ATOMIC_STRUCTURE_DERIVATION.md)
 
@@ -984,7 +984,7 @@ This framework does **not** explain:
 
 ✗ **Numerical values of fundamental constants:** Why is $\alpha^{-1} \approx 137$? Why is $m_e/m_p \approx 1/1836$? These are inputs to the framework, not derived from Genesis Physics fundamental principles.
 
-✗ **Electron mass origin:** In Genesis Physics, electron mass is related to confinement in extra dimensions (ξ, η). A complete derivation requires solving the full 6D membrane equation for topological solitons. This is **speculative but promising**.
+✗ **Electron mass origin:** In Genesis Physics, electron mass is related to confinement in extra dimensions (ξ, η). A complete derivation requires solving the full 6D Firmament equation for topological solitons. This is **speculative but promising**.
 **Reference:** Phase 4.0 objectives
 
 ✗ **Relativistic effects and spin:** The full Dirac equation and spin-orbit coupling require special relativity in 6D. The non-relativistic Schrödinger equation is valid for light elements (Z < 20) but breaks down for heavy atoms. **In progress**.
@@ -992,7 +992,7 @@ This framework does **not** explain:
 ✗ **Fine structure constant from first principles:** This is a major open problem in physics. Genesis Physics derives $\alpha^{-1} \approx 1.44 \ln(\xi_A / \eta_B)$, but why this specific ratio? This requires understanding why the Hubble scale and Planck scale have their observed values.
 **Reference:** FINE_STRUCTURE_DERIVATION.md (Phase 1 result, incomplete)
 
-✗ **Justification of Pauli exclusion:** We assert that electrons are fermionic topological defects on the membrane, but the full derivation from 6D geometry requires solving for soliton solutions. **Speculative but well-motivated**.
+✗ **Justification of Pauli exclusion:** We assert that electrons are fermionic topological defects on the Firmament, but the full derivation from 6D geometry requires solving for soliton solutions. **Speculative but well-motivated**.
 
 ### 6.4 Path to Full Completion (Phases 2.5–4.0)
 
@@ -1021,7 +1021,7 @@ To fully close the gap between Genesis Physics and experiment:
 ### The Central Claim
 
 **Chemistry is not separate from physics. All of chemistry emerges from:**
-1. **One equation:** The Schrödinger equation (derived from the 6D membrane framework)
+1. **One equation:** The Schrödinger equation (derived from the 6D Firmament framework)
 2. **Four principles:** Pauli exclusion, variational principle, symmetry, topology
 3. **No additional ad-hoc assumptions:** All chemical "rules" (bonding, hybridization, crystal structures) are **derived**, not assumed
 
@@ -1032,7 +1032,7 @@ This unification is the major strength of the Genesis Physics framework.
 **Test 1 — Periodic Table Structure:**
 - Prediction: All 118 elements have configurations correctly predicted by Aufbau
 - Status: ✓ **PROVEN** (configurations match NIST data exactly)
-- Physical origin: Membrane mode quantization $(n, l, m_l, m_s)$ + Pauli exclusion
+- Physical origin: Firmament mode quantization $(n, l, m_l, m_s)$ + Pauli exclusion
 
 **Test 2 — Chemical Bonding:**
 - Prediction: Covalent, ionic, metallic bonds emerge from energy minimization
@@ -1070,7 +1070,7 @@ This unification is the major strength of the Genesis Physics framework.
 
 Genesis Physics provides a **complete, unified, and rigorous framework for chemistry**:
 
-- The periodic table emerges naturally from membrane mode quantization
+- The periodic table emerges naturally from Firmament mode quantization
 - Chemical bonding (covalent, ionic, metallic, hydrogen) are manifestations of energy minimization in overlapping electron wavefunctions
 - Molecular structure follows from VSEPR and orbital hybridization, rooted in electrostatic repulsion
 - Crystal structures are constrained by 3D symmetry and explained by periodic potential band structure
@@ -1171,7 +1171,7 @@ where n ≈ 8–9 (Born exponent)
 
 **6D_TO_4D_PROJECTION.md** — Detailed projection of 6D gravity onto 4D Firmament. Shows how Newton's gravitational constant emerges from volume scaling in extra dimensions.
 
-**QM_FROM_MEMBRANE_DYNAMICS.md** — Derivation of the Schrödinger equation from the 4D Firmament as a non-relativistic wave medium. Shows that c² = σ/μ (membrane tension/density).
+**QM_FROM_MEMBRANE_DYNAMICS.md** — Derivation of the Schrödinger equation from the 4D Firmament as a non-relativistic wave medium. Shows that c² = σ/μ (Firmament tension/density).
 
 **09-ATOMIC_STRUCTURE_DERIVATION.md** — Complete derivation of atomic structure (hydrogen, helium, multi-electron atoms) from the Schrödinger equation with Coulomb potential. Includes:
 - Exact hydrogen solution with energy levels E_n = -13.6 eV/n²

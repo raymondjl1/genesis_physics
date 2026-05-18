@@ -43,7 +43,7 @@ This document provides rigorous, self-contained derivations for three fundamenta
 
 ## 1.1 Problem Statement
 
-Standard physics **imports** ℏ = 1.05457182 × 10⁻³⁴ J·s as an irreducible constant. Genesis Physics derives it from first principles using the 6D membrane framework.
+Standard physics **imports** ℏ = 1.05457182 × 10⁻³⁴ J·s as an irreducible constant. Genesis Physics derives it from first principles using the 6D Firmament framework.
 
 **Observation**: ℏ appears universally in quantum mechanics:
 - Commutation relations: [x̂, p̂] = iℏ
@@ -58,7 +58,7 @@ All calculations use the following fundamental parameters (from AXIOM_MEMBRANE_M
 
 | Parameter | Symbol | Value | Unit | Meaning |
 |-----------|--------|-------|------|---------|
-| Firmament brane tension | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | Membrane elasticity |
+| Firmament tension | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | Membrane elasticity |
 | Surface mass density | μ | 6.7 × 10⁸¹ | kg/m³ | Membrane inertia |
 | Speed of light | c | 2.998 × 10⁸ | m/s | c² = σ/μ |
 | Nuclear confinement scale | η_B | 1.3 × 10⁻¹⁵ | m | Waters Below extent |
@@ -74,7 +74,7 @@ $$c^2 = \frac{\sigma}{\mu} = \frac{6.0 \times 10^{98}}{6.7 \times 10^{81}} = 8.9
 
 ### 1.3.1 Topological Defect as Quantum Constraint
 
-In 6D spacetime, the Firmament brane supports **topological winding defects** (vortices) in the phase of the Waters fields (Ψ_A, Ψ_B). These are singular configurations where:
+In 6D spacetime, the Firmament supports **topological winding defects** (vortices) in the phase of the Waters fields (Ψ_A, Ψ_B). These are singular configurations where:
 
 $$\oint_{\text{loop in } (\xi,\eta)} d\phi = 2\pi n \quad \text{(winding number)}$$
 
@@ -337,11 +337,11 @@ $$\boxed{M_{6,Pl} = \left(\frac{\hbar c}{G_6}\right)^{1/4}} \quad \text{...(2.2)
 
 This is the characteristic energy scale of 6D quantum gravity.
 
-**In Genesis Physics**, the 6D Planck scale is related to the membrane tension by:
+**In Genesis Physics**, the 6D Planck scale is related to the Firmament tension by:
 
 $$M_{6,Pl}^4 \sim \sigma$$
 
-where σ ≈ 6 × 10⁹⁸ kg/(m·s²) is the brane tension.
+where σ ≈ 6 × 10⁹⁸ kg/(m·s²) is the Firmament tension.
 
 **Estimation** (order of magnitude):
 $$M_{6,Pl} \sim (6 \times 10^{98})^{1/4} \sim 10^{25} \text{ kg} \quad \text{(~10¹⁶ GeV)}$$
@@ -491,7 +491,7 @@ But this creates dimensional confusion. Let me reconsider.
 
 **Correct approach**: The fundamental relation is:
 
-$$G_6 = \sqrt{\frac{\hbar c}{\sigma}} \quad \text{(from membrane dynamics)} \quad \text{...(2.10)}$$
+$$G_6 = \sqrt{\frac{\hbar c}{\sigma}} \quad \text{(from Firmament membrane dynamics)} \quad \text{...(2.10)}$$
 
 **Numerical check**:
 $$G_6 \sim \frac{(10^{-34}) \times (3 \times 10^8)}{\sqrt{6 \times 10^{98}}} \sim \frac{3 \times 10^{-26}}{\sqrt{6} \times 10^{49}} \sim \frac{10^{-26}}{10^{49.4}} \sim 10^{-75.4} \text{ m}^3 \text{ kg}^{-1} \text{ s}^2$$
@@ -613,7 +613,7 @@ $$m_u = \frac{m(^{12}\text{C})}{12} = \frac{1.99265}{12} \times 10^{-26} \text{ 
 - **Binding energy**: Δm ~ 0.7% for ¹²C (6 protons + 6 neutrons)
 - **Net mass**: m_u ≈ m_N - (binding energy)/c² ~ 1.66 × 10⁻²⁷ kg
 
-The nucleon mass itself is derived from membrane dynamics (in other documents; here we take it as a measured input).
+The nucleon mass itself is derived from Firmament membrane dynamics (in other documents; here we take it as a measured input).
 
 ### 3.3.2 The Macroscopic Scale: The Gram
 
@@ -696,7 +696,7 @@ The precise value (6 × 10²³) arises from the exact ratios of atomic masses an
 
 Genesis Physics **does predict** the order of magnitude of N_A by predicting:
 
-1. **Nucleon mass** m_N ~ 10⁻²⁷ kg (from membrane dynamics)
+1. **Nucleon mass** m_N ~ 10⁻²⁷ kg (from Firmament membrane dynamics)
 2. **Atomic scales** a_0 ~ 10⁻¹⁰ m (from electromagnetic interaction energy and ℏ)
 3. **The scale ratio** (macroscopic / atomic volume) ~ 10²⁴
 
@@ -747,7 +747,7 @@ $$[\sigma \eta_B^2 / c] = [M L^{-1} T^{-2}] [L^2] / [L T^{-1}] = [M L^2 T^{-1}] 
 **Numerical validation**:
 $$\frac{[\text{calculated}] - [\text{observed}]}{[\text{observed}]} \times 100\% = \frac{1.055 - 1.0546}{1.0546} \times 100\% = 0.04\% \quad ✓$$
 
-**Physical origin**: Discrete winding numbers of topological defects on the Firmament brane, exponentially suppressed by the 6D warp factor.
+**Physical origin**: Discrete winding numbers of topological defects on the Firmament, exponentially suppressed by the 6D warp factor.
 
 ---
 
@@ -805,7 +805,7 @@ The ratio of scales naturally gives 10²⁴; the precise coefficient 6.022 arise
 
 Genesis Physics derives the three fundamental constants of Category 10:
 
-1. **Planck's constant ℏ** emerges from topological quantization on the Firmament brane, exponentially suppressed by the 6D warp geometry
+1. **Planck's constant ℏ** emerges from topological quantization on the Firmament, exponentially suppressed by the 6D warp geometry
 2. **Gravitational constant G** derives from Kaluza-Klein reduction of the 6D Einstein action, with weakness explained by extra-dimensional volume
 3. **Avogadro's number N_A** is a conventional scale ratio reflecting the hierarchy from atomic to human-scale masses
 

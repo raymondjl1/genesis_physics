@@ -20,7 +20,7 @@ Here is the plan:
 
 2. The three ensembles (§10.3) — Microcanonical, canonical, grand canonical. Why exactly three? Because there are exactly three extensive quantities (energy, volume, particle number) that a system can exchange with its reservoir.
 
-3. Mode density from geometry (§10.4) — How many electromagnetic modes fit in a box? The answer is pure geometry: g(ν) = 8πν²/c³. We derive it by counting standing waves, just as we counted membrane modes in Vol 1 Chapter 5.
+3. Mode density from geometry (§10.4) — How many electromagnetic modes fit in a box? The answer is pure geometry: g(ν) = 8πν²/c³. We derive it by counting standing waves, just as we counted Firmament modes in Vol 1 Chapter 5.
 
 4. The Planck distribution (§10.5) — The crown jewel. Combining mode density with Bose-Einstein statistics yields B(ν,T) = 2hν³/[c²(e^{hν/kT} − 1)]. Every ingredient traces to the zone architecture.
 
@@ -81,7 +81,7 @@ The first factor is a normalization constant (determined by condition 1). Define
 
 This is the canonical distribution. It is not a postulate — it is the unique probability distribution that maximizes the entropy of a system on the zone manifold subject to a fixed mean energy. The partition function Z is simply the normalization constant.
 
-Why this matters for Genesis Physics. In standard treatments, the Boltzmann distribution is often motivated by "contact with a heat bath" — a physical argument. Our derivation is stronger: it is a mathematical theorem about information-theoretic entropy on a discrete state space. The zone manifold provides the discrete states (quantized membrane modes from Vol 1 Ch 10); the maximum entropy principle provides the distribution. No additional physical assumptions are needed.
+Why this matters for Genesis Physics. In standard treatments, the Boltzmann distribution is often motivated by "contact with a heat bath" — a physical argument. Our derivation is stronger: it is a mathematical theorem about information-theoretic entropy on a discrete state space. The zone manifold provides the discrete states (quantized Firmament modes from Vol 1 Ch 10); the maximum entropy principle provides the distribution. No additional physical assumptions are needed.
 
 Generating Thermodynamic Functions from Z.
 
@@ -91,7 +91,7 @@ Helmholtz free energy:
 
 [Equation — see print edition.]
 
-This follows from F = U - TS combined with the identification S = -k sub B sum sub n p sub n p sub n and U = sum sub n p sub n E sub n. The proof:
+This follows from F = U - T S combined with the identification S = -k sub B sum sub n p sub n p sub n and U = sum sub n p sub n E sub n. The proof:
 
 [Equation — see print edition.]
 
@@ -123,7 +123,7 @@ Chemical potential:
 
 Every one of these follows from Z by differentiation. The partition function is the generating function for all of equilibrium thermodynamics.
 
-Worked Example: The Two-Level System. To see the machinery in action, consider the simplest possible system: a single membrane mode with two states (ground state E₀ = 0, excited state E₁ = ε).
+Worked Example: The Two-Level System. To see the machinery in action, consider the simplest possible system: a single Firmament mode with two states (ground state E₀ = 0, excited state E₁ = ε).
 
 The partition function:
 
@@ -144,7 +144,7 @@ This has a peak near T ~ ε/k_B — the Schottky anomaly — where the thermal e
 
 The Quantum Partition Function.
 
-For a system of quantized membrane modes, the microstates are specified by occupation numbers {n_k} for each mode k. The total energy is:
+For a system of quantized Firmament modes, the microstates are specified by occupation numbers {n_k} for each mode k. The total energy is:
 
 [Equation — see print edition.]
 
@@ -347,7 +347,7 @@ The dispersion relation for electromagnetic waves is:
 
 [Equation — see print edition.]
 
-where c = √(σ/μ) is the speed of light derived from membrane tension and mass density (Vol 1 Ch 5). Converting:
+where c = √(σ/μ) is the speed of light derived from Firmament tension and mass density (Vol 1 Ch 5). Converting:
 
 [Equation — see print edition.]
 
@@ -375,9 +375,9 @@ In three dimensions, it scales as the volume of a positive-octant spherical shel
 
 The pattern is clear: in d spatial dimensions, g_d(ν) ∝ ν^{d−1}. This is purely geometric — it counts how many wave vectors fit inside a shell of radius k ∝ ν in d-dimensional k-space. The three-dimensionality of our physical space is what makes the Planck spectrum peak where it does and fall off at the rate it does. A universe with four spatial dimensions would have g(ν) ∝ ν³ and a Stefan-Boltzmann law j* ∝ T⁵ instead of T⁴.
 
-Connection to Membrane Modes.
+Connection to Firmament Modes.
 
-This mode-counting argument is identical in structure to the membrane mode analysis in Volume 1, Chapter 5. There, we counted Firmament oscillation modes in the (ξ, η) directions and found discrete spectra from boundary conditions. Here, we count electromagnetic oscillation modes in the (x, y, z) directions and find the same type of discrete spectrum.
+This mode-counting argument is identical in structure to the Firmament membrane mode analysis in Volume 1, Chapter 5. There, we counted Firmament oscillation modes in the (ξ, η) directions and found discrete spectra from boundary conditions. Here, we count electromagnetic oscillation modes in the (x, y, z) directions and find the same type of discrete spectrum.
 
 The connection is deeper than analogy. The electromagnetic field is a Kaluza-Klein gauge field emerging from the off-diagonal metric components of the 6D action (02-PLANCK_DISTRIBUTION.md, Part 1). When we count EM modes in a cavity, we are counting a subset of the Firmament's oscillation modes — specifically, the transverse η-dimensional excitations projected into three-dimensional space.
 
@@ -494,13 +494,13 @@ This is Planck's spectral radiance formula — the most precisely verified formu
 - 8πν²/c³ (mode density) ← boundary conditions on standing waves in a cavity (geometry of 3D space)
 - hν (energy quantum) ← quantization from bounded domains on the zone manifold (Vol 1 Ch 10)
 - 1/(e^{hν/kT} − 1) (Bose-Einstein factor) ← spin-statistics theorem from topological exchange (Vol 1 Ch 10)
-- c (speed of light) ← √(σ/μ) from membrane mechanics (Vol 1 Ch 5)
+- c (speed of light) ← √(σ/μ) from Firmament membrane mechanics (Vol 1 Ch 5)
 - h = 2πℏ (Planck's constant) ← derived from membrane parameters (Vol 1 Ch 10)
 - k_B (Boltzmann's constant) ← derived from mode counting (Vol 1 Ch 11)
 
 Every ingredient traces to the zone architecture. Nothing is imported from outside.
 
-A note on uniqueness. The Planck distribution is also derivable from standard quantum field theory — any framework that produces quantized modes with Bose-Einstein statistics in a three-dimensional cavity will yield the same formula. The zone framework's value lies not in deriving Planck's law for the first time, but in tracing it (along with electromagnetism, gravity, and particle physics) to a single unified 6D geometric origin. Where standard physics postulates quantization as an axiom, zone architecture derives it from the topology of the Firmament. Where standard physics treats the spin-statistics theorem as a consequence of relativistic field theory, zone architecture derives it from winding numbers on the membrane. The Planck distribution is a convergence point: both frameworks arrive at the same destination, but through different foundational choices.
+A note on uniqueness. The Planck distribution is also derivable from standard quantum field theory — any framework that produces quantized modes with Bose-Einstein statistics in a three-dimensional cavity will yield the same formula. The zone framework's value lies not in deriving Planck's law for the first time, but in tracing it (along with electromagnetism, gravity, and particle physics) to a single unified 6D geometric origin. Where standard physics postulates quantization as an axiom, zone architecture derives it from the topology of the Firmament. Where standard physics treats the spin-statistics theorem as a consequence of relativistic field theory, zone architecture derives it from winding numbers on the Firmament. The Planck distribution is a convergence point: both frameworks arrive at the same destination, but through different foundational choices.
 
 The Wavelength Representation.
 
@@ -566,7 +566,7 @@ The Stefan-Boltzmann Law:
 
 [Equation — see print edition.]
 
-Numerical verification. Using the membrane-derived constants:
+Numerical verification. Using the Firmament-derived constants:
 - k_B = 1.381 × 10⁻²³ J/K
 - h = 6.626 × 10⁻³⁴ J·s
 - c = 2.998 × 10⁸ m/s
@@ -800,7 +800,7 @@ Problems.
 
 Computational.
 
-Problem 10.1. Verify the Stefan-Boltzmann constant numerically. Starting from the membrane-derived values of kB, h, and c, compute σSB and compare with the measured value. Show each step of the calculation.
+Problem 10.1. Verify the Stefan-Boltzmann constant numerically. Starting from the Firmament-derived values of kB, h, and c, compute σSB and compare with the measured value. Show each step of the calculation.
 
 Problem 10.2. A blackbody cavity is maintained at T = 3000 K. (a) What is the peak wavelength of the emitted radiation? (b) What is the total power radiated per unit area? (c) What fraction of the total power is emitted at wavelengths shorter than the peak?
 

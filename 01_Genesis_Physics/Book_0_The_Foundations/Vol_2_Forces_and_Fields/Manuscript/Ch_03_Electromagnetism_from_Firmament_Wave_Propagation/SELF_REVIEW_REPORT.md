@@ -1,4 +1,4 @@
-# Self-Review Report — Chapter 3: Electromagnetism from Membrane Wave Propagation
+# Self-Review Report — Chapter 3: Electromagnetism from Firmament Wave Propagation
 
 **Date:** 2026-04-06
 **Reviewer:** Author (self-review per Development Process 01_WRITING_PROCESS.md)

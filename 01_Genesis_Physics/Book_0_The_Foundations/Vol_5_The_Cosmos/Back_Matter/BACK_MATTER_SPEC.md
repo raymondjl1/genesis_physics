@@ -118,7 +118,7 @@ Each equation row: equation number (boxed), full formula, one-line gloss, list o
 - §B.8 Zone-architecture scale parameters — σ, μ, ξ_A, η_B, V_extra, ξ_A/η_B ratio
 - §B.9 **Headline honesty table — every parameter this volume claims to derive or match, its status (DERIVED/CALIBRATED/INHERITED/OPEN), fractional error, and honest assessment**
 
-**Critical requirement:** §B.3 must present every constant with the same formatting: (1) experimental value with CODATA/PDG uncertainty, (2) zone-architecture prediction with stated uncertainty, (3) fractional error = |pred − exp|/exp. The fine structure constant at 0.1% is the headline; ℏ and G are near-exact because the membrane parameters (σ, μ, η_B) were *calibrated* to reproduce them — this must be stated explicitly. k_B is derived from mode-counting but its precision depends on the UV cutoff choice. No hiding behind precision that was put in by hand.
+**Critical requirement:** §B.3 must present every constant with the same formatting: (1) experimental value with CODATA/PDG uncertainty, (2) zone-architecture prediction with stated uncertainty, (3) fractional error = |pred − exp|/exp. The fine structure constant at 0.1% is the headline; ℏ and G are near-exact because the Firmament membrane parameters (σ, μ, η_B) were *calibrated* to reproduce them — this must be stated explicitly. k_B is derived from mode-counting but its precision depends on the UV cutoff choice. No hiding behind precision that was put in by hand.
 
 ---
 
@@ -130,7 +130,7 @@ Each equation row: equation number (boxed), full formula, one-line gloss, list o
 - §C.1 Fine structure constant α — from 6D gauge action → KK reduction → RG running → α⁻¹ = 137.17 ± 0.15. Full derivation chain: Vol 2 Ch 3 (gauge coupling started) → Vol 4 Ch 8 (renormalization) → Vol 5 Ch 13 (completed). Inputs: ξ_A, η_B, SM β-function coefficient.
 - §C.2 Planck's constant ℏ — from membrane vortex action → Bohr-Sommerfeld quantization → ℏ = ση_B³/(2c). Full chain: Vol 1 Ch 5 (membrane) → Vol 1 Ch 10 (quantization) → Vol 5 Ch 15. Inputs: σ, η_B, c.
 - §C.3 Gravitational constant G — from 6D → 4D dimensional reduction → G₄ = G₆/V_extra. Full chain: Vol 1 Ch 4 (6D embedding) → Vol 2 Ch 2 (gravity) → Vol 5 Ch 1 (EFE) → Vol 5 Ch 15. Inputs: G₆, V_extra.
-- §C.4 Boltzmann constant k_B — from membrane mode counting → entropy → k_B = S/ln Ω. Full chain: Vol 1 Ch 11 (thermodynamics) → Vol 5 Ch 5 (BH entropy) → Vol 5 Ch 15. Inputs: mode spectrum, UV cutoff.
+- §C.4 Boltzmann constant k_B — from Firmament membrane mode counting → entropy → k_B = S/ln Ω. Full chain: Vol 1 Ch 11 (thermodynamics) → Vol 5 Ch 5 (BH entropy) → Vol 5 Ch 15. Inputs: mode spectrum, UV cutoff.
 - §C.5 **Master summary table — all four constants, derivation status, precision achieved, what is genuine prediction vs. calibration**
 
 **Critical requirement:** §C.5 must distinguish sharply between:

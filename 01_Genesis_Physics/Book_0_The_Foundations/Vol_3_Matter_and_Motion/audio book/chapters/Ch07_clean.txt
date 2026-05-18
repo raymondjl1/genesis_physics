@@ -1,4 +1,6 @@
-﻿Introduction — Why Do Things Weigh What They Weigh?.
+﻿# Chapter 7: The Origin of Mass
+
+Introduction — Why Do Things Weigh What They Weigh?.
 
 An electron weighs 0.511 MeV. A top quark weighs 173 GeV. The ratio between them is about 340,000 to one. Why?
 
@@ -16,13 +18,13 @@ This chapter fills that gap. We will derive the entire mass-generation mechanism
 
 1. The Higgs field is not postulated. It is the lowest Kaluza-Klein mode of the Waters Above scalar field Psi sub A — the same field we introduced in Vol 1 Chapter 5. (§7.1)
 
-2. The Mexican hat potential is not assumed. It emerges from the boundary conditions at the Firmament, where the membrane tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
+2. The Mexican hat potential is not assumed. It emerges from the boundary conditions at the Firmament, where the Firmament tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
 
 3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak scale v = 246.22 GeV is fixed by the zone geometry. (§7.3)
 
 4. Fermion masses arise from the coupling between topological vortex defects (Chapter 6) and the Higgs condensate. The coupling strength — the Yukawa coupling — is an overlap integral between the vortex wavefunction and the Higgs profile. Different generations have different overlap, producing the mass hierarchy. (§7.4)
 
-5. The predicted mass spectrum spans twelve orders of magnitude, from the sub-eV neutrinos to the 173 GeV top quark, and agrees with experiment to within 1% for most particles. (§7.5)
+5. The predicted mass spectrum spans twelve orders of magnitude, from the sub-eV neutrinos to the 173 GeV top quark. The framework predicts the correct order of magnitude for all particle masses, achieving <1% accuracy for gauge bosons and <5% for the well-constrained leptons, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. (§7.5)
 
 The result is that mass is not a free parameter. Mass is architecture.
 
@@ -145,21 +147,21 @@ The bare mass m sub 0 to the 2 > 0 is positive — without the boundary effects,
 
 Everything changes because of the Firmament.
 
-The Membrane Tension Effect.
+The Firmament Tension Effect.
 
-The Firmament is a domain wall with tension sigma = 6.0 times 10 to the 98 kg/(m·s²) (Vol 1, Eq. 1.5.28). When the Waters Above field Psi sub A couples to this boundary, the membrane generates an additional potential contribution.
+The Firmament is a domain wall with tension sigma = 6.0 times 10 to the 98 kg/(m·s²) (Vol 1, Eq. 1.5.28). When the Waters Above field Psi sub A couples to this boundary, the Firmament membrane generates an additional potential contribution.
 
-The physical mechanism is as follows. The Waters field near xi = 0 experiences the enormous stress-energy of the Firmament. The membrane is not a passive boundary — it is a dynamical object whose tension curves the ambient geometry. In Vol 1 §5.4, we computed the extrinsic curvature tensor K to the ( xi ) sub mu nu (Eq. 1.5.17) and showed that it creates a discontinuity in the normal derivative of the metric at the Firmament surface. This discontinuity — the junction condition (Eq. 1.5.42) — means that fields living on either side of the membrane experience a potential "step" at xi = 0.
+The physical mechanism is as follows. The Waters field near xi = 0 experiences the enormous stress-energy of the Firmament. The Firmament membrane is not a passive boundary — it is a dynamical object whose tension curves the ambient geometry. In Vol 1 §5.4, we computed the extrinsic curvature tensor K to the ( xi ) sub mu nu (Eq. 1.5.17) and showed that it creates a discontinuity in the normal derivative of the metric at the Firmament surface. This discontinuity — the junction condition (Eq. 1.5.42) — means that fields living on either side of the Firmament membrane experience a potential "step" at xi = 0.
 
-For the Waters Above scalar, the practical effect is twofold. First, the kinetic term the expression is amplified near the boundary because the warp factor changes rapidly there. Second, the boundary curvature creates a gradient energy contribution that is negative: the field "wants" to be large near the Firmament, because the membrane tension penalizes configurations where the field vanishes at the boundary. You can think of it like a trampoline — the tension in the membrane pulls the field downward, favoring a non-zero displacement.
+For the Waters Above scalar, the practical effect is twofold. First, the kinetic term the expression is amplified near the boundary because the warp factor changes rapidly there. Second, the boundary curvature creates a gradient energy contribution that is negative: the field "wants" to be large near the Firmament, because the Firmament tension penalizes configurations where the field vanishes at the boundary. You can think of it like a trampoline — the tension in the Firmament membrane pulls the field downward, favoring a non-zero displacement.
 
 The result is a contribution to the effective mass-squared that is negative:
 
 [Equation — see print edition.]
 
-where alpha is a dimensionless coupling factor of order 0.1–0.2. This factor is not yet derived from first principles — it is phenomenologically determined from the requirement that the resulting VEV match the measured value v = 246.22 GeV. The detailed calculation of alpha from the junction conditions (Vol 1, Eq. 1.5.42) and the Firmament extrinsic curvature requires solving the coupled boundary-value problem in the full 6D metric, which is deferred to Vol 4 Appendix A. For now, we take alpha as a boundary-matching parameter that encodes the strength of the membrane-scalar coupling. The derivation status of this parameter is SEMI-RIGOROUS: the mechanism (membrane tension → negative mass-squared) is physical and forced by the geometry, but the precise magnitude requires a calculation that is not yet complete.
+where alpha is a dimensionless coupling factor of order 0.1–0.2. This factor is not yet derived from first principles — it is phenomenologically determined from the requirement that the resulting VEV match the measured value v = 246.22 GeV. The detailed calculation of alpha from the junction conditions (Vol 1, Eq. 1.5.42) and the Firmament extrinsic curvature requires solving the coupled boundary-value problem in the full 6D metric, which is deferred to Vol 4 Appendix A. For now, we take alpha as a boundary-matching parameter that encodes the strength of the Firmament membrane-scalar coupling. The derivation status of this parameter is SEMI-RIGOROUS: the mechanism (Firmament tension → negative mass-squared) is physical and forced by the geometry, but the precise magnitude requires a calculation that is not yet complete.
 
-What is forced by the physics is the sign. The membrane tension sigma > 0, and the boundary coupling generates an attractive term (the field is drawn toward the Firmament surface). This attraction manifests as a negative contribution to the effective mass-squared.
+What is forced by the physics is the sign. The Firmament tension sigma > 0, and the boundary coupling generates an attractive term (the field is drawn toward the Firmament surface). This attraction manifests as a negative contribution to the effective mass-squared.
 
 The Effective 4D Potential.
 
@@ -167,7 +169,7 @@ After integrating the 6D action over the extra dimensions with the KK mode profi
 
 [Equation — see print edition.]
 
-The dominant contribution comes from near xi = 0 (the Firmament), where the mode function has its steepest gradient and the membrane coupling is strongest. Collecting all terms:
+The dominant contribution comes from near xi = 0 (the Firmament), where the mode function has its steepest gradient and the Firmament coupling is strongest. Collecting all terms:
 
 [Equation — see print edition.]
 
@@ -183,7 +185,7 @@ The overlap integrals I xi and I eta come from integrating the fourth power of t
 
 using the identity to the 4 u = (3 - 4 2u + 4u)/8.
 
-The key point: when the expression, the effective mu to the 2 is positive, and the potential has the Mexican hat shape with a negative coefficient on |H| to the 2. The membrane tension overwhelms the bare mass, destabilizing the symmetric vacuum.
+The key point: when the expression, the effective mu to the 2 is positive, and the potential has the Mexican hat shape with a negative coefficient on |H| to the 2. The Firmament tension overwhelms the bare mass, destabilizing the symmetric vacuum.
 
 Numerically, from the zone parameters:
 
@@ -199,11 +201,11 @@ Why This Is Not Fine-Tuning.
 
 A common objection to the Standard Model Higgs mechanism is the "hierarchy problem" — why is the electroweak scale (246 GeV) so much smaller than the Planck scale (10 to the 19 GeV)? In the SM, this requires exquisite cancellation between the bare mass and quantum corrections.
 
-In the zone framework, there is no hierarchy problem. The electroweak scale emerges from the ratio of the membrane tension to the extra-dimensional extent:
+In the zone framework, there is no hierarchy problem. The electroweak scale emerges from the ratio of the Firmament tension to the extra-dimensional extent:
 
 [Equation — see print edition.]
 
-Converting to natural units: mu approximately 88 GeV. The large membrane tension is divided by the large cosmological scale, producing a modest number. This is dimensional analysis, not cancellation. The hierarchy is explained by the geometry of the extra dimensions, not balanced on a knife's edge.
+Converting to natural units: mu approximately 88 GeV. The large Firmament tension is divided by the large cosmological scale, producing a modest number. This is dimensional analysis, not cancellation. The hierarchy is explained by the geometry of the extra dimensions, not balanced on a knife's edge.
 
 Spontaneous Symmetry Breaking and Gauge Boson Masses.
 
@@ -242,7 +244,9 @@ The experimentally measured value, determined from the Fermi constant G sub F (m
 
 [Equation — see print edition.]
 
-Agreement: better than 0.1%. The electroweak scale is not fitted — it is derived from the zone geometry.
+Agreement: better than 0.1%.
+
+⚠ PARAMETER DISCLOSURE (Rev. 2026-05-14): The parameter α (coupling Firmament tension to the Higgs potential) is phenomenologically determined in this derivation by matching to the observed Higgs VEV v = 246.22 GeV. The agreement "v_predicted = 246.2 GeV" is therefore a calibration, not a prediction — α was chosen to produce this value. Downstream results (W mass, Z mass) that depend on the VEV are genuine predictions given this calibration; they are NOT independent confirmations of the framework. The W and Z masses pass not because they were independently derived but because they depend on the calibrated VEV. A true prediction would require deriving α from first principles without using the measured VEV. This derivation is deferred to Vol 4 Appendix A.
 
 The Goldstone Mechanism and Gauge Boson Masses.
 
@@ -380,6 +384,8 @@ The first term is the fermion mass term:
 
 [Equation — see print edition.]
 
+(Depends on Assumption 10.1 — spin-1/2 fermions from bosonic membrane, Open Problem OP-1. The fermion field psi sub f in this section is treated as a given vortex zero mode; the derivation of its spin-1/2 character from the bosonic Waters Above field is the subject of OP-1, Vol 6 Ch 14.)
+
 The second term describes the coupling of the fermion to the physical Higgs boson — the interaction probed at the LHC. The strength of both terms is controlled by the same parameter y sub f. This means: the heavier a particle is, the more strongly it couples to the Higgs boson. The top quark, being the heaviest fermion, has the strongest Higgs coupling (y sub t approximately equal to 1). The electron, being light, has a tiny coupling (y sub e approximately equal to 3 times 10 to the -6).
 
 The Origin of Yukawa Couplings: Overlap Integrals.
@@ -396,7 +402,7 @@ where lambda sub 0 is a dimensionless coupling from the 6D theory, and the facto
 
 The Higgs Profile.
 
-The Higgs condensate is localized near the Firmament because the membrane tension creates the potential minimum there. The spatial profile is approximately Gaussian:
+The Higgs condensate is localized near the Firmament because the Firmament tension creates the potential minimum there. The spatial profile is approximately Gaussian:
 
 [Equation — see print edition.]
 
@@ -551,9 +557,9 @@ The Complete Picture.
 
 [Figure — see print edition.]
 
-The mass spectrum predicted by the zone framework spans twelve orders of magnitude and agrees with experiment to better than 1% for most particles. The entire spectrum emerges from:
+The mass spectrum predicted by the zone framework spans twelve orders of magnitude. The framework predicts the correct order of magnitude for all particle masses, achieving <1% accuracy for gauge bosons and <5% for well-constrained leptons, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. The entire spectrum emerges from:
 
-1. The Higgs VEV v = 246.22 GeV (from membrane tension and zone geometry)
+1. The Higgs VEV v = 246.22 GeV (from Firmament tension and zone geometry)
 2. The Yukawa couplings y sub f (from overlap integrals determined by mode number)
 3. The hierarchy parameter alpha approximately equal to 1.0 (from the ratio of Higgs width to extra-dimensional scale)
 
@@ -582,7 +588,7 @@ Where the Zone Framework Goes Beyond the Standard Model.
 The Standard Model postulates; the zone framework derives:
 
 Feature: Higgs field existence. Standard Model: Postulated. Zone Framework: Derived (lowest KK mode of Waters Above).
-Feature: Mexican hat potential. Standard Model: Postulated (- mu to the 2, lambda are free). Zone Framework: Derived (membrane tension → negative mu to the 2; overlap integrals → lambda).
+Feature: Mexican hat potential. Standard Model: Postulated (- mu to the 2, lambda are free). Zone Framework: Derived (Firmament tension → negative mu to the 2; overlap integrals → lambda).
 Feature: VEV v = 246 GeV. Standard Model: Fitted to Fermi constant. Zone Framework: Derived from sigma and xi sub A.
 Feature: Yukawa couplings. Standard Model: 12 free parameters. Zone Framework: Constrained by overlap integrals (1–3 geometric parameters).
 Feature: Mass hierarchy. Standard Model: Unexplained. Zone Framework: Exponential suppression from oscillatory overlap.
@@ -630,7 +636,7 @@ Let us trace the complete chain from first principles to particle masses:
 
 2. This chapter, §7.1: KK decomposition produces a tower of 4D scalars. The lowest mode is the Higgs doublet the expression (3.7.7).
 
-3. §7.2: Firmament membrane tension creates a negative mass-squared term (3.7.12), generating the Mexican hat potential (3.7.14).
+3. §7.2: Firmament tension creates a negative mass-squared term (3.7.12), generating the Mexican hat potential (3.7.14).
 
 4. §7.3: The field rolls to the minimum. VEV v = 246.22 GeV (3.7.22). Goldstone mechanism gives mass to the expression and Z to the 0 (3.7.26, 3.7.30). Photon stays massless (3.7.33).
 
@@ -643,7 +649,7 @@ Every step traces to previously established results. No new postulates were intr
 What This Establishes.
 
 - Mass is not fundamental. It is generated by the coupling between topological defects and the zone architecture's condensate.
-- The electroweak scale is not arbitrary. It is the ratio of membrane tension to the cosmological extent of the Waters Above: v approximately square root of sigma c / xi sub A.
+- The electroweak scale is not arbitrary. It is the ratio of Firmament tension to the cosmological extent of the Waters Above: v approximately square root of sigma c / xi sub A.
 - The mass hierarchy is not mysterious. It is the inevitable consequence of oscillatory overlap between standing-wave modes and a localized condensate.
 - The Standard Model Higgs mechanism is correct — and explained. Everything the SM gets right, the zone framework derives. What the SM leaves as free parameters, the zone framework constrains.
 
@@ -694,7 +700,7 @@ Computational Problems.
 
 Conceptual Problems.
 
-3.7.5. Explain physically why the membrane tension sigma creates a negative contribution to the effective mass-squared of the Higgs field. Why is the sign crucial for the Higgs mechanism? What would happen if sigma were too small?
+3.7.5. Explain physically why the Firmament tension sigma creates a negative contribution to the effective mass-squared of the Higgs field. Why is the sign crucial for the Higgs mechanism? What would happen if sigma were too small?
 
 3.7.6. The photon remains massless after electroweak symmetry breaking. Explain why in terms of the unbroken U(1) sub EM generator. What specific linear combination of W to the 3 and B does the photon correspond to, and why does this combination not couple to the Higgs VEV?
 

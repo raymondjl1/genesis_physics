@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Interactions of created bodies) | Genesis 1:27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action, Classical Gravity on Membrane | ACTION_6D_COMPLETE.md, 01-APPLIED_GRAVITY_CALCULATIONS.md |
 > | **This Document** | **N-body problem on membrane, gravitational dynamics, orbital mechanics, gravitational constant G, chaotic systems** | **01-NBODY_DYNAMICS.md** |
 > | Modern Equivalent | Celestial mechanics, N-body simulation, Hamiltonian dynamics | Convergence: reproduces two-body solution, orbital stability criteria, gravitational coupling constant |
@@ -13,13 +13,13 @@
 
 ## Foundation: Gravitational Dynamics on the 6D Membrane
 
-Classical mechanics on the 6D membrane is governed by Newton's laws extended to the membrane geometry. The gravitational potential follows from solutions to the 6D Poisson equation, but for objects confined to Zone A (the membrane), interactions are effectively 2D in space + 1D in time (embedded in higher dimensions).
+Classical mechanics on the 6D membrane is governed by Newton's laws extended to the Firmament geometry. The gravitational potential follows from solutions to the 6D Poisson equation, but for objects confined to Zone A (the Firmament), interactions are effectively 2D in space + 1D in time (embedded in higher dimensions).
 
-The N-body Hamiltonian on the membrane:
+The N-body Hamiltonian on the Firmament:
 
 $$H = \sum_{i=1}^N \frac{\mathbf{p}_i^2}{2m_i} - \sum_{i<j} \frac{G m_i m_j}{|\mathbf{r}_i - \mathbf{r}_j|}$$
 
-describes $N$ point masses under their mutual gravitational attraction, with all positions confined to the membrane.
+describes $N$ point masses under their mutual gravitational attraction, with all positions confined to the Firmament.
 
 ---
 
@@ -53,7 +53,7 @@ $$e = \sqrt{1 + \frac{2EL^2}{\mu(Gm_1m_2)^2}}$$
 2. $L = $ constant (equal areas in equal times)
 3. Period $T^2 \propto a^3$ (semi-major axis)
 
-**Membrane interpretation:** Two-body gravity on the membrane admits exact solutions because the problem is integrable—there are enough conserved quantities (energy, angular momentum, Runge-Lenz vector) to reduce the dynamics to quadrature (solvable by integration).
+**Firmament interpretation:** Two-body gravity on the Firmament membrane admits exact solutions because the problem is integrable—there are enough conserved quantities (energy, angular momentum, Runge-Lenz vector) to reduce the dynamics to quadrature (solvable by integration).
 
 ### Three-Body Problem: Chaos and Lyapunov Exponents
 
@@ -88,7 +88,7 @@ A simplified three-body setup: Two massive bodies (e.g., Sun and Jupiter) orbit 
 
 The **L₄/L₅ points** are stable due to Coriolis forces. They trap asteroids ("Trojan asteroids," e.g., Jupiter Trojans, Greek camp at L₄, Trojan camp at L₅).
 
-**Membrane dynamics:** The N-body problem on the membrane exhibits the same chaos and Lagrange-point structure as in 3D, because the symmetry and conservation laws of the gravitational interaction are preserved in the membrane embedding.
+**Firmament membrane dynamics:** The N-body problem on the Firmament membrane exhibits the same chaos and Lagrange-point structure as in 3D, because the symmetry and conservation laws of the gravitational interaction are preserved in the Firmament membrane embedding.
 
 $$\boxed{\text{N-body chaos: } \delta(t) \sim e^{\lambda t} \quad \text{(exponential sensitivity)}}$$
 
@@ -144,7 +144,7 @@ $$\boxed{k_B = 1.380649 \times 10^{-23} \text{ J/K (exact)}}$$
 
 This definition connects the macroscopic concept of temperature (in Kelvins) to microscopic energy (in Joules). From this definition, all other constants flow: the molar gas constant $R = N_A k_B$, entropy $S$, free energy $F$, etc.
 
-### Membrane Interpretation: Statistical Mechanics of Membrane Modes
+### Firmament Interpretation: Statistical Mechanics of Firmament Modes
 
 On the 6D membrane, thermal equilibrium is a statistical ensemble of excitations (phonons, electrons, etc.). The equipartition theorem states that each quadratic degree of freedom contributes $\frac{1}{2}k_B T$ to average energy:
 
@@ -162,7 +162,7 @@ At low temperature ($k_B T \ll \hbar\omega$), quantum effects dominate:
 
 $$\langle E \rangle \approx \frac{\hbar\omega}{2}$$
 
-The Boltzmann constant is therefore the **scale factor** that defines when quantum effects become important on the membrane:
+The Boltzmann constant is therefore the **scale factor** that defines when quantum effects become important on the Firmament:
 
 $$\boxed{k_B = \text{Quantum-to-classical crossover scale}}$$
 
@@ -192,9 +192,9 @@ $$\boxed{N_A = 6.02214076 \times 10^{23} \text{ mol}^{-1} \text{ (exact)}}$$
 
 In SI 2019, $N_A$ was redefined to be exact, anchoring the mole as a counting unit. Previously, the mole was defined as the number of carbon-12 atoms in exactly 12 grams of C-12; now, $N_A$ is fundamental, and the molar mass of C-12 is a derived quantity.
 
-### Membrane Interpretation: Counting Excitations on the Membrane
+### Firmament Interpretation: Counting Excitations on the Membrane
 
-On the 6D membrane, matter consists of atoms, electrons, photons, etc. — all described as excitations of the membrane quantum field. The number of excitations is a discrete, countable quantity.
+On the 6D membrane, matter consists of atoms, electrons, photons, etc. — all described as excitations of the Firmament quantum field. The number of excitations is a discrete, countable quantity.
 
 **Relationship between atomic/molecular mass and Avogadro's number:**
 
@@ -209,13 +209,13 @@ For example, carbon-12:
 
 The molar mass in g/mol equals the atomic mass in u — a convenient mnemonic, now exact.
 
-### Membrane Excitation Density and Thermodynamics
+### Firmament Excitation Density and Thermodynamics
 
-In a macroscopic sample on the membrane, the number of atoms is:
+In a macroscopic sample on the Firmament, the number of atoms is:
 
 $$N = n_A N_A$$
 
-where $n_A$ is the number of moles. The particle density on the membrane:
+where $n_A$ is the number of moles. The particle density on the Firmament:
 
 $$n = \frac{N}{V} = \frac{n_A N_A}{V}$$
 
@@ -225,13 +225,13 @@ $$PV = N k_B T$$
 
 This is the **ideal gas law** at the microscopic level, relating pressure (macroscopic) to energy and particle count (microscopic).
 
-**Consistency in Membrane Framework:**
+**Consistency in Firmament Framework:**
 
 The Boltzmann constant $k_B$ and Avogadro's number $N_A$ are related by:
 
 $$R = k_B N_A = 1.380649 \times 10^{-23} \times 6.02214076 \times 10^{23} = 8.314462618 \text{ J/(mol·K)}$$
 
-This relationship is **exact by definition in SI 2019**. On the membrane, it reflects a deep principle:
+This relationship is **exact by definition in SI 2019**. On the Firmament, it reflects a deep principle:
 
 $$\boxed{R = k_B N_A \quad \text{(exact definition)}}$$
 
@@ -246,8 +246,8 @@ This connects:
 
 | **Constant** | **SI 2019 Value** | **Meaning** | **Membrane Derivation** | **Consistency Test** |
 |---|---|---|---|---|
-| $k_B$ | $1.380649 \times 10^{-23}$ J/K (exact) | Thermal energy scale | Equipartition on membrane modes | ✓ Quantum-to-classical crossover |
-| $N_A$ | $6.02214076 \times 10^{23}$ mol⁻¹ (exact) | Particle count per mole | Counting membrane excitations | ✓ Molar mass = atomic mass (in u = g/mol) |
+| $k_B$ | $1.380649 \times 10^{-23}$ J/K (exact) | Thermal energy scale | Equipartition on Firmament modes | ✓ Quantum-to-classical crossover |
+| $N_A$ | $6.02214076 \times 10^{23}$ mol⁻¹ (exact) | Particle count per mole | Counting Firmament excitations | ✓ Molar mass = atomic mass (in u = g/mol) |
 | $R$ | $8.314462618$ J/(mol·K) (derived) | Gas constant | $R = k_B N_A$ (exact) | ✓ Ideal gas law: $PV = nRT = Nk_BT$ |
 | Speed of light $c$ | $299792458$ m/s (exact) | Causal limit, membrane speed | Geometric invariant in 6D | ✓ Lorentz invariance |
 | Planck constant $h$ | $6.62607015 \times 10^{-34}$ J·s (exact) | Quantum of action | Membrane uncertainty: $\Delta x \Delta p \geq \hbar/2$ | ✓ Quantum mechanics |
@@ -268,17 +268,17 @@ This connects:
 
 ## Unified View: Dynamics & Constants on the Membrane
 
-The Genesis Physics 6D membrane framework yields a coherent picture of classical and quantum scales:
+The Genesis Physics 6D Firmament framework yields a coherent picture of classical and quantum scales:
 
-1. **Classical N-body dynamics** (gravity, chaos, Lagrange points) govern macroscopic objects on the membrane. Integrable systems (2-body) yield exact solutions; chaotic systems (N≥3) show exponential sensitivity to initial conditions.
+1. **Classical N-body dynamics** (gravity, chaos, Lagrange points) govern macroscopic objects on the Firmament membrane. Integrable systems (2-body) yield exact solutions; chaotic systems (N≥3) show exponential sensitivity to initial conditions.
 
-2. **Boltzmann constant $k_B$** defines the thermal energy scale on the membrane. It emerges from the equipartition theorem applied to membrane vibrational modes. All thermodynamic functions (entropy, free energy) depend on $k_B$.
+2. **Boltzmann constant $k_B$** defines the thermal energy scale on the Firmament. It emerges from the equipartition theorem applied to Firmament membrane vibrational modes. All thermodynamic functions (entropy, free energy) depend on $k_B$.
 
-3. **Avogadro's number $N_A$** counts the number of atomic/molecular excitations of the membrane per mole. It is the bridge between microscopic (particle) and macroscopic (molar) descriptions.
+3. **Avogadro's number $N_A$** counts the number of atomic/molecular excitations of the Firmament per mole. It is the bridge between microscopic (particle) and macroscopic (molar) descriptions.
 
-4. **Consistency of definitions:** In SI 2019, $k_B$ and $N_A$ are defined exactly, making $R = k_B N_A$ also exact. This exact relationship validates the deep connection between thermodynamics (macroscopic) and statistical mechanics (microscopic) on the membrane.
+4. **Consistency of definitions:** In SI 2019, $k_B$ and $N_A$ are defined exactly, making $R = k_B N_A$ also exact. This exact relationship validates the deep connection between thermodynamics (macroscopic) and statistical mechanics (microscopic) on the Firmament.
 
-5. **All four tests** (1.9, 10.5, 10.10, and the implied consistency) confirm that the membrane framework unifies:
+5. **All four tests** (1.9, 10.5, 10.10, and the implied consistency) confirm that the Firmament framework unifies:
    - Deterministic dynamics (N-body Hamiltonian)
    - Statistical ensemble behavior (Boltzmann)
    - Particle counting (Avogadro)
@@ -288,7 +288,7 @@ The Genesis Physics 6D membrane framework yields a coherent picture of classical
 
 ## Extended Discussion: Quantum-Classical Boundary
 
-The Boltzmann constant $k_B$ and Planck constant $h$ (or $\hbar = h/2\pi$) define the quantum-to-classical crossover on the membrane:
+The Boltzmann constant $k_B$ and Planck constant $h$ (or $\hbar = h/2\pi$) define the quantum-to-classical crossover on the Firmament:
 
 - **Classical domain:** $E \gg k_B T$ (or $\hbar\omega \ll k_B T$). Particles move in well-defined orbits; thermal energy is much smaller than energy scale of interest.
 
@@ -308,7 +308,7 @@ $$\Theta_D = \frac{\hbar\omega_D}{k_B} \approx 343 \text{ K}$$
 
 Below 343 K, the specific heat of Cu deviates from the Dulong-Petit classical value $3Nk_B$ due to quantum mode freezing. Above 343 K, classical equipartition applies. Observation confirms this boundary exists and matches the predicted value.
 
-Thus, **$k_B$ is the fundamental scale that determines when the membrane transitions from quantum to classical behavior.**
+Thus, **$k_B$ is the fundamental scale that determines when the Firmament transitions from quantum to classical behavior.**
 
 ---
 
@@ -332,4 +332,4 @@ $$t_L = \frac{\ln(10)}{\lambda} \approx \frac{2.3}{0.086} \approx 27 \text{ Myr}
 
 This means that after ~27 million years, an initial error of 1 meter grows to ~10 meters (factor of 10 in uncertainty). After 54 Myr, errors grow to ~100 meters. Observations of ancient lunar impacts (e.g., from meteorite analysis) place limits on how much the Moon's orbit could have changed, consistent with this timescale.
 
-**Conclusion:** Newtonian gravity exactly governs Earth-Moon dynamics, yet prediction beyond ~50 Myr is impossible due to chaos. This demonstrates that **determinism ≠ predictability** — a hallmark of chaotic systems on the membrane.
+**Conclusion:** Newtonian gravity exactly governs Earth-Moon dynamics, yet prediction beyond ~50 Myr is impossible due to chaos. This demonstrates that **determinism ≠ predictability** — a hallmark of chaotic systems on the Firmament membrane.

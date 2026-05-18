@@ -1,16 +1,16 @@
 Foundations Vol 5: The Cosmos — Part III: Cosmology.
 
-"What we call the cosmic microwave background is the oldest photograph ever taken: a single exposure, more than thirteen billion years long, of the surface where light first escaped from matter. The framework whose chapter eight you have just finished promises that this photograph is not a happy accident of fitted parameters but the necessary appearance, on the sky of an observer at z = 0, of the brane FLRW geometry derived three sections ago. The promise is testable. This chapter tests it."
+"What we call the cosmic microwave background is the oldest photograph ever taken: a single exposure, more than thirteen billion years long, of the surface where light first escaped from matter. The framework whose chapter eight you have just finished promises that this photograph is not a happy accident of fitted parameters but the necessary appearance, on the sky of an observer at z = 0, of the Firmament FLRW geometry derived three sections ago. The promise is testable. This chapter tests it."
 
 What This Chapter Is (and Is Not).
 
 Before stating any number, I want to declare what is being derived in this chapter and what is being inherited, because the central technical task — comparing the framework's prediction to Planck 2018 quantitatively — is also the task most easily mistaken for one stronger than it is and for one weaker than it is.
 
-What this chapter does. It takes the sustaining-mode cosmological model of Vol 5 Ch 8 — the brane-projected Waters fluid, the Friedmann era structure, the four density parameters — and walks the chain from there to the observed structure of the cosmic microwave background. The recombination redshift comes out from the Saha equation applied to the brane plasma at the temperature evolved from Ch 8 §8.8.3. The photon decoupling surface comes out from the Boltzmann visibility function. The acoustic peak positions come out from the ratio of the sound horizon to the angular-diameter distance, both computed from the Ch 8 era structure. The peak heights come out from the baryon-loading parameter, which is set by Omega sub b from Ch 8 §8.6.3. The Silk damping envelope comes out from photon diffusion in the prerecombination plasma — and admits, in the framework, an additional and consistent interpretation as membrane viscosity (Vol 1 Ch 5). At the end of the chain, §9.10 computes a quantitative chi to the 2 against the Planck 2018 binned TT data.
+What this chapter does. It takes the sustaining-mode cosmological model of Vol 5 Ch 8 — the Firmament-projected Waters fluid, the Friedmann era structure, the four density parameters — and walks the chain from there to the observed structure of the cosmic microwave background. The recombination redshift comes out from the Saha equation applied to the Firmament plasma at the temperature evolved from Ch 8 §8.8.3. The photon decoupling surface comes out from the Boltzmann visibility function. The acoustic peak positions come out from the ratio of the sound horizon to the angular-diameter distance, both computed from the Ch 8 era structure. The peak heights come out from the baryon-loading parameter, which is set by Omega sub b from Ch 8 §8.6.3. The Silk damping envelope comes out from photon diffusion in the prerecombination plasma — and admits, in the framework, an additional and consistent interpretation as membrane viscosity (Vol 1 Ch 5). At the end of the chain, §9.10 computes a quantitative chi to the 2 against the Planck 2018 binned TT data.
 
 What this chapter does not do. It does not derive the amplitude A sub s or the spectral index n sub s of the primordial power spectrum from first principles. Both depend on the dynamics of the Sabbath Boundary, which is a Vol 1 Ch 11 + Vol 6 task; this chapter inherits them and is honest about it. It does not run a CAMB-equivalent Boltzmann hierarchy; it uses analytical phase corrections from the source documents (CMBTRANSFERFUNCTION.md), which are accurate to a few percent rather than to per-mille. It does not derive the size of the Hubble tension; it identifies the tension as the Sabbath Boundary's observational signature and leaves the quantitative prediction to Vol 6 and Ch 12 of this volume.
 
-A note for the Skeptic reviewer. The hardest question for this chapter is: did you tune anything to match Planck? The honest answer is no, but the reason is subtle. The framework's cosmological inputs — Omega sub A, Omega sub B, Omega sub b, Omega sub r, H sub 0 — were derived in Vol 5 Ch 8 from non-cosmological scales (the brane radius, the nuclear scale, the brane tension; see Ch 8 §8.6.4). This chapter takes those inputs as given and computes the CMB observables. The chain runs (non-cosmological inputs) → (Ch 8 cosmology) → (CMB observables compared to Planck). The match to Planck is therefore a consequence of the chain, not a fit. The Skeptic should still scrutinize this; §9.10 itemizes every input and §9.15 classifies every claim.
+A note for the Skeptic reviewer. The hardest question for this chapter is: did you tune anything to match Planck? The honest answer is no, but the reason is subtle. The framework's cosmological inputs — Omega sub A, Omega sub B, Omega sub b, Omega sub r, H sub 0 — were derived in Vol 5 Ch 8 from non-cosmological scales (the Firmament radius, the nuclear scale, the Firmament tension; see Ch 8 §8.6.4). This chapter takes those inputs as given and computes the CMB observables. The chain runs (non-cosmological inputs) → (Ch 8 cosmology) → (CMB observables compared to Planck). The match to Planck is therefore a consequence of the chain, not a fit. The Skeptic should still scrutinize this; §9.10 itemizes every input and §9.15 classifies every claim.
 
 There is one genuine inheritance from observation: the amplitude A sub s of the primordial spectrum. The framework does not derive it in this volume. The chapter is explicit about this in §9.9 and does not claim more.
 
@@ -45,9 +45,9 @@ a consequence of rho sub r proportional to a to the -4 (Ch 8 §8.5.4) and the St
 
 These six items will be used everywhere below, and the chapter is internally a function of them.
 
-From Vol 1 Ch 5 — the brane and its viscosity.
+From Vol 1 Ch 5 — the Firmament and its viscosity.
 
-Vol 1 Ch 5 established the Firmament as a codimension-2 brane Sigma with tension sigma > 0 and mass density mu, supporting transverse waves at speed c to the 2 = sigma / mu (Vol 1 Eq 1.5.37). Of relevance to this chapter is the membrane viscosity introduced in Vol 1 §5.7 — the dissipative coupling of brane modes to extra-dimensional Waters fluctuations. We will revisit this in §9.8.2 as the framework's interpretation of Silk damping.
+Vol 1 Ch 5 established the Firmament as a codimension-2 Firmament Sigma with tension sigma > 0 and mass density mu, supporting transverse waves at speed c to the 2 = sigma / mu (Vol 1 Eq 1.5.37). Of relevance to this chapter is the membrane viscosity introduced in Vol 1 §5.7 — the dissipative coupling of Firmament modes to extra-dimensional Waters fluctuations. We will revisit this in §9.8.2 as the framework's interpretation of Silk damping.
 
 From Vol 1 Ch 11 — sustaining mode and the Sabbath Boundary.
 
@@ -83,7 +83,7 @@ Vol 4 Ch 10 derived the particle spectrum and worked out weak-interaction freeze
 
 From Vol 5 Ch 7 — the past timelike boundary.
 
-Vol 5 Ch 7 (Theorem 5.7.3) replaced the Big Bang singularity with a brane-nucleation surface — a regular past timelike boundary. The radiation-era integration in §9.5 begins on that surface; this chapter does not derive the surface, only inherits it.
+Vol 5 Ch 7 (Theorem 5.7.3) replaced the Big Bang singularity with a Firmament-nucleation surface — a regular past timelike boundary. The radiation-era integration in §9.5 begins on that surface; this chapter does not derive the surface, only inherits it.
 
 The toolkit is complete. We turn to the thermal history.
 
@@ -113,11 +113,11 @@ The two epochs the chapter must compute on its own — recombination and decoupl
 
 Recombination: The Saha Crossover.
 
-Recombination is the moment the brane plasma cools enough that free electrons and protons combine into neutral hydrogen, the photons stop scattering, and the universe becomes transparent. In the framework, this is not a separate physics input — it is the Saha equation of Vol 3 Ch 12 evaluated on the temperature-redshift relation of §9.2 with the baryon density of Ch 8 §8.6.3.
+Recombination is the moment the Firmament plasma cools enough that free electrons and protons combine into neutral hydrogen, the photons stop scattering, and the universe becomes transparent. In the framework, this is not a separate physics input — it is the Saha equation of Vol 3 Ch 12 evaluated on the temperature-redshift relation of §9.2 with the baryon density of Ch 8 §8.6.3.
 
 Why is the recombination crossover at T_ approximately equal to 0.26 eV instead of at the hydrogen binding energy B sub H = 13.6 eV? Because the photon-to-baryon ratio is enormous. There are about 1.6 times 10 to the 9 photons per baryon in the universe today, and the same ratio held at recombination because both number densities scale as a to the -3. The average photon energy at T = 13.6 eV is just approximately 3 k sub B T approximately 40 eV — well above B sub H — but only the high-energy tail of the Planck distribution above B sub H is what matters for ionization, and the tail is exponentially suppressed. The crossover occurs at the temperature for which the integrated tail above B sub H is comparable to the baryon number rather than the photon* number, and this happens at the expression eV. The Saha equation gets the precise value.
 
-The Saha equation applied to the brane plasma.
+The Saha equation applied to the Firmament plasma.
 
 We start from Vol 3 Ch 12 Eq (5.9.5) restated here in compact form:
 
@@ -145,7 +145,7 @@ The full Peebles treatment is a Vol 4 Ch 10 inheritance — specifically the rat
 
 The temperature at recombination.
 
-The brane temperature at the recombination redshift is
+The Firmament temperature at the recombination redshift is
 
 [Equation — see print edition.]
 
@@ -195,7 +195,7 @@ The decoupling surface is now characterized. We turn to the geometry that maps i
 
 The Sound Horizon and the Angular-Diameter Distance to Last Scattering.
 
-Two integrals control the angular position of every CMB feature: the sound horizon the expression — the comoving distance a sound wave travels in the baryon-photon plasma from the brane-nucleation surface to recombination — and the angular-diameter distance the expression — the comoving distance from recombination to us. The observed peak structure of the CMB is, to leading order, the ratio of these two integrals projected onto the sky.
+Two integrals control the angular position of every CMB feature: the sound horizon the expression — the comoving distance a sound wave travels in the baryon-photon plasma from the Firmament-nucleation surface to recombination — and the angular-diameter distance the expression — the comoving distance from recombination to us. The observed peak structure of the CMB is, to leading order, the ratio of these two integrals projected onto the sky.
 
 Why are these the only two ingredients? Because the acoustic wavelength at recombination is set by the sound horizon (the longest distance a pressure wave can have traveled from t = 0 up to last scattering), and the angular size on the sky of any physical scale at recombination is set by the expression. The first peak position ell sub 1 approximately pi d sub A/r sub s is the fundamental result of CMB cosmology, and it depends on cosmology only through these two integrals.
 
@@ -221,7 +221,7 @@ The plasma is relativistic but slowed appreciably by baryon inertia.
 
 The sound horizon integral.
 
-The sound horizon the expression is the comoving distance a sound wave travels from the brane-nucleation surface to recombination:
+The sound horizon the expression is the comoving distance a sound wave travels from the Firmament-nucleation surface to recombination:
 
 [Equation — see print edition.]
 
@@ -231,7 +231,7 @@ Two limiting estimates make the result transparent. In the deep radiation era (z
 
 [Equation — see print edition.]
 
-The uncertainty quoted (plus or minus 1 Mpc) is the propagation of the Ch 8 Omega sub i uncertainties through the integral (5.9.18); it is not a fit to the CMB. The lower limit of the integral — the brane-nucleation surface of Vol 5 Ch 7 — does not introduce a divergence: in the deep radiation era the integrand is proportional to (1+z) to the -3, which falls fast enough that the upper-limit contribution dominates and the integral converges. (For comparison, Planck 2018 quotes the expression Mpc from its LambdaCDM fit; the framework's value agrees within the framework's larger error bar.)
+The uncertainty quoted (plus or minus 1 Mpc) is the propagation of the Ch 8 Omega sub i uncertainties through the integral (5.9.18); it is not a fit to the CMB. The lower limit of the integral — the Firmament-nucleation surface of Vol 5 Ch 7 — does not introduce a divergence: in the deep radiation era the integrand is proportional to (1+z) to the -3, which falls fast enough that the upper-limit contribution dominates and the integral converges. (For comparison, Planck 2018 quotes the expression Mpc from its LambdaCDM fit; the framework's value agrees within the framework's larger error bar.)
 
 The angular-diameter distance to last scattering.
 
@@ -379,7 +379,7 @@ The headline statement: the framework's predicted C sub 2/C sub 1 approximately 
 
 Why this is a clean test of Omega sub b.
 
-The peak heights depend on the expression, and Omega _ gamma is fixed by T sub 0 (which was derived in Ch 8 §8.8.3) and rho sub crit,0 (which was derived in Ch 8 §8.6.1). So the only cosmological input to the peak height ratios is Omega sub b, which Ch 8 inherits from the brane tension sigma in Vol 1 §5.6 — i.e., from a non-cosmological scale. The match of the predicted to the observed peak heights is therefore a clean test of the framework's claim that Omega sub b can be predicted from the bulk-field scales.
+The peak heights depend on the expression, and Omega _ gamma is fixed by T sub 0 (which was derived in Ch 8 §8.8.3) and rho sub crit,0 (which was derived in Ch 8 §8.6.1). So the only cosmological input to the peak height ratios is Omega sub b, which Ch 8 inherits from the Firmament tension sigma in Vol 1 §5.6 — i.e., from a non-cosmological scale. The match of the predicted to the observed peak heights is therefore a clean test of the framework's claim that Omega sub b can be predicted from the bulk-field scales.
 
 [Figure — see print edition.]
 
@@ -411,17 +411,17 @@ The Silk damping envelope is
 
 which suppresses the acoustic peaks above ell approximately ell sub d exponentially. (Planck 2018 measures ell sub d approximately equal to 1330 from the spectrum shape; the framework's approximately 1300 is consistent.)
 
-The membrane-viscosity interpretation.
+The Firmament-viscosity interpretation.
 
-There is a second route to the same answer in the framework. In the brane picture (Vol 1 Ch 5), the Firmament has a small but nonzero viscosity coming from the coupling of brane modes to extra-dimensional Waters fluctuations. Vol 1 §5.7 derived the membrane viscosity as
+There is a second route to the same answer in the framework. In the Firmament picture (Vol 1 Ch 5), the Firmament has a small but nonzero viscosity coming from the coupling of Firmament modes to extra-dimensional Waters fluctuations. Vol 1 §5.7 derived the Firmament viscosity as
 
 [Equation — see print edition.]
 
 where eta  bulk is the bulk viscosity density in the Waters fields. The damping rate of an acoustic mode of wavenumber k in a fluid with effective viscosity eta  mem is Gamma sub k = eta _ mem k to the 2/ rho, and the corresponding damping length over a Hubble time is the expression.
 
-Inserting the Vol 1 §5.7 estimate of eta _ mem and the Ch 8 cosmological densities at recombination yields a damping length consistent with (5.9.36) to within the (large) uncertainties of the bulk-viscosity calculation. This is not a separate damping mechanism; it is the same dissipation seen from the bulk side. The two pictures are equivalent because the photon scattering on free electrons in the brane plasma is the brane-side manifestation of the bulk-viscosity process when the dynamics are projected onto the brane.
+Inserting the Vol 1 §5.7 estimate of eta _ mem and the Ch 8 cosmological densities at recombination yields a damping length consistent with (5.9.36) to within the (large) uncertainties of the bulk-viscosity calculation. This is not a separate damping mechanism; it is the same dissipation seen from the bulk side. The two pictures are equivalent because the photon scattering on free electrons in the Firmament plasma is the Firmament-side manifestation of the bulk-viscosity process when the dynamics are projected onto the Firmament.
 
-The membrane-viscosity interpretation does not give a better prediction than the photon-diffusion calculation; both pictures land in the same range. What it does give is consistency: the framework's brane mechanics from Vol 1 Ch 5 contains a damping scale that lines up with the standard Silk scale. If the two had disagreed by an order of magnitude, the framework would have a problem. They do not.
+The Firmament-viscosity interpretation does not give a better prediction than the photon-diffusion calculation; both pictures land in the same range. What it does give is consistency: the framework's Firmament mechanics from Vol 1 Ch 5 contains a damping scale that lines up with the standard Silk scale. If the two had disagreed by an order of magnitude, the framework would have a problem. They do not.
 
 [Figure — see print edition.]
 
@@ -429,13 +429,15 @@ The damping envelope is in hand. We have one more inheritance to acknowledge bef
 
 Primordial Power Spectrum: A sub s and n sub s as Inheritances.
 
+Parameter Disclosure — CMB Predictions: The values A sub s = 2.1 times 10 to the -9 and n sub s = 0.965 used in this chapter are adopted from Planck 2018 measurements, not derived from zone architecture. The zone framework currently predicts the correct qualitative CMB features (acoustic oscillations, spatial flatness) but does not yet independently predict A sub s or n sub s. The CMB power spectrum comparison in this chapter is therefore zone architecture dressed in LambdaCDM parameters — a consistency check, not a prediction. True zone-architecture CMB predictions (A sub s, n sub s from first principles) are designated Research Task RT-5.CMB.
+
 Everything in §§9.3–9.8 was derived from inputs that traced back, via Ch 8, to non-cosmological scales. There is one piece of the chain that we have not derived in this volume: the primordial power spectrum. In the standard parameterization,
 
 [Equation — see print edition.]
 
 with A sub s = 2.1 times 10 to the -9, n sub s = 0.965, and pivot scale k sub 0 = 0.05 Mpcto the -1, both of which we are taking from the Planck 2018 fit.
 
-Why is A sub s harder to derive than the peak positions? Because A sub s depends on the amplitude of the metric perturbations on the brane-nucleation surface (Vol 5 Ch 7), and that amplitude depends on the quantum dynamics of the Sabbath Boundary, which is a Vol 1 Ch 11 + Vol 6 task. The peak positions, in contrast, depend only on ratios of integrals — and ratios are insensitive to the overall amplitude.
+Why is A sub s harder to derive than the peak positions? Because A sub s depends on the amplitude of the metric perturbations on the Firmament-nucleation surface (Vol 5 Ch 7), and that amplitude depends on the quantum dynamics of the Sabbath Boundary, which is a Vol 1 Ch 11 + Vol 6 task. The peak positions, in contrast, depend only on ratios of integrals — and ratios are insensitive to the overall amplitude.
 
 We are explicit about this: this chapter does not claim to derive A sub s. It is the chapter's one significant inheritance from observation, and it is flagged as such in §9.15 (claim L11).
 
@@ -492,7 +494,7 @@ The Skeptic's accounting.
 
 This is the part the Skeptic should read carefully. Every input to the predicted curve is in one of four classes:
 
-(I) Inherited from Ch 8 (which inherited from non-cosmological observations). Omega sub A, Omega sub B, Omega sub b, Omega sub r, H sub 0. These were derived in Vol 1 §6.7 from the warp-factor profiles A xi , A eta and the brane tension sigma, with the non-cosmological matching to (i) the brane radius, (ii) the nuclear scale, and (iii) the bulk-to-brane energy-density ratio at brane formation. None of the inputs in this class were fit to cosmological data.
+(I) Inherited from Ch 8 (which inherited from non-cosmological observations). Omega sub A, Omega sub B, Omega sub b, Omega sub r, H sub 0. These were derived in Vol 1 §6.7 from the warp-factor profiles A xi , A eta and the Firmament tension sigma, with the non-cosmological matching to (i) the Firmament radius, (ii) the nuclear scale, and (iii) the bulk-to-Firmament energy-density ratio at Firmament formation. None of the inputs in this class were fit to cosmological data.
 
 (II) Inherited from atomic physics (Vol 2 Ch 3, Vol 3 Ch 12). sigma sub T, m sub e, B sub H. These are fundamental atomic constants, not free parameters of the cosmological model.
 
@@ -502,7 +504,7 @@ This is the part the Skeptic should read carefully. Every input to the predicted
 
 Free parameters tuned to match Planck: zero in this chapter, beyond the overall amplitude inherited from class (III).
 
-The Skeptic's central objection — "you fit the framework to Planck" — is therefore false, in the specific sense that none of the cosmological-scale parameters in class (I) were fit to Planck. The matching that fixed the warp-factor profiles in Vol 1 §6.7 was at non-cosmological scales (brane radius, nuclear scale). The cosmological observations (Ch 8 H sub 0, this chapter's CMB peaks) are consequences.
+The Skeptic's central objection — "you fit the framework to Planck" — is therefore false, in the specific sense that none of the cosmological-scale parameters in class (I) were fit to Planck. The matching that fixed the warp-factor profiles in Vol 1 §6.7 was at non-cosmological scales (Firmament radius, nuclear scale). The cosmological observations (Ch 8 H sub 0, this chapter's CMB peaks) are consequences.
 
 A revised version of the Skeptic's objection — "any framework with the same era structure as LambdaCDM and the same recombination physics will get the same CMB" — is true. The interest of the framework's match is not that it matches (it must match by construction) but that the same set of cosmological parameters that match the CMB are also predicted by Vol 1 §6.7 from non-cosmological scales. The non-trivial claim is the consistency of the chain across scales — not the CMB fit per se.
 
@@ -550,7 +552,7 @@ Big-Bang Nucleosynthesis: Inheritance from Vol 4 Ch 10.
 
 The light-element abundances (Y sub p, D/H, ⁷Li/H) follow from the weak-interaction freeze-out of Vol 4 Ch 10 evaluated on the era structure of Ch 8. The framework agrees with observation at the same level as standard BBN, with the same unresolved ⁷Li problem.
 
-Why does the BBN calculation work the same way in the framework as in LambdaCDM? Because BBN happens at T approximately 1 MeV to 0.1 MeV (z approximately 4 times 10 to the 9 down to approximately 4 times 10 to the 8), deep in the radiation era. In the radiation era, the Friedmann equation is dominated by rho sub r proportional to a to the -4, and rho sub r has the same form in both frameworks because the photon and neutrino content of the brane is the same. The novelty of the framework — the bulk-field origin of Omega sub A and Omega sub B — is irrelevant during BBN because rho sub A and rho sub B are negligible at z approximately 10 to the 9.
+Why does the BBN calculation work the same way in the framework as in LambdaCDM? Because BBN happens at T approximately 1 MeV to 0.1 MeV (z approximately 4 times 10 to the 9 down to approximately 4 times 10 to the 8), deep in the radiation era. In the radiation era, the Friedmann equation is dominated by rho sub r proportional to a to the -4, and rho sub r has the same form in both frameworks because the photon and neutrino content of the Firmament is the same. The novelty of the framework — the bulk-field origin of Omega sub A and Omega sub B — is irrelevant during BBN because rho sub A and rho sub B are negligible at z approximately 10 to the 9.
 
 The neutron-proton freeze-out.
 
@@ -594,7 +596,7 @@ vs the observed approximately equal to 1 times 10 to the -10 from old halo stars
 
 What BBN does for the framework.
 
-BBN gives an independent constraint on Omega sub b from the deuterium abundance, agreeing with the CMB-derived Omega sub b to within the quoted errors. In the framework, both constraints must be consistent with the brane tension sigma from Vol 1 §5.6, since that is the bulk-field origin of Omega sub b. The two-way agreement (BBN-deuterium, CMB-peak-heights) on the same Omega sub b is a nontrivial test of the chain that would be hard to fake. The framework passes it.
+BBN gives an independent constraint on Omega sub b from the deuterium abundance, agreeing with the CMB-derived Omega sub b to within the quoted errors. In the framework, both constraints must be consistent with the Firmament tension sigma from Vol 1 §5.6, since that is the bulk-field origin of Omega sub b. The two-way agreement (BBN-deuterium, CMB-peak-heights) on the same Omega sub b is a nontrivial test of the chain that would be hard to fake. The framework passes it.
 
 The Hubble Tension as the Sabbath-Boundary Signature.
 
@@ -624,6 +626,8 @@ What this is and is not.
 
 This is not a derivation of the size of the Hubble tension. The chapter does not compute Delta H/H from the framework's parameters; that is a Vol 6 task and depends on the precise form of the Boundary thermodynamics from Vol 1 Ch 11. What this is is a signature: the framework has a natural mechanism that would produce a discrepancy of the right kind, while LambdaCDM does not. The Conjecture in §9.15 (claim L18) is that the size of the discrepancy will, when computed from the boundary thermodynamics, agree with the observed value. The chapter does not prove the Conjecture; it identifies it.
 
+Note: The Hubble tension prediction requires computing the expression from the specific kappa-transition parameters of the Sabbath Boundary. Until this calculation is completed (designated Research Task RT-5.H₀), the Hubble tension cannot be claimed as a zone architecture prediction. The structural argument — that a late-time kappa transition would shift the inferred H sub 0 in the right direction — is compelling but unquantified. The Conjecture (§9.15, claim L18) is properly labelled as a conjecture and not as a prediction or a derivation.
+
 [Figure — see print edition.]
 
 We have come to the end of the chapter's physics content. The remaining sections are accounting and bookkeeping.
@@ -649,7 +653,7 @@ This chapter sets up several downstream chapters and a substantial Vol 6 program
 - Ch 10 (Large-Scale Structure) inherits the matter transfer function and the era structure from this chapter. The starting point is the matter perturbation delta sub m at recombination as set by the photon-baryon decoupling computed in §9.4, and the linear growth function for delta sub m in the matter and dark-energy eras follows from the Ch 8 era structure.
 - Ch 11 (Dark Matter and Dark Energy Quantified) uses the CMB-derived constraints on Omega sub A, Omega sub B, Omega sub b from this chapter as the pinning of the bulk-field calculation. The peak heights of §9.7 give an independent constraint on Omega sub b that complements the deuterium constraint of §9.11; the integrated peak shape and the Silk damping scale together pin Omega sub m and Omega sub A. Ch 11 will then go back to Vol 1 §6.7 and verify that the bulk-field calculation gives the same numbers.
 - Ch 12 (The Starlight Problem and Chronology) uses the Sabbath-Boundary signature from §9.12 as part of its chronology argument. The Hubble tension is one of the chronology discriminators; Ch 12 will discuss the others.
-- Vol 6 (Predictions and Simulations) has three load-bearing tasks descended from this chapter: (i) compute the size of the Hubble-tension prediction quantitatively from the boundary thermodynamics of Vol 1 Ch 11; (ii) derive the amplitude A sub s from the brane-nucleation surface dynamics of Vol 5 Ch 7; (iii) run a CAMB-equivalent Boltzmann hierarchy in the framework and re-compute the chi to the 2 of §9.10 with full numerical precision.
+- Vol 6 (Predictions and Simulations) has three load-bearing tasks descended from this chapter: (i) compute the size of the Hubble-tension prediction quantitatively from the boundary thermodynamics of Vol 1 Ch 11; (ii) derive the amplitude A sub s from the Firmament-nucleation surface dynamics of Vol 5 Ch 7; (iii) run a CAMB-equivalent Boltzmann hierarchy in the framework and re-compute the chi to the 2 of §9.10 with full numerical precision.
 
 The chapter is the gateway to the rest of Vol 5's cosmology pillars and to Vol 6's predictive program. It is a load-bearing chapter not because it derives anything new about the universe, but because it certifies that the chain from non-cosmological inputs to the most precisely measured cosmological observable is closed.
 
@@ -658,7 +662,7 @@ Reviewer's Ledger.
 Per Vol 5 internal precedent (Chs 5–8), every load-bearing claim of this chapter is classified as Derivation, Identity, Inheritance, or Conjecture.
 
 #: L1. Claim: Temperature evolution T(z) = T sub 0(1+z). Class: Inheritance. Source / Note: Ch 8 §8.5.4 + §8.8.3.
-#: L2. Claim: Saha equation for the brane plasma, Eq (5.9.6). Class: Inheritance. Source / Note: Vol 3 Ch 12.
+#: L2. Claim: Saha equation for the Firmament plasma, Eq (5.9.6). Class: Inheritance. Source / Note: Vol 3 Ch 12.
 #: L3. Claim: Recombination redshift z_* approximately equal to 1089. Class: Derivation. Source / Note: §9.3, from L1 + L2 + Ch 8 Omega sub b, rho _ crit.
 #: L4. Claim: Visibility function g( eta ) peaks at z_ dec approximately equal to 1089 with width Delta z approximately equal to 80. Class: Derivation. Source / Note: §9.4, from L3 + Vol 4 Ch 10 (Boltzmann) + L2.
 #: L5. Claim: Sound horizon the expression Mpc. Class: Derivation. Source / Note: §9.5.2, from Vol 3 Ch 5 (sound speed) + Ch 8 era structure + L3.
@@ -707,15 +711,15 @@ Conceptual.
 
 9.4. The framework derives the recombination redshift z_, the angular-diameter distance the expression, and the sound horizon the expression. Yet it inherits* the amplitude A sub s of the primordial power spectrum from observation. Why is A sub s in a different epistemic class from the others?
 
-Discussion. The first three depend only on the post-Sabbath-Boundary sustaining-mode dynamics: the era structure, the recombination physics, and the geometry of the past light cone. All of these were either derived in Ch 8 (era structure, Omega sub i) or inherited from earlier volumes (Saha equation, atomic constants). The amplitude A sub s, by contrast, is set by the quantum dynamics of the Sabbath Boundary itself — i.e., by what Vol 1 Ch 11 calls the brane-nucleation event. The amplitude depends on the boundary effective potential and on the wavefunction of the Boundary field, neither of which is a sustaining-mode quantity. The chapter is restricted to sustaining mode, so A sub s has to be inherited; deriving it is a Vol 6 task.
+Discussion. The first three depend only on the post-Sabbath-Boundary sustaining-mode dynamics: the era structure, the recombination physics, and the geometry of the past light cone. All of these were either derived in Ch 8 (era structure, Omega sub i) or inherited from earlier volumes (Saha equation, atomic constants). The amplitude A sub s, by contrast, is set by the quantum dynamics of the Sabbath Boundary itself — i.e., by what Vol 1 Ch 11 calls the Firmament-nucleation event. The amplitude depends on the boundary effective potential and on the wavefunction of the Boundary field, neither of which is a sustaining-mode quantity. The chapter is restricted to sustaining mode, so A sub s has to be inherited; deriving it is a Vol 6 task.
 
 9.5. The Skeptic claims that any cosmological framework that has the same Friedmann era structure as LambdaCDM and the same recombination physics will produce the same CMB spectrum, so the framework's match to Planck "doesn't count." State precisely what is and is not true about this objection.
 
-Discussion. What is true: the equations of CMB physics — recombination, acoustic oscillation, photon diffusion, projection — depend on cosmology only through the era structure and the recombination redshift. Two frameworks with the same era structure and the same recombination physics give the same CMB. So the Skeptic is right that the framework's match to Planck does not, by itself, prefer the framework over LambdaCDM at the CMB. What is not true is the implicit suggestion that this makes the framework's match trivial. The non-trivial claim of the framework is not that it matches the CMB but that the same parameters that match the CMB are predicted from non-cosmological scales (the brane radius, the nuclear scale, the brane tension; Vol 1 §6.7 / Ch 8 §8.6.4). The CMB match is a consistency check on this cross-scale prediction, not a fit.
+Discussion. What is true: the equations of CMB physics — recombination, acoustic oscillation, photon diffusion, projection — depend on cosmology only through the era structure and the recombination redshift. Two frameworks with the same era structure and the same recombination physics give the same CMB. So the Skeptic is right that the framework's match to Planck does not, by itself, prefer the framework over LambdaCDM at the CMB. What is not true is the implicit suggestion that this makes the framework's match trivial. The non-trivial claim of the framework is not that it matches the CMB but that the same parameters that match the CMB are predicted from non-cosmological scales (the Firmament radius, the nuclear scale, the Firmament tension; Vol 1 §6.7 / Ch 8 §8.6.4). The CMB match is a consistency check on this cross-scale prediction, not a fit.
 
 9.6. Why is the second acoustic peak shorter than the first? Explain in your own words and identify the single cosmological parameter that controls the ratio.
 
-Discussion. The photon-baryon fluid oscillates in the gravitational potential well left by the cold dark matter. The baryons add inertia to the fluid; their weight shifts the equilibrium of the oscillation toward the bottom of the well. Compression phases (the odd peaks: k r sub s = pi , 3 pi ,) get enhanced by the baryon weight, while rarefaction phases (the even peaks: k r sub s = 2 pi , 4 pi ,) get suppressed. The asymmetry depends on the baryon-loading parameter the expression, which is set by the single cosmological parameter Omega sub b h to the 2. In the framework, Omega sub b h to the 2 = 0.0223 is inherited from the brane tension sigma (Vol 1 §5.6), so the peak-height ratio is a clean test of that inheritance.
+Discussion. The photon-baryon fluid oscillates in the gravitational potential well left by the cold dark matter. The baryons add inertia to the fluid; their weight shifts the equilibrium of the oscillation toward the bottom of the well. Compression phases (the odd peaks: k r sub s = pi , 3 pi ,) get enhanced by the baryon weight, while rarefaction phases (the even peaks: k r sub s = 2 pi , 4 pi ,) get suppressed. The asymmetry depends on the baryon-loading parameter the expression, which is set by the single cosmological parameter Omega sub b h to the 2. In the framework, Omega sub b h to the 2 = 0.0223 is inherited from the Firmament tension sigma (Vol 1 §5.6), so the peak-height ratio is a clean test of that inheritance.
 
 Challenge.
 

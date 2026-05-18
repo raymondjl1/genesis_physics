@@ -78,7 +78,7 @@ $$\alpha^{-1}_\text{theory} = 137.17 \pm 0.15 \qquad \alpha^{-1}_\text{exp} = 13
 
 | Input | Value | Source | Independent of ℏ? |
 |-------|-------|--------|--------------------|
-| $\sigma$ (membrane tension) | $\approx 6.0 \times 10^{98}$ J/m | Vol 1 Ch 5 | **No** — $\sigma$ is constrained by $c$ and $\mu$, and $\mu$ is constrained by $\hbar$ |
+| $\sigma$ (Firmament tension) | $\approx 6.0 \times 10^{98}$ J/m | Vol 1 Ch 5 | **No** — $\sigma$ is constrained by $c$ and $\mu$, and $\mu$ is constrained by $\hbar$ |
 | $\eta_B$ (Firmament thickness) | $\approx 1.3 \times 10^{-15}$ m | Vol 1 Ch 4 | Partially — constrained by nuclear physics, but refined using $\hbar$ |
 | $c$ (speed of light) | $\sqrt{\sigma/\mu}$ | Vol 1 Ch 5 | Derived |
 
@@ -128,7 +128,7 @@ $$G_{4,\text{theory}} = 6.674 \times 10^{-11}\text{ m}^3\text{kg}^{-1}\text{s}^{
 
 | Step | What happens | Equation | Source |
 |------|-------------|----------|--------|
-| 1 | Membrane oscillation modes | Sturm–Liouville spectrum on compact domain | Vol 1 Ch 10, (1.10.1) |
+| 1 | Firmament membrane oscillation modes | Sturm–Liouville spectrum on compact domain | Vol 1 Ch 10, (1.10.1) |
 | 2 | Count accessible modes | $\Omega = \#\{\text{modes with } \lambda \ge \ell_P\}$ | (5.6.5), (5.15.11) |
 | 3 | Define entropy | $S = k_B \ln \Omega$ | (1.11.7) |
 | 4 | Equipartition from mode statistics | Each mode carries $\frac{1}{2}k_B T$ in thermal equilibrium | Vol 1 Ch 11 |

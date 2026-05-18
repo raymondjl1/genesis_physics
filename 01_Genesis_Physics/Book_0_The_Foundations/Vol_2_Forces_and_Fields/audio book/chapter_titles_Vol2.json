@@ -12,90 +12,90 @@
     {
       "key": "Ch01",
       "title": "Chapter 1: Why Forces Exist",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_01_Why_Forces_Exist\\Ch01_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_01_Why_Forces_Exist\\Ch01_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch01_clean.txt",
-      "word_count": 9772,
-      "char_count": 61093
+      "word_count": 9804,
+      "char_count": 61327
     },
     {
       "key": "Ch02",
       "title": "Chapter 2: Gravity from Zone Curvature",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_02_Gravity_from_Zone_Curvature\\Ch02_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_02_Gravity_from_Zone_Curvature\\Ch02_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch02_clean.txt",
-      "word_count": 6493,
-      "char_count": 39401
+      "word_count": 6970,
+      "char_count": 42448
     },
     {
       "key": "Ch03",
-      "title": "Chapter 3: Electromagnetism from Membrane Wave Propagation",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_03_Electromagnetism_from_Membrane_Wave_Propagation\\Ch03_DRAFT.md",
+      "title": "Chapter 3: Electromagnetism from Firmament Wave Propagation",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_03_Electromagnetism_from_Firmament_Wave_Propagation\\Ch03_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch03_clean.txt",
-      "word_count": 7461,
-      "char_count": 46000
+      "word_count": 7607,
+      "char_count": 46916
     },
     {
       "key": "Ch04",
       "title": "Chapter 4: The Strong and Weak Forces from Zone Boundary Effects",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_04_Strong_and_Weak_Forces_from_Zone_Boundary_Effects\\Ch04_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_04_Strong_and_Weak_Forces_from_Zone_Boundary_Effects\\Ch04_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch04_clean.txt",
-      "word_count": 10865,
-      "char_count": 66594
+      "word_count": 11880,
+      "char_count": 72719
     },
     {
       "key": "Ch05",
       "title": "Chapter 5: The Zone Lagrangian",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_05_The_Zone_Lagrangian\\Ch05_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_05_The_Zone_Lagrangian\\Ch05_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch05_clean.txt",
-      "word_count": 13746,
-      "char_count": 84151
+      "word_count": 13805,
+      "char_count": 84659
     },
     {
       "key": "Ch06",
       "title": "Chapter 6: Gauge Theory from Zone Symmetries",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_06_Gauge_Theory_from_Zone_Symmetries\\Ch06_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_06_Gauge_Theory_from_Zone_Symmetries\\Ch06_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch06_clean.txt",
-      "word_count": 8329,
-      "char_count": 50902
+      "word_count": 8961,
+      "char_count": 54729
     },
     {
       "key": "Ch07",
       "title": "Chapter 7: Classical Electrodynamics Complete",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_07_Classical_Electrodynamics_Complete\\Ch07_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_07_Classical_Electrodynamics_Complete\\Ch07_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch07_clean.txt",
-      "word_count": 9559,
-      "char_count": 57801
+      "word_count": 9561,
+      "char_count": 57822
     },
     {
       "key": "Ch08",
       "title": "Chapter 8: Gravitational Field Theory",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_08_Gravitational_Field_Theory\\Ch08_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_08_Gravitational_Field_Theory\\Ch08_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch08_clean.txt",
-      "word_count": 9672,
-      "char_count": 59902
+      "word_count": 9719,
+      "char_count": 60213
     },
     {
       "key": "Ch09",
       "title": "Chapter 9: The Hierarchy Problem Solved",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_09_The_Hierarchy_Problem_Solved\\Ch09_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_09_The_Hierarchy_Problem_Solved\\Ch09_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch09_clean.txt",
-      "word_count": 7624,
-      "char_count": 46181
+      "word_count": 8050,
+      "char_count": 48602
     },
     {
       "key": "Ch10",
       "title": "Chapter 10: Running Couplings and Zone Energy Scales",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_10_Running_Couplings_and_Zone_Energy_Scales\\Ch10_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_10_Running_Couplings_and_Zone_Energy_Scales\\Ch10_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch10_clean.txt",
-      "word_count": 6928,
-      "char_count": 45741
+      "word_count": 7109,
+      "char_count": 46881
     },
     {
       "key": "Ch11",
       "title": "Chapter 11: The Force Landscape",
-      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Ch_11_The_Force_Landscape\\Ch11_DRAFT.md",
+      "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Manuscript\\Ch_11_The_Force_Landscape\\Ch11_DRAFT.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Ch11_clean.txt",
-      "word_count": 7947,
-      "char_count": 52151
+      "word_count": 8104,
+      "char_count": 53166
     },
     {
       "key": "APPENDIX_A_Vector_Calculus_and",
@@ -110,8 +110,8 @@
       "title": "Appendix B: Experimental Data Tables",
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Back_Matter\\APPENDIX_B_Experimental_Data_Tables.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\APPENDIX_B_Experimental_Data_T_clean.txt",
-      "word_count": 6913,
-      "char_count": 50288
+      "word_count": 6916,
+      "char_count": 50324
     },
     {
       "key": "Bibliography",
@@ -119,7 +119,7 @@
       "source_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\Back_Matter\\Bibliography.md",
       "clean_file": "C:\\Users\\JeffRaymond\\OneDrive - OKSI\\Documents\\Claude Desktop\\Exodus Protocol\\01_Genesis_Physics\\Book_0_The_Foundations\\Vol_2_Forces_and_Fields\\audio book\\chapters\\Bibliography_clean.txt",
       "word_count": 5752,
-      "char_count": 45451
+      "char_count": 45455
     },
     {
       "key": "Problem_Sets_with_Solutions",

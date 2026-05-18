@@ -1,8 +1,8 @@
 > **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
-> | Scripture | CP violation reflects asymmetric membrane coupling | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Scripture | CP violation reflects asymmetric Firmament coupling | Genesis 1:6 |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | 6D Action + KK Reduction | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Weak interaction, parity violation, and CP symmetry breaking** | **06-WEAK_PARITY_CP_VIOLATION.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -59,10 +59,10 @@ with metric signature $(+, -, -, -, -, -)$.
 |---|---|---|---|
 | **Zone 1** | Creator exterior | Boundary conditions | $\xi < 0$, $\eta < -\eta_B$ |
 | **Zone 2.1** | Waters Below | Dark matter (Ψ_B field) | $\eta \in [-\eta_B, 0]$, $\eta_B \approx 1.3 \times 10^{-15}$ m |
-| **Zone 2.2** | Firmament brane | Observable universe (4D) | $(\xi_0, \eta_0)$ in 4D spacetime |
+| **Zone 2.2** | Firmament | Observable universe (4D) | $(\xi_0, \eta_0)$ in 4D spacetime |
 | **Zone 2.3** | Waters Above | Dark energy (Ψ_A field) | $\xi \in [0, \xi_A]$, $\xi_A \approx 3 \times 10^{26}$ m |
 
-The Firmament Σ is the 4D brane at fixed coordinates $(\xi_0, \eta_0)$ in the extra dimensions where Standard Model physics is localized.
+The Firmament Σ is the 4D Firmament at fixed coordinates $(\xi_0, \eta_0)$ in the extra dimensions where Standard Model physics is localized.
 
 ### 1.2 The 6D Metric Ansatz
 
@@ -72,7 +72,7 @@ $$\boxed{\text{d}s^2 = e^{2A(\xi,\eta)} \tilde{g}_{\mu\nu}(x) \text{d}x^\mu \tex
 where:
 - **$A(\xi, \eta)$**: Warp factor (exponential warping of 4D geometry)
 - **$B(\xi, \eta)$**: Breathing/moduli mode (scale of extra dimensions)
-- **$\tilde{g}_{\mu\nu}(x)$**: Effective 4D metric on brane (Einstein metric)
+- **$\tilde{g}_{\mu\nu}(x)$**: Effective 4D metric on Firmament (Einstein metric)
 
 **Warp Factors by Zone:**
 
@@ -322,7 +322,7 @@ $$G_F^{\rm exp} = 1.16637(1) \times 10^{-5} \, \text{GeV}^{-2}$$
 
 ### 5.1 Asymmetric Boundary Conditions at the Firmament
 
-The **fundamental source** of parity violation in Genesis Physics is the **asymmetry of the boundary conditions** at the Firmament brane.
+The **fundamental source** of parity violation in Genesis Physics is the **asymmetry of the boundary conditions** at the Firmament.
 
 **The Waters Above (ξ-dimension):**
 - Extends from $\xi = 0$ (Firmament) to $\xi = \xi_A \approx 3 \times 10^{26}$ m (cosmological scale)

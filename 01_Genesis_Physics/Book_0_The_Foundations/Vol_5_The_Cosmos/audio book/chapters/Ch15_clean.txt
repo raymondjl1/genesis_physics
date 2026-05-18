@@ -1,4 +1,6 @@
-﻿Deriving ℏ, G, and k_B from Zone Architecture
+﻿# Chapter 15: Why These Constants?
+
+Deriving ℏ, G, and k_B from Zone Architecture
 
 "The most incomprehensible thing about the universe is that it is comprehensible."
 — Albert Einstein
@@ -22,7 +24,7 @@ In this chapter, we will do what standard physics does not: we will derive three
 
 - Planck's constant ℏ from the topological action scale of the Firmament
 - Newton's gravitational constant G from the 6D gravitational coupling diluted over extra-dimensional volume
-- Boltzmann's constant k_B from the statistical mechanics of membrane oscillation modes
+- Boltzmann's constant k_B from the statistical mechanics of Firmament oscillation modes
 
 These are not three separate tricks. They are three faces of a single architecture — the same zone structure that gave us electromagnetism in Volume 2, thermodynamics in Volume 3, and quantum mechanics in Volume 4. The constants of nature are what they are because the architecture demands it.
 
@@ -54,11 +56,13 @@ In the following sections, we derive ℏ, G, and k_B from the parameters of the 
 
 Parameter: Brane tension. Symbol: σ. Value: 6.0 × 10⁹⁸ kg/(m·s²). Established In: Vol 1, Ch 5.
 Parameter: Volume mass density. Symbol: μ. Value: 6.7 × 10⁸¹ kg/m³. Established In: Vol 1, Ch 5.
-Parameter: Waters Above extent. Symbol: ξ_A. Value: 1.4 × 10²⁶ m. Established In: Vol 1, Ch 6.
+Parameter: Waters Above extent. Symbol: ξ_A. Value: 3.0 × 10²⁶ m. Established In: Vol 1, Ch 6.
 Parameter: Nuclear confinement scale. Symbol: η_B. Value: 1.3 × 10⁻¹⁵ m. Established In: Vol 1, Ch 6.
 Parameter: Speed of light. Symbol: c = √(σ/μ). Value: 2.998 × 10⁸ m/s. Established In: Vol 1, Ch 5 (derived).
 
 These five quantities — or rather four, since c is derived from σ and μ — characterize the Firmament membrane and the extra-dimensional geometry it inhabits. From them, and from them alone, we will recover ℏ, G, and k_B.
+
+[Corrected: ξ_A = 3.0×10²⁶ m (particle horizon), consistent with Ch 13 canonical value. Earlier draft used Hubble radius (1.4×10²⁶ m). — Rev. 2026-05-14]
 
 [Figure 15.1] Standard Physics vs. Genesis Physics approach to fundamental constants. Left column: Standard physics measures each constant from experiment and inserts it into the equations as a free parameter. The theory cannot predict these values. Right column: Genesis Physics derives each constant from zone architecture parameters (σ, μ, ξA, ηB). The constants are outputs of the theory, not inputs. The arrow of explanation runs from architecture to constants, not from experiment to equations.
 
@@ -80,7 +84,7 @@ Crucially, the 2D extra-dimensional space supports topological excitations — c
 
 These topological defects — unit vortices on the Firmament — have a minimum size (set by η_B) and a minimum energy (set by σ). Their minimum action defines ℏ.
 
-This is the physical reason ℏ exists: the Firmament supports topological vortices, and those vortices cannot have arbitrarily small action. There is a floor, set by the geometry of the membrane. That floor is ℏ.
+This is the physical reason ℏ exists: the Firmament supports topological vortices, and those vortices cannot have arbitrarily small action. There is a floor, set by the geometry of the Firmament. That floor is ℏ.
 
 The Topological Vortex.
 
@@ -104,7 +108,7 @@ This is not a free parameter. It is the natural length scale of the confining po
 
 The Bare Action Quantum.
 
-Now we calculate. The energy stored in the vortex configuration comes from the brane tension σ integrated over the core area. For a unit vortex:
+Now we calculate. The energy stored in the vortex configuration comes from the Firmament tension σ integrated over the core area. For a unit vortex:
 
 Energy of the vortex core:
 
@@ -123,6 +127,8 @@ Action of the unit vortex:
 Dimensional check:
 
 [Equation — see print edition.]
+
+⚠ DIMENSIONAL CORRECTION (Rev. 2026-05-14): The vortex action formula S = sigma eta sub B to the 3/c as written in the bare-quantum derivation below should be checked carefully. The chapter's own dimensional check (Eq. 15.7) shows that the expression — which is action ([J·s]), consistent with the derivation. However, a careful dimensional analysis of the full vortex action geometry, including the proper identification of the Firmament tension, the vortex core area, and the characteristic time, is required to confirm the exact numerical coefficient. A rigorous dimensional analysis of the vortex action geometry is designated CT-5.ℏ. The ℏ derivation in this chapter is provisional pending CT-5.ℏ.
 
 By the Bohr-Sommerfeld quantization condition — which states that the action around a closed loop encircling a topological defect must be an integer multiple of 2πℏ — we identify the bare action quantum:
 
@@ -182,13 +188,15 @@ What value must λ take? From equation (15.15), we need:
 
 [Equation — see print edition.]
 
-With ηB/ξA ≈ 0.929 × 10⁻⁴¹:
+With ηB/ξA ≈ 4.33 × 10⁻⁴² [corrected for ξ_A = 3.0×10²⁶ m, Rev. 2026-05-14]:
 
 [Equation — see print edition.]
 
 [Equation — see print edition.]
 
 The warping exponent is of order unity. This is significant: λ ≈ 1 is the simplest, most natural value. It arises from the standard coupling of curvature to matter in extra-dimensional gravity theories. There is no fine-tuning here — the exponent is geometrically natural, and the enormous suppression comes entirely from the ratio ξA/ηB, which is a consequence of having both a cosmic-scale and a nuclear-scale extra dimension.
+
+(The warp exponent λ is fitted to reproduce the observed ℏ. It is not derived from the 6D field equations. The calculation above works backwards: the required suppression approximately 10 to the -80 is used to determine lambda approximately equal to 1, which is then described as "geometrically natural." While this value of λ is self-consistent with known extra-dimensional gravity theories, the claim that λ = 1 is predicted rather than calibrated requires a derivation of λ from the 6D action. This is a calibration, not a prediction, pending that derivation.)
 
 The Derived Value of ℏ.
 
@@ -202,11 +210,13 @@ Step 1. Bare quantum (equation 15.10):
 
 [Equation — see print edition.]
 
-Step 2. Warp suppression factor:
+Step 2. Warp suppression factor [corrected ξ_A = 3.0×10²⁶ m, Rev. 2026-05-14]:
 
 [Equation — see print edition.]
 
-Step 3. Derived value:
+[Corrected from earlier draft which used ξA = 1.4×10²⁶ m. With ξA = 3.0×10²⁶ m the ratio (ηB/ξA)² = 1.88×10⁻⁸³ rather than 8.63×10⁻⁸³. The derived ℏ_derived changes accordingly. — Rev. 2026-05-14]
+
+Step 3. Derived value [corrected, Rev. 2026-05-14]:
 
 [Equation — see print edition.]
 
@@ -226,14 +236,14 @@ Let us now answer the question that standard physics cannot.
 
 Why is ℏ so small? Because the universe is so large.
 
-The derived formula (15.19) makes this explicit. Planck's constant contains the factor (ηB/ξA)², which is the square of the ratio between the smallest scale in the zone architecture (the nuclear confinement scale) and the largest (the cosmic extent of the Waters Above). This ratio is approximately 10⁻⁴¹, and its square is 10⁻⁸². The bare action quantum — set by the membrane's tension and the nuclear scale alone — is enormous (10⁴⁵ J·s). It is the warp factor's exponential suppression, driven by the vast ratio between the cosmic and nuclear scales, that crushes ℏ down to its observed tiny value.
+The derived formula (15.19) makes this explicit. Planck's constant contains the factor (ηB/ξA)², which is the square of the ratio between the smallest scale in the zone architecture (the nuclear confinement scale) and the largest (the cosmic extent of the Waters Above). This ratio is approximately 4.3×10⁻⁴², and its square is ~1.9×10⁻⁸³. The bare action quantum — set by the Firmament membrane's tension and the nuclear scale alone — is enormous (10⁴⁵ J·s). It is the warp factor's exponential suppression, driven by the vast ratio between the cosmic and nuclear scales, that crushes ℏ down toward its observed tiny value. [Corrected for ξ_A = 3.0×10²⁶ m — Rev. 2026-05-14]
 
 This is not fine-tuning. The ratio ξA/ηB is not a free parameter that someone adjusted to make ℏ come out right. It is a consequence of the zone dynamics — the same field equations that produce a nuclear-scale Waters Below also produce a cosmic-scale Waters Above. The universe doesn't have a large hierarchy because someone tuned a dial. It has a large hierarchy because the 6D geometry naturally produces two zones of vastly different size, and the ratio between them sets the quantum scale.
 
 Why does the action quantum exist at all? Because the Firmament supports topology. A featureless, infinite, flat sheet would not require a minimum action — arbitrarily small excitations would be possible. But the Firmament is embedded in a compact extra-dimensional space with boundary conditions (Waters Above and Waters Below). This compactness forces the field configurations to have discrete winding numbers, and discrete winding means a minimum nonzero action. The existence of ℏ is a topological inevitability of a bounded membrane.
 
 Why is the formula ℏ = (σ ηB³)/(2c) × (ηB/ξ_A)²? Because:
-- σ η_B³/c is the natural action scale of a vortex on the membrane (tension × volume / speed)
+- σ η_B³/c is the natural action scale of a vortex on the Firmament membrane (tension × volume / speed)
 - (ηB/ξA)² is the warp suppression from the extra-dimensional geometry
 - The factor of 2 comes from the Bohr-Sommerfeld quantization condition (action per radian, not per full winding)
 
@@ -243,7 +253,7 @@ Newton's Gravitational Constant: The Cost of Bending the Cosmos.
 
 Why G Exists.
 
-Gravity is the curvature of spacetime in the presence of mass-energy. In the Genesis Physics framework, spacetime is the Firmament membrane, and curvature is literally the bending of that membrane. Newton's gravitational constant G quantifies how much the membrane bends per unit mass — it is the membrane's resistance to deformation.
+Gravity is the curvature of spacetime in the presence of mass-energy. In the Genesis Physics framework, spacetime is the Firmament membrane, and curvature is literally the bending of that membrane. Newton's gravitational constant G quantifies how much the Firmament membrane bends per unit mass — it is the Firmament membrane's resistance to deformation.
 
 Why is G so small? Two reasons, working together:
 
@@ -297,7 +307,7 @@ is the warped volume of the extra dimensions — not the naive geometric volume,
 
 [Figure 15.4] Kaluza-Klein dimensional reduction. Top: The 6D Einstein-Hilbert action integrates curvature over all six dimensions. Middle: Integration over the extra dimensions (ξ, η) produces an effective 4D action, with the extra-dimensional volume Vextra acting as a "dilution factor" for gravity. Bottom: The 4D observer sees a gravitational constant G₄ = G₆/Vextra — gravity is weak because the extra-dimensional volume is enormous.
 
-Physical interpretation: Gravity in 6D spreads its flux through all six dimensions. An observer confined to the 4D Firmament only intercepts a fraction of the total gravitational flux — the fraction set by how much of the total 6D volume is occupied by the 4D brane. The larger the extra-dimensional volume, the smaller the fraction of gravitational flux reaching the 4D observer, and the weaker gravity appears.
+Physical interpretation: Gravity in 6D spreads its flux through all six dimensions. An observer confined to the 4D Firmament only intercepts a fraction of the total gravitational flux — the fraction set by how much of the total 6D volume is occupied by the 4D Firmament. The larger the extra-dimensional volume, the smaller the fraction of gravitational flux reaching the 4D observer, and the weaker gravity appears.
 
 Computing the Extra-Dimensional Volume.
 
@@ -311,7 +321,7 @@ Then:
 
 Waters Above contribution (ξ-dimension):
 
-The ξ-dimension extends from 0 to ξ_A ≈ 1.4 × 10²⁶ m with a power-law warp factor:
+The ξ-dimension extends from 0 to ξ_A ≈ 3.0 × 10²⁶ m with a power-law warp factor:
 
 [Equation — see print edition.]
 
@@ -357,11 +367,11 @@ This is the central result of KK reduction applied to gravity. It states that th
 
 Determining M₆ from the zone architecture:
 
-The 6D Planck mass M₆ is not a free parameter — it is constrained by the self-consistency of the 6D field equations with the zone boundary conditions. The brane tension σ and the 6D Planck mass are related through the membrane stability condition (see 10-GRAVITATIONALCONSTANTDERIVATION.md, Part 5):
+The 6D Planck mass M₆ is not a free parameter — it is constrained by the self-consistency of the 6D field equations with the zone boundary conditions. The Firmament tension σ and the 6D Planck mass are related through the Firmament membrane stability condition (see 10-GRAVITATIONALCONSTANTDERIVATION.md, Part 5):
 
 [Equation — see print edition.]
 
-In SI units: M₆⁴ has dimensions [M⁴] and σ has dimensions [M L⁻¹ T⁻²], so the proportionality requires additional factors of c and ℏ. The precise relation involves the detailed brane geometry, but the scaling M₆ ~ σ^{1/4} identifies M₆ with the energy scale set by the membrane tension.
+In SI units: M₆⁴ has dimensions [M⁴] and σ has dimensions [M L⁻¹ T⁻²], so the proportionality requires additional factors of c and ℏ. The precise relation involves the detailed Firmament geometry, but the scaling M₆ ~ σ^{1/4} identifies M₆ with the energy scale set by the Firmament tension.
 
 We can also determine M₆ directly from the master equation (15.39). Using the observed 4D Planck mass MPl = 2.176 × 10⁻⁸ kg and Vextra ≈ 10⁶¹ m²:
 
@@ -371,7 +381,7 @@ We can also determine M₆ directly from the master equation (15.39). Using the 
 
 This places the fundamental 6D gravity scale at ~4 TeV — tantalizingly close to the energy range explored by the Large Hadron Collider, and consistent with large extra-dimension models (ADD/RS type). This is a testable prediction: if the 6D Planck mass is ~4 TeV, then collider experiments at √s > 2M₆ should produce signatures of extra-dimensional gravity (missing-energy events from graviton emission into the bulk).
 
-Note on methodology: The reader may ask whether using the observed MPl to extract M₆ constitutes circular reasoning. It does not, for the following reason. The zone architecture independently determines Vextra from the 6D metric and zone boundary conditions. It also independently determines M₆ from the brane tension σ via the stability condition. The master equation MPl² = M₆² · Vextra is then a prediction — if the independently determined Vextra and M₆ yield the correct MPl, the framework is self-consistent. Here we have presented the calculation in reverse (MPl → M₆) for pedagogical clarity, but the logical chain runs from zone parameters → Vextra and M₆ → M_Pl → G₄.
+Note on methodology: The reader may ask whether using the observed MPl to extract M₆ constitutes circular reasoning. It does not, for the following reason. The zone architecture independently determines Vextra from the 6D metric and zone boundary conditions. It also independently determines M₆ from the Firmament tension σ via the stability condition. The master equation MPl² = M₆² · Vextra is then a prediction — if the independently determined Vextra and M₆ yield the correct MPl, the framework is self-consistent. Here we have presented the calculation in reverse (MPl → M₆) for pedagogical clarity, but the logical chain runs from zone parameters → Vextra and M₆ → M_Pl → G₄.
 
 The derived gravitational constant:
 
@@ -420,7 +430,7 @@ This may seem like a lesser accomplishment than deriving ℏ or G. It is not. Un
 
 The Firmament as a Thermal System.
 
-The Firmament supports transverse elastic oscillations — waves propagating along the membrane with speed c = √(σ/μ). In a volume V of the Firmament, these waves form a discrete spectrum of modes with frequencies:
+The Firmament supports transverse elastic oscillations — waves propagating along the Firmament membrane with speed c = √(σ/μ). In a volume V of the Firmament, these waves form a discrete spectrum of modes with frequencies:
 
 [Equation — see print edition.]
 
@@ -436,17 +446,17 @@ At temperature T, the thermal occupation follows the Bose-Einstein distribution:
 
 [Equation — see print edition.]
 
-The membrane has a natural cutoff frequency — the Debye frequency — set by the smallest length scale on which modes can exist, which is the topological defect core size η_B:
+The Firmament has a natural cutoff frequency — the Debye frequency — set by the smallest length scale on which modes can exist, which is the topological defect core size η_B:
 
 [Equation — see print edition.]
 
-This cutoff is physical, not mathematical. Modes with wavelengths shorter than η_B cannot propagate on the membrane because they would be smaller than the topological defects that define the quantum grain of the membrane.
+This cutoff is physical, not mathematical. Modes with wavelengths shorter than η_B cannot propagate on the Firmament because they would be smaller than the topological defects that define the quantum grain of the Firmament.
 
-[Figure 15.5] Membrane mode spectrum. Horizontal axis: frequency ω, from 0 to the Debye cutoff ωD = c/ηB. Vertical axis: density of states g(ω) ∝ ω². Shaded curve: the thermal occupation function ⟨n(ω)⟩ × g(ω) at temperature T, showing which modes are thermally excited. Below kBT/ℏ, modes are classically occupied (high ⟨n⟩). Above kBT/ℏ, modes are quantum-frozen (⟨n⟩ → 0). The crossover frequency ωthermal = kBT/ℏ divides the thermal from the quantum regime.
+[Figure 15.5] Firmament membrane mode spectrum. Horizontal axis: frequency ω, from 0 to the Debye cutoff ωD = c/ηB. Vertical axis: density of states g(ω) ∝ ω². Shaded curve: the thermal occupation function ⟨n(ω)⟩ × g(ω) at temperature T, showing which modes are thermally excited. Below kBT/ℏ, modes are classically occupied (high ⟨n⟩). Above kBT/ℏ, modes are quantum-frozen (⟨n⟩ → 0). The crossover frequency ωthermal = kBT/ℏ divides the thermal from the quantum regime.
 
 The Physical Ratio: ℏ/k_B.
 
-The temperature at which all membrane modes up to the Debye cutoff become thermally excited is the Debye temperature:
+The temperature at which all Firmament modes up to the Debye cutoff become thermally excited is the Debye temperature:
 
 [Equation — see print edition.]
 
@@ -474,7 +484,7 @@ Compare to ℏ/k_B = 7.638 × 10⁻¹² K·s. The ratio involves a temperature s
 
 [Equation — see print edition.]
 
-This is close to the Debye temperature TD = ℏc/(kB ηB) ≈ 1.76 × 10¹² K — exactly what we expect. The ratio ℏ/kB divided by η_B/c gives back the natural temperature scale of the membrane. The circle is self-consistent.
+This is close to the Debye temperature TD = ℏc/(kB ηB) ≈ 1.76 × 10¹² K — exactly what we expect. The ratio ℏ/kB divided by η_B/c gives back the natural temperature scale of the Firmament. The circle is self-consistent.
 
 Why k_B Is a Unit Conversion, Not a Dynamical Constant.
 
@@ -496,7 +506,7 @@ Saying k_B is conventional does not mean thermodynamics is trivial. The Genesis 
 
 1. The CMB temperature. The cosmic microwave background has T₀ = 2.725 K. In the standard model, this is an observational input. In Genesis Physics, it is derived from the adiabatic cooling of the universe in the 6D FRW cosmology (Vol 5, Chapter 9). The expansion history, set by the zone dynamics, determines how the initial thermal energy of the Firmament modes redshifts to the present day. The result — 2.725 K — is a prediction, not a parameter.
 
-2. The Debye temperature of the membrane. The temperature scale TD = ℏc/(kB ηB) ≈ 1.76 × 10¹² K marks the boundary between quantum and classical thermal behavior on the Firmament. Above TD, all membrane modes are excited and the membrane behaves as a classical elastic medium. Below TD, high-frequency modes freeze out and quantum effects dominate. This temperature corresponds to the QCD energy scale (~150 MeV), which is exactly where we expect the transition between hadronic matter (confined quarks) and the quark-gluon plasma. The coincidence is not accidental — it reflects the fact that ηB sets both the nuclear scale and the thermal cutoff.
+2. The Debye temperature of the Firmament. The temperature scale TD = ℏc/(kB ηB) ≈ 1.76 × 10¹² K marks the boundary between quantum and classical thermal behavior on the Firmament. Above TD, all Firmament modes are excited and the Firmament behaves as a classical elastic medium. Below TD, high-frequency modes freeze out and quantum effects dominate. This temperature corresponds to the QCD energy scale (~150 MeV), which is exactly where we expect the transition between hadronic matter (confined quarks) and the quark-gluon plasma. The coincidence is not accidental — it reflects the fact that ηB sets both the nuclear scale and the thermal cutoff.
 
 3. Temperature ratios. The ratio of any two physical temperatures is a dimensionless number independent of k_B. For example:
 
@@ -508,7 +518,7 @@ But Why This Value?.
 
 Why is kB = 1.381 × 10⁻²³ J/K? Because in 1742, Anders Celsius defined the temperature scale using water's freezing and boiling points at atmospheric pressure, and subsequent refinements led to the Kelvin scale. The numerical value of kB is a historical artifact of this choice.
 
-What is NOT an artifact? The ratio ℏ/kB = ηB/c × TD, which connects the quantum scale (ℏ), the thermal scale (kB), and the membrane geometry (ηB, c). This ratio is determined by the zone architecture — the same nuclear confinement scale ηB that sets the size of topological defects (and hence ℏ) also sets the Debye cutoff (and hence the natural temperature scale). Quantum mechanics and thermodynamics are not independent pillars of physics — they are two descriptions of the same underlying membrane dynamics, connected by the geometry of the Firmament.
+What is NOT an artifact? The ratio ℏ/kB = ηB/c × TD, which connects the quantum scale (ℏ), the thermal scale (kB), and the Firmament membrane geometry (ηB, c). This ratio is determined by the zone architecture — the same nuclear confinement scale ηB that sets the size of topological defects (and hence ℏ) also sets the Debye cutoff (and hence the natural temperature scale). Quantum mechanics and thermodynamics are not independent pillars of physics — they are two descriptions of the same underlying Firmament membrane dynamics, connected by the geometry of the Firmament.
 
 The Unity of Constants.
 
@@ -520,9 +530,9 @@ We have derived three fundamental constants from the zone architecture:
 
 Constant: **ℏ**. What It Measures: Minimum action quantum. How It Emerges: Topological vortex on the Firmament, warp-suppressed. Key Parameters: σ, η_B, ξ_A, c.
 Constant: **G₄**. What It Measures: Gravitational coupling in 4D. How It Emerges: 6D gravity diluted over extra-dimensional volume. Key Parameters: G₆, V_extra (via ξ_A, η_B).
-Constant: **k_B**. What It Measures: Energy-temperature conversion. How It Emerges: Mode counting on the membrane. Key Parameters: ℏ, c, η_B (unit convention).
+Constant: **k_B**. What It Measures: Energy-temperature conversion. How It Emerges: Mode counting on the Firmament membrane. Key Parameters: ℏ, c, η_B (unit convention).
 
-All three trace back to the same set of parameters: the brane tension σ, the surface mass density μ (through c = √(σ/μ)), the Waters Above extent ξA, and the Waters Below confinement scale ηB. These four quantities — the mechanical properties of the Firmament and the geometry of the extra dimensions — determine the constants of nature.
+All three trace back to the same set of parameters: the Firmament tension σ, the surface mass density μ (through c = √(σ/μ)), the Waters Above extent ξA, and the Waters Below confinement scale ηB. These four quantities — the mechanical properties of the Firmament and the geometry of the extra dimensions — determine the constants of nature.
 
 [Figure 15.6] The unity of constants. Center: The zone architecture — Firmament (4D membrane), Waters Above (ξA), Waters Below (ηB), tension σ, mass density μ. Three arrows radiating outward:
 - Upper left: ℏ — "The Firmament's topology sets the minimum action. Its membrane supports vortices with a quantized winding. The warp factor suppresses the bare quantum to the observed scale."
@@ -555,7 +565,7 @@ Intellectual honesty requires stating what we have not done.
 
 We have derived ℏ, G, and kB from four zone parameters: σ, μ, ξA, and η_B. But where do those parameters come from? Are they, in turn, free parameters — just fewer of them?
 
-The preliminary answer is encouraging but incomplete. The zone parameters are constrained by the 6D Einstein equations with boundary conditions set by the zone architecture. The brane tension σ and mass density μ are related by c² = σ/μ (this is already derived, not free). The zone extents ξA and ηB emerge from the potential structure of the Waters fields (VA and VB in the 6D action). In principle, these are determined by the fundamental parameters of the 6D theory — the 6D Planck mass M₆ and the coupling constants of the Waters fields.
+The preliminary answer is encouraging but incomplete. The zone parameters are constrained by the 6D Einstein equations with boundary conditions set by the zone architecture. The Firmament tension σ and mass density μ are related by c² = σ/μ (this is already derived, not free). The zone extents ξA and ηB emerge from the potential structure of the Waters fields (VA and VB in the 6D action). In principle, these are determined by the fundamental parameters of the 6D theory — the 6D Planck mass M₆ and the coupling constants of the Waters fields.
 
 Whether the full 6D theory has zero free parameters (everything determined by internal consistency) or a small number of genuinely free parameters is an open question. What we can say with confidence is:
 
@@ -589,7 +599,7 @@ The Remaining Constants.
 
 The full Standard Model contains additional constants not yet addressed in this chapter:
 
-- Particle masses (electron, muon, tau, quarks): Addressed in Vol 4, Chapter 8, where masses emerge from membrane vibration eigenvalues.
+- Particle masses (electron, muon, tau, quarks): Addressed in Vol 4, Chapter 8, where masses emerge from Firmament vibration eigenvalues.
 - Coupling constants (strong, weak): The fine structure constant α is derived in Ch 13; the strong coupling αs and weak coupling gW are addressed in Vol 2.
 - Mixing angles (CKM and PMNS matrices): These describe how mass eigenstates differ from interaction eigenstates. Their derivation from zone topology is an open problem flagged in Vol 4 and will be revisited in Vol 6.
 
@@ -641,7 +651,7 @@ Problem 15.1. Dimensional verification. Confirm that the formula ℏ = (σ ηB³
 
 Problem 15.2. Sensitivity analysis. Suppose the Waters Above extent ξA were 10% larger than the value used in this chapter (i.e., ξA → 1.1 × ξA). By what percentage would ℏ change? By what percentage would G₄ change (assuming Vextra ∝ ξ_A)? Are the changes correlated? Discuss whether this represents a fine-tuning concern.
 
-Problem 15.3. The hierarchy ratio. Using the formulas derived in this chapter, express the dimensionless ratio GN mp²/(ℏc) entirely in terms of zone parameters (σ, μ, ηB, ξA). Simplify. Does the brane tension σ cancel? What does this imply about which parameters control the hierarchy?
+Problem 15.3. The hierarchy ratio. Using the formulas derived in this chapter, express the dimensionless ratio GN mp²/(ℏc) entirely in terms of zone parameters (σ, μ, ηB, ξA). Simplify. Does the Firmament tension σ cancel? What does this imply about which parameters control the hierarchy?
 
 Problem 15.4. Alternative warp exponents. Repeat the ℏ derivation with warp exponent λ = 0.5 and λ = 1.5. What values of ℏ result? By how many orders of magnitude does each differ from observation? Argue qualitatively why λ ≈ 1 is the naturally expected value.
 

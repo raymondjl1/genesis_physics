@@ -98,7 +98,7 @@ Location: `Quality_Control/Reference/Biblical_References.md`
 | Day | Genesis Reference | Primary Event | Theological Meaning | Scientific Correspondence |
 |-----|-------------------|---------------|---------------------|--------------------------|
 | 1 | Gen 1:3-5 | Light separated from darkness | Revelation; order from chaos | Time arrow established; electromagnetic field |
-| 2 | Gen 1:6-8 | Firmament divides waters | Structural separation; governance | Zone creation; membrane dynamics |
+| 2 | Gen 1:6-8 | Firmament divides waters | Structural separation; governance | Zone creation; Firmament membrane dynamics |
 | 3A | Gen 1:9-10 | Land appears; waters gathered | Matter condensation | Phase transition to baryonic matter |
 | 3B | Gen 1:11-13 | Vegetation; seed-bearing plants | Life patterns; reproduction | Biochemical complexity; entropy ordering |
 | 4 | Gen 1:14-19 | Sun, moon, stars for seasons | Time governance; celestial order | Gravitational structure; cosmological evolution |

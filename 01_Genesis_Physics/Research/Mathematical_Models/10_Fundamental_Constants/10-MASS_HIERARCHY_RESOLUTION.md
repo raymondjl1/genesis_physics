@@ -3,7 +3,7 @@
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
-> | Axiom | Membrane Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
+> | Axiom | Firmament Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
 > | Parent Theory | Warped Extra Dimensions | WARP_FACTOR_SOLUTIONS.md |
 > | Parent Theory | Particle Mass Spectrum | PARTICLE_MASS_SPECTRUM_v3.md |
 > | **This Document** | **Particle Mass Hierarchy Problem (1000× suppression factor)** | **10-MASS_HIERARCHY_RESOLUTION.md** |
@@ -68,7 +68,7 @@ This document provides the complete mathematical derivation, physical interpreta
 
 ### 1.1 The Naive Calculation
 
-From the Membrane Mechanics axiom (AXIOM_MEMBRANE_MECHANICS_v2.md), particle mass arises from confinement in the extra dimensions. The dispersion relation for a mode with quantum numbers $(n_\xi, n_\eta)$ confined in the Waters Below (η-dimension) is:
+From the Firmament Mechanics axiom (AXIOM_MEMBRANE_MECHANICS_v2.md), particle mass arises from confinement in the extra dimensions. The dispersion relation for a mode with quantum numbers $(n_\xi, n_\eta)$ confined in the Waters Below (η-dimension) is:
 
 $$E^2 = p^2 c^2 + \left(\frac{n_\eta \pi \hbar c}{\eta_B}\right)^2$$
 
@@ -228,7 +228,7 @@ For simplicity in studying fermion masses, we focus on the η-dependence and wri
 
 $$A(\eta) = A_0 - \frac{\gamma}{2}\eta$$
 
-where $\gamma$ is a positive constant (the warp curvature) and η ranges from 0 (brane boundary) to $\eta_B$ (zone boundary).
+where $\gamma$ is a positive constant (the warp curvature) and η ranges from 0 (Firmament boundary) to $\eta_B$ (zone boundary).
 
 ### 4.2 Exponential Warp Factor
 
@@ -378,7 +378,7 @@ $$\frac{d^2u_n}{d\eta^2} = -\mu_n^2 u_n$$
 $$u_n(\eta) = C_1 \sin(\mu_n \eta) + C_2 \cos(\mu_n \eta)$$
 
 **Boundary conditions**:
-- At η = 0: $\psi_n(0) = 0$ (Dirichlet, from brane boundary condition)
+- At η = 0: $\psi_n(0) = 0$ (Dirichlet, from Firmament boundary condition)
 - At η = η_B: $\psi_n(\eta_B) = 0$ or $\partial_\eta \psi_n(\eta_B) = 0$ (reflecting or absorbing)
 
 With $\psi_n(0) = e^0 u_n(0) = u_n(0) = 0$, we need $C_2 = 0$, so:
@@ -574,7 +574,7 @@ $$\psi_1(0) = 0$$
 
 **However**, in the warped geometry, the effective VEV at the Firmament is not zero. Instead, the metric geometry creates a boundary effect:
 
-$$\langle \Psi_A \rangle_{\text{brane}} = v_6 \times e^{A(\xi=0)}$$
+$$\langle \Psi_A \rangle_{\text{Firm}} = v_6 \times e^{A(\xi=0)}$$
 
 where $v_6$ is the VEV in the 6D bulk.
 
@@ -849,11 +849,11 @@ The original Randall-Sundrum (RS) model addresses the **hierarchy problem** in 5
 **Setup**:
 - 5D spacetime with one extra compact dimension
 - Metric: $ds^2 = e^{-2k|y|} \eta_{\mu\nu} dx^\mu dx^\nu + dy^2$
-- Two branes at $y = 0$ (Planck brane) and $y = L$ (TeV brane)
-- All Standard Model fields localized on the TeV brane
+- Two branes at $y = 0$ (Planck Firmament) and $y = L$ (TeV Firmament)
+- All Standard Model fields localized on the TeV Firmament
 
 **Key Features**:
-- Planck scale gravity on one brane, TeV scale on the other
+- Planck scale gravity on one Firmament, TeV scale on the other
 - Single parameter $kL \approx 37$ explains $M_{\text{Pl}} / \text{TeV} \sim 10^{16}$
 - Kaluza-Klein modes of Standard Model fields appear at ~few TeV energies
 
@@ -867,7 +867,7 @@ Genesis Physics extends Randall-Sundrum in several ways:
 | **Metric Structure** | $e^{-2k\|y\|}$ | $e^{2A(\xi,\eta)} \times e^{2B(\xi,\eta)}$ |
 | **Branes** | 2 fixed branes | Zone structure with field VEVs |
 | **Fermion Localization** | Explicit Yukawa to localizer | Implicit in zone dynamics |
-| **Higgs Origin** | Assumed, brane-localized | Emergent from Waters Above |
+| **Higgs Origin** | Assumed, Firmament-localized | Emergent from Waters Above |
 | **Dark Matter** | Not included | Confined in Waters Below |
 | **Particle Content** | SM only | SM + hidden sectors |
 
@@ -885,7 +885,7 @@ Genesis Physics extends Randall-Sundrum in several ways:
 - Genesis: Two extra dimensions with vastly different scales ($\xi_A \gg c/H_0$ for cosmology, $\eta_B \sim$ fm)
 
 **2. Higgs Mechanism**:
-- RS: Higgs is a fundamental field on the TeV brane
+- RS: Higgs is a fundamental field on the TeV Firmament
 - Genesis: Higgs emerges from KK decomposition of Waters Above field in ξ-direction
 
 **3. Zone Architecture**:

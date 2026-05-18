@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Human experience of physical laws) | Genesis 1:27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action, 6D to 4D Projection, Gauss-Codazzi Decomposition | ACTION_6D_COMPLETE.md, 6D_TO_4D_PROJECTION.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **Applied gravity from 6D action: Equivalence Principle, Kepler orbits, tidal forces, geodetic precession, rotational dynamics** | **01-APPLIED_GRAVITY_CALCULATIONS.md** |
 > | Modern Equivalent | General relativity, Newtonian gravitation, geodesic motion | Convergence: recovers Einstein equations, Schwarzschild metric, all classical tests of GR; <5% error on observational tests |
@@ -50,7 +50,7 @@ $$S_{\text{grav}}^{(6)} = \frac{1}{16\pi G_6} \int_{M^6} d^6 x \, \sqrt{-g_6} \,
 **Components:**
 - **Bulk action**: Einstein-Hilbert gravitational action in 6D
 - **Boundary action**: Surface terms at zone boundaries (Waters Above/Below)
-- **Matter action**: Standard Model fields confined to 4D Firmament brane
+- **Matter action**: Standard Model fields confined to 4D Firmament
 
 **Dimensional structure:**
 ```
@@ -121,12 +121,12 @@ The reduction yields an effective 4D gravitational coupling:
 
 $$G_4 = \frac{G_6}{V_{\text{eff}}} = \frac{G_6}{L_{\text{eff}}^2}$$
 
-By dimensional analysis and membrane mechanics (AXIOM_MEMBRANE_MECHANICS_v2.md):
+By dimensional analysis and Firmament mechanics (AXIOM_MEMBRANE_MECHANICS_v2.md):
 
 $$\boxed{G = \frac{c^4}{8\pi \sigma L_{\text{eff}}}}$$
 
 where:
-- $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) is membrane tension
+- $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) is Firmament tension
 - $c = 3.0 \times 10^8$ m/s is speed of light
 - $L_{\text{eff}} = 8.03 \times 10^{-58}$ m is the effective coupling length
 
@@ -147,11 +147,11 @@ The embedding map is:
 
 $$X: \Sigma^4 \to M^6, \quad X^A(x^\mu) = (x^\mu, \xi_0, \eta_0)$$
 
-**Induced metric on brane:**
+**Induced metric on Firmament:**
 
 $$\gamma_{\mu\nu} = \frac{\partial X^A}{\partial x^\mu} \frac{\partial X^B}{\partial x^\nu} g_{AB}\bigg|_{(\xi_0,\eta_0)} = e^{2A(\xi_0,\eta_0)} g_{\mu\nu}^{(4)}$$
 
-where $g_{\mu\nu}^{(4)}$ is the Einstein metric on the brane.
+where $g_{\mu\nu}^{(4)}$ is the Einstein metric on the Firmament.
 
 ### 2.2 Extrinsic Curvature and Gauss-Codazzi Equations
 
@@ -173,18 +173,18 @@ where $R_{\mu\nu}^{\text{bulk}}$ contains contributions from the 6D bulk Ricci t
 
 The 6D Einstein equations $G_6^{AB} = 8\pi G_6 T_6^{AB}$ project to:
 
-**Equations parallel to brane ($\mu\nu$ components):**
+**Equations parallel to Firmament ($\mu\nu$ components):**
 
 $$G_4^{\mu\nu} = 8\pi G_4 T_{\text{matter}}^{\mu\nu} + 8\pi G_4 T_{\text{extrinsic}}^{\mu\nu}$$
 
 where:
-- $G_4^{\mu\nu}$ = 4D Einstein tensor on brane
+- $G_4^{\mu\nu}$ = 4D Einstein tensor on Firmament
 - $T_{\text{matter}}^{\mu\nu}$ = Standard Model stress-energy (visible + dark)
 - $T_{\text{extrinsic}}^{\mu\nu}$ = Effective stress-energy from extrinsic curvature
 
-**Equations normal to brane ($\mu i$ components):**
+**Equations normal to Firmament ($\mu i$ components):**
 
-These project to constraint equations relating the bulk geometry to the brane structure.
+These project to constraint equations relating the bulk geometry to the Firmament structure.
 
 ### 2.4 Simplified 4D Einstein Equations
 
@@ -248,7 +248,7 @@ This is **independent of test mass** — the equivalence principle follows direc
 
 **Derivation from first principles:**
 
-All matter (visible and dark) is localized at the Firmament boundary in 6D. When matter perturbs the membrane, it curves the η-direction locally. The 4D curvature induced on the brane affects all objects identically because the equation of motion is the **geodesic equation**:
+All matter (visible and dark) is localized at the Firmament boundary in 6D. When matter perturbs the Firmament, it curves the η-direction locally. The 4D curvature induced on the Firmament affects all objects identically because the equation of motion is the **geodesic equation**:
 
 $$\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\nu\lambda}\frac{dx^\nu}{d\tau}\frac{dx^\lambda}{d\tau} = 0$$
 
@@ -502,7 +502,7 @@ Rotational KE: KE = (1/2)Iω² = (1/2) × 8.016×10³⁷ × (7.292×10⁻⁵)² 
 
 ### 5.1 Gravitational Constant G
 
-From the 6D → 4D reduction and membrane mechanics:
+From the 6D → 4D reduction and Firmament mechanics:
 
 $$G = \frac{c^4}{8\pi \sigma L_{\text{eff}}}$$
 
@@ -635,7 +635,7 @@ This derivation demonstrates that:
 1. **ACTION_6D_COMPLETE.md** — Master action functional of Genesis Physics, complete 6D formulation
 2. **6D_TO_4D_PROJECTION.md** — Gauss-Codazzi derivation, 6D → 4D reduction, Newton's constant derivation
 3. **L_EFF_DERIVATION.md** — Complete derivation of effective coupling length $L_{\text{eff}}$ from dimensional reduction
-4. **AXIOM_MEMBRANE_MECHANICS_v2.md** — Membrane tension σ, membrane dynamics, zone boundaries
+4. **AXIOM_MEMBRANE_MECHANICS_v2.md** — Firmament tension σ, Firmament membrane dynamics, zone boundaries
 5. **MEMBRANE_MASS_SCALE.md** — Mass scale derivations from membrane geometry
 
 ### Classical References

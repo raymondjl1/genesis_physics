@@ -2,7 +2,7 @@ In which the machinery of Chapters 1–2 meets the gravity of Volume 2 — and K
 
 — Why Central Forces Are Special.
 
-In Volume 2, we derived the gravitational force from the curvature of the zone manifold's extra dimensions. That derivation gave us a specific force law — an inverse-square attraction with a coupling constant G sub 4 determined by membrane tension and the effective coupling length (Vol 2, Eq. 2.2.29):
+In Volume 2, we derived the gravitational force from the curvature of the zone manifold's extra dimensions. That derivation gave us a specific force law — an inverse-square attraction with a coupling constant G sub 4 determined by Firmament tension and the effective coupling length (Vol 2, Eq. 2.2.29):
 
 [Equation — see print edition.]
 
@@ -638,7 +638,7 @@ Every result in this chapter traces backward through an unbroken chain to the zo
 
 It is worth pausing to appreciate what the derivation chain accomplishes. Standard physics begins with Newton's law of gravitation as an empirical fact: "there exists a force F = GMm/r to the 2, where G is measured to be 6.674 times 10 to the -11." The Kepler problem is then solved as an application of that empirical law. The result is correct, but the student is left with the question: why 1/r to the 2? Why not 1/r to the 3? Why that particular value of G?
 
-In the zone framework, these questions have answers. The 1/r to the 2 force law follows from the 6D Einstein-Hilbert action via Kaluza-Klein reduction — it is the unique spherically symmetric solution of the 4D Poisson equation projected from the zone manifold (Vol 2, §2.4). The value of G sub 4 is determined by the membrane tension sigma and effective coupling length L_ eff (Vol 2, Eq. 2.2.29). And Bertrand's theorem (§3.7) tells us that this particular force law is one of only two that produce closed orbits — a mathematical fact that the zone framework inherits rather than demands.
+In the zone framework, these questions have answers. The 1/r to the 2 force law follows from the 6D Einstein-Hilbert action via Kaluza-Klein reduction — it is the unique spherically symmetric solution of the 4D Poisson equation projected from the zone manifold (Vol 2, §2.4). The value of G sub 4 is determined by the Firmament tension sigma and effective coupling length L_ eff (Vol 2, Eq. 2.2.29). And Bertrand's theorem (§3.7) tells us that this particular force law is one of only two that produce closed orbits — a mathematical fact that the zone framework inherits rather than demands.
 
 The Kepler problem is not merely solvable in the zone framework. It is derivable. The student who finishes this chapter knows not just how to compute orbits, but why orbits have the shapes they do, all the way down to the geometry of the extra dimensions.
 

@@ -40,6 +40,8 @@ The 6D metric was established in Volume 1, Chapter 4 (Eq. 1.4.2):
 
 with warp factors A( xi , eta ) and B( xi , eta ) that encode the zone structure:
 
+[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from 6D Einstein equations. See Open Problem 1.WF.]
+
 - A( xi , eta ) warps the 4D part of the metric — it tells us how strongly the Firmament "feels" the extra dimensions at each point ( xi , eta ).
 - B( xi , eta ) warps the extra-dimensional part — it controls the local "size" of the extra dimensions.
 
@@ -65,9 +67,11 @@ Waters Below (eta-direction, extent eta sub B approximately 1.3 times 10 to the 
 
 [Equation — see print edition.]
 
+Warp profile note: The Waters Below warp profile adopted in this chapter is the exponential form the expression. Chapter 4 uses a different functional form for the same dimension: B( eta ) = - gamma to the 2 eta to the 2/2 (Gaussian). OP-2.WP RESOLVED (2026-05-15): The canonical form is B eta approximately equal to const (RS-type, flat leading-order), derived from the variational equation for Psi sub B + ηη Einstein equation. The Gaussian form is retained as a sub-leading approximation valid only when V sub B is harmonic near its minimum. METRIC\6D\SOLUTIONS.md §3.4.1 updated. See Research/Foundations/BETAWARPRESOLUTION_OP2WP.md.
+
 The exponential decay means the Waters Below region is sharply localized — it contributes a tiny volume, but its steep gradient will matter for the strong and weak forces (Chapters 4 and 6).
 
-The Firmament (brane at xi = xi sub 0, eta = eta sub 0): The 4D hypersurface where we live. The induced metric on the Firmament is the standard FRW metric that cosmologists measure (Vol 1, Ch 4, §4.1.11).
+The Firmament (Firmament at xi = xi sub 0, eta = eta sub 0): The 4D hypersurface where we live. The induced metric on the Firmament is the standard FRW metric that cosmologists measure (Vol 1, Ch 4, §4.1.11).
 
 The 6D Volume Element.
 
@@ -101,7 +105,7 @@ For gravity, the statement is precise:
 
 The 4D gravitational coupling G sub 4 is the 6D coupling G sub 6 diluted by the volume of the extra dimensions.
 
-Why? Because gravitational flux in 6D spreads in all six directions. A 4D observer, confined to the Firmament brane, only intercepts the flux that passes through the brane. The rest of the flux escapes into the extra dimensions and is "lost" from the 4D perspective.
+Why? Because gravitational flux in 6D spreads in all six directions. A 4D observer, confined to the Firmament, only intercepts the flux that passes through the Firmament. The rest of the flux escapes into the extra dimensions and is "lost" from the 4D perspective.
 
 [Figure — see print edition.]
 
@@ -213,6 +217,8 @@ Calculating G — The Number.
 
 Route 1: G₄ from Volume Dilution.
 
+(This route fails to give the correct numerical value of G₄ without self-consistency fitting — see the honesty note at the end of this subsection. It is presented to motivate Route 2.)
+
 From Eq. (2.2.11), the 4D gravitational constant is:
 
 [Equation — see print edition.]
@@ -221,7 +227,7 @@ The 6D gravitational constant G sub 6 is related to the fundamental 6D Planck ma
 
 [Equation — see print edition.]
 
-From the self-consistency condition linking the brane tension to the 6D Planck mass (sigma approximately M sub 6 to the 4 in natural units), and using the speed of light relation c to the 2 = sigma / mu (Vol 1, Ch 5), the research derivation (10-GRAVITATIONALCONSTANTDERIVATION.md, Part 5) determines M sub 6 approximately equal to 7.8 times 10 to the 7 kg.
+From the self-consistency condition linking the Firmament tension to the 6D Planck mass (sigma approximately M sub 6 to the 4 in natural units), and using the speed of light relation c to the 2 = sigma / mu (Vol 1, Ch 5), the research derivation (10-GRAVITATIONALCONSTANTDERIVATION.md, Part 5) determines M sub 6 approximately equal to 7.8 times 10 to the 7 kg.
 
 Computing:
 
@@ -241,7 +247,7 @@ Then:
 
 Wait. This is not 6.674 times 10 to the -11. The discrepancy — roughly 36 orders of magnitude — is significant and demands explanation.
 
-The resolution lies in the normalization of the warp factors. The e to the 2(A sub 0+B sub 0) factor that we set to 1 in Eq. (2.2.24) actually encodes the relationship between the 6D fundamental scale and the 4D effective scale. When the full self-consistency conditions are imposed — matching the brane tension sigma, the Waters field vacuum expectation values, and the Friedmann equation — the warp factor normalization adjusts V extra to absorb the hierarchy. The research derivation (10-GRAVITATIONALCONSTANT_DERIVATION.md, Part 6) shows this yields agreement to within order of magnitude.
+The resolution lies in the normalization of the warp factors. The e to the 2(A sub 0+B sub 0) factor that we set to 1 in Eq. (2.2.24) actually encodes the relationship between the 6D fundamental scale and the 4D effective scale. When the full self-consistency conditions are imposed — matching the Firmament tension sigma, the Waters field vacuum expectation values, and the Friedmann equation — the warp factor normalization adjusts V extra to absorb the hierarchy. The research derivation (10-GRAVITATIONALCONSTANT_DERIVATION.md, Part 6) shows this yields agreement to within order of magnitude.
 
 This is an important moment for intellectual honesty. Let us state clearly what the situation is.
 
@@ -250,15 +256,17 @@ What requires self-consistency fitting: The precise numerical value of G sub 4 d
 
 This is why there is a second, more direct route to G sub 4.
 
-Route 2: G₄ from Membrane Tension.
+Route 2: G₄ from Firmament Tension.
 
-The alternative derivation starts from the Firmament membrane's physical properties rather than from the 6D Planck mass. The membrane tension sigma and the effective extra-dimensional length scale L_ eff are directly related to G sub 4 by:
+The alternative derivation starts from the Firmament membrane's physical properties rather than from the 6D Planck mass. The Firmament tension sigma and the effective extra-dimensional length scale L_ eff are directly related to G sub 4 by:
 
 [Equation — see print edition.]
 
+✓ DIMENSIONAL NOTE — CORRECTED (Rev. 2026-05-15, RT-2.G RESOLVED): The formula the expression is dimensionally correct. Brane tension sigma has units kg/(m·s²) = kg m⁻¹ s⁻² (energy density, not surface tension), as confirmed in the parameter list above (σ = 6.0 × 10⁹⁸ kg/(m·s²)). With this, the expression ✓ — verified in Eq. (2.2.30). The earlier note (Rev. 2026-05-14) misidentified σ's units as [kg s⁻²] (surface tension); this was an error in the note, not in the formula. The actual open task is expressing L eff in terms of first-principles zone parameters: from RT-1.WF §4.1 and GNRECONCILIATIONRT2G.md (Rev. 2026-05-15), the expression. Numerical closure requires OP-G6.
+
 This formula has a transparent physical meaning:
 
-- c to the 4/G has dimensions of force (the Planck force), so the expression says that gravity's strength is inversely proportional to the membrane tension and the square of the effective length.
+- c to the 4/G has dimensions of force (the Planck force), so the expression says that gravity's strength is inversely proportional to the Firmament tension and the square of the effective length.
 - Large sigma (stiff membrane) → weak gravity. The Firmament's enormous tension (sigma = 6.0 times 10 to the 98 kg/(m·s²)) is the primary reason gravity is weak.
 - Large L eff → weaker gravity still. The effective length L eff encodes the same volume dilution as Route 1, but in a single length parameter.
 
@@ -270,7 +278,7 @@ Numerical calculation using canonical values from QualityControl/Reference/Symbo
 
 - c = 2.998 times 10 to the 8 m/s
 - sigma = 6.0 times 10 to the 98 kg/(m·s²)
-- L_ eff = 8.96 times 10 to the -29 m
+- L eff = 8.96 times 10 to the -29 m (L eff is a phenomenological parameter in this derivation, determined by matching to the observed G sub N. It is not yet derived from first principles — see Research Task RT-2.G.)
 
 [Equation — see print edition.]
 
@@ -302,7 +310,17 @@ Route 1 (G sub 4 = G sub 6/V_ extra) and Route 2 (the expression) must be equiva
 
 where C sub 0 absorbs the warp factor normalization and the relationship between G sub 6 and sigma. The effective length L_ eff = 8.96 times 10 to the -29 m is the geometric mean scale that encodes the extra-dimensional geometry in a single parameter.
 
-The advantage of Route 2 is its directness: sigma is the membrane tension (a fundamental zone parameter from Vol 1, Ch 5), c is derived from sigma and mu (Vol 1, Ch 5), and L_ eff is computable from the warp factor profiles. No intermediate step through M sub 6 is needed.
+Updated reconciliation via RT-1.WF (Rev. 2026-05-15). The warp-function derivation in WARPFUNCTIONDERIVATION_RT1WF.md §4.1 evaluates the warp integral explicitly and gives:
+
+[Equation — see print edition.]
+
+Setting Routes 1, 2, and RT-1.WF equal yields the explicit formula for L_ eff:
+
+[Equation — see print edition.]
+
+where xi sub 0 is the Firmament's xi-coordinate (determined by the Israel junction condition xi sub 0 = 2/( kappa sub 6 to the 2 sigma )) and B sub 0 is the warp factor at the Firmament location. Equation (2.2.38) replaces the phenomenological identification of L eff with an explicit zone-parameter expression. Numerical closure has been achieved: OP-G6 RESOLVED (2026-05-15) — kappa sub 6 to the 2 = 6.9 times 10 to the -66 s²/kg, B sub 0 = 28.8, xi sub 0 approximately equal to 60 l sub Pl, derived from the KK reduction + Israel junction self-consistency condition. The right-hand side of Eq. (2.2.38) evaluates self-consistently with G sub 4 to the obs at the 0.5% level (with G sub 6 set by the KK normalization). See Research/Foundations/OPG6KAPPA6DERIVATION.md and GNRECONCILIATION_RT2G.md. Canonical values: the expression s²/kg; e to the 2B sub 0 = 1.77 times 10 to the 25.
+
+The advantage of Route 2 is its directness: sigma is the Firmament tension (a fundamental zone parameter from Vol 1, Ch 5), c is derived from sigma and mu (Vol 1, Ch 5), and L_ eff is now explicitly connected to warp-function geometry by Eq. (2.2.38). No intermediate step through M sub 6 is needed.
 
 Error Budget.
 
@@ -476,11 +494,11 @@ In the zone framework, the answer is the volume dilution mechanism we computed i
 
 [Equation — see print edition.]
 
-Gravity is weak because gravitational flux propagates in all six dimensions, while electromagnetic flux (as we will derive in Chapter 3) propagates primarily along the Firmament brane. Gravity's flux has more room to spread.
+Gravity is weak because gravitational flux propagates in all six dimensions, while electromagnetic flux (as we will derive in Chapter 3) propagates primarily along the Firmament. Gravity's flux has more room to spread.
 
 The analogy is straightforward: imagine a loudspeaker in a long, narrow hallway versus the same loudspeaker in an open field. In the hallway (effectively 1D), sound intensity drops as 1/r. In the open field (3D), it drops as 1/r to the 2. The same source sounds much weaker in the field because the energy spreads into more dimensions.
 
-Similarly, a gravitating mass on the Firmament radiates gravitational flux into the full 6D bulk. An electromagnetic charge on the Firmament radiates photonic flux primarily along the brane. The gravitational flux is diluted by the factor V_ extra approximately 10 to the 29 m² that the electromagnetic flux avoids.
+Similarly, a gravitating mass on the Firmament radiates gravitational flux into the full 6D bulk. An electromagnetic charge on the Firmament radiates photonic flux primarily along the Firmament. The gravitational flux is diluted by the factor V_ extra approximately 10 to the 29 m² that the electromagnetic flux avoids.
 
 Why This Is Not Fine-Tuning.
 
@@ -543,7 +561,7 @@ This derivation makes specific, testable claims:
 
 3. The equivalence principle is exact (within the Fall phase). Any violation of the equivalence principle at a level exceeding eta = | Delta a|/a > 10 to the -15 would require modification of the zone metric ansatz. Current best: eta < 10 to the -14 (MICROSCOPE satellite, 2022) — consistent.
 
-4. G is related to sigma and L_ eff via Eq. (2.2.29). If independent measurements of membrane tension (from speed-of-light derivation, Vol 1 Ch 5) and extra-dimensional scale (from particle physics experiments probing extra dimensions) yield values inconsistent with the expression, the framework is falsified.
+4. G is related to sigma and L_ eff via Eq. (2.2.29). If independent measurements of Firmament tension (from speed-of-light derivation, Vol 1 Ch 5) and extra-dimensional scale (from particle physics experiments probing extra dimensions) yield values inconsistent with the expression, the framework is falsified.
 
 Summary and the Road to Electromagnetism.
 
@@ -592,7 +610,7 @@ Problem 2.5. Compute the extra-dimensional volume V_ extra for a hypothetical zo
 
 Conceptual.
 
-Problem 2.6. Explain, in your own words, why gravity cannot be shielded. Your answer should reference the zone geometry specifically — what geometric feature prevents gravitational shielding? (Hint: compare with electromagnetic shielding, which Chapter 3 will show involves the membrane.)
+Problem 2.6. Explain, in your own words, why gravity cannot be shielded. Your answer should reference the zone geometry specifically — what geometric feature prevents gravitational shielding? (Hint: compare with electromagnetic shielding, which Chapter 3 will show involves the Firmament.)
 
 Problem 2.7. If the Waters Above extent xi sub A were doubled (to 6 times 10 to the 26 m), how would G sub 4 change? Would gravity become stronger or weaker? What observable consequence would this have?
 
@@ -656,8 +674,8 @@ Solution 2.9.
 
 The two routes derive the same G sub 4 from different starting points:
 - Route 1 starts from the 6D Planck mass M sub 6 and the volume V_ extra.
-- Route 2 starts from the membrane tension sigma and the effective length L_ eff.
+- Route 2 starts from the Firmament tension sigma and the effective length L_ eff.
 
-Their agreement is a self-consistency check on the zone parameter system. If they disagreed, it would mean the relationship between M sub 6, sigma, V extra, and L eff is inconsistent — the zone geometry would be internally contradictory. Agreement confirms that the various zone parameters (membrane tension, warp factors, Waters fields) form a consistent geometric system.
+Their agreement is a self-consistency check on the zone parameter system. If they disagreed, it would mean the relationship between M sub 6, sigma, V extra, and L eff is inconsistent — the zone geometry would be internally contradictory. Agreement confirms that the various zone parameters (Firmament tension, warp factors, Waters fields) form a consistent geometric system.
 
-This chapter established Newtonian gravity as a derived consequence of the 6D zone manifold. The gravitational constant G is not fundamental — it is a geometric quantity determined by the membrane tension and extra-dimensional volume. In Chapter 3, we derive the next force: electromagnetism emerges from the vibrations of the Firmament membrane itself.
+This chapter established Newtonian gravity as a derived consequence of the 6D zone manifold. The gravitational constant G is not fundamental — it is a geometric quantity determined by the Firmament tension and extra-dimensional volume. In Chapter 3, we derive the next force: electromagnetism emerges from the vibrations of the Firmament membrane itself.

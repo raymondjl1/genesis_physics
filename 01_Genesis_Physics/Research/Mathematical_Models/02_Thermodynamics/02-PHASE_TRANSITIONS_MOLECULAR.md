@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6-7 (Waters and phase changes; creation of distinct zones) | Genesis 1:6-7 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | Thermodynamic Laws, Statistical Mechanics from Waters | 02-LAWS_DERIVATION.md, 02-STATISTICAL_MECHANICS.md |
 > | **This Document** | **Phase transitions (liquid-gas, solid-liquid), latent heat, Clausius-Clapeyron, Van der Waals equation, collision restitution** | **02-PHASE_TRANSITIONS_MOLECULAR.md** |
 > | Modern Equivalent | Thermodynamics of phase transitions, statistical mechanics of liquids and solids | Convergence: reproduces Van der Waals equation, latent heats, phase diagrams with high precision |
@@ -10,7 +10,7 @@
 > *Chain Status: COMPLETE*
 
 # Phase Transitions, Latent Heat, and Molecular Structure
-## Genesis Physics 6D Membrane Framework
+## Genesis Physics 6D Firmament Framework
 
 **Issue #12**: [Phase 2.1] Phase Transitions, Latent Heat, and Molecular Structure (2 tests)
 
@@ -20,7 +20,7 @@
 
 ## Overview
 
-This document derives phase transition theory and collision mechanics from first principles using the Genesis Physics 6D membrane framework. The theory explains:
+This document derives phase transition theory and collision mechanics from first principles using the Genesis Physics 6D Firmament framework. The theory explains:
 
 1. **Phase Transitions**: First-order transitions (liquid-gas, solid-liquid) from discontinuity in the first derivative of Gibbs free energy
 2. **Latent Heat**: Energy cost of molecular reorganization during phase changes
@@ -36,7 +36,7 @@ This document derives phase transition theory and collision mechanics from first
 
 In the Genesis Physics 6D framework, the 4D Firmament membrane embedded in 6D spacetime generates a gauge field. Fluctuations of this gauge field create the electromagnetic force between charges, and closely related dynamics produce:
 
-1. **Attractive interactions** (a-parameter): Dispersion forces from collective membrane mode fluctuations
+1. **Attractive interactions** (a-parameter): Dispersion forces from collective Firmament mode fluctuations
 2. **Repulsive interactions** (b-parameter): Excluded volume from the finite size of molecular electron clouds
 
 ### Van der Waals Equation (SI units)
@@ -389,4 +389,4 @@ Both test suites pass with real calculations and experimental data:
 - All numerical results verified against steam tables and collision literature
 - Physical interpretations consistent with known experimental behavior
 
-**Conclusion**: The Genesis Physics 6D membrane framework correctly predicts phase transitions, latent heat, and collision mechanics through first principles without additional phenomenological assumptions.
+**Conclusion**: The Genesis Physics 6D Firmament framework correctly predicts phase transitions, latent heat, and collision mechanics through first principles without additional phenomenological assumptions.

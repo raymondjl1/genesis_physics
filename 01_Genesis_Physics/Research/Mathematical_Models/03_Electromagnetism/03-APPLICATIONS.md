@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light" — Electromagnetic waves are fundamental to the created order | Genesis 1:3 |
-> | Axiom | Axiom 3: Membrane Mechanics — c² = σ/μ determines EM wave speed | AXIOM_MEMBRANE_MECHANICS_v2.md |
+> | Axiom | Axiom 3: Firmament Mechanics — c² = σ/μ determines EM wave speed | AXIOM_MEMBRANE_MECHANICS_v2.md |
 > | Parent Theory | Maxwell's Equations from 6D zone architecture | 03-MAXWELL_DERIVATION.md |
 > | **This Document** | **Five EM applications: spectrum/universal speed, Faraday cage, skin effect, photoelectric effect, Compton scattering** | **03-APPLICATIONS.md** |
 > | Modern Equivalent | Classical EM Applications — CONVERGES: dispersion-free wave propagation, skin depth formula, Einstein photoelectric equation, Compton formula all recovered |
@@ -37,7 +37,7 @@ From the 6D membrane architecture:
 
 | Parameter | Value | Meaning |
 |-----------|-------|---------|
-| Membrane tension σ | 6.0×10⁹⁸ kg/(m·s²) | Elasticity of Firmament |
+| Firmament tension σ | 6.0×10⁹⁸ kg/(m·s²) | Elasticity of Firmament |
 | Surface density μ | 6.7×10⁸² kg/m² | 4D membrane inertia |
 | c² = σ/μ | 9.0×10¹⁶ m²/s² | Speed of light squared |
 | c (exact) | 3.0×10⁸ m/s | Universal speed limit |
@@ -361,10 +361,10 @@ This is the equation of a straight line: V_s vs f has slope h/e.
 
 ### Quantum Coupling to Membrane Quantization (Genesis Physics)
 
-In Genesis Physics, photons are **quantized excitations of the EM field**, which itself emerges from membrane oscillations:
+In Genesis Physics, photons are **quantized excitations of the EM field**, which itself emerges from Firmament oscillations:
 
 - EM field couples to 6D membrane geometry (off-diagonal metric components)
-- Membrane vibration modes are quantized: ω_n = nπc/L for finite size or continuous for infinite space
+- Firmament vibration modes are quantized: ω_n = nπc/L for finite size or continuous for infinite space
 - Each mode can be in state with energy E = ℏω = hf (photon)
 - Electrons in matter are similarly quantized, bound in potential wells with binding energy W
 - Collision transfers photon energy to electron; energy conservation gives E_kinetic = hf - W
@@ -481,7 +481,7 @@ For backscattering (θ = 180°), maximum energy transfer occurs.
 
 ### Quantum Interpretation (Genesis Physics)
 
-In Genesis Physics, photons are quantized EM field excitations coupled to the membrane. Compton scattering is:
+In Genesis Physics, photons are quantized EM field excitations coupled to the Firmament. Compton scattering is:
 1. Photon = quantized excitation with energy ℏω = hf = hc/λ
 2. Electron = quantized fermion state
 3. Collision = quantum mechanical scattering process conserving energy and momentum

@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:14-19 (Creation of light; light as fundamental to creation) | Genesis 1:14-19 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Gauge Action, Photon Quantization, Mode Density | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **Planck spectrum from membrane quantization; Stefan-Boltzmann law; Wien displacement; thermal radiation from first principles** | **02-PLANCK_SPECTRUM_DERIVATION.md** |
 > | Modern Equivalent | Quantum field theory, blackbody radiation, Bose-Einstein statistics | Convergence: produces observed Planck spectrum, Stefan-Boltzmann constant, Wien's constant with exact precision |
@@ -17,14 +17,14 @@
 **Framework**: Genesis Physics | 6D Membrane Theory
 **Date**: April 5, 2026
 **Classification**: P1 Foundation — Phase 1
-**Status**: Complete rigorous derivation from membrane action
+**Status**: Complete rigorous derivation from Firmament action
 **Version**: 1.0 (Complete Action B derivation)
 
 ---
 
 ## Executive Summary
 
-This document derives the **Planck spectrum and all thermal radiation laws** directly from the 6D membrane action without importing constants from Standard Physics. The complete derivation chain:
+This document derives the **Planck spectrum and all thermal radiation laws** directly from the 6D Firmament membrane action without importing constants from Standard Physics. The complete derivation chain:
 
 $$\boxed{\begin{align}
 \text{6D Gauge Action} &\rightarrow \text{Photon Quantization} \\
@@ -86,7 +86,7 @@ $$\boxed{\partial_\mu F^{\mu\nu} = 0 \quad \text{(Lorenz gauge: } \partial_\mu A
 with solutions:
 $$\partial_\mu \partial^\mu A_\nu = 0$$
 
-**Propagation speed**: $c = \sqrt{\sigma/\mu}$ where σ (brane tension) and μ (mass density) are membrane parameters.
+**Propagation speed**: $c = \sqrt{\sigma/\mu}$ where σ (Firmament tension) and μ (mass density) are membrane parameters.
 
 ---
 
@@ -511,7 +511,7 @@ The **total energy** in the Stefan-Boltzmann integration:
 
 $$j^* = \int_0^{\infty} B(\nu,T) d\nu = \sigma_{SB} T^4$$
 
-is **finite for all T** — the UV catastrophe is resolved by the natural quantization structure of the membrane.
+is **finite for all T** — the UV catastrophe is resolved by the natural quantization structure of the Firmament.
 
 **TEST 2.10 RESULT**: UV catastrophe resolution verified through topological quantization.
 
@@ -519,9 +519,9 @@ is **finite for all T** — the UV catastrophe is resolved by the natural quanti
 
 ## Part 9: Physical Interpretation and Cosmology
 
-### 9.1 Blackbody Radiation from Membrane Oscillations
+### 9.1 Blackbody Radiation from Firmament Oscillations
 
-The Planck spectrum represents the **thermal equilibrium distribution** of membrane oscillation modes at temperature T. Each mode is a **quantum harmonic oscillator**:
+The Planck spectrum represents the **thermal equilibrium distribution** of Firmament membrane oscillation modes at temperature T. Each mode is a **quantum harmonic oscillator**:
 
 - **Ground state**: Zero-point oscillations (E₀ = hν/2)
 - **Excited states**: n = 1,2,3,... photons (E_n = hν(n + 1/2))

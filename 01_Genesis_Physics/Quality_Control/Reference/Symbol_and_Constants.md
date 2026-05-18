@@ -9,12 +9,12 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 ---
 
-## Membrane Properties
+## Firmament Properties
 
 | Symbol | Value | Units | Dimension | Meaning |
 |--------|-------|-------|-----------|---------|
-| **σ** | 6.0×10⁹⁸ | kg/(m·s²) | [ML⁻¹T⁻²] | Membrane 3-brane tension; fundamental creation parameter |
-| **μ** | 6.7×10⁸¹ | kg/m³ | [ML⁻³] | Membrane volume mass density |
+| **σ** | 6.0×10⁹⁸ | kg/(m·s²) | [ML⁻¹T⁻²] | Firmament membrane 3-brane tension; fundamental creation parameter |
+| **μ** | 6.7×10⁸¹ | kg/m³ | [ML⁻³] | Firmament membrane volume mass density |
 
 ---
 
@@ -22,7 +22,7 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 | Symbol | Value | Units | Derivation | Meaning |
 |--------|-------|-------|------------|---------|
-| **c** | 2.998×10⁸ | m/s | √(σ/μ) | Speed of light; membrane wave speed |
+| **c** | 2.998×10⁸ | m/s | √(σ/μ) | Speed of light; Firmament membrane wave speed |
 | **G** | 6.674×10⁻¹¹ | m³/(kg·s²) | c⁴/(8πσ×L_eff²) | Gravitational constant; geometric coupling |
 | **α⁻¹** | 137.036 | dimensionless | 1.44×ln(ξ_A/η_B) | Fine structure constant reciprocal; electromagnetic coupling |
 
@@ -102,4 +102,4 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 ---
 
-*Reference constants. For derivations, see `Research/Mathematical_Models/Membrane_Dynamics/`. For validation against observation, see `Research/Observational_Signatures/`.*
+*Reference constants. For derivations, see `Research/Mathematical_Models/Firmament_Dynamics/`. For validation against observation, see `Research/Observational_Signatures/`.*

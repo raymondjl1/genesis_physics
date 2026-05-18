@@ -211,7 +211,7 @@ Ratios: $m_\mu/m_e = 206.77$, $m_\tau/m_e = 3477$.
 | Higgs VEV $v$ | $246.219\,65(6)$ GeV | PDG 2024 (from $G_F$) |
 | $\sin^2\theta_W$ (on-shell) | 0.22339 | PDG 2024 |
 
-**Zone cross-check (Ch 7).** The derivation in §7.2–7.3 yields the electroweak scale from the membrane tension and the hierarchy factor (2.9.11). The predicted $v$ agrees with the measured value to within the uncertainty in $\sigma$ (~1 %). The individual fermion mass ratios are computed as Yukawa overlap integrals in §7.4; §7.4.6 reports the resulting spectrum with honest error bars (charged lepton ratios accurate to ~5 %; quark ratios to ~15 %).
+**Zone cross-check (Ch 7).** The derivation in §7.2–7.3 yields the electroweak scale from the Firmament tension and the hierarchy factor (2.9.11). The predicted $v$ agrees with the measured value to within the uncertainty in $\sigma$ (~1 %). The individual fermion mass ratios are computed as Yukawa overlap integrals in §7.4; §7.4.6 reports the resulting spectrum with honest error bars (charged lepton ratios accurate to ~5 %; quark ratios to ~15 %).
 
 ---
 

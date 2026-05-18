@@ -91,14 +91,14 @@ In Genesis Physics, the fractions are determined by the zone geometry:
 
 The Firmament (baryonic matter) is the thin membrane at the
 interface between the two Waters regions. Its small energy
-fraction (5%) reflects that baryonic matter IS the membrane —
+fraction (5%) reflects that baryonic matter IS the Firmament —
 a thin surface between two vast bulk regions.
 ```
 
 The hierarchy Ω_Λ > Ω_DM >> Ω_b follows from:
 
 1. The ξ-extent (Waters Above) is larger than the η-extent (Waters Below)
-2. Both bulk regions are much larger than the membrane thickness
+2. Both bulk regions are much larger than the Firmament thickness
 3. The energy stored in a region scales with its extent
 
 ---
@@ -247,7 +247,7 @@ Genesis Physics resolution:
 
 - **Axiom 1 (Open System)**: The Waters Above field IS the physical mechanism of sustaining. The 68% energy fraction devoted to Ψ_A is the sustaining work manifest as dark energy.
 - **Axiom 2 (6D Spacetime)**: The Waters fields are excitations of the extra dimensions. The duality (Ψ_A from ξ, Ψ_B from η) reflects the zone architecture.
-- **Axiom 3 (Membrane Mechanics)**: The Firmament sits between the two Waters regions. The fine structure constant α is determined by the ratio of their extents.
+- **Axiom 3 (Firmament Mechanics)**: The Firmament sits between the two Waters regions. The fine structure constant α is determined by the ratio of their extents.
 - **Axiom 4 (Metric Discontinuity)**: The Waters field configurations were established during the creation epoch and fixed at the Sabbath Boundary.
 - **Axiom 5 (Phase Transition)**: The Fall changed the sustaining coupling but not the Waters fields themselves. Ψ_A still operates at 68% — but the fraction that reaches baryonic systems is reduced.
 

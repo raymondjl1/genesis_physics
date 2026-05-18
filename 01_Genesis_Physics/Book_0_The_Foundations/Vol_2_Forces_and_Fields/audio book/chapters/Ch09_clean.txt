@@ -76,7 +76,11 @@ where
 
 [Equation — see print edition.]
 
-is the warp-factor-weighted volume of the extra dimensions (Ch 2, Eq. 2.2.10). Gravitational flux from a point mass spreads in all six dimensions. A 4D observer on the Firmament intercepts only the fraction that passes through the brane. The rest escapes into the bulk. The "missing" flux is gravity's weakness.
+is the warp-factor-weighted volume of the extra dimensions (Ch 2, Eq. 2.2.10). The integral has now been evaluated explicitly in the research literature: from WARPFUNCTIONDERIVATION_RT1WF.md §4.1 (Rev. 2026-05-15), the leading-order result with the derived warp function forms is
+
+[Equation — see print edition.]
+
+where B sub 0 is the warp factor at the Firmament location and xi sub 0 is the Firmament's position in the ξ-direction. In the notation of this chapter, V sub extra = e to the 2B sub 0 xi sub 0 eta sub B/(16 pi ) (leading-order, ignoring sub-leading warp corrections). OP-G6 RESOLVED (2026-05-15): the expression s²/kg has been derived from the 6D action via KK reduction + Israel junction self-consistency. G sub 6 is no longer a free calibration parameter — it follows from kappa sub 6 to the 2 and reproduces G sub 4 to 0.5%. See Research/Foundations/OPG6KAPPA6_DERIVATION.md. Canonical: B sub 0 = 28.8, e to the 2B sub 0 = 1.77 times 10 to the 25, xi sub 0 = 60 l sub Pl. Gravitational flux from a point mass spreads in all six dimensions. A 4D observer on the Firmament intercepts only the fraction that passes through the Firmament. The rest escapes into the bulk. The "missing" flux is gravity's weakness.
 
 The key feature: V_ extra grows as a power law in the extra-dimensional size xi sub A. Specifically, from the Waters Above warp factor profile the expression with lambda = 41 (Ch 2, Eq. 2.2.4), the volume integral yields (Ch 2, Eq. 2.2.17):
 
@@ -185,7 +189,12 @@ Now, G sub 4 = G sub 6 / V_ extra, and we know G sub 4 = 6.674 times 10 to the -
 
 [Equation — see print edition.]
 
-Assumption flag [A2]: We use G sub 4 = 6.674 times 10 to the -11 as the experimentally measured value. Chapter 2 derived this value from the 6D action and showed self-consistency. Here we use it as an established result.
+⚠ Derivation Status (Rev. 2026-05-14): The relationship G sub N = G sub 6/V_ extra (equations 2.9.13 and 2.9.21) is an algebraic identity that can be used in two directions:
+(a) Independent derivation: Compute G sub 6 from the 6D Firmament action without using the measured G sub N, compute V extra from the warp factor profiles, and predict G sub 4 = G sub 6/V extra as a parameter-free output.
+(b) Consistency check: Take the measured value G sub 4 = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻², compute V extra from the warp factor profiles, and back-calculate G sub 6 = G sub 4 times V extra.
+The current chapter uses direction (b): G sub 6 is not independently derived, it is algebraically computed from the measured G sub N. This establishes consistency between the zone framework and Newton's constant, not a derivation of it. A genuine derivation requires an independent calculation of G sub 6 from the 6D action without using the measured G sub N as input. This is Research Task RT-2.G6. Until RT-2.G6 is completed, the hierarchy ratio in this chapter is the ratio of two consistently defined dimensionless couplings — but the absolute values G sub 4 and G sub 6 are not independently predicted by the zone architecture at this level. Note also that the G sub N formula in Ch 2 Route 2 has a separate dimensional inconsistency (Ch 2 §2.4.2, Research Task RT-2.G) that must be resolved before any of these numerical relations can be regarded as predictions.
+
+Assumption flag [A2]: We use G sub 4 = 6.674 times 10 to the -11 as the experimentally measured value. Chapter 2 derived this value from the 6D action and showed self-consistency. Here we use it as an established result — but see the derivation status note above.
 
 The gravitational coupling is:
 
@@ -253,7 +262,7 @@ What uses experimental input:
 
 The honest summary: The hierarchy ratio's order of magnitude — the fact that it is approximately 10 to the 36 rather than approximately 10 to the 10 or approximately 10 to the 60 — is a genuine geometric prediction, because it is controlled by lambda = 41 and ( xi sub A/ eta sub B) = 95.23, both derived from zone field equations. The precise numerical value (the difference between 1.235 times 10 to the 36 and 1.236 times 10 to the 36) involves measured inputs and is therefore a consistency check, not a pure prediction. The framework's real claim is that it provides a mechanism and functional form for the hierarchy — something no other framework does — and that the mechanism produces the correct order of magnitude from derived parameters.
 
-Assumption flag [A6]: The 6D gravitational coupling G sub 6 is not independently measured. It is fixed by requiring G sub 4 = G sub 6/V_ extra to match the observed Newton's constant. A fully predictive hierarchy calculation would require an independent determination of G sub 6 — for instance, from the 6D Planck mass, which relates to the fundamental string/membrane tension. This is an open problem.
+Assumption flag [A6]: The 6D gravitational coupling G sub 6 is not independently measured. It is fixed by requiring G sub 4 = G sub 6/V_ extra to match the observed Newton's constant. A fully predictive hierarchy calculation would require an independent determination of G sub 6 — for instance, from the 6D Planck mass, which relates to the fundamental string/Firmament tension. This is an open problem.
 
 The Analytic Formula.
 
@@ -514,7 +523,7 @@ At higher energies, the gauge couplings approach each other:
 
 Meanwhile, alpha sub G also changes — though its running is far weaker and has not been directly measured.
 
-Chapter 10 will track how all four coupling constants run with energy, using the renormalization group equations derived from the zone Lagrangian (Ch 5). We will show that the three gauge couplings converge at a single energy scale — the membrane mass scale M_ membrane approximately 10 to the 16–10 to the 17 GeV — providing a prediction for gauge coupling unification that the zone framework must satisfy or be falsified.
+Chapter 10 will track how all four coupling constants run with energy, using the renormalization group equations derived from the zone Lagrangian (Ch 5). We will show that the three gauge couplings converge at a single energy scale — the Firmament mass scale M_ membrane approximately 10 to the 16–10 to the 17 GeV — providing a prediction for gauge coupling unification that the zone framework must satisfy or be falsified.
 
 The hierarchy that dominates at low energy (10 to the 36 between gravity and EM) is an artifact of our low-energy vantage point. At the unification scale, the forces approach equality. The hierarchy is not a permanent feature of the universe — it is a consequence of our distance from the fundamental energy scale.
 

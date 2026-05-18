@@ -1,4 +1,4 @@
-﻿Foundations Volume 2: Forces and Fields.
+Foundations Volume 2: Forces and Fields.
 
 Date: April 7, 2026
 Status: COMPLETE
@@ -20,8 +20,8 @@ B.1 Fundamental Membrane and Zone Parameters.
 
 These parameters define the 6D zone architecture at the foundation of Genesis Physics.
 
-Parameter: Membrane surface tension (6D). Symbol: σ. Zone Value: 6.0 × 10⁹⁸. Units: kg/(m·s²). Uncertainty: ±10%. Source: Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4. Chapter: Vol 1 Ch 3; Vol 2 Ch 1. Notes: Fundamental scale from zone coupling geometry.
-Parameter: Membrane areal mass density. Symbol: μ. Zone Value: 6.7 × 10⁸¹. Units: kg/m³. Uncertainty: ±10%. Source: Derived from membrane equation of motion; Vol 1, Ch 5, §5.2. Chapter: Vol 2 Ch 1. Notes: Related to Planck mass: M_Pl² ∝ σ/μ.
+Parameter: Firmament membrane surface tension (6D). Symbol: σ. Zone Value: 6.0 × 10⁹⁸. Units: kg/(m·s²). Uncertainty: ±10%. Source: Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4. Chapter: Vol 1 Ch 3; Vol 2 Ch 1. Notes: Fundamental scale from zone coupling geometry.
+Parameter: Membrane areal mass density. Symbol: μ. Zone Value: 6.7 × 10⁸¹. Units: kg/m³. Uncertainty: ±10%. Source: Derived from Firmament membrane equation of motion; Vol 1, Ch 5, §5.2. Chapter: Vol 2 Ch 1. Notes: Related to Planck mass: M_Pl² ∝ σ/μ.
 Parameter: Waters Above scale (cosmological). Symbol: ξ_A. Zone Value: 3.0 × 10²⁶. Units: m. Uncertainty: ±1%. Source: Observable universe radius; c·t_0 where t_0 ~ 10¹⁰ years. Chapter: Vol 1 Ch 3. Notes: Matches modern cosmic horizon ~1.4 × 10²⁶ m.
 Parameter: Waters Below scale (nuclear). Symbol: η_B. Zone Value: 1.3 × 10⁻¹⁵. Units: m. Uncertainty: ±5%. Source: Inverse membrane scale Q_m ~ ℏc/η_B ≈ 1 GeV. Chapter: Vol 2 Ch 10. Notes: Corresponds to strong-force confinement scale.
 Parameter: Effective Firmament thickness. Symbol: L_eff. Zone Value: 8.96 × 10⁻²⁹. Units: m. Uncertainty: ±5%. Source: Geometric mean from 6D warp-factor integrals; Vol 2, Ch 2, Eq. (2.2.29). Chapter: Vol 2 Ch 1. Notes: Related to warp factor profiles.
@@ -40,7 +40,7 @@ This table presents the four fundamental coupling constants of Genesis Physics. 
 B.2.1 Gravitational Coupling (G₄).
 
 Quantity: Newton's gravitational constant. Symbol: G₄. Zone Derivation: 6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻². Measured Value: 6.67430(15) × 10⁻¹¹ m³ kg⁻¹ s⁻². Relative Agreement: **0.06%**. Source: CODATA 2018 (Tiesinga et al., 2021; https://doi.org/10.1038/s41592-021-01174-8). Chapter: Ch 2. Notes: Derived from 6D Einstein-Hilbert action + KK reduction; hierarchy explained by V_extra factor.
-Quantity: 6D Planck mass. Symbol: M₆. Zone Derivation: ~10¹⁶ GeV. Measured Value: —. Relative Agreement: —. Source: Derived from σ, μ, and zone volume scaling (10-GRAVITATIONAL_CONSTANT_DERIVATION.md). Chapter: Ch 2. Notes: Connects membrane tension to effective Planck scale.
+Quantity: 6D Planck mass. Symbol: M₆. Zone Derivation: ~10¹⁶ GeV. Measured Value: —. Relative Agreement: —. Source: Derived from σ, μ, and zone volume scaling (10-GRAVITATIONAL_CONSTANT_DERIVATION.md). Chapter: Ch 2. Notes: Connects Firmament tension to effective Planck scale.
 Quantity: Hierarchy factor (effective). Symbol: G₄/c² · (ratio). Zone Derivation: ~10⁻²⁷ m/kg. Measured Value: Observed as G₄ suppression. Relative Agreement: ~10⁻²⁷ (dimensionless factor). Source: Explained by V_extra ~ 10⁶¹ m²; no fitting parameter in Genesis Physics. Chapter: Ch 2. Notes: First solution to hierarchy problem: geometric origin.
 
 Derivation Source: 10-GRAVITATIONALCONSTANTDERIVATION.md (complete step-by-step from 6D action)
@@ -345,11 +345,11 @@ B.9.1 Gravitational Constant G₄.
 
 Sources of Uncertainty in Zone Derivation:
 
-Source: Membrane surface tension σ (6D). Contribution to Uncertainty: Logarithmic (σ enters G₄ ∝ σ/V_extra). Magnitude: ~10%. Dominant Factor: 6D Planck scale determination.
+Source: Firmament membrane surface tension σ (6D). Contribution to Uncertainty: Logarithmic (σ enters G₄ ∝ σ/V_extra). Magnitude: ~10%. Dominant Factor: 6D Planck scale determination.
 Source: Extra-dimensional volume V_extra. Contribution to Uncertainty: Direct proportionality: G₄ = G₆/V_extra. Magnitude: ~5%. Dominant Factor: Warp factor profile.
 Source: Waters Above scale ξ_A. Contribution to Uncertainty: Logarithmic (enters ln ratio). Magnitude: ~1%. Dominant Factor: Cosmological horizon measurement.
 Source: Waters Below scale η_B. Contribution to Uncertainty: Logarithmic (enters ln ratio). Magnitude: ~1%. Dominant Factor: Strong-force scale.
-Source: **Combined (quadrature)**. Contribution to Uncertainty: √(10² + 5² + 1² + 1²). Magnitude: **~11%**. Dominant Factor: Membrane tension dominates.
+Source: **Combined (quadrature)**. Contribution to Uncertainty: √(10² + 5² + 1² + 1²). Magnitude: **~11%**. Dominant Factor: Firmament tension dominates.
 
 Comparison to Measured Uncertainty:
 - Measured G₄: ±0.06% (CODATA 2018)

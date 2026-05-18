@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning God created the heavens and the earth" — Precision of EM phenomena reflects divine craftsmanship | Genesis 1:1 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | Maxwell's Equations; EM Completions; Condensed Matter from Membrane | 03-MAXWELL_DERIVATION.md, 03-COMPLETIONS.md, 03-05-CONDENSED_MATTER_DERIVATION.md |
 > | **This Document** | **Precision EM derivations: full spectrum, Faraday cage, skin effect, superconductivity, Meissner effect with numerical verification** | **03-PRECISION_COMPLETIONS.md** |
 > | Modern Equivalent | Advanced EM & Superconductivity — CONVERGES: BCS gap formula, critical temperature, London equation, skin depth all numerically verified against PDG |
@@ -23,10 +23,10 @@
 
 ## Executive Summary
 
-This document completes five critical electromagnetic derivations from the Genesis Physics 6D framework that bridge classical EM to quantum materials physics. Each derivation traces explicitly to the membrane action, includes dimensional analysis, and provides numerical verification against experimental/PDG values.
+This document completes five critical electromagnetic derivations from the Genesis Physics 6D framework that bridge classical EM to quantum materials physics. Each derivation traces explicitly to the Firmament action, includes dimensional analysis, and provides numerical verification against experimental/PDG values.
 
 **Five Completions:**
-1. **Full EM Spectrum** (Test 3.6): Radio → gamma from membrane oscillation modes
+1. **Full EM Spectrum** (Test 3.6): Radio → gamma from Firmament membrane oscillation modes
 2. **Faraday Cage** (Test 3.10): Explicit exponential decay δ = √(2/(ωμσ))
 3. **Skin Effect** (Test 3.11): Penetration depth formula with copper & GHz calculations
 4. **Superconductivity** (Test 3.12): Cooper pairing from membrane phonons; BCS gap; Tc for Al, Nb
@@ -34,17 +34,17 @@ This document completes five critical electromagnetic derivations from the Genes
 
 ---
 
-## Part 1: Full Electromagnetic Spectrum from Membrane Oscillation Modes
+## Part 1: Full Electromagnetic Spectrum from Firmament Oscillation Modes
 ### Test ID: 3.6
 
-### 1.1 Membrane Oscillations and EM Modes
+### 1.1 Firmament Oscillations and EM Modes
 
 From AXIOM_MEMBRANE_MECHANICS_v2.md, the Firmament is an elastic membrane with:
 - Surface tension: σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 - Mass density: μ ≈ 5.0 × 10¹⁹ kg/m (per unit area)
-- Speed of light (membrane wave speed): c = √(σ/μ) ≈ 3 × 10⁸ m/s
+- Speed of light (Firmament membrane wave speed): c = √(σ/μ) ≈ 3 × 10⁸ m/s
 
-The membrane supports transverse oscillation modes. When quantized, these modes produce photons of frequency:
+The Firmament supports transverse oscillation modes. When quantized, these modes produce photons of frequency:
 
 $$\nu = \frac{c}{\lambda} = \frac{c \cdot \sqrt{k_x^2 + k_y^2}}{2\pi}$$
 
@@ -425,7 +425,7 @@ Superconductivity emerges from an instability in the Fermi sea when electrons in
 
 The pairing creates a **Cooper pair** (two electrons with opposite momenta and spins) bound by the phonon potential. Below a critical temperature T_c, all states near the Fermi surface become paired, and the system develops a **gap** Δ, preventing excitations.
 
-### 4.2 Derivation from Membrane Mechanics
+### 4.2 Derivation from Firmament Mechanics
 
 In Genesis Physics, the attractive electron-electron interaction arises from the periodic potential of the ion lattice (lattice vibrations = phonons). The Debye model describes lattice vibrations:
 

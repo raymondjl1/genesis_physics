@@ -64,7 +64,7 @@ The back matter must:
 - **Why Appendix B?** "This framework is computationally validated" is a claim. Appendix B is the evidence. Either the simulations run (and produce the claimed results) or they do not. The appendix cannot hide behind narrative; it must expose the code.
 - **Why Appendix C (and D)?** Foundations rule: every volume has problem sets. Vol 6's distinctive contribution is *cross-volume* problems — reasoning that requires Vol 1's axioms, Vol 4's Standard Model, and Vol 5's cosmology simultaneously. These are the problems that test whether the reader has actually integrated the series.
 - **Why Appendix E?** The series introduces hundreds of symbols across six volumes. A symbol introduced in Vol 2 may appear in Vol 5 with slightly different notation. Appendix E is the arbiter — the Consistency Auditor runs the series-wide symbol check against it.
-- **Why Appendix F (NEW)?** The zone-architecture framework implies specific technologies (FTL mechanisms, membrane resonance generator, life-detection-from-space). Engineers, program managers, and investors need these in one table with honest TRLs. Earlier volumes handle this piecemeal; Appendix F consolidates.
+- **Why Appendix F (NEW)?** The zone-architecture framework implies specific technologies (FTL mechanisms, Firmament resonance generator, life-detection-from-space). Engineers, program managers, and investors need these in one table with honest TRLs. Earlier volumes handle this piecemeal; Appendix F consolidates.
 - **Why the bibliography?** Six volumes across a 2,500-page series will accumulate duplicate citations in per-volume bibliographies. One consolidated, deduplicated master reference of 400+ entries replaces six separate ones for the reader who wants to follow a citation backward.
 - **Why the master index?** The series is large enough that a reader cannot find every mention of "entropy" or "Bell inequality" by memory. The master index is the physical navigation substrate — without it, the series is not fully navigable.
 
@@ -202,7 +202,7 @@ Target length: 8,000–12,000 words.
 - §E.2 Latin letters — lowercase then uppercase, alphabetical
 - §E.3 Greek letters — alphabetical by Greek name (α, β, γ, δ, ε, ζ, η, θ, ι, κ, λ, μ, ν, ξ, ο, π, ρ, σ, τ, υ, φ, χ, ψ, ω)
 - §E.4 Mathematical operators and relations — ∇, ⊗, ⊕, ≡, ∝, □ (d'Alembertian), 〈·〉 (expectation), etc.
-- §E.5 Tensor / index conventions — raised/lowered indices, Einstein summation, Levi-Civita, metric signature (+−−−− on the 4D brane, +−−−−−− on the 6D bulk)
+- §E.5 Tensor / index conventions — raised/lowered indices, Einstein summation, Levi-Civita, metric signature (+−−−− on the 4D Firmament, +−−−−−− on the 6D bulk)
 - §E.6 Unit and prefix conventions — natural units policy across volumes (ℏ = c = 1 in Vol 4; SI in Vol 2; units-explicit in Vol 5)
 - §E.7 Zone-architecture-specific notation — Z0–Z5 (Zone labels), Firmament ($\mathcal{F}$), Waters Above ($\Psi_A$), Waters Below ($\Psi_B$), boundary scales ($\xi_A$, $\eta_B$)
 - §E.8 Constants reference — table of every physical constant (α, ℏ, G, k_B, c, e, etc.) with value, source definition, first appearance
@@ -231,7 +231,7 @@ Target length: 6,000–9,000 words.
   - T-FTL-04: Field Distortion / Warp Bubble (Mechanism 4)
   - T-FTL-05: Consciousness Interface (Mechanism 5)
 - §F.2 Energy Harvesting (T-NRG-01 through T-NRG-04) — from Ch 10
-  - T-NRG-01: Membrane Resonance Generator (MRG)
+  - T-NRG-01: Firmament Resonance Generator (MRG)
   - T-NRG-02: Waters Above Expansion Sail
   - T-NRG-03: Vacuum Energy / Dynamic Casimir Array
   - T-NRG-04: Zone-Boundary Latent-Heat Extraction
@@ -241,7 +241,7 @@ Target length: 6,000–9,000 words.
   - T-COM-03: Waters-Field Modulation Channel
   - T-COM-04: Consciousness-Interface Channel
 - §F.4 Sensors (T-SNS-01 through T-SNS-06) — from Ch 12
-  - T-SNS-01: Membrane Vibration Interferometer (MVI)
+  - T-SNS-01: Firmament Vibration Interferometer (MVI)
   - T-SNS-02: Atom-Interferometer Waters-Field Sensor
   - T-SNS-03: Dark-Matter Imaging Aperture
   - T-SNS-04: LIGO Retrofit for Extended GW Polarizations
@@ -288,7 +288,7 @@ Target length: 15,000–25,000 words.
 
 **Required entry categories:**
 
-- Named concepts (zone, Firmament, Waters, membrane, sustaining coupling, zone transition, brane)
+- Named concepts (zone, Firmament, Waters, membrane, sustaining coupling, zone transition, Firmament)
 - People (Einstein, Planck, Bell, Feynman, Maxwell, Dirac, Hawking, Bekenstein, Alcubierre, ~40 entries)
 - Particles (electron, photon, quark flavors, W/Z, Higgs, graviton, KK modes, ~30 entries)
 - Equations (numbered and referenced, format: "equation X.Y.Z (name)")

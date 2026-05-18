@@ -3,7 +3,7 @@
 > |-------|--------|-----------|
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
-> | Axiom | Membrane Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
+> | Axiom | Firmament Mechanics | AXIOM_3_MEMBRANE_MECHANICS.md |
 > | Parent Theory | Topological Quantization on Firmament | TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md |
 > | Parent Theory | Warp Geometry | WARP_FACTOR_SOLUTIONS.md |
 > | **This Document** | **Planck's Constant ℏ** | **10-PLANCK_CONSTANT_DERIVATION.md** |
@@ -24,11 +24,11 @@
 
 ## Executive Summary
 
-This document derives Planck's constant ℏ = 1.05457 × 10⁻³⁴ J·s **entirely from 6D membrane parameters** without importing it from Standard Physics. The key insight: **ℏ is the minimum quantum of action for topological excitations on the Firmament brane**, arising from the discreteness of winding numbers in the 2D extra-dimensional space.
+This document derives Planck's constant ℏ = 1.05457 × 10⁻³⁴ J·s **entirely from 6D membrane parameters** without importing it from Standard Physics. The key insight: **ℏ is the minimum quantum of action for topological excitations on the Firmament**, arising from the discreteness of winding numbers in the 2D extra-dimensional space.
 
 The derivation:
 1. Identifies the minimum action for a unit-vortex topological defect on the Firmament
-2. Uses the brane tension σ and the Waters Below confinement scale η_B to define the action quantum
+2. Uses the Firmament tension σ and the Waters Below confinement scale η_B to define the action quantum
 3. Applies exponential warp-factor suppression to match the observed value within ≤1%
 4. Demonstrates that the same mechanism explains the hierarchy problem (gravity weakness), fine-structure constant, and mass hierarchies
 
@@ -119,7 +119,7 @@ Dimensional check: [τ] = [L]/[LT⁻¹] = [T] ✓
 
 ### 2.3 Minimum Action for Unit Vortex
 
-The energy (action per time) stored in the vortex field configuration is the brane tension σ integrated over the core area:
+The energy (action per time) stored in the vortex field configuration is the Firmament tension σ integrated over the core area:
 
 $$E_{\text{vortex}} = \sigma \times A_{\text{core}} = \sigma \times \pi r_{\text{core}}^2 = \pi \sigma \eta_B^2 \quad \text{...(2.3)}$$
 
@@ -136,7 +136,7 @@ $$[S] = [M L T^{-2}] \cdot [L] / [LT^{-1}] = [M L^2 T^{-1}] = \text{action} \qua
 
 This is the **minimum topological action on the Firmament**. It arises from:
 - The vortex core area: πη_B² (transverse extent)
-- The brane energy per unit 3-volume: σ (energy density in the elastic membrane)
+- The Firmament energy per unit 3-volume: σ (energy density in the elastic membrane)
 - The temporal scale: η_B/c (causality limit for quantum processes at this scale)
 
 ### 2.4 Identification with ℏ
@@ -264,7 +264,7 @@ Combining sections 2 and 3:
 $$\boxed{\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\eta_B}{\xi_A}\right)^{2\lambda} \times \beta_{\text{geom}}} \quad \text{...(4.1)}$$
 
 where:
-- σ = 6.0 × 10⁹⁸ kg/(m·s²) (membrane tension)
+- σ = 6.0 × 10⁹⁸ kg/(m·s²) (Firmament tension)
 - η_B = 1.3 × 10⁻¹⁵ m (Waters Below confinement scale = nuclear scale)
 - ξ_A = 1.4 × 10²⁶ m (Waters Above extent = Hubble length)
 - c = 3.0 × 10⁸ m/s (speed of light)
@@ -357,7 +357,7 @@ To match the observed ℏ = 1.05457 × 10⁻³⁴ J·s, we need to correct for:
 **Refined accounting**: The bare quantum ℏ₀ given by equation (4.2) uses σ and η_B that are **approximate values**. The actual derivation requires solving the full 6D field equations (ACTION_6D_COMPLETE) for the zone geometry.
 
 More precisely, the action quantum depends on:
-1. The actual brane tension at the Firmament position: σ(ξ_F, η_F)
+1. The actual Firmament tension at the Firmament position: σ(ξ_F, η_F)
 2. The actual confinement scale: η_B (determined self-consistently from the field potential)
 3. The warp geometry: A(ξ, η) and B(ξ, η) from solving the 6D Einstein equations
 
@@ -484,11 +484,11 @@ This suggests **ℏ is not constant in cosmology** if the zone extents evolve wi
 In Standard Physics: Quantization is postulated (canonical commutation relations, path integrals, etc.). The reason **why** nature is quantum remains mysterious.
 
 In Genesis Physics: Quantization arises **necessarily** from topological defects on the Firmament. The allowed quantum numbers correspond to winding numbers (integers) in the (ξ, η)-space. Planck's constant ℏ is not a free parameter but a **derived geometric quantity** determined by:
-1. The brane tension σ (rigidity of the Firmament)
+1. The Firmament tension σ (rigidity of the Firmament)
 2. The confinement scales η_B and ξ_A (topology of the extra dimensions)
 3. The warp geometry (curvature of the bulk spacetime)
 
-**This explains why ℏ appears universally in quantum mechanics**: It is the fundamental action scale set by the membrane structure.
+**This explains why ℏ appears universally in quantum mechanics**: It is the fundamental action scale set by the Firmament structure.
 
 ### 7.2 Possible Variation of ℏ in Cosmology
 
@@ -513,7 +513,7 @@ Genesis Physics predicts correlations between α, ℏ, and G₄ variations that 
 
 The derivation naturally explains the quantum-classical boundary:
 
-**Classical limit** (ℏ → 0): This occurs when σ → 0 (brane becomes soft) or ξ_A → 0 (universe shrinks). Physically unattainable.
+**Classical limit** (ℏ → 0): This occurs when σ → 0 (Firmament becomes soft) or ξ_A → 0 (universe shrinks). Physically unattainable.
 
 **Semi-classical limit**: When the action S >> ℏ, classical physics applies. This occurs for macroscopic objects whose action (m·v·L) is >> ℏ because their mass m is large (composites of many quantum particles).
 
@@ -526,7 +526,7 @@ The vortex-based derivation connects to Topological Quantum Field Theory (TQFT).
 - Hilbert space is finite-dimensional for a given topology
 - Correlation functions depend on topology, not details
 
-Genesis Physics suggests: **Quantum mechanics of particles is a TQFT on the Firmament brane.**
+Genesis Physics suggests: **Quantum mechanics of particles is a TQFT on the Firmament.**
 
 The Planck constant ℏ is the fundamental action scale; quantum states are topological defect configurations. This provides a deep geometric interpretation of quantum mechanics.
 
@@ -556,7 +556,7 @@ The report identifies gaps:
 
 1. Zone extents **do emerge from field dynamics** in a full solution of the 6D Einstein equations with the combined action S_total (ACTION_6D_COMPLETE). The self-consistency of the hierarchy (10⁴¹ orders of magnitude) confirms this structure.
 
-2. The numerical coefficient 1.44 in α⁻¹ arises from the **Green's function of the 6D Laplacian with Neumann boundary conditions at the brane**. (Detailed calculation in 10-COUPLING_CONSTANTS_DERIVATION.md)
+2. The numerical coefficient 1.44 in α⁻¹ arises from the **Green's function of the 6D Laplacian with Neumann boundary conditions at the Firmament**. (Detailed calculation in 10-COUPLING_CONSTANTS_DERIVATION.md)
 
 3. **This derivation of ℏ provides independent confirmation**: The exponential warp factor (η_B/ξ_A)² that suppresses ℏ is **the same geometric structure** that would suppress other 6D-to-4D coupling ratios. The universality of this mechanism across ℏ, G₄, α is a **consistency check** that validates the entire framework.
 
@@ -565,12 +565,12 @@ The report identifies gaps:
 **Potential concern**: Are we using ℏ to derive ℏ?
 
 **Answer**: No. The derivation uses:
-- σ (membrane tension) — derived from 6D geometry + field equations
+- σ (Firmament tension) — derived from 6D geometry + field equations
 - η_B (confinement scale) — emerges from the potential V_B(Ψ_B) width
 - ξ_A (zone extent) — emerges from the cosmological solution to Friedmann equations
 - c (speed of light) — derived from c² = σ/μ in AXIOM_MEMBRANE_MECHANICS_v2
 
-None of these inputs rely on ℏ. The entire 6D theory (ACTION_6D_COMPLETE) is formulated without quantum mechanics — it is classical field theory in 6D. Quantization emerges as a consequence of the membrane structure.
+None of these inputs rely on ℏ. The entire 6D theory (ACTION_6D_COMPLETE) is formulated without quantum mechanics — it is classical field theory in 6D. Quantization emerges as a consequence of the Firmament structure.
 
 ---
 
@@ -625,7 +625,7 @@ The remarkable fact: **All three definitions are identical in Genesis Physics.**
 This derivation assumes σ ≈ 6 × 10⁹⁸ kg/(m·s²) and μ ≈ 6.7 × 10⁸¹ kg/m³ as input. The next step (Phase 0) is to:
 
 1. Solve the 6D field equations from S_total (ACTION_6D_COMPLETE) with full coupling between gravity, gauge fields, matter, and the Waters
-2. Determine σ and μ self-consistently from the brane action density
+2. Determine σ and μ self-consistently from the Firmament action density
 3. Verify that c² = σ/μ emerges to high precision
 4. Confirm the zone extents ξ_A, η_B
 
@@ -635,7 +635,7 @@ The derivation used a simplified exponential form. The exact forms arise from so
 
 $$R_{AB} - \frac{1}{2}g_{AB}R + \Lambda_6 g_{AB} = 8\pi G_6 T_{AB}$$
 
-with brane and source terms. Solutions likely involve:
+with Firmament and source terms. Solutions likely involve:
 - Hyperbolic functions (cosh, sinh)
 - Logarithmic corrections
 - Matching conditions at zone boundaries
@@ -653,7 +653,7 @@ Detecting such variations would be smoking-gun evidence for Genesis Physics.
 
 ### 10.4 Quantization of Fermionic vs. Bosonic Defects
 
-The derivation applies to bosonic topological vortices. Fermionic defects (spinor fields on the brane) may have different quantization conditions. The spectrum of allowed topological quantum numbers for fermions vs. bosons would explain the spin-statistics theorem from geometry.
+The derivation applies to bosonic topological vortices. Fermionic defects (spinor fields on the Firmament) may have different quantization conditions. The spectrum of allowed topological quantum numbers for fermions vs. bosons would explain the spin-statistics theorem from geometry.
 
 ---
 
@@ -671,7 +671,7 @@ We have derived **Planck's constant ℏ from the geometry and dynamics of the 6D
 
 5. **Demonstrated** self-consistency: the same warp mechanism explains the gravity hierarchy, fine-structure constant, and mass hierarchies, confirming the unified framework
 
-6. **Established** that quantization is not an independent axiom but emerges from the membrane topology and geometry
+6. **Established** that quantization is not an independent axiom but emerges from the Firmament topology and geometry
 
 This derivation elevates Planck's constant from an unexplained fundamental constant to a **derived geometric quantity**, placing Genesis Physics on firmer theoretical ground and opening a path toward understanding why nature is quantum.
 
@@ -681,7 +681,7 @@ This derivation elevates Planck's constant from an unexplained fundamental const
 
 **Foundation Documents**:
 - ACTION_6D_COMPLETE.md — Full 6D action with all coupling terms
-- AXIOM_MEMBRANE_MECHANICS_v2.md — Membrane tension σ, surface density μ, c² = σ/μ
+- AXIOM_MEMBRANE_MECHANICS_v2.md — Firmament tension σ, surface density μ, c² = σ/μ
 - AXIOM_6D_SPACETIME.md — Coordinate system and topology
 - KK_DIMENSIONAL_REDUCTION.md — Kaluza-Klein reduction, G₄ = G₆/V_eff
 - METRIC_6D_SOLUTIONS.md — Explicit metric solutions, warp factors A(ξ,η), B(ξ,η)

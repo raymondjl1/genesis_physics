@@ -435,7 +435,7 @@ This volume answers the question every physics student has asked and never had a
 |----|-------|---------|-----------|
 | 1 | *Why Forces Exist* | Forces as consequences of membrane geometry, not fundamental entities. The hierarchy problem introduced and solved in principle. How zone architecture predicts exactly four forces — no more, no less. | 30-40 |
 | 2 | *Gravity from Zone Curvature* | Gravity as the simplest geometric consequence. Newton's law derived. Gravitational constant G calculated from zone parameters. Why gravity is weak — answered. | 40-50 |
-| 3 | *Electromagnetism from Membrane Wave Propagation* | Maxwell's equations derived from Firmament vibration modes. Speed of light as membrane property. Gauge invariance from zone symmetry. The fine structure constant derivation begins here. | 50-60 |
+| 3 | *Electromagnetism from Firmament Wave Propagation* | Maxwell's equations derived from Firmament vibration modes. Speed of light as Firmament property. Gauge invariance from zone symmetry. The fine structure constant derivation begins here. | 50-60 |
 | 4 | *The Strong and Weak Forces from Zone Boundary Effects* | Confinement from zone boundary conditions. Weak force from zone-mixing at short distances. Nuclear physics as membrane-scale phenomena. Why these forces are short-range — geometric necessity. | 40-50 |
 
 **Part II: Classical Field Theory on the Zone Manifold (Chapters 5-8)**
@@ -545,7 +545,7 @@ This is the volume that answers every "shut up and calculate" in quantum physics
 
 | Ch | Title | Content | Pages Est. |
 |----|-------|---------|-----------|
-| 10 | *Leptons and Quarks from Membrane Resonances* | Particle spectrum derived from Firmament vibration modes. Why three generations — the resonance structure demands it. Mass calculations with error bars. | 40-50 |
+| 10 | *Leptons and Quarks from Firmament Resonances* | Particle spectrum derived from Firmament vibration modes. Why three generations — the resonance structure demands it. Mass calculations with error bars. | 40-50 |
 | 11 | *The Electroweak Theory* | SU(2)×U(1) from zone symmetry breaking. W and Z masses calculated. Weinberg angle derived. Comparison with experimental values. | 30-40 |
 | 12 | *Quantum Chromodynamics* | SU(3) from zone boundary properties. Confinement derived. Asymptotic freedom explained. Hadron spectrum. | 30-40 |
 | 13 | *The CKM and PMNS Matrices* | Mixing angles calculated from zone geometry. CP violation explained. Why neutrinos have mass — zone architecture demands it. | 20-30 |
@@ -643,7 +643,7 @@ This is the "prove me wrong" volume. Every testable prediction collected, number
 |----|-------|---------|-----------|
 | 5 | *Simulation Methodology* | Numerical methods for zone architecture. Discretization of the zone manifold. Stability and convergence. Code architecture. | 20-30 |
 | 6 | *N-Body Simulations with Zone Corrections* | Galaxy formation, cosmic web, cluster dynamics. Comparison with standard N-body results. Where zone corrections matter. | 30-40 |
-| 7 | *Membrane Vibration Spectra* | Computational determination of Firmament vibration modes. Particle spectrum predictions. Comparison with experimental particle data. | 30-40 |
+| 7 | *Firmament Vibration Spectra* | Computational determination of Firmament vibration modes. Particle spectrum predictions. Comparison with experimental particle data. | 30-40 |
 | 8 | *Reproducibility Package* | Complete code repository description. How to reproduce every simulation result in this volume. Link to GitHub repository. | 10-20 |
 
 **Part III: Consciousness, Open Problems, and the Future (Chapters 9-12)**

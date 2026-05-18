@@ -20,7 +20,7 @@ title=Chapter 2: Gravity from Zone Curvature
 TIMEBASE=1/1000
 START=7210584
 END=10470456
-title=Chapter 3: Electromagnetism from Membrane Wave Propagation
+title=Chapter 3: Electromagnetism from Firmament Wave Propagation
 
 [CHAPTER]
 TIMEBASE=1/1000

@@ -23,7 +23,7 @@ This test suite validates the following electromagnetic phenomena derived from G
 
 GENESIS PHYSICS FRAMEWORK:
 - The Firmament is a 4D membrane in 6D spacetime
-- Membrane tension σ = 6.0×10⁹⁸ kg/(m·s²), density μ = 6.7×10⁸¹ kg/m³
+- Firmament tension σ = 6.0×10⁹⁸ kg/(m·s²), density μ = 6.7×10⁸¹ kg/m³
 - c² = σ/μ = 9.0×10¹⁶ m²/s² → c = 3.0×10⁸ m/s (exact)
 - Fine structure constant: α⁻¹ ≈ 1.44 ln(ξ_A/η_B) ≈ 137.036
   where ξ_A ≈ 3×10²⁶ m (Waters Above), η_B ≈ 1.3×10⁻¹⁵ m (Waters Below)
@@ -72,7 +72,7 @@ ALPHA_INV = 137.036                # Inverse fine structure constant (1/α)
 ALPHA = 1.0 / ALPHA_INV            # Fine structure constant
 
 # Genesis Physics parameters
-SIGMA = 6.0e98                      # Membrane tension [kg/(m·s²)]
+SIGMA = 6.0e98                      # Firmament tension [kg/(m·s²)]
 MU = 6.7e81                         # Volume mass density [kg/m³]
 C_SQUARED = SIGMA / MU              # c² = 9.0×10¹⁶ m²/s²
 ZETA_A = 3e26                       # Waters Above scale [m]
@@ -456,7 +456,7 @@ class PhotoelectricEffectTest:
     (Below this, no electrons ejected regardless of light intensity)
 
     From quantum mechanics coupled to membrane quantization:
-    - Photons are quantized excitations of the EM field (membrane vibration modes)
+    - Photons are quantized excitations of the EM field (Firmament vibration modes)
     - Energy: E_photon = hf
     - Electrons are similarly quantized, with binding energy W in the material
     - Energy conservation: hf = E_binding + E_kinetic

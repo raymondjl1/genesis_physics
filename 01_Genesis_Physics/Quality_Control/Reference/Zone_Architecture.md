@@ -15,7 +15,7 @@ Location: `Quality_Control/Reference/Zone_Architecture.md`
 | Z₁ | Heaven Prime | Day 1 (implicit) | Atemporal | Transcendent | Infinite | Transcendent order; causality source |
 | Z₂ | Earth Prime | Days 1-6 | Temporal | Observable | Spacetime manifold | Material cosmos |
 | Z₂.₁ | Atemporal Domain | Day 1 | Atemporal | Spirit realm | 4D+ | Transcendent structure within material realm |
-| Z₂.₂ | Firmament Domain | Day 2 | Temporal | Observable | 3D + time | Membrane; observable universe |
+| Z₂.₂ | Firmament Domain | Day 2 | Temporal | Observable | 3D + time | Firmament membrane; observable universe |
 | Z₂.₂.₁ | Waters Below | Day 2 (completion) | Temporal | Indirect (dark matter) | 3D | Gravitational scaffolding; structure-forming |
 | Z₂.₂.₂ | Condensed Matter | Day 3+ | Temporal | Direct | 3D | Baryonic matter; stars, galaxies, earth |
 | Z₂.₂.₃ | Waters Above | Day 2 (implicit) | Temporal | Indirect (dark energy) | 3D | Repulsive medium; cosmic acceleration |
@@ -125,7 +125,7 @@ The nested numbering system is the authoritative technical notation and MUST be 
 
 **Structure**: Z₂.₂.₂ denotes *nested hierarchy*:
 - Z₂ = Earth Prime (temporal material cosmos)
-- Z₂.₂ = Firmament Domain (observable universe membrane)
+- Z₂.₂ = Firmament Domain (the Firmament membrane and surrounding structure; observable universe)
 - Z₂.₂.₂ = Condensed Matter (baryonic subset)
 
 ### Simplified System (Pedagogical)

@@ -2,10 +2,10 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6 "firmament" (rāqîa') — a stretched or beaten surface | Genesis 1:6 |
-> | Axiom | **AXIOM 3: Membrane Mechanics** | AXIOM_MEMBRANE_MECHANICS_v2.md |
+> | Axiom | **AXIOM 3: Firmament Mechanics** | AXIOM_MEMBRANE_MECHANICS_v2.md |
 > | Parent Theory | First Principles / Axiom | (Foundational) |
 > | **This Document** | **c² = σ/μ with corrected dimensional analysis; derivation of fundamental coupling constants from membrane properties** | **AXIOM_MEMBRANE_MECHANICS_v2.md** |
-> | Modern Equivalent | Elastic wave dynamics, brane cosmology | Convergence: derives speed of light from first principles; predicts correct c ≈ 3×10⁸ m/s |
+> | Modern Equivalent | Elastic wave dynamics, Firmament cosmology | Convergence: derives speed of light from first principles; predicts correct c ≈ 3×10⁸ m/s |
 >
 > *Chain Status: COMPLETE*
 
@@ -15,7 +15,7 @@
 **Author**: Genesis Physics Research Team
 **Date**: April 5, 2026
 **Version**: v2 (Corrected dimensional analysis and derived forms)
-**Status**: Foundation axiom — derives the speed of light and coupling constants from membrane properties
+**Status**: Foundation axiom — derives the speed of light and coupling constants from Firmament properties
 **Framework**: Genesis Physics, 6D Membrane Theory
 
 ---
@@ -30,7 +30,7 @@
 c² = σ / μ
 
 where:
-  σ = membrane tension (energy per unit 3-volume) ≈ 6.0 × 10⁹⁸ kg/(m·s²) (exact form below)
+  σ = Firmament tension (energy per unit 3-volume) ≈ 6.0 × 10⁹⁸ kg/(m·s²) (exact form below)
   μ = volume mass density (mass per unit 3-volume) ≈ 6.7 × 10⁸¹ kg/m³
 ```
 
@@ -58,7 +58,7 @@ For this relation to hold, σ and μ must have the correct dimensions.
 
 ### Brane Tension σ (Corrected Definition)
 
-**Physical interpretation**: The membrane (a 4D hypersurface in 6D spacetime) has an elastic energy density. Just as a 2D elastic membrane (drumhead) has surface tension with dimensions [energy/length] = [M L T⁻²] / [L] = [M T⁻²], a 4D elastic membrane has **3-brane tension** with dimensions [energy/3-volume].
+**Physical interpretation**: The Firmament membrane (a 4D hypersurface in 6D spacetime) has an elastic energy density. Just as a 2D elastic membrane (drumhead) has surface tension with dimensions [energy/length] = [M L T⁻²] / [L] = [M T⁻²], a 4D elastic membrane has **3-brane tension** with dimensions [energy/3-volume].
 
 ```
 [σ] = [Energy / Volume] = [M L² T⁻²] / [L³] = [M L⁻¹ T⁻²]
@@ -73,7 +73,7 @@ In SI units: σ has units of [kg/(m·s²)] (equivalently: J/m³ = Pa)
 
 ### Volume Mass Density μ (Corrected Definition)
 
-**Physical interpretation**: The membrane has a mass per unit area. Because the membrane is 4D embedded in 6D, we define μ as the total mass integrated across the extra dimensions and spread per unit 4-area.
+**Physical interpretation**: The Firmament membrane has a mass per unit area. Because the Firmament membrane is 4D embedded in 6D, we define μ as the total mass integrated across the extra dimensions and spread per unit 4-area.
 
 ```
 [μ] = [Mass / 3-Volume] = [M] / [L³] = [M L⁻³]
@@ -116,7 +116,7 @@ M₆^4 = 1/(8πG₆)
 
 ### Brane Tension from 6D Geometry
 
-The membrane tension σ arises from the brane energy density in the 6D theory. For a thin brane (domain wall), the brane tension is given by the integrated stress-energy across the extra dimensions:
+The Firmament tension σ arises from the Firmament energy density in the 6D theory. For a thin Firmament (domain wall), the Firmament tension is given by the integrated stress-energy across the extra dimensions:
 
 ```
 σ = ∫_{extra} dξ dη √(g_extra) T^{00}
@@ -223,7 +223,7 @@ M_P,6 = √(ℏc/G₆)
 [M_P,6] = [M]
 ```
 
-Then the membrane tension scales as:
+Then the Firmament tension scales as:
 
 ```
 σ ~ M_P,6^4 / (some length scale)²
@@ -252,14 +252,14 @@ c² = (2.998 × 10⁸)² = 8.988 × 10¹⁶ m²/s²
 
 ### Relation Between G₄ and Membrane Properties
 
-Consider a small perturbation of the Firmament (a metric fluctuation δh_μν). The energy cost of bending the membrane is determined by its tension σ. By analogy with electrostatics (where a charged membrane produces an electric field), a curved membrane produces a gravitational field.
+Consider a small perturbation of the Firmament (a metric fluctuation δh_μν). The energy cost of bending the Firmament membrane is determined by its tension σ. By analogy with electrostatics (where a charged membrane produces an electric field), a curved membrane produces a gravitational field.
 
 The equation of motion for the metric perturbation is:
 
 ```
 □δh ~ (1/σ) × ρ
 
-where ρ is the mass density of matter on the membrane.
+where ρ is the mass density of matter on the Firmament.
 ```
 
 This is analogous to Poisson's equation in electrostatics:
@@ -274,7 +274,7 @@ Comparing the weak-field limit of Einstein's equations:
 ∇²h ~ (8πG/c²) × T_00
 ```
 
-with the membrane equation, we identify:
+with the Firmament equation, we identify:
 
 ```
 G = (c²/8π) × (1/σ) × (geometric factor)
@@ -335,7 +335,7 @@ This is close to the Planck length (10⁻³⁵ m is a factor of 10⁹ smaller). 
 
 ### Energy-Momentum Relation in 6D
 
-A particle (or topological defect in the membrane) has momentum components in all 6 directions: (p_x, p_y, p_z, p_ξ, p_η, p_time). The energy-momentum relation is:
+A particle (or topological defect in the Firmament) has momentum components in all 6 directions: (p_x, p_y, p_z, p_ξ, p_η, p_time). The energy-momentum relation is:
 
 ```
 E² = (p_x c)² + (p_y c)² + (p_z c)² + (p_ξ c)² + (p_η c)² + (binding energy)²
@@ -401,7 +401,7 @@ This predicts that the electron mass is determined by geometry, not by a free Hi
 
 | **Quantity** | **Formula** | **Dimensions** | **Numerical Value** | **Verification** |
 |---|---|---|---|---|
-| Membrane tension | σ ≈ 10⁹⁸ | [M L⁻¹ T⁻²] | 6.0 × 10⁹⁸ kg/(m·s²) | ✓ |
+| Firmament tension | σ ≈ 10⁹⁸ | [M L⁻¹ T⁻²] | 6.0 × 10⁹⁸ kg/(m·s²) | ✓ |
 | Surface mass density | μ = σ/c² | [M L⁻³] | 6.7 × 10⁸¹ kg/m³ | σ/c² = 6.0×10⁹⁸ / 8.99×10¹⁶ = 6.67×10⁸¹ ✓ |
 | Speed of light | c = √(σ/μ) | [L T⁻¹] | 2.998 × 10⁸ m/s | √(σ/μ) ✓ |
 | Ratio σ/μ = c² | c² = σ/μ | [L² T⁻²] | 8.99 × 10¹⁶ m²/s² | (2.998×10⁸)² ✓ |
@@ -450,9 +450,9 @@ From G = c⁴/(8πσℓ_eff²), we can solve for ℓ_eff:
 Note: The exponent -57 is odd, so rewrite as 80.0×10⁻⁵⁸ before taking √.
 ```
 
-This effective length (~5.5 million Planck lengths) indicates that gravity is extremely weak because the membrane tension σ is enormous. In other words:
+This effective length (~5.5 million Planck lengths) indicates that gravity is extremely weak because the Firmament tension σ is enormous. In other words:
 
-**Gravity is weak not because the extra dimensions are small, but because the brane tension is extraordinarily large.**
+**Gravity is weak not because the extra dimensions are small, but because the Firmament tension is extraordinarily large.**
 
 This is the key physical insight of Genesis Physics regarding the hierarchy problem.
 
@@ -471,7 +471,7 @@ This is the key physical insight of Genesis Physics regarding the hierarchy prob
 | **σ/μ numerical check** | Off by factor of 10 (claimed 10⁹⁸/10⁸² ≠ c²) | Corrected: σ ≈ 6.0×10⁹⁸, μ ≈ 6.7×10⁸¹, σ/μ ≈ c² ✓ | Fixed FAIL-3: μ exponent typo (10⁸² → 10⁸¹) corrected in v1 but now re-verified |
 | **G derivation** | G = c⁴/(8πσ × A_eff) [OFF BY POWER OF L] | G = c⁴/(8πσℓ_eff²) with ℓ_eff a length scale [CORRECT] | Fixed FAIL-4: A_eff is dimensionally wrong; replaced with ℓ_eff² (area) |
 | **Rest mass relation** | m²c⁴ = p_ξ²c² + p_η²c² + E_bind [MISMATCH] | m₀²c⁴ = (p_ξ c)² + (p_η c)² + (E_bind)² [ALL TERMS ARE ENERGY²] | Fixed FAIL-5: rewritten with all squared terms; all dimensions [M² L⁴ T⁻⁴] ✓ |
-| **Derivation gaps** | Stated but not developed | Explicit derivation of σ/μ = c² shown; G formula derived from perturbation theory; M_membrane and ℓ_eff identified as Phase 0 work | Transparent about which results are derived vs. phenomenological |
+| **Derivation gaps** | Stated but not developed | Explicit derivation of σ/μ = c² shown; G formula derived from perturbation theory; M_Firm and ℓ_eff identified as Phase 0 work | Transparent about which results are derived vs. phenomenological |
 
 ### Enhanced Sections
 
@@ -479,7 +479,7 @@ This is the key physical insight of Genesis Physics regarding the hierarchy prob
 |---|---|---|
 | **Dimensional Analysis** | Brief, mentions units in parentheses | **NEW SECTION 1**: Systematic dimensional framework with explicit [M], [L], [T] checks for every formula |
 | **6D Derivation** | "Expressions in terms of known constants" but missing mass factor | **NEW SUBSECTION 2.2**: 6D Planck scale, Kaluza-Klein reduction, explicit derivation of σ from M₆ |
-| **Gravity Formula** | Listed in "Why Gravity Is Weak" section | **NEW SECTION 3**: Complete derivation from membrane bending energy, weak-field analogy to Poisson equation, dimensional proof, numerical ℓ_eff |
+| **Gravity Formula** | Listed in "Why Gravity Is Weak" section | **NEW SECTION 3**: Complete derivation from Firmament membrane bending energy, weak-field analogy to Poisson equation, dimensional proof, numerical ℓ_eff |
 | **Dispersion Relation** | Equation given but dimensions not verified | **NEW SECTION 4**: Full derivation for 6D particle, confined modes, ground state mass |
 | **Numerical Table** | Not present | **NEW SECTION 5**: Complete verification table with 11 quantities, all dimensional and numerical checks |
 | **Change Log** | Not present | **NEW SECTION 6**: This section — explicit before/after for all 5 errors |
@@ -487,7 +487,7 @@ This is the key physical insight of Genesis Physics regarding the hierarchy prob
 ### Re-verified Claims (No Changes)
 
 - c² = σ/μ is mechanically exact ✓
-- Lorentz invariance from membrane wave symmetry ✓
+- Lorentz invariance from Firmament membrane wave symmetry ✓
 - α⁻¹ = 1.44 ln(ξ_A/η_B) = 137.036 ✓ (Green's function derivation still deferred to Phase 0)
 - Four testable predictions all consistent ✓
 - Relationship to Axioms 1, 2, 4, 5 unchanged ✓
@@ -498,7 +498,7 @@ The following gaps are explicitly documented as requiring Phase 0 derivations:
 
 1. **σ, μ absolute magnitudes**: Requires solution of 6D field equations with zone boundary conditions
 2. **ℓ_eff value**: Must be derived from 6D Einstein equations projected onto the Firmament
-3. **M_membrane**: Needs explicit calculation from zone geometry
+3. **M_Firm**: Needs explicit calculation from zone geometry
 4. **Green's function for α**: The 6D Laplacian Green's function calculation (why log form appears, derivation of 1.44 coefficient)
 5. **6D → 4D projection operator**: Explicit derivation of how Einstein equations reduce
 
@@ -506,9 +506,9 @@ The following gaps are explicitly documented as requiring Phase 0 derivations:
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: The membrane properties σ and μ are sustained by external input. Without sustaining, the membrane would not maintain constant c.
+- **Axiom 1 (Open System)**: The Firmament membrane properties σ and μ are sustained by external input. Without sustaining, the Firmament membrane would not maintain constant c.
 - **Axiom 2 (6D Spacetime)**: The Firmament is the 4D membrane at (ξ₀, η₀) in the 6D manifold. Its mechanical properties depend on its position in the zone architecture.
-- **Axiom 4 (Metric Discontinuity)**: During the creation epoch, the metric (and thus σ, μ, and c) may have differed from current values. The Sabbath Boundary fixed the membrane to its current configuration.
+- **Axiom 4 (Metric Discontinuity)**: During the creation epoch, the metric (and thus σ, μ, and c) may have differed from current values. The Sabbath Boundary fixed the Firmament membrane to its current configuration.
 - **Axiom 5 (Phase Transition)**: The Fall altered the sustaining balance but did NOT change σ or μ — the speed of light remained constant through the phase transition. The curse affects thermodynamics, not kinematics.
 
 ---
@@ -517,45 +517,45 @@ The following gaps are explicitly documented as requiring Phase 0 derivations:
 
 ### 1. Why c Is Invariant
 
-In special relativity, the invariance of c is a postulate. In Genesis Physics, it is a consequence: the wave speed on a uniform elastic membrane is the same for all observers on the membrane. Lorentz invariance is membrane mechanics.
+In special relativity, the invariance of c is a postulate. In Genesis Physics, it is a consequence: the wave speed on a uniform elastic membrane is the same for all observers on the Firmament membrane. Lorentz invariance is Firmament membrane mechanics.
 
 ```
 The Lorentz transformation is the coordinate transformation
-that preserves the membrane wave equation:
+that preserves the Firmament membrane wave equation:
 
 □φ = (1/c²)∂²φ/∂t² - ∇²φ = 0
 
-This is the wave equation for membrane oscillations.
-Lorentz symmetry IS membrane symmetry.
+This is the wave equation for Firmament membrane oscillations.
+Lorentz symmetry IS Firmament symmetry.
 ```
 
 ### 2. Why Gravity Is Weak
 
-The gravitational coupling constant G relates to the membrane flexibility:
+The gravitational coupling constant G relates to the Firmament flexibility:
 
 ```
 G = c⁴ / (8π σ ℓ_eff²)
 
 Gravity is weak because σ is enormous — it takes a lot of energy
 to bend the Firmament. A star's mass curves spacetime only slightly
-because the membrane tension resists deformation.
+because the Firmament membrane tension resists deformation.
 
 Hierarchy problem solution: The weakness of gravity is not mysterious;
-it is a direct consequence of the membrane's extreme stiffness.
+it is a direct consequence of the Firmament's extreme stiffness.
 ```
 
 ### 3. Why There Is a Maximum Speed
 
-No signal on the membrane can exceed the wave speed c. This is not a postulate — it is a physical consequence. Just as no disturbance on a drumhead can travel faster than √(T/ρ), no excitation on the Firmament can exceed √(σ/μ) = c.
+No signal on the Firmament membrane can exceed the wave speed c. This is not a postulate — it is a physical consequence. Just as no disturbance on a drumhead can travel faster than √(T/ρ), no excitation on the Firmament can exceed √(σ/μ) = c.
 
 ### 4. The Nature of Mass
 
-Massive particles are localized membrane excitations that couple to the extra-dimensional geometry. Rest mass arises from the confinement energy of a mode that has structure in the (ξ, η) directions:
+Massive particles are localized Firmament excitations that couple to the extra-dimensional geometry. Rest mass arises from the confinement energy of a mode that has structure in the (ξ, η) directions:
 
 ```
 m₀²c⁴ = (p_ξ c)² + (p_η c)² + (E_bind)²
 
-Massless particles: propagate purely along the membrane
+Massless particles: propagate purely along the Firmament
   (no ξ,η momentum, E_bind = 0)
 
 Massive particles: have ξ,η components and/or binding energy
@@ -566,7 +566,7 @@ Massive particles: have ξ,η components and/or binding energy
 
 ## ELECTROMAGNETIC COUPLING
 
-The electromagnetic field is a specific oscillation mode of the Firmament. The coupling constant α (fine structure constant) is determined by the membrane geometry:
+The electromagnetic field is a specific oscillation mode of the Firmament. The coupling constant α (fine structure constant) is determined by the Firmament geometry:
 
 ```
 α⁻¹ ≈ 1.44 × ln(ξ_A / η_B) = 137.036
@@ -580,12 +580,12 @@ where:
 The permittivity and permeability of free space are membrane properties:
 
 ```
-ε₀ = membrane dielectric response
-μ₀ = membrane magnetic response
+ε₀ = Firmament dielectric response
+μ₀ = Firmament magnetic response
 c² = 1/(ε₀μ₀) = σ/μ  (these are the same equation)
 ```
 
-Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the membrane wave speed equation. Electromagnetism IS membrane vibration.
+Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the Firmament membrane wave speed equation. Electromagnetism IS Firmament membrane vibration.
 
 ---
 
@@ -594,7 +594,7 @@ Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the membrane wave s
 | Quantity | Standard Physics | Genesis Physics |
 |----------|-----------------|-----------------|
 | Speed of light c | Fundamental constant (no explanation) | Derived: c² = σ/μ |
-| Lorentz invariance | Postulated symmetry | Derived from membrane uniformity |
+| Lorentz invariance | Postulated symmetry | Derived from Firmament uniformity |
 | Gravity strength G | Fundamental constant | Derived: G = c⁴/(8πσℓ_eff²) |
 | Hierarchy problem | Unsolved | σ is large → gravity is weak |
 | Fine structure α | Measured, not derived | Derived: α⁻¹ = 1.44 ln(ξ_A/η_B) |
@@ -605,13 +605,13 @@ Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the membrane wave s
 
 ## TESTABLE PREDICTIONS
 
-1. **The speed of light is exactly constant in vacuum.** Any variation in c over cosmological time would require variation in σ/μ — the membrane properties. In the sustaining framework (Axiom 1), these are maintained constants. Measured: Δc/c < 10⁻⁷ over cosmological time — consistent.
+1. **The speed of light is exactly constant in vacuum.** Any variation in c over cosmological time would require variation in σ/μ — the Firmament membrane properties. In the sustaining framework (Axiom 1), these are maintained constants. Measured: Δc/c < 10⁻⁷ over cosmological time — consistent.
 
-2. **Gravitational wave speed equals c exactly.** Gravitational waves are membrane flexural modes; electromagnetic waves are membrane oscillation modes. Both propagate at √(σ/μ). GW170817/GRB170817A measured: |v_gw - c|/c < 3×10⁻¹⁵ — consistent.
+2. **Gravitational wave speed equals c exactly.** Gravitational waves are Firmament flexural modes; electromagnetic waves are Firmament membrane oscillation modes. Both propagate at √(σ/μ). GW170817/GRB170817A measured: |v_gw - c|/c < 3×10⁻¹⁵ — consistent.
 
-3. **No Lorentz invariance violation at any energy.** Lorentz symmetry is a membrane property, not an approximate symmetry that breaks at high energy. Planck-suppressed Lorentz violation (predicted by some quantum gravity models) should not exist. Current limits from gamma-ray observations: E_LIV > 10¹⁹ GeV — consistent.
+3. **No Lorentz invariance violation at any energy.** Lorentz symmetry is a Firmament property, not an approximate symmetry that breaks at high energy. Planck-suppressed Lorentz violation (predicted by some quantum gravity models) should not exist. Current limits from gamma-ray observations: E_LIV > 10¹⁹ GeV — consistent.
 
-4. **The membrane has a characteristic energy scale.** The Planck energy E_P = √(ℏc⁵/G) ≈ 1.22 × 10¹⁹ GeV represents the energy at which membrane quantum effects (quantization of σ and μ) become important. This is the UV completion scale of the theory.
+4. **The Firmament membrane has a characteristic energy scale.** The Planck energy E_P = √(ℏc⁵/G) ≈ 1.22 × 10¹⁹ GeV represents the energy at which Firmament quantum effects (quantization of σ and μ) become important. This is the UV completion scale of the theory.
 
 5. **No fifth force from extra dimensions.** Because the extra dimensions are cosmological (not compactified), they do not produce short-range Yukawa corrections to gravity. Null results from sub-millimeter gravity tests are expected. Measured: no deviation from 1/r² above ~50 μm — consistent.
 
@@ -620,8 +620,8 @@ Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the membrane wave s
 **Cross-references:**
 - AXIOM_OPEN_SYSTEM.md — Axiom 1: The universe is an open system
 - AXIOM_6D_SPACETIME.md — Axiom 2: The 6D manifold and zone architecture
-- SPINOR_FIELDS_FROM_MEMBRANE.md — Fermionic excitations as membrane topology
-- WATERS_FIELD_EQUATIONS.md — Field equations coupling to membrane geometry
+- SPINOR_FIELDS_FROM_MEMBRANE.md — Fermionic excitations as Firmament topology
+- WATERS_FIELD_EQUATIONS.md — Field equations coupling to Firmament geometry
 
 **Version History:**
 - v1: April 5, 2026 — Initial version with dimensional errors (VALIDATION_REPORT identified 5 FAIL items)

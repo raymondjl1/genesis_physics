@@ -14,7 +14,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 
 **Scope rule.** An entry is included when the concept receives a named discussion — at least a full paragraph of treatment — somewhere in the series. Passing mentions (one sentence, no development) are omitted. The threshold is "a reader who reads that locator learns something about the concept."
 
-**Disambiguation.** Where a term has multiple technical meanings across volumes (e.g., "σ" is membrane tension in Vol 1 and Pauli-matrix index in Vol 4), the entry notes the disambiguation and routes each sense to its own sub-locator. See also Appendix E for the authoritative symbol arbitration.
+**Disambiguation.** Where a term has multiple technical meanings across volumes (e.g., "σ" is Firmament tension in Vol 1 and Pauli-matrix index in Vol 4), the entry notes the disambiguation and routes each sense to its own sub-locator. See also Appendix E for the authoritative symbol arbitration.
 
 **Cross-appendix integration.** This index binds to the four series-wide reference instruments sitting beside it. Prediction IDs (P-XXX) cross-reference Appendix A §A.13. Technology IDs (T-XXX) cross-reference Appendix F §F.5. Symbols cross-reference Appendix E. Citations cross-reference the Bibliography.
 
@@ -134,7 +134,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - see also singularity; firewall
 - **binding energy
   - nuclear** — **4.12**, 3.7, 6.AppF.§F.2 (T-NRG-04)
-  - **brane / bulk** — **6.9.Eq(6.9.22)**, 6.AppE (E_binding)
+  - **Firmament / bulk** — **6.9.Eq(6.9.22)**, 6.AppE (E_binding)
 - **biblical references**
   - Genesis 1:1 — **1.1**, 1.3, Biblical_References.md
   - Genesis 1:2 — **1.1**, 1.6 (Waters Above / Below); 1.11 (tohu vavohu)
@@ -178,9 +178,9 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - zone-boundary (η-scale) — **1.6**, 1.10, 4.10
 - **boundary scales (ξ_A, η_B)** — **1.6**, 5.13, 6.AppE.§E.7
 - **bra-ket notation** — 4.1, 6.AppE.§E.4
-- **brane (3-brane)**
+- **Firmament (3-brane)**
   - structure — **1.5**, 1.4
-  - tension (σ) — **1.5**, 2.9, 6.AppE (σ); see also membrane tension
+  - tension (σ) — **1.5**, 2.9, 6.AppE (σ); see also Firmament tension
   - binding energy — **6.9.Eq(6.9.22)**, 6.AppE (E_binding)
   - U(1) gauge (charge topology) — **2.6**
   - metric (4D) — **1.4**, 5.1, 6.AppE.§E.5
@@ -197,7 +197,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 ## C
 
 - **c (speed of light)**
-  - as brane property — **1.5.Eq(derived from σ/μ)**, **6.9**, 6.AppA (P-100, P-041)
+  - as Firmament property — **1.5.Eq(derived from σ/μ)**, **6.9**, 6.AppA (P-100, P-041)
   - local variation (c_local) — **6.9**, 6.AppE (c_local)
   - in vacuum — 2.3, 6.AppE.§E.8
 - **Cabibbo-Kobayashi-Maskawa (CKM) matrix** — **4.13**, 4.11
@@ -228,7 +228,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **chemistry** — 4 (aufbau, bonding), 3.9
 - **Cherenkov radiation** — 6.9.§3 (at warp decoupling / re-entry)
 - **chirality (neutrino)** — 4.10, 4.11
-- **Chladni patterns** — 1.5 (membrane-vibration context), Glossary.md; see also membrane modes
+- **Chladni patterns** — 1.5 (membrane-vibration context), Glossary.md; see also Firmament membrane modes
 - **Christ (Christological anchor)**
   - as Logos (John 1:1) — **1.1**, 1.3
   - as sustaining (Col 1:17, Heb 1:3) — **1.8**, 6.AppF.§F.0
@@ -345,7 +345,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **Day 6 (Genesis)** — **1.9** (humans in image of God)
 - **Day 7 (Genesis, Sabbath)** — **1.11** (κ_full equilibrium)
 - **DC rectification** — **6.10** (MRG rectenna context)
-- **decoupling (brane / bulk)** — 6.9 (FTL mechanism)
+- **decoupling (Firmament / bulk)** — 6.9 (FTL mechanism)
 - **degeneracy pressure** — 5.5
 - **degradation principle** — **1.8**, Five_Principles.md
 - **Delta (Δ), finite difference / SC gap** — 6.AppE.§E.3
@@ -391,7 +391,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - gauge — 2.6, 4.6
 - **design document (Vol 6 Ch 16, roadmap)** — **6.16**, 6.AppF.§F.0
 - **dispersion relation**
-  - photon (brane) — **2.3**, 6.AppA (P-041)
+  - photon (Firmament) — **2.3**, 6.AppA (P-041)
   - KK graviton — **5.3**, 6.AppA (P-059, P-060)
   - Waters field — **1.6**, 6.AppA (P-078)
 - **Donoho reviewer (role)** — 6.AppA.§A.1, 6.CLAUDE.md (code reproducibility agent)
@@ -428,7 +428,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **electromagnetic field tensor (F_μν)** — **2.3**, 6.AppE (F_μν)
 - **electromagnetic spectrum** — **6.AppA (P-043)**, 2.3
 - **electromagnetism**
-  - from membrane wave propagation — **2.3**, 6.AppA (P-040); see also Maxwell's equations
+  - from Firmament membrane wave propagation — **2.3**, 6.AppA (P-040); see also Maxwell's equations
   - coupling (running) — 4.8, 6.AppE (α_em)
 - **elementary particles** — 4.10 (leptons, quarks), 4.11 (bosons); see also Standard Model
 - **emission (photon, thermal)** — 3.10, 4.1, 4.7
@@ -492,7 +492,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - skeptic reviewer role — 6.AppA.§A.1, 6.CLAUDE.md
 - **Faraday, Michael** — 2.3 (historical)
 - **Faraday induction** — 2.3
-- **fermions (as membrane resonances)** — **4.10**; see also leptons; quarks
+- **fermions (as Firmament membrane resonances)** — **4.10**; see also leptons; quarks
 - **Fermi Gamma-ray Space Telescope** — 6.12.§5 (life-detection / gamma-ray DM contexts)
 - **Feynman, Richard**
   - lectures — Bibliography Bib.1
@@ -582,7 +582,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - day-by-day — see biblical references (Gen 1:1 through Gen 2:3)
   - kinds (Min) — Glossary.md, 1.9
 - **geodesic**
-  - 4D brane — 5.1, 5.2
+  - 4D Firmament — 5.1, 5.2
   - 6D bulk — **6.9** (dimensional bypass); 5.3
 - **geodesic equation** — **5.2**, 6.9
 - **geometric units (G = c = 1)** — 5.1, 6.AppE.§E.6
@@ -662,7 +662,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **holography (AdS/CFT)** — Bibliography Bib.4, 5.6.§5 (cited contrast)
 - **Holevo, Alexander** — 4.14 (capacity theorem)
 - **Holevo capacity (χ)** — 4.14, 6.AppE (χ)
-- **Hooke's law (membrane stiffness analogue)** — 1.5
+- **Hooke's law (Firmament membrane stiffness analogue)** — 1.5
 - **horizon (cosmological / event)** — 5.5 (event), 5.9 (cosmological)
 - **Hubble, Edwin** — 5.8 (historical)
 - **Hubble constant (H₀)**
@@ -811,7 +811,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **Life-Detection-from-Space Gravimeter (T-SNS-05, GRACE-Bio)** — **6.12**, 6.AppF.§F.4
 - **Lifshitz-van der Waals (Casimir context)** — 6.AppA (P-109 contrast)
 - **light**
-  - speed as brane property — **6.9**, 6.AppA (P-100)
+  - speed as Firmament property — **6.9**, 6.AppA (P-100)
   - speed in vacuum — 2.3, 6.AppE.§E.8
   - bending (solar deflection) — **5.2.Eq(5.2.21)**, 6.AppA (P-008)
   - quantum (photon) — **4.1**, 2.3
@@ -849,7 +849,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **manifold**
   - zone manifold — **1.3**, 1.4, 1.5
   - 6D bulk — **1.4**, 5.3
-  - brane (4D) — **1.4**, 5.1
+  - Firmament (4D) — **1.4**, 5.1
 - **mass**
   - electron — **4.10**, 6.AppA (P-052)
   - muon — **4.10**, 6.AppA (P-053)
@@ -881,8 +881,8 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - tension (σ) — **1.5**, 6.AppE (σ)
   - density (μ) — **1.5**, 6.AppE (μ)
   - propagation (EM) — **2.3**
-- **Membrane Resonance Generator (T-NRG-01, MRG)** — **6.10**, **6.AppF.§F.2**, 6.AppA (P-103–P-110, P-118)
-- **Membrane Vibration Interferometer (T-SNS-01, MVI)** — **6.12**, 6.AppF.§F.4
+- **Firmament Resonance Generator (T-NRG-01, MRG)** — **6.10**, **6.AppF.§F.2**, 6.AppA (P-103–P-110, P-118)
+- **Firmament Vibration Interferometer (T-SNS-01, MVI)** — **6.12**, 6.AppF.§F.4
 - **Mercury perihelion precession** — **5.2.Eq(5.2.12–14)**, 6.AppA (P-007)
 - **metric tensor (g_μν)** — **1.4**, 5.1, 6.AppE (g_μν)
 - **metric signature (+ − − −)** — **1.1** (Axiom 5), 6.AppE.§E.5
@@ -906,14 +906,14 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - mass (m_μ = 105.66 MeV) — **4.10**, 6.AppE (m_μ)
   - anomalous magnetic moment (a_μ) — **4.7**, 6.AppA (P-003)
   - muon-electron mass ratio — **4.10**, **6.AppA (P-053)**
-- **MVI (Membrane Vibration Interferometer)** — see Membrane Vibration Interferometer (T-SNS-01)
+- **MVI (Firmament Vibration Interferometer)** — see Firmament Vibration Interferometer (T-SNS-01)
 - **MACHOs (cited contrast)** — 5.11 (DM candidates, ruled out)
 - **Maldacena, Juan (AdS/CFT)** — Bibliography Bib.4; see also holography
 - **mean field theory** — 4.13 (superconductivity; historical)
 - **meridian (Earth-centered inertial)** — 6.12 (gravimeter framework)
 - **metric expansion (of space)** — **5.8**, 5.11
 - **minor-arc expansion (GR perturbative)** — 5.1
-- **mode (membrane vibrational)** — **1.5**, **6.7**, 6.AppA (P-075)
+- **mode (Firmament membrane vibrational)** — **1.5**, **6.7**, 6.AppA (P-075)
 - **MOND (modified Newtonian dynamics; contrast)** — 5.11
 - **mother lode (technology consolidation)** — 6.16, 6.17 (roadmap)
 - **multiplet (group theory)** — 4.11, 2.6
@@ -949,7 +949,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **no-hair theorem** — 5.5
 - **no-signaling theorem** — **6.AppA (P-132)**, 4.4, 6.11
 - **nonlocality (Bell)** — **4.4**
-- **normal (unit) to brane** — 1.4, 6.AppE.§E.5
+- **normal (unit) to Firmament** — 1.4, 6.AppE.§E.5
 - **Novel predictions (appendix A category)** — **6.AppA.§A.3**, 6.AppA.§A.13
 - **nuclear binding** — **4.12**, 3.7
 - **nucleosynthesis (BBN)** — **5.9**, 6.5 (test context)
@@ -959,7 +959,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **New Physics roadmap (Vol 6 Ch 17)** — **6.17**, 6.AppF.§F.0
 - **Newton's constant (G)** — see G (gravitational constant)
 - **Nielsen-Ninomiya theorem** — (not referenced; lattice QCD historical contrast)
-- **node (of standing wave / membrane mode)** — **1.5**, 1.10, 6.7 (eigenmode structure)
+- **node (of standing wave / Firmament membrane mode)** — **1.5**, 1.10, 6.7 (eigenmode structure)
 - **Noether charge** — 1.7 (for each continuous symmetry)
 - **non-abelian gauge theory** — 2.6 (SU(N)), 4.6, 4.12
 - **nonequilibrium thermodynamics** — 3.9, 3.12 (arrow of time)
@@ -1035,7 +1035,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **phi / φ (scalar field)** — 4.6, 6.AppE (φ)
 - **philosophy of science** — Bibliography Bib.6
 - **photoelectric effect** — **4.1**, 6.AppA (P-046)
-- **photon** — **2.3** (as membrane excitation), 4.1, 4.7
+- **photon** — **2.3** (as Firmament membrane excitation), 4.1, 4.7
 - **π (pion)** — 4.10, 4.12
 - **Planck, Max** — 4.1 (historical; quantization)
 - **Planck constant (h, ℏ)** — **4.1**, 6.AppE (h, ℏ)
@@ -1132,7 +1132,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - entanglement — **4.4**
   - measurement problem — **4.5**
 - **quarks**
-  - as membrane resonances — **4.10**
+  - as Firmament membrane resonances — **4.10**
   - mass spectrum — **4.10**, 6.AppA (P-054)
 - **quintessence (not used in ZA; historical contrast)** — 5.11.§5
 - **quadrupole radiation (GW)** — **5.3**, 5.2 (binary pulsar)
@@ -1166,7 +1166,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **renormalization** — **4.8**, 4.7
 - **reproducibility package (simulations)** — **6.AppB**, 6.8
 - **research program (ZA)** — **6.17**
-- **resonance (membrane modes)** — **1.5**, 6.7, 6.AppA (P-074, P-075)
+- **resonance (Firmament membrane modes)** — **1.5**, 6.7, 6.AppA (P-074, P-075)
 - **Ricci scalar (R)** — 5.1, 5.2, 6.AppE (R)
 - **Ricci tensor (R_μν)** — 5.1, 5.2, 6.AppE (R_μν)
 - **Riemann zeta function (ζ)** — 3.10, 6.AppE (ζ)
@@ -1290,7 +1290,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **separation of variables** — 1.10, 4.2
 - **Seven Days (creation)** — **1.11**, Zone_Architecture.md Table 5
 - **seven pattern types** — **1.9**, Five_Principles.md; see also pattern operators
-- **σ (membrane tension)** — **1.5**, 6.AppE (σ disambiguation)
+- **σ (Firmament tension)** — **1.5**, 6.AppE (σ disambiguation)
 - **σ_DM-SM (dark matter cross-section bound)** — **5.11.§4**, 6.AppA (P-061)
 - **σ_redeem (redemption operator)** — 1.11 (eschatological context), Zone_Architecture.md Table 6
 - **simulation** — **6.AppB**, 6.5–6.8; see also reproducibility package
@@ -1320,7 +1320,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **T-FTL-03 (Zone Tunneling)** — **6.AppF.§F.1**, 6.9.§5, 6.AppA (P-094)
 - **T-FTL-04 (Warp Bubble / Field Distortion)** — **6.AppF.§F.1**, 6.9.§6, 6.AppA (P-095, P-096, P-097)
 - **T-FTL-05 (Consciousness Interface)** — **6.AppF.§F.1**, 6.9.§7, 6.AppA (P-098, P-099)
-- **T-NRG-01 (Membrane Resonance Generator)** — **6.AppF.§F.2**, 6.10.§5–§9, 6.AppA (P-103–P-110)
+- **T-NRG-01 (Firmament Resonance Generator)** — **6.AppF.§F.2**, 6.10.§5–§9, 6.AppA (P-103–P-110)
 - **T-NRG-02 (Waters Above Expansion Sail)** — **6.AppF.§F.2**, 6.10.§6, 6.AppA (P-111, P-113)
 - **T-NRG-03 (Dynamic Casimir Array)** — **6.AppF.§F.2**, 6.10.§5, 6.AppA (P-104, P-109, P-115)
 - **T-NRG-04 (Zone-Boundary Latent-Heat)** — **6.AppF.§F.2**, 6.10.§6, 6.AppA (P-114, P-116, P-117)
@@ -1328,7 +1328,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **T-COM-02 (Zone-Tunneling Channel)** — **6.AppF.§F.3**, 6.11
 - **T-COM-03 (Waters-Field Modulation Channel)** — **6.AppF.§F.3**, 6.11
 - **T-COM-04 (Consciousness-Interface Channel)** — **6.AppF.§F.3**, 6.11 (shared with T-FTL-05)
-- **T-SNS-01 (Membrane Vibration Interferometer)** — **6.AppF.§F.4**, 6.12
+- **T-SNS-01 (Firmament Vibration Interferometer)** — **6.AppF.§F.4**, 6.12
 - **T-SNS-02 (Atom-Interferometer Waters-Field Sensor)** — **6.AppF.§F.4**, 6.12, 6.AppA (P-138)
 - **T-SNS-03 (Dark-Matter Imaging Aperture)** — **6.AppF.§F.4**, 6.12
 - **T-SNS-04 (LIGO Retrofit for Extended Polarizations)** — **6.AppF.§F.4**, 6.12, 6.AppA (P-152)
@@ -1338,7 +1338,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - critical T_c (SC / BEC) — 4.13, 6.AppA (P-044, P-048)
   - Hawking (T_H) — 5.5, 6.AppE (T_H)
   - effective (channel noise) — 6.AppE (T_eff)
-- **tension, membrane (σ)** — **1.5**, 6.AppE (σ); see also brane
+- **tension, membrane (σ)** — **1.5**, 6.AppE (σ); see also Firmament
 - **Temporal Shortcut (T-FTL-01)** — **6.9.§3**, 6.AppF.§F.1
 - **tensor analysis / conventions** — 6.AppE.§E.5
 - **tensor (GW h_+, h_×)** — **5.3**, 6.AppE (h_+, h_×)
@@ -1402,7 +1402,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 
 ## U
 
-- **U(1) gauge (brane topology)** — **2.6**, 1.7 (charge conservation)
+- **U(1) gauge (Firmament topology)** — **2.6**, 1.7 (charge conservation)
 - **UAM (Universal Anomaly Magnitude)** — (not indexed; not used)
 - **uncertainty principle** — **4.3**, 4.2
 - **unification (force landscape)** — **2.11**, 2.9
@@ -1526,7 +1526,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
 - **Z₂.₂.₂ (Condensed Matter)** — **1.6**, Zone_Architecture.md
 - **Z₂.₂.₃ (Waters Above)** — **1.6**, Zone_Architecture.md; see Waters Above
 - **Z boson** — **4.11**, 6.AppA (P-016, P-017)
-- **zero-point energy** — **4.9** (membrane modes), 6.AppA (P-076)
+- **zero-point energy** — **4.9** (Firmament modes), 6.AppA (P-076)
 - **zone architecture**
   - overall — **1**, Zone_Architecture.md
   - boundaries — 1.6, Zone_Architecture.md Table 4

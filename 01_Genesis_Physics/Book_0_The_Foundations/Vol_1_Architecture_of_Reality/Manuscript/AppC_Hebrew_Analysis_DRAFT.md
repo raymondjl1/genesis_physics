@@ -327,7 +327,7 @@ This is profoundly physical language. A membrane that separates, a boundary that
 
 **Zone Architecture Correspondence**
 
-The Raqia is Z₂.₂.₂—the membrane, the boundary layer that separates the Waters Above (Z₂.₂.₃, atmospheric/energetic realm) from the Waters Below (Z₂.₂.₁, material realm).
+The Raqia is Z₂.₂.₂—the Firmament, the boundary layer that separates the Waters Above (Z₂.₂.₃, atmospheric/energetic realm) from the Waters Below (Z₂.₂.₁, material realm).
 
 In the zone model, Z₂.₂.₂ is not merely empty space. It is the active interface boundary. It is what holds apart the upper and lower realms. The Hebrew word raqia—with its root meaning of something beaten out, stretched, hammered into thinness—perfectly describes a membrane structure: thin, separating, maintaining structural integrity through distributed tension.
 

@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Matter with measurable properties) | Genesis 1:27 |
-> | Axiom | AXIOM 3 (Membrane Mechanics) | AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 3 (Firmament Mechanics) | AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | Statistical Mechanics, Thermodynamic Properties | 02-STATISTICAL_MECHANICS.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **Elastic constants, specific heat capacity (Dulong-Petit law), bulk modulus, thermal expansion from material structure** | **01-MATERIAL_PROPERTIES.md** |
 > | Modern Equivalent | Solid state physics, thermodynamics of materials, equipartition theorem | Convergence: reproduces Dulong-Petit limit and quantum corrections; predicts elastic properties from atomic structure |
@@ -12,7 +12,7 @@
 # Genesis Physics: Material Properties
 ## Issue #13 [Phase 2.2] Elastic Constants, Specific Heat (Derivations)
 
-**Context:** Genesis Physics 6D membrane framework. All atomic structure, Coulomb interaction, thermodynamic quantities, and elastic properties are derived from the framework.
+**Context:** Genesis Physics 6D Firmament framework. All atomic structure, Coulomb interaction, thermodynamic quantities, and elastic properties are derived from the framework.
 
 ---
 

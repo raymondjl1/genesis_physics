@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be light, and there was light" — Light phenomena manifest divine radiance | Genesis 1:3 |
-> | Axiom | Axiom 3: Membrane Mechanics — membrane governs light propagation; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics — membrane governs light propagation; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | 6D Action; KK Dimensional Reduction; Maxwell's Equations from Zone Architecture | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, 03-MAXWELL_DERIVATION.md |
 > | **This Document** | **Eight optical phenomena from Maxwell equations: reflection, refraction, diffraction, interference, polarization, dispersion, Snell's law, Brewster angle** | **04-OPTICS_FROM_MAXWELL.md** |
 > | Modern Equivalent | Classical Optics — CONVERGES: Snell's law, Fresnel equations, diffraction patterns, interference fringes all recovered from Maxwell boundary conditions |
@@ -27,7 +27,7 @@ This document traces the complete unbroken chain of derivations from the fundame
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ LEVEL 0: 6D ACTION FUNCTIONAL (ACTION_6D_COMPLETE.md)                      │
-│ S_total = S_grav + S_brane + S_waters + S_gauge + S_matter + S_interaction │
+│ S_total = S_grav + S_Firm + S_waters + S_gauge + S_matter + S_interaction │
 │ ├─ 6D metric g_AB with warp factors A(ξ,η), B(ξ,η)                        │
 │ ├─ 6D gauge field A_M coupled to matter                                     │
 │ ├─ Zone architecture: η ∈ [0, η_B], ξ ∈ [ξ₀, ξ_A], Firmament at (ξ₀, η₀) │
@@ -121,12 +121,12 @@ This document provides **complete, unbroken derivations** of eight fundamental o
 
 **Core Physics:**
 - 6D action → KK reduction → 4D Maxwell equations → Wave equation → Optical phenomena
-- Firmament membrane: elastic 4D brane with transverse oscillations
+- Firmament membrane: elastic 4D Firmament with transverse oscillations
 - Membrane parameters: tension σ, volume mass density μ, wave speed c = √(σ/μ)
 - All 8 phenomena emerge from single governing equation: ∂²ψ/∂t² = c² ∇²ψ
 
 **Dimensional Analysis Throughout:**
-- Speed of light c = 3.00×10⁸ m/s from membrane mechanics
+- Speed of light c = 3.00×10⁸ m/s from Firmament membrane mechanics
 - Refractive index n = c_vacuum / c_material (phase velocity ratio)
 - Wavelength λ = c/f = 2π/k relates frequency and wave vector
 - All optical angles θ in radians unless specified otherwise
@@ -156,7 +156,7 @@ The Genesis Physics framework derives optics through the following logical chain
 
 From **ACTION_6D_COMPLETE.md**, the total 6D action is:
 
-$$S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
+$$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
 
 The 6D metric takes the form:
 
@@ -276,7 +276,7 @@ where ψ represents the transverse displacement of the Firmament membrane from e
 
 **Physical Interpretation:**
 
-The Firmament is a 4D elastic brane embedded in 6D spacetime with:
+The Firmament is a 4D elastic Firmament embedded in 6D spacetime with:
 - **Surface tension σ**: Restoring force per unit length [σ] = N/m = kg/(m·s²)
 - **Volume mass density μ**: Mass per unit volume [μ] = kg/m³
 
@@ -316,9 +316,9 @@ $$[\sigma/\mu] = \frac{\text{kg/s}^2}{\text{kg/m}^2} = \frac{\text{m}^2}{\text{s
 
 ---
 
-### 1.3 Identifying Electromagnetic Waves with Membrane Oscillations
+### 1.3 Identifying Electromagnetic Waves with Firmament Oscillations
 
-The key insight connects the abstract Maxwell equations to physical membrane dynamics:
+The key insight connects the abstract Maxwell equations to physical Firmament membrane dynamics:
 
 **Claim:** Electromagnetic waves are **transverse oscillations of the Firmament membrane** in the directions perpendicular to the direction of propagation.
 

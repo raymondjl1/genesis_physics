@@ -5,7 +5,7 @@ Genesis Physics: Phase Transitions, Latent Heat, and Molecular Structure Test Su
 Issue #12: [Phase 2.1] Phase Transitions, Latent Heat, and Molecular Structure (2 tests)
 
 This test suite validates two critical components of thermodynamic theory derived from
-Genesis Physics 6D membrane framework:
+Genesis Physics 6D Firmament framework:
 
 1. PHASE TRANSITIONS & LATENT HEAT:
    - First-order phase transitions (liquid-gas, solid-liquid) from discontinuity in

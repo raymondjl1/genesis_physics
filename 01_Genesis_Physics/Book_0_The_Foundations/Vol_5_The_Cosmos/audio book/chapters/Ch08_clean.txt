@@ -1,25 +1,25 @@
 Foundations Vol 5: The Cosmos — Part III: Cosmology.
 
 "The chief embarrassment of cosmology is that we have built a successful theory by writing down equations whose right-hand side is a list of fluids we cannot identify. The Friedmann equation works; nobody disagrees about that. The question is what is in the bucket on the right." — paraphrased after a long conversation with a colleague who would rather not be named, March 2026
-This chapter is about what is in the bucket. The Friedmann equations are not new; the origin of every term on the right-hand side is. Vol 1 Ch 6 already gave us the Waters fields with their full action principle and equilibrium solutions. Vol 5 Ch 1 already gave us the Einstein field equations on the brane. What remained was the projection: the step in which the bulk profile of Psi sub A becomes a 4D cosmological constant, the bulk profile of Psi sub B becomes a 4D dust component, and the brane matter and brane radiation fall in beside them as the third and fourth terms of a four-component cosmological fluid. We take that step here.
+This chapter is about what is in the bucket. The Friedmann equations are not new; the origin of every term on the right-hand side is. Vol 1 Ch 6 already gave us the Waters fields with their full action principle and equilibrium solutions. Vol 5 Ch 1 already gave us the Einstein field equations on the Firmament. What remained was the projection: the step in which the bulk profile of Psi sub A becomes a 4D cosmological constant, the bulk profile of Psi sub B becomes a 4D dust component, and the Firmament matter and Firmament radiation fall in beside them as the third and fourth terms of a four-component cosmological fluid. We take that step here.
 
 What This Chapter Is (and Is Not).
 
 Before stating any theorem, let me say what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
 
-What this chapter does. It derives the sustaining-mode Friedmann equations from two prior pieces of the framework — the Waters field equations of Vol 1 Ch 6 and the recovered Einstein field equations of Vol 5 Ch 1 — and uses them to construct the cosmological model that follows: the energy budget, the era structure, and the integral consequences (H sub 0, age t sub 0, present CMB temperature T sub 0). The Friedmann equations of standard cosmology come out as labeled, numbered theorems whose source terms have known bulk-field origins. The key architectural claim is one sentence long. The cosmological fluid is the brane projection of the Waters fields. Everything else in the chapter is the consequences of that one sentence.
+What this chapter does. It derives the sustaining-mode Friedmann equations from two prior pieces of the framework — the Waters field equations of Vol 1 Ch 6 and the recovered Einstein field equations of Vol 5 Ch 1 — and uses them to construct the cosmological model that follows: the energy budget, the era structure, and the integral consequences (H sub 0, age t sub 0, present CMB temperature T sub 0). The Friedmann equations of standard cosmology come out as labeled, numbered theorems whose source terms have known bulk-field origins. The key architectural claim is one sentence long. The cosmological fluid is the Firmament projection of the Waters fields. Everything else in the chapter is the consequences of that one sentence.
 
 What this chapter does not do. It does not address the creation epoch, and it does not address the Sabbath Boundary. Both are real and both belong to the framework, but both are explicitly outside the scope of the sustaining-mode regime considered here. The creation epoch was a Vol 1 Ch 11 (zone thermodynamics) topic and is governed by an entirely different metric regime — exponential expansion at H create approximately 3 times 10 to the 14 H sub 0 driven by the active sustaining coupling kappa  create. The Sabbath Boundary is the metric discontinuity that separates the creation epoch from the sustaining epoch, and the Hubble tension between CMB-inferred and locally-measured H sub 0 is, in this framework, the boundary's observational signature. The first appears in Vol 1 Ch 11 and the second in Ch 9 of this volume. They are not re-litigated here.
 
-The chapter also does not derive the initial conditions of the radiation era — the brane-nucleation surface of Vol 5 Ch 7 supplies a regular past timelike boundary, but the values of rho sub r, rho sub b at that surface are matched to observations rather than derived. This is an Inheritance, classified honestly in §8.13.
+The chapter also does not derive the initial conditions of the radiation era — the Firmament-nucleation surface of Vol 5 Ch 7 supplies a regular past timelike boundary, but the values of rho sub r, rho sub b at that surface are matched to observations rather than derived. This is an Inheritance, classified honestly in §8.13.
 
-A note for the Skeptic reviewer. The hardest question this chapter must answer is whether the four density parameters Omega sub A, Omega sub B, Omega sub b, Omega sub r — the famous "68/27/5/10 to the -4 split" — are derived from zone geometry or fit to observations. The honest answer is in two parts. The framework's input parameters are the bulk warp factors the expression, the brane tension sigma, and the relativistic-mode count on the brane — four numbers, three of which are dimensional. These are matched (in Vol 1 Ch 6 §6.7) to the brane radius and the nuclear scale, not to the cosmological observations. Once they are matched, the four Omega's fall out as ratios. So the chain has the structure (empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations). The relevant comparison is not whether any number got matched anywhere — it is whether the matching occurred at the same scale as the predictions. It did not. The Skeptic should still want to scrutinize this; §8.6 lays out the chain step by step and §8.13 classifies each link.
+A note for the Skeptic reviewer. The hardest question this chapter must answer is whether the four density parameters Omega sub A, Omega sub B, Omega sub b, Omega sub r — the famous "68/27/5/10 to the -4 split" — are derived from zone geometry or fit to observations. The honest answer is in two parts. The framework's input parameters are the bulk warp factors the expression, the Firmament tension sigma, and the relativistic-mode count on the Firmament — four numbers, three of which are dimensional. These are matched (in Vol 1 Ch 6 §6.7) to the Firmament radius and the nuclear scale, not to the cosmological observations. Once they are matched, the four Omega's fall out as ratios. So the chain has the structure (empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations). The relevant comparison is not whether any number got matched anywhere — it is whether the matching occurred at the same scale as the predictions. It did not. The Skeptic should still want to scrutinize this; §8.6 lays out the chain step by step and §8.13 classifies each link.
 
-A note for the Physicist reviewer. The hardest question for the Physicist is whether the Friedmann equations of §8.4 are genuinely derived from the Waters field equations, or whether they are smuggled in by stating them in standard form. The chain is: Vol 5 Ch 1 gives us the expression; Vol 1 Ch 6 gives us the bulk profiles of Psi sub A, Psi sub B; §8.3 of this chapter gives us the projection of those bulk profiles onto the brane stress-energy; §8.2 gives us the FLRW form of the brane induced metric on cosmological scales (with k = 0 derived, not assumed); and §8.4 substitutes one into the other and reads off the equations. Every step is a substitution or an evaluation of an integral. Nothing is postulated.
+A note for the Physicist reviewer. The hardest question for the Physicist is whether the Friedmann equations of §8.4 are genuinely derived from the Waters field equations, or whether they are smuggled in by stating them in standard form. The chain is: Vol 5 Ch 1 gives us the expression; Vol 1 Ch 6 gives us the bulk profiles of Psi sub A, Psi sub B; §8.3 of this chapter gives us the projection of those bulk profiles onto the Firmament stress-energy; §8.2 gives us the FLRW form of the Firmament induced metric on cosmological scales (with k = 0 derived, not assumed); and §8.4 substitutes one into the other and reads off the equations. Every step is a substitution or an evaluation of an integral. Nothing is postulated.
 
 A note for the "But Why?" reader. The chapter has been organized around the ten why-questions of the chapter spec. Each section answers one or more of them; §8.13 collects the one-line answers in the Reviewer's Ledger. If a why-question seems unanswered after reading the corresponding section, please flag the specific "because" that is unsatisfying and we will sharpen it.
 
-Roadmap. §8.1 inventories what we will use from prior chapters. §8.2 reduces the brane induced metric to FLRW from zone symmetry. §8.3 identifies the cosmological fluid with the brane-projected Waters stress-energy. §8.4 derives the two Friedmann equations and the continuity equation as theorems. §8.5 derives each species' equation of state from its bulk profile. §8.6 introduces the critical density and the four density parameters. §8.7 solves the era structure. §8.8 reads off H sub 0, t sub 0, and T sub 0. §8.9 catalogs the distance definitions inherited by Chs 9–10. §8.10 says what is deferred. §8.11 reports the test suite. §8.12 lists the forward links. §8.13 is the Reviewer's Ledger. §8.14 is the problem set.
+Roadmap. §8.1 inventories what we will use from prior chapters. §8.2 reduces the Firmament induced metric to FLRW from zone symmetry. §8.3 identifies the cosmological fluid with the Firmament-projected Waters stress-energy. §8.4 derives the two Friedmann equations and the continuity equation as theorems. §8.5 derives each species' equation of state from its bulk profile. §8.6 introduces the critical density and the four density parameters. §8.7 solves the era structure. §8.8 reads off H sub 0, t sub 0, and T sub 0. §8.9 catalogs the distance definitions inherited by Chs 9–10. §8.10 says what is deferred. §8.11 reports the test suite. §8.12 lists the forward links. §8.13 is the Reviewer's Ledger. §8.14 is the problem set.
 
 Inventory: The Toolkit From Previous Chapters.
 
@@ -31,21 +31,21 @@ Vol 1, Chapter 4 established the 6D zone manifold Z with the FRW-compatible warp
 
 [Equation — see print edition.]
 
-where A, B are warp factors of the extra coordinates only, and ( xi , eta ) are the two extra-dimensional coordinates of the zone manifold. The Firmament brane Sigma = Z sub 2.2 is the codimension-2 submanifold at ( xi , eta ) = ( xi sub 0, eta sub 0). On the brane the induced metric is
+where A, B are warp factors of the extra coordinates only, and ( xi , eta ) are the two extra-dimensional coordinates of the zone manifold. The Firmament Sigma = Z sub 2.2 is the codimension-2 submanifold at ( xi , eta ) = ( xi sub 0, eta sub 0). On the Firmament the induced metric is
 
 [Equation — see print edition.]
 
 which on cosmological scales we will refine into the FLRW form of §8.2.
 
-Vol 1 Ch 4 §4.7 — the cosmological symmetry principle — proved that the bulk isometry group of Z acts transitively on cosmological-scale spatial sections of the brane. This is the result that forces the FLRW form on the brane induced metric below.
+Vol 1 Ch 4 §4.7 — the cosmological symmetry principle — proved that the bulk isometry group of Z acts transitively on cosmological-scale spatial sections of the Firmament. This is the result that forces the FLRW form on the Firmament induced metric below.
 
-From Vol 1 Ch 5 — the brane mechanics.
+From Vol 1 Ch 5 — the Firmament mechanics.
 
-The Firmament brane has tension sigma > 0 (Vol 1 §5.6 positivity theorem) and mass density mu, and supports transverse waves at speed c to the 2 = sigma / mu (Vol 1 Eq 1.5.37). The Israel–Darmois junction conditions of Vol 1 §5.4 connect the brane-side intrinsic geometry to the bulk-side extrinsic curvature in the two normal directions:
+The Firmament has tension sigma > 0 (Vol 1 §5.6 positivity theorem) and mass density mu, and supports transverse waves at speed c to the 2 = sigma / mu (Vol 1 Eq 1.5.37). The Israel–Darmois junction conditions of Vol 1 §5.4 connect the Firmament-side intrinsic geometry to the bulk-side extrinsic curvature in the two normal directions:
 
 [Equation — see print edition.]
 
-where S to the ( xi ) sub mu nu , S to the ( eta ) sub mu nu are the brane surface stress-energies for displacements in each normal direction.
+where S to the ( xi ) sub mu nu , S to the ( eta ) sub mu nu are the Firmament surface stress-energies for displacements in each normal direction.
 
 From Vol 1 Ch 6 — the Waters field equations.
 
@@ -63,29 +63,29 @@ Vol 1 §6.7 gave the energy fractions on cosmological scales — what we will us
 
 [Equation — see print edition.]
 
-derived in Vol 1 §6.7 from the warp-factor profiles A xi , A eta and the brane tension sigma. The Vol 1 derivation matches the warp-factor parameters ( xi sub A, gamma ) to the brane radius and the nuclear scale — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
+derived in Vol 1 §6.7 from the warp-factor profiles A xi , A eta and the Firmament tension sigma. The Vol 1 derivation matches the warp-factor parameters ( xi sub A, gamma ) to the Firmament radius and the nuclear scale — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
 
 From Vol 1 Ch 11 — sustaining mode.
 
 Vol 1 Ch 11 introduced the four-phases architecture of zone thermodynamics and defined "sustaining mode" as the regime in which the sustaining coupling kappa takes its critical value kappa  full, the bulk fields have settled into their attractor profiles, and entropy is constant. The present chapter is restricted to sustaining mode throughout; "today" is sustaining mode, and so are all redshifts z z Sabbath (with z_ Sabbath defined as the redshift of the Sabbath Boundary, deferred to Ch 9). The phrase "sustaining mode" is a technical Vol 1 Ch 11 term in this chapter, not a theological one.
 
-From Vol 5 Ch 1 — the Einstein field equations on the brane.
+From Vol 5 Ch 1 — the Einstein field equations on the Firmament.
 
-Vol 5 Ch 1 recovered the full nonlinear Einstein field equations on the brane from the 6D zone action via dimensional reduction (Vol 5 §§1.2–1.5). The result (Vol 5 Eq 5.1.34):
-
-[Equation — see print edition.]
-
-with G sub mu nu the Einstein tensor of the brane induced metric, Lambda _ eff a small effective cosmological constant traced to bulk ingredients in §1.5, and T sub mu nu the total brane stress-energy. Vol 5 §1.8 also showed that the Bianchi identity the expression holds on the brane and implies the expression.
-
-For this chapter we will absorb Lambda _ eff into the Waters Above contribution: in §8.3 we will see that the projection of Psi sub A onto the brane already produces a cosmological-constant-shaped term, and the natural identification is the expression. After this absorption, (5.8.7) takes the form
+Vol 5 Ch 1 recovered the full nonlinear Einstein field equations on the Firmament from the 6D zone action via dimensional reduction (Vol 5 §§1.2–1.5). The result (Vol 5 Eq 5.1.34):
 
 [Equation — see print edition.]
 
-with the understanding that T sub mu nu now includes the Waters Above contribution. (We write g sub mu nu inside the inherited EFE quotation to match Vol 5 Ch 1's convention; on the brane, this is the same object as the induced metric gamma sub mu nu used in §8.2.) We will use this form throughout the chapter.
+with G sub mu nu the Einstein tensor of the Firmament induced metric, Lambda _ eff a small effective cosmological constant traced to bulk ingredients in §1.5, and T sub mu nu the total Firmament stress-energy. Vol 5 §1.8 also showed that the Bianchi identity the expression holds on the Firmament and implies the expression.
+
+For this chapter we will absorb Lambda _ eff into the Waters Above contribution: in §8.3 we will see that the projection of Psi sub A onto the Firmament already produces a cosmological-constant-shaped term, and the natural identification is the expression. After this absorption, (5.8.7) takes the form
+
+[Equation — see print edition.]
+
+with the understanding that T sub mu nu now includes the Waters Above contribution. (We write g sub mu nu inside the inherited EFE quotation to match Vol 5 Ch 1's convention; on the Firmament, this is the same object as the induced metric gamma sub mu nu used in §8.2.) We will use this form throughout the chapter.
 
 From Vol 5 Ch 7 — the past timelike boundary.
 
-Vol 5 Ch 7 (§7.5, Theorem 5.7.3) replaced the Big Bang singularity with a brane-nucleation surface — a regular past timelike boundary on which the curvature is bounded by the 6D curvature scale R_ 6D,max approximately 10 to the 20 mto the -2 (Vol 1 §4.6). The radiation-era integration of §8.7.1 below begins on that surface; the chapter does not derive the surface, only inherits it.
+Vol 5 Ch 7 (§7.5, Theorem 5.7.3) replaced the Big Bang singularity with a Firmament-nucleation surface — a regular past timelike boundary on which the curvature is bounded by the 6D curvature scale R_ 6D,max approximately 10 to the 20 mto the -2 (Vol 1 §4.6). The radiation-era integration of §8.7.1 below begins on that surface; the chapter does not derive the surface, only inherits it.
 
 From Vol 3 Chs 5 and 8 — perfect-fluid cosmology.
 
@@ -99,13 +99,13 @@ The chapter now has every piece it needs. We turn to the geometry.
 
 Cosmological Symmetry on the Brane: From Zone Symmetry to FLRW.
 
-The Friedmann–Lemaître–Robertson–Walker form of the brane induced metric on cosmological scales is forced by zone symmetry. It is not assumed.
+The Friedmann–Lemaître–Robertson–Walker form of the Firmament induced metric on cosmological scales is forced by zone symmetry. It is not assumed.
 
-Why does the universe look isotropic and homogeneous on large scales? Because the bulk warp factors A( xi , eta ), B( xi , eta ) depend on the extra coordinates only (Vol 1 Eq 1.4.18); the brane embedding at fixed ( xi sub 0, eta sub 0) inherits the spatial isotropy of the bulk slice; and Vol 1 Ch 4 §4.7 — the cosmological symmetry principle — proved that the bulk isometry group acts transitively on cosmological-scale spatial sections of the brane. Homogeneity and isotropy are not postulates of the framework; they are theorems.
+Why does the universe look isotropic and homogeneous on large scales? Because the bulk warp factors A( xi , eta ), B( xi , eta ) depend on the extra coordinates only (Vol 1 Eq 1.4.18); the Firmament embedding at fixed ( xi sub 0, eta sub 0) inherits the spatial isotropy of the bulk slice; and Vol 1 Ch 4 §4.7 — the cosmological symmetry principle — proved that the bulk isometry group acts transitively on cosmological-scale spatial sections of the Firmament. Homogeneity and isotropy are not postulates of the framework; they are theorems.
 
 It will pay to state this carefully.
 
-Lemma 5.8.1 (FLRW reduction). Let Sigma = Z sub 2.2 be the Firmament brane with induced metric gamma sub mu nu, and let G cosm be the cosmological-scale isometry group of the bulk (Vol 1 §4.7) acting on Sigma. Suppose G cosm acts transitively on the cosmological-scale spatial sections of Sigma. Then there exist coordinates (t, x) on the cosmological-scale region of Sigma in which
+Lemma 5.8.1 (FLRW reduction). Let Sigma = Z sub 2.2 be the Firmament with induced metric gamma sub mu nu, and let G cosm be the cosmological-scale isometry group of the bulk (Vol 1 §4.7) acting on Sigma. Suppose G cosm acts transitively on the cosmological-scale spatial sections of Sigma. Then there exist coordinates (t, x) on the cosmological-scale region of Sigma in which
 
 [Equation — see print edition.]
 
@@ -115,13 +115,13 @@ The proof is the standard cosmological-principle argument (the only Killing-vect
 
 Why k = 0. The framework forces spatial flatness, and this is one of its less-celebrated nontrivial consequences. The argument has two pieces.
 
-First, the brane-side spatial intrinsic curvature is connected to the bulk-side extrinsic curvature in the two normal directions xi , eta by the Israel–Darmois junction conditions (5.8.3). For a brane in equilibrium with the bulk Waters fields, Vol 1 Ch 6 §6.5 proved that the bulk-side extrinsic curvature vanishes on cosmological averages:
+First, the Firmament-side spatial intrinsic curvature is connected to the bulk-side extrinsic curvature in the two normal directions xi , eta by the Israel–Darmois junction conditions (5.8.3). For a Firmament in equilibrium with the bulk Waters fields, Vol 1 Ch 6 §6.5 proved that the bulk-side extrinsic curvature vanishes on cosmological averages:
 
 [Equation — see print edition.]
 
 The proof in Vol 1 §6.5 went via the Euler–Lagrange equation for the Waters action; the equilibrium configuration that minimizes the bulk action is the one with vanishing extrinsic curvature on cosmological scales, because nonzero extrinsic curvature would source bulk energy density gradients that the Waters fields cannot equilibrate.
 
-Second, with the right-hand sides of (5.8.3) vanishing, the brane is intrinsically flat on cosmological averages. Combining with Lemma 5.8.1, this forces k = 0 in (5.8.10). The brane FLRW metric we will use throughout the chapter is therefore
+Second, with the right-hand sides of (5.8.3) vanishing, the Firmament is intrinsically flat on cosmological averages. Combining with Lemma 5.8.1, this forces k = 0 in (5.8.10). The Firmament FLRW metric we will use throughout the chapter is therefore
 
 [Equation — see print edition.]
 
@@ -133,9 +133,9 @@ We now have the left-hand side of the Einstein equations on a cosmological backg
 
 The Waters Field as Cosmological Fluid.
 
-The cosmological fluid of standard cosmology — what shows up as rho _ tot on the right-hand side of the Friedmann equation — is, in this framework, the brane-projected stress-energy of the Waters fields Psi sub A and Psi sub B, plus the brane matter rho sub b and brane radiation rho sub r already on the Firmament. There is no separate "dark sector"; the dark sector is the Waters sector seen from the brane.
+The cosmological fluid of standard cosmology — what shows up as rho _ tot on the right-hand side of the Friedmann equation — is, in this framework, the Firmament-projected stress-energy of the Waters fields Psi sub A and Psi sub B, plus the Firmament matter rho sub b and Firmament radiation rho sub r already on the Firmament. There is no separate "dark sector"; the dark sector is the Waters sector seen from the Firmament.
 
-Why doesn't the cosmological fluid need to be put in by hand? Because Vol 1 Ch 6 already gave us the Waters fields with their full action principle and equilibrium solutions. The only step we have not taken yet is the projection onto the brane. We take it here.
+Why doesn't the cosmological fluid need to be put in by hand? Because Vol 1 Ch 6 already gave us the Waters fields with their full action principle and equilibrium solutions. The only step we have not taken yet is the projection onto the Firmament. We take it here.
 
 The Waters Above projection.
 
@@ -147,7 +147,7 @@ where M, N run over the six bulk indices. With partial sub M Psi sub A = 0 in su
 
 [Equation — see print edition.]
 
-This is the bulk stress-energy of a 6D cosmological constant. To get the brane-side stress-energy, we project onto the 4D induced metric and integrate over the extra dimensions weighted by the warp factor:
+This is the bulk stress-energy of a 6D cosmological constant. To get the Firmament-side stress-energy, we project onto the 4D induced metric and integrate over the extra dimensions weighted by the warp factor:
 
 [Equation — see print edition.]
 
@@ -155,25 +155,25 @@ where in the last step we have absorbed the integral over the extra-dimensional 
 
 [Equation — see print edition.]
 
-with rho sub A = Lambda sub A to the (4) and P sub A = - Lambda sub A to the (4) c to the 2. The Waters Above field projects onto the brane as a cosmological-constant fluid. The equation of state w sub A = P sub A/( rho sub A c to the 2) = -1 is exactly -1, not approximately, because the field is exactly at the minimum of its potential. We will return to this in §8.5.
+with rho sub A = Lambda sub A to the (4) and P sub A = - Lambda sub A to the (4) c to the 2. The Waters Above field projects onto the Firmament as a cosmological-constant fluid. The equation of state w sub A = P sub A/( rho sub A c to the 2) = -1 is exactly -1, not approximately, because the field is exactly at the minimum of its potential. We will return to this in §8.5.
 
 The Waters Below projection.
 
-The Waters Below field has a richer structure. In sustaining mode, Psi sub B sits at its broken-phase VEV v sub B, but unlike Psi sub A it is confined in the eta-direction by the exponential warp factor (Vol 1 §6.6). The bulk profile is concentrated near the brane and the projected number density is finite. The KK zero-mode behaves as nonrelativistic dust.
+The Waters Below field has a richer structure. In sustaining mode, Psi sub B sits at its broken-phase VEV v sub B, but unlike Psi sub A it is confined in the eta-direction by the exponential warp factor (Vol 1 §6.6). The bulk profile is concentrated near the Firmament and the projected number density is finite. The KK zero-mode behaves as nonrelativistic dust.
 
-The argument runs as follows. The bulk stress-energy of Psi sub B has the same form as (5.8.13). The exponential confinement e to the - gamma eta in the eta-direction means that the relevant integral over the extra dimensions is dominated by the brane neighborhood, and the zero-mode wave function has finite norm. Vol 1 §6.6 carries out the KK reduction explicitly; the result for the projected stress-energy is
-
-[Equation — see print edition.]
-
-with the expression the comoving four-velocity, rho sub B(t) the projected number density of Psi sub B quanta times the rest mass per quantum, and P sub B(t) = 0 to leading order in the nonrelativistic limit. The dilution of rho sub B as the brane expands follows from particle-number conservation:
+The argument runs as follows. The bulk stress-energy of Psi sub B has the same form as (5.8.13). The exponential confinement e to the - gamma eta in the eta-direction means that the relevant integral over the extra dimensions is dominated by the Firmament neighborhood, and the zero-mode wave function has finite norm. Vol 1 §6.6 carries out the KK reduction explicitly; the result for the projected stress-energy is
 
 [Equation — see print edition.]
 
-This is the dust scaling. The reason it does not depend on the bulk dynamics of Psi sub B — the field is not being thinned out, the brane is being stretched — is geometric: the zero-mode wave function continues to have its support near the brane regardless of the brane's spatial extent, but the number density per unit comoving volume on the brane dilutes as the spatial volume grows by a to the 3.
+with the expression the comoving four-velocity, rho sub B(t) the projected number density of Psi sub B quanta times the rest mass per quantum, and P sub B(t) = 0 to leading order in the nonrelativistic limit. The dilution of rho sub B as the Firmament expands follows from particle-number conservation:
 
-Brane matter and brane radiation.
+[Equation — see print edition.]
 
-The remaining two species do not require any bulk projection; they live on the brane already. Brane matter — ordinary baryons — has the dust stress-energy
+This is the dust scaling. The reason it does not depend on the bulk dynamics of Psi sub B — the field is not being thinned out, the Firmament is being stretched — is geometric: the zero-mode wave function continues to have its support near the Firmament regardless of the Firmament's spatial extent, but the number density per unit comoving volume on the Firmament dilutes as the spatial volume grows by a to the 3.
+
+Brane matter and Firmament radiation.
+
+The remaining two species do not require any bulk projection; they live on the Firmament already. Brane matter — ordinary baryons — has the dust stress-energy
 
 [Equation — see print edition.]
 
@@ -189,7 +189,7 @@ Putting the four pieces together,
 
 [Equation — see print edition.]
 
-This is the right-hand side of the Einstein equations for cosmology. Every term has been traced to a Vol 1 Ch 6 equation or a brane-side definition. Nothing has been postulated.
+This is the right-hand side of the Einstein equations for cosmology. Every term has been traced to a Vol 1 Ch 6 equation or a Firmament-side definition. Nothing has been postulated.
 
 [Figure — see print edition.]
 
@@ -197,13 +197,13 @@ We now have both sides of the Einstein equations on a cosmological background. W
 
 The Friedmann Equations: Two Theorems.
 
-The Einstein equations on the brane FLRW metric (5.8.12) reduce to exactly two independent component equations: a constraint (the Friedmann equation) and an evolution equation (the acceleration equation). The continuity equation follows from the Bianchi identity.
+The Einstein equations on the Firmament FLRW metric (5.8.12) reduce to exactly two independent component equations: a constraint (the Friedmann equation) and an evolution equation (the acceleration equation). The continuity equation follows from the Bianchi identity.
 
 Why two and not four? Because FLRW symmetry collapses the ten independent components of the metric to a single dynamical variable a(t), and the EFE then collapses to (a) a constraint on the first derivative of a and (b) an evolution equation on the second derivative. The ten components of G sub mu nu and T sub mu nu are reduced, by the FLRW symmetry, to two independent components each — the time-time component and the spatial-trace component — and the off-diagonal components vanish identically.
 
 The Einstein tensor for FLRW.
 
-For the brane metric (5.8.12), the nonzero components of the Einstein tensor are (standard calculation; see Wald 1984 §5.2):
+For the Firmament metric (5.8.12), the nonzero components of the Einstein tensor are (standard calculation; see Wald 1984 §5.2):
 
 [Equation — see print edition.]
 
@@ -225,7 +225,7 @@ which simplifies to
 
 This is the Friedmann constraint.
 
-Theorem 5.8.1 (Friedmann constraint). On the brane FLRW metric (5.8.12), the tt-component of the recovered Einstein field equations (5.8.8) with cosmological stress-energy (5.8.21) is equivalent to (5.8.26).
+Theorem 5.8.1 (Friedmann constraint). On the Firmament FLRW metric (5.8.12), the tt-component of the recovered Einstein field equations (5.8.8) with cosmological stress-energy (5.8.21) is equivalent to (5.8.26).
 
 The proof is the substitution above. Note that we have suppressed the -kc to the 2/a to the 2 term that would appear in the general FLRW case because Lemma 5.8.1 plus Vol 1 Ch 6 §6.5 forced k = 0. If the reader prefers to keep the general form, the full equation is
 
@@ -245,11 +245,11 @@ which after substituting (5.8.26) for ( a/a) to the 2 and rearranging yields
 
 This is the acceleration equation.
 
-Theorem 5.8.2 (acceleration equation). On the brane FLRW metric (5.8.12), the spatial-trace component of the recovered Einstein field equations with cosmological stress-energy (5.8.21) is equivalent to (5.8.29), once the Friedmann constraint (5.8.26) is used.
+Theorem 5.8.2 (acceleration equation). On the Firmament FLRW metric (5.8.12), the spatial-trace component of the recovered Einstein field equations with cosmological stress-energy (5.8.21) is equivalent to (5.8.29), once the Friedmann constraint (5.8.26) is used.
 
 The continuity equation from the Bianchi identity.
 
-Vol 5 §1.8 established that the expression holds on the brane and therefore the expression. For the FLRW brane and the perfect-fluid stress-energy of each species, the nu = t component of the expression becomes
+Vol 5 §1.8 established that the expression holds on the Firmament and therefore the expression. For the FLRW Firmament and the perfect-fluid stress-energy of each species, the nu = t component of the expression becomes
 
 [Equation — see print edition.]
 
@@ -281,21 +281,21 @@ The Waters Below field is at its VEV in the broken phase and the projected stres
 
 [Equation — see print edition.]
 
-The corresponding statement in standard cosmology is "we postulate that dark matter is cold." Here the postulate is replaced with the fact that the projected zero-mode wave function of Psi sub B has typical brane-frame momentum much smaller than its rest mass.
+The corresponding statement in standard cosmology is "we postulate that dark matter is cold." Here the postulate is replaced with the fact that the projected zero-mode wave function of Psi sub B has typical Firmament-frame momentum much smaller than its rest mass.
 
-Why w sub b = 0 for brane matter.
+Why w sub b = 0 for Firmament matter.
 
 Brane baryons are ordinary cold matter; the equation of state is the conventional one and we do not re-derive it:
 
 [Equation — see print edition.]
 
-Why w sub r = 1/3 for brane radiation.
+Why w sub r = 1/3 for Firmament radiation.
 
-Brane radiation is the photon gas plus the relativistic neutrino background. The standard derivation gives P = rho c to the 2/3 for any massless gas in three spatial dimensions, and this carries over to the brane unchanged:
+Brane radiation is the photon gas plus the relativistic neutrino background. The standard derivation gives P = rho c to the 2/3 for any massless gas in three spatial dimensions, and this carries over to the Firmament unchanged:
 
 [Equation — see print edition.]
 
-The brane is the place radiation lives; the bulk projection is not needed.
+The Firmament is the place radiation lives; the bulk projection is not needed.
 
 [Figure — see print edition.]
 
@@ -303,7 +303,7 @@ Critical Density and the 68/27/5 Pie.
 
 We now have the equation the expression and four species with known equations of state and dilution laws. The next step is to introduce the standard parameterization in terms of the critical density and density parameters.
 
-Why does the universe sit so close to the closure threshold? Because the bulk warp-factor profiles drive the brane equilibrium toward k = 0 (Vol 1 Ch 6 §6.5), and k = 0 is the closure condition. Closure is forced, not fit.
+Why does the universe sit so close to the closure threshold? Because the bulk warp-factor profiles drive the Firmament equilibrium toward k = 0 (Vol 1 Ch 6 §6.5), and k = 0 is the closure condition. Closure is forced, not fit.
 
 Critical density.
 
@@ -315,7 +315,7 @@ Today, with H sub 0 = 67.4 km/s/Mpc = 2.19 times 10 to the -18 sto the -1 and G 
 
 [Equation — see print edition.]
 
-This is the closure threshold of the brane-projected Waters energy budget. It is not a fundamental scale of the framework — it is a derived combination of H sub 0 and G sub 4, both of which are themselves derived (Vol 1 Ch 6 §6.7 for H sub 0, Vol 5 Ch 15 for G sub 4).
+This is the closure threshold of the Firmament-projected Waters energy budget. It is not a fundamental scale of the framework — it is a derived combination of H sub 0 and G sub 4, both of which are themselves derived (Vol 1 Ch 6 §6.7 for H sub 0, Vol 5 Ch 15 for G sub 4).
 
 Density parameters.
 
@@ -331,13 +331,15 @@ We now state the four density parameters and show the bulk-field origin of each.
 
 Species: Waters Above (dark energy). Omega sub i today: Omega sub A = 0.684. Origin: Vol 1 §6.7, Eq (1.6.38). The Waters Above potential value Lambda sub A is set by the xi-direction warp factor and the domain size xi sub A..
 Species: Waters Below (dark matter). Omega sub i today: Omega sub B = 0.266. Origin: Vol 1 §6.7, Eq (1.6.41). The Waters Below VEV v sub B is set by the eta-direction exponential warp gamma..
-Species: Brane baryonic matter. Omega sub i today: Omega sub b = 0.049. Origin: Vol 1 §5.6. The brane tension sigma relative to the bulk energy density..
-Species: Brane radiation. Omega sub i today: Omega sub r approximately equal to 10 to the -4. Origin: Relativistic-mode count on the brane (photons + 3 neutrino species)..
+Species: Brane baryonic matter. Omega sub i today: Omega sub b = 0.049. Origin: Vol 1 §5.6. The Firmament tension sigma relative to the bulk energy density..
+Species: Brane radiation. Omega sub i today: Omega sub r approximately equal to 10 to the -4. Origin: Relativistic-mode count on the Firmament (photons + 3 neutrino species)..
 Species: **Total**. Omega sub i today: Omega _ tot = 0.999 approximately equal to 1. Origin: Closure forced by Theorem in §8.2.
 
 Table 5.8.1. The energy budget of the universe in the zone framework. Each entry is traced to a non-cosmological input.
 
 The closure to part-per-thousand is not a coincidence; it is the equilibrium condition (5.8.11) translated into the language of density parameters.
+
+Note: Whether Omega sub A = 0.684 is a genuine prediction or a consequence of normalization conventions in the warp-factor integrals is not fully transparent in the current derivation as presented in this chapter. The claim of §8.6.4 is that the three matching parameters ( xi sub A, gamma , sigma ) are fixed at non-cosmological scales, after which the Omega sub i ratios emerge without cosmological fitting. If this chain is correct, Omega sub A = 0.684 is a prediction. If any of the normalization factors (e to the 2A sub 0, the O(1) matching factors, or the Firmament coupling constants in the warp-factor integrals) were chosen to reproduce Omega sub A = 0.684, the result is a consistency check. Research Task RT-5.ΩA: verify that the warp-factor integral ratio giving Omega sub A = 0.684 does not depend on any tuning of the Waters Above boundary conditions at xi sub A, and confirm the derivation is fitting-free by displaying the intermediate integral values before the ratio is taken.
 
 [Figure — see print edition.]
 
@@ -349,7 +351,7 @@ Is this a derivation or curve-fitting?
 
 The honest answer has two parts.
 
-First, what gets matched. The warp-factor parameters ( xi sub A, gamma , sigma ) are matched in Vol 1 Ch 6 §6.7 to (i) the brane radius (i.e., the size of the observable universe), (ii) the nuclear scale (the confinement length of Psi sub B), and (iii) the bulk-to-brane energy-density ratio at brane formation. None of these is a cosmological observable. They are inputs at non-cosmological scales.
+First, what gets matched. The warp-factor parameters ( xi sub A, gamma , sigma ) are matched in Vol 1 Ch 6 §6.7 to (i) the Firmament radius (i.e., the size of the observable universe), (ii) the nuclear scale (the confinement length of Psi sub B), and (iii) the bulk-to-Firmament energy-density ratio at Firmament formation. None of these is a cosmological observable. They are inputs at non-cosmological scales.
 
 Second, what comes out of the matching. Once the three numbers are fixed at non-cosmological scales, the four ratios Omega sub A : Omega sub B : Omega sub b : Omega sub r are determined. They come out as 0.684 : 0.266 : 0.049 : 10 to the -4 — matching observation to part-per-thousand precision.
 
@@ -377,7 +379,7 @@ At early times, Omega sub r(1+z) to the 4 dominates the sum in (5.8.40). Equatio
 
 [Equation — see print edition.]
 
-The era runs from the brane-nucleation surface (Vol 5 Ch 7) — at which the boundary data rho sub r, init are fixed by inheritance, not derivation — to the matter-radiation equality redshift
+The era runs from the Firmament-nucleation surface (Vol 5 Ch 7) — at which the boundary data rho sub r, init are fixed by inheritance, not derivation — to the matter-radiation equality redshift
 
 [Equation — see print edition.]
 
@@ -423,7 +425,7 @@ This matches the CMB-inferred value of Planck 2018 to part-per-thousand precisio
 
 The age of the universe.
 
-Integrating dt = da/(aH) from the brane-nucleation surface to today,
+Integrating dt = da/(aH) from the Firmament-nucleation surface to today,
 
 [Equation — see print edition.]
 
@@ -484,9 +486,9 @@ What This Chapter Defers: Sabbath Boundary, Initial Conditions.
 
 The chapter is restricted to the sustaining-mode regime; it does not address the Sabbath Boundary (the Phase 1 → Phase 2 transition), nor does it derive the initial conditions of the radiation era. Both belong to Vol 1 Ch 11 (zone thermodynamics) and Ch 9 of this volume (CMB and early universe). It is worth being explicit about why these deferrals are appropriate.
 
-Why defer the Sabbath Boundary? Because the sustaining-mode Friedmann equations are internally consistent without it. The chain — Theorem 5.8.1 (Friedmann constraint), Theorem 5.8.2 (acceleration equation), continuity equation, equation-of-state identifications, era structure, integrated H sub 0, age, and T sub 0 — does not require the boundary to be specified anywhere. It requires boundary data on the past timelike surface, but the boundary data are inherited from Vol 5 Ch 7 (Theorem 5.7.3, brane-nucleation surface), not derived. Conflating the sustaining-mode dynamics with the boundary risks the kind of category error the Theologian and the Skeptic would both flag; we do not commit it.
+Why defer the Sabbath Boundary? Because the sustaining-mode Friedmann equations are internally consistent without it. The chain — Theorem 5.8.1 (Friedmann constraint), Theorem 5.8.2 (acceleration equation), continuity equation, equation-of-state identifications, era structure, integrated H sub 0, age, and T sub 0 — does not require the boundary to be specified anywhere. It requires boundary data on the past timelike surface, but the boundary data are inherited from Vol 5 Ch 7 (Theorem 5.7.3, Firmament-nucleation surface), not derived. Conflating the sustaining-mode dynamics with the boundary risks the kind of category error the Theologian and the Skeptic would both flag; we do not commit it.
 
-Why defer the initial conditions of the radiation era? Because they are the temperature, density, and entropy on the brane-nucleation surface at the expression, and these depend on the dynamics of the creation epoch (Vol 1 Ch 11) which is governed by an entirely different metric regime. The sustaining-mode chapter inherits them as parameters: rho sub r,0 at the present epoch is matched to the observed CMB temperature; the value at any earlier time follows by the dilution law rho sub r proportional to a to the -4.
+Why defer the initial conditions of the radiation era? Because they are the temperature, density, and entropy on the Firmament-nucleation surface at the expression, and these depend on the dynamics of the creation epoch (Vol 1 Ch 11) which is governed by an entirely different metric regime. The sustaining-mode chapter inherits them as parameters: rho sub r,0 at the present epoch is matched to the observed CMB temperature; the value at any earlier time follows by the dilution law rho sub r proportional to a to the -4.
 
 Where the deferred material appears. Vol 1 Ch 11 introduces the four phases and the Sabbath Boundary as a thermodynamic discontinuity. Ch 9 of this volume derives the CMB acoustic-peak structure and shows that the boundary's signature is the early-vs-late H sub 0 tension. Ch 12 of this volume addresses the chronology question (sustaining-mode coordinate time vs creation-epoch proper time) and the starlight problem. Together they complete the picture this chapter only sketches.
 
@@ -533,7 +535,7 @@ Per Vol 5 internal precedent (Chs 5, 6, 7), every load-bearing claim of this cha
 #: L6. Claim: Continuity equation per species, Eq (5.8.30). Class: Derivation. Source / Note: §8.4.4, from Vol 5 §1.8 (Bianchi identity) + L4 + L5.
 #: L7. Claim: w sub A = -1 exactly. Class: Derivation. Source / Note: §8.5.1, from L2 (no functional-form dependence).
 #: L8. Claim: w sub B = 0 for projected dust. Class: Derivation. Source / Note: §8.5.2, from L3 (zero-mode wave-function nonrelativistic limit).
-#: L9. Claim: w sub b = 0, w sub r = 1/3. Class: Identity. Source / Note: §8.5.3–4, conventional brane matter and radiation.
+#: L9. Claim: w sub b = 0, w sub r = 1/3. Class: Identity. Source / Note: §8.5.3–4, conventional Firmament matter and radiation.
 #: L10. Claim: rho _ crit,0 = 9.47 times 10 to the -27 kg/m³. Class: Derivation. Source / Note: §8.6.1, from L4 + numerical H sub 0, G sub 4.
 #: L11. Claim: the expression. Class: Inheritance. Source / Note: §8.6.3, from Vol 1 §6.7. The Vol 1 calculation matches ( xi sub A, gamma , sigma ) to non-cosmological scales; the cosmological ratios then come out. The chain is honest but not first-principles in the strongest sense..
 #: L12. Claim: The framework does not curve-fit the cosmological energy budget. Class: Derivation (qualitative). Source / Note: §8.6.4, supported by L11 — the matching scales are non-cosmological.
@@ -565,13 +567,13 @@ Conceptual.
 
 8.3. State the precise sense in which Waters Below "is" dark matter. What aspect of this identification is a derivation (from the bulk profile) and what aspect is a re-labeling (of the conventional name)?
 
-Discussion. The identification has three components. (i) The brane-projected stress-energy of Psi sub B has the dust form the expression — this is a derivation (§8.3.2). (ii) The dilution law rho sub B proportional to a to the -3 matches the standard cold-dark-matter dilution — this is a consequence of the derivation. (iii) The conventional name "dark matter" is then applied to Psi sub B because the operational behavior matches — this is a re-labeling. The framework's claim is that (i) and (ii) are derivations from the bulk action principle, and (iii) is the resulting identification with standard cosmology's dark matter. There is no re-labeling without (i) and (ii).
+Discussion. The identification has three components. (i) The Firmament-projected stress-energy of Psi sub B has the dust form the expression — this is a derivation (§8.3.2). (ii) The dilution law rho sub B proportional to a to the -3 matches the standard cold-dark-matter dilution — this is a consequence of the derivation. (iii) The conventional name "dark matter" is then applied to Psi sub B because the operational behavior matches — this is a re-labeling. The framework's claim is that (i) and (ii) are derivations from the bulk action principle, and (iii) is the resulting identification with standard cosmology's dark matter. There is no re-labeling without (i) and (ii).
 
 8.4. The chapter derives w sub A = -1 from Psi sub A sitting at the minimum of V sub A. Why does this not depend on the specific functional form of V sub A?
 
 Discussion. At the minimum, the expression, so the only nonvanishing contribution to the bulk stress-energy is the constant the expression itself. The functional form of V sub A near the minimum (whether quadratic, quartic, or anything else) does not enter as long as the field has settled there. The Vol 1 §6.3 attractor argument shows that the sustaining-mode equilibrium is the minimum, so the equation of state is forced regardless of the potential's shape.
 
-8.5. Where in the derivation of the Friedmann equation is the assumption that the brane is spatially flat (k = 0) used? What would change if k = +1 or k = -1?
+8.5. Where in the derivation of the Friedmann equation is the assumption that the Firmament is spatially flat (k = 0) used? What would change if k = +1 or k = -1?
 
 Discussion. The flatness was used in §8.2 to simplify (5.8.10) to (5.8.12), and again in §8.4.2 when the -kc to the 2/a to the 2 term was suppressed in (5.8.27). For k 0 the Friedmann constraint would carry the curvature term explicitly, and the closure relation would become Omega _ tot + Omega sub k = 1 with Omega sub k = -kc to the 2/(a to the 2 H to the 2). The framework's claim that k = 0 is forced by the bulk equilibrium (Vol 1 §6.5) means that the curvature term cannot be a free parameter to fit; it is zero on principle.
 
@@ -585,7 +587,7 @@ Solution sketch. From (5.8.29) at t = t sub 0 with w sub A = -1, w sub b = w sub
 
 Substituting the framework's Omega's: q sub 0 = 12(0.315) + 10 to the -4 - 0.684 = -0.527. Planck 2018 gives q sub 0 = -0.527 plus or minus 0.011, in agreement.
 
-8.7. Show that on a brane FLRW background, the Bianchi identity the expression is equivalent to the continuity equation for the total stress-energy. Why does this not require any of the species individually to be non-interacting?
+8.7. Show that on a Firmament FLRW background, the Bianchi identity the expression is equivalent to the continuity equation for the total stress-energy. Why does this not require any of the species individually to be non-interacting?
 
 Discussion. The Bianchi identity gives the expression, which is one constraint on the four species' continuity equations. If the species are interacting through some cross-coupling Q sub i (with sum sub i Q sub i = 0), each species can have rho sub i + 3 H( rho sub i + P sub i/c to the 2) = Q sub i with nonzero individual Q sub i, while the sum still satisfies the total continuity equation. The chapter's per-species equations (5.8.30) assume Q sub i = 0 individually, justified by Vol 1 §6.4 (orthogonality of bulk profiles). The general case with Q sub i 0 is a small correction flagged in §8.13 (gap G4).
 

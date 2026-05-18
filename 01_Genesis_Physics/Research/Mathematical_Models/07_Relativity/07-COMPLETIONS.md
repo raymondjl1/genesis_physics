@@ -25,7 +25,7 @@
 This document derives five advanced gravitational phenomena from the Genesis Physics 6D framework:
 
 1. **Kerr solution** — Rotating black hole metric and frame dragging
-2. **Black hole thermodynamics** — Bekenstein-Hawking entropy from membrane mode counting
+2. **Black hole thermodynamics** — Bekenstein-Hawking entropy from Firmament membrane mode counting
 3. **Penrose diagrams** — Conformal compactification of Schwarzschild and Kerr spacetimes
 4. **Black hole mergers** — Gravitational waveform from inspiral-merger-ringdown
 5. **Gravitational wave detection** — LIGO sensitivity and strain measurement
@@ -190,13 +190,13 @@ $$= \frac{\pi k_B \cdot 4G M^2}{\hbar c}$$
 **Equation (5):** Alternative form:
 $$\boxed{S = \frac{4\pi G k_B M^2}{\hbar c}}$$
 
-#### 2.3 Derivation from 6D Membrane Mode Counting
+#### 2.3 Derivation from 6D Firmament Mode Counting
 
-**Key Genesis result**: The horizon entropy arises from counting the number of quantum oscillation modes (membrane excitations) confined at the event horizon.
+**Key Genesis result**: The horizon entropy arises from counting the number of quantum oscillation modes (Firmament excitations) confined at the event horizon.
 
 For a Schwarzschild black hole horizon (surface area $A = 4\pi r_s^2$):
 
-**Membrane oscillation modes**:
+**Firmament oscillation modes**:
 The horizon is a 2D surface. Standing waves confined to the horizon satisfy:
 $$\lambda_n = \frac{2\pi r_s}{n}, \quad n = 1,2,3,\ldots$$
 
@@ -264,7 +264,7 @@ Such PBHs would have evaporated by now if they existed. ✓
 
 ### Genesis Physics Interpretation
 
-The black hole entropy counting of membrane modes is the *raison d'être* for 6D geometry. The horizon is not a mathematical singularity but a physical oscillating surface with quantized modes. Dark energy density above the horizon is compensated by entropy deficit inside, maintaining thermodynamic balance.
+The black hole entropy counting of Firmament modes is the *raison d'être* for 6D geometry. The horizon is not a mathematical singularity but a physical oscillating surface with quantized modes. Dark energy density above the horizon is compensated by entropy deficit inside, maintaining thermodynamic balance.
 
 ---
 

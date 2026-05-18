@@ -26,7 +26,7 @@
 
 ## Executive Summary
 
-This document completes the thermodynamics derivation suite by rigorously deriving nine core relations from the 6D action and partition function formalism. Each derivation starts from membrane mode statistics and includes dimensional analysis. The framework connects macroscopic thermodynamics to microscopic membrane defect (particle) dynamics.
+This document completes the thermodynamics derivation suite by rigorously deriving nine core relations from the 6D action and partition function formalism. Each derivation starts from Firmament membrane mode statistics and includes dimensional analysis. The framework connects macroscopic thermodynamics to microscopic membrane defect (particle) dynamics.
 
 **Nine Core Derivations:**
 1. Ideal Gas Law PV = nRT from partition function of non-interacting modes
@@ -34,7 +34,7 @@ This document completes the thermodynamics derivation suite by rigorously derivi
 3. Cp − Cv = R: Heat capacity difference from thermodynamic identities
 4. Equipartition Theorem: (1/2)k_BT per quadratic degree of freedom
 5. Heat Conduction: Fourier's law from phonon transport
-6. Second Law: Clausius inequality from coarse-grained membrane modes
+6. Second Law: Clausius inequality from coarse-grained Firmament modes
 7. Third Law: Ground state uniqueness from mode quantization at T = 0
 8. Boltzmann Distribution: P(E) ∝ exp(−E/k_BT) from microstate counting
 9. Calorimetry: Q = mcΔT from energy conservation + heat capacity
@@ -384,9 +384,9 @@ A solid has 3N degrees of freedom (N atoms, each vibrating in 3 directions). In 
 
 ## Part 5: Heat Conduction from Phonon Transport
 
-### 5.1 Phonons as Quantized Membrane Waves
+### 5.1 Phonons as Quantized Firmament Waves
 
-Heat in a solid is carried by quantized lattice vibrations called **phonons**. In the 6D membrane framework, phonons are quantized excitations of the Firmament at a particular frequency ω and wavenumber k:
+Heat in a solid is carried by quantized lattice vibrations called **phonons**. In the 6D Firmament framework, phonons are quantized excitations of the Firmament at a particular frequency ω and wavenumber k:
 
 $$E_{\mathbf{k}} = \hbar\omega(\mathbf{k})$$
 
@@ -447,7 +447,7 @@ $$\kappa = \frac{1}{3}C_v v_s \lambda$$
 
 ---
 
-## Part 6: Second Law from Coarse-Grained Membrane Modes
+## Part 6: Second Law from Coarse-Grained Firmament Modes
 
 ### 6.1 Boltzmann's Definition of Entropy
 
@@ -462,7 +462,7 @@ where Ω is the number of **microstates** (detailed configurations) consistent w
 In Genesis Physics, the visible universe is a collection of topological defects on the Firmament. A **microstate** specifies:
 - Position of each defect: r_i
 - Momentum of each defect: p_i
-- Occupation numbers of each quantized membrane mode: n_k
+- Occupation numbers of each quantized Firmament mode: n_k
 - Configuration of Waters fields: Ψ_A(x), Ψ_B(x)
 
 The number of microstates Ω(U, V, N) satisfying the macroscopic energy U, volume V, and particle count N is:

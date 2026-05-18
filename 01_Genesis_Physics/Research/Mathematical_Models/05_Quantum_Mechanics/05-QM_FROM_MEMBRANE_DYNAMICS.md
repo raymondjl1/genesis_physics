@@ -2,14 +2,14 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "In the beginning was the Word, and the Word was with God" — Quantum structure reflects divine order | John 1:1 |
-> | Axiom | Axiom 3: Membrane Mechanics — membrane dynamics generate quantum behavior; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics — Firmament membrane dynamics generate quantum behavior; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | 6D Action with membrane quantization; Dimensional reduction to 4D effective theory | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
-> | **This Document** | **Quantum Mechanics from membrane dynamics: derivation of ℏ, Schrödinger equation, wave-particle duality, de Broglie relation, Heisenberg uncertainty, angular momentum quantization** | **05-QM_FROM_MEMBRANE_DYNAMICS.md** |
+> | **This Document** | **Quantum Mechanics from Firmament membrane dynamics: derivation of ℏ, Schrödinger equation, wave-particle duality, de Broglie relation, Heisenberg uncertainty, angular momentum quantization** | **05-QM_FROM_MEMBRANE_DYNAMICS.md** |
 > | Modern Equivalent | Quantum Mechanics — CONVERGES: Schrödinger equation, de Broglie wavelength, uncertainty principle, angular momentum quantization all recovered with derived ℏ from membrane parameters |
 >
 > *Chain Status: COMPLETE*
 
-# Quantum Mechanics from Membrane Dynamics: Complete Derivation with ℏ Derivation
+# Quantum Mechanics from Firmament Dynamics: Complete Derivation with ℏ Derivation
 
 **Genesis Physics Framework Document**
 **Author:** Mathematical Physics Division
@@ -21,28 +21,28 @@
 
 ## EXECUTIVE SUMMARY
 
-This document provides a **complete and rigorous** derivation of quantum mechanics from the membrane dynamics of the Firmament brane in 6D Genesis Physics spacetime. Unlike previous versions (v1 graded B-), this rewrite **derives Planck's constant ℏ from fundamental membrane parameters**, eliminating all imports from Standard Quantum Mechanics and closing all gaps.
+This document provides a **complete and rigorous** derivation of quantum mechanics from the Firmament membrane dynamics of the Firmament in 6D Genesis Physics spacetime. Unlike previous versions (v1 graded B-), this rewrite **derives Planck's constant ℏ from fundamental membrane parameters**, eliminating all imports from Standard Quantum Mechanics and closing all gaps.
 
 ### What Is Derived (Completely):
 
 1. **Planck's constant ℏ** from 6D membrane parameters and topological winding (DERIVE_HBAR_FROM_MEMBRANE)
    - ℏ = (σ η_B³/2c) × (η_B/ξ_A)²
-   - σ = brane tension, η_B = confining scale, ξ_A = Hubble length
+   - σ = Firmament tension, η_B = confining scale, ξ_A = Hubble length
    - No longer imported; emerges from exponential warp-factor suppression
 
-2. **The Schrödinger equation** from non-relativistic reduction of the membrane wave equation
+2. **The Schrödinger equation** from non-relativistic reduction of the Firmament membrane wave equation
    - Identified in slowly-varying envelope approximation
    - ℏ is the derived constant, not a free parameter
 
-3. **Wave-particle duality** from localized vs. delocalized membrane modes
+3. **Wave-particle duality** from localized vs. delocalized Firmament membrane modes
    - Particles = topological defects (vortex cores)
-   - Waves = dispersive membrane oscillations
+   - Waves = dispersive Firmament membrane oscillations
    - Natural complementarity from membrane geometry
 
 4. **de Broglie relation** λ = h/p from membrane dispersion with DERIVED ℏ
    - Emerges from momentum identification p = ℏk and wavelength λ = 2π/k
 
-5. **Heisenberg uncertainty** ΔxΔp ≥ ℏ/2 from Fourier analysis of membrane modes
+5. **Heisenberg uncertainty** ΔxΔp ≥ ℏ/2 from Fourier analysis of Firmament membrane modes
    - Rigorous proof using dispersive wave packet evolution
    - ℏ/2 minimum naturally from quantum scale η_B
 
@@ -84,7 +84,7 @@ where:
   - ξ-direction (Waters Above): extent ξ_A ≈ 3.0 × 10²⁶ m (canonical particle horizon)
   - η-direction (Waters Below): extent η_B ≈ 1.3 × 10⁻¹⁵ m (nuclear scale)
 
-**The Firmament Σ** is a 4D brane embedded at ξ = ξ_0, η = η_0, parameterized by (t, x, y, z):
+**The Firmament Σ** is a 4D Firmament embedded at ξ = ξ_0, η = η_0, parameterized by (t, x, y, z):
 
 $$\Sigma = \{ (x^\mu, \xi_0, \eta_0) : x^\mu \in \mathbb{R}^{3,1} \}$$
 
@@ -111,9 +111,9 @@ $$\pi_1(\mathcal{M}_{\text{vac}}) = \mathbb{Z} \times \mathbb{Z}$$
 - Up quark = vortex with n_ξ = 1, n_η = 1/3 (fractional color winding)
 - Photon = gauge vortex from broken SU(2)
 
-**Key fact for QM derivation**: A localized topological defect IS a localized membrane excitation. The wave function ψ(x,t) IS the envelope of the membrane's displacement at that location.
+**Key fact for QM derivation**: A localized topological defect IS a localized Firmament membrane excitation. The wave function ψ(x,t) IS the envelope of the Firmament membrane's displacement at that location.
 
-### 1.3 The Membrane Wave Equation
+### 1.3 The Firmament Wave Equation
 
 Classical wave equation for the Firmament displacement field ψ(x,y,z,t):
 
@@ -121,7 +121,7 @@ $$\boxed{\mu \frac{\partial^2 \psi}{\partial t^2} = \sigma \nabla^2 \psi - V_{\t
 
 where:
 - μ = surface mass density
-- σ = brane tension
+- σ = Firmament tension
 - V_ext = curvature/tension variations acting as external potential
 - ℱ = stochastic forcing from sub-Planck Waters fluctuations
 
@@ -129,11 +129,11 @@ where:
 
 $$\omega(k) = c |k| \quad \text{(relativistic membrane)}$$
 
-For massive excitations (particles coupled to the membrane):
+For massive excitations (particles coupled to the Firmament):
 
 $$\omega(k) = \sqrt{(mc^2/\hbar)^2 + (ck)^2}$$
 
-where m will be identified with particle rest mass. This is the **relativistic dispersion relation** —it arises naturally from the membrane's inertia and elasticity coupling to a localized deformation.
+where m will be identified with particle rest mass. This is the **relativistic dispersion relation** —it arises naturally from the Firmament's inertia and elasticity coupling to a localized deformation.
 
 ---
 
@@ -282,11 +282,11 @@ The hierarchy of scales (10²⁶ m to 10⁻¹⁵ m to ~10⁻³⁴ m [for ξ₀] 
 
 ---
 
-## PART III: THE SCHRÖDINGER EQUATION FROM MEMBRANE DYNAMICS
+## PART III: THE SCHRÖDINGER EQUATION FROM Firmament membrane DYNAMICS
 
-### 3.1 Non-Relativistic Decomposition of Membrane Wave
+### 3.1 Non-Relativistic Decomposition of Firmament Wave
 
-The membrane wave equation for a massive excitation:
+The Firmament membrane wave equation for a massive excitation:
 
 $$\mu \frac{\partial^2 \psi}{\partial t^2} = \sigma \nabla^2 \psi - V_{\text{ext}}(x) \psi$$
 
@@ -309,7 +309,7 @@ $$\nabla^2 \psi = \exp\left(-\frac{iE_0 t}{\hbar}\right) \nabla^2 \Psi$$
 
 ### 3.2 Substitution and Non-Relativistic Limit
 
-Substitute into the membrane wave equation:
+Substitute into the Firmament membrane wave equation:
 
 $$\mu \exp\left(-\frac{iE_0 t}{\hbar}\right) \left[\frac{\partial^2 \Psi}{\partial t^2} - \frac{2iE_0}{\hbar}\frac{\partial \Psi}{\partial t} - \frac{E_0^2}{\hbar^2}\Psi\right] = \sigma \exp\left(-\frac{iE_0 t}{\hbar}\right) \nabla^2 \Psi - V_{\text{ext}} \exp\left(-\frac{iE_0 t}{\hbar}\right) \Psi$$
 
@@ -344,7 +344,7 @@ Actually, let's use a cleaner approach. Start with the Klein-Gordon form directl
 
 ### 3.3 (Alternative, Cleaner Derivation)
 
-The membrane wave equation in the presence of a potential is:
+The Firmament membrane wave equation in the presence of a potential is:
 
 $$\left[\frac{1}{c^2}\frac{\partial^2}{\partial t^2} - \nabla^2 + \frac{V_{\text{ext}}}{\sigma}\right]\psi = 0$$
 
@@ -372,9 +372,9 @@ $$i\hbar\frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}\nabla^2\Psi + V(x
 
 $$\boxed{i\hbar\frac{\partial \Psi}{\partial t} = \hat{H}\Psi = \left[-\frac{\hbar^2}{2m}\nabla^2 + V(x)\right]\Psi}$$
 
-**Key accomplishment**: The Schrödinger equation **emerges naturally** from the membrane wave equation in the non-relativistic limit. The constant ℏ appearing in it is **the same derived constant** from Section 2, not a new import.
+**Key accomplishment**: The Schrödinger equation **emerges naturally** from the Firmament membrane wave equation in the non-relativistic limit. The constant ℏ appearing in it is **the same derived constant** from Section 2, not a new import.
 
-### 3.4 Interpretation: Wave Function as Membrane Displacement Amplitude
+### 3.4 Interpretation: Wave Function as Firmament Displacement Amplitude
 
 **The wave function Ψ(x,t) is the envelope of the Firmament's displacement** at location (x,y,z) at time t.
 
@@ -383,7 +383,7 @@ More precisely: Ψ = ⟨ψ⟩_sub-Planck is the time-averaged displacement over 
 **Properties**:
 - **Normalization**: ∫|Ψ|² d³x = total membrane energy in the particle excitation
 - **Probability interpretation**: |Ψ(x)|² ~ probability density of finding the topological defect at location x (Born rule, derived in Section VIII)
-- **Superposition**: Multiple topological modes can coexist on the membrane
+- **Superposition**: Multiple topological modes can coexist on the Firmament
 
 ---
 
@@ -447,7 +447,7 @@ $$\Delta x \cdot \Delta p \geq \frac{\hbar}{2}$$
 
 To create a well-localized wave packet (small Δx), you must superpose many momentum modes (large Δk, hence large Δp). A "pure particle" state (zero Δp) would be a plane wave (zero Δx, completely delocalized).
 
-**Physical meaning**: The membrane can't be simultaneously sharply peaked in both position and momentum. This is not a limitation of measurement — it's a fundamental property of ANY wave system.
+**Physical meaning**: The Firmament membrane can't be simultaneously sharply peaked in both position and momentum. This is not a limitation of measurement — it's a fundamental property of ANY wave system.
 
 ---
 
@@ -517,7 +517,7 @@ $$\boxed{\Delta x \cdot \Delta p \geq \frac{\hbar}{2}} \quad \text{Heisenberg Un
 
 **Not a measurement artifact**: The uncertainty is **not** due to imperfect measurement. It's a fundamental property of the wave system.
 
-**Reason**: To concentrate a wave packet to size Δx, you must excite membrane modes with wavenumbers up to k ~ 1/Δx. These modes have a range Δk ~ 1/Δx, giving momentum spread Δp ~ ℏ/Δx.
+**Reason**: To concentrate a wave packet to size Δx, you must excite Firmament membrane modes with wavenumbers up to k ~ 1/Δx. These modes have a range Δk ~ 1/Δx, giving momentum spread Δp ~ ℏ/Δx.
 
 **Lower bound ℏ/2**: The factor ℏ/2 comes from the optimal (Gaussian) wave packet. The minimum quantum scale η_B ensures that you cannot make disturbances smaller than η_B without going relativistic. The derived ℏ sets this scale:
 
@@ -773,7 +773,7 @@ $$\rho_{\text{sys}} = |c_1|^2 |\psi_1\rangle\langle\psi_1| + |c_2|^2 |\psi_2\ran
 
 The Born rule states: **P(outcome i) = |c_i|²**
 
-In the membrane picture, |Ψ|² is proportional to **energy density**. A branch of the superposition with large amplitude |c_i| carries more energy.
+In the Firmament picture, |Ψ|² is proportional to **energy density**. A branch of the superposition with large amplitude |c_i| carries more energy.
 
 **Energy transfer to apparatus**:
 
@@ -811,7 +811,7 @@ where $|\Phi_{\text{Waters}}\rangle$ is a state in the Waters field linking the 
 
 **Starting from**:
 - 6D spacetime geometry with zones
-- Firmament as 4D elastic brane with tension σ and mass density μ
+- Firmament as 4D elastic Firmament with tension σ and mass density μ
 - Topological defects on Firmament = particles
 - Waters fields (Ψ_A, Ψ_B) coupling to zone dynamics
 
@@ -823,11 +823,11 @@ where $|\Phi_{\text{Waters}}\rangle$ is a state in the Waters field linking the 
    - Agreement with ħ_obs is **exact by construction** when ξ₀ satisfies the Israel junction condition; status is PARAMETRIC pending OP-G6 (ξ₀ not independently derived)
    - **[SUPERSEDED]** Earlier version stated `(η_B/ξ_A)² × β_geom ≈ 1.16` — this arithmetic was wrong by factor 480–2556 (see §2.3–2.4 and BETA_GEOM_DERIVATION_CT4B.md)
 
-2. **Schrödinger equation** from non-relativistic reduction of membrane wave (Section III)
+2. **Schrödinger equation** from non-relativistic reduction of Firmament membrane wave (Section III)
    - Includes the DERIVED ℏ as coefficient
    - Natural emergence in slowly-varying envelope approximation
 
-3. **Wave-particle duality** from membrane mode decomposition (Section IV)
+3. **Wave-particle duality** from Firmament membrane mode decomposition (Section IV)
    - Localized modes (particles)
    - Delocalized Fourier modes (waves)
    - Complementarity from Fourier uncertainty
@@ -854,7 +854,7 @@ All fundamental constants are determined by the 6D geometry:
 
 | Constant | Value | Source |
 |----------|-------|--------|
-| σ (brane tension) | 6.0 × 10⁹⁸ kg/(m·s²) | ACTION_6D_COMPLETE |
+| σ (Firmament tension) | 6.0 × 10⁹⁸ kg/(m·s²) | ACTION_6D_COMPLETE |
 | μ (mass density) | 6.7 × 10⁸¹ kg/m³ | ACTION_6D_COMPLETE |
 | c (light speed) | 3.0 × 10⁸ m/s | c² = σ/μ |
 | η_B (nuclear scale) | 1.3 × 10⁻¹⁵ m | METRIC_6D_SOLUTIONS |
@@ -881,7 +881,7 @@ No free parameters are imported from Standard Physics.
 | Question | Standard QM | Genesis Physics |
 |----------|-----------|-----------------|
 | Why ℏ = 1.055×10⁻³⁴? | "Fundamental constant" (no explanation) | **Derived** from 6D geometry |
-| What is the wave function? | Abstract mathematical object | **Physical**: membrane displacement envelope |
+| What is the wave function? | Abstract mathematical object | **Physical**: Firmament membrane displacement envelope |
 | Why uncertainty principle? | "Fundamental postulate" | **Theorem**: Fourier analysis + derived ℏ |
 | What causes quantization? | "Postulated" quantum numbers | **Topological winding** on Firmament |
 | What is measurement? | Mysterious "collapse" | **Decoherence**: tracing environment |
@@ -892,9 +892,9 @@ No free parameters are imported from Standard Physics.
 
 ## CONCLUSION
 
-This document demonstrates that **quantum mechanics is not an independent framework but emerges naturally from 6D Genesis Physics membrane dynamics**.
+This document demonstrates that **quantum mechanics is not an independent framework but emerges naturally from 6D Genesis Physics Firmament membrane dynamics**.
 
-The key insight: **Planck's constant ℏ is not imported but derived** from the fundamental membrane parameters (brane tension σ, confining scale η_B, Firmament position ξ₀, light speed c) through power-law warp-factor suppression:
+The key insight: **Planck's constant ℏ is not imported but derived** from the fundamental membrane parameters (Firmament tension σ, confining scale η_B, Firmament position ξ₀, light speed c) through power-law warp-factor suppression:
 
 $$\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\xi_0}{L_A}\right)^{4/3} \times \beta_{\text{geom}}^{(\text{residual})}$$
 
@@ -933,7 +933,7 @@ All equations have been checked for dimensional consistency. Key checks:
 ## APPENDIX B: RELATIONSHIP TO OTHER GENESIS DOCUMENTS
 
 **Prerequisite reading**:
-- ACTION_6D_COMPLETE.md — 6D action functional, brane dynamics
+- ACTION_6D_COMPLETE.md — 6D action functional, Firmament dynamics
 - TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md — Particle classification
 - DERIVE_HBAR_FROM_MEMBRANE.md — Detailed ℏ derivation
 

@@ -27,7 +27,7 @@
 
 This document derives the properties of the four remaining fundamental particles in the Genesis Physics framework:
 
-1. **Top Quark** (m_t ≈ 173.1 GeV) — Heaviest fermion, generated from highest-energy membrane excitation mode
+1. **Top Quark** (m_t ≈ 173.1 GeV) — Heaviest fermion, generated from highest-energy Firmament excitation mode
 2. **Higgs Boson** (m_H ≈ 125.1 GeV) — Collective radion mode of membrane with stabilized moduli
 3. **W Boson** (M_W ≈ 80.4 GeV) — Massive gauge boson from SU(2)_L breaking
 4. **Z Boson** (M_Z ≈ 91.2 GeV) — Neutral electroweak gauge boson
@@ -117,7 +117,7 @@ where:
 
 | Zone | Region | Physical Interpretation | Characteristic Scale |
 |------|--------|------------------------|----------------------|
-| **Firmament** | $\xi \approx 0$, $\eta \approx 0$ | 4D spacetime brane (observable universe) | ~$10^{-15}$ m |
+| **Firmament** | $\xi \approx 0$, $\eta \approx 0$ | 4D spacetime Firmament (observable universe) | ~$10^{-15}$ m |
 | **Waters Above** | $\xi \in (0, \xi_A)$, $\eta \approx 0$ | Dark energy scalar field and weak bosons | ~$3 \times 10^{26}$ m |
 | **Waters Below** | $\xi \approx 0$, $\eta \in (-\eta_B, 0]$ | Dark matter, strong force, electroweak | ~$10^{-15}$ m |
 
@@ -125,7 +125,7 @@ where:
 
 **From MEMBRANE_MASS_SCALE.md:**
 
-The Firmament brane is characterized by:
+The Firmament is characterized by:
 - **Brane tension:** $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) [dimensions: M T⁻²]
 - **Membrane area density:** $\mu \approx 6.7 \times 10^{81}$ kg/m³ [dimensions: M L⁻³]
 - **Characteristic length scale:** $\eta_B \approx 1.3 \times 10^{-15}$ m
@@ -158,7 +158,7 @@ This is critical: a coupling that appears dimensionless in 4D quantum field theo
 
 ### 2.1 Classification from TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md
 
-Fundamental particles are topological excitations of the Firmament brane and bulk scalar fields:
+Fundamental particles are topological excitations of the Firmament and bulk scalar fields:
 
 **Fermions (electrons, quarks, neutrinos):**
 - Appear as vortex defects (point-like in 4D Firmament)
@@ -284,7 +284,7 @@ Thus, at low energies (below $\sim 10^{-15}$ m scale), we effectively have a **1
 - Charge: +2/3 (up-type quark in weak doublet with b quark)
 - Only fermion with mass comparable to electroweak scale
 
-### 4.2 Top Mass from Membrane Excitation Structure
+### 4.2 Top Mass from Firmament Excitation Structure
 
 **Genesis Physics Picture:**
 
@@ -304,7 +304,7 @@ $$\psi_1(\xi) = \sqrt{\frac{2}{\xi_A}} \sin\left(\frac{\pi\xi}{\xi_A}\right)$$
 
 $$H(\xi) = H_0 \exp\left(-\frac{\xi^2}{2\xi_0^2}\right), \quad \xi_0 \approx 10^{-17} \text{ m}$$
 
-where $H_0 \approx 174.1$ GeV (VEV) and the width $\xi_0$ is set by the boundary condition that confines the Higgs near the brane.
+where $H_0 \approx 174.1$ GeV (VEV) and the width $\xi_0$ is set by the boundary condition that confines the Higgs near the Firmament.
 
 **Yukawa coupling from overlap:**
 
@@ -343,14 +343,14 @@ $$y_t = \frac{m_t}{v/\sqrt{2}} = \frac{173.1 \text{ GeV}}{174.1 \text{ GeV}} \ap
 
 **Why are they so close?**
 
-Genesis Physics interpretation: The Higgs VEV is related to the membrane tension and Waters Above structure through the moduli stabilization potential. The fact that $v$ ≈ 174 GeV and $m_t$ ≈ 173 GeV are nearly equal (to 1%) suggests a deep symmetry principle.
+Genesis Physics interpretation: The Higgs VEV is related to the Firmament tension and Waters Above structure through the moduli stabilization potential. The fact that $v$ ≈ 174 GeV and $m_t$ ≈ 173 GeV are nearly equal (to 1%) suggests a deep symmetry principle.
 
 **Speculative Explanation:**
 
 The Higgs VEV is derived from:
 $$v = \sqrt{\frac{\sigma}{\mu c^2}} \times \xi_0 \times f(\text{dimensionless geometric factors})$$
 
-where the geometric factors depend on the shape of the membrane and Waters Above potential.
+where the geometric factors depend on the shape of the Firmament and Waters Above potential.
 
 The top mass, through the Yukawa overlap integral, yields:
 $$m_t = y_t \times v \quad \text{with} \quad y_t \approx 1$$
@@ -434,7 +434,7 @@ $$\Gamma_t^{\text{measured}} = 1.99 \pm 0.16 \text{ GeV}$$
 2. **New physics effects** (beyond Standard Model)
 3. **Measurement systematics** (need independent confirmation)
 
-**Genesis Physics Status:** The framework correctly predicts the tree-level width and NLO structure, consistent with Standard Model. The discrepancy likely reflects incomplete higher-order calculations, not a failure of the membrane framework.
+**Genesis Physics Status:** The framework correctly predicts the tree-level width and NLO structure, consistent with Standard Model. The discrepancy likely reflects incomplete higher-order calculations, not a failure of the Firmament framework.
 
 ### 4.4 Rare Decays and FCNC Processes
 
@@ -445,7 +445,7 @@ $$t \to c Z, \quad t \to c\gamma, \quad t \to cg$$
 
 **Genesis Physics perspective:**
 
-In the membrane framework, FCNC rates depend on the **topological separation** of generations in ξ-space. A third-generation quark converting to first-generation involves overlap of wavefunctions with very different ξ-profiles:
+In the Firmament framework, FCNC rates depend on the **topological separation** of generations in ξ-space. A third-generation quark converting to first-generation involves overlap of wavefunctions with very different ξ-profiles:
 
 $$\psi_1(\xi) = \sqrt{2/\xi_A} \sin(\pi\xi/\xi_A) \quad \text{(n=1, heavy)}$$
 $$\psi_3(\xi) = \sqrt{2/\xi_A} \sin(3\pi\xi/\xi_A) \quad \text{(n=3, light)}$$
@@ -460,11 +460,11 @@ These oscillate out of phase, giving tiny overlap for FCNC processes.
 
 ### 5.1 Higgs as Radion/Breathing Mode
 
-**Genesis Physics view:** The Higgs is not a fundamental scalar field, but a **collective excitation of the membrane itself**.
+**Genesis Physics view:** The Higgs is not a fundamental scalar field, but a **collective excitation of the Firmament itself**.
 
 **Physical picture:** In the same way that a taut drumhead has oscillation modes (fundamental, first harmonic, etc.), the 4D Firmament membrane embedded in 6D spacetime has modes:
 
-1. **Transverse displacement** (ripples perpendicular to brane): spin-2 (gravitons)
+1. **Transverse displacement** (ripples perpendicular to Firmament): spin-2 (gravitons)
 2. **Radial oscillation in ξ-direction** (breathing): spin-0 (Higgs-like)
 3. **Radial oscillation in η-direction** (other scalars)
 
@@ -477,7 +477,7 @@ The Higgs boson is the **m=0 (massless) breathing mode of ξ-direction** that co
 $$\mathcal{L}_H = \frac{1}{2} (\partial_\mu h)(\partial^\mu h) - V_{\text{eff}}(h)$$
 
 where:
-- $h(x^\mu)$ is the Higgs field (scalar on brane)
+- $h(x^\mu)$ is the Higgs field (scalar on Firmament)
 - $V_{\text{eff}}(h)$ is the effective potential
 
 **Potential structure after symmetry breaking:**
@@ -501,9 +501,9 @@ $$m_H = \sqrt{2\lambda} \times v$$
 
 #### 5.2.1 Genesis Physics Derivation of λ
 
-**Quartic coupling from membrane rigidity:**
+**Quartic coupling from Firmament rigidity:**
 
-The Higgs potential arises from **bending energy** of the membrane. When the membrane deforms in the ξ-direction, restoring forces from the Waters Above potential create a quartic term:
+The Higgs potential arises from **bending energy** of the Firmament membrane. When the Firmament membrane deforms in the ξ-direction, restoring forces from the Waters Above potential create a quartic term:
 
 $$V_{\text{eff}}(h) = \frac{1}{2} \kappa_B (\text{curvature})^2 + ...$$
 
@@ -616,7 +616,7 @@ where the sum is over particles in the loop, $Q_i$ is charge, and $A_{1/2}$ is a
 
 **Genesis Physics predictions:**
 
-The membrane framework predicts the same branching ratios as the Standard Model, since the underlying physics (coupling to fermions proportional to mass, coupling to gauge bosons proportional to boson mass) is identical.
+The Firmament framework predicts the same branching ratios as the Standard Model, since the underlying physics (coupling to fermions proportional to mass, coupling to gauge bosons proportional to boson mass) is identical.
 
 **Experimentally verified Higgs decays (LHC 2012-2024):**
 - H → b b̄ ✓ (confirmed 2013-2018)
@@ -885,7 +885,7 @@ $$\Gamma_Z^{\text{observed}} = 2.4952 \pm 0.0023 \text{ GeV}$$
 
 Genesis Physics correctly predicts the **relative hierarchy** of fermion masses (exponential in generation number) but fails to predict the **absolute energy scale** by a factor of ~1000.
 
-#### 7.1.1 Naive Membrane Oscillation Prediction
+#### 7.1.1 Naive Firmament Oscillation Prediction
 
 **Kaluza-Klein mass formula from η-direction:**
 
@@ -974,7 +974,7 @@ These are not yet derived from fundamental principles.
 
 ### 7.3 Attempted Resolutions and Their Status
 
-#### 7.3.1 Membrane Oscillation Eigenvalues (Failed)
+#### 7.3.1 Firmament Oscillation Eigenvalues (Failed)
 
 **Attempt:** Derive fermion masses directly from eigenvalues of a 6D differential operator (like a Laplacian), without introducing the Higgs VEV.
 
@@ -1008,7 +1008,7 @@ These are not yet derived from fundamental principles.
 
 #### 7.3.4 Multi-Layer Membrane Structure (Speculative)
 
-**Attempt:** Suppose the membrane has internal structure beyond the simple 4D picture. Additional boundary conditions or layers in ξ-space could introduce factors that suppress masses.
+**Attempt:** Suppose the Firmament has internal structure beyond the simple 4D picture. Additional boundary conditions or layers in ξ-space could introduce factors that suppress masses.
 
 **Idea:** Perhaps the Higgs profile has a more complex form than $\exp(-\xi^2/\xi_0^2)$, with multiple wells or oscillations. Each layer could act as an additional suppression factor.
 
@@ -1073,7 +1073,7 @@ These are not yet derived from fundamental principles.
 
 **Successes in understanding:**
 1. Geometric origin of electroweak gauge bosons (boundary excitations)
-2. Higgs as collective membrane mode (explains lightness relative to Planck scale)
+2. Higgs as collective Firmament mode (explains lightness relative to Planck scale)
 3. Topological assignment of fermion generations (explains exponential hierarchy)
 4. Precision electroweak observables (ρ, S, T, U, Z decays) all consistent
 5. Weak decay structure and CKM unitarity (from geometric symmetries)
@@ -1123,9 +1123,9 @@ The topological modes might not be simply integer winding numbers $n = 1, 2, 3$.
 
 **Option C: Membrane-Water Coupling Coefficient**
 
-The strength of coupling between membrane fluctuations and Waters fields might be energy-dependent. At different scales, the effective coupling could shift, rescaling the mass spectrum.
+The strength of coupling between Firmament membrane fluctuations and Waters fields might be energy-dependent. At different scales, the effective coupling could shift, rescaling the mass spectrum.
 
-**Approach:** Include detailed RG analysis of the membrane-bulk coupling as a function of energy scale. Track how Yukawa couplings run from KK scale to electroweak scale.
+**Approach:** Include detailed RG analysis of the Firmament-bulk coupling as a function of energy scale. Track how Yukawa couplings run from KK scale to electroweak scale.
 
 **Estimated effort:** 2-4 months for detailed calculation.
 
@@ -1236,7 +1236,7 @@ This is **THE PRIMARY BLOCKER** for Genesis Physics validation.
 
 1. **Particle origins:** Not fundamental fields, but topological defects in 6D
 2. **Gauge bosons:** Emerge from zone boundary dynamics, not fundamental
-3. **Higgs nature:** Collective membrane mode, not elementary scalar
+3. **Higgs nature:** Collective Firmament membrane mode, not elementary scalar
 4. **Generations:** From topological winding modes, not ad hoc
 5. **Coupling running:** From 6D geometry, not quantum corrections (though results similar)
 

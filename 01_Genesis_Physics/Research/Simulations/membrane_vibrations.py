@@ -1,15 +1,15 @@
 ﻿"""
-Membrane Vibrations Spectrum Calculator
+Firmament Vibrations Spectrum Calculator
 ========================================
 
 Computes eigenfrequencies and mode spectrum for the Genesis Physics membrane.
 
-Solves the membrane wave equation:
+Solves the Firmament membrane wave equation:
   ρ ∂²u/∂t² = σ ∇²u + boundary corrections
 
 Where:
-  - σ = membrane tension (6.0e98 kg/(m·s²))
-  - ρ = membrane surface density (6.7e81 kg/m³)
+  - σ = Firmament tension (6.0e98 kg/(m·s²))
+  - ρ = Firmament membrane surface density (6.7e81 kg/m³)
   - ξ_A = Waters Above coherence length (3.0e26 m)
   - η_B = Waters Below coherence length (1.3e-15 m)
 
@@ -98,7 +98,7 @@ class MembraneModeAnalyzer:
         """
         Compute 1D eigenfrequencies using FEM/FDM.
 
-        For membrane wave equation: μ ∂²u/∂t² = σ ∇²u
+        For Firmament membrane wave equation: μ ∂²u/∂t² = σ ∇²u
         Eigenvalue problem: λ = ω²
 
         Solves: σ ∇²φ = -ω² μ φ
@@ -169,7 +169,7 @@ class MembraneModeAnalyzer:
         where λ_{n,m} are zeros of Bessel function J_n
         and a is the radius.
         """
-        print(f"Computing circular membrane modes ({n_modes} modes)...")
+        print(f"Computing circular Firmament modes ({n_modes} modes)...")
 
         a = self.domain_size  # Radius
         v = np.sqrt(SIGMA / MU)  # Wave speed
@@ -197,7 +197,7 @@ class MembraneModeAnalyzer:
         self.frequencies = frequencies[:n_modes]
         self.masses = masses[:n_modes]
 
-        print(f"  Computed {len(self.frequencies)} circular membrane modes")
+        print(f"  Computed {len(self.frequencies)} circular Firmament modes")
         for i, (freq, mass) in enumerate(zip(self.frequencies[:5], self.masses[:5])):
             print(f"    Mode {i+1}: ω = {freq:.6e} rad/s, m = {mass:.6e} kg")
 
@@ -314,11 +314,11 @@ class MembraneModeAnalyzer:
             return
 
         print("\n" + "="*70)
-        print("MEMBRANE VIBRATION SPECTRUM SUMMARY")
+        print("Firmament membrane VIBRATION SPECTRUM SUMMARY")
         print("="*70)
 
         print(f"\nPhysical Parameters:")
-        print(f"  Membrane tension (σ):        {SIGMA:.3e} kg/(m·s²)")
+        print(f"  Firmament tension (σ):        {SIGMA:.3e} kg/(m·s²)")
         print(f"  Membrane density (μ):        {MU:.3e} kg/m³")
         print(f"  Wave speed (v = √(σ/μ)):     {WAVE_SPEED:.3e} m/s")
         print(f"  Wave speed ratio (v/c):      {WAVE_SPEED_RATIO:.6e}")
@@ -424,7 +424,7 @@ def compare_analytical_numerical():
 
 
 if __name__ == "__main__":
-    print("Genesis Physics - Membrane Vibration Spectrum Calculator")
+    print("Genesis Physics - Firmament Vibration Spectrum Calculator")
     print("="*70)
 
     # Run all analyses
@@ -433,5 +433,5 @@ if __name__ == "__main__":
     analyzer3 = compare_analytical_numerical()
 
     print("\n" + "="*70)
-    print("Membrane vibration analysis complete!")
+    print("Firmament vibration analysis complete!")
     print("="*70)

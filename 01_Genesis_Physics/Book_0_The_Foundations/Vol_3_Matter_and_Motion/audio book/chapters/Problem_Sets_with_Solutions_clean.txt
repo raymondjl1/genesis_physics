@@ -1,4 +1,6 @@
-﻿Problems are labeled by difficulty: [C] computational, [X] conceptual, [\] challenge. Each chapter provides 4–5 problems. At least one problem per chapter is worked in full; others receive answer keys or hints. All problems reference only Volumes 1–3; none require material from Volumes 4–6. Equation tags follow Appendix A conventions.*
+﻿# Problem Sets with Selected Solutions — Volume 3
+
+Problems are labeled by difficulty: [C] computational, [X] conceptual, [\] challenge. Each chapter provides 4–5 problems. At least one problem per chapter is worked in full; others receive answer keys or hints. All problems reference only Volumes 1–3; none require material from Volumes 4–6. Equation tags follow Appendix A conventions.*
 
 How to Use These Problem Sets.
 
@@ -223,9 +225,9 @@ Problem. Using the KK mode expansion (1.5.63), show that the mass spectrum of th
 
 Hint. h-bar c approximately equal to 0.197 GeV·fm; L sub eff approximately 10 to the -3 fm gives m sub 10 approximately 200 GeV — right at the edge of current sensitivity.
 
-Problem 7.1 [C] ⭐ — Electroweak VEV from membrane tension.
+Problem 7.1 [C] ⭐ — Electroweak VEV from Firmament tension.
 
-Problem. Using the Ch 7 §7.3 derivation, estimate the Higgs VEV v from the membrane tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) and compare to the PDG value v = 246.22 GeV (Appendix B.6.4).
+Problem. Using the Ch 7 §7.3 derivation, estimate the Higgs VEV v from the Firmament tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) and compare to the PDG value v = 246.22 GeV (Appendix B.6.4).
 
 Solution. The Ch 7 §7.3 result (schematically):
 
@@ -233,7 +235,7 @@ Solution. The Ch 7 §7.3 result (schematically):
 
 where the exponential factor comes from the Kaluza-Klein hierarchy (2.9.11). The geometrical parameters yield v approximately equal to 240 GeV to the precision of sigma (which is known only to ~1 %). Agreement: within uncertainty (see B.8 summary). 
 
-Note. The point of this problem is not to carry out a precise numerical calculation — the chain is too long for a textbook problem. The point is to see how the chain closes: membrane tension from Vol 1 → hierarchy from Vol 2 → electroweak scale in Vol 3. Each step has been done; here you trace them.
+Note. The point of this problem is not to carry out a precise numerical calculation — the chain is too long for a textbook problem. The point is to see how the chain closes: Firmament tension from Vol 1 → hierarchy from Vol 2 → electroweak scale in Vol 3. Each step has been done; here you trace them.
 
 Problem 7.2 [C] — Charged-lepton mass ratio.
 
@@ -245,7 +247,7 @@ Problem 7.3 [X] — Why the Higgs field is not postulated.
 
 Problem. The Standard Model introduces the Higgs field as an additional field with a postulated Mexican-hat potential. In the zone framework, what is the Higgs field, and why is its Mexican-hat potential not a postulate? Answer in ≤ 200 words, citing the specific Vol 1 / Vol 2 results that make this reduction possible.
 
-Answer key. The Higgs is the lowest KK mode of the Waters Above scalar Psi sub A (Vol 1 Ch 5). The Mexican-hat potential arises from the Firmament boundary conditions and the membrane tension (1.5.74); the negative mass-squared term comes from minimizing the total action under the Psi sub A Psi sub B coupling G sub int (1.6.15). Nothing is added by hand.
+Answer key. The Higgs is the lowest KK mode of the Waters Above scalar Psi sub A (Vol 1 Ch 5). The Mexican-hat potential arises from the Firmament boundary conditions and the Firmament tension (1.5.74); the negative mass-squared term comes from minimizing the total action under the Psi sub A Psi sub B coupling G sub int (1.6.15). Nothing is added by hand.
 
 Problem 7.4 [*] — Quark mass hierarchy bounds.
 

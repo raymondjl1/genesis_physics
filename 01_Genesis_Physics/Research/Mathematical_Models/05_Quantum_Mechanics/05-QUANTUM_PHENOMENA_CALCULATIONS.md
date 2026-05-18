@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "God called the light 'day' and the darkness he called 'night'" — Quantum phenomena reveal hidden order in creation | Genesis 1:5 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime; Axiom 4: Open System (vacuum energy) | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics; 6D Action with quantization | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime; Axiom 4: Open System (vacuum energy) | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics; 6D Action with quantization | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **Six quantum phenomena: photoelectric effect, Compton scattering, entanglement, teleportation, Casimir effect, Aharonov-Bohm effect from 6D membrane quantization** | **05-QUANTUM_PHENOMENA_CALCULATIONS.md** |
 > | Modern Equivalent | Quantum Phenomena — CONVERGES: Einstein photoelectric equation, Compton formula, Bell inequality, Casimir force, gauge-invariant phase shifts all recovered from 6D quantization |
 >
@@ -35,15 +35,15 @@ This document derives six canonical quantum phenomena from first principles with
 
 ## Foundations: 6D Action & Quantization
 
-### 1.1 Total Action in 6D Membrane Framework
+### 1.1 Total Action in 6D Firmament Framework
 
 The complete action decomposes as:
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk above}} + S_{\text{bulk below}} + S_{\text{interaction}}$$
 
-**Membrane Action:**
+**Firmament Action:**
 $$S_{\text{membrane}} = -\int d^4x \sqrt{-g_4}\left[\frac{R_4}{16\pi G_4} + \mathcal{L}_{\text{SM}}\right]$$
 
-where $g_4$ is the 4D induced metric and $\mathcal{L}_{\text{SM}}$ is the Standard Model Lagrangian restricted to the membrane.
+where $g_4$ is the 4D induced metric and $\mathcal{L}_{\text{SM}}$ is the Standard Model Lagrangian restricted to the Firmament.
 
 **Bulk Actions (above and below):**
 $$S_{\text{bulk}} = -\frac{1}{16\pi G_6}\int d^6x \sqrt{-g_6} R_6$$
@@ -51,7 +51,7 @@ $$S_{\text{bulk}} = -\frac{1}{16\pi G_6}\int d^6x \sqrt{-g_6} R_6$$
 **Interaction via Brane Tension:**
 $$S_{\text{interaction}} = -\sigma \int d^4x \sqrt{-g_4}$$
 
-where $\sigma$ is the membrane (brane) tension with dimension $[\text{energy}]^3$.
+where $\sigma$ is the Firmament membrane (Firmament) tension with dimension $[\text{energy}]^3$.
 
 ### 1.2 Quantum Field Quantization on Membrane
 
@@ -72,11 +72,11 @@ For ground state $(n_\xi=0, n_\eta=0)$: standard 4D mass.
 
 ### 2.1 Membrane Photon-Electron Coupling
 
-A photon with energy $E = hf$ and momentum $p = hf/c$ propagates along the membrane. The electron work function $\varphi$ represents the energy required to remove an electron from the surface.
+A photon with energy $E = hf$ and momentum $p = hf/c$ propagates along the Firmament. The electron work function $\varphi$ represents the energy required to remove an electron from the surface.
 
 **Photon-Electron Interaction Vertex:**
 
-On the membrane, the electromagnetic field couples to the electron current:
+On the Firmament, the electromagnetic field couples to the electron current:
 $$\mathcal{L}_{\text{int}} = -e A^\mu j_\mu$$
 
 where $j_\mu = \bar{\psi}\gamma^\mu\psi$ and $\psi$ are confined to the 4D membrane.
@@ -124,7 +124,7 @@ No electrons ejected, confirming frequency dependence.
 
 ### 3.1 Elastic Scattering on Membrane
 
-A photon with initial energy $E_\gamma = hf$ and momentum $p_\gamma = hf/c$ collides elastically with an electron initially at rest on the membrane. After collision:
+A photon with initial energy $E_\gamma = hf$ and momentum $p_\gamma = hf/c$ collides elastically with an electron initially at rest on the Firmament. After collision:
 - Photon: energy $E_\gamma'$, scattering angle $\theta$
 - Electron: recoil momentum, kinetic energy $T_e$
 
@@ -464,7 +464,7 @@ The Aharonov-Bohm effect naturally emerges because:
 
 ## Conclusion
 
-All six quantum phenomena—photoelectric effect, Compton scattering, entanglement, quantum teleportation, Casimir effect, and Aharonov-Bohm effect—emerge naturally from the Genesis Physics 6D membrane framework. The key unifying principle is that **quantum behavior results from field mode restriction to the 4D membrane embedded in higher-dimensional spacetime**, with extra-dimensional topology and entanglement providing the non-classical correlations and phase effects observed experimentally.
+All six quantum phenomena—photoelectric effect, Compton scattering, entanglement, quantum teleportation, Casimir effect, and Aharonov-Bohm effect—emerge naturally from the Genesis Physics 6D Firmament framework. The key unifying principle is that **quantum behavior results from field mode restriction to the 4D membrane embedded in higher-dimensional spacetime**, with extra-dimensional topology and entanglement providing the non-classical correlations and phase effects observed experimentally.
 
 The framework reproduces all quantitative predictions within experimental error margins and offers a geometric explanation for quantum non-locality through 6D connectivity of seemingly separated 4D points.
 

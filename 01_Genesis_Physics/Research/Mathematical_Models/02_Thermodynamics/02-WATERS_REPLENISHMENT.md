@@ -81,8 +81,8 @@ $$\begin{align}
 \xi_A &\approx 3 \times 10^{26} \text{ m} \quad \text{(Waters Above scale; ~size of observable universe)}\\
 \eta_B &\approx 1.3 \times 10^{-15} \text{ m} \quad \text{(Waters Below scale; sub-Planck regime)}\\
 \delta &= \eta_B \quad \text{(Firmament thickness)}\\
-\sigma &= 6.0 \times 10^{98} \text{ kg/s}^2 \quad \text{(Membrane tension)}\\
-\mu &= \rho_P \cdot \eta_B = 6.7 \times 10^{82} \text{ kg/m}^2 \quad \text{(Membrane surface density)}
+\sigma &= 6.0 \times 10^{98} \text{ kg/s}^2 \quad \text{(Firmament tension)}\\
+\mu &= \rho_P \cdot \eta_B = 6.7 \times 10^{82} \text{ kg/m}^2 \quad \text{(Firmament membrane surface density)}
 \end{align}$$
 
 **Cosmological observables**:
@@ -123,7 +123,7 @@ $$E_F(t) := \int_{\eta \approx 0} \int_V \rho_F(\mathbf{x}, t) \cdot c^2 \, d^3x
 
 The Firmament occupies the thin shell $|\eta| \lesssim \delta$ and contains:
 - Condensed matter (atoms, stars, galaxies): ~5% of total
-- Membrane tension (vacuum energy): ~0%* (included in $E_A + E_B$ pressure terms)
+- Firmament tension (vacuum energy): ~0%* (included in $E_A + E_B$ pressure terms)
 - Particle kinetic energy
 
 **Definition 4: Sustaining Energy Input from Zone 1**
@@ -207,7 +207,7 @@ Now we must specify how energy flows **between** the three reservoirs.
 
 ### 2.3 Energy Flow: Waters Above → Firmament (Expansion Work)
 
-The Waters Above exert pressure on the Firmament membrane. The equation of motion for the membrane is:
+The Waters Above exert pressure on the Firmament membrane. The equation of motion for the Firmament is:
 
 $$\mu \frac{\partial^2 \eta}{\partial t^2} - \sigma \nabla^2 \eta = P_A - P_F - P_B \tag{2.3)$$
 
@@ -701,7 +701,7 @@ Observations show $w_\Lambda \approx -1$, which corresponds to:
 
 $$w_A = -1 \quad \Rightarrow \quad p_A = -\rho_A c^2$$
 
-**Interpretation**: The negative pressure is the **repulsive force from Waters Above**. It arises naturally from the membrane pressure balance:
+**Interpretation**: The negative pressure is the **repulsive force from Waters Above**. It arises naturally from the Firmament pressure balance:
 
 $$P_A - \sigma \nabla^2 \eta / a^2 = 0$$
 
@@ -789,7 +789,7 @@ The Genesis Physics framework makes specific, testable predictions that differ f
 
 **Standard $\Lambda$CDM**: $w_\Lambda(z) = -1$ exactly for all redshifts.
 
-**Genesis Physics**: $w_A(z) = -1 + f(z)$ where $f(z)$ is a small correction due to membrane dynamics. At early times, corrections are $O(10^{-2})$ level.
+**Genesis Physics**: $w_A(z) = -1 + f(z)$ where $f(z)$ is a small correction due to Firmament membrane dynamics. At early times, corrections are $O(10^{-2})$ level.
 
 **Test**: Measure $w(z)$ with high precision using:
 - Type Ia supernovae at $z > 2$ (next generation surveys: Vera Rubin, Nancy Grace Roman)
@@ -1172,8 +1172,8 @@ The Genesis Physics framework answers the question "Where does the universe's en
 | $P_A, P_B, P_F$ | Pressure in each reservoir | Pa |
 | $H(t)$ | Hubble parameter | s⁻¹ |
 | $a(t)$ | Scale factor (cosmic expansion) | dimensionless |
-| $\sigma$ | Membrane surface tension | kg/(m·s²) |
-| $\mu$ | Membrane surface density | kg/m² |
+| $\sigma$ | Firmament membrane surface tension | kg/(m·s²) |
+| $\mu$ | Firmament membrane surface density | kg/m² |
 | $\lambda$ | Dissipation parameter | s⁻¹ |
 | $\beta$ | Relaxation timescale parameter | s⁻¹ |
 | $w$ | Equation of state ($p = w \rho c^2$) | dimensionless |
@@ -1185,7 +1185,7 @@ The Genesis Physics framework answers the question "Where does the universe's en
 | Equation | Description |
 |----------|-------------|
 | (1.1)-(1.5) | Definitions of energy in each reservoir |
-| (2.2)-(2.3) | First law and membrane equation of motion |
+| (2.2)-(2.3) | First law and Firmament equation of motion |
 | (2.6), (2.8), (2.9) | Energy flow rates between reservoirs |
 | (2.10)-(2.12) | Complete rate equation system |
 | (3.2), (3.7) | Clausius inequality and Second Law for open systems |
@@ -1228,7 +1228,7 @@ The Genesis Physics framework answers the question "Where does the universe's en
 This derivation builds on prior work in the Genesis Physics repository:
 
 1. **Tier 1 Models**: Derivation of $\alpha$, particle masses, coupling constants
-2. **Tier 2 Models**: Zone architecture geometry, membrane tension calculation
+2. **Tier 2 Models**: Zone architecture geometry, Firmament tension calculation
 3. **Tier 3 Models**: Large-scale structure formation, particle classification
 4. **Critical Density Calculation**: Phase transition from Waters to Matter
 5. **Resolved Gravity Mechanism**: Gravitational field as Waters Below response

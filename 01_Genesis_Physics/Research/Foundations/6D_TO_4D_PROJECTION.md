@@ -1,8 +1,8 @@
 > **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
-> | Scripture | Genesis 1:1-6 (6D creation; 4D Firmament as embedded brane) | Genesis 1:1-6 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Scripture | Genesis 1:1-6 (6D creation; 4D Firmament as embedded Firmament) | Genesis 1:1-6 |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action | ACTION_6D_COMPLETE.md |
 > | **This Document** | **Projection operator and Gauss-Codazzi decomposition; Newton's constant from zone geometry; Friedmann equations with dark sector** | **6D_TO_4D_PROJECTION.md** |
 > | Modern Equivalent | Kaluza-Klein theory, Randall-Sundrum models, Gauss-Codazzi formalism | Convergence: mathematical framework coincides with standard brane-world gravity; applies to Genesis Physics' specific geometry |
@@ -60,7 +60,7 @@ ds_6^2 &= e^{2A(\xi,\eta)} \left[ -dt^2 + a^2(t)(dx^2 + dy^2 + dz^2) \right] \\
 where:
 - $A(\xi,\eta)$ = 4D warp factor (controls projection of spacetime metric)
 - $B(\xi,\eta)$ = extra-dimensional breathing mode
-- $a(t)$ = 4D cosmological scale factor (Friedmann dynamics on brane)
+- $a(t)$ = 4D cosmological scale factor (Friedmann dynamics on Firmament)
 
 **Dimensional analysis:**
 - $[A]$, $[B]$ = dimensionless
@@ -82,7 +82,7 @@ In abstract form:
 $$X^A(x^\mu) = (x^\mu, \xi_0, \eta_0)
 \tag{1.2}$$
 
-**The embedding is a **codimension-2 surface:** The 4D brane is embedded in 6D with codimension = 6 - 4 = 2 (two normal directions).
+**The embedding is a **codimension-2 surface:** The 4D Firmament is embedded in 6D with codimension = 6 - 4 = 2 (two normal directions).
 
 ### 1.3 Induced Metric on the Brane
 
@@ -101,16 +101,16 @@ $$g_{\mu\nu}^{(4)} = g_{\mu\nu}^{(6)}\bigg|_{(\xi_0, \eta_0)}$$
 From the 6D metric (1.1), the 4D components are:
 $$g_{00}^{(6)} = -e^{2A(\xi_0, \eta_0)}, \quad g_{ij}^{(6)} = a^2(t) e^{2A(\xi_0, \eta_0)} \delta_{ij}$$
 
-**Induced 4D metric on brane:**
+**Induced 4D metric on Firmament:**
 $$\boxed{\begin{align}
 g_{\mu\nu}^{(4)} &= e^{2A_0} \, \bar{g}_{\mu\nu} \\
 \bar{g}_{\mu\nu} &= \text{diag}(-1, a^2(t), a^2(t), a^2(t))
 \tag{1.4}
 \end{align}}$$
 
-where $A_0 \equiv A(\xi_0, \eta_0)$ is the warp factor evaluated at the brane location.
+where $A_0 \equiv A(\xi_0, \eta_0)$ is the warp factor evaluated at the Firmament location.
 
-**Physical interpretation:** The extrinsic warp factor $e^{2A_0}$ modifies the spacetime geometry on the brane. If $A_0 = 0$, the 4D metric is unwarped; non-zero $A_0$ represents gravitational blueshift/redshift between bulk and brane.
+**Physical interpretation:** The extrinsic warp factor $e^{2A_0}$ modifies the spacetime geometry on the Firmament. If $A_0 = 0$, the 4D metric is unwarped; non-zero $A_0$ represents gravitational blueshift/redshift between bulk and Firmament.
 
 ---
 
@@ -118,7 +118,7 @@ where $A_0 \equiv A(\xi_0, \eta_0)$ is the warp factor evaluated at the brane lo
 
 ### 2.1 Definition of the Projection Operator
 
-To systematically extract 4D geometry from the 6D metric, define the **projection tensor** onto the brane:
+To systematically extract 4D geometry from the 6D metric, define the **projection tensor** onto the Firmament:
 
 $$\boxed{P^\mu_\nu = \frac{\partial x^\mu}{\partial X^A} \frac{\partial X^A}{\partial x^\nu} = \delta^\mu_\nu}
 \tag{2.1)$$
@@ -134,7 +134,7 @@ For the Firmament (which has constant coordinates in extra dimensions), this ope
 
 **Complementary projection** into the normal bundle:
 
-Define two **normal vectors** to the brane in the 6D bulk:
+Define two **normal vectors** to the Firmament in the 6D bulk:
 
 $$n^\xi = (0, 0, 0, 0, 1, 0), \quad n^\eta = (0, 0, 0, 0, 0, 1)
 \tag{2.3)}$$
@@ -142,7 +142,7 @@ $$n^\xi = (0, 0, 0, 0, 1, 0), \quad n^\eta = (0, 0, 0, 0, 0, 1)
 In covariant form (lowering indices with $g_{AB}$):
 $$n_\xi = g_{A\xi} n^A = e^{2B} n^\xi, \quad n_\eta = e^{2B} n^\eta$$
 
-These are orthogonal to the brane:
+These are orthogonal to the Firmament:
 $$n_\xi \cdot P = 0, \quad n_\eta \cdot P = 0$$
 
 **Completeness relation:**
@@ -157,7 +157,7 @@ where $\mathbb{1}_\perp$ projects onto the normal bundle (codimension-2).
 
 Dimensions of projection:
 - $[P^\mu_\nu]$ = dimensionless ✓
-- $[g_{\mu\nu}^{(4)}]$ = length² (induced metric on 4D brane) ✓
+- $[g_{\mu\nu}^{(4)}]$ = length² (induced metric on 4D Firmament) ✓
 - $[T_{\mu\nu}^{(4)}]$ = projected stress-energy (same as $[T_{AB}]$) ✓
 
 ---
@@ -168,8 +168,8 @@ Dimensions of projection:
 
 The 6D Riemann tensor can be decomposed into three parts when restricted to a codimension-2 embedded hypersurface:
 
-1. **Intrinsic curvature (Gauss equation):** The 4D Ricci curvature induced on the brane
-2. **Extrinsic curvature (Codazzi equation):** Coupling of bulk curvature to brane bending
+1. **Intrinsic curvature (Gauss equation):** The 4D Ricci curvature induced on the Firmament
+2. **Extrinsic curvature (Codazzi equation):** Coupling of bulk curvature to Firmament bending
 3. **Normal bundle curvature (Ricci equation):** Curvature in the normal directions
 
 This decomposition is formalized by the **Gauss-Codazzi-Ricci formalism** for general codimension embeddings.
@@ -202,8 +202,8 @@ $$\boxed{K^\eta_{\mu\nu} = -\frac{\partial A}{\partial \eta}\bigg|_{\xi_0, \eta_
 \tag{3.3b)}$$
 
 where:
-- $A_\xi = \partial A/\partial \xi|_{(\xi_0, \eta_0)}$ = warp-factor slope in $\xi$-direction at brane
-- $A_\eta = \partial A/\partial \eta|_{(\xi_0, \eta_0)}$ = warp-factor slope in $\eta$-direction at brane
+- $A_\xi = \partial A/\partial \xi|_{(\xi_0, \eta_0)}$ = warp-factor slope in $\xi$-direction at Firmament
+- $A_\eta = \partial A/\partial \eta|_{(\xi_0, \eta_0)}$ = warp-factor slope in $\eta$-direction at Firmament
 
 **Mean extrinsic curvature (trace):**
 $$\boxed{K^\xi = g^{\mu\nu} K^\xi_{\mu\nu} = -4 A_\xi}
@@ -220,7 +220,7 @@ The **Gauss equation** relates the 4D Ricci curvature to the 6D curvature and ex
 
 $$\boxed{R_{\mu\nu}^{(4)} = R_{\mu\nu}^{(6)} - K^\xi_{\mu\rho} K^\xi_\nu{}^\rho - K^\eta_{\mu\rho} K^\eta_\nu{}^\rho + K^\xi_{\mu\nu} K^\xi + K^\eta_{\mu\nu} K^\eta}$$
 
-where $R_{\mu\nu}^{(6)}$ is the 6D Ricci tensor contracted onto the brane.
+where $R_{\mu\nu}^{(6)}$ is the 6D Ricci tensor contracted onto the Firmament.
 
 $$\tag{3.5)}$$
 
@@ -236,12 +236,12 @@ $$K^\eta_{\mu\rho} K^\eta_\nu{}^\rho = A_\eta^2 \delta_{\mu\nu}$$
 $$\boxed{\begin{align}
 R_{\mu\nu}^{(4)} &= R_{\mu\nu}^{(6)} + (A_\xi A_\xi - A_\xi^2) g_{\mu\nu}^{(4)} + (A_\eta A_\eta - A_\eta^2) g_{\mu\nu}^{(4)} \\
 &= R_{\mu\nu}^{(6)} - (A_\xi^2 - A_\xi^2) g_{\mu\nu}^{(4)} - (A_\eta^2 - A_\eta^2) g_{\mu\nu}^{(4)} \\
-&= R_{\mu\nu}^{(6)}\bigg|_{\text{brane}} + A_\xi \, K^\xi_{\mu\nu} + A_\eta \, K^\eta_{\mu\nu}
+&= R_{\mu\nu}^{(6)}\bigg|_{\text{Firm}} + A_\xi \, K^\xi_{\mu\nu} + A_\eta \, K^\eta_{\mu\nu}
 \tag{3.6)}
 \end{align}}$$
 
 More directly:
-$$\boxed{R_{\mu\nu}^{(4)} = R_{\mu\nu}^{(6)}\bigg|_{\text{brane}} - A_\xi^2 g_{\mu\nu}^{(4)} - A_\eta^2 g_{\mu\nu}^{(4)}}
+$$\boxed{R_{\mu\nu}^{(4)} = R_{\mu\nu}^{(6)}\bigg|_{\text{Firm}} - A_\xi^2 g_{\mu\nu}^{(4)} - A_\eta^2 g_{\mu\nu}^{(4)}}
 \tag{3.7)}$$
 
 **Physical interpretation:** The 4D Ricci curvature consists of:
@@ -254,7 +254,7 @@ The **Codazzi equations** express consistency conditions for the extrinsic curva
 
 $$\boxed{\nabla_\nu K^\xi_{\mu\rho} - \nabla_\rho K^\xi_{\mu\nu} = R_{\mu\rho\nu\sigma}^{(6)} n^\sigma_\xi}$$
 
-where $\nabla$ is the covariant derivative on the brane using the induced metric.
+where $\nabla$ is the covariant derivative on the Firmament using the induced metric.
 
 **Computation:** For the warp-factored metric with $K^\xi_{\mu\nu} = -A_\xi g_{\mu\nu}^{(4)}$:
 
@@ -262,7 +262,7 @@ $$\nabla_\nu K^\xi_{\mu\rho} = -\partial_\nu A_\xi \, g_{\mu\rho}^{(4)}$$
 
 $$\nabla_\rho K^\xi_{\mu\nu} = -\partial_\rho A_\xi \, g_{\mu\nu}^{(4)}$$
 
-Since the warp factor depends only on $(\xi, \eta)$ (bulk coordinates), its derivatives vanish on the brane:
+Since the warp factor depends only on $(\xi, \eta)$ (bulk coordinates), its derivatives vanish on the Firmament:
 $$\partial_\nu A_\xi = 0 \quad \text{(no 4D spatial dependence)}$$
 
 **Result for constant-warp-factor approximation:**
@@ -319,7 +319,7 @@ The 6D stress-energy tensor has contributions from:
 3. **Gradient energy:** Contributions from field derivatives in extra dimensions
 
 **General form:**
-$$\boxed{T_{AB}^{\text{total}} = T_{AB}^{\text{fields}} + T_{AB}^{\text{brane}} + T_{AB}^{\text{interaction}}}
+$$\boxed{T_{AB}^{\text{total}} = T_{AB}^{\text{fields}} + T_{AB}^{\text{Firm}} + T_{AB}^{\text{interaction}}}
 \tag{4.2)}$$
 
 **Field stress-energy (canonical scalar field):**
@@ -327,10 +327,10 @@ $$\boxed{T_{AB}^{\text{field}} = \partial_A \Psi \partial_B \Psi - \frac{1}{2} g
 \tag{4.3)}$$
 
 **Brane stress-energy (Dirac delta localization):**
-$$\boxed{T_{AB}^{\text{brane}} = \sigma \, \delta(\xi - \xi_0) \delta(\eta - \eta_0) \, g_{\mu\nu}^{(4)} \, \delta^{\mu}_{(A)} \delta^{\nu}_{(B)}}$$
+$$\boxed{T_{AB}^{\text{Firm}} = \sigma \, \delta(\xi - \xi_0) \delta(\eta - \eta_0) \, g_{\mu\nu}^{(4)} \, \delta^{\mu}_{(A)} \delta^{\nu}_{(B)}}$$
 \tag{4.4)}$$
 
-where $\sigma$ is the brane tension (energy density per unit brane area).
+where $\sigma$ is the Firmament tension (energy density per unit Firmament area).
 
 ### 4.3 Components of the 6D Einstein Equations
 
@@ -350,7 +350,7 @@ $$G_{\xi\eta} + \Lambda_6 g_{\xi\eta} = \frac{8\pi G_6}{c^4} T_{\xi\eta}^{(\text
 
 ### 5.1 Projected Einstein Equations
 
-Project the 6D Einstein equations onto the brane by acting with the projection operator $P^\mu_A P^\nu_B$:
+Project the 6D Einstein equations onto the Firmament by acting with the projection operator $P^\mu_A P^\nu_B$:
 
 $$\boxed{\pi(G_{AB}) + \Lambda_6 \pi(g_{AB}) = \frac{8\pi G_6}{c^4} \pi(T_{AB})}$$
 \tag{5.1)}$$
@@ -364,12 +364,12 @@ $$\boxed{T_{\mu\nu}^{(4,\text{eff})} = T_{\mu\nu}^{(4)} + T_{\mu\nu}^{(\text{ind
 \tag{5.3)}$$
 
 **Physical interpretation:**
-- $T_{\mu\nu}^{(4)}$ = stress-energy of Standard Model fields confined to the brane
+- $T_{\mu\nu}^{(4)}$ = stress-energy of Standard Model fields confined to the Firmament
 - $T_{\mu\nu}^{(\text{induced})}$ = effective stress-energy induced from bulk geometry and warp-factor variations
 
 ### 5.2 Contributions to the Effective Stress-Energy
 
-**A) Direct brane matter:**
+**A) Direct Firmament matter:**
 $$T_{\mu\nu}^{(4)} = (\rho_b + p_b/c^2) u_\mu u_\nu + p_b g_{\mu\nu}^{(4)}$$
 
 where $\rho_b$ is baryonic matter density, $p_b$ is pressure, $u^\mu$ is the 4-velocity.
@@ -385,7 +385,7 @@ $$\boxed{\begin{align}
 &\quad + (A_\xi^2 + A_\eta^2) g_{\mu\nu}^{(4)} + (\Lambda_6 - \text{other})
 \end{align}}$$
 
-This generates an effective cosmological constant on the brane:
+This generates an effective cosmological constant on the Firmament:
 $$\boxed{\Lambda_{\text{eff}} = \Lambda_6 + \frac{3}{2}(A_\xi^2 + A_\eta^2) + \frac{8\pi G_6}{c^4} \langle T_{\text{bulk}} \rangle}$$
 \tag{5.4)}$$
 
@@ -394,7 +394,7 @@ $$\boxed{\Lambda_{\text{eff}} = \Lambda_6 + \frac{3}{2}(A_\xi^2 + A_\eta^2) + \f
 The Waters Above field Ψ_A (at $\xi > \xi_0$) contributes an effective density:
 $$\rho_{\text{eff}}^A = \frac{1}{2} \left(\frac{\partial \Psi_A}{\partial t}\right)^2 + V(\Psi_A)$$
 
-Projected to the brane:
+Projected to the Firmament:
 $$\boxed{T_{\mu\nu}^{(A)} = \rho_A u_\mu u_\nu + \text{pressure terms}}$$
 
 Similarly for Waters Below (Ψ_B):
@@ -486,7 +486,7 @@ The effective 4D cosmological constant arises from four contributions:
 
 ### 7.2 Extrinsic Curvature Contribution
 
-From the Gauss equation (3.7), the Einstein tensor on the brane has contributions from extrinsic curvature:
+From the Gauss equation (3.7), the Einstein tensor on the Firmament has contributions from extrinsic curvature:
 
 $$G_{\mu\nu}^{(4)} = R_{\mu\nu}^{(6)} - \frac{1}{2}R^{(6)} g_{\mu\nu}^{(4)} - (A_\xi^2 + A_\eta^2) g_{\mu\nu}^{(4)} + \ldots$$
 
@@ -497,13 +497,13 @@ where the **curvature-induced cosmological constant** is:
 $$\boxed{\Lambda_{\text{curv}} = 3(A_\xi^2 + A_\eta^2)}$$
 \tag{7.1)}$$
 
-**Physical meaning:** Warping of the extra dimensions by the curvature of the bulk manifold creates an effective cosmological constant on the brane.
+**Physical meaning:** Warping of the extra dimensions by the curvature of the bulk manifold creates an effective cosmological constant on the Firmament.
 
 ### 7.3 Brane Tension Contribution
 
 The Firmament has intrinsic tension $\sigma$ (energy per unit area). This contributes to the energy density:
 
-$$\boxed{T_{00}^{(\sigma)} = \sigma \, c^2 \quad (\text{energy density on brane})}$$
+$$\boxed{T_{00}^{(\sigma)} = \sigma \, c^2 \quad (\text{energy density on Firmament})}$$
 
 In terms of cosmological parameters:
 $$\Omega_\sigma = \frac{\sigma c^2}{\rho_{\text{crit}}}$$
@@ -522,13 +522,13 @@ $$\rho_A \approx V(\Psi_A) \approx \Lambda_A = \text{const}$$
 
 This is the physical origin of dark energy's equation of state w = −1.
 
-**Projection to brane:**
+**Projection to Firmament:**
 
-The bulk field couples to the brane through the warp factor $e^{2A}$. The effective density on the brane is:
+The bulk field couples to the Firmament through the warp factor $e^{2A}$. The effective density on the Firmament is:
 $$\boxed{\rho_A^{\text{eff}} = \rho_A \cdot e^{-2A_0}}$$
 \tag{7.2)}$$
 
-where $A_0 = A(\xi_0, \eta_0)$ is the warp factor at the brane location.
+where $A_0 = A(\xi_0, \eta_0)$ is the warp factor at the Firmament location.
 
 **Waters Below field (Ψ_B):**
 
@@ -578,7 +578,7 @@ where:
 Start with the projected 4D Einstein equations (5.2):
 $$G_{\mu\nu}^{(4)} + \Lambda_{\text{eff}} g_{\mu\nu}^{(4)} = \frac{8\pi G_4}{c^4} T_{\mu\nu}^{(4,\text{eff})}$$
 
-For an isotropic FRW universe on the brane:
+For an isotropic FRW universe on the Firmament:
 $$g_{\mu\nu}^{(4)} dx^\mu dx^\nu = -c^2 dt^2 + a^2(t) \left[\frac{dr^2}{1-kr^2} + r^2 d\Omega^2\right]$$
 
 The Einstein tensor components are:
@@ -611,8 +611,8 @@ $$\rho_{\text{tot}} = \rho_b + \rho_B + \rho_A$$
 
 where:
 - **$\rho_b$**: baryonic matter (ordinary particles) on the Firmament
-- **$\rho_B$**: dark matter from Waters Below, projected to brane
-- **$\rho_A$**: dark energy from Waters Above, projected to brane
+- **$\rho_B$**: dark matter from Waters Below, projected to Firmament
+- **$\rho_A$**: dark energy from Waters Above, projected to Firmament
 
 **Density parameters:**
 $$\Omega_b = \frac{\rho_b}{\rho_{\text{crit}}}, \quad \Omega_B = \frac{\rho_B}{\rho_{\text{crit}}}, \quad \Omega_A = \frac{\rho_A}{\rho_{\text{crit}}}$$
@@ -656,7 +656,7 @@ where:
 The 6D Einstein tensor $G_{AB} = R_{AB} - \frac{1}{2}R_6 g_{AB}$ has dimensions:
 $$[G_{AB}] = \text{length}^{-2}$$
 
-When projected to the brane:
+When projected to the Firmament:
 $$G_{\mu\nu}^{(4)} = [G_{AB}]_{\text{6D}} \times [\text{projection}]$$
 
 The projection is dimensionless, so:
@@ -733,7 +733,7 @@ This document provides the mathematical machinery for Axiom 2, which asserts:
 **Explicit implementation:**
 - The 6D metric (1.1) with warp factors $A(\xi, \eta)$ and $B(\xi, \eta)$ parameterizes this structure
 - The zone architecture (Waters Below, Firmament, Waters Above) is encoded in the coordinate ranges and warp-factor profiles
-- The Firmament embedding (Section 1.2) localizes the observable 4D universe as a brane in the 6D bulk
+- The Firmament embedding (Section 1.2) localizes the observable 4D universe as a Firmament in the 6D bulk
 
 ### 10.2 Axiom 1: Open System
 
@@ -741,16 +741,16 @@ The open-system axiom requires energy input from outside the manifold. In the pr
 
 - **Zone 1** (external region) sources the sustaining field κ
 - This appears as boundary conditions on $A(\xi, \eta)$ and $B(\xi, \eta)$ at the zone interfaces
-- The brane tension $\sigma$ (equation 4.4) represents the energy density that sustains the Firmament's structure
+- The Firmament tension $\sigma$ (equation 4.4) represents the energy density that sustains the Firmament's structure
 
-### 10.3 Axiom 3: Membrane Mechanics
+### 10.3 Axiom 3: Firmament Mechanics
 
 The Firmament is treated as an elastic membrane with:
 - Brane tension $\sigma$ (energy per unit area)
 - Extrinsic curvature $K^\xi_{\mu\nu}$, $K^\eta_{\mu\nu}$ (bending in extra dimensions)
 - Induced metric $g_{\mu\nu}^{(4)}$ (deformed by warp factor)
 
-The speed of light on the brane is a property of the membrane:
+The speed of light on the Firmament is a property of the Firmament membrane:
 $$c^2 = \frac{\sigma}{\mu}$$
 
 where $\mu$ is the mass per unit area of the Firmament.
@@ -767,7 +767,7 @@ The projection naturally reveals:
    - Energy density: $\rho_B$ (clustering due to η-geometry)
    - Identified as: Dark matter (non-relativistic, cold)
 
-3. **Baryonic matter (4.9%)**: Standard Model fields on the Firmament brane
+3. **Baryonic matter (4.9%)**: Standard Model fields on the Firmament
    - Energy density: $\rho_b$ (visible universe)
 
 The **exact energy fractions** emerge from the ratio of extra-dimensional extents:
@@ -785,7 +785,7 @@ The complete derivation follows this logical flow:
 
 1. **6D Manifold** (Axiom 2): The universe is 6-dimensional with coordinates $(x^\mu, \xi, \eta)$
 2. **Brane Embedding** (Section 1.2): The Firmament is a 4D hypersurface at constant $(\xi_0, \eta_0)$
-3. **Projection Operator** (Section 2): Extract 4D geometry by evaluating 6D tensors on the brane
+3. **Projection Operator** (Section 2): Extract 4D geometry by evaluating 6D tensors on the Firmament
 4. **Gauss-Codazzi-Ricci Formalism** (Section 3): Decompose 6D curvature into 4D intrinsic + extrinsic contributions
 5. **Effective Stress-Energy** (Section 5): Project 6D field content to yield effective 4D matter
 6. **Newton's Constant** (Section 6): Integration over extra-dimensional volume gives $G_4 = G_6 / V_{\text{extra}}$

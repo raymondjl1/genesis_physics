@@ -65,7 +65,7 @@ $$\boxed{ds_6^2 = e^{2A(\xi,\eta)} \left[ -c^2 dt^2 + a^2(t)(dx^2 + dy^2 + dz^2)
   - $a(t)$ = cosmological scale factor
 - **Zone structure**:
   - Zone 2.3 (Waters Above): $\xi > \xi_0$ region where $A \approx A_+$, $B \approx B_+$
-  - Zone 2.2 (Firmament): $\eta = \eta_0$ brane where physics observable
+  - Zone 2.2 (Firmament): $\eta = \eta_0$ Firmament where physics observable
   - Zone 2.1 (Waters Below): $\eta < \eta_0$ region where $A \approx A_-$, $B \approx B_-$
 
 ### 0.2 6D Metric Solutions in Each Zone
@@ -332,7 +332,7 @@ For a null geodesic that begins at point A in the Firmament (at $\eta = \eta_0$)
 
 **Path geometry**:
 
-The 4D projection of this path (from A to B in the Firmament) is shorter than a straight 4D path would be, because the geodesic "dips" perpendicular to the brane.
+The 4D projection of this path (from A to B in the Firmament) is shorter than a straight 4D path would be, because the geodesic "dips" perpendicular to the Firmament.
 
 **Concrete example** (from 04-RESOLVED_STARLIGHT_PROPAGATION.md):
 
@@ -357,11 +357,11 @@ $$d\tau^2 = e^{2A}[-c^2 dt^2 + a^2(dx^2 + dy^2 + dz^2)] + e^{2B}d\eta^2 > 0$$
 2. **Steer in the perpendicular space**: Navigate while in the Waters Below region, moving toward the target location $(x', y', z')$
 3. **Re-bind to Firmament**: Return to $\eta = \eta_0$ at the destination
 
-**Energy requirement**: The Firmament is a potential well. A particle at the brane experiences a binding potential:
+**Energy requirement**: The Firmament is a potential well. A particle at the Firmament experiences a binding potential:
 
 $$V(\eta) = \sigma |\eta - \eta_0|$$
 
-where $\sigma$ is the membrane tension energy density.
+where $\sigma$ is the Firmament tension energy density.
 
 To lift a mass $m$ from $\eta = \eta_0$ to $\eta = \eta_0 - \Delta\eta$ requires energy:
 
@@ -369,7 +369,7 @@ $$E_{\text{lift}} = \int_{\eta_0}^{\eta_0-\Delta\eta} \sigma \, d\eta' = \sigma 
 
 **Numerical estimate**:
 
-- Membrane tension: $\sigma \sim 10^{98}$ J/m (from 10-RESOLVED_MEMBRANE_TENSION.md)
+- Firmament tension: $\sigma \sim 10^{98}$ J/m (from 10-RESOLVED_MEMBRANE_TENSION.md)
 - Waters Below scale: $\eta_B \sim 10^{-15}$ m (quantum scale)
 - Binding potential per meter: $\sigma \sim 10^{98}$ J/m
 
@@ -505,7 +505,7 @@ $$V(\eta) = \begin{cases}
 V_0 & \eta < 0 \text{ (Waters Below)}
 \end{cases}$$
 
-where $V_0 \sim \sigma$ (membrane tension energy scale).
+where $V_0 \sim \sigma$ (Firmament tension energy scale).
 
 ### 3.2 WKB Tunneling Probability
 
@@ -525,7 +525,7 @@ where $L$ is an effective barrier thickness.
 
 **Parameters**:
 - Mass: $m = 1$ kg = $10^3$ g
-- Barrier height: $V_0 \sim \sigma \sim 10^{98}$ J (membrane tension energy scale)
+- Barrier height: $V_0 \sim \sigma \sim 10^{98}$ J (Firmament tension energy scale)
 - Barrier thickness: $L \sim 10^{-20}$ m (quantum scale)
 - $\hbar = 1.055 \times 10^{-34}$ J·s
 
@@ -611,7 +611,7 @@ A macroscopic object in a controlled quantum state might have nonzero amplitude 
 
 **Key insight**: The 4D spacetime metric on the Firmament is induced from the 6D bulk via the embedding formalism (from 6D_TO_4D_PROJECTION.md):
 
-$$g_{\mu\nu}^{(4)} = \partial_\mu X^A \partial_\nu X^B g_{AB}^{(6)} \bigg|_{\text{on brane}}$$
+$$g_{\mu\nu}^{(4)} = \partial_\mu X^A \partial_\nu X^B g_{AB}^{(6)} \bigg|_{\text{on Firmament}}$$
 
 By modifying the bulk fields (Waters Above and Waters Below), we can modify $g_{AB}^{(6)}$, which in turn modifies the induced 4D metric $g_{\mu\nu}^{(4)}$.
 

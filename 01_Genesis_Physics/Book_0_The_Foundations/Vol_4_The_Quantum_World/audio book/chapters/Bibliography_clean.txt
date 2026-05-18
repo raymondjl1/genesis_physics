@@ -480,7 +480,7 @@ R.10 — Zone-Architecture Internal Sources.
 
 [R.10.3] ☷ Raymond, J. L. 2026. Foundations Vol 3: Matter and Motion. Kindle Direct Publishing.
 
-[R.10.4] ☷ Genesis Physics Project. 2025. "QM from Membrane Dynamics." Research note Research/MathematicalModels/05QuantumMechanics/05-QMFROMMEMBRANEDYNAMICS.md.
+[R.10.4] ☷ Genesis Physics Project. 2025. "QM from Firmament Dynamics." Research note Research/MathematicalModels/05QuantumMechanics/05-QMFROMMEMBRANEDYNAMICS.md.
 
 [R.10.5] ☷ Genesis Physics Project. 2025. "QED Precision Calculations." Research note Research/MathematicalModels/05QuantumMechanics/05-QEDPRECISION_CALCULATIONS.md.
 

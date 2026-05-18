@@ -233,7 +233,7 @@ The universe is partitioned into a hierarchy of zones, each labeled with decimal
 | $Z_{2.2.2}$ | Condensed Matter | Baryonic matter: atoms, molecules, stars, galaxies, life; visible universe; ~5% energy density | $Z_{2.2}$ | Temporal | Yes (direct) | Atomic/nuclear fields |
 | $Z_{2.2.3}$ | Waters Above | Dark energy field $\Psi_A$; repulsive; cosmic acceleration; ~68% energy density | $Z_{2.2}$ | Temporal | Indirect | $\Psi_A(\mathbf{r},t)$ |
 
-**Terminological note on "Firmament."** The Hebrew word *Raqia* (Firmament) refers to the boundary surface that separates the Waters Above from the Waters Below. In zone notation, the **Firmament Domain** $Z_{2.2}$ is the larger region encompassing three subzones: Waters Below ($Z_{2.2.1}$), Condensed Matter ($Z_{2.2.2}$), and Waters Above ($Z_{2.2.3}$). When precision is required, "Firmament proper" or "Firmament boundary" denotes the physical membrane surface $\partial Z_{2.2}$, while "Firmament Domain" denotes the full region $Z_{2.2}$. The Glossary entry "Firmament (Zone 2.2.2)" refers to Condensed Matter — the baryonic subzone where we reside — which sits on the membrane boundary. Context determines the intended sense; when ambiguity is possible, use the zone label explicitly.
+**Terminological note on "Firmament."** The Hebrew word *Raqia* (Firmament) refers to the boundary surface that separates the Waters Above from the Waters Below. In zone notation, the **Firmament Domain** $Z_{2.2}$ is the larger region encompassing three subzones: Waters Below ($Z_{2.2.1}$), Condensed Matter ($Z_{2.2.2}$), and Waters Above ($Z_{2.2.3}$). When precision is required, "Firmament proper" or "Firmament boundary" denotes the physical Firmament surface $\partial Z_{2.2}$, while "Firmament Domain" denotes the full region $Z_{2.2}$. The Glossary entry "Firmament (Zone 2.2.2)" refers to Condensed Matter — the baryonic subzone where we reside — which sits on the Firmament boundary. Context determines the intended sense; when ambiguity is possible, use the zone label explicitly.
 
 ### B.4.2 Zone Boundary Notation
 
@@ -359,7 +359,7 @@ These are the deepest level of constants in Genesis Physics: properties of the p
 
 | Symbol | Name | Value | Units | Dimension | Meaning | Interpretation | First Defined |
 |--------|------|-------|-------|-----------|---------|-----------------|---------------|
-| $\sigma$ | Membrane tension | $6.0 \times 10^{98}$ | kg/(m·s²) | [ML⁻¹T⁻²] | 3-brane surface tension; fundamental creation parameter | Energy per unit area of membrane defect | Ch 1 |
+| $\sigma$ | Firmament tension | $6.0 \times 10^{98}$ | kg/(m·s²) | [ML⁻¹T⁻²] | 3-brane surface tension; fundamental creation parameter | Energy per unit area of membrane defect | Ch 1 |
 | $\mu$ | Membrane mass density | $6.7 \times 10^{81}$ | kg/m³ | [ML⁻³] | Volume mass density of membrane material | "Mass" of Firmament substrate | Ch 1 |
 
 **Note:** $\sigma$ and $\mu$ cannot be independently derived within standard physics. In Genesis Physics, they follow from the structure of the Firmament itself and the open system axiom. Their ratio determines the speed of light.
@@ -370,7 +370,7 @@ These constants are derived from membrane properties and geometric couplings, fo
 
 | Symbol | Name | Value | Units | Dimension | Genesis Physics Formula | Meaning | Standard Value | First Defined |
 |--------|------|-------|-------|-----------|------------------------|---------|-----------------|---------------|
-| $c$ | Speed of light | $2.998 \times 10^8$ | m/s | [LT⁻¹] | $c = \sqrt{\sigma / \mu}$ | Characteristic velocity of membrane waves; light speed | Standard | Ch 1 |
+| $c$ | Speed of light | $2.998 \times 10^8$ | m/s | [LT⁻¹] | $c = \sqrt{\sigma / \mu}$ | Characteristic velocity of Firmament membrane waves; light speed | Standard | Ch 1 |
 | $G$ | Gravitational constant | $6.674 \times 10^{-11}$ | m³/(kg·s²) | [L³M⁻¹T⁻²] | $G = \frac{c^4}{8\pi \sigma L_{\text{eff}}^2}$ | Strength of geometric spacetime curvature coupling | Standard | Ch 5 |
 | $\hbar$ | Reduced Planck constant | $1.055 \times 10^{-34}$ | J·s | [ML²T⁻¹] | Derived from atemporal domain $Z_{2.1}$ structure | Quantum action unit; nonlocality scale | Standard | Ch 10 |
 | $\alpha^{-1}$ | Fine structure constant (reciprocal) | $137.036$ | Dimensionless | [1] | $\alpha^{-1} = 1.44 \times \ln(\xi_A / \eta_B)$ | Electromagnetic coupling strength; emergent from scale hierarchy | Standard | Ch 1 |
@@ -617,7 +617,7 @@ This comprehensive table lists every mathematical symbol, variable, constant, op
 | $\eta_{AB}$ | Minkowski metric (6D) | $\text{diag}(-1, +1, +1, +1, +1, +1)$ | Dimensionless | 3 | Metric tensor |
 | $\theta$ | Generic angle / rotation parameter | Dimensionless angle; parameterizes $\hat{U}(\theta)$ rotations | Dimensionless | 9 | Scalar |
 | $\vartheta$ | Poloidal angle | Angular coordinate in toroidal/cylindrical systems | Dimensionless | 3 | Coordinate |
-| $\iota$ | Twisted field variable | Twist parameter in membrane oscillations | Dimensionless | 7 | Scalar |
+| $\iota$ | Twisted field variable | Twist parameter in Firmament membrane oscillations | Dimensionless | 7 | Scalar |
 | $\kappa$ | Sustaining field power density | Power per unit volume from transcendent domain; [ML⁻¹T⁻³] | [ML⁻¹T⁻³] | 1 | Scalar field |
 | $\lambda$ | Eigenvalue (generic) | Eigenvalue of operator $\hat{O}$; $\hat{O}|\psi\rangle = \lambda|\psi\rangle$ | Varies | 9 | Scalar |
 | $\lambda$ | Wavelength | Distance between wave peaks; $\lambda = c/f$ for light | [L] | 7 | Scalar |
@@ -759,7 +759,7 @@ New symbols introduced in downstream volumes are added to a supplementary versio
 
 - **v1.0 (2026-04-06):** Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
 - **v1.1 (2026-05-11):** P0 fix — §B.5.4 warp factor definition corrected. A(ξ,η) was incorrectly stated as a(t)·f(ξ,η); corrected to define A(ξ,η) as the warp factor appearing in the 6D metric ds² = A²(ξ,η)η_μν dx^μ dx^ν + …, explicitly distinguished from the FRW cosmological scale factor a(t). Clarifying note added to §B.5.4. a(t) entry expanded with explicit reference to the FRW metric. B.10.1 alphabetical table entry for A updated. (Resolves QUALITY_GATE P1-001.)
-- **v1.2 (2026-05-11):** Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Membrane Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
+- **v1.2 (2026-05-11):** Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
 
 **Future Maintenance:**
 

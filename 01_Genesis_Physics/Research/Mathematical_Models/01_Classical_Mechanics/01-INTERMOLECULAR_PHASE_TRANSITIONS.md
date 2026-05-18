@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Material properties of created matter) | Genesis 1:27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action, Electromagnetic Sector, Statistical Mechanics | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **Van der Waals forces, Lennard-Jones potential, collision physics, specific heat, phase transitions from 6D framework** | **01-INTERMOLECULAR_PHASE_TRANSITIONS.md** |
 > | Modern Equivalent | Intermolecular forces, condensed matter physics, statistical mechanics | Convergence: reproduces Van der Waals equation, phase diagrams, specific heat capacity from first principles |
@@ -11,13 +11,13 @@
 
 # Intermolecular Forces and Phase Transitions from 6D Framework
 
-**Document Purpose:** Derive Van der Waals forces, Lennard-Jones potential, collision physics, specific heat, and phase transitions from the 6D Open System framework. Bridges atomic physics and statistical mechanics through the membrane interpretation.
+**Document Purpose:** Derive Van der Waals forces, Lennard-Jones potential, collision physics, specific heat, and phase transitions from the 6D Open System framework. Bridges atomic physics and statistical mechanics through the Firmament interpretation.
 
 **Tests Addressed:** 1.10 (Elastic/Inelastic Collisions), 2.5 (Specific Heat), 2.6 (Phase Transitions)
 
 **References:**
 - S_total (6D action) reduced to EM+matter sectors
-- Kaluza-Klein membrane interpretation of intermolecular interactions
+- Kaluza-Klein Firmament interpretation of intermolecular interactions
 - Classical statistical mechanics partition function framework
 
 ---
@@ -77,11 +77,11 @@ $$C_6 = 0.75 \times 1.916 \times 12.295 = 1.46 \text{ a.u.}$$
 
 This confirms the dipole-dipole mechanism is the dominant interaction at large r.
 
-#### 1.4 Membrane Interpretation of vdW Force
+#### 1.4 Firmament Interpretation of vdW Force
 
 **Kaluza-Klein perspective:**
 
-Two neutral atoms are "defects" in the brane (3D matter hypersurface) of the 5D spacetime. The extra dimension contains vibrational modes of the KK field:
+Two neutral atoms are "defects" in the Firmament (3D matter hypersurface) of the 5D spacetime. The extra dimension contains vibrational modes of the KK field:
 
 $$\phi_{\text{KK}}(x^μ, y) = \sum_n \phi_n(x^μ) \cos\left(\frac{n\pi y}{L_5}\right)$$
 
@@ -243,7 +243,7 @@ $$KE_{\text{final}} = KE_{\text{initial}} \times e^2$$
 
 where e < 1 accounts for energy partitioning between translational KE and internal excitations.
 
-#### 3.5 Membrane Interpretation
+#### 3.5 Firmament Interpretation
 
 **Brane oscillation mechanism:**
 
@@ -852,20 +852,20 @@ Universal exponents: β = 1/2, γ = 1, δ = 3
 Complete P-T phase diagram
 ```
 
-### 11. Membrane Interpretation Summary
+### 11. Firmament Interpretation Summary
 
 **Layer 1 (5D spacetime):**
-- Matter hypersurface (brane) embedded in 5D background
-- Kaluza-Klein field φ_KK couples to all matter on brane
+- Matter hypersurface (Firmament) embedded in 5D background
+- Kaluza-Klein field φ_KK couples to all matter on Firmament
 
 **Layer 2 (Intermolecular forces):**
-- Two atoms = two local defects in brane curvature
+- Two atoms = two local defects in Firmament curvature
 - Virtual KK mode exchange → r⁻⁶ vdW force
 - Decay of KK modes → heat dissipation (inelasticity)
 
 **Layer 3 (Thermal physics):**
 - Temperature = measure of KK mode excitation density
-- Partition function sum = enumeration of all KK + brane vibrational modes
+- Partition function sum = enumeration of all KK + Firmament vibrational modes
 - Phase transition = reorganization of mode occupation pattern
 
 **Layer 4 (Critical phenomena):**
@@ -882,7 +882,7 @@ Complete P-T phase diagram
 1. ✓ Elastic collision with hard spheres: e = 1 (Sections 3.1–3.3)
 2. ✓ Coefficient of restitution framework (Section 3.2)
 3. ✓ Inelastic collisions with e < 1 from phonon excitation (Section 3.4)
-4. ✓ Membrane interpretation: KK mode decay → heat (Section 11)
+4. ✓ Firmament interpretation: KK mode decay → heat (Section 11)
 
 ### Test 2.5: Specific Heat from Atomic DOF
 
@@ -912,7 +912,7 @@ Complete P-T phase diagram
 
 This document derives the complete chain from 6D Open System framework through statistical mechanics to observed phase phenomena:
 
-1. **Van der Waals forces** arise from virtual KK mode exchange (membrane interpretation)
+1. **Van der Waals forces** arise from virtual KK mode exchange (Firmament interpretation)
 2. **Lennard-Jones potential** combines vdW attraction with Pauli repulsion
 3. **Collisions** range from elastic (e=1) to inelastic (e<1) based on phonon excitation
 4. **Heat capacities** follow equipartition theorem; unified description of monatomic, diatomic, and solid systems

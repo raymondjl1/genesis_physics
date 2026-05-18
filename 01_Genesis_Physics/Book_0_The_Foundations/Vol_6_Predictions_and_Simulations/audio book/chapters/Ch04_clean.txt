@@ -22,7 +22,7 @@ Level 1: Framework-Killing. An observation incompatible with the foundational ax
 
 Level 2: Pillar-Killing. A major derivation chain fails — the axioms might still be consistent, but the physics derived from them does not match reality. For example, if QED does not emerge from membrane quantization (Vol 4, Chapters 6–7), then the particle physics predictions fail even if the underlying zone geometry is correct. The error would be in the reduction procedure, not the axioms. These are the next-most-severe failures (Section 4.4).
 
-Level 3: Component-Level. A specific model or subprediction fails, but the broader derivation chain and the framework survive. The hard-wall particle mass model (Vol 4, Ch 10) is already at this level: the model predicts masses wrong by factors of 20 to 1000 (Chapter 2, P-052–P-055), but this reflects the inadequacy of a specific boundary-condition model, not a failure of the membrane vibration concept itself. Component-level failures are the framework's immune system — they identify which specific models need replacement without killing the host.
+Level 3: Component-Level. A specific model or subprediction fails, but the broader derivation chain and the framework survive. The hard-wall particle mass model (Vol 4, Ch 10) is already at this level: the model predicts masses wrong by factors of 20 to 1000 (Chapter 2, P-052–P-055), but this reflects the inadequacy of a specific boundary-condition model, not a failure of the Firmament vibration concept itself. Component-level failures are the framework's immune system — they identify which specific models need replacement without killing the host.
 
 Level 4: Precision-Level. A numerical prediction falls outside experimental error bars, but the functional form and the qualitative behavior are correct. The fine structure constant derivation (alpha to the -1 = 137.17 vs. 137.036, a 0.10% discrepancy) is at this level: the logarithmic dependence on the scale ratio is correct, but the effective beta-function coefficient b sub eff needs refinement. Precision-level failures are the normal working state of any developing theory — they indicate where the next round of calculation should focus.
 
@@ -102,7 +102,7 @@ PK-1: QED Does Not Emerge from Membrane Quantization [PK].
 
 The entire particle physics content of zone architecture (Vol 4) depends on the claim that the standard QED Lagrangian emerges from the quantization of membrane field excitations (Vol 4, Ch 6–7). If this claim is wrong — if the derived Feynman rules differ from standard QED at any perturbative order — then the QED precision predictions (P-001 through P-003) are not actually predictions of zone architecture, and the "crown jewels" of Chapter 1 are borrowed, not earned.
 
-Falsification criterion. If a calculation starting from the zone Lagrangian (Vol 2, Ch 5) and following the quantization procedure of Vol 4, Ch 6, produces a Feynman rule that disagrees with the standard QED rule at any order in perturbation theory, the membrane-to-QED derivation chain is broken. Currently, the derivation produces identical Feynman rules by construction — the risk is that an error in the KK reduction or the identification of membrane modes with particle fields could be discovered upon more careful scrutiny.
+Falsification criterion. If a calculation starting from the zone Lagrangian (Vol 2, Ch 5) and following the quantization procedure of Vol 4, Ch 6, produces a Feynman rule that disagrees with the standard QED rule at any order in perturbation theory, the Firmament-to-QED derivation chain is broken. Currently, the derivation produces identical Feynman rules by construction — the risk is that an error in the KK reduction or the identification of Firmament modes with particle fields could be discovered upon more careful scrutiny.
 
 Status. No discrepancy found. The derivation has been verified through two-loop order. Higher-order verification is an open problem (Chapter 10).
 
@@ -146,7 +146,7 @@ PASS means the framework derives the correct result — the equation, the numeri
 
 PARTIAL means the framework produces the correct structure (the right equation form, the right qualitative behavior, the right scaling) but has not yet achieved full numerical precision or has not completed every intermediate step. For example, Test 2.7 (Carnot Efficiency) derives eta = 1 - T sub c/T sub h from zone thermodynamics but has not completed the explicit work calculation W = Q sub h - Q sub c for a reversible cycle. These are not contradictions — they are incomplete derivations. Thirty-seven tests are at this level.
 
-FAIL means the framework produces a result that contradicts experiment. Zero tests are in this category. We emphasize: this is not because we hid embarrassing results. The particle mass spectrum predictions (P-052–P-055) are wrong by factors of 20 to 1000 — but these were classified as "DIFFERS" predictions in Chapter 2, not test failures, because the test suite measures whether the derivation chain is internally consistent, not whether the simplest model produces correct numbers. The hard-wall model is wrong; the membrane vibration framework that generated it may still be correct with a different boundary condition model.
+FAIL means the framework produces a result that contradicts experiment. Zero tests are in this category. We emphasize: this is not because we hid embarrassing results. The particle mass spectrum predictions (P-052–P-055) are wrong by factors of 20 to 1000 — but these were classified as "DIFFERS" predictions in Chapter 2, not test failures, because the test suite measures whether the derivation chain is internally consistent, not whether the simplest model produces correct numbers. The hard-wall model is wrong; the Firmament membrane vibration framework that generated it may still be correct with a different boundary condition model.
 
 NOT YET means the test requires specialized derivations that have not been attempted. Two tests remain: N-body dynamics (Test 1.9, requiring chaotic three-body analysis) and frame dragging (Test 7.10, requiring the Kerr metric from 6D). Neither blocks the foundational physics.
 
@@ -212,13 +212,13 @@ Critic's finding: The proposal to oscillate Casimir plates for power extraction 
 
 Our response: Partially agree. The critic correctly identifies that a closed-system analysis prohibits net extraction. Zone architecture's response is that the system is open — the Waters field acts as an energy reservoir that replenishes local vacuum energy deficits. However, the critic is also correct that the replenishment dynamics have not been mathematically formalized. The conceptual argument (open system with gradient-driven flow from a vast reservoir) is thermodynamically sound in principle — analogous to extracting geothermal energy from Earth's mantle — but the mathematical model (a PDE governing Waters field flow, a derivation of replenishment timescale, a proof that replenishment rate exceeds extraction rate) is an open problem. Status: OPEN PROBLEM (flagged for Chapter 10).
 
-Point 3: Membrane Tension — 76-Order-of-Magnitude Error.
+Point 3: Firmament Tension — 76-Order-of-Magnitude Error.
 
-Critic's finding: The membrane tension sigma was claimed as 2.4 times 10 to the 43 kg/sto the 2, but the critic's calculation from the stated formula gives 2.16 times 10 to the -33 kg/sto the 2 — a 76-order-of-magnitude discrepancy. The critic rated this as FATAL.
+Critic's finding: The Firmament tension sigma was claimed as 2.4 times 10 to the 43 kg/sto the 2, but the critic's calculation from the stated formula gives 2.16 times 10 to the -33 kg/sto the 2 — a 76-order-of-magnitude discrepancy. The critic rated this as FATAL.
 
-Our response: Agree that the stated formula was incorrect. The discrepancy arose from an incorrectly transcribed formula in the simulation framework documentation, not from the underlying physics. The original formula as stated — the expression — produces the absurd value the critic calculated. The correct relationship between the fine structure constant and membrane tension involves different dimensional factors and a different functional form.
+Our response: Agree that the stated formula was incorrect. The discrepancy arose from an incorrectly transcribed formula in the simulation framework documentation, not from the underlying physics. The original formula as stated — the expression — produces the absurd value the critic calculated. The correct relationship between the fine structure constant and Firmament tension involves different dimensional factors and a different functional form.
 
-The resolution is documented in the Research archive (Resolved_Issues/). The membrane tension is properly derived in Vol 2, Ch 5, where sigma relates to the Firmament's elastic properties through the induced metric on the brane, not through the product xi sub A times eta sub B. The 76-order error was a documentation transcription error, not a physics error — but we accept the critic's judgment that an error of this magnitude in any published document is unacceptable and reflects inadequate quality control. Status: RESOLVED (formula corrected; documentation reviewed).
+The resolution is documented in the Research archive (Resolved_Issues/). The Firmament tension is properly derived in Vol 2, Ch 5, where sigma relates to the Firmament's elastic properties through the induced metric on the Firmament, not through the product xi sub A times eta sub B. The 76-order error was a documentation transcription error, not a physics error — but we accept the critic's judgment that an error of this magnitude in any published document is unacceptable and reflects inadequate quality control. Status: RESOLVED (formula corrected; documentation reviewed).
 
 Point 4: Fine Structure Constant — "Extraordinary".
 
@@ -257,7 +257,7 @@ Critic's overall verdict (March 28, 2026): "NEEDS SUBSTANTIAL WORK before presen
 
 Our response: Fair assessment at the time of writing. Since the critic's review, the following progress has been made:
 
-- Membrane tension formula: transcription error identified and corrected
+- Firmament tension formula: transcription error identified and corrected
 - Test suite: advanced from 59 PASS to 97 PASS (71.3%)
 - Fine structure constant: derivation verified, coefficient decomposition published
 - Orifice flow model: abandoned, QFT treatment flagged
@@ -268,7 +268,7 @@ The thermodynamic formalization remains open. The critic's assessment should be 
 
 Response to Peer Review — The Skeptic Analysis.
 
-A separate analysis, focused on the MRG (Membrane Resonance Generator) energy harvesting proposal, produced a set of findings that we address here.
+A separate analysis, focused on the MRG (Firmament Resonance Generator) energy harvesting proposal, produced a set of findings that we address here.
 
 Corrected Errors — Acknowledged.
 
@@ -276,7 +276,7 @@ The skeptic identified four errors that have been corrected:
 
 1. Casimir pressure overstated by approximately7,700times at 100 nm gap. Corrected. All calculations now use the verified formula F/A = pi to the 2 h-bar c / (240a to the 4). At a = 100 nm: F/A approximately equal to 13 Pa. At a = 50 nm: F/A approximately equal to 208 Pa.
 
-2. Membrane tension off by 76 orders of magnitude. Resolved (see §4.6, Point 3).
+2. Firmament tension off by 76 orders of magnitude. Resolved (see §4.6, Point 3).
 
 3. Orifice flow model produces superluminal velocities. Abandoned (see §4.6, Point 5).
 

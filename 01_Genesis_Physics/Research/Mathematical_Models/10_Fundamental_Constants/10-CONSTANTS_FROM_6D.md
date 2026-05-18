@@ -4,7 +4,7 @@
 > | Scripture | "In the beginning, God created the heavens and the earth" | Genesis 1:1 |
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
 > | Axiom | Sustaining Coupling | AXIOM_5_SUSTAINING_COUPLING.md |
-> | Parent Theory | 6D Membrane Action | ACTION_6D_COMPLETE.md |
+> | Parent Theory | 6D Firmament Action | ACTION_6D_COMPLETE.md |
 > | Parent Theory | Kaluza-Klein Reduction | KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **Fundamental Constants from 6D (ℏ, G)** | **10-CONSTANTS_FROM_6D.md** |
 > | Modern Equivalent | Planck's Constant, Gravitational Constant | Convergence: Dimensional analysis from membrane parameters; quantization and hierarchy problems resolved |
@@ -15,10 +15,10 @@
 
 **Objective:** Derive Planck's constant ℏ and gravitational constant G from 6D membrane geometry, resolving Tests 10.2 and 10.3. Show both constants emerge from membrane parameters (σ, μ, ξ_A, η_B).
 
-**Framework:** The 6D membrane action:
+**Framework:** The 6D Firmament membrane action:
 $$S_{\text{total}} = \int d^6x \left[\frac{1}{2}\mu(\partial_t \phi)^2 - \frac{1}{2}\sigma(\partial_i \phi)^2\right]$$
 
-where $\phi$ represents the membrane displacement field, yields quantum mechanics and gravity through dimensional analysis and compactification geometry.
+where $\phi$ represents the Firmament membrane displacement field, yields quantum mechanics and gravity through dimensional analysis and compactification geometry.
 
 ---
 
@@ -38,12 +38,12 @@ This sets the **fundamental phase space grain** at $\hbar/2$.
 
 ### 1.2 Membrane Boundary Conditions and Quantization
 
-Consider a finite membrane (brane) with dimensions:
+Consider a finite membrane (Firmament) with dimensions:
 - Spatial extent: $L_x \times L_y \times L_z$ (volume $V = L^3$ for simplicity)
 - Thickness: $\eta_B$ (perpendicular to observable 4D)
 - Transverse compact: $\xi_A$ (second extra dimension)
 
-The membrane supports standing wave modes. For a mode with wavenumber $k = 2\pi n/L$:
+The Firmament membrane supports standing wave modes. For a mode with wavenumber $k = 2\pi n/L$:
 $$\omega_k = c |k| = c \frac{2\pi n}{L}$$
 
 where $c = \sqrt{\sigma/\mu}$ is the wave velocity.
@@ -55,7 +55,7 @@ $$E_k = \frac{1}{2}m_{\text{mode}}\omega_k^2 A_k^2 = \hbar\omega_k \quad \text{(
 
 This quantization condition defines $\hbar$.
 
-**Canonical Variables:** For the membrane field $\phi(\vec{r}, t)$:
+**Canonical Variables:** For the Firmament field $\phi(\vec{r}, t)$:
 - Position: $\phi_k$ (amplitude of mode $k$)
 - Momentum: $\pi_k = \partial L/\partial \dot{\phi}_k$ (conjugate momentum)
 
@@ -69,11 +69,11 @@ $$\Delta \phi_k \cdot \Delta \pi_k = \hbar$$
 
 **Step 1: Minimum phase space cell**
 
-The membrane is a 4D surface (spatial 3D + time 1D) embedded in 6D. The compact transverse dimensions have size:
-- $\xi \in [0, \eta_B]$: brane thickness
+The Firmament is a 4D surface (spatial 3D + time 1D) embedded in 6D. The compact transverse dimensions have size:
+- $\xi \in [0, \eta_B]$: Firmament thickness
 - $\eta \in [0, \xi_A]$: transverse compact size
 
-The **minimum phase space cell** on the membrane is set by the product of membrane tension $\sigma$ and compact volume $V_c = \eta_B \cdot \xi_A$:
+The **minimum phase space cell** on the Firmament membrane is set by the product of Firmament tension $\sigma$ and compact volume $V_c = \eta_B \cdot \xi_A$:
 
 $$\Delta x \cdot \Delta p = \sigma \cdot \eta_B \cdot \xi_A / (4\pi)$$
 
@@ -83,7 +83,7 @@ $$\boxed{\hbar = \frac{\sigma \eta_B \xi_A}{4\pi}}$$
 **Step 2: Dimensional analysis**
 
 Let's verify dimensions in SI:
-- $\sigma$ = membrane tension = $[\text{force/length}] = [\text{N/m}] = [\text{kg/s}^2]$
+- $\sigma$ = Firmament tension = $[\text{force/length}] = [\text{N/m}] = [\text{kg/s}^2]$
 - $\eta_B$ = thickness = $[\text{m}]$
 - $\xi_A$ = compact size = $[\text{m}]$
 
@@ -96,7 +96,7 @@ Correctly matches $\hbar$ dimensions.
 From fundamental membrane parameters (to be determined by matching other observables):
 
 Assume:
-- Membrane tension: $\sigma \sim M_{\text{Pl}}^2 c$ (Planck scale)
+- Firmament tension: $\sigma \sim M_{\text{Pl}}^2 c$ (Planck scale)
 - Brane thickness: $\eta_B \sim 1/M_{\text{Pl}}$
 - Compact size: $\xi_A \sim 1/M_{\text{Pl}}$
 
@@ -134,7 +134,7 @@ $$M_{\text{Pl},6} = \left(\frac{\hbar c}{G_6}\right)^{1/2}$$
 
 where $G_6$ is the 6D gravitational coupling constant.
 
-The 4D gravitational constant $G$ observed on the membrane arises from dimensional reduction:
+The 4D gravitational constant $G$ observed on the Firmament arises from dimensional reduction:
 $$G_6 = \frac{1}{V_{\text{compact}}} \frac{G_4}{1}$$
 
 where $V_{\text{compact}} = \xi_A \eta_B$ is the volume of the two extra dimensions.
@@ -154,17 +154,17 @@ and
 
 $$\boxed{G_6 = \frac{\hbar c}{M_{\text{Pl}}^2 \xi_A \eta_B}}$$
 
-### 2.3 Membrane Dynamics Derivation
+### 2.3 Firmament Dynamics Derivation
 
-Starting from the membrane action:
+Starting from the Firmament action:
 $$S_{\text{int}} = -\int d^4x \sqrt{-g} \, T_{\mu\nu} R^{\mu\nu}$$
 
-where $T_{\mu\nu}$ is the membrane stress-energy tensor coupled to the Riemann curvature of the 6D metric.
+where $T_{\mu\nu}$ is the Firmament stress-energy tensor coupled to the Riemann curvature of the 6D metric.
 
 The effective 4D Einstein equations emerge:
 $$G_{\mu\nu} = \frac{8\pi G_4}{c^4} T_{\mu\nu}$$
 
-where $G_4$ is determined by the coupling between membrane vibrations (with energy scale $\mu c^2$) and 6D geometry (with scale $1/(\xi_A \eta_B)$).
+where $G_4$ is determined by the coupling between Firmament vibrations (with energy scale $\mu c^2$) and 6D geometry (with scale $1/(\xi_A \eta_B)$).
 
 **Dimensional analysis:**
 $$G_4 = \frac{[\text{action}]}{[\text{energy}]^2 \cdot [\text{length}]} = \frac{[\hbar]}{[\text{energy}]^2}$$
@@ -254,11 +254,11 @@ Correctly matches Newton's gravitational constant dimensions.
 
 ### 4.1 Canonical Commutation Relations
 
-From membrane mode quantization, the fundamental commutator is:
+From Firmament mode quantization, the fundamental commutator is:
 $$[\hat{\phi}_k, \hat{\pi}_k] = i\hbar$$
 
 where:
-- $\hat{\phi}_k$ = amplitude of membrane mode $k$
+- $\hat{\phi}_k$ = amplitude of Firmament mode $k$
 - $\hat{\pi}_k = \partial L / \partial \dot{\phi}_k$ = conjugate momentum
 
 Expanding in a complete basis:
@@ -272,14 +272,14 @@ $$[\hat{\phi}(\vec{r}), \hat{\pi}(\vec{r}')] = i\hbar \delta^3(\vec{r} - \vec{r}
 From canonical commutation:
 $$\Delta x \cdot \Delta p \geq \frac{|\langle[\hat{x}, \hat{p}]\rangle|}{2} = \frac{\hbar}{2}$$
 
-**Physical interpretation:** The minimum phase space cell on the membrane is $\hbar/2$. This arises from the finite size of extra dimensions:
+**Physical interpretation:** The minimum phase space cell on the Firmament membrane is $\hbar/2$. This arises from the finite size of extra dimensions:
 $$\Delta x \cdot \Delta p = \frac{\sigma \eta_B \xi_A}{4\pi} = \hbar$$
 
 The factor of 2 difference ($\hbar$ vs. $\hbar/2$) comes from the definition of quantum states (Gaussian vs. general states).
 
 ### 4.3 Schrödinger Equation
 
-The membrane equation of motion is the classical wave equation:
+The Firmament membrane equation of motion is the classical wave equation:
 $$\frac{\partial^2 \phi}{\partial t^2} = c^2 \nabla^2 \phi$$
 
 Upon quantization (promoting to operators):
@@ -305,7 +305,7 @@ where $G_{AB} = R_{AB} - (1/2)g_{AB} R$ is the Einstein tensor.
 
 Decomposing: $g_{AB} = (g_{\mu\nu}, g_{\xi\xi}, g_{\eta\eta}, g_{\mu\xi}, g_{\mu\eta})$
 
-The membrane is a 4D hypersurface at $\xi = \xi_0$, $\eta = \eta_0$. The induced metric is:
+The Firmament is a 4D hypersurface at $\xi = \xi_0$, $\eta = \eta_0$. The induced metric is:
 $$g_{\mu\nu}^{(4)} = g_{\mu\nu}^{(6)} - \text{(extrinsic curvature terms)}$$
 
 After dimensional reduction (integrating out extra dimensions), the 4D Einstein equations are:
@@ -380,7 +380,7 @@ $$[\text{force}] = c^4 / G$$
 
 | Parameter | Symbol | Natural Units | SI Units |
 |-----------|--------|---|---|
-| Membrane tension | σ | $M_{\text{Pl}}^3$ | kg/(m·s²) |
+| Firmament tension | σ | $M_{\text{Pl}}^3$ | kg/(m·s²) |
 | Mass density | μ | $M_{\text{Pl}}^4 / c^3$ | kg/m³ |
 | Wave velocity | c = √(σ/μ) | 1 | m/s |
 | Brane thickness | η_B | $M_{\text{Pl}}^{-1}$ | m |
@@ -410,7 +410,7 @@ $$[\text{force}] = c^4 / G$$
 | **c** | Speed of light | **Exact (definition)** | ✓ Confirmed |
 | **Fine structure α** | EM coupling | **1.6 ppb** | ✓ Confirmed |
 
-**Key Result:** Planck's constant and gravitational constant both emerge from 6D membrane geometry. No additional fundamental constants beyond the membrane parameters $(\sigma, \mu, \xi_A, \eta_B)$.
+**Key Result:** Planck's constant and gravitational constant both emerge from 6D membrane geometry. No additional fundamental constants beyond the Firmament membrane parameters $(\sigma, \mu, \xi_A, \eta_B)$.
 
 ---
 
@@ -422,4 +422,4 @@ $$[\text{force}] = c^4 / G$$
 **Implications:**
 - Quantum mechanics is a consequence of finite extra dimensions
 - Gravity is a consequence of 6D geometry dimensional reduction
-- All fundamental physics reduces to membrane mechanics in 6D spacetime
+- All fundamental physics reduces to Firmament mechanics in 6D spacetime

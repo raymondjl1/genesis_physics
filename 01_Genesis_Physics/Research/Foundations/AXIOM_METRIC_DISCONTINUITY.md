@@ -202,7 +202,7 @@ to sustaining work (maintenance), and the metric adjusts accordingly.
 
 - **Axiom 1 (Open System)**: The metric discontinuity is driven by the change in external energy input — from creative work to sustaining work.
 - **Axiom 2 (6D Spacetime)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary fixed the extra-dimensional geometry.
-- **Axiom 3 (Membrane Mechanics)**: The Firmament properties (σ, μ, c) were established during the creation epoch and fixed at the Sabbath Boundary.
+- **Axiom 3 (Firmament Mechanics)**: The Firmament properties (σ, μ, c) were established during the creation epoch and fixed at the Sabbath Boundary.
 - **Axiom 5 (Phase Transition)**: The Fall is a SECOND phase transition, occurring within sustaining mode, that changed the entropy balance without altering the metric.
 
 ---

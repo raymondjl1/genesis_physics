@@ -15,7 +15,9 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Eschatology**: Theological study of end times, final events, and ultimate destiny. Includes resurrection, final judgment, new heaven and new earth.
 
-**Firmament (Raqia, רָקִיעַ)**: From Hebrew root meaning "to beat out, stretch." The membrane created on Day 2 separating Waters Above from Waters Below. Corresponds to our observable universe (Zone 2.2.2).
+**The Firmament (Raqia, רָקִיעַ)**: From Hebrew root meaning "to beat out, stretch." The Firmament membrane created on Day 2 separating Waters Above from Waters Below. Corresponds to our observable universe (Zone 2.2.2). Also called the **Firmament Domain** (Zone 2.2 = Z₂.₂) when referring to the full domain that includes the Firmament membrane and the layer immediately surrounding it.
+
+**Firmament Domain (Zone 2.2 / Z₂.₂)**: The full domain comprising the Firmament membrane (Z₂.₂.₂) and its immediate enclosing structure. Distinct from "The Firmament" (the membrane proper, Z₂.₂.₂). The two-word phrase "Firmament Domain" is the only acceptable name for Z₂.₂.
 
 **General Revelation**: God's self-disclosure through creation, nature, and conscience. Romans 1:20, Psalm 19:1.
 
@@ -45,7 +47,7 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Big Bang**: Initial expansion event of spacetime; Genesis Days 1-2 correspond to creation-epoch physics.
 
-**Chladni Patterns**: Vibrational modes creating nodal boundaries; membrane-oscillation model for zone creation.
+**Chladni Patterns**: Vibrational modes creating nodal boundaries; Firmament-membrane-oscillation model for zone creation.
 
 **Conservation Laws**: Physical laws stating specific quantities remain constant over time (energy, momentum, angular momentum).
 
@@ -103,7 +105,7 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Earth Prime (Zone 2)**: Primary material cosmos; temporal, accessible to observation; divided into Waters Above, Firmament, Waters Below.
 
-**Firmament (Zone 2.2.2)**: Membrane separating Waters Above from Waters Below; our observable universe including dark and baryonic matter.
+**The Firmament (Zone 2.2.2)**: The Firmament membrane separating Waters Above from Waters Below; our observable universe including dark and baryonic matter. The enclosing Zone 2.2 is the **Firmament Domain**.
 
 **Heaven Prime (Zone 1)**: Transcendent atemporal domain; seat of Godhead; infinite dimensionality; source of creation.
 

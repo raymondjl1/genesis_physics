@@ -11,28 +11,28 @@ This test suite validates the following thermodynamic laws derived from Genesis 
    In Genesis Physics: the Degradation Principle IS the Second Law.
 
 2. THIRD LAW OF THERMODYNAMICS: S → 0 as T → 0 from unique ground state
-   Show that as membrane excitations freeze out, entropy vanishes.
+   Show that as Firmament excitations freeze out, entropy vanishes.
 
 3. BOLTZMANN DISTRIBUTION: P(E) ∝ exp(-E/k_B T) from statistical mechanics
-   Derive from counting microstates of quantized membrane oscillations.
+   Derive from counting microstates of quantized Firmament oscillations.
 
 4. CARNOT EFFICIENCY: η_Carnot = 1 - T_cold/T_hot from thermodynamic framework
    Derive from membrane energy flow between hot and cold reservoirs.
 
 5. HEAT CAPACITY: C_p - C_v = nR from degrees of freedom
-   Derive from membrane vibrational modes and mechanical work.
+   Derive from Firmament membrane vibrational modes and mechanical work.
 
 GENESIS PHYSICS FRAMEWORK:
 - The Firmament is a 4D membrane in 6D spacetime
 - Membrane parameters: σ = 6.0×10⁹⁸ kg/(m·s²), μ = 6.7×10⁸² kg/m²
 - c² = σ/μ = 9.0×10¹⁶ m²/s², c = 3.0×10⁸ m/s
-- Temperature T = mean kinetic energy of membrane excitations: (3/2)k_B T = <E_kinetic>
+- Temperature T = mean kinetic energy of Firmament membrane excitations: (3/2)k_B T = <E_kinetic>
 - Quantized vibration modes: ω_n = (n·π·c)/L for n = 1,2,3,...
 - Zero-point energy: E_0 = (1/2)ℏω per mode
 - Statistical mechanics emerges from counting excited microstates
 
 KEY INSIGHT:
-Membrane vibration modes are quantized harmonic oscillators. Standard statistical
+Firmament vibration modes are quantized harmonic oscillators. Standard statistical
 mechanics (partition functions, Boltzmann distribution, thermodynamic laws) follow
 directly from counting how many ways these oscillators can distribute energy.
 The Degradation Principle produces dS/dt ≥ 0 naturally.
@@ -67,8 +67,8 @@ R = 8.314462618  # J/(mol·K)
 N_A = 6.02214076e23  # particles/mol
 
 # Genesis Physics membrane parameters
-SIGMA = 6.0e98  # Membrane tension [kg/(m·s²)]
-MU = 6.7e81     # Membrane surface density [kg/m³]
+SIGMA = 6.0e98  # Firmament tension [kg/(m·s²)]
+MU = 6.7e81     # Firmament membrane surface density [kg/m³]
 C_SQUARED = SIGMA / MU  # Should be ~9.0e16 m²/s²
 
 # Reference values for thermodynamic calculations
@@ -98,7 +98,7 @@ class SecondLawTest:
     In Genesis Physics, the Degradation Principle states that a closed system
     evolves toward higher entropy and lower energy. This is the Second Law.
 
-    We model entropy increase due to excitation of membrane modes:
+    We model entropy increase due to excitation of Firmament modes:
     - Lower energy state: few modes excited, low entropy
     - Higher energy state: many modes excited, high entropy
     - Process: energy input causes transitions to higher modes → entropy increases
@@ -193,14 +193,14 @@ class ThirdLawTest:
     Test: Entropy → 0 as T → 0 (unique ground state)
 
     In Genesis Physics, at T = 0:
-    - All membrane vibration modes are in ground state (n=0 for each mode)
+    - All Firmament vibration modes are in ground state (n=0 for each mode)
     - There is exactly ONE quantum state (unique ground state)
     - By Boltzmann's definition: S = k_B ln(Ω), where Ω = number of microstates
     - With Ω = 1 (unique ground state), S = k_B ln(1) = 0
 
     We verify this by calculating entropy as T → 0 and showing it vanishes.
 
-    For a 3D harmonic oscillator (membrane mode):
+    For a 3D harmonic oscillator (Firmament mode):
     Energy levels: E_n = ℏω(n + 1/2), n = 0,1,2,...
     At low T, occupation follows Boltzmann: P(n) ∝ exp(-E_n/k_B T)
     All probability concentrates in ground state as T → 0
@@ -209,13 +209,13 @@ class ThirdLawTest:
 
     def run(self) -> Dict:
         """
-        Calculate entropy of membrane excitations as temperature → 0.
+        Calculate entropy of Firmament excitations as temperature → 0.
         Use quantum harmonic oscillator model.
         """
         results = {}
 
-        # Model: 3D quantum harmonic oscillator (single membrane mode)
-        # Characteristic frequency (membrane oscillation)
+        # Model: 3D quantum harmonic oscillator (single Firmament mode)
+        # Characteristic frequency (Firmament oscillation)
         # For macroscopic system: use lower frequency for more typical behavior
         # Use ω such that ℏω ~ k_B T at room temperature
 
@@ -283,7 +283,7 @@ class ThirdLawTest:
         results['pass'] = passed
         results['description'] = (
             f"Third Law: S → 0 as T → 0 (unique ground state)\n"
-            f"\nModel: Quantum harmonic oscillator (membrane mode)\n"
+            f"\nModel: Quantum harmonic oscillator (Firmament mode)\n"
             f"  Frequency ω = {omega:.2e} rad/s\n"
             f"  Quantum ℏω = {hbar_omega:.4e} J\n"
             f"  ℏω/k_B = {hbar_omega/K_B:.4f} K\n"
@@ -313,10 +313,10 @@ class ThirdLawTest:
 @dataclass
 class BoltzmannDistributionTest:
     """
-    Test: P(E) ∝ exp(-E/k_B T) from membrane excitation microstates
+    Test: P(E) ∝ exp(-E/k_B T) from Firmament excitation microstates
 
     In Genesis Physics, the Boltzmann distribution emerges naturally from
-    counting how many ways N identical membrane excitations can distribute
+    counting how many ways N identical Firmament excitations can distribute
     among energy states.
 
     For a system at temperature T in thermal equilibrium:
@@ -468,15 +468,15 @@ class CarnnotEfficiencyTest:
     steps (isothermal expansion/compression, adiabatic expansion/compression).
 
     In Genesis Physics:
-    - Hot reservoir: membrane excitations at high energy (high T)
-    - Cold reservoir: membrane excitations at low energy (low T)
+    - Hot reservoir: Firmament excitations at high energy (high T)
+    - Cold reservoir: Firmament excitations at low energy (low T)
     - Carnot cycle: reversible energy extraction maintaining constant entropy
 
     From the Clausius inequality and Second Law:
     η_Carnot = 1 - T_cold/T_hot
 
     This is universal—does NOT depend on the working substance or details of
-    the membrane structure. Any real engine has η < η_Carnot.
+    the Firmament structure. Any real engine has η < η_Carnot.
     """
 
     def run(self) -> Dict:
@@ -535,7 +535,7 @@ class CarnnotEfficiencyTest:
         results['description'] = (
             f"Carnot Efficiency: η = 1 - T_cold/T_hot\n"
             f"\nTheorem: For any reversible heat engine, efficiency cannot exceed\n"
-            f"the Carnot efficiency. In Genesis Physics, membrane excitations\n"
+            f"the Carnot efficiency. In Genesis Physics, Firmament excitations\n"
             f"between hot and cold states can operate reversibly (Carnot cycle),\n"
             f"achieving this theoretical maximum.\n"
             f"\nCarnot Efficiencies for various (T_hot, T_cold) pairs:\n"
@@ -582,7 +582,7 @@ class HeatCapacityTest:
     5. Therefore: C_p - C_v = nR
 
     In Genesis Physics:
-    - Internal energy comes from membrane excitations
+    - Internal energy comes from Firmament excitations
     - Translational kinetic energy: (3/2)nRT per mole
     - Work done by gas when expanding at constant P: nRT
     - Difference arises from work done against external pressure

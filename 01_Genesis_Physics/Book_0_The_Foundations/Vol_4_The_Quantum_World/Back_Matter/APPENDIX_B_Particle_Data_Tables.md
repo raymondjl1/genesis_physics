@@ -184,7 +184,7 @@ Hadron masses are *not* predicted at precision level by the zone framework. QCD 
 
 ### The 94% rule for proton mass
 
-Only about 6 MeV of the proton's 938 MeV comes from quark rest masses. The remaining $\sim 94\%$ is strong-interaction binding energy — gluon fields, quark kinetic energy, and vacuum condensates. The zone framework shows *why* this must be so (the confinement scale $\Lambda_\text{QCD}$ is set by the membrane tension in Ch 12), but it does not compute the exact number 938.272 from first principles any more than standard QCD does. Both frameworks currently rely on lattice calculation for that digit.
+Only about 6 MeV of the proton's 938 MeV comes from quark rest masses. The remaining $\sim 94\%$ is strong-interaction binding energy — gluon fields, quark kinetic energy, and vacuum condensates. The zone framework shows *why* this must be so (the confinement scale $\Lambda_\text{QCD}$ is set by the Firmament tension in Ch 12), but it does not compute the exact number 938.272 from first principles any more than standard QCD does. Both frameworks currently rely on lattice calculation for that digit.
 
 ---
 

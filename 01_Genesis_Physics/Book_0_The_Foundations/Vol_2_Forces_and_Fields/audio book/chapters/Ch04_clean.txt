@@ -14,7 +14,7 @@ Here is the chain of reasoning we will follow:
 
 1. Boundary-Localized Modes (4.2, 4.4): When a zone boundary has curved geometry—a warped extra dimension, an orbifold singularity, or an asymmetric shape—it can support zero-mode fermions and gauge bosons that are trapped at that boundary.
 
-2. Topological Structure (4.2, 4.3): The Waters Below has threefold rotational symmetry (the orbifold S to the 1/ Z sub 3). This gives three topological sectors. The Waters Above is bounded asymmetrically at xi = 0 (our brane) but extends infinitely into xi greater than or equal to 0. These topologies are not decorative; they enforce the structure of the gauge groups.
+2. Topological Structure (4.2, 4.3): The Waters Below has threefold rotational symmetry (the orbifold S to the 1/ Z sub 3). This gives three topological sectors. The Waters Above is bounded asymmetrically at xi = 0 (our Firmament) but extends infinitely into xi greater than or equal to 0. These topologies are not decorative; they enforce the structure of the gauge groups.
 
 3. Gauge Structure (4.2, 4.4): Three topological sectors → three independent gauge modes → SU(3) sub C (color, the strong force). Asymmetric boundary conditions → left-handed zero modes couple strongly, right-handed modes decouple → SU(2) sub L (weak isospin, the weak force).
 
@@ -30,15 +30,31 @@ Why Three Colors?.
 
 Return to the Waters Below—the region between the two branes that house our universe. Its geometry in the extra dimension (the eta coordinate) is special. Recall from Chapter 2 that the eta dimension closes back on itself on a circle S to the 1, but with a twist: fermions and gauge fields living there satisfy a Z sub 3 orbifold identification, meaning that a rotation by 2 pi /3 around the circle identifies points. Physically, the eta coordinate ranges from 0 to eta sub B, and beyond eta sub B there is no space—a hard boundary.
 
-This orbifold structure is not chosen for convenience. It emerges from the thermodynamics of the membrane. The Waters Below are bounded by two branes—the bulk below (at eta = 0) and the Reheating Surface (at eta = eta sub B). The membrane tension sigma and the dilaton field produce a confining geometry. Within this geometry, the curvature has threefold rotational symmetry.
+This orbifold structure is not chosen for convenience. It emerges from the thermodynamics of the Firmament membrane. The Waters Below are bounded by two branes—the bulk below (at eta = 0) and the Reheating Surface (at eta = eta sub B). The Firmament tension sigma and the dilaton field produce a confining geometry. Within this geometry, the curvature has threefold rotational symmetry.
 
 The key quantity is the Gaussian warp factor:
 
 [Equation — see print edition.]
 
-where gamma is a coupling constant related to the membrane tension. This quadratic form has threefold symmetry: B( eta ) is invariant under eta to e to the 2 pi i/3 eta.
+Warp profile note: Chapter 4 uses a Gaussian Waters Below warp profile B( eta ) = - gamma to the 2 eta to the 2/2, whereas Chapter 2 adopts an exponential form the expression. These are distinct functional forms with different physical implications (Gaussian is symmetric about eta =0; exponential is monotonically decaying). A canonical warp profile consistent with the 6D Einstein equations must be established before these chapters are unified — see Open Problem 2.WP.
 
-This topological structure is profound. A wavefunction in the Waters Below must be single-valued when we traverse the eta circle and return to the starting point. But the orbifold identification says that eta and e to the 2 pi i/3 eta are the same point. For a wavefunction to respect this, it must satisfy:
+where gamma is a coupling constant related to the Firmament tension. This quadratic form has threefold symmetry: B( eta ) is invariant under eta to e to the 2 pi i/3 eta.
+
+⚠ Mathematical Correction (Rev. 2026-05-14) — Z₃ Orbifold on Real Coordinate:
+As written, the identification eta to e to the 2 pi i/3 eta is undefined because eta R is a real coordinate and e to the 2 pi i/3 is complex. Rotating a real number by a complex phase does not yield a real number, so this action cannot be an isometry of the real line.
+The correct construction requires the Waters Below extra dimension to have a two-dimensional fiber. Let w = eta sub 1 + i eta sub 2 C be a complex coordinate built from two real extra-dimensional coordinates ( eta sub 1, eta sub 2) that together parametrize the Waters Below transverse directions. The Z sub 3 action is then:
+
+[Equation — see print edition.]
+
+which is a well-defined rotation in the ( eta sub 1, eta sub 2) plane by 120°. The boundary |w| = eta sub B is a circle in this 2D fiber, and the quotient S to the 1/ Z sub 3 (or more precisely the Z sub 3 orbifold of the disk |w| less than or equal to eta sub B) divides the fiber into three fundamental domains. The warp factor the expression is manifestly Z sub 3-invariant because |e to the 2 pi i/3w| = |w|.
+The orbifold condition on wavefunctions becomes:
+
+[Equation — see print edition.]
+
+This is mathematically precise. The derivation in this section proceeds as written once this complexification is understood. The three topological sectors correspond to the three irreducible characters of Z sub 3 acting on C, and these sectors generate SU(3) sub C by the argument in the next subsection. The correction affects the rigorous justification of the construction, not the final physical conclusions. The complete derivation with two-dimensional Waters Below fiber will appear in Vol 4.
+RT-2.SU3 is now closed (2026-05-15). The rigorous derivation of SU(3)C from the Z₃ orbifold on the 2D complex fiber w = ξ+iη = ρe^{iψ} (ψ ~ ψ+2π/3) is documented in Research/Foundations/RT2SU3Z3ORBIFOLD.md. The three Z₃ irreducible representations → three color sectors; U(3) projected to SU(3) by the tracelessness condition; 8 generators (2 diagonal + 6 off-diagonal) = 8 gluons. The derivation here is physically correct and is now supported by the completed rigorous construction. See also Ch06 §6.4.2–6.4.3 for the canonical treatment using polar coordinates.
+
+This topological structure is profound. A wavefunction in the Waters Below must be single-valued when we traverse the eta circle and return to the starting point. But the orbifold identification says that w and e to the 2 pi i/3 w are the same point in the 2D fiber (see correction box above). For a wavefunction to respect this, it must satisfy:
 
 [Equation — see print edition.]
 
@@ -74,7 +90,7 @@ When a gauge field is localized to a boundary, its coupling strength to bulk fer
 
 where psi sub q( eta ) is the quark zero mode and psi sub g( eta ) is the gluon zero mode. The warp factor e to the 2 sigma ( eta ) determines the volume element in curved space.
 
-From the zone constraints in Chapter 2, the quark and gluon zero modes have a characteristic width set by the membrane tension and the curvature. Evaluating this integral yields:
+From the zone constraints in Chapter 2, the quark and gluon zero modes have a characteristic width set by the Firmament tension and the curvature. Evaluating this integral yields:
 
 [Equation — see print edition.]
 
@@ -88,9 +104,9 @@ Our zone-derived value gives:
 
 Agreement to within 1%.
 
-This agreement is not fortuitous. It reflects the self-consistency of the zone architecture: the same membrane tension that determines the curvature in Chapter 2 sets the width of the zero modes here, which in turn determines the coupling strength. All three are connected by geometry.
+This agreement is not fortuitous. It reflects the self-consistency of the zone architecture: the same Firmament tension that determines the curvature in Chapter 2 sets the width of the zero modes here, which in turn determines the coupling strength. All three are connected by geometry.
 
-Rigor Level for §4.2: RIGOROUS. The orbifold topology is exact. The partition into three sectors is topological and cannot be continuously deformed away. The connection between winding number and gauge group representation is standard in geometry and topology. The boundary integral is exact for the zero-mode wavefunctions. The numerical evaluation of alpha sub s depends on solving the zone equations in Chapter 2; we defer the complete solution to Volume 4, but the framework is rigorous.
+Rigor Level for §4.2: RIGOROUS — RT-2.SU3 DERIVATION COMPLETE (2026-05-15). The partition into three sectors is topological; the connection between winding number and gauge group representation is standard; the 2D complex fiber construction is now formally established. See Research/Foundations/RT2SU3Z3ORBIFOLD.md for the complete derivation: Z₃ orbifold on w = ξ+iη, three representations, U(3)→SU(3) projection, generator counting. The boundary integral for alpha sub s is exact given the warp factor; the RG running from the Planck-scale KK mass to the QCD scale is deferred (OP-RT2-αs).
 
 — Confinement and Asymptotic Freedom.
 
@@ -214,19 +230,19 @@ In the Standard Model, this is attributed to a subtle choice in the Lagrangian: 
 
 But why? Why only left-handed? Why not both? Why not right-handed?
 
-The answer emerges from the geometry of the Waters Above—the extra-dimensional region where our brane lives.
+The answer emerges from the geometry of the Waters Above—the extra-dimensional region where our Firmament lives.
 
 Asymmetric Boundary Conditions: Waters Above as a Half-Space.
 
-Recall that the Waters Above are not symmetric. They extend from our brane (at xi = 0) into the xi greater than or equal to 0 half-space. There is no negative-xi region—no "far side" of the extra dimension. This asymmetry is not coincidental; it reflects the boundary condition imposed by our brane's boundary.
+Recall that the Waters Above are not symmetric. They extend from our Firmament (at xi = 0) into the xi greater than or equal to 0 half-space. There is no negative-xi region—no "far side" of the extra dimension. This asymmetry is not coincidental; it reflects the boundary condition imposed by our Firmament's boundary.
 
-In the full higher-dimensional geometry, our brane is not a passive observer. It is a dynamical object—a topological defect—that breaks the symmetry of the higher-dimensional bulk. Above the brane (xi > 0), the geometry is smooth and warped. Below the brane (xi < 0), there is a different structure (the Waters Below in the eta direction, but along xi the geometry terminates).
+In the full higher-dimensional geometry, our Firmament is not a passive observer. It is a dynamical object—a topological defect—that breaks the symmetry of the higher-dimensional bulk. Above the Firmament (xi > 0), the geometry is smooth and warped. Below the Firmament (xi < 0), there is a different structure (the Waters Below in the eta direction, but along xi the geometry terminates).
 
-This asymmetry has profound consequences for fermions that live on or near the brane. Left-handed and right-handed fermions must satisfy different boundary conditions.
+This asymmetry has profound consequences for fermions that live on or near the Firmament. Left-handed and right-handed fermions must satisfy different boundary conditions.
 
 Gauge Boson Profile: Asymmetric in xi.
 
-Consider the W boson field the expression as it lives in the Waters Above. At xi = 0 (our brane), the boundary condition is Neumann: the field can have a nonzero value and a nonzero derivative. At xi to infinity, the field must decay to zero because the extra dimension is finite in a confining sense (interactions become exponentially suppressed far from the brane).
+Consider the W boson field the expression as it lives in the Waters Above. At xi = 0 (our Firmament), the boundary condition is Neumann: the field can have a nonzero value and a nonzero derivative. At xi to infinity, the field must decay to zero because the extra dimension is finite in a confining sense (interactions become exponentially suppressed far from the Firmament).
 
 The W boson field satisfies a wave equation in the xi direction:
 
@@ -343,7 +359,10 @@ The Goldhaber result:
 
 Again, perfect agreement with our zone-derived picture.
 
-Rigor Level for §4.4: RIGOROUS. The asymmetry of the Waters Above is fixed geometry. Boundary conditions are exact. The suppression of right-handed coupling follows from the odd-parity tail of the W boson wavefunction, which is a standard calculation in quantum mechanics in a half-space. The three generations from vortex defects is topological: the number of topological sectors is quantized and cannot change. The V−A structure follows directly from the left-handed projection. All predictions are compared to high-precision experiments and agree to better than 1%.
+Rigor Level for §4.4: MIXED.
+- V−A structure and SU(2)_L coupling: RIGOROUS. The asymmetry of the Waters Above is fixed geometry. Boundary conditions are exact. The suppression of right-handed coupling follows from the odd-parity tail of the W boson wavefunction, which is a standard calculation in quantum mechanics in a half-space.
+- Three-generation count: APPROXIMATE (conditional on Postulate F). The topological count of three distinct vortex-defect sectors in the Waters Above is rigorous — the number of sectors is quantized by pi sub 3(S to the 2) = Z and cannot change by continuous deformation. However, the identification of these three sectors with three fermion generations additionally requires (a) the existence of spin-½ fermions bound to the vortices by the Jackiw-Rossi zero-mode mechanism, and (b) the binding of each fermion family to a distinct topological sector. Both steps depend on Postulate F (Vol 1 Ch 1 §1.9 — primordial spinor field, unresolved as of this writing). A failure of Postulate F would collapse the three-generation prediction entirely. For this reason the three-generation count is labeled APPROXIMATE / CONDITIONAL rather than rigorous. The label in Table 2.4.7 should be read accordingly.
+- Gauge-boson couplings and V−A agreement with experiment: RIGOROUS, within the Standard Model framework. These do not depend on Postulate F.
 
 — Electroweak Symmetry Breaking and W/Z Masses.
 
@@ -371,7 +390,7 @@ where v is the vacuum expectation value (VEV). Experiment tells us:
 
 [Equation — see print edition.]
 
-This is not a free parameter. It emerges from the zone structure. The membrane tension σ and the scale η_B together determine the energy density of the Waters Below, which couples to the scalar potential and sets v. (The precise calculation belongs in Volume 4, where we solve the coupled zone equations in full.) For now, take v as nature's way of announcing that a symmetry has been spontaneously broken.
+This is not a free parameter. It emerges from the zone structure. The Firmament tension σ and the scale η_B together determine the energy density of the Waters Below, which couples to the scalar potential and sets v. (The precise calculation belongs in Volume 4, where we solve the coupled zone equations in full.) For now, take v as nature's way of announcing that a symmetry has been spontaneously broken.
 
 Once Φ acquires a VEV, gauge covariance demands that the kinetic term in the Lagrangian:
 
@@ -408,6 +427,8 @@ where gY is the U(1)Y coupling. From the zone geometry of §4.3 and §4.4, the r
 The precise evaluation requires solving the warp factor in the intermediate zone — which we defer to Volume 4. But the zone geometry fixes the ratio. From Vol 2, Ch 3, we know that electromagnetic coupling unifies from geometric sources. That unification constrains gY relative to gW. The result:
 
 [Equation — see print edition.]
+
+⚠ Derivation Status (Rev. 2026-05-14): The value to the 2 theta sub W = 0.2312 stated here is not independently derived in this volume. The tree-level zone-architecture formula (2.4.41) gives the expression, which requires evaluating the boundary integrals (2.4.42) for both g sub Y and g sub W. That evaluation is deferred to Volume 4 ("the precise evaluation requires solving the warp factor in the intermediate zone"). The value 0.2312 is quoted here as the experimental number that the full derivation must reproduce — it is not a zone prediction at this stage. The tree-level coupling ratio from the logarithmic warp geometry gives approximately to the 2 theta sub W approximately equal to 0.13; radiative corrections and the full Volume 4 calculation are required to reach the measured value. This result is PENDING derivation — see Research Task RT-2.SW.
 
 Experiment gives sin²θ_W = 0.2310 ± 0.0002 at the Z scale. Agreement to one part in a thousand.
 
@@ -805,15 +826,15 @@ Gauge Group: SU(3) sub C. Symmetry: Color. Origin: Threefold zone orbifold topol
 Gauge Group: SU(2) sub L. Symmetry: Left-handed isospin. Origin: Waters Above asymmetry. Mediator(s): the expression, Z. Coupling: g sub W approximately equal to 0.65.
 Gauge Group: U(1) sub Y. Symmetry: Hypercharge. Origin: Waters Below phase structure. Mediator(s): B (mixes to gamma, Z). Coupling: g sub Y approximately equal to 0.36.
 
-All three emerge from zone geometry. None is put in by hand. None requires fine-tuning. They are topological and geometric consequences of the membrane structure.
+All three emerge from zone geometry. None is put in by hand. None requires fine-tuning. They are topological and geometric consequences of the Firmament structure.
 
-Moreover, the coupling constants g sub s, g sub W, g sub Y are not independent free parameters. They are ratios of boundary integrals over the warp factor, determined by the membrane tension, the zone thickness, and the curvature profile. In a complete theory (Volume 4), they would be computed from first principles.
+Moreover, the coupling constants g sub s, g sub W, g sub Y are not independent free parameters. They are ratios of boundary integrals over the warp factor, determined by the Firmament tension, the zone thickness, and the curvature profile. In a complete theory (Volume 4), they would be computed from first principles.
 
 The Hierarchy Problem Revisited
 
 One of the deepest puzzles in particle physics is the hierarchy problem: why is the weak scale (~ 100 GeV, set by the W and Z masses) so much smaller than the Planck scale (~ 10^19 GeV, where gravity becomes strong)?
 
-In the zone picture, this is not a puzzle; it is a geometric fact. The weak scale is set by the size of the Waters Above in the xi direction. The Planck scale is set by the bulk geometry and the membrane tension. These are decoupled parameters. In a warped extra dimension with moderate warp factors (curvature ratios of order 10–100), a hierarchy of scales emerges naturally. The weak scale can be ~ 100 GeV even though the fundamental scale is much higher.
+In the zone picture, this is not a puzzle; it is a geometric fact. The weak scale is set by the size of the Waters Above in the xi direction. The Planck scale is set by the bulk geometry and the Firmament tension. These are decoupled parameters. In a warped extra dimension with moderate warp factors (curvature ratios of order 10–100), a hierarchy of scales emerges naturally. The weak scale can be ~ 100 GeV even though the fundamental scale is much higher.
 
 This resolves one of the longest-standing mysteries in fundamental physics.
 
@@ -913,11 +934,28 @@ Problem 4.9: Neutron Lifetime and Weak Decay.
 
 The neutron β-decay lifetime is τ_n ≈ 880 seconds. This is related to the weak coupling strength through the decay rate Γ = 1/τ.
 
-(a) The theoretical decay width for n → p + e⁻ + ν̄_e is given by:
+(a) The theoretical decay width for n → p + e⁻ + ν̄_e is governed by the endpoint phase space. In the massless-final-state approximation — valid when all final state masses are negligible compared to the parent mass — the decay rate in natural units (ℏ = c = 1) takes the form:
 
 [Equation — see print edition.]
 
-where GF = 1.1664 × 10⁻⁵ GeV⁻² is the Fermi constant, Vud ≈ 0.974 is the CKM matrix element (quark mixing), and mn ≈ 0.939 GeV is the neutron mass. Compute Γ and τn, and compare to the measured value.
+where m is the relevant mass scale. This formula, however, cannot use m = mn for neutron beta decay. The reason is that the neutron-proton mass difference Q = mn − mp ≈ 1.293 MeV is vastly smaller than mn ≈ 939 MeV, so the phase space is suppressed by (Q/mn)^5 ≈ 10⁻¹⁴. Using mn in the formula would overestimate Γ by ~10¹⁴.
+
+The dimensional-error fix and the correct formula for neutron beta decay (including the axial-vector contribution and the Fermi phase-space integral) is:
+
+[Equation — see print edition.]
+
+where:
+- G_F = 1.1664 × 10⁻⁵ GeV⁻² (Fermi constant, in natural units)
+- |V_ud|² ≈ 0.949 (CKM element)
+- g_A ≈ 1.27 (axial-vector coupling ratio)
+- m_e = 5.11 × 10⁻⁴ GeV (electron mass)
+- E0 = mn − mp − me ≈ 7.83 × 10⁻⁴ GeV = 0.783 MeV (endpoint energy)
+- f(E0/me) ≈ 1.636 (Fermi phase-space integral — a dimensionless number, exact form is a numerical integral over the electron spectrum)
+- ℏ = 6.582 × 10⁻²⁵ GeV·s (the ℏc conversion factor restoring SI units)
+
+Why ℏ appears explicitly here: In the formula above, GF is quoted in natural units (GeV⁻²), and me is in GeV, so the product GF² me⁵ has dimensions of GeV (energy). The factor ℏ in the denominator converts GeV to s⁻¹: Γ [s⁻¹] = Γ [GeV] / ℏ [GeV·s].
+
+Using the values above, compute Γ in s⁻¹ and τn = 1/Γ in seconds. Compare to the measured neutron lifetime τn ≈ 880 s. (Your result should agree to within ~10%, with the residual coming from Coulomb corrections and radiative corrections not included in this leading-order formula.)
 
 (b) If the weak coupling gW were twice as strong, how would τn change?
 
@@ -933,7 +971,7 @@ Write down a similar integral for gW (the weak coupling) and explain how it diff
 
 (b) In a complete calculation, these integrals would need to be evaluated using the full warp factors from Chapter 2. Outline the steps you would take to compute gs and gW from first principles, starting from the zone metric.
 
-(c) Propose a test: if the zone framework is correct, any change to the membrane tension σ (which affects curvature and warp factors) should cause both gs and gW to shift in a correlated way. Design an experiment or observation that could test this prediction.
+(c) Propose a test: if the zone framework is correct, any change to the Firmament tension σ (which affects curvature and warp factors) should cause both gs and gW to shift in a correlated way. Design an experiment or observation that could test this prediction.
 
 End of Chapter 4
 

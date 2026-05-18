@@ -65,7 +65,7 @@ $$\eta_B^{\text{observed}} = 6.10 \pm 0.04 \times 10^{-10} \quad \text{(Planck 2
 
 From ACTION_6D_COMPLETE.md, the complete 6D action is:
 
-$$S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
+$$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
 
 **Dimensional analysis in 6D:**
 
@@ -91,10 +91,10 @@ $$\Rightarrow [S] = \text{energy}^2 \times \text{length}^6 \times \text{length}^
 The gauge field action (SU(3) × SU(2) × U(1)):
 $$S_{\text{gauge}} = -\int d^6x \sqrt{-g_6} \left[\frac{1}{4}F^A_{\mu\nu}F_A^{\mu\nu} + \frac{1}{4}G^A_{\mu\nu}G_A^{\mu\nu} + \frac{1}{4}B^A_{\mu\nu}B_A^{\mu\nu}\right] \tag{1.2)$$
 
-The matter action (fermions and scalars on the Firmament brane):
+The matter action (fermions and scalars on the Firmament):
 $$S_{\text{matter}} = \int d^4x \sqrt{-g_4} \left[i\bar{\Psi}\gamma^\mu D_\mu \Psi - m\Psi\bar{\Psi} + |D_\mu \Phi|^2 - V(\Phi)\right] \tag{1.3)$$
 
-where the integral is restricted to the Firmament brane at $(\xi_0, \eta_0)$.
+where the integral is restricted to the Firmament at $(\xi_0, \eta_0)$.
 
 ### 1.2 The Open System Axiom and Thermodynamics
 
@@ -183,7 +183,7 @@ $$\Psi_B(\eta) \text{ condenses in negative-η direction} \quad \eta < 0$$
 
 **The Firmament:**
 
-A 4D brane forms at the boundary between Waters Above and Below:
+A 4D Firmament forms at the boundary between Waters Above and Below:
 $$\text{Firmament located at } (\xi = \xi_0, \eta = \eta_0)$$
 
 where $\xi_0 \approx 10^{-27}$ m (small but nonzero) and $\eta_0 \approx -10^{-27}$ m (small negative).
@@ -326,11 +326,11 @@ $$\text{Actually, } \xi_A \gg |η_B| \quad \Rightarrow \quad \text{CP is broken}
 The strength of CP violation is quantified by the Jarlskog invariant in the CKM matrix:
 $$J_{\text{CP}} = \text{Im}(V_{us} V_{cb} V_{ub}^* V_{cs}^*) \approx 3 \times 10^{-5}$$
 
-This can be related to the dimensional asymmetry through the vortex topology. The three-generation structure of quarks and leptons arises from topological modes of the membrane; the CKM phases are determined by the overlap integrals of these modes with the zone boundary:
+This can be related to the dimensional asymmetry through the vortex topology. The three-generation structure of quarks and leptons arises from topological modes of the Firmament; the CKM phases are determined by the overlap integrals of these modes with the zone boundary:
 
 $$J_{\text{CP}} \sim \left(\frac{|\eta_B|}{\xi_A}\right)^{\alpha} \quad \text{with } \alpha = 1-2 \tag{3.6)$$
 
-The precise value depends on the detailed structure of the membrane topology (see MASS_SPECTRUM_v3.md for generation structure calculation).
+The precise value depends on the detailed structure of the Firmament topology (see MASS_SPECTRUM_v3.md for generation structure calculation).
 
 **Status: RIGOROUS**
 
@@ -465,7 +465,7 @@ $$\frac{dn_B}{dV \, dt} \sim 10^{-24} \times (10^{13} \text{ GeV})^7 \sim 10^{70
 
 **Energy scale of zone formation:**
 
-The energy scale is set by the membrane tension and zone separation:
+The energy scale is set by the Firmament tension and zone separation:
 
 $$E_{\text{zone}} = \sigma \times A_{\text{Firmament}} \tag{4.8)$$
 
@@ -504,11 +504,11 @@ The sphaleron rate:
 $$\Gamma_{\text{sph}} = \alpha_W^5 M_W^4 \exp(-E_{\text{sph}}/T) \quad \text{at } T < M_W$$
 $$\Gamma_{\text{sph}} \sim \alpha_W^5 T^4 \quad \text{at } T > M_W \tag{5.1)$$
 
-### 5.2 Enhancement from 6D Membrane Dynamics
+### 5.2 Enhancement from 6D Firmament Dynamics
 
 During the Day 2 zone formation, the Firmament membrane is crystallizing. This creates **additional topological channels** for baryon number violation:
 
-1. **Membrane mode sphalerons:** The membrane condensation itself can mediate baryon number violation through instanton-like processes localized at the $(\xi_0, \eta_0)$ boundary.
+1. **Firmament mode sphalerons:** The Firmament condensation itself can mediate baryon number violation through instanton-like processes localized at the $(\xi_0, \eta_0)$ boundary.
 
 2. **Inter-zone tunneling:** Configurations that tunnel between Waters Above and Waters Below, crossing the Firmament, can violate baryon number with enhanced rate.
 
@@ -519,7 +519,7 @@ During the Day 2 zone formation, the Firmament membrane is crystallizing. This c
 The combination of standard sphalerons + membrane-mediated processes:
 $$\Gamma_{\text{enhanced}} \sim \alpha_s^5 T^4 \times \left(1 + \frac{T}{M_{\text{zone}}}\right) \quad \text{during Day 2} \tag{5.2)$$
 
-where $M_{\text{zone}} \sim 10^{17}$ GeV is the membrane mass scale.
+where $M_{\text{zone}} \sim 10^{17}$ GeV is the Firmament mass scale.
 
 At $T \sim 10^{13}$ GeV:
 $$\Gamma_{\text{enhanced}} \sim \alpha_s^5 T^4 \times (1 + 0.01) \approx 1.01 \times \alpha_s^5 T^4$$
@@ -670,7 +670,7 @@ From the 6D action and zone architecture:
 |-----------|-------|-----------------|
 | $\xi_A$ | $3 \times 10^{26}$ m | Waters Above scale |
 | $\eta_B$ | $1.3 \times 10^{-15}$ m | Waters Below scale |
-| $\sigma$ | $6 \times 10^{98}$ kg/(m·s²) | Membrane tension |
+| $\sigma$ | $6 \times 10^{98}$ kg/(m·s²) | Firmament tension |
 | $\mu$ | $6.7 \times 10^{81}$ kg/m³ | Volume mass density |
 | $c$ | $3 \times 10^8$ m/s | Speed of light |
 | $\alpha^{-1}$ | $137.26$ | Fine structure constant |

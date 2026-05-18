@@ -12,7 +12,7 @@ But we deliberately left something unfinished.
 
 Newton's theory of gravity has a fatal flaw, and Newton himself knew it. In a famous letter to Richard Bentley in 1693, Newton wrote: "That gravity should be innate, inherent, and essential to matter, so that one body may act upon another at a distance through a vacuum, without the mediation of anything else... is to me so great an absurdity that I believe no man who has in philosophical matters a competent faculty of thinking can ever fall into it."
 
-The problem is action at a distance. In Newton's formulation, if the Sun were to suddenly vanish, the Earth would instantly feel the change in gravitational pull — faster than light, violating the causal structure of spacetime. This is not merely a philosophical concern. The zone manifold M sub Z has a definite causal structure: the metric (Eq. 1.4.2) defines light cones, and no physical influence can propagate outside them. Information on the zone manifold travels at the membrane wave speed c — the same speed that governs electromagnetic waves (Ch 3, Eq. 2.3.33; Ch 7, Eq. 2.7.5). A theory of gravity that permits instantaneous propagation is inconsistent with the zone architecture.
+The problem is action at a distance. In Newton's formulation, if the Sun were to suddenly vanish, the Earth would instantly feel the change in gravitational pull — faster than light, violating the causal structure of spacetime. This is not merely a philosophical concern. The zone manifold M sub Z has a definite causal structure: the metric (Eq. 1.4.2) defines light cones, and no physical influence can propagate outside them. Information on the zone manifold travels at the Firmament membrane wave speed c — the same speed that governs electromagnetic waves (Ch 3, Eq. 2.3.33; Ch 7, Eq. 2.7.5). A theory of gravity that permits instantaneous propagation is inconsistent with the zone architecture.
 
 The resolution is the same one Einstein found in 1915, but we arrive at it from a different direction. Chapter 2 derived the 4D Einstein field equations (Eq. 2.2.12) as a consequence of the 6D zone action. Those equations are fully relativistic — they respect the causal structure of the Firmament. Newtonian gravity is their weak-field, slow-motion limit. The full equations describe a gravitational field that propagates, carries energy, and obeys the same causality constraints as every other field on the zone manifold.
 
@@ -48,7 +48,7 @@ where:
 
 - G sub mu nu = R sub mu nu - 1 over 2g sub mu nu R is the Einstein tensor, encoding the curvature of 4D spacetime.
 - Lambda _ eff is the effective cosmological constant, inherited from the vacuum energy of the Waters Above (Vol 1, Ch 6).
-- G sub 4 = G sub 6/V_ extra = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻² is the gravitational constant, derived from zone geometry (Ch 2, Eq. 2.2.11).
+- G sub 4 = G sub 6/V_ extra = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻² is the gravitational constant, derived from zone geometry (Ch 2, Eq. 2.2.11). (Note: the specific formula the expression used in Ch 2 Route 2 has a dimensional inconsistency under investigation — see Ch 2 §2.4.2 dimensional note and Research Task RT-2.G. The numerical value used here is the measured value; its zone derivation is provisional.)
 - T sub mu nu is the stress-energy tensor of matter and radiation confined to the Firmament.
 
 These equations are exact within the 4D effective theory — they are the full nonlinear Einstein equations, not an approximation. Every solution of standard General Relativity (Schwarzschild black holes, Kerr rotating black holes, FRW cosmology, gravitational waves) is also a solution of (2.8.1), with G sub 4 and Lambda _ eff taking their zone-derived values rather than being free parameters.
@@ -85,7 +85,7 @@ Write the 4D metric as a small perturbation around flat Minkowski spacetime:
 
 where eta sub mu nu = diag(-1, +1, +1, +1) is the Minkowski metric (in the (-,+,+,+) signature convention established in Vol 1, Ch 2) and h sub mu nu (x) is the perturbation — a symmetric tensor field that encodes the gravitational wave.
 
-Why flat Minkowski as the background? Because we are interested in gravitational waves propagating through regions far from strong gravitational sources. In such regions, the Firmament metric (the induced metric on the 4D brane, Vol 1 Ch 4, Eq. 1.4.2 evaluated at xi = xi sub 0, eta = eta sub 0) reduces to the Minkowski metric up to corrections of order r sub s/r, which is the very quantity we treat as small. For gravitational waves near their sources (e.g., in the strong-field regime of a binary merger), the background should be the full Schwarzschild or Kerr metric — but that is the business of Volume 5. Here, the Minkowski background is both natural and sufficient.
+Why flat Minkowski as the background? Because we are interested in gravitational waves propagating through regions far from strong gravitational sources. In such regions, the Firmament metric (the induced metric on the 4D Firmament, Vol 1 Ch 4, Eq. 1.4.2 evaluated at xi = xi sub 0, eta = eta sub 0) reduces to the Minkowski metric up to corrections of order r sub s/r, which is the very quantity we treat as small. For gravitational waves near their sources (e.g., in the strong-field regime of a binary merger), the background should be the full Schwarzschild or Kerr metric — but that is the business of Volume 5. Here, the Minkowski background is both natural and sufficient.
 
 The inverse metric, to first order in h:
 
@@ -233,7 +233,7 @@ The wave equation (2.8.13) requires:
 
 [Equation — see print edition.]
 
-Gravitational waves propagate at the speed of light — the same speed as electromagnetic waves. This is not a coincidence. Both speeds are determined by the same quantity: the membrane wave speed c = square root of sigma / mu on the Firmament (Vol 1, Ch 5, Eq. 1.5.36). In the zone architecture, c GW = c EM is an exact identity, not a near-equality. This prediction was dramatically confirmed on August 17, 2017, when the gravitational wave signal GW170817 from a neutron star merger arrived at LIGO within 1.7 seconds of the gamma-ray burst GRB170817A detected by Fermi — after traveling 130 million light-years. The fractional speed difference is bounded: the expression.
+Gravitational waves propagate at the speed of light — the same speed as electromagnetic waves. This is not a coincidence. Both speeds are determined by the same quantity: the Firmament membrane wave speed c = square root of sigma / mu on the Firmament (Vol 1, Ch 5, Eq. 1.5.36). In the zone architecture, c GW = c EM is an exact identity, not a near-equality. This prediction was dramatically confirmed on August 17, 2017, when the gravitational wave signal GW170817 from a neutron star merger arrived at LIGO within 1.7 seconds of the gamma-ray burst GRB170817A detected by Fermi — after traveling 130 million light-years. The fractional speed difference is bounded: the expression.
 
 Counting Physical Degrees of Freedom.
 
@@ -533,7 +533,7 @@ This section identifies three zone-specific predictions in the gravitational wav
 
 Prediction 1: Gravitational Wave Speed Equals Light Speed (Confirmed).
 
-In standard GR, the gravitational wave speed c GW equals the speed of light c EM by construction — both are properties of the same metric. In the zone architecture, this equality has a deeper origin: both c GW and c EM are determined by the same membrane wave speed c = square root of sigma / mu (Vol 1, Ch 5, Eq. 1.5.36), because both are propagating modes on the same Firmament.
+In standard GR, the gravitational wave speed c GW equals the speed of light c EM by construction — both are properties of the same metric. In the zone architecture, this equality has a deeper origin: both c GW and c EM are determined by the same Firmament membrane wave speed c = square root of sigma / mu (Vol 1, Ch 5, Eq. 1.5.36), because both are propagating modes on the same Firmament.
 
 The zone prediction is:
 
@@ -578,7 +578,7 @@ Falsification Criteria.
 
 The zone-specific gravitational wave predictions lead to three specific falsification criteria:
 
-1. If c GW not equal to c EM is ever detected at the >10 to the -15 level: The zone framework's prediction (2.8.46) would be falsified. The Firmament would not have a unique wave speed, contradicting the membrane mechanics of Vol 1, Ch 5.
+1. If c GW not equal to c EM is ever detected at the >10 to the -15 level: The zone framework's prediction (2.8.46) would be falsified. The Firmament would not have a unique wave speed, contradicting the Firmament membrane mechanics of Vol 1, Ch 5.
 
 2. If additional tensor polarization modes (beyond h+ and h times) are detected: This would indicate more than 2 physical degrees of freedom in the gravitational wave sector — inconsistent with the 2-extra-dimension zone manifold.
 

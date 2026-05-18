@@ -106,7 +106,7 @@ Second, the extra dimensions are not compactified to unobservably small size. In
 - xi extends from the Firmament to the Hubble scale: xi sub A approximately 3 times 10 to the 26 m (1.4.24)
 - eta extends from the Firmament to the nuclear scale: eta sub B approximately 1.3 times 10 to the -15 m (1.4.28)
 
-The reason we don't observe these large extra dimensions is not that they are small, but that the warp factors (1.4.2) confine matter and light to the Firmament. We live on a brane — a membrane in the higher-dimensional space — and our physics is the shadow of the bulk geometry onto that brane.
+The reason we don't observe these large extra dimensions is not that they are small, but that the warp factors (1.4.2) confine matter and light to the Firmament. We live on a Firmament — a membrane in the higher-dimensional space — and our physics is the shadow of the bulk geometry onto that Firmament.
 
 From Six Dimensions to Four: The Kaluza-Klein Mechanism.
 
@@ -117,6 +117,8 @@ The key mathematical tool for extracting forces from geometry is dimensional red
 Recall the complete 6D metric from Volume 1, Chapter 4 (Eq. 1.4.2):
 
 [Equation — see print edition.]
+
+[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from 6D Einstein equations. See Open Problem 1.WF.]
 
 This metric is block-diagonal — the 4D part and the extra-dimensional part do not mix. But this is the background metric, the metric of the vacuum. When we allow small perturbations — the fluctuations that describe particles and waves — off-diagonal terms appear. These off-diagonal terms are the key.
 
@@ -168,7 +170,9 @@ The electromagnetic coupling was previewed in Volume 1, Chapter 4 (Eq. 1.4.61):
 
 [Equation — see print edition.]
 
-The fine structure constant — one of the most mysterious numbers in physics — emerges as the logarithm of a geometric ratio. The geometric factor K approximately equal to 1.44 is not a fitted parameter — it is derived from the overlap integral of the electromagnetic zero mode with the bulk warp factors (Eqs. 1.4.61a–1.4.61b in Volume 1). With this derived value, the expression, the prediction is alpha to the -1 approximately equal to 137.1, compared to the experimental value 137.036 (Eq. 1.4.64–1.4.65). Agreement to better than 0.1%.
+The fine structure constant — one of the most mysterious numbers in physics — emerges as the logarithm of a geometric ratio. The geometric factor K approximately equal to 1.44 depends on the effective particle content of the Standard Model (derived in Vol 4); see the parameter disclosure in Ch 3, §3.7.4. With this value, the expression, the prediction is alpha to the -1 approximately equal to 137.1, compared to the experimental value 137.036 (Eq. 1.4.64–1.4.65). Agreement to better than 0.1%.
+
+[Provisional — warp functions A(ξ,η), B(ξ,η) used in coupling integrals are not yet derived from 6D Einstein equations. See Open Problem 1.WF.]
 
 The nuclear force couplings arise from different integrals — boundary integrals and topological invariants of the zone structure. We will derive these in Chapters 4 and 6.
 
@@ -282,7 +286,7 @@ The Topological Protection of Four.
 
 There is a deeper reason why the number four is robust: it is topologically protected. Topology, unlike geometry, is invariant under smooth deformations. You can stretch, bend, or compress the zone manifold, but as long as you don't tear it or glue new pieces together, the number of independent topological sectors does not change.
 
-This means the number of forces is insensitive to the detailed values of the warp factors, the brane tension, the cosmological constant, or any other continuous parameter. You can adjust xi sub A, eta sub B, sigma, and Lambda sub 6 freely — the force strengths will change, but the number of forces will remain four. Only a change in the topology of the extra dimensions (adding a dimension, changing the number of zones, or modifying the boundary conditions qualitatively) could alter the force count.
+This means the number of forces is insensitive to the detailed values of the warp factors, the Firmament tension, the cosmological constant, or any other continuous parameter. You can adjust xi sub A, eta sub B, sigma, and Lambda sub 6 freely — the force strengths will change, but the number of forces will remain four. Only a change in the topology of the extra dimensions (adding a dimension, changing the number of zones, or modifying the boundary conditions qualitatively) could alter the force count.
 
 This topological protection explains an otherwise puzzling fact about physics: the number of fundamental forces has remained constant throughout cosmic history, even as the coupling strengths have changed dramatically (from the Planck era to the present). The couplings run, but the force count does not, because the topology of the zone manifold is fixed by the axioms.
 
@@ -473,7 +477,7 @@ This matches the structure of our constrained Lagrangian (2.1.17) exactly, with 
 
 The difference is in origin. In the Standard Model, the gauge group and matter content are postulated. In Genesis Physics, they are derived from geometry and constrained by the five principles. The Standard Model is the correct effective theory. The zone manifold is the reason it is correct.
 
-It is worth pausing to appreciate the economy of this result. The Standard Model has approximately 19 free parameters (coupling constants, masses, mixing angles). In the zone manifold framework, all 19 are in principle calculable from the zone geometry — from the warp factors A( xi , eta ) and B( xi , eta ), the brane tension sigma, and the 6D gravitational coupling G sub 6. We say "in principle" because several of these calculations are deferred to later volumes (the fermion masses to Volume 4, the mixing angles to Volume 5). But the claim is clear: the zone manifold has fewer free parameters than the Standard Model. This is the mark of a deeper theory — it explains more with less.
+It is worth pausing to appreciate the economy of this result. The Standard Model has approximately 19 free parameters (coupling constants, masses, mixing angles). In the zone manifold framework, all 19 are in principle calculable from the zone geometry — from the warp factors A( xi , eta ) and B( xi , eta ), the Firmament tension sigma, and the 6D gravitational coupling G sub 6. We say "in principle" because several of these calculations are deferred to later volumes (the fermion masses to Volume 4, the mixing angles to Volume 5). But the claim is clear: the zone manifold has fewer free parameters than the Standard Model. This is the mark of a deeper theory — it explains more with less.
 
 Falsification and the Road Ahead.
 
@@ -506,7 +510,7 @@ We have argued that forces are geometric. Now we must prove it — derivation by
 Part I: Force from Geometry (Chapters 2–4)
 
 - Chapter 2: Gravity from Zone Curvature. Derive Newton's law from the zone metric. Calculate G from zone parameters. Explain why gravity is weak.
-- Chapter 3: Electromagnetism from Membrane Wave Propagation. Derive all four Maxwell's equations from Firmament vibrations. Show that c is a membrane property. Begin the fine structure constant derivation.
+- Chapter 3: Electromagnetism from Firmament Wave Propagation. Derive all four Maxwell's equations from Firmament vibrations. Show that c is a membrane property. Begin the fine structure constant derivation.
 - Chapter 4: The Strong and Weak Forces from Zone Boundary Effects. Derive confinement and the weak force from zone topology. Explain why these forces are short-range.
 
 Part II: Classical Field Theory on the Zone Manifold (Chapters 5–8)

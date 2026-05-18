@@ -2,7 +2,7 @@ Introduction — The Dark Sector Speaks.
 
 [Figure — see print edition.]
 
-In Chapter 5, we established the Firmament as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.0)), that Lorentz invariance follows from the uniformity of the membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
+In Chapter 5, we established the Firmament as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.0)), that Lorentz invariance follows from the uniformity of the Firmament membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
 
 But the Firmament is not alone. It sits between two vast regions of the 6D bulk: the Waters Above (Z sub 2.2.3, extending in the xi-direction) and the Waters Below (Z sub 2.2.1, extending in the eta-direction). These are not empty space. They are filled with dynamical scalar fields — Psi sub A in the Waters Above, Psi sub B in the Waters Below — that carry energy, exert pressure, and shape the large-scale structure of the cosmos.
 
@@ -56,6 +56,8 @@ The two Waters fields are real scalar fields:
 - Psi sub A(X to the A): the Waters Above field, primarily sourced in the xi-direction (Z sub 2.2.3)
 - Psi sub B(X to the A): the Waters Below field, primarily sourced in the eta-direction (Z sub 2.2.1)
 
+Note: Psi sub B is defined as a real scalar field throughout this volume. Complex components arise when the Waters Below fiber is extended in Chapters involving the Z sub 3 construction (see Vol 2). The Madelung fluid representation in §6.2.4 introduces a complex notation for perturbations around the real ground state; the imaginary part there represents the phase of a condensate, not a separate physical degree of freedom at this level.
+
 Both fields are functions of the full 6D coordinates, but — as we will show — their dynamics is dominated by the extra-dimensional directions. The 4D spacetime dependence enters primarily through the scale factor a(t) and through perturbations around equilibrium.
 
 Construction of the Action.
@@ -70,13 +72,15 @@ where:
 - S sub A = Waters Above field action
 - S sub B = Waters Below field action
 - S sub int = interaction between Psi sub A and Psi sub B
-- S sub brane = Firmament (brane) action (established in Chapter 5)
+- S sub Firm = Firmament (Firmament) action (established in Chapter 5)
 
-The gravitational and brane actions were constructed in Chapters 4 and 5 respectively. Here we construct S sub A, S sub B, and S sub int.
+The gravitational and Firmament actions were constructed in Chapters 4 and 5 respectively. Here we construct S sub A, S sub B, and S sub int.
 
 Waters Above action. The action for Psi sub A takes the standard scalar field form on a curved 6D background:
 
 [Equation — see print edition.]
+
+Sign convention (this series): The kinetic term for scalar fields is -1 over 2g to the AB partial sub A Psi partial sub B Psi throughout all volumes. With the metric signature (-,+,+,+,+,+), this gives positive kinetic energy for time derivatives: the expression. Chapter 7 Eq. (1.7.4) uses the opposite sign convention for the Waters action — that equation has a sign error that is corrected in Ch 7 (see Ch 7 correction note).
 
 The potential V( Psi sub A) must satisfy several requirements:
 1. It must have a stable minimum at Psi sub A = v sub A (the vacuum expectation value) — this gives dark energy its constant density.
@@ -179,6 +183,8 @@ where H = a/a is the Hubble parameter, Psi = partial Psi / partial t, and nabla 
 The extra-dimensional terms reflect how the warp factors channel the field dynamics. The gradients partial  xi A, partial  eta A act as effective potentials that localize the fields — Psi sub A is drawn toward the xi-direction, Psi sub B toward the eta-direction.
 
 The Navier-Stokes Analogy.
+
+Note on the Madelung formulation. The fluid-variable representation that follows applies to the complex Waters field the expression. The real field declared in §6.1.2 is the ground state of this complex field — the symmetry-broken condensate in which the global phase is locked at theta = 0. In that ground state the phase gradient vanishes (nabla theta = 0) and the velocity field v = ( h-bar /m sub B) nabla theta = 0: the Waters are in their rest configuration with zero bulk flow. The Madelung equations below describe perturbations around this equilibrium. The full complex structure of Psi sub B — including the role of ( Psi sub B) in charge conservation — is developed in §6.9 and Chapter 7.
 
 Why do we call these "Navier-Stokes-like" equations? Consider the Waters Below equation (1.6.15) in the non-relativistic, pressureless limit. Define the density rho sub B = m sub B| Psi sub B| to the 2 and velocity v = ( h-bar /m sub B) nabla ( Psi sub B). Then — through the Madelung transformation — the complex Klein-Gordon equation becomes a pair of fluid equations:
 
@@ -310,11 +316,11 @@ This vanishing pressure (w approximately equal to 0) is what makes dark matter "
 
 The Pressure Balance at the Firmament.
 
-The Firmament membrane sits at the interface between the two Waters regions. The membrane is in mechanical equilibrium when the pressures balance:
+The Firmament membrane sits at the interface between the two Waters regions. The Firmament is in mechanical equilibrium when the pressures balance:
 
 [Equation — see print edition.]
 
-where P sub A| sub xi sub 0 and P sub B| sub eta sub 0 are the Waters pressures evaluated at the Firmament, and K to the ( xi ), K to the ( eta ) are the mean extrinsic curvatures from Chapter 5 (Eqs. (1.5.19)-(1.5.20)). The membrane tension sigma mediates the balance — it is the "elastic response" of the Firmament to the competing pressures of expansion and contraction.
+where P sub A| sub xi sub 0 and P sub B| sub eta sub 0 are the Waters pressures evaluated at the Firmament, and K to the ( xi ), K to the ( eta ) are the mean extrinsic curvatures from Chapter 5 (Eqs. (1.5.19)-(1.5.20)). The Firmament tension sigma mediates the balance — it is the "elastic response" of the Firmament to the competing pressures of expansion and contraction.
 
 This pressure balance equation is the bridge between Chapters 5 and 6. It determines the position of the Firmament in the extra dimensions (i.e., the values of xi sub 0 and eta sub 0), which in turn sets the fundamental constants (through the warp factors evaluated there). We will return to this balance when we discuss equilibrium in §6.6.
 
@@ -342,7 +348,7 @@ Jump in the normal derivative (from junction conditions):
 
 [Equation — see print edition.]
 
-where sigma sub Psi sub A is the coupling of Psi sub A to the brane stress-energy and M sub 6 is the 6D Planck mass. A similar condition holds for Psi sub B in the eta-direction:
+where sigma sub Psi sub A is the coupling of Psi sub A to the Firmament stress-energy and M sub 6 is the 6D Planck mass. A similar condition holds for Psi sub B in the eta-direction:
 
 [Equation — see print edition.]
 
@@ -552,13 +558,30 @@ The energy fractions in the quasi-steady state follow from the rate equations. U
 
 In standard cosmology, these fractions are free parameters — they must be measured, not derived. The "cosmic coincidence problem" asks why Omega _ Lambda approximately Omega sub m today when they scale differently with time.
 
-In Genesis Physics, the fractions are determined by the zone geometry:
+In Genesis Physics, the fractions are determined by the zone geometry. The effective 4D energy density for each component is the integral of its 6D energy density over the extra dimensions, weighted by the volume element:
 
-- Omega _ Lambda proportional to xi sub A (extent of Waters Above region)
-- Omega sub DM proportional to eta sub B (extent of Waters Below region)
-- Omega sub b proportional to delta (Firmament thickness)
+[Equation — see print edition.]
 
-The hierarchy xi sub A much greater than eta sub B much greater than delta produces Omega _ Lambda > Omega sub DM much greater than Omega sub b. The 5% baryonic fraction reflects the fact that baryonic matter IS the membrane — a thin surface between two vast bulk regions. Its smallness is structural, not coincidental.
+[Equation — see print edition.]
+
+[Equation — see print edition.]
+
+where V sub 0 = rho _ Lambda c to the 2 is the vacuum energy density of the Waters Above (Eq. (1.6.5a)), rho sub B,0( eta ) is the Waters Below equilibrium profile (Eq. (1.6.35)), rho sub F is the baryonic matter density on the Firmament, and delta is the effective Firmament thickness. Using the warp factor profiles from Chapter 4 (§4.3.2 and §4.3.4):
+
+[Equation — see print edition.]
+
+the integrals give (using the KK-reduction result, Eq. (1.4.49) from Chapter 4):
+
+[Equation — see print edition.]
+
+The hierarchy xi sub A much greater than eta sub B much greater than delta produces Omega _ Lambda > Omega sub DM much greater than Omega sub b. The 5% baryonic fraction reflects the fact that baryonic matter IS the Firmament — a thin surface between two vast bulk regions. Its smallness is structural, not coincidental.
+
+Derivation Status — The 68/27/5 Split
+The integral expressions above establish that the energy fractions are structurally determined by the zone geometry: each fraction is a functional of the warp factor profiles and the zone boundary positions (xi sub 0, xi sub A, eta sub B, delta). The qualitative ordering (Omega _ Lambda > Omega sub DM much greater than Omega sub b) follows without free parameters.
+What is in preparation is the precise numerical derivation of the values 0.684 / 0.272 / 0.049. Computing these requires:
+(a) Deriving the absolute values of V sub 0 and rho sub B,0 from the 6D field equations (the potential parameters lambda sub A, v sub A, m sub B from first principles rather than from fitting to the observed densities);
+(b) Deriving the zone boundary positions xi sub 0 and delta self-consistently from the pressure balance equation (Eq. (1.6.46)) with inputs from the corrected σ derivation.
+This work is the subject of Foundations Volume 5, Chapters 10–11. The framework is architecturally complete; the quantitative precision calibration is active research. The energy fractions above are cited to Planck 2018 values and treated as consistency checks, not derived outputs, until Volume 5 closes the loop.
 
 [Figure — see print edition.]
 
@@ -714,6 +737,8 @@ Where this leads:
 - Volume 3 (Matter and Motion): The Madelung-form fluid equations (1.6.19)-(1.6.21) become the starting point for fluid mechanics on the zone manifold.
 - Volume 5 (The Cosmos): The cosmological solutions (de Sitter, Friedmann, structure formation) are developed in full with the tools from Volumes 2-4.
 
+A note on the general structure of the Waters fields. Throughout this chapter we have treated Psi sub A and Psi sub B as real-valued scalar fields, because the real fields represent the physical ground state — the equilibrium configurations that produce the observed dark energy density and NFW dark matter profiles. This is the correct starting point. However, the Waters fields are fundamentally complex: Psi sub A, Psi sub B C, allowing the Duality Principle (Axiom 6) to manifest as a global U(1) gauge symmetry. The ground state studied here breaks this symmetry spontaneously, leaving a real condensate. The full complex structure — and the conservation law it implies via Noether's theorem — enters in Chapter 7, where we derive charge conservation directly from the U(1) symmetry of the Waters action (1.6.9). Readers will find that the transition from real to complex is not an assumption but a consequence: it is the minimum generalization required to explain why conserved charge exists at all.
+
 Every variable has been defined. Every boundary condition has been specified. Every equation has been numbered. The Waters have spoken.
 
 Problems.
@@ -734,7 +759,7 @@ Problem 6.6. Calculate the screening length of the Waters Below field. Using m s
 
 Problem 6.7. Using the equilibrium solution for Psi sub A (constant density rho sub A = 5.8 times 10 to the -27 kg/m³), compute the cosmological constant Lambda = 8 pi G rho sub A/c to the 2 and the de Sitter Hubble parameter H = square root of Lambda /3. Compare with H sub 0 = 67.4 km/s/Mpc.
 
-Problem 6.8. Verify the pressure balance at the Firmament (Eq. (1.6.42)). Using the values from SymbolandConstants.md (sigma = 6.0 times 10 to the 98 kg/(m·s²)), estimate the magnitude of each term and show that the membrane tension dominates.
+Problem 6.8. Verify the pressure balance at the Firmament (Eq. (1.6.42)). Using the values from SymbolandConstants.md (sigma = 6.0 times 10 to the 98 kg/(m·s²)), estimate the magnitude of each term and show that the Firmament tension dominates.
 
 Conceptual Problems.
 

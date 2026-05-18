@@ -18,7 +18,7 @@ In the Genesis Physics 6D framework, the early universe is governed by membrane 
 
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk\_above}} + S_{\text{bulk\_below}} + S_{\text{interaction}}$$
 
-The membrane (Zone A) contains baryonic matter at temperature $T$. The Waters Above (Zone B) contribute dark energy; the Waters Below (Zone C) contribute dark matter. Dynamics are driven by the membrane expansion factor $a(t)$.
+The Firmament membrane (Zone A) contains baryonic matter at temperature $T$. The Waters Above (Zone B) contribute dark energy; the Waters Below (Zone C) contribute dark matter. Dynamics are driven by the Firmament membrane expansion factor $a(t)$.
 
 ---
 
@@ -26,7 +26,7 @@ The membrane (Zone A) contains baryonic matter at temperature $T$. The Waters Ab
 
 ### Sound Horizon from Membrane Acoustic Physics
 
-Before recombination ($t < t_{\text{rec}} \approx 380$ kyr), the membrane is ionized plasma. Acoustic waves propagate at the sound speed:
+Before recombination ($t < t_{\text{rec}} \approx 380$ kyr), the Firmament membrane is ionized plasma. Acoustic waves propagate at the sound speed:
 
 $$c_s = \frac{c}{\sqrt{3(1 + 3n_e/n_\gamma)}} \approx \frac{c}{\sqrt{3}} \cdot \frac{1}{\sqrt{1 + 0.75 a_e}}$$
 
@@ -76,7 +76,7 @@ The Bullet Cluster (1E 0657-56) is two galaxy clusters that collided ~1 Gyr ago.
 
 $$\text{X-ray center} \neq \text{Lensing center}$$
 
-The observed offset is ~160 kpc, with lensing mass (99% of total) displaced from baryonic gas (~10% of total). This confirms that dark matter does not couple to electromagnetic interactions — consistent with Zone C isolation in the membrane framework.
+The observed offset is ~160 kpc, with lensing mass (99% of total) displaced from baryonic gas (~10% of total). This confirms that dark matter does not couple to electromagnetic interactions — consistent with Zone C isolation in the Firmament framework.
 
 **Quantitative test:** The momentum transfer ratio should follow:
 
@@ -182,7 +182,7 @@ $$\boxed{\frac{D}{H} = 2.5 \times 10^{-5} \text{ (by number ratio)}}$$
 **Comparison with observations (Ricci et al. 2015, high-redshift Lyman-alpha forest):**
 $$\left(\frac{D}{H}\right)^{\text{obs}} = (2.53 \pm 0.04) \times 10^{-5}$$
 
-**Membrane insight:** The baryon density $\eta$ is set by the curvature of the membrane at recombination. This tight agreement validates the density parameter $\Omega_b h^2 = 0.0224$ derived from membrane geometry.
+**Membrane insight:** The baryon density $\eta$ is set by the curvature of the Firmament at recombination. This tight agreement validates the density parameter $\Omega_b h^2 = 0.0224$ derived from membrane geometry.
 
 ---
 
@@ -210,7 +210,7 @@ $$\left(\frac{\text{Li-7}}{H}\right)^{\text{obs}} \approx 1.6 \times 10^{-10}$$
 
 In the Genesis Physics framework, we propose that **membrane-mediated low-mass stellar depletion** accounts for the discrepancy:
 
-1. **Membrane-enhanced diffusion:** Li-7 atoms in the envelope of cool stars undergo enhanced diffusion due to membrane fluctuations (Zone B coupling). This allows Li-7 to settle toward the interior, where it is destroyed by:
+1. **Membrane-enhanced diffusion:** Li-7 atoms in the envelope of cool stars undergo enhanced diffusion due to Firmament fluctuations (Zone B coupling). This allows Li-7 to settle toward the interior, where it is destroyed by:
 
 $$\text{Li-7} + p \to 2 \text{He-4}$$
 
@@ -220,11 +220,11 @@ at temperatures $T > 10^6$ K.
    - Stars with $T_{\text{eff}} < 5800$ K deplete Li by factor $\sim 3$
    - This naturally explains why halo stars show Li depletions consistent with observed abundance
 
-3. **Quantitative model:** The membrane-mediated diffusion coefficient:
+3. **Quantitative model:** The Firmament-mediated diffusion coefficient:
 
 $$D_{\text{membrane}} = D_{\text{classical}} \times \left(1 + \frac{\lambda_B}{\lambda_{\text{th}}}\right)$$
 
-where $\lambda_B$ is the brane thickness and $\lambda_{\text{th}}$ is thermal wavelength. For parameters typical of Zone B coupling, this enhancement is ~3×.
+where $\lambda_B$ is the Firmament thickness and $\lambda_{\text{th}}$ is thermal wavelength. For parameters typical of Zone B coupling, this enhancement is ~3×.
 
 **Resolution:**
 $$\boxed{\text{BBN Li-7: } 5 \times 10^{-10} \; \xrightarrow[\text{stellar depletion}]{\text{3× membrane}} \; 1.6 \times 10^{-10} \text{ (observed)}}$$
@@ -239,7 +239,7 @@ At temperatures $T > 2$ MeV, neutrinos are in thermal equilibrium via weak inter
 
 $$\nu_e + e^+ \leftrightarrow \nu_e + e^- \quad (\text{and reactions involving } \nu_\mu, \nu_\tau)$$
 
-The membrane hosts these reactions. As temperature drops, weak interaction rates fall. Neutrino decoupling occurs when:
+The Firmament hosts these reactions. As temperature drops, weak interaction rates fall. Neutrino decoupling occurs when:
 
 $$\Gamma_{\text{weak}} \sim G_F^2 T^5 \approx H$$
 
@@ -296,7 +296,7 @@ If the universe is infinite and eternal with uniform starlight distribution, the
 
 ### Membrane Expansion Resolution
 
-**Finite age:** The membrane has existed only ~13.8 Gyr. Light from stars at distance $d > c t_0$ has not yet reached Earth.
+**Finite age:** The Firmament has existed only ~13.8 Gyr. Light from stars at distance $d > c t_0$ has not yet reached Earth.
 
 **Expansion redshift:** For a membrane expanding as $a(t)$, photons from distant sources are redshifted. For a photon emitted at time $t_e$ and received at time $t_0$:
 
@@ -308,7 +308,7 @@ $$I_{\text{obs}} = \frac{I_{\text{emitted}}}{(1+z)^4}$$
 
 (The $^4$ comes from: $(1+z)^2$ from photon energy redshift and $(1+z)^2$ from time dilation / volume element.)
 
-For a comoving distance $d_c$, the redshift is related to the membrane expansion history:
+For a comoving distance $d_c$, the redshift is related to the Firmament expansion history:
 
 $$d_c = \int_0^{t_{\text{obs}}} \frac{c \, dt'}{a(t')}$$
 
@@ -357,15 +357,15 @@ This is extremely dim, consistent with observations (the CMB brightness is ~$10^
 
 ## Physical Interpretation
 
-The Genesis Physics 6D membrane framework successfully reproduces the observational successes of standard BBN while providing deeper physical understanding:
+The Genesis Physics 6D Firmament framework successfully reproduces the observational successes of standard BBN while providing deeper physical understanding:
 
 1. **Zone architecture** is confirmed by the Bullet Cluster, showing dark matter (Zone C) decouples from baryonic matter (Zone A).
 
 2. **Membrane acoustic oscillations** generate the BAO scale, anchoring cosmic distances and dark energy constraints.
 
-3. **n/p freeze-out on the membrane** produces primordial nuclei (He-4, D, Li-7) in agreement with observations.
+3. **n/p freeze-out on the Firmament** produces primordial nuclei (He-4, D, Li-7) in agreement with observations.
 
-4. **Neutrino decoupling** occurs as expected when weak interaction rates drop below Hubble expansion on the membrane.
+4. **Neutrino decoupling** occurs as expected when weak interaction rates drop below Hubble expansion on the Firmament.
 
 5. **Lithium-7 discrepancy** is resolved via membrane-mediated stellar depletion mechanisms in Zone B.
 
@@ -375,4 +375,4 @@ All seven key tests (8.5, 8.8, 8.11–8.14, 8.16) validate the early-universe se
 
 ---
 
-**Document Status:** Complete. Derivation chain establishes BBN physics from 6D membrane action. Ready for Book 0, Vol. 6 (Cosmology).
+**Document Status:** Complete. Derivation chain establishes BBN physics from 6D Firmament action. Ready for Book 0, Vol. 6 (Cosmology).

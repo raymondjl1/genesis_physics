@@ -78,7 +78,7 @@ The two Round 2 precision documents (EM_PRECISION_COMPLETIONS and PARTICLE_PRECI
 **Five Electromagnetic Tests Completed**
 
 #### Test 3.6: Full Electromagnetic Spectrum
-- **Derivation**: Membrane oscillation modes → quantized frequencies ν = cn/2L
+- **Derivation**: Firmament membrane oscillation modes → quantized frequencies ν = cn/2L
 - **Mechanism**: Radio (MHz), microwave (GHz), infrared (THz), visible (PHz), UV/X-ray (EHz), gamma (>30 EHz)
 - **Numerical Verification**: All generation mechanisms (dipole radiation, magnetron, thermal, atomic transitions, bremsstrahlung) with explicit frequencies
 - **Status**: **PASS** ✓
@@ -607,7 +607,7 @@ The framework can immediately support:
 - **Status**: ✅ PASS (96% of PASS tests verified)
 - **Result**: 6D-to-observable derivation chains complete; no contradictions found
 - **Examples**:
-  - EM spectrum generation from membrane oscillations ✓
+  - EM spectrum generation from Firmament membrane oscillations ✓
   - Particle masses from 6D action ✓
   - Cosmological parameters from zone geometry ✓
 
@@ -634,7 +634,7 @@ The framework can immediately support:
 - **Result**: All PASS tests consistent with PDG, CODATA, NIST, experimental papers
 - **Novel Contribution**: 27 tests show new 6D derivations not found in standard textbooks
 - **Examples**:
-  - EM spectrum from membrane oscillation modes (novel)
+  - EM spectrum from Firmament membrane oscillation modes (novel)
   - Proton stability from GUT scale in 6D geometry (novel)
   - Higgs couplings with full precision derivation (standard SM + 6D origin)
 
@@ -759,7 +759,7 @@ Requires completion of 2 NOT YET tests (frame dragging, BH mergers) and 37 PARTI
 - Volume 5–6 (GR, cosmology, thermodynamics): Foundational + substantial gaps
 
 **Foundation for Exodus Protocol**: SOLID
-- All core physics derivable from 6D membrane action
+- All core physics derivable from 6D Firmament action
 - No contradictions with experimental observations
 - Novel 6D interpretations for 27+ physics phenomena
 - Clear path to 100% coverage in 10–14 weeks

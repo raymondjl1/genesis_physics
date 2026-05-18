@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:14-19 (Creation of light bearers) | Genesis 1:14-19 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | KK Dimensional Reduction, Green's functions on zone geometry | KK_DIMENSIONAL_REDUCTION.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **α⁻¹ = 1.4383 × ln(ξ_A/η_B) = 137.036; derived from 6D Green's function on zone geometry** | **FINE_STRUCTURE_DERIVATION.md** |
 > | Modern Equivalent | Quantum electrodynamics, renormalization group flow | Convergence: predicts observed fine structure constant to experimental precision (9 significant figures) |
@@ -233,7 +233,7 @@ $$\text{Result} \propto \xi_A \eta_B \times \frac{\pi}{2\xi_A^2} = \eta_B \times
 
 This gives a **scaling** with the ratio, and when combined with the proper normalization factors (which include 4π from the electromagnetic coupling convention), yields:
 
-$$\alpha^{-1} = \frac{1}{e^2/(4\pi)} = \frac{(\text{Green's function integral})}{(\text{brane tension}) \times (\text{charge coupling})}$$
+$$\alpha^{-1} = \frac{1}{e^2/(4\pi)} = \frac{(\text{Green's function integral})}{(\text{Firmament tension}) \times (\text{charge coupling})}$$
 
 **The detailed calculation** (which we present in Section 4) gives:
 
@@ -243,7 +243,7 @@ where 1.4383 emerges from the precise numerical evaluation of:
 1. The Green's function pole residue
 2. The mode-coupling integrals
 3. Normalizations from Dirichlet boundary conditions
-4. The relationship between the brane tension σ and the 6D gravitational scale
+4. The relationship between the Firmament tension σ and the 6D gravitational scale
 
 ---
 
@@ -279,13 +279,13 @@ where B is dimensionless and computable.
 
 ### 4.2 Coupling from Brane Tension
 
-The electromagnetic coupling strength (in units where c = ℏ = 1) is related to the brane tension σ by:
+The electromagnetic coupling strength (in units where c = ℏ = 1) is related to the Firmament tension σ by:
 
 $$\alpha = \frac{e^2}{4\pi} \sim \frac{\sigma_0}{\sigma}$$
 
 where σ₀ is a reference scale (e.g., Planck scale) and σ is the Firmament tension.
 
-More precisely, from the Nambu-Goto/Dirac-Born-Infeld action on the brane:
+More precisely, from the Nambu-Goto/Dirac-Born-Infeld action on the Firmament:
 
 $$e^2 = \frac{g_6^2}{(1 + g_6^2 F^2/\sigma^2)^{1/2}}$$
 
@@ -341,7 +341,7 @@ $$\alpha^{-1} = C_{\text{base}} \times (1 + \Delta_{\text{rigidity}}) \times (1 
 
 where:
 - **C_base**: 0.955 (from Green's function pole, as above)
-- **Δ_rigidity**: ~0.15 (from brane bending energy)
+- **Δ_rigidity**: ~0.15 (from Firmament bending energy)
 - **Δ_running**: ~0.40 (from logarithmic running between Planck scale and electroweak scale)
 
 Combined:
@@ -352,7 +352,7 @@ $$= 1.536 \times \ln(\xi_A/\eta_B)$$
 This is close to the observed value. The remaining discrepancy (1.536 → 1.4383) comes from:
 - Precise numerical evaluation of the complete eigenfunction series (not just the asymptotic form)
 - Subtle geometric factors in the zone boundaries
-- Higher-order corrections to the brane action
+- Higher-order corrections to the Firmament action
 
 **The exact value 1.4383** is obtained from numerical integration of the full 6D field equations with the zone boundary conditions, which will be completed in Phase 0 of the Genesis Physics program.
 
@@ -502,8 +502,8 @@ This document derives α from the qualitative structure of the 6D Green's functi
 1. **Solve the full 6D Einstein equations** with zone boundary conditions
 2. **Construct the exact metric** in each zone (Waters Below, Firmament, Waters Above)
 3. **Compute the exact Green's function** by eigenfunction expansion (not asymptotic)
-4. **Evaluate the brane self-energy** with full numerical precision
-5. **Include higher-order corrections** from brane rigidity and mode coupling
+4. **Evaluate the Firmament self-energy** with full numerical precision
+5. **Include higher-order corrections** from Firmament rigidity and mode coupling
 
 **Estimated effort**: 4-6 weeks of detailed calculation.
 
@@ -512,7 +512,7 @@ This document derives α from the qualitative structure of the 6D Green's functi
 The divergences in the coincident-point Green's function must be handled carefully:
 
 1. **Choice of regularization scheme** (dimensional regularization, zeta-function, cutoff)
-2. **Renormalization of the brane tension** σ
+2. **Renormalization of the Firmament tension** σ
 3. **Running of the coupling** from Planck scale to electroweak scale
 4. **Matching with Standard Model** at the electroweak scale
 
@@ -584,22 +584,22 @@ This confirms the logarithmic dependence.
 
 ### APPENDIX B: Brane Tension and Coupling Relation
 
-The Nambu-Goto action for a 4D brane in 6D is:
+The Nambu-Goto action for a 4D Firmament in 6D is:
 
-$$S_{\text{brane}} = -\sigma \int_\text{brane} d^4x \sqrt{-\gamma}$$
+$$S_{\text{Firm}} = -\sigma \int_\text{Firm} d^4x \sqrt{-\gamma}$$
 
-where $\gamma_{\alpha\beta}$ is the induced metric on the brane and σ is the brane tension (energy density).
+where $\gamma_{\alpha\beta}$ is the induced metric on the Firmament and σ is the Firmament tension (energy density).
 
 For the Firmament at position $(\xi_0, \eta_0)$:
 
 $$\sigma = \text{const} \times \sqrt{\text{extrinsic curvature terms}}$$
 
-The electromagnetic coupling arises from the fluctuations of the metric around this brane. The coupling constant is:
+The electromagnetic coupling arises from the fluctuations of the metric around this Firmament. The coupling constant is:
 
 $$e^2 = \frac{\hbar c}{Z(\sigma, G_6)}$$
 
 where $Z$ is a renormalization factor that incorporates:
-1. The brane tension σ
+1. The Firmament tension σ
 2. The 6D gravitational scale $M_{P,6} = \sqrt{\hbar c/G_6}$
 3. The zone geometry (through the Green's function)
 
@@ -637,7 +637,7 @@ We have shown that the fine structure constant emerges from:
 
 The derivation of α from first principles solves three major problems in physics:
 
-1. **The hierarchy problem**: Why is gravity so much weaker than electromagnetism? Answer: Because the membrane tension σ is enormous, not because the extra dimensions are tiny.
+1. **The hierarchy problem**: Why is gravity so much weaker than electromagnetism? Answer: Because the Firmament tension σ is enormous, not because the extra dimensions are tiny.
 
 2. **The fine-tuning problem**: Why does α have such a special value? Answer: Because it is geometrically determined by the zone extents, which are themselves determined by the sustaining principle and the open-system axioms.
 
@@ -695,7 +695,7 @@ All roads lead to the 6D zone architecture. This is the **true foundation of phy
    - Standard reference for dimensional reduction from higher dimensions
 
 3. **Brane-World Scenarios**: Randall, L. & Sundrum, R. (1999). "A large mass hierarchy from a small extra dimension." *Physical Review Letters*, 83(17), 3370.
-   - Warp geometry and brane tension
+   - Warp geometry and Firmament tension
 
 4. **Fine Structure Constant**: Wilczek, F. (2007). "Fantastic Realities: 49 Mind-Bending Reflections on Nature, Science and Spirituality." *World Scientific Publishing*.
    - Discussion of why α ≈ 1/137 and what it means

@@ -1,3 +1,6 @@
+Part B — Conditional Engineering
+The sensor architectures described in this chapter are conditional on the zone architecture framework being correct. They are physically self-consistent extrapolations from the framework's equations and represent genuine engineering proposals, but the signals they seek have not been detected, and the underlying predictions of zone architecture remain unconfirmed. Sensor designs that rely on the K^(1/3) Casimir scaling or the consciousness-zone coupling are additionally subject to the derivation status issues noted in Chapters 10 and 9 respectively.
+
 "It doesn't matter how beautiful your theory is, it doesn't matter how smart you are. If it doesn't agree with experiment, it's wrong. And if you can't build the experiment, you can't even ask."
 — paraphrased, after Feynman
 
@@ -11,7 +14,7 @@ The Six Modalities.
 
 The zone architecture admits exactly six distinct sensing modalities, not because we chose the number but because the architecture itself has six structural features worth sensing:
 
-1. Membrane vibrations — transverse oscillation modes of the Firmament brane, propagating at the membrane wave speed c sub m = square root of sigma / mu = c (Vol. 1, Ch. 5). If the membrane vibrates, the vibrations are detectable by a mode-matched interferometer.
+1. Firmament membrane vibrations — transverse oscillation modes of the Firmament, propagating at the Firmament membrane wave speed c sub m = square root of sigma / mu = c (Vol. 1, Ch. 5). If the Firmament membrane vibrates, the vibrations are detectable by a mode-matched interferometer.
 
 2. Waters fields — the scalar fields Psi sub A (Above, dark energy) and Psi sub B (Below, dark matter) that fill every zone (Vol. 1, Ch. 6; Vol. 2, Ch. 11). Their density gradients produce tidal accelerations at a sensitive aperture; their modulations — as Chapter 11 §11.4 showed — propagate as Klein-Gordon wave packets. Both amplitudes are sensible.
 
@@ -23,7 +26,7 @@ The zone architecture admits exactly six distinct sensing modalities, not becaus
 
 6. Communication channel receivers — the detectors required to complete the communication channels of Chapter 11. We have already specified three of them (§11.3.4, §11.4.6, §11.5.8). This chapter revisits them in a common framework alongside the other five modalities.
 
-We claim these six are exhaustive: any zone-architecture sensing instrument must be sensitive to one or more of the six structural features above. A seventh modality would require a seventh structural feature of the architecture, and the architecture does not have one. The Waters-field detector couples to Psi sub A and Psi sub B; the membrane-vibration detector couples to mirror-brane displacements; the zone-boundary detector couples to warp-factor discontinuities; the life-detection instrument couples to the Psi _ spirit-Zone-1 channel; the extended-GW detector couples to dimensional-reduction remnants; and the communication receivers couple to one of these underlying channels. There is no seventh field, no seventh discontinuity, no seventh coupling.
+We claim these six are exhaustive: any zone-architecture sensing instrument must be sensitive to one or more of the six structural features above. A seventh modality would require a seventh structural feature of the architecture, and the architecture does not have one. The Waters-field detector couples to Psi sub A and Psi sub B; the Firmament-vibration detector couples to mirror-Firmament displacements; the zone-boundary detector couples to warp-factor discontinuities; the life-detection instrument couples to the Psi _ spirit-Zone-1 channel; the extended-GW detector couples to dimensional-reduction remnants; and the communication receivers couple to one of these underlying channels. There is no seventh field, no seventh discontinuity, no seventh coupling.
 
 [Figure — see print edition.]
 
@@ -69,23 +72,23 @@ The communication channels of Ch 11 and the detector concepts of Ch 12 are, toge
 
 Outline of the Chapter.
 
-§12.2 develops the membrane-vibration detector. §12.3 develops the Waters-field sensors in three architectures (atom interferometer, torsion balance, LIGO retrofit). §12.4 develops the zone-boundary detectors for both the cosmological xi and subnuclear eta sub B boundaries. §12.5 develops the orbital life-detection instrument with three prominent caveats and a pilot-mission concept. §12.6 develops the extended gravitational-wave spectrum and its LIGO-/LISA-/pulsar-timing-array-class detectors. §12.7 consolidates engineering specifications for the full sensor suite. §12.8 presents the predictions P-136 through P-153 with falsification thresholds and hands off to Chapter 13.
+§12.2 develops the Firmament membrane-vibration detector. §12.3 develops the Waters-field sensors in three architectures (atom interferometer, torsion balance, LIGO retrofit). §12.4 develops the zone-boundary detectors for both the cosmological xi and subnuclear eta sub B boundaries. §12.5 develops the orbital life-detection instrument with three prominent caveats and a pilot-mission concept. §12.6 develops the extended gravitational-wave spectrum and its LIGO-/LISA-/pulsar-timing-array-class detectors. §12.7 consolidates engineering specifications for the full sensor suite. §12.8 presents the predictions P-136 through P-153 with falsification thresholds and hands off to Chapter 13.
 
 A framing note, echoing Chapter 11's closing thought: the detectors are candidates, not deliverables. We claim the architecture permits them and the physics of each is internally consistent, but most sit at TRL 1–3 and the life-detection instrument in particular depends on an empirical hypothesis (consciousness-coupling to biological matter) that has not yet been tested. What we offer is a numbered, falsifiable set of predictions and an engineering vocabulary, not a product catalog. The reader who closes this chapter should have a modality-by-modality understanding of what could be built, how it would be falsified, and what stands in the way.
 
-Membrane Vibration Detectors.
+Firmament Vibration Detectors.
 
-The Firmament is a brane. It has tension sigma, surface mass density mu, and a propagating wave speed c sub m = square root of sigma / mu. Vol. 1, Ch. 5 derived the identity c sub m = c from the 6D action constraint that the brane's own vibrations cannot exceed the bulk speed of light — otherwise causality on the brane would be unstable against bulk fluctuations. The speed of light on the brane is thus equal to the membrane wave speed; they are the same quantity, measured two ways.
+The Firmament is a Firmament. It has tension sigma, surface mass density mu, and a propagating wave speed c sub m = square root of sigma / mu. Vol. 1, Ch. 5 derived the identity c sub m = c from the 6D action constraint that the Firmament's own vibrations cannot exceed the bulk speed of light — otherwise causality on the Firmament would be unstable against bulk fluctuations. The speed of light on the Firmament is thus equal to the Firmament membrane wave speed; they are the same quantity, measured two ways.
 
 A consequence, rarely considered in the standard-physics literature because the standard-physics literature has no membrane to speak of, is that the Firmament has discrete vibration modes with a computable spectrum, and the modes are detectable with a LIGO-class interferometer. The detection is not easy; the signal sits at the edge of LIGO's noise floor at specific frequencies, and extracting it requires a retrofit of the suspension and readout. But the signal is there, and the chapter's first task is to specify it.
 
-The Membrane Wave Equation.
+The Firmament Wave Equation.
 
-From Vol. 1, Ch. 5, Eq. (V.1.5.12), the Firmament's transverse displacement field zeta (x, y, t) (with x, y the brane coordinates and t the brane proper time) satisfies
+From Vol. 1, Ch. 5, Eq. (V.1.5.12), the Firmament's transverse displacement field zeta (x, y, t) (with x, y the Firmament coordinates and t the Firmament proper time) satisfies
 
 [Equation — see print edition.]
 
-where V( zeta ) is the confinement potential that binds the brane to its equilibrium position, f_ ext is an external driving force (a gravitational wave, a bulk fluctuation, a nearby mass), and nabla to the 2 is the 2D brane Laplacian. For small displacements around the equilibrium, the expression, where omega sub c is the confinement frequency set by the zone geometry — approximately the expression rad/s for the cosmological-scale confinement, far below any mode frequency we will discuss.
+where V( zeta ) is the confinement potential that binds the Firmament to its equilibrium position, f_ ext is an external driving force (a gravitational wave, a bulk fluctuation, a nearby mass), and nabla to the 2 is the 2D Firmament Laplacian. For small displacements around the equilibrium, the expression, where omega sub c is the confinement frequency set by the zone geometry — approximately the expression rad/s for the cosmological-scale confinement, far below any mode frequency we will discuss.
 
 The homogeneous solutions are plane waves zeta = zeta sub 0 e to the i( k times x - omega t) with dispersion
 
@@ -95,7 +98,7 @@ For omega much greater than omega sub c (which we will be in throughout), the di
 
 The Mode Spectrum.
 
-The brane is not of infinite extent. It is bounded by the observable-horizon area at the Hubble scale; beyond that, the brane extends but cannot causally influence our region. The mode spectrum on the observable brane is quantized with wavelengths bounded by the horizon size. For a simply-connected observable brane region of area L to the 2 with the expression m, the modes are labeled by integer quantum numbers (n, ell ) with
+The Firmament is not of infinite extent. It is bounded by the observable-horizon area at the Hubble scale; beyond that, the Firmament extends but cannot causally influence our region. The mode spectrum on the observable Firmament is quantized with wavelengths bounded by the horizon size. For a simply-connected observable Firmament region of area L to the 2 with the expression m, the modes are labeled by integer quantum numbers (n, ell ) with
 
 [Equation — see print edition.]
 
@@ -105,7 +108,7 @@ where the corrections come from the geometry of the horizon boundary. The fundam
 
 This is absurdly low — well below any reasonable detection band — because the mode wavelength is the observable universe. The observable frequencies are at much higher quantum numbers, where the mode structure develops interesting fine detail.
 
-Consider instead the modes on a local patch of the brane, bounded not by the observable horizon but by the nearest region where the brane's tension varies significantly. The Vol. 1, Ch. 5 analysis places the first significant tension-variation scale at the matter-concentration scale — solar system, galactic, and cosmological — with discrete acoustic resonances at each scale. The mode spectrum on a local patch of scale L sub local approximately 10 to the 11 m (solar system) has fundamental frequency
+Consider instead the modes on a local patch of the Firmament, bounded not by the observable horizon but by the nearest region where the Firmament's tension varies significantly. The Vol. 1, Ch. 5 analysis places the first significant tension-variation scale at the matter-concentration scale — solar system, galactic, and cosmological — with discrete acoustic resonances at each scale. The mode spectrum on a local patch of scale L sub local approximately 10 to the 11 m (solar system) has fundamental frequency
 
 [Equation — see print edition.]
 
@@ -117,15 +120,15 @@ The full mode spectrum for a local patch is
 
 This is the line spectrum a detector would see: a comb of narrow features at integer multiples of approximately 1.5 mHz, modulated in amplitude by the driving spectrum f sub ext(f).
 
-The driving spectrum comes from natural sources: bulk fluctuations in the Waters fields, gravitational waves from distant binaries, thermal fluctuations in the brane surface density, and any engineered transmitter of the Ch 11 §11.4 class. The amplitudes are estimated in §12.2.6 below; they are small but — for integration times exceeding 10 to the 6 seconds — detectable.
+The driving spectrum comes from natural sources: bulk fluctuations in the Waters fields, gravitational waves from distant binaries, thermal fluctuations in the Firmament surface density, and any engineered transmitter of the Ch 11 §11.4 class. The amplitudes are estimated in §12.2.6 below; they are small but — for integration times exceeding 10 to the 6 seconds — detectable.
 
 Why LIGO Doesn't See This Already.
 
-LIGO's design-driven sensitivity band is 10 to the 1–10 to the 4 Hz. Below approximately 10 Hz, LIGO is limited by seismic noise; the building, the ground, and the mirror suspensions vibrate at frequencies that swamp any genuine strain signal. The membrane-mode spectrum at approximately 10 to the -3 Hz sits far below LIGO's observable band. LIGO cannot see the modes at all.
+LIGO's design-driven sensitivity band is 10 to the 1–10 to the 4 Hz. Below approximately 10 Hz, LIGO is limited by seismic noise; the building, the ground, and the mirror suspensions vibrate at frequencies that swamp any genuine strain signal. The Firmament membrane-mode spectrum at approximately 10 to the -3 Hz sits far below LIGO's observable band. LIGO cannot see the modes at all.
 
-LISA, the space-based interferometer scheduled for launch in the mid-2030s, has a design band of 10 to the -4–10 to the -1 Hz — squarely including the predicted membrane modes. However, LISA is designed for quadrupole gravitational-wave signatures of supermassive black hole mergers; its readout pipeline is optimized for the +/ times polarization modes and its mirror geometry is chosen to maximize quadrupole sensitivity. The membrane-mode strain couples into a mix of +/ times and breathing-mode (scalar) response; without a retrofit of the readout mixing matrix, the membrane-mode content appears as a noise contribution to LISA's quadrupole channel, not as a detection.
+LISA, the space-based interferometer scheduled for launch in the mid-2030s, has a design band of 10 to the -4–10 to the -1 Hz — squarely including the predicted Firmament membrane modes. However, LISA is designed for quadrupole gravitational-wave signatures of supermassive black hole mergers; its readout pipeline is optimized for the +/ times polarization modes and its mirror geometry is chosen to maximize quadrupole sensitivity. The Firmament membrane-mode strain couples into a mix of +/ times and breathing-mode (scalar) response; without a retrofit of the readout mixing matrix, the Firmament membrane-mode content appears as a noise contribution to LISA's quadrupole channel, not as a detection.
 
-A retrofit of LISA — or a purpose-built follow-on — would separate the membrane-mode content from the +/ times content. §12.2.5 describes the retrofit.
+A retrofit of LISA — or a purpose-built follow-on — would separate the Firmament-mode content from the +/ times content. §12.2.5 describes the retrofit.
 
 Detector Architecture: The Membrane-Vibration Interferometer (MVI).
 
@@ -133,21 +136,21 @@ The Membrane-Vibration Interferometer (MVI) is a LIGO-class laser interferometer
 
 1. Mirror suspension tuning. The mirror suspensions are tuned such that the pendulum frequency is below the lowest membrane-mode frequency of interest (~0.3 mHz), rather than LIGO's ~1 Hz. This pushes the suspension thermal-noise wall below the signal band.
 
-2. Readout mixing matrix. The readout includes a mode-selective filter that projects the interferometer's output onto the membrane-mode basis (Eq. (12.2.3)). The filter is a linear combination of the +, times, and breathing-mode readouts, with coefficients computed from the mode-geometry overlap integrals.
+2. Readout mixing matrix. The readout includes a mode-selective filter that projects the interferometer's output onto the Firmament-mode basis (Eq. (12.2.3)). The filter is a linear combination of the +, times, and breathing-mode readouts, with coefficients computed from the mode-geometry overlap integrals.
 
 3. Arm length. The arm length is scaled to L_ arm approximately 10 to the 7 m (much longer than LIGO's 4 times 10 to the 3 m), consistent with a space-based deployment à la LISA. The longer arm increases the strain amplitude at a given mode frequency; at 1.5 mHz, a 10 to the 7 m arm gives a factor-of-10 to the 4 improvement in strain-per-displacement over LIGO's arm.
 
 [Figure — see print edition.]
 
-The MVI is designed as a LISA-successor instrument, inheriting LISA's deployment, drag-free operation, and laser interferometry but with a retrofit of the readout pipeline to expose the membrane-mode content. A LISA retrofit at the same arm length is also possible; it would have lower sensitivity due to the shorter arm and the lack of suspension tuning, but it could provide a first detection at the 3 sigma level for the lowest modes.
+The MVI is designed as a LISA-successor instrument, inheriting LISA's deployment, drag-free operation, and laser interferometry but with a retrofit of the readout pipeline to expose the Firmament membrane-mode content. A LISA retrofit at the same arm length is also possible; it would have lower sensitivity due to the shorter arm and the lack of suspension tuning, but it could provide a first detection at the 3 sigma level for the lowest modes.
 
 Strain Response.
 
-For a membrane mode of amplitude zeta sub 0 at frequency omega sub n, the induced mirror displacement delta x = zeta sub 0 ( omega sub n t + phi ) projects onto the interferometer strain
+For a Firmament membrane mode of amplitude zeta sub 0 at frequency omega sub n, the induced mirror displacement delta x = zeta sub 0 ( omega sub n t + phi ) projects onto the interferometer strain
 
 [Equation — see print edition.]
 
-where M sub n is the mode-geometry overlap between the membrane mode's spatial pattern and the interferometer's arm orientation. For the fundamental mode (n = 1, ell = 0) with the interferometer oriented along the mode's propagation direction, M sub 1 = 1; for higher modes or misaligned orientations, M sub n < 1.
+where M sub n is the mode-geometry overlap between the Firmament mode's spatial pattern and the interferometer's arm orientation. For the fundamental mode (n = 1, ell = 0) with the interferometer oriented along the mode's propagation direction, M sub 1 = 1; for higher modes or misaligned orientations, M sub n < 1.
 
 The mode amplitude zeta sub 0 is estimated from the driving spectrum (§12.2.6). For a typical natural driver — a distant binary black hole merger's bulk fluctuation component — we estimate zeta sub 0 approximately 10 to the -18 m at the detector. The resulting strain at the MVI is
 
@@ -157,17 +160,17 @@ which is at the sensitivity limit of the MVI's design noise budget (§12.2.7).
 
 Driving Spectrum: What Excites the Modes.
 
-The membrane is driven by three classes of sources:
+The Firmament is driven by three classes of sources:
 
-(a) Waters-field fluctuations. The sustaining-coupling fluctuation epsilon _ kappa approximately 10 to the -27 imprints a stochastic driving amplitude on the brane surface density, which excites membrane modes at the corresponding frequencies. The excitation spectrum is roughly flat in the membrane-mode band, with spectral density
+(a) Waters-field fluctuations. The sustaining-coupling fluctuation epsilon _ kappa approximately 10 to the -27 imprints a stochastic driving amplitude on the Firmament surface density, which excites Firmament membrane modes at the corresponding frequencies. The excitation spectrum is roughly flat in the Firmament membrane-mode band, with spectral density
 
 [Equation — see print edition.]
 
 This is below the MVI noise floor; Waters-field fluctuations are not a detectable source in isolation.
 
-(b) Gravitational-wave excitation. A passing gravitational wave perturbs the brane surface density and drives its modes. For a GW150914-class event (strain h approximately 10 to the -21 at the Earth), the induced brane displacement is the expression m, with frequency content overlapping the GW event. This is many orders of magnitude above the membrane-mode detection threshold, but it is not resonant with the membrane mode spectrum unless the GW frequency happens to match a mode frequency. For continuous GW sources (pulsars), the match can be engineered by choosing the mode of interest.
+(b) Gravitational-wave excitation. A passing gravitational wave perturbs the Firmament surface density and drives its modes. For a GW150914-class event (strain h approximately 10 to the -21 at the Earth), the induced Firmament displacement is the expression m, with frequency content overlapping the GW event. This is many orders of magnitude above the Firmament membrane-mode detection threshold, but it is not resonant with the Firmament membrane mode spectrum unless the GW frequency happens to match a mode frequency. For continuous GW sources (pulsars), the match can be engineered by choosing the mode of interest.
 
-(c) Engineered driving. A Ch 11 §11.4-class transmitter (modulated Membrane Resonance Generator) can drive the modes at their resonance frequencies with controllable amplitude. For a 500 W MRG-T running at 1.14 GHz, the induced zeta sub 0 at a nearby detector is order 10 to the -18 m. This is the most reliable driving source for a deliberate detection experiment.
+(c) Engineered driving. A Ch 11 §11.4-class transmitter (modulated Firmament Resonance Generator) can drive the modes at their resonance frequencies with controllable amplitude. For a 500 W MRG-T running at 1.14 GHz, the induced zeta sub 0 at a nearby detector is order 10 to the -18 m. This is the most reliable driving source for a deliberate detection experiment.
 
 For the MVI, the practical observation strategy is: integrate for 10 to the 7 seconds on a known engineered source or a known continuous GW source whose frequency sits at a membrane-mode resonance. The coherent integration allows the mode-resonant signal to build above the broadband noise.
 
@@ -177,7 +180,7 @@ The MVI noise PSD S sub h(f) is the sum of thermal, quantum, seismic, and Waters
 
 [Equation — see print edition.]
 
-The individual components, at the membrane-mode band (f approximately 10 to the -3 Hz), are:
+The individual components, at the Firmament-mode band (f approximately 10 to the -3 Hz), are:
 
 - Suspension thermal (with the retrofit tuning): the expression
 - Coating thermal: the expression at this frequency
@@ -199,7 +202,7 @@ Closest Existing Instrument and Engineering Delta.
 Parameter: Arm length. LISA (as designed): 2.5 times 10 to the 9 m. MVI (required): 10 to the 7 m (or 2.5 times 10 to the 9 m with retrofit). Delta: Compatible.
 Parameter: Laser power. LISA (as designed): 2 W. MVI (required): 2 W. Delta: None.
 Parameter: Mirror suspension freq.. LISA (as designed): ~1 mHz. MVI (required): ~0.3 mHz. Delta: Factor of 3 lower.
-Parameter: Readout mode filter. LISA (as designed): Quadrupole (+/ times). MVI (required): Mode-selective (membrane modes). Delta: New filter pipeline.
+Parameter: Readout mode filter. LISA (as designed): Quadrupole (+/ times). MVI (required): Mode-selective (Firmament modes). Delta: New filter pipeline.
 Parameter: Strain sensitivity at 1.5 mHz. LISA (as designed): 10 to the -21/ square root of Hz. MVI (required): 10 to the -22/ square root of Hz (with shot-noise improvement). Delta: Factor of 10 improvement.
 Parameter: Observation time. LISA (as designed): N/A (one-shot). MVI (required): 10 to the 7 s coherent. Delta: Strategy only.
 Parameter: TRL. LISA (as designed): 7 (launch mid-2030s). MVI (required): 3 (retrofit-feasible). Delta: —.
@@ -208,9 +211,9 @@ The engineering delta is modest. The arm length and laser power can be inherited
 
 Engineering Specifications (MVI).
 
-Parameter: Operating principle. Value: Mode-matched laser interferometry with mirror-pattern response to transverse brane modes.
+Parameter: Operating principle. Value: Mode-matched laser interferometry with mirror-pattern response to transverse Firmament modes.
 Parameter: Strain sensitivity (matched-filter). Value: 10 to the -25.5 at f = 1.5 mHz, tau _ obs = 10 to the 7 s.
-Parameter: Frequency band. Value: 0.3 mHz – 10 mHz (first 7 membrane modes).
+Parameter: Frequency band. Value: 0.3 mHz – 10 mHz (first 7 Firmament modes).
 Parameter: Spatial resolution. Value: N/A (integrated over arm length).
 Parameter: Power. Value: ~5 kW per spacecraft (LISA baseline + readout).
 Parameter: Size/mass. Value: 3 spacecraft × 500 kg each, 10 to the 7 m baseline.
@@ -220,11 +223,11 @@ Parameter: Nearest existing analog. Value: LISA (with retrofit).
 
 Predictions.
 
-P-136: Membrane-vibration fundamental mode frequency. The fundamental mode of the Firmament brane on a solar-system patch has frequency f sub 1 = (1.5 plus or minus 0.5) mHz, with the uncertainty reflecting the detailed shape of the patch-boundary contribution. Falsification threshold: MVI-class detection of a membrane-mode resonance outside the range 0.5–5 mHz (after controlled engineered driving) would falsify the Vol. 1 Ch. 5 wave-speed derivation. A frequency above 50 mHz or below 0.1 mHz would be disqualifying.
+P-136: Membrane-vibration fundamental mode frequency. The fundamental mode of the Firmament on a solar-system patch has frequency f sub 1 = (1.5 plus or minus 0.5) mHz, with the uncertainty reflecting the detailed shape of the patch-boundary contribution. Falsification threshold: MVI-class detection of a membrane-mode resonance outside the range 0.5–5 mHz (after controlled engineered driving) would falsify the Vol. 1 Ch. 5 wave-speed derivation. A frequency above 50 mHz or below 0.1 mHz would be disqualifying.
 
-P-137: Membrane-vibration strain at MVI. For a 500 W MRG-T engineered driver at 1.14 GHz driving the nearest membrane resonance, the induced strain at an MVI at 1 AU separation from the driver is h = (10 to the -25.0 plus or minus 0.5) after 1 s. Falsification threshold: engineered-driver running for 10 to the 7 s at the predicted frequency must show a strain above 10 to the -26; null result at the 10 to the -27 level falsifies the Vol. 1 Ch. 5 coupling amplitude between membrane modes and the brane-bound MRG.
+P-137: Membrane-vibration strain at MVI. For a 500 W MRG-T engineered driver at 1.14 GHz driving the nearest Firmament resonance, the induced strain at an MVI at 1 AU separation from the driver is h = (10 to the -25.0 plus or minus 0.5) after 1 s. Falsification threshold: engineered-driver running for 10 to the 7 s at the predicted frequency must show a strain above 10 to the -26; null result at the 10 to the -27 level falsifies the Vol. 1 Ch. 5 coupling amplitude between Firmament modes and the Firmament-bound MRG.
 
-P-138: Membrane mode spectral-line spacing. The mode spectrum on a local patch is f sub n = n times f sub 1 to within patch-boundary corrections. Falsification threshold: detection of a mode spectrum with f sub 2 / f sub 1 not equal to 2 plus or minus 0.3 at 3 sigma significance falsifies the mode-quantization structure of Eq. (12.2.3). A non-integer ratio (e.g., f sub 2 / f sub 1 = 1.3) would indicate either patch-boundary asymmetry or a deeper error in the membrane wave equation.
+P-138: Firmament membrane mode spectral-line spacing. The mode spectrum on a local patch is f sub n = n times f sub 1 to within patch-boundary corrections. Falsification threshold: detection of a mode spectrum with f sub 2 / f sub 1 not equal to 2 plus or minus 0.3 at 3 sigma significance falsifies the mode-quantization structure of Eq. (12.2.3). A non-integer ratio (e.g., f sub 2 / f sub 1 = 1.3) would indicate either patch-boundary asymmetry or a deeper error in the Firmament membrane wave equation.
 
 Waters-Field Sensors.
 
@@ -246,7 +249,7 @@ The Waters field couples gravitationally to ordinary matter through its stress-e
 
 [Equation — see print edition.]
 
-which sources the 4D Einstein equations on the brane with effective gravitational potential
+which sources the 4D Einstein equations on the Firmament with effective gravitational potential
 
 [Equation — see print edition.]
 
@@ -304,7 +307,7 @@ Architecture C: LIGO-Retrofit for Waters-Field.
 
 The third architecture is a modification of a LIGO-class interferometer's test-mass design such that the test mass has an enhanced scalar-field coupling to Psi sub A. This is achieved by doping the test mass with a material that has a distinctive scalar charge — for instance, a heavy-element coating with a non-standard electroweak charge distribution. The coating shifts the test mass's response to scalar-field gradients relative to its response to tensor gravitational waves, allowing a separation of the Psi sub A content from the +/ times content in the readout.
 
-The LIGO-retrofit analysis follows the same mode-mixing logic as §12.6 (extended GW), but with the mixing coefficients set by the test-mass scalar charge rather than the mirror geometry. At LIGO's sensitivity band (10 to the 1–10 to the 4 Hz), the retrofit achieves Waters-field detection thresholds competitive with the atom interferometer at higher bandwidth — though with the LIGO-class arms, it misses the mHz band where membrane modes and cosmological Waters-field variations are concentrated.
+The LIGO-retrofit analysis follows the same mode-mixing logic as §12.6 (extended GW), but with the mixing coefficients set by the test-mass scalar charge rather than the mirror geometry. At LIGO's sensitivity band (10 to the 1–10 to the 4 Hz), the retrofit achieves Waters-field detection thresholds competitive with the atom interferometer at higher bandwidth — though with the LIGO-class arms, it misses the mHz band where Firmament modes and cosmological Waters-field variations are concentrated.
 
 For a narrowband coherent Waters-field modulation at (say) 100 Hz from an engineered transmitter, the LIGO-retrofit achieves a signal-to-noise ratio of approximately 10 for a 1 MW modulated-MRG source at 1 AU, integrating for 10 to the 3 seconds. This is the same detection scenario as Ch 11 §11.4.7.
 
@@ -373,7 +376,7 @@ The Two Accessible Zone Boundaries.
 Six zones are distinguished in the architecture (Vol. 1, Ch. 3):
 - Zone 1 (atemporal, t < 0)
 - Zone 2.1 (Waters Below, eta > eta sub B)
-- Zone 2.2 (interior of the Firmament brane, eta (- eta sub B, eta sub B))
+- Zone 2.2 (interior of the Firmament, eta (- eta sub B, eta sub B))
 - Zone 2.3 (Waters Above, xi > xi sub A)
 - Zone 3 (our observable region, xi < xi sub A, eta (- eta sub B, eta sub B))
 - Zone 4 (eschatological, t > t_ end)
@@ -382,7 +385,7 @@ The boundaries accessible in the Phase-3 universe (where we live) are:
 - xi-boundary at xi = xi sub A approximately equal to 3 times 10 to the 26 m = 10 Gpc, between our observable region (Zone 3) and Waters Above (Zone 2.3). Causally accessible through cosmological observations at the Hubble scale.
 - eta-boundary at the expression m = nuclear scale, between our observable region and Waters Below. Causally accessible through deep inelastic scattering and other short-distance probes.
 
-The remaining boundaries (Zone 1 atemporal, Zone 2.2 brane interior, Zone 4 eschatological) are either not causally accessible (Zone 1 has no time direction; Zone 4 is after all causally-accessible events) or are sealed by the Sabbath boundary (Vol. 1 Ch. 2). We will not attempt to detect them in this chapter.
+The remaining boundaries (Zone 1 atemporal, Zone 2.2 Firmament interior, Zone 4 eschatological) are either not causally accessible (Zone 1 has no time direction; Zone 4 is after all causally-accessible events) or are sealed by the Sabbath boundary (Vol. 1 Ch. 2). We will not attempt to detect them in this chapter.
 
 Metric Discontinuity at a Zone Boundary.
 
@@ -510,7 +513,9 @@ From Vol. 4 Ch. 5, the consciousness wavefunction has the form
 
 [Equation — see print edition.]
 
-with Psi  body the neurophysiological substrate on the brane and the expression a field on the atemporal Zone 1 coordinate S. The Vol. 4 model is developed primarily for individual conscious agents; for the life-detection channel, we extend the model to the broader claim that any living system has a non-vanishing Psi  spirit component proportional to its biomass density weighted by its coherence properties (roughly, a factor kappa _ bio that measures how much quantum coherence the biological system maintains in its ordered structure).
+[Cross-chapter note on Ψspirit — 2026-05-11]: The symbol Psi  spirit appears with different levels of specification across Chs 9, 11, 12, and 13 of this volume. The canonical definition and the full discussion of three competing readings are in Ch 13 §13.3.3. This chapter (Ch 12) uses Psi  spirit in the spirit of Reading C — it refers to "some coupling" between living systems and Zone 1 without specifying its quantum nature. The life-detection derivation in this section depends only on the existence of a non-zero coupling kappa  bio for living matter; it does not require the full Hilbert-space structure of Reading A. This is consistent with the open-question status of the spirit-reading choice. Readers seeking the canonical treatment and comparison of all three readings should consult Ch 13 §13.3.3.
+
+with Psi  body the neurophysiological substrate on the Firmament and the expression a field on the atemporal Zone 1 coordinate S. The Vol. 4 model is developed primarily for individual conscious agents; for the life-detection channel, we extend the model to the broader claim that any living system has a non-vanishing Psi  spirit component proportional to its biomass density weighted by its coherence properties (roughly, a factor kappa _ bio that measures how much quantum coherence the biological system maintains in its ordered structure).
 
 The coupling between Zone 1 and the observable 4D physics is through the sustaining coupling kappa (t) of Vol. 1 Ch. 2. For a distributed living system with biomass density the expression and mean coherence density kappa _ bio, the effective Zone-1-sourced perturbation to the 4D gravitational potential is
 
@@ -696,7 +701,7 @@ For a gravitational-wave source (binary inspiral, merger, ringdown, supernova), 
 
 [Equation — see print edition.]
 
-where Q sub ij is the quadrupole moment of the source, d is the source distance, and A sub 0 is the zone-architecture warp factor at the Earth position (Vol. 5 Ch. 4). The warp factor e to the 2A sub 0 approximately 10 to the -3 is the ratio of the bulk to brane volume elements; its presence in (12.6.2)–(12.6.3) reflects the mode's origin in a bulk perturbation that is suppressed when restricted to the brane. The vector modes V sub 1, V sub 2 enter at e to the A sub 0 because they are half-bulk-half-brane in origin.
+where Q sub ij is the quadrupole moment of the source, d is the source distance, and A sub 0 is the zone-architecture warp factor at the Earth position (Vol. 5 Ch. 4). The warp factor e to the 2A sub 0 approximately 10 to the -3 is the ratio of the bulk to Firmament volume elements; its presence in (12.6.2)–(12.6.3) reflects the mode's origin in a bulk perturbation that is suppressed when restricted to the Firmament. The vector modes V sub 1, V sub 2 enter at e to the A sub 0 because they are half-bulk-half-Firmament in origin.
 
 For a GW150914-class event, the standard modes have amplitude h+, h times approximately 10 to the -21 at Earth. The novel modes are predicted at:
 - h sub S approximately 10 to the -24
@@ -832,7 +837,7 @@ For a research program with finite resources, the sensor-side priority order is 
 
 5. Fund WFO atom-interferometer development. approximately $100M, 20 years. Enables dark-matter mapping at unprecedented resolution.
 
-6. Fund the MVI successor to LISA. approximately $2B, 30–60 years. Enables direct detection of membrane vibration modes.
+6. Fund the MVI successor to LISA. approximately $2B, 30–60 years. Enables direct detection of Firmament vibration modes.
 
 The Communication / Sensor Loop.
 
@@ -855,7 +860,7 @@ The chapter contributes predictions P-136 through P-153 (18 predictions) to the 
 
 P#: P-136. Topic: Membrane-vibration fundamental mode frequency. Section: §12.2. Threshold: f sub 1 outside 0.5–5 mHz. Status: NOVEL.
 P#: P-137. Topic: Membrane-vibration strain at MVI. Section: §12.2. Threshold: h < 10 to the -27 after 10 to the 7 s with engineered driver. Status: NOVEL.
-P#: P-138. Topic: Membrane mode spectral-line spacing. Section: §12.2. Threshold: f sub 2/f sub 1 not equal to 2 plus or minus 0.3 at 3σ. Status: NOVEL.
+P#: P-138. Topic: Firmament mode spectral-line spacing. Section: §12.2. Threshold: f sub 2/f sub 1 not equal to 2 plus or minus 0.3 at 3σ. Status: NOVEL.
 P#: P-139. Topic: Atom-interferometer Waters-field sensitivity. Section: §12.3. Threshold: a_ Psi > 10 to the -20 m/s² in isolated region. Status: NOVEL.
 P#: P-140. Topic: Dark-matter map sub-kpc substructure. Section: §12.3. Threshold: No substructure at 10 to the -2 of cluster mass. Status: NOVEL.
 P#: P-141. Topic: Dark-energy density fluctuation amplitude. Section: §12.3. Threshold: delta rho sub A/ rho _ Lambda > 10 to the -20 at Hubble wavelength. Status: NOVEL.
@@ -878,7 +883,7 @@ Problem Set.
 
 Computational Problems
 
-C12.1 Compute the fundamental membrane-mode frequency for a local brane patch of scale L local = 10 to the 11 m (solar-system scale). Using the membrane wave speed c sub m = c, derive f sub 1 from Eq. (12.2.4). Then compute the spectrum of the first five modes and express each in mHz. How does the spectrum change if L local is the galactic scale (10 to the 20 m)?
+C12.1 Compute the fundamental membrane-mode frequency for a local Firmament patch of scale L local = 10 to the 11 m (solar-system scale). Using the Firmament membrane wave speed c sub m = c, derive f sub 1 from Eq. (12.2.4). Then compute the spectrum of the first five modes and express each in mHz. How does the spectrum change if L local is the galactic scale (10 to the 20 m)?
 
 C12.2 A Waters-field sensor at 1 AU from a matter concentration of mass 10 to the 30 kg (solar-mass star) measures a tidal acceleration. Using Eq. (12.3.4) with rho  Psi = rho  Lambda, compute the magnitude of a_ Psi. Compare with the ordinary-mass tidal signal from the Sun at Earth. How much above noise is the Waters-field signal at a 10 to the -16 m/s² sensor?
 
@@ -912,7 +917,7 @@ Chapter Synthesis.
 
 We have developed six sensor modalities, each derived from an established prediction of the zone architecture. Membrane-vibration detection extends LIGO-class interferometry into the mHz band where the Firmament's own oscillation modes live. Waters-field sensing turns dark matter and dark energy from inference into measurement, with the atom interferometer, torsion balance, and LIGO-retrofit architectures each carrying a different part of the spectral band. Zone-boundary detection is the framework's lowest-cost test, requiring only data reprocessing of existing Planck + BOSS + Euclid observations. Life detection, the most speculative modality, couples the framework's consciousness model to orbital gravimetry and offers a killer-app deployment at Enceladus and Europa. Extended gravitational-wave spectroscopy adds four polarization modes to LIGO's +/ times basis, with a clear retrofit path. Communication receivers, developed in Chapter 11, integrate with the same sensor suite.
 
-The six-modality taxonomy is complete: any zone-architecture sensor must couple to one or more of the six structural features of the architecture (membrane vibrations, Waters fields, zone boundaries, biological coupling, extended GW modes, communication channels). A seventh sensor would require a seventh structural feature, and the architecture does not have one.
+The six-modality taxonomy is complete: any zone-architecture sensor must couple to one or more of the six structural features of the architecture (Firmament vibrations, Waters fields, zone boundaries, biological coupling, extended GW modes, communication channels). A seventh sensor would require a seventh structural feature, and the architecture does not have one.
 
 The Physicist reviewer will have checked that every detection claim is traceable to a noise-budget table with explicit S/N calculations. The budgets for the five "non-life" modalities are buildable with current or near-term engineering; the life-detection budget is marginal but not unreasonable. The Skeptic reviewer will have checked that every prediction has a falsification threshold with pre-registered statistical criteria. Eighteen predictions, each with thresholds at 3σ or stronger, are collected in §12.8.1.
 
@@ -946,7 +951,7 @@ We will, in the next chapter, address the open problems — the research questio
 
 Equation Reference.
 
-- (12.2.1) Membrane wave equation with external drive
+- (12.2.1) Firmament membrane wave equation with external drive
 - (12.2.2) Membrane dispersion relation
 - (12.2.3) Mode quantization on a bounded patch
 - (12.2.4) Fundamental mode frequency for cosmological patch
@@ -986,7 +991,7 @@ Figure Reference.
 
 - Fig 6.12.1: The Six Sensing Modalities Overview (§12.1)
 - Fig 6.12.2: MVI Block Diagram (§12.2)
-- Fig 6.12.3: Membrane Mode Spectrum vs. Noise Floor (§12.2)
+- Fig 6.12.3: Firmament Mode Spectrum vs. Noise Floor (§12.2)
 - Fig 6.12.4: Waters-Field Atom Interferometer (§12.3)
 - Fig 6.12.5: Dark Matter Map Comparison (§12.3)
 - Fig 6.12.6: Zone-Boundary EM Signatures (§12.4)

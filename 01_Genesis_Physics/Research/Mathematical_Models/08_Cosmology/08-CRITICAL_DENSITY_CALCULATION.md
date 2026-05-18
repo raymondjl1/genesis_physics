@@ -35,7 +35,7 @@
 
 From previous derivations:
 
-**1. Membrane equation** (Part 2):
+**1. Firmament equation** (Part 2):
 ```
 ∂²η/∂t² - c²∇²η = -ρ_WatersBelow
 ```

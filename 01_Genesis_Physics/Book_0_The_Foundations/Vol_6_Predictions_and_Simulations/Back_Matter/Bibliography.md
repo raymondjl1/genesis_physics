@@ -881,7 +881,7 @@
 
 ### Bib.8C — Particle Physics, Quantum, and Standard-Model Derivations
 
-**Bib.8.14** Raymond, Jeff. 2026. *QM from Membrane Dynamics*. Internal research document, `Research/Mathematical_Models/05_Quantum_Mechanics/QM_FROM_MEMBRANE_DYNAMICS.md`. ☷ [Internal] [V4, V6]
+**Bib.8.14** Raymond, Jeff. 2026. *QM from Firmament Dynamics*. Internal research document, `Research/Mathematical_Models/05_Quantum_Mechanics/QM_FROM_MEMBRANE_DYNAMICS.md`. ☷ [Internal] [V4, V6]
 
 **Bib.8.15** Raymond, Jeff. 2026. *Particle Mass Spectrum Summary*. Internal research document, `Research/Mathematical_Models/06_Nuclear_and_Particle_Physics/PARTICLE_MASS_SPECTRUM_SUMMARY.md`. ☷ [Internal] [V4, V6]
 
@@ -909,7 +909,7 @@
 
 **Bib.8.26** Raymond, Jeff. 2026. *Hubble Tension and Zone-Architecture Resolution*. Internal research document, `Research/Mathematical_Models/08_Cosmology/HUBBLE_TENSION.md`. ☷ [Internal] [V5, V6]
 
-**Bib.8.27** Raymond, Jeff. 2026. *Dark Matter as Membrane Vibrational Mode*. Internal research document, `Research/Mathematical_Models/08_Cosmology/DARK_MATTER_MEMBRANE_MODE.md`. ☷ [Internal] [V5, V6]
+**Bib.8.27** Raymond, Jeff. 2026. *Dark Matter as Firmament Membrane Vibrational Mode*. Internal research document, `Research/Mathematical_Models/08_Cosmology/DARK_MATTER_MEMBRANE_MODE.md`. ☷ [Internal] [V5, V6]
 
 **Bib.8.28** Raymond, Jeff. 2026. *Dark Energy from Sustaining Coupling*. Internal research document, `Research/Mathematical_Models/08_Cosmology/DARK_ENERGY_DERIVATION.md`. ☷ [Internal] [V5, V6]
 
@@ -935,13 +935,13 @@
 
 **Bib.8.38** Raymond, Jeff. 2026. *Force Hierarchy from Zone Coupling Constants*. Internal research document, `Research/Mathematical_Models/03_Electromagnetism/FORCE_HIERARCHY.md`. ☷ [Internal] [V2, V6]
 
-**Bib.8.39** Raymond, Jeff. 2026. *Speed of Light from Membrane Tension*. Internal research document, `Research/Mathematical_Models/03_Electromagnetism/C_FROM_MEMBRANE_TENSION.md`. ☷ [Internal] [V2, V6]
+**Bib.8.39** Raymond, Jeff. 2026. *Speed of Light from Firmament Tension*. Internal research document, `Research/Mathematical_Models/03_Electromagnetism/C_FROM_MEMBRANE_TENSION.md`. ☷ [Internal] [V2, V6]
 
 **Bib.8.40** Raymond, Jeff. 2026. *Wave Equations from Zone Manifold*. Internal research document, `Research/Mathematical_Models/04_Optics_and_Waves/WAVE_EQUATION_FROM_ZONES.md`. ☷ [Internal] [V2, V6]
 
 ### Bib.8F — Simulation Code, Results, and Reproducibility
 
-**Bib.8.41** Raymond, Jeff. 2026. *Membrane Vibration Simulation*. Python source code, `Research/Simulations/membrane_vibrations.py`. ☷ [Internal] [V4, V6]
+**Bib.8.41** Raymond, Jeff. 2026. *Firmament Vibration Simulation*. Python source code, `Research/Simulations/membrane_vibrations.py`. ☷ [Internal] [V4, V6]
 
 **Bib.8.42** Raymond, Jeff. 2026. *Structure Formation N-Body Simulation with Zone Corrections*. Python source code, `Research/Simulations/structure_formation.py`. ☷ [Internal] [V5, V6]
 
@@ -1085,11 +1085,11 @@
 
 **Constructor theory.** [Bib.4.22] Deutsch 2013 · [Bib.4.23] Deutsch & Marletto 2015 · [Bib.4.24] Marletto 2021 · [Bib.4.25] Marletto 2015.
 
-**Consciousness, measurement problem, and zone interface.** [Bib.2.36] Wheeler & Zurek 1983 · [Bib.2.37] Zurek 2003 · [Bib.5.25] Cooper 2000 · [Bib.6.16] Albert 1992 · [Bib.8.14] Internal: QM from membrane dynamics · [Bib.8.19] Internal: FTL mechanisms.
+**Consciousness, measurement problem, and zone interface.** [Bib.2.36] Wheeler & Zurek 1983 · [Bib.2.37] Zurek 2003 · [Bib.5.25] Cooper 2000 · [Bib.6.16] Albert 1992 · [Bib.8.14] Internal: QM from Firmament membrane dynamics · [Bib.8.19] Internal: FTL mechanisms.
 
 **Cosmological constant / dark energy.** [Bib.2.43] Weinberg 1972 · [Bib.2.56] Weinberg 2008 · [Bib.3.43] Planck 2018 VI · [Bib.3.45] Riess et al. 1998 · [Bib.3.46] Perlmutter et al. 1999 · [Bib.4.6] Susskind 2003 (landscape) · [Bib.4.9] KKLT 2003 · [Bib.4.10] Bousso & Polchinski 2000 · [Bib.8.28] Internal: Dark energy from sustaining coupling.
 
-**Dark matter — observations and zone-architecture interpretation.** [Bib.3.54] Rubin, Ford, Thonnard 1980 · [Bib.3.55] Markevitch et al. 2004 · [Bib.3.48] DES 2022 · [Bib.8.27] Internal: Dark matter as membrane vibrational mode.
+**Dark matter — observations and zone-architecture interpretation.** [Bib.3.54] Rubin, Ford, Thonnard 1980 · [Bib.3.55] Markevitch et al. 2004 · [Bib.3.48] DES 2022 · [Bib.8.27] Internal: Dark matter as Firmament membrane vibrational mode.
 
 **Decoherence and emergence of the classical.** [Bib.2.36] Wheeler & Zurek 1983 · [Bib.2.37] Zurek 2003 · [Bib.6.15] Wallace 2012.
 

@@ -12,9 +12,9 @@
 
 # Action L: General Relativity Precision Observables from 6D Membrane Theory
 
-**Objective:** Derive general relativity observables (gravitational time dilation, light bending, Mercury perihelion, black holes) from the 6D membrane action, resolving Tests 1.1, 7.5–7.9, 7.13, 7.14.
+**Objective:** Derive general relativity observables (gravitational time dilation, light bending, Mercury perihelion, black holes) from the 6D Firmament membrane action, resolving Tests 1.1, 7.5–7.9, 7.13, 7.14.
 
-**Framework:** The 6D membrane action yields the Einstein field equations via variational principle. Membrane stress energy couples to geometry through:
+**Framework:** The 6D Firmament action yields the Einstein field equations via variational principle. Firmament stress energy couples to geometry through:
 $$G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
 where $G = G_6/(V_{\text{compact}})$ with $V_{\text{compact}} = \xi_A \eta_B$.
@@ -39,7 +39,7 @@ This is the **geodesic equation**. Crucially, it is **independent of $m_0$** and
 
 **Physical result:** The acceleration of a test particle is independent of mass. Two particles released from rest at the same point follow identical trajectories in the gravitational field.
 
-For particles confined to the membrane ($d\xi/d\tau = d\eta/d\tau = 0$), the geodesic equation reduces to:
+For particles confined to the Firmament membrane ($d\xi/d\tau = d\eta/d\tau = 0$), the geodesic equation reduces to:
 $$\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\rho\sigma} \frac{dx^\rho}{d\tau}\frac{dx^\sigma}{d\tau} = 0$$
 
 **Equivalence principle statement:** Locally, free-falling observers cannot distinguish their acceleration from the absence of gravity.
@@ -58,7 +58,7 @@ $$\boxed{\text{Geodesic motion} \Rightarrow \text{Equivalence Principle}}$$
 
 ### 2.1 Vacuum Solution in 6D
 
-For a point mass $M$ at the origin, the membrane stress energy is:
+For a point mass $M$ at the origin, the Firmament stress energy is:
 $$T^\mu_\nu = \delta^{\mu}_\nu \rho(r) = \delta^{\mu}_\nu M \delta^3(\vec{r})$$
 
 The vacuum (massless) region has $T_{\mu\nu} = 0$ everywhere except the source. The metric components are spherically symmetric:
@@ -77,7 +77,7 @@ where $r_s = 2GM/c^2$ is the **Schwarzschild radius**.
 
 ### 2.2 Schwarzschild 4D Metric
 
-The 4D metric on the membrane is:
+The 4D metric on the Firmament is:
 $$\boxed{ds^2 = -\left(1 - \frac{r_s}{r}\right)c^2 dt^2 + \frac{dr^2}{1 - r_s/r} + r^2(d\theta^2 + \sin^2\theta d\phi^2)}$$
 
 **Physical interpretation:**

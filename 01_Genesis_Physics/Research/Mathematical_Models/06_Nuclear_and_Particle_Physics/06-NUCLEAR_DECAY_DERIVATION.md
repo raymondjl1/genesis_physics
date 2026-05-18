@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Weak force mediated through membrane topology change | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | 6D Action + Axiom 3 | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Nuclear beta decay and weak interactions from membrane defect dynamics** | **NUCLEAR_DECAY_FROM_MEMBRANE.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -10,7 +10,7 @@
 > *Chain Status: COMPLETE*
 
 
-# Nuclear Decay and Transition Rates from 6D Membrane Framework
+# Nuclear Decay and Transition Rates from 6D Firmament Framework
 
 ## Complete Derivation of Fermi Golden Rule, Tunneling, and Exponential Decay Laws
 
@@ -69,7 +69,7 @@ From ACTION_6D_COMPLETE.md, the 6D Lagrangian is:
 
 $$\mathcal{L}_6 = \frac{M_6^4}{16\pi G_6} R_6 - \frac{1}{4} \text{Tr}(F_{AB}^2) - |\nabla \Psi|^2 - V(\Psi) + \text{fermions}$$
 
-When expanded on the Firmament (4D brane at $(\xi_0, \eta_0)$), this reduces to the effective 4D action:
+When expanded on the Firmament (4D Firmament at $(\xi_0, \eta_0)$), this reduces to the effective 4D action:
 
 $$S_{\text{4D}} = \int d^4x \sqrt{-g_4} \left[ \frac{M_{Pl}^2}{16\pi G} R_4 - \frac{1}{4} \text{Tr}(F_{\mu\nu}^2) - \mathcal{L}_{\text{matter}} + H_0 + H'(t) \right]$$
 
@@ -805,7 +805,7 @@ These rules naturally emerge from the structure of the EM Hamiltonian in the 4D 
 
 ### 6.6 Membrane Origin of Gamma Decay
 
-In Genesis Physics, EM transitions represent **brane oscillations** in the η-direction:
+In Genesis Physics, EM transitions represent **Firmament oscillations** in the η-direction:
 
 An excited nuclear state has **extended wavefunction** in the η-direction:
 $$\psi_i(\eta) = \psi_0(\eta) \cdot \phi_i(\eta)$$
@@ -966,7 +966,7 @@ $$\boxed{\text{6D Action} \rightarrow \text{Gauge Sectors} \rightarrow \text{Per
 3. **Three decay modes unified** under single framework but distinguished by different perturbation mechanisms:
    - Alpha: Tunneling through confining potential barrier in η-direction
    - Beta: Weak interaction mediated by W-boson from SU(2)_L sector
-   - Gamma: EM multipole radiation from brane oscillations
+   - Gamma: EM multipole radiation from Firmament oscillations
 4. **Quantitative predictions** achieved < 1% error for all three decay modes across wide range of isotopes
 
 ### Implications for Genesis Physics

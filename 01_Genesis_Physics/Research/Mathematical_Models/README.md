@@ -33,7 +33,7 @@ Folders are numbered to match the 10 test categories in the test suite. Each fol
 | Folder | Purpose |
 |--------|---------|
 | Foundations/ | Core framework derivations that span multiple categories: Waters Field Equations, Five Principles, Experimental Predictions, original Theory Models |
-| Resolved_Issues/ | Settled questions: membrane tension, gravity mechanism, starlight propagation, zone numbering, matter formation timeline |
+| Resolved_Issues/ | Settled questions: Firmament tension, gravity mechanism, starlight propagation, zone numbering, matter formation timeline |
 | Test_Results/ | Dated test result snapshots (e.g., TEST_RESULTS_2026-04-04.md). Each run gets a new dated file so progress is tracked over time. |
 | Archive/ | Superseded files (v1 mass spectrum, old indexes, tier reports). Kept for reference, not active. |
 

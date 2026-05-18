@@ -52,7 +52,7 @@ This document lists all physical constants, measurement references, and toleranc
 
 | Parameter | Symbol | Value | Unit | Meaning |
 |-----------|--------|-------|------|---------|
-| Membrane tension | σ | 6.0e98 | kg/(m·s²) | Restoring force per length |
+| Firmament tension | σ | 6.0e98 | kg/(m·s²) | Restoring force per length |
 | Volume mass density | μ | 6.7e81 | kg/m³ | Mass per unit 3-volume |
 | Effective coupling length | ℓ_eff | 8.96e-29 | m | Scale of membrane-Waters coupling |
 
@@ -209,7 +209,7 @@ error = |derived - measured| (absolute, in units of quantity)
 
 1. **G Derivation:** Need to fix dimensional consistency. Possible solutions:
    - Add missing length scale to denominator
-   - Revise membrane coupling formula
+   - Revise Firmament coupling formula
    - Include higher-order geometric corrections
 
 2. **Dark Energy w:** Current prediction w = -1.0 vs measured w = -1.03 ± 0.03.

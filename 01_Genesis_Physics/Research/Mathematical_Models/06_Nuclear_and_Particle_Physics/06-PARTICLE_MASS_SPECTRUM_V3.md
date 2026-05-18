@@ -25,7 +25,7 @@
 
 Version 2.0 identified two fatal problems:
 
-1. **The Fermion Problem**: No mechanism in the purely bosonic membrane framework to produce fermions
+1. **The Fermion Problem**: No mechanism in the purely bosonic Firmament framework to produce fermions
 2. **The 1000× Mass Error**: Naive Kaluza-Klein compactification gave $m_\eta \approx 477$ MeV, contradicting observed fermion masses
 
 Version 3.0 **resolves both problems** through three breakthrough derivations:
@@ -61,7 +61,7 @@ $$ds^2 = -c^2 dt^2 + d\vec{x}^2 + d\xi^2 + d\eta^2$$
 - **Waters Above** ($\xi \in [0, \xi_A)$, $\xi_A = 3 \times 10^{26}$ m): scalar field $\Psi_A$
 - **Waters Below** ($\eta \in (-\eta_B, 0]$, $\eta_B = 1.3 \times 10^{-15}$ m): scalar field $\Psi_B$
 
-**Membrane tension**: $\sigma = 6.0 \times 10^{98}$ kg/(m·s²)
+**Firmament tension**: $\sigma = 6.0 \times 10^{98}$ kg/(m·s²)
 
 **Light speed**: $c = \sqrt{\sigma/\mu} = 3 \times 10^8$ m/s (EXACT from axioms)
 
@@ -69,7 +69,7 @@ $$ds^2 = -c^2 dt^2 + d\vec{x}^2 + d\xi^2 + d\eta^2$$
 
 $$S = S_{\text{membrane}} + S_{\Psi_A} + S_{\Psi_B} + S_{\text{int}}$$
 
-- **Membrane action**: Gravitational dynamics on $\xi=0, \eta=0$
+- **Firmament membrane action**: Gravitational dynamics on $\xi=0, \eta=0$
 - **Waters Above**: $S_{\Psi_A} = \int d^4x \, d\xi \left[ \frac{1}{2}(\partial_\mu \Psi_A)^2 + \frac{1}{2}(\partial_\xi \Psi_A)^2 - V_A(\Psi_A) \right]$
 - **Waters Below**: analogous with $\eta$
 - **Interaction**: coupling to vortex defects and boundary conditions

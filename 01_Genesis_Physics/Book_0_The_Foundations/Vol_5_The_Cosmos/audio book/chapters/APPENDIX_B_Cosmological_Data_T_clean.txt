@@ -9,7 +9,7 @@ B.0 How to Read These Tables.
 Each entry carries a status class that tells you what kind of agreement the number represents:
 
 Status: **DERIVED**. Meaning: Predicted from zone geometry with no cosmological fitting. The framework's inputs (σ, μ, ξ_A, η_B, SM particle content) were fixed in Vols 1–4; the cosmological output follows as a *consequence*..
-Status: **CALIBRATED**. Meaning: The membrane parameters (σ, μ, η_B) were *chosen* to reproduce this value. The framework explains *why* the parameter takes this value (it follows from zone geometry), but the numerical agreement is by construction..
+Status: **CALIBRATED**. Meaning: The Firmament membrane parameters (σ, μ, η_B) were *chosen* to reproduce this value. The framework explains *why* the parameter takes this value (it follows from zone geometry), but the numerical agreement is by construction..
 Status: **INHERITED**. Meaning: Value taken from observation (e.g., Planck 2018) and used as input. The framework does not independently derive this quantity..
 Status: **OPEN**. Meaning: The framework does not yet produce a quantitative prediction. Stated honestly..
 
@@ -40,7 +40,7 @@ Summary: 9 of 11 tests pass at < 1% fractional error. Tests #4 (Pound–Rebka) a
 
 B.2 Black Hole Parameters.
 
-All black hole properties are derived from the membrane-puncture model (Ch 5) and singularity resolution (Ch 7). These are structural predictions — they must match GR exactly in the exterior region.
+All black hole properties are derived from the Firmament-puncture model (Ch 5) and singularity resolution (Ch 7). These are structural predictions — they must match GR exactly in the exterior region.
 
 Parameter: Schwarzschild radius. Formula: r sub s = 2GM/c to the 2. Value: 2.95 M/M_ km. Exp. Confirmation: Consistent (EHT M87*, Sgr A*). Status: DERIVED. Chapter: Ch 4, 5.
 Parameter: ISCO (Schwarzschild). Formula: r_ ISCO = 3r sub s. Value: 8.86 M/M_ km. Exp. Confirmation: ISCO emission features (NuSTAR). Status: DERIVED. Chapter: Ch 4.
@@ -48,9 +48,9 @@ Parameter: Kerr ISCO (prograde, a_* = 0.998). Formula: r_+ = GM/c to the 2. Valu
 Parameter: Hawking temperature. Formula: T sub H = h-bar c to the 3 over 8 pi G M k sub B. Value: 6.2 times 10 to the -8 M_ /M K. Exp. Confirmation: Not yet observed (too cold). Status: DERIVED. Chapter: Ch 6.
 Parameter: Bekenstein–Hawking entropy. Formula: S_ BH = k sub B A over 4 ell sub P to the 2. Value: the expression. Exp. Confirmation: Consistent (thought experiments). Status: DERIVED. Chapter: Ch 5.
 Parameter: Penrose process efficiency. Formula: the expression. Value: —. Exp. Confirmation: Not directly measured. Status: DERIVED. Chapter: Ch 4.
-Parameter: Membrane tension at horizon. Formula: sigma (r sub s) = 0. Value: —. Exp. Confirmation: Structural (Breach Theorem 5.5.1). Status: DERIVED. Chapter: Ch 5.
+Parameter: Firmament tension at horizon. Formula: sigma (r sub s) = 0. Value: —. Exp. Confirmation: Structural (Breach Theorem 5.5.1). Status: DERIVED. Chapter: Ch 5.
 
-Note: The zone framework predicts that the black hole interior is a brane breach (Ch 5), not a singularity (Ch 7). All exterior observables are identical to standard GR by Theorem 5.5.2. Interior differences are not observable and therefore not testable with current technology.
+Note: The zone framework predicts that the black hole interior is a Firmament breach (Ch 5), not a singularity (Ch 7). All exterior observables are identical to standard GR by Theorem 5.5.2. Interior differences are not observable and therefore not testable with current technology.
 
 B.3 Fundamental Constants — The Honest Scorecard.
 
@@ -67,7 +67,7 @@ What is genuinely predicted:
 - The fine structure constant alpha is the crown jewel. The inputs (xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m, SM particle content) are fixed independently of alpha. The output alpha to the -1 = 137.17 plus or minus 0.15 is a genuine prediction with 0.1% precision.
 
 What is calibration:
-- h-bar and G sub 4 are explained by the framework (their values follow from membrane geometry), but the membrane parameters (sigma, mu, eta sub B) are determined from these constants. This is analogous to how the Standard Model "derives" particle masses from Yukawa couplings that are themselves measured. The explanatory power is in reducing four constants to three geometric parameters — not in predicting all four from zero inputs.
+- h-bar and G sub 4 are explained by the framework (their values follow from membrane geometry), but the Firmament membrane parameters (sigma, mu, eta sub B) are determined from these constants. This is analogous to how the Standard Model "derives" particle masses from Yukawa couplings that are themselves measured. The explanatory power is in reducing four constants to three geometric parameters — not in predicting all four from zero inputs.
 
 What limits precision:
 - Fine structure: one-loop β-function only. Two-loop corrections would improve precision to ~0.01%, but the two-loop KK integral is not yet computed.
@@ -114,7 +114,7 @@ Parameter: DM self-interaction bound. Symbol: sigma _ SI/m sub B. Zone Value: < 
 Parameter: Dark energy extent. Symbol: xi sub A. Zone Value: approximately equal to 3 times 10 to the 26 m. Observational Value: the expression m. Frac. Error: O(1). Status: DERIVED. Chapter: Ch 11, 13.
 
 Physical identifications:
-- Dark energy = Waters Above vacuum energy projected onto the brane (w = -1 exactly; cosmological constant behavior)
+- Dark energy = Waters Above vacuum energy projected onto the Firmament (w = -1 exactly; cosmological constant behavior)
 - Dark matter = Waters Below Yukawa-sourced field around baryonic matter (w = 0; dust-like; produces NFW halo profiles)
 
 B.7 Planck Unit Values.
@@ -127,13 +127,13 @@ Planck Unit: Planck mass. Symbol: m sub P. Formula: square root of h-bar c/G. Va
 Planck Unit: Planck temperature. Symbol: T sub P. Formula: m sub P c to the 2/k sub B. Value: 1.417 times 10 to the 32 K. Chapter: Ch 7, 15.
 Planck Unit: Planck energy. Symbol: E sub P. Formula: m sub P c to the 2. Value: 1.956 times 10 to the 9 J. Chapter: Ch 7.
 
-Zone-framework interpretation: The Planck scale is not the scale of quantum gravity in the zone framework. It is the geometric mean of the inner scale (eta sub B) and the UV completion scale of the membrane. The 6D bulk is smooth down to ell _ 6D approximately 10 to the -10 m, far above ell sub P. Singularity resolution (Ch 7) does not require Planck-scale physics.
+Zone-framework interpretation: The Planck scale is not the scale of quantum gravity in the zone framework. It is the geometric mean of the inner scale (eta sub B) and the UV completion scale of the Firmament. The 6D bulk is smooth down to ell _ 6D approximately 10 to the -10 m, far above ell sub P. Singularity resolution (Ch 7) does not require Planck-scale physics.
 
 B.8 Zone-Architecture Scale Parameters.
 
 These are the inputs to the zone framework — the geometric parameters from which everything else is derived.
 
-Parameter: Membrane tension. Symbol: sigma. Value: approximately equal to 6.0 times 10 to the 98 J/m. Physical Meaning: Firmament rigidity; governs wave speed. Set in: Vol 1 Ch 5.
+Parameter: Firmament tension. Symbol: sigma. Value: approximately equal to 6.0 times 10 to the 98 kg/(m·s²). Physical Meaning: Firmament rigidity; governs wave speed. Set in: Vol 1 Ch 5.
 Parameter: Membrane mass density. Symbol: mu. Value: approximately equal to 6.7 times 10 to the 81 kg/m³. Physical Meaning: Firmament inertia. Set in: Vol 1 Ch 5.
 Parameter: Waters Above extent. Symbol: xi sub A. Value: approximately equal to 3.0 times 10 to the 26 m. Physical Meaning: Outer boundary of 5th dimension; ≈ Hubble radius. Set in: Vol 1 Ch 4.
 Parameter: Firmament thickness. Symbol: eta sub B. Value: approximately equal to 1.3 times 10 to the -15 m. Physical Meaning: Inner boundary of 6th dimension; ≈ nuclear scale. Set in: Vol 1 Ch 4.
@@ -154,13 +154,13 @@ Every quantitative claim in Vol 5, in one table. This is the table a skeptical r
 #: 5. Observable: H sub 0 (Hubble). Zone Value: 67.4 km/s/Mpc. Exp. Value: 67.4 plus or minus 0.5. Error: 0.06%. Status: DERIVED. Honest Assessment: From Friedmann + zone equilibrium. Matches CMB; disagrees with local ladder (tension)..
 #: 6. Observable: Omega sub A (dark energy). Zone Value: 0.684. Exp. Value: 0.685 plus or minus 0.007. Error: 0.15%. Status: DERIVED. Honest Assessment: Waters Above projection..
 #: 7. Observable: Omega sub B (dark matter). Zone Value: 0.266. Exp. Value: 0.265 plus or minus 0.007. Error: 0.4%. Status: DERIVED. Honest Assessment: Waters Below projection..
-#: 8. Observable: Omega sub b (baryons). Zone Value: 0.049. Exp. Value: 0.049 plus or minus 0.001. Error: < 1%. Status: DERIVED. Honest Assessment: From brane-bulk coupling..
+#: 8. Observable: Omega sub b (baryons). Zone Value: 0.049. Exp. Value: 0.049 plus or minus 0.001. Error: < 1%. Status: DERIVED. Honest Assessment: From Firmament-bulk coupling..
 #: 9. Observable: Mercury precession. Zone Value: 42.98 arcsec/cy. Exp. Value: 42.98 plus or minus 0.04. Error: < 0.001%. Status: DERIVED. Honest Assessment: Standard GR — framework matches exactly..
 #: 10. Observable: GW speed c sub g. Zone Value: c (exact). Error: c sub g/c - 1. Status: < 3 times 10 to the -15. Honest Assessment: 0.
 #: 11. Observable: Hulse–Taylor P sub b. Zone Value: -2.403 times 10 to the -12. Exp. Value: -2.402 plus or minus 0.005. Error: 0.04%. Status: DERIVED. Honest Assessment: Quadrupole formula from Ch 3..
 #: 12. Observable: CMB peak ell sub 1. Zone Value: 220.5. Exp. Value: 220.0 plus or minus 0.5. Error: 0.2%. Status: DERIVED. Honest Assessment: From sound horizon + angular diameter distance..
 #: 13. Observable: Sound horizon r sub s. Zone Value: 144 Mpc. Exp. Value: 144.43 plus or minus 0.26. Error: 0.3%. Status: DERIVED. Honest Assessment: From Friedmann + recombination physics..
-#: 14. Observable: BH entropy S_ BH. Zone Value: k sub B A/(4 ell sub P to the 2). Exp. Value: Consistent. Error: —. Status: DERIVED. Honest Assessment: Reproduced from membrane mode counting..
+#: 14. Observable: BH entropy S_ BH. Zone Value: k sub B A/(4 ell sub P to the 2). Exp. Value: Consistent. Error: —. Status: DERIVED. Honest Assessment: Reproduced from Firmament membrane mode counting..
 #: 15. Observable: Singularity resolution. Zone Value: Bounded 6D curvature. Exp. Value: Not testable. Error: —. Status: DERIVED. Honest Assessment: Structural prediction; no observational test available..
 #: 16. Observable: w sub A (DE equation of state). Zone Value: -1 (exact). Exp. Value: -1.03 plus or minus 0.03. Error: < 3%. Status: DERIVED. Honest Assessment: Waters Above = cosmological constant..
 #: 17. Observable: NFW halo profile. Zone Value: Derived from Psi sub B. Exp. Value: Observed in simulations/lensing. Error: Qualitative. Status: DERIVED. Honest Assessment: Shape matches; normalization requires kappa sub B calibration..

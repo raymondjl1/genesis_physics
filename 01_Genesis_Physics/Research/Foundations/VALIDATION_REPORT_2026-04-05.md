@@ -177,7 +177,7 @@ Likely should be (binding energy)² or the equation should be mc² = ... without
 |-------|--------|-------|
 | 6D → 4D projection recovers GR | INCOMPLETE | Projection operator not derived |
 | Newtonian limit (F = ma) | INCOMPLETE | Requires 6D→4D→weak-field chain; first step missing |
-| Membrane wave equation → Maxwell | INCOMPLETE | (E,B) as membrane modes not shown; claim is qualitative |
+| Firmament membrane wave equation → Maxwell | INCOMPLETE | (E,B) as Firmament membrane modes not shown; claim is qualitative |
 | Extra dimensions → 0 recovers 4D | CRITICAL GAP | Not demonstrated; essential for consistency |
 | Creation-epoch dynamics (H_creation) | CRITICAL GAP | Factor 3 × 10¹⁴ is a free parameter, not derived |
 | Junction conditions at Sabbath Boundary | INCOMPLETE | Israel conditions stated but surface stress-energy not specified |
@@ -219,7 +219,7 @@ Likely should be (binding energy)² or the equation should be mc² = ... without
 | Topic | Standard Physics | Genesis Physics | Overlap | Novelty Level | Critical Gap |
 |-------|-----------------|-----------------|---------|---------------|--------------|
 | Extra dimensions | Compactified at Planck scale (ADD, RS, strings) | Non-compactified, cosmological scale | Both geometric | HIGH — dark sector IS the extra dimensions | No explicit metric solution; zone boundaries not derived |
-| Brane mechanics | Tension enters Friedmann equation, not c | c² = σ/μ from membrane wave speed | Both invoke brane tension | HIGH — c as mechanical property (novel claim) | σ, μ derivation circular; generalization to 4D membrane in 6D not rigorous |
+| Brane mechanics | Tension enters Friedmann equation, not c | c² = σ/μ from Firmament membrane wave speed | Both invoke Firmament tension | HIGH — c as mechanical property (novel claim) | σ, μ derivation circular; generalization to 4D membrane in 6D not rigorous |
 | Dark sector | Independent DM particle + Λ | Unified geometric origin (Ψ_A, Ψ_B from ξ, η) | Both match observations | HIGH — first unified framework | Energy fractions not derived; field source terms undefined |
 | Fine structure | Not derived (landscape of 10⁵⁰⁰ in string theory) | α⁻¹ = 1.44 ln(ξ_A/η_B) | Both seek explanation | VERY HIGH — if proven | **Green's function calculation entirely missing**; coefficient 1.44 unjustified |
 | Early universe | Inflation (smooth, scalar field) | Creation-epoch metric (discontinuous, external work) | Both solve horizon/flatness | HIGH — explains Hubble tension | Junction conditions incomplete; H_creation(τ) not derived |
@@ -258,7 +258,7 @@ The claim α⁻¹ = 1.44 × ln(ξ_A/η_B) = 137.036 is the most important quanti
 
 6. **Specify Sabbath Boundary junction conditions** — Define the surface stress-energy tensor and verify the Israel junction conditions are satisfied in 6D.
 
-7. **Show Maxwell's equations emerge from membrane dynamics** — Construct E, B explicitly as membrane oscillation modes.
+7. **Show Maxwell's equations emerge from Firmament membrane dynamics** — Construct E, B explicitly as Firmament membrane oscillation modes.
 
 ### Severity: MEDIUM (improves clarity)
 
@@ -266,7 +266,7 @@ The claim α⁻¹ = 1.44 × ln(ξ_A/η_B) = 137.036 is the most important quanti
 9. **Unify the three uses of "sustaining"** into a single rigorous definition.
 10. **Specify the Fall timing** relative to the Sabbath Boundary.
 11. **Clarify Ω_DM definition** — is 0.266 total dark matter or CDM only?
-12. **Address the Lorentz invariance circularity** — the membrane argument restates the symmetry rather than deriving it.
+12. **Address the Lorentz invariance circularity** — the Firmament argument restates the symmetry rather than deriving it.
 
 ---
 
@@ -298,7 +298,7 @@ The claim α⁻¹ = 1.44 × ln(ξ_A/η_B) = 137.036 is the most important quanti
 
 ## Test Suite Impact
 
-This validation does not re-run the 123-test Observational Physics Test Suite. It validates the foundational axiom papers that underpin all test derivations. The dimensional errors in Axiom 3 (membrane mechanics) may propagate into test calculations for:
+This validation does not re-run the 123-test Observational Physics Test Suite. It validates the foundational axiom papers that underpin all test derivations. The dimensional errors in Axiom 3 (Firmament mechanics) may propagate into test calculations for:
 
 - Gravity & Kinematics (Issue #4)
 - EM Applications (Issue #6)

@@ -29,7 +29,7 @@ In Vol 1 Chapter 11, we derived the ideal gas law from the partition function of
 
 [Equation — see print edition.]
 
-This result is exact for non-interacting particles. But particles DO interact — Chapter 7 derived the entire mass spectrum from the coupling between vortex defects and the gauge fields of the membrane. Those same gauge field fluctuations produce forces between particles at finite separation. An equation of state that ignores these interactions cannot describe phase transitions, because phase transitions are precisely what happens when interactions compete with thermal motion.
+This result is exact for non-interacting particles. But particles DO interact — Chapter 7 derived the entire mass spectrum from the coupling between vortex defects and the gauge fields of the Firmament membrane. Those same gauge field fluctuations produce forces between particles at finite separation. An equation of state that ignores these interactions cannot describe phase transitions, because phase transitions are precisely what happens when interactions compete with thermal motion.
 
 The question is: why do molecules attract at long range and repel at short range? In the standard treatment, this is postulated via the Lennard-Jones potential. In the zone framework, it is derived.
 
@@ -37,11 +37,11 @@ Intermolecular Forces from the Firmament.
 
 In Chapter 7, we showed that gauge field fluctuations on the Firmament membrane produce the electromagnetic force between charged particles. The same mechanism, applied to neutral molecules, produces the van der Waals interaction through three physical effects:
 
-1. Dispersion forces (attractive, long-range). The quantum fluctuations of the electron cloud in molecule A generate instantaneous dipole moments. These dipole fluctuations couple to molecule B through the gauge field propagator on the membrane. The resulting correlation produces an attractive potential that scales as r to the -6:
+1. Dispersion forces (attractive, long-range). The quantum fluctuations of the electron cloud in molecule A generate instantaneous dipole moments. These dipole fluctuations couple to molecule B through the gauge field propagator on the Firmament. The resulting correlation produces an attractive potential that scales as r to the -6:
 
 [Equation — see print edition.]
 
-where C sub 6 depends on the polarizability of the molecules — itself determined by the wavefunction overlap integrals of Chapter 7. The r to the -6 scaling follows from the structure of dipole-dipole interactions: the instantaneous dipole field falls as r to the -3, and the induced dipole responds linearly, giving r to the -3 times r to the -3 = r to the -6. This is not postulated; it follows from the gauge field Green's function on the membrane (cf. Vol 2, Eq. 2.3.18 for the electromagnetic propagator).
+where C sub 6 depends on the polarizability of the molecules — itself determined by the wavefunction overlap integrals of Chapter 7. The r to the -6 scaling follows from the structure of dipole-dipole interactions: the instantaneous dipole field falls as r to the -3, and the induced dipole responds linearly, giving r to the -3 times r to the -3 = r to the -6. This is not postulated; it follows from the gauge field Green's function on the Firmament (cf. Vol 2, Eq. 2.3.18 for the electromagnetic propagator).
 
 2. Pauli repulsion (repulsive, short-range). When two molecules approach to distances comparable to their electron cloud extent (the expression m for nuclear scales, or approximately 10 to the -10 m for atomic scales), the electron wavefunctions overlap. The Pauli exclusion principle — derived in Vol 1 Chapter 10 from the braiding statistics of topological defects (Eq. 1.10.19) — forbids two fermions from occupying the same quantum state. This creates an effective repulsive wall at short range:
 
@@ -182,7 +182,7 @@ The Gibbs phase rule determines how many intensive variables can be independentl
 
 where F is the number of degrees of freedom, C is the number of components, and P is the number of coexisting phases. For a single-component system (C = 1): one phase (F = 2, a region in P-T space), two phases (F = 1, a curve), three phases (F = 0, a point). This is why the triple point is a point, not a region — all freedom is exhausted.
 
-The Gibbs phase rule is not an independent postulate. It follows from counting the equilibrium conditions (mu sub i to the ( alpha ) = mu sub i to the ( beta ) for each pair of phases and each component) against the number of intensive variables. The zone architecture provides no additional constraint here — phase rule counting is purely combinatorial. But the values of the coexistence temperatures and pressures are determined by the intermolecular potentials, which are derived from the membrane.
+The Gibbs phase rule is not an independent postulate. It follows from counting the equilibrium conditions (mu sub i to the ( alpha ) = mu sub i to the ( beta ) for each pair of phases and each component) against the number of intensive variables. The zone architecture provides no additional constraint here — phase rule counting is purely combinatorial. But the values of the coexistence temperatures and pressures are determined by the intermolecular potentials, which are derived from the Firmament.
 
 Landau Theory — Order Parameters and Symmetry Breaking.
 
@@ -386,7 +386,7 @@ where (from the thermal contributions of gauge bosons and fermions):
 
 [Equation — see print edition.]
 
-Here mu to the 2 = sigma c to the 4 / (2 xi sub A to the 2) is the negative mass-squared from membrane tension (Ch 7, Eq. 3.7.12), and the expression is a coefficient determined by the particles that couple to the Higgs.
+Here mu to the 2 = sigma c to the 4 / (2 xi sub A to the 2) is the negative mass-squared from Firmament tension (Ch 7, Eq. 3.7.12), and the expression is a coefficient determined by the particles that couple to the Higgs.
 
 At high temperature (T much greater than T sub c): alpha (T) > 0, the minimum is at |H| = 0. Symmetry is unbroken.
 
@@ -519,6 +519,6 @@ Challenge Problems.
 
 Problem 8.9. Derive the Ginzburg criterion (Eq. 3.8.25) from scratch. Start with the Landau free energy functional including a gradient term | nabla phi | to the 2, compute the mean-square fluctuation ( delta phi ) to the 2 in a correlation volume, and find the temperature range where fluctuations dominate over the mean-field order parameter. Show explicitly that mean-field theory is exact for d > 4.
 
-Problem 8.10. Map the electroweak symmetry breaking of Chapter 7 onto the Landau framework. Identify the order parameter, write the Landau free energy in terms of the Higgs field, determine the coefficients from the parameters derived in Chapter 7 (membrane tension sigma, extent xi sub A, gauge couplings g, g'), and estimate the critical temperature T sub c. Compare your estimate with the lattice result of approximately 159 GeV and discuss the source of any discrepancy.
+Problem 8.10. Map the electroweak symmetry breaking of Chapter 7 onto the Landau framework. Identify the order parameter, write the Landau free energy in terms of the Higgs field, determine the coefficients from the parameters derived in Chapter 7 (Firmament tension sigma, extent xi sub A, gauge couplings g, g'), and estimate the critical temperature T sub c. Compare your estimate with the lattice result of approximately 159 GeV and discuss the source of any discrepancy.
 
 Chapter 8 verified against: 02-PHASETRANSITIONSMOLECULAR.md (both test suites PASS), Vol 1 Ch 11 (thermodynamic foundations), Ch 7 §7.7 (bridge). Known research gap: GitHub Issue #12 (MEDIUM severity) — molecular detail for specific substances beyond water.

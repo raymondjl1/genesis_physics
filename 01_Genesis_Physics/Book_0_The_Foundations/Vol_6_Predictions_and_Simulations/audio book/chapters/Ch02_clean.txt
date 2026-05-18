@@ -6,7 +6,9 @@ Chapter 1 demonstrated that zone architecture reproduces the vast body of confir
 
 But getting known answers right is necessary, not sufficient. A framework that merely replicates the Standard Model with different notation is scientifically useless — it adds explanation (the "why") but no new testable content. The real scientific interest begins where zone architecture and standard physics disagree. These disagreements are where the framework puts its neck on the line, and they come in three distinct types that the reader must distinguish before evaluating any specific prediction.
 
-Type A: Different Numerical Values. Zone architecture and the Standard Model both predict a value for the same observable, and those values differ. A single measurement at sufficient precision can resolve the disagreement. The particle mass spectrum belongs here: zone architecture's membrane resonance model predicts masses that are wrong by factors of 20 to 1000. This is a genuine failure, and we present it first (Section 2.2) because a framework that hides its worst results does not deserve trust.
+Type A: Different Numerical Values. Zone architecture and the Standard Model both predict a value for the same observable, and those values differ. A single measurement at sufficient precision can resolve the disagreement. The particle mass spectrum belongs here: zone architecture's Firmament membrane resonance model predicts masses that are wrong by factors of 20 to 1000. This is a genuine failure, and we present it first (Section 2.2) because a framework that hides its worst results does not deserve trust.
+
+Note: The particle mass spectrum discrepancy (u quark ~370× error, d quark ~31,000× error) is the framework's most significant open failure. The fundamental Firmament membrane mode produces 475.5 MeV/c² for the lightest stable particle; the observed electron mass is 0.511 MeV/c² — a 930× discrepancy. A possible resolution — computing the 2D membrane eigenvalue problem rather than the 1D approximation — is identified as Research Task RT-6.MASS2D. Until RT-6.MASS2D is complete, the particle mass sector remains structurally incomplete. Section 2.2 develops this in full.
 
 Type B: Different Theoretical Commitments. The Standard Model leaves a quantity undetermined or allows multiple possibilities; zone architecture commits to a specific answer. No single measurement "resolves" this — instead, an experimental program progressively constrains the allowed space until one framework or the other is excluded. The neutrino mass hierarchy belongs here: the Standard Model allows both normal and inverted ordering; zone architecture permits only normal. The JUNO and DUNE experiments will produce a definitive answer within five to ten years.
 
@@ -22,13 +24,13 @@ Particle Masses — The Honest Failure.
 
 We begin with the worst result in the entire framework.
 
-The particle mass spectrum derivation (Vol 4, Ch 10) represents zone architecture's most ambitious quantitative attempt — and its most instructive failure. The idea is elegant: if particles are quantized vibrational modes of the Firmament membrane, then their masses should emerge as eigenvalues of the membrane wave equation, just as the frequencies of a vibrating drum are determined by its geometry. The mathematics is rigorous, the physics is clear, and the framework makes definite predictions.
+The particle mass spectrum derivation (Vol 4, Ch 10) represents zone architecture's most ambitious quantitative attempt — and its most instructive failure. The idea is elegant: if particles are quantized vibrational modes of the Firmament membrane, then their masses should emerge as eigenvalues of the Firmament membrane wave equation, just as the frequencies of a vibrating drum are determined by its geometry. The mathematics is rigorous, the physics is clear, and the framework makes definite predictions.
 
 Those predictions are wrong by three orders of magnitude.
 
 Understanding why they are wrong — and what the failure tells us about the framework's incompleteness — is more scientifically valuable than any match in Chapter 1.
 
-The Membrane Resonance Model.
+The Firmament Resonance Model.
 
 The Firmament, modeled as a 2D membrane embedded in the 6D zone manifold, satisfies a wave equation with boundary conditions at the Waters Above (xi = xi sub A) and Waters Below (eta = eta sub B). The simplest model — hard-wall boundary conditions at the geometric extents — gives quantized resonance frequencies:
 
@@ -51,13 +53,13 @@ The factor-of-1000 error demands explanation, not excuse. The hard-wall model us
 
 What went wrong? The root cause analysis (documented in the Research archive, PARTICLEMASSSPECTRUM_SUMMARY.md) identifies four contributing factors:
 
-First, particle masses are not set by geometric boundaries alone. The Higgs mechanism — electroweak symmetry breaking through the Higgs field acquiring a vacuum expectation value v = 246.22 GeV — plays a central role that the simple membrane model omits. In zone architecture, the Higgs should emerge as a specific membrane mode whose coupling to other modes (the Yukawa couplings) determines the mass spectrum. This coupling calculation has not been completed.
+First, particle masses are not set by geometric boundaries alone. The Higgs mechanism — electroweak symmetry breaking through the Higgs field acquiring a vacuum expectation value v = 246.22 GeV — plays a central role that the simple Firmament membrane model omits. In zone architecture, the Higgs should emerge as a specific Firmament membrane mode whose coupling to other modes (the Yukawa couplings) determines the mass spectrum. This coupling calculation has not been completed.
 
 Second, the effective confining scale for particle masses is not eta sub B (the Waters Below extent) but some dynamical scale L sub eff set by the Higgs-Waters interaction. The electron mass requires L sub eff approximately 3.9 times 10 to the -13 m — larger than eta sub B by a factor of 300, suggesting the effective potential well is much wider than the hard-wall geometry.
 
 Third, the generation structure — why the muon is 206.77 times heavier than the electron, rather than 2 to 10 times as the simple model predicts — requires understanding Yukawa coupling overlap integrals between the Higgs wavefunction and the fermion wavefunctions in the extra dimensions. These integrals have not been computed.
 
-Fourth, neutrino masses (m_ nu < 0.1 eV) are a billion times lighter than the electron. The membrane model provides no mechanism for such extreme lightness. This is a critical gap — neutrinos constitute roughly 10% of the universe by number density, and any complete particle physics framework must explain their masses.
+Fourth, neutrino masses (m_ nu < 0.1 eV) are a billion times lighter than the electron. The Firmament model provides no mechanism for such extreme lightness. This is a critical gap — neutrinos constitute roughly 10% of the universe by number density, and any complete particle physics framework must explain their masses.
 
 P-053: Muon-to-Electron Mass Ratio
 Zone architecture value: m mu /m sub e approximately equal to 2–10 (from simple quantum number assignment n xi = 1 vs. n_ xi = 2)
@@ -75,7 +77,7 @@ Zone architecture value: Simple membrane quantum numbers predict regular spacing
 Standard Model value: Six quark masses fitted from experiment: u approximately equal to 2.2, d approximately equal to 4.7, s approximately equal to 93, c approximately equal to 1275, b approximately equal to 4180, t approximately equal to 173 000 MeV
 Experimental value: Above (PDG values)
 Current precision: Varies (1–10% for most quarks)
-Distinguishing experiment: Already resolved — the irregular quark mass pattern does not match simple membrane modes
+Distinguishing experiment: Already resolved — the irregular quark mass pattern does not match simple Firmament membrane modes
 Source: Vol 4, Ch 10
 Falsification threshold: Hard-wall model already falsified for quark mass pattern
 Type: A
@@ -94,19 +96,21 @@ Status: DIFFERS — zone architecture has no prediction
 
 What This Failure Means — and What It Does Not Mean.
 
-The particle mass sector is unambiguously incomplete. This must be stated without qualification: zone architecture, in its current form, cannot predict absolute particle masses. The 1000times electron mass error, the 20–100times mass ratio errors, and the missing neutrino mass mechanism are genuine failures of the simplest membrane model.
+The particle mass sector is unambiguously incomplete. This must be stated without qualification: zone architecture, in its current form, cannot predict absolute particle masses. The 1000times electron mass error, the 20–100times mass ratio errors, and the missing neutrino mass mechanism are genuine failures of the simplest Firmament model.
 
 But incomplete is not falsified. The distinction matters.
 
-The hard-wall membrane model is the simplest possible application of the zone architecture to particle masses — the equivalent of modeling an atom as a hard sphere. Real atoms require quantum mechanics, electron correlation, and nuclear structure. Similarly, real particle masses require the Higgs mechanism, Yukawa coupling dynamics, and the full Waters-Firmament interaction — physics that the framework accommodates in principle but has not yet computed in practice.
+The hard-wall Firmament model is the simplest possible application of the zone architecture to particle masses — the equivalent of modeling an atom as a hard sphere. Real atoms require quantum mechanics, electron correlation, and nuclear structure. Similarly, real particle masses require the Higgs mechanism, Yukawa coupling dynamics, and the full Waters-Firmament interaction — physics that the framework accommodates in principle but has not yet computed in practice.
 
-Three results from the same framework do work: the prediction of exactly three fermion generations (from the three lowest xi-modes, matching the observed three families), the derivation of the fine structure constant (from the same geometric parameters that fail for masses), and the gauge group structure SU(3) times SU(2) times U(1) (from zone symmetries). These successes demonstrate that the membrane framework captures real physics — it is the mass sector specifically that requires additional theoretical development.
+Three results from the same framework do work: the prediction of exactly three fermion generations (from the three lowest xi-modes, matching the observed three families), the derivation of the fine structure constant (from the same geometric parameters that fail for masses), and the gauge group structure SU(3) times SU(2) times U(1) (from zone symmetries). These successes demonstrate that the Firmament framework captures real physics — it is the mass sector specifically that requires additional theoretical development.
 
 The parameter counting is also honest but not damning: zone architecture uses approximately 5 to 10 adjustable parameters to address 20 particle masses, compared to the Standard Model's approximately 30 free parameters for the same data. The improvement is modest, not revolutionary.
 
 [Figure — see print edition.]
 
-The path forward is identified (Chapter 10, Open Problems): compute the Higgs wavefunction as a membrane mode, evaluate the Yukawa overlap integrals, solve the coupled Schrödinger equation with soft (Waters-mediated) potentials, and derive the effective confining scales from the dynamics rather than assuming hard walls. This is a research program, not a patch — and it may require the equivalent of a doctoral thesis to complete.
+The path forward is identified (Chapter 14, Open Problems): compute the Higgs wavefunction as a Firmament membrane mode, evaluate the Yukawa overlap integrals, solve the coupled Schrödinger equation with soft (Waters-mediated) potentials, and derive the effective confining scales from the dynamics rather than assuming hard walls. This is a research program, not a patch — and it may require the equivalent of a doctoral thesis to complete.
+
+Note: The most promising near-term resolution is the 2D eigenvalue calculation. The current simulations solve a 1D Firmament membrane model with L = η_B. The actual Firmament is 2D (or higher-dimensional). Computing the 2D membrane eigenvalue problem may shift the fundamental mode mass significantly, as 2D Bessel function zeros produce non-uniform mode spacing that could better accommodate the observed mass hierarchy. This is Research Task RT-6.MASS2D. Until RT-6.MASS2D is complete, the 930× electron mass discrepancy (fundamental mode 475.5 MeV/c² vs. observed 0.511 MeV/c²) and the quark mass discrepancies (u quark ~370×, d quark ~31,000×) remain the framework's most significant quantitative failures.
 
 Coupling Constants — Close But Not Exact.
 
@@ -201,7 +205,7 @@ Each null result eliminates a swath of WIMP parameter space. The original WIMP "
 
 [Figure — see print edition.]
 
-Zone architecture's prediction creates an unusual evidential structure: every null result is weak evidence for the framework, while a single confirmed detection would be decisive evidence against it. This asymmetry — where absence of evidence is (mildly) evidence of absence — is characteristic of Type B predictions. The framework cannot be proven by null results, because the Standard Model with sufficiently low cross-section DM also predicts null results. But a confirmed detection would falsify zone architecture specifically, because no nonzero cross-section is compatible with the bulk-brane separation.
+Zone architecture's prediction creates an unusual evidential structure: every null result is weak evidence for the framework, while a single confirmed detection would be decisive evidence against it. This asymmetry — where absence of evidence is (mildly) evidence of absence — is characteristic of Type B predictions. The framework cannot be proven by null results, because the Standard Model with sufficiently low cross-section DM also predicts null results. But a confirmed detection would falsify zone architecture specifically, because no nonzero cross-section is compatible with the bulk-Firmament separation.
 
 Indirect detection tells the same story. Fermi-LAT's 15-year survey of the galactic center shows no excess gamma-ray emission from dark matter annihilation. IceCube's search for neutrinos from dark matter capture in the Sun has produced null results. Both are exactly what zone architecture predicts, and both progressively constrain WIMP models that predict such signals.
 
@@ -357,7 +361,7 @@ Falsification threshold: A confirmed proton decay event at any rate falsifies zo
 Type: B (different theoretical commitment — ZA says proton cannot decay; GUTs say it can)
 Status: DIFFERS from GUTs; agrees with SM (but for different reasons)
 
-In zone architecture, baryons are topological defects of the Firmament membrane — quantized winding numbers in the xi-eta topological space. Baryon number conservation is not an accidental symmetry (as in the Standard Model) or a weakly broken symmetry (as in GUTs), but a topological invariant. A proton cannot decay to lighter particles because doing so would require changing the winding number of the membrane — an operation that has no physical mechanism in the 6D framework.
+In zone architecture, baryons are topological defects of the Firmament membrane — quantized winding numbers in the xi-eta topological space. Baryon number conservation is not an accidental symmetry (as in the Standard Model) or a weakly broken symmetry (as in GUTs), but a topological invariant. A proton cannot decay to lighter particles because doing so would require changing the winding number of the Firmament — an operation that has no physical mechanism in the 6D framework.
 
 This argument is elegant but carries an important caveat. The confidence level is SPECULATIVE (40%) because the topological protection hypothesis, while mathematically motivated, has not been rigorously proven within the full zone architecture framework. The classification of Standard Model particles as topological defects requires a complete mapping between membrane topology and the particle spectrum — a mapping that is only partially developed (the same incompleteness that produces the mass spectrum failures in Section 2.2).
 
@@ -375,7 +379,7 @@ Test Suite Status for This Chapter's Predictions.
 
 Before the summary table, we report the validation status of each prediction against the framework's test suite (136 tests, as of April 5, 2026):
 
-- P-052 through P-055 (Particle Masses): FAIL (by design). The hard-wall membrane model is known to be inadequate. Test suite category 6 (Nuclear and Particle Physics) shows these tests as PARTIAL — the framework is established but precision is absent. This is the most significant category of incompleteness in the test suite.
+- P-052 through P-055 (Particle Masses): FAIL (by design). The hard-wall Firmament membrane model is known to be inadequate. Test suite category 6 (Nuclear and Particle Physics) shows these tests as PARTIAL — the framework is established but precision is absent. This is the most significant category of incompleteness in the test suite.
 - P-056 (Fine Structure Constant): PARTIAL. Test 10.5 (alpha derivation) shows agreement to 0.10%. Refinement of b sub hi is required for full PASS.
 - P-057 (Weak Mixing Angle): PARTIAL. Zone geometry derivation established; precision derivation not yet completed.
 - P-058 (Strong Coupling Running): PASS at M sub Z (Test 6.22, alpha sub s = 0.118). High-energy running not yet tested.
@@ -411,7 +415,7 @@ The Three Kill Shots.
 
 Three measurements could falsify zone architecture decisively:
 
-1. Dark matter is detected. A confirmed direct detection of dark matter particles with sigma > 10 to the -48 cmto the 2 would prove that dark matter has non-gravitational interactions, directly contradicting the Waters Below prediction. No repair is possible without abandoning the bulk-brane separation.
+1. Dark matter is detected. A confirmed direct detection of dark matter particles with sigma > 10 to the -48 cmto the 2 would prove that dark matter has non-gravitational interactions, directly contradicting the Waters Below prediction. No repair is possible without abandoning the bulk-Firmament separation.
 
 2. Dark energy deviates from w = -1. A combined DESI + Euclid measurement showing w < -1.05 or w > -0.95 at > 3 sigma would demonstrate that the Waters Above field is dynamical, contradicting the geometric fixity of the zone boundaries.
 
@@ -421,7 +425,7 @@ The Particle Mass Elephant.
 
 The 1000times mass spectrum failure cannot be ignored and will not be minimized. It is the largest quantitative failure in the framework, and it means the particle mass sector is incomplete. The honest framing:
 
-- The simplest membrane model (hard walls) fails catastrophically for absolute masses.
+- The simplest Firmament model (hard walls) fails catastrophically for absolute masses.
 - The structural features (three generations, mass-splitting ratios) succeed.
 - The path to a complete mass prediction is identified (Higgs-Waters coupling, Yukawa overlap integrals) but not yet traveled.
 - Until the mass sector is completed, zone architecture cannot claim to be a full replacement for the Standard Model's particle physics.
@@ -452,7 +456,7 @@ Computational
 
 2.2 The current best dark matter direct detection limit is sigma sub SI < 4.1 times 10 to the -47 cmto the 2 (XENONnT). The neutrino fog begins at approximately sigma approximately 10 to the -49 cmto the 2. (a) How many orders of magnitude of improvement separate the current limit from the neutrino floor? (b) If each generation of detector improves sensitivity by one order of magnitude every 5 years, in what year will the neutrino floor be reached? (c) What scientific conclusion can be drawn if dark matter remains undetected at the neutrino floor?
 
-2.3 Using the membrane mass formula m = h-bar omega /c to the 2 with omega = n pi c/L and the geometric extent L = eta sub B = 1.3 times 10 to the -15 m, compute the predicted ground-state mass (n = 1). Compare with the observed electron mass m sub e = 0.511 MeV/c to the 2. What effective confining scale L sub eff would be needed to match the observed electron mass?
+2.3 Using the Firmament mass formula m = h-bar omega /c to the 2 with omega = n pi c/L and the geometric extent L = eta sub B = 1.3 times 10 to the -15 m, compute the predicted ground-state mass (n = 1). Compare with the observed electron mass m sub e = 0.511 MeV/c to the 2. What effective confining scale L sub eff would be needed to match the observed electron mass?
 
 2.4 Estimate the gravitational wave dispersion parameter delta (f) at LISA frequencies (f approximately 10 to the -3 Hz) using the scaling the expression with epsilon approximately 10 to the -35 and alpha = 2. Compare with LISA's projected timing precision for gravitational wave signals. By how many orders of magnitude does the predicted effect fall below detection?
 

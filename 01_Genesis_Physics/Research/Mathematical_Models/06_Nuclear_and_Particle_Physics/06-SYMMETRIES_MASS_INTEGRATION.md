@@ -20,7 +20,7 @@
 
 ## OVERVIEW
 
-The previous work (PARTICLE_MASS_SPECTRUM.md) attempted to derive particle masses from membrane mode resonances. This new work (MASS_SPECTRUM_v2_SYMMETRIES.md) derives the gauge group structure from geometry.
+The previous work (PARTICLE_MASS_SPECTRUM.md) attempted to derive particle masses from Firmament mode resonances. This new work (MASS_SPECTRUM_v2_SYMMETRIES.md) derives the gauge group structure from geometry.
 
 These are **complementary**, not competing. This document shows how they fit together.
 
@@ -40,7 +40,7 @@ From the 6D geometry:
 ### Level 2: Mass Spectrum (From Earlier Work)
 
 Given the gauge structure, the masses arise from:
-- **Resonance frequencies of membrane modes**: ω(n_ξ, n_η, n_r, l, s)
+- **Resonance frequencies of Firmament modes**: ω(n_ξ, n_η, n_r, l, s)
 - **Coupling to Waters VEVs**: Yukawa couplings y_{l,n_ξ}
 - **Higgs mechanism**: m = y(v/√2)
 
@@ -98,7 +98,7 @@ The earlier work found that naive mode-counting (n_ξ = 1, 2, 3) gives mass rati
 
 **Solution**: The masses are NOT directly set by mode numbers, but by Yukawa couplings.
 
-**Reason**: Particles are **resonant states of the membrane**, but their coupling to the weak interaction (which generates masses) depends on spatial structure.
+**Reason**: Particles are **resonant states of the Firmament**, but their coupling to the weak interaction (which generates masses) depends on spatial structure.
 
 A wavefunction with n_ξ = 3 (third generation) has more spatial oscillations than n_ξ = 1 (first generation).
 
@@ -226,7 +226,7 @@ Level 1 (Geometry)
 └─ Yields: G = SU(3)_C × SU(2)_W × U(1)_Y
 
 Level 2 (Dynamics)
-├─ Membrane resonance modes
+├─ Firmament membrane resonance modes
 ├─ Yukawa couplings to Higgs
 ├─ Electroweak symmetry breaking
 └─ Yields: Masses of particles

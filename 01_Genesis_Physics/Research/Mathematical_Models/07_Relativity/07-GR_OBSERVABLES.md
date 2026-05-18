@@ -39,7 +39,7 @@ The Schwarzschild and Kerr metrics emerge from solving the 4D Einstein equations
 
 **Starting Point**: The 6D action functional (Foundations/ACTION_6D_COMPLETE.md, Eq. S_total):
 
-$$(0.1) \quad S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
+$$(0.1) \quad S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
 
 **Gravitational sector** (Foundations/ACTION_6D_COMPLETE.md, Eq. 3.1):
 

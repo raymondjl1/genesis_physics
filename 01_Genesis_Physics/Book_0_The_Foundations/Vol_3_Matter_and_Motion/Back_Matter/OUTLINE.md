@@ -24,7 +24,7 @@
 
 - **A.3 Volume 2: Forces and Fields — Results Used in Vol 3**
   - A.3.1 From Ch 1 (Why Forces Exist) — gauge structure of forces
-  - A.3.2 From Ch 2 (Gravity from Zone Curvature) — (2.2.29) G_4 from membrane tension; (2.2.44) geodesic equation
+  - A.3.2 From Ch 2 (Gravity from Zone Curvature) — (2.2.29) G_4 from Firmament tension; (2.2.44) geodesic equation
   - A.3.3 From Ch 3 (Electromagnetism) — Maxwell's equations, wave speed
   - A.3.4 From Ch 4 (Strong/Weak) — boundary-effect coupling scales
   - A.3.5 From Ch 5 (Zone Lagrangian) — (2.5.1) zone action, (2.5.20) full Lagrangian, (2.5.21) δS = 0

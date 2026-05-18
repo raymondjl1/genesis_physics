@@ -594,7 +594,7 @@ PS-10.1 [C] The Sturm-Liouville problem on a bounded interval [0, L] with fixed 
 
 For a string of length L = 1 m, calculate the first three eigenvalues λ₁, λ₂, λ₃. What are the corresponding wavelengths?
 
-PS-10.2 [C] The membrane wave equation with tension σ and linear mass density μ:
+PS-10.2 [C] The Firmament membrane wave equation with tension σ and linear mass density μ:
 
 [Equation — see print edition.]
 
@@ -608,7 +608,7 @@ PS-10.3 [C] Planck's constant ℏ is derived from membrane parameters:
 
 [Equation — see print edition.]
 
-If σ = 10⁻¹⁵ kg/m (membrane tension), ηB = 10⁻³⁵ m (boundary scale), ξA = 10⁻³⁷ m (amplitude scale), and β_geom ≈ 1, calculate ℏ numerically and compare to the known value.
+If σ = 6.0×10⁹⁸ kg/(m·s²) (Firmament tension), ηB = 1.3×10⁻¹⁵ m (boundary scale; Waters Below extent), ξA = 3.0×10²⁶ m (amplitude scale; Waters Above extent — note ξA > ηB per canon), and βgeom ≈ 1, calculate ℏ numerically using the formula above and compare to the measured value 1.055×10⁻³⁴ J·s. (Canonical zone-architecture parameters per SymbolandConstants.md — value updated per 0516Rev_001.) [TODO: no solution key exists in this manuscript; downstream solutions doc must be updated to match new numbers.]
 
 PS-10.4 [C] Kaluza-Klein mass quantization: the extra-dimensional (z-direction) eigenmodes have masses:
 
@@ -693,7 +693,7 @@ PS-10.28 [W] In the zone framework, what sets the boundary conditions that lead 
 
 Challenge Problems [X].
 
-PS-10.29 [X] Derivation of Planck's Constant: From first principles, show that the membrane parameters uniquely determine ℏ.
+PS-10.29 [X] Derivation of Planck's Constant: From first principles, show that the Firmament parameters uniquely determine ℏ.
 
 Starting point: The Firmament is a membrane under tension σ with boundary layers of thickness ηB. Perturbations oscillate with characteristic amplitude ξA and frequency that depends on geometry (factor β_geom).
 

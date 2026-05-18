@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27; Ecclesiastes 3:11 (God made everything appropriate in its time) | Genesis 1:27, Ecclesiastes 3:11 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
-> | Parent Theory | 6D Action, Membrane Dynamics, Classical Mechanics Completions | ACTION_6D_COMPLETE.md, 01-COMPLETIONS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Parent Theory | 6D Action, Firmament Dynamics, Classical Mechanics Completions | ACTION_6D_COMPLETE.md, 01-COMPLETIONS.md |
 > | **This Document** | **Explicit classical mechanics from 6D action: Kepler's laws, tidal forces, collision dynamics, wave propagation on membrane** | **01-EXPLICIT_DERIVATIONS.md** |
 > | Modern Equivalent | Classical mechanics, celestial mechanics, continuum mechanics | Convergence: reproduces observed planetary orbits, tidal predictions, collision theory from first principles |
 >
@@ -19,14 +19,14 @@
 
 ## Overview
 
-This document provides rigorous derivations of classical mechanics phenomena from the 6D membrane action:
+This document provides rigorous derivations of classical mechanics phenomena from the 6D Firmament action:
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk\_above}} + S_{\text{bulk\_below}} + S_{\text{interaction}}$$
 
 Key parameters:
-- σ: membrane tension (force per unit length)
+- σ: Firmament tension (force per unit length)
 - μ: mass density (mass per unit volume)
 - c = √(σ/μ): characteristic wave speed
-- η_B: brane thickness (Zone A extent)
+- η_B: Firmament thickness (Zone A extent)
 - ξ_A: compact dimension size
 
 Zone architecture:
@@ -42,7 +42,7 @@ Zone architecture:
 
 **Step 1: Membrane Gravity Potential**
 
-In the 6D manifold, the effective gravitational potential on the membrane (Zone A) emerges from the interaction action:
+In the 6D manifold, the effective gravitational potential on the Firmament (Zone A) emerges from the interaction action:
 
 $$S_{\text{grav}} = -\frac{1}{16\pi G_6} \int d^6X \sqrt{-g^{(6)}} R + \text{boundary terms}$$
 
@@ -140,7 +140,7 @@ $$T = 2\pi\sqrt{\frac{a^3}{GM}} \quad \Rightarrow \quad v_{\text{circ}} = \sqrt{
 
 **Step 1: Tidal Tensor from Curvature**
 
-In the 6D manifold near the membrane (Zone A), geodesics of test masses separated by a small displacement vector $\eta^i$ experience relative acceleration:
+In the 6D manifold near the Firmament membrane (Zone A), geodesics of test masses separated by a small displacement vector $\eta^i$ experience relative acceleration:
 
 $$\frac{D^2\eta^i}{Dt^2} = -R^i_{0j0}\eta^j$$
 
@@ -283,7 +283,7 @@ $$S_{\text{total}} \to S_{\text{total}} \quad \text{under} \quad X^\mu \to X^\mu
 By Noether's theorem, this implies conservation of the energy-momentum tensor:
 $$\partial_\mu T^{\mu\nu} = 0$$
 
-Integrating over the membrane (Zone A):
+Integrating over the Firmament (Zone A):
 $$\frac{d}{dt}\int_{\text{Zone A}} T^{00}d^3x = 0 \quad \Rightarrow \quad E_{\text{total}} = \text{const}$$
 $$\frac{d}{dt}\int_{\text{Zone A}} T^{0i}d^3x = 0 \quad \Rightarrow \quad \vec{p}_{\text{total}} = \text{const}$$
 

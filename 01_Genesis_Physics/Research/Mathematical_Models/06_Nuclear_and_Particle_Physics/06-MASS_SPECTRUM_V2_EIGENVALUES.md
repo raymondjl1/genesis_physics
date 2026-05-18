@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Firmament membrane surface tension defines particle masses | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | Topological Defect Classification | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Mass spectrum eigenvalue derivation from field equations** | **MASS_SPECTRUM_v2_EIGENVALUES.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -24,7 +24,7 @@
 
 | Parameter | Value | Physical Interpretation |
 |-----------|-------|-------------------------|
-| σ | 6.0×10⁹⁸ kg/(m·s²) | Membrane tension (surface energy per unit area) |
+| σ | 6.0×10⁹⁸ kg/(m·s²) | Firmament tension (surface energy per unit area) |
 | μ | 6.7×10⁸¹ kg/m³ | Volume mass density (μ = ρ_Planck × η_B) |
 | c | 3×10⁸ m/s | Wave speed: c = √(σ/μ) |
 | ξ_A | 3×10²⁶ m | Cosmic boundary (Waters Above) |
@@ -136,7 +136,7 @@ where k⃗ = (k_x, k_y, k_z) is the 3-spatial wave vector and ω is the frequenc
 σ(-k²) δη = -μ(-ω²) δη + coupling
 ```
 
-For a **free membrane mode** (no coupling), this gives:
+For a **free Firmament mode** (no coupling), this gives:
 ```
 (σk² - μω²) δη = 0
 ```
@@ -146,9 +146,9 @@ Since we want non-trivial solutions (δη ≠ 0):
 ω² = (σ/μ) k²  = c² k²
 ```
 
-This is the **dispersion relation for membrane waves**: ω = c|k⃗|
+This is the **dispersion relation for Firmament waves**: ω = c|k⃗|
 
-**The membrane itself is NOT the source of massive modes — it's the coupling to the Waters that creates mass.**
+**The Firmament itself is NOT the source of massive modes — it's the coupling to the Waters that creates mass.**
 
 ### 3.3 Waters Above: Radial Separation
 
@@ -157,7 +157,7 @@ In the Waters Above region (ξ ∈ [0, ξ_A]), write:
 δΦ_A(x,ξ,t) = f_A(ξ) exp(i k_⊥·x⊥ - iωt)
 ```
 
-where x⊥ = (x, y, z) are the membrane directions and k_⊥ = √(k_x² + k_y² + k_z²).
+where x⊥ = (x, y, z) are the Firmament directions and k_⊥ = √(k_x² + k_y² + k_z²).
 
 **Substitute into Equation 3:**
 ```
@@ -214,15 +214,15 @@ Then:
 f_A(ξ_A) = 0    [Boundary condition: Waters Above vanish at cosmic edge]
 ```
 
-**At the membrane interface (ξ = 0):**
-The field Φ_A is continuous across the membrane:
+**At the Firmament interface (ξ = 0):**
+The field Φ_A is continuous across the Firmament:
 ```
 f_A(0) = continuous
 ∂_ξ f_A(ξ=0) = continuous  [Continuity of flux]
 ```
 
-**At the membrane interface (η = 0):**
-The field Φ_B is continuous across the membrane:
+**At the Firmament interface (η = 0):**
+The field Φ_B is continuous across the Firmament:
 ```
 f_B(0) = continuous
 ∂_η f_B(η=0) = continuous
@@ -317,7 +317,7 @@ m_scale^(ξ) = ℏ/(ξ_A × c) = (1.055×10⁻³⁴ J·s) / (3×10²⁶ m × 3×
              ≈ 6.56×10⁻⁴⁰ eV (extremely light)
 ```
 
-**From membrane tension and density:**
+**From Firmament tension and density:**
 ```
 c = √(σ/μ) = 3×10⁸ m/s  [verified]
 
@@ -352,7 +352,7 @@ For **n = 0 (lowest mode):**
 
 The framework does NOT specify m_A and m_B explicitly. However:
 - **Masslessness is protected by symmetry.** If there's a gauge symmetry (e.g., EM from ξ-η oscillations), then m_A and/or m_B = 0 naturally.
-- The **membrane oscillations in the ξ-η plane map to EM field.** This suggests **one massless mode** (the photon) from the gauge sector.
+- The **Firmament oscillations in the ξ-η plane map to EM field.** This suggests **one massless mode** (the photon) from the gauge sector.
 
 ### 5.3 The Interaction Coupling
 
@@ -611,7 +611,7 @@ This is a **well-defined mass scale**, set by the nuclear geometry (η_B).
 |-------|---------|-------|-----------------|
 | From η_B | ℏ/(η_B × c) | 1.51 GeV | **Nuclear mass scale** |
 | From ξ_A | ℏ/(ξ_A × c) | 6.56×10⁻⁴⁰ eV | Cosmic scale (decoupled) |
-| From σ, μ | σ/μ = c² | (3×10⁸ m/s)² | Membrane wave speed |
+| From σ, μ | σ/μ = c² | (3×10⁸ m/s)² | Firmament membrane wave speed |
 | Spacing | ℏπ/(η_B × c) | **477 MeV** | **Eigenvalue spacing** |
 | Log ratio | ln(ξ_A/η_B) | 95.3 | Aspect ratio; no direct mass role |
 
@@ -692,7 +692,7 @@ But these are **NOT in the axioms** — they would require additional specificat
 
 | Constant | Value |
 |----------|-------|
-| Membrane tension σ | 6.0×10⁹⁸ kg/(m·s²) |
+| Firmament tension σ | 6.0×10⁹⁸ kg/(m·s²) |
 | Volume mass density μ | 6.7×10⁸¹ kg/m³ |
 | Wave speed c | 3×10⁸ m/s |
 | Waters Below thickness η_B | 1.3×10⁻¹⁵ m |

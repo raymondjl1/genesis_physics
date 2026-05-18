@@ -240,12 +240,12 @@ The kinetic and mass terms give:
 The Firmament is a thin membrane at (ξ₀, η₀) with thickness δξ, δη << characteristic scales.
 
 ```
-ρ_b = (σ_brane / (δξ δη)) × δ(ξ - ξ₀) δ(η - η₀)
+ρ_b = (σ_Firm / (δξ δη)) × δ(ξ - ξ₀) δ(η - η₀)
 
-    ≈ σ_brane / (δξ δη)
+    ≈ σ_Firm / (δξ δη)
 ```
 
-The baryonic energy fraction is suppressed by the thinness of the membrane:
+The baryonic energy fraction is suppressed by the thinness of the Firmament:
 
 ```
 Ω_b = ρ_b / ρ_crit = O(δξ δη / (total volume)) << 1
@@ -335,7 +335,7 @@ The key insight: Energy density integrates over the extra-dimensional extent. La
 
 ρ_DM ∝ M² [Ψ_B²] × ∫_{η_region} dη e^{2A_η(η)}
 
-ρ_b ∝ σ_brane × δ(ξ-ξ₀) δ(η-η₀)    [localized to membrane]
+ρ_b ∝ σ_Firm × δ(ξ-ξ₀) δ(η-η₀)    [localized to membrane]
 ```
 
 **Principle 2: Warp factors suppress or enhance integration**
@@ -374,7 +374,7 @@ Then:
 ```
 ρ_Λ ∝ V(Ψ_A⁰) × I_A
 ρ_DM ∝ M² [Ψ_B]² × I_B
-ρ_b ∝ σ_brane    [small, localized to membrane]
+ρ_b ∝ σ_Firm    [small, localized to membrane]
 ```
 
 The dimensionless fractions:
@@ -382,7 +382,7 @@ The dimensionless fractions:
 ```
 Ω_Λ = ρ_Λ / (ρ_Λ + ρ_DM + ρ_b)
 
-    = [V(Ψ_A⁰) × I_A] / [V(Ψ_A⁰) × I_A + M² [Ψ_B]² × I_B + σ_brane]
+    = [V(Ψ_A⁰) × I_A] / [V(Ψ_A⁰) × I_A + M² [Ψ_B]² × I_B + σ_Firm]
 
     ≈ I_A / (I_A + I_B)    [if baryonic term negligible]
 
@@ -432,7 +432,7 @@ RESERVOIR B (Waters Below):
 RESERVOIR C (Firmament/Baryons):
   Coordinate domain: Thin shell at (ξ₀, η₀)
   Matter: Baryons, photons, all Standard Model particles
-  Energy: E_b = ∫ d⁴x σ_brane × δ(ξ-ξ₀) δ(η-η₀)
+  Energy: E_b = ∫ d⁴x σ_Firm × δ(ξ-ξ₀) δ(η-η₀)
 ```
 
 Actually, this still mixes zones. Let me be more careful about the zone boundaries.
@@ -503,9 +503,9 @@ With this partition, the three zones have **disjoint (ξ, η) domains** (except 
 **Zone II (Firmament — Baryons):**
 
 ```
-ρ_b(x) = σ_brane × δ(ξ - ξ₀) δ(η - η₀) / (δξ δη)    [normalized to thin shell]
+ρ_b(x) = σ_Firm × δ(ξ - ξ₀) δ(η - η₀) / (δξ δη)    [normalized to thin shell]
 
-       ∝ σ_brane    [localized, small volume]
+       ∝ σ_Firm    [localized, small volume]
 ```
 
 ### 4.4 Energy Fractions from Volume Scaling
@@ -526,7 +526,7 @@ Define dimensionless integrals:
 Then:
 ρ_A ∝ V(Ψ_A⁰) × α
 ρ_B ∝ M² [Ψ_B²] × β
-ρ_b ∝ σ_brane
+ρ_b ∝ σ_Firm
 ```
 
 The dimensionless fractions:
@@ -534,12 +534,12 @@ The dimensionless fractions:
 ```
 Ω_Λ = ρ_A / (ρ_A + ρ_B + ρ_b)
 
-    = V(Ψ_A⁰) α / [V(Ψ_A⁰) α + M² [Ψ_B²] β + σ_brane]
+    = V(Ψ_A⁰) α / [V(Ψ_A⁰) α + M² [Ψ_B²] β + σ_Firm]
 ```
 
 ### 4.5 Determining the Coupling Parameters
 
-We have three unknowns: V(Ψ_A⁰), M² [Ψ_B²], σ_brane.
+We have three unknowns: V(Ψ_A⁰), M² [Ψ_B²], σ_Firm.
 We have three observational constraints: Ω_Λ = 0.684, Ω_DM = 0.266, Ω_b = 0.049.
 
 From the ratios:
@@ -608,7 +608,7 @@ E_B ∝ M² [Ψ_B²] × ∫_0^{ξ₀} dξ × ∫ dη e^{-γη}
 
 For Firmament (Baryons):
 ```
-E_b ∝ σ_brane × δ(ξ-ξ₀) δ(η-η₀)
+E_b ∝ σ_Firm × δ(ξ-ξ₀) δ(η-η₀)
 
     ∝ (small, localized)
 ```
@@ -775,7 +775,7 @@ E_A ∝ V(Ψ_A⁰) × (ξ_A/ξ₀)^{λ+1}/(λ+1) × (1 - e^{-γη_B})/γ
 
 E_B ∝ M² [Ψ_B²] × ξ₀ × (1 - e^{-γη_B})/γ
 
-E_b ∝ σ_brane × (small, localized)
+E_b ∝ σ_Firm × (small, localized)
 ```
 
 The ratio of Waters Above to Waters Below:

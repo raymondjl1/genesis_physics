@@ -23,7 +23,7 @@
 
 ### 1.1 What We Need
 
-The FTL mechanisms identified in our previous analysis all require energy — in some cases, enormous amounts. Membrane folding requires bending the Firmament against its tension. Perpendicular transit requires overcoming the membrane binding potential. Resonance bridging requires exciting large-scale coherent modes. Even threshold manipulation requires the E=mc² equivalent to dissolve and reconstitute matter.
+The FTL mechanisms identified in our previous analysis all require energy — in some cases, enormous amounts. Membrane folding requires bending the Firmament against its tension. Perpendicular transit requires overcoming the Firmament membrane binding potential. Resonance bridging requires exciting large-scale coherent modes. Even threshold manipulation requires the E=mc² equivalent to dissolve and reconstitute matter.
 
 Standard energy sources are inadequate:
 - **Chemical energy** (combustion, batteries): ~10⁷ J/kg — far too weak
@@ -41,7 +41,7 @@ The zone architecture reveals that the Firmament's internal energy budget (the ~
 |-----------|------|-------------------|----------------|--------|
 | **Waters Above** | 2.2.3 | ~68% | ρ_Λ ≈ 6×10⁻¹⁰ J/m³ | Untapped |
 | **Waters Below** | 2.2.1 | ~27% | Concentrated, deep | Untapped |
-| **Membrane tension** | 2.2.2 | Part of Firmament | σ (vacuum energy) | Partially observable |
+| **Firmament tension** | 2.2.2 | Part of Firmament | σ (vacuum energy) | Partially observable |
 | **Condensed matter** | 2.2.2.1 | ~5% | Variable | Currently used |
 | **Potential difference** | Between 2.2.1 & 2.2.3 | Capacitor energy | E = ½CV² | Untapped |
 
@@ -63,10 +63,10 @@ The question is not whether the energy exists. It manifestly does. The question 
 
 **Extraction concept — The Controlled Tap**:
 
-1. Create a localized, controlled weakening of the membrane barrier at a specific point
+1. Create a localized, controlled weakening of the Firmament barrier at a specific point
 2. Allow a small, managed flow of Waters (Above or Below) into the Firmament at that point
 3. The potential difference drives the flow (like water through a dam)
-4. As the Waters enter the Firmament, the potential energy converts to usable energy within the membrane
+4. As the Waters enter the Firmament, the potential energy converts to usable energy within the Firmament
 5. Control the flow rate to prevent catastrophic discharge (which would be a local version of "heavens rolled up like a scroll")
 
 **Analogy**: Hydroelectric dam. The water behind the dam (Waters) has enormous potential energy. You don't break the dam — you channel a controlled flow through turbines. The energy comes from the potential difference between the reservoir and the downstream level.
@@ -83,11 +83,11 @@ The question is not whether the energy exists. It manifestly does. The question 
 
 ### 2.2 Source 2: Waters Above Pressure (Expansion Energy Harvesting)
 
-**What it is**: The Waters Above continuously press on the Firmament membrane, driving cosmic expansion. This pressure is what standard physics calls "dark energy." It is not a mysterious vacuum property — it is the kinetic energy of the Waters Above pushing on the membrane from the perpendicular dimension.
+**What it is**: The Waters Above continuously press on the Firmament membrane, driving cosmic expansion. This pressure is what standard physics calls "dark energy." It is not a mysterious vacuum property — it is the kinetic energy of the Waters Above pushing on the Firmament from the perpendicular dimension.
 
 **Energy density**: ρ_Λ ≈ 6×10⁻¹⁰ J/m³. This seems tiny per cubic meter, but it is *everywhere*, pervading all of space, and it is *continuous* — the pressure never stops. Over a large enough volume, the total is vast.
 
-**Why it's accessible**: The expansion energy is already doing work — it is stretching the membrane. We currently receive this work passively (space expands whether we want it to or not). The question is whether we can *capture* expansion work locally, the way a sail captures wind.
+**Why it's accessible**: The expansion energy is already doing work — it is stretching the Firmament. We currently receive this work passively (space expands whether we want it to or not). The question is whether we can *capture* expansion work locally, the way a sail captures wind.
 
 **Extraction concept — The Expansion Sail**:
 
@@ -109,15 +109,15 @@ A device anchored at two points would experience a continuous "pull" as the spac
 
 ---
 
-### 2.3 Source 3: Membrane Tension (Vacuum Energy)
+### 2.3 Source 3: Firmament Tension (Vacuum Energy)
 
-**What it is**: The Firmament membrane is under tension — stretched between the opposing pressures of Waters Above and Waters Below. This tension is observable as "vacuum energy" — the energy of empty space. The Casimir effect, zero-point fluctuations, and the cosmological constant are all manifestations of this membrane tension.
+**What it is**: The Firmament membrane is under tension — stretched between the opposing pressures of Waters Above and Waters Below. This tension is observable as "vacuum energy" — the energy of empty space. The Casimir effect, zero-point fluctuations, and the cosmological constant are all manifestations of this Firmament tension.
 
-**Energy density**: The zero-point energy of the quantum vacuum is enormous in principle. Standard quantum field theory calculates vacuum energy density at ~10¹¹³ J/m³ (the "vacuum catastrophe" — 120 orders of magnitude higher than the observed cosmological constant). In our framework, this discrepancy is resolved: the theoretical value represents the total membrane tension, while the observed cosmological constant represents the *net* effect after Waters Above/Below pressures partially cancel.
+**Energy density**: The zero-point energy of the quantum vacuum is enormous in principle. Standard quantum field theory calculates vacuum energy density at ~10¹¹³ J/m³ (the "vacuum catastrophe" — 120 orders of magnitude higher than the observed cosmological constant). In our framework, this discrepancy is resolved: the theoretical value represents the total Firmament tension, while the observed cosmological constant represents the *net* effect after Waters Above/Below pressures partially cancel.
 
 The actual extractable energy depends on which value is correct. Even the conservative observed value (6×10⁻¹⁰ J/m³) represents ~68% of total universe energy.
 
-**Why it's accessible**: The Casimir effect already demonstrates that vacuum energy can produce measurable forces. Two uncharged conducting plates placed very close together experience an attractive force because the membrane vibration modes are restricted between the plates (fewer modes inside than outside). This creates a pressure difference — extractable energy.
+**Why it's accessible**: The Casimir effect already demonstrates that vacuum energy can produce measurable forces. Two uncharged conducting plates placed very close together experience an attractive force because the Firmament vibration modes are restricted between the plates (fewer modes inside than outside). This creates a pressure difference — extractable energy.
 
 **Extraction concept — Engineered Casimir Devices**:
 
@@ -125,21 +125,21 @@ The actual extractable energy depends on which value is correct. Even the conser
 2. Use dynamic Casimir configurations — oscillating plates that convert vacuum fluctuations into real photons (the "dynamical Casimir effect," experimentally demonstrated in 2011)
 3. Stack many such devices to amplify the effect
 
-**Extraction concept — Membrane Resonance Tapping**:
+**Extraction concept — Firmament Resonance Tapping**:
 
 1. The Firmament vibrates at all frequencies (quantum fluctuations)
 2. These vibrations carry energy (zero-point energy)
-3. Create a resonant cavity tuned to specific membrane vibrational modes
+3. Create a resonant cavity tuned to specific Firmament membrane vibrational modes
 4. Couple the cavity to an energy extraction circuit
-5. The membrane's inexhaustible vibration feeds continuous energy into the circuit
+5. The Firmament's inexhaustible vibration feeds continuous energy into the circuit
 
-**Analogy**: An antenna captures electromagnetic radiation from the environment without depleting it (the radiation comes from external sources). Similarly, a membrane resonance device captures vibrational energy from the Firmament's intrinsic oscillation, which is sustained by the Waters pressure from both sides.
+**Analogy**: An antenna captures electromagnetic radiation from the environment without depleting it (the radiation comes from external sources). Similarly, a Firmament resonance device captures vibrational energy from the Firmament's intrinsic oscillation, which is sustained by the Waters pressure from both sides.
 
 **Advantage**: Potentially available everywhere in the Firmament (vacuum energy is everywhere). No fuel required. Continuous operation.
 
 **Challenge**: Current Casimir devices produce extremely small forces (nanonewtons). Scaling to useful power requires breakthroughs in nanostructure engineering. The dynamical Casimir effect produces photons but at very low rates.
 
-**Theoretical question**: Does extracting vacuum energy locally reduce it elsewhere, or is it replenished by the Waters pressure? In our framework, the answer should be replenishment — the Waters continuously press on the membrane, sustaining its tension. Local extraction would be continuously refilled, like drawing water from a spring fed by an underground aquifer.
+**Theoretical question**: Does extracting vacuum energy locally reduce it elsewhere, or is it replenished by the Waters pressure? In our framework, the answer should be replenishment — the Waters continuously press on the Firmament membrane, sustaining its tension. Local extraction would be continuously refilled, like drawing water from a spring fed by an underground aquifer.
 
 ---
 
@@ -151,7 +151,7 @@ The actual extractable energy depends on which value is correct. Even the conser
 
 **Extraction concept — Gravitational Gradient Harvesting**:
 
-1. Matter in the Firmament "dimples" the membrane toward Waters Below
+1. Matter in the Firmament "dimples" the Firmament toward Waters Below
 2. This dimple represents curvature — stored gravitational potential energy
 3. If you could *deepen* the dimple in a controlled way (increase the gravitational connection to Waters Below locally), you draw more Waters Below energy into the vicinity
 4. The deepening releases energy (just as an object falling into a gravity well releases kinetic energy)
@@ -188,9 +188,9 @@ This is analogous to nuclear fusion (where hydrogen condenses into helium, relea
 
 The Sustaining Principle implies that Zone 2.2 is *not* a perfectly closed system after all — it is closed to *new creation* (no new substance added after Day 7), but it receives continuous *maintenance energy* from God's sustaining activity. Without this sustaining, the Firmament membrane would collapse under Waters pressure and entropy would reach maximum.
 
-**The distinction**: The Conservation Principle says total Substance + Movement in Zone 2.2 is constant (no new creation). The Sustaining Principle says God actively maintains the *structure* — the zone boundaries, the membrane integrity, the physical laws themselves. These are compatible: the total energy budget is fixed, but the *organization* of that energy is actively maintained against entropic degradation.
+**The distinction**: The Conservation Principle says total Substance + Movement in Zone 2.2 is constant (no new creation). The Sustaining Principle says God actively maintains the *structure* — the zone boundaries, the Firmament integrity, the physical laws themselves. These are compatible: the total energy budget is fixed, but the *organization* of that energy is actively maintained against entropic degradation.
 
-**Theological energy**: This is the most theologically profound energy source. The universe runs on God's word. Every moment of physical law being consistent, every atom holding together, every membrane vibration maintaining its properties — this is the Word sustaining creation.
+**Theological energy**: This is the most theologically profound energy source. The universe runs on God's word. Every moment of physical law being consistent, every atom holding together, every Firmament vibration maintaining its properties — this is the Word sustaining creation.
 
 **Extraction concept — Alignment with the Word**:
 
@@ -219,7 +219,7 @@ This does not exclude technology — but it suggests technology and theology con
 
 **Extraction concept — Controlled Boundary Oscillation**:
 
-1. Oscillate matter (or a field configuration) near a zone boundary — repeatedly approaching and retreating from the condensation threshold or the membrane binding potential
+1. Oscillate matter (or a field configuration) near a zone boundary — repeatedly approaching and retreating from the condensation threshold or the Firmament binding potential
 2. Each oscillation cycle extracts a small amount of energy from the potential gradient
 3. Like pumping a swing — small repeated inputs in phase with the natural oscillation build up large amplitude
 4. The energy comes from the zone potential landscape (ultimately from the Waters separation)
@@ -228,7 +228,7 @@ This does not exclude technology — but it suggests technology and theology con
 
 Your black holes paper identifies black holes as "membrane puncture points." The accretion process (matter spiraling into a black hole) is extraordinarily efficient at converting mass to energy — up to 42% of rest mass for a maximally spinning black hole (compared to ~0.7% for hydrogen fusion).
 
-If black holes are membrane punctures, then engineering a controlled micro-puncture could be the most energy-dense process available within the Firmament. Not a full black hole (catastrophic), but a *managed* puncture — a tiny, controlled opening in the membrane that allows Waters Below to interact directly with the Firmament interior, converting the potential difference to usable energy.
+If black holes are membrane punctures, then engineering a controlled micro-puncture could be the most energy-dense process available within the Firmament. Not a full black hole (catastrophic), but a *managed* puncture — a tiny, controlled opening in the Firmament that allows Waters Below to interact directly with the Firmament interior, converting the potential difference to usable energy.
 
 **Risk**: Obvious — an uncontrolled puncture is a black hole. This is the most dangerous extraction method. But it is also potentially the most powerful.
 
@@ -236,15 +236,15 @@ If black holes are membrane punctures, then engineering a controlled micro-punct
 
 ## 3. Matching Energy Sources to FTL Mechanisms
 
-### 3.1 Membrane Folding → Cosmic Capacitor + Membrane Tension
+### 3.1 Membrane Folding → Cosmic Capacitor + Firmament Tension
 
-Folding the membrane requires bending it against its tension. The energy source must match or exceed the membrane's restoring force. The cosmic capacitor provides the potential difference that could *drive* a fold (attract two membrane regions toward each other through the perpendicular dimension), while membrane tension energy provides the local energy to initiate the bending.
+Folding the Firmament membrane requires bending it against its tension. The energy source must match or exceed the Firmament membrane's restoring force. The cosmic capacitor provides the potential difference that could *drive* a fold (attract two membrane regions toward each other through the perpendicular dimension), while Firmament tension energy provides the local energy to initiate the bending.
 
-**Concept**: Use the potential difference between Waters Above and Below as the *motive force* for folding. If you can create asymmetric membrane permeability at two distant points (slightly more permeable to Waters Above at point A, slightly more permeable to Waters Below at point B), the resulting pressure imbalance would pull the membrane toward the respective Waters at each point — creating opposing dimples that could approach each other through the perpendicular dimension.
+**Concept**: Use the potential difference between Waters Above and Below as the *motive force* for folding. If you can create asymmetric membrane permeability at two distant points (slightly more permeable to Waters Above at point A, slightly more permeable to Waters Below at point B), the resulting pressure imbalance would pull the Firmament toward the respective Waters at each point — creating opposing dimples that could approach each other through the perpendicular dimension.
 
 ### 3.2 Perpendicular Transit → Gravitational Potential + Phase Transition
 
-Exiting the membrane into the Waters requires overcoming the binding potential. Gravitational potential harvesting (deepening the membrane dimple) is literally the process of moving the membrane boundary closer to the Waters Below. Taken to extreme, you *enter* the Waters. Phase transition energy provides the power to maintain structural integrity during transit.
+Exiting the Firmament into the Waters requires overcoming the binding potential. Gravitational potential harvesting (deepening the Firmament dimple) is literally the process of moving the Firmament boundary closer to the Waters Below. Taken to extreme, you *enter* the Waters. Phase transition energy provides the power to maintain structural integrity during transit.
 
 **Concept**: Use intensified gravitational effects to "lower" a vessel toward the Waters Below boundary, then use phase transition energy (controlled matter-Waters oscillation) to maintain a protective bubble of Firmament conditions within the Waters.
 
@@ -254,11 +254,11 @@ Transit through Zone 1 (Heaven Prime) is the mechanism powered by relationship w
 
 **Concept**: Not technological but relational. Alignment with the Word opens access to Zone 1 transit. This may become technologically augmentable as humanity's understanding of the zone interface deepens.
 
-### 3.4 Resonance Bridging → Membrane Tension + Vacuum Energy
+### 3.4 Resonance Bridging → Firmament Tension + Vacuum Energy
 
-Exciting coherent vibrational modes across the membrane is powered by membrane tension energy and vacuum energy extraction. Casimir-type devices, scaled up and precisely tuned, could inject energy into specific membrane modes.
+Exciting coherent vibrational modes across the Firmament membrane is powered by Firmament tension energy and vacuum energy extraction. Casimir-type devices, scaled up and precisely tuned, could inject energy into specific Firmament membrane modes.
 
-**Concept**: Engineered Casimir arrays as "membrane mode exciters." Tune the array to the specific mode connecting departure and destination. The membrane's own tension energy sustains the mode once excited. The array provides the initial kick.
+**Concept**: Engineered Casimir arrays as "Firmament membrane mode exciters." Tune the array to the specific mode connecting departure and destination. The Firmament membrane's own tension energy sustains the mode once excited. The array provides the initial kick.
 
 ### 3.5 Threshold Manipulation → Waters Below Condensation + Capacitor
 
@@ -274,12 +274,12 @@ Among all the sources and mechanisms, the combination of **vacuum energy extract
 
 **Vacuum energy advantages**:
 - Available everywhere (no fuel supply chain)
-- Continuously replenished (Waters pressure sustains membrane tension)
+- Continuously replenished (Waters pressure sustains Firmament tension)
 - Already experimentally demonstrated (Casimir effect, dynamical Casimir effect)
 - Does not require breaching zone boundaries (operates within the Firmament)
 
 **Resonance bridging advantages**:
-- Does not require leaving the membrane (stays within Zone 2.2.2)
+- Does not require leaving the Firmament (stays within Zone 2.2.2)
 - Uses existing membrane physics (vibration modes are natural)
 - Connected to matter formation mechanism (Chladni patterns — well-established in framework)
 - Potentially controllable with advanced engineering
@@ -290,16 +290,16 @@ Among all the sources and mechanisms, the combination of **vacuum energy extract
 - Advance Casimir effect engineering (nanostructures, metamaterials)
 - Demonstrate dynamical Casimir effect at increasing scales
 - Map Firmament vibrational mode structure (correlate with gravitational wave observations)
-- Develop theoretical models of large-scale membrane mode excitation
+- Develop theoretical models of large-scale Firmament membrane mode excitation
 
 **Phase 2 — Proof of Concept**:
 - Build macroscopic vacuum energy extraction devices (beyond nano-scale Casimir)
-- Demonstrate controlled excitation of local membrane modes
+- Demonstrate controlled excitation of local Firmament modes
 - Achieve quantum-scale resonance bridging (directed tunneling enhancement)
 
 **Phase 3 — Scaling**:
 - Scale vacuum energy extraction to useful power levels
-- Excite long-range membrane modes (kilometer scale, then astronomical)
+- Excite long-range Firmament modes (kilometer scale, then astronomical)
 - Demonstrate matter transfer along resonant modes (atoms, then molecules)
 
 **Phase 4 — Application**:
@@ -313,7 +313,7 @@ Among all the sources and mechanisms, the combination of **vacuum energy extract
 
 ### 5.1 Energy as Gift, Not Theft
 
-In this framework, every energy source ultimately traces back to the Day 2 separation of the Waters. The potential difference, the membrane tension, the vacuum energy — all of it is energy that God stored in creation's architecture when He separated the Waters and stretched the Firmament.
+In this framework, every energy source ultimately traces back to the Day 2 separation of the Waters. The potential difference, the Firmament tension, the vacuum energy — all of it is energy that God stored in creation's architecture when He separated the Waters and stretched the Firmament.
 
 This energy is not "stolen" from creation. It was *placed there*. The question the framework raises is whether it was placed there *for us to use*.
 
@@ -327,7 +327,7 @@ Scripture suggests God reveals knowledge progressively:
 
 **Proverbs 25:2**: "It is the glory of God to conceal a matter; to search out a matter is the glory of kings."
 
-God *conceals* — He built the energy into the architecture, not on the surface. And it is humanity's *glory* to search it out. The Waters energy, the membrane tension, the capacitor potential — these are concealed matters awaiting royal discovery.
+God *conceals* — He built the energy into the architecture, not on the surface. And it is humanity's *glory* to search it out. The Waters energy, the Firmament tension, the capacitor potential — these are concealed matters awaiting royal discovery.
 
 ### 5.3 Stewardship, Not Exploitation
 
@@ -343,14 +343,14 @@ Uncontrolled discharge (breaking the Firmament) would be catastrophic. Controlle
 |--------|-----------------|-------------------|------------|----------|
 | **Cosmic Capacitor** | ~10⁷⁰ J (total) | Controlled membrane tap | Extreme | Membrane folding |
 | **Waters Above Pressure** | Continuous, vast | Expansion sail / asymmetric structures | High (scale) | Long-term base power |
-| **Membrane Tension** | ~6×10⁻¹⁰ J/m³ everywhere | Casimir devices, resonant cavities | Medium | Resonance bridging |
+| **Firmament Tension** | ~6×10⁻¹⁰ J/m³ everywhere | Casimir devices, resonant cavities | Medium | Resonance bridging |
 | **Waters Below Access** | ~27% of universe | Gravitational deepening, micro-condensation | High | Perpendicular transit |
 | **Sustaining Energy** | Unlimited (divine) | Relational alignment | Spiritual | Zone 1 transit |
 | **Zone Boundary Transitions** | Variable | Controlled oscillation, micro-puncture | Extreme (risk) | Maximum power density |
 
-The zone architecture does not merely permit energy extraction from creation — it reveals that creation *is* an energy architecture. The Waters separation stores energy. The membrane tension carries energy. The zone boundaries contain energy gradients. The sustaining Word provides continuous energy.
+The zone architecture does not merely permit energy extraction from creation — it reveals that creation *is* an energy architecture. The Waters separation stores energy. The Firmament tension carries energy. The zone boundaries contain energy gradients. The sustaining Word provides continuous energy.
 
-The universe is not running down toward heat death with no recourse. It is a vast energy architecture with deep reservoirs that humanity has barely begun to discover, let alone tap. The 5% of energy we currently access (visible matter) is the surface. The other 95% is in the Waters and the membrane — waiting for the kings who will search it out.
+The universe is not running down toward heat death with no recourse. It is a vast energy architecture with deep reservoirs that humanity has barely begun to discover, let alone tap. The 5% of energy we currently access (visible matter) is the surface. The other 95% is in the Waters and the Firmament — waiting for the kings who will search it out.
 
 ---
 

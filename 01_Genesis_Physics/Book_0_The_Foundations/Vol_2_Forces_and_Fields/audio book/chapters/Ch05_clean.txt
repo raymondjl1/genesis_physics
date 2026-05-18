@@ -36,7 +36,7 @@ Why Seven Sectors?.
 
 The zone manifold M sub Z contains seven physically distinct types of dynamical degrees of freedom. Each type contributes a sector to the total action. This is not a choice — it is a consequence of the zone architecture established in Volume 1. Here is the logic:
 
-Any physical theory on a manifold must account for (1) the geometry of the manifold itself (→ gravitational sector), (2) any embedded submanifolds (→ brane sector, because the Firmament is a codimension-2 surface), and (3) any fields that live on or fill the manifold. The zone manifold has two scalar fields filling the extra dimensions (→ waters sector), gauge fields arising from the metric's off-diagonal components and boundary modes (→ gauge sector), and fermionic matter (→ matter sector). Any theory with both matter and other fields requires coupling terms (→ interaction sector). Finally, the Open System Axiom demands an external coupling (→ sustaining sector). That gives exactly seven. You cannot have fewer without dropping a physical ingredient the zone axioms require; you cannot have more without introducing fields the axioms do not contain. (Problem 5.15 explores what happens if you add a third extra dimension — it forces an eighth sector and a fifth force, which is ruled out by experiment.)
+Any physical theory on a manifold must account for (1) the geometry of the manifold itself (→ gravitational sector), (2) any embedded submanifolds (→ Firmament sector, because the Firmament is a codimension-2 surface), and (3) any fields that live on or fill the manifold. The zone manifold has two scalar fields filling the extra dimensions (→ waters sector), gauge fields arising from the metric's off-diagonal components and boundary modes (→ gauge sector), and fermionic matter (→ matter sector). Any theory with both matter and other fields requires coupling terms (→ interaction sector). Finally, the Open System Axiom demands an external coupling (→ sustaining sector). That gives exactly seven. You cannot have fewer without dropping a physical ingredient the zone axioms require; you cannot have more without introducing fields the axioms do not contain. (Problem 5.15 explores what happens if you add a third extra dimension — it forces an eighth sector and a fifth force, which is ruled out by experiment.)
 
 The seven sectors are:
 
@@ -58,7 +58,7 @@ Each term is an integral over the appropriate domain:
 
 [Equation — see print edition.]
 
-where L bulk contains the gravitational, waters, gauge, matter, interaction, and sustaining contributions, L brane describes the Firmament dynamics, and S_ boundary contains the Gibbons-Hawking-York boundary terms required for a well-posed variational problem.
+where L bulk contains the gravitational, waters, gauge, matter, interaction, and sustaining contributions, L Firm describes the Firmament dynamics, and S_ boundary contains the Gibbons-Hawking-York boundary terms required for a well-posed variational problem.
 
 Let us construct each sector.
 
@@ -78,7 +78,7 @@ Dimensional check. In six dimensions, [G sub 6] = [L to the 4 M to the -1 T to t
 
 Sector 2: Brane (Firmament).
 
-The Firmament is a codimension-2 hypersurface Sigma embedded in M sub Z at coordinates ( xi sub 0, eta sub 0) in the extra dimensions (Vol 1, Ch 5). Its dynamics are governed by the Nambu-Goto action (encoding the brane tension) plus a Helfrich rigidity term (encoding brane stiffness):
+The Firmament is a codimension-2 hypersurface Sigma embedded in M sub Z at coordinates ( xi sub 0, eta sub 0) in the extra dimensions (Vol 1, Ch 5). Its dynamics are governed by the Nambu-Goto action (encoding the Firmament tension) plus a Helfrich rigidity term (encoding Firmament stiffness):
 
 [Equation — see print edition.]
 
@@ -88,15 +88,15 @@ where sigma is the Firmament tension (Vol 1, Ch 5, Eq. 1.5.8), gamma sub alpha b
 
 kappa sub B is the bending rigidity, and H is the mean curvature of Sigma in the ambient 6D space.
 
-Why two terms? Think of a soap film stretched across a wire frame. The film naturally minimizes its area — that is the Nambu-Goto term, the energy cost of the brane's existence. Now imagine trying to crumple that film at very small scales: in a real soap film, the surface's stiffness resists crumpling. Without stiffness, the membrane could develop infinitely sharp wrinkles with zero energy cost, and the mode spectrum would be unbounded — a mathematical disaster (all brane fluctuation modes would have the same energy, so there would be no well-defined ground state). The Helfrich rigidity term provides that stiffness: it penalizes curvature, so bending the Firmament costs energy proportional to H to the 2.
+Why two terms? Think of a soap film stretched across a wire frame. The film naturally minimizes its area — that is the Nambu-Goto term, the energy cost of the Firmament's existence. Now imagine trying to crumple that film at very small scales: in a real soap film, the surface's stiffness resists crumpling. Without stiffness, the Firmament membrane could develop infinitely sharp wrinkles with zero energy cost, and the mode spectrum would be unbounded — a mathematical disaster (all Firmament fluctuation modes would have the same energy, so there would be no well-defined ground state). The Helfrich rigidity term provides that stiffness: it penalizes curvature, so bending the Firmament costs energy proportional to H to the 2.
 
-More formally, the Nambu-Goto term alone yields equations of motion for brane fluctuations delta X proportional to e to the i omega t with omega to the 2 proportional to k to the 2 — a linear dispersion relation that does not stabilize short wavelengths. Adding the Helfrich term gives the expression, which suppresses high-k modes. This is the standard result for fluid membranes (Helfrich, 1973) applied to the Firmament brane. Vol 1, Ch 5, §5.3 derives the mode spectrum in detail.
+More formally, the Nambu-Goto term alone yields equations of motion for Firmament fluctuations delta X proportional to e to the i omega t with omega to the 2 proportional to k to the 2 — a linear dispersion relation that does not stabilize short wavelengths. Adding the Helfrich term gives the expression, which suppresses high-k modes. This is the standard result for fluid membranes (Helfrich, 1973) applied to the Firmament. Vol 1, Ch 5, §5.3 derives the mode spectrum in detail.
 
-The brane contributes to the Israel junction conditions at the zone boundaries. When the Firmament sits between the Waters Above and Waters Below, the discontinuity in extrinsic curvature across the brane is proportional to the brane stress-energy:
+The Firmament contributes to the Israel junction conditions at the zone boundaries. When the Firmament sits between the Waters Above and Waters Below, the discontinuity in extrinsic curvature across the Firmament is proportional to the Firmament stress-energy:
 
 [Equation — see print edition.]
 
-where [K] sub - to the + denotes the jump in extrinsic curvature across Sigma in the i-th normal direction, and S sub mu nu to the (i) is the brane stress-energy tensor derived from (2.5.4).
+where [K] sub - to the + denotes the jump in extrinsic curvature across Sigma in the i-th normal direction, and S sub mu nu to the (i) is the Firmament stress-energy tensor derived from (2.5.4).
 
 Sector 3: Waters.
 
@@ -174,7 +174,7 @@ The interaction sector couples the matter fields to the Waters fields (Yukawa in
 
 where y sub f are Yukawa coupling constants (one per fermion species f), Psi sub A is the Waters Above scalar field, and the expression is the charge-conjugate field needed for up-type quark masses in the electroweak theory.
 
-The Higgs connection. In the zone architecture, what the Standard Model calls the "Higgs field" is the radial mode of the Waters Above scalar Psi sub A evaluated on the Firmament brane. When Psi sub A acquires a vacuum expectation value v = 246 GeV (from the electroweak symmetry-breaking potential that the Waters Above inherits at low energies), the Yukawa terms (2.5.16) generate fermion masses:
+The Higgs connection. In the zone architecture, what the Standard Model calls the "Higgs field" is the radial mode of the Waters Above scalar Psi sub A evaluated on the Firmament. When Psi sub A acquires a vacuum expectation value v = 246 GeV (from the electroweak symmetry-breaking potential that the Waters Above inherits at low energies), the Yukawa terms (2.5.16) generate fermion masses:
 
 [Equation — see print edition.]
 
@@ -194,7 +194,7 @@ where kappa (t) is the sustaining field and O_ sustain is a composite operator t
 
 Why this sector exists. The Open System Axiom (Vol 1, Ch 1, Axiom 1.1) posits that the universe is an open system — that is, the zone manifold receives external input that is not generated by its own field equations. Without such input, the zone architecture would evolve toward maximum entropy and structural dissolution, as required by the degradation principle.
 
-An important distinction. The sustaining field occupies a different epistemic status from the other six sectors. The gravitational, brane, waters, gauge, matter, and interaction sectors are derived — their forms are uniquely determined by the zone axioms and the Five Principles. The sustaining sector, by contrast, is postulated as an additional axiom: that an external coupling exists. We do not derive the existence of this coupling from the other axioms; we posit it because the Open System Axiom requires it. The reader should understand this distinction clearly: the sustaining sector is an input to the framework, not an output.
+An important distinction. The sustaining field occupies a different epistemic status from the other six sectors. The gravitational, Firmament, waters, gauge, matter, and interaction sectors are derived — their forms are uniquely determined by the zone axioms and the Five Principles. The sustaining sector, by contrast, is postulated as an additional axiom: that an external coupling exists. We do not derive the existence of this coupling from the other axioms; we posit it because the Open System Axiom requires it. The reader should understand this distinction clearly: the sustaining sector is an input to the framework, not an output.
 
 The sustaining field is not a dynamical field in the usual sense — it does not have its own kinetic term or equation of motion derived from S_ total. It is a prescribed function of time, external to the closed dynamics of the other six sectors. The zone framework models its time dependence using four thermodynamic phases (Vol 1, Ch 8):
 
@@ -222,7 +222,7 @@ Assembling all seven sectors, the complete 6D zone Lagrangian density is:
 
 [Equation — see print edition.]
 
-where delta _ Sigma is the distributional support on the Firmament brane, and each sector Lagrangian is defined in Equations (2.5.3)–(2.5.19).
+where delta _ Sigma is the distributional support on the Firmament, and each sector Lagrangian is defined in Equations (2.5.3)–(2.5.19).
 
 This is the master equation of the zone framework. For the first six sectors, every force law, every coupling constant, and every conservation law follows from varying this single density with respect to the dynamical fields and integrating over the appropriate domains. The sustaining sector contributes an additional prescribed coupling that does not follow from the variational principle — it is an external input encoding the Open System Axiom.
 
@@ -240,7 +240,7 @@ Field: Sustaining. Symbol: kappa (t). Spin: 0. Sector: Sustaining. Degrees of Fr
 
 The total field content, after gauge fixing and integrating out the extra dimensions, reduces to the Standard Model field content plus the two Waters scalars and the sustaining field. This is the minimal field content consistent with the zone axioms.
 
-Rigor level for §5.1: RIGOROUS for the Lagrangian structure (each term follows from the zone axioms and standard field theory). APPROXIMATE for the brane sector (the Helfrich rigidity coefficient kappa sub B requires detailed brane physics developed in Vol 1, Ch 5). RIGOROUS for dimensional consistency (verified term by term).
+Rigor level for §5.1: RIGOROUS for the Lagrangian structure (each term follows from the zone axioms and standard field theory). APPROXIMATE for the Firmament sector (the Helfrich rigidity coefficient kappa sub B requires detailed Firmament physics developed in Vol 1, Ch 5). RIGOROUS for dimensional consistency (verified term by term).
 
 The Euler-Lagrange Equations.
 
@@ -283,6 +283,8 @@ Sustaining stress-energy:
 where O sub i are the individual terms in O_ sustain (Eq. 2.5.19). For the gravitational contribution: the expression. For the scalar contributions: the expression (no metric dependence beyond the volume factor). The sustaining stress-energy acts as a small, time-dependent modification to the effective cosmological constant and field masses.
 
 These are the master field equations for the geometry. They determine the warp factors A( xi , eta ) and B( xi , eta ) in the background (the solutions from Vol 1, Ch 4), and they determine the gravitational response to matter and energy in the foreground.
+
+[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from the 6D Einstein equations (2.5.22) self-consistently in closed form. The Vol 1, Ch 4 solutions are approximate backgrounds. The self-consistent solution with the full stress-energy (2.5.23) is Open Problem 1.WF. All coupling integrals and numerical predictions in this chapter that depend on A(ξ,η) or B(ξ,η) are provisional until OP 1.WF is resolved.]
 
 Consistency check. In the weak-field, 4D limit, Eq. (2.5.22) reduces to the 4D Einstein equations (Eq. 2.2.12) with the KK-derived Newton's constant G sub 4 = G sub 6/V_ extra. This was verified explicitly in Chapter 2. 
 
@@ -338,15 +340,15 @@ with the physical fermion mass m sub f = y sub f v/ square root of 2 (Eq. 2.5.17
 
 Brane Equations of Motion.
 
-Varying S_ brane with respect to the brane embedding functions X to the A( sigma ) yields:
+Varying S_ Firm with respect to the Firmament embedding functions X to the A( sigma ) yields:
 
 [Equation — see print edition.]
 
-where K is the trace of the extrinsic curvature, Delta  Sigma is the Laplacian on the brane, A Sigma is the second fundamental form, and the right side is the jump in normal stress across the brane. This is the generalized Israel junction condition for a brane with tension and rigidity.
+where K is the trace of the extrinsic curvature, Delta  Sigma is the Laplacian on the Firmament, A Sigma is the second fundamental form, and the right side is the jump in normal stress across the Firmament. This is the generalized Israel junction condition for a Firmament with tension and rigidity.
 
-In the static limit (no brane fluctuations), Eq. (2.5.33) reduces to the junction conditions used in Chapters 2 and 4 to derive force laws from the bulk geometry.
+In the static limit (no Firmament fluctuations), Eq. (2.5.33) reduces to the junction conditions used in Chapters 2 and 4 to derive force laws from the bulk geometry.
 
-Rigor level for §5.2: RIGOROUS for the Einstein equations, Yang-Mills equations, and Waters field equations (standard variational calculus). RIGOROUS for the Dirac equation (standard spinor variation). APPROXIMATE for the brane equation (the full codimension-2 junction condition involves regularization subtleties; the form given here is the leading-order result).
+Rigor level for §5.2: RIGOROUS for the Einstein equations, Yang-Mills equations, and Waters field equations (standard variational calculus). RIGOROUS for the Dirac equation (standard spinor variation). APPROXIMATE for the Firmament equation (the full codimension-2 junction condition involves regularization subtleties; the form given here is the leading-order result).
 
 Symmetry Analysis via Noether's Theorem.
 
@@ -500,7 +502,7 @@ Step 2: Apply constraints.
 
 Constraint 1 (Symmetry — diffeomorphism + gauge invariance): Eliminates non-covariant terms and gauge-non-invariant terms (e.g., the expression mass terms). Surviving terms must be scalar densities.
 
-Renormalizability in 6D: Eliminates R to the 2, R sub ABR to the AB, R sub ABCDR to the ABCD (four-derivative). Eliminates F to the 3 (dimension 9 > 6). Eliminates Psi to the 6 ([ Psi to the 6] = [M to the 12], requires coupling [ lambda sub 6] = [M to the -6], non-renormalizable). Eliminates square root of - gamma H to the 4 (four-derivative on brane). Note: the Gauss-Bonnet term G sub 6 is topological in 6D and does not contribute to the equations of motion; it can be dropped.
+Renormalizability in 6D: Eliminates R to the 2, R sub ABR to the AB, R sub ABCDR to the ABCD (four-derivative). Eliminates F to the 3 (dimension 9 > 6). Eliminates Psi to the 6 ([ Psi to the 6] = [M to the 12], requires coupling [ lambda sub 6] = [M to the -6], non-renormalizable). Eliminates square root of - gamma H to the 4 (four-derivative on Firmament). Note: the Gauss-Bonnet term G sub 6 is topological in 6D and does not contribute to the equations of motion; it can be dropped.
 
 Constraint 3 (Duality — CPT invariance of bulk): Eliminates odd-power potentials Psi sub A to the 3, Psi sub B to the 3, Psi sub A Psi sub B to the 2, Psi sub A to the 2 Psi sub B (violate V( Psi ) = V(- Psi )). Eliminates Chern-Simons FF F in the bulk (parity-odd). Surviving scalar potential terms: Lambda sub A, Psi sub B to the 2, Psi sub B to the 4, Psi sub A Psi sub B (even under Psi sub A to - Psi sub A, Psi sub B to - Psi sub B since both flip).
 
@@ -520,7 +522,7 @@ Dimensional Reduction to the 4D Effective Lagrangian.
 
 The Procedure.
 
-The 6D zone Lagrangian (2.5.20) describes physics on the full zone manifold. But we observe physics in four dimensions — on the Firmament brane. To extract predictions, we must integrate over the extra dimensions ( xi , eta ), weighted by the warp factors, and retain only the zero-mode fields (which are the Standard Model particles plus the dark sector).
+The 6D zone Lagrangian (2.5.20) describes physics on the full zone manifold. But we observe physics in four dimensions — on the Firmament. To extract predictions, we must integrate over the extra dimensions ( xi , eta ), weighted by the warp factors, and retain only the zero-mode fields (which are the Standard Model particles plus the dark sector).
 
 [Figure — see print edition.]
 
@@ -646,7 +648,7 @@ The crucial difference is in the origin of the parameters. Where the SM has 19 f
 SM Parameter: g sub 1 (hypercharge). Zone Origin: ξ-direction warp integral. Geometric Quantity: g sub 1 to the -2 = I_ xi / kappa sub 6 to the 2.
 SM Parameter: g sub 2 (weak). Zone Origin: ξ-boundary overlap integral. Geometric Quantity: g sub 2 to the -2 = I sub xi ,W/ kappa sub 6 to the 2.
 SM Parameter: g sub 3 (strong). Zone Origin: η-topological integral. Geometric Quantity: g sub 3 to the -2 = I sub eta ,G/ kappa sub 6 to the 2.
-SM Parameter: v (Higgs VEV). Zone Origin: Waters Above VEV on brane. Geometric Quantity: the expression.
+SM Parameter: v (Higgs VEV). Zone Origin: Waters Above VEV on Firmament. Geometric Quantity: the expression.
 SM Parameter: lambda sub H (Higgs self-coupling). Zone Origin: Waters Above quartic coupling. Geometric Quantity: lambda sub H = lambda sub A times I_ quartic.
 SM Parameter: y sub f (Yukawa couplings). Zone Origin: Fermion-Waters overlap integrals. Geometric Quantity: the expression.
 SM Parameter: theta _ QCD. Zone Origin: η-orbifold topological phase. Geometric Quantity: Related to Z sub 3 winding.
@@ -654,7 +656,7 @@ SM Parameter: CKM matrix. Zone Origin: Overlap integrals of generation profiles.
 
 The number of fundamental parameters in the zone framework is smaller than 19. The zone architecture has:
 - kappa sub 6 (6D gravitational coupling) — 1 parameter
-- sigma , kappa sub B (brane tension and rigidity) — 2 parameters
+- sigma , kappa sub B (Firmament tension and rigidity) — 2 parameters
 - Lambda sub A, mu sub B, lambda sub B, G_ int (Waters potentials) — 4 parameters
 - xi sub A, eta sub B (extra-dimensional scales) — 2 parameters, but these are derived from the Waters field equations, not independent
 
@@ -769,8 +771,8 @@ Conceptual Problems.
 Problem 5.7. Why can't the sustaining sector be absorbed?
 A skeptic argues: "Your sustaining term the expression is just a time-dependent modification of the coupling constants. I can absorb it into a field redefinition." Show why this argument fails by demonstrating that the sustaining term cannot be removed by any field redefinition that preserves the form of the other six sectors.
 
-Problem 5.8. Why two brane terms?
-Explain physically why the Firmament Lagrangian (Eq. 2.5.4) requires both the Nambu-Goto (tension) term and the Helfrich (rigidity) term. What would go wrong if you kept only one? Consider stability, mode spectrum, and the resulting induced gravity on the brane.
+Problem 5.8. Why two Firmament terms?
+Explain physically why the Firmament Lagrangian (Eq. 2.5.4) requires both the Nambu-Goto (tension) term and the Helfrich (rigidity) term. What would go wrong if you kept only one? Consider stability, mode spectrum, and the resulting induced gravity on the Firmament.
 
 Problem 5.9. The zone framework vs. pure GR.
 Show that in the limit where the extra dimensions are frozen (no fluctuations), all Waters fields are at their VEVs, and all gauge fields vanish, the zone Lagrangian reduces to pure 4D general relativity with a cosmological constant. Identify which terms survive and which vanish.
@@ -799,7 +801,7 @@ Chapter Summary.
 
 This chapter constructed the complete Lagrangian for the zone manifold — the single mathematical object from which all of known physics (and predictions beyond known physics) follows.
 
-The zone Lagrangian has seven sectors: gravitational (6D Einstein-Hilbert), brane (Firmament Nambu-Goto + rigidity), waters (two scalar fields with specific potentials), gauge (Yang-Mills for all Standard Model gauge groups), matter (6D Dirac fermions), interaction (Yukawa + minimal coupling), and sustaining (open-system coupling).
+The zone Lagrangian has seven sectors: gravitational (6D Einstein-Hilbert), Firmament (Firmament Nambu-Goto + rigidity), waters (two scalar fields with specific potentials), gauge (Yang-Mills for all Standard Model gauge groups), matter (6D Dirac fermions), interaction (Yukawa + minimal coupling), and sustaining (open-system coupling).
 
 The Five Principles constrain this Lagrangian to a unique form. Dimensional reduction over the extra dimensions yields a 4D effective Lagrangian that reproduces the Standard Model term for term — but with every parameter derived from geometry rather than fitted to experiment. Three novel sectors (gravity, dark sector, sustaining) extend the SM and generate testable predictions.
 
@@ -946,7 +948,7 @@ Chapter Summary.
 
 This chapter constructed the complete Lagrangian for the zone manifold — the single mathematical object from which all of known physics (and predictions beyond known physics) follows.
 
-The zone Lagrangian has seven sectors: gravitational (6D Einstein-Hilbert), brane (Firmament Nambu-Goto + rigidity), waters (two scalar fields with specific potentials), gauge (Yang-Mills for all Standard Model gauge groups), matter (6D Dirac fermions), interaction (Yukawa + minimal coupling), and sustaining (open-system coupling).
+The zone Lagrangian has seven sectors: gravitational (6D Einstein-Hilbert), Firmament (Firmament Nambu-Goto + rigidity), waters (two scalar fields with specific potentials), gauge (Yang-Mills for all Standard Model gauge groups), matter (6D Dirac fermions), interaction (Yukawa + minimal coupling), and sustaining (open-system coupling).
 
 The Five Principles constrain this Lagrangian to a unique form. Dimensional reduction over the extra dimensions yields a 4D effective Lagrangian that reproduces the Standard Model term for term — but with every parameter derived from geometry rather than fitted to experiment. Three novel sectors (gravity, dark sector, sustaining) extend the SM and generate testable predictions.
 

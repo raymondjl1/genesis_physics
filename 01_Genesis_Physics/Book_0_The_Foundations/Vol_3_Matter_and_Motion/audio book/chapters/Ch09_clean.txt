@@ -16,7 +16,7 @@ Genesis Physics gives a different answer: the laws are theorems. They emerge fro
 
 This is not a minor distinction. It means:
 
-1. The Second Law is not universal. It depends on the value of κ. In Phase 2, dS/dt = 0. In Phase 3, dS/dt = L·Δκ > 0. The arrow of time is not written into the universe's constitution; it emerges from a phase transition.
+1. The Second Law is not universal. It depends on the value of κ. In Phase 2, d\mathcal{S}/dt = 0. In Phase 3, d\mathcal{S}/dt = L·Δκ > 0. The arrow of time is not written into the universe's constitution; it emerges from a phase transition.
 
 2. Thermodynamics is connected to everything else. The four laws are not isolated empirical rules—they follow from the same 6D action that generates electromagnetism, gravity, and particle physics. They are pieces of one fabric.
 
@@ -64,8 +64,8 @@ The answer is YES—and here's how:
 3. Note that each mode has a discrete energy spectrum: E sub n = n h-bar omega sub n.
 4. Count the number of distinct quantum states consistent with a given total energy U and volume V.
 5. Note that most initial conditions will evolve toward states with higher multiplicity.
-6. Define entropy S = k_B ln Ω (multiplicity).
-7. Show that dS/dt ≥ 0 for isolated systems.
+6. Define entropy S = k sub B Omega (multiplicity).
+7. Show that d𝒮/dt ≥ 0 for isolated systems.
 8. That's the Second Law.
 
 This is what the 6-stage chain does for the Genesis Physics universe. Let's trace it carefully.
@@ -74,7 +74,7 @@ To set the stage, let's recap the six-stage chain from Vol 1, then mark clearly 
 
 The Six Stages (Vol 1 §11.1, now expanded).
 
-Stage 1: Quantized Membrane Modes
+Stage 1: Quantized Firmament Modes
 
 Starting from the 6D action:
 
@@ -88,7 +88,7 @@ where k is the wave vector and omega sub n( k) is the mode frequency. Vol 1 Chap
 
 Stage 2: Planck's Constant ℏ
 
-The quantization scale is not arbitrary. It arises from the topological quantization of charge on the Firmament. Vortex defects (which carry topological charge ±1) cannot be continuously deformed; they can only wind around the membrane in integer multiples. This quantization of winding numbers generates commutation relations that define ℏ. See Vol 1 Chapter 10 and the research file DERIVEHBARFROM_MEMBRANE.md for the complete derivation.
+The quantization scale is not arbitrary. It arises from the topological quantization of charge on the Firmament. Vortex defects (which carry topological charge ±1) cannot be continuously deformed; they can only wind around the Firmament in integer multiples. This quantization of winding numbers generates commutation relations that define ℏ. See Vol 1 Chapter 10 and the research file DERIVEHBARFROM_MEMBRANE.md for the complete derivation.
 
 Stage 3: Boltzmann's Constant k_B
 
@@ -130,7 +130,7 @@ What This Chapter Adds.
 
 - ✦ Complete saddle-point analysis with Gaussian fluctuations
 - ✦ Full thermodynamic potential framework (U, F, G, H) with Maxwell relations
-- ✦ Quantitative entropy production rate dS/dt = L·Δκ
+- ✦ Quantitative entropy production rate d𝒮/dt = L·Δκ
 - ✦ Clausius inequality and inequality proofs
 - ✦ Specific entropy production channels with rates
 - ✦ Debye T^d law from first principles
@@ -308,7 +308,7 @@ where:
 [Equation — see print edition.]
 
 Here:
-- κ(t) is the sustaining coupling strength (dimensionless)
+- κ(t) is the sustaining coupling strength (dimensionless). Note: The κ parameter controls entropy exchange between zones. Its precise microscopic definition — relating κ to the zone field equations — is Research Task RT-3.κ. The coupling to the 6D action term S_ kappa (Eq. 1.11.1) is the formal statement, but the explicit formula connecting κ to measurable decay rates or field amplitudes is an open research item.
 - J( x) is the geometric source distribution in the Waters equations (Chapter 6, Eq. 1.6.12)—it specifies where and how strongly the sustaining field κ couples energy into Zone 2
 - δE_κ is the sustaining energy input from Zone 0 (the Godhead) through Zone 1 (Heaven Prime)
 
@@ -342,7 +342,7 @@ Adiabatic process (δQ = 0, no heat exchange, system isolated):
 
 For an ideal gas undergoing adiabatic compression, all work goes into internal energy, raising temperature. Work done on the system increases internal energy.
 
-For a reversible adiabatic process (isentropic, dS = 0), we can derive the adiabatic relation:
+For a reversible adiabatic process (isentropic, d\mathcal{S} = 0), we can derive the adiabatic relation:
 
 [Equation — see print edition.]
 
@@ -384,9 +384,9 @@ Heat engine (Carnot cycle):
 A reversible cycle operating between two temperature reservoirs T sub H (hot) and T sub C (cold):
 
 1. Isothermal expansion at T sub H: absorbs heat Q sub H > 0
-2. Adiabatic expansion: cools from T sub H to T sub C, does work, ΔS = 0
+2. Adiabatic expansion: cools from T sub H to T sub C, does work, Δ𝒮 = 0
 3. Isothermal compression at T sub C: rejects heat |Q sub C|
-4. Adiabatic compression: heats from T sub C to T sub H, absorbs work, ΔS = 0
+4. Adiabatic compression: heats from T sub C to T sub H, absorbs work, Δ𝒮 = 0
 
 The efficiency is:
 
@@ -426,7 +426,7 @@ Gibbs Free Energy G(T, P, N):
 
 Natural variables: (T, P, N).
 
-Enthalpy H(S, P, N):
+Enthalpy H(\mathcal{S}, P, N):
 
 [Equation — see print edition.]
 
@@ -438,19 +438,19 @@ The Maxwell Relations.
 
 From the equality of mixed partial derivatives, we derive four Maxwell relations:
 
-From dU = T dS - P dV:
+From dU = T d\mathcal{S} - P dV:
 
 [Equation — see print edition.]
 
-From dF = -S dT - P dV:
+From dF = -\mathcal{S} dT - P dV:
 
 [Equation — see print edition.]
 
-From dG = -S dT + V dP:
+From dG = -\mathcal{S} dT + V dP:
 
 [Equation — see print edition.]
 
-From dH = T dS + V dP:
+From dH = T d\mathcal{S} + V dP:
 
 [Equation — see print edition.]
 
@@ -462,10 +462,10 @@ The Thermodynamic Square.
 
 A visual representation: the four thermodynamic potentials sit at the corners of a square. The natural variables are the edges. Moving from one corner to an adjacent corner means replacing one natural variable with its conjugate via a Legendre transform:
 
-Potential: U(S,V,N). Natural Vars: Entropy, Volume, Particle number. Use When...: Work with isolated systems.
+Potential: U(\mathcal{S},V,N). Natural Vars: Entropy, Volume, Particle number. Use When...: Work with isolated systems.
 Potential: F(T,V,N). Natural Vars: Temperature, Volume, Particle number. Use When...: Constant T, constant V (e.g., lab conditions).
 Potential: G(T,P,N). Natural Vars: Temperature, Pressure, Particle number. Use When...: Constant T, constant P (earth's atmosphere).
-Potential: H(S,P,N). Natural Vars: Entropy, Pressure, Particle number. Use When...: Adiabatic processes at constant P.
+Potential: H(\mathcal{S},P,N). Natural Vars: Entropy, Pressure, Particle number. Use When...: Adiabatic processes at constant P.
 
 Response Functions.
 
@@ -475,7 +475,7 @@ Heat capacity at constant volume:
 
 [Equation — see print edition.]
 
-Derivation: From dU = T dS - P dV at constant V:
+Derivation: From dU = T d S - P dV at constant V:
 
 [Equation — see print edition.]
 
@@ -601,6 +601,8 @@ At the Fall, the coupling drops:
 
 where Delta kappa = kappa sub full - kappa sub partial > 0 is the coupling deficit and θ is the Heaviside step function. (This phase transition represents God's judgment on human sin (Genesis 3:17-19) manifested in creation through reduced sustaining—the ground is cursed to toil, and death enters the created order as entropy rises.)
 
+[Note: The precise mechanism by which the Fall reduced the sustaining coupling κ, and the derivation of the resulting entropy production rate, are developed in Volume 5, Chapter 8 (Zone Cosmological Model) and the associated appendix on phase transitions. Here we establish the logical structure: disorder increases because the Sustaining Principle (Principle 1) was partially withdrawn, and the zone architecture with reduced κ produces a thermodynamic system that irreversibly approaches maximum entropy. Volume 5 provides the quantitative details, including the derivation of the entropy production rate L·Δκ from the modified Friedmann equations and the κ-coupling to the Waters field equations.]
+
 The sustaining potential weakens. Configurations previously forbidden (high-entropy states) become energetically accessible:
 
 [Equation — see print edition.]
@@ -653,18 +655,20 @@ In Phase 3, the rate at which entropy increases is proportional to the coupling 
 
 [Equation — see print edition.]
 
-where L is the entropy production conductance (dimensions: entropy per time per coupling unit):
+where L is the entropy production conductance (dimensions: entropy per time per coupling unit [k_B/s]):
 
 [Equation — see print edition.]
 
-The sum is over all entropy-producing channels (discussed in §9.6). The conductance C_j for each channel is determined by the microscopic transition rates connecting restricted and unrestricted microstates.
+The sum is over all entropy-producing channels (discussed in §9.6). The conductance C sub j for each channel is determined by the microscopic transition rates connecting restricted and unrestricted microstates. [units: W/K or equivalent — to be verified]
+
+Parameter Status: The conductance L governing entropy production rate has not been computed from zone architecture first principles. It is currently a phenomenological parameter. Research Task RT-3.L: derive L from the κ-coupling mechanism in the 6D action. Until this derivation is complete, the quantitative entropy rate predictions in this section are order-of-magnitude estimates rather than precise predictions.
 
 Derivation sketch: Using linear response theory, the rate at which new microstates become accessible is proportional to:
 - The density of "borderline" states (just above the old sustaining threshold)
 - The coupling deficit rate
 - The system size and temperature
 
-Since κ is constant after the Fall, the deficit remains constant, and dS/dt saturates at a constant value.
+Since κ is constant after the Fall, the deficit remains constant, and d𝒮/dt saturates at a constant value.
 
 Observational Testability: In principle, this rate is observable: the total entropy production of the universe (~10^50 k_B/s) combined with estimates of Δκ from radioactive decay constraints gives L ~ 10^77 in appropriate units. This makes the κ-mechanism potentially falsifiable through precision measurements of universal entropy production and decay kinetics.
 
@@ -724,7 +728,7 @@ When mechanical work is converted to heat (as in friction), this produces entrop
 
 [Equation — see print edition.]
 
-A swinging pendulum dissipates energy as friction: W sub diss = 1 over 2m v to the 2 times gamma (where γ is the damping coefficient). This is converted to heat, increasing entropy at rate dS/dt = W sub diss / T. This is why the pendulum slows down: it is moving into higher-entropy states.
+A swinging pendulum dissipates energy as friction: W sub diss = 1 over 2m v to the 2 times gamma (where γ is the damping coefficient). This is converted to heat, increasing entropy at rate d𝒮/dt = W sub diss / T. This is why the pendulum slows down: it is moving into higher-entropy states.
 
 Entropy Production Channels.
 
@@ -948,7 +952,7 @@ The Arrow from Initial Conditions.
 
 The answer: the arrow of time is not in the laws, but in the initial conditions.
 
-In Phase 2 (Edenic), the sustaining potential keeps the universe in a low-entropy state indefinitely. The system is held at zero entropy production: dS/dt = 0. There is no preferred direction of time. Reversible processes are the norm.
+In Phase 2 (Edenic), the sustaining potential keeps the universe in a low-entropy state indefinitely. The system is held at zero entropy production: d𝒮/dt = 0. There is no preferred direction of time. Reversible processes are the norm.
 
 At the Fall, κ drops to κ_partial. The sustaining potential weakens. The system, initially in a low-entropy state inherited from Phase 2, now faces a vastly expanded accessible phase space. The probability that it spontaneously contracts back into its initial state is the expression—so small as to be exactly zero for all practical purposes.
 
@@ -961,9 +965,9 @@ From this asymmetric initial condition—combined with the expansion of phase sp
 The Four Phases Summary.
 
 Phase: **0: Creation**. Time Interval: t = 0. κ Value: κ_initial. Entropy: 0. Second Law: N/A. Arrow: None. Sustaining: Full sustaining initiates.
-Phase: **1: Formation**. Time Interval: 0 < t < t_ Eden. κ Value: κ_full. Entropy: S = 0. Second Law: dS/dt = 0. Arrow: None. Sustaining: Full sustaining active.
-Phase: **2: Edenic**. Time Interval: t_ Eden < t < t_ Fall. κ Value: κ_full. Entropy: S = 0. Second Law: dS/dt = 0. Arrow: None. Sustaining: Full sustaining; creation "very good".
-Phase: **3: Post-Fall**. Time Interval: t > t_ Fall. κ Value: κ_partial. Entropy: S ↑. Second Law: dS/dt = L·Δκ. Arrow: Thermal → Past. Sustaining: Reduced sustaining; universe aging.
+Phase: **1: Formation**. Time Interval: 0 < t < t_ Eden. κ Value: κ_full. Entropy: \mathcal{S} = 0. Second Law: d\mathcal{S}/dt = 0. Arrow: None. Sustaining: Full sustaining active.
+Phase: **2: Edenic**. Time Interval: t_ Eden < t < t_ Fall. κ Value: κ_full. Entropy: \mathcal{S} = 0. Second Law: d\mathcal{S}/dt = 0. Arrow: None. Sustaining: Full sustaining; creation "very good".
+Phase: **3: Post-Fall**. Time Interval: t > t_ Fall. κ Value: κ_partial. Entropy: \mathcal{S} ↑. Second Law: d\mathcal{S}/dt = L·Δκ. Arrow: Thermal → Past. Sustaining: Reduced sustaining; universe aging.
 
 The thermodynamic arrow of time emerges in Phase 3. In Phase 4 (Redemption, future), new physics applies.
 
@@ -973,7 +977,7 @@ The Past Hypothesis (Boltzmann, Wheeler, Feynman): the laws of physics are time-
 
 Genesis Physics provides a mechanism for why the initial condition was special:
 
-Before the Fall (Phase 2): The universe was held at zero entropy dS/dt = 0 by the sustaining coupling κ_full. This was not "a lucky initial condition"—it was actively maintained by the sustaining field from Zone 0.
+Before the Fall (Phase 2): The universe was held at zero entropy d𝒮/dt = 0 by the sustaining coupling κ_full. This was not "a lucky initial condition"—it was actively maintained by the sustaining field from Zone 0.
 
 At the Fall (boundary between Phase 2 and 3): The sustaining coupling dropped from κfull to κpartial. The system, which had been held in a low-entropy state, suddenly found itself with access to a vastly larger phase space. It started exploring this larger space, and entropy increased.
 
@@ -987,11 +991,11 @@ The entropy production rate is:
 
 [Equation — see print edition.]
 
-If we can measure the current entropy production rate dS/dt (from summing all decay, diffusion, friction channels), we can estimate:
+If we can measure the current entropy production rate d S/dt (from summing all decay, diffusion, friction channels), we can estimate:
 
 [Equation — see print edition.]
 
-If L approximately 10 to the 50 kB/(s), then dS/dt approximately 10 to the 50 kB/s (a rough estimate from universal decay rates) gives:
+If L approximately 10 to the 50 kB/(s), then d S/dt approximately 10 to the 50 kB/s (a rough estimate from universal decay rates) gives:
 
 [Equation — see print edition.]
 
@@ -1007,7 +1011,7 @@ Key Results.
 
 3. Thermodynamic Potentials: U, F, G, H are related by Legendre transforms. All Maxwell relations follow from partition function structure.
 
-4. Second Law: Phase-dependent. In Phase 2 (κfull): dS/dt = 0 (no entropy increase). In Phase 3 (κpartial): dS/dt = L·Δκ (entropy increases). Irreversibility probability ~ 10^{-10^{23}}.
+4. Second Law: Phase-dependent. In Phase 2 (κfull): d\mathcal{S}/dt = 0 (no entropy increase). In Phase 3 (κpartial): d\mathcal{S}/dt = L·Δκ (entropy increases). Irreversibility probability ~ 10^{-10^{23}}.
 
 5. Entropy Production Channels: Decay, diffusion, friction, equilibration—all proportional to coupling deficit Δκ.
 
@@ -1031,7 +1035,7 @@ The complete derivation of the four laws from the zone architecture reveals some
 
 For Physics: This means entropy is not a mysterious, abstract quantity added by hand. It follows from counting quantum microstates. The Second Law is not universal—it depends on κ. This makes Genesis Physics falsifiable: if we can measure or constrain κ, we can test whether the phase-dependent Second Law holds. If Phase 2 and Phase 3 entropy production rates disagree with predictions, the theory fails.
 
-For Theology: The framework shows how the universe can start in perfect order (Phase 2: S = 0, no decay, infinite life expectancy) and then transition to increasing disorder (Phase 3: dS/dt = L·Δκ, aging, death). This is not imposed by abstract laws—it emerges from a measurable change in the sustaining coupling. The Fall, in this framework, is a phase transition with quantifiable physical consequences.
+For Theology: The framework shows how the universe can start in perfect order (Phase 2: 𝒮 = 0, no decay, infinite life expectancy) and then transition to increasing disorder (Phase 3: dS/dt = L·Δκ, aging, death). This is not imposed by abstract laws—it emerges from a measurable change in the sustaining coupling. The Fall, in this framework, is a phase transition with quantifiable physical consequences.
 
 For Cosmology: The four-phase structure (Creation, Edenic, Fall, Redemption) maps to thermodynamic regimes. This opens pathways to studying redemption physics: what would Phase 4 look like? Would it involve yet another κ transition? Would entropy reverse? Genesis Physics predicts that no—entropy never decreases—but the rate of entropy production could change. In Phase 4 (Redemption, future), renewed sustaining coupling κ_redeem will arrest entropy production and restore the "new heaven and new earth" (Revelation 21:1-5) and ultimate freedom from decay (Romans 8:20-22). This is something future observations might test.
 
@@ -1059,7 +1063,7 @@ Two identical systems, each with N = 10^{23} particles, are brought into thermal
 
 (b) Compute the equilibrium partition of energy the expression, the expression that maximizes the combined multiplicity. [Hint: at equilibrium, the multiplicities have equal "slopes" in U.]
 
-(c) Compute the entropy change ΔS = Sfinal - Sinitial in units of k_B.
+(c) Compute the entropy change Δ𝒮 = 𝒮final - 𝒮initial in units of k_B.
 
 Problem 9.2: Partition Function and Thermodynamics
 
@@ -1151,7 +1155,7 @@ This matches the standard formula. The Maxwell relation allows us to compute ent
 
 Problem 9.4: Entropy Production Rate
 
-In Phase 3, the entropy production rate is dS/dt = L times Delta kappa where L = sum sub j C sub j / T.
+In Phase 3, the entropy production rate is d S/dt = L times Delta kappa where L = sum sub j C sub j / T.
 
 Suppose we have three entropy production channels:
 - Radioactive decay: C sub decay = 10 to the 20 (in some units)
@@ -1164,13 +1168,13 @@ Solution:
 
 [Equation — see print edition.]
 
-(b) If Δκ = 0.01 (in some units), compute dS/dt in units of k_B per second.
+(b) If Δκ = 0.01 (in some units), compute d𝒮/dt in units of k_B per second.
 
 Solution:
 
 [Equation — see print edition.]
 
-(c) How long does it take for the entropy to increase by ΔS = 10^{30} k_B?
+(c) How long does it take for the entropy to increase by Δ𝒮 = 10^{30} k_B?
 
 Solution:
 
@@ -1244,7 +1248,7 @@ This perspective also explains WHY the objects reach thermal equilibrium: they e
 
 Problem 9.7: Phase-Dependence of the Second Law
 
-In Phase 2, dS/dt = 0 even though the Hamiltonian is time-reversal invariant. In Phase 3, dS/dt > 0. What is the physical difference between the two phases that breaks time-reversal symmetry? (Hint: it's not the Hamiltonian itself.)
+In Phase 2, d𝒮/dt = 0 even though the Hamiltonian is time-reversal invariant. In Phase 3, d𝒮/dt > 0. What is the physical difference between the two phases that breaks time-reversal symmetry? (Hint: it's not the Hamiltonian itself.)
 
 Suggested Answer:
 
@@ -1288,11 +1292,11 @@ Consider a system of N radioactive nuclei at temperature T. Each nucleus has an 
 
 [Equation — see print edition.]
 
-Show that this is consistent with dS/dt = L times Delta kappa for appropriate L.
+Show that this is consistent with d S/dt = L times Delta kappa for appropriate L.
 
 Problem 9.11: All Four Maxwell Relations
 
-Starting from the thermodynamic potentials U(S,V,N), F(T,V,N), G(T,P,N), H(S,P,N), derive all four Maxwell relations and explain the physical meaning of each in terms of measurable quantities.
+Starting from the thermodynamic potentials U(\mathcal{S},V,N), F(T,V,N), G(T,P,N), H(\mathcal{S},P,N), derive all four Maxwell relations and explain the physical meaning of each in terms of measurable quantities.
 
 Problem 9.12: Quantitative κ Estimation
 
@@ -1300,6 +1304,6 @@ Suppose we measure that the universal entropy production rate is currently:
 
 [Equation — see print edition.]
 
-Using the relation dS/dt = L times Delta kappa and estimating L from known diffusion, decay, and friction rates, estimate the coupling deficit Δκ. Is it consistent with the idea that κfull ≈ 1 and κpartial ≈ 0.1?
+Using the relation d S/dt = L times Delta kappa and estimating L from known diffusion, decay, and friction rates, estimate the coupling deficit Δκ. Is it consistent with the idea that κfull ≈ 1 and κpartial ≈ 0.1?
 
 End of Chapter 9

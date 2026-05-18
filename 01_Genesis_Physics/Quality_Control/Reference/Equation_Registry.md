@@ -30,7 +30,7 @@
 | (1.4.2) | Isometry Group of 6D Metric | Volume 1 | 1 | 4 | Generator algebra of isometries preserving the 6D metric; includes spatial rotations, Lorentz boosts, and zone translations |
 | (1.4.3) | Killing Vectors | Volume 1 | 1 | 4 | Complete set of Killing vectors for the 6D metric; basis for Noether-derived conservation laws |
 | (1.5.1) | Firmament as Hypersurface | Volume 1 | 1 | 5 | Induced metric on Firmament boundary hypersurface embedded in 6D spacetime |
-| (1.5.2) | Extrinsic Curvature | Volume 1 | 1 | 5 | Extrinsic curvature tensor K_ij of Firmament hypersurface; encodes membrane bending energy |
+| (1.5.2) | Extrinsic Curvature | Volume 1 | 1 | 5 | Extrinsic curvature tensor K_ij of Firmament hypersurface; encodes Firmament membrane bending energy |
 | (1.5.3) | Firmament Junction Conditions | Volume 1 | 1 | 5 | Israel junction conditions relating extrinsic curvature discontinuity to surface tension and stress |
 | (1.6.1) | Waters Field Equation | Volume 1 | 1 | 6 | Navier-Stokes-like PDE governing Waters density ρ(x,t) on zone manifold |
 | (1.6.2) | Waters Pressure Gradient | Volume 1 | 1 | 6 | Pressure field p(x,t) as variational derivative of action functional with respect to density perturbations |
@@ -48,6 +48,8 @@
 | (1.11.1) | Partition Function on Zone Manifold | Volume 1 | 1 | 11 | Statistical partition function Z for zone field configurations in thermal equilibrium |
 | (1.11.2) | Entropy as Zone Mixing | Volume 1 | 1 | 11 | Entropy S = k ln(Ω) expressed as measure of zone boundary mixing and information spreading |
 | (1.11.3) | Thermodynamic Laws from Zone Separation | Volume 1 | 1 | 11 | All four thermodynamic laws derived from zone separation dynamics and open-system constraints |
+| (2.5.1) | Total Zone Action — Seven Sectors | Volume 2 | 2 | 5 | S_total = S_grav + S_Firm + S_waters + S_gauge + S_matter + S_int + S_sustain. Note: the Firmament-sector subscript is renamed from S_brane → S_Firm in 0516_Rev_002. |
+| (2.5.4) | Nambu-Goto + Helfrich Firmament Action | Volume 2 | 2 | 5 | S_Firm = -σ∫d⁴σ √-γ + (κ_B/2)∫d⁴σ √-γ H². Renamed from S_brane in 0516_Rev_002. The Firmament-membrane Lagrangian \mathcal{L}_\text{Firm} (formerly \mathcal{L}_\text{brane}) governs Firmament dynamics. |
 
 ---
 

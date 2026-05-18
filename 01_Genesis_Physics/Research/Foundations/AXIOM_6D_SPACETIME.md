@@ -37,7 +37,7 @@ ds² = -c²dt² + a²(t)[dx² + dy² + dz²] + g_ξξ(ξ,η)dξ² + g_ηη(ξ,η
 where:
   (t, x, y, z) = standard 4D spacetime coordinates
   (ξ, η) = extra-dimensional coordinates defining zone structure
-  a(t) = scale factor (Friedmann dynamics on the membrane)
+  a(t) = scale factor (Friedmann dynamics on the Firmament)
   g_ξξ, g_ηη = extra-dimensional metric components (set by boundary conditions)
 ```
 
@@ -151,7 +151,7 @@ This is not numerology — it is a geometric ratio of the extra-dimensional scal
 ## RELATIONSHIP TO OTHER AXIOMS
 
 - **Axiom 1 (Open System)**: Zone 1 is the external source that makes the system open. The zone architecture defines where external input enters the manifold.
-- **Axiom 3 (Membrane Mechanics)**: The Firmament (Zone 2.2) is the elastic membrane whose mechanical properties determine c, electromagnetic coupling, and all Standard Model physics.
+- **Axiom 3 (Firmament Mechanics)**: The Firmament (Zone 2.2) is the elastic membrane whose mechanical properties determine c, electromagnetic coupling, and all Standard Model physics.
 - **Axiom 4 (Metric Discontinuity)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary froze the metric to its current sustaining-mode form.
 - **Axiom 5 (Phase Transition)**: The Fall altered the energy transfer between Zone 1 and the 6D manifold, changing the sustaining balance.
 
@@ -184,7 +184,7 @@ where:
   T_μν^(eff) = T_μν^(baryonic) + T_μν^(Ψ_B) → visible matter + dark matter
 ```
 
-The 4D physics we observe is the membrane projection of 6D geometry. Dark energy and dark matter are not mysterious additions — they are the 4D shadows of the extra-dimensional structure.
+The 4D physics we observe is the Firmament projection of 6D geometry. Dark energy and dark matter are not mysterious additions — they are the 4D shadows of the extra-dimensional structure.
 
 ---
 

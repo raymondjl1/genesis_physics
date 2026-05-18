@@ -36,7 +36,7 @@ This document provides a complete, first-principles derivation of gravitational 
 
 **Unique Genesis Physics features**:
 - Possible scalar GW mode from extra-dimensional breathing (metric component in η-direction)
-- Modified inspiral from brane-tension corrections visible at strong field
+- Modified inspiral from Firmament-tension corrections visible at strong field
 - QNM spectrum may contain extra-dimensional overtones below current LIGO sensitivity
 - Black hole "shadows" and causal structure tied to 6D topology
 
@@ -519,7 +519,7 @@ This couples to the matter stress-energy and could excite a **scalar breathing m
 
 ### 8.2 Brane-Tension Corrections at Strong Field
 
-The orbital decay rate is modified if brane tension $\sigma$ becomes relevant:
+The orbital decay rate is modified if Firmament tension $\sigma$ becomes relevant:
 
 $$\frac{da}{dt} = -\frac{64}{5}\frac{G_4^3}{c^5}\frac{m_1 m_2(m_1+m_2)}{a^3}\left[1 + O\left(\frac{\sigma_{eff}}{M_{\text{Planck}}^2}\right)\right]$$
 
@@ -613,7 +613,7 @@ The full logical chain is:
 
 - **BH thermodynamics**: Does the 6D framework naturally incorporate Bekenstein-Hawking entropy $S = k_B c^3 A / (4 G \hbar)$?
 - **Hawking radiation from membrane**: Can extra-dimensional geometry explain the mechanism of Hawking evaporation?
-- **Information paradox**: Does the membrane provide a resolution to the black hole information paradox?
+- **Information paradox**: Does the Firmament provide a resolution to the black hole information paradox?
 
 These open questions connect N-body dynamics and mergers to the deepest questions in fundamental physics.
 

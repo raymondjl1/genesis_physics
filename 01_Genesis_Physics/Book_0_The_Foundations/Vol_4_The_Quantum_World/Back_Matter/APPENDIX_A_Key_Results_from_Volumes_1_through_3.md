@@ -50,7 +50,7 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 | Tag | Result | Gloss | Used in Vol 4 |
 |---|---|---|---|
 | **(1.5.1)** | $\boxed{\square \Phi + \frac{\sigma}{\mu}\,\Phi_{\xi\xi} = 0}$ | The Firmament wave equation. Every wavefunction in QM is a non-relativistic projection of a solution to this equation. | Ch 1, Ch 2, Ch 3, Ch 6 |
-| (1.5.8) | $c=\sqrt{\sigma/\mu}$ | Speed of light from membrane tension over mass density. | Ch 2, Ch 6 |
+| (1.5.8) | $c=\sqrt{\sigma/\mu}$ | Speed of light from Firmament tension over mass density. | Ch 2, Ch 6 |
 | (1.5.12) | Mode expansion $\Phi(x,\xi)=\sum_n \phi_n(x)\chi_n(\xi)$ | Separation of variables: 4D wavefunctions $\phi_n$ labeled by extra-dimensional profiles $\chi_n$. | Ch 1, Ch 2, Ch 10, Ch 11 |
 | (1.5.19) | Eigenvalue equation $-\chi_n''=k_n^2\chi_n$ with Dirichlet BCs | Sturm–Liouville problem on $[0,\xi_A]$: discrete real spectrum. | Ch 1 (*the* quantization), Ch 10 |
 | **(1.5.24)** | $\boxed{k_n=n\pi/\xi_A,\; m_n=\hbar k_n/c}$ | Kaluza–Klein tower. Each discrete mode is a 4D particle of definite mass. | Ch 10 (leptons & quarks), Ch 11, Ch 12 |
@@ -195,7 +195,7 @@ This is the working reference. For each Vol 4 chapter, the equations it actually
 | Ch 7 — Perturbation Theory and Feynman Diagrams | — | (2.3.5), (2.3.21), (2.5.2), (2.6.11), (2.6.18) | (3.2.16), (3.4.3) |
 | Ch 8 — Renormalization | (1.4.31), (1.10.12) | (2.10.4), (2.10.11), (2.10.15), (2.10.22) | — |
 | Ch 9 — Casimir Effect and Vacuum Energy | (1.5.1), (1.6.14), (1.11.15) | (2.3.14), (2.3.21) | (3.9.3), (3.10.8), (3.11.5) |
-| Ch 10 — Leptons and Quarks from Membrane Resonances | (1.5.12), **(1.5.24)**, (1.9.2), (1.9.19), (1.11.22) | (2.4.19), (2.6.3) | (3.6.5), (3.6.14), (3.7.9) |
+| Ch 10 — Leptons and Quarks from Firmament Resonances | (1.5.12), **(1.5.24)**, (1.9.2), (1.9.19), (1.11.22) | (2.4.19), (2.6.3) | (3.6.5), (3.6.14), (3.7.9) |
 | Ch 11 — The Electroweak Theory | (1.4.31), (1.6.3), (1.6.27), (1.9.11), **(1.5.24)** | (2.4.19), (2.4.27), (2.6.3), (2.6.11) | (3.7.9) |
 | Ch 12 — Quantum Chromodynamics | (1.9.11), **(1.5.24)** | (2.4.3), (2.4.11), (2.6.3), (2.6.11), (2.6.18), (2.10.15) | — |
 | Ch 13 — CKM and PMNS | (1.9.2), (1.9.19) | (2.4.19), (2.4.27) | (3.7.9) |

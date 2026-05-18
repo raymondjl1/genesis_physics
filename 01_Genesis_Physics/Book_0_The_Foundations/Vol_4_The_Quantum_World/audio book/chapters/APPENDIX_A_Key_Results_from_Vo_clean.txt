@@ -38,7 +38,7 @@ Tag: (1.4.31). Result: Warp factor e to the -k. Gloss: xi.
 A.2.3 — Chapter 5: The Firmament as Membrane.
 
 Tag: **(1.5.1)**. Result: Phi + sigma over mu Phi sub xi xi = 0. Gloss: The Firmament wave equation. Every wavefunction in QM is a non-relativistic projection of a solution to this equation.. Used in Vol 4: Ch 1, Ch 2, Ch 3, Ch 6.
-Tag: (1.5.8). Result: c= square root of sigma / mu. Gloss: Speed of light from membrane tension over mass density.. Used in Vol 4: Ch 2, Ch 6.
+Tag: (1.5.8). Result: c= square root of sigma / mu. Gloss: Speed of light from Firmament tension over mass density.. Used in Vol 4: Ch 2, Ch 6.
 Tag: (1.5.12). Result: Mode expansion Phi (x, xi )= sum sub n phi sub n(x) chi sub n( xi ). Gloss: Separation of variables: 4D wavefunctions phi sub n labeled by extra-dimensional profiles chi sub n.. Used in Vol 4: Ch 1, Ch 2, Ch 10, Ch 11.
 Tag: (1.5.19). Result: Eigenvalue equation - chi sub n''=k sub n to the 2 chi sub n with Dirichlet BCs. Gloss: Sturm–Liouville problem on [0, xi sub A]: discrete real spectrum.. Used in Vol 4: Ch 1 (*the* quantization), Ch 10.
 Tag: **(1.5.24)**. Result: k sub n=n pi / xi sub A, m sub n= h-bar k sub n/c. Gloss: Kaluza–Klein tower. Each discrete mode is a 4D particle of definite mass.. Used in Vol 4: Ch 10 (leptons & quarks), Ch 11, Ch 12.
@@ -147,7 +147,7 @@ Vol 4 Chapter: Ch 6 — Second Quantization and Zone Fields. Vol 1: (1.5.12), (1
 Vol 4 Chapter: Ch 7 — Perturbation Theory and Feynman Diagrams. Vol 1: —. Vol 2: (2.3.5), (2.3.21), (2.5.2), (2.6.11), (2.6.18). Vol 3: (3.2.16), (3.4.3).
 Vol 4 Chapter: Ch 8 — Renormalization. Vol 1: (1.4.31), (1.10.12). Vol 2: (2.10.4), (2.10.11), (2.10.15), (2.10.22). Vol 3: —.
 Vol 4 Chapter: Ch 9 — Casimir Effect and Vacuum Energy. Vol 1: (1.5.1), (1.6.14), (1.11.15). Vol 2: (2.3.14), (2.3.21). Vol 3: (3.9.3), (3.10.8), (3.11.5).
-Vol 4 Chapter: Ch 10 — Leptons and Quarks from Membrane Resonances. Vol 1: (1.5.12), **(1.5.24)**, (1.9.2), (1.9.19), (1.11.22). Vol 2: (2.4.19), (2.6.3). Vol 3: (3.6.5), (3.6.14), (3.7.9).
+Vol 4 Chapter: Ch 10 — Leptons and Quarks from Firmament Resonances. Vol 1: (1.5.12), **(1.5.24)**, (1.9.2), (1.9.19), (1.11.22). Vol 2: (2.4.19), (2.6.3). Vol 3: (3.6.5), (3.6.14), (3.7.9).
 Vol 4 Chapter: Ch 11 — The Electroweak Theory. Vol 1: (1.4.31), (1.6.3), (1.6.27), (1.9.11), **(1.5.24)**. Vol 2: (2.4.19), (2.4.27), (2.6.3), (2.6.11). Vol 3: (3.7.9).
 Vol 4 Chapter: Ch 12 — Quantum Chromodynamics. Vol 1: (1.9.11), **(1.5.24)**. Vol 2: (2.4.3), (2.4.11), (2.6.3), (2.6.11), (2.6.18), (2.10.15). Vol 3: —.
 Vol 4 Chapter: Ch 13 — CKM and PMNS. Vol 1: (1.9.2), (1.9.19). Vol 2: (2.4.19), (2.4.27). Vol 3: (3.7.9).

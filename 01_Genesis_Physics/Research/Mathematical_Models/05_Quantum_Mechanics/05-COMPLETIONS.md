@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "For now we see only a reflection as in a mirror; then we shall see face to face" — QM reveals hidden quantum correlations | 1 Corinthians 13:12 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | Quantum Mechanics from Membrane Dynamics; 6D Membrane Hamiltonian | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | Quantum Mechanics from Firmament Dynamics; 6D Membrane Hamiltonian | 05-QM_FROM_MEMBRANE_DYNAMICS.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **Nine QM completions: perturbation theory, variational method, WKB, path integrals, density matrix, teleportation, entanglement, photoelectric effect, Compton scattering** | **05-COMPLETIONS.md** |
 > | Modern Equivalent | Advanced Quantum Mechanics — CONVERGES: perturbation series, WKB approximation, path integrals, teleportation protocols all recovered from membrane Hamiltonian |
 >
@@ -14,7 +14,7 @@
 
 **Author**: Genesis Physics Research Team
 **Date**: April 5, 2026
-**Status**: Complete — 9 advanced QM phenomena derived from 6D membrane framework
+**Status**: Complete — 9 advanced QM phenomena derived from 6D Firmament framework
 **Framework**: Membrane Hamiltonian with ξ-η dimensional entanglement
 
 ---
@@ -218,7 +218,7 @@ The small discrepancy arises because the true ground state has more complex spat
 
 ### Genesis Physics Interpretation
 
-The variational method leverages the fact that 6D membrane oscillations have a unique ground state. The trial function represents an approximate membrane configuration; optimization finds the best configuration within the ansatz.
+The variational method leverages the fact that 6D Firmament oscillations have a unique ground state. The trial function represents an approximate membrane configuration; optimization finds the best configuration within the ansatz.
 
 ---
 
@@ -311,7 +311,7 @@ $$\boxed{E_n = (n + 1/2)\hbar\omega, \quad n = 0,1,2,\ldots}$$
 
 ### Genesis Physics Context
 
-WKB is the semiclassical limit of the 6D membrane wave equation. The action $S(x)$ is the 4D projection of the 6D metric; classical trajectories are geodesics in the effective 4D metric.
+WKB is the semiclassical limit of the 6D Firmament membrane wave equation. The action $S(x)$ is the 4D projection of the 6D metric; classical trajectories are geodesics in the effective 4D metric.
 
 ---
 
@@ -394,7 +394,7 @@ where $S_{\text{cl}}$ is evaluated on the classical path.
 
 ### Genesis Physics Interpretation
 
-The path integral is the natural language for 6D membrane dynamics. All possible configurations of the membrane (paths) contribute to the quantum amplitude. The classical action $S$ is the 6D action projected to 4D.
+The path integral is the natural language for 6D Firmament membrane dynamics. All possible configurations of the Firmament membrane (paths) contribute to the quantum amplitude. The classical action $S$ is the 6D action projected to 4D.
 
 ---
 
@@ -755,7 +755,7 @@ $$\eta = \frac{N_e}{N_{\gamma}} \approx 0.1 \% \text{ to } 10\%$$
 
 ### Genesis Physics Interpretation
 
-The photoelectric effect demonstrates that **light is quantized in the 6D framework**. The photon emerges from membrane oscillations with energy $\hbar\omega$. The work function is the potential energy of an electron confined in the metal (band structure effect).
+The photoelectric effect demonstrates that **light is quantized in the 6D framework**. The photon emerges from Firmament oscillations with energy $\hbar\omega$. The work function is the potential energy of an electron confined in the metal (band structure effect).
 
 ---
 
@@ -883,7 +883,7 @@ $$\boxed{\alpha^{-1} = 1.44 \times \ln(\xi_A/\eta_B) = 137.036}$$
 
 ### Genesis Physics Interpretation
 
-Compton scattering is a relativistic quantum phenomenon. The photon and electron are both membrane oscillations; scattering occurs through EM gauge interaction. The wavelength shift is a **relativistic Doppler effect** in the 6D frame.
+Compton scattering is a relativistic quantum phenomenon. The photon and electron are both Firmament oscillations; scattering occurs through EM gauge interaction. The wavelength shift is a **relativistic Doppler effect** in the 6D frame.
 
 ---
 

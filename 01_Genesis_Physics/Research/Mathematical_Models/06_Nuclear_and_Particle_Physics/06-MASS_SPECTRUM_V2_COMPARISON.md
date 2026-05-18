@@ -538,7 +538,7 @@ Answer: **No.**
 - Domain walls and cosmic strings are extended topological defects, NOT point particles
 - Monopoles don't exist in the SM at accessible energies (would have been observed)
 - Textures are non-topological, typically unstable
-- Membrane bumps and dimples are classical deformations of the membrane, not quantum particles
+- Membrane bumps and dimples are classical deformations of the Firmament, not quantum particles
 
 **The framework and SM describe fundamentally different categories of objects.**
 

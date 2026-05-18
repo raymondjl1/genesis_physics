@@ -68,9 +68,9 @@ This creates a 6D pseudo-Riemannian manifold M⁶ = M⁴ × [0, ξ_A) × (-η_B,
 
 | Parameter | Value | Interpretation |
 |-----------|-------|-----------------|
-| σ (membrane tension) | 6.0×10⁹⁸ kg/(m·s²) | Energy per unit area |
+| σ (Firmament tension) | 6.0×10⁹⁸ kg/(m·s²) | Energy per unit area |
 | μ (volume mass density) | 6.7×10⁸¹ kg/m³ | Mass per unit volume |
-| c = √(σ/μ) | 3×10⁸ m/s | Membrane wave speed (= light speed) |
+| c = √(σ/μ) | 3×10⁸ m/s | Firmament membrane wave speed (= light speed) |
 | ℏ | 1.055×10⁻³⁴ J·s | Reduced Planck constant |
 | G | ~10⁻¹⁰ m³/(kg·s²) | Gravitational constant |
 | ξ_A (cosmic boundary) | 3×10²⁶ m | Extent of Waters Above |
@@ -161,7 +161,7 @@ $$m_{\xi} = \frac{\hbar \pi}{c \cdot \xi_A} = \frac{1.055 \times 10^{-34} \times
 
 This is **extremely light**—decoupled from particle physics.
 
-**Scale 4: Membrane tension scale**
+**Scale 4: Firmament tension scale**
 $$m_\sigma = \sqrt{\frac{\sigma \hbar}{c^3}} \approx 1.53 \times 10^{19} \text{ kg}$$
 
 Close to the Planck mass.
@@ -264,7 +264,7 @@ Instead, gauge symmetries arise from **reparameterization freedom** in how we la
 
 ### 3.2a The U(1)_EM Structure
 
-The membrane can oscillate in the ξ-η plane, creating coupled perturbations:
+The Firmament can oscillate in the ξ-η plane, creating coupled perturbations:
 $$\delta\eta(x,t), \quad \delta\xi(x,t)$$
 
 A **linear combination** of these (e.g., a specific pattern of oscillation) can be globally phase-rotated without changing physics:
@@ -601,7 +601,7 @@ This requires **incredible fine-tuning** of coupling constants.
 **Mismatch:** Fundamental incompleteness
 
 **Possible resolutions:**
-- Fermions emerge from subtle excitations of the membrane+Waters system (not yet demonstrated)
+- Fermions emerge from subtle excitations of the Firmament+Waters system (not yet demonstrated)
 - Fermionic fields must be added as additional axioms (defeats the purpose of "deriving" particles from geometry)
 - Genesis Physics describes only the gauge boson / Higgs sector, not matter particles
 
@@ -794,7 +794,7 @@ Each choice is a **degree of freedom** that can be adjusted to fit observation. 
 **Options:**
 
 **Option 1: Geometric Coupling**
-- Set G_int from first principles by analyzing how Ψ_A and Ψ_B couple to the membrane
+- Set G_int from first principles by analyzing how Ψ_A and Ψ_B couple to the Firmament
 - Example: $G_{\text{int}} \sim \int [\Psi_A \cdot \text{source term from } \eta] \, d\xi$
 
 **Option 2: Measured from Cosmology**
@@ -804,7 +804,7 @@ Each choice is a **degree of freedom** that can be adjusted to fit observation. 
 **Option 3: Undetermined Freedom**
 - Accept G_int as a free parameter, like Standard Model couplings
 
-**Recommendation:** Work toward Option 1 by carefully examining the membrane-Waters coupling in the full nonlinear theory.
+**Recommendation:** Work toward Option 1 by carefully examining the Firmament-Waters coupling in the full nonlinear theory.
 
 ### Priority 3: DETERMINE v_A AND BREAK ELECTROWEAK SYMMETRY
 
@@ -816,7 +816,7 @@ Each choice is a **degree of freedom** that can be adjusted to fit observation. 
 
 **Approach 1: Coupled System Analysis**
 - Solve the coupled equations for Ψ_A and Ψ_B simultaneously
-- Include the back-reaction of the membrane deformation
+- Include the back-reaction of the Firmament deformation
 - Look for self-consistent solutions where v_A emerges naturally
 
 **Approach 2: Renormalization Group Analysis**

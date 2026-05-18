@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "God created mankind in his own image, male and female he created them" — Particle spin and statistics reflect symmetries in creation | Genesis 1:27 |
-> | Axiom | Axiom 1: 6D Spacetime with topological winding; Axiom 3: Membrane Mechanics | ACTION_6D_COMPLETE.md, AXIOM_MEMBRANE_MECHANICS_v2.md |
-> | Parent Theory | Topological defect classification; Quantum Mechanics from Membrane Dynamics; Homotopy group classification | TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md, 05-QM_FROM_MEMBRANE_DYNAMICS.md |
+> | Axiom | Axiom 1: 6D Spacetime with topological winding; Axiom 3: Firmament Mechanics | ACTION_6D_COMPLETE.md, AXIOM_MEMBRANE_MECHANICS_v2.md |
+> | Parent Theory | Topological defect classification; Quantum Mechanics from Firmament Dynamics; Homotopy group classification | TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md, 05-QM_FROM_MEMBRANE_DYNAMICS.md |
 > | **This Document** | **Spin-statistics theorem: particles as topological defects; winding number determines spin and exchange statistics (Fermi-Dirac vs. Bose-Einstein)** | **05-SPIN_STATISTICS_DERIVATION.md** |
 > | Modern Equivalent | Spin-Statistics Theorem — CONVERGES: half-integer spin ↔ Fermi-Dirac, integer spin ↔ Bose-Einstein, no parastatistics, derived from topological homotopy |
 >

@@ -71,7 +71,7 @@ We define each component rigorously.
 
 ---
 
-#### **1.3.1 The Membrane Action**
+#### **1.3.1 The Firmament Action**
 
 The Firmament is a 4D hypersurface embedded in 6D space. Its action is given by the Nambu-Goto form, generalizing surface tension to curved spacetime:
 
@@ -80,7 +80,7 @@ The Firmament is a 4D hypersurface embedded in 6D space. Its action is given by 
 ```
 
 where:
-- σ = 6.0×10⁹⁸ kg/(m·s²) is the membrane tension (surface energy density)
+- σ = 6.0×10⁹⁸ kg/(m·s²) is the Firmament tension (surface energy density)
 - g_ind is the determinant of the induced metric on the 4D Firmament hypersurface
 - d⁴x = dt dx dy dz (4D volume element)
 
@@ -98,7 +98,7 @@ In weak-field approximation (small derivatives |∂η|, |∂ξ| ≪ 1):
                    ≈ -σ ∫ d⁴x √(-g⁽⁰⁾) + (σ/2) ∫ d⁴x √(-g⁽⁰⁾) (∂_μη ∂^μη + ∂_μξ ∂^μξ)
 ```
 
-The first term is a constant (cosmological baseline). The second term gives the membrane kinetic action:
+The first term is a constant (cosmological baseline). The second term gives the Firmament kinetic action:
 
 ```
 (1.7)  S_membrane = (σ/2) ∫ d⁴x √(-g⁽⁰⁾) (∂_μη ∂^μη + ∂_μξ ∂^μξ) + const.
@@ -297,7 +297,7 @@ for each dynamical field: {η(x^μ), ξ(x^μ), Ψ_A(x^μ), Ψ_B(x^μ), g_μν(x^
 
 **Variation with respect to η**:
 
-The membrane contributes:
+The Firmament membrane contributes:
 ```
 δS_membrane/δη = -σ ∇² η + (boundary terms)
 ```
@@ -899,7 +899,7 @@ G_μν = (8πG/c⁴) T_μν^matter
 
 This is **Einstein's field equation**.
 
-**Derivation of G relation**: From the membrane, we have c² = σ/μ. Planck scale analysis yields:
+**Derivation of G relation**: From the Firmament membrane, we have c² = σ/μ. Planck scale analysis yields:
 
 ```
 (6.6)  G = σ/(4πμc²) ≈ ℏ c / (m_P² c²) = ℏ/(m_P²)
@@ -1598,7 +1598,7 @@ CANONICAL VALUES (as of April 4, 2026)
 
 Speed of light:                c = 3.0×10⁸ m/s
 Gravitational constant:        G = 6.674×10⁻¹¹ m³/(kg·s²)
-Membrane tension:              σ = 6.0×10⁹⁸ kg/(m·s²)
+Firmament tension:             σ = 6.0×10⁹⁸ kg/(m·s²)
 Volume mass density:           μ = 6.7×10⁸¹ kg/m³    [T2-10 CONFIRMED 2026-05-16: units kg/m³ correct for 3D spatial brane (c²=σ/μ: [kg/(m·s²)]/[kg/m³]=[m²/s²]✓); 00_Archive/WATERS_FIELD_EQUATIONS.md says "Surface mass density" with kg/m² — dimensionally inconsistent. Active file is canonical.]
 
 Waters Above scale:            ξ_A ≈ 3×10²⁶ m  (~ observable universe)

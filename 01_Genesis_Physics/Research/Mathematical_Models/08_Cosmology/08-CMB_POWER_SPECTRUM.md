@@ -38,7 +38,7 @@ This document derives nine key CMB observables from first principles of membrane
 1. **Derivation Chain**: 6D Action → Linearized 6D Perturbations → Coupled Firmament-Waters Oscillations → Acoustic Peaks → CMB Power Spectrum
 2. **Perturbation Theory**: Expansion g_AB = ḡ_AB + h_AB around the 6D background solution
 3. **Coupling Mechanism**: Firmament displacement modes couple to Waters Below density fluctuations through localized stress-energy
-4. **Acoustic Oscillations**: Baryonic perturbations as membrane displacement; dark matter as Waters Below density modes; dark energy as constant background
+4. **Acoustic Oscillations**: Baryonic perturbations as Firmament membrane displacement; dark matter as Waters Below density modes; dark energy as constant background
 5. **CMB Power Spectrum**: Multipole expansion with first acoustic peak at ℓ ≈ 220 from sound horizon
 6. **Spectral Index**: n_s ≈ 0.965 from Creation epoch primordial power spectrum
 7. **CMB Temperature**: T_CMB = 2.725 K from thermal equilibrium and adiabatic cooling
@@ -59,7 +59,7 @@ where:
 - $A(\xi,\eta)$ = warp factor controlling 4D metric projection
 - $B(\xi,\eta)$ = extra-dimensional breathing mode
 - $a(t)$ = FLRW scale factor in 4D Firmament coordinates
-- $(t, x, y, z)$ = 4D spacetime coordinates on the Firmament brane
+- $(t, x, y, z)$ = 4D spacetime coordinates on the Firmament
 - $(\xi, \eta)$ = extra-dimensional coordinates (Waters Above and Waters Below)
 
 **Dimensional analysis:**
@@ -84,7 +84,7 @@ where $|h_{AB}| \ll |\bar{g}_{AB}|$ are small perturbations.
 
 The metric components explicitly:
 
-**4D part (spacetime metric on brane):**
+**4D part (spacetime metric on Firmament):**
 $$g_{\mu\nu} = e^{2A} \left[ -\delta_0^\mu \delta_0^\nu + a^2(t) \delta_i^\mu \delta_i^\nu \right] + h_{\mu\nu}$$
 
 where $\mu, \nu = 0,1,2,3$ and $i=1,2,3$ (spatial indices).
@@ -134,7 +134,7 @@ $$\Psi_A(\mathbf{x}, \xi, \eta, t) = \bar{\Psi}_A(\xi, \eta) + \delta\Psi_A(\mat
 $$\rho_b(\mathbf{x}, t) = \bar{\rho}_b(t) + \delta\rho_b(\mathbf{x}, t)$$
 $$v_i(\mathbf{x}, t) = \delta v_i(\mathbf{x}, t) \quad \text{(bulk velocity perturbation)}$$
 
-The baryon density perturbation $\delta\rho_b$ encodes deviations from homogeneity on the brane.
+The baryon density perturbation $\delta\rho_b$ encodes deviations from homogeneity on the Firmament.
 
 ---
 
@@ -172,7 +172,7 @@ The linearized Einstein equation is:
 
 $$\boxed{\delta G_{\mu\nu} = 8\pi G_6 \delta T_{\mu\nu}}$$
 
-For scalar perturbations evolving on the Firmament brane, we obtain:
+For scalar perturbations evolving on the Firmament, we obtain:
 
 $$\boxed{\Box \phi + (3H + \frac{d\ln a}{dt})\dot{\phi} + \left(4\pi G_6 e^{2A(\xi_0,\eta_0)}\right) \delta\rho_{total} = 0}$$
 
@@ -186,16 +186,16 @@ where $H = \dot{a}/a$ is the Hubble parameter.
 
 ## Part III: Coupled Firmament-Waters Oscillations
 
-### 3.1 Baryonic Perturbations as Membrane Displacement
+### 3.1 Baryonic Perturbations as Firmament Displacement
 
-The Firmament brane is a 4D hypersurface embedded in 6D at fixed $(\xi_0, \eta_0)$. The baryonic density perturbation $\delta\rho_b$ is related to baryonic fluid displacement through:
+The Firmament is a 4D hypersurface embedded in 6D at fixed $(\xi_0, \eta_0)$. The baryonic density perturbation $\delta\rho_b$ is related to baryonic fluid displacement through:
 
 $$\frac{\partial \delta\rho_b}{\partial t} = -\bar{\rho}_b \nabla \cdot \mathbf{v}_b$$
 
 Integrating:
 $$\delta\rho_b(\mathbf{x}, t) = -\bar{\rho}_b \nabla \cdot \delta \mathbf{x}_b(t)$$
 
-Thus **baryon perturbations are described by membrane displacement modes** of the Firmament.
+Thus **baryon perturbations are described by Firmament membrane displacement modes** of the Firmament.
 
 ### 3.2 Waters Below Perturbations: Density Oscillations
 
@@ -211,7 +211,7 @@ The interaction between baryonic and dark matter perturbations arises through:
 
 1. **Gravitational coupling** via the Einstein equations
 2. **Direct scalar field interaction** through the coupling term $G_{\text{int}} \Psi_A \Psi_B$ in the action
-3. **Localization constraint** at the brane connecting bulk fields to brane-localized fields
+3. **Localization constraint** at the Firmament connecting bulk fields to Firmament-localized fields
 
 ### 3.4 Coupled Oscillator System
 
@@ -419,7 +419,7 @@ where $\ell_d \sim 1000$ for Planck parameters.
 
 In Genesis Physics, Silk damping arises from dissipative properties of the Firmament membrane:
 
-The Firmament is a 4D brane embedded in 6D. As baryon density perturbations oscillate on the brane, coupling to extra-dimensional fields (Waters Above, Waters Below) leads to energy dissipation.
+The Firmament is a 4D Firmament embedded in 6D. As baryon density perturbations oscillate on the Firmament, coupling to extra-dimensional fields (Waters Above, Waters Below) leads to energy dissipation.
 
 The effective membrane viscosity is:
 
@@ -731,7 +731,7 @@ Genesis Physics predictions agree with observations at percent level:
 
 ### 12.1 Firmament as Acoustic Resonator
 
-Genesis Physics interprets the Firmament brane as an acoustic resonator embedded in 6D bulk. Density perturbations excite coupled oscillations with Waters Below and Waters Above, imprinted during Creation epoch (Days 1-2) when Hubble friction was enormous and expansion nearly exponential.
+Genesis Physics interprets the Firmament as an acoustic resonator embedded in 6D bulk. Density perturbations excite coupled oscillations with Waters Below and Waters Above, imprinted during Creation epoch (Days 1-2) when Hubble friction was enormous and expansion nearly exponential.
 
 As the universe cooled and transitioned to sustaining-mode expansion (Days 4-6 onward), the acoustic oscillation scale became fixed in comoving coordinates at $r_s \approx 144$ Mpc.
 

@@ -27,7 +27,7 @@ Genesis Physics derives the complete cosmic expansion history from the **6D grav
 1. **KK reduction** of 6D Einstein-Hilbert action → 4D Einstein equations
 2. **Waters Above** (Ψ_A): dark energy with w = -1, Ω_Λ = 0.684
 3. **Waters Below** (Ψ_B): dark matter with w ≈ 0, Ω_DM = 0.266
-4. **Firmament brane** matter: Ω_b = 0.049
+4. **Firmament** matter: Ω_b = 0.049
 5. **Sabbath Boundary**: metric discontinuity from H_creation ~ 3×10¹⁴ H₀ to sustaining H₀
 6. **Sustaining coupling** κ: Phase 3 entropy increase drives cosmic acceleration
 
@@ -55,7 +55,7 @@ where:
 
 **Zone Architecture**:
 - **Waters Above** (ξ > ξ₀): dark energy carrier region
-- **Firmament** (ξ = ξ₀, η = η₀): 4D brane hosting our universe
+- **Firmament** (ξ = ξ₀, η = η₀): 4D Firmament hosting our universe
 - **Waters Below** (η > η₀): dark matter confinement region
 - **Zone 1**: Creator region (boundary source for κ)
 
@@ -126,7 +126,7 @@ Stress-energy: $\rho_A = \frac{1}{2}\dot{\Psi}_A^2 + V_A$, $P_A = \frac{1}{2}\do
 
 $$\rho_A = V_A = \Lambda_A \quad \Rightarrow \quad \boxed{w_A = P_A/\rho_A = -1}$$
 
-**Physical origin from 6D**: Waters Above fills the ξ-direction. Its potential energy density, projected onto 4D brane via KK reduction, appears as dark energy with w = -1.
+**Physical origin from 6D**: Waters Above fills the ξ-direction. Its potential energy density, projected onto 4D Firmament via KK reduction, appears as dark energy with w = -1.
 
 **Observational value**: $\Omega_\Lambda = 0.684$
 
@@ -197,7 +197,7 @@ $$V_{\text{extra}} = V_\xi V_\eta \approx 1.3 \times 10^{30} \, \text{m}^2$$
 
 ### 3.2 Numerical Value of G₄
 
-Using $G_6 = \hbar c / M_6^2$ with M₆ derived from brane mechanics:
+Using $G_6 = \hbar c / M_6^2$ with M₆ derived from Firmament mechanics:
 
 $$\boxed{G_4^{\text{theory}} = 6.67 \times 10^{-11} \, \text{m}^3 \text{kg}^{-1} \text{s}^{-2}}$$
 
@@ -606,7 +606,7 @@ Starting from the 6D Einstein-Hilbert action with FRW metric, we derive the Frie
 **6D Einstein equations**:
 $$G_{AB}^{(6)} = \frac{1}{M_6^2}(T_{AB}^{\text{grav}} + T_{AB}^{\text{waters}} + T_{AB}^{\text{matter}})$$
 
-**Projection onto 4D brane** (taking the t-t component):
+**Projection onto 4D Firmament** (taking the t-t component):
 $$G_{tt}^{(6)} = -3\frac{\ddot{a}}{a} - 3\left(\frac{\dot{a}}{a}\right)^2 + \text{extra-dim terms}$$
 
 **KK integration** (integrating over ξ and η):

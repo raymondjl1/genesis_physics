@@ -39,7 +39,7 @@ You enforce every mechanical rule defined in the Series Bible and voice standard
    - Subsequent: English term or italicized transliteration
    - Final aleph as apostrophe: raqia' (NOT raqia)
 
-4. **Firmament terminology:** Primary term is "The Firmament." Acceptable: "The Firmament membrane" in technical contexts. NEVER: "dome," "vault," "sky," "brane," "the membrane" alone, "the expanse" alone.
+4. **Firmament terminology:** Primary term is "The Firmament." Acceptable: "The Firmament membrane" in technical contexts; **"Firmament Domain" (two words, capitalized) for the full Zone 2.2 region** (distinct from the Firmament membrane Z₂.₂.₂); **"3-brane"** preserved verbatim as string-theory loanword in technical geometric nomenclature. NEVER: "dome," "vault," "sky," "brane" standalone (other than `3-brane`), "the membrane" alone, "the expanse" alone.
 
 5. **Waters terminology — mandatory pairing:** In technical contexts, ALWAYS pair on first mention per section:
    - "Dark energy (Waters Above, ~68%)" or "Waters Above (dark energy, ~68%)"

@@ -242,7 +242,7 @@ python3 waters_field_sim.py
 
 **Purpose.** Computes the eigenfrequency spectrum of the firmament membrane using sparse-matrix diagonalization via SciPy's ARPACK wrapper. Each eigenfrequency $\omega_n$ maps to a particle mass $m_n = \hbar \omega_n / c^2$.
 
-**Vol 6 chapter validated.** Chapter 7 (membrane vibration spectra, particle-mass predictions). Results appear in Ch 7 Tables 7.1–7.3 and Figs 7.1–7.4.
+**Vol 6 chapter validated.** Chapter 7 (Firmament membrane vibration spectra, particle-mass predictions). Results appear in Ch 7 Tables 7.1–7.3 and Figs 7.1–7.4.
 
 **Exact command:**
 
@@ -258,7 +258,7 @@ python3 membrane_vibrations.py
 | File | Size | Content |
 |:---|:---:|:---|
 | `spectrum_1d_string.png` | ~120 KB | 1-D mode spectrum: $\omega_n$ and $m_n$ versus mode number |
-| `spectrum_circular.png` | ~130 KB | Circular membrane modes indexed by $(n, m)$ |
+| `spectrum_circular.png` | ~130 KB | Circular Firmament membrane modes indexed by $(n, m)$ |
 | `spectrum_vs_particles.png` | ~150 KB | Predicted masses overlaid with electron, muon, Higgs |
 | `spectrum_comparison.png` | ~100 KB | Analytical $\omega_n = n\pi v / L$ versus numerical eigenvalues |
 
@@ -315,7 +315,7 @@ python3 structure_formation.py
 
 ### B.4.4  `energy_harvesting_simulation.html`
 
-**Purpose.** An interactive browser-based visualization of the energy-extraction concept from the firmament membrane. Demonstrates how varying membrane tension and coupling parameters modify the energy density response in the regime where a hypothetical membrane-resonance generator (MRG; technology concept T-NRG-01, Appendix F) would operate.
+**Purpose.** An interactive browser-based visualization of the energy-extraction concept from the firmament membrane. Demonstrates how varying Firmament tension and coupling parameters modify the energy density response in the regime where a hypothetical membrane-resonance generator (MRG; technology concept T-NRG-01, Appendix F) would operate.
 
 **Vol 6 chapter validated.** Chapter 10, §10.6 (energy-extraction applications of zone architecture). This is the illustrative component for the T-NRG-01 technology entry in Appendix F.
 
@@ -334,7 +334,7 @@ start Research\Simulations\energy_harvesting_simulation.html
 # or just double-click it in the file manager
 ```
 
-**Expected runtime.** Interactive — the visualization is real-time, driven by user input on sliders for membrane tension, coupling strength, and observation window.
+**Expected runtime.** Interactive — the visualization is real-time, driven by user input on sliders for Firmament tension, coupling strength, and observation window.
 
 **Expected output files.** None. The visualization is ephemeral; no files are written. Screenshots can be saved manually through the browser.
 

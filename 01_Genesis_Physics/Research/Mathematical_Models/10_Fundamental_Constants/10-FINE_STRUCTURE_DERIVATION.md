@@ -141,7 +141,7 @@ where α is determined by boundary conditions and normalization.
 
 For **Waters Below** where B(η) = B₀ - (γ/2)η (linear warp):
 
-The potential is constant. The zero-mode is approximately constant, or oscillatory, depending on the potential at the brane.
+The potential is constant. The zero-mode is approximately constant, or oscillatory, depending on the potential at the Firmament.
 
 ### 3.3 Normalization Convention
 

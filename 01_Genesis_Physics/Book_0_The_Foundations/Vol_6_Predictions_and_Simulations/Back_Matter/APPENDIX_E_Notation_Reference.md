@@ -23,7 +23,7 @@ This is the complete-series reference. The canonical source for core membrane, z
 
 The **compact form**, used in quick-reference blocks and the constants table (E.8), trims the locator columns where a symbol is series-wide. "First Appears" is the volume and chapter where the symbol is introduced with its current meaning (not necessarily its first informal mention). "Used In" lists every volume that references the symbol substantively. "Related" names the nearest neighbor symbols the reader should consult for context.
 
-**Reading conventions.** Where a symbol has different conventional meanings in different sub-disciplines (e.g., `σ` is membrane tension in Vol 1 but Pauli-matrix index in Vol 4), both senses are listed and disambiguated by the volume tag in the "First Appears" column. Where a symbol appears with a subscript that changes its meaning (e.g., `κ_full` vs. `κ_partial`), each variant has its own row. Where the series uses a symbol in a way that conflicts with ordinary physics convention (rare, but it happens — see `κ` for sustaining-field power density, not second-law spring-constant), the nonstandard use is flagged with a ⚠ marker in the Definition column.
+**Reading conventions.** Where a symbol has different conventional meanings in different sub-disciplines (e.g., `σ` is Firmament tension in Vol 1 but Pauli-matrix index in Vol 4), both senses are listed and disambiguated by the volume tag in the "First Appears" column. Where a symbol appears with a subscript that changes its meaning (e.g., `κ_full` vs. `κ_partial`), each variant has its own row. Where the series uses a symbol in a way that conflicts with ordinary physics convention (rare, but it happens — see `κ` for sustaining-field power density, not second-law spring-constant), the nonstandard use is flagged with a ⚠ marker in the Definition column.
 
 **How to extend Appendix E.** When a new chapter introduces a symbol, the chapter author is responsible for (a) checking whether the symbol already exists here, (b) if it does, using it exactly as defined, (c) if it does not, proposing an Appendix E row. The Consistency Auditor reviews the proposed row before the chapter is finalized.
 
@@ -41,17 +41,17 @@ Alphabetical, lowercase first, then uppercase. Entries for which the symbol is a
 | `a_e` | Electron anomalous magnetic moment | Dimensionless; $(g_e-2)/2$, computed perturbatively from zone-derived QED | 4.Ch 7 | V4, V6 | `g_e`, `α` |
 | `a_μ` | Muon anomalous magnetic moment | Dimensionless | 4.Ch 7 | V4, V6 | `a_e`, `α` |
 | `b_eff`, `b_hi` | One- and two-loop coefficients in α derivation | Dimensionless | 5.Ch 13 | V5, V6 | `α`, `ξ_A`, `η_B` |
-| `c` | Speed of light | 2.998 × 10⁸ m/s; derived as `c = √(σ/μ)` from membrane mechanics | 1.Ch 5 | All vols | `σ`, `μ`, `c_local` |
+| `c` | Speed of light | 2.998 × 10⁸ m/s; derived as `c = √(σ/μ)` from Firmament membrane mechanics | 1.Ch 5 | All vols | `σ`, `μ`, `c_local` |
 | `c_local` | Position-dependent local `c` | `c²_local = c₀²(1 + εR/(c₀²ρ_c))`; zone-architecture correction to classical GR constancy | 6.Ch 9 | V6 | `c`, `R` (Ricci), `ρ_c` |
 | `d` | Gap width (Casimir, MRG) | m; boundary separation in dynamic-Casimir and MRG contexts | 4.Ch 9 | V4, V6 | `F/A`, `κ(f,f_n)` |
-| `e` | Elementary charge | 1.602 × 10⁻¹⁹ C; emerges from brane U(1) topology | 2.Ch 6 | V2, V4, V6 | `α`, `Q` |
+| `e` | Elementary charge | 1.602 × 10⁻¹⁹ C; emerges from Firmament U(1) topology | 2.Ch 6 | V2, V4, V6 | `α`, `Q` |
 | `f` | Frequency | Hz; generic frequency variable | 1.Ch 5 | All vols | `ω`, `f_n`, `f_1` |
-| `f_n` | nth resonant mode frequency | Hz; membrane vibration eigenfrequencies | 1.Ch 5 | V1, V6 | `f_1`, `ω_n` |
+| `f_n` | nth resonant mode frequency | Hz; Firmament membrane vibration eigenfrequencies | 1.Ch 5 | V1, V6 | `f_1`, `ω_n` |
 | `g` | Weak gauge coupling | Dimensionless; SU(2) coupling in electroweak sector | 4.Ch 11 | V4, V6 | `g'`, `M_W`, `v` |
 | `g'` | Hypercharge gauge coupling | Dimensionless; U(1)_Y coupling | 4.Ch 11 | V4, V6 | `g`, `θ_W` |
 | `g_e` | Electron g-factor | Dimensionless; `g_e ≈ 2.002319...` (zone-derived perturbatively) | 4.Ch 7 | V4, V6 | `a_e` |
-| `g_μν` | Metric tensor | Dimensionless (coordinate-dependent); 4D-brane or 6D-bulk depending on context | 1.Ch 4 | All vols | `η_μν`, `R_μν` |
-| `h` | Planck constant | 6.626 × 10⁻³⁴ J·s; derived from brane boundary quantization | 4.Ch 1 | V4, V5, V6 | `ℏ`, `m_P` |
+| `g_μν` | Metric tensor | Dimensionless (coordinate-dependent); 4D-Firmament or 6D-bulk depending on context | 1.Ch 4 | All vols | `η_μν`, `R_μν` |
+| `h` | Planck constant | 6.626 × 10⁻³⁴ J·s; derived from Firmament boundary quantization | 4.Ch 1 | V4, V5, V6 | `ℏ`, `m_P` |
 | `h_+, h_×` | Tensor GW polarizations | Dimensionless strain amplitudes | 5.Ch 3 | V5, V6 | `h_S, h_L, h_V1, h_V2` |
 | `h_S, h_L` | Scalar-breathing, longitudinal-scalar GW modes | Dimensionless strain; **novel in 6D zone theory** | 5.Ch 3 | V5, V6 | `h_+`, `h_V1,V2` |
 | `h_V1, h_V2` | Vector GW polarization modes | Dimensionless strain; 6D-theory signatures | 5.Ch 3 | V5, V6 | `h_+`, `h_S` |
@@ -166,7 +166,7 @@ Alphabetical by Greek-alphabet name: α (alpha), β (beta), γ (gamma), δ (delt
 | `ζ` | Riemann zeta argument (thermodynamic calculations), generic | Dimensionless | 3.Ch 10 | V3 | — |
 | `η` | Efficiency, or compact-dimension coordinate, or Minkowski metric (context) | Dimensionless or m | 1.Ch 4 | All vols | `η_B`, `η_μν` |
 | `η_B` | Waters Below extent (nuclear/QCD boundary) | 1.3 × 10⁻¹⁵ m | 1.Ch 6 | V1, V4, V5, V6 | `ξ_A`, `α`, `n_η` |
-| `η_μν` | Minkowski metric (flat spacetime) | Dimensionless; signature `(+,−,−,−)` on brane | 1.Ch 4 | All vols | `g_μν` |
+| `η_μν` | Minkowski metric (flat spacetime) | Dimensionless; signature `(+,−,−,−)` on Firmament | 1.Ch 4 | All vols | `g_μν` |
 | `η_sail, η_harvest, η_osc` | Subscripted extraction-efficiency factors | Dimensionless | 6.Ch 10 | V6 | `η` |
 | `θ_W` | Weinberg (weak mixing) angle | Radians; `sin²θ_W ≈ 0.23122` | 4.Ch 11 | V4, V6 | `g`, `g'`, `M_W, M_Z` |
 | `Θ` | Heaviside step function, or general angle (context) | Dimensionless | 1.Ch 10 | V1, V3 | `δ`, `θ` |
@@ -197,7 +197,7 @@ Alphabetical by Greek-alphabet name: α (alpha), β (beta), γ (gamma), δ (delt
 | `ρ_Λ, ρ_vac` | Cosmological-constant / vacuum-energy density | GeV⁴ or kg/m³; `~10⁻⁴⁷ GeV⁴` | 5.Ch 11 | V5, V6 | `Λ`, `Ω_Λ` |
 | `σ` | Membrane 3-brane tension | 6.0 × 10⁹⁸ kg·m⁻¹·s⁻² ⚠ nonstandard use (not cross-section) | 1.Ch 5 | V1, V2, V5, V6 | `μ`, `c`, `E_binding` |
 | `σ_DM-SM` | Dark-matter / Standard-Model cross-section | cm²; zone-architecture predicts exactly 0 | 5.Ch 11 | V5, V6 | `Ψ_B` |
-| `σ_redeem` | Redemption-phase brane tension (speculative) | kg·m⁻¹·s⁻² | 1.Ch 11 | V1 | `σ`, `κ_redeem` |
+| `σ_redeem` | Redemption-phase Firmament tension (speculative) | kg·m⁻¹·s⁻² | 1.Ch 11 | V1 | `σ`, `κ_redeem` |
 | `σ_SB` | Stefan-Boltzmann constant | 5.670 × 10⁻⁸ W·m⁻²·K⁻⁴ | 3.Ch 10 | V3, V6 | `T`, `j` |
 | `τ` | Proper time or lifetime (context) | s | 5.Ch 2 | V5, V6 | `t`, `τ_DM`, `τ_p` |
 | `τ_couple` | Waters–Firmament coupling oscillation timescale | s; `~ 2ξ_A/c ~ 60 Gyr` | 5.Ch 11 | V5, V6 | `ξ_A`, `c` |
@@ -225,10 +225,10 @@ Operators are in order of frequency of appearance across the series. The table b
 
 | Symbol | Name | Meaning in Genesis Physics | Used In |
 |--------|------|-----------------------------|---------|
-| `∂_μ` | Partial derivative with respect to coordinate `x^μ` | Standard; `μ ∈ {0,1,2,3}` on brane, `{0,1,2,3,4,5}` on 6D bulk | V1, V2, V4, V5 |
+| `∂_μ` | Partial derivative with respect to coordinate `x^μ` | Standard; `μ ∈ {0,1,2,3}` on Firmament, `{0,1,2,3,4,5}` on 6D bulk | V1, V2, V4, V5 |
 | `∇` | Spatial gradient (3-vector) or covariant derivative (context) | 3-vector gradient in classical contexts; full `∇_μ` (covariant) in GR contexts | V1–V6 |
 | `∇_μ` | Covariant derivative | Uses Christoffel symbols of `g_μν` | V5 |
-| `□` | D'Alembertian operator | `∂_μ∂^μ = (1/c²)∂²/∂t² − ∇²` on flat brane; `∇_μ∇^μ` on curved spacetime | V2, V4, V5 |
+| `□` | D'Alembertian operator | `∂_μ∂^μ = (1/c²)∂²/∂t² − ∇²` on flat Firmament; `∇_μ∇^μ` on curved spacetime | V2, V4, V5 |
 | `⊗` | Tensor product | Standard; used for state spaces in V4 and product manifolds in V1 | V1, V4 |
 | `⊕` | Direct sum | Used for zone decompositions `Z = Z_Above ⊕ Z_Below ⊕ Firmament`-like splittings | V1, V4 |
 | `≡` | Defined as / identically equal | Used for definitions (not equations that could fail) | All vols |
@@ -255,19 +255,19 @@ Operators are in order of frequency of appearance across the series. The table b
 
 These conventions hold across the entire series. Any chapter deviating from them is in error.
 
-**Index placement and summation.** Einstein summation is implicit: repeated indices, one up and one down, are summed over their range. Upper (contravariant) indices raise; lower (covariant) indices lower. For vectors: `V^μ` is contravariant, `V_μ` is covariant, `V_μ = g_μν V^ν`. Indices are raised and lowered *only* with the metric tensor `g_μν` (brane) or the 6D metric `g_MN` (bulk). In flat-space contexts, `η_μν` substitutes for `g_μν`.
+**Index placement and summation.** Einstein summation is implicit: repeated indices, one up and one down, are summed over their range. Upper (contravariant) indices raise; lower (covariant) indices lower. For vectors: `V^μ` is contravariant, `V_μ` is covariant, `V_μ = g_μν V^ν`. Indices are raised and lowered *only* with the metric tensor `g_μν` (Firmament) or the 6D metric `g_MN` (bulk). In flat-space contexts, `η_μν` substitutes for `g_μν`.
 
-**Index ranges.** Greek indices (`μ, ν, ρ, σ, ...`) range over spacetime on the 4D brane: `0, 1, 2, 3`, with `0 = ct` and `1, 2, 3 = x, y, z`. Capital-Latin indices (`M, N, P, Q, ...`) range over the full 6D bulk: `0, 1, 2, 3, 4, 5`, with `4 = ξ` and `5 = η`. Lower-Latin indices (`i, j, k, ...`) range over the spatial three-submanifold: `1, 2, 3`. Hatted indices (`μ̂, ν̂, ...`) denote tangent-frame (locally inertial) components rather than coordinate components.
+**Index ranges.** Greek indices (`μ, ν, ρ, σ, ...`) range over spacetime on the 4D Firmament: `0, 1, 2, 3`, with `0 = ct` and `1, 2, 3 = x, y, z`. Capital-Latin indices (`M, N, P, Q, ...`) range over the full 6D bulk: `0, 1, 2, 3, 4, 5`, with `4 = ξ` and `5 = η`. Lower-Latin indices (`i, j, k, ...`) range over the spatial three-submanifold: `1, 2, 3`. Hatted indices (`μ̂, ν̂, ...`) denote tangent-frame (locally inertial) components rather than coordinate components.
 
-**Metric signature.** The 4D brane uses signature `(+, −, −, −)`, so that proper time obeys `dτ² = g_μν dx^μ dx^ν` with the timelike coordinate carrying the positive sign. The 6D bulk extends this to `(+, −, −, −, −, −)` — one timelike and five spacelike directions. This is the convention fixed in Axiom 5 (equation 1.1.5) and the 6D embedding metric (equation 1.4.1). Any chapter using the opposite signature `(−, +, +, +)` is in error and must be corrected.
+**Metric signature.** The 4D Firmament uses signature `(+, −, −, −)`, so that proper time obeys `dτ² = g_μν dx^μ dx^ν` with the timelike coordinate carrying the positive sign. The 6D bulk extends this to `(+, −, −, −, −, −)` — one timelike and five spacelike directions. This is the convention fixed in Axiom 5 (equation 1.1.5) and the 6D embedding metric (equation 1.4.1). Any chapter using the opposite signature `(−, +, +, +)` is in error and must be corrected.
 
 **Symmetry and antisymmetry.** Round brackets denote symmetrization: `T_(μν) = ½(T_μν + T_νμ)`. Square brackets denote antisymmetrization: `T_[μν] = ½(T_μν − T_νμ)`. Parentheses and brackets around indices obey the standard normalization factor of `1/n!` for `n` indices.
 
 **Levi-Civita tensor.** In 4D, `ε^{μνρσ}` is the fully antisymmetric rank-4 tensor with `ε^{0123} = +1` in a right-handed coordinate system. In 6D, `ε^{MNPQRS}` is the rank-6 analog. The tensor densities differ from the symbols by factors of `√|g|`; the series uses *tensors* (normalized), and distinguishes them from the underlying Levi-Civita *symbols* only when ambiguity arises.
 
-**Hodge duality.** Used extensively in V2 for electromagnetism (`★F = F̃` with `F̃_{μν} = ½ε_{μνρσ}F^{ρσ}`) and in V5 for brane-volume forms.
+**Hodge duality.** Used extensively in V2 for electromagnetism (`★F = F̃` with `F̃_{μν} = ½ε_{μνρσ}F^{ρσ}`) and in V5 for Firmament-volume forms.
 
-**Brane-bulk projections.** A quantity living in the 6D bulk is decomposed via the induced metric `h_μν = g_μν − n_μn_ν`, where `n^μ` is the unit normal to the brane. Projections onto the brane use `h^μ_ν`; projections into the bulk use `n^μ`.
+**Brane-bulk projections.** A quantity living in the 6D bulk is decomposed via the induced metric `h_μν = g_μν − n_μn_ν`, where `n^μ` is the unit normal to the Firmament. Projections onto the Firmament use `h^μ_ν`; projections into the bulk use `n^μ`.
 
 ---
 
@@ -327,7 +327,7 @@ Simplified labels (`Zone 1` through `Zone 4`) are permitted only in Book 2 conte
 | `[K_ij]` | Israel junction-condition discontinuity | m⁻¹ | 1.Ch 5 |
 | `Ψ_A` | Waters Above field | Field amplitude | 1.Ch 6 |
 | `Ψ_B` | Waters Below field | Field amplitude | 1.Ch 6 |
-| `σ, μ` | Membrane tension and density | See E.3 | 1.Ch 5 |
+| `σ, μ` | Firmament tension and density | See E.3 | 1.Ch 5 |
 
 **Boundary scales.**
 
@@ -357,7 +357,7 @@ Complete table of physical constants used anywhere in the series, with the zone-
 
 | Constant | Symbol | Value | Units | Zone-Architecture Source | First Appears |
 |----------|--------|-------|-------|---------------------------|-----------------|
-| Speed of light | `c` | 2.998 × 10⁸ | m/s | `√(σ/μ)` from membrane mechanics | 1.Ch 5 |
+| Speed of light | `c` | 2.998 × 10⁸ | m/s | `√(σ/μ)` from Firmament membrane mechanics | 1.Ch 5 |
 | Gravitational constant | `G` | 6.674 × 10⁻¹¹ | m³·kg⁻¹·s⁻² | `c⁴/(8πσ·L_eff²)` from 6D reduction | 2.Ch 9 |
 | Planck constant | `h` | 6.626 × 10⁻³⁴ | J·s | Brane-boundary quantization | 4.Ch 1 |
 | Reduced Planck constant | `ℏ` | 1.055 × 10⁻³⁴ | J·s | `h/(2π)` | 4.Ch 1 |
@@ -392,7 +392,7 @@ Complete table of physical constants used anywhere in the series, with the zone-
 | Planck time | `t_P` | 5.39 × 10⁻⁴⁴ | s | `ℓ_P/c` | 4.Ch 9 |
 | Planck mass | `m_P` | 2.18 × 10⁻⁸ | kg | `√(ℏc/G)` | 4.Ch 9 |
 | Planck temperature | `T_P` | 1.417 × 10³² | K | `m_Pc²/k_B` | 4.Ch 9 |
-| Membrane tension | `σ` | 6.0 × 10⁹⁸ | kg·m⁻¹·s⁻² | Fundamental creation parameter | 1.Ch 5 |
+| Firmament tension | `σ` | 6.0 × 10⁹⁸ | kg·m⁻¹·s⁻² | Fundamental creation parameter | 1.Ch 5 |
 | Membrane density | `μ` | 6.7 × 10⁸¹ | kg/m³ | Fundamental creation parameter | 1.Ch 5 |
 | 6D coupling length | `L_eff` | 8.96 × 10⁻²⁹ | m | 6D → 4D reduction | 1.Ch 4 |
 | Waters Above extent | `ξ_A` | ~3 × 10²⁶ | m | Hubble-scale boundary | 1.Ch 6 |
@@ -415,7 +415,7 @@ Every testable prediction in Vol 6 carries a permanent identifier of the form `P
 | Structural | 7 | P-031, P-032, P-033, P-034, P-050, P-051, P-081 | Conservation laws, zone topology, aufbau, bonding |
 | Couplings | 7 | P-004, P-005, P-006, P-056, P-057, P-058, P-065 | α, α_s, α_em/α_G, sin²θ_W, α-constancy |
 | Particle | 21 | P-014–P-023, P-052–P-055, P-066, P-067, P-071, P-072, P-074, P-075, P-080 | W/Z/Higgs, leptons, quarks, neutrinos, CKM, jets |
-| GR | 14 | P-007–P-013, P-059, P-060, P-068–P-070, P-100, P-101 | Classical GR tests, GW, KK modes, brane c |
+| GR | 14 | P-007–P-013, P-059, P-060, P-068–P-070, P-100, P-101 | Classical GR tests, GW, KK modes, Firmament c |
 | Cosmology | 17 | P-024–P-030, P-061–P-064, P-073, P-076–P-079, P-082 | DE/DM, H₀, age, Ω's, Λ, rotation curves, Waters power spectrum |
 | QM | 4 | P-046, P-047, P-048, P-049 | Photoelectric, Compton, BEC, Casimir |
 | EM | 6 | P-040–P-045 | Maxwell, c-from-metric, charge quantization, EM spectrum, BCS T_c, Meissner |
@@ -437,7 +437,7 @@ The sum (7+7+21+14+17+4+6+3+3+2+14+18+19+18 = 153) matches the master-table row 
 - **T-FTL-03** Zone Tunneling
 - **T-FTL-04** Field Distortion / Warp Bubble
 - **T-FTL-05** Consciousness Interface
-- **T-NRG-01** Membrane Resonance Generator (MRG)
+- **T-NRG-01** Firmament Resonance Generator (MRG)
 - **T-NRG-02** Waters Above Expansion Sail
 - **T-NRG-03** Dynamic Casimir Array
 - **T-NRG-04** Zone-Boundary Latent-Heat Extraction
@@ -445,7 +445,7 @@ The sum (7+7+21+14+17+4+6+3+3+2+14+18+19+18 = 153) matches the master-table row 
 - **T-COM-02** Zone-Tunneling Channel
 - **T-COM-03** Waters-Field Modulation Channel
 - **T-COM-04** Consciousness-Interface Channel
-- **T-SNS-01** Membrane Vibration Interferometer (MVI)
+- **T-SNS-01** Firmament Vibration Interferometer (MVI)
 - **T-SNS-02** Atom-Interferometer Waters-Field Sensor
 - **T-SNS-03** Dark-Matter Imaging Aperture
 - **T-SNS-04** LIGO Retrofit for Extended GW Polarizations

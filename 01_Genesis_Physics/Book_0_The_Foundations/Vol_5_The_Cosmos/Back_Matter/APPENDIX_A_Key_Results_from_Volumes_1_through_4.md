@@ -2,7 +2,7 @@
 
 *Foundations Vol 5, The Cosmos — Back Matter*
 
-> "General relativity is the geometry of the Firmament projected into four dimensions; cosmology is the thermodynamics of the Waters projected onto an expanding brane. Every equation in this volume traces back to something that was already proven." — *Vol 5, Chapter 1*
+> "General relativity is the geometry of the Firmament projected into four dimensions; cosmology is the thermodynamics of the Waters projected onto an expanding Firmament. Every equation in this volume traces back to something that was already proven." — *Vol 5, Chapter 1*
 
 Volume 5 inherits more prior machinery than any other volume in the series. General relativity is derived from the 6D embedding theorem (Vol 1), gravitational waves from the linearized field equations (Vol 2), cosmological fluids from the Waters field equations (Vol 1) and fluid dynamics (Vol 3), and quantum corrections to black hole physics from the QFT formalism (Vol 4). Rather than restating derivations in the main text, this appendix catalogs the prior-volume results that Vol 5 actually uses.
 
@@ -33,7 +33,7 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
-| (1.3.4) | $Z = Z_{1.1} \cup Z_{2.1} \cup Z_{2.2} \cup Z_{3.1}$ | The zone manifold is the disjoint union of four zones connected across the Firmament. | Ch 5 (brane structure), Ch 6 (Hilbert-space factorization), Ch 7 (bulk continuation) |
+| (1.3.4) | $Z = Z_{1.1} \cup Z_{2.1} \cup Z_{2.2} \cup Z_{3.1}$ | The zone manifold is the disjoint union of four zones connected across the Firmament. | Ch 5 (Firmament structure), Ch 6 (Hilbert-space factorization), Ch 7 (bulk continuation) |
 | (1.3.12) | $\partial Z_{2.1} \cap \partial Z_{2.2} = \mathcal{F}$ | Zones 2.1 and 2.2 share the Firmament as their common boundary. | Ch 5, Ch 7 |
 | (1.3.18) | $\text{dist}_Z(p,q) \le \text{dist}_{\mathbb{R}^3}(p,q)$ | Zone-manifold metric can short-circuit the ambient 3D metric. | Ch 12 (starlight propagation pathways) |
 
@@ -41,7 +41,7 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
-| **(1.4.7)** | $\boxed{g_{AB} = \mathrm{diag}(-1,+1,+1,+1,h_{55},h_{66})}$ | 6D metric ansatz: two extra dimensions $\xi, \eta$ bound the Waters. | Ch 1 (EFE derivation), Ch 5 (brane), Ch 7 (singularity resolution), Ch 8 (cosmology) |
+| **(1.4.7)** | $\boxed{g_{AB} = \mathrm{diag}(-1,+1,+1,+1,h_{55},h_{66})}$ | 6D metric ansatz: two extra dimensions $\xi, \eta$ bound the Waters. | Ch 1 (EFE derivation), Ch 5 (Firmament), Ch 7 (singularity resolution), Ch 8 (cosmology) |
 | (1.4.22) | $\xi \in [0,\xi_A]$, $\eta \in [0,\eta_B]$ | Extra dimensions are **bounded**: $\xi_A \approx 3 \times 10^{26}$ m, $\eta_B \approx 1.3 \times 10^{-15}$ m. | Ch 1, Ch 8, Ch 13 (scale ratio → fine structure), Ch 14, Ch 15 |
 | (1.4.31) | Warp factor $e^{-k|\xi|}$ | Exponential warping localizes mass/energy scales. | Ch 1, Ch 8, Ch 14 |
 
@@ -49,8 +49,8 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
-| **(1.5.1)** | $\boxed{\square \Phi + \frac{\sigma}{\mu}\,\Phi_{\xi\xi} = 0}$ | The Firmament wave equation — master equation from which all dynamics follow. | Ch 3 (GW generation), Ch 5 (membrane dynamics near BH), Ch 6, Ch 15 |
-| **(1.5.8)** | $\boxed{c = \sqrt{\sigma/\mu}}$ | Speed of light from membrane tension over mass density. **Derived, not postulated.** | Ch 1, Ch 3, Ch 5, Ch 13, Ch 15 |
+| **(1.5.1)** | $\boxed{\square \Phi + \frac{\sigma}{\mu}\,\Phi_{\xi\xi} = 0}$ | The Firmament wave equation — master equation from which all dynamics follow. | Ch 3 (GW generation), Ch 5 (Firmament membrane dynamics near BH), Ch 6, Ch 15 |
+| **(1.5.8)** | $\boxed{c = \sqrt{\sigma/\mu}}$ | Speed of light from Firmament tension over mass density. **Derived, not postulated.** | Ch 1, Ch 3, Ch 5, Ch 13, Ch 15 |
 | (1.5.12) | $\Phi(x,\xi) = \sum_n \phi_n(x)\chi_n(\xi)$ | Mode expansion — 4D fields $\phi_n$ labeled by extra-dimensional profiles $\chi_n$. | Ch 1 (KK reduction to 4D GR), Ch 13 (running couplings), Ch 15 |
 | (1.5.19) | Eigenvalue equation $-\chi_n'' = k_n^2\chi_n$ with BCs | Sturm–Liouville on compact domain → discrete spectrum. | Ch 15 (mode counting for k_B) |
 | (1.5.24) | $k_n = n\pi/\xi_A$, $m_n = \hbar k_n/c$ | Kaluza–Klein mass tower from discrete extra-dimensional modes. | Ch 13 (KK tower sums in gauge running) |
@@ -68,14 +68,14 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
-| (1.7.4) | $\nabla_\mu T^{\mu\nu} = 0$ | Energy-momentum conservation on the brane. | Ch 1 (Bianchi identity consistency), Ch 8, Ch 10 |
+| (1.7.4) | $\nabla_\mu T^{\mu\nu} = 0$ | Energy-momentum conservation on the Firmament. | Ch 1 (Bianchi identity consistency), Ch 8, Ch 10 |
 | (1.7.12) | Noether's theorem: symmetry → conserved current | Every continuous symmetry of the zone action gives a conservation law. | Ch 1, Ch 4 (Killing vectors), Ch 8 |
 
 ### A.2.6 — Chapter 10: Quantization from Boundary Conditions
 
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
-| **(1.10.1)** | Theorem 10.1 (Sturm–Liouville) | Discrete, real, complete eigenvalue spectrum from self-adjoint BCs on compact domain. | Ch 5 (membrane mode counting), Ch 6 (information preservation), Ch 15 (k_B) |
+| **(1.10.1)** | Theorem 10.1 (Sturm–Liouville) | Discrete, real, complete eigenvalue spectrum from self-adjoint BCs on compact domain. | Ch 5 (Firmament membrane mode counting), Ch 6 (information preservation), Ch 15 (k_B) |
 | (1.10.12) | $\hbar = \mu c \xi_A^2$ (schematic) | Planck's constant as geometric quantity. | Ch 13, Ch 15 (refined to $\hbar = \sigma\eta_B^3/(2c)$) |
 
 ### A.2.7 — Chapter 11: Thermodynamics from Pattern Statistics
@@ -179,7 +179,7 @@ Vol 4 supplies the QFT machinery needed for Hawking radiation, vacuum energy, an
 | Tag | Result | Gloss | Used in Vol 5 |
 |---|---|---|---|
 | (4.6.3) | Canonical quantization $[\hat\phi(\vec{x}),\hat\pi(\vec{y})] = i\hbar\delta^3(\vec{x}-\vec{y})$ | QFT commutation relations — needed for Bogoliubov transformation in Ch 6. | Ch 6 (Hawking radiation) |
-| (4.6.11) | $\hat\phi = \int \frac{d^3k}{(2\pi)^3\sqrt{2\omega_k}}(\hat{a}_k e^{ik\cdot x} + \hat{a}_k^\dagger e^{-ik\cdot x})$ | Mode expansion of quantum field. | Ch 6 (brane/bulk mode separation) |
+| (4.6.11) | $\hat\phi = \int \frac{d^3k}{(2\pi)^3\sqrt{2\omega_k}}(\hat{a}_k e^{ik\cdot x} + \hat{a}_k^\dagger e^{-ik\cdot x})$ | Mode expansion of quantum field. | Ch 6 (Firmament/bulk mode separation) |
 
 ### A.5.2 — Chapter 7: Feynman Diagrams and QED
 

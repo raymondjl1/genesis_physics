@@ -34,7 +34,7 @@ This is the "prove me wrong" volume. Every testable prediction collected, number
 | 4 | Falsification Criteria | What would kill the framework. No hedging. |
 | 5 | Simulation Methodology | Numerical methods. Code architecture. Convergence. |
 | 6 | N-Body Simulations with Zone Corrections | Galaxy formation. Cosmic web. Comparison with standard N-body. |
-| 7 | Membrane Vibration Spectra | Computational particle spectrum. Compared with analytical. |
+| 7 | Firmament Vibration Spectra | Computational particle spectrum. Compared with analytical. |
 | 8 | Reproducibility Package | GitHub repo. How to reproduce every result. |
 | 9 | FTL Travel | Five mechanisms. Causality proofs. Engineering predictions. |
 | 10 | Energy Harvesting | MRG design. Waters field extraction. Thermodynamic accounting. |
@@ -109,6 +109,6 @@ Three P1 issues have been addressed in a separate revision: Ch 6 title misnomer 
 | 2026-05-11 | Fix 6B | Ch 6, QUALITY_GATE | Added misnomer note for Ch 6 title "N-Body Simulations" — implementation uses linear perturbation theory, not N-body. Recommended title: "Large-Scale Structure Simulations" or "Perturbation Theory and Structure Formation." Non-blocking for current review purposes. | COMPLETE |
 | 2026-05-11 | Fix 6C | Chs 9, 11, 12, 13 | Added canonical cross-chapter note for Ψ_spirit. Ch 13 §13.3.3 already explicitly identifies Readings A/B/C and their provenance per chapter. Added pointer notes in Chs 9, 11, and 12 directing readers to Ch 13 §13.3.3 for the canonical treatment. Framework committed to Reading A as default (consistent with the series' quantum-mechanical treatment) while honestly acknowledging open status. | COMPLETE |
 
-**Fix 6A detail — Ch 3 prediction number range:** Predictions in Ch 3 are now P-089 through P-109 (previously P-068 through P-088). Ch 7 (Membrane Vibration Spectra) retains P-070 through P-075 unchanged. No collision remains.
+**Fix 6A detail — Ch 3 prediction number range:** Predictions in Ch 3 are now P-089 through P-109 (previously P-068 through P-088). Ch 7 (Firmament Vibration Spectra) retains P-070 through P-075 unchanged. No collision remains.
 
 **Fix 6B detail — Ch 6 title misnomer:** Chapter title "N-Body Simulations" is a misnomer — the implementation uses linear perturbation theory (growth factors, power spectra, halo mass functions via the Press-Schechter formalism), not particle-by-particle N-body integration. Title should be updated to "Large-Scale Structure Simulations" or "Perturbation Theory and Structure Formation" in the next draft revision. Non-blocking for current review purposes. Note added in Ch 6 draft header and here.

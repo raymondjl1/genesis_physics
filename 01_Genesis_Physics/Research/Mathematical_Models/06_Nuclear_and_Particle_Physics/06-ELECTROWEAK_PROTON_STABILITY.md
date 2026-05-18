@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Firmament (membrane) = separation of waters | Genesis 1:6-7 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
-> | Parent Theory | 6D Action + Axiom 3 (Membrane Mechanics) | 6D_Action.md / KK_Reduction.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
+> | Parent Theory | 6D Action + Axiom 3 (Firmament Mechanics) | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Electroweak symmetry breaking and proton stability from membrane confinement** | **ELECTROWEAK_AND_PROTON_STABILITY.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
 >
@@ -22,7 +22,7 @@
 
 ## Executive Summary
 
-This document derives the electroweak gauge structure, massive boson masses, and proton stability from first principles within the Genesis Physics 6D Membrane Theory. The membrane-confined Standard Model is extended to include the 6D bulk geometry, which naturally stabilizes the proton through topological charge conservation.
+This document derives the electroweak gauge structure, massive boson masses, and proton stability from first principles within the Genesis Physics 6D Membrane Theory. The Firmament-confined Standard Model is extended to include the 6D bulk geometry, which naturally stabilizes the proton through topological charge conservation.
 
 **Core Results:**
 - **Electroweak symmetry breaking:** $\text{SU}(2)_L \times \text{U}(1)_Y \to \text{U}(1)_{\text{EM}}$ via membrane Higgs mechanism
@@ -430,12 +430,12 @@ This value is predicted by the ratio of electroweak symmetry breaking parameters
 
 ## Conclusion
 
-The Genesis Physics 6D membrane framework naturally accommodates the electroweak standard model while providing enhanced proton stability through topological charge conservation in higher dimensions. The framework predicts:
+The Genesis Physics 6D Firmament framework naturally accommodates the electroweak standard model while providing enhanced proton stability through topological charge conservation in higher dimensions. The framework predicts:
 
 1. **Precise W and Z masses** through the Higgs mechanism applied to a 4D membrane
 2. **Correct Higgs coupling** for mass generation and decay branching ratios
 3. **Natural proton stability** with lifetime $\tau_p > 10^{34}$ years from 6D topological protection
-4. **Gauge coupling consistency** with the Weinberg angle determined by the membrane geometry
+4. **Gauge coupling consistency** with the Weinberg angle determined by the Firmament geometry
 
 All predictions are in excellent agreement with LHC measurements and precision electroweak data from LEP.
 

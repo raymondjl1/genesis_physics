@@ -1,5 +1,5 @@
 ﻿# Axiom 3 Corrections: Implementation Guide
-## Membrane Mechanics v1 → v2 (April 5, 2026)
+## Firmament Mechanics v1 → v2 (April 5, 2026)
 
 **Quick Start**: Use **AXIOM_MEMBRANE_MECHANICS_v2.md** as the authoritative source for all future work.
 
@@ -129,11 +129,11 @@ Step 4: Verify numerically
 
 ## Key Physics Insights from the Corrections
 
-### 1. The Membrane Tension σ Is Enormous
+### 1. The Firmament Tension σ Is Enormous
 ```
 σ ≈ 6.0 × 10⁹⁸ kg/(m·s²)
 
-This is extraordinarily large — makes the membrane incredibly stiff.
+This is extraordinarily large — makes the Firmament incredibly stiff.
 Result: Gravity is weak (bending costs huge energy).
 ```
 
@@ -147,13 +147,13 @@ Reason: The explicit factor σ (huge) in the denominator
          reduces the needed ℓ_eff to make gravity weak.
 ```
 
-### 3. Hierarchy Problem → Membrane Stiffness Problem
+### 3. Hierarchy Problem → Firmament Stiffness Problem
 ```
 Standard physics: Why is gravity 10³⁶ weaker than electromagnetism?
                   (Unsolved: "why" question)
 
-Genesis physics: Because the membrane tension σ is enormous.
-                 Electromagnetism = local membrane oscillation (easy)
+Genesis physics: Because the Firmament membrane tension σ is enormous.
+                 Electromagnetism = local Firmament membrane oscillation (easy)
                  Gravity = global membrane bending (hard, costs ∝ σ)
 ```
 

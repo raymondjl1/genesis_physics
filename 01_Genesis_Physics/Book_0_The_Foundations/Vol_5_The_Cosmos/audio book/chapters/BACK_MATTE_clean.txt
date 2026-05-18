@@ -98,7 +98,7 @@ Structure:
 - §B.8 Zone-architecture scale parameters — σ, μ, ξA, ηB, Vextra, ξA/η_B ratio
 - §B.9 Headline honesty table — every parameter this volume claims to derive or match, its status (DERIVED/CALIBRATED/INHERITED/OPEN), fractional error, and honest assessment
 
-Critical requirement: §B.3 must present every constant with the same formatting: (1) experimental value with CODATA/PDG uncertainty, (2) zone-architecture prediction with stated uncertainty, (3) fractional error = |pred − exp|/exp. The fine structure constant at 0.1% is the headline; ℏ and G are near-exact because the membrane parameters (σ, μ, ηB) were calibrated to reproduce them — this must be stated explicitly. kB is derived from mode-counting but its precision depends on the UV cutoff choice. No hiding behind precision that was put in by hand.
+Critical requirement: §B.3 must present every constant with the same formatting: (1) experimental value with CODATA/PDG uncertainty, (2) zone-architecture prediction with stated uncertainty, (3) fractional error = |pred − exp|/exp. The fine structure constant at 0.1% is the headline; ℏ and G are near-exact because the Firmament membrane parameters (σ, μ, ηB) were calibrated to reproduce them — this must be stated explicitly. kB is derived from mode-counting but its precision depends on the UV cutoff choice. No hiding behind precision that was put in by hand.
 
 Appendix C: Derivations of Fundamental Constants Summary Table.
 

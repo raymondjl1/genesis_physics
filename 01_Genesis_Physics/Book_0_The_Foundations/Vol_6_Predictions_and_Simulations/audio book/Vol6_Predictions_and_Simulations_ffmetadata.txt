@@ -44,7 +44,7 @@ title=Chapter 6: N-Body Simulations with Zone Corrections
 TIMEBASE=1/1000
 START=24862152
 END=28876488
-title=Chapter 7: Membrane Vibration Spectra
+title=Chapter 7: Firmament Vibration Spectra
 
 [CHAPTER]
 TIMEBASE=1/1000

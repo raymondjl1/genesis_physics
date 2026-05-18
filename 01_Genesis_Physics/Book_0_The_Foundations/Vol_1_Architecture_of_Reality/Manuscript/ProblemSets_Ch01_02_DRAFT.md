@@ -41,7 +41,7 @@ If the system receives sustaining power $\dot{E}_\kappa = 10^{20}$ W and loses b
 
 **PS-1.15** [X] Penrose's calculation shows the probability of our universe's initial conditions is roughly $10^{-10^{123}}$. How many zeros are in the exponent? Is this number even comprehensible using standard notation?
 
-**PS-1.16** [C] Using the membrane formula from Section 1.1, $c^2 = \sigma/\mu$, where $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and $\mu = 6.7 \times 10^{81}$ kg/m³, calculate $c$ and compare to the known value $c = 3.0 \times 10^8$ m/s.
+**PS-1.16** [C] Using the Firmament membrane formula from Section 1.1, $c^2 = \sigma/\mu$, where $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and $\mu = 6.7 \times 10^{81}$ kg/m³, calculate $c$ and compare to the known value $c = 3.0 \times 10^8$ m/s.
 
 **PS-1.17** [W] Axiom 1 (Section 1.2) claims the sustaining field resolves fine-tuning. Rephrase this claim in your own words: instead of asking "Why are the constants fine-tuned?", what does Genesis Physics ask instead?
 
@@ -167,7 +167,7 @@ The internal energy increases at a net rate of $7 \times 10^{19}$ watts.
 **PS-1.16:**
 $$c = \sqrt{\frac{\sigma}{\mu}} = \sqrt{\frac{6.0 \times 10^{98}}{6.7 \times 10^{81}}} = \sqrt{8.96 \times 10^{16}} \approx 3.0 \times 10^8 \text{ m/s}$$
 
-This matches the observed speed of light, validating the membrane ansatz.
+This matches the observed speed of light, validating the Firmament ansatz.
 
 **PS-1.18:**
 $$\alpha \approx 1.44 \times \ln\left(\frac{3 \times 10^{26}}{1.3 \times 10^{-15}}\right) = 1.44 \times \ln(2.3 \times 10^{41}) \approx 1.44 \times 95.7 \approx 0.0073 \approx \frac{1}{137}$$

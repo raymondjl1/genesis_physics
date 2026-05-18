@@ -24,7 +24,7 @@
 
 This simulation suite validates the Waters Field Equations (WFE), the core mathematical framework of Genesis Physics:
 
-- **(A) Membrane Equation:** □η = -4πG ρ_matter
+- **(A) Firmament Equation:** □η = -4πG ρ_matter
 - **(B) Waters Above:** □Ψ_A + m_A² Ψ_A + (λ_A/3!)Ψ_A³ + G_int Ψ_B = 0
 - **(C) Waters Below:** □Ψ_B - m_B² Ψ_B - (λ_B/3!)Ψ_B³ - G_int Ψ_A = -ρ_matter
 - **(D) Modified Einstein:** G_μν + Λ_eff g_μν = (8πG/c⁴)[T_μν^matter + T_μν^A + T_μν^B]
@@ -32,7 +32,7 @@ This simulation suite validates the Waters Field Equations (WFE), the core mathe
 The suite provides three complementary perspectives:
 
 1. **Field Dynamics** (waters_field_sim.py): Time evolution of quantum fields coupled to spacetime curvature
-2. **Particle Spectrum** (membrane_vibrations.py): Predictions for particle masses from membrane resonance modes
+2. **Particle Spectrum** (membrane_vibrations.py): Predictions for particle masses from Firmament membrane resonance modes
 3. **Cosmic Structure** (structure_formation.py): Galaxy formation and clustering compared to ΛCDM
 
 ---
@@ -52,8 +52,8 @@ To handle extreme scale ranges (from 10⁻¹⁵ m to 10²⁶ m), all simulations
 **Physical constants (SI units):**
 | Parameter | Value | Unit | Description |
 |-----------|-------|------|-------------|
-| σ | 6.0×10⁹⁸ | kg/(m·s²) | Membrane tension |
-| μ | 6.7×10⁸¹ | kg/m³ | Membrane surface density |
+| σ | 6.0×10⁹⁸ | kg/(m·s²) | Firmament tension |
+| μ | 6.7×10⁸¹ | kg/m³ | Firmament membrane surface density |
 | c | 3.0×10⁸ | m/s | Speed of light |
 | G | 6.67×10⁻¹¹ | m³ kg⁻¹ s⁻² | Gravitational constant |
 | ξ_A | 3.0×10²⁶ | m | Waters Above coherence length |
@@ -97,10 +97,10 @@ v = √(σ/μ) ≈ 9.5×10⁷ m/s ≈ 0.32c
 ---
 
 ### 2. membrane_vibrations.py
-**Purpose:** Compute particle mass spectrum from membrane vibrations
+**Purpose:** Compute particle mass spectrum from Firmament membrane vibrations
 
 **Physics:**
-The membrane between Waters Above and Below acts like a drum head. Vibration modes have discrete frequencies ω_n that correspond to particle masses:
+The Firmament between Waters Above and Below acts like a drum head. Vibration modes have discrete frequencies ω_n that correspond to particle masses:
 
 m_n = ℏ ω_n / c²
 
@@ -122,13 +122,13 @@ m_n = ℏ ω_n / c²
 
 **Output files:**
 - `spectrum_1d_string.png`: Mode frequencies and masses (1D)
-- `spectrum_circular.png`: Circular membrane spectrum
+- `spectrum_circular.png`: Circular Firmament membrane spectrum
 - `spectrum_vs_particles.png`: Predicted masses vs electron, muon, Higgs, W/Z bosons
 - `spectrum_comparison.png`: Analytical vs numerical solutions
 
 **Validation:**
 - Analytical 1D solution: ω_n ∝ n
-- Circular membrane modes: spectrum matches Bessel function zeros
+- Circular Firmament membrane modes: spectrum matches Bessel function zeros
 - Numerical eigensolve converges to analytical solution as grid refines
 
 **Physical predictions (subject to parameter fitting):**
@@ -194,13 +194,13 @@ Runs 4 tests:
 
 Expected runtime: ~30-60 seconds
 
-**2. Membrane Vibration Spectrum**
+**2. Firmament Vibration Spectrum**
 ```bash
 python membrane_vibrations.py
 ```
 Runs 3 analyses:
 - 1D string eigenfrequencies → mass spectrum
-- Circular membrane modes
+- Circular Firmament membrane modes
 - Analytical vs numerical comparison
 
 Expected runtime: ~10-20 seconds
@@ -294,7 +294,7 @@ bash run_all_simulations.sh
 
 ---
 
-### Test 4: Membrane Vibration Spectrum
+### Test 4: Firmament Vibration Spectrum
 
 **1D String Analysis (fixed ends):**
 
@@ -308,7 +308,7 @@ Analytical spectrum: ω_n = (nπ/L) × √(σ/μ)
 | n=4 | 2.38×10⁹⁸ | 2.8×10⁻³² | -31.55 |
 | n=5 | 2.98×10⁹⁸ | 3.5×10⁻³² | -31.46 |
 
-**Circular Membrane Modes:**
+**Circular Firmament Modes:**
 
 Eigenmodes labeled by (n,m) where J_n(λ_{n,m}) = 0
 
@@ -380,7 +380,7 @@ Current parameter choices yield masses ~10⁻³² to 10⁻³¹ kg. Matching to o
 **Implication:** Genesis Physics fields can coexist with conventional matter without pathologies.
 
 ### 2. Particle Mass Spectrum
-✓ Membrane vibration modes give discrete mass spectrum naturally
+✓ Firmament membrane vibration modes give discrete mass spectrum naturally
 ✓ Spectrum properties depend on fundamental parameters:
 - Mode spacing ∝ √(σ/μ)
 - Particle mass ∝ ℏω_n / c²
@@ -581,7 +581,7 @@ Include these results as evidence that Genesis Physics is:
 2. Computationally tractable (finite difference methods work)
 3. Observationally testable (structure formation differs from ΛCDM at ~2% level)
 
-The framework provides a unified description of gravity, dark matter, and dark energy without exotic new particles or ad-hoc mechanisms. The discrete particle spectrum emerges naturally from membrane vibrations.
+The framework provides a unified description of gravity, dark matter, and dark energy without exotic new particles or ad-hoc mechanisms. The discrete particle spectrum emerges naturally from Firmament membrane vibrations.
 
 ---
 

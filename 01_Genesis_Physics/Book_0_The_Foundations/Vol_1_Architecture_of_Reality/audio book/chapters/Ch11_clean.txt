@@ -8,7 +8,7 @@ Ask a physicist and you will get any number of responses — "the Second Law," "
 
 This chapter answers the question. All of it. From the bottom up.
 
-In Chapter 10, we showed that the universe must be quantized — that discrete spectra emerge inevitably from the boundary conditions of the Firmament. We derived Planck's constant ℏ from membrane geometry, the Schrödinger equation from membrane dynamics, and the uncertainty principle from Fourier analysis on bounded domains. But those results described single particles, individual modes, isolated quantum states.
+In Chapter 10, we showed that the universe must be quantized — that discrete spectra emerge inevitably from the boundary conditions of the Firmament. We derived Planck's constant ℏ from membrane geometry, the Schrödinger equation from Firmament membrane dynamics, and the uncertainty principle from Fourier analysis on bounded domains. But those results described single particles, individual modes, isolated quantum states.
 
 The universe contains approximately 10⁸⁰ particles. What happens when you have 10⁸⁰ of them, all interacting, all exchanging energy on a dynamical membrane embedded in a 6D spacetime sustained by an external coupling? That is thermodynamics. And the answer turns out to be far more interesting than standard physics has ever told you.
 
@@ -27,7 +27,7 @@ The Second Law of thermodynamics is phase-dependent. In Phase 2 (the Edenic epoc
 
 This is not theology dressed as physics. It is a mathematical theorem, derivable from the 6D action, testable (in principle) against observation, and falsifiable. Let us begin.
 
-Figure 1.11.1: Derivation Roadmap — From 6D Action to All Four Laws. Flowchart showing the complete derivation chain. Top: the 6D total action S sub total (Eq. 1.11.1). Second row: quantized membrane modes with energies E sub n = h-bar omega sub n. Third row: three parallel branches — ℏ from topological charge (Ch 10), k sub B from mode counting (§11.4), and spin-statistics from vortex topology (Ch 10). Fourth row: Fermi-Dirac and Bose-Einstein distributions converging into the partition function Z = sum e to the -E sub n/k sub BT. Fifth row: all thermodynamic functions (U, S, F, C sub V, P). Bottom: all four laws (Zeroth, First, Second, Third), with a side branch showing the sustaining coupling κ feeding into the phase-dependent Second Law. Arrows indicate logical dependence; each node cites its equation number or chapter reference.
+Figure 1.11.1: Derivation Roadmap — From 6D Action to All Four Laws. Flowchart showing the complete derivation chain. Top: the 6D total action S sub total (Eq. 1.11.1). Second row: quantized Firmament modes with energies E sub n = h-bar omega sub n. Third row: three parallel branches — ℏ from topological charge (Ch 10), k sub B from mode counting (§11.4), and spin-statistics from vortex topology (Ch 10). Fourth row: Fermi-Dirac and Bose-Einstein distributions converging into the partition function Z = sum e to the -E sub n/k sub BT. Fifth row: all thermodynamic functions (U, S, F, C sub V, P). Bottom: all four laws (Zeroth, First, Second, Third), with a side branch showing the sustaining coupling κ feeding into the phase-dependent Second Law. Arrows indicate logical dependence; each node cites its equation number or chapter reference.
 
 The Derivation Chain — From 6D Action to Observable Laws.
 
@@ -39,9 +39,9 @@ where R sub 6 is the 6D Ricci scalar, Psi sub A( xi ) and Psi sub B( eta ) are t
 
 The derivation proceeds through six sequential stages. Each stage builds on the previous, and each produces a specific physical result:
 
-Stage 1: Quantized membrane modes. From the 6D action, fluctuations on the Firmament satisfy a wave equation (Chapter 5, Eq. (1.5.24)). Boundary conditions from the zone architecture quantize these fluctuations into discrete modes with energies E sub n = h-bar omega sub n( k), where omega sub n is the mode frequency and k is the wave vector. This was established in Chapter 10.
+Stage 1: Quantized Firmament membrane modes. From the 6D action, fluctuations on the Firmament satisfy a wave equation (Chapter 5, Eq. (1.5.24)). Boundary conditions from the zone architecture quantize these fluctuations into discrete modes with energies E sub n = h-bar omega sub n( k), where omega sub n is the mode frequency and k is the wave vector. This was established in Chapter 10.
 
-Stage 2: Planck's constant ℏ from topology. The topological charge quantization on the Firmament (Chapter 10, §10.3) yields h-bar = 1.055 times 10 to the -34 J·s from membrane geometry. This sets the energy scale for all quantum modes.
+Stage 2: Planck's constant ℏ from topology. The topological charge quantization on the Firmament (Chapter 10, §10.3) yields h-bar = 1.055 times 10 to the -34 J·s from Firmament geometry. This sets the energy scale for all quantum modes.
 
 Stage 3: Boltzmann's constant k sub B from mode counting. When we count the accessible modes at temperature T, the density of states g(E) proportional to E to the d/2-1 combined with the thermal de Broglie wavelength matching the Firmament lattice spacing yields k sub B = 1.381 times 10 to the -23 J/K as the entropy scale. (We derive this constant in §11.4.)
 
@@ -67,7 +67,7 @@ A microstate of a system of N topological defects on the Firmament specifies:
 
 - The position of each defect on the 4D Firmament: the expression, i = 1, , N
 - The momentum of each defect: p sub i, mu
-- The occupation numbers of all membrane vibrational modes: n sub k
+- The occupation numbers of all Firmament membrane vibrational modes: n sub k
 - The local configuration of the Waters fields: Psi sub A( xi ), Psi sub B( eta )
 
 The multiplicity Omega (U, V, N) is the number of distinguishable microstates consistent with macroscopic observables (U, V, N):
@@ -120,7 +120,7 @@ and the temperature relation becomes the familiar:
 
 Equipartition from Mode Counting.
 
-Consider a single quadratic degree of freedom — a membrane mode with energy E = 1 over 2m q to the 2 + 1 over 2k q to the 2 (a harmonic oscillator in the classical limit, k sub B T much greater than h-bar omega).
+Consider a single quadratic degree of freedom — a Firmament mode with energy E = 1 over 2m q to the 2 + 1 over 2k q to the 2 (a harmonic oscillator in the classical limit, k sub B T much greater than h-bar omega).
 
 At thermal equilibrium, the average energy per quadratic term is:
 
@@ -130,7 +130,7 @@ Each quadratic term (kinetic or potential) contributes 1 over 2k sub BT. For d q
 
 [Equation — see print edition.]
 
-This is the equipartition theorem — and it emerges naturally from counting equally weighted microstates of quantized membrane modes in the classical limit.
+This is the equipartition theorem — and it emerges naturally from counting equally weighted microstates of quantized Firmament modes in the classical limit.
 
 In the quantum regime (k sub BT h-bar omega), the discrete energy spectrum modifies this result. The average energy of a single quantized mode at temperature T is (we derive this precisely in §11.4):
 
@@ -144,7 +144,7 @@ Here is a puzzle that baffled 19th-century physicists and that the zone architec
 
 Classical equipartition predicts that every quadratic degree of freedom contributes 1 over 2k sub BT to the energy — regardless of the mode frequency. Applied to a solid with N atoms (3N vibrational modes), this predicts a heat capacity C sub V = 3Nk sub B at all temperatures. But experimentally, the heat capacity of solids plummets toward zero as T to 0. Diamond, with its stiff carbon bonds, shows this suppression even at room temperature. Why?
 
-The answer is quantization. Each membrane vibrational mode has a minimum excitation energy Delta E = h-bar omega. If k sub BT < h-bar omega, the thermal bath does not have enough energy to promote the mode from its ground state to its first excited state. The mode is "frozen out" — it contributes zero to the heat capacity, even though classically it should contribute k sub B.
+The answer is quantization. Each Firmament membrane vibrational mode has a minimum excitation energy Delta E = h-bar omega. If k sub BT < h-bar omega, the thermal bath does not have enough energy to promote the mode from its ground state to its first excited state. The mode is "frozen out" — it contributes zero to the heat capacity, even though classically it should contribute k sub B.
 
 Consider a mode with frequency omega = 10 to the 13 rad/s (typical of an optical phonon in a crystal). The characteristic temperature is:
 
@@ -183,7 +183,7 @@ or in differential form:
 [Equation — see print edition.]
 
 where:
-- U = integral sub V d to the 3x T to the 0 sub 0 is the internal energy (sum over all defect energies, membrane oscillation energy, and interaction energy)
+- U = integral sub V d to the 3x T to the 0 sub 0 is the internal energy (sum over all defect energies, Firmament oscillation energy, and interaction energy)
 - delta Q is the heat exchanged (microscopic energy transfer)
 - delta W is the work done by the system (P dV for pressure-volume work, plus all other work-conjugate pairs)
 
@@ -267,11 +267,11 @@ Pressure:
 
 [Equation — see print edition.]
 
-All of macroscopic thermodynamics reduces to computing Z from the microscopic energy eigenvalues E sub n and then taking derivatives. The energy eigenvalues come from the quantized membrane modes of Chapter 10. The partition function is the bridge from quantum mechanics to thermodynamics.
+All of macroscopic thermodynamics reduces to computing Z from the microscopic energy eigenvalues E sub n and then taking derivatives. The energy eigenvalues come from the quantized Firmament modes of Chapter 10. The partition function is the bridge from quantum mechanics to thermodynamics.
 
-Example: A Single Quantized Membrane Mode.
+Example: A Single Quantized Firmament Mode.
 
-For a single harmonic oscillator (one membrane vibrational mode) with energy E sub n = h-bar omega (n + 1 over 2) where n = 0, 1, 2,:
+For a single harmonic oscillator (one Firmament membrane vibrational mode) with energy E sub n = h-bar omega (n + 1 over 2) where n = 0, 1, 2,:
 
 [Equation — see print edition.]
 
@@ -333,9 +333,11 @@ This confirms the Third Law for fermions. Note that the Fermi gas has enormous e
 
 The Physical Meaning of k sub B.
 
-A note on Boltzmann's constant. In the zone architecture, k sub B is not a mysterious conversion factor between temperature and energy. It has a precise geometric meaning: it is the entropy per accessible membrane mode at the thermal cutoff energy E approximately k sub BT.
+A note on Boltzmann's constant. In the zone architecture, k sub B is not a mysterious conversion factor between temperature and energy. It has a precise geometric meaning: it is the entropy per accessible Firmament mode at the thermal cutoff energy E approximately k sub BT.
 
-More precisely: the number of membrane modes with energy below k sub BT scales as (k sub BT/E sub min) to the d/2, where d is the effective dimensionality and E sub min = h-bar omega sub min is the energy of the lowest mode. The constant k sub B is the scale at which the mode counting transitions from quantum (individual modes distinguishable) to thermal (modes form a continuum). Its numerical value k sub B = 1.381 times 10 to the -23 J/K reflects the specific geometry of our Firmament — the same membrane parameters that fix ℏ and c also fix k sub B.
+More precisely: the number of Firmament modes with energy below k sub BT scales as (k sub BT/E sub min) to the d/2, where d is the effective dimensionality and E sub min = h-bar omega sub min is the energy of the lowest mode. The constant k sub B is the scale at which the mode counting transitions from quantum (individual modes distinguishable) to thermal (modes form a continuum). Its numerical value k sub B = 1.381 times 10 to the -23 J/K reflects the specific geometry of our Firmament — the same Firmament parameters that fix ℏ and c also fix k sub B.
+
+Derivation status — deferred to Vol 5. The mode-counting argument above establishes why k sub B exists and what it means physically: it is the entropy per accessible Firmament membrane mode at the thermal cutoff. This is the right conceptual picture. However, the argument does not close the derivation numerically: stating that k sub B is fixed by "the same Firmament parameters as ℏ and c" is true but circular at this stage — those parameters (sigma , eta sub B, xi sub A) are introduced in Volumes 1–4 but the warp-factor volume integral that propagates them through to k sub B requires the full 6D geometry developed in Vol 5. The complete first-principles derivation of k sub B — including the explicit formula, the derivation that k sub B acts as a unit-conversion factor (not a dynamical constant), and the numerical verification — is carried out in Vol 5 Ch 15 §15.4 (Why k sub B Is a Unit Conversion, Not a Dynamical Constant). Cross-reference that section when the numerical value matters; the current chapter establishes the structural foundation.
 
 The Second Law — Entropy, Irreversibility, and the Phase-Dependent Arrow of Time.
 
@@ -501,7 +503,7 @@ where g sub 0 is the degeneracy of the ground state. For a non-degenerate ground
 
 [Equation — see print edition.]
 
-Derivation from Membrane Mode Freezing.
+Derivation from Firmament Mode Freezing.
 
 The mechanism is a direct consequence of quantization (Chapter 10). Recall that the Firmament has a discrete spectrum of vibrational modes with energies E sub n = h-bar omega sub n. At temperature T, the occupation number of a mode depends on whether it is bosonic or fermionic:
 
@@ -513,7 +515,7 @@ As T to 0:
 - For fermions below the Fermi level (E sub k < mu): occupation to 1 (mode fully occupied)
 - For bosons: all modes except the ground state empty
 
-Figure 1.11.4: Mode Freezing and the Third Law. Left: an energy level ladder showing quantized membrane modes E sub 0, E sub 1, E sub 2, at three temperatures — high T (many modes occupied, shown in color), intermediate T (only lower modes occupied), and T to 0 (only the ground state occupied). The horizontal dashed line at E approximately k sub BT separates "active" modes (below) from "frozen" modes (above). Right: occupation number n sub k vs. energy E sub k for each temperature, showing the Fermi-Dirac step sharpening as T to 0. At T = 0, every mode is either fully occupied (below E sub F) or empty (above E sub F), giving S sub k = 0 for every mode and hence S sub total = 0. Labels: E sub n, n sub n, k sub BT threshold, "frozen"/"active" mode regions.
+Figure 1.11.4: Mode Freezing and the Third Law. Left: an energy level ladder showing quantized Firmament modes E sub 0, E sub 1, E sub 2, at three temperatures — high T (many modes occupied, shown in color), intermediate T (only lower modes occupied), and T to 0 (only the ground state occupied). The horizontal dashed line at E approximately k sub BT separates "active" modes (below) from "frozen" modes (above). Right: occupation number n sub k vs. energy E sub k for each temperature, showing the Fermi-Dirac step sharpening as T to 0. At T = 0, every mode is either fully occupied (below E sub F) or empty (above E sub F), giving S sub k = 0 for every mode and hence S sub total = 0. Labels: E sub n, n sub n, k sub BT threshold, "frozen"/"active" mode regions.
 
 The entropy contribution from a single mode with occupation n (for fermions) is:
 
@@ -529,7 +531,7 @@ provided the ground state is non-degenerate.
 
 The Debye T to the d Law.
 
-Near T = 0, the lowest-energy excitations on the Firmament are long-wavelength acoustic modes (phonon-like) with linear dispersion omega sub k approximately equal to c sub s | k|, where c sub s is a sound speed on the membrane. The density of states scales as:
+Near T = 0, the lowest-energy excitations on the Firmament are long-wavelength acoustic modes (phonon-like) with linear dispersion omega sub k approximately equal to c sub s | k|, where c sub s is a sound speed on the Firmament membrane. The density of states scales as:
 
 [Equation — see print edition.]
 
@@ -553,7 +555,7 @@ This has a profound consequence: it takes progressively less heat to change the 
 
 [Equation — see print edition.]
 
-This is the Nernst unattainability principle — the alternative formulation of the Third Law — and it follows directly from the quantization of membrane modes.
+This is the Nernst unattainability principle — the alternative formulation of the Third Law — and it follows directly from the quantization of Firmament modes.
 
 Why Classical Physics Cannot Explain the Third Law.
 
@@ -801,7 +803,7 @@ Computational Problems (15).
 
 C11.1. Compute the partition function Z(T) for a system of N independent harmonic oscillators with frequency omega, and derive U(T), S(T), C sub V(T), and F(T).
 
-C11.2. A membrane mode has energy levels E sub n = h-bar omega (n + 1/2) with omega = 10 to the 13 rad/s. Calculate the average occupation n and average energy E at (a) T = 300 K, (b) T = 30 K, (c) T = 3 K.
+C11.2. A Firmament mode has energy levels E sub n = h-bar omega (n + 1/2) with omega = 10 to the 13 rad/s. Calculate the average occupation n and average energy E at (a) T = 300 K, (b) T = 30 K, (c) T = 3 K.
 
 C11.3. Using the Boltzmann distribution, compute the probability ratio P(E sub 2)/P(E sub 1) for two states with E sub 2 - E sub 1 = 0.1 eV at room temperature (T = 300 K).
 
@@ -827,7 +829,7 @@ C11.13. Compute the entropy of a perfect crystal of N atoms at temperature T usi
 
 C11.14. Given the Landau free energy F = a(T - T sub c) Psi to the 2 + b Psi to the 4, compute the order parameter Psi (T), entropy S(T), and heat capacity C(T) near T sub c. Show C jumps at T sub c.
 
-C11.15. For a one-dimensional chain of N membrane modes with nearest-neighbor coupling, compute the partition function using the transfer matrix method. Determine whether a phase transition occurs.
+C11.15. For a one-dimensional chain of N Firmament modes with nearest-neighbor coupling, compute the partition function using the transfer matrix method. Determine whether a phase transition occurs.
 
 Conceptual Problems (12).
 
@@ -857,7 +859,7 @@ Q11.12. The 68/27/5 energy split (dark energy / dark matter / baryonic) is deriv
 
 Challenge Problems (8).
 
-X11.1. Derive the entropy production rate for radioactive alpha decay of to the 238U, starting from the membrane tunneling model of Chapter 10. Express the result in terms of Delta kappa.
+X11.1. Derive the entropy production rate for radioactive alpha decay of to the 238U, starting from the Firmament tunneling model of Chapter 10. Express the result in terms of Delta kappa.
 
 X11.2. The Gibbs paradox asks: why does entropy of mixing vanish for identical gases? Resolve this paradox using the indistinguishability of identical membrane defects.
 

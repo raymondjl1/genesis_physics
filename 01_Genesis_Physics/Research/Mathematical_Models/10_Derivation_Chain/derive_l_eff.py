@@ -29,13 +29,13 @@ volume of the extra dimensions.
 
 The warp factors A(ξ,η) and B(ξ,η) are determined by:
   1. The 6D bulk Einstein equations (with bulk cosmological constant Λ₆)
-  2. The Israel junction conditions at the Firmament brane (tension σ)
+  2. The Israel junction conditions at the Firmament (tension σ)
   3. The zone boundary conditions (at ξ_A and η_B)
 
-For a codimension-2 brane in 6D AdS:
+For a codimension-2 Firmament in 6D AdS:
   - Bulk solution: ds² = e^{-2k√(ξ²+η²)} g̃_μν dx^μ dx^ν + dξ² + dη²
   - k = √(-Λ₆/10) is the AdS₆ curvature scale
-  - The brane creates a conical deficit: δ = κ₆² σ
+  - The Firmament creates a conical deficit: δ = κ₆² σ
 
 The self-consistency requirement:
   - The 6D fundamental scale M₆ is determined by the 6D Planck mass
@@ -43,7 +43,7 @@ The self-consistency requirement:
   - V_extra,eff is then fully determined → L_eff follows
 
 KEY INSIGHT: The warp factor normalization A₀ + B₀ encodes the entire
-hierarchy between the enormous brane tension σ and the tiny gravitational
+hierarchy between the enormous Firmament tension σ and the tiny gravitational
 coupling G₄. In Randall-Sundrum-like warped geometries, this hierarchy
 is generated naturally by the exponential warp factor.
 
@@ -107,8 +107,8 @@ def compute_6d_bulk_parameters():
     In SI units:
         κ₆² = 8πG₆ = 8π ℏc / M₆⁴
 
-    The brane tension σ determines the 6D scale via the junction condition.
-    For a codimension-2 brane:
+    The Firmament tension σ determines the 6D scale via the junction condition.
+    For a codimension-2 Firmament:
 
         deficit angle δ = κ₆² σ = (8πG₆) σ
 
@@ -116,7 +116,7 @@ def compute_6d_bulk_parameters():
     gives: G₆ < 2π/(8πσ) = 1/(4σ)
 
     The NATURAL CHOICE (from string/M-theory arguments): the fundamental
-    6D scale is set by the brane tension:
+    6D scale is set by the Firmament tension:
 
         M₆⁴ ~ σ (in natural units)
 
@@ -124,7 +124,7 @@ def compute_6d_bulk_parameters():
         κ₆² ~ 1/σ → G₆ ~ ℏc/σ
     """
 
-    # 6D gravitational coupling from brane tension scale
+    # 6D gravitational coupling from Firmament tension scale
     # G₆ has dimensions [L⁴ M⁻¹ T⁻²] in 6D
     # Natural scale: G₆ = ℏc / σ (using σ as the fundamental scale)
     G_6 = hbar * c / SIGMA
@@ -143,22 +143,22 @@ def compute_6d_bulk_parameters():
     # But we don't want to use G₄ as input!
 
     # Instead, use the CODIMENSION-2 BRANE RELATION:
-    # In 6D, a codimension-2 brane with tension σ creates a deficit angle:
+    # In 6D, a codimension-2 Firmament with tension σ creates a deficit angle:
     # δ = 8πG₆ σ = κ₆² σ
     #
-    # The geometry near the brane is a cone with:
+    # The geometry near the Firmament is a cone with:
     # ds² = g̃_μν dx^μ dx^ν + dr² + (1-δ/2π)² r² dθ²
     #
-    # The total deficit angle must be < 2π. For our GP brane:
-    # We take δ = 2π(1-ε) where ε is small, meaning the brane is nearly
+    # The total deficit angle must be < 2π. For our GP Firmament:
+    # We take δ = 2π(1-ε) where ε is small, meaning the Firmament is nearly
     # space-filling. This gives:
     # G₆ = 2π(1-ε)/(8πσ) = (1-ε)/(4σ)
 
     # The parameter ε controls the fraction of the "cone" that remains open
-    # Physical constraint: ε > 0 (brane doesn't over-close the transverse space)
+    # Physical constraint: ε > 0 (Firmament doesn't over-close the transverse space)
     #
     # For the GP geometry: the two extra dimensions have FINITE extent
-    # (ξ ∈ [0,ξ_A], η ∈ [0,η_B]), and the brane sits at a specific location.
+    # (ξ ∈ [0,ξ_A], η ∈ [0,η_B]), and the Firmament sits at a specific location.
     # The deficit angle is shared between the two angular directions.
 
     # KEY RELATION: The 6D Newton's constant G₆ encodes the fundamental
@@ -198,8 +198,8 @@ def compute_warp_parameters():
     η-equation (Waters Below):
         γ_η²/4 = -Λ_η e^{2B₀}  ...(ii)
 
-    The Israel junction condition at the Firmament brane gives:
-        [∂_n A]_brane = -κ₆² σ/4 = -σ/(4M₆⁴)  ...(iii)
+    The Israel junction condition at the Firmament gives:
+        [∂_n A]_Firm = -κ₆² σ/4 = -σ/(4M₆⁴)  ...(iii)
 
     STRATEGY: We determine the warp parameters by requiring:
     1. The bulk equations (i,ii) are satisfied
@@ -220,7 +220,7 @@ def compute_warp_parameters():
 
     # WARP FACTOR PARAMETERS:
     # From the 6D Einstein equations, the warp factor profile is determined
-    # by the bulk cosmological constant and the brane tension.
+    # by the bulk cosmological constant and the Firmament tension.
 
     # For the Waters Above (ξ-direction, power-law):
     # A_ξ(ξ) = (λ_ξ/2) ln(ξ/ξ₀)
@@ -247,7 +247,7 @@ def compute_warp_parameters():
     # to have a 1/ξ pole, which means the TOTAL warp weight ~ ξ^{-1}
     lambda_xi = 0.5  # Power-law index; 2λ_ξ = 1 gives logarithmic integral
 
-    # Reference scales (brane location):
+    # Reference scales (Firmament location):
     xi_0 = 1.0  # Normalized reference (Firmament ξ-coordinate)
     eta_0 = ETA_B  # Firmament sits at the Waters Below boundary
 
@@ -335,7 +335,7 @@ def solve_for_A0_B0():
     But we DON'T use G₄ as input. Instead, we use the 6D JUNCTION CONDITION
     to relate G₆ to σ:
 
-    For a codimension-2 brane in 6D:
+    For a codimension-2 Firmament in 6D:
         deficit angle δ = 8π G₆ σ  (in natural units)
 
     The physical constraint: δ must be consistent with the zone geometry.
@@ -348,16 +348,16 @@ def solve_for_A0_B0():
     The 6D Planck mass M₆ is the fundamental scale. In the 6D bulk:
         G₆ = (ℏc)² / (M₆⁴ × c²)  (6D Newton's constant, SI)
 
-    The brane tension creates a potential well that localizes gravity.
+    The Firmament tension creates a potential well that localizes gravity.
     The DEPTH of this well determines the 4D coupling:
 
         G₄ = G₆ / V_extra = (ℏc)² / (M₆⁴ c² V_extra)
 
-    The junction condition at the brane:
-        [∂_r A]_brane = -4πG₆ σ / c⁴
+    The junction condition at the Firmament:
+        [∂_r A]_Firm = -4πG₆ σ / c⁴
 
     For the warped metric ds² = e^{2A(r)} g̃_μν dx^μ dx^ν + dr² + ...:
-        The warp factor profile near the brane: A(r) = A₀ - k r
+        The warp factor profile near the Firmament: A(r) = A₀ - k r
         The warp rate: k = σ G₆^{1/2} (dimensional analysis)
 
     This gives A₀ in terms of σ and G₆, which determines V_extra.
@@ -416,8 +416,8 @@ def solve_for_A0_B0():
     # We need V_extra = L_eff² = c⁴/(8πσG₄)
 
     # THE INDEPENDENT DERIVATION PATH:
-    # Step 1: σ is derived from c² = σ/μ and membrane mechanics (Axiom 3)
-    # Step 2: M₆ is derived from σ (fundamental 6D scale = brane scale)
+    # Step 1: σ is derived from c² = σ/μ and Firmament membrane mechanics (Axiom 3)
+    # Step 2: M₆ is derived from σ (fundamental 6D scale = Firmament scale)
     # Step 3: G₆ = f(M₆) from the 6D action normalization
     # Step 4: Warp factor profile A(ξ,η) from bulk Einstein equations with Λ₆
     # Step 5: V_extra = ∫∫ e^{2A+2B} dξ dη (from the profile)
@@ -425,7 +425,7 @@ def solve_for_A0_B0():
     # Step 7: L_eff = √V_extra (definition)
 
     # THE JUNCTION CONDITION APPROACH:
-    # For a codimension-2 brane in 6D AdS with tension σ:
+    # For a codimension-2 Firmament in 6D AdS with tension σ:
     #   The deficit angle: δ = 2π σ / (M₆⁴)
     #   The warp rate: k² = |Λ₆|/10 (for 6D AdS)
     #   The junction condition: k = 2πG₆σ (relates warp rate to tension)
@@ -435,12 +435,12 @@ def solve_for_A0_B0():
     #   G₄ ~ G₆ × e^{-2(A₀+B₀)} / (geometric factors)
 
     # From the junction condition at the Firmament:
-    #   ∂_r A|_brane = -k
+    #   ∂_r A|_Firm = -k
     #   k = √(|Λ₆|/10) (bulk AdS curvature)
 
     # The warp suppression:
-    #   e^{2A₀} = e^{-2k r_brane}
-    # where r_brane is the distance from the "UV brane" to the Firmament
+    #   e^{2A₀} = e^{-2k r_Firm}
+    # where r_Firm is the distance from the "UV Firmament" to the Firmament
 
     # NUMERICAL COMPUTATION:
     # Given the zone scales, compute A₀+B₀ from self-consistency
@@ -494,9 +494,9 @@ def derive_l_eff_from_junction():
 
     Derive L_eff from the 6D theory WITHOUT using G₄ as input.
 
-    The key: the DEFICIT ANGLE RELATION for a codimension-2 brane.
+    The key: the DEFICIT ANGLE RELATION for a codimension-2 Firmament.
 
-    In 6D gravity with a brane of tension σ:
+    In 6D gravity with a Firmament of tension σ:
         δ = κ₆² σ = (8π G₆) σ
 
     The total angular deficit must be related to the zone geometry:
@@ -506,7 +506,7 @@ def derive_l_eff_from_junction():
 
     ALTERNATIVE (more robust): Use the GRAVITATIONAL SELF-ENERGY approach.
 
-    The brane's gravitational self-energy in 6D is:
+    The Firmament's gravitational self-energy in 6D is:
         E_grav ~ -G₆ σ² V₃ / r (for codimension-2, 1/r potential in 2D transverse)
 
     Self-consistency requires this to be finite, which imposes:
@@ -540,7 +540,7 @@ def derive_l_eff_from_junction():
     PRACTICAL APPROACH:
     We can determine G₆ from the DEFICIT ANGLE, which is purely geometric:
 
-    For a codimension-2 brane in flat 6D space:
+    For a codimension-2 Firmament in flat 6D space:
         δ = 8πG₆σ
 
     The geometry of the extra dimensions must accommodate this deficit.
@@ -550,7 +550,7 @@ def derive_l_eff_from_junction():
         The extra-dimensional space must be geometrically consistent.
         For a smooth compactification: δ = 2π(1 - 1/N) for integer N.
 
-    The simplest case: δ ≈ 2π (brane nearly fills the transverse space)
+    The simplest case: δ ≈ 2π (Firmament nearly fills the transverse space)
     This gives: 8πG₆σ ≈ 2π → G₆ ≈ 1/(4σ)
 
     More precisely, with the GP zone geometry providing the regularization:
@@ -567,12 +567,12 @@ def derive_l_eff_from_junction():
     # APPROACH: Deficit Angle + Zone Geometry
     # ================================================================
 
-    # For a codimension-2 brane in 6D, the transverse geometry near
-    # the brane is a 2D cone with metric:
+    # For a codimension-2 Firmament in 6D, the transverse geometry near
+    # the Firmament is a 2D cone with metric:
     #   ds²_⊥ = dr² + (1-δ/2π)² r² dθ²
     #
     # At large r, the cone has angular extent 2π - δ.
-    # The brane tension creates deficit δ = 8πG₆σ.
+    # The Firmament tension creates deficit δ = 8πG₆σ.
 
     # KEY INSIGHT FROM GENESIS PHYSICS:
     # The GP zone structure DETERMINES the transverse geometry.
@@ -610,14 +610,14 @@ def derive_l_eff_from_junction():
 
     # Rather than chase dimensions, let me use the OPERATIONAL approach:
 
-    # STEP 1: The 6D gravitational coupling in terms of the brane tension
+    # STEP 1: The 6D gravitational coupling in terms of the Firmament tension
     # From the Einstein-Hilbert normalization:
     #   S₆ = ∫ d⁶x √(-g₆) [R₆/(16πG₆) - σ δ²(y)]
     # The bulk equation: R_{AB} - (1/2)g_{AB}R₆ + Λ₆ g_{AB} = 8πG₆ T_{AB}
-    # At the brane: T_{μν} = -σ g̃_{μν} δ²(y)
+    # At the Firmament: T_{μν} = -σ g̃_{μν} δ²(y)
 
     # STEP 2: The SCALE MATCHING CONDITION
-    # The 6D theory must reproduce 4D physics at the brane.
+    # The 6D theory must reproduce 4D physics at the Firmament.
     # The gravitational coupling RUNS between the 6D UV scale and the
     # 4D IR scale. In 2 extra dimensions:
     #   1/G₄ = V_extra/G₆ = V_extra × M₆⁴ / (ℏc)^p
@@ -629,7 +629,7 @@ def derive_l_eff_from_junction():
     # A_perp = ∫∫ dξ dη × (warping corrections)
     # ≈ ξ_A × η_B × (warp correction factor)
 
-    # For a MAXIMAL deficit (δ → 2π, brane dominates):
+    # For a MAXIMAL deficit (δ → 2π, Firmament dominates):
     #   G₆ = 1/(4σ) × (ℏc)³  [restoring SI units]
 
     # Let me compute: G₆ = ℏ³c³/(4σ) ... hmm dimensions
@@ -676,7 +676,7 @@ def derive_l_eff_from_junction():
     # For large kR (strong warping):
     # V_extra ≈ 1/(16k²)
 
-    # The warp rate k is determined by the brane tension:
+    # The warp rate k is determined by the Firmament tension:
     # From the junction condition: 2πG₆σ/c⁴ = ∫₀^{2π-δ} dθ × [∂_r A]_{r=0}
     # For our geometry: [∂_r A]_{r=0} = -k
     # So: k ≈ G₆σ/c⁴ × (angular factors)
@@ -765,7 +765,7 @@ def derive_l_eff_holographic():
     Alternative derivation using the holographic principle.
 
     In the AdS/CFT correspondence (and its GP analogue), the gravitational
-    coupling on the brane is related to the central charge of the dual CFT:
+    coupling on the Firmament is related to the central charge of the dual CFT:
 
         G₄ = 3ℓ_AdS / (2c_T)
 
@@ -793,8 +793,8 @@ def derive_l_eff_holographic():
     # The NUMBER OF DEGREES OF FREEDOM enclosed in a region of size L:
     # N_DOF = Area/(4 l_P²) (Bekenstein-Hawking)
 
-    # For the Firmament (4D brane) with area A₃ (3-volume):
-    # N_DOF = A₃ × σ / (ℏ c³) (using brane tension as the scale)
+    # For the Firmament (4D Firmament) with area A₃ (3-volume):
+    # N_DOF = A₃ × σ / (ℏ c³) (using Firmament tension as the scale)
 
     # The effective degrees of freedom per unit 3-volume:
     n_dof = SIGMA / (hbar * c**3)
@@ -837,7 +837,7 @@ def summarize_l_eff_derivation():
   ──────────────────
 
   ✓ COMPLETE: L_eff is determined by 3 independent measurements:
-    - c = {c:.6e} m/s (speed of light / membrane wave speed)
+    - c = {c:.6e} m/s (speed of light / Firmament membrane wave speed)
     - σ = {SIGMA:.1e} Pa (3-brane tension, from Axiom 3)
     - G₄ = {G_measured:.5e} m³/(kg·s²) (Newton's constant, observed)
 

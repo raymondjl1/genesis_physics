@@ -2,19 +2,19 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:6-7 "Let there be a firmament... a solid expanse" | Genesis 1:6-7 |
-> | Axiom | AXIOM 3 (Membrane Mechanics) | AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 3 (Firmament Mechanics) | AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Einstein Equations, Brane Action | ACTION_6D_COMPLETE.md, 6D_TO_4D_PROJECTION.md |
-> | **This Document** | **M_membrane = √(σ/c²) × ℓ₀; membrane tension σ and mass density μ derived from 6D field equations** | **MEMBRANE_MASS_SCALE.md** |
-> | Modern Equivalent | Brane-world gravity, DBI action | Convergence: produces consistent brane tension and density; validates AXIOM 3 predictions |
+> | **This Document** | **M_Firm = √(σ/c²) × ℓ₀; Firmament tension σ and mass density μ derived from 6D field equations** | **MEMBRANE_MASS_SCALE.md** |
+> | Modern Equivalent | Brane-world gravity, DBI action | Convergence: produces consistent Firmament tension and density; validates AXIOM 3 predictions |
 >
 > *Chain Status: COMPLETE*
 
 # MEMBRANE_MASS_SCALE.md
-## Deriving M_membrane from 6D Field Equations
+## Deriving M_Firm from 6D Field Equations
 
 **Document**: MEMBRANE_MASS_SCALE.md
 **Project**: Genesis Physics / Exodus Protocol
-**Issue**: GitHub Issue #75 — Derive M_membrane from 6D theory
+**Issue**: GitHub Issue #75 — Derive M_Firm from 6D theory
 **Author**: Genesis Physics Research Team
 **Date**: April 5, 2026
 **Status**: Phase 0 Foundational Derivation
@@ -23,21 +23,21 @@
 
 ## EXECUTIVE SUMMARY
 
-The **membrane mass scale** M_membrane represents the characteristic mass-energy density at which the 4D Firmament brane dynamics depart from classical mechanics and membrane fluctuations become significant. This document derives M_membrane from the 6D Einstein equations and the brane action, establishes the independent predictions for brane tension σ and membrane mass density μ, and validates these predictions against observed fundamental constants.
+The **membrane mass scale** M_Firm represents the characteristic mass-energy density at which the 4D Firmament dynamics depart from classical mechanics and Firmament membrane fluctuations become significant. This document derives M_Firm from the 6D Einstein equations and the Firmament action, establishes the independent predictions for Firmament tension σ and membrane mass density μ, and validates these predictions against observed fundamental constants.
 
 **Key Results:**
 
-1. **M_membrane from 6D theory**: M_membrane is defined as:
+1. **M_Firm from 6D theory**: M_Firm is defined as:
    $$\boxed{M_{\text{membrane}} = \sqrt{\frac{\sigma}{c^2}} \cdot \ell_0}$$
-   where σ is the brane tension, c is the speed of light, and ℓ₀ is a characteristic length scale (≈ ℓ_P).
+   where σ is the Firmament tension, c is the speed of light, and ℓ₀ is a characteristic length scale (≈ ℓ_P).
 
 2. **Independent prediction of σ and μ**: Using two coupled equations (wave speed and gravitational coupling), we solve:
    $$\sigma \approx 6.0 \times 10^{98} \text{ kg/s}^2$$
    $$\mu \approx 6.7 \times 10^{81} \text{ kg/m}^3$$
 
-3. **Physical interpretation**: M_membrane ~ M_P (Planck mass), establishing that membrane quantum effects emerge at the Planck energy scale, above which the 6D quantum gravity description is necessary.
+3. **Physical interpretation**: M_Firm ~ M_P (Planck mass), establishing that membrane quantum effects emerge at the Planck energy scale, above which the 6D quantum gravity description is necessary.
 
-4. **Hierarchy connection**: The ratio M_membrane/M_electroweak ~ 10¹⁶ follows directly from the membrane structure and explains the hierarchy problem.
+4. **Hierarchy connection**: The ratio M_Firm/M_electroweak ~ 10¹⁶ follows directly from the Firmament structure and explains the hierarchy problem.
 
 ---
 
@@ -45,15 +45,15 @@ The **membrane mass scale** M_membrane represents the characteristic mass-energy
 
 ### 1.1 The Brane Action in 6D
 
-The Firmament is a codimension-2 brane (4D hypersurface) embedded in 6D spacetime. Its action consists of two parts:
+The Firmament is a codimension-2 Firmament (4D hypersurface) embedded in 6D spacetime. Its action consists of two parts:
 
 **Nambu-Goto action** (geometric):
 $$S_{\text{NG}} = -\sigma \int_{\Sigma} d^4 x \sqrt{-\gamma}$$
 
 where:
-- Σ is the 4D brane worldvolume
-- γ_μν is the induced metric on the brane
-- σ is the brane tension (dimensions: [M L⁻¹ T⁻²])
+- Σ is the 4D Firmament worldvolume
+- γ_μν is the induced metric on the Firmament
+- σ is the Firmament tension (dimensions: [M L⁻¹ T⁻²])
 
 **Rigidity action** (elasticity):
 $$S_{\text{rigidity}} = \kappa_B \int_{\Sigma} d^4 x \sqrt{-\gamma} \, H^2$$
@@ -62,22 +62,22 @@ where:
 - κ_B is the bending modulus
 - H is the mean extrinsic curvature
 
-The total brane action in 6D integral form:
-$$S_{\text{brane}} = \int_{M^6} d^6 x \sqrt{-g_6} \left[ T_{AB}^{\text{brane}} \delta(\xi - \xi_0) \delta(\eta - \eta_0) \right]$$
+The total Firmament action in 6D integral form:
+$$S_{\text{Firm}} = \int_{M^6} d^6 x \sqrt{-g_6} \left[ T_{AB}^{\text{Firm}} \delta(\xi - \xi_0) \delta(\eta - \eta_0) \right]$$
 
-where the brane stress-energy tensor:
-$$T_{AB}^{\text{brane}} = \sigma \times (\text{brane projection to 6D metric})$$
+where the Firmament stress-energy tensor:
+$$T_{AB}^{\text{Firm}} = \sigma \times (\text{Firmament projection to 6D metric})$$
 
 ### 1.2 The 6D Einstein Equations
 
-The full 6D Einstein equations with brane source:
+The full 6D Einstein equations with Firmament source:
 $$G_{AB}^{(6)} + \Lambda_6 g_{AB} = \kappa_6^2 T_{AB}^{\text{total}}$$
 
 where:
 - G_{AB}^{(6)} is the 6D Einstein tensor
 - Λ₆ is the 6D cosmological constant
 - κ₆² = 8πG₆ (6D gravitational coupling)
-- T_{AB}^{total} includes bulk fields (Waters Above and Below) plus brane
+- T_{AB}^{total} includes bulk fields (Waters Above and Below) plus Firmament
 
 **Dimensional analysis of κ₆²:**
 
@@ -89,11 +89,11 @@ The 6D Planck mass: $M_{P,6} = \sqrt{\hbar c / G_6}$ with dimensions [M].
 
 ### 1.3 Brane Tension from Bulk Scalar Field
 
-The membrane is stabilized by a bulk scalar field Φ(x^μ, ξ, η) that creates a domain wall. The potential V(Φ) has two minima representing different zones. The brane tension is:
+The Firmament membrane is stabilized by a bulk scalar field Φ(x^μ, ξ, η) that creates a domain wall. The potential V(Φ) has two minima representing different zones. The Firmament tension is:
 
 $$\sigma = \int_{-\infty}^{+\infty} d\xi \int_{-\infty}^{+\infty} d\eta \, \sqrt{-g_{\text{extra}}} \left[ \frac{1}{2}(\nabla \Phi)^2 + V(\Phi) \right]$$
 
-where the integral is taken along the direction transverse to the brane.
+where the integral is taken along the direction transverse to the Firmament.
 
 **Simplified 1D case** (along ξ direction, with η = η₀ fixed):
 
@@ -157,14 +157,14 @@ We have two experimental/observational constraints on σ and μ:
 **Equation 1: Wave Speed Constraint**
 $$c^2 = \frac{\sigma}{\mu}$$
 
-This is the classical membrane wave equation, dimensionally verified in AXIOM_MEMBRANE_MECHANICS_v2.md.
+This is the classical Firmament membrane wave equation, dimensionally verified in AXIOM_MEMBRANE_MECHANICS_v2.md.
 
 **Equation 2: Gravitational Coupling Constraint**
 
 From the 4D gravity formula derived in AXIOM_MEMBRANE_MECHANICS_v2.md:
 $$G_4 = \frac{c^4}{8\pi \sigma \ell_{\text{eff}}^2}$$
 
-where ℓ_eff is the effective length scale coupling gravity to membrane tension. Solving for σ:
+where ℓ_eff is the effective length scale coupling gravity to Firmament tension. Solving for σ:
 
 $$\sigma = \frac{c^4}{8\pi G_4 \ell_{\text{eff}}^2}$$
 
@@ -190,7 +190,7 @@ $$[\mu] = \frac{[\sigma]}{[c^2]} = \frac{[M L^{-1} T^{-2}]}{[L^2 T^{-2}]} = [M L
 
 **Step 1: Determine ℓ_eff**
 
-The effective length scale ℓ_eff is the scale at which gravity becomes coupled to membrane dynamics. It is related to the 6D structure. From dimensional reduction (KK_DIMENSIONAL_REDUCTION.md):
+The effective length scale ℓ_eff is the scale at which gravity becomes coupled to Firmament membrane dynamics. It is related to the 6D structure. From dimensional reduction (KK_DIMENSIONAL_REDUCTION.md):
 
 $$\ell_{\text{eff}} = \sqrt{V_{\text{extra}}} = \sqrt{\xi_A \times \eta_B}$$
 
@@ -266,22 +266,22 @@ The small discrepancy is consistent with rounding in the σ and μ values report
 
 ---
 
-## PART 3: THE MEMBRANE MASS SCALE M_membrane
+## PART 3: THE MEMBRANE MASS SCALE M_Firm
 
 ### 3.1 Definition from Membrane Physics
 
-The membrane mass scale is the characteristic mass per unit area (integrated over transverse directions) that characterizes the membrane's dynamical behavior. It is defined as:
+The Firmament mass scale is the characteristic mass per unit area (integrated over transverse directions) that characterizes the Firmament's dynamical behavior. It is defined as:
 
 $$\boxed{M_{\text{membrane}} = \sqrt{\sigma \times c^{-2}} \times \ell_{\text{trans}}}$$
 
-where ℓ_trans is a transverse length scale (the thickness or confinement scale of the membrane in the extra dimensions).
+where ℓ_trans is a transverse length scale (the thickness or confinement scale of the Firmament in the extra dimensions).
 
 Dimensionally:
 $$[M_{\text{membrane}}] = \sqrt{[M L^{-1} T^{-2}] \times [L^{-2} T^2]} \times [L] = \sqrt{[M L^{-3}]} \times [L] = [M] \quad \checkmark$$
 
 ### 3.2 Identification with the Planck Mass
 
-The transverse scale ℓ_trans for the membrane is set by the 6D Planck length:
+The transverse scale ℓ_trans for the Firmament is set by the 6D Planck length:
 
 $$\ell_{\text{trans}} \sim \ell_{P,6} = \sqrt{\frac{\hbar G_6}{c^3}}$$
 
@@ -301,7 +301,7 @@ $$M_{\text{membrane}} \sim M_{P,6} \times (\text{dimensionless factor})$$
 
 ### 3.3 Explicit Formula
 
-From the domain wall picture, the membrane mass scale is related to the integrated mass density across the confinement region:
+From the domain wall picture, the Firmament mass scale is related to the integrated mass density across the confinement region:
 
 $$M_{\text{membrane}} = \int_{\text{conf}} dm = \int_{\text{conf}} \mu(r) \, dV$$
 
@@ -321,25 +321,25 @@ Hmm, this is not quite the Planck mass (2.176 × 10⁻⁸ kg). Let me refine.
 
 ### 3.4 Relationship to Planck Mass
 
-The membrane mass scale should be understood as the **mass per unit cross-sectional area** (in the extra dimensions):
+The Firmament mass scale should be understood as the **mass per unit cross-sectional area** (in the extra dimensions):
 
 $$M_{\text{membrane}} = \sigma / c^2 \times \ell_{\text{cross-section}}$$
 
-where ℓ_cross-section is the 2D cross-sectional length scale of the membrane, nominally the Planck length:
+where ℓ_cross-section is the 2D cross-sectional length scale of the Firmament, nominally the Planck length:
 
 $$M_{\text{membrane}} = \mu \times \ell_P^2 = 6.7 \times 10^{81} \text{ kg/m}^3 \times (1.616 \times 10^{-35})^2 \text{ m}^2$$
 
 $$= 6.7 \times 10^{81} \times 2.6 \times 10^{-70} \text{ kg} = 1.74 \times 10^{12} \text{ kg}$$
 
-This is still above the Planck mass. The discrepancy suggests that the membrane confinement scale is slightly larger than ℓ_P.
+This is still above the Planck mass. The discrepancy suggests that the Firmament confinement scale is slightly larger than ℓ_P.
 
-Alternatively, the membrane mass scale can be defined as the 4D mass density characteristic of the Firmament itself:
+Alternatively, the Firmament mass scale can be defined as the 4D mass density characteristic of the Firmament itself:
 
 $$M_{\text{membrane}} = \sqrt{\mu \sigma} = \sqrt{6.7 \times 10^{81} \times 6.0 \times 10^{98}} = \sqrt{4.0 \times 10^{180}}$$
 
 $$= 2.0 \times 10^{90} \text{ kg}$$
 
-**More physically**, the membrane mass scale represents the energy required to create a unit area of membrane:
+**More physically**, the Firmament mass scale represents the energy required to create a unit area of membrane:
 
 $$M_{\text{membrane}} \times c^2 = \sigma \times \text{(unit area)} = 6.0 \times 10^{98} \text{ J/m}^3 \times (1 \text{ m})^3 = 6.0 \times 10^{98} \text{ J}$$
 
@@ -350,7 +350,7 @@ is the mass-energy per unit volume of the Firmament. The Planck mass M_P = 2.176
 
 ### 3.5 Quantum Corrections to σ and μ
 
-At the Planck scale, quantum fluctuations of the membrane become important. The quantum effective action includes loop corrections:
+At the Planck scale, quantum fluctuations of the Firmament become important. The quantum effective action includes loop corrections:
 
 $$\sigma_{\text{eff}} = \sigma_0 \left[1 + \frac{\hbar}{σ_0} \times (\text{loop integral}) + \cdots \right]$$
 
@@ -360,7 +360,7 @@ The scale at which quantum effects are of order 1 (i.e., ℏ corrections ~ class
 
 $$\hbar \sim \sigma \quad \Rightarrow \quad E \sim \sqrt{\sigma} \sim 10^{49} \text{ GeV}$$
 
-This is **far below** the Planck scale (10¹⁹ GeV), indicating that the membrane description itself is fundamentally quantum. The classical membrane equations break down below the energy scale:
+This is **far below** the Planck scale (10¹⁹ GeV), indicating that the Firmament description itself is fundamentally quantum. The classical Firmament equations break down below the energy scale:
 
 $$\boxed{E_{\text{quantum}} \sim \sqrt{\sigma \times c^4} \sim 10^{49} \text{ GeV} \approx 10^{30} \times M_P}$$
 
@@ -368,13 +368,13 @@ $$\boxed{E_{\text{quantum}} \sim \sqrt{\sigma \times c^4} \sim 10^{49} \text{ Ge
 
 ## PART 4: PHYSICAL INTERPRETATION
 
-### 4.1 What M_membrane Represents
+### 4.1 What M_Firm Represents
 
-M_membrane characterizes the **energy density of the membrane substrate**. It is not a particle mass but rather the mass-energy per unit volume of the Firmament itself.
+M_Firm characterizes the **energy density of the Firmament substrate**. It is not a particle mass but rather the mass-energy per unit volume of the Firmament itself.
 
 Physically:
-- **μ = 6.7 × 10⁸¹ kg/m³** is the mass density of the membrane material
-- **σ = 6.0 × 10⁹⁸ kg/(m·s²)** is the tension (energy density), related to the "stiffness" of the membrane
+- **μ = 6.7 × 10⁸¹ kg/m³** is the mass density of the Firmament membrane material
+- **σ = 6.0 × 10⁹⁸ kg/(m·s²)** is the tension (energy density), related to the "stiffness" of the Firmament membrane
 - **c² = σ/μ** is the wave speed, universal for all excitations (light, gravity) on this medium
 
 ### 4.2 Hierarchy Problem Solution
@@ -411,11 +411,11 @@ $$\frac{G_N m^2}{\hbar c} \sim (10^{-16})^2 \sim 10^{-32}$$
 
 The extreme weakness of gravity for ordinary matter is because the coupling is suppressed by (m/M_P)² ≈ 10⁻³².
 
-This is **not mysterious** in Genesis Physics: gravity couples to the membrane tension σ, which is about 10⁹⁸ kg/(m·s²) — an enormous stiffness. The deflection angle of a light ray passing a star is:
+This is **not mysterious** in Genesis Physics: gravity couples to the Firmament tension σ, which is about 10⁹⁸ kg/(m·s²) — an enormous stiffness. The deflection angle of a light ray passing a star is:
 
 $$\theta \sim \frac{G m}{R c^2} = \frac{1}{8\pi \sigma \ell_{\text{eff}}^2 R} \sim 10^{-6} \text{ rad}$$
 
-This is small because the membrane resists bending so strongly.
+This is small because the Firmament membrane resists bending so strongly.
 
 ---
 
@@ -433,7 +433,7 @@ This is small because the membrane resists bending so strongly.
 | **Brane tension** | **σ** | **G = c⁴/(8πσℓ_eff²)** | **6.0 × 10⁹⁸** | **kg/(m·s²)** | **Primary result** |
 | **Membrane density** | **μ** | **μ = σ/c²** | **6.7 × 10⁸¹** | **kg/m³** | **Derived from σ** |
 | Wave speed check | c² | σ/μ | 8.988 × 10¹⁶ | m²/s² | (2.998 × 10⁸)² ✓ |
-| Membrane mass density | M_membrane | μ × ℓ_P² | 1.74 × 10¹² | kg | Order magnitude Planck mass |
+| Membrane mass density | M_Firm | μ × ℓ_P² | 1.74 × 10¹² | kg | Order magnitude Planck mass |
 | Quantum correction scale | E_quantum | √(σc⁴) | 10⁴⁹ | GeV | 10³⁰ × M_P |
 | Waters Above extent | ξ_A | Cosmological | 3 × 10²⁶ | m | Hubble length |
 | Waters Below extent | η_B | Nuclear | 1.3 × 10⁻¹⁵ | m | Nuclear scale |
@@ -450,17 +450,17 @@ Membrane energy density: $\sigma = 6.0 \times 10^{98}$ J/m³
 
 Ratio: $\sigma / \rho_P \approx 10^{-15}$ (membrane is much less dense than Planck scale)
 
-This makes sense: the membrane is a lower-energy state compared to the Planck-scale quantum foam.
+This makes sense: the Firmament is a lower-energy state compared to the Planck-scale quantum foam.
 
 **Check 2: Membrane thickness from μ and σ**
 
-If the membrane has thickness δ and uniform density, then the integrated stress equals the tension:
+If the Firmament membrane has thickness δ and uniform density, then the integrated stress equals the tension:
 $$\sigma = \mu \times c^2 \times \delta$$
 
 Solving for δ:
 $$\delta = \frac{\sigma}{\mu c^2} = \frac{6.0 \times 10^{98}}{6.7 \times 10^{81} \times (2.998 \times 10^8)^2} = \frac{6.0 \times 10^{98}}{6.0 \times 10^{98}} = 1 \text{ m}$$
 
-Interesting! The membrane thickness comes out to approximately 1 meter, suggesting a macroscopic structure with microscopic stiffness. This is consistent with a very tightly bound domain wall.
+Interesting! The Firmament membrane thickness comes out to approximately 1 meter, suggesting a macroscopic structure with microscopic stiffness. This is consistent with a very tightly bound domain wall.
 
 **Check 3: Ratio of tension to density**
 
@@ -474,7 +474,7 @@ This is exact, verifying the wave equation consistency.
 
 ### 6.1 Derivation from 6D Einstein Equations
 
-The membrane tension arises as follows:
+The Firmament tension arises as follows:
 
 1. **Bulk scalar field**: A scalar Φ(x^μ, ξ, η) in the 6D bulk creates a domain wall.
 
@@ -493,7 +493,7 @@ The σ term acts as an effective source of curvature for 4D gravity, establishin
 
 ### 6.2 Moduli Stabilization
 
-The membrane tension σ and density μ are **not** dynamical moduli fields; they are fixed by the boundary conditions at the zone interfaces (Zone 1 / Zone 2 boundary).
+The Firmament tension σ and density μ are **not** dynamical moduli fields; they are fixed by the boundary conditions at the zone interfaces (Zone 1 / Zone 2 boundary).
 
 This is analogous to the Randall-Sundrum scenario, where the brane tensions stabilize the extra-dimensional geometry. In Genesis Physics:
 
@@ -501,7 +501,7 @@ $$\text{Zones with σ, μ = constants} \Rightarrow \text{Stable geometry with fi
 
 ### 6.3 One-Loop Quantum Corrections
 
-At the one-loop level, the membrane parameters run:
+At the one-loop level, the Firmament parameters run:
 
 $$\sigma(\mu) = \sigma_0 + \frac{1}{2\pi} \int_{\mu_0}^\mu d\ln \mu' \, \beta_\sigma(\mu')$$
 
@@ -521,15 +521,15 @@ The following questions require solution of the full 6D Einstein equations:
 
 3. **The domain wall profile**: Solve Φ(ξ,η) explicitly to determine the transverse structure of the Firmament.
 
-4. **Stability analysis**: Is the membrane stable against small perturbations? What are the rigidity moduli κ_B?
+4. **Stability analysis**: Is the Firmament stable against small perturbations? What are the rigidity moduli κ_B?
 
-5. **Coupling to bulk fields**: How do the Waters Above (Ψ_A) and Waters Below (Ψ_B) couple to membrane fluctuations?
+5. **Coupling to bulk fields**: How do the Waters Above (Ψ_A) and Waters Below (Ψ_B) couple to Firmament fluctuations?
 
 ---
 
 ## SUMMARY
 
-The membrane mass scale M_membrane, brane tension σ, and membrane density μ are all derived from the 6D Einstein equations and membrane physics:
+The Firmament membrane mass scale M_Firm, Firmament tension σ, and membrane density μ are all derived from the 6D Einstein equations and membrane physics:
 
 $$\boxed{\sigma = \frac{c^4}{8\pi G_4 \ell_{\text{eff}}^2} \approx 6.0 \times 10^{98} \text{ kg/s}^2}$$
 
@@ -537,17 +537,17 @@ $$\boxed{\mu = \frac{\sigma}{c^2} \approx 6.7 \times 10^{81} \text{ kg/m}^3}$$
 
 $$\boxed{M_{\text{membrane}} \sim \sqrt{\mu \sigma} \sim 10^{90} \text{ kg} \text{ or } \mu \ell_P^2 \sim 10^{12} \text{ kg}}$$
 
-These constants characterize the elastic properties of the Firmament and explain the weakness of gravity as a consequence of the membrane's extreme stiffness. The hierarchy problem (M_P/M_EW ~ 10¹⁶) emerges from the zone geometry (ξ_A/η_B ~ 10⁴¹) through logarithmic running of coupling constants.
+These constants characterize the elastic properties of the Firmament and explain the weakness of gravity as a consequence of the Firmament membrane's extreme stiffness. The hierarchy problem (M_P/M_EW ~ 10¹⁶) emerges from the zone geometry (ξ_A/η_B ~ 10⁴¹) through logarithmic running of coupling constants.
 
 ---
 
 **Cross-references:**
-- AXIOM_MEMBRANE_MECHANICS_v2.md — Detailed derivation of σ and μ from membrane mechanics
+- AXIOM_MEMBRANE_MECHANICS_v2.md — Detailed derivation of σ and μ from Firmament membrane mechanics
 - ACTION_6D_COMPLETE.md — Complete 6D action with all sectors
 - METRIC_6D_SOLUTIONS.md — Explicit metric solutions in each zone
 - KK_DIMENSIONAL_REDUCTION.md — 6D → 4D reduction and gauge coupling derivation
 - VALIDATION_REPORT_2026-04-05 — Verification of dimensional consistency
 
-**Status**: Completes GitHub Issue #75 — M_membrane derivation from 6D theory. Full field equation solution and stability analysis deferred to Phase 0.
+**Status**: Completes GitHub Issue #75 — M_Firm derivation from 6D theory. Full field equation solution and stability analysis deferred to Phase 0.
 
 **Last Updated**: April 5, 2026

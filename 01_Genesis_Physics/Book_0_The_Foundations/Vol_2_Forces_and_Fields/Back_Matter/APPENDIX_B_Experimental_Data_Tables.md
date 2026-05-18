@@ -27,8 +27,8 @@ These parameters define the 6D zone architecture at the foundation of Genesis Ph
 
 | Parameter | Symbol | Zone Value | Units | Uncertainty | Source | Chapter | Notes |
 |-----------|--------|-----------|-------|-------------|--------|---------|-------|
-| Membrane surface tension (6D) | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | ±10% | Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4 | Vol 1 Ch 3; Vol 2 Ch 1 | Fundamental scale from zone coupling geometry |
-| Membrane areal mass density | μ | 6.7 × 10⁸¹ | kg/m³ | ±10% | Derived from membrane equation of motion; Vol 1, Ch 5, §5.2 | Vol 2 Ch 1 | Related to Planck mass: M_Pl² ∝ σ/μ |
+| Firmament membrane surface tension (6D) | σ | 6.0 × 10⁹⁸ | kg/(m·s²) | ±10% | Derived from Planck-scale dimensional analysis; Vol 1, Ch 3, §3.4 | Vol 1 Ch 3; Vol 2 Ch 1 | Fundamental scale from zone coupling geometry |
+| Membrane areal mass density | μ | 6.7 × 10⁸¹ | kg/m³ | ±10% | Derived from Firmament membrane equation of motion; Vol 1, Ch 5, §5.2 | Vol 2 Ch 1 | Related to Planck mass: M_Pl² ∝ σ/μ |
 | Waters Above scale (cosmological) | ξ_A | 3.0 × 10²⁶ | m | ±1% | Observable universe radius; c·t_0 where t_0 ~ 10¹⁰ years | Vol 1 Ch 3 | Matches modern cosmic horizon ~1.4 × 10²⁶ m |
 | Waters Below scale (nuclear) | η_B | 1.3 × 10⁻¹⁵ | m | ±5% | Inverse membrane scale Q_m ~ ℏc/η_B ≈ 1 GeV | Vol 2 Ch 10 | Corresponds to strong-force confinement scale |
 | Effective Firmament thickness | L_eff | 8.96 × 10⁻²⁹ | m | ±5% | Geometric mean from 6D warp-factor integrals; Vol 2, Ch 2, Eq. (2.2.29) | Vol 2 Ch 1 | Related to warp factor profiles |
@@ -51,7 +51,7 @@ This table presents the four fundamental coupling constants of Genesis Physics. 
 | Quantity | Symbol | Zone Derivation | Measured Value | Relative Agreement | Source | Chapter | Notes |
 |----------|--------|-----------------|-----------------|-------------------|--------|---------|-------|
 | Newton's gravitational constant | G₄ | 6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻² | 6.67430(15) × 10⁻¹¹ m³ kg⁻¹ s⁻² | **0.06%** | CODATA 2018 (Tiesinga et al., 2021; https://doi.org/10.1038/s41592-021-01174-8) | Ch 2 | Derived from 6D Einstein-Hilbert action + KK reduction; hierarchy explained by V_extra factor |
-| 6D Planck mass | M₆ | ~10¹⁶ GeV | — | — | Derived from σ, μ, and zone volume scaling (10-GRAVITATIONAL_CONSTANT_DERIVATION.md) | Ch 2 | Connects membrane tension to effective Planck scale |
+| 6D Planck mass | M₆ | ~10¹⁶ GeV | — | — | Derived from σ, μ, and zone volume scaling (10-GRAVITATIONAL_CONSTANT_DERIVATION.md) | Ch 2 | Connects Firmament tension to effective Planck scale |
 | Hierarchy factor (effective) | G₄/c² · (ratio) | ~10⁻²⁷ m/kg | Observed as G₄ suppression | ~10⁻²⁷ (dimensionless factor) | Explained by V_extra ~ 10⁶¹ m²; no fitting parameter in Genesis Physics | Ch 2 | First solution to hierarchy problem: geometric origin |
 
 **Derivation Source**: 10-GRAVITATIONAL_CONSTANT_DERIVATION.md (complete step-by-step from 6D action)
@@ -420,11 +420,11 @@ For each zone-derived quantity in Volume 2, this section identifies dominant sou
 
 | Source | Contribution to Uncertainty | Magnitude | Dominant Factor |
 |--------|---------------------------|-----------|-----------------|
-| Membrane surface tension σ (6D) | Logarithmic (σ enters G₄ ∝ σ/V_extra) | ~10% | 6D Planck scale determination |
+| Firmament membrane surface tension σ (6D) | Logarithmic (σ enters G₄ ∝ σ/V_extra) | ~10% | 6D Planck scale determination |
 | Extra-dimensional volume V_extra | Direct proportionality: G₄ = G₆/V_extra | ~5% | Warp factor profile |
 | Waters Above scale ξ_A | Logarithmic (enters ln ratio) | ~1% | Cosmological horizon measurement |
 | Waters Below scale η_B | Logarithmic (enters ln ratio) | ~1% | Strong-force scale |
-| **Combined (quadrature)** | √(10² + 5² + 1² + 1²) | **~11%** | Membrane tension dominates |
+| **Combined (quadrature)** | √(10² + 5² + 1² + 1²) | **~11%** | Firmament tension dominates |
 
 **Comparison to Measured Uncertainty**:
 - Measured G₄: ±0.06% (CODATA 2018)

@@ -148,7 +148,7 @@ Hadron: the expression. Quark content: sss. m_ exp (MeV): 1672.45(29). Zone stat
 
 The 94% rule for proton mass.
 
-Only about 6 MeV of the proton's 938 MeV comes from quark rest masses. The remaining the expression is strong-interaction binding energy — gluon fields, quark kinetic energy, and vacuum condensates. The zone framework shows why this must be so (the confinement scale Lambda _ QCD is set by the membrane tension in Ch 12), but it does not compute the exact number 938.272 from first principles any more than standard QCD does. Both frameworks currently rely on lattice calculation for that digit.
+Only about 6 MeV of the proton's 938 MeV comes from quark rest masses. The remaining the expression is strong-interaction binding energy — gluon fields, quark kinetic energy, and vacuum condensates. The zone framework shows why this must be so (the confinement scale Lambda _ QCD is set by the Firmament membrane tension in Ch 12), but it does not compute the exact number 938.272 from first principles any more than standard QCD does. Both frameworks currently rely on lattice calculation for that digit.
 
 B.8 Neutrinos — the Honest 1000× Regime.
 

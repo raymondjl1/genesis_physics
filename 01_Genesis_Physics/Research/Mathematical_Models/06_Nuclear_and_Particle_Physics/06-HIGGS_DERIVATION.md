@@ -27,13 +27,13 @@
 
 ## EXECUTIVE SUMMARY
 
-This document derives the Standard Model Higgs mechanism from first principles in the Genesis Physics 6D membrane framework, with complete mathematical rigor and dimensional consistency.
+This document derives the Standard Model Higgs mechanism from first principles in the Genesis Physics 6D Firmament framework, with complete mathematical rigor and dimensional consistency.
 
 **The Derivation Chain:**
 
 6D Action → Waters Above Scalar Ψ_A → KK Decomposition → Zero Mode = Higgs → Mexican Hat from Boundary Conditions → Spontaneous Symmetry Breaking → v = 246 GeV
 
-**Key Physical Insight**: The Waters Above scalar field Ψ_A, when Kaluza-Klein decomposed into 4D modes in the ξ-direction, produces a scalar doublet with SU(2)×U(1) quantum numbers. The lowest ξ-mode acts as the Standard Model Higgs field. Boundary conditions at the Firmament (ξ=0)—arising from the membrane tension σ (≈ 10^98 kg/(m·s²))—generate a negative effective mass-squared term, triggering spontaneous electroweak symmetry breaking at the correct scale.
+**Key Physical Insight**: The Waters Above scalar field Ψ_A, when Kaluza-Klein decomposed into 4D modes in the ξ-direction, produces a scalar doublet with SU(2)×U(1) quantum numbers. The lowest ξ-mode acts as the Standard Model Higgs field. Boundary conditions at the Firmament (ξ=0)—arising from the Firmament tension σ (≈ 10^98 kg/(m·s²))—generate a negative effective mass-squared term, triggering spontaneous electroweak symmetry breaking at the correct scale.
 
 **Key Results Derived:**
 - Higgs VEV: v = 246.22 GeV
@@ -72,14 +72,14 @@ The potential must satisfy: $[V_A] = [M L^{-2} T^{-2}]$ (energy density in 6D)
 
 ### 1.2 The Waters Above Potential from Membrane Boundary Physics
 
-The Waters Above field Ψ_A is sourced by boundary conditions at the Firmament brane located at ξ = 0. The effective potential emerges from domain wall mechanics in MEMBRANE_MASS_SCALE.md.
+The Waters Above field Ψ_A is sourced by boundary conditions at the Firmament located at ξ = 0. The effective potential emerges from domain wall mechanics in MEMBRANE_MASS_SCALE.md.
 
 **The Potential Form:**
 
 $$V_A(\Psi_A) = -\frac{m_A^2}{2} \Psi_A^2 + \frac{\lambda_A}{4!} \Psi_A^4 + \Delta V_{\text{boundary}}$$
 
 where:
-- $m_A^2 = m_0^2 - \Delta m_{\text{membrane}}^2$ (membrane tension reduces effective mass)
+- $m_A^2 = m_0^2 - \Delta m_{\text{membrane}}^2$ (Firmament tension reduces effective mass)
 - $\lambda_A$ is the dimensionless quartic self-coupling in 6D
 - $\Delta V_{\text{boundary}}$ contains contributions from Firmament interface
 
@@ -90,7 +90,7 @@ $$\sigma = 6.0 \times 10^{98} \text{ kg/s}^2$$
 
 (derived in MEMBRANE_MASS_SCALE.md from 6D Einstein equations)
 
-When the Waters Above field couples to the membrane, it generates an effective potential contribution:
+When the Waters Above field couples to the Firmament, it generates an effective potential contribution:
 
 $$\Delta V_{\text{membrane}} = -\alpha \sigma \times \frac{c^2}{\xi_A^2} \times \Psi_A^2$$
 
@@ -114,7 +114,7 @@ where:
 At ξ = 0 (Firmament boundary): **Dirichlet condition**
 $$\psi_{n_\xi}(0) = 0$$
 
-This reflects that the impenetrable Firmament brane acts as a hard wall for quantum fields.
+This reflects that the impenetrable Firmament acts as a hard wall for quantum fields.
 
 At ξ = ξ_A (far boundary of Waters Above): **Asymptotic decay**
 $$\psi_{n_\xi}(\xi_A) \rightarrow 0$$
@@ -175,7 +175,7 @@ $$m_1 c^2 = 3.3 \times 10^{-52} \times (3 \times 10^8)^2 / (1.6 \times 10^{-19} 
 1. Boundary effects at ξ = 0 (Firmament interface)
 2. Warp factors in the 6D metric
 3. Coupling to gauge fields and matter
-4. **Most importantly: the membrane tension effect**
+4. **Most importantly: the Firmament tension effect**
 
 These corrections boost the effective mass from 10^{-35} eV to 88 GeV—an enhancement of order 10^{43}. This is not fine-tuning but a natural consequence of the 6D geometry.
 
@@ -254,7 +254,7 @@ $$V_{\text{eff}}(H) = \int_0^{\xi_A} d\xi \int_0^{\eta_B} d\eta \, \sqrt{-g_6(\x
 
 Most of the potential contribution comes from near ξ = 0 (the Firmament) because:
 1. The Firmament creates a discontinuity in extrinsic curvature
-2. The membrane tension σ couples strongly there
+2. The Firmament tension σ couples strongly there
 3. The ξ-wavefunction has its steepest spatial gradient at ξ = 0:
    $$\frac{d\psi_1}{d\xi}\bigg|_{\xi=0} = \frac{\pi}{\xi_A} \sqrt{\frac{2}{\xi_A}}$$
 
@@ -352,7 +352,7 @@ From these two measurements:
 
 $$\boxed{v = 246.22 \text{ GeV}}$$
 
-This emerges from the membrane tension σ through dimensional analysis:
+This emerges from the Firmament tension σ through dimensional analysis:
 
 $$\mu^2 \propto \sigma c^2 / \xi_A^2 \approx (88.4 \text{ GeV})^2$$
 
@@ -659,9 +659,9 @@ $$\text{Error} = \frac{125.1 - 125.10}{125.10} = 0.008\%$$
 
 This is the most precise prediction of the Genesis Physics framework.
 
-### 6.3 Membrane Tension Constraint on λ
+### 6.3 Firmament Tension Constraint on λ
 
-The quartic coupling λ is constrained by the membrane structure. From the overlap formula:
+The quartic coupling λ is constrained by the Firmament structure. From the overlap formula:
 
 $$\lambda = \lambda_A \times \frac{9}{4\xi_A\eta_B}$$
 
@@ -719,7 +719,7 @@ where:
 
 The Higgs VEV is concentrated near ξ = 0 due to:
 1. Boundary condition $\psi_1(0) = 0$ creates potential well
-2. Membrane tension σ creates energy minimum at Firmament
+2. Firmament tension σ creates energy minimum at Firmament
 3. Condensate lives in ground state of this potential
 
 Approximate form:
@@ -810,12 +810,12 @@ $$\boxed{y_t \approx 1}$$
 
 The complete 6D action:
 
-$$S_{\text{total}} = S_{\text{grav}} + S_{\text{brane}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
+$$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}}$$
 
 The Higgs mechanism integrates four essential sectors:
 
 1. **S_waters**: Waters Above scalar Ψ_A is the fundamental field
-2. **S_brane**: Firmament boundary conditions (especially tension σ) generate μ²
+2. **S_Firm**: Firmament boundary conditions (especially tension σ) generate μ²
 3. **S_gauge**: 6D Yang-Mills structure produces SU(2)×U(1)
 4. **S_matter**: Fermion KK modes couple via Yukawa
 
@@ -823,7 +823,7 @@ Each sector is essential. Removing any one breaks the framework.
 
 ### 8.2 Connection to MEMBRANE_MASS_SCALE
 
-The brane tension derived in MEMBRANE_MASS_SCALE.md:
+The Firmament tension derived in MEMBRANE_MASS_SCALE.md:
 
 $$\sigma = 6.0 \times 10^{98} \text{ kg/s}^2$$
 
@@ -913,7 +913,7 @@ All parameters independently determined. Cannot be changed without modifying fun
 **Genesis Physics Core Documents:**
 
 1. ACTION_6D_COMPLETE.md — Complete 6D action with all sectors
-2. MEMBRANE_MASS_SCALE.md — Membrane tension derivation  
+2. MEMBRANE_MASS_SCALE.md — Firmament tension derivation  
 3. KK_DIMENSIONAL_REDUCTION.md — Kaluza-Klein reduction 6D→4D
 4. 10-COUPLING_CONSTANTS_DERIVATION.md — α, g, g', sin²θ_W
 5. WATERS_FIELD_EQUATIONS.md — Waters Above/Below dynamics
@@ -1172,7 +1172,7 @@ The VEV ⟨Ψ_A⟩ contributes to the cosmological constant:
 
 $$Λ_obs ∝ ⟨V_A(Ψ_A)⟩$$
 
-The same membrane tension σ that generates the Higgs mass also controls dark energy density.
+The same Firmament tension σ that generates the Higgs mass also controls dark energy density.
 
 **Connection**: Higgs sector and dark energy are unified in 6D.
 
@@ -1205,7 +1205,7 @@ Traditional approach: Higgs mechanism is "put in by hand" with arbitrary paramet
 Genesis Physics: Higgs mechanism emerges necessarily from 6D spacetime geometry.
 
 The electroweak scale v = 246 GeV is **not a free parameter** but a consequence of:
-- Membrane tension σ (Planck scale dynamics)
+- Firmament tension σ (Planck scale dynamics)
 - Zone extents ξ_A, η_B (cosmological geometry)
 - Coupling constants α, g, g' (6D isometries)
 

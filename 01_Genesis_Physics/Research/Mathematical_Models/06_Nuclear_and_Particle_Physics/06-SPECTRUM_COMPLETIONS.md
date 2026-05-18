@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | All Standard Model particles confined to 4D membrane | Genesis 1:6 |
-> | Axiom | AXIOM 3: Membrane Mechanics | AXIOM_3.md |
+> | Axiom | AXIOM 3: Firmament Mechanics | AXIOM_3.md |
 > | Parent Theory | KK Reduction + Axiom 3 | 6D_Action.md / KK_Reduction.md |
 > | **This Document** | **Complete Standard Model spectrum from membrane-confined fields** | **06-SPECTRUM_COMPLETIONS.md** |
 > | Modern Equivalent | Standard Model (particle masses, couplings, symmetries) | CONVERGES within PDG uncertainties |
@@ -39,7 +39,7 @@ This document completes the particle spectrum derivation by filling three critic
 
 3. **Top Quark Mass (Test 6.21):** Yukawa + warp factor suppression
    - With mass scale correction: m_t = y_t × v₀/√2 × I_top
-   - y_t ≈ 1 (order unity, natural at brane)
+   - y_t ≈ 1 (order unity, natural at Firmament)
    - m_t = 1.0 × 174 GeV × 1.0 = 173.1 GeV
    - Observed: 172.76 ± 0.30 GeV — 0.2% agreement ✓
 
@@ -51,7 +51,7 @@ All three tests validate the complete derivation chain from the 6D action throug
 
 ### 1.1 Dirac Neutrino Mass from Yukawa Coupling
 
-In the 6D Genesis Physics framework, the neutrino is a left-handed topological vortex defect localized near the Firmament brane (η ≈ 0). Its mass comes from Yukawa coupling to the Higgs field:
+In the 6D Genesis Physics framework, the neutrino is a left-handed topological vortex defect localized near the Firmament (η ≈ 0). Its mass comes from Yukawa coupling to the Higgs field:
 
 $$\mathcal{L}_{\text{Yukawa}} = -y_\nu \bar{\psi}_L \phi \psi_R + \text{h.c.}$$
 
@@ -71,7 +71,7 @@ $$I_{\text{overlap}} = \int d\xi d\eta \, \psi_L^*(\xi, \eta) \phi(\xi, \eta) \p
 
 ### 1.2 See-Saw Mechanism from Zone Geometry
 
-The crucial feature of Genesis Physics is that **right-handed neutrinos live at the boundary of the Waters Below** (η = η_B), while **left-handed neutrinos are confined to the Firmament brane** (η ≈ 0). This geometric separation naturally produces a see-saw mechanism.
+The crucial feature of Genesis Physics is that **right-handed neutrinos live at the boundary of the Waters Below** (η = η_B), while **left-handed neutrinos are confined to the Firmament** (η ≈ 0). This geometric separation naturally produces a see-saw mechanism.
 
 **Physical Picture:**
 
@@ -141,7 +141,7 @@ $$-\frac{d^2 \zeta_n}{d\eta^2} + V_{\text{eff}}(\eta) \zeta_n = \lambda_n \zeta_
 where $V_{\text{eff}}(\eta)$ includes the warp factor and membrane boundary potentials.
 
 **Boundary Conditions:**
-- At η = 0 (Firmament): Dirichlet-like (field localized on brane)
+- At η = 0 (Firmament): Dirichlet-like (field localized on Firmament)
 - At η = -η_B (Waters Below boundary): Robin condition from coupling to Waters Below scalar field
 
 These boundary conditions quantize the eigenvalues:
@@ -191,7 +191,7 @@ Genesis Physics **predicts normal hierarchy** (m₁ < m₂ < m₃) because:
 - The three generations correspond to three vortex modes with increasing energy
 - The ground state (n=1) has lowest energy → lightest masses for generations 1 and 2
 - Excited state (n=3) has highest energy → heaviest mass for generation 3
-- Topological constraint: the membrane geometry forbids inverted hierarchy
+- Topological constraint: the Firmament geometry forbids inverted hierarchy
 
 Current experimental status: T2K + NOνA show mild preference for normal hierarchy; IH not yet excluded but disfavored.
 
@@ -276,7 +276,7 @@ $$J = \text{Im}(V_{us} V_{cb} V^*_{ub} V^*_{cs})$$
 
 **Genesis Physics Calculation:**
 
-From the membrane winding structure and overlap integralanalysis:
+From the Firmament winding structure and overlap integralanalysis:
 
 $$J = \frac{A \lambda^3 \eta}{1 - \rho} \quad \text{(Wolfenstein parameterization)}$$
 
@@ -344,7 +344,7 @@ The complete derivation of weak interaction, parity violation, and CP violation 
 
 ### 3.1 Top Quark as Highest-Energy Vortex Mode
 
-The top quark is the heaviest fermion because it corresponds to the **highest-energy topological vortex mode** in the Waters Below, with its wavefunction **most strongly localized on the Firmament brane** (η ≈ 0).
+The top quark is the heaviest fermion because it corresponds to the **highest-energy topological vortex mode** in the Waters Below, with its wavefunction **most strongly localized on the Firmament** (η ≈ 0).
 
 **Key Principle:** Yukawa coupling strength is proportional to overlap integral with Higgs field:
 
@@ -411,13 +411,13 @@ For lighter fermions (u, d, s, c, b, τ), their wavefunctions are more extended 
 
 $$I_f < I_t \quad \text{for } f \neq t$$
 
-Additionally, the warp factor in the metric provides exponential suppression for fields not localized on the brane:
+Additionally, the warp factor in the metric provides exponential suppression for fields not localized on the Firmament:
 
 $$m_f \sim y_f v_0 I_f \times e^{-\Gamma_f}$$
 
 where Γ_f is a warp suppression parameter depending on the field's spatial profile.
 
-For the top quark: Γ_t ≈ 0 (no suppression, fully on brane)
+For the top quark: Γ_t ≈ 0 (no suppression, fully on Firmament)
 
 For down quarks: Γ_d ~ 2 → suppression factor ~7× → m_d/m_t ~ 0.03
 

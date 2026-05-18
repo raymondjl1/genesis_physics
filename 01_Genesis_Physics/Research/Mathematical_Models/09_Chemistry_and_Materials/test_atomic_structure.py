@@ -13,8 +13,8 @@ This test suite validates the following predictions from Genesis Physics:
 6. Periodic table structure: Show periodicity from shell filling
 
 All calculations derive from:
-- Genesis Physics framework: ψ = membrane displacement amplitude
-- Schrödinger equation derived from membrane wave equation
+- Genesis Physics framework: ψ = Firmament membrane displacement amplitude
+- Schrödinger equation derived from Firmament membrane wave equation
 - Pauli exclusion principle from fermionic topological defects
 - Coulomb potential from membrane curvature
 - Key constants:
@@ -67,7 +67,7 @@ class HydrogenAtomTest:
     Test: Hydrogen atom energy levels from Schrödinger equation
 
     In Genesis Physics, the Schrödinger equation is derived from the
-    membrane wave equation in the non-relativistic limit. For a single
+    Firmament membrane wave equation in the non-relativistic limit. For a single
     electron in the Coulomb potential of a nucleus:
 
     -ℏ²/(2m)∇²ψ - e²/(4πε₀r)ψ = Eψ
@@ -164,7 +164,7 @@ class HydrogenAtomTest:
             f"    E_4 = {energies_eV[3]:.3f} eV\n"
             f"    E_5 = {energies_eV[4]:.3f} eV\n"
             f"\n  Formula: E_n = -13.6 eV / n²\n"
-            f"  Physics: Coulomb potential in 6D membrane framework"
+            f"  Physics: Coulomb potential in 6D Firmament framework"
         )
 
         return results

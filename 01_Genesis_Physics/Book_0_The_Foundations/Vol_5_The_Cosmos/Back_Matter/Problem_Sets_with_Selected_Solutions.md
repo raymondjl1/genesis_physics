@@ -26,7 +26,7 @@ One problem set per chapter. Each set contains three to five problems organized 
 
 **P5.1.3 ★★** Show that the Bianchi identity $\nabla_\mu G^{\mu\nu} = 0$ applied to the Einstein field equations (5.1.0) implies energy-momentum conservation $\nabla_\mu T^{\mu\nu} = 0$. Explain why this is more fundamental than the Vol 1 Ch 7 derivation of conservation from Noether's theorem — what additional information does the Bianchi identity carry?
 
-**P5.1.4 ★★★** The effective cosmological constant $\Lambda_\text{eff}$ in Eq. (5.1.0) arises from the bulk energy density projected onto the brane. Starting from the 6D action, derive the condition under which $\Lambda_\text{eff}$ is positive and show that the condition is equivalent to the Waters Above being in equilibrium (Vol 1 §6.7). Why does this mean de Sitter expansion is a *consequence* of zone equilibrium, not an additional assumption?
+**P5.1.4 ★★★** The effective cosmological constant $\Lambda_\text{eff}$ in Eq. (5.1.0) arises from the bulk energy density projected onto the Firmament. Starting from the 6D action, derive the condition under which $\Lambda_\text{eff}$ is positive and show that the condition is equivalent to the Waters Above being in equilibrium (Vol 1 §6.7). Why does this mean de Sitter expansion is a *consequence* of zone equilibrium, not an additional assumption?
 
 ### Selected solution — P5.1.3
 
@@ -38,7 +38,7 @@ $$0 = \nabla_\mu G^{\mu\nu} = \frac{8\pi G_4}{c^4}\nabla_\mu T^{\mu\nu} - \Lambd
 
 Since $\nabla_\mu g^{\mu\nu} = 0$ (metric compatibility), we obtain $\nabla_\mu T^{\mu\nu} = 0$.
 
-Why is this "more fundamental" than Noether's theorem? Noether's theorem (Vol 1 Ch 7) gives conservation from *symmetry* of the action — it requires knowing the Lagrangian and identifying its symmetries. The Bianchi identity gives conservation from *geometry* — it holds for any metric tensor on any manifold, whether or not you know the action. In the zone framework, this means energy-momentum conservation on the brane is guaranteed by the geometry of the 6D embedding, even in regions where the brane action may be singular (e.g., near a black hole breach). The Noether argument would fail at a singularity; the Bianchi argument does not.
+Why is this "more fundamental" than Noether's theorem? Noether's theorem (Vol 1 Ch 7) gives conservation from *symmetry* of the action — it requires knowing the Lagrangian and identifying its symmetries. The Bianchi identity gives conservation from *geometry* — it holds for any metric tensor on any manifold, whether or not you know the action. In the zone framework, this means energy-momentum conservation on the Firmament is guaranteed by the geometry of the 6D embedding, even in regions where the Firmament action may be singular (e.g., near a black hole breach). The Noether argument would fail at a singularity; the Bianchi argument does not.
 
 ---
 
@@ -127,7 +127,7 @@ With more precise constants and the full relativistic correction factor, the the
 
 **P5.4.3 ★★** The Penrose process extracts energy from a Kerr black hole's ergosphere. Show that the maximum energy extraction efficiency is $\eta_\text{max} = 1 - 1/\sqrt{2} \approx 29\%$ by using the Christodoulou irreducible mass $M_\text{irr}^2 = \frac{1}{2}M^2(1 + \sqrt{1-a_*^2})$. Compare this to the efficiency of nuclear fusion ($\sim 0.7\%$) and matter-antimatter annihilation (100%).
 
-**P5.4.4 ★★★** The curvature parameter $\mathcal{C}(r) = GM/(rc^2)$ from Eq. (5.4.0) defines the strong-field boundary at $\mathcal{C} \sim 10^{-2}$. For the Sun, Earth, a neutron star ($M = 1.4 M_\odot$, $R = 10$ km), and a 10 $M_\odot$ black hole at $r = r_s$, compute $\mathcal{C}$ and classify each. Then explain: the zone framework derives the EFE from 6D geometry — in the strong-field regime, what new physics (if any) distinguishes the zone EFE from standard GR? Reference the membrane-puncture corrections from Ch 5.
+**P5.4.4 ★★★** The curvature parameter $\mathcal{C}(r) = GM/(rc^2)$ from Eq. (5.4.0) defines the strong-field boundary at $\mathcal{C} \sim 10^{-2}$. For the Sun, Earth, a neutron star ($M = 1.4 M_\odot$, $R = 10$ km), and a 10 $M_\odot$ black hole at $r = r_s$, compute $\mathcal{C}$ and classify each. Then explain: the zone framework derives the EFE from 6D geometry — in the strong-field regime, what new physics (if any) distinguishes the zone EFE from standard GR? Reference the Firmament-puncture corrections from Ch 5.
 
 ### Selected solution — P5.4.3
 
@@ -151,13 +151,13 @@ For comparison: hydrogen fusion converts 0.7% of rest mass to energy; the Penros
 
 **P5.5.1 ★** Using Eq. (5.5.1), verify that the wave speed $c = \sqrt{\sigma/\mu}$ gives $c = 3 \times 10^8$ m/s for $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) and $\mu \approx 6.7 \times 10^{81}$ kg/m³. Why are these extreme values not physically problematic? (Hint: what are the natural units of the Firmament?)
 
-**P5.5.2 ★★** The Breach Theorem (5.5.1) states that the membrane tension vanishes at $r = r_s$: $\sigma(r) = \sigma_\infty(1 - r_s/r) \to 0$ as $r \to r_s$. Derive the Bekenstein–Hawking entropy $S_\text{BH} = k_B A/(4\ell_P^2)$ from the mode-counting argument of §5.8: count the number of membrane oscillation modes with wavelength $\lambda \ge \ell_P$ on a sphere of area $A$, and show that $\ln\Omega \propto A/\ell_P^2$.
+**P5.5.2 ★★** The Breach Theorem (5.5.1) states that the Firmament tension vanishes at $r = r_s$: $\sigma(r) = \sigma_\infty(1 - r_s/r) \to 0$ as $r \to r_s$. Derive the Bekenstein–Hawking entropy $S_\text{BH} = k_B A/(4\ell_P^2)$ from the mode-counting argument of §5.8: count the number of Firmament membrane oscillation modes with wavelength $\lambda \ge \ell_P$ on a sphere of area $A$, and show that $\ln\Omega \propto A/\ell_P^2$.
 
-**P5.5.3 ★★★** Theorem 5.5.2 (Consistency) states that all exterior observables are identical between the membrane model and standard GR. This is a strong claim. Identify the key assumption in the proof (hint: it is the Israel junction conditions Eq. (5.8.3)), and construct a thought experiment in which a violation of this assumption would produce an observable difference. Is this thought experiment physically realizable?
+**P5.5.3 ★★★** Theorem 5.5.2 (Consistency) states that all exterior observables are identical between the Firmament membrane model and standard GR. This is a strong claim. Identify the key assumption in the proof (hint: it is the Israel junction conditions Eq. (5.8.3)), and construct a thought experiment in which a violation of this assumption would produce an observable difference. Is this thought experiment physically realizable?
 
 ### Selected solution — P5.5.2
 
-Consider a sphere of area $A = 4\pi r_s^2$ (the event horizon). Membrane oscillation modes on this sphere have wavelengths $\lambda$ satisfying the Sturm–Liouville eigenvalue problem on $S^2$.
+Consider a sphere of area $A = 4\pi r_s^2$ (the event horizon). Firmament oscillation modes on this sphere have wavelengths $\lambda$ satisfying the Sturm–Liouville eigenvalue problem on $S^2$.
 
 The number of modes with $\lambda \ge \ell_P$ is determined by the maximum angular momentum quantum number $\ell_\text{max}$ satisfying $\lambda_\ell = 2\pi r_s/\ell \ge \ell_P$, giving $\ell_\text{max} = 2\pi r_s/\ell_P$.
 
@@ -209,9 +209,9 @@ Peak wavelength: $\lambda_\text{peak} = hc/(4.965 k_B T_H) = 0.95$ cm — in the
 
 **P5.7.1 ★** State the Penrose singularity theorem (1965) in one sentence. Then state Theorem 5.7.4 (Generic Regularization) in one sentence. Identify the hypothesis of the Penrose theorem that fails when the manifold is 6D rather than 4D.
 
-**P5.7.2 ★★** The Brane-Bulk Geodesic Continuation Lemma (Theorem 5.7.1) states that every brane geodesic terminating at $\partial\Sigma$ admits a unique 6D continuation. Write down the continuation condition Eq. (5.7.4) and explain physically what happens to a particle that reaches the edge of the brane.
+**P5.7.2 ★★** The Brane-Bulk Geodesic Continuation Lemma (Theorem 5.7.1) states that every Firmament geodesic terminating at $\partial\Sigma$ admits a unique 6D continuation. Write down the continuation condition Eq. (5.7.4) and explain physically what happens to a particle that reaches the edge of the Firmament.
 
-**P5.7.3 ★★★** Theorem 5.7.3 replaces the Big Bang singularity with a brane-nucleation surface with bounded curvature $|R^M{}_{NPQ}|_\text{6D} \le \mathcal{O}(\ell_\text{6D}^{-2})$ where $\ell_\text{6D} \sim 10^{-10}$ m. Compute $R_\text{max}$ in SI units and compare to: (a) the Planck curvature $\ell_P^{-2}$, (b) the curvature at a neutron star surface, and (c) the curvature at $r = 3r_s$ for a 10 $M_\odot$ black hole. Is the 6D curvature bound "large" or "small" by these standards?
+**P5.7.3 ★★★** Theorem 5.7.3 replaces the Big Bang singularity with a Firmament-nucleation surface with bounded curvature $|R^M{}_{NPQ}|_\text{6D} \le \mathcal{O}(\ell_\text{6D}^{-2})$ where $\ell_\text{6D} \sim 10^{-10}$ m. Compute $R_\text{max}$ in SI units and compare to: (a) the Planck curvature $\ell_P^{-2}$, (b) the curvature at a neutron star surface, and (c) the curvature at $r = 3r_s$ for a 10 $M_\odot$ black hole. Is the 6D curvature bound "large" or "small" by these standards?
 
 ### Selected solution — P5.7.3
 
@@ -322,7 +322,7 @@ So $p = 2/3$ or $p = -1$. Since $a \propto t^{2/3}$:
 
 ### Selected solution — P5.11.4
 
-In the zone framework, dark energy is the uniform vacuum energy of the Waters Above field projected onto the brane: $T^{(A)}_{\mu\nu} = -\Lambda_A^{(4)}\gamma_{\mu\nu}$.
+In the zone framework, dark energy is the uniform vacuum energy of the Waters Above field projected onto the Firmament: $T^{(A)}_{\mu\nu} = -\Lambda_A^{(4)}\gamma_{\mu\nu}$.
 
 This is structurally identical to a cosmological constant: $\rho_A = \text{const}$, $p_A = -\rho_A c^2$, hence $w_A = p_A/(\rho_A c^2) = -1$ exactly.
 
@@ -446,7 +446,7 @@ $[\sigma\eta_B^3/c] = \text{kg·m}^4\text{·s}^{-2} / (\text{m·s}^{-1}) = \text
 
 Hmm — this gives kg·m³·s⁻¹, not J·s = kg·m²·s⁻¹.
 
-The discrepancy reveals that "tension" in the 6D framework has different units from 3D tension. In the Firmament context, $\sigma$ is a *brane tension* with units of energy per unit length of extra dimension = J/m. But the vortex action involves a 2D integral over the core: $E = \sigma \times \pi r_\text{core}^2$ gives J/m × m² = J·m, which is energy × length — appropriate for a line-like object in 6D.
+The discrepancy reveals that "tension" in the 6D framework has different units from 3D tension. In the Firmament context, $\sigma$ is a *Firmament tension* with units of energy per unit length of extra dimension = J/m. But the vortex action involves a 2D integral over the core: $E = \sigma \times \pi r_\text{core}^2$ gives J/m × m² = J·m, which is energy × length — appropriate for a line-like object in 6D.
 
 The resolution: the factor of $2\pi$ from the Bohr–Sommerfeld integral absorbs the extra m, and the precise relation (with correct geometric factors from §15.3) is:
 

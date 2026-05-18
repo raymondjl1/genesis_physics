@@ -1,6 +1,6 @@
 Foundations Vol 5, The Cosmos — Back Matter
 
-"General relativity is the geometry of the Firmament projected into four dimensions; cosmology is the thermodynamics of the Waters projected onto an expanding brane. Every equation in this volume traces back to something that was already proven." — Vol 5, Chapter 1
+"General relativity is the geometry of the Firmament projected into four dimensions; cosmology is the thermodynamics of the Waters projected onto an expanding Firmament. Every equation in this volume traces back to something that was already proven." — Vol 5, Chapter 1
 
 Volume 5 inherits more prior machinery than any other volume in the series. General relativity is derived from the 6D embedding theorem (Vol 1), gravitational waves from the linearized field equations (Vol 2), cosmological fluids from the Waters field equations (Vol 1) and fluid dynamics (Vol 3), and quantum corrections to black hole physics from the QFT formalism (Vol 4). Rather than restating derivations in the main text, this appendix catalogs the prior-volume results that Vol 5 actually uses.
 
@@ -25,20 +25,20 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 
 A.2.1 — Chapter 3: The Zone Hierarchy.
 
-Tag: (1.3.4). Result: Z = Z sub 1.1 Z sub 2.1 Z sub 2.2 Z sub 3.1. Gloss: The zone manifold is the disjoint union of four zones connected across the Firmament.. Used in Vol 5: Ch 5 (brane structure), Ch 6 (Hilbert-space factorization), Ch 7 (bulk continuation).
+Tag: (1.3.4). Result: Z = Z sub 1.1 Z sub 2.1 Z sub 2.2 Z sub 3.1. Gloss: The zone manifold is the disjoint union of four zones connected across the Firmament.. Used in Vol 5: Ch 5 (Firmament structure), Ch 6 (Hilbert-space factorization), Ch 7 (bulk continuation).
 Tag: (1.3.12). Result: partial Z sub 2.1 partial Z sub 2.2 = F. Gloss: Zones 2.1 and 2.2 share the Firmament as their common boundary.. Used in Vol 5: Ch 5, Ch 7.
 Tag: (1.3.18). Result: dist sub Z(p,q) dist sub R to the 3(p,q). Gloss: Zone-manifold metric can short-circuit the ambient 3D metric.. Used in Vol 5: Ch 12 (starlight propagation pathways).
 
 A.2.2 — Chapter 4: Multidimensional Embedding.
 
-Tag: **(1.4.7)**. Result: g sub AB = diag(-1,+1,+1,+1,h sub 55,h sub 66). Gloss: 6D metric ansatz: two extra dimensions xi , eta bound the Waters.. Used in Vol 5: Ch 1 (EFE derivation), Ch 5 (brane), Ch 7 (singularity resolution), Ch 8 (cosmology).
+Tag: **(1.4.7)**. Result: g sub AB = diag(-1,+1,+1,+1,h sub 55,h sub 66). Gloss: 6D metric ansatz: two extra dimensions xi , eta bound the Waters.. Used in Vol 5: Ch 1 (EFE derivation), Ch 5 (Firmament), Ch 7 (singularity resolution), Ch 8 (cosmology).
 Tag: (1.4.22). Result: xi [0, xi sub A], eta [0, eta sub B]. Gloss: Extra dimensions are **bounded**: xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m.. Used in Vol 5: Ch 1, Ch 8, Ch 13 (scale ratio → fine structure), Ch 14, Ch 15.
 Tag: (1.4.31). Result: Warp factor e to the -k. Gloss: xi.
 
 A.2.3 — Chapter 5: The Firmament as Membrane.
 
-Tag: **(1.5.1)**. Result: Phi + sigma over mu Phi sub xi xi = 0. Gloss: The Firmament wave equation — master equation from which all dynamics follow.. Used in Vol 5: Ch 3 (GW generation), Ch 5 (membrane dynamics near BH), Ch 6, Ch 15.
-Tag: **(1.5.8)**. Result: c = square root of sigma / mu. Gloss: Speed of light from membrane tension over mass density. **Derived, not postulated.**. Used in Vol 5: Ch 1, Ch 3, Ch 5, Ch 13, Ch 15.
+Tag: **(1.5.1)**. Result: Phi + sigma over mu Phi sub xi xi = 0. Gloss: The Firmament wave equation — master equation from which all dynamics follow.. Used in Vol 5: Ch 3 (GW generation), Ch 5 (Firmament membrane dynamics near BH), Ch 6, Ch 15.
+Tag: **(1.5.8)**. Result: c = square root of sigma / mu. Gloss: Speed of light from Firmament tension over mass density. **Derived, not postulated.**. Used in Vol 5: Ch 1, Ch 3, Ch 5, Ch 13, Ch 15.
 Tag: (1.5.12). Result: Phi (x, xi ) = sum sub n phi sub n(x) chi sub n( xi ). Gloss: Mode expansion — 4D fields phi sub n labeled by extra-dimensional profiles chi sub n.. Used in Vol 5: Ch 1 (KK reduction to 4D GR), Ch 13 (running couplings), Ch 15.
 Tag: (1.5.19). Result: Eigenvalue equation - chi sub n'' = k sub n to the 2 chi sub n with BCs. Gloss: Sturm–Liouville on compact domain → discrete spectrum.. Used in Vol 5: Ch 15 (mode counting for k_B).
 Tag: (1.5.24). Result: k sub n = n pi / xi sub A, m sub n = h-bar k sub n/c. Gloss: Kaluza–Klein mass tower from discrete extra-dimensional modes.. Used in Vol 5: Ch 13 (KK tower sums in gauge running).
@@ -52,12 +52,12 @@ Tag: (1.6.35). Result: the expression. Gloss: Energy fractions from zone equilib
 
 A.2.5 — Chapter 7: Conservation Laws.
 
-Tag: (1.7.4). Result: nabla _ mu T to the mu nu = 0. Gloss: Energy-momentum conservation on the brane.. Used in Vol 5: Ch 1 (Bianchi identity consistency), Ch 8, Ch 10.
+Tag: (1.7.4). Result: nabla _ mu T to the mu nu = 0. Gloss: Energy-momentum conservation on the Firmament.. Used in Vol 5: Ch 1 (Bianchi identity consistency), Ch 8, Ch 10.
 Tag: (1.7.12). Result: Noether's theorem: symmetry → conserved current. Gloss: Every continuous symmetry of the zone action gives a conservation law.. Used in Vol 5: Ch 1, Ch 4 (Killing vectors), Ch 8.
 
 A.2.6 — Chapter 10: Quantization from Boundary Conditions.
 
-Tag: **(1.10.1)**. Result: Theorem 10.1 (Sturm–Liouville). Gloss: Discrete, real, complete eigenvalue spectrum from self-adjoint BCs on compact domain.. Used in Vol 5: Ch 5 (membrane mode counting), Ch 6 (information preservation), Ch 15 (k_B).
+Tag: **(1.10.1)**. Result: Theorem 10.1 (Sturm–Liouville). Gloss: Discrete, real, complete eigenvalue spectrum from self-adjoint BCs on compact domain.. Used in Vol 5: Ch 5 (Firmament membrane mode counting), Ch 6 (information preservation), Ch 15 (k_B).
 Tag: (1.10.12). Result: h-bar = mu c xi sub A to the 2 (schematic). Gloss: Planck's constant as geometric quantity.. Used in Vol 5: Ch 13, Ch 15 (refined to h-bar = sigma eta sub B to the 3/(2c)).
 
 A.2.7 — Chapter 11: Thermodynamics from Pattern Statistics.
@@ -133,7 +133,7 @@ Vol 4 supplies the QFT machinery needed for Hawking radiation, vacuum energy, an
 A.5.1 — Chapter 6: Quantum Field Theory.
 
 Tag: (4.6.3). Result: Canonical quantization [ phi ( x), pi ( y)] = i h-bar delta to the 3( x- y). Gloss: QFT commutation relations — needed for Bogoliubov transformation in Ch 6.. Used in Vol 5: Ch 6 (Hawking radiation).
-Tag: (4.6.11). Result: the expression. Gloss: Mode expansion of quantum field.. Used in Vol 5: Ch 6 (brane/bulk mode separation).
+Tag: (4.6.11). Result: the expression. Gloss: Mode expansion of quantum field.. Used in Vol 5: Ch 6 (Firmament/bulk mode separation).
 
 A.5.2 — Chapter 7: Feynman Diagrams and QED.
 

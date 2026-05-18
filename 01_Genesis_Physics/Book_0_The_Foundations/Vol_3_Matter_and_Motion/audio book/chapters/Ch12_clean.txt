@@ -15,6 +15,7 @@ This chapter is the capstone of Volume 3. It weaves together entropy (Ch. 9), st
 By the end of this chapter, you will understand not just why time flows forward, but that it doesn't have to—and that the mathematics itself whispers of a redemption to come.
 
 Notation note (κ). Throughout this chapter, kappa denotes the time-dependent sustaining-field strength kappa (t) on the zone manifold. We write kappa rather than kappa (t) wherever the time argument is unambiguous from context, and kappa (t) explicitly when we are emphasizing its temporal evolution. The four canonical values kappa sub create, kappa sub full, kappa sub partial, kappa sub redeem are constants — they are the values kappa (t) takes during Phases 1, 2, 3, and 4 respectively. Whenever you see kappa without a phase subscript, read it as kappa (t). This matches the convention of Five Principles §1 and Vol. 1 Ch. 8.
+Research status note (κ-mechanism): The microscopic definition of κ — specifically, how κ is computed from the zone field equations and what physical observable uniquely determines it — is Research Task RT-3.κ (see Ch 9). The conductance L in d𝒮/dt = L·Δκ has not been derived from first principles (Research Task RT-3.L). The entropy-rate predictions throughout this chapter are physically motivated and internally consistent but should be understood as order-of-magnitude estimates pending the completion of RT-3.κ and RT-3.L.
 
 [Figure — see print edition.]
 
@@ -70,9 +71,9 @@ Here is the profound insight: the entropy that Boltzmann defined in 1877 as a co
 
 The Zone Manifold as State Space.
 
-Why does this connection work? Because on the zone manifold, the "states" are not abstract mathematical objects. They are real physical configurations of the membrane and the fields in the Waters.
+Why does this connection work? Because on the zone manifold, the "states" are not abstract mathematical objects. They are real physical configurations of the Firmament and the fields in the Waters.
 
-Recall from Ch. 1, Eq. 1.3.2, that the zone manifold M to the 6 is a bounded 6D domain with quantization boundary conditions. The quantized membrane modes form a discrete set of energy eigenstates:
+Recall from Ch. 1, Eq. 1.3.2, that the zone manifold M to the 6 is a bounded 6D domain with quantization boundary conditions. The quantized Firmament modes form a discrete set of energy eigenstates:
 
 [Equation — see print edition.]
 
@@ -142,7 +143,7 @@ When you say a system is "at temperature T" in equilibrium with its surroundings
 
 Conversely, if you had perfect knowledge of the microstate, you could extract all the useful work from the system. The entropy is precisely the information you have failed to obtain.
 
-When entropy increases—when dS/dt > 0—information is being lost. Random collisions between molecules destroy the correlations that would allow you to predict one molecule's motion from another's. The system becomes more random, and the probability distribution becomes flatter. Equation (3.12.2) shows this: as p sub n approaches 1/N (equal for all states), the sum increases.
+When entropy increases—when d𝒮/dt > 0—information is being lost. Random collisions between molecules destroy the correlations that would allow you to predict one molecule's motion from another's. The system becomes more random, and the probability distribution becomes flatter. Equation (3.12.2) shows this: as p sub n approaches 1/N (equal for all states), the sum increases.
 
 This is why the Second Law is sometimes called the "law of increasing ignorance." It is not that the universe becomes disordered; it is that we lose information about which of many equivalent microstates it is in.
 
@@ -156,7 +157,7 @@ We have established that entropy is information. But information is not free. If
 
 The Setup: Erasing a Bit.
 
-Imagine the simplest possible system: a single membrane mode that can be in one of two states: state 0 or state 1. This is a "bit"—the fundamental unit of information in computer science.
+Imagine the simplest possible system: a single Firmament mode that can be in one of two states: state 0 or state 1. This is a "bit"—the fundamental unit of information in computer science.
 
 Now suppose the bit is initially in a pure state—you know exactly which one it is. You have perfect information. The entropy is:
 
@@ -214,7 +215,7 @@ For erasing N bits:
 
 [Equation — see print edition.]
 
-Connection to the zone manifold: On the zone manifold, each quantum degree of freedom (each membrane mode, each field mode in the Waters) is a "bit" of information in the fundamental description. If you want to reset one mode from an excited state to the ground state (reducing its energy), you must dissipate at least k sub B T 2 to the environment. Over 10 to the 88 accessible microstates, the cost of resetting them all to the ground state is astronomically large—which is why the universe cannot spontaneously "reverse" into a low-entropy state without external energy input.
+Connection to the zone manifold: On the zone manifold, each quantum degree of freedom (each Firmament mode, each field mode in the Waters) is a "bit" of information in the fundamental description. If you want to reset one mode from an excited state to the ground state (reducing its energy), you must dissipate at least k sub B T 2 to the environment. Over 10 to the 88 accessible microstates, the cost of resetting them all to the ground state is astronomically large—which is why the universe cannot spontaneously "reverse" into a low-entropy state without external energy input.
 
 [Figure — see print edition.]
 
@@ -230,7 +231,7 @@ The demon's memory is not free. Information has a cost.
 
 Implication for the Zone Manifold.
 
-On the zone manifold, every quantum state is a real physical configuration of membrane vibrations and field modes. If you want to "erase" a state—if you want to reset a membrane mode from one configuration to another—you must dissipate energy.
+On the zone manifold, every quantum state is a real physical configuration of Firmament vibrations and field modes. If you want to "erase" a state—if you want to reset a Firmament mode from one configuration to another—you must dissipate energy.
 
 During Phase 2 (Edenic), the sustaining field κ = κ_full is constantly repairing patterns and regenerating information. No information is truly lost. Memory is infinite.
 
@@ -246,7 +247,7 @@ In Phase 2 (Edenic), the sustaining field κ = κ_full is constantly repairing p
 
 The repair process is the reverse of erasure. Instead of measuring a system in a mixed state and dissipating information, you take a system that has been partially degraded and restore it to its original state by supplying exactly the right energy (with perfect information) to reverse the degradation.
 
-In Phase 2, this repair happens instantly and perfectly. Every membrane mode that experiences thermal fluctuation is immediately restored. Every biological cell that accumulates damage is instantly repaired. Every star that might flicker is stabilized. This is only possible because κ_full is sufficiently large.
+In Phase 2, this repair happens instantly and perfectly. Every Firmament mode that experiences thermal fluctuation is immediately restored. Every biological cell that accumulates damage is instantly repaired. Every star that might flicker is stabilized. This is only possible because κ_full is sufficiently large.
 
 In Phase 3, κ = κpartial < κfull. The repair rate is not sufficient to counteract the degradation. Over time, patterns deteriorate. This deterioration is irreversible—it cannot be undone without external intervention, which is the defining feature of Phase 3.
 
@@ -310,7 +311,7 @@ In Ch. 9 (§9.5, Eqs. 3.9.24–3.9.26) we derived — by linearizing the Sustain
 
 where Delta kappa (t) kappa sub full - kappa (t) is the instantaneous deficit in the sustaining field, and L > 0 is the Onsager coefficient (units: entropy per unit power deficit) computed in Ch. 9 from the Waters–firmament coupling. Eq. (3.12.28) is therefore not a new postulate of this chapter; it is the Ch. 9 result restated in the notation we will use throughout §§12.4–12.6. (Readers wanting the full derivation should re-read Ch. 9 §9.5 before continuing.)
 
-In Phase 3, Delta kappa > 0, so dS sub internaldt > 0. Entropy increases.
+In Phase 3, Delta kappa > 0, so d S sub internaldt > 0. Entropy increases.
 
 Order Parameter:
 
@@ -372,7 +373,7 @@ The negative sign reflects that the sustaining field is imposing order. Informat
 
 On the zone manifold, this manifests as the formation of sharp boundaries, the condensation of the Firmament at the η = 0 interface, and the explosive growth of biological complexity. All of this requires the energy input from κ_create.
 
-The observable signature, if we could access it, would be a primordial universe of extreme order: the Planck-density membrane, the quantized membrane modes, the initial pattern that seeded all galaxies.
+The observable signature, if we could access it, would be a primordial universe of extreme order: the Planck-density membrane, the quantized Firmament modes, the initial pattern that seeded all galaxies.
 
 Phase 2: Edenic (Post-Sabbath to Fall) — The Stasis.
 
@@ -388,7 +389,7 @@ The universe enters a state of perfect equilibrium, or rather, perfect reversibi
 
 In this phase, Omega (t) = Omega sub max = const. The order parameter is unchanging. This phase may have lasted eons or may have been instantaneous—the physics says nothing about duration, only that the entropy is conserved.
 
-Time itself may have been different in Phase 2. The Ch. 9 discussion of the arrow of time applies: with dS/dt = 0, the time-reversal symmetry of the fundamental action is not broken. In zones far from the Firmament (Z₂.₁, the atemporal realm), time may not have flowed at all. Events would be simultaneously present—the eternal now.
+Time itself may have been different in Phase 2. The Ch. 9 discussion of the arrow of time applies: with d𝒮/dt = 0, the time-reversal symmetry of the fundamental action is not broken. In zones far from the Firmament (Z₂.₁, the atemporal realm), time may not have flowed at all. Events would be simultaneously present—the eternal now.
 
 Phase 3: Fall (Genesis 3 to Present) — The Degradation.
 
@@ -474,7 +475,7 @@ The "bondage to decay" is entropy production. It is not accident. It is judgment
 
 And the judgment is also a call. The increasing entropy screams wordlessly: "This is not as it should be. Repent. Return. Redemption is possible."
 
-The mathematical structure encodes this message: the Four Epochs theorem shows that κ and dS/dt are not independent. When κ_full returns (Phase 4), entropy production ceases. The cure is already written into the cosmos's DNA.
+The mathematical structure encodes this message: the Four Epochs theorem shows that κ and d𝒮/dt are not independent. When κ_full returns (Phase 4), entropy production ceases. The cure is already written into the cosmos's DNA.
 
 § 12.6 The Arrow of Time — An Architectural Consequence.
 
@@ -533,9 +534,11 @@ This is an asymmetry condition. It says: entropy must increase, not decrease. Th
 
 Mathematically, we can model the Degradation constraint as an additional Lagrange-multiplier term in the action. We propose (this is a phenomenological model coupling, not derived from a more fundamental principle in this volume — the question of what the microscopic origin of lambda is, is left open and is taken up in Vol. 5):
 
+⚠ STATUS CORRECTION (Rev. 2026-05-14): The T-symmetry breaking term in Eq. (3.12.48) is a proposed ansatz, not a derived result. It is physically motivated by the asymmetric Waters field boundary conditions (Waters Above ≠ Waters Below in volume and energy density) but has not been derived from the 6D action via a first-principles calculation. Until this derivation is given, this equation should be read as: "If the Waters asymmetry produces T-asymmetric entropy production, it would take the form [equation]." The arrow of time argument that follows is therefore conditional on this ansatz. It is designated Open Problem OP-ArT.
+
 [Equation — see print edition.]
 
-where lambda greater than or equal to 0 is a Lagrange multiplier that enforces the Ch. 9 entropy-production relation (3.12.28) as an on-shell constraint during Phase 3, and is identically zero in Phases 1, 2, and 4. The squared form is the simplest scalar built from the constraint that vanishes when (3.12.28) is satisfied; other forms (linear, exponential) would do equally well and we make no claim that this particular form is unique. Whatever the form, the key structural feature is that the term is even in Delta kappa but odd under t to -t when interpreted on the constraint surface (since dS/dt to -dS/dt under reversal while L Delta kappa is unchanged), and it is this odd-under-reversal piece that breaks T-symmetry.
+where lambda greater than or equal to 0 is a Lagrange multiplier that enforces the Ch. 9 entropy-production relation (3.12.28) as an on-shell constraint during Phase 3, and is identically zero in Phases 1, 2, and 4. The squared form is the simplest scalar built from the constraint that vanishes when (3.12.28) is satisfied; other forms (linear, exponential) would do equally well and we make no claim that this particular form is unique. Whatever the form, the key structural feature is that the term is even in Delta kappa but odd under t to -t when interpreted on the constraint surface (since d S/dt to -d S/dt under reversal while L Delta kappa is unchanged), and it is this odd-under-reversal piece that breaks T-symmetry.
 
 In Phase 2, lambda = 0, so S sub degrad = 0. T-symmetry is restored.
 
@@ -563,7 +566,7 @@ In Phase 3 (Fall), when κ = κpartial, the Degradation constraint becomes activ
 
 This resolves the paradox: the microscopic laws are reversible, but the Fall boundary condition is irreversible. The asymmetry does not come from the laws of mechanics; it comes from the phase of the universe (Phase 3) we currently inhabit.
 
-In other words: the Second Law is not a dynamical law. It is a statement about which histories are allowed in a given phase. In Phase 3, the active Degradation constraint ensures that only histories with dS/dt ≥ 0 are physically realized. Backward-in-time histories with dS/dt < 0 are excluded by the boundary condition.
+In other words: the Second Law is not a dynamical law. It is a statement about which histories are allowed in a given phase. In Phase 3, the active Degradation constraint ensures that only histories with d𝒮/dt ≥ 0 are physically realized. Backward-in-time histories with d𝒮/dt < 0 are excluded by the boundary condition.
 
 This is a profound insight: Loschmidt's paradox disappears once you recognize that the universe has phases, not eternal laws.
 
@@ -589,7 +592,7 @@ The Three Arrows of Time Unified.
 
 Physicists have long noticed that there are three independent arrows of time in nature:
 
-1. The thermodynamic arrow: entropy increases (dS/dt > 0).
+1. The thermodynamic arrow: entropy increases (d𝒮/dt > 0).
 
 2. The cosmological arrow: the universe expands (the scale factor a(t) increases).
 
@@ -601,19 +604,19 @@ In Genesis Physics, they are unified: all three arrows emerge from the Degradati
 
 When κ drops to κ_partial:
 
-- Entropy production turns on: dS/dt > 0 → thermodynamic arrow
+- Entropy production turns on: d𝒮/dt > 0 → thermodynamic arrow
 - The cosmos enters the Λ-dominated era with accelerating expansion → cosmological arrow
 - Information loss becomes possible: memories require stored information, which can only be formed when entropy is increasing (when the universe is moving from order to disorder) → psychological arrow
 
 All three point the same direction because they all track the same phase transition.
 
 In Phase 2 (Edenic), when κ = κ_full, we have:
-- dS/dt = 0 (no entropy production)
+- d𝒮/dt = 0 (no entropy production)
 - Expansion could cease (or reverse)
 - Memory could flow both ways (time-reversible)
 
 In Phase 4 (Redemption), when κ = κ_redeem, the arrows reverse:
-- dS/dt ≤ 0 (entropy decreases)
+- d𝒮/dt ≤ 0 (entropy decreases)
 - Expansion could reverse (cosmic re-collapse)
 - Memory restoration becomes possible
 
@@ -645,11 +648,11 @@ Therefore: you can only form memories by increasing total entropy. And you can o
 
 This is why all conscious beings have the same arrow of time. It is not arbitrary. It is not a brute fact about initial conditions. It emerges from the thermodynamics of information storage.
 
-In Phase 2 (Edenic), memory formation would be reversible. You could form a memory, then "unfold" it, and return to a prior state without violating the Second Law, because dS/dt = 0 exactly. The sustaining field κ_full would instantly remove the information "spread" in the environment, restoring the original configuration.
+In Phase 2 (Edenic), memory formation would be reversible. You could form a memory, then "unfold" it, and return to a prior state without violating the Second Law, because d𝒮/dt = 0 exactly. The sustaining field κ_full would instantly remove the information "spread" in the environment, restoring the original configuration.
 
 In Phase 3 (Fall), memory formation is irreversible. Once formed, memories persist. The information has spread into a universe that cannot spontaneously re-gather it.
 
-In Phase 4 (Redemption), when dS/dt ≤ 0, the spreading reverses. Information is gathered. Memories are restored. The universe "remembers" all that was lost. This is one meaning of "all things new"—a universe that has recovered all information that entropy had scattered.
+In Phase 4 (Redemption), when d𝒮/dt ≤ 0, the spreading reverses. Information is gathered. Memories are restored. The universe "remembers" all that was lost. This is one meaning of "all things new"—a universe that has recovered all information that entropy had scattered.
 
 Phase Transitions and Symmetry Breaking in Detail.
 
@@ -701,7 +704,7 @@ The arrow of time is not fundamental. It is architectural.
 
 In Phase 2 (Edenic), the fundamental laws are time-reversible. There is no arrow. Time could run either way.
 
-In Phase 3 (Fall), the Degradation Principle breaks time-reversal symmetry by enforcing dS/dt > 0. This boundary condition selects one temporal direction as special: the direction in which entropy increases.
+In Phase 3 (Fall), the Degradation Principle breaks time-reversal symmetry by enforcing d𝒮/dt > 0. This boundary condition selects one temporal direction as special: the direction in which entropy increases.
 
 The thermodynamic, cosmological, and psychological arrows are unified: all emerge from this single phase transition.
 
@@ -815,7 +818,7 @@ Hint: Use Eq. 3.12.9 and compute ⟨E⟩ = ε e^{-ε/k_BT} / Z.
 
 Problem 12.4: Order Parameter Evolution in Phase 3
 
-The visible universe's entropy is currently SF(t0) ≈ 10^{100} kB at age t0 ≈ 13.8 Gyr. If dSF/dt = 10^{10} kB/year (rough estimate), what is the current order parameter Ω(t0) if SF,max ≈ 10^{123} k_B?
+The visible universe's entropy is currently 𝒮F(t0) ≈ 10^{100} kB at age t0 ≈ 13.8 Gyr. If d𝒮F/dt = 10^{10} kB/year (rough estimate), what is the current order parameter Ω(t0) if SF,max ≈ 10^{123} k_B?
 
 Solution Sketch: Ω(t0) = SF,max - SF(t0) ≈ 10^{123} - 10^{100} ≈ 10^{123} k_B. The universe is still very far from heat death.
 
@@ -831,9 +834,9 @@ The analogy: imagine two rooms connected by a one-way door. The laws of physics 
 
 Problem 12.6: Maxwell's Demon in Phase 2
 
-If Maxwell's Demon operated in Phase 2 (Edenic), where dS/dt = 0, would it violate the Second Law? Explain.
+If Maxwell's Demon operated in Phase 2 (Edenic), where d𝒮/dt = 0, would it violate the Second Law? Explain.
 
-Expected Answer: No. In Phase 2, the sustaining field allows arbitrary information to be stored indefinitely (the Demon's memory never fills). The Demon could perform the sorting operation without dissipating energy, because the phase condition dS/dt = 0 ensures the system can be restored to any prior state. Only in Phase 3, where dS/dt > 0 (information is being lost to the environment), does the Demon's memory erasure require energy dissipation.
+Expected Answer: No. In Phase 2, the sustaining field allows arbitrary information to be stored indefinitely (the Demon's memory never fills). The Demon could perform the sorting operation without dissipating energy, because the phase condition d𝒮/dt = 0 ensures the system can be restored to any prior state. Only in Phase 3, where d𝒮/dt > 0 (information is being lost to the environment), does the Demon's memory erasure require energy dissipation.
 
 Problem 12.7: The Psychological Arrow and Memory Formation
 
@@ -843,13 +846,13 @@ Expected Answer: Memory formation requires increasing the correlation between br
 
 Problem 12.8: Eschatological Entropy Reversal
 
-In Phase 4 (Redemption), entropy production reverses: dS/dt ≤ 0. Is this consistent with the Second Law? Explain why or why not.
+In Phase 4 (Redemption), entropy production reverses: d𝒮/dt ≤ 0. Is this consistent with the Second Law? Explain why or why not.
 
 Expected Answer: Yes. The Second Law applies to isolated systems. In Phase 3, the universe is effectively isolated (κpartial represents minimal external input). But in Phase 4, the external sustaining input κredeem is reactivated. The Second Law requires:
 
 [Equation — see print edition.]
 
-If the redemptive sustaining field inputs negative entropy (order), then dSexternal/dt < 0. As long as |dSexternal/dt| ≤ |(dS/dt)_internal|, the total entropy can decrease. This is precisely what happens in Phase 4.
+If the redemptive sustaining field inputs negative entropy (order), then d𝒮external/dt < 0. As long as |d𝒮external/dt| ≤ |(d𝒮/dt)_internal|, the total entropy can decrease. This is precisely what happens in Phase 4.
 
 Challenge Problems (2).
 

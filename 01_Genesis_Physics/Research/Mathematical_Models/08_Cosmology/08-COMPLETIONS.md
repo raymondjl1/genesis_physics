@@ -229,7 +229,7 @@ In standard ΛCDM, the spatial curvature parameter Ω_k = |Ω_spatial|/Ω_critic
 
 In Genesis Physics, **spatial flatness emerges structurally from the zone geometry**, not from fine-tuning:
 
-1. **Zone 2 (Firmament)** is constructed as a flat 4D brane embedded in 6D spacetime
+1. **Zone 2 (Firmament)** is constructed as a flat 4D Firmament embedded in 6D spacetime
 2. **Zone 2.1 (Waters Above)** extends in the ξ-direction with exponential warp factor
 3. **Zone 2.2 (Firmament)** is at fixed (ξ₀, η₀)
 4. **Zone 2.3 (Waters Below)** extends in the η-direction with confinement
@@ -540,7 +540,7 @@ This provides direct evidence that dark matter and baryons are **distinct compon
 In Genesis Physics, the separation is a natural consequence of the Waters Below (dark matter) being a **geometric field confined to the 6D bulk**, while baryonic matter is localized on the 4D Firmament.
 
 **Baryonic dynamics:**
-- Protons, electrons, neutrons are bound on the Firmament brane
+- Protons, electrons, neutrons are bound on the Firmament
 - Electromagnetic interactions are long-range and inelastic (radiative losses)
 - Collision dissipates kinetic energy → baryons decelerate and pile up at the collision point
 

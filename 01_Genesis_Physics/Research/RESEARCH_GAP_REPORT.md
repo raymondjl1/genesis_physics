@@ -609,7 +609,7 @@ These topics require full alternative derivation, logical dismantling of secular
 
 **Defense by Derivation:**
 - **NEEDED:** This is the single most important missing derivation for cosmological defense.
-- Approach: During Creation Days 1-3, nuclear reactions occur in the Waters as matter condenses from the membrane. The temperature and density conditions during this phase determine nucleosynthesis yields.
+- Approach: During Creation Days 1-3, nuclear reactions occur in the Waters as matter condenses from the Firmament. The temperature and density conditions during this phase determine nucleosynthesis yields.
 - The sustaining coupling κ during Creation phase (κ_create >> κ_partial) provides the energy input that drives nuclear reactions.
 - Zone geometry constrains the neutron-to-proton ratio at "freeze-out" (when weak interactions decouple from nuclear reactions).
 - The framework must predict: H: ~75%, He-4: ~25%, D: ~0.003%, He-3: ~0.001%, Li-7: ~10⁻¹⁰ by number.

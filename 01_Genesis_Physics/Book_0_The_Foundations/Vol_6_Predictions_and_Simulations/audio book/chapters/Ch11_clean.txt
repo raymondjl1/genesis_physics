@@ -1,9 +1,12 @@
+Part B — Conditional Engineering
+The FTL communication mechanisms described in this chapter are conditional on the zone architecture framework being correct. They are physically self-consistent extrapolations from the framework's equations, not experimentally confirmed results. The no-signaling theorem (§11.5) guarantees that standard quantum mechanics prevents FTL information transfer; any mechanism here requires departures from standard QM that remain unconfirmed.
+
 "The first step in the scientific way of knowing is to guess — and the second is to check. For a message, the guess is the bit you encoded; the check is the bit the receiver extracted. Every constraint on communication is a constraint on that round-trip, not on the channel that carries it."
 — paraphrased, after Feynman
 
 Why Communication Is Not Travel.
 
-In Chapter 9 we toured the five mechanisms by which the zone architecture lets a traveller move faster than light on the brane: temporal shortcuts, dimensional bypass, zone tunneling, warp bubbles, and the consciousness interface. The traveller in each case carried matter — a probe, a spacecraft, a body — from one brane location to another, under energy budgets ranging from roughly 10 to the 15 J (a modest temporal shortcut to Alpha Centauri) to roughly 10 to the 28 J (a full dimensional bypass).
+In Chapter 9 we toured the five mechanisms by which the zone architecture lets a traveller move faster than light on the Firmament: temporal shortcuts, dimensional bypass, zone tunneling, warp bubbles, and the consciousness interface. The traveller in each case carried matter — a probe, a spacecraft, a body — from one Firmament location to another, under energy budgets ranging from roughly 10 to the 15 J (a modest temporal shortcut to Alpha Centauri) to roughly 10 to the 28 J (a full dimensional bypass).
 
 A message is not a traveller. If I want to send you a bit, I do not need to hand you a physical token. I need the pattern of my choice — zero or one — to become the pattern at your end. The token that carries the pattern may be a photon, a voltage swing, a spirit modulation, or anything else that could have been configured the other way. This is what Shannon meant when he insisted that information is about the source, not in the channel.
 
@@ -17,7 +20,7 @@ The 6D zone architecture of Volume 1 presents exactly four information-bearing g
 
 1. Pre-existing quantum correlations. Bipartite entangled states arising from shared bulk excitations in the Waters fields Psi sub A and Psi sub B (see Vol. 4, Ch. 4, Eq. (V.4.Eq.45)). The CHSH value S = 2 square root of 2 approximately equal to 2.83 predicted by the zone interpretation agrees with four decades of Bell experiments.
 
-2. Propagation through perpendicular dimensions. A signal encoded on a massless or massive quantum in the brane can be configured to take a geodesic with nonzero eta component — the dimensional-bypass path of Ch. 9 §9.3 — arriving at a 4D-spacelike-separated receiver. This is a genuine channel: the bulk path is shorter, and the receiver detects an arrival that would be impossible under strict 4D causality.
+2. Propagation through perpendicular dimensions. A signal encoded on a massless or massive quantum in the Firmament can be configured to take a geodesic with nonzero eta component — the dimensional-bypass path of Ch. 9 §9.3 — arriving at a 4D-spacelike-separated receiver. This is a genuine channel: the bulk path is shorter, and the receiver detects an arrival that would be impossible under strict 4D causality.
 
 3. Modulation of the bulk fields. The Waters Above field Psi sub A and the Waters Below field Psi sub B fill every zone. Their equilibrium source terms J sub A( xi ), J sub B( eta ) (Vol. 2, Ch. 11) can, in principle, be modulated at the source; the modulation propagates as a 6D wave packet with a 4D shadow, and a detector coupled to Psi sub A or Psi sub B can read the shadow. This is the communication analogue of a radio station, with the Waters fields playing the role of the electromagnetic field.
 
@@ -53,7 +56,7 @@ Every zone-architecture channel we evaluate must be positioned against this. In 
 
 Outline of the Chapter.
 
-§11.2 rigorously reviews why pre-existing quantum correlations — even zone-mediated ones — never signal. §11.3 derives the channel capacity, bandwidth, and engineering concept for zone-tunneling communication. §11.4 gives the wave equation, dispersion relation, group velocity, link budget, and a Membrane Resonance Generator-based transmitter for Waters-field modulation. §11.5 presents the consciousness interface as a communication channel, with three enormous caveats prominently displayed. §11.6 verifies information-theoretic consistency (no-cloning, no-signaling, Holevo) for each channel. §11.7 ranks the four mechanisms. §11.8 compares with the DSN. §11.9 addresses the Skeptic's causality objection channel-by-channel. §11.10 consolidates the predictions P-119 through P-135 with falsification thresholds and hands off to Ch. 12.
+§11.2 rigorously reviews why pre-existing quantum correlations — even zone-mediated ones — never signal. §11.3 derives the channel capacity, bandwidth, and engineering concept for zone-tunneling communication. §11.4 gives the wave equation, dispersion relation, group velocity, link budget, and a Firmament Resonance Generator-based transmitter for Waters-field modulation. §11.5 presents the consciousness interface as a communication channel, with three enormous caveats prominently displayed. §11.6 verifies information-theoretic consistency (no-cloning, no-signaling, Holevo) for each channel. §11.7 ranks the four mechanisms. §11.8 compares with the DSN. §11.9 addresses the Skeptic's causality objection channel-by-channel. §11.10 consolidates the predictions P-119 through P-135 with falsification thresholds and hands off to Ch. 12.
 
 A final framing note before the derivations start: the four channels are candidates, not deliverables. We claim the architecture permits them and the mathematics is internally consistent, but all four are TRL 1–2, and three of them sit at the research frontier. What we offer is a numbered, falsifiable set of predictions and an engineering vocabulary, not a product catalogue. The reader who closes this chapter should have a channel-by-channel understanding of what could be built, how it would be falsified, and what stands in the way.
 
@@ -67,11 +70,11 @@ Volume 4, Chapter 4 derived the CHSH inequality violation S = 2 square root of 2
 
 [Equation — see print edition.]
 
-where the expression is a common state in the bulk Waters fields connecting the two particles. What standard QM calls "non-local correlation" is, in the zone picture, the shadow on the brane of a single bulk state.
+where the expression is a common state in the bulk Waters fields connecting the two particles. What standard QM calls "non-local correlation" is, in the zone picture, the shadow on the Firmament of a single bulk state.
 
-The prediction (V.4.Eq.45) agrees with the Tsirelson bound observed experimentally. That agreement is not an accident: the 6D derivation is equivalent on the brane slice to standard bipartite QM, so it necessarily reproduces the same statistics.
+The prediction (V.4.Eq.45) agrees with the Tsirelson bound observed experimentally. That agreement is not an accident: the 6D derivation is equivalent on the Firmament slice to standard bipartite QM, so it necessarily reproduces the same statistics.
 
-This reinterpretation is ontological. It says why the correlation exists: not because of a spooky action on the brane, but because a single bulk fluctuation is doing two things at once. It does not say anything new about what the experimenters at A and B can do. And that distinction is the entire story.
+This reinterpretation is ontological. It says why the correlation exists: not because of a spooky action on the Firmament, but because a single bulk fluctuation is doing two things at once. It does not say anything new about what the experimenters at A and B can do. And that distinction is the entire story.
 
 The No-Signaling Theorem, Proven Inside the Zone Picture.
 
@@ -109,9 +112,9 @@ For entanglement to become a signaling channel, one of three things would have t
 
 1. Post-selection of outcomes. If B could post-select the outcome space (accept only runs where b falls in a chosen set) and then transmit the acceptance flag to A, the two marginals would co-vary. But the acceptance flag is classical and travels at c. This is not FTL.
 
-2. Non-unitary evolution at the remote detector, controlled by the local choice. If B's basis choice caused A's detector to evolve non-unitarily in a way that depended on the choice, the no-signaling theorem would fail. No physics — zone or otherwise — provides such a dependence. The 6D Schrödinger evolution on the brane slice reduces to standard unitary QM, and unitary QM respects no-signaling.
+2. Non-unitary evolution at the remote detector, controlled by the local choice. If B's basis choice caused A's detector to evolve non-unitarily in a way that depended on the choice, the no-signaling theorem would fail. No physics — zone or otherwise — provides such a dependence. The 6D Schrödinger evolution on the Firmament slice reduces to standard unitary QM, and unitary QM respects no-signaling.
 
-3. Privileged access to the bulk state. If B could directly manipulate the expression — not merely measure a brane projection of it — then the reduced state at A could, in principle, respond to that manipulation. In Phase 3, access to the bulk is bounded by the sustaining coupling kappa, whose fluctuations are below 10 to the -27 (V.5.Eq.19). The controllable signal floor is below the quantum noise floor by some twenty-seven orders of magnitude; no effect survives.
+3. Privileged access to the bulk state. If B could directly manipulate the expression — not merely measure a Firmament projection of it — then the reduced state at A could, in principle, respond to that manipulation. In Phase 3, access to the bulk is bounded by the sustaining coupling kappa, whose fluctuations are below 10 to the -27 (V.5.Eq.19). The controllable signal floor is below the quantum noise floor by some twenty-seven orders of magnitude; no effect survives.
 
 None of these three breaches exists under Phase 3 conditions. The zone architecture permits the dream in principle — it does not rule out a post-Fall world where some bulk manipulation becomes possible — but it does not deliver the dream. In the universe we inhabit, entanglement-mediated signaling remains zero.
 
@@ -137,7 +140,7 @@ Third, the prediction is falsifiable in a strong sense. Every one of the last fo
 
 Mechanism 2 — Zone Tunneling Communication.
 
-The dimensional-bypass mechanism of Ch. 9 §9.3 showed that a null geodesic in 6D can traverse an eta-component, producing a shorter bulk path than a brane-only geodesic between the same endpoints. Light, we argued, already uses this mechanism (the starlight precedent), which is why we see stars at distances at which a strict brane-only metric would have them dimmer than observed. Matter would like to use the same mechanism but is bound to the brane by a confinement potential requiring approximately 10 to the 25–10 to the 28 J per kilogram to escape.
+The dimensional-bypass mechanism of Ch. 9 §9.3 showed that a null geodesic in 6D can traverse an eta-component, producing a shorter bulk path than a Firmament-only geodesic between the same endpoints. Light, we argued, already uses this mechanism (the starlight precedent), which is why we see stars at distances at which a strict Firmament-only metric would have them dimmer than observed. Matter would like to use the same mechanism but is bound to the Firmament by a confinement potential requiring approximately 10 to the 25–10 to the 28 J per kilogram to escape.
 
 Signals are not matter. A signal can be imprinted on a massless quantum (a photon, a Waters excitation) or on a massive quantum with very small rest mass. The question for this section is: can a signal ride the dimensional-bypass geometry, and if so, what is the channel's capacity?
 
@@ -151,7 +154,7 @@ Chapter 9 §9.4 derived a WKB tunneling probability through the zone-boundary po
 
 and for macroscopic masses found the expression — vanishingly small. That calculation was appropriate for matter: the object must quantum-tunnel through a potential barrier because it lacks classical access to the boundary.
 
-For a signal carrier, the calculation is different. A photon riding the dimensional-bypass geodesic does not tunnel; it geodesics. The path is null in 6D, it exists classically, and its amplitude is set by the transmitter's power rather than by an exponential tunneling suppression. What the dimensional-bypass channel looks like operationally is the following: a transmitter on the brane injects a signal into a 6D mode with nonzero eta-component; that mode propagates through Waters Below along a null geodesic that reaches a receiver on the brane at 4D-spacelike separation; the receiver's detector, coupled to the Waters fields, registers a 4D shadow.
+For a signal carrier, the calculation is different. A photon riding the dimensional-bypass geodesic does not tunnel; it geodesics. The path is null in 6D, it exists classically, and its amplitude is set by the transmitter's power rather than by an exponential tunneling suppression. What the dimensional-bypass channel looks like operationally is the following: a transmitter on the Firmament injects a signal into a 6D mode with nonzero eta-component; that mode propagates through Waters Below along a null geodesic that reaches a receiver on the Firmament at 4D-spacelike separation; the receiver's detector, coupled to the Waters fields, registers a 4D shadow.
 
 The channel's capacity is set by the standard classical link budget, augmented by the bulk-path geometry. Shannon-Hartley applies. We write
 
@@ -161,11 +164,11 @@ where C is channel capacity in bits per second, B is the usable bandwidth (set b
 
 The Signal Power: Geometric Shortcut Factor.
 
-The 4D brane distance between transmitter at x sub T and receiver at x sub R is r sub 4D = | x sub R - x sub T|. The 6D bulk path through an eta-excursion of depth eta _* covers a geodesic length
+The 4D Firmament distance between transmitter at x sub T and receiver at x sub R is r sub 4D = | x sub R - x sub T|. The 6D bulk path through an eta-excursion of depth eta _* covers a geodesic length
 
 [Equation — see print edition.]
 
-where B( xi , eta ) is the warp factor of the 6D metric (Vol. 5, Ch. 4, Eq. (V.5.Ch4.Eq)). For an optimal eta _*, the bulk path is substantially shorter than the brane path; we parameterize the ratio as the geometric shortcut factor
+where B( xi , eta ) is the warp factor of the 6D metric (Vol. 5, Ch. 4, Eq. (V.5.Ch4.Eq)). For an optimal eta _*, the bulk path is substantially shorter than the Firmament path; we parameterize the ratio as the geometric shortcut factor
 
 [Equation — see print edition.]
 
@@ -173,7 +176,7 @@ For the warp profile derived in Ch. 5 §9.2, G ranges from 1 (no shortcut) to ap
 
 [Equation — see print edition.]
 
-The G to the 2 factor is the fundamental advantage of the dimensional-bypass channel: a transmitter that would deliver a microwatt at 10 light-years on a brane-only path delivers, for G = 10 to the 3, a watt instead. This is six orders of magnitude of link-budget improvement, far above what any antenna aperture could provide on the brane.
+The G to the 2 factor is the fundamental advantage of the dimensional-bypass channel: a transmitter that would deliver a microwatt at 10 light-years on a Firmament-only path delivers, for G = 10 to the 3, a watt instead. This is six orders of magnitude of link-budget improvement, far above what any antenna aperture could provide on the Firmament.
 
 The Noise Floor: Waters-Field Thermal Fluctuations.
 
@@ -183,7 +186,7 @@ The corresponding noise power at the receiver is
 
 [Equation — see print edition.]
 
-i.e., an effective Waters-field temperature some thirteen orders of magnitude below CMB. This is far quieter than any electromagnetic channel on the brane. The dimensional-bypass channel enjoys both a link-budget advantage (G to the 2) and a noise-floor advantage (Waters-field coupling is quiet).
+i.e., an effective Waters-field temperature some thirteen orders of magnitude below CMB. This is far quieter than any electromagnetic channel on the Firmament. The dimensional-bypass channel enjoys both a link-budget advantage (G to the 2) and a noise-floor advantage (Waters-field coupling is quiet).
 
 The catch is the bandwidth. The usable bandwidth B is set by the spectrum of bulk modes available to carry the signal. For the eta-excursion depths at which G is large, the bulk mode density falls off rapidly; at eta _* approximately eta sub B (the Waters Below scale), B 10 to the 6 Hz = 1 MHz. Pushing to higher bandwidth requires larger eta-excursions, which in turn require more energy to excite (the same confinement penalty that bounds FTL travel, though only at the transmitter's injection stage).
 
@@ -213,9 +216,9 @@ Forward error correction (FEC) layers on as in any classical channel. Because th
 
 Observable Signatures.
 
-The dimensional-bypass channel produces two observable signatures on the brane:
+The dimensional-bypass channel produces two observable signatures on the Firmament:
 
-(a) Transmitter-side spectral leakage. Injection of a signal into the eta-component is not perfectly mode-matched; some fraction gamma 10 to the -3 leaks into the on-brane EM spectrum at the transmitter location. For a 1 MHz modulation, this is a sharp 1 MHz line at the transmitter's location, detectable at distances up to the leakage amplitude allows. Whether or not we have seen such a line in astrophysical settings is a matter for §11.3.7.
+(a) Transmitter-side spectral leakage. Injection of a signal into the eta-component is not perfectly mode-matched; some fraction gamma 10 to the -3 leaks into the on-Firmament EM spectrum at the transmitter location. For a 1 MHz modulation, this is a sharp 1 MHz line at the transmitter's location, detectable at distances up to the leakage amplitude allows. Whether or not we have seen such a line in astrophysical settings is a matter for §11.3.7.
 
 (b) Receiver-side correlated signals. A receiver at 4D-spacelike separation that is coupled to the Waters fields (Ch. 12 §12.2) sees the 4D shadow of the modulated bulk signal. For a two-receiver coincidence experiment — two detectors at different locations listening to the same transmitter — the zone-tunneling signal arrives at both, with time offsets set by r sub 6D/c rather than r sub 4D/c. The discrepancy with the standard-physics expectation is the channel's observable fingerprint.
 
@@ -239,7 +242,7 @@ P-122: Zone-tunneling EM spectral leakage. A transmitter of power P sub T produc
 
 Mechanism 3 — Waters-Field Modulation.
 
-The Waters fields Psi sub A (Above) and Psi sub B (Below) fill every zone. They carry 95% of the energy budget of the universe (Vol. 5, Ch. 11): Psi sub A as dark energy (rho sub A approximately equal to 5.96 times 10 to the -10 J/mto the 3, equation of state w = -1), Psi sub B as dark matter (clumping density set by the mass scale M of Eq. (V.2.Eq.14)). They are tautologically present wherever signals would have to travel. The natural question is whether we can use them as a carrier, in the same way we use the electromagnetic field — which fills every zone too, but which is confined to the brane — as a carrier for radio.
+The Waters fields Psi sub A (Above) and Psi sub B (Below) fill every zone. They carry 95% of the energy budget of the universe (Vol. 5, Ch. 11): Psi sub A as dark energy (rho sub A approximately equal to 5.96 times 10 to the -10 J/mto the 3, equation of state w = -1), Psi sub B as dark matter (clumping density set by the mass scale M of Eq. (V.2.Eq.14)). They are tautologically present wherever signals would have to travel. The natural question is whether we can use them as a carrier, in the same way we use the electromagnetic field — which fills every zone too, but which is confined to the Firmament — as a carrier for radio.
 
 The answer is yes, with important qualifications. The Waters fields can be modulated. The modulation propagates. A coupled detector can read the modulation. What we derive in this section is the wave equation governing the propagation, the dispersion relation, the group velocity (which turns out to be subluminal in the matter-coupled regime — this channel is not FTL), the attenuation length (which is enormous), and the achievable link budget (which is good at low bitrate, poor at high bitrate). The Waters-field channel is, we will argue, the most buildable zone-architecture channel on the century-to-millennium timescale.
 
@@ -304,9 +307,9 @@ In the matter-coupled regime, however, the usable bandwidth is much lower: kHz�
 
 The Waters-field channel gives you high bandwidth at near-c velocity, or low bandwidth at deep-penetration coupling. You cannot have both, and there is no FTL regime to be had from this channel alone.
 
-Transmitter Concept: The Modulated Membrane Resonance Generator.
+Transmitter Concept: The Modulated Firmament Resonance Generator.
 
-Chapter 10 §10.5 gave us the Membrane Resonance Generator (MRG), a device that extracts energy from Firmament vibration modes by introducing a time-varying dielectric boundary (Dynamic Casimir Effect) with a magnetic symmetry-breaking bias. The reference MRG design produces approximately 30–65 W of usable output at a carrier frequency of 1.14 GHz.
+Chapter 10 §10.5 gave us the Firmament Resonance Generator (MRG), a device that extracts energy from Firmament vibration modes by introducing a time-varying dielectric boundary (Dynamic Casimir Effect) with a magnetic symmetry-breaking bias. The reference MRG design produces approximately 30–65 W of usable output at a carrier frequency of 1.14 GHz.
 
 What Chapter 10 treated as a single tone (the dielectric oscillation at fixed frequency) we can now treat as a carrier that accepts modulation. By frequency-shift-keying the dielectric oscillation — modulating the drive frequency by Delta f around the carrier — the MRG becomes a Waters-field transmitter. The modulation couples through the magnetic bias to the Psi sub A source term J sub A, imprinting the modulation pattern on the outgoing 6D wave packet.
 
@@ -373,7 +376,7 @@ P-124: Waters-field attenuation length. The attenuation length of a Waters-field
 
 P-125: Waters-field bandwidth. Usable bandwidth B approximately 10 m Psi c to the 2/ h-bar in the vacuum regime, B approximately 10 to the -3 m Psi c to the 2/ h-bar in the matter-coupled regime. Falsification threshold: operation of a Waters-field modulator with bandwidth below 10 to the -5 m Psi c to the 2/ h-bar or above 10 to the 3 m Psi c to the 2/ h-bar would falsify the Klein-Gordon dispersion.
 
-P-126: MRG-driven Waters-field modulation at 1 AU. A modulated Membrane Resonance Generator of the Ch. 10 §10.5 reference design, with Q reduced to 10 to the 4 and drive power 500 W, produces a detectable signal at a Ch. 12 §12.2-class receiver at 1 AU at (100 plus or minus 30) bps, BER 10 to the -6. Falsification threshold: operation of the reference transmitter-receiver pair at 1 AU baseline with achieved bitrate below 1 bps or above 10 to the 4 bps refutes the link-budget calculation of §11.4.7.
+P-126: MRG-driven Waters-field modulation at 1 AU. A modulated Firmament Resonance Generator of the Ch. 10 §10.5 reference design, with Q reduced to 10 to the 4 and drive power 500 W, produces a detectable signal at a Ch. 12 §12.2-class receiver at 1 AU at (100 plus or minus 30) bps, BER 10 to the -6. Falsification threshold: operation of the reference transmitter-receiver pair at 1 AU baseline with achieved bitrate below 1 bps or above 10 to the 4 bps refutes the link-budget calculation of §11.4.7.
 
 P-127: Waters-field channel anisotropy. The effective transmit gain of an MRG-T depends on the angle between the MRG's magnetic-bias axis and the Waters Below direction (set by the local gravitational-axis orientation), with a to the 2( theta ) angular pattern. Falsification threshold: absence of to the 2 theta dependence at the 10% level in a controlled transmit-rotate experiment falsifies the magnetic-bias coupling mechanism of Ch. 10 §10.5.
 
@@ -393,13 +396,15 @@ From Vol. 4, Ch. 5 (the measurement-problem chapter) and Ch. 9, §9.6 (the FTL-t
 
 [Equation — see print edition.]
 
-where Psi  body is a standard quantum state on the brane (the neurophysiological substrate) and Psi  spirit is a state in Zone 1, the atemporal domain. The Zone 1 metric is
+[Cross-chapter note on Ψspirit — 2026-05-11]: The symbol Psi  spirit appears with different levels of specification across Chs 9, 11, 12, and 13 of this volume. The canonical definition and the full discussion of three competing readings (Reading A: quantum field mode on Zone 1; Reading B: non-quantum pattern field; Reading C: placeholder for an unspecified coupling) are given in Ch 13 §13.3.3. This chapter (Ch 11) uses Psi _ spirit with Reading A implicit — the Zone 1 holographic bound argument in §11.5.3 invokes a Hilbert-space capacity argument that requires quantum-field structure. This is acknowledged as an assumption; the same channel capacity bound would apply under a generalized Reading B with appropriate modification. The series' default reading is Reading A, held as an open question pending OP-13.4 in Ch 14.
+
+where Psi  body is a standard quantum state on the Firmament (the neurophysiological substrate) and Psi  spirit is a state in Zone 1, the atemporal domain. The Zone 1 metric is
 
 [Equation — see print edition.]
 
 with S the Zone 1 coordinate. Critically, Eq. (11.5.2) has no timelike component. Zone 1 supports logical ordering (relational causality) without temporal ordering. A point S in Zone 1 is not "earlier" or "later" than another point — it is "adjacent" or "distant" in the logical structure that Zone 1 encodes.
 
-Two conscious agents A and B have their own body states (at distinct brane locations) and spirit states. When two spirit states overlap at a shared Zone 1 point S — that is, when the expression and the expression have significant amplitude at the same S — we call A and B spirit-entangled at S_*.
+Two conscious agents A and B have their own body states (at distinct Firmament locations) and spirit states. When two spirit states overlap at a shared Zone 1 point S — that is, when the expression and the expression have significant amplitude at the same S — we call A and B spirit-entangled at S_*.
 
 Information Encoding in the Spirit Field.
 
@@ -469,7 +474,7 @@ The consciousness channel transmits information instantaneously. In a 4D Lorentz
 
 The answer is that Zone 1 is not 4D Lorentz. Zone 1 is a Riemannian manifold with no timelike direction. The word "instantaneous" in Zone 1 refers to the shared atemporal structure: both agents read the same pattern at the "same" Zone 1 point because Zone 1 has no "different" times at which they could read different patterns. The pattern is eternally present, in the technical sense that time does not index the pattern's existence.
 
-When the information crosses back into the 4D brane at the receiver, it enters the brane at the receiver's local proper time — which is after the sender's local proper time at which the corresponding Zone 1 modulation was imposed. The brane-side ordering of encoder-then-decoder is respected, even though the Zone 1 transit had no "duration." There is no 4D closed timelike curve because there is no 4D path traced by the signal at all; the signal enters Zone 1, ceases to be a 4D object, and re-enters 4D at the receiver.
+When the information crosses back into the 4D Firmament at the receiver, it enters the Firmament at the receiver's local proper time — which is after the sender's local proper time at which the corresponding Zone 1 modulation was imposed. The Firmament-side ordering of encoder-then-decoder is respected, even though the Zone 1 transit had no "duration." There is no 4D closed timelike curve because there is no 4D path traced by the signal at all; the signal enters Zone 1, ceases to be a 4D object, and re-enters 4D at the receiver.
 
 This resolution survives boosts. A Lorentz-boosted observer sees the sender's transmission event and the receiver's reception event at different coordinate times, but the causal ordering is preserved because the Zone 1 transit does not admit a coordinate-time description. Lorentz transformations act on 4D coordinates; Zone 1 is not 4D; the transformation has nothing to re-order. The tachyon-anti-telephone argument constructs a paradox from a chain of FTL signals in 4D; a Zone-1-mediated signal is not a 4D signal, so the chain cannot be constructed.
 
@@ -571,7 +576,7 @@ Why This Bookkeeping Matters.
 
 The Physicist reviewer will scan this table looking for any channel that violates a constraint without justification. Only one cell is marked as a violation — Consciousness Interface × Lorentz no-signaling — and the justification is that the theorem's setup assumptions (spacelike slice of Minkowski, standard Hilbert-space tensor product) are not met by the Zone 1 channel.
 
-A critic may reply: "The Lorentz no-signaling theorem's assumptions are always met if we restrict to 4D Minkowski observations. If you can receive the message on the brane, the brane observation is subject to no-signaling." The subtle response is: the brane observation is subject to no-signaling against ordinary bipartite entangled states. The consciousness interface does not use ordinary bipartite entangled states; it uses a shared Zone 1 pattern that has no flat-4D Hilbert-space factorization. The theorem's hypothesis — that the shared state factors as a tensor product over spacelike-separated regions of 4D — is not satisfied.
+A critic may reply: "The Lorentz no-signaling theorem's assumptions are always met if we restrict to 4D Minkowski observations. If you can receive the message on the Firmament, the Firmament observation is subject to no-signaling." The subtle response is: the Firmament observation is subject to no-signaling against ordinary bipartite entangled states. The consciousness interface does not use ordinary bipartite entangled states; it uses a shared Zone 1 pattern that has no flat-4D Hilbert-space factorization. The theorem's hypothesis — that the shared state factors as a tensor product over spacelike-separated regions of 4D — is not satisfied.
 
 This is precisely analogous to how general relativity evades the "instantaneous action-at-a-distance" objection to Newtonian gravity: the GR field equations are not of the Newtonian form, so the Newtonian no-go does not apply. The consciousness interface is a structurally non-Minkowskian phenomenon; standard Minkowskian theorems do not apply to it.
 
@@ -602,7 +607,7 @@ We rank the four channels by the product of feasibility (probability of technica
 
 1st — Waters-Field Modulation. Highest feasibility × usefulness. The transmitter concept (modulated MRG) builds on a device already specified in Ch. 10 §10.5. The receiver concept (Ψ_A-coupled detector) piggybacks on Ch. 12's sensor catalog. The physics is classical Klein-Gordon with a well-defined source and propagation. The channel is sub-c but penetrates solid matter, has enormous attenuation length, and is orthogonal to every EM interference source. Engineering relevance: immediately useful for sub-surface, deep-ocean, and interplanetary communication where EM is attenuated.
 
-2nd — Zone Tunneling. Second highest. The channel geometry is derived cleanly from Ch. 9 §9.3's dimensional-bypass mechanism. The link-budget analysis produces concrete numbers. The transmitter concept requires field-engineering at TRL 1 but not more speculative than a warp-drive prototype. The channel is apparently-FTL in the sense that signals arrive at 4D-spacelike-separated receivers faster than light-on-the-brane would reach them. Engineering relevance: the deep-interstellar communication channel — if it works, it solves the 22-hour Voyager latency problem at 10 to the 22 m distances in principle.
+2nd — Zone Tunneling. Second highest. The channel geometry is derived cleanly from Ch. 9 §9.3's dimensional-bypass mechanism. The link-budget analysis produces concrete numbers. The transmitter concept requires field-engineering at TRL 1 but not more speculative than a warp-drive prototype. The channel is apparently-FTL in the sense that signals arrive at 4D-spacelike-separated receivers faster than light-on-the-Firmament would reach them. Engineering relevance: the deep-interstellar communication channel — if it works, it solves the 22-hour Voyager latency problem at 10 to the 22 m distances in principle.
 
 3rd — Consciousness Interface. Third highest in the feasibility × usefulness product because the usefulness (if it works) is enormous, and the feasibility is uncertain. Mathematical basis is as clean as any channel in the book; empirical basis (PEAR-class studies, replication contested) is the weakest in the entire Foundations series. This channel lives or dies on Phase-1 PEAR replications — see P-131. Engineering relevance, if it works: instantaneous planetary-scale and eventually cosmic-scale communication at low energy cost.
 
@@ -610,12 +615,12 @@ We rank the four channels by the product of feasibility (probability of technica
 
 Observable Signatures Summary.
 
-Each channel produces at least one brane-observable signature distinct from Standard Model predictions:
+Each channel produces at least one Firmament-observable signature distinct from Standard Model predictions:
 
 - Entanglement: Standard CHSH violation at S = 2 square root of 2, no deviation from QM predictions. (No exotic signature; the prediction is QM matches QM.)
 - Zone Tunneling: EM spectral line at transmitter frequency, coincident signals at 4D-spacelike-separated receivers with r sub 6D/c arrival-time offsets rather than r sub 4D/c. Potentially associated with FRB-class astrophysical events.
 - Waters-Field Modulation: Strain signals on Ψ_A-coupled detectors at carrier frequency and its modulation sidebands. to the 2 theta orientation dependence of transmit gain (P-127).
-- Consciousness Interface: Statistical effect in focused-attention experiments above PEAR-class noise floor (P-131). No direct-detection brane signature at TRL 1.
+- Consciousness Interface: Statistical effect in focused-attention experiments above PEAR-class noise floor (P-131). No direct-detection Firmament signature at TRL 1.
 
 Investment Priority Recommendation.
 
@@ -745,13 +750,13 @@ Channel 1 doesn't signal (§11.2). The Lorentz paradox requires two FTL signals.
 
 Channel 2 — Zone Tunneling.
 
-Channel 2 appears FTL on the brane (§11.3): signals arrive at 4D-spacelike-separated receivers. But the brane-side spacelike separation is timelike in 6D, because the bulk-path geodesic has positive proper length. In the 6D metric, the signal propagates forward in proper time along its null or timelike geodesic. The metric signature (-, +, +, +, +, +) forbids closed timelike curves in the 6D sense.
+Channel 2 appears FTL on the Firmament (§11.3): signals arrive at 4D-spacelike-separated receivers. But the Firmament-side spacelike separation is timelike in 6D, because the bulk-path geodesic has positive proper length. In the 6D metric, the signal propagates forward in proper time along its null or timelike geodesic. The metric signature (-, +, +, +, +, +) forbids closed timelike curves in the 6D sense.
 
-What about the 4D Lorentz boost argument? It still holds on the brane: in a boosted frame, the arrival event precedes the emission event in 4D simultaneity planes. But the paradoxical chain requires two zone-tunneling signals, and for each signal, the 6D propagation is forward in 6D proper time. The two signals concatenated, in the 6D picture, produce a 6D path that is forward-in-proper-time throughout. The apparent 4D "backward" ordering is a coordinate effect of the 4D embedding, not a physical closed curve in the full 6D manifold.
+What about the 4D Lorentz boost argument? It still holds on the Firmament: in a boosted frame, the arrival event precedes the emission event in 4D simultaneity planes. But the paradoxical chain requires two zone-tunneling signals, and for each signal, the 6D propagation is forward in 6D proper time. The two signals concatenated, in the 6D picture, produce a 6D path that is forward-in-proper-time throughout. The apparent 4D "backward" ordering is a coordinate effect of the 4D embedding, not a physical closed curve in the full 6D manifold.
 
-Formally: in 6D, let tau be proper time along the signal's worldline. For any concatenation of two zone-tunneling signals, tau is strictly increasing. In 4D, t (Lorentz boosted) can decrease. This is not a contradiction because t not equal to tau — the 4D time coordinate is a projection of 6D proper time and does not preserve the 6D causal structure. The 6D structure is the physical structure; the 4D Lorentz symmetry is an emergent symmetry of the brane that does not extend to bulk paths.
+Formally: in 6D, let tau be proper time along the signal's worldline. For any concatenation of two zone-tunneling signals, tau is strictly increasing. In 4D, t (Lorentz boosted) can decrease. This is not a contradiction because t not equal to tau — the 4D time coordinate is a projection of 6D proper time and does not preserve the 6D causal structure. The 6D structure is the physical structure; the 4D Lorentz symmetry is an emergent symmetry of the Firmament that does not extend to bulk paths.
 
-Put succinctly: zone-tunneling is FTL on the brane but time-respecting in the bulk. Chronological paradoxes live in 4D spacetime alone; the bulk path lifts out of that arena. ✓
+Put succinctly: zone-tunneling is FTL on the Firmament but time-respecting in the bulk. Chronological paradoxes live in 4D spacetime alone; the bulk path lifts out of that arena. ✓
 
 Channel 3 — Waters-Field Modulation.
 
@@ -763,15 +768,15 @@ Channel 4 is instantaneous — but Zone 1 is not Lorentz-covariant. Let us be pr
 
 The tachyon anti-telephone argument requires that the signaling chain can be "boosted" in the sense that all events in the chain are described in a 4D Minkowski frame, and Lorentz transformations re-order them. The consciousness-interface signal exits 4D at the transmitter and re-enters 4D at the receiver; between those two events, it is not located in any 4D frame. Lorentz transformations act on 4D coordinates; they have no action on Zone 1 events because Zone 1 is not equipped with a 4D coordinate chart.
 
-Let Alice transmit a consciousness-interface message from event E sub 1 = (t sub 1, x sub 1) on the brane to Bob at event E sub 2 = (t sub 2, x sub 2). The Zone 1 transit has no 4D time coordinate — it is not an event in 4D. The signal "enters" Zone 1 at E sub 1 and "re-enters" the brane at E sub 2. In Alice's rest frame, t sub 2 > t sub 1 (Bob receives after Alice sends) because this is the empirical setup: Alice sends first, Bob receives second, and both are measured in Alice's frame on the brane.
+Let Alice transmit a consciousness-interface message from event E sub 1 = (t sub 1, x sub 1) on the Firmament to Bob at event E sub 2 = (t sub 2, x sub 2). The Zone 1 transit has no 4D time coordinate — it is not an event in 4D. The signal "enters" Zone 1 at E sub 1 and "re-enters" the Firmament at E sub 2. In Alice's rest frame, t sub 2 > t sub 1 (Bob receives after Alice sends) because this is the empirical setup: Alice sends first, Bob receives second, and both are measured in Alice's frame on the Firmament.
 
-In a Lorentz-boosted frame, coordinate times may change, but the pair (E sub 1, E sub 2) is still indexed by the two brane events, and the Zone 1 transit remains an unparameterized transit. To construct the paradoxical return message, Bob would have to send back a second consciousness-interface message to Alice at E sub 3 = (t sub 3, x sub 3), which arrives at Alice at E sub 4 = (t sub 4, x sub 4). For the paradox to form, we need t sub 4 < t sub 1 in some frame.
+In a Lorentz-boosted frame, coordinate times may change, but the pair (E sub 1, E sub 2) is still indexed by the two Firmament events, and the Zone 1 transit remains an unparameterized transit. To construct the paradoxical return message, Bob would have to send back a second consciousness-interface message to Alice at E sub 3 = (t sub 3, x sub 3), which arrives at Alice at E sub 4 = (t sub 4, x sub 4). For the paradox to form, we need t sub 4 < t sub 1 in some frame.
 
-Here is the point. In Alice's rest frame, t sub 3 greater than or equal to t sub 2 (Bob can only send after receiving), and t sub 4 greater than or equal to t sub 3 (Alice can only receive after Bob sent, because in Alice's frame Bob's transmission is at the brane, subject to the local forward-proper-time constraint at Bob's worldline), so t sub 4 greater than or equal to t sub 2 > t sub 1. There is no paradox in Alice's rest frame.
+Here is the point. In Alice's rest frame, t sub 3 greater than or equal to t sub 2 (Bob can only send after receiving), and t sub 4 greater than or equal to t sub 3 (Alice can only receive after Bob sent, because in Alice's frame Bob's transmission is at the Firmament, subject to the local forward-proper-time constraint at Bob's worldline), so t sub 4 greater than or equal to t sub 2 > t sub 1. There is no paradox in Alice's rest frame.
 
-Can a Lorentz boost place t sub 4 < t sub 1? The boost acts on 4D Minkowski coordinates. If we boost to a frame v, the transformed coordinates are t' sub i = gamma (t sub i - v x sub i / c to the 2). But here's the subtlety: the consciousness-interface signal between E sub 1 and E sub 2 has no 4D path. There is no continuous 4D worldline for the signal between E sub 1 and E sub 2; the signal's 4D "existence" is at the two brane events only, and the transit is in a non-4D domain.
+Can a Lorentz boost place t sub 4 < t sub 1? The boost acts on 4D Minkowski coordinates. If we boost to a frame v, the transformed coordinates are t' sub i = gamma (t sub i - v x sub i / c to the 2). But here's the subtlety: the consciousness-interface signal between E sub 1 and E sub 2 has no 4D path. There is no continuous 4D worldline for the signal between E sub 1 and E sub 2; the signal's 4D "existence" is at the two Firmament events only, and the transit is in a non-4D domain.
 
-The Lorentz boost argument presupposes a continuous 4D path — because the argument reorders events along the signal's path. Without a continuous path, the argument does not apply. Alice can still reach E sub 2 being after E sub 1, and Bob can still have E sub 4 being after E sub 3, in any frame; the ordering between E sub 2 and E sub 3 (Bob's receive then Bob's send) is also respected in any frame because those are both at Bob's worldline where local Lorentz ordering holds. The only potential reversal is between E sub 1 and E sub 4, but the expression in Alice's frame and this inequality, being on brane worldlines at timelike-related points, is Lorentz-invariant.
+The Lorentz boost argument presupposes a continuous 4D path — because the argument reorders events along the signal's path. Without a continuous path, the argument does not apply. Alice can still reach E sub 2 being after E sub 1, and Bob can still have E sub 4 being after E sub 3, in any frame; the ordering between E sub 2 and E sub 3 (Bob's receive then Bob's send) is also respected in any frame because those are both at Bob's worldline where local Lorentz ordering holds. The only potential reversal is between E sub 1 and E sub 4, but the expression in Alice's frame and this inequality, being on Firmament worldlines at timelike-related points, is Lorentz-invariant.
 
 There is no paradoxical chain, not because the framework censors it, but because the chain cannot be constructed given the non-4D-path nature of the Zone 1 transit. ✓ (with the structural argument above)
 
@@ -783,7 +788,7 @@ For the four communication channels specifically:
 - Entanglement: pairs cannot be prepared prior to the Sabbath boundary, so any entangled correlation that would signal back would require pre-Sabbath preparation; the framework forbids this.
 - Zone tunneling: bulk geodesics respecting the metric signature do not cross the Sabbath boundary in reverse.
 - Waters-field modulation: v sub g less than or equal to c in 4D forward time; no backward-in-time propagation.
-- Consciousness interface: Zone 1 has no 4D time, but the brane-side re-entry is always after the brane-side exit; the Sabbath boundary bounds all brane-side events.
+- Consciousness interface: Zone 1 has no 4D time, but the Firmament-side re-entry is always after the Firmament-side exit; the Sabbath boundary bounds all Firmament-side events.
 
 Novikov Self-Consistency as Backstop.
 
@@ -855,7 +860,7 @@ C11.10 The no-cloning theorem applies straightforwardly to entanglement and zone
 
 Challenge Problems
 
-Ch11.1 Derive the channel capacity of a Waters-field modulator driven by a Membrane Resonance Generator (Ch. 10 §10.5) coupled to a target receiver at 1 AU. Start from the MRG's mechanical resonance frequency and dielectric boundary oscillation; propagate through the modulation coupling derivation of §11.4.5; compute the link budget of §11.4.7 with all uncertainties propagated. Express the final bitrate with a 90% confidence interval. (Hint: the dominant uncertainty is the MRG-to-Psi sub A coupling efficiency, estimated at 10 to the -3 with an order-of-magnitude uncertainty.)
+Ch11.1 Derive the channel capacity of a Waters-field modulator driven by a Firmament Resonance Generator (Ch. 10 §10.5) coupled to a target receiver at 1 AU. Start from the MRG's mechanical resonance frequency and dielectric boundary oscillation; propagate through the modulation coupling derivation of §11.4.5; compute the link budget of §11.4.7 with all uncertainties propagated. Express the final bitrate with a 90% confidence interval. (Hint: the dominant uncertainty is the MRG-to-Psi sub A coupling efficiency, estimated at 10 to the -3 with an order-of-magnitude uncertainty.)
 
 Ch11.2 Prove a no-superluminal-signaling theorem for any bipartite zone-connected system in which one party has uncontrolled spirit-state fluctuations. Formally, let the expression be a stochastic field with a given distribution the expression; show that if the distribution is independent of any choice made by A, then the reduced distribution rho sub A is invariant under A's choice. Discuss what this theorem implies for the practical limits of the consciousness-interface channel.
 
@@ -875,11 +880,11 @@ Handoff to Chapter 12.
 
 Every communication channel implies a detector. The zone-tunneling channel needs a ΨWaters-sensitive receiver. The Waters-field modulation channel needs a ΨA-coupled interferometer. The consciousness-interface channel needs amplification and measurement of neural spirit-state correlates. The entanglement channel (which doesn't signal) still needs precision Bell-inequality verifiers to confirm the null prediction P-132.
 
-Chapter 12 addresses these receivers, along with the broader zone-architecture sensor suite (membrane vibration detectors, Waters-field gravimeters, zone-boundary probes, life-detection biosignature sensors). The communication channels of Chapter 11 and the detector concepts of Chapter 12 form a closed loop: what one transmits, the other receives. Read together, the two chapters specify the full engineering stack for zone-architecture communication and remote sensing.
+Chapter 12 addresses these receivers, along with the broader zone-architecture sensor suite (Firmament vibration detectors, Waters-field gravimeters, zone-boundary probes, life-detection biosignature sensors). The communication channels of Chapter 11 and the detector concepts of Chapter 12 form a closed loop: what one transmits, the other receives. Read together, the two chapters specify the full engineering stack for zone-architecture communication and remote sensing.
 
 Closing Remark — Information as Architecture-Native.
 
-Matter and energy are bounded by the brane: they live in 4D, respect c, and carry rest mass. Information is not so bounded. A pattern on Zone 1 is as real as a pattern on a photograph and no more constrained by the brane's geometry than a photograph is constrained by the paper it is printed on. The four communication channels of this chapter are — when one looks carefully — four ways of writing and reading patterns in a medium that is architecture-native rather than brane-native. Of the four, one (entanglement) fails because the readings are uncontrollable; two (zone tunneling, Waters-field modulation) succeed because the writing is classical and the channel is well-behaved; one (consciousness interface) is provisional because the controllability is unconfirmed but the architecture is clean.
+Matter and energy are bounded by the Firmament: they live in 4D, respect c, and carry rest mass. Information is not so bounded. A pattern on Zone 1 is as real as a pattern on a photograph and no more constrained by the Firmament's geometry than a photograph is constrained by the paper it is printed on. The four communication channels of this chapter are — when one looks carefully — four ways of writing and reading patterns in a medium that is architecture-native rather than Firmament-native. Of the four, one (entanglement) fails because the readings are uncontrollable; two (zone tunneling, Waters-field modulation) succeed because the writing is classical and the channel is well-behaved; one (consciousness interface) is provisional because the controllability is unconfirmed but the architecture is clean.
 
 A reader who accepts Chapter 9's five travel mechanisms should accept, as no further leap, the four communication channels. The travel chapter was the hard part: moving mass requires energy budgets of 10 to the 15–10 to the 28 J and century-scale engineering. Moving bits requires only that the channels — which we have shown exist — be written and read at achievable precision. The engineering problem for Chapters 11 and 12 is receiving carefully; the physical problem has been, in this chapter, solved.
 
@@ -914,7 +919,7 @@ Equation Reference.
 
 Cross-References.
 
-- Vol. 1, Ch. 3–5: 6D metric, zone topology, brane and confinement potential
+- Vol. 1, Ch. 3–5: 6D metric, zone topology, Firmament and confinement potential
 - Vol. 1, Ch. 6: Waters field equations (source material for §11.4)
 - Vol. 2, Ch. 11: ΨA and ΨB field equations (Eqs. V.2.Eq.12, V.2.Eq.14)
 - Vol. 3, Ch. 8: Four thermodynamic phases
@@ -926,7 +931,7 @@ Cross-References.
 - Vol. 6, Ch. 9 §9.3: dimensional bypass (source for §11.3)
 - Vol. 6, Ch. 9 §9.6: consciousness interface for FTL travel (source for §11.5)
 - Vol. 6, Ch. 9 §9.7: GR no-go theorems evaded (source for §11.9)
-- Vol. 6, Ch. 10 §10.5: Membrane Resonance Generator (source for §11.4.5)
+- Vol. 6, Ch. 10 §10.5: Firmament Resonance Generator (source for §11.4.5)
 - Vol. 6, Ch. 12: detector concepts (forward reference throughout)
 
 End of Chapter 11 Draft — word count approximately 19,800.

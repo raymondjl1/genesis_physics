@@ -20,7 +20,7 @@ One problem set per chapter. Each set contains three to five problems organized 
 
 ## Chapter 1 — Why the Universe Is Quantum
 
-**P4.1.1 ★** Using Vol 1 Eq. (1.10.12), estimate $\hbar$ from the extra-dimensional parameter $\xi_A$ and the membrane tension $\sigma$ and mass density $\mu$ used in Vol 1 Ch 5. Compare to the measured value and comment on how tightly $\xi_A$ is constrained.
+**P4.1.1 ★** Using Vol 1 Eq. (1.10.12), estimate $\hbar$ from the extra-dimensional parameter $\xi_A$ and the Firmament tension $\sigma$ and mass density $\mu$ used in Vol 1 Ch 5. Compare to the measured value and comment on how tightly $\xi_A$ is constrained.
 
 **P4.1.2 ★** The Sturm–Liouville theorem (Vol 1 Thm. 10.1) states that any self-adjoint second-order operator on a compact domain has a discrete real spectrum. Name one self-adjoint operator from Vol 1 or Vol 2 that does *not* satisfy the compact-domain hypothesis, and explain why its spectrum is nonetheless computable.
 
@@ -160,7 +160,7 @@ This is Schwinger's 1948 result. The electron magnetic moment is then $g_e = 2(1
 
 ---
 
-## Chapter 10 — Leptons and Quarks from Membrane Resonances
+## Chapter 10 — Leptons and Quarks from Firmament Resonances
 
 **P4.10.1 ★** Using the Kaluza–Klein ladder Eq. (1.5.24) and the hierarchy parameter $\alpha_\text{hier}$ of Vol 3 Eq. (3.7.9), compute the ratio $m_\mu/m_e$ predicted by the zone framework and compare with the measured value in Appendix B §B.4.
 

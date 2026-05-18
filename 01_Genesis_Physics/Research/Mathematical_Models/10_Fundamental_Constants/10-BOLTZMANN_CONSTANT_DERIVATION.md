@@ -29,7 +29,7 @@ This document resolves the status of Boltzmann's constant k_B = 1.381 × 10⁻²
 
 **k_B is fundamentally a UNIT CONVERSION FACTOR** (like the speed of light c converts meters to seconds), not a dynamical constant. However, the theory **does derive the CMB temperature and all thermal properties** from membrane parameters, making k_B's numerical value a consequence of the choice of temperature units.
 
-The key insight: **Temperature in Genesis Physics is a measure of the average energy per ACCESSIBLE MEMBRANE MODE**. The proportionality constant k_B connects this dimensionless mode counting to the energetic scale set by the Firmament's elasticity (brane tension σ and inertia μ).
+The key insight: **Temperature in Genesis Physics is a measure of the average energy per ACCESSIBLE Firmament membrane MODE**. The proportionality constant k_B connects this dimensionless mode counting to the energetic scale set by the Firmament's elasticity (Firmament tension σ and inertia μ).
 
 **Major Results**:
 
@@ -69,7 +69,7 @@ $$k_B = 1.380649 \times 10^{-23} \, \text{J/K}$$
 In Genesis Physics, we ask: **Why does temperature couple to energy with this particular constant?**
 
 **Key observation**: The Firmament (4D elastic membrane in 6D spacetime) has quantized oscillation modes with:
-- Frequency spacing determined by wave speed c = √(σ/μ) and brane geometry
+- Frequency spacing determined by wave speed c = √(σ/μ) and Firmament geometry
 - Energy spacing determined by ℏ (already derived from topological vortices)
 - Density of states determined by membrane volume and dimensionality
 
@@ -95,17 +95,17 @@ This is analogous to how General Relativity derives the ratio M_sun/M_Planck wit
 
 ---
 
-## Part 2: Statistical Mechanics of Membrane Oscillations
+## Part 2: Statistical Mechanics of Firmament Oscillations
 
 ### 2.1 The Firmament as a Quantized Harmonic Oscillator
 
-The Firmament (Zone 2.2) is an elastic 4D brane embedded in 6D spacetime with:
+The Firmament (Zone 2.2) is an elastic 4D Firmament embedded in 6D spacetime with:
 
 | Parameter | Meaning | Value |
 |-----------|---------|-------|
 | σ | Brane tension (energy per unit area) | 6.0 × 10⁹⁸ kg/(m·s²) |
 | μ | Volume mass density | 6.7 × 10⁸¹ kg/m³ |
-| c = √(σ/μ) | Wave speed on brane | 2.998 × 10⁸ m/s |
+| c = √(σ/μ) | Wave speed on Firmament | 2.998 × 10⁸ m/s |
 | V_4D | 4D volume (spatial extent of Firmament) | ~(ξ_A)³ ~ 10⁷⁸ m³ |
 
 The Firmament supports **transverse elastic oscillations** (waves in the perpendicular directions). These are analogous to:
@@ -156,7 +156,7 @@ For a membrane of finite size, there is a **maximum frequency** (Debye frequency
 
 $$\lambda_{\min} = 2a \quad \text{(roughly one lattice spacing or minimum physical length)}$$
 
-For the Firmament, a natural cutoff is set by the nuclear scale η_B (the size of topological defects on the membrane):
+For the Firmament, a natural cutoff is set by the nuclear scale η_B (the size of topological defects on the Firmament):
 
 $$\omega_D = \frac{c}{\eta_B} = \frac{2.998 \times 10^8}{1.3 \times 10^{-15}} \approx 2.3 \times 10^{23} \text{ rad/s} \quad \text{...(2.6)}$$
 
@@ -185,8 +185,8 @@ $$\boxed{k_B = \frac{\text{Characteristic thermal energy scale}}{\text{Temperatu
 
 The characteristic thermal energy scale is set by:
 - The quantum of action ℏ (already derived)
-- The characteristic frequency of membrane modes ω_m
-- The membrane geometry
+- The characteristic frequency of Firmament modes ω_m
+- The Firmament geometry
 
 We argue that:
 $$k_B \, T = \hbar \, f_{\text{thermal}}(T) \quad \text{...(2.11)}$$
@@ -362,7 +362,7 @@ Consider this analogy:
 
 **Genesis Physics View**:
 - Temperature is a measure of excitation in the Firmament's mode spectrum
-- The relationship T ↔ Energy is derived from quantum statistical mechanics of membrane modes
+- The relationship T ↔ Energy is derived from quantum statistical mechanics of Firmament membrane modes
 - The numerical value of k_B depends on:
   1. The choice of temperature units (Kelvin)
   2. The choice of energy units (Joule)
@@ -574,7 +574,7 @@ $$= \frac{2.725}{1.76 \times 10^{12}} = 1.55 \times 10^{-12}$$
 
 The ratio depends on:
 - ℏ (from topological defects)
-- c (from membrane mechanics)
+- c (from Firmament mechanics)
 - η_B (from zone geometry)
 - T_CMB (from cosmological expansion history)
 
@@ -646,7 +646,7 @@ $$\approx 1.2 \times 10^{15} \text{ K}$$
 
 ---
 
-## Part 7: Self-Consistency — Bose-Einstein and Fermi-Dirac Statistics from Membrane Modes
+## Part 7: Self-Consistency — Bose-Einstein and Fermi-Dirac Statistics from Firmament Modes
 
 ### 7.1 Indistinguishability on the Firmament
 
@@ -685,7 +685,7 @@ $$\langle n \rangle = -\frac{1}{Z} \frac{\partial Z}{\partial (\hbar\omega/k_B T
 
 $$= \frac{1}{e^{\hbar\omega/k_B T} - 1} \quad \text{...(7.2)}$$
 
-This is the **Bose-Einstein distribution**, derived purely from counting indistinguishable quantum states on the membrane.
+This is the **Bose-Einstein distribution**, derived purely from counting indistinguishable quantum states on the Firmament.
 
 ### 7.3 Fermionic Defects: Fermi-Dirac Distribution
 
@@ -735,7 +735,7 @@ $$\alpha_i = \frac{E_i^2}{\hbar c M_{\text{Planck}}^2 c^2}$$
 These energy scales depend on:
 - The zone extents (ξ_A, η_B)
 - The warp factors
-- The membrane tension σ
+- The Firmament tension σ
 
 They do **not** depend on k_B (which is a unit choice).
 
@@ -775,7 +775,7 @@ From quantum mechanics:
 
 $$g(E) = \frac{dN_{\text{states}}}{dE}$$
 
-For a 3D system of oscillators (the membrane modes):
+For a 3D system of oscillators (the Firmament modes):
 
 $$g(E) \sim E^{(3/2 \times 3 - 1)} = E^{4} \quad \text{(rough scaling)}$$
 
@@ -895,7 +895,7 @@ Genesis Physics makes the following **falsifiable predictions** involving therma
 | Constant | Status | Key Relation |
 |----------|--------|--------------|
 | ℏ | Derived | From topological vortex action |
-| c | Derived | From membrane tension/inertia: c² = σ/μ |
+| c | Derived | From Firmament tension/inertia: c² = σ/μ |
 | G₄ | Derived | From 6D Einstein action + volume factor |
 | α | Derived | From electromagnetic coupling (future doc) |
 | k_B | Unit choice | Converts temperature ↔ energy; ratio k_B/ℏ is physical |
@@ -916,7 +916,7 @@ The theory predicts all temperatures and their ratios. The choice to call the pr
 - 10-FINE_STRUCTURE_DERIVATION.md — Fine-structure constant from electroweak coupling
 
 **Genesis Physics Axioms and Framework**:
-- AXIOM_MEMBRANE_MECHANICS_v2.md — Firmament as elastic 4D brane
+- AXIOM_MEMBRANE_MECHANICS_v2.md — Firmament as elastic 4D Firmament
 - AXIOM_6D_METRIC_SOLUTIONS.md — Zone extents and scale hierarchies
 - ACTION_6D_COMPLETE.md — Full gravitational and matter action
 

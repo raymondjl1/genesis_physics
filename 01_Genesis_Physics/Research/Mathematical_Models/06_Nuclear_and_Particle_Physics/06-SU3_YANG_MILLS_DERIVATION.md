@@ -171,7 +171,7 @@ $$S_{\text{gauge}}^{(SU(3))} = -\frac{1}{4} \int d^4x \int d\xi d\eta \, \sqrt{-
 From KK_DIMENSIONAL_REDUCTION.md equation (1.3):
 $$\sqrt{-g_6} = e^{2A+2B} \sqrt{-g_4}$$
 
-where $g_4$ is the 4D metric on the brane.
+where $g_4$ is the 4D metric on the Firmament.
 
 **Step 2: Insert Zero-Modes**
 

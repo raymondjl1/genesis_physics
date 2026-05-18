@@ -2,8 +2,8 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 "So God created mankind in his own image, in the image of God he created them; male and female" (duality in creation) | Genesis 1:27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
-> | Parent Theory | 6D Action, Membrane Dynamics (topological defects as particle carriers) | ACTION_6D_COMPLETE.md, TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Parent Theory | 6D Action, Firmament Dynamics (topological defects as particle carriers) | ACTION_6D_COMPLETE.md, TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md |
 > | **This Document** | **Jackiw-Rossi zero modes on vortex defects; spin-1/2 emergence; Pauli exclusion from topological statistics; g-factor = 2.002319** | **FERMION_EMERGENCE_FROM_MEMBRANE.md** |
 > | Modern Equivalent | Topological quantum field theory, vortex quantization, Dirac equation in curved space | Convergence: predicts exact electron g-factor and Stern-Gerlach quantization; matches QED predictions to high precision |
 >
@@ -86,7 +86,7 @@ Enforce boundary condition: as $(ξ, η) \to \infty$, $|\Delta| \to$ constant.
 
 ### 2.2 Vortex Topology
 
-In the vortex core (ρ ~ 0, where $\rho = \sqrt{ξ^2 + η^2}$), the membrane is **defective**: the bosonic harmonic oscillator that normally confines the vortex undergoes spontaneous symmetry breaking.
+In the vortex core (ρ ~ 0, where $\rho = \sqrt{ξ^2 + η^2}$), the Firmament is **defective**: the bosonic harmonic oscillator that normally confines the vortex undergoes spontaneous symmetry breaking.
 
 The **winding number** is computed as:
 
@@ -206,7 +206,7 @@ $$S^2 = S_x^2 + S_y^2 + S_z^2 \Rightarrow \langle S^2 \rangle = \frac{3\hbar^2}{
 
 ### 5.1 Setup and Hamiltonian
 
-A beam of fermions (emerging from the membrane as vortex zero modes) enters an inhomogeneous magnetic field:
+A beam of fermions (emerging from the Firmament as vortex zero modes) enters an inhomogeneous magnetic field:
 
 $$\mathbf{B} = B_0 \hat{z} + \frac{\partial B_z}{\partial z} z \, \hat{z} \quad \text{(gradient in z-direction)}$$
 
@@ -269,7 +269,7 @@ $$[H_{\text{Pauli}}, \mathbf{S}] = 0 \quad \Rightarrow \quad g_s = 2 \quad \text
 
 ### 6.2 One-Loop Anomalous Magnetic Moment
 
-Quantum corrections arise from virtual membrane excitations dressing the vortex. The one-loop diagram (fermion → virtual photon + virtual membrane state → fermion) contributes:
+Quantum corrections arise from virtual Firmament excitations dressing the vortex. The one-loop diagram (fermion → virtual photon + virtual membrane state → fermion) contributes:
 
 $$a_e = \left\langle \frac{g_s - 2}{2} \right\rangle_{\text{loop}} = \frac{\alpha}{2\pi} + O(\alpha^2) \tag{7}$$
 
@@ -286,7 +286,7 @@ This is the **Schwinger result** (1948), derived from the lowest-order QED corre
 The vortex zero mode is dressed by virtual oscillations of the bosonic membrane field. Each virtual excitation-reabsorption cycle:
 
 1. **Emission:** The vortex emits a virtual photon
-2. **Propagation:** The photon couples to virtual membrane modes in the 6D background
+2. **Propagation:** The photon couples to virtual Firmament modes in the 6D background
 3. **Reabsorption:** The vortex absorbs the photon, leaving a phase shift
 
 The accumulated phase shift in the magnetic moment is captured by the anomalous term $a_e \mu_B B$.
@@ -308,7 +308,7 @@ $$\boxed{g = 2.002319...} \quad \text{(theory)}$$
 | $a_e$ | 0.001165 | 0.001165 | 12 digits |
 | $g$ | 2.002319 | 2.002319 | 12 digits |
 
-**Test 5.6 Resolution:** The membrane framework, via one-loop QED corrections, predicts the electron g-factor to 12 decimal places, matching the most precise measurement in physics.
+**Test 5.6 Resolution:** The Firmament framework, via one-loop QED corrections, predicts the electron g-factor to 12 decimal places, matching the most precise measurement in physics.
 
 ---
 
@@ -352,7 +352,7 @@ $$\Psi(\mathbf{r}_2, \mathbf{r}_1) = (-1) \cdot \phi(\mathbf{r}_2) \phi(\mathbf{
 
 For this to be consistent with the antisymmetrization requirement, we must have $\phi(\mathbf{r}_1) \phi(\mathbf{r}_2) = 0$, which means the two fermions **cannot be in the same state**.
 
-**Conclusion:** The Pauli exclusion principle ($\text{no two electrons in same state}$) emerges **automatically from the topological properties of vortex defects** in the membrane. No additional postulate is needed.
+**Conclusion:** The Pauli exclusion principle ($\text{no two electrons in same state}$) emerges **automatically from the topological properties of vortex defects** in the Firmament. No additional postulate is needed.
 
 ---
 
@@ -448,14 +448,14 @@ $$\boxed{\begin{aligned}
 The Genesis Physics framework achieves a remarkable unification:
 
 1. **Bosonic Foundations:** The 6D membrane is fundamentally bosonic (harmonic oscillator modes)
-2. **Topological Defects:** Vortex configurations are emergent (spontaneous symmetry breaking in the membrane potential)
+2. **Topological Defects:** Vortex configurations are emergent (spontaneous symmetry breaking in the Firmament potential)
 3. **Fermionic Emergence:** Spin-1/2 fermions are not fundamental but arise as topological bound states
 4. **Quantum Statistics:** Pauli exclusion principle (antisymmetry) follows automatically from defect topology
 5. **Electromagnetic Coupling:** Minimal coupling to U(1) gauge field inherited from 6D curvature
 
 This explains why:
 - Fermions have spin-1/2 (n=1 vortex)
-- Bosons have integer spin (membrane excitations)
+- Bosons have integer spin (Firmament excitations)
 - Leptons/quarks are copies of the same topological defect (different internal sectors)
 
 ---
@@ -476,7 +476,7 @@ This suggests that the three Standard Model fermion generations could arise from
 The zero modes discussed above are massless (exact zero energy). Fermion masses arise from:
 
 1. **Perturbations to Defect Shape:** Small distortions of the vortex potential create a potential energy for zero modes → mass gap
-2. **Yukawa Coupling:** Interaction with scalar field (Higgs) in the membrane: $H_Y = y \phi \bar{\psi} \psi$
+2. **Yukawa Coupling:** Interaction with scalar field (Higgs) in the Firmament membrane: $H_Y = y \phi \bar{\psi} \psi$
 3. **Defect Merging Dynamics:** Different vortex sectors can interact, creating mass matrices
 
 This will be addressed in a separate document (Higgs_Mechanism_From_Membrane.md).
@@ -493,7 +493,7 @@ Detailed analysis requires the full 6D framework with electroweak symmetry break
 
 ### 11.1 Stern-Gerlach Revisited (Test 5.5)
 
-**Prediction:** Any spin-1/2 particle from the membrane should show exactly 2 beams in a Stern-Gerlach apparatus.
+**Prediction:** Any spin-1/2 particle from the Firmament should show exactly 2 beams in a Stern-Gerlach apparatus.
 
 **Experimental Test:**
 - Electrons: observed 2 beams (✓)
@@ -505,7 +505,7 @@ Detailed analysis requires the full 6D framework with electroweak symmetry break
 
 ### 11.2 Anomalous Magnetic Moment (Test 5.6)
 
-**Prediction:** The electron g-factor in the membrane framework is $g = 2.002319...$ from the Schwinger correction, with higher-order terms suppressed by $\alpha^2$.
+**Prediction:** The electron g-factor in the Firmament framework is $g = 2.002319...$ from the Schwinger correction, with higher-order terms suppressed by $\alpha^2$.
 
 **Measurement:**
 - Electron: $g_e = 2.0023193043622...$  (10^{-12} precision)
@@ -520,13 +520,13 @@ The framework makes specific predictions for beyond-Standard-Model physics:
 
 1. **Heavy Vortex Modes:** If higher-winding defects exist ($n \geq 2$), they would manifest as higher-spin resonances (spin-1, spin-3/2, etc.)
 2. **Defect Annihilation Signatures:** Collisions that merge vortices should show distinctive decay patterns
-3. **Membrane Excitations:** Direct coupling to the underlying bosonic modes at ultra-high energies (near Planck scale)
+3. **Firmament Excitations:** Direct coupling to the underlying bosonic modes at ultra-high energies (near Planck scale)
 
 ---
 
 ## 12. Conclusion
 
-This document demonstrates that **spin-1/2 fermions emerge naturally and rigorously from the bosonic 6D membrane framework** via topological vortex defects. The derivation provides:
+This document demonstrates that **spin-1/2 fermions emerge naturally and rigorously from the bosonic 6D Firmament framework** via topological vortex defects. The derivation provides:
 
 1. ✓ **Jackiw-Rossi Zero Modes:** Explicit solution to the zero-mode equation on vortex backgrounds with proper normalization
 2. ✓ **Spin-1/2 Quantum Numbers:** Topological charge (winding number n=1) produces exactly S=1/2 eigenvalues

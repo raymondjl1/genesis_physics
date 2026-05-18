@@ -61,7 +61,7 @@ where:
 | Zone | Region | Scale | Physics |
 |------|--------|-------|---------|
 | Waters Below | η < η_B | η_B ≈ 1.3 × 10⁻¹⁵ m | Dark matter confinement |
-| Firmament | η = η_0, ξ = ξ_0 | 4D brane | Observable universe |
+| Firmament | η = η_0, ξ = ξ_0 | 4D Firmament | Observable universe |
 | Waters Above | ξ > 0 | ξ_A ≈ 3 × 10²⁶ m | Dark energy field |
 
 **Critical Length Scale Ratio**:
@@ -224,14 +224,14 @@ ln(M_Z/m_e) = ln(91.2 × 10⁹ eV / 0.511 × 10⁶ eV) = ln(1.786 × 10⁸) = 19
 **Central Hypothesis**: The SU(3) color gauge symmetry and strong coupling emerge from:
 1. Three-fold structure of the Firmament's embedding in 6D
 2. Topological quantization of color flux in the (ξ, η) plane
-3. Membrane dynamics determining the coupling strength
+3. Firmament membrane dynamics determining the coupling strength
 
 ### 3.2 Origin of SU(3) Symmetry: Three Color States
 
 The 6D spacetime decomposes as:
 {t, x, y, z, ξ, η}
 
-The Firmament is a 4D brane embedded in 6D. Relative to the Firmament, there are three orthogonal transverse directions:
+The Firmament is a 4D Firmament embedded in 6D. Relative to the Firmament, there are three orthogonal transverse directions:
 
 1. Spatial transverse: Combined direction perpendicular within ξ-η-t
 2. ξ-direction: Waters Above coupling
@@ -258,7 +258,7 @@ where:
 - f^{abc}: SU(3) structure constants
 - g_s: strong coupling constant
 
-**Effective coupling from membrane tension**:
+**Effective coupling from Firmament tension**:
 
 In extra dimensions, the strong coupling relates to the Firmament's resistance to color flux:
 
@@ -338,9 +338,9 @@ The 4D coupling scales as:
 α_s ~ e^{-2A_0} × (g²_6D / V_extra)
 
 The warp factor at the Firmament:
-A_0 ≈ ln(M_membrane / M_Planck)
+A_0 ≈ ln(M_Firm / M_Planck)
 
-where M_membrane ≈ 10¹⁷-10¹⁸ GeV. This exponential suppression naturally accounts for the 6D→4D coupling reduction without arbitrary corrections.
+where M_Firm ≈ 10¹⁷-10¹⁸ GeV. This exponential suppression naturally accounts for the 6D→4D coupling reduction without arbitrary corrections.
 
 ### 3.8 Complete RG Equation for α_s
 
@@ -371,7 +371,7 @@ All consistent with experimental measurements. ✓
 - Asymptotic freedom: Density of modes screens color at high energy
 - Confinement: Zone boundary prevents colored quarks from escaping
 - Λ_QCD: Equals ℏc/η_B (Firmament resolution scale)
-- Coupling strength: Membrane dynamics and warp factors
+- Coupling strength: Firmament membrane dynamics and warp factors
 
 ---
 
@@ -532,7 +532,7 @@ g_EM(M_GUT) ≈ g_s(M_GUT) ≈ g_w(M_GUT) ≈ g_6D
 
 The convergence scale relates to the fundamental membrane mass:
 
-M_membrane = M_Planck × exp[(2/3) ln(ξ_A/η_B)]
+M_Firm = M_Planck × exp[(2/3) ln(ξ_A/η_B)]
 = (1.22 × 10¹⁹ GeV) × exp[(2/3) × 95.23]
 = (1.22 × 10¹⁹) × e^{63.5}
 

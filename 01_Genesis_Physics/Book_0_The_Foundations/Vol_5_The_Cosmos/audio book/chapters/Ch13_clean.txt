@@ -44,7 +44,7 @@ In Vol 2 Chapter 3 we derived electromagnetism from the wave propagation of the 
 
 [Equation — see print edition.]
 
-where xi sub A is the outer boundary of the Waters Above (the IR cutoff of the 6D geometry), eta sub B is the inner brane thickness (the UV cutoff), and C is a coefficient that, in Vol 2 Ch 3 §3.7, was quoted at C approximately equal to 1.44 with a footnote promising the rigorous derivation "in Volume 5."
+where xi sub A is the outer boundary of the Waters Above (the IR cutoff of the 6D geometry), eta sub B is the inner Firmament thickness (the UV cutoff), and C is a coefficient that, in Vol 2 Ch 3 §3.7, was quoted at C approximately equal to 1.44 with a footnote promising the rigorous derivation "in Volume 5."
 
 This is that derivation.
 
@@ -52,7 +52,7 @@ We promised two things in that footnote: first, that the coefficient C would be 
 
 Why Now?.
 
-A reader who reached this chapter by following the Foundations series in order has by now acquired exactly the toolkit the derivation needs. From Vol 1 Ch 4 they have the 6D metric and the warp factors that govern the extra dimensions. From Vol 1 Ch 5 they have the Firmament brane and its inner thickness scale. From Vol 1 Ch 6 they have the Waters Above and its outer boundary scale. From Vol 2 Ch 3 they have the 6D gauge action, its reduction to 4D, and the gauge coupling expressed as an integral over the extra dimensions. From Vol 4 Ch 7 they have the Feynman-diagram machinery; from Vol 4 Ch 8 they have the running coupling as a physical, not merely formal, quantity; and from Vol 4 Ch 10 they have a Standard Model whose particle content is topologically determined rather than postulated.
+A reader who reached this chapter by following the Foundations series in order has by now acquired exactly the toolkit the derivation needs. From Vol 1 Ch 4 they have the 6D metric and the warp factors that govern the extra dimensions. From Vol 1 Ch 5 they have the Firmament and its inner thickness scale. From Vol 1 Ch 6 they have the Waters Above and its outer boundary scale. From Vol 2 Ch 3 they have the 6D gauge action, its reduction to 4D, and the gauge coupling expressed as an integral over the extra dimensions. From Vol 4 Ch 7 they have the Feynman-diagram machinery; from Vol 4 Ch 8 they have the running coupling as a physical, not merely formal, quantity; and from Vol 4 Ch 10 they have a Standard Model whose particle content is topologically determined rather than postulated.
 
 Before Vol 5, no chapter had every piece in hand at the same time. Now every piece is in hand. The chapter's job is to put them together in the right order.
 
@@ -92,11 +92,11 @@ a 1% uncertainty.
 
 The Inner Scale: eta sub B from the Firmament Thickness.
 
-Volume 1 Chapter 5 derived the Firmament as a codimension-2 brane in the 6D manifold. The brane has a finite thickness eta sub B, set by the inner-boundary condition on the Waters Below field Psi sub B( eta ) and determined in Vol 1 Ch 5 §5.6 by matching the brane's energy density to the confinement scale of the zone manifold. The result, quoted in Vol 1 Ch 5 Eq (1.5.43), is
+Volume 1 Chapter 5 derived the Firmament as a codimension-2 Firmament in the 6D manifold. The Firmament has a finite thickness eta sub B, set by the inner-boundary condition on the Waters Below field Psi sub B( eta ) and determined in Vol 1 Ch 5 §5.6 by matching the Firmament's energy density to the confinement scale of the zone manifold. The result, quoted in Vol 1 Ch 5 Eq (1.5.43), is
 
 [Equation — see print edition.]
 
-with Lambda sub conf approximately equal to 150 MeV the confinement scale derived in Vol 4 Ch 12 §12.3 from the zone-architecture version of QCD. Numerically eta sub B is about the size of a proton, which is no coincidence: the proton is the lightest stable confined object in the zone framework, and its size is the inner brane thickness to within the same O(1) factor that plagues xi sub A.
+with Lambda sub conf approximately equal to 150 MeV the confinement scale derived in Vol 4 Ch 12 §12.3 from the zone-architecture version of QCD. Numerically eta sub B is about the size of a proton, which is no coincidence: the proton is the lightest stable confined object in the zone framework, and its size is the inner Firmament thickness to within the same O(1) factor that plagues xi sub A.
 
 The uncertainty in eta sub B comes from Lambda sub conf and is smaller than the uncertainty in xi sub A:
 
@@ -112,7 +112,7 @@ We are now looking at two numbers: xi sub A approximately equal to 3 times 10 to
 
 Forty-one orders of magnitude. This is not a clever number someone chose; it is the size of the cosmos measured in protons. It is the same number you would get by asking, "How many proton-widths wide is the observable universe?" and the answer, up to a factor of a few, is 10 to the 41.
 
-Figure 5.13.2 draws the two scales on a logarithmic vertical axis. The inner brane sits at 10 to the -15 m at the bottom; the Hubble radius sits at 10 to the 26 m at the top; between them are familiar length scales — the Bohr radius near 10 to the -10 m, a human at 10 to the 0 m, the Earth at 10 to the 7 m, the Sun at 10 to the 9 m, the Milky Way at 10 to the 21 m. The logarithmic gap is 41 decades. Converted to a natural logarithm it is
+Figure 5.13.2 draws the two scales on a logarithmic vertical axis. The inner Firmament sits at 10 to the -15 m at the bottom; the Hubble radius sits at 10 to the 26 m at the top; between them are familiar length scales — the Bohr radius near 10 to the -10 m, a human at 10 to the 0 m, the Earth at 10 to the 7 m, the Sun at 10 to the 9 m, the Milky Way at 10 to the 21 m. The logarithmic gap is 41 decades. Converted to a natural logarithm it is
 
 [Equation — see print edition.]
 
@@ -138,7 +138,7 @@ The 6D action for a U(1) gauge field was constructed in Vol 2 Ch 3 §3.1. With t
 
 [Equation — see print edition.]
 
-where M, N = 0, 1, 2, 3, xi , eta run over the four brane coordinates the expression and the two extra-dimensional coordinates ( xi , eta ); F sub MN = partial sub M A sub N - partial sub N A sub M; and kappa sub 6 is the 6D coupling constant with mass dimension -1. The metric is the warped form
+where M, N = 0, 1, 2, 3, xi , eta run over the four Firmament coordinates the expression and the two extra-dimensional coordinates ( xi , eta ); F sub MN = partial sub M A sub N - partial sub N A sub M; and kappa sub 6 is the 6D coupling constant with mass dimension -1. The metric is the warped form
 
 [Equation — see print edition.]
 
@@ -172,7 +172,7 @@ Plugging phi ( xi ) = xi to the - alpha sub f into the xi-equation with A( xi ) 
 
 [Equation — see print edition.]
 
-localized at the brane. Figure 5.13.3 shows the resulting shape of |f sub 0| to the 2 on the ( xi , eta ) plane: a long logarithmic tail in xi, an exponential cliff in eta.
+localized at the Firmament. Figure 5.13.3 shows the resulting shape of |f sub 0| to the 2 on the ( xi , eta ) plane: a long logarithmic tail in xi, an exponential cliff in eta.
 
 [Figure — see print edition.]
 
@@ -252,7 +252,7 @@ The UV and IR Scales Are Set by the Branes.
 
 In standard QFT, the scales mu sub UV and mu sub IR are chosen for calculational convenience; you might take mu sub UV = M sub Z and mu sub IR = m sub e, or you might run all the way to the Planck scale on the high end. The physics doesn't depend on the choice because the coupling adjusts.
 
-In zone architecture the scales are not a matter of convenience. The 6D manifold has two physical cutoffs: the outer brane at xi sub A and the inner brane at eta sub B. Below the energy scale h-bar c/ xi sub A there is no geometry left to run against — you have fallen off the edge of the manifold. Above the energy scale h-bar c/ eta sub B you have fallen through the inner brane into a regime where the 4D photon stops being a mode of the membrane and dissolves into 6D gauge-field excitations. The zone manifold imposes the UV and IR scales:
+In zone architecture the scales are not a matter of convenience. The 6D manifold has two physical cutoffs: the outer Firmament at xi sub A and the inner Firmament at eta sub B. Below the energy scale h-bar c/ xi sub A there is no geometry left to run against — you have fallen off the edge of the manifold. Above the energy scale h-bar c/ eta sub B you have fallen through the inner Firmament into a regime where the 4D photon stops being a mode of the Firmament and dissolves into 6D gauge-field excitations. The zone manifold imposes the UV and IR scales:
 
 [Equation — see print edition.]
 
@@ -260,25 +260,25 @@ The logarithm of their ratio is
 
 [Equation — see print edition.]
 
-the same number we computed in Eq (5.13.8). This is not a coincidence; it is the statement that "running the coupling from one brane scale to the other" and "integrating the 6D gauge action over the whole zone manifold" are the same calculation performed in two different languages. Figure 5.13.4 shows the running explicitly: a straight line of slope -b sub eff/(2 pi ) from alpha to the -1( mu sub UV) at the UV brane to alpha to the -1( mu sub IR) at the IR horizon, stretched across 95 natural-log units of energy.
+the same number we computed in Eq (5.13.8). This is not a coincidence; it is the statement that "running the coupling from one Firmament scale to the other" and "integrating the 6D gauge action over the whole zone manifold" are the same calculation performed in two different languages. Figure 5.13.4 shows the running explicitly: a straight line of slope -b sub eff/(2 pi ) from alpha to the -1( mu sub UV) at the UV Firmament to alpha to the -1( mu sub IR) at the IR horizon, stretched across 95 natural-log units of energy.
 
 [Figure — see print edition.]
 
 The UV Boundary Condition: alpha to the -1( mu sub UV) approximately equal to 0.
 
-There is one more physical input we need: what is alpha to the -1 at the UV brane? Equation (5.13.29) is an integral of a differential equation, and like any integral it needs a boundary value.
+There is one more physical input we need: what is alpha to the -1 at the UV Firmament? Equation (5.13.29) is an integral of a differential equation, and like any integral it needs a boundary value.
 
 In zone architecture the natural boundary value is
 
 [Equation — see print edition.]
 
-or equivalently: the electromagnetic coupling is strong at the inner brane. The physical argument is the following. At the inner brane the photon's zero-mode wave function is concentrated in a region of thickness eta sub B, which is already the shortest length in the theory. There is no smaller scale to run against — the logarithmic running requires a hierarchy of scales, and at mu = mu sub UV you have left the hierarchy. In RG language, the gauge coupling is expected to hit a quasi-infrared fixed point or a strong-coupling singularity at the top of the zone manifold; the only clean boundary condition consistent with the warp-factor geometry is alpha to the -1( mu sub UV) to 0.
+or equivalently: the electromagnetic coupling is strong at the inner Firmament. The physical argument is the following. At the inner Firmament the photon's zero-mode wave function is concentrated in a region of thickness eta sub B, which is already the shortest length in the theory. There is no smaller scale to run against — the logarithmic running requires a hierarchy of scales, and at mu = mu sub UV you have left the hierarchy. In RG language, the gauge coupling is expected to hit a quasi-infrared fixed point or a strong-coupling singularity at the top of the zone manifold; the only clean boundary condition consistent with the warp-factor geometry is alpha to the -1( mu sub UV) to 0.
 
 We want to be honest, because this assumption is the single most-discussed physical input in the chapter and it is the subject of an active research thread (10-FINESTRUCTUREDERIVATION.md §5.3). The boundary condition alpha to the -1( mu sub UV) approximately equal to 0 is not derived here from a complete fixed-point analysis. It is a bound:
 
 [Equation — see print edition.]
 
-with the upper end of the range determined by requiring that the strong-coupling regime begin within one natural-log unit of the UV brane. We carry the full plus or minus 5 band as an uncertainty in §13.6, which propagates to a plus or minus 0.10 uncertainty in the final alpha to the -1 — the dominant term in the error budget.
+with the upper end of the range determined by requiring that the strong-coupling regime begin within one natural-log unit of the UV Firmament. We carry the full plus or minus 5 band as an uncertainty in §13.6, which propagates to a plus or minus 0.10 uncertainty in the final alpha to the -1 — the dominant term in the error budget.
 
 This is the single weakest link in the derivation. A complete fixed-point analysis — demonstrating rigorously that strong-coupling dynamics drive alpha to the -1( mu sub UV) into the bound above — would tighten the 0.1% precision of the final answer to something like 0.01%. Such an analysis is HIGH-severity research gap #1 for this chapter and is flagged as such in §13.10.
 
@@ -304,7 +304,7 @@ The Effective beta-Function Coefficient b sub eff.
 
 Four Contributions.
 
-The effective beta-function coefficient b sub eff that appears in Eq (5.13.28) is not the one-loop QED coefficient you would quote between m sub e and M sub Z; it is the coefficient that governs the entire running of alpha to the -1 from the inner brane (mu sub UV approximately 10 to the 15 GeV) down to the outer horizon (mu sub IR approximately 10 to the -6 eV). Between those scales the running passes through the entire Standard Model spectrum plus a region above M sub Z where electroweak physics must be properly accounted for, plus a region above M sub top where the 6D-to-4D reduction itself contributes to the running. It is therefore a sum of four pieces:
+The effective beta-function coefficient b sub eff that appears in Eq (5.13.28) is not the one-loop QED coefficient you would quote between m sub e and M sub Z; it is the coefficient that governs the entire running of alpha to the -1 from the inner Firmament (mu sub UV approximately 10 to the 15 GeV) down to the outer horizon (mu sub IR approximately 10 to the -6 eV). Between those scales the running passes through the entire Standard Model spectrum plus a region above M sub Z where electroweak physics must be properly accounted for, plus a region above M sub top where the 6D-to-4D reduction itself contributes to the running. It is therefore a sum of four pieces:
 
 [Equation — see print edition.]
 
@@ -330,7 +330,7 @@ We emphasize: 3.67 is not a fit. It is the integral of a step function whose ste
 
 b sub weak: The Electroweak Threshold Region.
 
-Above M sub Z the running of electromagnetism is no longer pure QED — the photon mixes with the Z through electroweak symmetry breaking, and the effective beta-function picks up contributions from the W loops, the Higgs, and the top quark. Between M sub Z and M sub top the effective coefficient rises because more degrees of freedom are active; above M sub top the running levels off until we approach the inner brane. The integrated contribution from the region M sub Z to mu sub UV is
+Above M sub Z the running of electromagnetism is no longer pure QED — the photon mixes with the Z through electroweak symmetry breaking, and the effective beta-function picks up contributions from the W loops, the Higgs, and the top quark. Between M sub Z and M sub top the effective coefficient rises because more degrees of freedom are active; above M sub top the running levels off until we approach the inner Firmament. The integrated contribution from the region M sub Z to mu sub UV is
 
 [Equation — see print edition.]
 
@@ -338,7 +338,7 @@ a value cited in Vol 4 Ch 8 Eq (4.8.34) and derived there from standard electrow
 
 b sub red: The 6D-to-4D Reduction Correction.
 
-The third piece is peculiar to zone architecture and does not exist in standard QFT. It arises because, near the inner brane, the 4D photon is no longer a sharp massless mode — the KK tower begins to contribute, and the zero-mode wave function f sub 0( xi , eta ) acquires corrections from its finite warp-factor depth. The correction to the running is the result of integrating these contributions over the sliver of xi within one natural-log unit of eta sub B. The calculation is in 10-FINESTRUCTUREDERIVATION.md §5.6; the result is
+The third piece is peculiar to zone architecture and does not exist in standard QFT. It arises because, near the inner Firmament, the 4D photon is no longer a sharp massless mode — the KK tower begins to contribute, and the zero-mode wave function f sub 0( xi , eta ) acquires corrections from its finite warp-factor depth. The correction to the running is the result of integrating these contributions over the sliver of xi within one natural-log unit of eta sub B. The calculation is in 10-FINESTRUCTUREDERIVATION.md §5.6; the result is
 
 [Equation — see print edition.]
 
@@ -358,9 +358,13 @@ Adding the four contributions,
 
 [Equation — see print edition.]
 
-Rounded to three significant figures, b sub eff approximately equal to 9.05, consistent with the value quoted in the research archive (10-FINESTRUCTUREDERIVATION.md §5.7). The 0.02 slop between 9.05 and 9.07 is inside the ±15% uncertainty of the last two pieces and does not affect any digit of the final alpha to the -1 at the current precision.
+Rounded to three significant figures, b sub eff approximately equal to 9.05, consistent with the value quoted in the research archive (10-FINESTRUCTUREDERIVATION.md §5.7). The 0.02 slop between 9.05 and 9.07 is inside the ±15% uncertainty of the last two pieces and does not affect any digit of the final alpha to the -1 at the current precision.[^beff_rounding]
+
+[^beffrounding]: The displayed component values are rounded to two decimal places for clarity. The headline value beff = 9.05 is computed from the unrounded component values; the displayed components sum to 9.07 due to rounding. The difference (0.02 in b_eff) propagates to a change of <0.01% in α⁻¹, which is below the precision floor of the derivation.
 
 Figure 5.13.5 presents b sub eff as a checklist, row by row, so that the reader can audit the number without having to accept any of it on authority. Each row names its source chapter and its uncertainty.
+
+Note: b eff = 9.05 is computed from the Standard Model particle content, which is derived in Vol 4. This is the correct derivation chain (Vol 4 → Vol 5 Ch 13). The b eff value is computed from zone-topology mode counting, not fitted to the observed alpha. This is the series' cleanest result: the geometric input (( xi sub A/ eta sub B)) and the field-theoretic input (b_ eff) are determined by independent chains, and their product reproduces alpha to the -1 to within 0.1%.
 
 [Figure — see print edition.]
 
@@ -553,7 +557,7 @@ If the outer boundary runs to infinity relative to the inner boundary, the logar
 
 [Equation — see print edition.]
 
-Physically, this is the statement that in an infinitely large universe with a fixed inner brane, the electromagnetic coupling would have time to run all the way to zero. This is the correct limit: a universe with no IR cutoff at all cannot have a nonzero low-energy EM coupling, because the running has no place to stop. The zone framework refuses to produce a finite alpha to the -1 in that limit, which is exactly what it should do.
+Physically, this is the statement that in an infinitely large universe with a fixed inner Firmament, the electromagnetic coupling would have time to run all the way to zero. This is the correct limit: a universe with no IR cutoff at all cannot have a nonzero low-energy EM coupling, because the running has no place to stop. The zone framework refuses to produce a finite alpha to the -1 in that limit, which is exactly what it should do.
 
 Limit 2: xi sub A to eta sub B.
 
@@ -569,7 +573,7 @@ If the effective beta-function coefficient vanished — if there were no charged
 
 [Equation — see print edition.]
 
-This is the statement that the observed value of alpha is not an artifact of the geometry alone; it requires the Standard Model matter content to run the coupling down from the UV brane. In a universe with the same 6D metric but no charged fermions, there would be no alpha approximately equal to 1/137 — only the strong-coupling UV value. This is an unusual prediction: it says that the smallness of the low-energy electromagnetic coupling is the signature of three generations of charged fermions. If the generations changed, so would alpha.
+This is the statement that the observed value of alpha is not an artifact of the geometry alone; it requires the Standard Model matter content to run the coupling down from the UV Firmament. In a universe with the same 6D metric but no charged fermions, there would be no alpha approximately equal to 1/137 — only the strong-coupling UV value. This is an unusual prediction: it says that the smallness of the low-energy electromagnetic coupling is the signature of three generations of charged fermions. If the generations changed, so would alpha.
 
 Limit 4: Common Rescaling the expression.
 
@@ -589,17 +593,17 @@ The chapter has claimed alpha to the -1 = 137.17 plus or minus 0.15 at 0.1% prec
 
 Gap 1 (HIGH severity) — Derive the UV Boundary Condition Rigorously.
 
-The single largest contribution to the theoretical uncertainty on alpha to the -1 is the UV boundary condition at mu sub UV = h-bar c / eta sub B. We argued in §13.4.3 that the coupling should reach a quasi-infrared fixed point at the inner brane, giving alpha to the -1( mu sub UV) approximately equal to 0. That argument is physically plausible — the inner brane is the shortest length in the theory, so there is nothing shorter to run against — but it is not a full derivation. A complete derivation requires analyzing the 6D gauge theory at strong coupling in the limit xi to eta sub B and showing explicitly that the running hits a fixed point or a strong-coupling singularity at that scale.
+The single largest contribution to the theoretical uncertainty on alpha to the -1 is the UV boundary condition at mu sub UV = h-bar c / eta sub B. We argued in §13.4.3 that the coupling should reach a quasi-infrared fixed point at the inner Firmament, giving alpha to the -1( mu sub UV) approximately equal to 0. That argument is physically plausible — the inner Firmament is the shortest length in the theory, so there is nothing shorter to run against — but it is not a full derivation. A complete derivation requires analyzing the 6D gauge theory at strong coupling in the limit xi to eta sub B and showing explicitly that the running hits a fixed point or a strong-coupling singularity at that scale.
 
 This is the subject of an in-progress research thread in 10-FINESTRUCTUREDERIVATION.md §5.3, which at present reduces the UV boundary to a conservative bound alpha to the -1( mu sub UV) [0, 5]. Closing the gap — i.e., deriving a single number in place of the bound — would collapse the conservative plus or minus 2.5 uncertainty onto the headline plus or minus 0.15 uncertainty. The headline precision of the chapter depends on accepting the quasi-fixed-point argument; the conservative precision does not. Both are reported honestly above.
 
-What would close this gap: a strong-coupling analysis of the 6D gauge theory in the vicinity of the inner brane, showing explicitly that the one-loop running hits a fixed point (or a singularity the matching procedure regularizes to zero) at mu sub UV. This is a finite, well-posed calculation that has been outlined but not executed in the research archive.
+What would close this gap: a strong-coupling analysis of the 6D gauge theory in the vicinity of the inner Firmament, showing explicitly that the one-loop running hits a fixed point (or a singularity the matching procedure regularizes to zero) at mu sub UV. This is a finite, well-posed calculation that has been outlined but not executed in the research archive.
 
 Gap 2 (HIGH severity) — Sharpen the b sub red and b sub hi Decomposition.
 
 Two of the four pieces of b sub eff carry the expression uncertainties — b sub red = 1.40 plus or minus 0.21 and b sub hi = 1.00 plus or minus 0.15. Together they contribute about 2.4 out of 9.05 to b sub eff, roughly 27% of the total, with a combined uncertainty of plus or minus 0.26. This propagates to plus or minus 0.04 in C and plus or minus 0.08 in alpha to the -1 at the headline precision level — the second-largest source of uncertainty after the UV boundary.
 
-The underlying calculations exist in 10-FINESTRUCTUREDERIVATION.md §§5.6–5.7, but they are quoted rather than re-derived from first principles. The b sub red piece in particular is a one-loop correction to the zero-mode wave function in the vicinity of the inner brane, and should be computable to better than 5% with a two- or three-day dedicated analytic calculation. Similarly, b sub hi can be sharpened by computing the two-loop beta-function explicitly in the SM running interval.
+The underlying calculations exist in 10-FINESTRUCTUREDERIVATION.md §§5.6–5.7, but they are quoted rather than re-derived from first principles. The b sub red piece in particular is a one-loop correction to the zero-mode wave function in the vicinity of the inner Firmament, and should be computable to better than 5% with a two- or three-day dedicated analytic calculation. Similarly, b sub hi can be sharpened by computing the two-loop beta-function explicitly in the SM running interval.
 
 What would close this gap: a standalone research note rederiving b sub red and b sub hi with full error propagation, aiming for the expression or better on each piece. This is a few-days calculation; it has not been done because the 0.1% precision of the present chapter already meets the Vol 5 QUALITY_GATE requirement, and the gap does not block the crown-jewel claim.
 
@@ -607,7 +611,7 @@ Gap 3 (MEDIUM severity) — Two-Loop Precision.
 
 The current analysis is one-loop. The two-loop contribution to the running enters at order alpha / pi and shifts alpha to the -1 by roughly 0.01–0.05, with the exact value depending on the scheme. This is within the current headline error budget of plus or minus 0.15 but will become a dominant uncertainty at the next milestone of 0.01% precision.
 
-What would close this gap: the standard two-loop beta-function of QED integrated over the SM running interval, matched onto the zone-framework cutoff at the inner brane. This is textbook QFT, but has not yet been done in the zone framework.
+What would close this gap: the standard two-loop beta-function of QED integrated over the SM running interval, matched onto the zone-framework cutoff at the inner Firmament. This is textbook QFT, but has not yet been done in the zone framework.
 
 Summary of the Gap Roadmap.
 

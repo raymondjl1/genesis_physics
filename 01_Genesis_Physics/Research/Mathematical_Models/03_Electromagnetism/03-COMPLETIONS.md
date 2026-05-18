@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "And God saw all that he had made, and it was very good" — EM phenomena manifest divine order in creation | Genesis 1:31 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | Maxwell's Equations from 6D zone architecture; Membrane geometry | 03-MAXWELL_DERIVATION.md, ACTION_6D_COMPLETE.md |
 > | **This Document** | **Eight EM completions: Ohm's law, Kirchhoff's laws, capacitance, inductance, RLC circuits, Faraday cage, skin effect, boundary conditions** | **03-COMPLETIONS.md** |
 > | Modern Equivalent | Classical Electromagnetism — CONVERGES: circuit theory, energy conservation, boundary conditions, material transport all recovered from Maxwell equations |
@@ -25,7 +25,7 @@
 
 ## Executive Summary
 
-This document completes the electromagnetism derivation suite by rigorously deriving eight core phenomena from Maxwell's equations and the 6D membrane framework. Each derivation proceeds from first principles (Maxwell equations, Ohm's law, or dimensional reduction) and includes dimensional analysis. The framework unifies classical circuit theory, wave propagation, and materials physics.
+This document completes the electromagnetism derivation suite by rigorously deriving eight core phenomena from Maxwell's equations and the 6D Firmament framework. Each derivation proceeds from first principles (Maxwell equations, Ohm's law, or dimensional reduction) and includes dimensional analysis. The framework unifies classical circuit theory, wave propagation, and materials physics.
 
 **Eight Core Derivations:**
 1. Ohm's Law J = σE from electron transport (Drude model in 6D Coulomb potential)

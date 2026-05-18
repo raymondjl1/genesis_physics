@@ -129,7 +129,7 @@ A note on conventions before we begin. I use the "half-convention" throughout th
 
 The effective 4D potential for H is obtained by plugging the KK expansion (4.11.5) into the 6D action for Psi sub A — kinetic term plus any boundary-tension term induced by the Firmament — and integrating over ( xi , eta ) with the (1,1) mode-function weight | psi sub 1( xi )| to the 2| chi sub 1( eta )| to the 2. I am going to quote the result rather than redo the integration in full, because the integration itself is six lines of arithmetic and the interesting content is the form of the answer.
 
-The 6D action contains two pieces relevant to the potential: a bulk quartic ( lambda sub A/4)| Psi sub A| to the 4 with 6D coupling lambda sub A, and a Firmament-boundary coupling that, on integration by parts, contributes a bulk quadratic with a negative sign whenever the membrane tension sigma is strong enough to destabilize the symmetric vacuum. The reduced 4D potential comes out with the textbook Mexican-hat form:
+The 6D action contains two pieces relevant to the potential: a bulk quartic ( lambda sub A/4)| Psi sub A| to the 4 with 6D coupling lambda sub A, and a Firmament-boundary coupling that, on integration by parts, contributes a bulk quadratic with a negative sign whenever the Firmament tension sigma is strong enough to destabilize the symmetric vacuum. The reduced 4D potential comes out with the textbook Mexican-hat form:
 
 [Equation — see print edition.]
 
@@ -137,11 +137,11 @@ The two 4D coefficients are obtained from the 6D action by the overlap integrals
 
 [Equation — see print edition.]
 
-Here beta is a dimensionless O(1) number set by the detailed shape of the membrane-tension coupling as the psi sub 1 sine wave sees it in the neighborhood of the Firmament, and the expression, the expression are the standard overlap integrals of | | to the 4 on a Dirichlet interval. Plug in the zone scales: sigma set by the Firmament tension from Vol 2 Ch 3, xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m, with beta of order unity, and one gets
+Here beta is a dimensionless O(1) number set by the detailed shape of the Firmament membrane-tension coupling as the psi sub 1 sine wave sees it in the neighborhood of the Firmament, and the expression, the expression are the standard overlap integrals of | | to the 4 on a Dirichlet interval. Plug in the zone scales: sigma set by the Firmament tension from Vol 2 Ch 3, xi sub A approximately equal to 3 times 10 to the 26 m, eta sub B approximately equal to 1.3 times 10 to the -15 m, with beta of order unity, and one gets
 
 [Equation — see print edition.]
 
-A quick order-of-magnitude sanity check: the expression is a huge membrane tension divided by a huge cosmological-scale squared — the ratio happens to land at the electroweak scale, which feels almost absurd. (It is almost absurd. This is the hierarchy problem wearing new clothes. The zone framework does not by itself explain why the ratio sigma / xi sub A to the 2 hits (88 GeV) to the 2 rather than any other number; that is a prediction the framework makes from the measured membrane tension and the measured cosmological scale, and it is part of the gap of §11.4.)
+A quick order-of-magnitude sanity check: the expression is a huge Firmament tension divided by a huge cosmological-scale squared — the ratio happens to land at the electroweak scale, which feels almost absurd. (It is almost absurd. This is the hierarchy problem wearing new clothes. The zone framework does not by itself explain why the ratio sigma / xi sub A to the 2 hits (88 GeV) to the 2 rather than any other number; that is a prediction the framework makes from the measured Firmament tension and the measured cosmological scale, and it is part of the gap of §11.4.)
 
 Now minimize (4.11.8). The gradient condition is
 
@@ -160,7 +160,7 @@ Substituting (4.11.10):
 
 That number — 246.22 GeV — is the electroweak scale, the single most important parameter of the Standard Model. Measured value: 246.22 GeV, to five significant figures.
 
-I want to be completely clear about what just happened. (4.11.13) is not a first-principles derivation of v from the cosmological scale xi sub A and the membrane tension sigma alone. It is that derivation with two fitting inputs: the O(1) coefficient beta absorbed into mu to the 2, and the 6D quartic lambda sub A absorbed into lambda. The form of the potential is rigorous; the scale is pinned by those two fits. I state this immediately because §11.4 exists to audit exactly this point, and I do not want a reader to finish §11.3 thinking the framework has done more than it has.
+I want to be completely clear about what just happened. (4.11.13) is not a first-principles derivation of v from the cosmological scale xi sub A and the Firmament tension sigma alone. It is that derivation with two fitting inputs: the O(1) coefficient beta absorbed into mu to the 2, and the 6D quartic lambda sub A absorbed into lambda. The form of the potential is rigorous; the scale is pinned by those two fits. I state this immediately because §11.4 exists to audit exactly this point, and I do not want a reader to finish §11.3 thinking the framework has done more than it has.
 
 [Figure — see print edition.]
 
@@ -175,7 +175,7 @@ What is rigorously derived.
 The form of (4.11.8), the expression, is rigorously the reduced 4D potential obtained from the 6D Psi sub A action by integrating over the (1,1) mode-function weight. There is no freedom in the shape of the potential. In particular:
 
 - The potential is quartic, not higher-order, because the 6D action is quartic.
-- The sign of mu to the 2 is negative, triggering SSB, because the Dirichlet BC psi sub 1(0) = 0 combined with the sign of the membrane-tension coupling forces the boundary-induced quadratic contribution to be destabilizing.
+- The sign of mu to the 2 is negative, triggering SSB, because the Dirichlet BC psi sub 1(0) = 0 combined with the sign of the Firmament membrane-tension coupling forces the boundary-induced quadratic contribution to be destabilizing.
 - The VEV manifold is SU(2) sub L times U(1) sub Y / U(1) sub Q, which is a three-sphere S to the 3, because the doublet has four real components and the radial mode is one of them.
 
 All three of those statements are theorems of the framework. What is not rigorous is the coefficients.
@@ -188,9 +188,9 @@ What is fit: three O(1) coefficients.
 
 Three dimensionless constants in (4.11.9) and in the fermion-overlap equation (4.10.?) of Chapter 10 are currently taken as inputs that happen to be of order unity and are matched to experiment rather than computed.
 
-(a) beta, the coefficient in mu to the 2 = beta sigma c to the 2 / xi sub A to the 2. Its value depends on the detailed shape of the membrane-tension coupling in the neighborhood of xi = 0. A first-principles computation would require solving the coupled Einstein-Psi sub A boundary-value problem at the Firmament with realistic boundary conditions and reading off the effective quadratic coefficient at the (1,1) mode. This is not done in this chapter or anywhere else in Vol 4. The value used to reproduce v = 246.22 GeV is beta approximately equal to 0.89 — agreeably close to 1, which is evidence that the framework is not cheating badly, but not the same thing as a derivation.
+(a) beta, the coefficient in mu to the 2 = beta sigma c to the 2 / xi sub A to the 2. Its value depends on the detailed shape of the Firmament membrane-tension coupling in the neighborhood of xi = 0. A first-principles computation would require solving the coupled Einstein-Psi sub A boundary-value problem at the Firmament with realistic boundary conditions and reading off the effective quadratic coefficient at the (1,1) mode. This is not done in this chapter or anywhere else in Vol 4. The value used to reproduce v = 246.22 GeV is beta approximately equal to 0.89 — agreeably close to 1, which is evidence that the framework is not cheating badly, but not the same thing as a derivation.
 
-(b) alpha, the exponential suppression in the fermion-overlap formula y sub n = y sub 0 e to the - alpha n to the 2 from Chapter 10. This coefficient controls the Higgs-fermion Yukawa couplings and is related to the profile of H across the membrane. In Chapter 10 it was acknowledged as an open fit; I mention it again here because it lives on the Higgs side of the story as well.
+(b) alpha, the exponential suppression in the fermion-overlap formula y sub n = y sub 0 e to the - alpha n to the 2 from Chapter 10. This coefficient controls the Higgs-fermion Yukawa couplings and is related to the profile of H across the Firmament. In Chapter 10 it was acknowledged as an open fit; I mention it again here because it lives on the Higgs side of the story as well.
 
 (c) lambda sub A, the 6D quartic self-coupling of Psi sub A. In (4.11.9), lambda = lambda sub A times 9/(4 xi sub A eta sub B), and the 4D quartic lambda is being matched to the measured Higgs mass (the expression). A proper derivation of lambda sub A would require running it from its boundary value at the UV scale down to the electroweak scale using the 6D renormalization group, which is one of the open items of Vol 5 and is explicitly not done here.
 
@@ -361,7 +361,7 @@ This section is where the Genesis framework does something the Standard Model ca
 
 Why geometry implies chirality.
 
-The Waters Above field Psi sub A is defined only for xi [0, xi sub A]. There is no mirror copy at xi [- xi sub A, 0]. Below the membrane is the Waters Below, a structurally different field Psi sub B with its own support on xi [- eta sub B, 0]. The Firmament at xi = 0 is not a symmetry plane; it is a boundary.
+The Waters Above field Psi sub A is defined only for xi [0, xi sub A]. There is no mirror copy at xi [- xi sub A, 0]. Below the Firmament is the Waters Below, a structurally different field Psi sub B with its own support on xi [- eta sub B, 0]. The Firmament at xi = 0 is not a symmetry plane; it is a boundary.
 
 Now consider the formal extension of the condensate Psi sub A ( xi ) to negative xi. Because the expression is odd under xi to - xi, the extended function is odd too. The condensate, the expression, is therefore not invariant under xi to - xi unless we accept the formal negative-xi values — which physically we do not, because there is nothing there. In the space of physical xi, the condensate is a one-sided profile.
 
@@ -369,7 +369,7 @@ The W bosons have xi-profiles that are even under the formal extension xi to - x
 
 [Equation — see print edition.]
 
-This rule comes from the reduction of the 6D Dirac operator on a one-sided interval, and it is rigorous once we accept Assumption 10.1 (the primordial spinor field on the membrane) from Chapter 10. I am repeating this dependence explicitly because it is the conditional in the rigor label for this section.
+This rule comes from the reduction of the 6D Dirac operator on a one-sided interval, and it is rigorous once we accept Assumption 10.1 (the primordial spinor field on the Firmament) from Chapter 10. I am repeating this dependence explicitly because it is the conditional in the rigor label for this section.
 
 The overlap integrals.
 
@@ -393,7 +393,7 @@ The neutron lifetime tau sub n, which depends on the matrix element |V sub ud| t
 
 The philosophical force of this derivation.
 
-Allow me a paragraph of philosophical commentary because I think the reader deserves it. For seventy years physicists have known that the weak force violates parity, and for seventy years the explanation has been "we put it in by hand in the Lagrangian." The zone framework says: you do not have to put it in by hand. It is forced by the topology of the background. There is a universe above the membrane, and there is not a universe below the membrane that is the mirror image of the one above. That asymmetry propagates through the fermion profiles, through the overlap integrals, and out the end as the observed left-handedness of the weak charged current.
+Allow me a paragraph of philosophical commentary because I think the reader deserves it. For seventy years physicists have known that the weak force violates parity, and for seventy years the explanation has been "we put it in by hand in the Lagrangian." The zone framework says: you do not have to put it in by hand. It is forced by the topology of the background. There is a universe above the Firmament, and there is not a universe below the Firmament that is the mirror image of the one above. That asymmetry propagates through the fermion profiles, through the overlap integrals, and out the end as the observed left-handedness of the weak charged current.
 
 This is, I think, the single deepest explanatory advance of the chapter, and it is conditional on Assumption 10.1. If that assumption were to fail — if the primordial spinor story of Ch 10 turned out to require a mirror spinor on the Waters Below — then the derivation would need revisiting. It is marked conditional for exactly this reason, and Ch 10's OPEN 10.1 is the place to watch.
 
@@ -409,7 +409,7 @@ Kobayashi and Maskawa showed in 1973 that the number of physical CP-violating ph
 
 For n = 1: zero phases. For n = 2: zero phases. For n = 3: one phase. For n = 4: three phases. The remarkable fact is that CP violation first becomes possible at n = 3 generations, and exactly one independent phase shows up — the famous delta sub CP.
 
-Here is where Chapter 10 comes back in. The vortex model of Chapter 10 produces three generations of fermions as a topological consequence of the pi sub 3(S to the 2) = Z of the membrane bundle. The number three is not an input; it is a consequence of the zone topology. And once the framework is committed to three generations, (4.11.39) forces one irreducible CP phase on it. CP violation in this framework is not a coincidence; it is a theorem.
+Here is where Chapter 10 comes back in. The vortex model of Chapter 10 produces three generations of fermions as a topological consequence of the pi sub 3(S to the 2) = Z of the Firmament bundle. The number three is not an input; it is a consequence of the zone topology. And once the framework is committed to three generations, (4.11.39) forces one irreducible CP phase on it. CP violation in this framework is not a coincidence; it is a theorem.
 
 I want to stress the force of this. Most theories that predict CP violation predict it as a consequence of a specific mechanism (a complex Yukawa matrix, say, or a theta angle, or a new complex scalar). The Genesis framework predicts CP violation as a parameter count, which is the purest possible form of prediction: it is guaranteed to happen regardless of the detailed dynamics, as long as three generations exist.
 

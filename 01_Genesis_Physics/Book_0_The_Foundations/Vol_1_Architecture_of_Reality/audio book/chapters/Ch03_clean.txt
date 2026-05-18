@@ -4,7 +4,9 @@ Introduction — From Axioms to Geometry.
 
 Why Geometry Matters.
 
-In Chapter 1, we established seven axioms that define our universe. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the manifold—in which physics happens.
+In Chapter 1, we established six axioms and Postulate F that define our universe.[^axiom-count]
+
+[^axiom-count]: Chapter 1 distinguishes the six foundational axioms (Axioms 1–6: Open System, 6D Spacetime, Firmament Mechanics, Sabbath Boundary, Fall Phase Transition, Waters Duality) from Postulate F (the Firmament as codimension-2 Firmament) — Postulate F is a working hypothesis to be verified by the geometry derived in Chapter 3, not an independent axiom at the same foundational level. By the end of this chapter, the zone manifold will be shown to require the Firmament's existence; Postulate F thus becomes a theorem of the axiom set. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the manifold—in which physics happens.
 
 Here's the deep truth: the shape of spacetime encodes the structure of reality itself. Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1.1) says the universe is an open system—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has zones.
 
@@ -538,9 +540,9 @@ Model B (Curved Extra Dimensions with Warping):
 
 [Equation — see print edition.]
 
-where A( xi , eta ) and B( xi , eta ) are "warp factors" that vary with position. This is more realistic: zones far from the Firmament may experience different metric structures.
+where A( xi , eta ) and B( xi , eta ) are "warp factors" that vary with position. This is more realistic: zones far from the Firmament may experience different metric structures. [warp function — provisional, see Open Problem 1.WF]
 
-[OPEN QUESTION: What is the exact form of A( xi , eta ) and B( xi , eta ) at different zones? This depends on the distribution of the sustaining field κ, which is determined by boundary conditions from Heaven Prime.]
+Open Problem 1.WF — Warp Function Derivation: The warp factors A( xi , eta ) and B( xi , eta ) are used throughout this chapter and in Chapters 4, 5, and 6, but have not yet been derived from the 6D Einstein field equations the expression. All quantitative results depending on A and B — including Ricci tensors, curvature scalars, and zone density relations — are provisional pending this derivation. What is the exact form of A( xi , eta ) and B( xi , eta ) at different zones depends on the distribution of the sustaining field κ and boundary conditions from Heaven Prime. Setting up and solving these equations is Research Task RT-1.WF (see Vol 6 Ch 14 for the research agenda). Until resolved, Model B results should be treated as parametric estimates, not derived predictions.
 
 Induced Metric on the Firmament.
 
@@ -725,7 +727,7 @@ A 6-dimensional pseudo-Riemannian manifold, stratified into eight zones, equippe
 
 Why is this the answer?
 
-Because it satisfies all seven axioms (Chapter 1):
+Because it satisfies all six axioms and vindicates Postulate F (Chapter 1):
 
 1. ✓ Open System: The zones explicitly encode a source external to the observable cosmos (Heaven Prime → sustaining field).
 

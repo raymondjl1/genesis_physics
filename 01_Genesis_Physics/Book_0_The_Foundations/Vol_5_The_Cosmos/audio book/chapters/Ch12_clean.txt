@@ -53,7 +53,7 @@ The zone architecture framework possesses structural features specifically suite
 
 (a) The Sabbath Boundary. Chapter 11 (Vol 1) establishes that the universe transitions from creation-mode to sustaining-mode at Day 7 (Genesis 2:1-3). This is not merely a theological event but a thermodynamic phase transition: the sustaining field kappa drops discontinuously from kappa  create to kappa  full (or kappa _ partial after the Fall). Physics before and after a phase transition can differ fundamentally.
 
-(b) Waters Above as perpendicular dimensions. Chapter 6 (Vol 1) establishes that the Waters Above (Psi sub A) and Waters Below (Psi sub B) exist in dimensions perpendicular to the Firmament (the 4D brane we inhabit). During sustaining mode, light is confined to the Firmament; during creation week, boundary conditions might permit light to traverse the perpendicular dimensions.
+(b) Waters Above as perpendicular dimensions. Chapter 6 (Vol 1) establishes that the Waters Above (Psi sub A) and Waters Below (Psi sub B) exist in dimensions perpendicular to the Firmament (the 4D Firmament we inhabit). During sustaining mode, light is confined to the Firmament; during creation week, boundary conditions might permit light to traverse the perpendicular dimensions.
 
 (c) Two-phase expansion. The framework permits (and as we shall show, the Bible explicitly describes) rapid expansion during creation week (Days 2–4) followed by slower expansion during sustaining mode. Rapid early expansion can separate stars to observable distances in the time available.
 
@@ -78,6 +78,8 @@ And the verification (Section 6): sustaining-mode predictions match ΛCDM and ob
 Section 2: The Two-Phase Expansion Model.
 
 Biblical Foundation: The Seventeen Stretching Passages.
+
+The following section presents biblical-interpretive context for the two-phase expansion hypothesis. This material supplements the physical argument and may be of interest to theologically engaged readers, but the physical hypothesis (that a kappa-transition produces a two-phase expansion) stands independently of it and is evaluated on physical grounds alone.
 
 The Hebrew word for "firmament" is raqia' (רָקִיעַ), which derives from the verb raqa' (רָקַע), meaning "to beat out, to stretch, to spread." The Firmament is literally "the stretched-out thing"—expansion is definitional to its nature, not incidental.
 
@@ -129,9 +131,11 @@ Grammatical synthesis: Two distinct phases:
 
 This grammatical evidence, combined with the Sabbath Boundary principle (Vol 1 Ch 11), points to a two-phase expansion structure that is demanded by proper reading of Scripture in conjunction with zone thermodynamics.
 
-Theorem 5.12.1 (Two-Phase Expansion Structure): The Hebrew grammar of the seventeen stretching passages, when interpreted in light of the Sabbath Boundary phase transition, implies that cosmic expansion occurred in two distinct regimes: rapid during Days 2–4 (perfect tense, completed action) and slow during sustaining mode (participle, ongoing action), separated by the Sabbath Boundary discontinuity.
+Physical Interpretation 5.12.1 (Two-Phase Expansion Structure): The Hebrew grammar of the seventeen stretching passages, when interpreted in light of the Sabbath Boundary phase transition, is consistent with cosmic expansion having occurred in two distinct regimes: rapid during Days 2–4 (perfect tense, completed action) and slow during sustaining mode (participle, ongoing action), separated by the Sabbath Boundary discontinuity.
 
-Proof sketch: The perfect tense ("stretched out") indicates action completed in the past. Genesis 2:1–3 specifies that creation was completed by Day 6 evening, with the Sabbath Boundary occurring at Day 7. Therefore, the perfect-tense stretching must occur Days 1–6 and be completed by Day 7. The participle form ("stretches out") refers to actions ongoing from the writer's perspective (presumably during sustaining mode), implying a slower, continuing expansion. The two forms describe two different temporal regimes separated by the Sabbath Boundary.
+⚠ EPISTEMOLOGICAL NOTE (Rev. 2026-05-14): This "Physical Interpretation" is not a theorem in the mathematical sense. A theorem requires a formal proof from physical axioms. The two-phase expansion structure is a physical hypothesis motivated by both zone architecture (the kappa-transition mechanism) and biblical interpretation (Hebrew grammar of Genesis stretching passages). The biblical grammatical analysis that follows provides theological motivation and interpretive context but does not constitute a physical proof. Physical validation of the two-phase expansion requires deriving the transition time and expansion rates from the zone field equations — designated Research Task RT-5.2PH. The hypothesis stands or falls on RT-5.2PH, not on grammatical analysis.
+
+Interpretive argument: The perfect tense ("stretched out") indicates action completed in the past. Genesis 2:1–3 specifies that creation was completed by Day 6 evening, with the Sabbath Boundary occurring at Day 7. Therefore, the perfect-tense stretching must occur Days 1–6 and be completed by Day 7. The participle form ("stretches out") refers to actions ongoing from the writer's perspective (presumably during sustaining mode), implying a slower, continuing expansion. The two forms describe two different temporal regimes separated by the Sabbath Boundary. This is a biblical-interpretive argument, not a physical derivation.
 
 The Sabbath Boundary as Phase Transition.
 
@@ -150,13 +154,13 @@ A phase transition discontinuity permits fundamental changes in physical behavio
 
 The critical insight: A phase transition permits different physics on either side without contradiction. If creation-mode light behavior differs from sustaining-mode light behavior, this is not a violation but a consequence of the thermodynamic regime change.
 
-Derivation of Two-Phase Scale Factor.
+Order-of-Magnitude Analysis: Two-Phase Scale Factor.
 
 During creation week, if the sustaining field kappa _ create dominates and drives rapid expansion, the Friedmann equations in creation-mode take the form:
 
 [Equation — see print edition.]
 
-where rho _ create is the energy density associated with the supercritical sustaining field (derived from the bulk Waters field coupling to the brane).
+where rho _ create is the energy density associated with the supercritical sustaining field (derived from the bulk Waters field coupling to the Firmament).
 
 For large kappa  create (much larger than sustaining-mode coupling), this produces either exponential or power-law expansion with H create much greater than H sub 0.
 
@@ -211,7 +215,7 @@ Section 3: The Creation-Week Light-Propagation Mechanism.
 
 Waters Above as Perpendicular Dimensions.
 
-Recap of Vol 1 Ch 6: The zone architecture framework embeds the 4D Firmament (our spacetime) as a codimension-2 brane in a 6D spacetime:
+Recap of Vol 1 Ch 6: The zone architecture framework embeds the 4D Firmament (our spacetime) as a codimension-2 Firmament in a 6D spacetime:
 
 [Equation — see print edition.]
 
@@ -221,7 +225,7 @@ The Waters Above (Psi sub A) and Waters Below (Psi sub B) are scalar fields livi
 
 During sustaining mode, the boundary conditions at the Firmament enforce isolation: light cannot propagate from the 4D Firmament into the bulk. Light is confined to the Firmament, traveling at speed c through 3D space.
 
-During creation week, before the system reached thermodynamic equilibrium at Day 7, boundary conditions may have been different. The Firmament may not have been a completely isolated 4D brane but rather permeable to bulk modes.
+During creation week, before the system reached thermodynamic equilibrium at Day 7, boundary conditions may have been different. The Firmament may not have been a completely isolated 4D Firmament but rather permeable to bulk modes.
 
 Photon Geodesics in the Full 6D Metric.
 
@@ -249,7 +253,7 @@ where R_ is the characteristic size of the extra dimensions, expected to be Plan
 
 Sabbath Boundary and Light Confinement.
 
-At Day 7, when kappa  create to kappa  full (or kappa _ partial if the Fall immediately follows), the system transitions to a stable equilibrium. Boundary conditions lock: the Firmament becomes an isolated 4D brane, no longer permeable to bulk photons.
+At Day 7, when kappa  create to kappa  full (or kappa _ partial if the Fall immediately follows), the system transitions to a stable equilibrium. Boundary conditions lock: the Firmament becomes an isolated 4D Firmament, no longer permeable to bulk photons.
 
 Equation (5.12.3): Boundary condition at Sabbath Boundary:
 
@@ -263,7 +267,7 @@ Why no violation of relativity? Speed of light is always c locally. The "faster-
 
 Open Problem 1: Microscopic Mechanism of Waters-Above Light Propagation.
 
-Acknowledged gap: The chapter does NOT fully specify how light couples to the bulk during creation week. What field-theoretic mechanism permits bulk photons? How do they couple to the Firmament brane and matter?
+Acknowledged gap: The chapter does NOT fully specify how light couples to the bulk during creation week. What field-theoretic mechanism permits bulk photons? How do they couple to the Firmament and matter?
 
 Possible research directions:
 
@@ -284,6 +288,8 @@ Section 4: The Mature Creation Principle.
 Functional Integrity as a Created Characteristic.
 
 Principle: Created entities possess functional integrity from the moment of creation. They are not embryonic prototypes awaiting development but fully operational systems.
+
+Note: The mature creation principle, as stated in this section, is unfalsifiable by construction — any observation can be accommodated by positing the appropriate initial conditions at the moment of creation. It is therefore a theological principle that may inform interpretation of zone architecture but cannot function as a physical mechanism in a falsifiable theory. Physical mechanisms in the zone framework (the two-phase expansion, the kappa-transition, the Waters field dynamics) are falsifiable; the mature creation principle is not. The framework does not require the mature creation principle to make its physical predictions, and readers who prefer to evaluate only the falsifiable physical content may do so independently of this section.
 
 Biblical precedent: Adam is created as an adult (Genesis 2:7), not as a zygote or infant. Mere moments after creation, Adam possesses (1) a mature body with bone density, muscle tone, and neural connections matching adult physiology; (2) the capacity to name animals and steward creation; (3) the ability to communicate in language. None of these could exist in an infant; they characterize an adult human.
 

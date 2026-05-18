@@ -1,5 +1,5 @@
 # Chapter 10 — Outline
-## Leptons and Quarks from Membrane Resonances
+## Leptons and Quarks from Firmament Resonances
 
 **Status:** OUTLINE COMPLETE
 **Target length:** 12,000–14,000 words (~42 pages)
@@ -13,7 +13,7 @@
 This chapter is Part III's opening and the make-or-break chapter of Vol 4. Its structure is engineered around a single promise: **the reader must finish this chapter knowing exactly what the framework does predict, exactly what it does not, and exactly where the cracks are.** Every section therefore has a rigor label (RIGOROUS / APPROXIMATE / PHENOMENOLOGICAL / OPEN) declared in its header, and every derivation ends with a dimensional cross-check and a residual comparison to experiment.
 
 The narrative arc:
-1. **Sections 10.0–10.2** — set up the question and the geometry (WHY particles exist as membrane excitations).
+1. **Sections 10.0–10.2** — set up the question and the geometry (WHY particles exist as Firmament membrane excitations).
 2. **Sections 10.3–10.4** — derive what the bosonic membrane *can* give us rigorously: topological winding, charge quantization, generation counting.
 3. **Section 10.5** — **the spin-1/2 subsection.** The BLOCKER. Stop everything; explain the Jackiw-Rossi / Goldstone-Wilczek route, and then state openly that the framework currently requires an auxiliary spinor field to complete the argument.
 4. **Sections 10.6–10.8** — derive the mass formula from the overlap integral, then walk through the lepton, quark, and hadron predictions.
@@ -41,11 +41,11 @@ Rigor labeling is non-negotiable. Any reader who skims section headers alone mus
 
 ---
 
-## Section 10.1 — The membrane mode picture [RIGOROUS]
+## Section 10.1 — The Firmament mode picture [RIGOROUS]
 
 **Length:** ~900 words. **Rigor label declared in header.**
 **Topic sentence:** Every elementary particle in this framework is a localized, topologically protected, resonant excitation of the 4D firmament membrane coupled to the extra-dimensional Waters Above scalar Ψ_A.
-**"Why" entry point:** In Vol 3 Ch 6–7 we showed matter is a persistent pattern in Ψ_A. In Vol 4 Ch 5 we showed field quanta come from creation/annihilation operators on such patterns. Joining these: what *kinds* of persistent patterns does the membrane Lagrangian admit?
+**"Why" entry point:** In Vol 3 Ch 6–7 we showed matter is a persistent pattern in Ψ_A. In Vol 4 Ch 5 we showed field quanta come from creation/annihilation operators on such patterns. Joining these: what *kinds* of persistent patterns does the Firmament Lagrangian admit?
 **Key content:**
 - Recap the Ψ_A Lagrangian from Vol 1 Ch 5 (reproduce the kinetic + potential terms; cite as (4.10.1) and (4.10.2)).
 - Classify excitations by three labels: (a) the ξ-profile (mode number n_ξ), (b) the topological winding n_w in the Ψ_A phase, (c) the transverse localization on the firmament.
@@ -58,7 +58,7 @@ Rigor labeling is non-negotiable. Any reader who skims section headers alone mus
 ## Section 10.2 — Vortex solutions and topological protection [RIGOROUS]
 
 **Length:** ~1100 words.
-**Topic sentence:** The membrane admits Nielsen-Olesen vortex solutions whose winding number n_w is a topologically conserved integer — these are what we will identify with charged particles.
+**Topic sentence:** The Firmament admits Nielsen-Olesen vortex solutions whose winding number n_w is a topologically conserved integer — these are what we will identify with charged particles.
 **"Why" entry point:** We need a reason for charge quantization. The Standard Model postulates it; we want to *derive* it.
 **Key content:**
 - Set up the vacuum manifold: Ψ_A = v_A e^{iθ}, broken phase, U(1) → trivial. The vacuum manifold is S¹.
@@ -67,7 +67,7 @@ Rigor labeling is non-negotiable. Any reader who skims section headers alone mus
 - Numerical profile solution (reference the test suite). Introduce Fig 4.10.2 here — the vortex profile plot.
 - State the charge formula Q = n_w e (Eq. 4.10.14), with e to be fixed in Ch 11.
 - **Dimensional cross-check.** Vortex energy per unit length has dimensions [E/L] ✓.
-**Exit condition:** Reader accepts that integer-charged, topologically stable excitations exist as solutions of the membrane equations, and sees the vortex in Fig 4.10.2.
+**Exit condition:** Reader accepts that integer-charged, topologically stable excitations exist as solutions of the Firmament equations, and sees the vortex in Fig 4.10.2.
 
 ---
 
@@ -110,15 +110,15 @@ Rigor labeling is non-negotiable. Any reader who skims section headers alone mus
 
 **Length:** ~1300 words. **This subsection is explicitly flagged at the header: "OPEN PROBLEM. This is the central unresolved issue of the chapter."**
 **Topic sentence:** A purely bosonic membrane cannot produce spin-1/2 fermions by any known mechanism without introducing additional structure; we describe the best current route and state openly where it falls short.
-**"Why" entry point:** Vortices are bosonic solitons. Electrons are fermions. Any framework that derives electrons from membrane excitations must confront this head-on.
+**"Why" entry point:** Vortices are bosonic solitons. Electrons are fermions. Any framework that derives electrons from Firmament excitations must confront this head-on.
 **Key content:**
 - State the problem. One paragraph, no hedging. Spin-1/2, anti-commutation, Pauli exclusion, fermion number — none of these are automatic for solitons of a bosonic field.
 - **Route 1 — Goldstone-Wilczek / Jackiw-Rebbi.** Walk through the physical picture: a soliton in a background scalar can carry fractional fermion number if there is an independent Dirac field to provide zero modes. Cite the Jackiw-Rossi index theorem (Eq. 4.10.23): the zero-mode count equals the vortex winding.
-- **The catch, stated explicitly:** this theorem requires an *independent spinor field* on the membrane. The bosonic Ψ_A membrane by itself does not give you one.
-- **Route 2 — Braiding / anyonic statistics.** Point out that in 2+1D braiding vortices can give anyonic phases e^{iθ}, and with additional structure Ising-like statistics can emerge. But we live in 3+1D on the membrane, and these constructions do not straightforwardly extend.
-- **Current status (RIGOROUS honesty):** The framework currently must *postulate* a primordial Ψ_fermion spinor field on the membrane to which the vortex couples. This reduces the problem to "why a spinor field?" which is not a derivation — it is a re-labeling. We call this out as OPEN PROBLEM 10.1.
+- **The catch, stated explicitly:** this theorem requires an *independent spinor field* on the Firmament. The bosonic Ψ_A membrane by itself does not give you one.
+- **Route 2 — Braiding / anyonic statistics.** Point out that in 2+1D braiding vortices can give anyonic phases e^{iθ}, and with additional structure Ising-like statistics can emerge. But we live in 3+1D on the Firmament, and these constructions do not straightforwardly extend.
+- **Current status (RIGOROUS honesty):** The framework currently must *postulate* a primordial Ψ_fermion spinor field on the Firmament to which the vortex couples. This reduces the problem to "why a spinor field?" which is not a derivation — it is a re-labeling. We call this out as OPEN PROBLEM 10.1.
 - **What we do know:** *if* a spinor field is posited, the Jackiw-Rossi theorem plus the exchange-phase calculation give S = n_w/2, so unit vortices are spin-1/2 and Pauli exclusion follows from braiding (Eq. 4.10.24).
-- **Routing:** This is tracked as GitHub issue #1 (BLOCKER). Ongoing research directions: (a) supersymmetric extension of the membrane with gauginos as primordial fermions; (b) Kähler spinors from the 6D bulk geometry; (c) topological fermions from higher-form gauge fields. None of these is complete.
+- **Routing:** This is tracked as GitHub issue #1 (BLOCKER). Ongoing research directions: (a) supersymmetric extension of the Firmament with gauginos as primordial fermions; (b) Kähler spinors from the 6D bulk geometry; (c) topological fermions from higher-form gauge fields. None of these is complete.
 - **Reader instruction:** For the rest of the chapter we will *use* the spin-1/2 result, but every time we do, we are relying on an open postulate. The reader should treat the lepton and quark predictions that follow as conditional: *if* the spinor problem can be closed, *then* the following predictions hold.
 **Exit condition:** Reader knows exactly where the framework breaks, exactly what is being assumed, and exactly what future work must do. No paper-over.
 
@@ -253,7 +253,7 @@ Rigor labeling is non-negotiable. Any reader who skims section headers alone mus
 - P10.7 — The proton mass is reproduced to 0.01% but the up-quark mass is wrong by 1000×. Reconcile these two statements.
 
 **Challenge (2):**
-- P10.8 — Construct a candidate primordial spinor field on the membrane (sketch the Lagrangian). Show where the Jackiw-Rossi theorem applies and what would be needed to close OPEN 10.1.
+- P10.8 — Construct a candidate primordial spinor field on the Firmament (sketch the Lagrangian). Show where the Jackiw-Rossi theorem applies and what would be needed to close OPEN 10.1.
 - P10.9 — Propose a single-parameter modification to Eq. 4.10.21 that would reduce the lepton-mass residuals below 1% while preserving the three-generation prediction. Comment on whether your modification introduces new free parameters and how it would be falsified.
 
 ---

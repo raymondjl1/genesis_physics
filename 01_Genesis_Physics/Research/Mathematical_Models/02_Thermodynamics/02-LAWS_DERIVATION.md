@@ -27,7 +27,7 @@
 
 ## Executive Summary
 
-In Genesis Physics, the laws of thermodynamics are **not postulates** but **derived consequences** of the 6D action governing membrane dynamics. Starting from the action functional and proceeding through quantized membrane mode statistics, we rigorously derive:
+In Genesis Physics, the laws of thermodynamics are **not postulates** but **derived consequences** of the 6D action governing Firmament membrane dynamics. Starting from the action functional and proceeding through quantized Firmament membrane mode statistics, we rigorously derive:
 
 1. **Zeroth Law**: Thermal equilibrium via equipartition of membrane defect energy
 2. **First Law**: Energy conservation from Noether's theorem (time-translation symmetry)
@@ -59,7 +59,7 @@ where:
 
 The derivation proceeds in six sequential stages:
 
-**Stage 1: Quantized Membrane Modes**
+**Stage 1: Quantized Firmament Modes**
 - From 6D action → fluctuations on Firmament
 - Wave equation for Firmament oscillations
 - Boundary conditions and mode enumeration
@@ -73,7 +73,7 @@ The derivation proceeds in six sequential stages:
 - [See DERIVE_HBAR_FROM_MEMBRANE.md]
 
 **Stage 3: k_B Derivation**
-- Counting accessible membrane modes at temperature T
+- Counting accessible Firmament modes at temperature T
 - Mode density of states: $g(E) = \text{const} \times E^{d/2-1}$ in d dimensions
 - Thermal de Broglie wavelength = Firmament lattice spacing
 - Equipartition: ⟨E_mode⟩ = (d_eff/2) k_B T
@@ -117,9 +117,9 @@ Consider an ensemble of N topological defects (particles) on the Firmament, each
 **Multiplicity**: The number of microstates consistent with total energy U:
 $$\Omega(U, V, N) = \text{(number of ways to distribute U among N defects)}$$
 
-**Interaction dynamics**: Defects interact via the membrane's curvature and elastic modes. Energy exchange occurs through:
+**Interaction dynamics**: Defects interact via the Firmament membrane's curvature and elastic modes. Energy exchange occurs through:
 - Scattering: defect A collides with defect B, transferring momentum
-- Radiation: defect A emits a membrane wave absorbed by defect B
+- Radiation: defect A emits a Firmament membrane wave absorbed by defect B
 - Both processes reversible in equilibrium
 
 **Equilibrium condition** (Gibbsian): The system reaches a macrostate that maximizes Ω (or equivalently, maximizes entropy S = k_B ln Ω).
@@ -144,7 +144,7 @@ $$\frac{1}{k_BT_1} = \frac{1}{k_BT_2} \quad \Rightarrow \quad T_1 = T_2$$
 
 **Conclusion**: Thermal equilibrium = macroscopic condition at which the total multiplicity is stationary (maximum). This is achieved when temperatures equalize. The Zeroth Law emerges as a consequence of multiplicity maximization.
 
-### 2.3 Equipartition from Membrane Mode Counting
+### 2.3 Equipartition from Firmament Mode Counting
 
 Consider a single mode (harmonic oscillator) with energy $E = \hbar\omega + p^2/(2m)$ (kinetic + zero-point).
 
@@ -159,12 +159,12 @@ where $g(E) \propto E^{(d-2)/2}$ is the density of states (d = degrees of freedo
 **For d quadratic modes**: $⟨E_{\text{total}}⟩ = \frac{d}{2}k_BT$
 
 **Physical origin in Genesis Physics**:
-- Membrane modes are quantized oscillators with $\omega_n \propto c/L$ (where L is system size)
+- Firmament modes are quantized oscillators with $\omega_n \propto c/L$ (where L is system size)
 - At temperature T, modes with $\hbar\omega_n \lesssim k_BT$ are significantly excited
 - Modes with $\hbar\omega_n \gg k_BT$ are frozen (vanishing occupation)
 - The boundary between excited and frozen modes defines the "thermal cutoff energy" $E_{\text{thermal}} \sim k_BT$
 
-**Result**: Equipartition emerges naturally as the equiprobability principle applied to quantized membrane modes.
+**Result**: Equipartition emerges naturally as the equiprobability principle applied to quantized Firmament modes.
 
 ---
 
@@ -235,11 +235,11 @@ $$\boxed{dU = \delta Q - \delta W}$$
 **Internal energy (U)**:
 $$U = \sum_n E_n \, \langle n_n \rangle$$
 
-where the sum is over all membrane modes (or equivalently, all quantum states of the system), $E_n$ is the energy of state n, and $⟨n_n⟩$ is the average occupation number at thermal equilibrium.
+where the sum is over all Firmament modes (or equivalently, all quantum states of the system), $E_n$ is the energy of state n, and $⟨n_n⟩$ is the average occupation number at thermal equilibrium.
 
 For a system of N defects (particles) on the Firmament:
 
-$$U = \sum_{i=1}^N \sqrt{p_i^2 c^2 + (m_i c^2)^2} + \text{(membrane oscillation energy)} + \text{(interaction energy)}$$
+$$U = \sum_{i=1}^N \sqrt{p_i^2 c^2 + (m_i c^2)^2} + \text{(Firmament oscillation energy)} + \text{(interaction energy)}$$
 
 The first term is the relativistic kinetic energy of each defect; the others are electromagnetic/Strong force contributions.
 
@@ -312,7 +312,7 @@ where Ω is the number of microstates (ways to arrange the system's constituents
 A microstate specifies:
 - Positions of all defects (particles) on the Firmament
 - Momenta of all defects
-- Occupation numbers of all membrane modes
+- Occupation numbers of all Firmament modes
 - Configuration of the Waters fields
 
 The number of distinguishable microstates with total energy U, volume V, particle count N is:
@@ -478,7 +478,7 @@ $$\Delta S = \int_{T_1}^0 \frac{C}{T} dT = \text{finite}$$
 
 (This distinguishes thermodynamics from systems with continuous internal degrees of freedom.)
 
-### 5.2 Derivation from Membrane Mode Freezing
+### 5.2 Derivation from Firmament Mode Freezing
 
 **Mechanism**: As temperature decreases, modes with energy $E_n > k_B T$ become inaccessible (their occupation probability drops to zero).
 
@@ -637,9 +637,9 @@ $$P = -\frac{\partial F}{\partial V}\bigg|_T = k_B T \frac{\partial \ln Z}{\part
 
 **Demonstration**: All macroscopic thermodynamics reduces to computing Z from the microscopic energy eigenvalues and then taking derivatives.
 
-### 6.3 Example: Quantized Membrane Modes
+### 6.3 Example: Quantized Firmament Modes
 
-Consider a single harmonic oscillator (membrane mode) with energy $E_n = \hbar\omega(n + 1/2)$, where $n = 0, 1, 2, \ldots$ is the quantum number.
+Consider a single harmonic oscillator (Firmament mode) with energy $E_n = \hbar\omega(n + 1/2)$, where $n = 0, 1, 2, \ldots$ is the quantum number.
 
 **Partition function**:
 $$Z(\omega, T) = \sum_{n=0}^\infty e^{-\beta\hbar\omega(n + 1/2)} = e^{-\beta\hbar\omega/2} \sum_{n=0}^\infty (e^{-\beta\hbar\omega})^n = \frac{e^{-\beta\hbar\omega/2}}{1 - e^{-\beta\hbar\omega}}$$
@@ -884,7 +884,7 @@ leading to divergent response functions (heat capacity, susceptibility).
 
 **Prediction**: The numerical values of ℏ, k_B, α (fine-structure constant), and all other fundamental constants are **strictly constant during Phase 3**.
 
-**Reasoning**: These constants are derived from the membrane geometry (Firmament), which does not change during sustaining-mode cosmology. In Phase 3, κ is constant (κ_partial); the geometry is static. Therefore, all derived constants are constant.
+**Reasoning**: These constants are derived from the Firmament geometry (Firmament), which does not change during sustaining-mode cosmology. In Phase 3, κ is constant (κ_partial); the geometry is static. Therefore, all derived constants are constant.
 
 **Observable test**: Search for time variation of any "constant."
 - Fine-structure constant α: Measured to < 10^−6 variation over billions of years ✓
@@ -946,7 +946,7 @@ Genesis Physics predicts: No, because the initial low-entropy condition would no
 | **Zeroth** | Microstate multiplicity maximization | Thermal equilibrium maintained by κ_full | Thermal equilibrium with excess entropy reservoir | Defect interaction reaching steady state |
 | **First** | Time-translation symmetry (Noether) | dU = δQ − δW (open, κ-sourced) | dU = δQ − δW + δE_κ (κ_partial) | Conservation of energy from Lagrangian symmetry |
 | **Second** | Accessible microstate expansion | dS/dt = 0 (constrained by κ_full) | dS/dt > 0 (κ_partial allows disorder) | Phase-dependent microstate population |
-| **Third** | Membrane mode freezing at low T | S → S_0 (same as Phase 3) | S → S_0 as T → 0 | Mode occupation quantization |
+| **Third** | Firmament mode freezing at low T | S → S_0 (same as Phase 3) | S → S_0 as T → 0 | Mode occupation quantization |
 | **Boltzmann** | Thermal partition & defect counting | P_n ∝ exp(−E_n/k_BT) (sustaining-constrained) | P_n ∝ exp(−E_n/k_BT) (equilibrium ensemble) | Statistical ensemble at thermal equilibrium |
 | **Partition Fn** | Mode enumeration with Boltzmann factor | Z encodes all thermodynamic functions | Z encodes all thermodynamic functions | Completeness of quantum states |
 | **Entropy Rate** | κ-deficit linear response | dS/dt = 0 (balanced) | dS/dt = L(κ_full − κ_partial) | Coupling-dependent irreversibility |

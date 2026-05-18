@@ -14,7 +14,7 @@
 
 **Objective:** Derive special relativity kinematics (time dilation, length contraction, Doppler effect) explicitly from the 6D membrane metric, resolving Tests 7.2, 7.3, 4.10.
 
-**Framework:** Genesis Physics models the universe as a 6D manifold with coordinates $(t, x, y, z, \xi, \eta)$, where the membrane (Zone A) is the 4D brane at $\xi = 0$, $\eta = 0$. The total 6D action is:
+**Framework:** Genesis Physics models the universe as a 6D manifold with coordinates $(t, x, y, z, \xi, \eta)$, where the Firmament (Zone A) is the 4D Firmament at $\xi = 0$, $\eta = 0$. The total 6D action is:
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk}}^{(+)} + S_{\text{bulk}}^{(-)} + S_{\text{int}}$$
 
 ---
@@ -26,17 +26,17 @@ $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk}}^{(+)} + S_{\text{bulk
 The 6D spacetime metric in the background (vacuum, zero membrane stress) is:
 $$ds^2 = -c^2 dt^2 + dx^2 + dy^2 + dz^2 + d\xi^2 + d\eta^2$$
 
-where $c = \sqrt{\sigma/\mu}$ is the wave velocity determined by membrane tension $\sigma$ and mass density $\mu$.
+where $c = \sqrt{\sigma/\mu}$ is the wave velocity determined by Firmament tension $\sigma$ and mass density $\mu$.
 
 **Coordinates:**
 - $(t, x, y, z)$ = 4D spacetime (observable)
 - $(\xi, \eta)$ = 2 extra compact dimensions
-  - $\xi \in [0, \eta_B]$ = thickness of brane (Zone A)
+  - $\xi \in [0, \eta_B]$ = thickness of Firmament (Zone A)
   - $\eta \in [0, \xi_A]$ = size of transverse compact dimension
 
 ### 1.2 Dimensional Reduction to 4D Minkowski
 
-A particle confined to the membrane obeys $\xi = 0$, $\eta = 0$ (zero modes). Its 6D motion projects to 4D motion:
+A particle confined to the Firmament obeys $\xi = 0$, $\eta = 0$ (zero modes). Its 6D motion projects to 4D motion:
 
 $$ds^2|_{\text{membrane}} = -c^2 dt^2 + dx^2 + dy^2 + dz^2$$
 
@@ -51,7 +51,7 @@ $$\Delta s^2 = -c^2 \Delta t^2 + \Delta x^2 + \Delta y^2 + \Delta z^2$$
 
 ### 2.1 Worldline Parametrization
 
-Consider a particle moving with velocity $\vec{v} = (v_x, v_y, v_z)$ in 4D. Its worldline in the membrane is:
+Consider a particle moving with velocity $\vec{v} = (v_x, v_y, v_z)$ in 4D. Its worldline in the Firmament is:
 $$(t(\lambda), x(\lambda), y(\lambda), z(\lambda), 0, 0)$$
 
 where $\lambda$ is an arbitrary affine parameter.

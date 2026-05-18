@@ -19,21 +19,21 @@
 
 **PS-5.6** [W] The mean curvature is $K = h^{ab}K_{ab}$. For a spherical bubble, is $K$ positive or negative?
 
-**PS-5.7** [C] The Nambu-Goto action for the Firmament is $S = -T \int d^4\sigma \, \sqrt{-\det h}$, where $T$ is the brane tension and $\sigma^\alpha$ are worldvolume coordinates. What is $\sqrt{-\det h}$ and why is the negative sign needed?
+**PS-5.7** [C] The Nambu-Goto action for the Firmament is $S = -T \int d^4\sigma \, \sqrt{-\det h}$, where $T$ is the Firmament tension and $\sigma^\alpha$ are worldvolume coordinates. What is $\sqrt{-\det h}$ and why is the negative sign needed?
 
-**PS-5.8** [W] Varying the Nambu-Goto action with respect to the embedding coordinates yields the equations of motion for the brane. What principle underlies this variation?
+**PS-5.8** [W] Varying the Nambu-Goto action with respect to the embedding coordinates yields the equations of motion for the Firmament. What principle underlies this variation?
 
-**PS-5.9** [C] The stress-energy tensor on a thin brane is $T^{\mu\nu} = \frac{\delta S}{\delta g_{\mu\nu}}$ (functional derivative). For the Nambu-Goto brane, what form does $T^{\mu\nu}$ take?
+**PS-5.9** [C] The stress-energy tensor on a thin Firmament is $T^{\mu\nu} = \frac{\delta S}{\delta g_{\mu\nu}}$ (functional derivative). For the Nambu-Goto Firmament, what form does $T^{\mu\nu}$ take?
 
 **PS-5.10** [X] The Israel-Darmois junction conditions relate the jump in extrinsic curvature $[K_{ab}]$ across a hypersurface to its stress-energy $S^{\mu\nu}$. Derive the general form.
 
 **PS-5.11** [C] For a thin shell with surface energy density $\sigma_s$ and no anisotropy, the stress-energy is $T^{\mu\nu} = \sigma_s u^\mu u^\nu$ (where $u^\mu$ is the normal direction). How many independent components does $T^{\mu\nu}$ have?
 
-**PS-5.12** [W] The speed of light is derived as the wave speed on the membrane: $c^2 = \sigma/\mu$ (tension/density). Why is this a membrane wave speed, and how does it differ from pressure waves in a fluid?
+**PS-5.12** [W] The speed of light is derived as the wave speed on the Firmament membrane: $c^2 = \sigma/\mu$ (tension/density). Why is this a Firmament membrane wave speed, and how does it differ from pressure waves in a fluid?
 
 **PS-5.13** [C] For a membrane with tension $\sigma = 6 \times 10^{98}$ kg/(m·s²) and mass density $\mu = 6.7 \times 10^{81}$ kg/m³, the wave speed is $c = \sqrt{\sigma/\mu} \approx 3 \times 10^8$ m/s. Verify the units of this formula.
 
-**PS-5.14** [W] Lorentz invariance is preserved if the physics on the Firmament is independent of any preferred reference frame. How does the brane tension $\sigma$ ensure Lorentz invariance?
+**PS-5.14** [W] Lorentz invariance is preserved if the physics on the Firmament is independent of any preferred reference frame. How does the Firmament tension $\sigma$ ensure Lorentz invariance?
 
 **PS-5.15** [C] A perturbation on the Firmament can be represented as a displacement in the normal direction: $\delta x^\mu = \varepsilon(x^\alpha) n^\mu$. For small $\varepsilon$, what is the first-order change in the induced metric?
 
@@ -49,7 +49,7 @@
 
 **PS-5.21** [C] If the Firmament has thickness $\delta$ and surface energy density $\sigma_s$, the volume energy is $\rho = \sigma_s / \delta$. As the thickness shrinks, what happens to the energy density?
 
-**PS-5.22** [W] A thin-shell approximation assumes the brane thickness is negligible compared to other scales. Is this approximation valid for the Firmament? (Consider the sizes $L_A$ and $\eta_B$ from Chapter 4.)
+**PS-5.22** [W] A thin-shell approximation assumes the Firmament thickness is negligible compared to other scales. Is this approximation valid for the Firmament? (Consider the sizes $L_A$ and $\eta_B$ from Chapter 4.)
 
 **PS-5.23** [C] The extrinsic curvature of the Firmament can be parameterized as $K_{ab} = K \, h_{ab} + \text{(traceless part)}$. What does the trace $K$ represent?
 
@@ -63,11 +63,11 @@
 
 **PS-5.28** [W] Anomalies in quantum field theory on a curved manifold can be related to topological properties of the underlying space. Could the Firmament support quantum anomalies?
 
-**PS-5.29** [C] The Nambu-Goto action is proportional to the area of the brane worldvolume. For a brane expanding in time, how does the action change?
+**PS-5.29** [C] The Nambu-Goto action is proportional to the area of the Firmament worldvolume. For a Firmament expanding in time, how does the action change?
 
 **PS-5.30** [X] Propose a scenario where the Firmament undergoes a phase transition (e.g., from smooth to rough, or changes its topological properties). What would trigger such a transition?
 
-**PS-5.31** [C] The brane tension $\sigma$ has units of energy per unit area. For the Firmament with $\sigma \sim 10^{98}$ kg/(m·s²), convert to J/m² and estimate the total energy stored in membrane tension.
+**PS-5.31** [C] The Firmament tension $\sigma$ has units of energy per unit area. For the Firmament with $\sigma \sim 10^{98}$ kg/(m·s²), convert to J/m² and estimate the total energy stored in Firmament tension.
 
 **PS-5.32** [W] In string theory, a fundamental string has tension $\sigma_s = \frac{1}{2\pi\alpha'}$ (where $\alpha'$ is the string scale). Could the Firmament tension relate to a string theory scale?
 
@@ -91,13 +91,13 @@
 
 **PS-5.42** [W] A brane world is a scenario where our observable universe is confined to a lower-dimensional subspace (the brane). Is Genesis Physics a braneworld scenario?
 
-**PS-5.43** [C] For a brane with worldvolume metric $h_{\mu\nu}$, the induced connections $\Gamma^\lambda_{\mu\nu}$ (covariant derivative on the brane) differ from the ambient connections $\bar{\Gamma}^\lambda_{\mu\nu}$ (in the full 6D space). Write the relation.
+**PS-5.43** [C] For a Firmament with worldvolume metric $h_{\mu\nu}$, the induced connections $\Gamma^\lambda_{\mu\nu}$ (covariant derivative on the Firmament) differ from the ambient connections $\bar{\Gamma}^\lambda_{\mu\nu}$ (in the full 6D space). Write the relation.
 
 **PS-5.44** [W] Could the Firmament acquire a non-trivial topology (e.g., genus > 0 surface) over cosmic time? What would be the observational consequences?
 
 **PS-5.45** [C] A Killing vector on the Firmament satisfies $\mathcal{L}_K h_{ab} = 0$ (the induced metric is preserved). For a translational symmetry, what form does $K$ take?
 
-**PS-5.46** [W] The coupling of matter to the Firmament can be modeled by adding a brane-localized action $S_{\text{brane}} = \int d^4\sigma \, \sqrt{-h} \, T^{\mu\nu}_{\text{matter}}$. How does this differ from bulk matter coupling?
+**PS-5.46** [W] The coupling of matter to the Firmament can be modeled by adding a Firmament-localized action $S_{\text{Firm}} = \int d^4\sigma \, \sqrt{-h} \, T^{\mu\nu}_{\text{matter}}$. How does this differ from bulk matter coupling?
 
 **PS-5.47** [C] The holonomy of a closed loop on the Firmament measures how a parallel-transported vector rotates around the loop. For a flat Firmament, the holonomy is trivial. What is it for a curved Firmament?
 
@@ -113,7 +113,7 @@ $$R_{\Sigma} = R - 2\mathcal{R}(n) - K^2$$
 
 **PS-5.52** [W] In effective field theory on the Firmament, higher-derivative terms (e.g., $(\nabla^2 h)^2$) become important at high energies or small scales. How would these terms modify the dispersion relation?
 
-**PS-5.53** [C] For a brane-localized scalar field $\phi(\vec{x}, t)$ (living only on the Firmament), write the equation of motion including a mass term and a coupling to extrinsic curvature.
+**PS-5.53** [C] For a Firmament-localized scalar field $\phi(\vec{x}, t)$ (living only on the Firmament), write the equation of motion including a mass term and a coupling to extrinsic curvature.
 
 **PS-5.54** [W] Could the Firmament serve as a transmission medium for information from the Atemporal Domain ($Z_{2.1}$) to the observable universe ($Z_{2.2}$)? How might sustaining field couplings work mechanically?
 
@@ -127,9 +127,9 @@ $$R_{\Sigma} = R - 2\mathcal{R}(n) - K^2$$
 
 **PS-5.3:** The induced metric $h_{\mu\nu}$ on a 4D Firmament is a 4×4 symmetric tensor with $\frac{4 \cdot 5}{2} = 10$ independent components.
 
-**PS-5.5:** For a flat 2D membrane embedded in 3D (as a plane in ordinary 3D space), the membrane is not curved relative to the ambient space. Thus $K_{ab} = 0$ everywhere.
+**PS-5.5:** For a flat 2D membrane embedded in 3D (as a plane in ordinary 3D space), the Firmament is not curved relative to the ambient space. Thus $K_{ab} = 0$ everywhere.
 
-**PS-5.7:** $\sqrt{-\det h}$ is the proper area element on the brane. The negative sign accounts for the fact that the determinant of a metric with Lorentzian signature is negative (similar to the spacetime volume element $\sqrt{-g}$).
+**PS-5.7:** $\sqrt{-\det h}$ is the proper area element on the Firmament. The negative sign accounts for the fact that the determinant of a metric with Lorentzian signature is negative (similar to the spacetime volume element $\sqrt{-g}$).
 
 **PS-5.13:** Units check:
 - $[\sigma] = \text{kg/(m·s}^2\text{)}$ (force per unit length)
@@ -149,7 +149,7 @@ $$\omega = ck$$
 
 **PS-5.23:** The trace $K = h^{ab}K_{ab}$ is the mean curvature of the Firmament. It represents the average curvature in all directions perpendicular to the Firmament.
 
-**PS-5.27:** For a flat membrane, the normal is constant everywhere. If the membrane is the plane $z = 0$ in 3D, then $n^\mu = (0, 0, 1)$ (or normalized).
+**PS-5.27:** For a flat membrane, the normal is constant everywhere. If the Firmament is the plane $z = 0$ in 3D, then $n^\mu = (0, 0, 1)$ (or normalized).
 
 **PS-5.31:** Converting $\sigma = 6 \times 10^{98}$ kg/(m·s²) to J/m²:
 $$\sigma = 6 \times 10^{98} \text{ J/m}^2$$
@@ -172,7 +172,7 @@ $$R_{\Sigma} = 0$$
 - $-2\mathcal{R}(n)$: contribution from curvature in the normal directions
 - $-K^2$: contribution from extrinsic curvature (how the Firmament bends)
 
-**PS-5.53:** For a brane-localized scalar field, the equation of motion is:
+**PS-5.53:** For a Firmament-localized scalar field, the equation of motion is:
 $$\square_\Sigma \phi - m^2 \phi + \xi K \phi = 0$$
 
 where $\square_\Sigma = h^{\mu\nu}\nabla_\mu\nabla_\nu$ is the d'Alembertian on the Firmament, $m^2$ is the mass squared, and $\xi K \phi$ is a coupling to the mean curvature.
@@ -273,7 +273,7 @@ What is the Hubble parameter $H = \dot{a}/a$ for this metric?
 
 **PS-6.43** [C] The equation of state parameter $w$ relates pressure to energy density. For a mixture of the Waters Above and Below, the effective $w_{\text{eff}}$ is a weighted average. How would you compute $w_{\text{eff}}$ from the components?
 
-**PS-6.44** [W] The interaction between the Waters and the Firmament can be modeled via a contact term: $S_{\text{contact}} = \int d^4x \sqrt{h} \, T^{\mu\nu}_{\text{Waters}} n_\mu n_\nu$ (brane-localized interaction). What does this represent?
+**PS-6.44** [W] The interaction between the Waters and the Firmament can be modeled via a contact term: $S_{\text{contact}} = \int d^4x \sqrt{h} \, T^{\mu\nu}_{\text{Waters}} n_\mu n_\nu$ (Firmament-localized interaction). What does this represent?
 
 **PS-6.45** [C] If the Waters Above density scales as $\rho_A \propto \xi^{-2}$ (as a function of position in the extra dimension), integrate to find the total energy in a slab $\xi \in [0, L_A]$.
 

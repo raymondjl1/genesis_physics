@@ -2,10 +2,10 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Praise the LORD from the heavens; praise him in the heights" — Precision reflects divine order in creation | Psalm 148:1 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime; Axiom 4: Open System | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | 6D Action; Gauge sector from KK reduction; QED from membrane dynamics; Loop integrals from propagator | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, 05-QED_LOOPS_DERIVATION.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime; Axiom 4: Open System | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | 6D Action; Gauge sector from KK reduction; QED from Firmament membrane dynamics; Loop integrals from propagator | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, 05-QED_LOOPS_DERIVATION.md |
 > | **This Document** | **QED precision calculations: electron g-2 (12-digit), Lamb shift (1057.845 MHz), vacuum polarization, UV finiteness from membrane thickness** | **05-QED_PRECISION_CALCULATIONS.md** |
-> | Modern Equivalent | Quantum Electrodynamics (QED) — CONVERGES: anomalous magnetic moment, Lamb shift, vacuum polarization, renormalization all recovered to 10⁻¹² precision from membrane oscillations |
+> | Modern Equivalent | Quantum Electrodynamics (QED) — CONVERGES: anomalous magnetic moment, Lamb shift, vacuum polarization, renormalization all recovered to 10⁻¹² precision from Firmament membrane oscillations |
 >
 > *Chain Status: COMPLETE*
 
@@ -29,7 +29,7 @@ In Genesis Physics, quantum electrodynamic precision observables emerge from rea
 3. **Vacuum polarization (Uehling potential)**: From membrane pair-creation/annihilation in ξ-η modes
 4. **Renormalization and UV finiteness**: Natural cutoff at Planck scale from membrane thickness η_B
 
-The core innovation: QED loop corrections are not abstract quantum field theory artifacts but **real sums over membrane mode contributions**, with the electromagnetic coupling constant $\alpha$ derived from 6D geometry (see FINE_STRUCTURE_DERIVATION.md).
+The core innovation: QED loop corrections are not abstract quantum field theory artifacts but **real sums over Firmament mode contributions**, with the electromagnetic coupling constant $\alpha$ derived from 6D geometry (see FINE_STRUCTURE_DERIVATION.md).
 
 **Derivation Chain:**
 $$\boxed{6\text{D Action} \to \text{Gauge Sector} \to \text{KK Reduction} \to 4\text{D QED} \to \text{Loop Corrections} \to \text{Precision Observables}}$$
@@ -42,9 +42,9 @@ $$\boxed{6\text{D Action} \to \text{Gauge Sector} \to \text{KK Reduction} \to 4\
 
 In standard quantum field theory, the vacuum is a mathematical fiction—an abstract zero-point state. Genesis Physics **reinterprets the vacuum literally**:
 
-**Definition:** The physical vacuum is the **Firmament membrane** (the 4D brane at position $(\xi_0, \eta_0)$ in 6D spacetime), vibrating and oscillating in the perpendicular directions $(\xi, \eta)$.
+**Definition:** The physical vacuum is the **Firmament membrane** (the 4D Firmament at position $(\xi_0, \eta_0)$ in 6D spacetime), vibrating and oscillating in the perpendicular directions $(\xi, \eta)$.
 
-Quantum fluctuations in the electromagnetic field correspond to real oscillation modes of the membrane:
+Quantum fluctuations in the electromagnetic field correspond to real oscillation modes of the Firmament:
 $$\Phi_{\text{vacuum}} = \sum_{n_\xi=0}^\infty \sum_{n_\eta=0}^\infty \left(a_{n_\xi n_\eta} e^{-i\omega_{n_\xi n_\eta} t} + a_{n_\xi n_\eta}^\dagger e^{+i\omega_{n_\xi n_\eta} t}\right) \Psi_{n_\xi n_\eta}(\xi, \eta)$$
 
 where:
@@ -52,18 +52,18 @@ where:
 - $\Psi_{n_\xi n_\eta}(\xi, \eta)$ = standing-wave pattern in perpendicular dimensions
 - $a^\dagger, a$ = creation/annihilation operators (real physical excitation/deexcitation)
 
-### 1.2 Membrane Mode Structure in the ξ-η Plane
+### 1.2 Firmament Mode Structure in the ξ-η Plane
 
 The Firmament is embedded in a 6D manifold with extra dimensions:
 - **ξ-dimension:** extent $\xi_A \approx 3 \times 10^{26}$ m (toward Waters Above, dark energy region)
 - **η-dimension:** extent $\eta_B \approx 1.3 \times 10^{-15}$ m (toward Waters Below, dark matter region)
 
-For oscillations perpendicular to the 4D brane, the membrane displacement field $h(x^\mu, \xi, \eta, t)$ satisfies:
+For oscillations perpendicular to the 4D Firmament, the Firmament membrane displacement field $h(x^\mu, \xi, \eta, t)$ satisfies:
 $$\partial_t^2 h - c^2 \nabla^2 h = 0$$
 
 where $\nabla^2 = \partial_\xi^2 + \partial_\eta^2$ is the Laplacian in the extra dimensions.
 
-**Boundary conditions:** The membrane is confined by the bulk geometry. For simplicity, assume Dirichlet boundary conditions:
+**Boundary conditions:** The Firmament is confined by the bulk geometry. For simplicity, assume Dirichlet boundary conditions:
 - At $\xi = 0$ and $\xi = \xi_A$: $h = 0$ (fixed endpoints in Waters Above)
 - At $\eta = \eta_B$ and $\eta = \eta_0$ (source regions): $h = 0$ (continuity with bulk)
 
@@ -90,7 +90,7 @@ where $V_{\text{perp}} = \xi_A \eta_B$ is the "volume" in the perpendicular dime
 
 ### 1.4 Vacuum Zero-Point Energy and Renormalization
 
-The total zero-point energy in all membrane modes is:
+The total zero-point energy in all Firmament modes is:
 $$E_{\text{vac}} = \sum_{n_\xi, n_\eta} \frac{1}{2}\hbar\omega_{n_\xi n_\eta}$$
 
 **Formal divergence:** This sum is formally infinite because we sum over all mode quantum numbers. However, the energy differences that we measure (transition energies, level shifts, etc.) are finite because:
@@ -145,11 +145,11 @@ An external magnetic field probes the electron. The electron emits a virtual pho
 
 **Genesis Physics reinterpretation:**
 
-The virtual $e^+e^-$ pair is a **real excitation of the membrane**. When the external field probes the electron:
+The virtual $e^+e^-$ pair is a **real excitation of the Firmament**. When the external field probes the electron:
 
-1. **Membrane excitation:** The Firmament oscillates in a hybrid $e^+e^-$ mode
+1. **Firmament excitation:** The Firmament oscillates in a hybrid $e^+e^-$ mode
 2. **Vacuum polarization:** The virtual pair screens/modifies the external field seen by the electron
-3. **g-factor shift:** The effective magnetic moment changes due to interaction with the membrane oscillation
+3. **g-factor shift:** The effective magnetic moment changes due to interaction with the Firmament oscillation
 
 The one-loop vertex correction integrand is:
 $$\mathcal{M}_{\text{vertex}} = \int_0^1 dx \int \frac{d^4 k}{(2\pi)^4} \frac{\text{Num}(x, k)}{[k^2 - m_e^2 + i\epsilon]^3}$$
@@ -159,7 +159,7 @@ where the numerator contains:
 - Dirac matrices from the loop: $\gamma^\mu$
 - Vertex from photon absorption: $\gamma^\rho$
 
-**In Genesis Physics:** This integral is a **sum over membrane mode amplitudes**:
+**In Genesis Physics:** This integral is a **sum over Firmament mode amplitudes**:
 $$\mathcal{M}_{\text{vertex}} = \sum_{n_\xi, n_\eta} \frac{\text{coupling to mode } (n_\xi, n_\eta)}{\text{energy denominator}}$$
 
 The infinite sum (over all modes) equals the integral, provided:
@@ -257,7 +257,7 @@ $$a_e^{(3)} + \text{higher} = 0.000000038...$$
 
 The extraordinary precision agreement between theory and experiment indicates:
 
-1. **Membrane mode structure is correct:** The QED loop integrals faithfully represent membrane vacuum excitations
+1. **Firmament mode structure is correct:** The QED loop integrals faithfully represent membrane vacuum excitations
 2. **Fine structure constant derivation is valid:** $\alpha = 1/(1.44 \ln(\xi_A/\eta_B))$ (from FINE_STRUCTURE_DERIVATION.md)
 3. **Renormalization cutoff at Planck scale:** The physical membrane thickness $\eta_B \approx 1.3 \times 10^{-15}$ m provides the UV cutoff
 4. **Virtual particles are real:** The virtual $e^+e^-$ pairs in QED loop integrals correspond to real excitations of the Firmament
@@ -381,15 +381,15 @@ $$\nu_{\text{Lamb}}^{\exp} = 1057.845(9)$ MHz
 
 In Genesis Physics, the Lamb shift has a clear physical interpretation:
 
-1. **Vacuum polarization** = Real screening by membrane excitations (virtual $e^+e^-$ pairs are membrane vibrations in hybrid modes)
+1. **Vacuum polarization** = Real screening by Firmament excitations (virtual $e^+e^-$ pairs are Firmament vibrations in hybrid modes)
 
-2. **Self-energy** = The electron's dressed state, where the "clothing" is vacuum fluctuations of the membrane
+2. **Self-energy** = The electron's dressed state, where the "clothing" is vacuum fluctuations of the Firmament
 
-3. **State dependence** = S-states penetrate the nucleus more, experiencing stronger coupling to membrane modes near the nucleus
+3. **State dependence** = S-states penetrate the nucleus more, experiencing stronger coupling to Firmament modes near the nucleus
 
-4. **Contact term** = The δ-function interaction arises from the membrane's response at the shortest length scales (η_B)
+4. **Contact term** = The δ-function interaction arises from the Firmament's response at the shortest length scales (η_B)
 
-The membrane provides a **physical medium** that mediates the electromagnetic interactions. Vacuum fluctuations are not abstract mathematical constructs but real oscillations of this medium.
+The Firmament provides a **physical medium** that mediates the electromagnetic interactions. Vacuum fluctuations are not abstract mathematical constructs but real oscillations of this medium.
 
 ---
 
@@ -397,7 +397,7 @@ The membrane provides a **physical medium** that mediates the electromagnetic in
 
 ### 4.1 Vacuum Polarization from Membrane Pair Creation
 
-When an external electromagnetic field is present, the membrane creates virtual $e^+e^-$ pairs that modify the field. The effective potential seen by the electron includes:
+When an external electromagnetic field is present, the Firmament creates virtual $e^+e^-$ pairs that modify the field. The effective potential seen by the electron includes:
 $$\Phi_{\text{eff}}(r) = \Phi_{\text{Coulomb}}(r) + \Phi_{\text{vac}}(r)$$
 
 **Uehling (1935)** computed the vacuum polarization potential:
@@ -407,7 +407,7 @@ This integral represents the sum over all virtual $e^+e^-$ pair momenta that can
 
 **In Genesis Physics:**
 
-Each virtual pair is a **membrane mode** with energy $E = \hbar\omega_{n_\xi n_\eta}$ and:
+Each virtual pair is a **Firmament mode** with energy $E = \hbar\omega_{n_\xi n_\eta}$ and:
 - Frequency: $\omega \geq 2m_e c/\hbar$ (threshold for $e^+e^-$ pair creation)
 - Spatial extent: characterized by momentum $k \sim \hbar\omega/c$
 - Contribution: Proportional to the mode density in the ξ-η plane
@@ -445,13 +445,13 @@ Physically, divergence means: "summing contributions from arbitrarily high-energ
 In Genesis Physics, the divergence is **naturally cut off** at the Planck scale:
 $$\Lambda_{\text{cutoff}} = \frac{\hbar c}{\eta_B} \approx \frac{(1.055 \times 10^{-34})(3 \times 10^8)}{1.3 \times 10^{-15}} = 2.4 \times 10^{19} \text{ GeV}$$
 
-The membrane has **physical thickness** $\eta_B$. Modes with wavelength shorter than this cannot exist—they would tear the membrane apart.
+The Firmament has **physical thickness** $\eta_B$. Modes with wavelength shorter than this cannot exist—they would tear the Firmament apart.
 
 **Membrane cutoff interpretation:**
 
 Virtual particles with momentum $p > \Lambda_{\text{cutoff}}$ cannot be pair-created because:
 - Their Compton wavelength $\lambda_C = \hbar/(pc) < \eta_B$
-- The pair-separation becomes smaller than the membrane thickness
+- The pair-separation becomes smaller than the Firmament thickness
 - Confinement energy becomes infinite—pair cannot exist
 
 Thus the loop integral becomes:
@@ -473,7 +473,7 @@ $$\alpha_{\text{phys}} = \alpha_0 - \beta_0 \alpha_0^2 \ln(\Lambda/\mu) + ...$$
 
 **Step 5:** The **physical predictions** (electron g-2, Lamb shift, etc.) are independent of the choice of cutoff $\Lambda$ — they depend only on $\alpha_{\text{phys}}$ and the fine structure constant.
 
-In Genesis Physics: Set $\Lambda = 1/\eta_B$ (the membrane provides the physical cutoff), and all calculations become finite.
+In Genesis Physics: Set $\Lambda = 1/\eta_B$ (the Firmament provides the physical cutoff), and all calculations become finite.
 
 ### 5.4 Running Coupling and Energy-Scale Dependence
 
@@ -643,15 +643,15 @@ For the energy-dependent coupling constants and RG flow, see:
 
 ### 9.2 What Requires Further Development
 
-1. **Detailed mode mapping:** Explicit correspondence between specific Feynman diagrams and membrane oscillation modes
-   - Challenge: Requires detailed knowledge of the electron as a topological defect in the membrane
+1. **Detailed mode mapping:** Explicit correspondence between specific Feynman diagrams and Firmament oscillation modes
+   - Challenge: Requires detailed knowledge of the electron as a topological defect in the Firmament
 
 2. **Muon g-2 discrepancy:** The 4.2σ deviation from Standard Model
-   - Hypothesis: Additional membrane modes coupling preferentially to heavy leptons
+   - Hypothesis: Additional Firmament modes coupling preferentially to heavy leptons
    - Test: Measure tau g-2 (currently inaccessible due to tau lifetime)
 
 3. **Electron substructure:** What is the electron fundamentally?
-   - Genesis Physics conjecture: A topological soliton of the membrane
+   - Genesis Physics conjecture: A topological soliton of the Firmament
    - Required: Detailed non-linear field equations
 
 4. **QED coupling to gravitational field:** How do loop corrections affect gravitational interaction?
@@ -663,9 +663,9 @@ For the energy-dependent coupling constants and RG flow, see:
 |------------|-------------------|------------------------|------------|
 | Electron g-2 | $\pm 1.1 \times 10^{-11}$ | Perfect agreement | Continues to agree to 12+ digits |
 | Lamb shift (hydrogen) | ~1 kHz | Excellent agreement | Predicts isotope shift correctly |
-| Muon g-2 | $\pm 6.6 \times 10^{-10}$ | 4.2σ discrepancy | New membrane modes (to be identified) |
+| Muon g-2 | $\pm 6.6 \times 10^{-10}$ | 4.2σ discrepancy | New Firmament modes (to be identified) |
 | Tau g-2 | Unmeasured | Genesis prediction | Would show ~10x larger deviation than muon |
-| QED in muonic hydrogen | Parts in 10⁶ | Under investigation | Predicts specific shifts from membrane modes |
+| QED in muonic hydrogen | Parts in 10⁶ | Under investigation | Predicts specific shifts from Firmament modes |
 | Hyperfine splitting (hydrogen) | Parts in 10¹⁰ | Consistent | Dominated by nuclear magnetic moment |
 
 ---
@@ -676,7 +676,7 @@ Genesis Physics provides a profound reinterpretation of quantum electrodynamics:
 
 **Standard QED:** Vacuum fluctuations are abstract virtual particles; loop corrections emerge from quantum field theory calculations; renormalization is a technical device for removing infinities.
 
-**Genesis Physics:** Vacuum fluctuations are real physical oscillations of the Firmament membrane; loop corrections are sums over membrane mode excitations; renormalization reflects the physical cutoff at membrane thickness η_B ≈ 10⁻¹⁵ m.
+**Genesis Physics:** Vacuum fluctuations are real physical oscillations of the Firmament membrane; loop corrections are sums over Firmament mode excitations; renormalization reflects the physical cutoff at membrane thickness η_B ≈ 10⁻¹⁵ m.
 
 The extraordinary precision agreement between theory and experiment (electron g-2 to 0.00000007%) validates this interpretation. The Firmament is not merely a mathematical construct but a physical medium whose fluctuations determine all of electromagnetic precision physics.
 

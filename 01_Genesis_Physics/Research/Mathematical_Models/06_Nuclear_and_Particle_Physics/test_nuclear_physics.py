@@ -3,7 +3,7 @@ Genesis Physics: Nuclear Physics and Strong Force Test Suite
 ==============================================================
 
 Issue #14: [Phase 2.3] Nuclear Binding Energy, Decay Physics, and Strong Force (7 tests)
-Ch 10 supplement (2026-05-11): Leptons and Quarks from Membrane Resonances (4 tests)
+Ch 10 supplement (2026-05-11): Leptons and Quarks from Firmament Resonances (4 tests)
 Total: 11 tests
 
 This test suite validates the following predictions from Genesis Physics:
@@ -21,7 +21,7 @@ This test suite validates the following predictions from Genesis Physics:
 11. [Ch10] Mass Table Reproduction: Lepton -15%/+17%, quark tree-level failure (Table 4.10.1)
 
 All calculations derive from:
-- Genesis Physics 6D membrane framework: SU(3) color symmetry from zone architecture
+- Genesis Physics 6D Firmament framework: SU(3) color symmetry from zone architecture
 - Running coupling α_s(M_Z) ≈ 0.118 (from Phase 1 derivation)
 - Strong coupling at different scales via asymptotic freedom
 - Semi-empirical mass formula (Bethe-Weizsäcker) with nucleon forces
@@ -1135,7 +1135,7 @@ class ParticleJetsTest:
 
 
 # ============================================================================
-# CH 10 TESTS — Vol 4 Chapter 10: Leptons and Quarks from Membrane Resonances
+# CH 10 TESTS — Vol 4 Chapter 10: Leptons and Quarks from Firmament Resonances
 # These four tests validate the computational claims in Ch 10 of Foundations Vol 4.
 # They were added 2026-05-11 to close the gap identified in G1-5.
 #
@@ -1710,7 +1710,7 @@ def run_all_tests():
     print("=" * 100)
     print("GENESIS PHYSICS: NUCLEAR PHYSICS AND STRONG FORCE + CH 10 LEPTON/QUARK TESTS")
     print("Issue #14: [Phase 2.3] Nuclear Binding Energy, Decay Physics, Strong Force")
-    print("Ch 10 supplement (2026-05-11): Leptons and Quarks from Membrane Resonances")
+    print("Ch 10 supplement (2026-05-11): Leptons and Quarks from Firmament Resonances")
     print("=" * 100)
     print()
 

@@ -1,6 +1,6 @@
 Why Gauge Theory?.
 
-In the five chapters behind us, we have done something that no physics textbook does: we have derived all four fundamental forces from a single geometric structure. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
+In the five chapters behind us, we have done something that no physics textbook does: we have derived all four fundamental forces from a single geometric structure. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from Firmament membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
 
 But we committed an honest sin. We used the gauge groups U(1), SU(2), and SU(3). We did not derive them.
 
@@ -23,6 +23,8 @@ Zone manifold topology (Vol 1, Ch 3–4)
 Before we begin, let us recall exactly what we have to work with. The zone manifold M sub Z is a 6D pseudo-Riemannian manifold with coordinates the expression where mu = 0,1,2,3 span ordinary spacetime and ( xi , eta ) parametrize two extra dimensions (equation 1.4.2):
 
 [Equation — see print edition.]
+
+[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from 6D Einstein equations in closed form. See Open Problem 1.WF.]
 
 The extra dimensions are structured into zones: Waters Above (xi-direction, extent xi sub A approximately 3 times 10 to the 26 m) and Waters Below (eta-direction, extent eta sub B approximately 1.3 times 10 to the -15 m), separated by the Firmament (equation 1.3.2). The warp factors A( xi , eta ) and B( xi , eta ) encode the gravitational geometry of the extra dimensions (equations 1.4.23, 1.4.27).
 
@@ -100,7 +102,7 @@ Chapter 4 (equations 2.4.19–2.4.25) showed that the weak force arises because 
 
 ℤ₂ Orbifold at the Firmament.
 
-The Firmament at ( xi sub 0, eta sub 0) is a codimension-2 brane — a 4D surface embedded in the 6D bulk (Chapter 3, equation 1.3.20). At this surface, the metric satisfies Israel junction conditions (equations 1.4.42–1.4.43):
+The Firmament at ( xi sub 0, eta sub 0) is a codimension-2 Firmament — a 4D surface embedded in the 6D bulk (Chapter 3, equation 1.3.20). At this surface, the metric satisfies Israel junction conditions (equations 1.4.42–1.4.43):
 
 [Equation — see print edition.]
 
@@ -203,6 +205,8 @@ The ℤ₃ Orbifold Construction.
 Consider the extra-dimensional plane ( xi , eta ) in the vicinity of the Waters Below. We use the polar coordinates ( rho , psi ) defined in Chapter 4 (equations 1.4.57–1.4.59):
 
 [Equation — see print edition.]
+
+Note on Ch04 consistency (Rev. 2026-05-14) and RT-2.SU3 status (Rev. 2026-05-15): Chapter 4 §4.2 wrote the ℤ₃ identification as eta to e to the 2 pi i/3 eta, where eta is a real coordinate — an undefined operation. The polar-coordinate formulation here (equations 2.6.18–2.6.19) is the correct implementation: ( xi , eta ) form a 2D real plane, and the ℤ₃ action psi to psi + 2 pi /3 is equivalent to the complex rotation w to e to the 2 pi i/3w where w = xi + i eta = rho e to the i psi. This 2D fiber is what Ch04's correction box (Rev. 2026-05-14) calls for. The derivation in this section is mathematically well-defined and supersedes the notation in Ch04 §4.2 for the purpose of rigorous analysis. The formal derivation consolidating §6.4.2–6.4.3 is now complete and documented in Research/Foundations/RT2SU3Z3_ORBIFOLD.md (RT-2.SU3, 2026-05-15): Z₃ representations, anti-color via complex conjugation, U(3)→SU(3) projection, generator count, McKay correspondence, notation reconciliation, and connection to Genesis 1:6.
 
 In the Waters Below region, the angular coordinate psi is subject to a ℤ₃ identification:
 
@@ -507,17 +511,23 @@ The key parameter is the ratio xi sub A / eta sub B. With xi sub A approximately
 
 The factor of 1.44 arises from the geometric average of the warp-factor profiles (equation 2.3.78). The result alpha to the -1 approximately equal to 137.7 is within 0.5% of the measured value alpha to the -1 = 137.036.
 
-SU(2)_L coupling. The zero mode psi sub 0 to the (2) is localized at the Firmament fixed point, with a Gaussian profile of width ell sub W approximately 1/m sub W in both extra dimensions. The warp-factor integral is dominated by the immediate neighborhood of ( xi sub 0, eta sub 0). The detailed evaluation (using the Israel junction conditions of equation 2.6.10 to fix the warp-factor profile at the brane) gives, at the Z-boson mass scale mu = m sub Z = 91.2 GeV:
+Note on the factor 1.44. As documented in Vol 1 Ch 1 (see the reconciliation note after the constants table, added 2026-05-11), the coefficient K = 1.44 in the formula alpha to the -1 = K ( xi sub A/ eta sub B) is empirically constrained at the current state of the framework. The logarithmic functional form alpha to the -1 proportional to ( xi sub A/ eta sub B) is derived from zone geometry; the precise coefficient K requires computing the KK zero-mode overlap integral (in preparation, Vol 2 Ch 3 §3.7). Equation (2.6.48) therefore carries the same honest status as the alpha to the -1 entry in the Vol 1 notation table: the functional form is derived, the coefficient is currently empirical.
+
+SU(2)_L coupling. The zero mode psi sub 0 to the (2) is localized at the Firmament fixed point, with a Gaussian profile of width ell sub W approximately 1/m sub W in both extra dimensions. The warp-factor integral is dominated by the immediate neighborhood of ( xi sub 0, eta sub 0). The detailed evaluation (using the Israel junction conditions of equation 2.6.10 to fix the warp-factor profile at the Firmament) gives, at the Z-boson mass scale mu = m sub Z = 91.2 GeV:
 
 [Equation — see print edition.]
 
 The localization of the SU(2) mode at the Firmament (small effective volume) makes g sub 2 > g sub 1 — the SU(2) coupling is stronger because the mode is more concentrated.
+
+Note on alpha sub 2. The value alpha sub 2 approximately equal to 1/30 stated in (2.6.49) matches the measured g sub 2(m sub Z) approximately equal to 0.653 (i.e., the expression). The "detailed evaluation using Israel junction conditions" referenced above has not been carried out explicitly in this chapter — the warp-factor integral that would derive alpha sub 2 from first principles at the Firmament location is in preparation. The structural argument (SU(2) localization at the Firmament → smaller effective volume → stronger coupling) is correct; the specific numerical value approximately equal to 1/30 is consistent with experiment. First-principles derivation of the value is deferred to Vol 2 Ch 3 (alongside the K coefficient derivation for alpha sub 1).
 
 SU(3)_C coupling. The zero mode psi sub 0 to the (3) is localized in the Waters Below orbifold region, with effective volume approximately eta sub B to the 2. The smallest volume gives the strongest coupling:
 
 [Equation — see print edition.]
 
 consistent with the PDG value alpha sub s(m sub Z) = 0.1181 plus or minus 0.0011.
+
+Note on alpha sub 3. The value alpha sub s approximately equal to 0.118 in (2.6.50) is taken directly from the PDG measurement anchored at m sub Z; the zone-architecture derivation of this value from the Waters Below effective volume is the same type of warp-factor integral as for alpha sub 2, also in preparation.
 
 The Weak Mixing Angle.
 
@@ -530,6 +540,8 @@ From the zone-derived coupling values:
 [Equation — see print edition.]
 
 This matches the experimental value to the 2 theta sub W = 0.2312 plus or minus 0.0002 to within 0.1%.
+
+Derivation Status — to the 2 theta sub W. The 0.1% agreement between (2.6.52) and experiment is real, but its precise meaning deserves care. Equation (2.6.52) follows by algebra from (2.6.48) and (2.6.49). Both of those values carry open derivation steps: alpha sub 1 depends on K = 1.44 (empirically constrained; see the note above), and alpha sub 2 comes from an uncited detailed calculation that has not been carried out in full. The statement "sin²θ_W ≈ 0.231 is derived from zone geometry" is correct in the structural sense — the zone manifold is the origin of these couplings and the derivation path is clear — but is not yet complete in the sense of a parameter-free first-principles calculation. Vol 4 Ch 11 §11.11 carries the same observable with the label "APPROX (from Vol 2 Ch 10 running, with a partially fit cutoff ratio)." That label applies here too.
 
 Running Couplings (Preview).
 

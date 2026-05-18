@@ -61,9 +61,9 @@ From Volume 1, Chapter 4, the warped metric for the zone manifold is
 
 [Equation — see print edition.]
 
-with A and B the warp factors that characterize the fall-off of the metric away from the Firmament. The four observable dimensions are x to the mu; the two extra dimensions are xi and eta. Vol 1 Ch 4 §4.3 established that the two extra dimensions are bounded — physically, that any normalizable field configuration has support confined to | xi | less than or equal to xi sub A and | eta | less than or equal to eta sub B, where xi sub A approximately equal to 1.4 times 10 to the 26 m is the Hubble-scale cutoff on the Waters Above and eta sub B approximately equal to 1.3 times 10 to the -15 m is the nuclear-scale cutoff on the Waters Below. This boundedness is the single geometric fact the whole chapter will rest on.
+with A and B the warp factors that characterize the fall-off of the metric away from the Firmament. The four observable dimensions are x to the mu; the two extra dimensions are xi and eta. Vol 1 Ch 4 §4.3 established that the two extra dimensions are bounded — physically, that any normalizable field configuration has support confined to | xi | less than or equal to xi sub A and | eta | less than or equal to eta sub B, where xi sub A approximately equal to 3 times 10 to the 26 m is the zone-architecture extent of the Waters Above (larger than the Hubble radius approximately equal to 1.4 times 10 to the 26 m because the Waters Above zone extends beyond the observable universe, consistent with Genesis 1's description of the waters above as beyond our sight) and eta sub B approximately equal to 1.3 times 10 to the -15 m is the nuclear-scale cutoff on the Waters Below. This boundedness is the single geometric fact the whole chapter will rest on.
 
-A classical analogy may help. A drumhead is two-dimensional because that is all the room there is; you cannot stand a vibration "above" the drumhead, because the drumhead is all the drumhead there is. In Vol 1 Ch 4 the Firmament is the drumhead and ( xi , eta ) are the compact bookkeeping dimensions that record how the drumhead sits inside the bulk. Bounded does not mean "small" — xi sub A is the size of the observable universe — but it does mean "finite L to the 2 norm for any physical configuration." That is what we will use.
+A classical analogy may help. A drumhead is two-dimensional because that is all the room there is; you cannot stand a vibration "above" the drumhead, because the drumhead is all the drumhead there is. In Vol 1 Ch 4 the Firmament is the drumhead and ( xi , eta ) are the compact bookkeeping dimensions that record how the drumhead sits inside the bulk. Bounded does not mean "small" — xi sub A approximately equal to 3 times 10 to the 26 m is larger than the observable universe — but it does mean "finite L to the 2 norm for any physical configuration." That is what we will use.
 
 Inheritance 2 — The derived h-bar.
 
@@ -71,7 +71,7 @@ From Volume 1, Chapter 10, Section 10.3, the minimum action carried by a unit-wi
 
 [Equation — see print edition.]
 
-beta sub geom approximately equal to 1.16 is the dimensionless geometric prefactor from the warped 6D metric. The important word in (1.10.19) is minimum. Vol 1 Ch 10 did not compute "a small number that happens to match experiment"; it computed the lowest-action configuration the membrane can sustain, subject to the single-valuedness requirement that the winding number be an integer. You cannot do less. There is no configuration of the Firmament that carries, say, 0.7 h-bar of localized action. The boundary condition forbids it.
+beta sub geom approximately equal to 1.16 is the dimensionless geometric prefactor from the warped 6D metric. The important word in (1.10.19) is minimum. Vol 1 Ch 10 did not compute "a small number that happens to match experiment"; it computed the lowest-action configuration the Firmament can sustain, subject to the single-valuedness requirement that the winding number be an integer. You cannot do less. There is no configuration of the Firmament that carries, say, 0.7 h-bar of localized action. The boundary condition forbids it.
 
 The rest of this chapter will lean on that word "minimum" heavily. Everything that looks like a Fourier inequality turns out to be a restatement of it.
 
@@ -83,7 +83,7 @@ From Chapter 2 of this volume, a small-amplitude localized excitation of the Fir
 
 The Ch 2 derivation made three statements that matter for this chapter and that we will use without re-deriving:
 
-(i) Psi is a complex scalar on the 3D observable slice, obtained from the full 6D membrane displacement psi sub 6D by integrating along the bounded ( xi , eta ) directions — a projection, not an independent field.
+(i) Psi is a complex scalar on the 3D observable slice, obtained from the full 6D Firmament membrane displacement psi sub 6D by integrating along the bounded ( xi , eta ) directions — a projection, not an independent field.
 
 (ii) The momentum operator is p = -i h-bar nabla, and this identification is not a postulate: it is what comes out when you differentiate Psi e to the -iE sub 0t/ h-bar with respect to spatial coordinates in the carrier frame (Ch 2 §2.6). p = h-bar k is not a de-Broglie fiat but an algebraic consequence of the carrier-envelope factorization.
 
@@ -209,11 +209,11 @@ This may sound surprising to a reader whose instincts come from standard QM: "A 
 
 The 3D observer is a projection.
 
-A 3D observer — a human, a detector, a cloud chamber — reads the membrane displacement only along the (x,y,z) slice. They cannot see xi or eta directly; these coordinates are geometrically inaccessible in the observable sector. Vol 1 Ch 4 §4.5 made this precise in (1.4.23): the observable portion of any field on the 6D manifold is the integral along the bounded extra dimensions, weighted by the metric determinant:
+A 3D observer — a human, a detector, a cloud chamber — reads the Firmament membrane displacement only along the (x,y,z) slice. They cannot see xi or eta directly; these coordinates are geometrically inaccessible in the observable sector. Vol 1 Ch 4 §4.5 made this precise in (1.4.23): the observable portion of any field on the 6D manifold is the integral along the bounded extra dimensions, weighted by the metric determinant:
 
 [Equation — see print edition.]
 
-Here the expression for the metric (1.4.1). Equation (4.3.proj) is the definition of the envelope Psi that appeared throughout Ch 2 and is therefore the definition of the function the Fourier proof of §3.4 was about. Psi is not an independent thing in the quantum world; it is the 3D shadow of the 6D membrane displacement.
+Here the expression for the metric (1.4.1). Equation (4.3.proj) is the definition of the envelope Psi that appeared throughout Ch 2 and is therefore the definition of the function the Fourier proof of §3.4 was about. Psi is not an independent thing in the quantum world; it is the 3D shadow of the 6D Firmament membrane displacement.
 
 Once you have (4.3.proj) in hand, the uncertainty principle is inevitable. Everything else is bookkeeping.
 
@@ -263,7 +263,7 @@ Why the constant is h-bar /2 and not something larger.
 
 Two numbers appear on the right-hand side of (4.3.central): h-bar and 1/2. Both are earned, and they come from different places.
 
-The h-bar is the minimum action per localized excitation of the Firmament, computed in Vol 1 Ch 10 §10.3 from the membrane parameters. It is not adjustable. Change the Firmament tension sigma or the nuclear scale eta sub B or the Hubble scale xi sub A, and the value of h-bar would be different — but these are the parameters of this universe, and in this universe h-bar is 1.0546 times 10 to the -34 J·s. There is no knob on the right-hand side that says "set this to zero."
+The h-bar is the minimum action per localized excitation of the Firmament, computed in Vol 1 Ch 10 §10.3 from the Firmament membrane parameters. It is not adjustable. Change the Firmament tension sigma or the nuclear scale eta sub B or the Hubble scale xi sub A, and the value of h-bar would be different — but these are the parameters of this universe, and in this universe h-bar is 1.0546 times 10 to the -34 J·s. There is no knob on the right-hand side that says "set this to zero."
 
 The 1/2 is the Gaussian saturation of the Cauchy–Schwarz inequality, or equivalently the minimization of the action (4.3.10) over the space of admissible profiles. It is a geometric fact about second moments of real non-negative densities, true for any distribution and not specific to quantum mechanics at all. It would be 1/2 for a seismic pulse or a heat distribution too.
 
@@ -327,7 +327,7 @@ Honest Limitations.
 
 Three things this chapter did not do, each deserving a sentence on the record.
 
-First, scalar envelope only. The derivation treats Psi as a complex scalar field on the 3D slice. Real particles have spin, and for spin-12 particles like electrons the relevant object is a two-component spinor, with its own uncertainty-like relations the expression for the angular-momentum components. Constructing spinors from the bosonic Firmament is the outstanding problem catalogued as BLOCKER #1 / GitHub issue #1 in this volume's CLAUDE.md, and the derivation above does not cover it. We expect the inequality (4.3.central) to carry through unchanged — the Fourier proof and the 6D projection argument are both insensitive to the spin structure of the excitation — but we cannot yet prove that from the zone architecture directly. The chapter's scope is therefore bosonic (integer-spin) excitations, and Ch 10 takes up the open question honestly.
+First, scalar envelope only. (Applies to bosonic modes. Extension to fermions depends on Assumption 10.1 — OP-1 / GitHub #1 BLOCKER.) The derivation treats Psi as a complex scalar field on the 3D slice. Real particles have spin, and for spin-12 particles like electrons the relevant object is a two-component spinor, with its own uncertainty-like relations the expression for the angular-momentum components. Constructing spinors from the bosonic Firmament is the outstanding problem catalogued as BLOCKER #1 / GitHub issue #1 in this volume's CLAUDE.md, and the derivation above does not cover it. We expect the inequality (4.3.central) to carry through unchanged — the Fourier proof and the 6D projection argument are both insensitive to the spin structure of the excitation — but we cannot yet prove that from the zone architecture directly. The chapter's scope is therefore bosonic (integer-spin) excitations, and Ch 10 takes up the open question honestly.
 
 Second, bounded-domain corrections. The Fourier proof in §3.4 worked on all of R to the 3 rather than on the bounded 3D slab whose ends sit at the edges of the observable universe. The correction for the true bounded domain is of order ( lambda sub dB/L) to the 2, where lambda sub dB is the de Broglie wavelength and L is the box size. For a laboratory experiment with lambda sub dB approximately 10 to the -10 m and L approximately 1 m, this correction is of order 10 to the -20; for cosmological-scale experiments with L approximately xi sub A, it is 10 to the -72. Undetectable by any conceivable present or future apparatus, which is why every textbook in the world works on R to the 3 without apology. (Problem 6 does the bounded-domain version for the reader who wants the receipts.)
 

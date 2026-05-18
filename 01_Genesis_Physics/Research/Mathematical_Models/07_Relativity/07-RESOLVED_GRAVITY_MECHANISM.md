@@ -39,7 +39,7 @@ All three versions are **partially correct perspectives**. None is fundamentally
 ### VERSION A: Connection-Causation Model
 
 **Ch04 (Firmament as Membrane)**:
-> "Matter is condensed Waters Below. Each mass is a local intrusion through the Firmament. The Firmament is under tension and wants to remain flat. But matter creates strain. The membrane warps, **curving downward toward Waters Below**. This curvature has a consequence: paths through curved Firmament naturally follow geodesics approaching masses. **This is gravitational attraction.**"
+> "Matter is condensed Waters Below. Each mass is a local intrusion through the Firmament. The Firmament is under tension and wants to remain flat. But matter creates strain. The Firmament membrane warps, **curving downward toward Waters Below**. This curvature has a consequence: paths through curved Firmament naturally follow geodesics approaching masses. **This is gravitational attraction.**"
 
 **Implication**: Gravity arises because matter **maintains a connection** to its Waters Below origin. The connection creates curvature. Curvature causes attraction.
 
@@ -50,7 +50,7 @@ All three versions are **partially correct perspectives**. None is fundamentally
 ### VERSION B: Waters-as-Source Model
 
 **Ch05 (Waters Below Function)**:
-> "Every bit of matter in existence maintains a subtle connection to the Waters Below from which it formed. **This connection is not mystical but physical: it is a curvature in the Firmament membrane pointing toward the Waters Below source.** Where matter concentrates, the membrane curves most deeply. Other matter, feeling this curvature, follows the geometry toward the concentration. **We experience this as gravity—the universal attraction of all matter for all other matter.**"
+> "Every bit of matter in existence maintains a subtle connection to the Waters Below from which it formed. **This connection is not mystical but physical: it is a curvature in the Firmament membrane pointing toward the Waters Below source.** Where matter concentrates, the Firmament curves most deeply. Other matter, feeling this curvature, follows the geometry toward the concentration. **We experience this as gravity—the universal attraction of all matter for all other matter.**"
 
 And explicitly:
 > "**Dark Matter = Waters Below at the Boundary**... Some Waters Below remain at the boundary between the Firmament and Zone 2.2.1, never quite fully crossing the threshold to become condensed matter. **These boundary Waters Below still affect the Firmament through their curvature influence—they have gravitational effects**..."
@@ -73,7 +73,7 @@ And explicitly:
 > "Outside horizon (r > r_s): Zone 2.2.2 (Temporal Firmament) — normal membrane physics, **causal structure, timelike worldlines**. At horizon (r = r_s): Membrane transition surface — **curvature K = K_max, membrane properties change discontinuously**. Inside horizon (r < r_s): Zone 2.2.1 (Atemporal Waters Below) — **temporal physics breaks down**..."
 
 And the metric itself:
-> "We model the observable universe as a 4-dimensional hypersurface (3 spatial + 1 temporal) embedded in 6-dimensional space. The embedding coordinates are (x, y, z, t, η, ξ)... The membrane energy functional is: E_membrane = ∫ [σ√(1 + (∇η)² + (∇ξ)²) + V(η, ξ)] d³x"
+> "We model the observable universe as a 4-dimensional hypersurface (3 spatial + 1 temporal) embedded in 6-dimensional space. The embedding coordinates are (x, y, z, t, η, ξ)... The Firmament membrane energy functional is: E_membrane = ∫ [σ√(1 + (∇η)² + (∇ξ)²) + V(η, ξ)] d³x"
 
 **Implication**: Gravity is fundamentally the **curvature of the 6D metric in the η-direction**. What we call "gravitational curvature in 4D spacetime" is actually the induced metric on the 4D Firmament hypersurface resulting from deformation in the perpendicular η-direction.
 
@@ -151,7 +151,7 @@ Observable gravity:
 **Genesis Physics explains** what GR takes as given:
 - **Why** mass curves spacetime: because mass is a Waters Below excitation
 - **What** gravitational curvature really is: η-direction deformation propagating to 4D
-- **Why** the gravitational constant has its value: derived from membrane tension σ and Waters Below density scale
+- **Why** the gravitational constant has its value: derived from Firmament tension σ and Waters Below density scale
 - **How** to resolve black hole singularities: they're zone transitions, not mathematical pathologies
 
 **The relationship**:
@@ -164,7 +164,7 @@ Emerges from Genesis Physics as:
 - Curvature terms: from ∂²η/∂x^i∂x^j (induced metric)
 - T_μν (matter stress-energy): from ρ_Matter projection of ρ_Waters(η)
 - Λ (cosmological constant): from ρ_Waters(ξ>0) boundary contribution
-- G (gravitational constant): from σ (membrane tension) / ρ_critical ratio
+- G (gravitational constant): from σ (Firmament tension) / ρ_critical ratio
 ```
 
 ---
@@ -432,7 +432,7 @@ Observable gravity: determined by both spatial curvature and temporal components
 
 **To physicists/mathematicians**:
 
-> Gravity is the induced 4D curvature resulting from matter's 6D metric deformation in the η-direction. The gravitational constant G is derived from the membrane tension σ and critical density ρ_critical via G = σ/(ρ_critical c²). Newton's law emerges in the weak-field limit (∇²η ≈ ρ/ρ_critical). Einstein's equations emerge at all field strengths as the Gauss-Codazzi equations relating intrinsic and extrinsic curvature of the Firmament 4D hypersurface embedded in 6D Minkowski space.
+> Gravity is the induced 4D curvature resulting from matter's 6D metric deformation in the η-direction. The gravitational constant G is derived from the Firmament tension σ and critical density ρ_critical via G = σ/(ρ_critical c²). Newton's law emerges in the weak-field limit (∇²η ≈ ρ/ρ_critical). Einstein's equations emerge at all field strengths as the Gauss-Codazzi equations relating intrinsic and extrinsic curvature of the Firmament 4D hypersurface embedded in 6D Minkowski space.
 
 **To theologians/non-specialists**:
 
@@ -600,14 +600,14 @@ Inside matter: K ~ (10⁻¹² m)⁻⁶ for solar mass → finite, not singular
 - Total information conserved: I_universe = I_temporal + I_atemporal
 
 **Hawking radiation mechanism**:
-- Membrane vibrations at horizon create temporary η-direction fluctuations
+- Firmament vibrations at horizon create temporary η-direction fluctuations
 - Quantum tunneling allows brief excursions into Waters Below
 - Virtual particle pairs created, one falls into Zone 2.2.1, one escapes
 - Escaped particle is observed as Hawking radiation
 
 ### 7.3 Observable Tests
 
-**Prediction 1: Membrane resonances**
+**Prediction 1: Firmament resonances**
 ```
 Black hole ringdown should show frequencies corresponding to membrane modes:
 ω_n ~ (n/M) × (c²/r_s) × [1 + δ_membrane]
@@ -677,7 +677,7 @@ Force: F = -m∇Φ = GMm/r²  ✓
 |--------|---------------|-------------------|--------|
 | Black hole singularity | Infinite density, undefined metric | Zone transition, finite stress | Untestable with current tech |
 | Information paradox | Information lost | Information preserved in atemporal zone | Philosophical (no direct test) |
-| Planck-scale quantum gravity | Undefined behavior | Membrane vibrations, discrete spectrum | Not yet observed |
+| Planck-scale quantum gravity | Undefined behavior | Firmament membrane vibrations, discrete spectrum | Not yet observed |
 | Very early universe (t→0) | Singularity | Waters Below emergence from Zone 0 | Not observationally accessible |
 
 **In all accessible regimes**: Genesis Physics predictions match GR and Newton.
@@ -795,7 +795,7 @@ G = σ / (ρ_crit × c²)
 
 ### 10.2 Numerical Value
 
-**Membrane tension** (from speed of light, Planck constant):
+**Firmament tension** (from speed of light, Planck constant):
 ```
 σ ≈ μ c²  where μ ≈ surface mass density of Firmament
 σ ≈ 8×10⁸ kg/m² × (3×10⁸ m/s)² ≈ 7×10²⁵ kg/m²
@@ -825,7 +825,7 @@ If ρ_crit were 10× smaller: G would be 10× larger → gravity too strong → 
 If ρ_crit were 10× larger: G would be 10× smaller → gravity too weak → no structure possible
 
 The observed value is precisely tuned for life. This is remarkable:
-it suggests intentional design at the membrane level.
+it suggests intentional design at the Firmament level.
 ```
 
 ---
@@ -838,7 +838,7 @@ it suggests intentional design at the membrane level.
 > Gravity is the curvature of spacetime in the 4D Firmament, arising from matter's persistent connection to Waters Below through the perpendicular η-dimension.
 
 **When explaining to scientists**:
-> In the zone architecture framework, the 6D metric undergoes deformation in the η-direction (perpendicular toward Waters Below) in response to matter concentration. This deformation induces a 4D metric on the Firmament hypersurface whose Riemann curvature is what Einstein identified as gravity. The gravitational constant G is derived from membrane tension σ and critical density ρ_crit.
+> In the zone architecture framework, the 6D metric undergoes deformation in the η-direction (perpendicular toward Waters Below) in response to matter concentration. This deformation induces a 4D metric on the Firmament hypersurface whose Riemann curvature is what Einstein identified as gravity. The gravitational constant G is derived from Firmament tension σ and critical density ρ_crit.
 
 **When explaining to general audience**:
 > God created spacetime as a thin membrane separating two regions of creative energy (Waters Below and Above). Matter is condensed energy from Waters Below. Even when condensed into matter, it maintains a subtle connection to its source. This "pull" back toward the source is what we experience as gravity—matter and energy being drawn together because they share the same origin.
@@ -890,7 +890,7 @@ This single statement encompasses:
 - [x] Resolves black hole information paradox
 - [x] Explains Hawking radiation mechanism
 - [x] Derives gravitational constant from first principles
-- [x] Makes testable predictions (membrane resonances, horizon texture, dark matter correlation)
+- [x] Makes testable predictions (Firmament resonances, horizon texture, dark matter correlation)
 - [x] Reconciles apparent contradictions in prior chapters
 - [x] Provides clear language for all three books
 

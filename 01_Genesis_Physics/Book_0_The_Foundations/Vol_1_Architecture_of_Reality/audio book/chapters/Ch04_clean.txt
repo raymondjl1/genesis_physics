@@ -74,6 +74,8 @@ The upgraded metric becomes:
 
 This is the warp-factored 6D metric, and it is the fundamental object of Genesis Physics geometry.
 
+RT-1.WF — Warp Function Derivation (SUBSTANTIALLY RESOLVED, 2026-05-15): The derivation of A( xi , eta ) and B( xi , eta ) from the 6D Einstein equations is given in Research/Foundations/WARPFUNCTIONDERIVATIONRT1WF.md. Key results: the expression (Waters Above, §2.1); the expression derived from coupled Psi sub B EOM + ηη Einstein equation (OP-Aη RESOLVED, see OPAETAPSIBSELFCONSISTENT.md); the expression; B eta approximately equal to const (OP-2.WP RESOLVED, canonical form adopted). The normalization L sub A = xi sub 0 is derived (§2.3, Eq.\ 2.22). Resolved since BOOK0STATUSREPORT.md (2026-05-15): (1) OP-2.21 RESOLVED: codimension-2 Israel junction conditions give anisotropic Firmament tension sigma  xi not equal to sigma  eta — fully self-consistent with kappa sub 6 to the 2 = 6.9 times 10 to the -66 s²/kg. (2) OP-G6 RESOLVED (2026-05-15): G sub 6 is NO LONGER a calibration parameter — the expression s²/kg derived from KK reduction + Israel self-consistency. B sub 0 = 28.8 from KK normalization; xi sub 0 = 60 l sub Pl from junction condition. See Research/Foundations/OPG6KAPPA6DERIVATION.md. Still open: OP-Bsep — separability A = A xi + A eta fails in the bulk when kappa sub B xi much greater than 1 (Firmament-slice values unaffected; numerical PDE needed for bulk). (See also Ch.\ 3, §3.6.4.)
+
 Why exponential form? You might ask: why e to the 2A and not, say, a power law the expression? The answer is mathematical necessity. Exponential warp factors have a crucial property: they preserve the block-diagonal structure of the metric under the Einstein equations. When you compute the Ricci tensor for a metric of the form (1.4.2), the exponential factors cancel cleanly between numerator and denominator, keeping the 4D and extra-dimensional parts separable. A power-law ansatz would introduce cross-coupling terms between the 4D and extra-dimensional Einstein equations, making the system intractable and — worse — physically uninterpretable. The exponential form also arises naturally from the Einstein equations themselves: in regions of constant energy density (like the Waters Above), the solution to nabla to the 2 A = const is logarithmic in the coordinates, which means e to the 2A is a power of the coordinate — an exponential of a logarithm. The form chooses itself. This is not a convention; it is the unique form consistent with separable physics in a block-diagonal geometry.
 
 Let's unpack each piece.
@@ -94,7 +96,7 @@ Conversely, if A( xi ) < A( xi sub 0), radiation from that region appears redshi
 
 The factor e to the 2A is dimensionless, as it must be (it multiplies a metric with dimensions length²).
 
-More formally, the 4D metric in the Firmament domain becomes:
+More formally, the 4D metric in the Firmament Domain becomes:
 
 [Equation — see print edition.]
 
@@ -165,7 +167,9 @@ The volume element (proper volume in 6D spacetime) is:
 
 [Equation — see print edition.]
 
-(The c factor appears because dt has dimensions of time, and we need dimensional consistency. In natural units where c=1, this becomes a to the 3 e to the 2(A+B).)
+[Corrected: earlier versions had e to the 2(A+B) = e to the 2A+2B here; the correct 6D metric determinant factor is e to the 4A+2B, consistent with Ch 6 Eq. (1.6.2). The four-dimensional block contributes e to the 4A (four factors of e to the 2A, one from each dimension including the c to the 2 time component) and the two-dimensional extra block contributes e to the 2B (two factors of e to the B). — Rev. 2026-05-14]
+
+(The c factor appears because dt has dimensions of time, and we need dimensional consistency. In natural units where c=1, this becomes a to the 3 e to the 4A+2B.)
 
 Dimensional check:
 - a to the 3 has dimensions [length]³ (from the three spatial coordinates)
@@ -466,7 +470,7 @@ Genesis 1 describes creation:
 
 The structure is unambiguous:
 - Waters Below (dark matter)
-- Vault / Firmament (the observable boundary)
+- The Firmament (the observable boundary; Hebrew raqia)
 - Waters Above (dark energy)
 
 This is a codimension-2 embedding.
@@ -527,7 +531,7 @@ These are the frontier questions that will drive Genesis Physics forward. For no
 
 Solutions in Each Zone.
 
-Let's be honest: a metric that just exists isn't physics. A metric is physics only when it produces something we can measure or predict. The abstract 6D line element we wrote down in § 4.1 is technically correct, but it's still a sculpture in mathematics. Now we carve it into zones, and ask the metric to do real work — to generate dark energy, to confine dark matter, to host the Standard Model on a brane. This section is where the metric comes alive.
+Let's be honest: a metric that just exists isn't physics. A metric is physics only when it produces something we can measure or predict. The abstract 6D line element we wrote down in § 4.1 is technically correct, but it's still a sculpture in mathematics. Now we carve it into zones, and ask the metric to do real work — to generate dark energy, to confine dark matter, to host the Standard Model on a Firmament. This section is where the metric comes alive.
 
 The Separability Ansatz: Waters Above and Below.
 
@@ -646,9 +650,9 @@ where g sub mu nu is the standard FRW metric,
 
 and the expression is the warp factor evaluated at the Firmament location.
 
-All of ordinary physics — all quarks, electrons, photons, gluons, the Standard Model in its entirety — lives on this 4D brane. The Firmament is their universe. They measure distances and times using the metric (1.4.26); they know nothing of the sixth and seventh dimensions.
+All of ordinary physics — all quarks, electrons, photons, gluons, the Standard Model in its entirety — lives on this 4D Firmament. The Firmament is their universe. They measure distances and times using the metric (1.4.26); they know nothing of the sixth and seventh dimensions.
 
-But the Firmament is not free-floating. It has a tension, sigma, which represents the energy density of the brane itself — the field configurations that stabilize it, the mechanism (whatever it is) that keeps this 4D surface anchored in 6D space. This tension sources a discontinuity in the derivatives of the warp factors, as we'll see in § 4.5.2.
+But the Firmament is not free-floating. It has a tension, sigma, which represents the energy density of the Firmament itself — the field configurations that stabilize it, the mechanism (whatever it is) that keeps this 4D surface anchored in 6D space. This tension sources a discontinuity in the derivatives of the warp factors, as we'll see in § 4.5.2.
 
 For now, the key point: the Firmament at ( xi sub 0, eta sub 0) is the unique location where the geometry of 6D space naturally "opens up" to accommodate a 4D universe. It is not placed there by hand; it emerges from the solution.
 
@@ -838,13 +842,13 @@ with
 
 [Equation — see print edition.]
 
-What causes this kink? The Firmament itself — the 4D brane with tension sigma.
+What causes this kink? The Firmament itself — the 4D Firmament with tension sigma.
 
-From Chapter 3, recall the Israel junction condition for a codimension-1 hypersurface (a brane) with extrinsic curvature K to the A sub BC:
+From Chapter 3, recall the Israel junction condition for a codimension-1 hypersurface (a Firmament) with extrinsic curvature K to the A sub BC:
 
 [Equation — see print edition.]
 
-where [X] denotes the discontinuity of X across the brane, and S to the A sub BC is the stress-energy tensor of the brane. For a tension-only brane (no shear), this simplifies to:
+where [X] denotes the discontinuity of X across the Firmament, and S to the A sub BC is the stress-energy tensor of the Firmament. For a tension-only Firmament (no shear), this simplifies to:
 
 [Equation — see print edition.]
 
@@ -868,15 +872,15 @@ Rearranging:
 
 [Equation — see print edition.]
 
-Interpretation: The tension in the Firmament sources a discontinuity (a kink) in the warp factor. If sigma > 0 (the brane is pulling outward), then dA_ xi /d xi jumps discontinuously. This kink is required by the Einstein equations; it's not a failure of smoothness, it's a solution.
+Interpretation: The tension in the Firmament sources a discontinuity (a kink) in the warp factor. If sigma > 0 (the Firmament is pulling outward), then dA_ xi /d xi jumps discontinuously. This kink is required by the Einstein equations; it's not a failure of smoothness, it's a solution.
 
-Similarly, for the eta direction (if there's a brane at eta sub 0 with normal eta), we'd have:
+Similarly, for the eta direction (if there's a Firmament at eta sub 0 with normal eta), we'd have:
 
 [Equation — see print edition.]
 
-where sigma ' is the brane tension in the eta direction (if any).
+where sigma ' is the Firmament tension in the eta direction (if any).
 
-These are boundary conditions that solve themselves: you don't have to guess where the brane is or what its tension is. The combined system of Einstein equations + Israel conditions determines both the zone structure and the brane properties self-consistently.
+These are boundary conditions that solve themselves: you don't have to guess where the Firmament is or what its tension is. The combined system of Einstein equations + Israel conditions determines both the zone structure and the Firmament properties self-consistently.
 
 § 4.5.3 The Sabbath Boundary: A Temporal Junction.
 
@@ -902,7 +906,7 @@ Now, the warp factor A( xi , eta ) also depends on time through its coupling to 
 
 [Equation — see print edition.]
 
-The Israel junction condition applies here too, with the jump in extrinsic curvature in the t direction sourced by a "temporal brane" — some process (radiation-dominated to matter-dominated transition, inflation ending, etc.) that changes the dynamics at the Sabbath.
+The Israel junction condition applies here too, with the jump in extrinsic curvature in the t direction sourced by a "temporal Firmament" — some process (radiation-dominated to matter-dominated transition, inflation ending, etc.) that changes the dynamics at the Sabbath.
 
 [OPEN QUESTION: Is the Sabbath transition a sharp phase boundary or a smooth crossover? The Genesis Physics framework suggests a sharp boundary (God rested on the seventh day), but smoothness in physics usually wins. Are we dealing with a sharp junction or an infinitesimal crossover region? We'll revisit this in Ch 8, when we discuss phase transitions.]
 
@@ -948,7 +952,7 @@ Or in terms of the 4D Planck length ell sub P = square root of h-bar G sub 4/c t
 
 where the geometric factor is the integral of e to the 2B over the extra dimensions.
 
-Why is gravity weak? Because the extra dimensions are large. The Water Below (eta sub B) is nuclear-scale (femtometers), and the Waters Above span the Hubble distance (xi sub A approximately 10 to the 26 m). Gravity "spreads out" into these enormous volumes, so only a tiny fraction reaches 4D. That's why the expression — so incredibly small compared to the other fundamental couplings.
+Why is gravity weak? Because the extra dimensions are large. The Water Below (eta sub B) is nuclear-scale (femtometers), and the Waters Above span the Hubble distance (xi sub A approximately 10 to the 26 m). Gravity "spreads out" into these enormous volumes, so only a tiny fraction reaches 4D. That's why the expression — enormously small compared to the electromagnetic coupling, whose characteristic strength is of order approximately c to the 4/(8 pi sigma ell sub eff to the 2) where sigma approximately equal to 6.0 times 10 to the 98 kg/(m·s²) is the enormous Firmament tension. The smallness of gravity traces directly to the stiffness of the Firmament, not to fine-tuning.
 
 This is not magic; it's geometry.
 
@@ -962,7 +966,7 @@ If the 6D Planck scale is near the TeV scale (as in large-extra-dimension scenar
 
 [Equation — see print edition.]
 
-This is too small by roughly 10 to the 42 — but this is precisely the hierarchy problem in a different guise. The exact match requires the full specification of G sub 6, L sub A, and xi sub 0 from the 6D action (Chapter 6), where the Waters field potentials and brane tensions determine these scales self-consistently. The important point is that the functional form of (1.4.51) has the right structure: gravity weakens as the extra-dimensional volume grows, and the hierarchy between G sub 4 and the fundamental scale is explained geometrically rather than by fine-tuning.
+This is too small by roughly 10 to the 42 — but this is precisely the hierarchy problem in a different guise. The exact match requires the full specification of G sub 6, L sub A, and xi sub 0 from the 6D action (Chapter 6), where the Waters field potentials and Firmament tensions determine these scales self-consistently. The important point is that the functional form of (1.4.51) has the right structure: gravity weakens as the extra-dimensional volume grows, and the hierarchy between G sub 4 and the fundamental scale is explained geometrically rather than by fine-tuning.
 
 The precise numerical verification — confirming that G sub 4 from (1.4.51) reproduces 6.674 times 10 to the -11 with the dynamically determined parameters — is the ultimate consistency test for the framework. Chapter 6 (Waters Field Equations) will provide the scale parameters, and Volume 5 (General Relativity Derivation) will close the loop by showing the full numerical match.
 
@@ -972,7 +976,7 @@ The universe has multiple zone boundaries: the Firmament at ( xi sub 0, eta sub 
 
 Each one generates a junction condition. The full consistency of the metric requires that all junction conditions be satisfied simultaneously. Let's denote:
 
-- Firmament junction (in xi): Condition (1.4.43) — the warp factor kink in the xi direction due to brane tension.
+- Firmament junction (in xi): Condition (1.4.43) — the warp factor kink in the xi direction due to Firmament tension.
 - Firmament junction (in eta): Condition (1.4.44) — potential kink in the eta direction.
 - Outer boundary junction (at xi = xi sub A): If the Waters Above have a boundary, there's a matching condition there.
 - Inner boundary junction (at eta = - eta sub B): If the Waters Below have a boundary, junction conditions apply.
@@ -1049,7 +1053,7 @@ Notice: the warp factors A and B still depend only on ( xi , eta ), not on (r, t
 
 Extra-Dimensional Polar Coordinates: The (ξ, η) Rotation.
 
-Now consider the opposite question: suppose the geometry of the extra dimensions has rotational symmetry in the ( xi , eta ) plane. This happens, for instance, in certain brane configurations where the Firmament wraps around a circle in extra-dimensional space.
+Now consider the opposite question: suppose the geometry of the extra dimensions has rotational symmetry in the ( xi , eta ) plane. This happens, for instance, in certain Firmament configurations where the Firmament wraps around a circle in extra-dimensional space.
 
 Introduce polar coordinates in the extra dimensions:
 
@@ -1112,7 +1116,7 @@ In our framework, alpha is not free. It is determined by geometry.
 
 The Origin: Electromagnetic Coupling from Firmament Geometry.
 
-Here is the setup. The electromagnetic field does not exist in 4D spacetime independently — it arises from vibration modes of the Firmament hypersurface. Think of it this way: the Firmament is a 3D brane embedded in 6D space. When the Firmament oscillates, those oscillations generate what we observe as the electromagnetic field in our 4D world. (This is Chapter 5's territory; we preview it here.)
+Here is the setup. The electromagnetic field does not exist in 4D spacetime independently — it arises from vibration modes of the Firmament hypersurface. Think of it this way: the Firmament is a 3D Firmament embedded in 6D space. When the Firmament oscillates, those oscillations generate what we observe as the electromagnetic field in our 4D world. (This is Chapter 5's territory; we preview it here.)
 
 The coupling strength between charged particles and the EM field depends on how easily the Firmament can oscillate. This in turn depends on where the Firmament sits in the extra-dimensional geometry — specifically, on its distance from the Waters Above (the AdS-like boundary at xi = xi sub A) and its distance from the Waters Below (the Gaussian boundary at eta = eta sub B).
 
@@ -1293,13 +1297,13 @@ Brane tension: The Firmament is a 3-brane with surface tension sigma. This produ
 
 [Equation — see print edition.]
 
-where g sub AB to the (3) is the induced metric on the brane (restricted to the 4D spatial part). The negative sign reflects that the brane has negative effective cosmological constant in the extra-dimensional directions (it "pulls" rather than "pushes").
+where g sub AB to the (3) is the induced metric on the Firmament (restricted to the 4D spatial part). The negative sign reflects that the Firmament has negative effective cosmological constant in the extra-dimensional directions (it "pulls" rather than "pushes").
 
-Interaction terms: At the brane position, fields can acquire localized condensates or coupling coefficients:
+Interaction terms: At the Firmament position, fields can acquire localized condensates or coupling coefficients:
 
 [Equation — see print edition.]
 
-The exact form of f encodes the coupling of bulk fields to the brane — this is where the connection between dark matter, dark energy, and the Firmament dynamics becomes explicit.
+The exact form of f encodes the coupling of bulk fields to the Firmament — this is where the connection between dark matter, dark energy, and the Firmament dynamics becomes explicit.
 
 Projection to 4D: A Preview.
 
@@ -1322,7 +1326,7 @@ The effective cosmological constant Lambda sub eff in 4D is not simply Lambda su
 The effective stress-energy T sub mu nu to the ( eff) includes:
 
 - The ordinary matter and radiation we see (baryons, photons, leptons)
-- Dark matter (from the projection of Psi sub B onto the brane)
+- Dark matter (from the projection of Psi sub B onto the Firmament)
 - Dark energy (from Lambda sub eff and the projection of Psi sub A)
 - Interaction terms between these sectors
 
@@ -1389,7 +1393,7 @@ Junction conditions: The Israel formalism (§4.5) ensured that the metric and it
 
 The fine structure constant: §4.7 showed that the expression is not a mysterious free parameter but a geometric prediction. The coupling strength of electromagnetism is determined by the logarithmic ratio of the dark energy and dark matter scales.
 
-Field equations: §4.8 wrote down the full 6D Einstein equations and showed how they decompose into 4D and extra-dimensional parts. The stress-energy tensor comes from bulk scalar fields, brane tension, and interaction terms. The warp factor equations of motion (§4.8.5) confirmed that the zone solutions of §4.3 are dynamical consequences, not assumptions.
+Field equations: §4.8 wrote down the full 6D Einstein equations and showed how they decompose into 4D and extra-dimensional parts. The stress-energy tensor comes from bulk scalar fields, Firmament tension, and interaction terms. The warp factor equations of motion (§4.8.5) confirmed that the zone solutions of §4.3 are dynamical consequences, not assumptions.
 
 Key Results at a Glance.
 
@@ -1440,5 +1444,25 @@ When you trace through the logic, you find that each choice follows from the pre
 In Chapter 5, we turn this around: we ask, given this metric, what waves can propagate on it? The answer will be the Firmament vibration modes, from which the full Standard Model gauge groups will emerge. That is where the "secret revelation" of Christ becomes tangible — not through preaching, but through the discovery that the geometry of the universe uniquely determines the laws that govern matter, energy, life, and consciousness.
 
 This is how science and theology meet: in the structure of reality itself.
+
+Problem Set.
+
+Computational Problems.
+
+4.1. Starting from the warp-factored metric (Eq. (1.4.2)) with A( xi , eta ) = - lambda | xi - xi sub 0| and B = 0, verify the corrected determinant formula square root of - (g) = c a to the 3 e to the 4A+2B (Eq. (1.4.4)) by explicit calculation. Confirm the factor of e to the 4A from the 4D block: count each dimension's contribution.
+
+4.2. For the Randall-Sundrum-inspired warp factor A( xi ) = -k| xi - xi sub 0| (one-dimensional, B = 0), compute the 6D Ricci scalar R to the (6) in the bulk (away from the brane) and show that it is constant. What is the value of that constant in terms of k? (Note: the full derivation of A( xi ) from the 6D Einstein equations is Open Problem 1.WF; here assume the functional form and verify consistency.)
+
+4.3. Using c to the 2 = sigma / mu and G sub 4 = c to the 4/(8 pi sigma ell sub eff to the 2) (from Chapter 5), and the numerical values c = 2.998 times 10 to the 8 m/s, G sub 4 = 6.674 times 10 to the -11 m³/(kg·s²), sigma = 6.0 times 10 to the 98 kg/(m·s²), compute ell sub eff and verify the units.
+
+Conceptual Problems.
+
+4.4. The warp factor A( xi , eta ) and B( xi , eta ) are labeled as provisional throughout this chapter, pending derivation from the 6D Einstein equations (Open Problem 1.WF). Explain in your own words: what is the difference between assuming a functional form for a warp factor and deriving it? What additional physics do the 6D Einstein equations constrain?
+
+4.5. The argument for exactly six dimensions in §4.2 relies on the claim that four dimensions are insufficient to encode two independent dark sector components geometrically. Identify the key assumption in this argument. What would a skeptic need to prove to challenge the "six dimensions required" conclusion?
+
+Challenge Problem.
+
+4.6. (Research-level.) The 6D Einstein equations the expression with the ansatz metric (Eq. (1.4.2)) reduce to a coupled system of ODEs for A( xi , eta ) and B( xi , eta ) in the static, homogeneous limit. Write down (do not solve) these ODEs by computing G to the (6) sub xi xi and G to the (6) sub eta eta for the metric. What source terms T to the (6) sub AB must appear on the right-hand side if the Waters Above fill the region xi > xi sub 0 with constant energy density rho _ Lambda? This is the setup for Research Task RT-1.WF (Open Problem 1.WF).
 
 End of Chapter 4

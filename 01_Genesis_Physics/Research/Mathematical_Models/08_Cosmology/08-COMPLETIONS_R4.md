@@ -53,7 +53,7 @@ $$T(a) = T_0 \left(\frac{a_0}{a}\right) = T_0(1+z) \quad \text{...(8.2.1)}$$
 
 **Derivation from zone equilibrium:**
 
-In Genesis Physics, the Firmament is a 3D membrane at radius r_F (in the 6D compactified geometry) that traps electromagnetic radiation. The membrane has a natural temperature set by the balance of energy flux in and out.
+In Genesis Physics, the Firmament is a 3D membrane at radius r_F (in the 6D compactified geometry) that traps electromagnetic radiation. The Firmament has a natural temperature set by the balance of energy flux in and out.
 
 At recombination (z = z_rec ≈ 1089), the baryon-photon fluid decoupled. The temperature at that epoch was:
 
@@ -74,7 +74,7 @@ where $g_{\text{eff}}$ is the effective number of relativistic degrees of freedo
 
 At recombination, neutrinos had already decoupled (T_ν,dec ≈ 2 MeV), so $g_{\text{eff}} \approx 3.36$ (photons + non-relativistic neutrinos contribute negligibly).
 
-### 8.2.2 Blackbody Spectrum from Membrane Mode Quantization
+### 8.2.2 Blackbody Spectrum from Firmament Mode Quantization
 
 The electromagnetic spectrum trapped in the Firmament is described by Planck's law:
 
@@ -82,7 +82,7 @@ $$B_\nu(T) = \frac{8\pi h\nu^3}{c^3} \frac{1}{e^{h\nu/k_B T} - 1} \quad \text{..
 
 **Derivation from 6D quantization:**
 
-In Genesis Physics, the Firmament is a 3D membrane embedded in 6D spacetime. Quantization of electromagnetic modes on the membrane yields energy eigenstates with spacing:
+In Genesis Physics, the Firmament is a 3D membrane embedded in 6D spacetime. Quantization of electromagnetic modes on the Firmament yields energy eigenstates with spacing:
 
 $$\Delta E = h\nu = \hbar\omega \quad \text{...(8.2.5)}$$
 
@@ -895,14 +895,14 @@ This matches the observed value within uncertainties!
 
 **Honest assessment:**
 
-The membrane-catalyzed resolution is **speculative** and requires:
+The Firmament-catalyzed resolution is **speculative** and requires:
 1. Detailed computation of Firmament phase-transition effects
 2. Microscopic derivation of surface reaction rates
 3. Experimental or observational verification
 
 **Why mention it despite being open:**
 
-Genesis Physics provides a natural framework where the Firmament has physical properties (membrane tension σ, mass density μ, coupling κ) that can catalyze reactions. This is more concrete than standard BBN's unexplained discrepancy.
+Genesis Physics provides a natural framework where the Firmament has physical properties (Firmament tension σ, mass density μ, coupling κ) that can catalyze reactions. This is more concrete than standard BBN's unexplained discrepancy.
 
 **Future work:**
 
@@ -1099,7 +1099,7 @@ All three are consistent with the zone architecture of Genesis Physics.
 | 8.13 | ⁷Li/H abundance | 1.5 × 10⁻¹⁰ (with membrane catalysis) | 1.6 × 10⁻¹⁰ (observed) | 6% | PARTIAL* |
 | 8.14 | N_eff | 3.044 (from QED-corrected decoupling) | 3.027 ± 0.067 | 0.3σ | PASS |
 
-\* Test 8.13 is marked PARTIAL because the membrane-catalyzed destruction mechanism is proposed but not yet fully derived from first principles.
+\* Test 8.13 is marked PARTIAL because the Firmament-catalyzed destruction mechanism is proposed but not yet fully derived from first principles.
 
 ---
 

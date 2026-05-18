@@ -1,4 +1,4 @@
-# Chapter 3: Electromagnetism from Membrane Wave Propagation
+# Chapter 3: Electromagnetism from Firmament Wave Propagation
 
 ---
 
@@ -389,13 +389,13 @@ Electromagnetic waves travel at the speed of light. This was Maxwell's great dis
 
 In standard physics, the speed of light is a fundamental constant — its value is simply measured. In the zone framework, it has a deeper explanation.
 
-Volume 1, Chapter 5 derived the Firmament wave equation and showed that waves on the membrane propagate at speed:
+Volume 1, Chapter 5 derived the Firmament wave equation and showed that waves on the Firmament membrane propagate at speed:
 
 $$c^2 = \frac{\sigma}{\mu} \tag{2.3.53}$$
 
-where $\sigma$ is the membrane tension and $\mu$ is the membrane mass density per unit area (Vol 1, Eq. 1.5.0). This is the same formula that gives the wave speed on a guitar string ($v = \sqrt{T/\rho_L}$) or a drumskin ($v = \sqrt{T/\rho_A}$). The Firmament is a physical membrane, and its vibrations propagate at a speed determined by its material properties.
+where $\sigma$ is the Firmament tension and $\mu$ is the Firmament membrane mass density per unit area (Vol 1, Eq. 1.5.0). This is the same formula that gives the wave speed on a guitar string ($v = \sqrt{T/\rho_L}$) or a drumskin ($v = \sqrt{T/\rho_A}$). The Firmament is a physical membrane, and its vibrations propagate at a speed determined by its material properties.
 
-[FIGURE: Fig 2.3.6 — Speed of Light as Membrane Wave Speed. Top panel: a drumskin with tension σ and mass density μ; a wave propagating across it at speed v = √(σ/μ). Bottom panel: the Firmament membrane in the zone manifold; an electromagnetic wave propagating at c = √(σ/μ). The analogy is exact — the mathematics is identical. Labels: σ = membrane tension, μ = mass density, c = wave speed = 299,792,458 m/s.]
+[FIGURE: Fig 2.3.6 — Speed of Light as Firmament Wave Speed. Top panel: a drumskin with tension σ and mass density μ; a wave propagating across it at speed v = √(σ/μ). Bottom panel: the Firmament membrane in the zone manifold; an electromagnetic wave propagating at c = √(σ/μ). The analogy is exact — the mathematics is identical. Labels: σ = Firmament tension, μ = mass density, c = wave speed = 299,792,458 m/s.]
 
 The identification is:
 
@@ -403,9 +403,9 @@ $$c = \frac{1}{\sqrt{\varepsilon_0\mu_0}} = \sqrt{\frac{\sigma}{\mu}} \tag{2.3.5
 
 This connects the electromagnetic constants ($\varepsilon_0$, $\mu_0$) to the mechanical properties of the Firmament ($\sigma$, $\mu$). It means:
 
-- $\varepsilon_0$ and $\mu_0$ are not independent constants. They are different manifestations of the membrane's tension and mass density.
+- $\varepsilon_0$ and $\mu_0$ are not independent constants. They are different manifestations of the Firmament membrane's tension and mass density.
 - The speed of light is not mysterious. It is the wave speed on a physical membrane, just as the speed of sound is the wave speed in air.
-- Lorentz invariance — the cornerstone of special relativity — follows from the uniformity of $\sigma$ and $\mu$ across the Firmament. If the membrane has the same tension and mass density everywhere, then the wave speed is the same everywhere. That is Lorentz invariance.
+- Lorentz invariance — the cornerstone of special relativity — follows from the uniformity of $\sigma$ and $\mu$ across the Firmament. If the Firmament membrane has the same tension and mass density everywhere, then the wave speed is the same everywhere. That is Lorentz invariance.
 
 ### §3.5.3 Why c Is Constant
 
@@ -413,7 +413,7 @@ Einstein's second postulate — the speed of light is the same for all observers
 
 The Firmament is a homogeneous membrane (Vol 1, Ch 5, §5.1.4 — the induced metric on the Firmament is spatially flat to the accuracy of FRW cosmology). Its tension $\sigma$ and mass density $\mu$ do not vary from place to place. Therefore the wave speed $c = \sqrt{\sigma/\mu}$ is the same everywhere.
 
-Moreover, the wave speed is the same in every direction (isotropy) because the Firmament's induced metric has no preferred direction (it inherits the spatial isotropy of the FRW metric). And it is the same for all observers because $\sigma$ and $\mu$ are properties of the membrane itself, not of any observer's state of motion.
+Moreover, the wave speed is the same in every direction (isotropy) because the Firmament's induced metric has no preferred direction (it inherits the spatial isotropy of the FRW metric). And it is the same for all observers because $\sigma$ and $\mu$ are properties of the Firmament membrane itself, not of any observer's state of motion.
 
 The invariance of $c$ is not a postulate of special relativity. It is a *consequence* of the Firmament's homogeneity and isotropy.
 
@@ -583,6 +583,8 @@ The Standard Model particle content (3 generations of quarks and leptons, plus g
 
 $$C = \frac{9.05}{2\pi} \approx 1.44 \tag{2.3.80}$$
 
+> **Parameter Disclosure (Rev. 2026-05-14):** The coefficient $b_\text{eff} \approx 9.05$ used above is computed from the full Standard Model particle content: 3 generations of quarks and leptons, gauge bosons, and the Higgs. That particle content is not derived in this volume — it is taken as empirical input here and derived from zone topology in Vol 4. Consequently, $C = b_\text{eff}/(2\pi) \approx 1.44$ is an anticipatory result: the derivation chain runs Vol 4 (particle content from zone topology) → Vol 2 (fine structure from RG running). The definitive derivation with the complete closed chain appears in Vol 5, Ch 13, which gives $\alpha^{-1} = 137.17$ (< 0.1% from experiment). Until Vol 4 closes the loop, the numerical value $\alpha^{-1} \approx 137.04$ should be understood as a consistency check, not a parameter-free prediction.
+
 ### §3.7.4 The Result
 
 $$\boxed{\alpha^{-1} = 1.44 \times \ln\left(\frac{3 \times 10^{26}}{1.3 \times 10^{-15}}\right) = 1.44 \times 95.2 = 137.04} \tag{2.3.81}$$
@@ -731,7 +733,7 @@ It is worth noting what the zone framework provides that standard QED does not:
 | Maxwell's equations | Postulated | Derived from 6D geometry |
 | Gauge invariance | Postulated as Lagrangian symmetry | Derived from $\xi$-reparameterization |
 | $\varepsilon_0$, $\mu_0$ values | Measured | Calculated from warp factor integrals |
-| Speed of light | Measured constant | Membrane wave speed $c = \sqrt{\sigma/\mu}$ |
+| Speed of light | Measured constant | Firmament membrane wave speed $c = \sqrt{\sigma/\mu}$ |
 | $\alpha \approx 1/137$ | Measured, unexplained | Calculated: $1.44\ln(\xi_A/\eta_B)$ |
 | Charge quantization | Unexplained (or requires monopoles) | Topological: $\xi$-momentum quantization |
 | Photon masslessness | Assumed (or from gauge invariance postulate) | Theorem: follows from coordinate invariance |
@@ -768,7 +770,7 @@ The geometry has more to say. Let us listen.
 
 **Problem 3.7** (No Monopoles). Why does the zone architecture predict the absence of magnetic monopoles? Under what topological modification of the $\xi$-fiber would monopoles become possible? Would such a modification be consistent with the axioms of Volume 1?
 
-**Problem 3.8** (Invariance of $c$). In the zone framework, the constancy of $c$ follows from the homogeneity of the Firmament membrane. If the Firmament were inhomogeneous — if $\sigma$ and $\mu$ varied across the membrane — what observable effects would result? How would this differ from the variable speed of light theories discussed by Moffat (1993) and Magueijo (2003)?
+**Problem 3.8** (Invariance of $c$). In the zone framework, the constancy of $c$ follows from the homogeneity of the Firmament membrane. If the Firmament were inhomogeneous — if $\sigma$ and $\mu$ varied across the Firmament membrane — what observable effects would result? How would this differ from the variable speed of light theories discussed by Moffat (1993) and Magueijo (2003)?
 
 **Problem 3.9** (Dimensionless $\alpha$). Why is the fine structure constant dimensionless? Show that in any unit system, $\alpha$ has the same numerical value. Explain why a dimensionless constant is harder to explain than a dimensionful one (like $G$).
 

@@ -1,4 +1,4 @@
-# Reviewer Report — Chapter 3: Electromagnetism from Membrane Wave Propagation
+# Reviewer Report — Chapter 3: Electromagnetism from Firmament Wave Propagation
 
 **Date:** 2026-04-06
 **Chapter:** Foundations Vol 2, Chapter 3

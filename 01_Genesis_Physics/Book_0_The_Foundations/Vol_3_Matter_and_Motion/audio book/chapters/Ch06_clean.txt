@@ -134,6 +134,8 @@ The η-sector gives:
 
 [Equation — see print edition.]
 
+(Note: This value requires dimensional verification — the units of the expression in the current notation should be confirmed before citing this result. An independent dimensional check using the standard formula gives a result in the range 2–5 GeV depending on the numerical prefactor convention; the discrepancy should be resolved in the detailed derivation.)
+
 This is in the MeV to GeV range—the scale of particle physics! The η-sector dominates.
 
 This mass hierarchy is not accidental. The fact that eta sub B much less than xi sub A means the η-modes have high energy cost, while the ξ-modes have negligible cost. So particles are built from η-sector excitations (which are expensive and therefore discrete) while their large-scale properties may involve ξ-sector quantum numbers (which are essentially free).
@@ -190,7 +192,7 @@ But which direction in field space? The field Psi sub A can be written as Psi su
 
 This is a circle—the first homotopy group is pi sub 1(S to the 1) = Z.
 
-Similarly, in the η-direction, the Standard Model sector has its own symmetry-breaking structure. The full gauge group of the Standard Model is G = SU(3) sub c times SU(2) sub L times U(1) sub Y. The Higgs mechanism (which we will derive from the membrane geometry in Chapter 7) breaks this to the residual symmetry H = SU(3) sub c times U(1) sub em — color remains unbroken, and the unbroken electromagnetic U(1) is a combination of weak isospin and hypercharge.
+Similarly, in the η-direction, the Standard Model sector has its own symmetry-breaking structure. The full gauge group of the Standard Model is G = SU(3) sub c times SU(2) sub L times U(1) sub Y. The Higgs mechanism (which we will derive from the Firmament geometry in Chapter 7) breaks this to the residual symmetry H = SU(3) sub c times U(1) sub em — color remains unbroken, and the unbroken electromagnetic U(1) is a combination of weak isospin and hypercharge.
 
 The vacuum manifold for the η-sector is the quotient:
 
@@ -300,6 +302,8 @@ These two quantum numbers, combined with the radial excitation index k (which we
 [Figure — see print edition.]
 
 Fermions from Vortices — The Jackiw-Rossi Mechanism.
+
+⚠ DERIVATION STATUS — BLOCKED (Rev. 2026-05-14): The Jackiw-Rossi mechanism presented in this section is not a completed derivation. The mechanism requires a pre-existing spinor field in the background (specifically, a Dirac fermion in the vortex core) in order to produce zero modes with spin-1/2 statistics. Since zone architecture is a bosonic membrane theory, such a pre-existing spinor is precisely what needs to be derived — making the argument circular. This does not mean spin-1/2 cannot emerge from zone architecture; it means the Jackiw-Rossi route does not provide that derivation. This section should be understood as identifying a candidate mechanism that does not work in its current form, motivating the search for an alternative. See Open Problem OP-1 (Vol 6 Ch 14) for the research agenda. This chapter's standing-wave analysis for bosonic modes remains valid and is unaffected by this note.
 
 Here is where the machinery becomes concrete. Here is where fermions—the building blocks of all matter—emerge from the topology of the Firmament.
 

@@ -146,7 +146,7 @@ where:
 | Zone | Region | Scale | Physics |
 |------|--------|-------|---------|
 | Waters Above | $\xi \in [0, \xi_A]$ | ξ_A ≈ 3×10²⁶ m | Dark energy carrier |
-| Firmament | 4D brane at (ξ₀, η₀) | Hubble scale | Observable universe |
+| Firmament | 4D Firmament at (ξ₀, η₀) | Hubble scale | Observable universe |
 | Waters Below | $\eta \in [0, \eta_B]$ | η_B ≈ 1.3×10⁻¹⁵ m | Dark matter confinement |
 
 ---
@@ -214,7 +214,7 @@ or equivalently:
 
 $$\boxed{G_4 = \frac{G_6}{V_{\text{extra}}}}$$
 
-**Physical interpretation**: The 4D gravitational strength is suppressed relative to the 6D value by the **volume of the extra dimensions**. Gravity spreads into the bulk; less flux is confined to the 4D brane.
+**Physical interpretation**: The 4D gravitational strength is suppressed relative to the 6D value by the **volume of the extra dimensions**. Gravity spreads into the bulk; less flux is confined to the 4D Firmament.
 
 ---
 
@@ -244,7 +244,7 @@ $$B_\xi(\xi) = B_0 \quad \text{(assumed constant; breathing mode stabilized)}$$
 
 where:
 - λ is a power-law index (λ > 0 for repulsive geometry)
-- ξ₀ is a reference scale (order the brane location)
+- ξ₀ is a reference scale (order the Firmament location)
 
 Then:
 
@@ -328,11 +328,11 @@ $$G_6 = \frac{1}{8\pi M_6^2}$$
 
 ### 5.2 Brane Tension and the Stability Condition
 
-The Firmament (4D brane) has a tension σ (energy per unit 3-volume), defined by:
+The Firmament (4D Firmament) has a tension σ (energy per unit 3-volume), defined by:
 
-$$\sigma = e^{2A_0} \int_{-\infty}^{+\infty} d\xi' \, d\eta' \, \sqrt{g_{\text{extra}}(y')} \, T^{00}_{\text{brane}}$$
+$$\sigma = e^{2A_0} \int_{-\infty}^{+\infty} d\xi' \, d\eta' \, \sqrt{g_{\text{extra}}(y')} \, T^{00}_{\text{Firm}}$$
 
-For a thin brane of negligible thickness in extra dimensions, this simplifies to a delta-function source. The brane tension is typically of order:
+For a thin Firmament of negligible thickness in extra dimensions, this simplifies to a delta-function source. The Firmament tension is typically of order:
 
 $$\sigma \sim M_6^4$$
 
@@ -346,13 +346,13 @@ where C is dimensionless.
 
 ### 5.3 Self-Consistency: Relating σ, c, and G₆
 
-From Axiom 3 (Membrane Mechanics), the speed of light emerges as:
+From Axiom 3 (Firmament Mechanics), the speed of light emerges as:
 
 $$c^2 = \frac{\sigma}{\mu}$$
 
-where μ is the surface mass density (mass per unit 3-volume on the brane). For the Firmament:
+where μ is the surface mass density (mass per unit 3-volume on the Firmament). For the Firmament:
 
-$$\mu \sim M_6^3 \quad \text{(characteristic brane mass density)}$$
+$$\mu \sim M_6^3 \quad \text{(characteristic Firmament mass density)}$$
 
 Then:
 
@@ -406,7 +406,7 @@ From the observed physics and field theory:
 | γ | 10¹⁵ m⁻¹ | Damping rate, Waters Below |
 | A₀ | 1.0 | Warp factor at origin (dimensionless) |
 | B₀ | 0.0 | Breathing mode at origin |
-| ξ₀ | 10²⁶ m | Reference scale (order brane location) |
+| ξ₀ | 10²⁶ m | Reference scale (order Firmament location) |
 | M₆ | ~10³⁴ kg | 6D Planck mass |
 | ℏ | 1.055 × 10⁻³⁴ J·s | Reduced Planck constant |
 | c | 2.998 × 10⁸ m/s | Speed of light |
@@ -507,7 +507,7 @@ $$= 2.5 \times 10^{-124} \text{ m}^3\text{kg}^{-1}\text{s}^{-2}$$
 
 ### 6.7 Diagnosis and Rescaling
 
-The issue is that M₆ ~ 10³⁴ kg is too large, giving G₆ too small. The self-consistency condition from brane tension and membrane mechanics must determine M₆ more precisely.
+The issue is that M₆ ~ 10³⁴ kg is too large, giving G₆ too small. The self-consistency condition from Firmament tension and Firmament membrane mechanics must determine M₆ more precisely.
 
 **Alternative approach**: Use the observed G₄ to infer M₆ via:
 
@@ -567,15 +567,15 @@ Genesis Physics: "Why is gravity weak?" → Because gravitational flux spreads i
 
 ---
 
-## Part 8: Alternative Derivation — Membrane Tension Formula
+## Part 8: Alternative Derivation — Firmament Tension Formula
 
 ### 8.1 Connection to Brane Tension
 
-From Axiom 3 (Membrane Mechanics), the speed of light is:
+From Axiom 3 (Firmament Mechanics), the speed of light is:
 
 $$c^2 = \frac{\sigma}{\mu}$$
 
-where σ is the brane tension and μ is the surface mass density. This yields an alternative formula for G₄:
+where σ is the Firmament tension and μ is the surface mass density. This yields an alternative formula for G₄:
 
 $$\boxed{G_4 = \frac{c^4}{8\pi \sigma \ell_{\text{eff}}^2}}$$
 
@@ -601,7 +601,7 @@ Numerically, with σ ~ 6×10⁹⁸ kg/(m·s²) (Planck scale), c = 3×10⁸ m/s,
 
 $$G_4 \sim \frac{(3 \times 10^8)^4 \times 1}{10^{99} \times 10^{30}} \sim \frac{10^{33}}{10^{129}} \sim 10^{-96}$$
 
-Again, off from observation, suggesting the membrane tension or effective scale must be reconsidered.
+Again, off from observation, suggesting the Firmament tension or effective scale must be reconsidered.
 
 ---
 
@@ -646,7 +646,7 @@ Again, off from observation, suggesting the membrane tension or effective scale 
 
 - **Separable warp factors**: A(ξ,η) = A_ξ(ξ) + A_η(η) simplifies integration but may not be exact.
 - **Zone extents and profiles**: ξ_A, η_B, λ, γ are inferred from field dynamics; their precise values depend on solving the full 6D Einstein equations with sources.
-- **Brane tension σ**: Its dependence on M₆ and geometric factors requires a detailed analysis of the brane worldsheet action (not performed here).
+- **Brane tension σ**: Its dependence on M₆ and geometric factors requires a detailed analysis of the Firmament worldsheet action (not performed here).
 
 ### 10.3 Consistency with Observation
 

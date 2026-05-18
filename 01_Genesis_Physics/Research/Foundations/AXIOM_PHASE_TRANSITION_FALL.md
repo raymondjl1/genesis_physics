@@ -213,7 +213,7 @@ Stars in Phase 2 would have been sustained — their nuclear fuel continuously r
 
 - **Axiom 1 (Open System)**: The Fall changes the coupling between the open system and its external source. The system remains open but the sustaining becomes partial.
 - **Axiom 2 (6D Spacetime)**: The zone architecture is unchanged by the Fall — the 6D geometry persists. The change is in the energy transfer rate across the Zone 1 boundary.
-- **Axiom 3 (Membrane Mechanics)**: Membrane properties (σ, μ, c) are unaffected by the Fall. The speed of light, electromagnetic coupling, and gravitational constant remain the same.
+- **Axiom 3 (Firmament Mechanics)**: Membrane properties (σ, μ, c) are unaffected by the Fall. The speed of light, electromagnetic coupling, and gravitational constant remain the same.
 - **Axiom 4 (Metric Discontinuity)**: The Sabbath Boundary (Axiom 4) and the Fall (Axiom 5) are distinct transitions. The Sabbath Boundary changed the metric; the Fall changed the thermodynamics. Both are phase transitions, but of different quantities.
 
 ---

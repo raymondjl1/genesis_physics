@@ -9,17 +9,17 @@ Where Chapter 9 leaves us.
 
 Chapter 9 ended with a feasibility table. Every FTL mechanism the zone architecture permits — temporal shortcut, dimensional bypass, field distortion, consciousness interface — carried a price tag. Warp-bubble engineering demanded ~10²⁶ J; dimensional bypass wanted 10²⁵–10²⁸ J; even the cheap mechanisms, temporal shortcuts and atemporal signalling, required 10¹⁵–10¹⁸ J per usable excursion. For reference, the world's annual primary energy consumption sits near 6 × 10²⁰ J. Several of those figures are larger than anything the human species has ever done.
 
-The obvious response from a sceptical reader is: "fine, but those numbers prove the mechanisms are unbuildable, not that they're permitted." The reply of this chapter is the opposite. The framework does not invent a new shortage; it points at a surplus. The observable universe is not 95 % missing. It is 95 % unaccessed. Dark energy (68 %) and dark matter (27 %) are neither exotic particles nor bookkeeping entries. In the zone architecture derived over Volumes 1–5, they are the Waters Above (Zone 2.2.3) and Waters Below (Zone 2.2.1) — two primordial energy reservoirs separated on Day 2 by the Firmament (Zone 2.2.2), which is the membrane we live on. The FTL budgets are large in human-engineering terms and vanishingly small against what those reservoirs contain.
+The obvious response from a sceptical reader is: "fine, but those numbers prove the mechanisms are unbuildable, not that they're permitted." The reply of this chapter is the opposite. The framework does not invent a new shortage; it points at a surplus. The observable universe is not 95 % missing. It is 95 % unaccessed. Dark energy (68 %) and dark matter (27 %) are neither exotic particles nor bookkeeping entries. In the zone architecture derived over Volumes 1–5, they are the Waters Above (Zone 2.2.3) and Waters Below (Zone 2.2.1) — two primordial energy reservoirs separated on Day 2 by the Firmament (Zone 2.2.2), which is the Firmament we live on. The FTL budgets are large in human-engineering terms and vanishingly small against what those reservoirs contain.
 
-So the question of this chapter is not whether the energy exists — the fraction 68 + 27 + 5 = 100 settled that — but how to reach it without either (a) violating the Second Law, or (b) tearing the membrane.
+So the question of this chapter is not whether the energy exists — the fraction 68 + 27 + 5 = 100 settled that — but how to reach it without either (a) violating the Second Law, or (b) tearing the Firmament.
 
 Four categories, one geometry.
 
 Read off the 6D geometry directly and only four energy-bearing features appear. Every mechanism in the chapter maps to one or more of them.
 
-(1) The cosmic capacitor. The Day 2 separation of the Waters stored a potential difference across the Firmament. Waters Above pushes outward, Waters Below pushes inward, and the membrane is stretched between them under tension. In the capacitor analogy this is the E = ½CV² stored at the charge-separated plates. The total inventory, reckoned in §10.2, is roughly 2.14 × 10⁷¹ J — the entire dark-energy plus dark-matter budget of the observable universe.
+(1) The cosmic capacitor. The Day 2 separation of the Waters stored a potential difference across the Firmament. Waters Above pushes outward, Waters Below pushes inward, and the Firmament membrane is stretched between them under tension. In the capacitor analogy this is the E = ½CV² stored at the charge-separated plates. The total inventory, reckoned in §10.2, is roughly 2.14 × 10⁷¹ J — the entire dark-energy plus dark-matter budget of the observable universe.
 
-(2) Membrane tension. Locally, the Firmament is a stretched raqia — Hebrew for "hammered-out thing". It has tension σ. It vibrates. The equilibrium vibrations of the membrane (at all frequencies) are what standard physics calls vacuum fluctuations; integrated over space they yield the observed cosmological constant ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³. This is the feature that a tabletop device can reach.
+(2) Firmament tension. Locally, the Firmament is a stretched raqia — Hebrew for "hammered-out thing". It has tension σ. It vibrates. The equilibrium vibrations of the Firmament membrane (at all frequencies) are what standard physics calls vacuum fluctuations; integrated over space they yield the observed cosmological constant ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³. This is the feature that a tabletop device can reach.
 
 (3) Waters field density gradients. Each Waters reservoir is described in the framework as a scalar field (ΨA for Above, ΨB for Below) with a potential-energy profile across the ξ and η extra-dimensional coordinates (Vol 1 Ch 6). Gradients carry energy by construction; couple a device to the gradient and you have a conduit.
 
@@ -28,7 +28,7 @@ Read off the 6D geometry directly and only four energy-bearing features appear. 
 These four features are not a convenient enumeration. They are exhaustive for the class of mechanisms permitted by the 6D metric: any Lagrangian-density term must come from a field (features 3–4), a boundary (feature 2), or an explicit charge-separation (feature 1). There is no fifth category hiding anywhere in Vols 1–5.
 
 Figure 6.10.1 — The Four Energy-Bearing Features of Zone Architecture (placement, §10.1.2)
-Schematic of the 6D manifold with the four features labelled in situ: capacitor plates (Waters Above/Below), membrane tension (Firmament surface), field gradients (ΨA and ΨB profiles), and zone-boundary steps. Arrows map each feature to one of the engineering categories (MRG, Waters-field extraction, vacuum-tension harvesting, zone-boundary work).
+Schematic of the 6D manifold with the four features labelled in situ: capacitor plates (Waters Above/Below), Firmament tension (Firmament surface), field gradients (ΨA and ΨB profiles), and zone-boundary steps. Arrows map each feature to one of the engineering categories (MRG, Waters-field extraction, vacuum-tension harvesting, zone-boundary work).
 
 The governing rule.
 
@@ -38,7 +38,7 @@ A note on taxonomy vs engineering.
 
 The four categories are geometric. The four engineering classes that this chapter treats in turn are:
 
-1. The Membrane Resonance Generator (MRG) — tabletop, feeds on membrane tension (category 2).
+1. The Firmament Resonance Generator (MRG) — tabletop, feeds on Firmament tension (category 2).
 2. Waters-field extraction — astronomical, feeds on field gradients (category 3), with sub-categories for Waters Above (expansion sail) and Waters Below (density-gradient / micro-condensation).
 3. Vacuum-energy devices other than the MRG — scaled Casimir arrays, dynamic-Casimir farms (category 2, another implementation).
 4. Zone-boundary energy — phase-transition and controlled-oscillation engines (category 4).
@@ -64,9 +64,9 @@ Log-scale bar chart of EAbove (~2.13 × 10⁷¹ J), EBelow (~8.2 × 10⁶⁹ J),
 
 Why a "dam" won't work.
 
-The intuitive first move is a dam. Two reservoirs with a potential difference, pierce the dividing wall, harvest the flow. This fails at the first examination. The Firmament sits at the balance point between Waters Above and Waters Below. The pressures are equal and opposite; the net force on the membrane is zero. No net pressure gradient, no flow. You are standing at the bottom of a valley between two hills of the same height: the potential difference between the hills is real, but the valley floor is where it is precisely because gravity has already balanced them.
+The intuitive first move is a dam. Two reservoirs with a potential difference, pierce the dividing wall, harvest the flow. This fails at the first examination. The Firmament sits at the balance point between Waters Above and Waters Below. The pressures are equal and opposite; the net force on the Firmament is zero. No net pressure gradient, no flow. You are standing at the bottom of a valley between two hills of the same height: the potential difference between the hills is real, but the valley floor is where it is precisely because gravity has already balanced them.
 
-A second move — picking one reservoir and opening a unilateral channel — is worse. Any asymmetric opening violates the equilibrium that stabilises the membrane; the consequence is structural, not a power plant. In biblical terms, Genesis 7:11 — "the fountains of the great deep burst forth" — is the uncontrolled version. The Flood was not a generating station. It was a catastrophe.
+A second move — picking one reservoir and opening a unilateral channel — is worse. Any asymmetric opening violates the equilibrium that stabilises the Firmament; the consequence is structural, not a power plant. In biblical terms, Genesis 7:11 — "the fountains of the great deep burst forth" — is the uncontrolled version. The Flood was not a generating station. It was a catastrophe.
 
 What a controlled tap would need.
 
@@ -74,9 +74,9 @@ Three conditions must be satisfied simultaneously.
 
 (a) Localised asymmetry. The Firmament must be made locally more permeable in a controlled way, so that the flow through the tap is a small perturbation of the global equilibrium rather than a breach of it.
 
-(b) Flow-rate control. The rate at which Waters enter the Firmament through the tap must be stable and bounded, far below the membrane's critical amplitude (the amplitude at which elastic recovery fails and the puncture becomes permanent).
+(b) Flow-rate control. The rate at which Waters enter the Firmament through the tap must be stable and bounded, far below the Firmament's critical amplitude (the amplitude at which elastic recovery fails and the puncture becomes permanent).
 
-(c) On-brane conversion. Whatever energy the flow delivers into the Firmament must be converted into electromagnetic (or equivalent) form on-brane, because the brane is all our instruments can touch.
+(c) On-Firmament conversion. Whatever energy the flow delivers into the Firmament must be converted into electromagnetic (or equivalent) form on-Firmament, because the Firmament is all our instruments can touch.
 
 The MRG (§10.5) achieves (a) and (c) through dielectric-boundary engineering and a rectenna; it achieves (b) by operating on vibrations rather than on a bulk flow. The Waters-field extractors (§10.6) achieve (a) only at astronomical baselines; they achieve (b) only if the coupling is weak enough that equilibrium isn't disturbed. Zone-boundary engines (§10.7) can in principle achieve all three but carry severe failure modes.
 
@@ -86,13 +86,13 @@ It is worth saying what the "cosmic capacitor" analogy does and does not give us
 
 Interim summary.
 
-The Waters separation stores 2.14 × 10⁷¹ J — 95 % of all energy the observable universe contains. It is not directly tappable by bulk discharge. It is tappable by devices that extract from membrane vibrations, field gradients, or zone-boundary potentials. Those three doors are the rest of the chapter.
+The Waters separation stores 2.14 × 10⁷¹ J — 95 % of all energy the observable universe contains. It is not directly tappable by bulk discharge. It is tappable by devices that extract from Firmament vibrations, field gradients, or zone-boundary potentials. Those three doors are the rest of the chapter.
 
 Equilibrium With Vibration — The η Parameter.
 
 A drumhead struck from both sides.
 
-Tension a membrane between two opposed reservoirs that push on it equally. The net force is zero. The displacement at rest is zero. And yet — the membrane vibrates, because each reservoir is not a static wall but an active source of pressure fluctuations. This is the Firmament in the zone architecture: a raqia "hammered out" (Ps. 104:2; Isa. 40:22) and held under tension between the Waters Above and the Waters Below.
+Tension a membrane between two opposed reservoirs that push on it equally. The net force is zero. The displacement at rest is zero. And yet — the Firmament membrane vibrates, because each reservoir is not a static wall but an active source of pressure fluctuations. This is the Firmament in the zone architecture: a raqia "hammered out" (Ps. 104:2; Isa. 40:22) and held under tension between the Waters Above and the Waters Below.
 
 At the quantum level those vibrations are exactly what standard physics calls vacuum fluctuations of the electromagnetic field. Integrated over all modes they produce (i) the Casimir force measured by Lamoreaux (1997) and Mohideen & Roy (1998) to better than 1 %, (ii) the Lamb shift measured in hydrogen spectra, and (iii) the cosmological constant ρ_Λ that drives accelerating expansion (Vol 5 Ch 11). The framework does not disagree that these vibrations exist. It disagrees about what they are on.
 
@@ -100,7 +100,7 @@ Two interpretations.
 
 Standard QFT. The vacuum is the lowest-energy eigenstate of the total Hamiltonian. Its energy is a boundary condition, not a resource. Work done against the Casimir pressure by bringing two plates together is exactly returned when the plates are separated. Over any closed cycle the net extractable work is zero. The vacuum is a dead ground state.
 
-Zone architecture. The Firmament is a brane, not the universe. Its vibrations are the modes of a material membrane under continuous pressure from two active reservoirs. The reservoirs themselves are supplied by the Zone 1 sustaining coupling κ(t) that the open-system axiom posits (Vol 1 Ch 1–2; Vol 3 Ch 8). This recasts the vacuum: not a ground state, but a driven steady state whose equilibrium mode population is maintained against local extraction.
+Zone architecture. The Firmament is a Firmament, not the universe. Its vibrations are the modes of a material membrane under continuous pressure from two active reservoirs. The reservoirs themselves are supplied by the Zone 1 sustaining coupling κ(t) that the open-system axiom posits (Vol 1 Ch 1–2; Vol 3 Ch 8). This recasts the vacuum: not a ground state, but a driven steady state whose equilibrium mode population is maintained against local extraction.
 
 The distinction is not cosmetic. It is the difference between η = 0 and η > 0, where η is the replenishment efficiency defined below.
 
@@ -162,7 +162,7 @@ Cross-sectioned, the cochlea shows a spiral of about 2.5 turns enclosing three f
 - Basilar membrane — thin, stretched, ~35 mm long in humans, ~30 µm thick at the base, ~500 µm wide at the apex. Stiffness grades 100-fold from stiff-narrow (base) to flexible-wide (apex). This grading gives the cochlea its frequency-to-position map (the tonotopic organisation).
 - Scala tympani — lower fluid chamber (perilymph), connected to the scala vestibuli through the helicotrema at the apex.
 - Stria vascularis — highly vascularised cell layer on the lateral wall. Actively pumps K⁺ to maintain a +80 mV endocochlear potential across the basilar membrane. Most metabolically active tissue in the body per unit volume. ATP-consuming.
-- Outer hair cells (OHCs) — roughly 12,000 per ear. Electromechanical motors, not sensors: they change length in response to voltage (via prestin), injecting mechanical energy into the membrane. Gain ~40 dB (×100 in power).
+- Outer hair cells (OHCs) — roughly 12,000 per ear. Electromechanical motors, not sensors: they change length in response to voltage (via prestin), injecting mechanical energy into the Firmament membrane. Gain ~40 dB (×100 in power).
 - Inner hair cells (IHCs) — roughly 3,500 per ear. Sensors. Stereocilia deflect with membrane motion; mechanotransduction channels open; K⁺ flows down the endocochlear potential; cell depolarises; neurotransmitter release triggers auditory nerve firing.
 
 Structural isomorphism.
@@ -193,7 +193,7 @@ Several facts follow, each of which corresponds to a claim about the MRG:
 
 1. An actively-maintained membrane between two fluid chambers can produce net energy output. Biological existence proof. η_bio > 0 is measurable and repeatable.
 2. The energy source is the active pump, not perpetual motion. Cut the stria vascularis (drug it, starve it of oxygen, remove the ATP), and OAEs vanish. The cochlea is an open system; the reservoir is metabolism.
-3. With the pump running, extraction triggers replenishment. The OHCs continuously inject energy into the membrane; the IHCs continuously harvest energy from it; both go on indefinitely while the pump is alive.
+3. With the pump running, extraction triggers replenishment. The OHCs continuously inject energy into the Firmament; the IHCs continuously harvest energy from it; both go on indefinitely while the pump is alive.
 4. Clinical standard. OAE testing is the standard newborn hearing screen in the developed world. Absence of OAEs is a pathology marker (the cochlea's driven system has failed). This is not a fringe experimental observation; it is the daily routine of every children's hospital.
 
 What the cochlea proves, and what it does not.
@@ -217,7 +217,7 @@ A note on theological restraint.
 
 Romans 1:20 — "his eternal power and divine nature have been clearly seen, being understood from what has been made" — is the right framing for the cochlea. The existence of a working MRG inside every human skull is exactly the pattern the verse names: something engineered into creation that, if we look carefully, teaches us about the engineering of the rest of creation. But the framework does not need the theological framing to win the argument; it needs only the clinical fact of OAE. The theology explains why a cochlea-like Firmament would not be a coincidence. The clinical fact constitutes the existence proof.
 
-The Membrane Resonance Generator — Device Physics and Reference Design.
+The Firmament Resonance Generator — Device Physics and Reference Design.
 
 This is the chapter's centerpiece. The MRG is the concrete, buildable device that the framework predicts. It is not vapourware — every component is either already a commodity (BaTiO₃ dielectrics, neodymium magnets, Schottky diodes) or within the fabrication reach of existing semiconductor manufacturing (multilayer 30-nm stacks are standard for 3D-NAND memory, e.g. Samsung's V-NAND at 236 layers and counting).
 
@@ -260,7 +260,7 @@ Stage 3 — DIRECT (symmetry breaking).
 
 Without this stage the mechanism produces photons isotropically, and over a closed cycle the net flux is zero. The MRG installs a pair of N52-grade neodymium magnets (remanence B_r ≈ 1.4 T) with their axis aligned along the local gravitational vertical. The magnetic bias breaks time-reversal symmetry within the stack, giving the produced photons a preferred direction.
 
-Here the framework departs measurably from standard QED. In standard electromagnetism, a static magnetic field has no effect on vacuum Casimir pressure in non-ferromagnetic media; the effect is calculable and identically zero. In the zone-architecture interpretation, the gravitational axis is a physical direction — it is the direction toward Waters Below — and the membrane's coupling to the bias field has a projection onto that axis. The consequence is a P(θ) ∝ cos²θ modulation of the output as the device is rotated. §10.8.3 treats this as the chapter's most discriminating experiment.
+Here the framework departs measurably from standard QED. In standard electromagnetism, a static magnetic field has no effect on vacuum Casimir pressure in non-ferromagnetic media; the effect is calculable and identically zero. In the zone-architecture interpretation, the gravitational axis is a physical direction — it is the direction toward Waters Below — and the Firmament's coupling to the bias field has a projection onto that axis. The consequence is a P(θ) ∝ cos²θ modulation of the output as the device is rotated. §10.8.3 treats this as the chapter's most discriminating experiment.
 
 Prediction P-107. MRG net output depends on orientation as Pnet(θ) = Pnet(0) cos²(θ), where θ is the angle between the magnetic-bias axis and local gravitational vertical. Falsification threshold: observed angular modulation less than 5 % of P_net(0) across full rotation. Source: §10.5.4, §10.8.3.
 
@@ -400,9 +400,9 @@ Waters-Field Energy Extraction.
 
 Two Waters reservoirs, two coupling strategies.
 
-The MRG feeds on membrane tension (category 2 in §10.1). Waters-field extraction feeds on the field gradients of ΨA (Waters Above) and ΨB (Waters Below). Because the two fields have very different spatial structure — Waters Above extends to the Hubble scale ξA ≈ 3 × 10²⁶ m, Waters Below is concentrated at nuclear scale ηB ≈ 1.3 × 10⁻¹⁵ m — the extraction strategies also differ.
+The MRG feeds on Firmament tension (category 2 in §10.1). Waters-field extraction feeds on the field gradients of ΨA (Waters Above) and ΨB (Waters Below). Because the two fields have very different spatial structure — Waters Above extends to the Hubble scale ξA ≈ 3 × 10²⁶ m, Waters Below is concentrated at nuclear scale ηB ≈ 1.3 × 10⁻¹⁵ m — the extraction strategies also differ.
 
-The 68/27/5 energy-fraction split is, as derived in Research/Foundations/ENERGYFRACTIONSDERIVATION.md and Vol 5 Ch 11, a geometric consequence of ξA / ηB ≈ 2.3 × 10⁴¹ together with the warp-factor structure of the 6D metric. The ratio is not fine-tuned; it is irreversible under any continuous deformation of the metric that preserves the zone structure. For our present purposes, this matters in three ways. First, it tells us the reservoir sizes are fixed by geometry rather than arbitrary constants. Second, it tells us the ratio of local gradients of ΨA to ΨB goes as (ξA/ηB)^λ with λ ≈ 1 — i.e., Waters Above has a shallow gradient and Waters Below a steep one. Third, it pins the characteristic scale at which a Waters-field extractor can couple efficiently: tabletop for neither, interstellar for Waters Above, brane-interface for Waters Below.
+The 68/27/5 energy-fraction split is, as derived in Research/Foundations/ENERGYFRACTIONSDERIVATION.md and Vol 5 Ch 11, a geometric consequence of ξA / ηB ≈ 2.3 × 10⁴¹ together with the warp-factor structure of the 6D metric. The ratio is not fine-tuned; it is irreversible under any continuous deformation of the metric that preserves the zone structure. For our present purposes, this matters in three ways. First, it tells us the reservoir sizes are fixed by geometry rather than arbitrary constants. Second, it tells us the ratio of local gradients of ΨA to ΨB goes as (ξA/ηB)^λ with λ ≈ 1 — i.e., Waters Above has a shallow gradient and Waters Below a steep one. Third, it pins the characteristic scale at which a Waters-field extractor can couple efficiently: tabletop for neither, interstellar for Waters Above, Firmament-interface for Waters Below.
 
 Waters Above — the expansion sail.
 
@@ -470,7 +470,7 @@ It is worth being explicit. Waters-field extraction is not the near-term play. T
 
 Interim summary.
 
-Waters Above is harvestable in principle at astronomical baselines (expansion-sail, MW-class at galactic distances). Waters Below is harvestable at the brane interface through density-gradient coupling and micro-condensation, with severe control requirements. Both are capped by the sustainable replenishment rate of the Zone-1 coupling κ(t). For the Phase-3 horizon, the MRG remains the only tabletop path.
+Waters Above is harvestable in principle at astronomical baselines (expansion-sail, MW-class at galactic distances). Waters Below is harvestable at the Firmament interface through density-gradient coupling and micro-condensation, with severe control requirements. Both are capped by the sustainable replenishment rate of the Zone-1 coupling κ(t). For the Phase-3 horizon, the MRG remains the only tabletop path.
 
 Vacuum Energy and Zone-Boundary Energy.
 
@@ -484,12 +484,12 @@ Observed (from Λ):
 
 [Equation — see print edition.]
 
-The discrepancy is 122 orders of magnitude — the cosmological constant problem, historically the worst prediction in physics. Vol 4 Ch 9 resolved it in the zone architecture: the naive QFT calculation gives the total membrane tension including the structural component that balances Waters Above against Waters Below; the observable Λ is the residual after the two opposing pressures nearly cancel. The structural part is locked into holding the Firmament open; the residual is what we can see and what a tabletop device can reach.
+The discrepancy is 122 orders of magnitude — the cosmological constant problem, historically the worst prediction in physics. Vol 4 Ch 9 resolved it in the zone architecture: the naive QFT calculation gives the total Firmament tension including the structural component that balances Waters Above against Waters Below; the observable Λ is the residual after the two opposing pressures nearly cancel. The structural part is locked into holding the Firmament open; the residual is what we can see and what a tabletop device can reach.
 
 A useful partition of the vacuum-energy budget:
 
 - Accessible vacuum-tension reservoir — ρ_Λ ≈ 6 × 10⁻¹⁰ J/m³ everywhere in space. This is what an MRG-class device couples to.
-- Structural membrane tension — the remainder (up to 10¹¹³ J/m³ in the QFT accounting). Not accessible; its role is to keep the Firmament from collapsing.
+- Structural Firmament tension — the remainder (up to 10¹¹³ J/m³ in the QFT accounting). Not accessible; its role is to keep the Firmament from collapsing.
 
 The first reservoir is what this section is about; the second is off-limits because accessing it would mean interfering with membrane structure, which is the topic of §10.7.4.
 
@@ -515,20 +515,20 @@ Examples already operating in standard physics:
 
 Beyond these, the framework predicts:
 
-- Controlled boundary oscillation. Oscillating a field configuration in the vicinity of a zone-threshold extracts small amounts of energy per cycle from the potential gradient. Power is bounded by the oscillation amplitude (must stay below the critical amplitude at which the membrane fails to re-close) and the frequency (bounded by membrane mode cutoff).
+- Controlled boundary oscillation. Oscillating a field configuration in the vicinity of a zone-threshold extracts small amounts of energy per cycle from the potential gradient. Power is bounded by the oscillation amplitude (must stay below the critical amplitude at which the Firmament fails to re-close) and the frequency (bounded by Firmament mode cutoff).
 
 Figure 6.10.13 — Zone-Boundary Energy Landscape (placement, §10.7.3)
 Schematic plot of the effective potential V(η) along the zone-crossing coordinate, showing the Firmament/Waters Below step, the Firmament/Waters Above step, internal phase-transition discontinuities (condensed matter / gas / plasma), and the accretion funnel at membrane-puncture points. Latent-heat regions shaded. Design operating regime marked at "controlled oscillation below critical amplitude".
 
 Prediction P-116. Zone-boundary latent heat at the Firmament/Waters-Below interface: ΔE/Δm ≥ 10⁻³ × c² per unit condensed mass, i.e. at least ~10¹⁴ J/kg binding-energy release. Falsification threshold: measured energy deficit per unit condensed mass from seed-vibration experiment < 10⁻³ × c². Source: §10.7.3.
 
-Prediction P-117. Controlled-boundary-oscillation extraction rate: P ≤ (Vbarrier × ω × Acoupled) × η_oscillation with ω below the membrane stability cutoff (~10¹⁵ Hz from membrane tension σ). For safe amplitudes (Δa/a < 0.01) this caps at ~10⁻⁶ W/m² per unit coupled area. Falsification threshold: sustained extraction above 10⁻⁵ W/m² without membrane failure would require revising the critical-amplitude estimate. Source: §10.7.3.
+Prediction P-117. Controlled-boundary-oscillation extraction rate: P ≤ (Vbarrier × ω × Acoupled) × η_oscillation with ω below the Firmament membrane stability cutoff (~10¹⁵ Hz from Firmament tension σ). For safe amplitudes (Δa/a < 0.01) this caps at ~10⁻⁶ W/m² per unit coupled area. Falsification threshold: sustained extraction above 10⁻⁵ W/m² without membrane failure would require revising the critical-amplitude estimate. Source: §10.7.3.
 
 The uncontrolled-puncture failure mode.
 
 An uncontrolled zone-boundary puncture is topologically a local black hole. The failure mode is catastrophic and, depending on puncture size, can be regional to cosmological in scope. For engineering purposes:
 
-1. Operating amplitudes must remain below the critical amplitude at which the membrane cannot re-close in one oscillation period.
+1. Operating amplitudes must remain below the critical amplitude at which the Firmament cannot re-close in one oscillation period.
 2. Redundant containment (multiple membranes, each well below critical) is mandatory for zone-boundary engines.
 3. The biblical precedents — the Flood (Gen 7:11) and "the heavens rolled up like a scroll" (Rev 6:14, Isa 34:4) — are instructive as what not to build.
 
@@ -730,7 +730,7 @@ For a steady-state MRG operating at output P_net, the flow rates satisfy
 
 [Equation — see print edition.]
 
-where κ0 is the sustaining flux per unit coupled brane area and Acoupled is the effective coupling area of the device. This bounds the rate of extraction — not the total — so a device of fixed size has a fixed maximum power.
+where κ0 is the sustaining flux per unit coupled Firmament area and Acoupled is the effective coupling area of the device. This bounds the rate of extraction — not the total — so a device of fixed size has a fixed maximum power.
 
 An order-of-magnitude estimate of κ0 comes from ρΛ and H_0. The sustained energy-density-per-unit-time delivered by the Waters Above pressure to the Firmament is, from (10.6.1),
 
@@ -740,7 +740,7 @@ Integrated over a coupling depth dcoupling ~ 10⁻¹⁵ m (nuclear-scale membran
 
 [Equation — see print edition.]
 
-Even amplified, the per-area rate is minuscule — which is why the device works on volume-integrated membrane modes rather than on bulk area.
+Even amplified, the per-area rate is minuscule — which is why the device works on volume-integrated Firmament modes rather than on bulk area.
 
 Volume-integrated replenishment accounting. The Firmament mode volume inside the cavity is Vcav = π a² L ≈ π (0.077)² (0.10) ≈ 1.86 × 10⁻³ m³. The sustaining flux, delivered as a volumetric energy-density rate ρΛ × H_0 ≈ 1.4 × 10⁻²⁷ W/m³, couples to this mode volume through the cavity's mode-density enhancement factor Q × N:
 
@@ -752,7 +752,7 @@ The chapter takes position (ii) as the working hypothesis: cavity modes are loca
 
 Honest status. A closed-form derivation of κ(t) with explicit coupling depth is an open problem — explicitly listed as Ch 14 #8 (closed-form expression for κ(t) and the detailed-balance bookkeeping at macroscopic-device scale). For this chapter the consistency check is order-of-magnitude only, and predictions P-118 and P-103b are bounded accordingly.
 
-Prediction P-118. Maximum sustainable extraction rate per unit coupled brane area is bounded by κ₀ × Qeff × N, with κ₀ ≤ 10⁻¹⁰ W/m² as an order-of-magnitude bound from the ρΛ × H₀ replenishment density. For the reference MRG the sustainable rate is ≤ 10⁻³ W/m² per unit cavity wall area. Falsification threshold: sustained operation above 1 W/m² per unit cavity wall area, with no observable local ρ_Λ depletion, falsifies the bound. Source: §10.10.
+Prediction P-118. Maximum sustainable extraction rate per unit coupled Firmament area is bounded by κ₀ × Qeff × N, with κ₀ ≤ 10⁻¹⁰ W/m² as an order-of-magnitude bound from the ρΛ × H₀ replenishment density. For the reference MRG the sustainable rate is ≤ 10⁻³ W/m² per unit cavity wall area. Falsification threshold: sustained operation above 1 W/m² per unit cavity wall area, with no observable local ρ_Λ depletion, falsifies the bound. Source: §10.10.
 
 Why this is not a loophole.
 
@@ -873,7 +873,7 @@ Backward connections (consistency check).
 - Ch 9 (FTL Travel). Every FTL mechanism's energy budget is accounted for in §10.9.5. Warp bubble (the most promising FTL mechanism) is fed by direct Waters Above coupling; dimensional bypass is fed by astronomical-baseline expansion-sail; temporal shortcut is fed by MRG-farms.
 - Vol 4 Ch 9 (Cosmological Constant Problem). The 122-order discrepancy between naive QFT and observed Λ is resolved as structural vs accessible vacuum tension. This chapter treats the accessible part; the structural part is not touched.
 - Vol 5 Ch 11 (Dark Sector). ρΛ and ρDM enter this chapter as the reservoir sizes. The 68/27/5 geometric result (ENERGYFRACTIONSDERIVATION.md) supplies the irreversibility of the hierarchy ΩΛ > ΩDM >> Ω_b.
-- Vol 1 Ch 5 (Membrane mechanics). The membrane-tension σ and wave-speed relation c² = σ/μ underlie the cavity resonance calculations.
+- Vol 1 Ch 5 (Firmament membrane mechanics). The Firmament membrane-tension σ and wave-speed relation c² = σ/μ underlie the cavity resonance calculations.
 - Vol 3 Ch 8 (Phase transitions). Latent heat at zone boundaries follows from the phase-transition accounting.
 
 End-of-chapter problem set.

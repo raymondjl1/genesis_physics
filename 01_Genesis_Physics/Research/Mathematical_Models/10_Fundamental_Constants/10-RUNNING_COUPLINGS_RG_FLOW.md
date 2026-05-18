@@ -26,7 +26,7 @@
 
 ## EXECUTIVE SUMMARY
 
-This document derives the energy-dependent (running) coupling constants of Genesis Physics from first principles using the 6D membrane framework. Unlike the Standard Model, where coupling running emerges as a quantum loop correction, in Genesis Physics the energy dependence of couplings is a **geometric property** of the 6D zone architecture.
+This document derives the energy-dependent (running) coupling constants of Genesis Physics from first principles using the 6D Firmament framework. Unlike the Standard Model, where coupling running emerges as a quantum loop correction, in Genesis Physics the energy dependence of couplings is a **geometric property** of the 6D zone architecture.
 
 **Key Results**:
 
@@ -39,7 +39,7 @@ This document derives the energy-dependent (running) coupling constants of Genes
 
 3. **Grand Unification**: All three couplings converge at approximately E_GUT ≈ 10^16 GeV, where they merge into the single zone-interaction strength.
 
-4. **Membrane scale precision**: At the membrane natural scale Q_m ≈ 477 MeV (where η_B ≈ ℏc/Q_m), the couplings take their "bare" membrane values before running.
+4. **Membrane scale precision**: At the Firmament natural scale Q_m ≈ 477 MeV (where η_B ≈ ℏc/Q_m), the couplings take their "bare" membrane values before running.
 
 5. **Key geometric insight**: The logarithmic running of coupling constants is NOT a quantum correction but encodes the geometric ratio ln(ξ_A/η_B) ≈ 95.3, which determines the entire running structure.
 
@@ -71,7 +71,7 @@ This distance scale determines which KK modes are resolved:
 
 **Membrane Scale Definition**:
 
-The natural scale where the extra dimension becomes visible is the inverse of the membrane width:
+The natural scale where the extra dimension becomes visible is the inverse of the Firmament width:
 
 ```
 (1.3)  Q_m ~ ℏc/η_B
@@ -86,11 +86,11 @@ With η_B ≈ 1.3 × 10^-15 m:
        ≈ 0.977 GeV
 ```
 
-More precisely: Q_m ≈ 0.977 GeV. We may round to Q_m ≈ 1 GeV as the membrane scale.
+More precisely: Q_m ≈ 0.977 GeV. We may round to Q_m ≈ 1 GeV as the Firmament scale.
 
-**Planck Scale from Membrane Tension**:
+**Planck Scale from Firmament Tension**:
 
-From 10-COUPLING_CONSTANTS_DERIVATION.md, the Planck scale emerges from membrane tension:
+From 10-COUPLING_CONSTANTS_DERIVATION.md, the Planck scale emerges from Firmament tension:
 
 ```
 (1.5)  E_Planck = √(σ/(ℏμ)) ≈ 1.221 × 10^19 GeV
@@ -110,9 +110,9 @@ The running of coupling constants occurs in three regimes:
 
 ### 1.2 The Membrane UV Cutoff: Planck Scale from Tension
 
-In Standard Model QFT, running couplings are cut off by the Planck scale, where quantum gravity dominates. In Genesis Physics, this cutoff is **explained** as the scale where membrane tension becomes dominant.
+In Standard Model QFT, running couplings are cut off by the Planck scale, where quantum gravity dominates. In Genesis Physics, this cutoff is **explained** as the scale where Firmament tension becomes dominant.
 
-**Membrane Stress-Energy Tensor**:
+**Firmament Stress-Energy Tensor**:
 
 For a 2D membrane (the Firmament) embedded in 6D spacetime:
 
@@ -120,11 +120,11 @@ For a 2D membrane (the Firmament) embedded in 6D spacetime:
 (1.9)  T^{μν}_membrane = σ δ(η) δ(ξ) η^{μν}
 ```
 
-where σ is the membrane tension (mass per unit area per unit time squared).
+where σ is the Firmament tension (mass per unit area per unit time squared).
 
 **Tension Energy Scale**:
 
-Membrane tension dominates when the characteristic tension energy exceeds particle creation energy:
+Firmament tension dominates when the characteristic tension energy exceeds particle creation energy:
 
 ```
 (1.10) σ ~ ℏ c (E_Planck)^3
@@ -150,7 +150,7 @@ Converting to energy:
        ≈ 1.917 × 10^19 GeV
 ```
 
-This is approximately 1.22 × 10^19 GeV (the conventional GR Planck scale). The agreement confirms that membrane tension encodes Planck-scale physics.
+This is approximately 1.22 × 10^19 GeV (the conventional GR Planck scale). The agreement confirms that Firmament tension encodes Planck-scale physics.
 
 **UV Cutoff in Running Couplings**:
 
@@ -166,7 +166,7 @@ As Q → E_Planck, the logarithm ln(Q/Q₀) → ln(E_Planck/Q₀) becomes large,
 
 ### 1.3 The IR Cutoff: Cosmic Scale from Waters Above
 
-While the UV cutoff comes from membrane tension at high energy, the infrared (low-energy) cutoff comes from the size of the Waters Above.
+While the UV cutoff comes from Firmament tension at high energy, the infrared (low-energy) cutoff comes from the size of the Waters Above.
 
 **Waters Above Scale**:
 
@@ -282,11 +282,11 @@ This means the weak coupling runs to **larger values** at higher energy (not sma
 
 ### 2.2 Membrane Topology and the Asymptotic Freedom of the Strong Coupling
 
-In Genesis Physics, asymptotic freedom of the strong coupling receives a topological explanation from the membrane structure.
+In Genesis Physics, asymptotic freedom of the strong coupling receives a topological explanation from the Firmament structure.
 
 **Color Charge Confinement**:
 
-The strong force is mediated by gluons. In 4D, gluons are confined to form hadrons via instantons and topological solitons. In the 6D membrane framework:
+The strong force is mediated by gluons. In 4D, gluons are confined to form hadrons via instantons and topological solitons. In the 6D Firmament framework:
 
 ```
 (2.11) Gluon field A_a^μ(x^μ, ξ, η):
@@ -387,7 +387,7 @@ with b_em = 41/10:
 
 **Running from Membrane Scale to Electron Mass**:
 
-At the membrane scale Q_m ≈ 0.977 GeV, the electromagnetic coupling takes its "bare" membrane value. From 10-COUPLING_CONSTANTS_DERIVATION.md:
+At the Firmament scale Q_m ≈ 0.977 GeV, the electromagnetic coupling takes its "bare" membrane value. From 10-COUPLING_CONSTANTS_DERIVATION.md:
 
 ```
 (3.3)  α_em^{-1}_membrane ≈ 1.44 × ln(ξ_A/η_B)
@@ -454,7 +454,7 @@ Genesis calculation: 0.00744. This is about 5% lower than measured, suggesting t
                     = α_s^{-1}(Q₀) - (7/2π) ln(Q/Q₀)
 ```
 
-From 10-COUPLING_CONSTANTS_DERIVATION.md, at the membrane scale Q_m ≈ 0.977 GeV:
+From 10-COUPLING_CONSTANTS_DERIVATION.md, at the Firmament scale Q_m ≈ 0.977 GeV:
 
 ```
 (3.9)  α_s(Q_m) ≈ 0.38  (derived from membrane topology)
@@ -646,7 +646,7 @@ In a Grand Unified Theory (GUT), the three gauge couplings converge to a single 
 
 where subscripts 1, 2, 3 denote U(1)_Y, SU(2)_L, SU(3)_C respectively.
 
-**In Genesis Physics**: This convergence is **geometrically required** because all three forces emerge from oscillations of the single Firmament membrane. At the Planck scale (where membrane tension dominates), all forces merge into the unified zone-interaction strength.
+**In Genesis Physics**: This convergence is **geometrically required** because all three forces emerge from oscillations of the single Firmament membrane. At the Planck scale (where Firmament tension dominates), all forces merge into the unified zone-interaction strength.
 
 **Running Equations for the Three Couplings**:
 
@@ -704,13 +704,13 @@ Rearranging:
 
 This is much lower than the standard SU(5) GUT scale ≈ 10^{16} GeV. The discrepancy arises because the one-loop running uses the actual measured values of the coupling constants, which are not quite unifiable at the standard GUT scale without higher-loop corrections and threshold effects.
 
-**Genesis Physics Correction**: Accounting for the geometric constraint that all couplings must unify at the scale where membrane tension becomes significant:
+**Genesis Physics Correction**: Accounting for the geometric constraint that all couplings must unify at the scale where Firmament tension becomes significant:
 
 ```
 (4.9)  E_GUT,Genesis ~ √(σ/(ℏμ)) ≈ 1.22 × 10^{19} GeV
 ```
 
-This is the membrane Planck scale, much higher than the naive one-loop estimate.
+This is the Firmament Planck scale, much higher than the naive one-loop estimate.
 
 **Two-Loop Unification**:
 
@@ -721,7 +721,7 @@ In a more refined calculation including two-loop corrections:
        This requires careful treatment of thresholds and running in non-perturbative regimes
 ```
 
-The fact that the three couplings nearly unify at 10^{16} GeV (within a factor of 2-3) in the Standard Model is one of the strongest hints for GUT physics. **Genesis Physics explains this convergence as a geometric property** of the membrane architecture.
+The fact that the three couplings nearly unify at 10^{16} GeV (within a factor of 2-3) in the Standard Model is one of the strongest hints for GUT physics. **Genesis Physics explains this convergence as a geometric property** of the Firmament architecture.
 
 ---
 
@@ -752,7 +752,7 @@ The unification of forces at the GUT scale suggests that nucleon stability is al
 This is consistent with current experimental limits:
 - Super-Kamiokande lower limit: τ_p > 8.2 × 10^{33} years (for p → e^+ π^0)
 
-**Genesis Prediction**: If the GUT scale is closer to 10^{19} GeV (the membrane Planck scale), then:
+**Genesis Prediction**: If the GUT scale is closer to 10^{19} GeV (the Firmament Planck scale), then:
 
 ```
 (4.13) τ_p ~ 10^{45-50} years  (much longer than observed universe lifetime)
@@ -762,9 +762,9 @@ This makes proton decay an unobservable consequence of Genesis Physics, unless h
 
 ---
 
-### 4.4 The Planck Scale and Membrane Tension
+### 4.4 The Planck Scale and Firmament Tension
 
-**Membrane Tension from String Theory Analogy**:
+**Firmament Tension from String Theory Analogy**:
 
 In string theory, the string tension T is related to the string scale by:
 
@@ -782,7 +782,7 @@ In Genesis Physics, the Firmament tension σ plays an analogous role. The Planck
 
 **Coupling Constant Unification at Planck Scale**:
 
-At the Planck scale, membrane tension corrections to the running couplings become significant:
+At the Planck scale, Firmament tension corrections to the running couplings become significant:
 
 ```
 (4.16) Loop contributions from membrane excitations (gravitons) modify the beta functions
@@ -996,7 +996,7 @@ At GUT scale, the weak coupling becomes comparable to the electromagnetic coupli
 At energies above the Planck scale (which is really beyond the validity of QFT):
 
 ```
-(6.6)  For Q > E_Planck: Membrane tension dominates
+(6.6)  For Q > E_Planck: Firmament tension dominates
        β_functions receive quantum gravity corrections
        Coupling constants approach their membrane-scale fixed point values
 ```

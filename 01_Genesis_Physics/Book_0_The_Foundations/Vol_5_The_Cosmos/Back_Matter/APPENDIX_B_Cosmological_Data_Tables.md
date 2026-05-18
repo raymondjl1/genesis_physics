@@ -15,7 +15,7 @@ Each entry carries a **status class** that tells you what kind of agreement the 
 | Status | Meaning |
 |--------|---------|
 | **DERIVED** | Predicted from zone geometry with no cosmological fitting. The framework's inputs (σ, μ, ξ_A, η_B, SM particle content) were fixed in Vols 1–4; the cosmological output follows as a *consequence*. |
-| **CALIBRATED** | The membrane parameters (σ, μ, η_B) were *chosen* to reproduce this value. The framework explains *why* the parameter takes this value (it follows from zone geometry), but the numerical agreement is by construction. |
+| **CALIBRATED** | The Firmament membrane parameters (σ, μ, η_B) were *chosen* to reproduce this value. The framework explains *why* the parameter takes this value (it follows from zone geometry), but the numerical agreement is by construction. |
 | **INHERITED** | Value taken from observation (e.g., Planck 2018) and used as input. The framework does not independently derive this quantity. |
 | **OPEN** | The framework does not yet produce a quantitative prediction. Stated honestly. |
 
@@ -52,7 +52,7 @@ The Einstein field equations are *derived* in Ch 1 from the 6D zone action. Thei
 
 ## B.2 Black Hole Parameters
 
-All black hole properties are derived from the membrane-puncture model (Ch 5) and singularity resolution (Ch 7). These are *structural predictions* — they must match GR exactly in the exterior region.
+All black hole properties are derived from the Firmament-puncture model (Ch 5) and singularity resolution (Ch 7). These are *structural predictions* — they must match GR exactly in the exterior region.
 
 | Parameter | Formula | Value | Exp. Confirmation | Status | Chapter |
 |-----------|---------|-------|-------------------|--------|---------|
@@ -62,9 +62,9 @@ All black hole properties are derived from the membrane-puncture model (Ch 5) an
 | Hawking temperature | $T_H = \frac{\hbar c^3}{8\pi G M k_B}$ | $6.2 \times 10^{-8}\,M_\odot/M$ K | Not yet observed (too cold) | DERIVED | Ch 6 |
 | Bekenstein–Hawking entropy | $S_\text{BH} = \frac{k_B A}{4\ell_P^2}$ | $\sim 10^{77}\,(M/M_\odot)^2\,k_B$ | Consistent (thought experiments) | DERIVED | Ch 5 |
 | Penrose process efficiency | $\eta_\text{max} = 1 - 1/\sqrt{2} \approx 29\%$ | — | Not directly measured | DERIVED | Ch 4 |
-| Membrane tension at horizon | $\sigma(r_s) = 0$ | — | Structural (Breach Theorem 5.5.1) | DERIVED | Ch 5 |
+| Firmament tension at horizon | $\sigma(r_s) = 0$ | — | Structural (Breach Theorem 5.5.1) | DERIVED | Ch 5 |
 
-**Note:** The zone framework predicts that the black hole interior is a brane breach (Ch 5), not a singularity (Ch 7). All *exterior* observables are identical to standard GR by Theorem 5.5.2. Interior differences are not observable and therefore not testable with current technology.
+**Note:** The zone framework predicts that the black hole interior is a Firmament breach (Ch 5), not a singularity (Ch 7). All *exterior* observables are identical to standard GR by Theorem 5.5.2. Interior differences are not observable and therefore not testable with current technology.
 
 ---
 
@@ -85,7 +85,7 @@ This is the table the series has been building toward. Four fundamental constant
 - The fine structure constant $\alpha$ is the crown jewel. The inputs ($\xi_A \approx 3 \times 10^{26}$ m, $\eta_B \approx 1.3 \times 10^{-15}$ m, SM particle content) are fixed independently of $\alpha$. The output $\alpha^{-1} = 137.17 \pm 0.15$ is a genuine prediction with 0.1% precision.
 
 **What is calibration:**
-- $\hbar$ and $G_4$ are *explained* by the framework (their values follow from membrane geometry), but the membrane parameters ($\sigma$, $\mu$, $\eta_B$) are determined *from* these constants. This is analogous to how the Standard Model "derives" particle masses from Yukawa couplings that are themselves measured. The explanatory power is in *reducing* four constants to three geometric parameters — not in predicting all four from zero inputs.
+- $\hbar$ and $G_4$ are *explained* by the framework (their values follow from membrane geometry), but the Firmament membrane parameters ($\sigma$, $\mu$, $\eta_B$) are determined *from* these constants. This is analogous to how the Standard Model "derives" particle masses from Yukawa couplings that are themselves measured. The explanatory power is in *reducing* four constants to three geometric parameters — not in predicting all four from zero inputs.
 
 **What limits precision:**
 - Fine structure: one-loop β-function only. Two-loop corrections would improve precision to ~0.01%, but the two-loop KK integral is not yet computed.
@@ -144,7 +144,7 @@ The six parameters that define the ΛCDM concordance model. The zone framework d
 | Dark energy extent | $\xi_A$ | $\approx 3 \times 10^{26}$ m | $\sim c/H_0 \approx 4.4 \times 10^{26}$ m | O(1) | DERIVED | Ch 11, 13 |
 
 **Physical identifications:**
-- Dark energy = Waters Above vacuum energy projected onto the brane ($w = -1$ exactly; cosmological constant behavior)
+- Dark energy = Waters Above vacuum energy projected onto the Firmament ($w = -1$ exactly; cosmological constant behavior)
 - Dark matter = Waters Below Yukawa-sourced field around baryonic matter ($w = 0$; dust-like; produces NFW halo profiles)
 
 ---
@@ -161,7 +161,7 @@ Computed from the derived constants in §B.3. These serve as natural units for t
 | Planck temperature | $T_P$ | $m_P c^2/k_B$ | $1.417 \times 10^{32}$ K | Ch 7, 15 |
 | Planck energy | $E_P$ | $m_P c^2$ | $1.956 \times 10^9$ J | Ch 7 |
 
-**Zone-framework interpretation:** The Planck scale is *not* the scale of quantum gravity in the zone framework. It is the geometric mean of the inner scale ($\eta_B$) and the UV completion scale of the membrane. The 6D bulk is smooth down to $\ell_\text{6D} \sim 10^{-10}$ m, far above $\ell_P$. Singularity resolution (Ch 7) does not require Planck-scale physics.
+**Zone-framework interpretation:** The Planck scale is *not* the scale of quantum gravity in the zone framework. It is the geometric mean of the inner scale ($\eta_B$) and the UV completion scale of the Firmament. The 6D bulk is smooth down to $\ell_\text{6D} \sim 10^{-10}$ m, far above $\ell_P$. Singularity resolution (Ch 7) does not require Planck-scale physics.
 
 ---
 
@@ -171,7 +171,7 @@ These are the *inputs* to the zone framework — the geometric parameters from w
 
 | Parameter | Symbol | Value | Physical Meaning | Set in |
 |-----------|--------|-------|-----------------|--------|
-| Membrane tension | $\sigma$ | $\approx 6.0 \times 10^{98}$ kg/(m·s²) | Firmament rigidity; governs wave speed | Vol 1 Ch 5 |
+| Firmament tension | $\sigma$ | $\approx 6.0 \times 10^{98}$ kg/(m·s²) | Firmament rigidity; governs wave speed | Vol 1 Ch 5 |
 | Membrane mass density | $\mu$ | $\approx 6.7 \times 10^{81}$ kg/m³ | Firmament inertia | Vol 1 Ch 5 |
 | Waters Above extent | $\xi_A$ | $\approx 3.0 \times 10^{26}$ m | Outer boundary of 5th dimension; ≈ Hubble radius | Vol 1 Ch 4 |
 | Firmament thickness | $\eta_B$ | $\approx 1.3 \times 10^{-15}$ m | Inner boundary of 6th dimension; ≈ nuclear scale | Vol 1 Ch 4 |
@@ -196,13 +196,13 @@ Every quantitative claim in Vol 5, in one table. This is the table a skeptical r
 | 5 | $H_0$ (Hubble) | 67.4 km/s/Mpc | $67.4 \pm 0.5$ | 0.06% | DERIVED | From Friedmann + zone equilibrium. Matches CMB; disagrees with local ladder (tension). |
 | 6 | $\Omega_A$ (dark energy) | 0.684 | $0.685 \pm 0.007$ | 0.15% | DERIVED | Waters Above projection. |
 | 7 | $\Omega_B$ (dark matter) | 0.266 | $0.265 \pm 0.007$ | 0.4% | DERIVED | Waters Below projection. |
-| 8 | $\Omega_b$ (baryons) | 0.049 | $0.049 \pm 0.001$ | < 1% | DERIVED | From brane-bulk coupling. |
+| 8 | $\Omega_b$ (baryons) | 0.049 | $0.049 \pm 0.001$ | < 1% | DERIVED | From Firmament-bulk coupling. |
 | 9 | Mercury precession | 42.98 arcsec/cy | $42.98 \pm 0.04$ | < 0.001% | DERIVED | Standard GR — framework matches exactly. |
 | 10 | GW speed $c_g$ | $c$ (exact) | $|c_g/c - 1| < 3 \times 10^{-15}$ | 0 | DERIVED | Massless graviton → $c_g = c$. |
 | 11 | Hulse–Taylor $\dot{P}_b$ | $-2.403 \times 10^{-12}$ | $-2.402 \pm 0.005$ | 0.04% | DERIVED | Quadrupole formula from Ch 3. |
 | 12 | CMB peak $\ell_1$ | 220.5 | $220.0 \pm 0.5$ | 0.2% | DERIVED | From sound horizon + angular diameter distance. |
 | 13 | Sound horizon $r_s$ | 144 Mpc | $144.43 \pm 0.26$ | 0.3% | DERIVED | From Friedmann + recombination physics. |
-| 14 | BH entropy $S_\text{BH}$ | $k_B A/(4\ell_P^2)$ | Consistent | — | DERIVED | Reproduced from membrane mode counting. |
+| 14 | BH entropy $S_\text{BH}$ | $k_B A/(4\ell_P^2)$ | Consistent | — | DERIVED | Reproduced from Firmament membrane mode counting. |
 | 15 | Singularity resolution | Bounded 6D curvature | Not testable | — | DERIVED | Structural prediction; no observational test available. |
 | 16 | $w_A$ (DE equation of state) | $-1$ (exact) | $-1.03 \pm 0.03$ | < 3% | DERIVED | Waters Above = cosmological constant. |
 | 17 | NFW halo profile | Derived from $\Psi_B$ | Observed in simulations/lensing | Qualitative | DERIVED | Shape matches; normalization requires $\kappa_B$ calibration. |

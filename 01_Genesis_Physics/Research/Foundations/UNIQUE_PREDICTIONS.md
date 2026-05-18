@@ -3,7 +3,7 @@
 > |-------|--------|-----------|
 > | Scripture | Genesis 1-3 (Full creation narrative with phase transitions and thermodynmaic events) | Genesis 1-3 |
 > | Axiom | All 7 foundational axioms | AXIOM_6D_SPACETIME.md through AXIOM_METRIC_DISCONTINUITY.md |
-> | Parent Theory | All derived theories: Action, KK Reduction, Membrane Dynamics, etc. | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, and others |
+> | Parent Theory | All derived theories: Action, KK Reduction, Firmament Dynamics, etc. | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md, and others |
 > | **This Document** | **Eight testable predictions that diverge from ΛCDM and Standard Model; falsifiable criteria; confidence levels** | **UNIQUE_PREDICTIONS.md** |
 > | Modern Equivalent | Testable predictions in cosmology and particle physics | Diverges: Makes specific falsifiable claims different from standard frameworks; core predictions include fine structure constant, dark energy equation of state |
 >
@@ -649,7 +649,7 @@ $$\sigma_{DM-SM} = 0$$
 **Why?**
 1. The Waters Below is confined to the bulk (η dimension)
 2. The Firmament (Standard Model) is at the boundary (η = η₀)
-3. The only interaction between bulk and brane is **gravitational** (curvature coupling)
+3. The only interaction between bulk and Firmament is **gravitational** (curvature coupling)
 4. All gauge interactions (EM, weak, strong) are strictly 4D phenomena
 5. Therefore, there is no mechanism for dark matter particles to scatter off nucleons, interact with photons, etc.
 
@@ -736,7 +736,7 @@ $$\text{Expected } \sim 1 \text{ event per 100 kg-year}$$
 ### Confidence Level Assessment
 
 **Strong Confidence**:
-- The prediction (zero non-gravitational interactions) follows directly from the bulk-brane separation
+- The prediction (zero non-gravitational interactions) follows directly from the bulk-Firmament separation
 - All current experiments show **no dark matter detection**
 - This is exactly what Genesis Physics predicts
 
@@ -791,7 +791,7 @@ $$\text{Expected } \sim 1 \text{ event per 100 kg-year}$$
 
 In Genesis Physics, **baryons are topological defects** of the Firmament membrane. Specifically, they are:
 - Quantized winding numbers in the ξ-η topological space
-- Topological charges (integers n, m) in the membrane's field configuration
+- Topological charges (integers n, m) in the Firmament's field configuration
 - Protected by topological conservation laws
 
 **Critical prediction**: Topological defects are **absolutely stable**:

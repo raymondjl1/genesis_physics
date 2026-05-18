@@ -1,10 +1,12 @@
-﻿In which we explain how to make a computer solve equations it has never seen before — and how to know whether to believe the answers.
+﻿# Chapter 5: Simulation Methodology
+
+In which we explain how to make a computer solve equations it has never seen before — and how to know whether to believe the answers.
 
 Why Simulate? — The Role of Computation in a First-Principles Framework.
 
 The preceding four chapters laid out what zone architecture predicts: 88 numbered predictions spanning QED precision tests, cosmological parameters, novel gravitational wave modes, and explicit falsification criteria. Every one of those predictions traces back to the Waters Field Equations derived in Volumes 1 and 2, or to the quantum mechanics and cosmology built on them in Volumes 4 and 5.
 
-But a derivation on paper and a number you can compare with experiment are separated by a canyon. The Waters Field Equations are coupled, nonlinear partial differential equations spanning physical scales from the Waters Below coherence length (ηB ≈ 1.3 × 10⁻¹⁵ m) to the Waters Above coherence length (ξA ≈ 3.0 × 10²⁶ m) — forty-one orders of magnitude. Analytical solutions exist for limiting cases: the free membrane vibrations of Volume 1, Chapter 5, the linearized perturbation theory of Volume 5, Chapter 6. But the full coupled system, with its nonlinear self-interactions and cross-coupling between the Waters Above and Waters Below, admits no general closed-form solution.
+But a derivation on paper and a number you can compare with experiment are separated by a canyon. The Waters Field Equations are coupled, nonlinear partial differential equations spanning physical scales from the Waters Below coherence length (ηB ≈ 1.3 × 10⁻¹⁵ m) to the Waters Above coherence length (ξA ≈ 3.0 × 10²⁶ m) — forty-one orders of magnitude. Analytical solutions exist for limiting cases: the free Firmament vibrations of Volume 1, Chapter 5, the linearized perturbation theory of Volume 5, Chapter 6. But the full coupled system, with its nonlinear self-interactions and cross-coupling between the Waters Above and Waters Below, admits no general closed-form solution.
 
 This is not a weakness of the framework. It is the normal state of affairs in physics. The Navier-Stokes equations have no general analytical solution. The Einstein field equations are solvable only for highly symmetric spacetimes. The Standard Model Lagrangian requires lattice QCD — a computational method — to predict hadron masses. Every mature physical framework eventually reaches the point where computation becomes necessary, not because the theory is incomplete, but because the equations are richer than what pen and paper can exhaust.
 
@@ -22,6 +24,8 @@ What computation does not replace: physical intuition, analytical understanding,
 
 Architecture of the Simulation Suite.
 
+⚠ METHODOLOGICAL NOTE (Rev. 2026-05-14): The current simulation suite uses an explicit Euler integrator for the zone field equations. Explicit Euler is not symplectic and does not conserve energy for Hamiltonian systems — it produces artificial energy drift over long integration times. For the structure formation simulation (Ch 6), this integrator produces a spurious ~12% power spectrum suppression artifact. All long-time dynamics results should be treated with caution until the suite is upgraded to a symplectic integrator (Leapfrog or Störmer-Verlet). Short-time results and qualitative behaviors are not significantly affected. Upgrading the integrator is Research Task RT-6.INT.
+
 The simulation suite consists of three Python modules, each targeting a different physical regime of the Waters Field Equations. They share a common mathematical foundation — the dimensionless formulation of Section 5.3 — but are otherwise independent: each can be run, modified, and validated separately.
 
 [Figure — see print edition.]
@@ -32,15 +36,15 @@ This module solves the time evolution of the three coupled fields: membrane curv
 
 What it answers: Do the Waters Field Equations have stable equilibrium solutions? How do perturbations evolve? Does the coupled system conserve energy?
 
-Physical regime: Intermediate scales — larger than particle physics (where the membrane vibration module operates) but smaller than cosmological (where the structure formation module operates). Think of it as the "laboratory scale" of the Waters field, analogous to solving Maxwell's equations in a waveguide.
+Physical regime: Intermediate scales — larger than particle physics (where the Firmament vibration module operates) but smaller than cosmological (where the structure formation module operates). Think of it as the "laboratory scale" of the Waters field, analogous to solving Maxwell's equations in a waveguide.
 
 Key classes: WatersFieldSolver1D (1D evolution with periodic or Dirichlet boundaries) and WatersFieldSolver2D (2D spatial evolution on a square grid). Both use explicit Euler time integration with energy tracking.
 
 Module 2: membrane_vibrations.py (438 lines) — Particle Mass Spectrum
 
-This module computes the eigenfrequency spectrum of membrane vibrations — the discrete set of resonance frequencies that, through the relation mn = ℏωn/c², predict particle masses. It solves the generalized eigenvalue problem K φ = λ M φ using sparse matrix diagonalization.
+This module computes the eigenfrequency spectrum of Firmament membrane vibrations — the discrete set of resonance frequencies that, through the relation mn = ℏωn/c², predict particle masses. It solves the generalized eigenvalue problem K φ = λ M φ using sparse matrix diagonalization.
 
-What it answers: Does the membrane produce a discrete mass spectrum? Do the eigenfrequency ratios match observed particle mass ratios? What is the fundamental mass scale?
+What it answers: Does the Firmament membrane produce a discrete mass spectrum? Do the eigenfrequency ratios match observed particle mass ratios? What is the fundamental mass scale?
 
 Physical regime: Quantum scales — the Waters Below coherence length η_B ≈ 1.3 × 10⁻¹⁵ m sets the characteristic size. This is the simulation that connects most directly to the particle physics predictions of Volume 4.
 
@@ -58,7 +62,7 @@ Key classes: LambdaCDM and GenesisPhysics (both subclassing CosmologyModel), plu
 
 Why three modules instead of one? The Waters Field Equations operate across vastly different physical scales. A single code attempting to resolve both the Waters Below coherence length (10⁻¹⁵ m) and the Hubble radius (10²⁶ m) simultaneously would require a grid with more points than atoms in the observable universe. The three-module architecture isolates each scale regime, allowing appropriate numerical methods and grid resolutions for each.
 
-The modules share a common dependency stack (NumPy, SciPy, Matplotlib) and a common approach to dimensionless variables, but they do not call each other at runtime. Their connection is physical, not computational: the membrane vibration spectrum feeds into the structure formation comparison through the particle content it predicts, and the equilibrium solutions from the field dynamics module inform the initial conditions for both other modules.
+The modules share a common dependency stack (NumPy, SciPy, Matplotlib) and a common approach to dimensionless variables, but they do not call each other at runtime. Their connection is physical, not computational: the Firmament membrane vibration spectrum feeds into the structure formation comparison through the particle content it predicts, and the equilibrium solutions from the field dynamics module inform the initial conditions for both other modules.
 
 An orchestration script, runallsimulations.sh (103 lines), executes all three modules in sequence, verifies dependencies, captures exit codes, and generates a summary report listing all output files.
 
@@ -66,7 +70,7 @@ The Dimensionless Formulation — Taming 41 Orders of Magnitude.
 
 The single most important decision in the entire simulation suite is not the choice of numerical method or time integrator — it is the choice of variables. Without the dimensionless formulation described in this section, the Waters Field Equations would be numerically unsolvable on any existing hardware.
 
-The reason is arithmetic, not physics. The Waters Below coherence length is ηB ≈ 1.3 × 10⁻¹⁵ m. The Waters Above coherence length is ξA ≈ 3.0 × 10²⁶ m. The membrane tension is σ = 6.0 × 10⁹⁸ kg/(m·s²). IEEE 754 double-precision floating-point arithmetic carries approximately 15–16 significant decimal digits. Multiplying a number of order 10⁹⁸ by one of order 10⁻¹⁵ and subtracting the result from another number of order 10⁹⁸ would lose all meaningful precision to catastrophic cancellation.
+The reason is arithmetic, not physics. The Waters Below coherence length is ηB ≈ 1.3 × 10⁻¹⁵ m. The Waters Above coherence length is ξA ≈ 3.0 × 10²⁶ m. The Firmament tension is σ = 6.0 × 10⁹⁸ kg/(m·s²). IEEE 754 double-precision floating-point arithmetic carries approximately 15–16 significant decimal digits. Multiplying a number of order 10⁹⁸ by one of order 10⁻¹⁵ and subtracting the result from another number of order 10⁹⁸ would lose all meaningful precision to catastrophic cancellation.
 
 The solution is standard in computational physics but essential to state explicitly: we introduce dimensionless variables that map all quantities to order unity.
 
@@ -80,7 +84,7 @@ The scaling transformations. Let ξ₀ be a reference length (chosen to match th
 
 Under this transformation, the Waters Field Equations become (dropping tildes for readability):
 
-(A) Membrane equation:
+(A) Firmament equation:
 
 [Equation — see print edition.]
 
@@ -100,13 +104,13 @@ Dimensionless Parameter: G̃_int. Value: ~10⁻⁶ to 10⁻². Physical Origin: 
 Dimensionless Parameter: m̃_A. Value: O(1). Physical Origin: Waters Above mass, scaled by ξ₀.
 Dimensionless Parameter: m̃_B. Value: O(1). Physical Origin: Waters Below mass, scaled by η_B.
 
-Why these particular scales? The reference length ξ₀ is chosen differently for each module. For the field dynamics module, ξ₀ is set to a generic intermediate scale so that the spatial domain [0, L̃] has L̃ = O(1). For the membrane vibrations module, ξ₀ = ηB (the Waters Below coherence length) because the particle spectrum lives at quantum scales. For the structure formation module, ξ₀ = ξA (the Waters Above coherence length) because cosmic structure lives at cosmological scales. In every case, the choice ensures that the fields, their derivatives, and the source terms are all of order unity — the optimal regime for floating-point arithmetic.
+Why these particular scales? The reference length ξ₀ is chosen differently for each module. For the field dynamics module, ξ₀ is set to a generic intermediate scale so that the spatial domain [0, L̃] has L̃ = O(1). For the Firmament membrane vibrations module, ξ₀ = ηB (the Waters Below coherence length) because the particle spectrum lives at quantum scales. For the structure formation module, ξ₀ = ξA (the Waters Above coherence length) because cosmic structure lives at cosmological scales. In every case, the choice ensures that the fields, their derivatives, and the source terms are all of order unity — the optimal regime for floating-point arithmetic.
 
 [Figure — see print edition.]
 
 Physical constants. The following table collects the physical constants used across all three modules, in both SI and dimensionless form:
 
-Constant: σ (membrane tension). SI Value: 6.0 × 10⁹⁸. Unit: kg/(m·s²). Dimensionless Role: Sets wave speed: v = √(σ/μ) ≈ 0.32c.
+Constant: σ (Firmament tension). SI Value: 6.0 × 10⁹⁸. Unit: kg/(m·s²). Dimensionless Role: Sets wave speed: v = √(σ/μ) = c exactly by Axiom 3 (numerically 0.9975c from these parameters; see note below).
 Constant: μ (surface density). SI Value: 6.7 × 10⁸¹. Unit: kg/m³. Dimensionless Role: Sets membrane inertia.
 Constant: ξ_A (Waters Above coherence). SI Value: 3.0 × 10²⁶. Unit: m. Dimensionless Role: Cosmological reference length.
 Constant: η_B (Waters Below coherence). SI Value: 1.3 × 10⁻¹⁵. Unit: m. Dimensionless Role: Quantum reference length.
@@ -115,7 +119,7 @@ Constant: G (gravitational constant). SI Value: 6.67 × 10⁻¹¹. Unit: m³ kg�
 Constant: ℏ (reduced Planck constant). SI Value: 1.055 × 10⁻³⁴. Unit: J·s. Dimensionless Role: Sets mass-frequency relation.
 Constant: ρ_Planck. SI Value: 5.15 × 10⁹⁷. Unit: kg/m³. Dimensionless Role: Natural density scale.
 
-The wave speed on the membrane, v = √(σ/μ) ≈ 9.5 × 10⁷ m/s ≈ 0.32c, is a fundamental derived quantity. It is subluminal (as it must be for consistency with special relativity) and sets the CFL stability condition for the time integration (Section 5.4).
+The wave speed on the Firmament membrane is v = √(σ/μ) = c exactly by Axiom 3 — this is how the speed of light is defined in the zone architecture (Vol 1, Ch 5). Numerically, with σ = 6.0 × 10⁹⁸ kg/(m·s²) and μ = 6.7 × 10⁸¹ kg/m³, one obtains v ≈ 2.993 × 10⁸ m/s = 0.9975c (the 0.25% gap is a rounding artifact in the quoted parameter values, as explained in the note below the table). In the dimensionless simulation formulation, v = c = 1 exactly, and this sets the CFL stability condition for the time integration (Section 5.4).
 
 Numerical Methods — Finite Differences for Coupled PDEs.
 
@@ -152,7 +156,7 @@ Boundary conditions. Two types are used, each for physically motivated reasons:
 
 Periodic: φ(x + L) = φ(x). Used for the coupled field evolution, where we simulate a representative patch of the universe. The matter distribution is assumed to repeat periodically — a standard approximation in cosmological simulations. Periodic boundaries are the most numerically stable choice because they introduce no spurious reflections or boundary layers.
 
-Dirichlet: φ(0) = φ(L) = 0. Used for the membrane eigenvalue problem, where the membrane is fixed at its boundaries. This is physically motivated by the zone boundary conditions established in Volume 1, Chapter 5, Eqs (1.5.12)–(1.5.18): the Firmament has finite extent, and its vibration modes are standing waves between fixed endpoints.
+Dirichlet: φ(0) = φ(L) = 0. Used for the Firmament eigenvalue problem, where the Firmament is fixed at its boundaries. This is physically motivated by the zone boundary conditions established in Volume 1, Chapter 5, Eqs (1.5.12)–(1.5.18): the Firmament has finite extent, and its vibration modes are standing waves between fixed endpoints.
 
 Time Integration.
 
@@ -168,13 +172,15 @@ CFL stability condition. Explicit time integration is conditionally stable. The 
 
 [Equation — see print edition.]
 
-where vwave is the wave speed on the membrane. In dimensionless units with vwave = 0.32c (and c = 1 in the dimensionless formulation), this becomes Δt < 0.5 Δx / 0.32 ≈ 1.56 Δx. The implementation uses Δt = 0.001 with Δx = 1/N ≈ 0.004–0.016, giving CFL numbers between 0.06 and 0.25 — well within the stability region.
+where vwave is the wave speed on the Firmament membrane. By Axiom 3, the fundamental Firmament wave speed is exactly c (this is how c is defined in the zone architecture — see Vol 1, Ch 5, §5.4). In the dimensionless simulation, c = 1 and vwave = 1, giving Δt < 0.5 Δx. The implementation uses Δt = 0.001 with Δx = 1/N ≈ 0.004–0.016, giving CFL numbers between 0.06 and 0.25 — well within the stability region.
+
+Note on the wave speed in the parameter table above. The value v = √(σ/μ) computed from σ = 6.0×10⁹⁸ kg/(m·s²) and μ = 6.7×10⁸¹ kg/m³ gives v ≈ 2.993×10⁸ m/s = 0.9975c. This is the numerical approximation arising from the finite precision of the parameter values; the exact result by Axiom 3 is v = c. The 0.0025c discrepancy is a rounding artifact in the quoted parameter values, not a physical subluminal wave speed. Chapter 7 (§7.2.1) presents the correct calculation and states v = 0.9975c explicitly. The simulation suite uses the dimensionless formulation where v = c = 1 exactly, so this rounding issue does not affect any computational results. An earlier version of this table incorrectly listed v ≈ 0.32c; that figure was a transcription error and has been corrected.
 
 The physical meaning of the CFL condition is information-theoretic: no wave can propagate more than one grid cell per time step. Violating this condition allows numerical signals to travel faster than physical signals, corrupting the solution with spurious oscillations that grow exponentially.
 
-The Eigenvalue Problem for Membrane Vibrations.
+The Eigenvalue Problem for Firmament Vibrations.
 
-The membrane vibration spectrum is computed not by time evolution but by solving a static eigenvalue problem. The membrane equation of motion, after separation of variables (φ(x)e^{iωt}), reduces to:
+The Firmament membrane vibration spectrum is computed not by time evolution but by solving a static eigenvalue problem. The Firmament membrane equation of motion, after separation of variables (φ(x)e^{iωt}), reduces to:
 
 [Equation — see print edition.]
 
@@ -232,7 +238,7 @@ where pi are the model parameters. For the structure formation growth factor, th
 
 meaning a 100% change in α_A produces only a ~2% change in the growth factor — the observable is not highly sensitive to this particular parameter. This is a consequence of the weak-coupling regime: the Waters Above field contributes a small correction to ΛCDM.
 
-For the membrane vibration spectrum, parameter sensitivity is much higher. The fundamental mass scale m₁ = ℏω₁/c² depends linearly on √(σ/μ), so a factor-of-two error in σ produces a factor-of-√2 error in the predicted masses. Since the membrane tension σ is derived from Planck-scale arguments and not directly measured, this represents a significant source of uncertainty. Chapter 7 addresses this in detail.
+For the Firmament membrane vibration spectrum, parameter sensitivity is much higher. The fundamental mass scale m₁ = ℏω₁/c² depends linearly on √(σ/μ), so a factor-of-two error in σ produces a factor-of-√2 error in the predicted masses. Since the Firmament tension σ is derived from Planck-scale arguments and not directly measured, this represents a significant source of uncertainty. Chapter 7 addresses this in detail.
 
 The honest statement: The simulations demonstrate that the Waters Field Equations are mathematically consistent, that their solutions are numerically stable, and that the qualitative physics (discrete spectrum, scale-dependent growth, well-defined equilibria) is robust. Quantitative precision — matching specific particle masses to percent-level accuracy — requires parameter fitting that has not yet been performed. This is an open problem (see Chapter 14).
 
@@ -248,9 +254,9 @@ Layer 1: Analytical Benchmarks (Pass/Fail)
 
 Where analytical solutions exist, the numerical solver must reproduce them to machine precision. Two such benchmarks are available:
 
-1D string eigenfrequencies: For a string of length L with fixed endpoints, membrane tension σ, and surface density μ, the exact eigenfrequencies are ωn = (nπ/L)√(σ/μ). The membranevibrations.py eigensolver reproduces these to relative error < 10⁻¹⁴ for the first 15 modes on a 200-point grid.
+1D string eigenfrequencies: For a string of length L with fixed endpoints, Firmament tension σ, and surface density μ, the exact eigenfrequencies are ωn = (nπ/L)√(σ/μ). The membranevibrations.py eigensolver reproduces these to relative error < 10⁻¹⁴ for the first 15 modes on a 200-point grid.
 
-Circular membrane modes: The eigenfrequencies of a circular membrane with fixed boundary are determined by the zeros of Bessel functions: Jn(k{nm}R) = 0. The numerical eigenvalues match the Bessel zeros to relative error < 10⁻¹⁰ on a 50 × 50 grid.
+Circular Firmament modes: The eigenfrequencies of a circular membrane with fixed boundary are determined by the zeros of Bessel functions: Jn(k{nm}R) = 0. The numerical eigenvalues match the Bessel zeros to relative error < 10⁻¹⁰ on a 50 × 50 grid.
 
 These benchmarks are pass/fail tests. If the code fails to reproduce known analytical results, no further analysis is meaningful — there is a bug.
 
@@ -364,7 +370,7 @@ Output Files: test2_evolution_1d.png. What They Show: 1D time evolution with ene
 Output Files: test3_evolution_2d.png. What They Show: 2D spatial structure and dynamics.
 Output Files: test4_convergence.png. What They Show: Grid convergence study.
 Module: membrane_vibrations.py. Output Files: spectrum_1d_string.png. What They Show: 1D modal spectrum.
-Output Files: spectrum_circular.png. What They Show: Circular membrane modes.
+Output Files: spectrum_circular.png. What They Show: Circular Firmament membrane modes.
 Output Files: spectrum_vs_particles.png. What They Show: Predicted masses vs. known particles.
 Output Files: spectrum_comparison.png. What They Show: Analytical vs. numerical.
 Module: structure_formation.py. Output Files: growth_factor.png. What They Show: D(z) comparison (Genesis vs. ΛCDM).
@@ -418,7 +424,7 @@ It is not sufficient for precision science. Matching the observational precision
 
 Current Limitations.
 
-Limitation: Spatial dimension. Current State: 1D and 2D only. Impact: Cannot resolve 3D structure formation or fully anisotropic membrane modes.
+Limitation: Spatial dimension. Current State: 1D and 2D only. Impact: Cannot resolve 3D structure formation or fully anisotropic Firmament modes.
 Limitation: Grid resolution. Current State: 64² maximum (2D). Impact: Qualitative results only; insufficient for precision comparison with surveys.
 Limitation: Time integration. Current State: Explicit Euler (O(Δt)). Impact: Energy drift limits long integrations; strong coupling regime inaccessible.
 Limitation: Parallelization. Current State: None (serial execution). Impact: Single-core performance limits grid size.
@@ -453,7 +459,7 @@ This chapter established the computational framework for validating zone archite
 
 The equations (Section 5.3): The Waters Field Equations in dimensionless form — four coupled PDEs with all quantities of order unity, suitable for floating-point computation despite physical scales spanning 41 orders of magnitude.
 
-The methods (Section 5.4): Second-order centered finite differences for spatial discretization, explicit Euler for time integration, sparse eigenvalue solvers for the membrane spectrum. Every method chosen for transparency and reproducibility.
+The methods (Section 5.4): Second-order centered finite differences for spatial discretization, explicit Euler for time integration, sparse eigenvalue solvers for the Firmament membrane spectrum. Every method chosen for transparency and reproducibility.
 
 The errors (Section 5.5): Three sources quantified — discretization (dominant, O(Δx²)), roundoff (negligible), and model parameters (large and unquantified for quantitative predictions, irrelevant for qualitative features).
 
@@ -471,9 +477,9 @@ Problems.
 
 5.2 (Computational) Run the grid convergence study with grid sizes nx = 32, 64, 128, 256, and 512. Plot the final energy versus 1/nx² and verify that the data fall on a straight line (indicating O(Δx²) convergence). Use Richardson extrapolation to estimate the exact energy value and compare with the nx = 512 result.
 
-5.3 (Conceptual) The CFL condition for the Waters field solver involves the wave speed v = √(σ/μ) ≈ 0.32c, not the speed of light c. Explain why the relevant wave speed is the membrane wave speed rather than the speed of light. Under what physical conditions would the CFL condition involve c instead? (Hint: Consider the limit where the membrane equation decouples from the Waters field equations.)
+5.3 (Conceptual) The CFL condition for the Waters field solver involves the fundamental Firmament wave speed, which by Axiom 3 equals c exactly (the speed of light is defined as the Firmament membrane wave speed v = √(σ/μ)). In the dimensionless simulation formulation, this means v_wave = c = 1. Explain in your own words why the equality v = c is not a numerical coincidence but is definitional in the zone architecture framework. Under what physical conditions would a warp-factor-suppressed extra-dimensional mode propagate at a speed significantly less than c? (Hint: Consider modes in the compactified ξ- or η-dimensions, where the warp factor can strongly suppress the effective propagation speed for a 4D observer.)
 
-5.4 (Conceptual) Periodic boundary conditions are used for the coupled field evolution, while Dirichlet conditions are used for the membrane eigenvalue problem. Explain the physical motivation for each choice. If you replaced Dirichlet with periodic conditions in the eigenvalue problem, how would the spectrum change? Would the predicted particle masses be affected?
+5.4 (Conceptual) Periodic boundary conditions are used for the coupled field evolution, while Dirichlet conditions are used for the Firmament membrane eigenvalue problem. Explain the physical motivation for each choice. If you replaced Dirichlet with periodic conditions in the eigenvalue problem, how would the spectrum change? Would the predicted particle masses be affected?
 
 5.5 (Challenge) Implement the Crank-Nicolson time integrator for the 1D Waters field solver. The scheme is:
 

@@ -29,8 +29,8 @@ applied to condensed matter phenomena:
    - Compare to measured superconducting gap
 
 All calculations derived from Genesis Physics framework:
-- ψ = membrane displacement amplitude
-- Schrödinger equation from membrane wave equation
+- ψ = Firmament membrane displacement amplitude
+- Schrödinger equation from Firmament membrane wave equation
 - Zero-point energy E₀ = (1/2)ℏω per mode
 - EM gauge potential from 6D metric off-diagonal components
 
@@ -214,7 +214,7 @@ class MeissnerEffectTest:
             f"    B(λ_L) = B₀ × {exp(-1.0):.3f}  (reduced to ~37% of surface)\n"
             f"    Deep inside (x >> λ_L): B ≈ 0 (perfect diamagnet)\n"
             f"\n  Physics from Genesis Framework:\n"
-            f"    - Cooper pairs: membrane excitations with opposite momentum\n"
+            f"    - Cooper pairs: Firmament excitations with opposite momentum\n"
             f"    - Condensate: coherent quantum state ⟨ψ_Cooper⟩ ≠ 0\n"
             f"    - Gauge symmetry broken: U(1) → 0 (EM becomes massive)\n"
             f"    - Higgs mechanism: photon acquires mass m_γ ~ e/λ_L\n"
@@ -551,7 +551,7 @@ class CooperPairingTest:
     interaction, no matter how weak.
 
     In BCS theory, the attractive interaction is mediated by phonons
-    (lattice vibrations = membrane modes in Genesis Physics framework).
+    (lattice vibrations = Firmament modes in Genesis Physics framework).
 
     Electron-phonon interaction:
     - Electron 1 creates phonon → deforms lattice → attracts electron 2
@@ -666,7 +666,7 @@ class CooperPairingTest:
             f"      From BCS Δ~2.14 k_B T_c: {expected_delta_meV_from_Tc:.2f} meV\n"
             f"      Excellent agreement for strong coupling!\n"
             f"\n  Physical Mechanism (Genesis Framework):\n"
-            f"    1. Electron 1 emits phonon (membrane excitation)\n"
+            f"    1. Electron 1 emits phonon (Firmament excitation)\n"
             f"    2. Phonon couples to electron 2\n"
             f"    3. Effective attraction: V < 0\n"
             f"    4. Cooper pair formation energy: Δ\n"

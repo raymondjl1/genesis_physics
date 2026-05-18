@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "Let there be a firmament in the midst of the waters, and let it divide the waters from the waters" — The Firmament separates two scalar field regimes | Genesis 1:6 |
-> | Axiom | Axiom 3: Membrane Mechanics — c² = σ/μ; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics — c² = σ/μ; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | 6D Action with gauge sector; KK Dimensional Reduction | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **Maxwell's equations (all four) from 6D metric geometry via KK reduction** | **03-MAXWELL_DERIVATION.md** |
 > | Modern Equivalent | Maxwell's Equations — CONVERGES: identical field equations recovered from 6D geometry; ε₀μ₀ = 1/c² confirmed |
@@ -38,7 +38,7 @@ This document provides a **complete, rigorous derivation** of Maxwell's equation
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│  6D Action S_total = S_grav + S_brane + S_gauge + S_matter      │
+│  6D Action S_total = S_grav + S_Firm + S_gauge + S_matter      │
 │  (ACTION_6D_COMPLETE.md)                                        │
 │  - Metric: g_AB with off-diagonal components g_μξ, g_μη          │
 │  - Zone architecture: η ∈ [0, η_B], ξ ∈ [ξ₀, ξ_A]              │

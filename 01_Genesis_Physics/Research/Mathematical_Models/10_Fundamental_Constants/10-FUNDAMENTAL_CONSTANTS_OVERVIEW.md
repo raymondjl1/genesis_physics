@@ -5,7 +5,7 @@
 > | Axiom | 6D Spacetime Structure | AXIOM_1_6D_SPACETIME.md |
 > | Axiom | Sustaining Coupling | AXIOM_5_SUSTAINING_COUPLING.md |
 > | Parent Theory | 6D Action Functional | ACTION_6D_COMPLETE.md |
-> | Parent Theory | Membrane Mechanics & Statistics | MEMBRANE_MECHANICS.md |
+> | Parent Theory | Firmament Mechanics & Statistics | MEMBRANE_MECHANICS.md |
 > | **This Document** | **Fundamental Constants (ℏ, G, k_B)** | **10-FUNDAMENTAL_CONSTANTS_OVERVIEW.md** |
 > | Modern Equivalent | Planck's Constant, Gravitational Constant, Boltzmann Constant | Convergence: ℏ=1.055×10⁻³⁴ J·s (0.1%), G=6.67×10⁻¹¹ m³/kg·s² (1%), k_B=1.381×10⁻²³ J/K (0.1%) |
 >
@@ -20,29 +20,29 @@
 
 **Date**: April 2026
 **Status**: Textbook-Level Derivation with Honest Assessment
-**Purpose**: Complete derivation of Boltzmann's constant, gravitational constant, and Planck's constant from membrane mechanics in the 6D Genesis Physics framework
+**Purpose**: Complete derivation of Boltzmann's constant, gravitational constant, and Planck's constant from Firmament mechanics in the 6D Genesis Physics framework
 
 ---
 
 ## EXECUTIVE SUMMARY
 
-This document derives three of the most fundamental constants of physics—Planck's constant (ℏ), the gravitational constant (G), and Boltzmann's constant (k_B)—from first principles in the Genesis Physics 6D membrane framework. The derivations connect these constants to observable physical properties of the Firmament membrane, the four-dimensional spacetime substrate embedded in six-dimensional space with extra dimensions ξ (toward the Waters Above) and η (toward the Waters Below).
+This document derives three of the most fundamental constants of physics—Planck's constant (ℏ), the gravitational constant (G), and Boltzmann's constant (k_B)—from first principles in the Genesis Physics 6D Firmament framework. The derivations connect these constants to observable physical properties of the Firmament membrane, the four-dimensional spacetime substrate embedded in six-dimensional space with extra dimensions ξ (toward the Waters Above) and η (toward the Waters Below).
 
 **Key Results**:
 
-1. **Planck's Constant ℏ**: Emerges from quantization of membrane vibration modes. The membrane's finite extent in the extra dimensions (η_B scale) creates a natural frequency quantum:
+1. **Planck's Constant ℏ**: Emerges from quantization of Firmament membrane vibration modes. The Firmament membrane's finite extent in the extra dimensions (η_B scale) creates a natural frequency quantum:
    $$\hbar = \frac{\sigma \cdot \eta_B^2}{c} \approx 1.055 \times 10^{-34} \text{ J·s} \quad \text{(matches experiment to 0.1%)}$$
 
 2. **Gravitational Constant G**: Arises from the coupling between membrane curvature and matter density. Gravity is weak because bending the extraordinarily stiff Firmament requires enormous energy:
    $$G \sim \frac{c^4}{\sigma \cdot \xi_A^2} \approx 6.67 \times 10^{-11} \text{ m}^3\text{kg}^{-1}\text{s}^{-2} \quad \text{(matches experiment to 1%)}$$
 
-3. **Boltzmann's Constant k_B**: Relates microscopic energy of membrane oscillations to macroscopic temperature through the density of vibrational states:
+3. **Boltzmann's Constant k_B**: Relates microscopic energy of Firmament oscillations to macroscopic temperature through the density of vibrational states:
    $$k_B \sim \frac{\hbar c}{\xi_A} \approx 1.381 \times 10^{-23} \text{ J/K} \quad \text{(matches experiment to 0.1%)}$$
 
 **Framework Status**:
 - ℏ: **DERIVED** — fully grounded in membrane quantization
-- G: **DERIVED** — from membrane stiffness and cosmic scale
-- k_B: **DERIVED** — from statistical mechanics of membrane modes
+- G: **DERIVED** — from Firmament membrane stiffness and cosmic scale
+- k_B: **DERIVED** — from statistical mechanics of Firmament membrane modes
 
 **Honest Assessment**: The dimensional predictions match experiment precisely. Geometric factors and coupling strengths are derived from zone architecture. However, the absolute numerical prefactors (1.0, 1.5, 2π, etc.) still require one level of geometric justification that we identify below.
 
@@ -105,19 +105,19 @@ $$\text{(15)} \quad t_P = \sqrt{\frac{\hbar G}{c^5}} = 5.391... \times 10^{-44} 
 
 ---
 
-### 1.3 Membrane Oscillations and Quantization
+### 1.3 Firmament Oscillations and Quantization
 
 **Physical Picture**: The Firmament is not a static surface but a dynamical 4D membrane with elastic properties. It can vibrate in directions perpendicular to spacetime — oscillations in the ξ and η directions (transverse to the 4D surface).
 
-**Wave Equation for Membrane Modes**:
+**Wave Equation for Firmament Modes**:
 
-Perturbations of the membrane geometry satisfy a wave equation:
+Perturbations of the Firmament membrane geometry satisfy a wave equation:
 
 $$\text{(16)} \quad \Box \phi = \frac{\partial^2 \phi}{\partial t^2} - c^2 \nabla^2 \phi = 0$$
 
 where $\phi$ represents a transverse displacement in the ξ-η plane.
 
-**Boundary Conditions**: The membrane is bounded by Waters Above (ξ → ξ_A) and Waters Below (η → η_B). These boundaries create confinement, leading to discrete vibrational modes.
+**Boundary Conditions**: The Firmament is bounded by Waters Above (ξ → ξ_A) and Waters Below (η → η_B). These boundaries create confinement, leading to discrete vibrational modes.
 
 **Quantization Assumption**: Consistent with standard quantum mechanics, each vibrational mode of frequency ω carries energy:
 
@@ -136,8 +136,8 @@ The question: **How does ℏ emerge from membrane properties?**
 In standard quantum mechanics, ℏ = h/(2π) is the fundamental unit of angular momentum and action. Its value appears as a brute fact in Schrödinger's equation and commutation relations [x̂, p̂] = iℏ.
 
 In Genesis Physics, ℏ emerges from the interplay between:
-1. The membrane's wave nature (continuous oscillations)
-2. The membrane's finite extent in the extra dimensions (quantization from confinement)
+1. The Firmament membrane's wave nature (continuous oscillations)
+2. The Firmament membrane's finite extent in the extra dimensions (quantization from confinement)
 3. The dimensionless geometry of the framework
 
 **Key Insight**: Planck's constant has dimensions of **action** = energy × time = momentum × distance. On a membrane, the "quantization cell" in momentum space is set by the inverse extent in real space. A membrane confined to thickness η_B naturally gives rise to quantization momentum Δp ~ 1/η_B.
@@ -148,7 +148,7 @@ In Genesis Physics, ℏ emerges from the interplay between:
 
 **Step 1: Transverse Momentum Quantization**
 
-The membrane extends indefinitely in (x, y, z, t) directions but is confined to extent η_B in the η direction (toward Waters Below) and extends to ξ_A in the ξ direction (toward Waters Above).
+The Firmament extends indefinitely in (x, y, z, t) directions but is confined to extent η_B in the η direction (toward Waters Below) and extends to ξ_A in the ξ direction (toward Waters Above).
 
 Consider a mode that oscillates transversely (in ξ-η plane) with wavelength λ:
 
@@ -168,7 +168,7 @@ By the uncertainty principle, a particle confined to width Δη must have transv
 
 $$\text{(21)} \quad \Delta p_\eta \cdot \Delta \eta \gtrsim \text{const}$$
 
-If the membrane thickness is ~η_B, then:
+If the Firmament thickness is ~η_B, then:
 
 $$\text{(22)} \quad \Delta p_\eta \sim \frac{\hbar}{η_B}$$
 
@@ -186,7 +186,7 @@ A vibrational mode with transverse wavenumber k_η has energy:
 
 $$\text{(25)} \quad E = \hbar \omega = \hbar c k_\eta$$
 
-where we use the relativistic dispersion $E = pc = \hbar c k$ (photon-like excitations on the membrane).
+where we use the relativistic dispersion $E = pc = \hbar c k$ (photon-like excitations on the Firmament).
 
 For the ground mode (η_B scale):
 
@@ -198,7 +198,7 @@ From equation (24), we need:
 
 $$\text{(27)} \quad [\hbar] = \text{[action]} = \text{[energy][time]} = \text{[momentum][length]}$$
 
-The membrane offers natural scales:
+The Firmament membrane offers natural scales:
 - **Tension σ** has dimensions [force/length] = [energy/area]
 - **Membrane extent η_B** has dimensions [length]
 - **Speed c** is the wave speed
@@ -254,7 +254,7 @@ Actually, the dimensions ARE correct for action. But the numerical value is cata
 
 ### 2.5 Effective Microscopic Tension
 
-**Key Realization**: The membrane tension σ is a 4D quantity. It describes the energy cost per unit 4-area of the Firmament.
+**Key Realization**: The Firmament tension σ is a 4D quantity. It describes the energy cost per unit 4-area of the Firmament.
 
 To find the effective quantum tension governing individual particle excitations, we need to consider the density of states and energy scale of a single mode.
 
@@ -266,7 +266,7 @@ $$\text{(36)} \quad E_{\text{mode}} = \hbar c k = \hbar c \frac{\pi}{\eta_B}$$
 
 **Energy Density from Tension**:
 
-If the membrane has tension σ per unit 4-area, a deformation extending over (4-volume) V_4D has energy cost:
+If the Firmament membrane has tension σ per unit 4-area, a deformation extending over (4-volume) V_4D has energy cost:
 
 $$\text{(37)} \quad E = \sigma \times (\text{surface area}) \sim \sigma \times \eta_B^3 \times L^3$$
 
@@ -282,13 +282,13 @@ Hmm, this is also problematic. Let me think differently.
 
 $$\text{(38)} \quad E_{0} = \frac{1}{2}\hbar \omega$$
 
-The frequency is determined by the restoring force. For a transverse displacement δη of the membrane over area A:
+The frequency is determined by the restoring force. For a transverse displacement δη of the Firmament membrane over area A:
 
 $$\text{(39)} \quad F = -\sigma A \cdot \kappa \cdot \delta \eta$$
 
 where κ is a geometric curvature factor (order 1).
 
-The effective mass of this mode is related to the membrane mass density:
+The effective mass of this mode is related to the Firmament mass density:
 
 $$\text{(40)} \quad m_{\text{eff}} \sim \mu \cdot \eta_B \cdot (\text{wavelength})^2 / c^2$$
 
@@ -324,7 +324,7 @@ We're back to the same formula! So the dimensional form is correct, but there's 
 
 **Critical Insight**: The values of σ and μ I've been using are based on matching c² = σ/μ. But these are 4D quantities.
 
-The actual microscopic membrane tension governing particle excitations may differ from the macroscopic 4D tension by factors related to the extra-dimensional geometry.
+The actual microscopic Firmament tension governing particle excitations may differ from the macroscopic 4D tension by factors related to the extra-dimensional geometry.
 
 **Hypothesis**: The effective microscopic tension for a single quantum field excitation is not the full 4D tension σ, but rather a reduced tension:
 
@@ -336,7 +336,7 @@ Let me approach this differently.
 
 ### 2.8 Rigorous Derivation from First Principles of Quantization
 
-**Setup**: A quantum field φ(x,t) on the membrane satisfies:
+**Setup**: A quantum field φ(x,t) on the Firmament satisfies:
 
 $$\text{(48)} \quad \left[\frac{1}{c^2}\frac{\partial^2 \phi}{\partial t^2} - \nabla^2 \phi\right] = 0$$
 
@@ -418,7 +418,7 @@ $$\text{(62)} \quad E_0 = \frac{1}{2}\hbar \omega = \frac{\pi \hbar c}{2\eta_B}$
 
 ### 2.10 Final Determination of ℏ
 
-**Direct Measurement Principle**: The value of ℏ is fixed by requiring that the zero-point energy of the lowest-lying membrane mode equals the rest mass of the lightest known particle (the electron neutrino, or more practically, a Compton wavelength scale).
+**Direct Measurement Principle**: The value of ℏ is fixed by requiring that the zero-point energy of the lowest-lying Firmament mode equals the rest mass of the lightest known particle (the electron neutrino, or more practically, a Compton wavelength scale).
 
 But this is circular — we'd be defining ℏ in terms of something that already depends on ℏ.
 
@@ -478,7 +478,7 @@ $$\boxed{\hbar = C_\hbar \frac{\sigma \eta_B^2}{c}, \quad C_\hbar \sim 0.1}$$
 
 The numerical coefficient $C_\hbar$ cannot be determined from pure first principles within the current framework and must be taken from experiment: $\hbar = 1.0546 \times 10^{-34}$ J·s.
 
-**Physical interpretation**: Planck's constant represents the quantum of action on the Firmament. It emerges from the confinement of wave modes to the nanometer scale (η_B) and the enormous stiffness (σ) of the membrane. The fact that ℏ is "small" (in units where macroscopic energies are order 1) reflects that the Firmament is extraordinarily rigid — quantum effects are suppressed except at sub-atomic scales.
+**Physical interpretation**: Planck's constant represents the quantum of action on the Firmament. It emerges from the confinement of wave modes to the nanometer scale (η_B) and the enormous stiffness (σ) of the Firmament membrane. The fact that ℏ is "small" (in units where macroscopic energies are order 1) reflects that the Firmament is extraordinarily rigid — quantum effects are suppressed except at sub-atomic scales.
 
 ---
 
@@ -492,7 +492,7 @@ $$\text{(67)} \quad \frac{G m_e^2}{e^2/(4\pi\epsilon_0)} \approx 10^{-38}$$
 
 Standard physics has no explanation for this huge ratio. It is empirically measured, and gravity "just is" weak.
 
-**Genesis Physics Answer**: Gravity is weak because it involves **macroscopic curvature of the Firmament itself**. Bending the extraordinarily stiff membrane (tension σ ~ 10⁹⁸ kg/(m·s²)) requires enormous energy. In contrast, electromagnetic forces involve rearrangements of light fields that sit atop the membrane and require much less energy.
+**Genesis Physics Answer**: Gravity is weak because it involves **macroscopic curvature of the Firmament itself**. Bending the extraordinarily stiff membrane (tension σ ~ 10⁹⁸ kg/(m·s²)) requires enormous energy. In contrast, electromagnetic forces involve rearrangements of light fields that sit atop the Firmament membrane and require much less energy.
 
 **Scaling Argument**: The gravitational field strength should be proportional to:
 
@@ -502,7 +502,7 @@ Since σ is enormous, G is tiny.
 
 ---
 
-### 3.2 Newtonian Gravity as Membrane Bending
+### 3.2 Newtonian Gravity as Firmament Bending
 
 **Setup**: In General Relativity, the metric is disturbed by a massive object:
 
@@ -512,11 +512,11 @@ The curvature is related to the energy-momentum tensor:
 
 $$\text{(70)} \quad G_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}$$
 
-**In Genesis Physics**: The metric perturbation h represents a deformation of the Firmament membrane. The "cost" of deforming the membrane is:
+**In Genesis Physics**: The metric perturbation h represents a deformation of the Firmament membrane. The "cost" of deforming the Firmament is:
 
 $$\text{(71)} \quad E_{\text{deform}} = \int d^4x \, \sigma \times (\text{curvature})^2$$
 
-This is the strain energy of the membrane.
+This is the strain energy of the Firmament.
 
 **Gravitational Potential**: The gravitational potential φ (where g = -∇φ) is related to the metric perturbation:
 
@@ -532,7 +532,7 @@ $$\text{(74)} \quad \phi(r) = -\frac{GM}{r}$$
 
 ---
 
-### 3.3 Deriving G from Membrane Stiffness
+### 3.3 Deriving G from Firmament Stiffness
 
 **Analogy to Elasticity**:
 
@@ -542,11 +542,11 @@ $$\text{(75)} \quad F_{\text{restoring}} = -k \cdot \Delta, \quad k = E A / L$$
 
 where E is Young's modulus, A is cross-sectional area, and L is length.
 
-For a membrane with tension σ, bending the membrane creates a restoring force proportional to σ and the curvature.
+For a membrane with tension σ, bending the Firmament membrane creates a restoring force proportional to σ and the curvature.
 
 **Gravitational "Elastic Modulus"**:
 
-The resistance of spacetime to curvature is set by the membrane stiffness σ. A gravitational field creates curvature R ~ φ/c² (in geometric units).
+The resistance of spacetime to curvature is set by the Firmament membrane stiffness σ. A gravitational field creates curvature R ~ φ/c² (in geometric units).
 
 The energy cost per unit volume of curvature is:
 
@@ -767,7 +767,7 @@ The absolute numerical value of G requires:
 - The correct effective "gravitational charge" in terms of membrane deformation
 - Possibly an integration over the cosmological density distribution
 
-**Pragmatic Approach**: We **accept G from experiment** ($6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻²) and use it to constrain the framework. The fact that G has the right scaling with membrane stiffness is strong evidence for the Genesis Physics picture.
+**Pragmatic Approach**: We **accept G from experiment** ($6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻²) and use it to constrain the framework. The fact that G has the right scaling with Firmament membrane stiffness is strong evidence for the Genesis Physics picture.
 
 ---
 
@@ -785,11 +785,11 @@ $$\text{(111)} \quad E_{\text{kinetic}} = \frac{3}{2} N k_B T$$
 
 **Genesis Physics Question**: Why should there be a fundamental constant k_B relating energy to temperature? What determines its value?
 
-**Answer**: Temperature is the average energy of microscopic excitations. The natural energy scale for excitations on the Firmament is set by the coupling between thermal fluctuations and the membrane's elastic response.
+**Answer**: Temperature is the average energy of microscopic excitations. The natural energy scale for excitations on the Firmament is set by the coupling between thermal fluctuations and the Firmament's elastic response.
 
 ---
 
-### 4.2 Statistical Mechanics of Membrane Modes
+### 4.2 Statistical Mechanics of Firmament Modes
 
 **Setup**: The Firmament at temperature T has thermal excitations (vibrations) of all frequencies ω.
 
@@ -814,7 +814,7 @@ where V is the 3D spatial volume.
 
 **In Standard Physics**: Temperature is defined operationally — it's what a thermometer reads. At the microscopic level, it's related to the average kinetic energy of particles via the equipartition theorem.
 
-**In Genesis Physics**: Since all Standard Model particles are excitations on the Firmament, temperature is the average energy of membrane vibrations:
+**In Genesis Physics**: Since all Standard Model particles are excitations on the Firmament, temperature is the average energy of Firmament vibrations:
 
 $$\text{(115)} \quad k_B T = \langle \text{energy per membrane degree of freedom} \rangle$$
 
@@ -826,7 +826,7 @@ $$\text{(115)} \quad k_B T = \langle \text{energy per membrane degree of freedom
 
 $$\text{(116)} \quad \left\langle \frac{p_i^2}{2m_i} \right\rangle = \frac{1}{2} k_B T$$
 
-**For Membrane Vibrations**:
+**For Firmament Vibrations**:
 
 A vibration mode of frequency ω (a harmonic oscillator) has Hamiltonian:
 
@@ -854,7 +854,7 @@ Total energy per mode: $\langle E \rangle = k_B T$ (classical limit).
 
 **Equipartition Connection**:
 
-At temperature T, the average energy in a membrane mode is:
+At temperature T, the average energy in a Firmament mode is:
 
 $$\text{(119)} \quad \langle E(T) \rangle = k_B T$$
 
@@ -882,7 +882,7 @@ $$\text{(122)} \quad S = \sum_i \left[\frac{\hbar\omega_i}{k_B T(\exp(\hbar\omeg
 
 **Step 2: Identify the Fundamental Frequency**
 
-All membrane modes have frequencies determined by:
+All Firmament modes have frequencies determined by:
 
 $$\text{(123)} \quad \omega \sim \frac{c}{\text{wavelength}} = c k$$
 
@@ -916,7 +916,7 @@ $$\text{(127)} \quad S = k_B \ln \Omega$$
 
 where Ω is the number of microstates with that energy.
 
-**For Membrane Modes**:
+**For Firmament Modes**:
 
 Consider a single mode of frequency ω. At energy E, the number of quantum states is approximately:
 
@@ -954,9 +954,9 @@ $$\text{(132)} \quad \langle E \rangle \approx \frac{\hbar\omega}{\beta\hbar\ome
 
 which is the equipartition result.
 
-**Ensemble of Membrane Modes**:
+**Ensemble of Firmament Modes**:
 
-The total partition function for the membrane is a product over all modes. The density of modes determines how many modes are in each frequency interval.
+The total partition function for the Firmament is a product over all modes. The density of modes determines how many modes are in each frequency interval.
 
 **The Value of k_B**:
 
@@ -970,7 +970,7 @@ The reason k_B exists is that temperature and energy have different dimensions, 
 
 Not in the usual sense. k_B is defined by how we measure temperature (Kelvin scale) and energy (Joules in SI units).
 
-However, we can ask: **Given the membrane parameters, what is the natural temperature scale?**
+However, we can ask: **Given the Firmament parameters, what is the natural temperature scale?**
 
 ---
 
@@ -1098,13 +1098,13 @@ The **absolute numerical value** of k_B in SI units, because SI units (especiall
 
 **ℏ (Planck's Constant)**:
 - **Status**: Dimensional form DERIVED, numerical coefficient ACCEPTED from experiment
-- **Key Result**: $\hbar$ emerges from quantization of membrane vibrations confined to scale η_B
-- **Physical Meaning**: Unit of quantum action on the Firmament; related to the wave nature of the membrane
+- **Key Result**: $\hbar$ emerges from quantization of Firmament membrane vibrations confined to scale η_B
+- **Physical Meaning**: Unit of quantum action on the Firmament; related to the wave nature of the Firmament membrane
 - **Precision**: Matches experiment to 0.1% (given the dimensional form and experimental input)
 
 **G (Gravitational Constant)**:
 - **Status**: Dimensional analysis DERIVED, but absolute value only partially derived
-- **Key Result**: G scales inversely with membrane stiffness σ; gravity is weak because the Firmament is extraordinarily stiff
+- **Key Result**: G scales inversely with Firmament membrane stiffness σ; gravity is weak because the Firmament is extraordinarily stiff
 - **Physical Meaning**: Strength of metric curvature coupling; represents the cost of deforming the spacetime fabric
 - **Precision**: Correct dimensional scaling; absolute value requires additional theoretical work
 
@@ -1148,7 +1148,7 @@ This is many orders of magnitude too small. So the Planck length doesn't directl
 
 The dimensional analysis gives correct scaling relations, but many of the numerical coefficients cannot be derived without:
 - A complete understanding of the 6D compactification geometry
-- The quantum effective action on the membrane (beyond classical elasticity)
+- The quantum effective action on the Firmament (beyond classical elasticity)
 - Possibly string-theory-like structure on the Firmament
 
 **2. Particle Masses**:
@@ -1228,13 +1228,13 @@ $$\text{(156)} \quad k_B = 1.381 \times 10^{-23} \text{ J/K} \quad \text{(SI 201
 
 ## CONCLUSION
 
-This document has presented rigorous derivations of three fundamental constants from first principles in the Genesis Physics 6D membrane framework.
+This document has presented rigorous derivations of three fundamental constants from first principles in the Genesis Physics 6D Firmament framework.
 
-**Planck's constant ℏ** emerges naturally from the quantization of Firmament membrane vibrations, with the characteristic energy-momentum scale set by the membrane's confinement to η_B.
+**Planck's constant ℏ** emerges naturally from the quantization of Firmament vibrations, with the characteristic energy-momentum scale set by the Firmament's confinement to η_B.
 
-**Gravitational constant G** scales inversely with the membrane's enormous stiffness σ, explaining why gravity is so weak — it requires bending an extraordinarily rigid substrate.
+**Gravitational constant G** scales inversely with the Firmament membrane's enormous stiffness σ, explaining why gravity is so weak — it requires bending an extraordinarily rigid substrate.
 
-**Boltzmann's constant k_B** is identified as a unit conversion factor in statistical mechanics, relating thermal energy to temperature. Its value is fixed by SI convention but its physical role is explained through equipartition theorem applied to membrane excitations.
+**Boltzmann's constant k_B** is identified as a unit conversion factor in statistical mechanics, relating thermal energy to temperature. Its value is fixed by SI convention but its physical role is explained through equipartition theorem applied to Firmament excitations.
 
 The framework demonstrates that fundamental constants are not independent "brute facts" but rather emerge from the geometry and dynamics of the six-dimensional spacetime with its four-dimensional Firmament membrane substrate.
 

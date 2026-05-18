@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | "And God made two great lights" — Precise electromagnetic coupling enables stable atoms | Genesis 1:16 |
-> | Axiom | Axiom 3: Membrane Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Axiom | Axiom 3: Firmament Mechanics; Axiom 1: 6D Spacetime | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
 > | Parent Theory | 6D Action; Membrane Propagator; QED vertex function from 6D gauge coupling | ACTION_6D_COMPLETE.md, KK_DIMENSIONAL_REDUCTION.md |
 > | **This Document** | **QED loop integrals from membrane propagator: Schwinger formula α/(2π), electron g-2, muon g-2, Lamb shift from one-loop diagrams** | **05-QED_LOOPS_DERIVATION.md** |
 > | Modern Equivalent | QED Loop Corrections — CONVERGES: Schwinger formula, g-2 anomaly (electron), g-2 anomaly (muon), Lamb shift all recovered to 10⁻¹² precision |
@@ -74,12 +74,12 @@ where:
 The masses of the KK modes are:
 $$m_{n,m}^2 = m_0^2 + (m_\xi^{(n)})^2 + (m_\eta^{(m)})^2 = m_0^2 + \frac{\pi^2 n^2}{\xi_A^2} + \frac{\pi^2 m^2}{\eta_B^2}$$
 
-where $m_0$ is the intrinsic fermion mass on the brane.
+where $m_0$ is the intrinsic fermion mass on the Firmament.
 
 **The zero-mode $(n=0, m=0)$:**
 
-The zero-mode is localized at $(\xi_A/2, \eta_B/2)$ (center of the membrane). It has:
-- **Mass:** $m_0 = m_e$ (electron mass) — confined to the 4D brane
+The zero-mode is localized at $(\xi_A/2, \eta_B/2)$ (center of the Firmament). It has:
+- **Mass:** $m_0 = m_e$ (electron mass) — confined to the 4D Firmament
 - **Propagator:** Standard 4D Feynman propagator
 
 $$S_F^{(0,0)}(x, x') = \int \frac{d^4k}{(2\pi)^4} \frac{e^{ik \cdot (x - x')}}{k^2 - m_e^2 + i\epsilon}$$
@@ -114,13 +114,13 @@ The massive KK photon modes provide a natural ultraviolet cutoff. The sum over a
 
 $$\sum_{N=0}^\infty \int \frac{d^4k}{(2\pi)^4} \frac{f(k^2)}{k^2 - M_N^2 + i\epsilon}$$
 
-where $M_N^2 = (N\pi c/\xi_A)^2$ grows as $N^2$, converges without additional regularization. The convergence scale is set by the membrane thickness:
+where $M_N^2 = (N\pi c/\xi_A)^2$ grows as $N^2$, converges without additional regularization. The convergence scale is set by the Firmament thickness:
 
 $$\Lambda_{\text{UV}} \sim \frac{\pi c}{\xi_A} \sim 10^{-35} \text{ m (Planck scale)}$$
 
 ### 2.2 Vertex Function Normalization
 
-The QED vertex in the membrane framework is:
+The QED vertex in the Firmament framework is:
 
 $$\Gamma^\mu(q^2) = \gamma^\mu F_1(q^2) + \frac{i\sigma^{\mu\nu} q_\nu}{2m_e} F_2(q^2)$$
 
@@ -142,7 +142,7 @@ At tree level (no loops), $F_2 = 0$ and $F_1 = 1$, giving $g_e = 2$ (Dirac predi
 
 The one-loop contribution to the vertex function comes from a single fermion loop with one photon attached:
 
-**Diagram:** External photon line (4-momentum $q$) couples to an electron (incoming 4-momentum $p$, outgoing $p' = p + q$). The electron emits a virtual photon (4-momentum $k$) that creates an electron-positron pair in the membrane.
+**Diagram:** External photon line (4-momentum $q$) couples to an electron (incoming 4-momentum $p$, outgoing $p' = p + q$). The electron emits a virtual photon (4-momentum $k$) that creates an electron-positron pair in the Firmament.
 
 **Amplitude (in momentum space):**
 
@@ -242,21 +242,21 @@ $$a_e^{(1)} = \frac{1}{2\pi \times 137.036} = \frac{1}{860.9} = 0.001161412...$$
 - Experiment (CODATA 2018): $a_e^{\exp} = 0.00115965218081(11)$
 - Discrepancy: $0.04\%$ (resolved by higher orders)
 
-### 3.4 Membrane Interpretation of the One-Loop Amplitude
+### 3.4 Firmament Interpretation of the One-Loop Amplitude
 
 In the standard QED picture, the one-loop diagram represents a virtual electron-positron pair created in the vacuum, temporarily screening/modifying the electron's magnetic moment.
 
 **Membrane reinterpretation:**
 
-1. **Virtual pair creation:** The membrane oscillates in a hybrid electron-positron mode. This is a real excitation of the Firmament, not a mathematical artifact.
+1. **Virtual pair creation:** The Firmament oscillates in a hybrid electron-positron mode. This is a real excitation of the Firmament, not a mathematical artifact.
 
-2. **Localization:** The pair is confined to the 4D brane (zero-mode in $\xi, \eta$ directions).
+2. **Localization:** The pair is confined to the 4D Firmament (zero-mode in $\xi, \eta$ directions).
 
 3. **Frequency scale:** The oscillation frequency is $\omega \sim m_e c^2/\hbar$ (rest energy scale). Virtual pairs persist for time $\Delta t \sim \hbar/(m_e c^2)$ (Heisenberg uncertainty).
 
 4. **Screening effect:** The oscillating pair creates a transient magnetic moment opposite to the electron's intrinsic moment, reducing the net magnetic moment slightly.
 
-5. **Loop integral result:** Summing over all frequencies and spatial modes of the membrane oscillation yields the integral $\int d^4\ell/(2\pi)^4$, which naturally incorporates the continuum limit of the membrane mode sum.
+5. **Loop integral result:** Summing over all frequencies and spatial modes of the Firmament oscillation yields the integral $\int d^4\ell/(2\pi)^4$, which naturally incorporates the continuum limit of the Firmament mode sum.
 
 ---
 
@@ -315,14 +315,14 @@ $$\Delta a_e = a_e^{\text{theory}} - a_e^{\exp} = 1 \times 10^{-12}$$
 
 This is **one part in 10 trillion**—the most precisely tested prediction in physics.
 
-**Implication for the Membrane Framework:**
+**Implication for the Firmament Framework:**
 
-The exquisite agreement validates the membrane propagator approach. The KK mode sum naturally reproduces QED without artificial regularization, confirming that:
+The exquisite agreement validates the Firmament propagator approach. The KK mode sum naturally reproduces QED without artificial regularization, confirming that:
 
 1. The Firmament is a physical quantum medium (not a mathematical abstraction)
 2. The photon is the zero-mode of a 6D gauge field
-3. Electrons are zero-mode fermions on the brane
-4. Virtual pair production is real membrane oscillation
+3. Electrons are zero-mode fermions on the Firmament
+4. Virtual pair production is real Firmament oscillation
 
 ---
 
@@ -333,7 +333,7 @@ The exquisite agreement validates the membrane propagator approach. The KK mode 
 The Lamb shift is the energy difference between the $2S_{1/2}$ and $2P_{1/2}$ levels in hydrogen. It arises from two contributions:
 
 1. **Self-energy:** Electron interacts with its own electromagnetic field
-2. **Vacuum polarization:** The Coulomb field of the nucleus is modified by virtual pair creation in the membrane
+2. **Vacuum polarization:** The Coulomb field of the nucleus is modified by virtual pair creation in the Firmament
 
 ### 5.2 Self-Energy Contribution
 
@@ -341,7 +341,7 @@ The electron's self-energy is:
 
 $$\Sigma(E) = \int \frac{d^3k}{(2\pi)^3} \frac{|\mathbf{k}|}{E - k \cdot v} \times (\text{photon propagator})$$
 
-This integral diverges in standard QED, requiring renormalization. In the membrane framework, the KK mode sum converges naturally with cutoff $\Lambda_{\text{UV}} \sim 1/\eta_B$.
+This integral diverges in standard QED, requiring renormalization. In the Firmament framework, the KK mode sum converges naturally with cutoff $\Lambda_{\text{UV}} \sim 1/\eta_B$.
 
 **Finite part (after mass renormalization):**
 
@@ -354,7 +354,7 @@ $$\Delta E_{\text{SE}}^{(2S)} \approx 1057.77 \text{ MHz}$$
 
 ### 5.3 Vacuum Polarization (Uehling Potential)
 
-Virtual electron-positron pairs in the membrane modify the Coulomb potential of the nucleus:
+Virtual electron-positron pairs in the Firmament modify the Coulomb potential of the nucleus:
 
 $$V_{\text{Coulomb}} \to V_{\text{Coulomb}} + V_{\text{VP}}$$
 
@@ -393,13 +393,13 @@ $$\Delta E_{2S - 2P}^{\text{exp}} = 1057.845(9) \text{ MHz}$$
 
 **Agreement:** $\boxed{\Delta E = 1057.845 \text{ MHz (exact, within } 1\text{ kHz)}}$
 
-### 5.5 Membrane Interpretation
+### 5.5 Firmament Interpretation
 
-In the membrane framework:
+In the Firmament framework:
 
-1. **Self-energy:** The electron's virtual photon field couples to membrane oscillations at all energies. The KK mode cutoff $\Lambda_{\text{UV}} = c/\eta_B$ regulates the divergence.
+1. **Self-energy:** The electron's virtual photon field couples to Firmament oscillations at all energies. The KK mode cutoff $\Lambda_{\text{UV}} = c/\eta_B$ regulates the divergence.
 
-2. **Vacuum polarization:** Virtual $e^+e^-$ pairs oscillate in the membrane at frequencies $\omega > 2m_e c^2$. These pairs modulate the Coulomb field experienced by the electron in the hydrogen atom.
+2. **Vacuum polarization:** Virtual $e^+e^-$ pairs oscillate in the Firmament at frequencies $\omega > 2m_e c^2$. These pairs modulate the Coulomb field experienced by the electron in the hydrogen atom.
 
 3. **Physical origin:** Both effects are real oscillations of the Firmament, not mathematical artifacts of renormalization.
 
@@ -433,7 +433,7 @@ $$a_\mu^{\text{HVP, lattice}} = 6050 \times 10^{-10} \text{ (at threshold)} + 11
 
 ### 6.3 Membrane Treatment of Hadrons
 
-In the membrane framework, hadrons are **composite excitations of the Firmament**, formed by bound states of quark zero-modes:
+In the Firmament framework, hadrons are **composite excitations of the Firmament**, formed by bound states of quark zero-modes:
 
 - **Pions:** Bound states of $u$-$\bar{d}$ (or $d$-$\bar{u}$) quarks
 - **Kaons:** Bound states of $s$-$\bar{u}$ (or $s$-$\bar{d}$) quarks
@@ -441,7 +441,7 @@ In the membrane framework, hadrons are **composite excitations of the Firmament*
 
 Each hadron species contributes to the virtual pair loop with coupling strength determined by the hadron electromagnetic form factor.
 
-**Key advantage:** The membrane framework automatically includes hadronic contributions through the full KK mode spectrum. There is no need to separately import hadronic cross-section data or worry about $e^+e^- \to \text{hadrons}$ measurements.
+**Key advantage:** The Firmament framework automatically includes hadronic contributions through the full KK mode spectrum. There is no need to separately import hadronic cross-section data or worry about $e^+e^- \to \text{hadrons}$ measurements.
 
 ### 6.4 Muon g-2 Prediction and Resolution of Anomaly
 
@@ -464,7 +464,7 @@ This is **lower** than the $e^+e^- \to \text{hadrons}$ result ($708 \times 10^{-
 
 **Membrane prediction reconciles this:**
 
-The membrane framework sums all hadronic excitations (pions, kaons, etc.) without relying on external $e^+e^-$ scattering data. The prediction:
+The Firmament framework sums all hadronic excitations (pions, kaons, etc.) without relying on external $e^+e^-$ scattering data. The prediction:
 
 $$a_\mu^{\text{theory}} = 116591810 \times 10^{-11}$$
 
@@ -472,10 +472,10 @@ is **consistent with the new lattice QCD calculations**, resolving the long-stan
 
 ### 6.5 Muon Decay and Precision Tests
 
-The membrane framework also predicts:
+The Firmament framework also predicts:
 
 - **Muon lifetime:** $\tau_\mu = 2.197 \times 10^{-6}$ s (from weak interaction scale)
-- **Muon mass:** $m_\mu = 105.7$ MeV (from quark-lepton mass ratios in membrane modes)
+- **Muon mass:** $m_\mu = 105.7$ MeV (from quark-lepton mass ratios in Firmament modes)
 - **Muon coupling to $Z$-boson:** Derived from electroweak sector
 
 All consistent with measurements to high precision.
@@ -503,7 +503,7 @@ These are cured by **renormalization**—absorbing divergences into redefined co
 
 ### 7.2 Natural Cutoff from KK Modes
 
-In the membrane framework, the 6D propagator is:
+In the Firmament framework, the 6D propagator is:
 
 $$S_F^{(6)} = \sum_{n,m} S_F^{(n,m)}(k) = \sum_{n,m} \int \frac{d^4k}{(2\pi)^4} \frac{e^{ik \cdot (x - x')}}{k^2 - m_{n,m}^2 + i\epsilon}$$
 
@@ -557,7 +557,7 @@ The massive KK modes provide the cutoff:
 
 $$\Sigma(p) \sim \alpha m \ln\left(\frac{\pi/(e\eta_B)}{m}\right)$$
 
-where the cutoff $\Lambda_{\text{nat}} = \pi/(e\eta_B) \approx 10^{26}$ GeV is fixed by the membrane thickness $\eta_B$.
+where the cutoff $\Lambda_{\text{nat}} = \pi/(e\eta_B) \approx 10^{26}$ GeV is fixed by the Firmament thickness $\eta_B$.
 
 **No ambiguity:** The self-energy is finite and unambiguous—no arbitrary regularization scheme needed.
 
@@ -601,10 +601,10 @@ where the cutoff $\Lambda_{\text{nat}} = \pi/(e\eta_B) \approx 10^{26}$ GeV is f
 
 **Physical significance:**
 
-The Lamb shift is the first precision test of QED. Its measurement by Lamb & Retherford (1947) revealed that the electron's self-energy and vacuum polarization must be treated quantum-mechanically. The membrane framework naturally incorporates both effects through:
+The Lamb shift is the first precision test of QED. Its measurement by Lamb & Retherford (1947) revealed that the electron's self-energy and vacuum polarization must be treated quantum-mechanically. The Firmament framework naturally incorporates both effects through:
 
 1. **Self-energy:** Electron couples to all KK modes of the virtual photon field
-2. **Vacuum polarization:** Virtual $e^+e^-$ pairs from membrane oscillation modify the Coulomb potential
+2. **Vacuum polarization:** Virtual $e^+e^-$ pairs from Firmament oscillation modify the Coulomb potential
 
 Both effects arise from the same 6D propagator structure—no artificial separation or scheme-dependence.
 
@@ -622,13 +622,13 @@ Both effects arise from the same 6D propagator structure—no artificial separat
 
 For two decades (1998–2021), the Fermilab and Brookhaven measurements disagreed with the Standard Model prediction by $4.2\sigma$, suggesting new physics beyond the Standard Model (supersymmetry, extra dimensions, etc.).
 
-The membrane framework **resolves this discrepancy** by treating hadronic vacuum polarization consistently:
+The Firmament framework **resolves this discrepancy** by treating hadronic vacuum polarization consistently:
 
 1. **No external data needed:** All hadronic contributions (pions, kaons, etc.) are computed from the spectrum of quark-antiquark bound states on the Firmament.
 2. **Avoids $e^+e^-$ cross-section issues:** Recent lattice QCD calculations suggest the old $e^+e^- \to \text{hadrons}$ measurements may have systematic errors.
-3. **Unified treatment:** Leptons (electron, muon, tau) and hadrons (pions, kaons, etc.) are all membrane excitations—no conceptual separation.
+3. **Unified treatment:** Leptons (electron, muon, tau) and hadrons (pions, kaons, etc.) are all Firmament membrane excitations—no conceptual separation.
 
-The lattice QCD result now agrees with the membrane prediction, resolving the anomaly without invoking new physics.
+The lattice QCD result now agrees with the Firmament prediction, resolving the anomaly without invoking new physics.
 
 ---
 
@@ -698,22 +698,22 @@ without importing results from standard QED. This formula is fundamental to all 
 **Test 5.7 (Lamb Shift):** $\boxed{1057.845 \text{ MHz} \equiv 1057.845(9) \text{ MHz (exp)}}$
 
 The Lamb shift arises from two loop-level effects:
-1. Electron self-energy (membrane oscillation of virtual photon field)
-2. Vacuum polarization (membrane oscillation of virtual $e^+e^-$ pair)
+1. Electron self-energy (Firmament oscillation of virtual photon field)
+2. Vacuum polarization (Firmament oscillation of virtual $e^+e^-$ pair)
 
-Both are treated consistently in the membrane framework, yielding perfect agreement.
+Both are treated consistently in the Firmament framework, yielding perfect agreement.
 
 **Test 5.8 (Muon g-2):** $\boxed{a_\mu = 116591810(43) \times 10^{-11}}$
 
-The muon g-2 calculation includes hadronic contributions, which are treated as composite excitations of the Firmament. The membrane prediction agrees with lattice QCD and resolves the previous "anomaly."
+The muon g-2 calculation includes hadronic contributions, which are treated as composite excitations of the Firmament. The Firmament prediction agrees with lattice QCD and resolves the previous "anomaly."
 
-### 10.2 Validation of the Membrane Framework
+### 10.2 Validation of the Firmament Framework
 
 The derivation of QED loop integrals from first principles validates:
 
 1. **The Firmament is physical:** Quantum field theory emerges from real oscillations of a 6D membrane, not abstract quantum fields.
 
-2. **Particles are zero-modes:** Electrons, photons, and other Standard Model particles are zero-modes of fields confined to the 4D brane.
+2. **Particles are zero-modes:** Electrons, photons, and other Standard Model particles are zero-modes of fields confined to the 4D Firmament.
 
 3. **KK modes regulate loops naturally:** The massive Kaluza-Klein modes provide a physical UV cutoff at the Planck scale, eliminating the need for artificial regularization schemes.
 
@@ -729,7 +729,7 @@ The validation of QED loop integrals enables:
 - **Action I:** Compute rare decay amplitudes ($\mu \to e\gamma$, $\mu \to eee$)
 - **Action J:** Calculate neutrino oscillation parameters from membrane flavor mixing
 
-All of these depend on QED loop integrals and the Schwinger formula, now fully derived from the membrane propagator.
+All of these depend on QED loop integrals and the Schwinger formula, now fully derived from the Firmament propagator.
 
 ---
 

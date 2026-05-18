@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:1-6 (6D spacetime with dimensional reduction to 4D observable realm) | Genesis 1:1-6 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | 6D Action → 6D to 4D Projection | ACTION_6D_COMPLETE.md, 6D_TO_4D_PROJECTION.md |
 > | **This Document** | **Kaluza-Klein reduction; 4D Einstein-Hilbert action, Maxwell equations, SU(2)×SU(3) gauge theory; fine structure constant and Newton's constant from geometry** | **KK_DIMENSIONAL_REDUCTION.md** |
 > | Modern Equivalent | Kaluza-Klein theory, unified gauge-gravity models | Convergence: produces standard 4D physics and fine structure constant; uses established KK reduction formalism |
@@ -79,7 +79,7 @@ The coordinates $(\xi, \eta)$ parametrize the two extra dimensions:
 | Zone | Region | Scale |
 |------|--------|-------|
 | **Waters Below** | $\eta \in [0, \eta_B]$ | $\eta_B \approx 1.3 \times 10^{-15}$ m (nuclear) |
-| **Firmament** | 4D brane at $\xi = \xi_0, \eta = \eta_0$ | 3+1 dimensional |
+| **Firmament** | 4D Firmament at $\xi = \xi_0, \eta = \eta_0$ | 3+1 dimensional |
 | **Waters Above** | $\xi \in [0, \xi_A]$ | $\xi_A \approx 3 \times 10^{26}$ m (Hubble) |
 
 **Warp factors in each zone:**
@@ -458,10 +458,10 @@ From the Genesis Physics framework, the Firmament membrane has:
 - Surface tension: $\sigma$
 - Surface mass density: $\mu$
 
-The wave speed on the membrane is:
+The wave speed on the Firmament membrane is:
 $$c^2 = \frac{\sigma}{\mu} \tag{6.10)$$
 
-From dimensional reduction, the membrane parameters map to:
+From dimensional reduction, the Firmament membrane parameters map to:
 $$\sigma \propto e^{2A_0}, \quad \mu \propto e^{-2A_0}$$
 
 ensuring $c^2 = \sigma/\mu$ is constant (Lorentz invariant).
@@ -655,7 +655,7 @@ $$G_4 \sim \frac{G_6}{10^{-43}} \quad \text{(consistent with observed value)}$$
 **Framework**: Genesis Physics
 **Related Files**:
 - `OPEN_SYSTEM_AXIOM.md` — Core axiom and cosmological phases
-- `MEMBRANE_PHYSICS.md` — Firmament membrane mechanics
+- `MEMBRANE_PHYSICS.md` — Firmament mechanics
 - `GAUGE_UNIFICATION.md` — SU(3)×SU(2)×U(1) from topology
 - `DARK_MATTER_DARK_ENERGY.md` — Waters Below/Above interpretation
 

@@ -1,9 +1,9 @@
 > **DERIVATION TRACEABILITY MATRIX**
 > | Level | Source | Reference |
 > |-------|--------|-----------|
-> | Scripture | "In the beginning God created the heavens and the earth" — The Firmament brane is the stage for matter and energy | Genesis 1:1, 1:6 |
-> | Axiom | Axiom 3: Membrane Mechanics — membrane hosts quantized excitations; Axiom 2: Waters Duality | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
-> | Parent Theory | 6D Membrane Dynamics; Electromagnetic Field on 2D Membrane; Maxwell from Zone Architecture | ACTION_6D_COMPLETE.md, 03-MAXWELL_DERIVATION.md |
+> | Scripture | "In the beginning God created the heavens and the earth" — The Firmament is the stage for matter and energy | Genesis 1:1, 1:6 |
+> | Axiom | Axiom 3: Firmament Mechanics — membrane hosts quantized excitations; Axiom 2: Waters Duality | AXIOM_MEMBRANE_MECHANICS_v2.md, ACTION_6D_COMPLETE.md |
+> | Parent Theory | 6D Firmament Dynamics; Electromagnetic Field on 2D Membrane; Maxwell from Zone Architecture | ACTION_6D_COMPLETE.md, 03-MAXWELL_DERIVATION.md |
 > | **This Document** | **Condensed matter phenomena: electrons, phonons, superconductivity, Hall effect, Landau levels from membrane physics** | **03-CONDENSED_MATTER_DERIVATION.md** |
 > | Modern Equivalent | Solid-State & Condensed Matter Physics — CONVERGES: BCS theory, electron-phonon coupling, Fermi surfaces recovered from membrane quantization |
 >
@@ -13,9 +13,9 @@
 
 ## Foundation: Electromagnetic Excitations on the 6D Membrane
 
-Condensed matter phenomena arise from electron-phonon and boson-fermion interactions on the 2D membrane embedded in 6D spacetime. The membrane tension $\sigma$ and mass density $\mu$ determine sound speed $c = \sqrt{\sigma/\mu}$ and lattice dynamics. Zone A (physical membrane) contains free electrons and ion cores; quantized lattice vibrations (phonons) couple electromagnetically to electrons.
+Condensed matter phenomena arise from electron-phonon and boson-fermion interactions on the 2D membrane embedded in 6D spacetime. The Firmament tension $\sigma$ and mass density $\mu$ determine sound speed $c = \sqrt{\sigma/\mu}$ and lattice dynamics. Zone A (physical membrane) contains free electrons and ion cores; quantized lattice vibrations (phonons) couple electromagnetically to electrons.
 
-The Hamiltonian for electrons and phonons on the membrane:
+The Hamiltonian for electrons and phonons on the Firmament:
 
 $$H = H_{\text{electrons}} + H_{\text{phonons}} + H_{\text{e-ph}}$$
 
@@ -85,9 +85,9 @@ $$\boxed{\Delta = 2\hbar\omega_D \exp\left(-\frac{1}{N(0)V}\right)}$$
 
 This is the **BCS superconducting energy gap**.
 
-### Membrane Interpretation
+### Firmament Interpretation
 
-On the membrane, the Debye frequency $\omega_D$ reflects membrane lattice vibrations with cutoff determined by the lattice spacing $a$ and sound speed $c$:
+On the Firmament membrane, the Debye frequency $\omega_D$ reflects membrane lattice vibrations with cutoff determined by the lattice spacing $a$ and sound speed $c$:
 
 $$\hbar\omega_D \sim \hbar c / a$$
 
@@ -173,7 +173,7 @@ The field decays exponentially with length scale $\lambda_L$. Thus:
 
 $$\boxed{\mathbf{B} = 0 \quad \text{deep inside the superconductor}}$$
 
-**Membrane insight:** The superfluid density $n_s$ is the density of Cooper pairs, all moving coherently. On the membrane, this represents electrons that have condensed into the paired state via phonon-mediated attraction. The penetration depth $\lambda_L$ determines how deep the magnetic field can penetrate before being cancelled by the screening current.
+**Membrane insight:** The superfluid density $n_s$ is the density of Cooper pairs, all moving coherently. On the Firmament, this represents electrons that have condensed into the paired state via phonon-mediated attraction. The penetration depth $\lambda_L$ determines how deep the magnetic field can penetrate before being cancelled by the screening current.
 
 **Typical values (Nb):**
 - $\lambda_L \approx 39$ nm
@@ -240,7 +240,7 @@ $$\Psi_{\text{total}}(\mathbf{r}_1, \ldots, \mathbf{r}_{N_0}) = \prod_{j=1}^{N_0
 
 All condensed particles occupy the same spatial state — a macroscopic quantum state.
 
-**Membrane interpretation:** On the membrane, bosons (e.g., helium-4 atoms) are excitations that obey Bose statistics. At low temperatures, they fall into the lowest-energy state available on the membrane surface, creating a coherent matter field.
+**Firmament interpretation:** On the Firmament, bosons (e.g., helium-4 atoms) are excitations that obey Bose statistics. At low temperatures, they fall into the lowest-energy state available on the Firmament surface, creating a coherent matter field.
 
 ---
 
@@ -287,7 +287,7 @@ For a single vortex ($n = 1$):
 
 $$\Gamma = \frac{h}{m} = \frac{6.626 \times 10^{-34}}{6.646 \times 10^{-27}} \approx 9.97 \times 10^{-8} \text{ m}^2\text{s}^{-1}$$
 
-**Membrane picture:** The quantization arises from the requirement that the order parameter $\Psi$ is single-valued on the membrane. A vortex core has diameter $\xi$ (coherence length), inside which the order parameter is suppressed. Outside, it recovers.
+**Firmament picture:** The quantization arises from the requirement that the order parameter $\Psi$ is single-valued on the Firmament. A vortex core has diameter $\xi$ (coherence length), inside which the order parameter is suppressed. Outside, it recovers.
 
 The vortex energy per unit length:
 
@@ -322,17 +322,17 @@ In helium-4, a small fraction of particles condense (~1% at $T = 0$), but even t
 
 ## Physical Unification
 
-The Genesis Physics 6D membrane framework unifies condensed matter phenomena:
+The Genesis Physics 6D Firmament framework unifies condensed matter phenomena:
 
-1. **Superconductivity (BCS):** Arises from phonon-mediated electron-electron attraction on the membrane lattice. The energy gap is exponentially small due to weak coupling.
+1. **Superconductivity (BCS):** Arises from phonon-mediated electron-electron attraction on the Firmament lattice. The energy gap is exponentially small due to weak coupling.
 
 2. **Meissner Effect:** Emerges from the macroscopic coherence of the order parameter. Magnetic field cannot penetrate because the supercurrent actively screens it (not just perfect-conductor Lenz law).
 
-3. **Bose-Einstein Condensation:** Bosons on the membrane occupy the lowest available quantum state at low temperature, creating a macroscopic wavefunction.
+3. **Bose-Einstein Condensation:** Bosons on the Firmament occupy the lowest available quantum state at low temperature, creating a macroscopic wavefunction.
 
 4. **Superfluidity:** Is a direct consequence of broken $U(1)$ symmetry and macroscopic coherence. The quantization of vortex circulation follows from topological properties of the order parameter.
 
-All four tests (3.12, 3.13, 5.12, 5.13) confirm that the membrane supports the full spectrum of condensed matter phenomena observed in nature.
+All four tests (3.12, 3.13, 5.12, 5.13) confirm that the Firmament membrane supports the full spectrum of condensed matter phenomena observed in nature.
 
 ---
 

@@ -29,7 +29,7 @@ This test suite validates cosmological predictions from the Genesis Physics fram
 7. LARGE-SCALE STRUCTURE: Compute Jeans length and verify structure formation scales
 
 All calculations derived from:
-- Genesis Physics 6D membrane framework
+- Genesis Physics 6D Firmament framework
 - Waters Above (Ψ_A): Dark energy — the sustaining field (Colossians 1:17)
 - Waters Below (Ψ_B): Dark matter — the binding field
 - Friedmann equation: H² = (8πG/3)(ρ_matter + ρ_A + ρ_B) - k/a² + Λ/3
@@ -58,7 +58,7 @@ K_B = 1.380649e-23                      # Boltzmann constant [J/K]
 H_PLANCK = 6.62607015e-34               # Full Planck constant [J·s]
 
 # Membrane parameters (Genesis Physics)
-SIGMA = 6.0e98                          # Membrane tension [kg/(m·s²)]
+SIGMA = 6.0e98                          # Firmament tension [kg/(m·s²)]
 MU = 6.7e81                             # Membrane volume mass density [kg/m³]
 C_SQUARED = SIGMA / MU                  # ≈ 9.0×10¹⁶ m²/s²
 

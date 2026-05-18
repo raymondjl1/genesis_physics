@@ -22,7 +22,7 @@
 
 ## Executive Summary
 
-This document derives the major cosmological precision observables from the Genesis Physics 6D membrane framework. We demonstrate that:
+This document derives the major cosmological precision observables from the Genesis Physics 6D Firmament framework. We demonstrate that:
 
 1. **Hubble's Law**: H₀ = 67.4 km/s/Mpc from membrane Friedmann equation
 2. **CMB Blackbody**: T = 2.7255 K from thermal equilibrium + redshift cooling
@@ -35,7 +35,7 @@ This document derives the major cosmological precision observables from the Gene
 
 ---
 
-## Section 1: Friedmann Equations from Membrane Dynamics
+## Section 1: Friedmann Equations from Firmament Dynamics
 
 ### 1.1 6D Action and Membrane Friedmann Equation
 
@@ -43,7 +43,7 @@ The total action in the presence of the expanding membrane is:
 
 $$S_{\text{total}} = S_{\text{membrane}} + S_{\text{bulk\_above}} + S_{\text{bulk\_below}} + S_{\text{interaction}}$$
 
-For a homogeneous and isotropic universe, the membrane expands with scale factor a(t). The effective 4D Friedmann equations are derived by integrating the 6D Einstein equations over the membrane and summing contributions from all three zones:
+For a homogeneous and isotropic universe, the Firmament expands with scale factor a(t). The effective 4D Friedmann equations are derived by integrating the 6D Einstein equations over the Firmament and summing contributions from all three zones:
 
 $$H^2 = \left(\frac{\dot{a}}{a}\right)^2 = \frac{8\pi G}{3}\left(\rho_A + \rho_B + \rho_C\right) - \frac{k}{a^2}$$
 
@@ -107,7 +107,7 @@ $$\Omega_m + \Omega_r + \Omega_k + \Omega_\Lambda = 1$$
 
 ### 2.2 Membrane Prediction of H₀
 
-From the 6D membrane theory, the expansion rate is set by the membrane's coupling to Zone A, B, and C dynamics:
+From the 6D membrane theory, the expansion rate is set by the Firmament membrane's coupling to Zone A, B, and C dynamics:
 
 $$H_0 = \sqrt{\frac{8\pi G}{3}(\rho_{b,0} + \rho_{r,0} + \rho_{DM,0} + \rho_{\Lambda,0})}$$
 
@@ -217,7 +217,7 @@ $$\Omega_m + \Omega_r + \Omega_k + \Omega_\Lambda = 1$$
 
 ### 4.2 Inflation and Initial Conditions in 6D Membrane Theory
 
-The 6D membrane framework predicts that the early universe underwent an inflationary epoch where the scale factor grew exponentially:
+The 6D Firmament framework predicts that the early universe underwent an inflationary epoch where the scale factor grew exponentially:
 
 $$a(t) \propto e^{Ht} \quad \text{(inflation)}$$
 
@@ -376,7 +376,7 @@ $$\boxed{v_c(r) \approx \text{const} \approx 220 \, \text{km/s} \quad \text{(fro
 
 ### 6.4 Zone C (Waters Below) Dark Matter Interpretation
 
-In the 6D membrane framework, dark matter is the manifestation of Zone C (the Waters Below). The NFW profile emerges naturally from the gravitational instability of matter embedded in Zone C during structure formation.
+In the 6D Firmament framework, dark matter is the manifestation of Zone C (the Waters Below). The NFW profile emerges naturally from the gravitational instability of matter embedded in Zone C during structure formation.
 
 ---
 
@@ -423,7 +423,7 @@ $$\boxed{w_{\text{DE}} = -1.03 \pm 0.03 \quad \text{(from SNe + BAO + CMB)}}$$
 
 ### 7.3 Zone B (Waters Above) Dark Energy
 
-In the 6D membrane model, dark energy is the manifestation of Zone B (the Waters Above). The vacuum energy density in Zone B couples to the expanding membrane with equation of state w ≈ -1.
+In the 6D Firmament model, dark energy is the manifestation of Zone B (the Waters Above). The vacuum energy density in Zone B couples to the expanding membrane with equation of state w ≈ -1.
 
 ---
 
@@ -454,7 +454,7 @@ $$\boxed{\Omega_b = 0.049, \quad \Omega_{\text{DM}} = 0.265, \quad \Omega_\Lambd
 
 ### 8.2 Zone Architecture Justification
 
-The 6D membrane framework explains the energy budget through:
+The 6D Firmament framework explains the energy budget through:
 
 1. **Zone A (Physical Membrane)**: Contains baryonic matter and radiation
    - Standard model particles
@@ -618,7 +618,7 @@ The 6D framework naturally provides multiple inflationary mechanisms:
 
 **Physical Picture:**
 
-The Genesis Physics 6D membrane framework successfully explains all major cosmological observables:
+The Genesis Physics 6D Firmament framework successfully explains all major cosmological observables:
 
 1. **Hubble expansion** emerges from Friedmann dynamics of the expanding membrane
 2. **CMB blackbody** is relic radiation from recombination era, redshifted by cosmic expansion

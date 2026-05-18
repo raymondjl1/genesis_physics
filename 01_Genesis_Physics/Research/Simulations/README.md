@@ -63,11 +63,11 @@ Main solver for the Waters Field Equations in 1D and 2D.
 ---
 
 #### 2. **membrane_vibrations.py** (429 lines)
-Membrane vibration mode spectrum calculator.
+Firmament membrane vibration mode spectrum calculator.
 
 **Features:**
 - 1D string eigenfrequencies (fixed boundaries)
-- Circular membrane modes (2D vibrations)
+- Circular Firmament modes (2D vibrations)
 - Analytical vs numerical comparison
 - Particle mass predictions from resonances
 
@@ -78,12 +78,12 @@ Membrane vibration mode spectrum calculator.
 
 **Output Files:**
 - `spectrum_1d_string.png` — 1D modal spectrum
-- `spectrum_circular.png` — Circular membrane modes
+- `spectrum_circular.png` — Circular Firmament membrane modes
 - `spectrum_vs_particles.png` — Comparison with electron, muon, Higgs masses
 - `spectrum_comparison.png` — Analytical vs numerical
 
 **Physical Constants:**
-- σ = 6.0×10⁹⁸ kg/(m·s²) (membrane tension)
+- σ = 6.0×10⁹⁸ kg/(m·s²) (Firmament tension)
 - μ = 6.7×10⁸¹ kg/m³ (surface density)
 - Wave speed: v = √(σ/μ) ≈ 0.32c
 
@@ -147,8 +147,8 @@ Complete technical report with:
 
 | Parameter | Value | Unit | Description |
 |-----------|-------|------|-------------|
-| σ | 6.0×10⁹⁸ | kg/(m·s²) | Membrane tension |
-| μ | 6.7×10⁸¹ | kg/m³ | Membrane surface density |
+| σ | 6.0×10⁹⁸ | kg/(m·s²) | Firmament tension |
+| μ | 6.7×10⁸¹ | kg/m³ | Firmament membrane surface density |
 | ξ_A | 3.0×10²⁶ | m | Waters Above coherence length |
 | η_B | 1.3×10⁻¹⁵ | m | Waters Below coherence length |
 | c | 3.0×10⁸ | m/s | Speed of light |
@@ -168,7 +168,7 @@ Complete technical report with:
 - Convergence with grid refinement verified
 - O(Δx²) convergence as expected
 
-### ✓ Membrane Vibrations
+### ✓ Firmament Vibrations
 - Analytical 1D solution matches numerical eigensolve
 - Circular membrane: modes consistent with Bessel functions
 - Mass spectrum discrete (no continuum)

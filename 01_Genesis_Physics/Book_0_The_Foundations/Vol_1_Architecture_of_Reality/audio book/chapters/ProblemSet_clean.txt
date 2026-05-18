@@ -594,7 +594,7 @@ PS-10.1 [C] The Sturm-Liouville problem on a bounded interval [0, L] with fixed 
 
 For a string of length L = 1 m, calculate the first three eigenvalues λ₁, λ₂, λ₃. What are the corresponding wavelengths?
 
-PS-10.2 [C] The membrane wave equation with tension σ and linear mass density μ:
+PS-10.2 [C] The Firmament membrane wave equation with tension σ and linear mass density μ:
 
 [Equation — see print edition.]
 
@@ -693,7 +693,7 @@ PS-10.28 [W] In the zone framework, what sets the boundary conditions that lead 
 
 Challenge Problems [X].
 
-PS-10.29 [X] Derivation of Planck's Constant: From first principles, show that the membrane parameters uniquely determine ℏ.
+PS-10.29 [X] Derivation of Planck's Constant: From first principles, show that the Firmament parameters uniquely determine ℏ.
 
 Starting point: The Firmament is a membrane under tension σ with boundary layers of thickness ηB. Perturbations oscillate with characteristic amplitude ξA and frequency that depends on geometry (factor β_geom).
 

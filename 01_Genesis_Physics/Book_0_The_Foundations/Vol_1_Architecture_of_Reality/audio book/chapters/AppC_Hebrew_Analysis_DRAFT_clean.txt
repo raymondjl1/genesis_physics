@@ -1,5 +1,7 @@
 The Linguistic Bridge Between Genesis and Physics.
 
+Scope and Epistemic Status of This Appendix: The Hebrew grammatical analysis presented here informs the physical interpretation and motivates the conceptual vocabulary of the zone architecture. It does not constitute physical proof, mathematical theorem, or derivation. Correspondences between Hebrew terms and zone labels are hermeneutical and organizational tools — they guided the initial framework design and provide naming conventions. Physical claims about expansion rates, κ-transitions, zone boundaries, and field equations must be derived from the zone field equations (Chapters 3–8), not from grammatical analysis. Where this appendix makes a structural claim (e.g., "the Raqia separates the Waters"), the corresponding physics is established independently in the main text; the Hebrew analysis is supporting context, not evidence.
+
 C.0 Introduction.
 
 This appendix answers a straightforward question: Where does the zone architecture come from?
@@ -288,7 +290,7 @@ This is profoundly physical language. A membrane that separates, a boundary that
 
 Zone Architecture Correspondence
 
-The Raqia is Z₂.₂.₂—the membrane, the boundary layer that separates the Waters Above (Z₂.₂.₃, atmospheric/energetic realm) from the Waters Below (Z₂.₂.₁, material realm).
+The Raqia is Z₂.₂.₂—the Firmament, the boundary layer that separates the Waters Above (Z₂.₂.₃, atmospheric/energetic realm) from the Waters Below (Z₂.₂.₁, material realm).
 
 In the zone model, Z₂.₂.₂ is not merely empty space. It is the active interface boundary. It is what holds apart the upper and lower realms. The Hebrew word raqia—with its root meaning of something beaten out, stretched, hammered into thinness—perfectly describes a membrane structure: thin, separating, maintaining structural integrity through distributed tension.
 

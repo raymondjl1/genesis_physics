@@ -42,6 +42,8 @@ Table 8.1: The Five Governing Principles — Canonical Reference
 
 Each of these was encountered in earlier chapters — Sustaining in the kappa field of Chapter 1, Conservation and Symmetry through Noether's theorem in Chapter 7, Degradation implicitly in the four thermodynamic phases, Duality in the Waters Above/Below pairing. What this chapter adds is the translation from physical description to mathematical constraint on the action. That translation is what makes the principles operational.
 
+Forward reference — observational signatures of the kappa mechanism. The kappa field is defined mathematically in §8.4. Its phase-dependent values (the expression) are given as a framework structure here, but the observational consequences — the astronomical and physical measurements that would either confirm or falsify a non-zero Delta kappa during Phase 3 — are developed in later volumes. Specifically: the effect of kappa on the cosmological expansion rate and the dark energy equation of state is treated in Vol 5 Ch 8 (zone cosmological model); the entropy production rate tied to Delta kappa and its measurable imprint on the CMB power spectrum in Vol 5 Ch 9; and the predicted anomalous decay-rate suppression in the Phase 4 (Redemption) epoch in Vol 5 Ch 14 (critical density and cosmological parameters). A reader who wants to know "how would we know if kappa not equal to 0?" should begin with Vol 5 Ch 14 §14.9.
+
 The Constrained Action Principle.
 
 The Unconstrained Action.

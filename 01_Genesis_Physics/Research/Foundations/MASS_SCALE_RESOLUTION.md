@@ -2,7 +2,7 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27 (Physical matter creation with proper measures) | Genesis 1:27 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | KK Dimensional Reduction with Warp Factor | KK_DIMENSIONAL_REDUCTION.md, METRIC_6D_SOLUTIONS.md |
 > | **This Document** | **Warp factor suppression correction; exponential e^{-kη_B} from boundary conditions; particle mass scale GeV** | **MASS_SCALE_RESOLUTION.md** |
 > | Modern Equivalent | Randall-Sundrum geometry, warped extra dimensions | Convergence: produces correct particle mass spectrum; resolves hierarchy problem via warp factor |
@@ -66,7 +66,7 @@ $$S_6 = \int d^6 x \sqrt{-g_6} \left[ M_6^4 R - \Lambda_6 - \sum_i \lambda_i \de
 where:
 - M₆ is the 6D Planck mass
 - Λ₆ < 0 is the bulk cosmological constant (Anti-de Sitter-like)
-- λᵢ are brane tensions on boundary zones (y_i)
+- λᵢ are Firmament tensions on boundary zones (y_i)
 - 𝓛_defect encodes topological membrane/string sources
 
 ### 2.2 Warp Factor Solution

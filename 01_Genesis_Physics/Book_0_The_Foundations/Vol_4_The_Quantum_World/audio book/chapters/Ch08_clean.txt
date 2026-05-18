@@ -11,13 +11,13 @@ In Chapter 7, we computed Feynman diagrams and extracted extraordinarily precise
 
 This chapter asks: where do these divergences come from, why are they not disasters, and why in zone architecture they are actually finite?
 
-The answer rests on a simple observation. Chapter 7 treated momentum integrals as if spacetime were infinitely fine-grained—we integrated k from 0 to ∞. But the Firmament is not infinitely fine-grained. It has a thickness into the perpendicular (ξ, η) dimensions. The finest scale we can resolve is the membrane thickness ηB. Modes with wavelength shorter than ηB don't fit. This means there is a natural ultraviolet cutoff:
+The answer rests on a simple observation. Chapter 7 treated momentum integrals as if spacetime were infinitely fine-grained—we integrated k from 0 to ∞. But the Firmament is not infinitely fine-grained. It has a thickness into the perpendicular (ξ, η) dimensions. The finest scale we can resolve is the Firmament thickness ηB. Modes with wavelength shorter than ηB don't fit. This means there is a natural ultraviolet cutoff:
 
 [Equation — see print edition.]
 
-This is not a mathematical trick. It is a property of the medium.
+This is not a mathematical trick. It is a property of the medium. The zone cutoff sits at the hadronic/QCD confinement scale — where experiments routinely operate — not at the inaccessible Planck scale. [CT-4.Λ Resolved — Rev. 2026-05-15]
 
-We begin with the divergence problem (§8.1), describe three ways to regulate divergent integrals (§8.2), and then show that zone architecture provides a physical answer: the membrane thickness (§8.3). We work through a concrete example (§8.4), explain how divergences separate from observable physics (§8.5), develop the renormalization group and running couplings (§8.6–8.7), and then come to the heart of the matter: what is calculated from zone principles, what is estimated, and what remains open (§8.8). We close with a philosophical observation: because the cutoff is physical, the theory has well-defined bare parameters. There is no mathematical infinity. The bare theory is complete; it just happens to have a fundamental scale.
+We begin with the divergence problem (§8.1), describe three ways to regulate divergent integrals (§8.2), and then show that zone architecture provides a physical answer: the Firmament thickness (§8.3). We work through a concrete example (§8.4), explain how divergences separate from observable physics (§8.5), develop the renormalization group and running couplings (§8.6–8.7), and then come to the heart of the matter: what is calculated from zone principles, what is estimated, and what remains open (§8.8). We close with a philosophical observation: because the cutoff is physical, the theory has well-defined bare parameters. There is no mathematical infinity. The bare theory is complete; it just happens to have a fundamental scale.
 
 The Divergence Problem — Concrete Example from Chapter 7.
 
@@ -105,11 +105,11 @@ The Physical Cutoff in Zone Architecture.
 
 In standard QFT, the cutoff Λ is arbitrary. You can choose Λ = 1 TeV, Λ = 1 PeV, Λ = M_Planck; the final observable (once properly renormalized) doesn't depend on the choice. But this seems unsatisfying: shouldn't the cutoff be the scale where new physics appears?
 
-In Genesis Physics, it is. The Firmament has a finite extent into the perpendicular dimensions. Recall from Vol 1 Ch 5 that the membrane Firmament is embedded in 6D spacetime with extra coordinates ξ (toward the Waters Above) and η (toward the Waters Below). The extent in the η direction is η_B ~ 10⁻¹⁵ m, the natural "membrane thickness."
+In Genesis Physics, it is. The Firmament has a finite extent into the perpendicular dimensions. Recall from Vol 1 Ch 5 that the Firmament is embedded in 6D spacetime with extra coordinates ξ (toward the Waters Above) and η (toward the Waters Below). The extent in the η direction is η_B ~ 10⁻¹⁵ m, the natural "membrane thickness."
 
 The Wavelength Argument.
 
-A quantum mode with wavenumber k has wavelength λ = 2π/k. If λ < η_B, the mode does not fit on the membrane—its oscillations are shorter than the membrane's extent. Therefore, modes with
+A quantum mode with wavenumber k has wavelength λ = 2π/k. If λ < η_B, the mode does not fit on the Firmament—its oscillations are shorter than the Firmament's extent. Therefore, modes with
 
 [Equation — see print edition.]
 
@@ -119,27 +119,27 @@ The ultraviolet cutoff is thus
 
 [Equation — see print edition.]
 
-In energy units (using E = h-bar c k = h-bar omega):
+This formula is complete. No further manipulation is needed; inserting numbers directly gives the numerical value (§8.3.2).
 
-[Equation — see print edition.]
+⚠ HISTORICAL NOTE — CT-4.Λ (Rev. 2026-05-15): An earlier version of this section contained Eq. (4.8.10b), which attempted to relate Λ_zone to the Planck energy via the expression. That equation contained three errors: (1) ( h-bar c) to the 2/ eta sub B is not dimensionally an energy; (2) the chain of equalities implicitly substituted eta sub B to ell sub P (the Planck length, approximately 10 to the -35 m), a factor of approximately 10 to the 20 smaller than the actual membrane thickness; (3) the final form E sub Planck times h-bar c/( eta sub B c) is also dimensionally inconsistent. The equation has been removed. The correct value — 0.152 GeV — bears no relation to the Planck scale.
 
-where the expression GeV is the conventional Planck energy, and we have inserted factors of c for dimensional analysis.
-
-Numerical Value.
+Numerical Value [CT-4.Λ Resolved — Rev. 2026-05-15].
 
 From the zone parameters (established in Vol 1),
 
 [Equation — see print edition.]
 
-Therefore,
+In particle-physics natural units (h-bar c = 197.3269804 MeV·fm = 0.19733 GeV·fm):
 
 [Equation — see print edition.]
 
-Converting to GeV (1 GeV = 1.602 × 10⁻¹⁰ J):
+Verification in SI units:
 
 [Equation — see print edition.]
 
-This is close to the conventional Planck scale (~1.22 × 10¹⁹ GeV) but not identical. The difference is because η_B is a geometric parameter of the zone structure, not derived from fundamental constants (ℏ, c, G). In standard physics, the Planck energy is E sub P = square root of h-bar c to the 5 / G, which includes Newton's constant G. In Genesis Physics, the membrane thickness is independent of G—it comes from the 6D structure of the Firmament itself.
+The zone UV cutoff is at the hadronic / QCD confinement scale — physically meaningful and directly observable. The QCD confinement scale is Lambda sub QCD approximately equal to 200 MeV; the zone cutoff approximately equal to 152 MeV sits within 25% of this. This is not coincidental: eta sub B = 1.3 fm is the Firmament thickness at the nuclear confinement length, so the corresponding UV cutoff naturally falls at the nuclear energy scale.
+
+Why this is a stronger claim than a Planck-scale cutoff. Standard field theories invoke UV completion at approximately 10 to the 19 GeV — an energy twenty orders of magnitude above any achievable experiment. Zone architecture provides UV completion at approximately 0.15 GeV — a scale routinely probed in nuclear and particle physics. The cutoff is set by a measurable geometric parameter, not by an unmeasurable gravitational scale. Zone architecture is UV-finite in the domain where it is falsifiable.
 
 Critical Distinction: Physical vs. Mathematical.
 
@@ -169,7 +169,7 @@ Let u = k to the 2, so du = 2k dk:
 
 [Equation — see print edition.]
 
-If Lambda sub zone to the 2 >> a to the 2 (which is true: Lambda sub zone approximately 10 to the 19 GeV and a approximately 10 to the -15 GeV, so the expression), then
+If Lambda sub zone to the 2 >> a to the 2 (which is true: with the corrected Lambda sub zone approximately equal to 0.152 GeV and a approximately equal to m sub e c to the 2 = 0.000511 GeV, we get the expression, so Lambda sub zone to the 2/a to the 2 much greater than 1), then
 
 [Equation — see print edition.]
 
@@ -380,7 +380,7 @@ Here we come to a critical honesty statement, required by both the Skeptic revie
 
 What is Calculated from Zone Principles.
 
-1. The physical cutoff: Lambda sub zone = h-bar c / eta sub B from the membrane thickness. This is derived from Vol 1 axioms.
+1. The physical cutoff: Lambda sub zone = h-bar c / eta sub B from the Firmament thickness. This is derived from Vol 1 axioms.
 
 2. The one-loop beta function: the expression from the structure of vacuum-polarization loops. This is calculated from the zone-architecture Feynman rules.
 
@@ -420,7 +420,7 @@ Coupling Unification in the GUT Limit.
 
 One of the most striking predictions of grand unified theories (GUTs) is that the three gauge couplings—electromagnetic, weak, and strong—converge at high energy. In the standard model, this happens around E sub GUT approximately 10 to the 16 GeV.
 
-In Genesis Physics, this is a geometric prediction: the three gauge symmetries U(1), SU(2), and SU(3) emerge from the 6D zone architecture (Vol 2 Ch 6), and they are manifestations of a single underlying zone-interaction strength at the membrane scale.
+In Genesis Physics, this is a geometric prediction: the three gauge symmetries U(1), SU(2), and SU(3) emerge from the 6D zone architecture (Vol 2 Ch 6), and they are manifestations of a single underlying zone-interaction strength at the Firmament scale.
 
 Quantitative Estimate of the Unification Scale.
 
@@ -454,15 +454,15 @@ Geometric Interpretation: Unification as a Consequence of Zone Symmetry.
 
 In Genesis Physics, the convergence of couplings is not imposed by hand (as in traditional GUTs where you build in SU(5) or SO(10) symmetry). Instead, it emerges from the zone geometry.
 
-Recall from Vol 1 that the zone is a 6D structure with three perpendicular directions: the Firmament (the 3D brane), and the extra coordinates ξ, η pointing into the Waters Above and Below. The gauge symmetries arise from rotations and shifts in these directions:
+Recall from Vol 1 that the zone is a 6D structure with three perpendicular directions: the Firmament (the 3D Firmament), and the extra coordinates ξ, η pointing into the Waters Above and Below. The gauge symmetries arise from rotations and shifts in these directions:
 
-- U(1) (QED): Rotations in a compact U(1) fiber on the brane
+- U(1) (QED): Rotations in a compact U(1) fiber on the Firmament
 - SU(2) (weak): Rotations in the isospin sector (related to the structure of fermion doublets in the ξ direction)
 - SU(3) (strong): Rotations in the color sector (related to a tripartite structure in the η direction)
 
-These are not independent symmetries—they are unified manifestations of the symmetry group of the 6D zone. At the scale where the zone structure becomes apparent (the membrane scale ~10 to the 19 GeV), all three couplings take the same value, which is the single unified coupling g sub zone.
+These are not independent symmetries—they are unified manifestations of the symmetry group of the 6D zone. At the scale where the zone structure becomes apparent (the Firmament scale ~10 to the 19 GeV), all three couplings take the same value, which is the single unified coupling g sub zone.
 
-As we run down from the membrane scale to low energy, the gauge bosons associated with each symmetry decouple at different scales (the weak scale at ~100 GeV, the strong scale at ~1 GeV, the EM scale effectively at 0 in the decoupling limit), and the couplings split. By running upward from low energy, we recover the unified value at the GUT scale.
+As we run down from the Firmament scale to low energy, the gauge bosons associated with each symmetry decouple at different scales (the weak scale at ~100 GeV, the strong scale at ~1 GeV, the EM scale effectively at 0 in the decoupling limit), and the couplings split. By running upward from low energy, we recover the unified value at the GUT scale.
 
 Thus, unification is not a mystery—it is a consequence of the geometry. This is profound: it means GUTs are not additional structure layered on top of the Standard Model, but rather a glimpse of the underlying 6D architecture that was present all along.
 
@@ -557,7 +557,7 @@ In zone architecture, Dirac's objection is answered. The cutoff is not arbitrary
 
 [Equation — see print edition.]
 
-where η_B is the membrane thickness, a real length scale from the 6D structure.
+where η_B is the Firmament thickness, a real length scale from the 6D structure.
 
 Because the cutoff is physical, the bare parameters are finite:
 
@@ -565,7 +565,7 @@ Because the cutoff is physical, the bare parameters are finite:
 
 This is a real number, not infinity. The bare theory is complete: it includes all modes that can exist in the 6D zone structure. There is no infinity to sweep under the rug.
 
-This resolves the historical discomfort. The theory is fundamental, not effective. And renormalization is no longer a mathematical trick—it is the physical fact that experiments at energy Q << Λzone can only measure the effective coupling α(Q), not the bare coupling αbare at the membrane scale. The running of the coupling is simply the smoothing out of this difference.
+This resolves the historical discomfort. The theory is fundamental, not effective. And renormalization is no longer a mathematical trick—it is the physical fact that experiments at energy Q << Λzone can only measure the effective coupling α(Q), not the bare coupling αbare at the Firmament scale. The running of the coupling is simply the smoothing out of this difference.
 
 Two Interpretations of "Effective Field Theory".
 
@@ -573,9 +573,9 @@ This distinction matters for how we interpret QFT:
 
 1. Standard view (post-1970): QFT is an effective theory. The bare parameters are unphysical (infinite). The theory is valid only below some unknown cutoff Λ. Renormalization is a mathematical procedure to extract the low-energy physics from the high-energy nonsense.
 
-2. Zone-architecture view: QFT is fundamental (up to the membrane scale). The bare parameters are physical (finite). Renormalization is the physical fact that low-energy experiments measure running couplings, not bare couplings. The theory is complete; there is no "high-energy nonsense" because the theory is built with a physical cutoff from the start.
+2. Zone-architecture view: QFT is fundamental (up to the Firmament scale). The bare parameters are physical (finite). Renormalization is the physical fact that low-energy experiments measure running couplings, not bare couplings. The theory is complete; there is no "high-energy nonsense" because the theory is built with a physical cutoff from the start.
 
-Both views give the same predictions (once you match at the scale where they overlap), but they carry very different philosophical weight. The first suggests we don't understand the deepest theory. The second suggests we do—up to the membrane scale.
+Both views give the same predictions (once you match at the scale where they overlap), but they carry very different philosophical weight. The first suggests we don't understand the deepest theory. The second suggests we do—up to the Firmament scale.
 
 This is a profound difference in worldview, and it is worth thinking about carefully.
 
@@ -587,38 +587,38 @@ The Status of Bare Parameters in Zone Architecture.
 
 In standard QFT, the bare charge and bare mass are infinite. They are regularized by introducing a cutoff Lambda, computing the divergence, and subtracting it. But the subtraction is ad hoc: we subtract infinity from infinity. The result depends on the subtraction scheme (how much extra finite part do we remove?). This is unsatisfying philosophically.
 
-In Genesis Physics, the situation is different. The bare parameters are the values at the membrane scale:
+In Genesis Physics, the situation is different. The bare parameters are the values at the Firmament scale:
 
 [Equation — see print edition.]
 
-These are finite, not infinite. They are physical—the values you would measure if you had an experiment at the Planck scale. Above the membrane scale, there are no more modes, no more virtual loops to compute. The theory is complete.
+These are finite, not infinite. They are physical — the values you would measure in experiments at the zone cutoff scale. Above the Firmament scale, there are no more modes on the Firmament, no more virtual loops to compute within zone architecture. The theory is complete.
 
-This solves an age-old critique of QFT: the bare parameters have no operational meaning. In Genesis Physics, they do. They are simply the values the couplings take at the fundamental scale—the membrane thickness.
+This solves an age-old critique of QFT: the bare parameters have no operational meaning. In Genesis Physics, they do. They are simply the values the couplings take at the Firmament cutoff — a hadronic scale that is experimentally accessible.
 
-Numerical consequence: Using the one-loop running formula (4.8.25) and running backwards from the electron scale to the Planck scale:
-
-[Equation — see print edition.]
-
-With alpha (m sub e c) = 1/137 and the expression:
+Numerical consequence: Using the one-loop running formula (4.8.25) and running forward from the electron scale to the zone cutoff:
 
 [Equation — see print edition.]
 
-So the bare (Planck-scale) electromagnetic coupling is approximately 1/146. This is a concrete, finite, measurable (in principle) quantity—not infinity.
+With alpha (m sub e c to the 2) = 1/137.036 and (0.152/0.000511) = (297.5) approximately equal to 5.70:
+
+[Equation — see print edition.]
+
+So the bare (hadronic-scale) electromagnetic coupling is approximately 1/136.4 — almost identical to the low-energy measured value 1/137.036. The small difference (0.4%) reflects that the EM coupling running over the range 0.5 MeV to 152 MeV is modest. This is a concrete, finite, measurable quantity — not infinity. [CT-4.Λ Resolved — Rev. 2026-05-15]
 
 Implications for Effective Field Theory.
 
-The implication is profound: Genesis Physics is not an effective theory in the traditional sense. It is a complete theory of particle interactions up to the membrane scale. Beyond that scale, new physics (quantum gravity, the structure of the Waters Above and Below) may emerge, but the description of particles and forces via the zone Lagrangian is fundamental, not approximate.
+The implication is profound: Genesis Physics is not an effective theory in the traditional sense. It is a complete theory of particle interactions up to the Firmament scale. Beyond that scale, new physics (quantum gravity, the structure of the Waters Above and Below) may emerge, but the description of particles and forces via the zone Lagrangian is fundamental, not approximate.
 
 This reframes the entire concept of "effective field theory":
 
 - Standard view: An EFT is valid below some unknown cutoff Λ_unknown. The theory breaks down at that cutoff, and we don't know why.
-- Zone view: An EFT is valid below the physical membrane scale Λzone = ℏc/ηB ≈ 10^19 GeV. The theory is complete below that scale because that is where the zone structure itself ends. Above that scale, you cannot have a 4D quantum field on the membrane—you are in the realm of the 6D Waters Above/Below.
+- Zone view: An EFT is valid below the physical membrane scale the expression GeV. The theory is UV-complete below that scale because that is where the fundamental Firmament modes saturate. Above that scale, the Firmament's perpendicular oscillations are fully excited, and physics above this threshold requires the 6D structure. [CT-4.Λ Resolved — Rev. 2026-05-15]
 
 The Status of Quantum Gravity.
 
 This also clarifies the relationship between QFT and quantum gravity. In standard physics, quantum gravity is expected to become important at the Planck scale (~10^19 GeV). In zone architecture, this is precisely where the 4D effective-field description fails because the zone structure has a finite extent. The zone thickness η_B is not an infinite Planck length—it is a finite membrane parameter.
 
-When you try to create a virtual loop at scale k > Λzone, the corresponding wavelength λ = 2π/k becomes shorter than ηB. At that point, the virtual particle does not fit on the membrane. Describing what happens requires understanding the full 6D geometry of the Waters Above and Below—a task beyond 4D QFT.
+When you try to create a virtual loop at scale k > Lambda sub zone approximately equal to 0.152 GeV (in natural units, where k has dimensions of energy since h-bar = c = 1), the corresponding wavelength lambda = 2 pi /k becomes shorter than eta sub B. At that point, the virtual particle does not fit on the Firmament in the transverse direction. Describing what happens requires understanding the full 6D geometry of the Waters Above and Below — a task beyond 4D QFT.
 
 In this sense, quantum gravity in zone architecture is simply "what happens when you try to do QFT in the region where 4D QFT no longer applies." It is not a separate theory mysteriously linked to gravity—it is the inevitable consequence of the zone structure itself.
 
@@ -634,17 +634,17 @@ A natural question: if the zone theory is complete below Λ_zone, what happens a
 
 Standard answer: Above the Planck scale, quantum gravity effects dominate. The quantum field description breaks down. A theory of quantum gravity (unknown) takes over.
 
-Zone-architecture answer: Above the membrane scale, the 4D field description is no longer valid because you are no longer on the 4D membrane. The dynamics of the 6D Waters Above and Below (the extra-dimensional structure) become important. The "cutoff" is not an ultraviolet divergence masked by a mathematical trick—it is a physical boundary of the domain where 4D QFT applies.
+Zone-architecture answer: Above the Firmament membrane scale, the 4D field description is no longer valid because you are no longer on the 4D membrane. The dynamics of the 6D Waters Above and Below (the extra-dimensional structure) become important. The "cutoff" is not an ultraviolet divergence masked by a mathematical trick—it is a physical boundary of the domain where 4D QFT applies.
 
 This is actually less mysterious than it sounds. Consider an analogy: a surface wave on water (a 2D object) obeys a wave equation with dispersion relation omega = square root of g k (gravity waves) for long wavelengths. But if you try to apply this formula to wavelengths shorter than the molecular spacing of water, it fails. You don't get infinities or contradictions—the formula simply doesn't apply. You need a microscopic theory (molecular dynamics) to describe phenomena at shorter wavelengths.
 
-Similarly, zone-architecture QFT is a theory of modes that fit on the membrane. At scales shorter than ηB (higher than Λzone in energy), you need a theory of the 6D structure itself. We have not developed this theory in detail—that is a frontier of Genesis Physics (Volumes 3–4). But the boundary is conceptually clear, not mysterious.
+Similarly, zone-architecture QFT is a theory of modes that fit on the Firmament. At scales shorter than ηB (higher than Λzone in energy), you need a theory of the 6D structure itself. We have not developed this theory in detail—that is a frontier of Genesis Physics (Volumes 3–4). But the boundary is conceptually clear, not mysterious.
 
 This perspective has profound implications for inflation, dark matter, and other cosmological puzzles in standard physics that seem to require physics above the Planck scale. In zone architecture, such puzzles should have resolutions within the 6D framework—perhaps the early universe accessed the Waters Above/Below in ways we are only beginning to understand.
 
-The completeness of zone QFT: The key insight is that zone-architecture QFT is not an incomplete or broken theory that needs fixing above some arbitrary cutoff. It is a complete description of particle physics up to a physical boundary—the membrane thickness. Divergences do not indicate mathematical pathology or missing physics at a mysterious high scale. They indicate that you are asking a question that transcends the zone-QFT description, just as asking about the molecular structure of water when you have only a macroscopic wave equation is asking a question outside the domain of validity of the equation.
+The completeness of zone QFT: The key insight is that zone-architecture QFT is not an incomplete or broken theory that needs fixing above some arbitrary cutoff. It is a complete description of particle physics up to a physical boundary—the Firmament membrane thickness. Divergences do not indicate mathematical pathology or missing physics at a mysterious high scale. They indicate that you are asking a question that transcends the zone-QFT description, just as asking about the molecular structure of water when you have only a macroscopic wave equation is asking a question outside the domain of validity of the equation.
 
-This reframes how we think about effective field theories, quantum gravity, and the foundations of physics. A complete theory need not extend to infinite scales. It needs only to cover the domain of phenomena for which it applies—and cover that domain completely and consistently. Zone architecture achieves this for particle physics up to the membrane scale. What lies beyond is a deeper question, but not a failure of what lies within.
+This reframes how we think about effective field theories, quantum gravity, and the foundations of physics. A complete theory need not extend to infinite scales. It needs only to cover the domain of phenomena for which it applies—and cover that domain completely and consistently. Zone architecture achieves this for particle physics up to the Firmament scale. What lies beyond is a deeper question, but not a failure of what lies within.
 
 Summary and What Comes Next.
 
@@ -654,7 +654,7 @@ Chapter 8 has addressed the divergences that inevitably appear in quantum field 
 
 2. Regularization (§8.2) makes divergences explicit: hard cutoff (Lambda), dimensional regularization (1/epsilon), or Pauli-Villars (ln M) all achieve the same effect.
 
-3. The physical cutoff (§8.3) in zone architecture is the expression GeV, derived from the membrane thickness.
+3. The physical cutoff (§8.3) in zone architecture is the expression, derived from the Firmament thickness. This is the hadronic/QCD confinement scale — directly observable, not abstract. [CT-4.Λ Resolved — Rev. 2026-05-15]
 
 4. Renormalization (§8.4–§8.5) separates divergences (absorbed into counterterms) from observable physics (finite, cutoff-independent). Two worked examples (vertex loop and self-energy loop) show the universality of divergence structure.
 
@@ -675,7 +675,7 @@ These tools are now ready for application. Chapter 9 will use renormalization to
 The Road Ahead.
 
 Immediate applications (Chapters 9–11):
-- Vacuum energy and the Casimir effect (Ch 9): Using renormalization group flow, compute the energy density of the quantum vacuum at the membrane scale and explain how it gives rise to the Casimir force and possibly dark energy.
+- Vacuum energy and the Casimir effect (Ch 9): Using renormalization group flow, compute the energy density of the quantum vacuum at the Firmament scale and explain how it gives rise to the Casimir force and possibly dark energy.
 - Standard Model derivation (Ch 10): Use the running couplings and unification scale to constrain the gauge group, fermion content, and Higgs sector of the Standard Model. Show that zone geometry predicts SU(3) × SU(2) × U(1) at low energy and SU(5) or SO(10) at high energy.
 - Particle masses and mixing (Ch 11): Apply the zone-architecture renormalization group to the Yukawa couplings of fermions, predicting mass hierarchies and mixing angles in the quark and lepton sectors.
 
@@ -695,7 +695,7 @@ Computational Problems.
 
 Remarks on solving these problems:
 
-- For all numerical calculations, use the reference values: m sub e c = 0.511 MeV, M sub Z = 91.2 GeV, alpha (m sub e) = 1/137.036, Lambda sub zone = 2.4 times 10 to the 19 GeV.
+- For all numerical calculations, use the reference values: m sub e c to the 2 = 0.511 MeV, M sub Z = 91.2 GeV, alpha (m sub e c to the 2) = 1/137.036, Lambda sub zone = 0.152 GeV. [CT-4.Λ Resolved — Rev. 2026-05-15]
 - When computing logarithms, note that (10 to the n) = n (10) approximately equal to 2.303 n.
 - Use the one-loop formula (4.8.25) unless otherwise stated.
 - For Problems 8.8–8.11, some external references (standard QED textbooks or PDG tables) may be helpful.
@@ -710,7 +710,7 @@ Consider the one-loop box integral in 4D:
 
 (b) With a hard cutoff Lambda, evaluate the integral (in Euclidean space for simplicity) and show that the result is proportional to ( Lambda to the 2/m to the 2).
 
-(c) With m = m sub e and Lambda = Lambda sub zone = 2.4 times 10 to the 19 GeV, compute numerically the value of the logarithm ( Lambda sub zone to the 2 / m sub e to the 2).
+(c) With m = m sub e and Lambda = Lambda sub zone = 0.152 GeV, compute numerically the value of the logarithm ( Lambda sub zone to the 2 / m sub e to the 2). [Answer: 2 (0.152/0.000511) = 2 (297.5) approximately equal to 11.4 — CT-4.Λ Resolved Rev. 2026-05-15]
 
 Problem 8.2 (Running Coupling at High Energy):
 
@@ -757,17 +757,17 @@ The true electromagnetic coupling at two-loop order is
 
 Look up the two-loop coefficient (or ask a supervisor) and estimate its size relative to the one-loop term at Q = 10 to the 16 GeV. What does this suggest about the precision of one-loop predictions for coupling unification?
 
-Problem 8.9 (Running from Electron to Planck Scale):
+Problem 8.9 (Running from Electron to Zone Cutoff Scale): [CT-4.Λ Revised — Rev. 2026-05-15]
 
-Using equation (4.8.25), compute the fine structure constant 1/α from the electron mass scale (me c ≈ 0.5 MeV) all the way to the Planck scale (Λzone ≈ 2.4 × 10^19 GeV). 
+Using equation (4.8.25), compute the fine structure constant 1/ alpha from the electron mass scale (m sub e c to the 2 approximately equal to 0.511 MeV) to the zone cutoff (Lambda sub zone approximately equal to 0.152 GeV).
 
-(a) Show that as Q → Λ_zone, the denominator in (4.8.25) approaches 1 (explain why the logarithm in the denominator eventually stops growing rapidly).
+(a) Compute the logarithm ( Lambda sub zone/m sub e c to the 2) = (0.152/0.000511). How does this compare to the logarithm one would obtain running to the Planck scale?
 
-(b) Compute the bare electromagnetic coupling αbare = α(Λzone) numerically. Report 1/α_bare.
+(b) Compute the bare electromagnetic coupling alpha sub bare = alpha ( Lambda sub zone) numerically using formula (4.8.25). Report 1/ alpha sub bare. [Answer: 1/ alpha sub bare approximately equal to 136.4 — nearly identical to the low-energy value.]
 
-(c) Compare your result to the calculation in §8.11.1. Do they agree? If not, explain the source of any discrepancy.
+(c) Explain why the bare coupling is so close to the measured low-energy coupling when Λ_zone is at the hadronic scale. What does this imply about where the dominant contribution to electromagnetic running originates?
 
-(d) Physically, what does it mean that α_bare < α(low energy)? Why does the bare coupling have a smaller fine structure constant than the one measured in atomic physics?
+(d) The running of 1/ alpha from m sub e c to the 2 to M sub Z = 91.2 GeV passes through Lambda sub zone = 0.152 GeV. Compute alpha (M sub Z) using the one-loop formula starting from m sub e c to the 2. Is Lambda sub zone relevant to this calculation?
 
 Practical Problems (for computational practice).
 

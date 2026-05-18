@@ -18,7 +18,7 @@ Traditional physics treats fundamental constants as **free parameters**:
 - Cosmological constant: 10^120 orders of magnitude discrepancy (vacuum energy problem)
 
 Genesis Physics instead claims these emerge from:
-- The membrane structure of spacetime (c, G)
+- The Firmament structure of spacetime (c, G)
 - The zone geometry (α, cosmic energy split)
 - Field equations in the Waters (particle masses, equation of state, Λ)
 - Thermodynamic phases (explaining the 2nd Law)
@@ -47,11 +47,11 @@ The custom test runner (`run_all_tests()`) collects all results and reports:
 ## Test Descriptions
 
 ### TEST 1: MembraneToSpeedOfLight
-**Derives:** c from membrane tension and volume mass density
+**Derives:** c from Firmament tension and volume mass density
 
 ```
 c_derived = √(σ/μ)
-σ = 6.0e98 kg/(m·s²) (membrane tension)
+σ = 6.0e98 kg/(m·s²) (Firmament tension)
 μ = 6.7e81 kg/m³ (volume mass density)
 ```
 
@@ -64,7 +64,7 @@ c_derived = √(σ/μ)
 ---
 
 ### TEST 2: MembraneToGravity
-**Derives:** G from membrane tension and effective coupling length
+**Derives:** G from Firmament tension and effective coupling length
 
 ```
 G = c⁴ / (8π × σ × ℓ_eff²)

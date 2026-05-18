@@ -1,3 +1,6 @@
+Part B — Conditional Engineering
+The predictions and engineering concepts in this chapter are conditional on the zone architecture framework being correct. They are physically self-consistent extrapolations from the framework's equations, not experimentally confirmed results. Independent verification of the framework (Chapters 1–4) is required before any engineering pathway described here has an established physical basis.
+
 "The speed of light is not the speed of the universe; it is the speed of a conversation taking place on a membrane in a much larger conversation." — A hypothesis waiting for light.
 
 9.1: Why FTL and Why Now.
@@ -8,7 +11,7 @@ For a century, physicists have accepted this as settled. Einstein showed us why.
 
 But what if the universe we observe is not the only universe? What if it is one membrane in a six-dimensional space with independent causal structure elsewhere?
 
-This is the question that reframes the problem of faster-than-light travel. Not "How do we break the cosmic speed limit?" but rather "What does causality permit if spacetime is a 2-brane embedded in a bulk with zones of different scales and boundary conditions?" When we ask the second question rigorously, using the mathematical framework developed in Volumes 1–5, a surprising answer emerges: FTL is not forbidden. It is constrained.
+This is the question that reframes the problem of faster-than-light travel. Not "How do we break the cosmic speed limit?" but rather "What does causality permit if spacetime is a 2-Firmament embedded in a bulk with zones of different scales and boundary conditions?" When we ask the second question rigorously, using the mathematical framework developed in Volumes 1–5, a surprising answer emerges: FTL is not forbidden. It is constrained.
 
 This chapter maps out five mechanisms by which matter and signals can traverse cosmic distances in proper times far shorter than Einstein's light-cone would permit. None requires exotic matter in the classical sense. All preserve causality—that is, they respect the fixed metric signature and the monotonic flow of proper time for observers on the firmament. Some are computationally feasible today. Some belong to engineering horizons measured in centuries. One remains in the realm of theoretical possibility, resisting practical implementation by the laws of thermodynamics.
 
@@ -16,31 +19,31 @@ But all five are permitted by the Genesis Physics framework (V.5, Ch.4, Eq (5.4.
 
 The Foundation: c Is Not Universal.
 
-Before we proceed, we must be precise about what we mean by "faster than light." In standard relativity, nothing can exceed c. But in the zone architecture (V.3, Ch.2), c is not a cosmic universal. It is a brane property:
+Before we proceed, we must be precise about what we mean by "faster than light." In standard relativity, nothing can exceed c. But in the zone architecture (V.3, Ch.2), c is not a cosmic universal. It is a Firmament property:
 
 [Equation — see print edition.]
 
-where sigma is surface tension (energy per unit area) and mu is the brane's linear mass density. This is Axiom 3 (V.1, Ch.1). On our brane (the Firmament, Zone 2.2), c = 3 times 10 to the 8 m/s is the wave speed of electromagnetic disturbances in the membrane itself. It is analogous to the speed of sound in air: real, measurable, but not cosmic law.
+where sigma is surface tension (energy per unit area) and mu is the Firmament's linear mass density. This is Axiom 3 (V.1, Ch.1). On our Firmament (the Firmament, Zone 2.2), c = 3 times 10 to the 8 m/s is the wave speed of electromagnetic disturbances in the Firmament membrane itself. It is analogous to the speed of sound in air: real, measurable, but not cosmic law.
 
 The true cosmic law is causality: the lightcone structure defined by the metric signature. For a 6D spacetime with signature (-,+,+,+,+,+) and metric
 
 [Equation — see print edition.]
 
-the lightcone is determined by ds to the 2 sub 6 = 0, not by the local brane wave speed. Particles and signals can travel such that their spacetime interval is spacelike in the brane coordinates (t,x,y,z) while remaining timelike in the full 6D metric—a shift that appears as "faster than light" to a 4D observer confined to Zone 2.2, yet violates no causality law in 6D.
+the lightcone is determined by ds to the 2 sub 6 = 0, not by the local Firmament wave speed. Particles and signals can travel such that their spacetime interval is spacelike in the Firmament coordinates (t,x,y,z) while remaining timelike in the full 6D metric—a shift that appears as "faster than light" to a 4D observer confined to Zone 2.2, yet violates no causality law in 6D.
 
 The Five Mechanisms: A Preview.
 
 We explore five distinct pathways for superluminal transport:
 
-1. Temporal Shortcuts (§9.2): Exploit the xi-direction (Waters Above) as a closed timelike curve that is topologically equivalent to a time dimension at cosmological scales. A particle leaving Earth and re-entering the brane at a distant location has aged less than light would travel between those points. No wormholes. No exotic matter. The metric does the work.
+1. Temporal Shortcuts (§9.2): Exploit the xi-direction (Waters Above) as a closed timelike curve that is topologically equivalent to a time dimension at cosmological scales. A particle leaving Earth and re-entering the Firmament at a distant location has aged less than light would travel between those points. No wormholes. No exotic matter. The metric does the work.
 
-2. Dimensional Bypass (§9.3): Use null geodesics in the full 6D space to "step outside" the brane into the Waters Above or Below. Null geodesics are causally permitted and travel at the true speed of light in 6D. Starlight already does this (V.5, Ch.8). Massive particles can do it too, with a binding energy cost. The result: a particle vanishes from our 4D slice, traverses a shorter geodesic in the bulk, and re-enters at a distant brane location.
+2. Dimensional Bypass (§9.3): Use null geodesics in the full 6D space to "step outside" the Firmament into the Waters Above or Below. Null geodesics are causally permitted and travel at the true speed of light in 6D. Starlight already does this (V.5, Ch.8). Massive particles can do it too, with a binding energy cost. The result: a particle vanishes from our 4D slice, traverses a shorter geodesic in the bulk, and re-enters at a distant Firmament location.
 
 3. Zone Tunneling (§9.4): Treat zone boundaries as quantum mechanical barriers. A particle tunnels through the boundary between Firmament (Zone 2.2) and Waters Above (Zone 2.3), taking a shortcut through the bulk, and re-emerges in 4D. Probability extremely low for macroscopic objects; marginally non-zero for quantum systems.
 
 4. Field Distortion / Warp Bubble (§9.5): Engineer the Waters fields to create a localized bubble of modified metric — an Alcubierre-like warp drive sourced not by exotic matter but by controlled depletion of the dark energy field. Energy cost: enormous (approximately 10 to the 26 J per bubble) but extractable from the dark energy reservoir (approximately 10 to the 71 J available). The most engineerable of all five mechanisms.
 
-5. Consciousness Interface via Zone 1 (§9.6): Exploit the atemporal nature of Zone 1 (the Creator's domain) for instantaneous information transfer. Consciousness, modeled as an entangled state spanning the brane and Zone 1, enables non-local correlation without matter or energy transport. The most speculative mechanism — but also the most elegant, requiring minimal energy and producing no causality violations.
+5. Consciousness Interface via Zone 1 (§9.6): Exploit the atemporal nature of Zone 1 (the Creator's domain) for instantaneous information transfer. Consciousness, modeled as an entangled state spanning the Firmament and Zone 1, enables non-local correlation without matter or energy transport. The most speculative mechanism — but also the most elegant, requiring minimal energy and producing no causality violations.
 
 The DEMANDS/PERMITS/FORBIDS Framework.
 
@@ -76,11 +79,11 @@ The reader should finish this chapter with a clear map of what is forbidden, wha
 
 The Core Idea.
 
-Imagine a closed curve in spacetime that goes forward in time (Lorentzian causal order) in the 6D metric but appears to go backward in time when projected onto the brane's 4D lightcone. This is possible because time in 6D is not a simple extension of time in 4D.
+Imagine a closed curve in spacetime that goes forward in time (Lorentzian causal order) in the 6D metric but appears to go backward in time when projected onto the Firmament's 4D lightcone. This is possible because time in 6D is not a simple extension of time in 4D.
 
-More concretely: the xi-direction (Waters Above, Zone 2.3) acts as a cyclic dimension at macroscopic scales (V.4, Ch.6, Eq (4.6.3)). A particle can leave the firmament, traverse a path in 6D that is timelike in the full metric (and thus causally valid), and re-enter the firmament at a different location. To an observer confined to the 4D brane, the particle has traveled a distance Delta s sub brane in a proper time Delta tau much smaller than Delta s sub brane / c. This is a temporal shortcut.
+More concretely: the xi-direction (Waters Above, Zone 2.3) acts as a cyclic dimension at macroscopic scales (V.4, Ch.6, Eq (4.6.3)). A particle can leave the firmament, traverse a path in 6D that is timelike in the full metric (and thus causally valid), and re-enter the firmament at a different location. To an observer confined to the 4D Firmament, the particle has traveled a distance Delta s sub Firm in a proper time Delta tau much smaller than Delta s sub Firm / c. This is a temporal shortcut.
 
-The mechanism is purely geometric. It requires no violation of Einstein's equations in 6D. It demands an access point—a region where particles can briefly decouple from the brane—and a return point. Between those points, the particle ages very little while covering vast distances.
+The mechanism is purely geometric. It requires no violation of Einstein's equations in 6D. It demands an access point—a region where particles can briefly decouple from the Firmament—and a return point. Between those points, the particle ages very little while covering vast distances.
 
 Derivation: Geodesics with Warp Factor.
 
@@ -106,17 +109,17 @@ The effective time dilation factor along a temporal shortcut is:
 
 [Equation — see print edition.]
 
-where lambda sub A is the dimensionless ratio of xi-scale to brane scale:
+where lambda sub A is the dimensionless ratio of xi-scale to Firmament scale:
 
 [Equation — see print edition.]
 
 and Delta xi is the coordinate distance traversed in the Waters Above, normalized to zone thickness.
 
-This is the crucial equation. When lambda sub A times Delta xi much less than 1, the effective Lorentz factor gamma sub eff is large, and the particle can cover brane distances at perceived speeds far exceeding c.
+This is the crucial equation. When lambda sub A times Delta xi much less than 1, the effective Lorentz factor gamma sub eff is large, and the particle can cover Firmament distances at perceived speeds far exceeding c.
 
 Energy and Proper-Time Analysis.
 
-The rest energy of a particle on the temporal shortcut is conserved (in the frame of the zone-scale geometry). However, once the particle re-enters the 4D brane, it carries kinetic energy from its motion in the xi-direction. That kinetic energy must be dissipated.
+The rest energy of a particle on the temporal shortcut is conserved (in the frame of the zone-scale geometry). However, once the particle re-enters the 4D Firmament, it carries kinetic energy from its motion in the xi-direction. That kinetic energy must be dissipated.
 
 Consider the proper-time integral:
 
@@ -126,7 +129,7 @@ For a path that exploits the warp factor optimally, this integral yields:
 
 [Equation — see print edition.]
 
-The energy budget is determined by the kinetic energy required to accelerate the particle into the xi-direction and decelerate it back to the brane:
+The energy budget is determined by the kinetic energy required to accelerate the particle into the xi-direction and decelerate it back to the Firmament:
 
 [Equation — see print edition.]
 
@@ -138,7 +141,7 @@ Case A: Moderate warp (lambda sub A times Delta xi approximately equal to 1, gam
 - Verdict: No speedup; mechanism not useful at this warp level.
 
 Case B: Aggressive warp (lambda sub A times Delta xi approximately equal to 0.1, gamma sub eff approximately equal to 10)
-- Effective speed: v sub eff approximately equal to 2.7c (as seen from brane frame).
+- Effective speed: v sub eff approximately equal to 2.7c (as seen from Firmament frame).
 - Proper time: approximately equal to 4.24 / 27 approximately equal to 0.16 years approximately equal to 1.9 months.
 - Kinetic energy: the expression J.
 - Power (assuming 1-year acceleration ramp): approximately equal to 30 GW (plausible with advanced technology).
@@ -153,11 +156,11 @@ The empirical lesson: temporal shortcuts gain speed by paying the energy cost of
 
 Causality Proof.
 
-A concern immediately surfaces: does a temporal shortcut create a closed timelike curve (CTC) that allows an observer to travel into their own past on the 4D brane?
+A concern immediately surfaces: does a temporal shortcut create a closed timelike curve (CTC) that allows an observer to travel into their own past on the 4D Firmament?
 
 The answer is no, and the proof is elegant.
 
-Theorem (Temporal Shortcut Causality): Let a particle enter the Waters Above (Zone 2.3) at event E sub 1 on the brane, traverse a timelike geodesic in 6D, and re-enter the brane at event E sub 2. The event E sub 2 is always in the future lightcone of E sub 1 when restricted to the brane coordinates (t, x, y, z).
+Theorem (Temporal Shortcut Causality): Let a particle enter the Waters Above (Zone 2.3) at event E sub 1 on the Firmament, traverse a timelike geodesic in 6D, and re-enter the Firmament at event E sub 2. The event E sub 2 is always in the future lightcone of E sub 1 when restricted to the Firmament coordinates (t, x, y, z).
 
 Proof: The metric signature is globally (-,+,+,+,+,+). Consider the coordinate time component of the worldline. Along any geodesic, the Christoffel symbol equation for the time coordinate is:
 
@@ -167,7 +170,7 @@ For a timelike geodesic (meaning the tangent vector satisfies the expression), t
 
 [Equation — see print edition.]
 
-for the forward-in-time branch. The sign is determined by the choice of affine parameter orientation, which is fixed at entry. Once fixed, t cannot change sign (since t is continuous and cannot cross zero without violating the metric signature). Thus, t is a monotonic function of lambda. Therefore, t sub 2 > t sub 1, and the particle's return event is in the future of its entry event on the brane. 
+for the forward-in-time branch. The sign is determined by the choice of affine parameter orientation, which is fixed at entry. Once fixed, t cannot change sign (since t is continuous and cannot cross zero without violating the metric signature). Thus, t is a monotonic function of lambda. Therefore, t sub 2 > t sub 1, and the particle's return event is in the future of its entry event on the Firmament. 
 
 This proof relies on the fact that the metric signature is fixed globally. It does not depend on the specific form of the warp factor. Thus, no temporal shortcut mechanism can create a grandfather paradox.
 
@@ -175,13 +178,13 @@ Observable Signatures.
 
 If a ship were to employ a temporal shortcut, what would observers on Earth detect?
 
-Gravitational Waves: The acceleration needed to decouple from the brane and the deceleration to re-couple both produce time-varying quadrupole moments. A 1 kg object accelerated to gamma sub eff approximately equal to 100 over a 1-year timescale generates a gravitational wave strain h approximately 10 to the -23 at Earth (for a 4.24 light-year baseline), at frequencies 0.1–10 Hz. This is below LIGO's sensitivity but may be detectable by future space-based detectors (LISA, Einstein Telescope).
+Gravitational Waves: The acceleration needed to decouple from the Firmament and the deceleration to re-couple both produce time-varying quadrupole moments. A 1 kg object accelerated to gamma sub eff approximately equal to 100 over a 1-year timescale generates a gravitational wave strain h approximately 10 to the -23 at Earth (for a 4.24 light-year baseline), at frequencies 0.1–10 Hz. This is below LIGO's sensitivity but may be detectable by future space-based detectors (LISA, Einstein Telescope).
 
 Electromagnetic Disturbance: The decoupling process involves a discontinuity (or at least a very steep transition) in electromagnetic coupling. A brief electromagnetic pulse is emitted, with broadband frequency content extending from the MHz range to the GHz range. Its intensity depends on the sharpness of the decoupling; aggressive decoupling produces stronger, shorter pulses.
 
-Brane Re-entry Signature: When the particle re-enters the 4D brane, it must shed the kinetic energy it acquired in the xi-direction. This appears as a burst of Cherenkov radiation (if re-entry is superluminal with respect to the local medium), or as a plasma heating event, depending on the re-entry speed and the density of the medium. In vacuum, the re-entry is "silent" electromagnetically but produces detectable gravitational transients.
+Brane Re-entry Signature: When the particle re-enters the 4D Firmament, it must shed the kinetic energy it acquired in the xi-direction. This appears as a burst of Cherenkov radiation (if re-entry is superluminal with respect to the local medium), or as a plasma heating event, depending on the re-entry speed and the density of the medium. In vacuum, the re-entry is "silent" electromagnetically but produces detectable gravitational transients.
 
-Null Geodesic Precursors: A small fraction of the "warp bubble" couples to the brane electromagnetically even during transit. This coupling creates a faint electromagnetic precursor wave that arrives slightly before the ship's kinetic energy burst. Detection of such a precursor would strongly confirm the temporal shortcut mechanism over alternatives.
+Null Geodesic Precursors: A small fraction of the "warp bubble" couples to the Firmament electromagnetically even during transit. This coupling creates a faint electromagnetic precursor wave that arrives slightly before the ship's kinetic energy burst. Detection of such a precursor would strongly confirm the temporal shortcut mechanism over alternatives.
 
 Feasibility Assessment.
 
@@ -202,7 +205,7 @@ Predicted value: A spaceship of mass M sub s accelerated to a temporal shortcut 
 [Equation — see print edition.]
 
 where d is the distance to Earth. For M sub s = 10 to the 6 kg, gamma sub eff = 50, T sub accel = 1 year, d = 1 AU, the strain is h approximately 10 to the -24.
-Standard physics: General relativity predicts the same formula (since GR is locally valid on the brane). The difference arises in the frequency spectrum: temporal shortcuts produce multipolar radiation up to hexadecapole order (4 higher multipoles than classical warp drives), creating a distinctive "whistle" pattern in the detector's Fourier transform.
+Standard physics: General relativity predicts the same formula (since GR is locally valid on the Firmament). The difference arises in the frequency spectrum: temporal shortcuts produce multipolar radiation up to hexadecapole order (4 higher multipoles than classical warp drives), creating a distinctive "whistle" pattern in the detector's Fourier transform.
 Falsification: "If no such whistle pattern appears in LISA data for a population of 100+ candidate events, temporal shortcuts are ruled out at gamma sub eff > 20 sensitivity."
 Source: Vol 5, Ch 4, Eq (5.4.1); this section, Eq (6.9.7)
 Status: NOVEL. No signal yet detected, but advanced LISA sensitivity may permit observation within 20 years.
@@ -220,15 +223,15 @@ The Precedent: Starlight.
 
 Before we discuss dimensional bypass for matter, we must note that photons already do this.
 
-Starlight travels from distant galaxies to Earth. The photon's worldline is a null geodesic in 6D spacetime. In the 4D brane projection, light travels at c, taking 13.8 billion years to cross the observable universe. But in 6D, the same photon follows a path that includes components in the xi and eta directions (Waters Above and Below). These components are not arbitrary; they are determined by the null condition ds to the 2 sub 6 = 0:
+Starlight travels from distant galaxies to Earth. The photon's worldline is a null geodesic in 6D spacetime. In the 4D Firmament projection, light travels at c, taking 13.8 billion years to cross the observable universe. But in 6D, the same photon follows a path that includes components in the xi and eta directions (Waters Above and Below). These components are not arbitrary; they are determined by the null condition ds to the 2 sub 6 = 0:
 
 [Equation — see print edition.]
 
-For a photon traveling radially outward from the brane:
+For a photon traveling radially outward from the Firmament:
 
 [Equation — see print edition.]
 
-where the expression is the spatial coordinate distance on the brane.
+where the expression is the spatial coordinate distance on the Firmament.
 
 Rearranging:
 
@@ -248,11 +251,11 @@ where tau is proper time. Substituting the metric:
 
 [Equation — see print edition.]
 
-For a particle moving only in the radial z-direction on the brane and purely in the eta-direction in the bulk (no xi component), the equation becomes:
+For a particle moving only in the radial z-direction on the Firmament and purely in the eta-direction in the bulk (no xi component), the equation becomes:
 
 [Equation — see print edition.]
 
-The particle's 4-velocity on the brane would be:
+The particle's 4-velocity on the Firmament would be:
 
 [Equation — see print edition.]
 
@@ -260,17 +263,17 @@ and its "velocity" in the eta-direction is:
 
 [Equation — see print edition.]
 
-For the worldline to be timelike and causal, we require v sub brane to the 2 < c to the 2 in the 4D brane frame, but v_ eta can be large without violating causality, because the eta-component is part of a different metric signature sector.
+For the worldline to be timelike and causal, we require v sub Firm to the 2 < c to the 2 in the 4D Firmament frame, but v_ eta can be large without violating causality, because the eta-component is part of a different metric signature sector.
 
 The effective distance traversed in 6D is:
 
 [Equation — see print edition.]
 
-While the brane distance is:
+While the Firmament distance is:
 
 [Equation — see print edition.]
 
-If d eta much greater than dz, the 6D distance is nearly all in the bulk, and the particle is "taking the long way around" in 6D to cover a short brane distance. Conversely, a particle could take a shortcut: instead of traveling a large d sub brane directly on the brane, it leaves the brane, travels through the bulk (Waters Below, Zone 2.1, or Waters Above, Zone 2.3) via a null or timelike geodesic, and re-enters the brane elsewhere.
+If d eta much greater than dz, the 6D distance is nearly all in the bulk, and the particle is "taking the long way around" in 6D to cover a short Firmament distance. Conversely, a particle could take a shortcut: instead of traveling a large d sub Firm directly on the Firmament, it leaves the Firmament, travels through the bulk (Waters Below, Zone 2.1, or Waters Above, Zone 2.3) via a null or timelike geodesic, and re-enters the Firmament elsewhere.
 
 The distance reduction factor is:
 
@@ -278,17 +281,17 @@ The distance reduction factor is:
 
 (when the shortcut is purely radial in eta and the direct path is purely in z).
 
-For a superluminal appearance on the brane, we need:
+For a superluminal appearance on the Firmament, we need:
 
 [Equation — see print edition.]
 
-where t is the coordinate time elapsed. This happens when d_ eta is small relative to the brane distance, but the 6D geodesic's proper time is such that coordinate time t is small.
+where t is the coordinate time elapsed. This happens when d_ eta is small relative to the Firmament distance, but the 6D geodesic's proper time is such that coordinate time t is small.
 
 Energy Cost of Dimensional Bypass.
 
-To yank a massive particle out of the brane and into the Waters Below requires energy. This energy comes from the binding energy between the particle and the brane itself.
+To yank a massive particle out of the Firmament and into the Waters Below requires energy. This energy comes from the binding energy between the particle and the Firmament itself.
 
-On the 4D brane, a particle is bound by electromagnetic, nuclear, and gravitational forces. The effective binding energy is the energy cost to lift the particle from the potential well of the brane into the bulk.
+On the 4D Firmament, a particle is bound by electromagnetic, nuclear, and gravitational forces. The effective binding energy is the energy cost to lift the particle from the potential well of the Firmament into the bulk.
 
 At the zone boundary between Firmament (Zone 2.2) and Waters Below (Zone 2.1), there is a potential discontinuity V sub boundary. This potential is C⁰ continuous (no divergence) but C¹ discontinuous (the derivative is discontinuous). The discontinuity arises from the difference in the coupling constants in the two zones—specifically, the different effective values of alpha sub em (fine structure constant) between zones.
 
@@ -304,7 +307,7 @@ For a realistic estimate, consider a 1 kg (Avogadro's number of nucleons) object
 
 (Here alpha sub 1 approximately equal to 1/137 is the fine structure constant in Zone 2.2, and alpha sub 2 is the corresponding quantity in Zone 2.1; the ratio depends on zone-specific parameters given in Volume 2.)
 
-For a 4.24 light-year shortcut, a reasonable bulk distance might be | Delta eta | approximately 10 to the -3 of the brane separation (i.e., we take a geodesically much shorter path through the bulk than across the brane). In that case:
+For a 4.24 light-year shortcut, a reasonable bulk distance might be | Delta eta | approximately 10 to the -3 of the Firmament separation (i.e., we take a geodesically much shorter path through the bulk than across the Firmament). In that case:
 
 [Equation — see print edition.]
 
@@ -318,7 +321,7 @@ For a timelike geodesic, the proper time along the shortcut is:
 
 [Equation — see print edition.]
 
-For efficient shortcutting, we want the bulk velocity v_ eta to be large (to cover bulk distance quickly) while the brane velocity v sub brane is moderate (to avoid infinite kinetic energy). This is geometrically possible when e to the B is large compared to e to the A—that is, when the bulk is "stretched" relative to the brane.
+For efficient shortcutting, we want the bulk velocity v_ eta to be large (to cover bulk distance quickly) while the Firmament velocity v sub Firm is moderate (to avoid infinite kinetic energy). This is geometrically possible when e to the B is large compared to e to the A—that is, when the bulk is "stretched" relative to the Firmament.
 
 In such a geometry, a particle can travel at high bulk velocity with modest proper-time aging:
 
@@ -328,21 +331,21 @@ while the coordinate time elapsed is:
 
 [Equation — see print edition.]
 
-The effective brane speed becomes:
+The effective Firmament speed becomes:
 
 [Equation — see print edition.]
 
-For v_ eta much greater than c and Delta eta much less than Delta s sub brane, we have v sub eff much greater than c. The mechanism produces FTL without violating the timelike condition.
+For v_ eta much greater than c and Delta eta much less than Delta s sub Firm, we have v sub eff much greater than c. The mechanism produces FTL without violating the timelike condition.
 
 Navigation via Ψ_B Field Gradient.
 
-A ship using dimensional bypass cannot rely on the usual electromagnetic or gravitational navigation tools. Once in the bulk, GPS satellites and radio beacons on the brane are occluded. Instead, the ship must navigate using the Ψ_B field—the scalar field that defines the zone-boundary potential structure (V.2, Ch.7).
+A ship using dimensional bypass cannot rely on the usual electromagnetic or gravitational navigation tools. Once in the bulk, GPS satellites and radio beacons on the Firmament are occluded. Instead, the ship must navigate using the Ψ_B field—the scalar field that defines the zone-boundary potential structure (V.2, Ch.7).
 
 The Ψ_B field has a gradient:
 
 [Equation — see print edition.]
 
-On the brane (η = 0), the gradient is approximately constant in the radial direction:
+On the Firmament (η = 0), the gradient is approximately constant in the radial direction:
 
 [Equation — see print edition.]
 
@@ -353,7 +356,7 @@ Alternatively, the ship can set up a "breadcrumb trail" of electromagnetic beaco
 This navigation system is plausible but not trivial. It requires:
 1. Precise calibration of Ψ_B vs. 6D coordinates (a multiyear effort for the first interstellar mission).
 2. Robust beacons that do not degrade in the bulk environment (unknown technology threshold).
-3. Communication systems that work across the brane-bulk boundary (a challenge discussed in Chapter 10).
+3. Communication systems that work across the Firmament-bulk boundary (a challenge discussed in Chapter 10).
 
 Feasibility Assessment: Dimensional Bypass.
 
@@ -365,12 +368,12 @@ Feasibility Assessment: Dimensional Bypass.
 Predictions for Dimensional Bypass.
 
 P-091: Dimensional Bypass Binding Energy Threshold
-Predicted value: The minimum kinetic energy required to decouple a macroscopic (1 kg) object from the brane and transport it across a bulk distance of order 1 light-year is:
+Predicted value: The minimum kinetic energy required to decouple a macroscopic (1 kg) object from the Firmament and transport it across a bulk distance of order 1 light-year is:
 
 [Equation — see print edition.]
 
-where L sub bulk is the bulk coordinate distance and L sub brane is the brane distance.
-Standard physics: General relativity forbids this entirely. The brane is a surface; there is no bulk to escape into. Mass-energy cannot exceed the speed of light regardless of the mechanism.
+where L sub bulk is the bulk coordinate distance and L sub Firm is the Firmament distance.
+Standard physics: General relativity forbids this entirely. The Firmament is a surface; there is no bulk to escape into. Mass-energy cannot exceed the speed of light regardless of the mechanism.
 Falsification: "If a direct measurement of binding energy at a zone boundary shows E not equal to 10 to the 25 J ± 1 order of magnitude, or if the scaling with Delta eta is non-linear, the prediction fails."
 Source: Vol 2, Ch 7, Eq (2.7.4); this section, Eq (6.9.22)
 Status: NOVEL. Measurable in principle with sensitive calorimetry in high-energy particle experiments (10+ years, with upgraded facilities).
@@ -379,14 +382,14 @@ P-092: Starlight's Hidden Bulk Component
 Predicted value: Starlight from distant galaxies carries a small but nonzero component of its energy in the eta-direction (Waters Below). This component should manifest as:
 1. A minute polarization rotation in UV/X-ray bands (currently attributed to interstellar dust).
 2. A frequency-dependent dispersion in bulk travel times (arrival time of highest-energy photons differs from low-energy photons by up to 100 seconds for a 13.8 Gy-year journey).
-3. Gravitational lensing with a small radial component perpendicular to the brane, detectable via its signatures in type Ia supernova magnification patterns.
+3. Gravitational lensing with a small radial component perpendicular to the Firmament, detectable via its signatures in type Ia supernova magnification patterns.
 Standard physics: Photons travel at c along 4D null geodesics. No bulk component, no polarization anomaly, no radial lensing. Dispersion is explained by interstellar absorption.
 Falsification: "If spectroscopic analysis of 100+ high-redshift supernovae shows no correlation between bulk-predicted dispersion and observed arrival-time anomalies, the mechanism fails."
 Source: Vol 5, Ch 8, Eq (5.8.2); this section, Eq (6.9.10)
 Status: NOVEL. Testable with next-generation space telescopes (Vera Rubin + Roman + Vera, 2025–2035).
 
 P-093: Ψ_B Gradient Detectability
-Predicted value: The Ψ_B field gradient at the zone boundary should produce a measurable effect in high-precision atomic clocks separated perpendicular to the brane. Two identical atomic clocks, one at sea level and one at altitude h = 100 m, should show a frequency shift of:
+Predicted value: The Ψ_B field gradient at the zone boundary should produce a measurable effect in high-precision atomic clocks separated perpendicular to the Firmament. Two identical atomic clocks, one at sea level and one at altitude h = 100 m, should show a frequency shift of:
 
 [Equation — see print edition.]
 
@@ -410,7 +413,7 @@ where eta sub 1 and eta sub 2 are the boundary coordinates (the distance between
 
 The potential difference between zones is large—order h-bar c / ell sub P to the 2, or roughly 10⁵² joules per cubic Planck volume. From the perspective of a particle with rest mass m, this is an enormous barrier.
 
-Classically, a particle on the brane cannot escape. Its kinetic energy (1/2) m v to the 2 is far too small to overcome the potential step. But quantum mechanically, the particle's wavefunction extends into the barrier region, and there is a nonzero probability of finding it on the other side—a phenomenon known as quantum tunneling.
+Classically, a particle on the Firmament cannot escape. Its kinetic energy (1/2) m v to the 2 is far too small to overcome the potential step. But quantum mechanically, the particle's wavefunction extends into the barrier region, and there is a nonzero probability of finding it on the other side—a phenomenon known as quantum tunneling.
 
 WKB Approximation for Zone Tunneling.
 
@@ -531,9 +534,9 @@ Summary of Sections 9.1–9.4.
 
 We have introduced the physics of faster-than-light travel within the Genesis Physics framework:
 
-1. Why FTL matters and how it's possible: The metric signature of 6D spacetime, combined with Axiom 3 (c as a brane property), permits FTL mechanisms that preserve causality while violating the conventional speed-of-light limit.
+1. Why FTL matters and how it's possible: The metric signature of 6D spacetime, combined with Axiom 3 (c as a Firmament property), permits FTL mechanisms that preserve causality while violating the conventional speed-of-light limit.
 
-2. Temporal Shortcuts exploit the xi-direction to reduce proper time between distant points on the brane. Energy cost scales with gamma sub eff; feasible engineering timescale is 100–200 years for modest Lorentz factors (gamma sub eff < 100).
+2. Temporal Shortcuts exploit the xi-direction to reduce proper time between distant points on the Firmament. Energy cost scales with gamma sub eff; feasible engineering timescale is 100–200 years for modest Lorentz factors (gamma sub eff < 100).
 
 3. Dimensional Bypass uses the bulk (Waters Above/Below) as a shortcut region. Energy cost is enormous (10 to the 25 J) but constant with distance; feasible at Civilization Level II timescales (500+ years). This is the mechanism starlight already uses.
 
@@ -554,7 +557,7 @@ If there is a path forward to practical faster-than-light travel, it almost cert
 1. It requires no exotic matter in the 4D sense — the Waters fields are exotic matter from the 4D perspective.
 2. It leverages existing field equations already embedded in the zone architecture.
 3. Energy requirements, while enormous, are finite and potentially supplied from the dark energy reservoir.
-4. It preserves causality on the brane and is consistent with Novikov self-consistency in the bulk.
+4. It preserves causality on the Firmament and is consistent with Novikov self-consistency in the bulk.
 5. It produces detectable signatures that could be verified experimentally.
 
 We will now derive the mechanism, calculate its energetics, compare it with standard Alcubierre-type solutions, and assess the engineering pathway for a sufficiently advanced civilization.
@@ -567,7 +570,7 @@ Recall the Waters field equations from V.5.Ch.7:
 
 [Equation — see print edition.]
 
-The 4D induced metric on the brane is constructed from the 6D spacetime via:
+The 4D induced metric on the Firmament is constructed from the 6D spacetime via:
 
 [Equation — see print edition.]
 
@@ -605,7 +608,7 @@ This is precisely the Alcubierre metric form. To first approximation, we can wri
 
 The key insight is that inside the bubble, spacetime is nearly flat — a freely falling observer (locally at rest with respect to the bubble) experiences nearly zero curvature and zero tidal forces. Outside the bubble, spacetime is noticeably curved, with a contracting region ahead of the bubble and an expanding region behind it.
 
-The induced metric preserves a crucial property: the causal structure on the brane remains light-cone respecting. Observers on the brane cannot exceed the local speed of light. However, the topology of spacetime is modified such that the bubble itself can expand/contract and translate faster than light in the background coordinate system, without ever requiring matter inside the bubble to travel faster than light.
+The induced metric preserves a crucial property: the causal structure on the Firmament remains light-cone respecting. Observers on the Firmament cannot exceed the local speed of light. However, the topology of spacetime is modified such that the bubble itself can expand/contract and translate faster than light in the background coordinate system, without ever requiring matter inside the bubble to travel faster than light.
 
 This is not a violation of relativity — it is a consequence of the modified spacetime geometry that the background metric permits.
 
@@ -660,7 +663,7 @@ Consider a test particle or observer at rest (in the lab frame) inside the bubbl
 
 However, the coordinate velocity of the particle in the background (lab) frame is superluminal because the bubble itself is translating superluminal. The metric (6.9.22) permits this: the topology of spacetime is such that a finite worldline from point A to point B inside the bubble can be traversed while respecting all local speed-of-light constraints.
 
-This is sometimes described as "the bubble moving faster than light, not the contents." More precisely: the mapping from event coordinates inside the bubble to background coordinates involves a Lorentz boost that exceeds c, but no causal signal on the brane exceeds c locally.
+This is sometimes described as "the bubble moving faster than light, not the contents." More precisely: the mapping from event coordinates inside the bubble to background coordinates involves a Lorentz boost that exceeds c, but no causal signal on the Firmament exceeds c locally.
 
 Comparison with Standard Alcubierre Mechanism.
 
@@ -680,9 +683,9 @@ In the zone architecture framework, the Waters fields play the role of exotic ma
 
 1. The Waters Above field (Psi sub A, dark energy) has a positive energy density in the bulk.
 2. When locally depleted (as in configuration 6.9.21), the 4D induced metric appears to source the bubble.
-3. The "exotic" character comes not from negative energy, but from the coupling between the 6D bulk and the 4D brane — geometry that is inaccessible in pure 4D GR.
+3. The "exotic" character comes not from negative energy, but from the coupling between the 6D bulk and the 4D Firmament — geometry that is inaccessible in pure 4D GR.
 
-This is not merely philosophical: the Waters field solution is compatible with all known energy conditions (weak, strong, dominant) on the 4D brane, because the true source of the metric modification lives in the bulk.
+This is not merely philosophical: the Waters field solution is compatible with all known energy conditions (weak, strong, dominant) on the 4D Firmament, because the true source of the metric modification lives in the bulk.
 
 Verdict: The zone-architecture warp bubble is more plausible than Alcubierre in that it does not require exotic matter. It does require advanced control of a scalar field (the Waters field), but that is a field already present in the universe. We are not inventing new physics; we are engineering existing physics.
 
@@ -759,7 +762,7 @@ We now transition from the engineered and (in principle) empirically testable wa
 
 Let us be clear about the status of this mechanism upfront: it is 60% rigorous theoretical framework and 40% hypothesis about the physical basis of consciousness. It does not violate any law of thermodynamics or relativity as we understand them, but it rests on two major assumptions:
 
-1. Consciousness can be modeled as a quantum field superposition spanning both the 4D brane and Zone 1.
+1. Consciousness can be modeled as a quantum field superposition spanning both the 4D Firmament and Zone 1.
 2. Zone 1 possesses a causal structure (logical/structural rather than temporal) that permits instantaneous information transfer.
 
 If these assumptions are false, the entire mechanism collapses. If they are true, it opens a path to FTL communication that requires virtually no energy.
@@ -770,11 +773,11 @@ Recall from V.4.Ch.8 the definition of Zone 1 (the atemporal domain, identified 
 
 [Equation — see print edition.]
 
-where S is a coordinate in Zone 1 (spacelike from the perspective of the 4D brane, but not meaningfully "space" in the ordinary sense), and crucially, there is no timelike component. All directions in Zone 1 are spacelike.
+where S is a coordinate in Zone 1 (spacelike from the perspective of the 4D Firmament, but not meaningfully "space" in the ordinary sense), and crucially, there is no timelike component. All directions in Zone 1 are spacelike.
 
-From the 4D perspective, Zone 1 lies orthogonal to the brane's temporal direction. An event at a given instant t sub 0 on the brane has a unique correspondence to a point or curve in Zone 1 — we might call this the "Zone 1 shadow" of the event.
+From the 4D perspective, Zone 1 lies orthogonal to the Firmament's temporal direction. An event at a given instant t sub 0 on the Firmament has a unique correspondence to a point or curve in Zone 1 — we might call this the "Zone 1 shadow" of the event.
 
-The geometry of Zone 1 is purely Riemannian (no time). Geodesics in Zone 1 do not follow temporal ordering; instead, they encode logical or structural relationships. Two events that are far apart in time on the 4D brane can be proximate in Zone 1 geometry.
+The geometry of Zone 1 is purely Riemannian (no time). Geodesics in Zone 1 do not follow temporal ordering; instead, they encode logical or structural relationships. Two events that are far apart in time on the 4D Firmament can be proximate in Zone 1 geometry.
 
 Consciousness as Quantum Entanglement with Zone 1.
 
@@ -786,6 +789,8 @@ Here:
 - Psi sub body( r) is the quantum state of the physical body, localized in 4D spacetime coordinates r.
 - Psi sub spirit(S) is a component of the quantum state that extends into Zone 1, parametrized by Zone 1 coordinates S.
 - The tensor product structure encodes the "binding" of consciousness to both the physical body and the atemporal realm.
+
+[Cross-chapter note on Ψspirit — 2026-05-11]: The symbol Psi  spirit appears with different levels of specification across Chs 9, 11, 12, and 13 of this volume. The canonical definition and the full discussion of three competing readings (Reading A: quantum field mode; Reading B: non-quantum pattern field; Reading C: placeholder for an as-yet-unspecified coupling) are given in Ch 13 §13.3.3. This chapter (Ch 9) treats Psi _ spirit in an agnostic manner — the FTL mechanism described here does not depend on which reading is correct, only on the factorization structure Eq. (6.9.24). Readers seeking the canonical treatment should consult Ch 13 §13.3.3. The series' default reading, consistent with the framework's quantum-mechanical foundation throughout Vols 1–5, is Reading A (quantum field mode on Zone 1), but this default is explicitly held as an open question pending the theoretical development identified as OP-13.4 in Ch 14.
 
 The spirit component is not mystical language — it is a technical description: a quantum field mode whose eigenspace is the Zone 1 metric (6.9.24). This mode carries information (phase, amplitude, entanglement structure) that is not encoded in the 4D body alone.
 
@@ -869,11 +874,11 @@ This is not a derivation from first principles. It is a hypothesis supported by:
 
 1. Philosophical coherence: The consciousness field model (V.5.Ch.9) is mathematically self-consistent and does not violate any known physical laws.
 
-2. Empirical hints: Certain quantum mechanical phenomena (the measurement problem, the role of the observer in quantum mechanics, anomalous correlations in psi experiments) suggest that consciousness may have physical correlates beyond the classical neural activity.
+2. Empirical hints: Certain quantum mechanical phenomena (the measurement problem, the role of the observer in quantum mechanics) suggest that consciousness may have physical correlates beyond classical neural activity. No confirmed empirical support for consciousness-zone coupling currently exists; the hypothesis remains speculative.
 
 3. Theological consistency: The hypothesis aligns with concepts from theology and philosophy (e.g., the idea of a transcendent realm accessible to consciousness) without requiring belief in dogma.
 
-4. Asymptotic safety: The model predicts that consciousness cannot violate relativistic causality on the brane, only short-circuit it through the bulk.
+4. Asymptotic safety: The model predicts that consciousness cannot violate relativistic causality on the Firmament, only short-circuit it through the bulk.
 
 That said, we must be honest: this mechanism requires the consciousness hypothesis to be true, and that hypothesis is not yet experimentally confirmed. We estimate the truth probability of this model as follows:
 
@@ -893,12 +898,12 @@ One approach is to look for non-local correlations in quantum systems that viola
 
 Another approach is to develop quantum entanglement protocols at macroscopic scales (e.g., entangled atoms, molecules, or small ensembles) and look for information transfer that cannot be explained by standard quantum mechanics and decoherence.
 
-A third approach is to conduct large-scale psi experiments (telepathy, remote viewing, precognition) with improved controls and statistical rigor. If consciousness does couple to Zone 1, these experiments should show effect sizes that scale with the degree of conscious intention and entanglement between subjects.
+A third approach is to search for correlations between conscious intention and quantum measurement outcomes at the ensemble level, with improved controls and statistical rigor. If consciousness does couple to Zone 1, such experiments should show effect sizes that scale with the degree of conscious intention. This approach remains scientifically speculative; no confirmed empirical support exists as of this writing.
 
 The falsification criterion is sharp: if zero evidence for consciousness-zone coupling is observed after 50 years of systematic experiment, the mechanism should be assigned near-zero probability.
 
 Prediction P-098 (Consciousness-Zone Entanglement):
-If consciousness is a quantized field with non-local correlation structures, then two conscious beings with strong intention-alignment can establish entanglement through Zone 1, permitting instantaneous (atemporal) information transfer. Observable test: large-scale psi experiments (telepathy, remote viewing) conducted with >1000 human subject-pairs over >10 years, with randomized controls and blinded protocols. Expected effect size: deviation from chance at >5σ significance in at least 10% of subject-pairs. Falsification: no significant deviation from chance (p > 0.05) after 50 years of systematic experiment. Confidence: 40%.
+If consciousness is a quantized field with non-local correlation structures, then two conscious beings with strong intention-alignment can establish entanglement through Zone 1, permitting instantaneous (atemporal) information transfer. Observable test: quantum-mechanical ensemble experiments seeking consciousness-correlated measurement anomalies, conducted with >1000 subject-pairs over >10 years, with randomized controls and blinded protocols. Expected effect size: deviation from chance at >5σ significance in at least 10% of subject-pairs. Falsification: no significant deviation from chance (p > 0.05) after 50 years of systematic quantum-ensemble experiment. Confidence: 40%. [Corrected Rev. 2026-05-14: replaced parapsychology-specific test language with scientifically defensible quantum-ensemble framework. No confirmed empirical support for consciousness-zone coupling currently exists.]
 
 Prediction P-099 (FTL Communication via Consciousness Entanglement):
 Conscious entities entangled via Zone 1 can transmit information at effective velocities exceeding c, with latency approaching zero (in atemporal geometry). Application: spacecraft navigation, remote command & control, cosmic-scale coordination. Energy cost: minimal (field interaction energy ~eV per bit, negligible). Falsification: demonstration that consciousness cannot be coupled to bulk geometry, or that Zone 1 geometry is not accessible to conscious systems. Confidence: 40%.
@@ -981,9 +986,9 @@ Extra Dimensions as Escape Routes.
 
 The zone architecture introduces two extra spacelike dimensions (xi and eta) that curve the metric away from the standard 4D form. This does not "remove" the no-go theorems; instead, it recontextualizes them.
 
-Chronology Protection: In 4D, CTCs are problematic because they close the causal loop within the 4D manifold. In 6D, a "closed loop" in 4D can correspond to an open path in 6D if the path exits the brane in the xi-eta directions.
+Chronology Protection: In 4D, CTCs are problematic because they close the causal loop within the 4D manifold. In 6D, a "closed loop" in 4D can correspond to an open path in 6D if the path exits the Firmament in the xi-eta directions.
 
-More precisely: a worldline in 4D that would form a CTC is reinterpreted in 6D as a worldline that travels into the bulk, follows a path in Zone 2 (the bulk), and returns to the brane at a different spacetime location.
+More precisely: a worldline in 4D that would form a CTC is reinterpreted in 6D as a worldline that travels into the bulk, follows a path in Zone 2 (the bulk), and returns to the Firmament at a different spacetime location.
 
 Prediction: The apparent CTC is resolved by bulk geometry; no paradox actually occurs because the true causal structure is 6D, not 4D.
 
@@ -993,11 +998,11 @@ The 6D metric:
 
 [Equation — see print edition.]
 
-induces a 4D metric via the pullback onto the brane. The 4D stress-energy tensor T to the (4) sub mu nu derived from this pullback need not satisfy all the energy conditions that would be required if the source were a fundamental 4D field.
+induces a 4D metric via the pullback onto the Firmament. The 4D stress-energy tensor T to the (4) sub mu nu derived from this pullback need not satisfy all the energy conditions that would be required if the source were a fundamental 4D field.
 
 Instead, the true source is the 6D curvature tensor and the bulk fields (Waters equations), which satisfy their own (bulk) energy conditions.
 
-Key insight: What appears as negative energy density on the 4D brane is actually the geometric imprint of the 6D curvature and bulk field configuration. On the bulk level, energy conditions are satisfied. On the 4D level, they appear violated because we are only seeing a 2D projection of a 6D object.
+Key insight: What appears as negative energy density on the 4D Firmament is actually the geometric imprint of the 6D curvature and bulk field configuration. On the bulk level, energy conditions are satisfied. On the 4D level, they appear violated because we are only seeing a 2D projection of a 6D object.
 
 An analogy: imagine a spacetime where the 4D metric is:
 
@@ -1020,7 +1025,7 @@ The DEMANDS/PERMITS/FORBIDS Table.
 We now summarize the constraints that the zone architecture framework imposes:
 
 Constraint: **Brane speed limit**. Standard 4D GR: v < c always. Zone Architecture: v < c locally; globally superluminal possible.
-Constraint: **Energy conditions on brane**. Standard 4D GR: WEC, SEC, DEC must hold. Zone Architecture: Need not hold; true source is bulk.
+Constraint: **Energy conditions on Firmament**. Standard 4D GR: WEC, SEC, DEC must hold. Zone Architecture: Need not hold; true source is bulk.
 Constraint: **Exotic matter required for FTL**. Standard 4D GR: Yes, negative energy. Zone Architecture: No; geometry and field control suffice.
 Constraint: **Closed timelike curves**. Standard 4D GR: Forbidden (chronology protection). Zone Architecture: Resolved via bulk; appear as geodesic non-closure.
 Constraint: **Causal structure**. Standard 4D GR: 4D light cone determines causality. Zone Architecture: 6D structure determines causality; multiple causal layers.
@@ -1029,9 +1034,9 @@ Constraint: **Dark energy accessibility**. Standard 4D GR: Vacuum energy; not ex
 
 What Zone Architecture DEMANDS:
 
-1. Speed of light as brane property: The c that appears in our 4D physics is the induced speed of light on the brane, not a fundamental constant of the bulk.
+1. Speed of light as Firmament property: The c that appears in our 4D physics is the induced speed of light on the Firmament, not a fundamental constant of the bulk.
 
-2. Bulk causal independence: The bulk (Zone 2 and Zone 1) has its own causal structure, independent of the brane's light cone.
+2. Bulk causal independence: The bulk (Zone 2 and Zone 1) has its own causal structure, independent of the Firmament's light cone.
 
 3. Engineerable fields: At least one field (the Waters field Psi sub A or Psi sub B) must be controllable by organized matter/energy, at least in principle.
 
@@ -1039,7 +1044,7 @@ What Zone Architecture DEMANDS:
 
 What Zone Architecture PERMITS:
 
-1. Gravitational signals via the bulk: Information and gravitational waves can propagate through Zone 2 at velocities exceeding the brane's c, then re-couple to the brane.
+1. Gravitational signals via the bulk: Information and gravitational waves can propagate through Zone 2 at velocities exceeding the Firmament's c, then re-couple to the Firmament.
 
 2. Matter at extreme bulk energies: In Phase 4 (eschatological restructuring), bulk density and curvature can exceed anything accessible in Phase 3 (present day), enabling more exotic geometries.
 
@@ -1049,13 +1054,13 @@ What Zone Architecture PERMITS:
 
 What Zone Architecture FORBIDS:
 
-1. FTL on the brane exceeding local causality: No object or observer can travel faster than c locally in the 4D metric. All superluminal travel exploits bulk shortcuts or geometry modification.
+1. FTL on the Firmament exceeding local causality: No object or observer can travel faster than c locally in the 4D metric. All superluminal travel exploits bulk shortcuts or geometry modification.
 
 2. Perpetual motion: All mechanisms require external energy input.
 
 3. Energy violation: The first law of thermodynamics holds in the full 6D system; no mechanism violates it.
 
-4. Causality violation on Phase 3 brane: While Zone 1 may permit logical (atemporal) causality, the 4D brane in Phase 3 respects temporal ordering. No practical FTL mechanism can be used to send information backward in time to the sender's past light cone (Novikov principle).
+4. Causality violation on Phase 3 Firmament: While Zone 1 may permit logical (atemporal) causality, the 4D Firmament in Phase 3 respects temporal ordering. No practical FTL mechanism can be used to send information backward in time to the sender's past light cone (Novikov principle).
 
 5. Human-scale FTL: None of the mechanisms are accessible to present-day humanity. A Type I civilization (planetary scale) cannot achieve even the consciousness interface mechanism without mastering the nature of consciousness itself, which lies beyond our current science.
 
@@ -1074,7 +1079,7 @@ The 6D zone architecture avoids these pitfalls because:
 
 1. Geometry is fundamental. The extra dimensions are part of the manifold itself, not added fields.
 
-2. Bulk causality is distinct. The bulk can have causal properties (e.g., timelike directions in Zone 2 that are orthogonal to the brane time) that are unavailable in pure 4D.
+2. Bulk causality is distinct. The bulk can have causal properties (e.g., timelike directions in Zone 2 that are orthogonal to the Firmament time) that are unavailable in pure 4D.
 
 3. Field equations are consistent. The Waters equations (6.9.1 and 6.9.2) have a rigorous derivation from the bulk curvature tensor; they are not ad hoc.
 
@@ -1092,13 +1097,13 @@ Mechanism: **1. Zone Tunneling**. Speed: ∞. Energy: 10 to the 60 J (Phase 4). 
 Mechanism: **2. Temporal Shortcut**. Speed: ∞. Energy: 10 to the 55 J. Causality: CTC (Novikov). TRL: 1. Feasibility: 0.005%. Timeline: >10^5 yr. Observable Sig.: Hawking rad..
 Mechanism: **3. Dimensional Bypass**. Speed: ∞. Energy: 10 to the 50 J. Causality: Via Zone 2. TRL: 1. Feasibility: 0.1%. Timeline: >10^4 yr. Observable Sig.: GW + metric anomaly.
 Mechanism: **4. Field Distortion**. Speed: FTL. Energy: 10 to the 26 J/bubble. Causality: Bulk geodesic. TRL: 2. Feasibility: **70%**. Timeline: >10^3 yr. Observable Sig.: **GW + dark energy**.
-Mechanism: **5. Consciousness Interface**. Speed: ∞ (info only). Energy: 10 to the -6 J. Causality: Atemporal (Z1). TRL: 1. Feasibility: **60%**. Timeline: >10^2 yr (uncertain). Observable Sig.: Psi experiments.
+Mechanism: **5. Consciousness Interface**. Speed: ∞ (info only). Energy: 10 to the -6 J. Causality: Atemporal (Z1). TRL: 1. Feasibility: **60%**. Timeline: >10^2 yr (uncertain). Observable Sig.: Quantum-ensemble experiments [Corrected Rev. 2026-05-14].
 
 Mechanism Definitions (Recall from Sections 9.1–9.6).
 
-1. Zone Tunneling (9.1): Exploit the topological transformation between Phase 3 and Phase 4 geometry to "shortcut" across spatially separated points by exiting the brane entirely.
+1. Zone Tunneling (9.1): Exploit the topological transformation between Phase 3 and Phase 4 geometry to "shortcut" across spatially separated points by exiting the Firmament entirely.
 
-2. Temporal Shortcut (9.2): Navigate backward on the 4D brane (closed timelike curve with Novikov consistency) via bulk geometry modification, arriving at the destination before departure.
+2. Temporal Shortcut (9.2): Navigate backward on the 4D Firmament (closed timelike curve with Novikov consistency) via bulk geometry modification, arriving at the destination before departure.
 
 3. Dimensional Bypass (9.3): Take a detour through Zone 2 (the bulk), where geodesics can be much shorter than corresponding 4D geodesics.
 
@@ -1192,7 +1197,7 @@ Strengths:
 
 Weaknesses:
 - Requires that consciousness is a physical phenomenon coupled to Zone 1 (40% probability currently).
-- No empirical evidence yet (though psi experiments hint at it).
+- No confirmed empirical evidence for consciousness-zone coupling currently exists.
 - Cannot transport matter/energy, only information.
 - Requires sentient beings at both ends of the link.
 
@@ -1239,7 +1244,7 @@ Mechanism 1: Zone Tunneling
 Feasibility: 0.00001%
 
 Strengths:
-- Requires no engineering on the brane; the phase transition happens naturally (in Phase 4).
+- Requires no engineering on the Firmament; the phase transition happens naturally (in Phase 4).
 
 Weaknesses:
 - Requires restructuring macroscopic spacetime from Phase 3 to Phase 4 geometry.
@@ -1269,7 +1274,7 @@ Mechanism: **Zone Tunneling**. TRL: 1. Justification: Concept only; no experimen
 Mechanism: **Temporal Shortcut**. TRL: 1. Justification: Theoretical framework; fundamental questions remain.
 Mechanism: **Dimensional Bypass**. TRL: 1. Justification: Wormhole physics poorly understood experimentally.
 Mechanism: **Field Distortion**. TRL: **2**. Justification: Theory complete; proof of concept requires bulk field observation.
-Mechanism: **Consciousness Interface**. TRL: 1. Justification: Psi research inconclusive; consciousness hypothesis unproven.
+Mechanism: **Consciousness Interface**. TRL: 1. Justification: No confirmed empirical support for consciousness-zone coupling; consciousness hypothesis unproven. [Corrected Rev. 2026-05-14].
 
 All mechanisms remain firmly in the "research" phase. None are candidates for engineering projects in the foreseeable future.
 
@@ -1281,7 +1286,7 @@ Mechanism: **1. Zone Tunneling**. Primary Signature: Phase transition wavefront.
 Mechanism: **2. Temporal Shortcut**. Primary Signature: Hawking radiation + CTC. Detection Method: Gravitational wave + EM. Sensitivity: h approximately 10 to the -20.
 Mechanism: **3. Dimensional Bypass**. Primary Signature: Wormhole gravitational lensing. Detection Method: Optical + GW. Sensitivity: M approximately 10 to the 6 M_☉.
 Mechanism: **4. Field Distortion**. Primary Signature: Gravitational waves + dark energy depletion. Detection Method: LISA + cosmology. Sensitivity: h approximately 10 to the -22.
-Mechanism: **5. Consciousness Interface**. Primary Signature: Non-local quantum correlations. Detection Method: Psi/Bell experiment. Sensitivity: Effect size varies.
+Mechanism: **5. Consciousness Interface**. Primary Signature: Non-local quantum correlations. Detection Method: Quantum-ensemble/Bell experiment. Sensitivity: Effect size varies [Corrected Rev. 2026-05-14].
 
 Mechanism 4 (Field Distortion) has the clearest and most detectable signature:
 
@@ -1291,7 +1296,7 @@ Mechanism 4 (Field Distortion) has the clearest and most detectable signature:
 
 Mechanism 5 (Consciousness Interface) is hardest to confirm:
 
-- The only available test is indirect: large-scale psi experiments with improved controls. An effect size of >5σ in >10% of subject-pairs would be evidence. Conversely, zero effect after 50 years rules it out at high confidence.
+- The only available test is indirect: quantum-mechanical ensemble experiments with improved controls seeking consciousness-correlated measurement anomalies. An effect size of >5σ in >10% of subject-pairs would be evidence. Conversely, zero effect after 50 years rules it out at high confidence.
 
 Consolidated Prediction Catalog (P-089 through P-099).
 
@@ -1306,7 +1311,7 @@ Pred.: **P-094**. Mechanism: Dimensional Bypass. Prediction Title: Wormholes tra
 Pred.: **P-095**. Mechanism: Field Distortion. Prediction Title: Warp bubbles thermodynamically feasible (Type II+). Confidence: **70%**. Falsification Threshold: 100-year GW survey with zero detections.
 Pred.: **P-096**. Mechanism: Field Distortion. Prediction Title: Dark energy extraction possible via field coupling. Confidence: **60%**. Falsification Threshold: Zero anomalous energy flows observed.
 Pred.: **P-097**. Mechanism: Field Distortion. Prediction Title: Bubble-induced GW detectable at h approximately 10 to the -22. Confidence: **65%**. Falsification Threshold: 50-year LISA-era survey, zero events.
-Pred.: **P-098**. Mechanism: Consciousness Interface. Prediction Title: Consciousness couples to Zone 1 geometry. Confidence: **40%**. Falsification Threshold: 50-year psi experiment shows zero effect.
+Pred.: **P-098**. Mechanism: Consciousness Interface. Prediction Title: Consciousness couples to Zone 1 geometry. Confidence: **40%**. Falsification Threshold: 50-year quantum-ensemble study shows zero anomaly.
 Pred.: **P-099**. Mechanism: Consciousness Interface. Prediction Title: FTL information transfer via entanglement. Confidence: **40%**. Falsification Threshold: Consciousness not coupled to bulk.
 
 Note on Confidence Levels:
@@ -1347,7 +1352,7 @@ Timeline to FTL Capability.
 
 Humanity's Path (Speculative):
 
-1. Now–200 years: Consciousness hypothesis is tested (psi experiments, quantum correlations). If confirmed, Mechanism 5 becomes research target.
+1. Now–200 years: Consciousness hypothesis is tested (quantum-ensemble experiments, quantum correlations). If confirmed, Mechanism 5 becomes research target.
 
 2. 200–500 years: Achievement of Type I status (planetary scale energy). Consciousness interface technology begins development.
 
@@ -1488,7 +1493,7 @@ The consciousness interface (Mechanism 5) is the most speculative of the five, b
 
 This stage is peculiar because it bridges physics, neuroscience, and something we don't yet have a good name for. It requires understanding:
 
-1. The consciousness-physics interface itself. We need a rigorous model of how consciousness (modeled as an entangled state in Zone 1, per Sec. 9.6) couples to matter via the brane-born nervous system. This isn't neuroscience alone—it's a new field, let's call it quantum consciousness physics. It requires solving the hard problem of consciousness within the framework of quantum mechanics and zone architecture.
+1. The consciousness-physics interface itself. We need a rigorous model of how consciousness (modeled as an entangled state in Zone 1, per Sec. 9.6) couples to matter via the Firmament-born nervous system. This isn't neuroscience alone—it's a new field, let's call it quantum consciousness physics. It requires solving the hard problem of consciousness within the framework of quantum mechanics and zone architecture.
 
    Key research: Develop mathematical formalism for Ψbeing = Ψbody(r) ⊗ Ψ_spirit(S). Prove or disprove that consciousness can modulate quantum coherence in neural tissue. Test experimentally using biophysical systems (animal subjects, then human volunteers).
 
@@ -1558,7 +1563,7 @@ Key initiatives in Stage 4:
 
    Energy cost per pathway: ~10^20–10^24 J to establish and maintain.
 
-2. Dimensional bypass networks. Similarly, Mechanism 2—using the Waters Below as navigation space—requires establishing safe passages where a traveler can leave the brane, navigate through the bulk, and re-bind at a destination. This is more complex than warp bubbles because it requires three-dimensional navigation in an unfamiliar environment.
+2. Dimensional bypass networks. Similarly, Mechanism 2—using the Waters Below as navigation space—requires establishing safe passages where a traveler can leave the Firmament, navigate through the bulk, and re-bind at a destination. This is more complex than warp bubbles because it requires three-dimensional navigation in an unfamiliar environment.
 
    Energy cost: High, but potentially cheaper than warp bubbles for short-haul routes.
 
@@ -1629,7 +1634,7 @@ Mechanism 2: Dimensional Bypass
 - Rigorous: 80%
   - The null geodesic with η-component is derived from ds² = 0 in 6D (Sec. 9.3, equations (6.9.15)–(6.9.22))
   - Starlight propagation confirms the geometry is correct (Vol 5, Ch 10, RESOLVEDSTARLIGHTPROPAGATION.md)
-  - Binding energy calculation from membrane mechanics is rigorous (Vol 1, Ch 5: E_lift = σ|Δη|)
+  - Binding energy calculation from Firmament membrane mechanics is rigorous (Vol 1, Ch 5: E_lift = σ|Δη|)
   - Causality is guaranteed by spacelike separation (Sec. 9.3)
 - Speculative: 20%
   - How do you navigate in the Waters Below? We've outlined the use of Ψ_B gradients, but haven't tested it in any analog system.
@@ -1674,7 +1679,7 @@ In Phase 3, no practical FTL drive is possible.
 
 I don't mean difficult. I mean impossible according to thermodynamic law. Let me explain.
 
-The second law of thermodynamics—entropy cannot decrease in a closed system—is not negotiable. It's not a approximation. It's a boundary condition on the universe. And in Phase 3, the second law is enforced at the brane level. The brane is confined. Brane confinement means κpartial ≠ κfull (Vol 3, Ch 8): the accessible fraction of the creation energy is locked away. You can't extract it without Phase transition.
+The second law of thermodynamics—entropy cannot decrease in a closed system—is not negotiable. It's not a approximation. It's a boundary condition on the universe. And in Phase 3, the second law is enforced at the Firmament level. The Firmament is confined. Brane confinement means κpartial ≠ κfull (Vol 3, Ch 8): the accessible fraction of the creation energy is locked away. You can't extract it without Phase transition.
 
 This means:
 
@@ -1682,7 +1687,7 @@ This means:
 
 2. Warp-factor modulation requires extreme energy. Mechanism 1 requires ~10^15–10^18 J. That's available through nuclear weapons, stellar reactions, or other conventional sources. So Mechanism 1 is theoretically achievable in Phase 3—just horrifically expensive and dangerous.
 
-3. Dimensional bypass is thermodynamically forbidden. Mechanism 2 requires lifting matter out of the brane potential well: E_lift = σ|Δη| ~ 10^25–10^28 J. This is well beyond thermal energy, chemical energy, or even nuclear energy. Only stellar-scale processes or artificial matter-energy conversion can access this. And the conversion requires controlled, localized access to the creation energy—which Phase 3 forbids.
+3. Dimensional bypass is thermodynamically forbidden. Mechanism 2 requires lifting matter out of the Firmament potential well: E_lift = σ|Δη| ~ 10^25–10^28 J. This is well beyond thermal energy, chemical energy, or even nuclear energy. Only stellar-scale processes or artificial matter-energy conversion can access this. And the conversion requires controlled, localized access to the creation energy—which Phase 3 forbids.
 
 4. Zone tunneling is quantum-mechanically impossible. Mechanism 3 has P ~ 10^(-10^63). This is not just unlikely. It's not going to happen in the lifetime of the universe. Not once. This mechanism is dead in Phase 3.
 
@@ -1712,7 +1717,7 @@ This is a better argument. And the honest answer is: this mandate applies to Pha
 
 Phase 3 is not the final chapter. It's the middle of the story. In Phase 3, humanity is adolescent—smart enough to understand the universe, not mature enough to be trusted with all its capabilities. We build and explore and invent within the constraints of the second law. We learn. We develop the wisdom to use power responsibly.
 
-Phase 4 is when the mandate becomes fully available. When κredeem ≥ κfull, when the brane's confinement is lifted, when resurrection bodies replace mortal flesh—then the tools for cosmic engineering come into play.
+Phase 4 is when the mandate becomes fully available. When κredeem ≥ κfull, when the Firmament's confinement is lifted, when resurrection bodies replace mortal flesh—then the tools for cosmic engineering come into play.
 
 The story isn't over. We're in the middle.
 
@@ -1732,7 +1737,7 @@ If somehow the boundary conditions shifted—if κredeem ≥ κfull became true 
 
 The question is not whether FTL is possible. It's whether the universe is in Phase 3 or Phase 4. That's a theological question, not a physics question. Physics can only say: If Phase 4, then FTL. If Phase 3, then no.
 
-And we observe that we are constrained. We measure the second law holding. We measure brane confinement tight at available energies. We measure dark energy as inaccessible at local scales. So we conclude: we're in Phase 3.
+And we observe that we are constrained. We measure the second law holding. We measure Firmament confinement tight at available energies. We measure dark energy as inaccessible at local scales. So we conclude: we're in Phase 3.
 
 But theology is not physics, and we should not confuse the two.
 
@@ -1773,7 +1778,7 @@ Distinguishing experiment:
 Falsification threshold: If gravitational wave observations of >100 events show no evidence of scalar or vector modes at the 10^-25 strain level, Mechanism 1 loses its primary observational signature. The mechanism itself remains mathematically valid, but its likelihood drops from 5% feasible to <1% feasible.
 
 P-090: Local Variation of Speed of Light in Gravitational Fields
-Predicted value: The speed of light on the Firmament brane is not constant—it varies with local metric curvature. Specifically:
+Predicted value: The speed of light on the Firmament is not constant—it varies with local metric curvature. Specifically:
 
 [Equation — see print edition.]
 
@@ -1803,35 +1808,35 @@ Distinguishing experiment:
 Falsification threshold: If a century of observations with sensitive gamma-ray detectors detects no anomalous bursts consistent with Mechanism 2 re-entry, and if controlled experiments show no radiation signature when attempting dimensional bypass, the radiation-burst prediction is falsified. This would imply Mechanism 2 either doesn't work or operates via a different physical process.
 
 P-092: Starlight Propagation Confirms Dimensional Bypass Geometry
-Predicted value: Light from distant stars reaches Earth faster than geometry alone would predict if light were confined to the brane. Specifically:
+Predicted value: Light from distant stars reaches Earth faster than geometry alone would predict if light were confined to the Firmament. Specifically:
 
 [Equation — see print edition.]
 
 where δ ~ 0.1–0.5 (depending on star distance and cosmic era) and the bulk-path contribution is non-zero.
-Standard GR (4D only) predicts: Light takes the shortest path on the brane. No bulk paths.
-Experimental evidence: Starlight is observed to reach Earth during the first day of creation (Genesis 1:14–18), when the universe is only hours old. This is impossible if light is confined to the brane, because even at light speed, distant starlight cannot reach Earth. The zone architecture resolves this via Mechanism 2: light uses shorter paths through the bulk.
+Standard GR (4D only) predicts: Light takes the shortest path on the Firmament. No bulk paths.
+Experimental evidence: Starlight is observed to reach Earth during the first day of creation (Genesis 1:14–18), when the universe is only hours old. This is impossible if light is confined to the Firmament, because even at light speed, distant starlight cannot reach Earth. The zone architecture resolves this via Mechanism 2: light uses shorter paths through the bulk.
 Distinguishing experiment:
 - This is already observed in the form of starlight. The prediction is not about future observation, but about the interpretation of existing data.
 - Supporting evidence: Measure the isotropy of the cosmic microwave background. If light has used bulk paths to equilibrate thermal history, we expect small anisotropies at scales >1° correlated with bulk-path geometry. Current Planck satellite data is consistent with this (small-scale isotropy is predicted and observed; acoustic oscillations reflect the bulk-path scattering).
 - The predictive power is in understanding why starlight reached Earth, not in confirming that it did.
 Falsification threshold: If the cosmic microwave background shows isotropy at all scales—no structure whatsoever, not even the acoustic peak pattern observed—then the bulk-path model is weakened (though not destroyed, because the CMB anisotropies have other explanations). More directly: if we discover a mechanism other than bulk-path propagation that explains starlight arrival, this prediction loses its explanatory power.
 
-P-093: Brane Binding Energy Scale Determined by Membrane Tension
+P-093: Brane Binding Energy Scale Determined by Firmament Tension
 Predicted value: The energy required to lift matter out of the Firmament potential well is:
 
 [Equation — see print edition.]
 
-where σ approximately 6.0 times 10 to the 98 kg per m s squared is membrane tension (Vol 1, Ch 5, equation (1.5.12); Symbol_and_Constants.md), and Δη is the extra-dimensional displacement. (Updated to canonical σ per 0516_Rev_001.)
-Standard GR predicts: No brane, no binding energy. Objects are just at rest in spacetime.
+where σ ≈ 6.0×10⁹⁸ kg/(m·s²) is Firmament tension (Vol 1, Ch 5, equation (1.5.12); SymbolandConstants.md), and Δη is the extra-dimensional displacement. (Updated to canonical σ per 0516Rev001.)
+Standard GR predicts: No Firmament, no binding energy. Objects are just at rest in spacetime.
 Experimental precision required: Precision measurement of the energy density required to create a "bubble" of modified spacetime in a controlled experiment. This requires quantum field theory in curved spacetime, at energy scales beyond current accelerators, or via precision measurements of vacuum energy density.
 Distinguishing experiment:
 - Measure the energy cost of creating a localized region of negative energy density (e.g., Casimir cavity or quantum vacuum manipulation)
 - Correlate the observed energy cost with predicted σ|Δη| scaling
-- Test whether the energy cost depends on the spatial size of the region (it should scale as area, not volume, if brane mechanics apply)
-Falsification threshold: If precision measurements of vacuum energy or negative energy density show that the energy cost scales as volume (like 3D material) rather than area (like a membrane), then Mechanism 2's binding energy prediction is falsified. This would suggest that the Firmament is not a membrane, or that brane mechanics don't apply.
+- Test whether the energy cost depends on the spatial size of the region (it should scale as area, not volume, if Firmament mechanics apply)
+Falsification threshold: If precision measurements of vacuum energy or negative energy density show that the energy cost scales as volume (like 3D material) rather than area (like a membrane), then Mechanism 2's binding energy prediction is falsified. This would suggest that the Firmament is not a membrane, or that Firmament mechanics don't apply.
 
 P-094: Macroscopic Quantum Tunneling Probability is Exponentially Suppressed
-Predicted value: The quantum tunneling probability for a 1 kg object through a zone boundary (barrier height V₀ approximately 10 to the 115 J from canonical sigma squared over 2 mu; legacy value 10 to the 98 J; barrier width L approximately 10 to the -20 m) is:
+Predicted value: The quantum tunneling probability for a 1 kg object through a zone boundary (barrier height V₀ ~ 10¹¹⁵ J from canonical σ²/(2μ); legacy value 10⁹⁸ J; barrier width L ~ 10^-20 m) is:
 
 [Equation — see print edition.]
 
@@ -1918,28 +1923,28 @@ Distinguishing experiment: (Future, Stage 2+)
 Falsification threshold: If engineered neural quantum systems show no enhancement under intention, the prediction is falsified. This would suggest consciousness is not coupled to zone geometry, or that Zone 1 is not accessible to human intention.
 
 P-100: Speed of Light is a Brane Property, Not a Universal Constant
-Predicted value: The speed of light arises from membrane mechanics:
+Predicted value: The speed of light arises from Firmament membrane mechanics:
 
 [Equation — see print edition.]
 
-where σ approximately 6.0 times 10 to the 98 kg per m s squared is membrane tension and μ approximately 6.7 times 10 to the 81 kg per m cubed is membrane volume mass density (Vol 1 Ch 5 / Symbol_and_Constants.md). This can be measured directly or inferred from the relationship between gravitational and electromagnetic wave speeds. (Updated to canonical σ, μ per 0516_Rev_001.)
+where σ ≈ 6.0×10⁹⁸ kg/(m·s²) is Firmament tension and μ ≈ 6.7×10⁸¹ kg/m³ is membrane volume mass density (Vol 1 Ch 5 / SymbolandConstants.md). This can be measured directly or inferred from the relationship between gravitational and electromagnetic wave speeds. (Updated to canonical σ, μ per 0516Rev001 — μ was previously stated incorrectly as kg/m.)
 Standard GR predicts: c is a universal constant, a fundamental dimension of spacetime itself.
 Experimental precision required: Measurement of electromagnetic and gravitational wave propagation speeds in different regions of spacetime. If c varies as 1/√(local tension), we'd expect variations correlated with local geometry. High-precision comparisons of light speed in different gravitational potentials (weak vs. strong fields).
 Distinguishing experiment:
 - Use atomic clocks to measure light speed in strong gravitational fields (near neutron star or black hole, or in precision lab experiments)
 - Compare with light speed in weak fields
-- Test for correlation with local metric curvature (or equivalently, local membrane tension)
+- Test for correlation with local metric curvature (or equivalently, local Firmament tension)
 - Precision required: fractional variation δc/c ~ 10^-15
-Falsification threshold: If light speed is measured to be constant at 10^-18 fractional precision in all gravitational environments, then c is truly universal. This would falsify the brane-mechanical derivation of c and suggest a deeper, more fundamental origin for light speed.
+Falsification threshold: If light speed is measured to be constant at 10^-18 fractional precision in all gravitational environments, then c is truly universal. This would falsify the Firmament-mechanical derivation of c and suggest a deeper, more fundamental origin for light speed.
 
 P-101: Bulk Geodesic Shortcut Factor Detectable in Gravitational Signaling
-Predicted value: Gravitational signals can propagate through the bulk (higher dimensions) and arrive before the same signal propagates along the brane. The shortcut factor is:
+Predicted value: Gravitational signals can propagate through the bulk (higher dimensions) and arrive before the same signal propagates along the Firmament. The shortcut factor is:
 
 [Equation — see print edition.]
 
-where ε ~ 10^-4 to 10^-2 depending on the signal energy and the brane geometry. For a signal from a neutron star at 10,000 light-years distance, bulk gravitational waves could arrive 1–100 years earlier than brane light.
+where ε ~ 10^-4 to 10^-2 depending on the signal energy and the Firmament geometry. For a signal from a neutron star at 10,000 light-years distance, bulk gravitational waves could arrive 1–100 years earlier than Firmament light.
 Standard GR predicts: Gravitational waves propagate at c on any manifold. No shortcut.
-Experimental precision required: Long-baseline gravitational wave detection: observe a distant astrophysical event (supernova, neutron star merger) via both gravitational waves and light, measuring arrival times to microsecond precision. Compare arrival times; look for gravitational signals arriving earlier than expected from brane propagation alone.
+Experimental precision required: Long-baseline gravitational wave detection: observe a distant astrophysical event (supernova, neutron star merger) via both gravitational waves and light, measuring arrival times to microsecond precision. Compare arrival times; look for gravitational signals arriving earlier than expected from Firmament propagation alone.
 Distinguishing experiment:
 - Monitor gravitational waves from distant supernovae or neutron star mergers (via LIGO, LISA, or future detectors)
 - Monitor light from the same events (via electromagnetic telescopes)
@@ -1976,7 +1981,7 @@ Master Falsification Criteria.
 The following are high-level falsification conditions. If any of these are met through observation or experiment, the entire FTL framework (or major components of it) is significantly weakened or falsified.
 
 Condition: Gravitational waves show *only* 2 tensor modes at 10^-25 strain sensitivity. Implication: No scalar/vector modes in 6D metric. Mechanism Affected: Mechanisms 1, 2, 4. What Happens: Rigor drops to ~5%; mechanisms become speculative geometry.
-Condition: Light speed is constant to 10^-18 precision in all gravitational fields. Implication: c is truly universal, not brane property. Mechanism Affected: Mechanism 1, and foundation of FTL. What Happens: Framework loses its primary mechanism; FTL becomes impossible.
+Condition: Light speed is constant to 10^-18 precision in all gravitational fields. Implication: c is truly universal, not Firmament property. Mechanism Affected: Mechanism 1, and foundation of FTL. What Happens: Framework loses its primary mechanism; FTL becomes impossible.
 Condition: No evidence of bulk geodesic shortcuts after 100 years of GW observations. Implication: Gravitational signals don't use bulk paths. Mechanism Affected: Mechanism 2, Mechanism 4. What Happens: Starlight propagation mechanism must be entirely different.
 Condition: Dark energy is uniformly distributed to. Implication: \delta. Mechanism Affected: < 10^-8 at all scales. What Happens: Waters field is inaccessible; no local engineering possible.
 Condition: Neural quantum coherence cannot be enhanced beyond 10^-9 s even with engineered systems. Implication: Consciousness does not couple to Zone 1. Mechanism Affected: Mechanism 5. What Happens: Information FTL becomes speculative; no new capability in Stage 2.
@@ -2027,7 +2032,7 @@ where A₀ is the amplitude and L is the width of the warped region.
 
 Problem 9.2: WKB Tunneling Probability Through Zone Boundary
 
-A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the interface between Firmament and Waters Below. The potential barrier has height V₀ equals sigma squared over 2 mu. With canonical sigma 6.0 times 10 to the 98 kg per m s squared and mu 6.7 times 10 to the 81 kg per m cubed, V₀ is approximately 10 to the 115 in SI base units (legacy value 10 to the 98 J). Width L approximately 10 to the -20 m (Planck scale).
+A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the interface between Firmament and Waters Below. The potential barrier has height V₀ = σ²/(2μ). With canonical σ = 6.0×10⁹⁸ kg/(m·s²) and μ = 6.7×10⁸¹ kg/m³ (SymbolandConstants.md), V₀ ≈ 2.7×10¹¹⁵ (in SI base units, this combination evaluates to kg·m/s⁴ — the formula's literal interpretation as "energy" requires a hidden length factor; per Vol 1 Ch 5 §1.5.3, the proper barrier-height expression contains an additional factor with dimension [L], typically Leff or ηB). For the purposes of this WKB tunneling estimate we take V₀ ~ 10¹¹⁵ J as the canonical-parameter analogue of the legacy "10⁹⁸ J" value; the qualitative conclusion below (FTL forbidden by ~10⁶³ orders of magnitude) becomes stronger, not weaker. Width L ~ 10^-20 m (Planck scale). [TODO 0516Rev001: σ²/(2μ) is dimensionally inconsistent as written — author must verify the intended barrier-height formula and supply the missing length factor; the conclusion (tunneling forbidden) is robust to either interpretation.]
 
 (a) Write the WKB tunneling probability formula:
 
@@ -2037,7 +2042,7 @@ A 1 kg spacecraft attempts to quantum tunnel through a zone boundary at the inte
 
 [Equation — see print edition.]
 
-(c) Plug in numbers: m = 1 kg, ℏ = 1.05 × 10^-34 J·s, V₀ approximately 10 to the 115 J (canonical), L = 10^-20 m.
+(c) Plug in numbers: m = 1 kg, ℏ = 1.05 × 10^-34 J·s, V₀ ~ 10¹¹⁵ J (canonical σ²/(2μ); see note above — formerly quoted as 10⁹⁸ J), L = 10^-20 m.
 
 (d) Calculate log₁₀(P). How many zeros does P have in its exponent?
 
@@ -2065,7 +2070,7 @@ where h is the "wall thickness" of the bubble transition region and R is a chara
 
 Problem 9.4: Metric Deformation from Dimensional Bypass
 
-When matter crosses into the Waters Below via Mechanism 2, the induced metric on the Firmament (4D brane) is deformed. The deformation can be characterized by a warp factor:
+When matter crosses into the Waters Below via Mechanism 2, the induced metric on the Firmament (4D Firmament) is deformed. The deformation can be characterized by a warp factor:
 
 [Equation — see print edition.]
 
@@ -2214,7 +2219,7 @@ The consciousness interface (Mechanism 5) transfers information instantaneously 
 
 Problem 9.13: Experimental Design for P-100 (Speed of Light as Brane Property)
 
-Prediction P-100 states that the speed of light arises from membrane mechanics: c² = σ/μ. This is testable in principle by measuring c in different gravitational fields or using gravitational/electromagnetic wave speed comparisons.
+Prediction P-100 states that the speed of light arises from Firmament membrane mechanics: c² = σ/μ. This is testable in principle by measuring c in different gravitational fields or using gravitational/electromagnetic wave speed comparisons.
 
 (a) Design an idealized "tabletop" experiment using precision atomic clocks to measure whether c varies with local gravitational potential. You have access to:
    - Atomic clocks with 10^-18 fractional precision
@@ -2222,7 +2227,7 @@ Prediction P-100 states that the speed of light arises from membrane mechanics: 
    - Laser light paths from satellites to ground stations
    - Gravitational redshift measurement facilities
 
-(b) What is the predicted fractional change δc/c at the Earth-Moon Lagrange point L1 compared to Earth's surface, if c² = σ/μ? Use σ approximately 6.0 times 10 to the 98 kg per m s squared and μ approximately 6.7 times 10 to the 81 kg per m cubed.
+(b) What is the predicted fractional change δc/c at the Earth-Moon Lagrange point L1 compared to Earth's surface, if c² = σ/μ? Use σ ≈ 6.0×10⁹⁸ kg/(m·s²) and μ ≈ 6.7×10⁸¹ kg/m³ (SymbolandConstants.md). (Updated to canonical σ, μ per 0516Rev001.)
 
 (c) Write the null-hypothesis test: If c is constant to precision δc/c < 10^-18, then the hypothesis c² = σ/μ is falsified.
 
@@ -2261,7 +2266,7 @@ Every mechanism in this chapter makes predictions. Each prediction specifies:
 
 If observations show that:
 - Gravitational waves have only 2 tensor modes (not 6D scalar/vector modes)
-- Light speed is constant in all gravitational fields (not a brane property)
+- Light speed is constant in all gravitational fields (not a Firmament property)
 - Dark energy is uniformly distributed everywhere (not locally variable)
 - Consciousness shows no Zone 1 coupling (Bell violations don't occur)
 - ...then specific mechanisms fail, and the framework loses credibility.

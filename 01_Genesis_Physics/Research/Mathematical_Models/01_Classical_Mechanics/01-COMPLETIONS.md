@@ -2,15 +2,15 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 1:27; Proverbs 8:22-31 (Wisdom in creation, order and structure) | Genesis 1:27, Proverbs 8:22-31 |
-> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Membrane Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
-> | Parent Theory | 6D Action, Membrane Dynamics | ACTION_6D_COMPLETE.md, 6D_TO_4D_PROJECTION.md |
+> | Axiom | AXIOM 1 (6D Spacetime), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_MEMBRANE_MECHANICS.md |
+> | Parent Theory | 6D Action, Firmament Dynamics | ACTION_6D_COMPLETE.md, 6D_TO_4D_PROJECTION.md |
 > | **This Document** | **Nine classical mechanics phenomena from 6D action: Equivalence Principle, fluids, Hamiltonian/Lagrangian mechanics, conservation laws** | **01-COMPLETIONS.md** |
 > | Modern Equivalent | Classical mechanics, fluid dynamics, analytical mechanics | Convergence: reproduces Euler equations, Hamiltonian formalism, energy-momentum conservation from first principles |
 >
 > *Chain Status: COMPLETE*
 
 # Classical Mechanics Completions
-## Rigorous Derivations from 6D Membrane Action
+## Rigorous Derivations from 6D Firmament Action
 
 **Document**: 01-COMPLETIONS.md
 **Framework**: Genesis Physics / Exodus Protocol
@@ -26,7 +26,7 @@
 
 ## Executive Summary
 
-This document completes the classical mechanics derivation suite by rigorously deriving nine core phenomena from the 6D action functional. Each derivation proceeds from first principles (6D geometry, membrane dynamics, or dimensional reduction) and specifies which test ID it addresses. Dimensional analysis is explicit throughout.
+This document completes the classical mechanics derivation suite by rigorously deriving nine core phenomena from the 6D action functional. Each derivation proceeds from first principles (6D geometry, Firmament membrane dynamics, or dimensional reduction) and specifies which test ID it addresses. Dimensional analysis is explicit throughout.
 
 **Nine Core Derivations:**
 1. Equivalence Principle: m_grav = m_inertial from geodesic universality
@@ -34,7 +34,7 @@ This document completes the classical mechanics derivation suite by rigorously d
 3. Fluid Dynamics: Euler, Bernoulli, continuity equations from stress-energy conservation
 4. Hamiltonian Mechanics: Legendre transform of 4D Lagrangian from 6D action
 5. Lagrangian Mechanics: Point-particle Lagrangian L = T − V extracted from field theory
-6. Damped/Driven Oscillations: From membrane wave equation with dissipation
+6. Damped/Driven Oscillations: From Firmament membrane wave equation with dissipation
 7. Rigid Body Euler Equations: Angular momentum conservation for extended bodies
 8. N-Body Dynamics: Framework for gravitational N-body problem
 9. Work-Energy Theorem: W = ΔKE from energy conservation
@@ -60,7 +60,7 @@ $$\frac{d^2X^A}{d\tau^2} + \Gamma^A_{BC} \frac{dX^B}{d\tau} \frac{dX^C}{d\tau} =
 
 where τ is proper time and Γ^A_BC are Christoffel symbols.
 
-**For a test particle** with 4-momentum restricted to the membrane (dξ/dτ = 0, dη/dτ = 0), the geodesic equation reduces to:
+**For a test particle** with 4-momentum restricted to the Firmament (dξ/dτ = 0, dη/dτ = 0), the geodesic equation reduces to:
 
 $$\frac{d^2x^\mu}{d\tau^2} + \Gamma^\mu_{\nu\rho} \frac{dx^\nu}{d\tau} \frac{dx^\rho}{d\tau} = 0$$
 
@@ -105,18 +105,18 @@ This universality across bodies ranging from electrons (e/m = 1.76 × 10¹¹ C/k
 A fluid is modeled in Genesis Physics as a dense ensemble of topological defects on the Firmament, each carrying a small volume element δV and mass δm = ρ δV. At thermal equilibrium, these defects form a continuous medium with:
 
 - Mass density: ρ(x, t)
-- Pressure: P(x, t) = mechanical stress in the membrane
+- Pressure: P(x, t) = mechanical stress in the Firmament membrane
 - Velocity field: v(x, t) (for dynamics)
 
 ### 2.2 Pressure from Mechanical Stress Tensor
 
-The membrane stress tensor σ_ij (not to be confused with membrane tension σ) represents the momentum flux in the continuum. For a static fluid:
+The Firmament membrane stress tensor σ_ij (not to be confused with Firmament tension σ) represents the momentum flux in the continuum. For a static fluid:
 
 $$\sigma_{ij} = P(x) \delta_{ij}$$
 
 where P is the isotropic pressure (positive outward).
 
-**Physical origin**: When two neighboring fluid elements try to move, the membrane resists their relative displacement. The stress tensor encodes this resistance.
+**Physical origin**: When two neighboring fluid elements try to move, the Firmament membrane resists their relative displacement. The stress tensor encodes this resistance.
 
 **Dimensional analysis:**
 $$[P] = [Force/Area] = [MLT^{-2}/L^2] = [ML^{-1}T^{-2}]$$ ✓
@@ -221,7 +221,7 @@ where:
 
 **Derivation from stress-energy tensor**:
 
-The 4D membrane stress-energy tensor (for a perfect fluid) is:
+The 4D Firmament stress-energy tensor (for a perfect fluid) is:
 $$T^{\mu\nu} = (\rho + P/c^2)u^\mu u^\nu + P g^{\mu\nu}$$
 
 where u^μ = (γc, γv) is the 4-velocity (γ ≈ 1 for non-relativistic flow).
@@ -433,7 +433,7 @@ This is Newton's second law: F = ma.
 
 ## Part 6: Damped and Driven Oscillations from Membrane Dissipation
 
-### 6.1 Membrane Wave Equation with Dissipation
+### 6.1 Firmament Wave Equation with Dissipation
 
 A harmonic oscillator on the Firmament (e.g., a mass on a spring) obeys the equation of motion:
 
@@ -771,7 +771,7 @@ $$v = \sqrt{(k/m)} x_0$$
 | Topic | Derivation | Source | Test ID |
 |-------|-----------|--------|---------|
 | 1. Equivalence Principle | m_grav = m_inertial from geodesic universality in 6D metric | 6D geometry | EQUIV_PRINCIPLE_1 |
-| 2. Fluid Statics | Pressure, Pascal's law from continuum stress tensor | Membrane mechanics | PASCALS_LAW_4 |
+| 2. Fluid Statics | Pressure, Pascal's law from continuum stress tensor | Firmament membrane mechanics | PASCALS_LAW_4 |
 | 3. Buoyancy | Archimedes' principle from hydrostatic pressure gradient | Continuum limit | BUOYANCY_ARCHIMEDES_3 |
 | 4. Euler Equation | ∂v/∂t + (v·∇)v = −∇P/ρ + g from stress-energy conservation | 4D projection | EULER_EQUATION_5 |
 | 5. Continuity Equation | ∂ρ/∂t + ∇·(ρv) = 0 from mass conservation | Noether's theorem | CONTINUITY_EQUATION_6 |
@@ -807,7 +807,7 @@ All nine derivations verified for dimensional consistency:
 
 **Cross-references:**
 - ACTION_6D_COMPLETE.md — Master 6D action functional
-- AXIOM_MEMBRANE_MECHANICS_v2.md — Membrane tension σ and mass density μ
+- AXIOM_MEMBRANE_MECHANICS_v2.md — Firmament tension σ and mass density μ
 - 01-EXPLICIT_DERIVATIONS.md — Kepler laws, tides, collisions
 - 02-LAWS_DERIVATION.md — Energy conservation (First Law)
 

@@ -263,15 +263,15 @@ The spectrum is discrete (because the geometry is bounded), quantized by the two
 
 # Chapter 7 — The Origin of Mass
 
-### Problem 7.1 [C] ⭐ — Electroweak VEV from membrane tension
+### Problem 7.1 [C] ⭐ — Electroweak VEV from Firmament tension
 
-**Problem.** Using the Ch 7 §7.3 derivation, estimate the Higgs VEV $v$ from the membrane tension $\sigma \approx 6\times 10^{98}$ kg/(m·s²) and compare to the PDG value $v = 246.22$ GeV (Appendix B.6.4).
+**Problem.** Using the Ch 7 §7.3 derivation, estimate the Higgs VEV $v$ from the Firmament tension $\sigma \approx 6\times 10^{98}$ kg/(m·s²) and compare to the PDG value $v = 246.22$ GeV (Appendix B.6.4).
 
 **Solution.** The Ch 7 §7.3 result (schematically):
 $$v^2 \;\sim\; \frac{\sigma\,L_{\text{eff}}^2}{\hbar c}\cdot e^{-c_1 (L_{\text{eff}}/\ell_{\text{Pl}})^2}$$
 where the exponential factor comes from the Kaluza-Klein hierarchy (2.9.11). The geometrical parameters yield $v \approx 240$ GeV to the precision of $\sigma$ (which is known only to ~1 %). Agreement: within uncertainty (see B.8 summary). $\blacksquare$
 
-*Note.* The point of this problem is not to carry out a precise numerical calculation — the chain is too long for a textbook problem. The point is to see how the chain closes: membrane tension from Vol 1 → hierarchy from Vol 2 → electroweak scale in Vol 3. Each step has been done; here you trace them.
+*Note.* The point of this problem is not to carry out a precise numerical calculation — the chain is too long for a textbook problem. The point is to see how the chain closes: Firmament tension from Vol 1 → hierarchy from Vol 2 → electroweak scale in Vol 3. Each step has been done; here you trace them.
 
 ---
 
@@ -287,7 +287,7 @@ where the exponential factor comes from the Kaluza-Klein hierarchy (2.9.11). The
 
 **Problem.** The Standard Model introduces the Higgs field as an additional field with a postulated Mexican-hat potential. In the zone framework, what *is* the Higgs field, and why is its Mexican-hat potential not a postulate? Answer in ≤ 200 words, citing the specific Vol 1 / Vol 2 results that make this reduction possible.
 
-**Answer key.** The Higgs is the lowest KK mode of the Waters Above scalar $\Psi_A$ (Vol 1 Ch 5). The Mexican-hat potential arises from the Firmament boundary conditions and the membrane tension (1.5.74); the negative mass-squared term comes from minimizing the total action under the $\Psi_A\leftrightarrow\Psi_B$ coupling $G_{\text{int}}$ (1.6.15). Nothing is added by hand.
+**Answer key.** The Higgs is the lowest KK mode of the Waters Above scalar $\Psi_A$ (Vol 1 Ch 5). The Mexican-hat potential arises from the Firmament boundary conditions and the Firmament tension (1.5.74); the negative mass-squared term comes from minimizing the total action under the $\Psi_A\leftrightarrow\Psi_B$ coupling $G_{\text{int}}$ (1.6.15). Nothing is added by hand.
 
 ---
 

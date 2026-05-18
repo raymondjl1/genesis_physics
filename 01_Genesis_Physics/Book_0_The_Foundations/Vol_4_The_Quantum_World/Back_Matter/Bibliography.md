@@ -502,7 +502,7 @@ Citation format follows the convention established in Vols 2 and 3: Chicago auth
 
 **[R.10.3]** ☷ Raymond, J. L. 2026. *Foundations Vol 3: Matter and Motion*. Kindle Direct Publishing.
 
-**[R.10.4]** ☷ Genesis Physics Project. 2025. "QM from Membrane Dynamics." Research note `Research/Mathematical_Models/05_Quantum_Mechanics/05-QM_FROM_MEMBRANE_DYNAMICS.md`.
+**[R.10.4]** ☷ Genesis Physics Project. 2025. "QM from Firmament Dynamics." Research note `Research/Mathematical_Models/05_Quantum_Mechanics/05-QM_FROM_MEMBRANE_DYNAMICS.md`.
 
 **[R.10.5]** ☷ Genesis Physics Project. 2025. "QED Precision Calculations." Research note `Research/Mathematical_Models/05_Quantum_Mechanics/05-QED_PRECISION_CALCULATIONS.md`.
 
