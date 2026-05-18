@@ -644,9 +644,28 @@ The new creation described as the union of complementary principles — duality 
 
 ---
 
+## 1.7B Axiom 7 — Four Thermodynamic Phases
+
+The first six axioms describe a universe that is sustained (Axiom 1), closed against new matter creation (Axiom 2), symmetric (Axiom 3), inhabited by zone-interface agents (Axiom 4), subject to degradation after the Fall (Axiom 5), and built through duality (Axiom 6). What remains is to assert, as an independent foundational fact, that universal history is not a single regime but a sequence of *four* thermodynamic phases — Creation, Edenic, Fall, and Redemption — each with a characteristic sustaining-field strength $\kappa$ and a characteristic entropy behavior $dS/dt$.
+
+This four-phase structure is implicit in §1.2 (where we introduced $\kappa(t)$ as a piecewise function across the four phases) and §1.6 (where Axiom 5 selected one of the four phases, the Fall, as the site of $\kappa$-degradation). But the *existence of four phases* — not three, not two, not a continuous evolution — is itself an axiomatic claim about the structure of cosmic history. It cannot be derived from Axioms 1–6, and it must hold for the Fall (Axiom 5) and the Redemption to be well-defined as distinct regimes rather than arbitrary moments along a continuum.
+
+**Axiom 7 (Four Thermodynamic Phases):** Universal history divides into exactly four thermodynamic phases — Phase 1 (Creation), Phase 2 (Edenic), Phase 3 (Fall), Phase 4 (Redemption) — each defined by a characteristic sustaining-field regime $\kappa_i$ and a characteristic entropy behavior $(dS/dt)_i$:
+
+- Phase 1: $\kappa = \kappa_{\text{create}} \gg \kappa_{\text{full}}$, $dS/dt < 0$ (active ordering, structure-building).
+- Phase 2: $\kappa = \kappa_{\text{full}}$, $dS/dt = 0$ (sustained non-equilibrium steady state).
+- Phase 3: $\kappa = \kappa_{\text{partial}} = \kappa_{\text{full}}(1-\varepsilon)$, $dS/dt > 0$ (aging, decay; the observable epoch).
+- Phase 4: $\kappa = \kappa_{\text{redeem}}$ (TBD), $dS/dt \leq 0$ (restoration; eschatological).
+
+Transitions between phases are *discrete events*, not smooth flows: Day 7 (Phase 1 → 2), the Fall (Phase 2 → 3), and the future restoration (Phase 3 → 4). Within each phase, $\kappa$ is constant up to the $(1-\varepsilon)$ correction that defines Phase 3.
+
+The biblical anchoring is direct. Phase 1 corresponds to the six creation days; Phase 2 to the Edenic interval; Phase 3 to the post-Fall cosmos in which all of empirical science operates; Phase 4 to the new heavens and new earth (Revelation 21). The phases are not metaphor — they are the partition of cosmic time into thermodynamically distinct regimes, and every later chapter that invokes "the current epoch," "before the Fall," or "the new creation" is invoking a specific phase under Axiom 7.
+
+---
+
 ## 1.8 Axiom Independence Argument
 
-We now have six axioms. Before proceeding, we must verify that they are independent — that removing any one breaks the structure. If some axiom were redundant, we could eliminate it. If one could be derived from others, we would need to reorganize. Let us check by constructing counter-models.
+We now have seven axioms. Before proceeding, we must verify that they are independent — that removing any one breaks the structure. If some axiom were redundant, we could eliminate it. If one could be derived from others, we would need to reorganize. Let us check by constructing counter-models.
 
 ### Counter-Model 1: Remove Axiom 1 (No Sustaining Field)
 
@@ -672,11 +691,15 @@ Without $\kappa$-degradation, entropy does not increase post-creation. The unive
 
 Without complementary dual fields, the universe cannot generate complexity. A single scalar field cannot produce charged particles, cannot explain matter-antimatter asymmetry, cannot generate the rich spectrum of forces and interactions we observe. The Standard Model — with its quarks, leptons, gauge bosons, and Higgs — becomes inexplicable. Why three generations of fermions? Why three forces? Without duality as a creation principle, these are brute facts. **Model invalid: complexity generation impossible, particle spectrum arbitrary.**
 
+### Counter-Model 7: Remove Axiom 7 (No Phase Partition)
+
+Without the four-phase partition, the framework retains a sustaining field $\kappa$ (Axiom 1) and a degradation event (Axiom 5), but loses the well-defined regime structure in which those statements live. The Fall ceases to be a phase transition between distinct thermodynamic regimes and becomes a vague point along an arbitrary $\kappa(t)$ curve; the boundary between the Edenic steady state ($dS/dt = 0$) and the present aging cosmos ($dS/dt > 0$) becomes undefinable, because there is no axiomatic commitment that such a boundary exists. The physical failure is concrete: a continuous, smoothly-varying $\kappa(t)$ predicts that fundamental constants, decay rates, and entropy production should drift monotonically over cosmic time, in tension with the high-precision stability bounds catalogued in Table T1 (Hubble-time stability of $\alpha$, $G$, $c$ at $< 10^{-10}$). The observed pattern — long intervals of near-perfect constancy interrupted by punctuated transitions — requires a phase-partitioned $\kappa$, not a continuous one. Equivalently, Phase 4 (Redemption) becomes ad hoc rather than the fourth member of a closed set; the framework loses its eschatological closure. **Model invalid: phase boundaries undefined, constancy-of-constants pattern unexplained, Redemption phase ungrounded.**
+
 ### Conclusion
 
-Each counter-model demonstrates that removing a single axiom either renders the theory mathematically incoherent, observationally falsified, or explanatorily impoverished. All six axioms are necessary. None is redundant. Together they form a minimal, sufficient, and coherent foundation.
+Each counter-model demonstrates that removing a single axiom either renders the theory mathematically incoherent, observationally falsified, or explanatorily impoverished. All seven axioms are necessary. None is redundant. Together they form a minimal, sufficient, and coherent foundation. Postulate F (introduced in §1.10) sits outside this axiom set: it is a temporary foundational assumption awaiting derivation, not a co-equal axiom.
 
-[FIGURE: Fig 1.1.5 — Logical structure diagram. Six axioms as nodes. For each node, annotation shows what breaks if removed. Lines between nodes show interactions (not dependencies — they are independent). Axioms 1 and 2 support thermodynamic foundation. Axiom 3 bridges to symmetry structure. Axioms 4, 5, 6 address consciousness, decay, and creation respectively.]
+[FIGURE: Fig 1.1.5 — Logical structure diagram. Seven axioms as nodes. For each node, annotation shows what breaks if removed. Lines between nodes show interactions (not dependencies — they are independent). Axioms 1 and 2 support thermodynamic foundation. Axiom 3 bridges to symmetry structure. Axioms 4, 5, 6 address consciousness, decay, and creation respectively. Axiom 7 partitions cosmic history into the four phases within which the other axioms apply.]
 
 ### Metaphysical vs. Physical Content
 
@@ -692,13 +715,14 @@ A responsible reader will ask: which of these axioms make *physical* predictions
 **Axioms with primarily interpretive content (metaphysical grounding):**
 
 - **Axiom 3** provides a *reason* for observed symmetries but does not change their mathematical content. The symmetries, conservation laws, and Noether's theorem are identical whether one accepts the theological interpretation or not. However, Axiom 3 does make a weak prediction: that no fundamental symmetry of physics will lack a corresponding divine attribute. If a new exact symmetry were discovered that had no plausible theological correlate, Axiom 3 would be strained.
-- **Axiom 4** is explicitly marked PROPOSED. Its physical content — that consciousness has causal efficacy — is difficult to test with current instrumentation. We include it because the framework is incomplete without an account of the observer, but we do not claim the same empirical footing as Axioms 1, 2, 5, or 6.
+- **Axiom 4** is explicitly marked PROPOSED. Its physical content — that consciousness has causal efficacy — is difficult to test with current instrumentation. We include it because the framework is incomplete without an account of the observer, but we do not claim the same empirical footing as Axioms 1, 2, 5, 6, or 7.
+- **Axiom 7** predicts that universal history is partitioned into four discrete thermodynamic phases with characteristic $\kappa$ regimes. This is testable: the high-precision constancy of fundamental constants within Phase 3 (Table T1), and the absence of monotonic drift in decay rates over cosmic time, constrain any model in which $\kappa(t)$ varies smoothly rather than piecewise.
 
-This distinction is not a weakness. Every physical theory rests on axioms whose ultimate justification is partly philosophical. Newton's first law cannot be tested in isolation — it defines the framework within which other laws operate. Similarly, some of our axioms define the framework (Axioms 3, 4), while others make direct contact with observation (Axioms 1, 2, 5, 6).
+This distinction is not a weakness. Every physical theory rests on axioms whose ultimate justification is partly philosophical. Newton's first law cannot be tested in isolation — it defines the framework within which other laws operate. Similarly, some of our axioms define the framework (Axioms 3, 4), while others make direct contact with observation (Axioms 1, 2, 5, 6, 7).
 
 ### Testable Predictions Summary
 
-For clarity, we collect the principal testable predictions that follow from the six axioms:
+For clarity, we collect the principal testable predictions that follow from the seven axioms:
 
 | # | Prediction | Source Axiom | Test |
 |---|-----------|-------------|------|
@@ -711,7 +735,7 @@ For clarity, we collect the principal testable predictions that follow from the 
 | T7 | The dark energy equation of state is exactly $w = -1$ (cosmological constant), not $w \neq -1$ | Axiom 6 | DESI, Euclid, Roman Space Telescope |
 | T8 | No baryon or lepton number violation in any process at any energy | Axiom 2 | LHC searches, neutrinoless double-beta decay experiments |
 
-Not all of these are uniquely predicted by Genesis Physics — standard physics also predicts some of them (T4, for instance). The distinctive predictions are T1 (active maintenance rather than coincidence), T6 (unified degradation), and the *combination* of T2, T5, and T7 as a package. A theory that predicts all eight simultaneously, from six axioms, is more constrained — and therefore more falsifiable — than one that treats each as an independent empirical fact.
+Not all of these are uniquely predicted by Genesis Physics — standard physics also predicts some of them (T4, for instance). The distinctive predictions are T1 (active maintenance rather than coincidence; also constrains Axiom 7's phase-constancy claim), T6 (unified degradation), and the *combination* of T2, T5, and T7 as a package. A theory that predicts all eight simultaneously, from seven axioms, is more constrained — and therefore more falsifiable — than one that treats each as an independent empirical fact.
 
 ---
 
@@ -834,7 +858,7 @@ All formal definitions, theorems, and axioms appear in this chapter. Later chapt
 
 ## 1.10 Closing Remarks — The Constitution
 
-You have now read six axioms. They are the constitution of this book and its sequels. Like any constitution, they are not proposals to be debated in each chapter. They are permanent. All later work — the mathematics of Chapter 2, the zone manifold construction of Chapter 3, the 6D embedding of Chapter 4, and everything in Volumes 2 through 6 — rests on them.
+You have now read seven axioms, plus Postulate F. The seven axioms are the constitution of this book and its sequels. Like any constitution, they are not proposals to be debated in each chapter. They are permanent. All later work — the mathematics of Chapter 2, the zone manifold construction of Chapter 3, the 6D embedding of Chapter 4, and everything in Volumes 2 through 6 — rests on them.
 
 Let me restate them, concisely:
 
@@ -850,11 +874,13 @@ Let me restate them, concisely:
 
 **Axiom 6 (Duality):** God creates through the tensor product of two complementary fields — $\Psi_A$ (Waters Above) and $\Psi_B$ (Waters Below) — generating all complexity, interaction, and structure.
 
+**Axiom 7 (Four Thermodynamic Phases):** Universal history is partitioned into exactly four thermodynamic phases — Creation, Edenic, Fall, Redemption — each defined by a characteristic sustaining-field regime $\kappa_i$ and a characteristic entropy behavior $(dS/dt)_i$. Transitions between phases are discrete events (Day 7, the Fall, the future restoration), not smooth flows.
+
 > **⚠ SERIES BLOCKER — OP-1:** Postulate F (spin-1/2 statistics from a bosonic membrane) is an unresolved open problem. All downstream results involving fermions depend on this assumption. See Vol 6 Chapter 14, OP-1 for the research agenda.
 
 **Postulate F (Primordial Spinor Field — Open Resolution).** There exists on the Firmament $\Sigma$ an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$. This postulate is not derived from Axioms 1–6 at the current state of the framework. It is required to apply the Jackiw-Rossi index theorem (Vol 4 Ch 10 §10.5), which binds fermionic zero modes to topological vortices in $\Psi_A$ and thereby produces spin-½ particles with Pauli exclusion. Without Postulate F, the framework derives only bosonic excitations. Research is ongoing to derive $\psi$ from the bosonic structure already present, via: (a) supersymmetric extension of the Firmament membrane action, (b) Kähler spinors from the 6D bulk geometry, or (c) higher-form gauge symmetry. None of these routes is yet complete (Vol 4 Ch 10 Open Problem 10.1; GitHub Issue #1, BLOCKER). Postulate F is stated here so that all particle-physics results in Volumes 2–6 that depend on fermionic excitations are explicitly downstream of this open assumption.
 
-These six axioms, plus Postulate F, constitute the foundational structure of this series. The axioms are interdependent — remove one, and the structure fails. Postulate F is distinguished from the axioms in that it is not yet derived from the others; it is a temporary foundational assumption awaiting resolution in a future volume. The equation numbers do not change. The notation is locked. The symbols are permanent.
+These seven axioms, plus Postulate F, constitute the foundational structure of this series. The axioms are interdependent — remove one, and the structure fails. Postulate F is distinguished from the axiom set in that it is not yet derived from the axioms; it is a temporary foundational assumption awaiting resolution in a future volume, not an eighth axiom. The equation numbers do not change. The notation is locked. The symbols are permanent.
 
 Some readers will balk: "Why can't we revisit the axioms? Isn't that how science works?" Yes — at the research frontier, where we test boundaries and question assumptions. But a textbook is a consolidated account of what we know, built on stable foundation. Once the foundation is poured and inspected, you do not dig it up in every chapter. If new data should emerge that contradicts any axiom, a future volume will revise the axioms and build a new edifice. But not here.
 
@@ -866,7 +892,7 @@ Chapter 4 specifies the complete 6D embedding space — the full metric, the sig
 
 The remaining chapters expand, refine, and apply. By the end of this volume, you will be able to derive conservation laws from zone symmetries, derive the thermodynamic laws from zone separation, and understand why the universe is quantum — not as a postulate, but as a geometric necessity.
 
-But none of that is possible without the six axioms. They are the bedrock. Everything else is built on top.
+But none of that is possible without the seven axioms. They are the bedrock. Everything else is built on top.
 
 Read them. Absorb them. Let them settle. Then turn the page.
 
@@ -894,7 +920,7 @@ Chapter 2 awaits, and there is much work to do.
 
 **1.7.** Why must creation involve duality (Axiom 6) rather than a single undifferentiated field? Use the electromagnetic analogy: what would a universe with only positive charges look like? Could it support chemistry? Could it support life?
 
-**1.8.** Review the six counter-models in Section 1.8. For each, identify whether the failure is (a) mathematical incoherence, (b) observational contradiction, or (c) explanatory impoverishment. Which type of failure is most damaging to a physical theory, and why?
+**1.8.** Review the seven counter-models in Section 1.8. For each, identify whether the failure is (a) mathematical incoherence, (b) observational contradiction, or (c) explanatory impoverishment. Which type of failure is most damaging to a physical theory, and why?
 
 ### Computational Problems
 
@@ -906,7 +932,7 @@ Chapter 2 awaits, and there is much work to do.
 
 ### Challenge Problems
 
-**1.12.** *Axiom Independence Proof.* Construct a formal logical argument (using propositional logic or set-theoretic notation) demonstrating that no axiom in the set $\{A_1, A_2, A_3, A_4, A_5, A_6\}$ can be derived as a logical consequence of the remaining five. You may use the counter-model approach of Section 1.8, but formalize it: for each axiom $A_k$, exhibit a model $\mathcal{M}_k$ that satisfies $\{A_1, \ldots, A_6\} \setminus \{A_k\}$ but violates $A_k$.
+**1.12.** *Axiom Independence Proof.* Construct a formal logical argument (using propositional logic or set-theoretic notation) demonstrating that no axiom in the set $\{A_1, A_2, A_3, A_4, A_5, A_6, A_7\}$ can be derived as a logical consequence of the remaining six. You may use the counter-model approach of Section 1.8, but formalize it: for each axiom $A_k$, exhibit a model $\mathcal{M}_k$ that satisfies $\{A_1, \ldots, A_7\} \setminus \{A_k\}$ but violates $A_k$.
 
 **1.13.** *The Skeptic's Challenge.* A colleague argues: "Your Axiom 3 is unfalsifiable. Any symmetry can be retroactively assigned a divine attribute. This is not science." Write a 500-word response that (a) acknowledges the force of the objection, (b) explains what *would* falsify Axiom 3, and (c) identifies the specific experimental signature that would distinguish Axiom 3 from the standard physics interpretation of symmetry.
 

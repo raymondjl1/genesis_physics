@@ -38,7 +38,7 @@ This chapter equips the reader with every mathematical tool required for Chapter
 
 | Concept | Established In |
 |---------|---------------|
-| Six axioms of Genesis Physics | Ch 1, Sections 1.2–1.7 |
+| Seven axioms of Genesis Physics plus Postulate F | Ch 1, Sections 1.2–1.7B and §1.10 |
 | Zone hierarchy and notation (Z₀–Z₂.₂.₃) | Ch 1, Section 1.1 |
 | Master notation table (scalars, vectors, tensors, fields) | Ch 1, Section 1.1 |
 | Sustaining field κ and its four phases | Ch 1, Section 1.2 |

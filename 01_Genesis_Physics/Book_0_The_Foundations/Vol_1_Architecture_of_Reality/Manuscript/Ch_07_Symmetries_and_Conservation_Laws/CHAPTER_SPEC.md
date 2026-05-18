@@ -35,7 +35,7 @@
 
 | Concept | Established In |
 |---------|---------------|
-| Six axioms (especially Axiom 3: Symmetry from divine nature) | Ch 1 |
+| Seven axioms plus Postulate F (especially Axiom 3: Symmetries from Divine Nature) | Ch 1 |
 | Differential geometry: manifolds, connections, curvature, Lie derivatives | Ch 2 |
 | Zone manifold structure, fiber bundles, stratification | Ch 3 |
 | 6D metric, Killing vectors (1.4.32–1.4.37), isometry algebra | Ch 4 |

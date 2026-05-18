@@ -39,7 +39,7 @@
 
 | Concept | Established In |
 |---------|---------------|
-| Six axioms of Genesis Physics (especially Axiom 2: 6D Spacetime) | Ch 1, Sections 1.2–1.7 |
+| Seven axioms of Genesis Physics plus Postulate F (especially Axiom 1, downstream of which the 6D spacetime construction lives in Ch 1 §1.2) | Ch 1, Sections 1.2–1.7B and §1.10 |
 | Zone hierarchy and notation ($Z_0$ through $Z_{2.2.3}$) | Ch 1, Section 1.1 |
 | Manifolds, charts, atlases, smooth structure | Ch 2, Section 2.1 |
 | Tangent spaces, vector fields, one-forms, tensors | Ch 2, Section 2.2 |

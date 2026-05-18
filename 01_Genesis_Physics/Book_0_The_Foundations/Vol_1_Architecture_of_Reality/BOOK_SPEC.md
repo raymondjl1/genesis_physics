@@ -11,7 +11,7 @@
 
 *One sentence: What is this book FOR?*
 
-> This volume establishes the mathematical foundations of zone architecture so the reader can derive all of physics from six axioms, creating an immutable constitutional reference for all subsequent volumes.
+> This volume establishes the mathematical foundations of zone architecture so the reader can derive all of physics from seven axioms, creating an immutable constitutional reference for all subsequent volumes.
 
 ---
 
@@ -32,7 +32,7 @@
 
 | # | Criterion | How to Measure | Target |
 |---|----------|---------------|--------|
-| 1 | Reader can derive F=ma from axioms | Give to physics grad student; ask them to derive Newton's second law from the six axioms in Ch 1, using only the mathematical framework in Chs 1–4 | Successful derivation; reader can explain WHY each axiom is necessary |
+| 1 | Reader can derive F=ma from axioms | Give to physics grad student; ask them to derive Newton's second law from the seven axioms in Ch 1, using only the mathematical framework in Chs 1–4 | Successful derivation; reader can explain WHY each axiom is necessary |
 | 2 | All notation is unambiguous and permanent | Verify that every symbol in this volume appears in Appendix B with one and only one meaning, and that no later volume redefines any symbol from Vol 1 | Zero notation conflicts; full traceability into Vols 2–6 |
 | 3 | Mathematical derivations are reproducible and complete | Independent verification that every major result (zone manifold properties, Firmament mechanics, conservation laws, quantization, thermodynamics) can be reproduced by a physicist using only material from this volume | All derivations reproducible; no "it can be shown that" without actual derivation |
 | 4 | Foundation is truly foundational | Verify that no claim in Volumes 2–6 contradicts or contradicts anything in Vol 1; all downstream content traces cleanly to Vol 1 axioms | Zero cascade failures; Consistency Auditor confirms zero backward references |
@@ -47,7 +47,7 @@
 
 | Req ID | Requirement | Rationale | Priority |
 |--------|------------|-----------|----------|
-| BK-001 | Six foundational axioms (Axiom 1: Zones; Axiom 2: Boundaries; Axiom 3: Manifold Topology; Axiom 4: Fields; Axiom 5: 6D Spacetime; Axiom 6: Zone Separation) with complete formal definitions and physical justification for each | Vol 1 Ch 1 establishes the constitution. These six axioms MUST be airtight, because every subsequent volume depends on them. If any axiom is unclear or incomplete, all downstream work fails. | P0 |
+| BK-001 | Seven foundational axioms (Axiom 1: Sustaining / God as Active Sustaining Ground; Axiom 2: Creation Complete on Day 7; Axiom 3: Symmetries from Divine Nature; Axiom 4: Humanity as Zone Interface Operator (PROPOSED); Axiom 5: Fall-phase κ-degradation; Axiom 6: Duality (Waters Above / Waters Below); Axiom 7: Four Thermodynamic Phases) plus Postulate F (Primordial Spinor Field — open resolution, not a co-equal axiom), each with complete formal definitions and physical justification | Vol 1 Ch 1 establishes the constitution. These seven axioms plus Postulate F MUST be airtight, because every subsequent volume depends on them. If any axiom is unclear or incomplete, all downstream work fails. | P0 |
 | BK-002 | Rigorous mathematical preliminaries: differential geometry, topology, fiber bundles, gauge theory, group theory — taught through zone architecture, not independently | Readers need the mathematical tools to work through Chs 3–8. Teaching them through zone examples motivates both math and physics simultaneously. | P0 |
 | BK-003 | Complete formalization of zone hierarchy: zone labeling, boundary definitions, topological properties, fiber bundle structure of zone manifold | This is the geometric skeleton of everything. Must be unambiguous for Volumes 2–6 to reference it cleanly. | P0 |
 | BK-004 | Full metric specification of 6D embedding space: metric signature, isometry groups, Killing vectors, coordinate systems, explicit proof of why exactly 6 dimensions | Vol 2 performs dimensional reduction from this metric; Vol 5 derives GR from this. Must be bulletproof. | P0 |
@@ -83,7 +83,7 @@
 | MATH-003 | Equation numbering is permanent and traceable | Scheme: (Vol.Chapter.Number) — e.g., (1.3.14) = Vol 1, Ch 3, Eq 14; used consistently in all downstream volumes |
 | PHYS-001 | Physics content matches experimental knowledge where applicable | Framework matches known physics (relativity, QM, thermodynamics) at its core; differences are explicit and justified |
 | ARCH-001 | Zone architecture is precisely defined and internally consistent | Zone_Architecture.md defines canonical zone structure; this volume must match it exactly |
-| AXIOM-001 | Six axioms are formally stated and justified | Axiom_Summary_Cards.md defines canonical axiom statements; this volume's Ch 1 exposition must match exactly |
+| AXIOM-001 | Seven axioms plus Postulate F are formally stated and justified | Axiom_Summary_Cards.md defines canonical axiom statements; this volume's Ch 1 exposition must match exactly |
 | PRINCIPLE-001 | Five Principles are formalized and consistently applied | Five_Principles.md defines canonical Principle statements; Ch 8 formalization must match exactly |
 | REF-001 | All biblical references are verbatim from canonical translation and properly cited | All Genesis 1 quotations verified against ESV (or stated translation); chapter/verse references audited by Theologian |
 
@@ -110,7 +110,7 @@
 
 | Dependency | Required For | Status |
 |-----------|-------------|--------|
-| Six axioms finalized | Ch 1 (Axioms and Definitions) | MET (Axiom_Summary_Cards.md exists; axioms defined in Research/) |
+| Seven axioms plus Postulate F finalized | Ch 1 (Axioms and Definitions) | MET (Axiom_Summary_Cards.md exists; axioms defined in Research/) |
 | Zone architecture spec | Ch 3 (The Zone Manifold) | MET (Zone_Architecture.md exists) |
 | 6D metric formulation | Ch 4 (6D Embedding) | MET (AXIOM_6D_SPACETIME.md, METRIC_6D_SOLUTIONS.md exist) |
 | Firmament mechanics research | Ch 5 (Firmament Manifold) | MET (AXIOM_MEMBRANE_MECHANICS_v2.md exists) |
@@ -189,7 +189,7 @@
 
 *Describe the real-world validation test for this book:*
 
-> Give this volume to a motivated graduate physics student who has completed standard undergrad physics but has never encountered zone architecture. Set them loose with pencil, paper, and math software for 3–4 weeks. Success: they can work through every chapter, solve the problem sets, derive F=ma from the six axioms (and explain WHY it must be true), explain zone architecture to a non-physicist, and identify at least one testable prediction they could design an experiment for. Failure: they get stuck, confused, or find logical gaps.
+> Give this volume to a motivated graduate physics student who has completed standard undergrad physics but has never encountered zone architecture. Set them loose with pencil, paper, and math software for 3–4 weeks. Success: they can work through every chapter, solve the problem sets, derive F=ma from the seven axioms (and explain WHY it must be true), explain zone architecture to a non-physicist, and identify at least one testable prediction they could design an experiment for. Failure: they get stuck, confused, or find logical gaps.
 
 ### Validation Checks
 

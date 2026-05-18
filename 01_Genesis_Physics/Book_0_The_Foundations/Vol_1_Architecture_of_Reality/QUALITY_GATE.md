@@ -31,7 +31,7 @@ This volume establishes EVERYTHING. A student who finishes Volume 1 knows the co
 
 | Ch | Title | Key Deliverable |
 |----|-------|----------------|
-| 1 | Axioms and Definitions | The 5 axioms. Formal definitions. Notation. WHY these axioms. |
+| 1 | Axioms and Definitions | The 7 axioms + Postulate F. Formal definitions. Notation. WHY these axioms. |
 | 2 | Mathematical Preliminaries | Diff geometry, topology, fiber bundles — taught through zone architecture. |
 | 3 | The Zone Manifold | Rigorous geometry of the zone hierarchy. Topological properties. |
 | 4 | The 6D Embedding Space | Complete metric. Signature resolved. WHY 6 dimensions. |

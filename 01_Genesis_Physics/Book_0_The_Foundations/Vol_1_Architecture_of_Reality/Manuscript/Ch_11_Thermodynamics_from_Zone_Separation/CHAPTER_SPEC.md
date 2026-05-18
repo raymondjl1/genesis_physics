@@ -34,7 +34,7 @@
 
 | Concept | Established In |
 |---------|---------------|
-| Six axioms (especially Axiom 4: Open System, Axiom 5: Sustaining Coupling, Axiom 6: Phase Transition) | Vol 1, Ch 1 |
+| Seven axioms plus Postulate F (especially Axiom 1: Sustaining Ground / open system, Axiom 5: Fall-phase κ-degradation, Axiom 7: Four Thermodynamic Phases) | Vol 1, Ch 1 |
 | Zone manifold structure and topology | Vol 1, Ch 3 |
 | 6D metric and embedding space | Vol 1, Ch 4 |
 | Firmament as dynamical membrane with vibration modes, c² = σ/μ | Vol 1, Ch 5 |

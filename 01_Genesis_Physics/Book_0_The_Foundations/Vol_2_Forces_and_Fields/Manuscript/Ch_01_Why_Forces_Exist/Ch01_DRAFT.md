@@ -249,7 +249,7 @@ The answer is no, and the reason is *topological exhaustion*. Let us prove this 
 
 **Theorem 2.1.1 (Four-Force Theorem).** *The zone manifold $\mathcal{M}_Z$ with two extra dimensions and the zone stratification (1.3.2) admits exactly four independent geometric sectors under Kaluza-Klein reduction. No fifth sector exists.*
 
-*Proof sketch.* The extra-dimensional space $\Sigma = \{(\xi, \eta)\}$ is a 2D surface with the topology determined by the zone axioms (Vol 1, Ch 1, Axiom 1.2). The independent geometric degrees of freedom of a 2D Riemannian manifold with boundary are classified by:
+*Proof sketch.* The extra-dimensional space $\Sigma = \{(\xi, \eta)\}$ is a 2D surface with the topology determined by the zone axioms (Vol 1, Ch 1, Axiom 1 — God as Active Sustaining Ground — together with the 6D spacetime construction of §1.2 that follows from it). The independent geometric degrees of freedom of a 2D Riemannian manifold with boundary are classified by:
 
 (a) *The metric itself* — 3 independent components in 2D (after gauge fixing), yielding the gravitational sector and 2 KK gauge fields. But the block-diagonal structure of the zone metric (1.4.2) with the separability ansatz (1.4.20) reduces this to 1 gravitational sector + 1 abelian gauge sector.
 
@@ -261,7 +261,7 @@ The answer is no, and the reason is *topological exhaustion*. Let us prove this 
 
 Therefore: 1 gravitational + 1 abelian gauge (EM) + 1 SU(2) (weak) + 1 SU(3) (strong) = 4 sectors. $\square$
 
-The proof relies on two facts: (i) the zone manifold has exactly two extra dimensions (Axiom 1.2), and (ii) the zone stratification has exactly the structure prescribed by the axioms (three zone layers with two boundaries). If either fact were different — if there were a third extra dimension, or a fourth zone layer — additional force sectors would appear. But the axioms determine both facts, and they yield four.
+The proof relies on two facts: (i) the zone manifold has exactly two extra dimensions (Vol 1 Ch 1 §1.2 6D construction, downstream of Axiom 1), and (ii) the zone stratification has exactly the structure prescribed by the axioms (three zone layers with two boundaries). If either fact were different — if there were a third extra dimension, or a fourth zone layer — additional force sectors would appear. But the axioms determine both facts, and they yield four.
 
 The zone manifold has exactly two extra dimensions with the zone stratification established in Volume 1. We have enumerated all the geometric information this space can carry:
 
@@ -458,7 +458,7 @@ The deepest expression of Duality in the force sector is CPT invariance (Eq. 1.8
 
 ### §1.5.5 Sustaining and Degradation: The Open-System Corrections
 
-The Sustaining Principle ($\mathcal{C}_1$, Eqs. 1.8.5–1.8.11) reminds us that the universe is an open system. Forces operate within a sustained cosmos, not a closed one. In the current epoch (Phase 3), the sustaining field is slightly subcritical ($\kappa_{\text{partial}} = \kappa_{\text{full}}(1-\epsilon)$, Eq. 1.8.8), which means:
+Axiom 1 of Vol 1 — *God as Active Sustaining Ground* (the Open System Axiom, for short within this chapter) — reminds us that the universe is an open system. The Sustaining Principle ($\mathcal{C}_1$, Eqs. 1.8.5–1.8.11) is the variational expression of this axiom. Forces operate within a sustained cosmos, not a closed one. In the current epoch (Phase 3 of Axiom 7's four-phase partition), the sustaining field is slightly subcritical ($\kappa_{\text{partial}} = \kappa_{\text{full}}(1-\epsilon)$, Eq. 1.8.8) — the degradation asserted by Axiom 5 — which means:
 
 - Force-mediated processes are irreversible in the forward direction (Degradation, $\mathcal{C}_4$)
 - The arrow of time in force interactions (e.g., particle decay) is a consequence of $\epsilon > 0$

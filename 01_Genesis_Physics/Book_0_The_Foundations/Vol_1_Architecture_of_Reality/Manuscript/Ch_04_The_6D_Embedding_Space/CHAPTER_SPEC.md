@@ -38,7 +38,7 @@ This chapter specifies the complete 6D metric of the zone manifold — its signa
 
 | Concept | Established In |
 |---------|---------------|
-| Six axioms including Axiom 1.2 (6D Spacetime) | Vol 1, Ch 1 (§1.2) |
+| Seven axioms plus Postulate F (especially Axiom 1, with the 6D spacetime construction in Ch 1 §1.2) | Vol 1, Ch 1 (§1.2) |
 | Differential geometry: manifolds, metrics, curvature, connections | Vol 1, Ch 2 |
 | Fiber bundles, structure groups, associated bundles | Vol 1, Ch 2 (§2.6) |
 | Zone Manifold: stratified structure, topology, fiber bundle | Vol 1, Ch 3 |
@@ -59,7 +59,7 @@ This chapter specifies the complete 6D metric of the zone manifold — its signa
 
 4. **Why warp factors rather than a product metric?** — Because the zone architecture requires that the 4D geometry depends on where you are in the extra dimensions. A product metric (no warping) would make the extra dimensions invisible to 4D physics — but we need them to produce dark energy and dark matter.
 
-5. **Why is the metric block-diagonal (no off-diagonal terms)?** — Because the zone axioms require that ordinary spacetime coordinates and extra-dimensional coordinates define separate, complementary aspects of reality. Off-diagonal terms would mix temporal dynamics with eternal structure, violating Axiom 1.2.
+5. **Why is the metric block-diagonal (no off-diagonal terms)?** — Because the zone axioms require that ordinary spacetime coordinates and extra-dimensional coordinates define separate, complementary aspects of reality. Off-diagonal terms would mix temporal dynamics with eternal structure, violating the 6D spacetime construction (Ch 1 §1.2, downstream of Axiom 1) and the duality structure of Axiom 6.
 
 6. **Why separable warp factors A(ξ,η) = Aξ(ξ) + Aη(η)?** — Because the Waters Above (ξ-dominated) and Waters Below (η-dominated) are physically distinct regions with independent dynamics. Separability reflects their independence. It also makes the PDEs tractable.
 
@@ -79,7 +79,7 @@ This chapter specifies the complete 6D metric of the zone manifold — its signa
 
 | # | Derivation | Starting Point | Result | Equations |
 |---|-----------|---------------|--------|-----------|
-| 1 | 6D metric line element from zone axioms | Axiom 1.2 (Ch 1) + Zone Manifold (Ch 3) | Complete ds² with warp factors | (1.4.1)–(1.4.5) |
+| 1 | 6D metric line element from zone axioms | Ch 1 §1.2 6D spacetime construction (downstream of Axiom 1) + Zone Manifold (Ch 3) | Complete ds² with warp factors | (1.4.1)–(1.4.5) |
 | 2 | Signature proof from causality requirements | One time dimension + positive-definite spatial | (-,+,+,+,+,+) uniquely determined | (1.4.6)–(1.4.8) |
 | 3 | Isometry group computation | Metric symmetries | SO(3) × T(1) × G_extra | (1.4.9)–(1.4.15) |
 | 4 | Killing vector enumeration | Killing equation ∇_(A ξ_B) = 0 | Complete set with Lie algebra | (1.4.16)–(1.4.25) |
@@ -123,7 +123,7 @@ This chapter specifies the complete 6D metric of the zone manifold — its signa
 
 ### §4.1 The 6D Metric: Complete Specification
 - **Topic sentence:** We write down the complete 6D line element, prove its signature, and establish the warp-factored structure.
-- **"Why" entry point:** From Axiom 1.2 and the zone manifold of Ch 3.
+- **"Why" entry point:** From the 6D spacetime construction of Ch 1 §1.2 (downstream of Axiom 1) and the zone manifold of Ch 3.
 - **Key content:** Full ds², block-diagonal structure, warp factors A(ξ,η) and B(ξ,η), signature proof, dimensional analysis, determinant.
 - **Exit condition:** Reader has the master equation for the 6D geometry and understands every piece.
 
