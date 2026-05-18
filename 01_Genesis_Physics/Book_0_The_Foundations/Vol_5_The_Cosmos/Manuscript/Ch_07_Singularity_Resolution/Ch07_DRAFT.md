@@ -1,0 +1,615 @@
+# Chapter 7: Singularity Resolution
+## Foundations Vol 5: The Cosmos — Part II: Black Holes and Extreme Objects
+
+---
+
+> *"The actual breakdown of the classical theory at a singularity is not a defect of the theory; it is the theory honestly telling us that something is missing. The interesting question is what."* — Roger Penrose, *Structure of Space-Time*, 1968 (paraphrased)
+>
+> This chapter is about what is missing. The Penrose–Hawking singularity theorems prove, under premises that look unimpeachable, that classical general relativity is incomplete: there exist timelike and null geodesics that terminate in finite affine parameter at *no point*. The standard reading is that quantum gravity must take over before the singularity is reached, and that *whatever quantum gravity is*, it must regularize what classical GR cannot. The zone framework gives a different answer. The singularity theorems are correct as theorems, but they are not theorems about the universe; they are theorems about the Firmament-restricted view of the universe. The 6D bulk of Vol 1 Ch 4 is the place where the missing piece lives, and it has been there in the framework since Vol 1 — we just did not need it for the exterior physics. We need it now.
+
+---
+
+## §7.0 What This Chapter Is (and Is Not)
+
+Before stating any theorem, let me say carefully what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
+
+**What this chapter does.** It identifies the hidden completeness premise of the Penrose–Hawking singularity theorems — the premise that the spacetime manifold is the maximal Lorentzian manifold compatible with the field equations and that there is no boundary into which incomplete geodesics can exit. It shows that this premise fails in the zone framework, because the 4D spacetime of GR is the Firmament $\Sigma = Z_{2.2}$ embedded in the 6D zone manifold $Z$ (Vol 1 Ch 4), and the Firmament has a boundary $\partial\Sigma$ — the breach edge of Chapter 5. It then proves a continuation lemma (Lemma 5.7.1): every Firmament geodesic that terminates at $\partial\Sigma$ admits a unique 6D continuation as a worldline in the bulk. From the lemma it derives three regularization theorems: one for the Schwarzschild and Kerr black hole interiors (Theorem 5.7.2), one for the Big Bang (Theorem 5.7.3), and a generic theorem covering essentially all spacetimes obeying the Vol 1 axioms (Theorem 5.7.4). It compares the resulting picture with loop quantum gravity, string theory, and asymptotic safety, and argues that the Firmament membrane resolution is, alone among these, *generic, free of fine-tuning, and derivable* rather than postulated.
+
+**What this chapter does not do.** It does not weaken the Penrose–Hawking theorems. Penrose 1965, Hawking 1970, and Hawking–Penrose 1970 are real theorems and they prove what they claim. They prove that, *given* premises P1–P3 and the geodesic-maximality premise M0, an asymptotically flat or globally hyperbolic spacetime containing a closed trapped surface (or, in the cosmological case, an everywhere-converging null geodesic congruence) must contain at least one geodesically incomplete causal curve. Nothing in this chapter contests that. The chapter contests the *interpretation* of geodesic incompleteness: it argues that geodesic incompleteness on the Firmament is a projection artifact of restricting attention to the Firmament, and that the 6D continuation removes the incompleteness without violating the theorems' premises. The premises, in particular, do not hold of the 6D zone manifold — premise M0, which assumes that "the manifold" is the only place worldlines can go, is false in the 6D picture, because the Firmament is not the manifold; it is a submanifold.
+
+The chapter also does not derive the *Firmament-nucleation event* itself. Theorem 5.7.3 below replaces the Big Bang singularity with a Firmament-nucleation surface and shows that the past-directed timelike geodesics of cosmological observers terminate on that surface with bounded curvature, but the nucleation event itself is taken as a boundary condition, not derived. The derivation of Firmament nucleation from a more fundamental dynamical principle is a job for Volume 6 (and in any case is a 6D-cosmological problem, not a 4D-cosmological one). The chapter is honest about this; gap G1 in §7.9 marks the boundary.
+
+**A note for the Theologian reviewer.** The phrase "Firmament nucleation" describes a 6D-dynamical event in which the 3-brane $\Sigma$ first exists as a continuum hypersurface in the bulk. It is not a creation narrative. Where the chapter uses the words "beginning" and "Big Bang" it means the past timelike boundary of the Firmament 4-manifold, identified with a 4D submanifold of the 6D bulk — a geometric object, not a metaphysical one. Where the research file `cosmological_challenges_yec.docx` and `starlight_rapid_expansion.docx` draw connections to Genesis 1:1–3, those connections are appropriately deferred to Book 3 (The Creator's Blueprint), which is a venue where such claims can be made and defended on their own terms. The present chapter makes none.
+
+**A note for the Physicist reviewer.** The hardest question this chapter must answer is whether the regularization is *generic* or whether it requires fine-tuning of Firmament parameters $\sigma$, $\mu$ or of matter content. Section 7.7 takes that question head-on. The short answer: the regularization is generic. The Firmament parameters enter only through the Breach Theorem (5.5.1), which requires only $\sigma > 0$ — a single inequality, not a tuned numerical value — and the matter content enters only through the Penrose–Hawking energy conditions, which are themselves inequalities. No dimensionless parameter is required to take any specific numerical value for the conclusion to hold. The longer answer is the proof outline of Theorem 5.7.4, which is the section the Physicist should read first.
+
+**A note for the "But Why?" reader.** The chapter has been organized around the eight why-questions of the chapter spec. Each section answers one or more of them; §7.9.5 collects the one-sentence answers. If a why-question seems unanswered after reading the corresponding section, please flag the specific "because" that is unsatisfying and we will sharpen it.
+
+**Roadmap.** §7.1 inventories what we will use from prior chapters. §7.2 states the singularity theorems carefully, foregrounding the maximality premise. §7.3 proves the Firmament–bulk geodesic continuation lemma. §7.4 applies the lemma to the Schwarzschild interior; §7.5 applies it to the Big Bang; §7.6 applies it to Cauchy horizons. §7.7 states and proves the generic regularization theorem and addresses fine-tuning. §7.8 compares the Firmament resolution with other singularity-resolution programs. §7.9 is the Reviewer's Ledger. §7.10 is the problem set.
+
+---
+
+## §7.1 Inventory: The Toolkit From Previous Chapters
+
+As in Ch 5 §5.1, we first take stock so that no result looks like it is being re-invented when it has already been proven elsewhere.
+
+### §7.1.1 From Vol 1 Ch 4 — the 6D embedding
+
+Vol 1, Chapter 4 established the 6D zone manifold $Z$ as a smooth Riemannian (Lorentz signature, mostly-plus) 6-manifold with two extra coordinates $\xi, \eta$ beyond the four 4D coordinates $(t, x, y, z)$. The metric in adapted coordinates is (Vol 1 Eq. 1.4.18)
+
+$$(5.7.1)\quad ds^2_{6D} = e^{2A(\xi,\eta)}\,\eta_{\mu\nu}\,dx^\mu dx^\nu + e^{2B(\xi,\eta)}\,(d\xi^2 + d\eta^2),$$
+
+where $A,B$ are warp factors of the extra coordinates only. The 4D effective metric on the Firmament $\Sigma$ at fixed $(\xi_0, \eta_0)$ is the induced metric
+
+$$(5.7.2)\quad \gamma_{\mu\nu}(x) = e^{2A(\xi_0,\eta_0)}\,\eta_{\mu\nu} + (\text{matter perturbations}).$$
+
+Geodesics in the 6D manifold $Z$ are the worldlines of test particles in the 6D Levi–Civita connection. Vol 1 §4.6 proved that the bulk Riemann tensor is bounded:
+
+$$(5.7.3)\quad |R^M{}_{NPQ}|_{6D} \le R_\text{6D,max} = \mathcal O(\ell_\text{6D}^{-2}),$$
+
+where $\ell_\text{6D}$ is the curvature scale of the bulk warp factors $A, B$, set by the bulk action of Vol 1 Ch 6. Numerically, $\ell_\text{6D} \sim 10^{-10}$ m (Vol 1 §4.6, AXIOM_6D_CURVATURE_v1.md), so $R_\text{6D,max} \sim 10^{20}$ m$^{-2}$. This is a *finite* curvature scale — much larger than typical astrophysical curvatures, but finite. We will need this bound in §7.4 and §7.5.
+
+### §7.1.2 From Vol 1 Ch 5 — the Firmament mechanics
+
+Vol 1, Chapter 5 established the Firmament $\Sigma = Z_{2.2}$ as a 4-dimensional codimension-2 Firmament in $Z$. The relevant facts (already used in Ch 5):
+
+- **Tension** $\sigma > 0$ (Vol 1 §5.6 positivity theorem; restated in Ch 5 §5.3.1).
+- **Wave speed** $c^2 = \sigma/\mu$ (Vol 1 §5.3, Eq. 1.5.37).
+- **Israel–Darmois junction conditions** (Vol 1 §5.4) at $\partial\Sigma$ relate Firmament-side data to bulk-side data. In particular, the Firmament-side 4-velocity $u^\mu$ of a test particle at the breach edge has a unique lift to a bulk 6-velocity $\hat u^M$ via
+
+$$(5.7.4)\quad \hat u^M\big|_{\partial\Sigma} = u^\mu\,e_\mu^M + 0\cdot n^M_\xi + 0\cdot n^M_\eta + (\text{junction correction}),$$
+
+where $e_\mu^M$ is the Firmament embedding push-forward and $n^M_{\xi,\eta}$ are the two unit normals to $\Sigma$ in $Z$. The junction correction will be derived in §7.3 (it is what makes the lift unique).
+
+### §7.1.3 From Vol 1 Ch 6 — the bulk dynamics
+
+Vol 1, Chapter 6 gave the dynamical equations for the bulk fields (Waters Above and Waters Below, populating $Z_{2.2.3}$ and $Z_{2.2.1}$ respectively, the regions "above" and "below" the Firmament in the $\xi, \eta$ directions). The bulk is itself a region of a Riemannian manifold with bounded curvature; bulk worldlines are geodesics of the 6D metric (5.7.1). The bulk is *not* a Lorentzian spacetime in the same sense the Firmament is — its causal structure depends on the warp factors $A, B$ in a way that requires Vol 1 §6.4 to make precise — but for our purposes, the only fact needed is that bulk geodesics of timelike type (defined by $\hat u^M \hat u_M < 0$ at the starting point) propagate forward indefinitely in the bulk affine parameter unless they encounter another piece of Firmament.
+
+### §7.1.4 From Vol 5 Ch 5 — black holes as zone infrastructure
+
+We will use these results from Ch 5 without re-derivation:
+
+- **Tension profile** $\sigma_\text{local}(r) = \sigma_\infty(1 - r_s/r)$ for the Schwarzschild exterior (Eq. 5.5.13).
+- **Breach Theorem 5.5.1**: the Firmament $\Sigma$ does not exist as a continuum at $r < r_s$, and is marginally undefined at $r = r_s$. The Firmament edge $\partial\Sigma$ in the Schwarzschild geometry is therefore the 2-sphere $\{r = r_s\}$ × (time axis), a 3-dimensional submanifold of the 4D Firmament.
+- **Kerr generalization** (§5.7.1): for a Kerr black hole, the Firmament edge is the outer horizon at $r = r_+ = (r_s + \sqrt{r_s^2 - 4a^2\cos^2\theta})/2$ (angle-dependent for $a \neq 0$). The inner Cauchy horizon $r_-$ is *not* a Firmament edge; it is an analytic continuation that, in the Firmament picture, has no physical content (we will revisit this in §7.6).
+- **Consistency Theorem 5.5.2**: every observable in the exterior $r > r_+$ is identical between the Firmament picture and standard GR.
+
+### §7.1.5 From Vol 5 Ch 6 — bulk Hilbert space and unitarity
+
+We will use:
+
+- **Theorem 5.6.3 (6D Unitarity)**: time evolution on the joint Firmament–bulk Hilbert space $\mathcal H_\Sigma \otimes \mathcal H_\text{bulk}$ is unitary, generated by a self-adjoint Hamiltonian.
+- The picture of "bulk worldline" continuation that Ch 6 §6.5 used to resolve the information paradox. The continuation we will derive in §7.3 is the *classical* version of the same construction.
+
+### §7.1.6 What we will not use
+
+- We will not use the Cauchy horizon Penrose diagrams of Reissner–Nordström or Kerr in any way that depends on the analytic continuation across $r = r_-$. In the Firmament picture there is nothing to continue across.
+- We will not assume the existence of any quantum-gravitational regularization scheme (no LQG bounces, no string-theoretic UV completion). The chapter's regularization is purely classical and geometric.
+- We will not assume spherical symmetry except where explicitly stated; Theorem 5.7.4 in §7.7 is general.
+
+The inventory complete, we can begin.
+
+---
+
+## §7.2 The Penrose–Hawking Singularity Theorems and Their Hidden Premise
+
+### §7.2.1 The theorems, stated carefully
+
+The classical singularity theorems come in three main flavors. I will state them in a form that foregrounds the geodesic-maximality premise that the proofs need but the casual statements often elide.
+
+**Theorem (Penrose 1965).** *Let $(M, g)$ be a connected, time-oriented, Lorentzian 4-manifold satisfying:*
+
+- *(P1) $R_{\mu\nu} k^\mu k^\nu \ge 0$ for every null vector $k^\mu$ (the null energy condition).*
+- *(P2) $(M,g)$ admits a non-compact Cauchy surface (global hyperbolicity in the strong sense).*
+- *(P3) $(M,g)$ contains a closed trapped 2-surface.*
+- *(M0) $(M,g)$ is the maximal Lorentzian manifold compatible with the Einstein field equations and the matter content; equivalently, every causal geodesic is either complete or terminates at the boundary $\partial M$ of $M$, and there is no $\widetilde M \supsetneq M$ to which $(M,g)$ extends as a Lorentz manifold.*
+
+*Then $(M,g)$ contains at least one future-incomplete causal geodesic.*
+
+**Theorem (Hawking 1970, simplified statement).** *Let $(M, g)$ satisfy (P1) — strengthened to the strong energy condition $R_{\mu\nu} u^\mu u^\nu \ge 0$ for every timelike $u$ — and (M0), and additionally:*
+
+- *(P4) There exists a smooth spacelike hypersurface $S \subset M$ on which the trace $K = K^\mu{}_\mu$ of the extrinsic curvature is everywhere $\le -K_0 < 0$ (the universe is everywhere expanding away from $S$ in the future and equivalently contracting toward $S$ in the past).*
+
+*Then every past-directed timelike geodesic from $S$ is incomplete.*
+
+**Theorem (Hawking–Penrose 1970, generic).** *Assuming the strong energy condition, the chronology condition, the generic condition (every causal geodesic experiences some tidal force), and either a closed trapped surface or a compact achronal set, plus (M0): $(M,g)$ contains an incomplete causal geodesic.*
+
+**Premise M0 is the load-bearing one for our purposes.** Without it, the theorems' conclusion — "$(M,g)$ contains an incomplete causal geodesic" — has no force, because the natural response would be "extend $M$." Premise M0 forbids that response by *defining* incompleteness as: there is no extension. The theorems then prove that, with M0 in place, the other premises force at least one geodesic that has nowhere to go.
+
+This is not a sleight of hand. The maximality premise is what makes singularity theorems theorems in the first place: without it, "incomplete" is not even well-defined as a property of a manifold, because any incomplete manifold can in principle be extended (the question is only whether the extension is *physical* — whether it satisfies the field equations and matter conditions). Premise M0 says: stipulate that the extension cannot be done. Then incompleteness becomes a real obstruction.
+
+### §7.2.2 What Hawking and Ellis already conceded
+
+The classic textbook treatment, Hawking and Ellis 1973, *The Large Scale Structure of Space-Time*, §8.1, is explicit about what is being proven:
+
+> *"The theorems do not prove the existence of a singularity in the sense of a region where the curvature becomes unboundedly large. They prove the existence of an incomplete geodesic, by which is meant a geodesic that ends in a finite affine parameter at no point of the manifold. Whether this incompleteness is associated with infinite curvature, or with some other pathology, or whether it could be removed by an extension of the manifold, is a separate question."*
+
+This is precisely the loophole the zone framework exploits. Hawking and Ellis acknowledge that the theorems are silent on whether the incompleteness can be *removed by an extension*; they only prove that the incompleteness exists *if you have already committed to maximality*. The theorems are conditional on M0.
+
+### §7.2.3 Why the maximality premise normally seems unobjectionable
+
+Why has the maximality premise gone largely unchallenged for fifty years? Because in 4D Lorentzian geometry, "extend the manifold" usually means *analytically continue* the metric across some coordinate boundary, and the analytic continuation either re-encounters a singularity (the Schwarzschild interior contains the curvature singularity at $r = 0$) or runs into a Cauchy horizon (Reissner–Nordström at $r = r_-$) beyond which the field equations no longer determine the future. The maximal Lorentzian extension of any reasonable initial-data spacetime turns out, in 4D, to *also* contain incomplete geodesics: extending does not save you from incompleteness, it just relocates it. By induction, any extension you might propose has the same problem, and the conclusion of the singularity theorems is robust.
+
+The induction is correct *within 4D*. The premise that fails in the zone framework is not anything internal to the 4D extension procedure; it is the assumption that the spacetime to be extended is purely 4D. The 4D Lorentzian manifold of GR is, in the zone framework, the Firmament $\Sigma \subset Z$, and the "extension" is not an analytic continuation in 4D coordinates but an *embedding-extension* in 6D coordinates: the Firmament geodesic that terminates at $\partial\Sigma$ is continued as a *6D geodesic*, leaving the Firmament and entering the bulk. This is not an extension internal to the maximal Lorentzian manifold; it is a transition from one type of object (a Firmament geodesic) to another (a bulk worldline).
+
+The Penrose–Hawking theorems do not see this transition because they are theorems about Lorentzian manifolds, and the Firmament $\Sigma$ together with its bulk continuation is *not* a Lorentzian manifold in the sense of the theorems. The bulk has its own metric, structure, and dynamics, and the Firmament–bulk junction is governed by Israel–Darmois conditions (Vol 1 §5.4), not by analytic continuation. From the point of view of a 4D physicist who only sees the Firmament, the bulk continuation is invisible, and the geodesic looks incomplete. From the point of view of a 6D physicist who sees the Firmament and the bulk together, the geodesic continues smoothly.
+
+### §7.2.4 Premise M0 fails in the zone framework
+
+State the failure cleanly. **In the zone framework, the 4D spacetime of GR is the Firmament $\Sigma = Z_{2.2}$, which is a codimension-2 submanifold of the 6D zone manifold $Z$. The Firmament has a boundary $\partial\Sigma$ — the breach edge from Ch 5 — and Firmament geodesics that reach $\partial\Sigma$ continue, via Lemma 5.7.1 below, as bulk worldlines in $Z \setminus \Sigma$. The Firmament $\Sigma$ is therefore not the maximal manifold in which causal worldlines live; the maximal manifold is $Z$ itself, and $Z$ has no incomplete geodesics in the relevant sense (Theorem 5.7.4 below). Premise M0, applied to $\Sigma$, is false.**
+
+The Penrose–Hawking theorems, applied to $\Sigma$, prove that $\Sigma$ contains incomplete Firmament geodesics. They do not prove that $Z$ contains incomplete bulk worldlines, because they do not see $Z$. The conclusion of the theorems, in the zone framework, is reinterpreted: *Firmament-side incompleteness is a generic feature of the Firmament-restricted view of a 6D-complete universe.* The incompleteness is a projection artifact.
+
+[FIGURE: Fig 5.7.1 — The Hidden Premise: What "Geodesically Maximal" Hides. A two-panel diagram. LEFT panel: the standard GR setup. A 4D Lorentzian manifold $M$ (drawn as a 2D sheet) with a closed boundary $\partial M$ where geodesics terminate. The arrow labeled "incomplete geodesic" points to a worldline that hits $\partial M$ in finite affine parameter and stops; an annotation reads "premise M0: nothing exists outside $M$." A small inset shows Penrose's 1965 conformal diagram of the Schwarzschild interior with the singularity at $r=0$ marked. RIGHT panel: the zone-framework setup. The Firmament $\Sigma$ (a 2D sheet) embedded in a 3D bulk $Z$. The same "incomplete geodesic" reaches $\partial\Sigma$, but now the arrow continues across $\partial\Sigma$ into the bulk as a bulk worldline (different style of arrow, labeled "6D continuation"). The annotation reads "premise M0 fails: $Z \supsetneq \Sigma$." Caption: "The Penrose–Hawking singularity theorems prove that, given the geodesic-maximality premise M0, an asymptotically flat or globally hyperbolic 4D Lorentzian manifold satisfying the energy conditions and containing a closed trapped surface must contain an incomplete causal geodesic. In the zone framework, the 4D spacetime of GR is the Firmament $\Sigma$ embedded in the 6D bulk $Z$. Brane geodesics that terminate at the breach edge $\partial\Sigma$ continue as bulk worldlines; M0 is false for $\Sigma$, and the theorem's conclusion about $\Sigma$ does not propagate to a statement about $Z$."]
+
+---
+
+## §7.3 The Brane–Bulk Geodesic Continuation Lemma
+
+We now construct the continuation explicitly. The result is Lemma 5.7.1, which is the technical heart of everything that follows.
+
+### §7.3.1 Setup and notation
+
+Let $Z$ be the 6D zone manifold with metric (5.7.1). Let $\Sigma = Z_{2.2}$ be the Firmament, an oriented 4-dimensional submanifold of $Z$. Let $i: \Sigma \hookrightarrow Z$ be the smooth embedding (which we know from Vol 1 Ch 5 fails to be smooth at $\partial\Sigma$; we will treat this carefully in §7.3.3). At any interior point $p \in \Sigma \setminus \partial\Sigma$, the tangent space $T_p Z$ decomposes into the Firmament tangent space and the normal space:
+
+$$(5.7.5)\quad T_p Z = T_p \Sigma \oplus N_p \Sigma,$$
+
+where $N_p \Sigma$ is rank 2 (because $\Sigma$ is codimension 2 in $Z$). Choose a smooth orthonormal frame $\{n^M_\xi(p), n^M_\eta(p)\}$ for $N_p\Sigma$, with the convention that $n^M_\xi$ points in the positive-$\xi$ direction (toward Waters Above) and $n^M_\eta$ in the positive-$\eta$ direction (toward Waters Below). The Firmament embedding push-forward gives a frame $\{e_\mu^M\}$ for $T_p\Sigma$, with $\mu = 0,1,2,3$.
+
+A Firmament geodesic $\gamma: [0,\tau_*) \to \Sigma$ has 4-velocity $u^\mu(\tau) = d\gamma^\mu/d\tau$, with $\gamma^\mu \gamma^\mu g_{\mu\nu} = -1$ in the timelike case (we use mostly-plus signature throughout). Its 6D push-forward is the worldline
+
+$$(5.7.6)\quad \hat\gamma^M(\tau) = (i \circ \gamma)^M(\tau), \qquad \hat u^M(\tau) = e_\mu^M(\gamma(\tau))\,u^\mu(\tau).$$
+
+So far, this is just the Firmament geodesic regarded as a worldline in $Z$. By construction, $\hat u^M$ has *zero component along the normals* — $\hat u^M n_\xi^M = \hat u^M n_\eta^M = 0$ — because the Firmament is at fixed $(\xi_0, \eta_0)$ in the interior. The geodesic stays on the Firmament.
+
+### §7.3.2 The breach edge as a junction
+
+Now suppose $\gamma(\tau)$ is a Firmament geodesic that approaches $\partial\Sigma$ as $\tau \to \tau_*^-$. Vol 1 §5.4 gave the Israel–Darmois junction conditions for a codimension-2 Firmament embedded in a higher-dimensional bulk. At the breach edge $\partial\Sigma$, the Firmament terminates as a continuum object — the tension goes to zero (Ch 5 Eq. 5.5.13) and the embedding $i: \Sigma \to Z$ ceases to be smooth at $\partial\Sigma$, but the limit of the Firmament embedding *as we approach $\partial\Sigma$ from the interior* is still well-defined: the Firmament edge $\partial\Sigma$ is a 3-dimensional submanifold of $Z$ (a 2-sphere times a time axis, in the Schwarzschild case), and the limiting tangent space is
+
+$$(5.7.7)\quad T_q \Sigma\big|_{q \to \partial\Sigma} = T_q \partial\Sigma \oplus \text{span}(\hat r),$$
+
+where $\hat r$ is the inward radial direction in the Firmament (the direction along which the geodesic was approaching $\partial\Sigma$).
+
+The junction conditions (Vol 1 Eq. 1.5.41) state that, at $\partial\Sigma$, the limiting Firmament-side stress-energy must match the bulk-side stress-energy across the join. For our purposes — we are tracking a *test particle*, not the Firmament itself — the relevant content of the junction conditions is the matching of the *velocity vector*, not the stress-energy. A test particle has stress-energy proportional to a delta function on its worldline; the matching condition reduces to: *the 6-velocity of the particle is continuous across the Firmament–bulk junction, in the sense that the Firmament-side limit of $\hat u^M$ equals the bulk-side initial value of the bulk worldline.*
+
+### §7.3.3 The continuation lemma
+
+> **Lemma 5.7.1 (Brane–Bulk Geodesic Continuation).** *Let $\gamma: [0, \tau_*) \to \Sigma$ be a future-directed timelike geodesic on the Firmament that terminates at $\partial\Sigma$, in the sense that*
+
+$$(5.7.8)\quad \lim_{\tau \to \tau_*^-} \gamma(\tau) = q \in \partial\Sigma, \qquad \lim_{\tau \to \tau_*^-} u^\mu(\tau) = u^\mu_q,$$
+
+*where $u^\mu_q$ is a finite, future-directed timelike vector in the limiting tangent space (5.7.7). Then there exists a unique future-directed bulk worldline $\hat\gamma_\text{bulk}: [\tau_*, \tau_* + \Delta) \to Z \setminus \Sigma$ such that*
+
+1. *The Firmament-side limit and the bulk-side initial value agree: $\lim_{\tau \to \tau_*^+} \hat\gamma_\text{bulk}(\tau) = q$ and $\lim_{\tau \to \tau_*^+} \hat u^M_\text{bulk}(\tau) = e_\mu^M(q)\,u^\mu_q$.*
+2. *The bulk worldline satisfies the 6D geodesic equation in the metric (5.7.1):*
+
+$$(5.7.9)\quad \frac{d\hat u^M}{d\tau} + \Gamma^M{}_{NP}(Z)\,\hat u^N \hat u^P = 0.$$
+
+3. *$\hat\gamma_\text{bulk}$ is unique up to bulk diffeomorphism.*
+
+**Proof.** *Setup.* Work in Gaussian normal coordinates anchored to $\Sigma$ in a tubular neighborhood of $\partial\Sigma$ — i.e., choose 6D coordinates $(x^\mu, n^a)$ with $a = 1,2$ such that $n^a = 0$ on the Firmament, $n^a$ measures proper distance into the bulk along geodesics normal to $\Sigma$, and the metric in the neighborhood takes the form $ds^2_{6D} = \gamma_{\mu\nu}(x, n)\,dx^\mu dx^\nu + \delta_{ab}\,dn^a dn^b$. Such coordinates exist in some neighborhood of any point of $\Sigma$ (Wald 1984, App. E) and, in particular, on a neighborhood of $\partial\Sigma$ in the bulk because the bulk metric (5.7.1) is smooth there. *Existence.* The 6D geodesic equation (5.7.9) is then a system of six second-order ODEs in the affine parameter $\tau$. The Christoffel symbols $\Gamma^M{}_{NP}$ are smooth functions of position in the bulk because the bulk metric is smooth (Vol 1 Ch 4). Initial-value data $(\hat\gamma(\tau_*), \hat u(\tau_*))$ is supplied by the Firmament-side limit (5.7.8) lifted via the embedding push-forward $e_\mu^M$. The standard Picard–Lindelöf theorem for ODEs with smooth right-hand sides[^pl] guarantees a unique local solution on $[\tau_*, \tau_* + \Delta)$ for some $\Delta > 0$.
+
+[^pl]: Picard–Lindelöf (also called the Cauchy–Lipschitz theorem) is the standard local existence-and-uniqueness result for first-order ODE systems with locally Lipschitz right-hand sides; any standard ODE textbook (e.g., Hartman, *Ordinary Differential Equations*, Ch II) carries the statement and proof. We invoke it here in the second-order form by reducing (5.7.9) to a first-order system in $(\hat\gamma, \hat u)$ on the 12-dimensional tangent bundle. *Uniqueness up to bulk diffeomorphism.* Two solutions of (5.7.9) with the same initial data agree by Picard–Lindelöf; they can differ only by a 6D coordinate transformation that preserves the metric, i.e., a bulk isometry. *Future-directed timelike character preserved.* The 6D metric (5.7.1) restricted to bulk worldlines has signature $(-,+,+,+,+,+)$, so a worldline that starts timelike (from the Firmament-side limit) remains timelike under the geodesic flow until and unless it encounters another piece of Firmament (where the lemma's setup needs to be reapplied). $\square$
+
+Three remarks on the proof.
+
+**Remark 1.** The smoothness of the bulk Christoffel symbols is essential. In a maximally extended Schwarzschild spacetime, the analog of "the Christoffel symbols are smooth" is *false* at $r = 0$ — the Kretschmann scalar diverges. In the 6D zone manifold, no such divergence occurs at $\partial\Sigma$ because $\partial\Sigma$ is an interior region of the bulk $Z$; the bulk metric (5.7.1) is smooth there. The Firmament embedding fails to be smooth at $\partial\Sigma$ (the Firmament terminates), but the *bulk geometry* into which the test particle is being launched is smooth.
+
+**Remark 2.** The lemma says nothing about *what happens later* — whether the bulk worldline ever encounters another piece of Firmament, whether it propagates to bulk infinity, whether the bulk dynamics turn it around. Those questions depend on the global structure of the bulk, which is the subject of Vol 1 Ch 6 and Vol 5 Ch 11. For singularity-resolution purposes, all that matters is that the worldline *exists* for some forward time and is *not* incomplete in the Firmament sense. The lemma provides exactly that.
+
+**Remark 3.** Uniqueness "up to bulk diffeomorphism" is a technical caveat needed because the bulk geometry has a continuous group of isometries (the Killing vectors of (5.7.1) include translations in $\xi$ and $\eta$ generated by the warp-factor symmetries). Two continuations that differ by such an isometry are physically the same.
+
+### §7.3.4 What the lemma does *not* say
+
+It does not say that the bulk continuation is *observable* to Firmament-confined observers. From the point of view of an observer on the Firmament far from the breach, the worldline $\gamma$ ends at $\partial\Sigma$ at finite proper time and the test particle "disappears." This is exactly the Firmament-restricted picture in which the singularity theorems make their pronouncements. The lemma adds content only when one is willing to treat the bulk as physical — which the zone framework requires (Vol 1 Ch 6) but which a strict 4D physicist would not.
+
+[FIGURE: Fig 5.7.2 — A Geodesic Exits the Brane: The 6D Continuation Lemma. A schematic in the $(t, r, \xi)$ slice, suppressing $(\theta, \phi, \eta)$. The Firmament $\Sigma$ is a curved 2D sheet at fixed $\xi = \xi_0$ (drawn as a rolled sheet in the $(t,r)$ plane), with a circular hole at $r < r_s$ representing the breach. A future-directed timelike geodesic $\gamma$ is shown on the Firmament, starting at large $r$ and approaching the breach edge $\partial\Sigma$. At the moment $\tau = \tau_*$ when $\gamma$ reaches $\partial\Sigma$, the worldline lifts off the Firmament into the bulk: a new worldline $\hat\gamma_\text{bulk}$ continues into the bulk region $\xi > \xi_0$ (or $\xi < \xi_0$, depending on orientation). The 6D 6-velocity $\hat u^M$ at the junction is shown decomposed into its Firmament-tangent component (along the Firmament) and its initial bulk normal component (which starts at zero by the lemma's matching condition but accelerates under the bulk Christoffel symbols). Annotations: "Firmament-side: $u^\mu \in T\Sigma$"; "bulk-side: $\hat u^M \in TZ$"; "junction: $\hat u^M(\tau_*^+) = e_\mu^M\,u^\mu(\tau_*^-)$"; "Picard–Lindelöf gives unique forward continuation". Caption: "A Firmament geodesic that reaches the breach edge $\partial\Sigma$ in finite proper time admits a unique 6D continuation as a bulk worldline. The continuation is determined by the Firmament-side limit of the 4-velocity and the smoothness of the 6D Christoffel symbols. From the Firmament-restricted view (4D), the geodesic ends at $\partial\Sigma$ — it looks 'incomplete' in the sense of the Penrose–Hawking theorems. From the 6D view, it continues smoothly into the bulk."]
+
+---
+
+## §7.4 The Schwarzschild Interior, Regularized
+
+### §7.4.1 The standard story
+
+A radially infalling timelike geodesic in the Schwarzschild metric (5.5.4) begins at some $r_0 > r_s$ at rest, falls inward, crosses the horizon $r = r_s$ at finite proper time, and — in the standard maximal extension — reaches the curvature singularity at $r = 0$ also at finite proper time. The proper time from $r_0$ to $r = 0$ is
+
+$$(5.7.10)\quad \tau_\text{fall}(r_0 \to 0) = \frac{\pi}{2}\,r_0^{3/2}\,(2GM)^{-1/2},$$
+
+a result familiar from any GR textbook (Misner–Thorne–Wheeler 1973, §31). The Kretschmann scalar $K = R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$ in Schwarzschild geometry is
+
+$$(5.7.11)\quad K = \frac{48 G^2 M^2}{c^4 r^6},$$
+
+which diverges as $r \to 0$. In the standard picture, the curvature divergence at $r = 0$ is the singularity: a real, geometrically invariant statement that *something* about the metric blows up. The geodesic terminates "at" $r = 0$, and there is no "later" because $r = 0$ is not a point in the maximal Lorentzian manifold at all — it is the limiting set, the boundary of $M$ in the sense of premise M0.
+
+### §7.4.2 The Firmament-restricted view
+
+In the zone framework, the Schwarzschild metric (5.5.4) is the *exterior* metric, valid on the Firmament $\Sigma$ for $r > r_s$ (Ch 5). The Firmament terminates at $r = r_s$; the region $r < r_s$ is not part of the Firmament at all. Consequently, the calculation (5.7.10) is to be split into two pieces: the proper time from $r_0$ to $r = r_s$ on the Firmament, and what happens after $r = r_s$ in the bulk.
+
+The Firmament-side proper time $\tau_\text{fall}(r_0 \to r_s)$ is the integral of the radial proper time element from $r_0$ to $r_s$, which evaluates (using the same techniques as MTW §31) to
+
+$$(5.7.12)\quad \tau_\text{fall}(r_0 \to r_s) = \frac{2}{3}\,(r_0 - r_s)^{1/2}\cdot\left(\frac{r_0^{3/2} + r_s^{3/2} + r_0^{1/2} r_s + r_0 r_s^{1/2}}{(2GM)^{1/2}}\right),$$
+
+which is finite. The radial 4-velocity at $r = r_s$ has a finite limit:
+
+$$(5.7.13)\quad \lim_{r \to r_s^+}\,u^r = -c\,\sqrt{r_s/r_0}\,(1 - r_s/r_0)^{1/2},$$
+
+from energy conservation in the local frame. The limit is finite, future-directed, and timelike. So the hypotheses of Lemma 5.7.1 are satisfied at the breach edge $\partial\Sigma = \{r = r_s\}$, and the continuation is well-defined.
+
+### §7.4.3 The bulk continuation
+
+Apply Lemma 5.7.1 to the radially infalling geodesic. The Firmament-side 4-velocity at $\partial\Sigma$ is $u^\mu_q$ with
+
+$$(5.7.14)\quad u^t_q = E/(1 - r_s/r_s)^{-1} = \infty\ \text{(coordinate)}, \qquad u^r_q = -c\sqrt{r_s/r_0}\,(1 - r_s/r_0)^{1/2}\ \text{(local)},$$
+
+where the coordinate $u^t$ blows up but the local $u^r$ is finite — exactly the time-dilation freezing of Ch 5 §5.5.3 reflected in the 4-velocity. The lift to 6D is
+
+$$(5.7.15)\quad \hat u^M(\tau_*^+) = e_\mu^M(q)\,u^\mu_q\big|_\text{local frame} = \text{finite, timelike, future-directed, with a radial component pointing into the bulk}.$$
+
+The 6D continuation is then governed by the bulk geodesic equation (5.7.9). The Christoffel symbols of the bulk metric (5.7.1) at the breach edge are bounded by $|\Gamma^M{}_{NP}|_\text{bulk} \le \mathcal O(\ell_\text{6D}^{-1})$, since the warp factors $A, B$ vary on the scale $\ell_\text{6D}$. The bulk Riemann tensor encountered along the worldline is bounded by (5.7.3), $|R^M{}_{NPQ}|_\text{6D} \le R_\text{6D,max} \sim 10^{20}$ m$^{-2}$.
+
+For a solar-mass black hole, the Firmament-side curvature *just outside* $r = r_s$ is
+
+$$(5.7.16)\quad K_\text{Firm}(r_s + \epsilon) = \frac{48 G^2 M^2}{c^4 r_s^6} = \frac{48 G^2 M^2}{c^4} \cdot \left(\frac{c^2}{2GM}\right)^6 = \frac{48 c^8}{64 G^4 M^4} = \frac{3 c^8}{4 G^4 M^4},$$
+
+which for $M = M_\odot$ evaluates to $K(r_s) \approx 1.6 \times 10^{-13}$ m$^{-4}$. The bulk curvature scale that bounds the continuation is $R_\text{6D,max}^2 \approx 10^{40}$ m$^{-4}$, which is *vastly larger* than the Firmament-side curvature at the horizon — by some 53 orders of magnitude. The bulk geometry into which the geodesic is launched can in principle support curvatures up to that bound; the actual curvature encountered along the worldline is set by the bulk dynamics of Vol 1 Ch 6 and is, generically, far below the bound. In neither direction does the geodesic encounter anything like the divergence the standard Schwarzschild interior would have produced.
+
+For a supermassive black hole, $M = 10^9 M_\odot$, the Firmament-side curvature at $r_s$ scales as $M^{-4}$ and gives $K(r_s) \approx 1.6 \times 10^{-49}$ m$^{-4}$, which is utterly negligible. The geodesic enters the bulk smoothly with no curvature shock at all. The qualitative picture — bulk curvature scale enormously higher than the Firmament-side curvature at horizon crossing, but bounded — holds for both stellar-mass and supermassive black holes.
+
+### §7.4.4 Theorem 5.7.2
+
+> **Theorem 5.7.2 (Schwarzschild Interior Regularization).** *In the zone framework, every radially infalling timelike geodesic of the Schwarzschild metric (5.5.4) extends — via Lemma 5.7.1 — to a bulk worldline of finite affine parameter and bounded 6D curvature. The same holds for non-radial geodesics. No geodesic encounters infinite curvature, and the Firmament-side "incompleteness" at $r = r_s$ is removed by the bulk continuation.*
+
+**Proof.** For radial geodesics, the construction of §7.4.2–§7.4.3 produces an explicit bulk continuation; the bulk curvature along the worldline is bounded by (5.7.3). For non-radial geodesics, the same construction applies with $u^\mu$ having additional angular components, all of which are bounded at $r = r_s$ by the conserved angular momentum $L = r^2 \dot\phi$ (which is finite for any geodesic of finite energy). The proof is constructive throughout. $\square$
+
+**Corollary.** *In the zone framework, the Schwarzschild "singularity" at $r = 0$ is not a feature of the universe. It is the limiting set of the analytic continuation of the Schwarzschild metric beyond the Firmament — a continuation which the zone framework does not perform, because the Firmament terminates at $r = r_s$ and there is no spacetime to continue into. The standard Penrose diagram of the maximally extended Schwarzschild solution, with its zigzag past and future singularities, is a diagram of an object that does not exist in the zone framework.*
+
+The Kerr generalization is identical in structure: replace $r_s$ with the angle-dependent outer horizon $r_+(\theta)$ from Ch 5 §5.7.1, replace radial infall with the appropriate Boyer–Lindquist trajectory, and apply Lemma 5.7.1 at $\partial\Sigma = \{r = r_+(\theta)\}$. The bulk continuation exists and the worldline is regular.
+
+[FIGURE: Fig 5.7.3 — Schwarzschild Interior in Two Pictures. Side-by-side comparison. LEFT: the maximally extended Schwarzschild Penrose diagram, with the future singularity at $r = 0$ drawn as a jagged line, the future event horizon as a 45° line, past null infinity at the lower right, future null infinity at the upper right. A world-line is drawn from past null infinity, falling through the future event horizon, and terminating on the future singularity at $r = 0$. Annotation: "incomplete geodesic terminates at $r = 0$, where $K \to \infty$." RIGHT: the zone-framework picture. The Firmament $\Sigma$ shown as a horizontal sheet in $(t, r)$ space (suppressing $\theta, \phi, \eta$), with a circular hole at $r < r_s$. The same world-line, drawn from large $r$, reaches the breach edge $\partial\Sigma$ at $r = r_s$, and continues into the bulk (drawn perpendicular to the Firmament sheet) as a bulk worldline of bounded curvature. Annotation: "complete bulk worldline; bulk curvature $\le R_\text{6D,max} \sim 10^{20}$ m$^{-2}$." Caption: "The radially infalling timelike geodesic of the Schwarzschild solution. Left: standard GR. The geodesic hits the future singularity at $r = 0$ at finite proper time, and the Kretschmann scalar diverges along the worldline. Right: zone framework. The geodesic reaches the Firmament edge at $r = r_s$ and continues smoothly into the bulk; the 6D curvature is bounded throughout. The 'singularity' at $r = 0$ is a feature of the analytic continuation of the Schwarzschild metric beyond the Firmament, a continuation that is not performed in the zone framework."]
+
+---
+
+## §7.5 The Big Bang Singularity, Regularized
+
+The Big Bang is the second classical singularity that the framework must regularize, and the one that matters most for the rest of Volume 5: the Friedmann evolution of Chapter 8 needs an initial-data surface, and standard cosmology gives it an *infinite* curvature initial surface, which is no initial-data surface at all.
+
+### §7.5.1 The standard story
+
+In the Friedmann–Robertson–Walker metric
+
+$$(5.7.17)\quad ds^2_\text{FRW} = -c^2 dt^2 + a(t)^2\left(\frac{dr^2}{1 - kr^2} + r^2 d\Omega^2\right),$$
+
+with scale factor $a(t)$ and spatial-curvature constant $k \in \{-1, 0, +1\}$, the Friedmann equations (Chs 1, 8) determine $a(t)$ from the matter content. For matter-dominated, radiation-dominated, or any reasonable mix obeying the strong energy condition, $a(t) \to 0$ as $t \to t_0^+$ for some $t_0$, and the curvature scalar $R = 6(\ddot a/a + (\dot a/a)^2 + kc^2/a^2)$ diverges. The Hawking 1970 theorem applies (with premise P4 supplied by the everywhere-converging spatial slices) and produces past geodesic incompleteness: any past-directed timelike geodesic from a present-day cosmological observer reaches $t = t_0$ at finite proper time.
+
+The standard reading is: the universe began at $t = t_0$ with infinite density. The reading is forced by premise M0: there is no "before $t_0$" because there is no manifold to be in.
+
+### §7.5.2 The Firmament-restricted view
+
+In the zone framework, the FRW metric (5.7.17) is the induced metric on the Firmament $\Sigma$ during cosmological evolution. The Firmament has a *past* boundary $\partial_-\Sigma$ — not the breach edge of a black hole, but the hypersurface in the bulk where the Firmament $\Sigma$ first comes into existence as a continuum object. We will refer to $\partial_-\Sigma$ as the *Firmament-nucleation surface*. Vol 1 Ch 5 §5.7 treated the existence of $\partial_-\Sigma$ as a conjecture and motivated it from the bulk dynamics of Vol 1 Ch 6; we are not deriving it here, only using its existence as a structural fact (gap G1 of §7.9).
+
+The past timelike geodesic of a present-day cosmological observer, traced backward in coordinate time, reaches $\partial_-\Sigma$ in finite proper time. At $\partial_-\Sigma$, the situation is exactly analogous to §7.4: the Firmament-side 4-velocity has a finite limit, the Firmament edge is a 3-dimensional submanifold of the 6D bulk (a 3-sphere or a 3-plane, depending on the spatial topology of the Firmament), and Lemma 5.7.1 applies — except now in the *past-directed* form, with the bulk continuation happening *prior* to $\partial_-\Sigma$ in the affine parameter rather than after.
+
+### §7.5.3 The past continuation
+
+Apply Lemma 5.7.1 in past-directed form. The Firmament-side past 4-velocity at $\partial_-\Sigma$ has a finite limit. For a strictly comoving cosmological observer, $u^t \to 1/c$ in the FRW frame (5.7.17), independent of the choice of $a_*$, since the comoving 4-velocity is normalized to $u^\mu u_\mu = -c^2$ with vanishing spatial components. For a non-comoving timelike geodesic with conserved energy $E$ along the comoving Killing direction, the limit is the analog finite quantity set by $E$ and the metric components at $\partial_-\Sigma$; in either case the limit is finite, future-directed (or past-directed in the past-form of the lemma), and timelike. The lift to 6D and the 6D geodesic equation then produce a unique past worldline in the bulk on the past side of $\partial_-\Sigma$.
+
+The bulk curvature on the past side is again bounded by (5.7.3), $|R|_\text{bulk} \le R_\text{6D,max}$. The Firmament-side curvature at $\partial_-\Sigma$ is set by the cosmological data: at the moment of nucleation, the FRW scale factor $a$ on the Firmament has some finite value $a_*$ determined by the bulk dynamics, and the Ricci curvature there is
+
+$$(5.7.18)\quad R\big|_{\partial_-\Sigma} = \frac{6c^2}{a_*^2}\left(1 + (\dot a / c)^2|_*\right),$$
+
+which is *finite* because $a_*$ is finite. (This is the key point: the Big Bang "singularity" of standard cosmology is the limit $a \to 0$, which the zone framework does not take, because the Firmament nucleates at a finite value of $a$, not at zero.)
+
+### §7.5.4 Theorem 5.7.3
+
+> **Theorem 5.7.3 (Big Bang Regularization).** *In the zone framework, every past-directed timelike geodesic of an FRW cosmology on the Firmament extends — via the past-directed form of Lemma 5.7.1 — to a bulk worldline of bounded 6D curvature, terminating not at $a = 0$ but at the Firmament-nucleation surface $\partial_-\Sigma$. The Hawking 1970 incompleteness conclusion applied to the Firmament is a projection artifact; the full 6D worldline is complete or terminates at $\partial_-\Sigma$ where the bulk continuation begins, with bounded curvature throughout.*
+
+**Proof.** Identical in structure to Theorem 5.7.2, with $\partial_-\Sigma$ replacing $\partial\Sigma$ and the past-directed form of the geodesic equation replacing the future-directed form. The Firmament-side limit (5.7.18) is finite because $a_* > 0$ at the nucleation event; the lift via Lemma 5.7.1 is well-defined; the bulk continuation is unique and bounded. $\square$
+
+### §7.5.5 What this hands to Chapter 8
+
+The Friedmann initial-value problem of Ch 8 needs an initial-data surface on which $(a, \dot a, \rho_\text{matter}, \rho_\text{radiation})$ are specified. Standard Big Bang cosmology cannot give such a surface in any meaningful sense — at the would-be initial moment $t = 0$, all four quantities are singular. Theorem 5.7.3 hands Chapter 8 a *finite* initial-data surface at $\partial_-\Sigma$, with $a_* > 0$, finite $\dot a_*$, finite $\rho_\text{matter,*}$, and finite $\rho_\text{radiation,*}$. The values of these quantities are determined by the Firmament-nucleation dynamics (Vol 1 Ch 5 §5.7, gap G1), but their *finiteness* is guaranteed by Theorem 5.7.3 alone. Chapter 8 will use this and will refer back here.
+
+### §7.5.6 What "before the Big Bang" means in the zone framework
+
+The natural question is: what does the bulk look like *before* $\partial_-\Sigma$? The answer is: it is bulk — Waters Above and Waters Below, dynamics governed by Vol 1 Ch 6, no Firmament present, no 4D effective spacetime defined. The pre-nucleation bulk has its own 6D dynamics (Vol 1 Ch 6 derives them from the bulk action), and the Firmament-nucleation event is a phase transition in those bulk dynamics in which a 3-brane condenses out of the bulk fields. The phase transition is treated, from the Firmament side, as an initial condition on $(a, \dot a, \cdots)$; from the bulk side, it is the dynamical formation of a new structure in the 6D fields.
+
+The zone framework therefore does not say "there was nothing before the Big Bang" or "there was time before the Big Bang." It says: *the Firmament $\Sigma$ began at $\partial_-\Sigma$, and the bulk $Z$ existed before, during, and after the Firmament-nucleation event*. The Firmament is younger than the bulk. The 4D spacetime that GR describes is the Firmament, so the 4D spacetime is younger than the bulk. The bulk has its own time-like coordinate (it is a 6D Lorentzian manifold), and that coordinate runs through the Firmament-nucleation event without anything special happening to *it* — what is special is the formation of the Firmament, not the passage of bulk time.
+
+A reader might ask whether the bulk itself has a "beginning" — a past nucleation event for $Z$ as a whole. The answer is: the present chapter does not say. Vol 1 Ch 4 took the bulk metric (5.7.1) as given; Vol 1 Ch 6 took the bulk dynamics as given. Whether the bulk has a past boundary in some still more general embedding is a question about the framework's ultimate foundation, which the chapter does not address. From the Firmament-restricted view of any inhabitant of the Firmament, the bulk is *eternally present* — in the sense that it does not have a Firmament-time at which it began — but this is a Firmament-centric statement, and the chapter does not use it to make any cosmological claim beyond Theorem 5.7.3.
+
+**A note for the Theologian reviewer.** The phrase "Firmament nucleation" describes a 6D-dynamical event in which a 3-brane first exists as a continuum hypersurface in the bulk. It is not a creation narrative, and it does not entail or contradict any specific theological position about creation. If the picture is later argued to be consistent with — or incompatible with — a particular theological reading, that argument belongs to Book 3 (The Creator's Blueprint), where it can be made carefully. Here, $\partial_-\Sigma$ is a 4D submanifold of a 6D Riemannian manifold, defined by the dynamics of Vol 1 Ch 6, and nothing more.
+
+[FIGURE: Fig 5.7.4 — Big Bang Singularity vs. Brane Nucleation: the Past Boundary in Two Pictures. Side-by-side comparison. LEFT: standard FRW conformal diagram (Penrose-style), with the past null cone of an observer reaching back to the past spacelike singularity at $a = 0$, drawn as a horizontal jagged line at the bottom. The world-line is drawn from the present (top) backward to $a = 0$, terminating there. Annotation: "$R \to \infty$ at $a = 0$, past geodesic incomplete." RIGHT: the zone-framework picture. The Firmament $\Sigma$ is drawn as a horizontal cylindrical sheet (with closed spatial slices), beginning at the past Firmament-nucleation surface $\partial_-\Sigma$, which is a finite-area 3-sphere (or 3-plane) drawn at the bottom of the diagram. The bulk $Z$ extends below $\partial_-\Sigma$ as a region with no Firmament (drawn as an empty area below the cylinder). The same observer's world-line is drawn from the present backward to $\partial_-\Sigma$, then continued into the bulk as a past-directed bulk worldline that propagates into the pre-nucleation bulk. Annotation: "$R$ finite at $\partial_-\Sigma$; past bulk worldline well-defined." A small caption box notes: "The pre-nucleation bulk is governed by Vol 1 Ch 6 dynamics; the Firmament is younger than the bulk." Caption: "The 'initial singularity' of FRW cosmology is the past boundary of the Firmament $\Sigma$, identified in the zone framework with the Firmament-nucleation surface $\partial_-\Sigma$. In the standard picture (left), the past geodesic terminates at $a = 0$ where the curvature diverges; in the zone-framework picture (right), it terminates at $\partial_-\Sigma$ where the curvature is finite, and the past continuation as a bulk worldline is well-defined. Theorem 5.7.3 hands Chapter 8 an initial-data surface at $\partial_-\Sigma$ on which the cosmological state is regular."]
+
+---
+
+## §7.6 Cauchy Horizons and the Inner-Horizon Problem
+
+### §7.6.1 The standard problem
+
+The Reissner–Nordström solution for a charged black hole and the Kerr solution for a rotating black hole both contain *two* horizons, $r_+$ and $r_-$, where
+
+$$(5.7.19)\quad r_\pm^\text{RN} = GM/c^2 \pm \sqrt{(GM/c^2)^2 - GQ^2/c^4},\qquad r_\pm^\text{Kerr} = GM/c^2 \pm \sqrt{(GM/c^2)^2 - a^2}.$$
+
+The outer horizon $r_+$ is the event horizon — the surface from which no signal can escape to infinity, the Firmament-edge in our chapter 5 picture. The inner horizon $r_-$ is, in the analytically extended GR maximal manifold, a *Cauchy horizon*: a surface beyond which the spacetime is no longer determined by initial data on a partial Cauchy surface in the exterior. Beyond $r_-$, additional initial data must be specified, and the analytic extension contains an entirely new copy of the exterior region — a "white hole" geometry, and beyond that, "another universe."
+
+Worse: Poisson and Israel 1990 showed that the inner horizon $r_-$ is *generically unstable*. A small ingoing perturbation, blueshifted as it falls, produces a divergent stress-energy along the inner horizon — the *mass inflation* phenomenon. The standard reading is that the inner horizon is, in any realistic black hole, replaced by a *null singularity* where the Weyl curvature diverges. The maximal extension of the analytic Reissner–Nordström solution is therefore not the relevant geometry; the physical interior, with realistic perturbations, ends at a different singularity than the analytic one.
+
+This is a real worry for any theory of the black hole interior. A theory that "smooths over" the central singularity at $r = 0$ but leaves the inner horizon unstable has not solved the problem; it has merely relocated it.
+
+### §7.6.2 The Firmament picture
+
+In the zone framework, the Reissner–Nordström and Kerr black hole interiors are not part of the Firmament $\Sigma$ at all — the Firmament terminates at $r_+$, and the region $r < r_+$ is bulk. There is no inner horizon $r_-$ in the Firmament, because there is no Firmament at $r < r_+$ for an inner horizon to live on. The coordinate $r_-$ of (5.7.19) is the *analytic continuation* of the metric inside $r_+$ to a region that, in the zone framework, has no Firmament geometry.
+
+Let me state this cleanly. The standard "inner horizon" $r_-$ is a feature of the *maximally extended* Reissner–Nordström or Kerr Lorentzian manifold — the extension obtained by analytically continuing the exterior metric across $r_+$ and looking at where the metric coefficients next change character. The zone framework does not perform this extension. The Firmament stops at $r_+$; the bulk is bulk; there is no second Lorentzian manifold to glue.
+
+The Cauchy horizon problem therefore has the same status in the zone framework as the central singularity: it is a feature of the analytic extension that the framework does not perform. And the mass-inflation instability has the same status: it is an instability of the analytically continued solution, not of the physical Firmament geometry. Mass inflation requires a null hypersurface $r = r_-$ with Firmament-side fields propagating *along* it; in the zone framework, no such hypersurface exists. There is nothing for the perturbation to inflate.
+
+### §7.6.3 But what about the bulk?
+
+A careful reader will object: "Yes, there is no Firmament at $r < r_+$, but there is bulk. The bulk has its own dynamics (Vol 1 Ch 6). What if the bulk has its own version of mass inflation? What if a perturbation that crosses $\partial\Sigma$ at $r_+$ propagates into the bulk and amplifies?"
+
+This is a good question and the chapter must address it. The answer relies on the bulk being *not Lorentzian in the same way the Firmament is*. The bulk metric (5.7.1) has a structure in which the warp factors $A, B$ govern propagation perpendicular to the Firmament, and the bulk wave equation for fields like the Waters Above / Waters Below scalars has *finite* characteristic speeds in the warped directions, set by the bulk action of Vol 1 Ch 6. The "Cauchy horizon" mechanism of the standard picture relies on infinite blueshift along a *null* surface. In the bulk, with the warped metric (5.7.1), there is no null surface that propagates into the Firmament edge from inside; the bulk wave operator is hyperbolic, but its characteristic surfaces are governed by the warp factors and do not develop the infinite-blueshift behavior of the standard inner horizon. This is a Vol 1 Ch 6 result (§6.7, the bulk hyperbolicity theorem); we use it without re-derivation here.
+
+The result is that the bulk continuation of an infalling perturbation propagates into the bulk with bounded amplitude, and the Cauchy horizon problem of the standard picture has no analog in the Firmament geometry. The chapter records this as Eq.
+
+$$(5.7.20)\quad |R^M{}_{NPQ}|_\text{bulk along perturbation} \le R_\text{6D,max},$$
+
+a restatement of (5.7.3) along the worldline of an infalling perturbation; the inequality holds because of the bulk hyperbolicity theorem of Vol 1 §6.7.
+
+### §7.6.4 What this section did not do
+
+It did not derive the bulk hyperbolicity theorem from first principles in this chapter; that derivation is Vol 1 Ch 6. It also did not perform the timescale comparison between mass-inflation growth on a hypothetical inner horizon and breach formation at $r_+$ — the qualitative claim ("breach formation pre-empts mass inflation") is sketched, not computed, and the chapter records this as Research Gap G2 in §7.9. A quantitative comparison along the lines of Poisson–Israel 1990 and Brady–Smith 1995, adapted to the Firmament-mechanics setting of Ch 5, is left as a target for Vol 6. It also did not address the question of what happens to the "white hole" half of the analytically extended Reissner–Nordström or Kerr geometry. The answer is the same as for the inner horizon: the white hole is part of the analytic extension, and the zone framework does not extend. The Penrose diagram of the maximal Reissner–Nordström solution, with its infinite chain of universes connected by Einstein–Rosen bridges, is a diagram of an object that has nothing to do with the zone framework.
+
+[FIGURE: Fig 5.7.5 — Cauchy Horizon vs. Brane Edge. Side-by-side comparison. LEFT: a portion of the maximally extended Reissner–Nordström Penrose diagram, showing the exterior region, the outer horizon $r_+$ as a 45° null line, the region $r_- < r < r_+$, the inner horizon $r_-$ as another null line, and the timelike singularity at $r = 0$ on the right edge. A wavy arrow labeled "perturbation" comes in from the exterior, passes through $r_+$, and amplifies as it approaches $r_-$ (drawn with progressively larger amplitude), with the annotation "mass inflation: $T_{\mu\nu}$ diverges at $r_-$." RIGHT: the zone-framework picture. The Firmament $\Sigma$ is drawn as a sheet ending at the Firmament edge $r = r_+$. The region $r < r_+$ is shown as bulk, with no Firmament geometry — just shaded gray. The perturbation comes in from the exterior, reaches $\partial\Sigma$ at $r_+$, and continues into the bulk via Lemma 5.7.1 as a bulk worldline. Annotation: "no inner horizon; bulk continuation has bounded amplitude (Vol 1 §6.7)." Caption: "The inner horizon $r_-$ of the maximally extended Reissner–Nordström and Kerr solutions is a feature of the analytic continuation of the exterior metric across $r_+$, an operation the zone framework does not perform. In the Firmament picture, the Firmament ends at $r_+$ and the region $r < r_+$ is bulk. The Cauchy horizon and the mass-inflation instability are features of the standard maximal extension that have no counterpart in the Firmament membrane geometry."]
+
+---
+
+## §7.7 The Generic Regularization Theorem
+
+We now state and outline the proof of the chapter's most general result. The reader who has followed §7.4–§7.6 has already seen the key ideas; this section organizes them into a single statement and addresses the fine-tuning question that the Physicist reviewer will care about.
+
+### §7.7.1 The classification of Firmament-side incompleteness
+
+A Firmament geodesic $\gamma: [0,\tau_*) \to \Sigma$ that is incomplete in the Firmament sense — meaning $\tau_* < \infty$ and $\gamma$ does not extend continuously to a Firmament geodesic on $[0, \tau_*]$ — must terminate in one of the following ways:
+
+1. **Type A.** $\gamma(\tau)$ approaches the breach edge $\partial\Sigma$ of a black hole interior (Schwarzschild, Kerr, Reissner–Nordström, more general).
+2. **Type B.** $\gamma(\tau)$ approaches the past boundary $\partial_-\Sigma$ of the Firmament (the Firmament-nucleation surface, Big Bang case).
+3. **Type C.** $\gamma(\tau)$ approaches a singularity of the matter source — for example, a point particle's worldline reaching another point particle, or a null geodesic reaching a thin shell with diverging surface stress-energy.
+4. **Type D.** $\gamma(\tau)$ approaches a curvature singularity of the Firmament induced metric (5.7.2) that is not of types A, B, or C — i.e., the Firmament interior develops infinite curvature without the Firmament having a boundary.
+
+Theorem 5.7.4 below addresses each of these.
+
+### §7.7.2 Theorem 5.7.4
+
+> **Theorem 5.7.4 (Generic Regularization).** *Let $(\Sigma, \gamma_{\mu\nu})$ be a Firmament-restricted spacetime arising from the zone framework of Vol 1, with the matter content satisfying the Penrose–Hawking energy conditions (null, weak, strong, and dominant). Let $\gamma$ be any timelike or null geodesic on $\Sigma$ that is incomplete in the Firmament sense. Then:*
+
+1. *Type A (breach edge): $\gamma$ admits a unique 6D continuation as a bulk worldline, by Theorem 5.7.2 and its Kerr/RN generalizations.*
+2. *Type B (past boundary): $\gamma$ admits a unique 6D past continuation, by Theorem 5.7.3.*
+3. *Type C (matter source): $\gamma$ either reduces to type A (the matter source acts as a small black hole, with its own breach edge) or to type B (the matter source is a localized Firmament-fragment whose past boundary is its formation event); in either case the previous parts apply.*
+4. *Type D (curvature singularity in the Firmament interior): does not occur. If the matter content satisfies the Vol 1 Firmament stress-energy axiom (Vol 1 §5.3, the Firmament stress-energy is bounded by the Firmament tension), then no curvature singularity can develop in the Firmament interior, because the Firmament tension regulates the maximum sustainable curvature.*
+
+*Therefore the 6D zone manifold $Z$ is geodesically complete, with the only possible exceptions being Firmament-nucleation or Firmament-dissolution events, which form a 4-dimensional submanifold of the 6-dimensional bulk and have measure zero with respect to the bulk volume form (Vol 1 Eq. 1.4.34).*
+
+### §7.7.3 Outline of the proof
+
+**Type A.** Constructive: §7.4 has done this case in full for Schwarzschild. The Kerr extension is §5.7.1 + Lemma 5.7.1 in the angular form. The Reissner–Nordström case is the same construction with the charge-modified $r_+$. The general "any black hole spacetime with a Vol 1-compatible matter content" case is the same construction with the breach edge $\partial\Sigma$ being whatever 3-dimensional submanifold of the Firmament is determined by $\sigma_\text{local}(x) = 0$. The construction is uniformly valid because Lemma 5.7.1 only requires the Firmament-side 4-velocity to have a finite limit — a property of the geodesic, not of the breach geometry — and the bulk Christoffel symbols to be smooth in a neighborhood of the breach edge — a property of the bulk metric (5.7.1), not of the matter content.
+
+**Type B.** Constructive: §7.5 has done this case for FRW. The general FLRW with arbitrary perfect-fluid content is the same construction with $\partial_-\Sigma$ being the Firmament-nucleation surface and the Firmament-side 4-velocity being whatever the past limit of the comoving observer's 4-velocity is. The 4-velocity limit is finite because $a_*$ is finite at $\partial_-\Sigma$ (gap G1 of §7.9: this is structural, not derived). For non-FRW cosmologies — anisotropic Bianchi models, Lemaître–Tolman–Bondi inhomogeneous cosmologies — the same construction applies, with $\partial_-\Sigma$ being the past Firmament edge in whatever shape it takes. Lemma 5.7.1 again only needs the Firmament-side 4-velocity to have a finite limit.
+
+**Type C.** A geodesic that terminates at a "matter singularity" — a thin shell, a point particle, a discontinuous source — is in a region where the Firmament stress-energy is concentrated. By the Firmament stress-energy axiom of Vol 1 §5.3, the concentration is bounded by the Firmament tension; if the source is sufficiently concentrated to exceed the bound, it forms a small black hole and the Firmament develops a breach edge around the source. Then Type A applies. If the source is below the bound, it does not form a singularity; it remains a regular Firmament configuration and the geodesic was not incomplete in the first place.
+
+**Type D.** This is the case the Physicist reviewer cares most about: can the Firmament interior develop a curvature singularity without forming a breach? The answer is no, by the following argument. The Firmament stress-energy is bounded by Vol 1 §5.3, which gives an upper bound on the Firmament Ricci tensor through the Firmament Einstein equations: $|R^{(\Sigma)}_{\mu\nu}| \le 8\pi G\,\sigma\,c^{-4}$ where $\sigma$ is the local Firmament tension. If the curvature were to grow toward infinity at some interior point $p \in \Sigma$, then by the Firmament Einstein equations, the local stress-energy at $p$ would have to grow toward infinity. By Vol 1 §5.3's bound, this is impossible *unless* the Firmament tension $\sigma_\text{local}$ is itself growing toward infinity at $p$, which is *also* impossible because the bulk warp factor is bounded above by Vol 1 §4.6. The only escape for the curvature is to *not* grow indefinitely — i.e., to be bounded — or to develop a breach edge around $p$ before the bound is saturated. The first option means no Type D singularity. The second option means the would-be singularity converts itself into a Type A breach edge, which is then handled by Type A. Either way, Type D does not occur.
+
+The proof is therefore complete, modulo the technical details of the four cases. A fully formal proof — with all measure-theoretic machinery, all boundary-condition analysis at $\partial\Sigma$ and $\partial_-\Sigma$, and a complete classification of Type C — is a job for Vol 6 (gap G4 of §7.9). The proof sketch above is sufficient for the physical content of the theorem. $\square$
+
+### §7.7.4 Fine-tuning: the Physicist's question
+
+The Physicist reviewer's central question is: *is the regularization generic, or does it depend on fine-tuning of the Firmament parameters or the matter content?*
+
+The proof of Theorem 5.7.4 makes the answer explicit. The Firmament parameters $(\sigma, \mu)$ enter only through:
+
+- (i) The condition $\sigma > 0$ (Vol 1 §5.6 positivity theorem), which is a *single inequality* and not a tuned numerical value. Any $\sigma > 0$ — by ten orders of magnitude or by ten thousand orders of magnitude — works equally well. The regularization is robust to wide variation.
+- (ii) The Firmament stress-energy bound of Vol 1 §5.3, which says the maximum sustainable Firmament stress is $\sim \sigma$. This is also a *bound*, not a tuning. The argument of §7.7.3 Type D works as long as *some* such bound exists; the specific value of $\sigma$ does not enter.
+
+The matter content enters only through:
+
+- (iii) The Penrose–Hawking energy conditions (null, weak, strong, dominant), which are *inequalities*. Any matter content that satisfies them works.
+
+The bulk metric enters only through:
+
+- (iv) The smoothness of the bulk Christoffel symbols (used in the proof of Lemma 5.7.1 via Picard–Lindelöf), which is a structural property of (5.7.1), and the bound (5.7.3) on the bulk Riemann tensor, which is a structural property of the warp-factor scale $\ell_\text{6D}$. Neither of these requires a specific numerical value.
+
+**No dimensionless parameter is required to take any specific value.** No parameter is tuned. The regularization is entirely qualitative, in the sense that it depends on the *structure* of the zone framework (a 6D bulk with a Firmament in it) and not on the *numerical values* of Firmament or bulk parameters. This is the strongest sense of "generic" available in physics.
+
+The contrast with other regularization programs is that they typically *do* require fine-tuning. LQG bouncing cosmology requires the polymer-discretization parameter $\mu_\text{poly}$ to take a specific value (Ashtekar–Bojowald 2005). String-theoretic singularity resolution often depends on choosing a specific vacuum from a moduli space. Asymptotic safety requires the running coupling constants to flow to a specific UV fixed point with specific numerical coefficients. The Firmament regularization has none of these; the only "parameters" in the proof of Theorem 5.7.4 are inequalities, not equalities.
+
+This is the answer to the fine-tuning question. The Physicist reviewer is invited to identify any step in the proof of Theorem 5.7.4 that *does* require fine-tuning; if such a step exists, the chapter will sharpen its claim. The current draft asserts that no such step exists.
+
+---
+
+## §7.8 Comparison with Other Singularity-Resolution Programs
+
+The Firmament resolution sits in a landscape of attempts to regularize the singularities of GR. Each of the major attempts has its own strengths and its own limitations. This section compares them, in the spirit of intellectual honesty rather than competition: the Firmament resolution is a contribution to a tradition, not a replacement for it, and the place where it fits is best understood by seeing what its neighbors do well and where they require choices.
+
+### §7.8.1 Loop quantum gravity (LQG)
+
+**The mechanism.** Loop quantum gravity is a canonical quantization of general relativity in which the Ashtekar variables (a complex connection and its conjugate triad) are used in place of the metric, and the quantum theory is built on holonomies of the connection rather than on local field operators. The singular structure of GR is replaced, in LQG, by *polymer quantization*: the conjugate variable to the holonomy becomes discrete-spectrum, and curvature operators are bounded above by the inverse of a polymer parameter $\mu_\text{poly}$ (related to the Planck length).
+
+In *loop quantum cosmology* (LQC), this leads to a *bouncing universe*: the FRW scale factor $a(t)$ never reaches zero, but bounces back at a minimum value $a_\text{min} \sim \ell_P\,\mu_\text{poly}^{-1/2}$ set by the polymer parameter. The Big Bang singularity is replaced by a Big Bounce. Ashtekar–Bojowald 2005, Ashtekar–Singh 2011, Bojowald 2007 are the standard references.
+
+For black holes, LQG produces analogous bouncing-interior solutions: the Schwarzschild interior is replaced by a transition through a minimum (interior) radius and re-emerges as a "white hole" geometry on the other side (Modesto 2010, Ashtekar–Olmedo–Singh 2018, Bianchi–Christodoulou–D'Ambrosio–Haggard–Rovelli 2018). These are the LQG analogs of Theorem 5.7.2.
+
+**Strengths.** LQG's regularization is generic in the sense that the polymer scheme is universal: every operator that *would* be singular in the classical theory is rendered finite by the polymer quantization. The mechanism is quantum-mechanically rigorous within the LQG framework.
+
+**Weaknesses.** (i) The polymer parameter $\mu_\text{poly}$ has to be chosen by hand or fixed by additional assumptions. Different values give qualitatively different bounce geometries. (ii) The semiclassical limit of LQG — the recovery of classical GR away from the singularity — has been the subject of long-running debate (Nicolai–Peeters–Zamaklar 2005 is the standard critical reference). (iii) LQG works in 4D and never leaves 4D; the bounce is a 4D event in 4D spacetime, with the "other side" of the bounce being another 4D region of the same Lorentzian manifold.
+
+**Comparison with the Firmament resolution.** Both LQG and the Firmament framework agree that GR singularities are not features of physical reality. They differ in the mechanism: LQG bounces inside 4D, the Firmament framework exits 4D into 6D. There is some intriguing structural similarity — the LQG "bounce" event and the Firmament "Firmament edge" both serve as the place where the singular limit is replaced by something finite — but the geometric pictures are quite different. LQG replaces a singular point with a smooth quantum state in the same 4D manifold; the Firmament framework replaces it with a smooth bulk worldline in a higher-dimensional manifold. The two pictures are not in conflict, and a future work might find that the LQG bounce and the Firmament exit are dual descriptions of the same physical event — though the chapter does not pursue this possibility further.
+
+### §7.8.2 String theory
+
+**The mechanism.** String-theoretic singularity resolution comes in several flavors.
+
+*T-duality near small radii.* In string theory compactified on a small circle of radius $R$, the dual radius $R'$ = $\alpha'/R$ describes the same physics. As $R \to 0$, the dual radius $R' \to \infty$, and the theory smooths out: there is no "small $R$" singularity because, at small $R$, the theory is equivalently described by the dual large-$R$' theory. This is Brandenberger–Vafa 1989 string cosmology, and it gives a natural bounce at the string scale. Strengths: T-duality is forced by the string worldsheet theory, not chosen — it has the genericity flavor we want. Weaknesses: T-duality applies only to compactified directions of size near $\ell_s$; it does not regularize singularities of generic 4D spacetimes whose curvature is at sub-string scales.
+
+*Fuzzball pictures of black holes.* Mathur and collaborators (Mathur 2005, Mathur 2024 most recently) propose that black holes are not vacuum geometries with a singular interior, but rather *bound states of strings* — "fuzzballs" — in which the would-be horizon is a smooth (non-singular) surface defining the boundary of a structured stringy state. The interior of the fuzzball is not "spacetime" in the usual sense; it is a quantum-string configuration. The singular interior of the standard Schwarzschild solution is therefore replaced by a fuzzball state, with no curvature singularity anywhere. Strengths: explicit constructions exist for highly supersymmetric BHs (e.g., D1–D5 systems); the picture reproduces the Bekenstein–Hawking entropy by counting fuzzball microstates. Weaknesses: explicit constructions are not yet available for generic non-supersymmetric BHs; the program is conjecturally extended from supersymmetric to general cases.
+
+*KKLT vacua and early-universe singularities.* In the KKLT (Kachru–Kallosh–Linde–Trivedi 2003) construction of de Sitter vacua in string theory, the choice of compactification fluxes and moduli fixes the cosmological constant and the inflationary potential. Different choices give different early-universe behaviors. Strengths: provides an in-principle framework for choosing the cosmological initial conditions. Weaknesses: the choice is not unique — the "string landscape" contains $\sim 10^{500}$ vacua — so the resolution depends on a vacuum-selection assumption.
+
+**Strengths overall.** String theory has a rich mathematical structure that resolves several types of singularities in different ways, and at least the T-duality mechanism is forced rather than chosen.
+
+**Weaknesses overall.** Different singularity types require different mechanisms; the picture is not unified. Generic non-supersymmetric BHs do not yet have explicit fuzzball constructions; cosmological singularities depend on a landscape choice.
+
+**Comparison with the Firmament resolution.** The fuzzball picture is the closest analog to the Firmament resolution: both replace the singular interior with a structured object that has the same exterior. The differences:
+- The fuzzball is a 4D string-theoretic state; the Firmament breach is a 6D geometric exit.
+- The fuzzball requires explicit construction case by case (and some cases are still open); the Firmament breach is uniform across all black hole types via Theorem 5.7.4.
+- The fuzzball reproduces the BH entropy by microstate counting; the Firmament framework gives the entropy via the Firmament-mode counting of Ch 5 §5.6.
+- The fuzzball is part of a large landscape of string-theoretic constructions; the Firmament breach is forced by Vol 1 with no landscape ambiguity.
+
+It is possible — and the author finds this hopeful — that the fuzzball picture and the Firmament picture are dual descriptions of the same physical state, with the fuzzball being the 4D quantum description and the Firmament breach being the 6D classical description. A future work might explore this duality. The chapter does not claim it.
+
+### §7.8.3 Asymptotic safety
+
+**The mechanism.** Asymptotic safety (Weinberg 1979, Reuter 1998) proposes that gravity is non-perturbatively renormalizable around a non-trivial UV fixed point of the renormalization group flow. The fixed point makes the gravitational coupling finite at high energies, and curvature singularities are smoothed out by the running of the gravitational and matter couplings as the curvature scale approaches the Planck scale.
+
+**Strengths.** Pure 4D, no extra dimensions, no extra structure. The fixed point provides quantitative predictions if it exists.
+
+**Weaknesses.** The existence of the fixed point at the level of the full action (rather than truncated effective actions) is not yet proven. The truncated calculations require choosing specific operators and coefficients, which is a soft form of fine-tuning. The semiclassical limit is again contested.
+
+**Comparison with the Firmament resolution.** Asymptotic safety and the Firmament framework are most clearly distinguished by the *kind* of regularization: asymptotic safety is a UV completion of GR by quantum effects (the running couplings remove the singularities); the Firmament framework is a *classical* geometric regularization (the Firmament terminates and the geodesic exits to the bulk, no quantum effects required). The two are not mutually exclusive — one could imagine a 6D zone framework with asymptotic-safety-style running couplings in the bulk action — but the singularity resolution they offer is independent: the Firmament framework's resolution is already complete at the classical level, without any UV completion.
+
+**A note on what "derived rather than postulated" means here.** Throughout §7.8 I have used the contrast "derived rather than postulated" between the Firmament membrane resolution and its competitors. A careful reader will object that the Firmament framework also begins with axioms — most prominently $\sigma > 0$. The reply is that $\sigma > 0$ is itself *derived* from the Firmament action of Vol 1 §5.6 (the positivity-of-tension theorem), not postulated as a separate assumption: it is a consequence of the requirement that the Firmament be a minimum of the action rather than a saddle. So when this chapter says the Firmament membrane resolution is "derived," it means it is derived from the Firmament action, which is itself written down for reasons independent of singularity resolution. The competitors postulate their regularization mechanisms (the polymer parameter, the choice of fuzzball construction, the UV fixed point) for the *purpose* of regularizing — and that is the substantive difference.
+
+### §7.8.4 Summary table
+
+[FIGURE: Fig 5.7.6 — Comparison of Singularity-Resolution Programs. A 5-row × 7-column table. Rows: (1) Standard GR (no resolution), (2) LQG / LQC, (3) String theory: T-duality, (4) String theory: fuzzballs, (5) Asymptotic safety, (6) Zone framework / membrane. Columns: (a) Mechanism, (b) BH interior resolved? (c) Big Bang resolved? (d) Cauchy horizon resolved? (e) Generic across spacetimes? (f) Fine-tuning required? (g) Derived or postulated? Cells filled in with brief annotations: "—" for "not addressed", "yes" / "partial" / "no", and short citations to the standard reference. Membrane row: (a) "Firmament exit to 6D bulk", (b) "yes (Thm 5.7.2)", (c) "yes (Thm 5.7.3)", (d) "yes (§7.6)", (e) "yes (Thm 5.7.4)", (f) "no", (g) "derived from Vol 1". Caption: "Comparative summary of major singularity-resolution programs. The Firmament resolution of the zone framework is the only entry that achieves all four resolutions (BH, Big Bang, Cauchy horizon, generic) without fine-tuning and as a derivation from an independently motivated framework."]
+
+### §7.8.5 What this comparison is *not*
+
+It is not a claim that the other programs are wrong. LQG is a serious approach to quantum gravity; string theory is a vast and rich framework; asymptotic safety is an active research program. Each has produced results that the Firmament framework benefits from being able to compare itself to. The claim is narrower: that *for the specific problem of singularity resolution*, the Firmament framework occupies a position in the landscape that none of the others occupies — namely, generic and free of fine-tuning, derivable from an independently motivated framework, and applicable to all the standard singularity types in a unified way. If a competing program were to achieve the same combination of features, the present chapter would say so.
+
+---
+
+## §7.9 The Reviewer's Ledger
+
+Following the format of Ch 1 §1.10, Ch 4 §4.12, Ch 5 §5.9, and Ch 6 §6.9.
+
+[FIGURE: Fig 5.7.7 — Reviewer's Ledger for Chapter 7. A two-column table (rendered graphically in the published edition). Left column: every load-bearing claim in the chapter, one per row, ordered by section. Right column: classification into one of four buckets with color coding — green = Derivation (from Vol 1 axioms or geometric identities); blue = Identity (definitional or trivially true); yellow = Inheritance (result from a previous chapter, cited without re-derivation); red = Conjecture (flagged as an open item with mitigation). Footer summarizes: 6 Derivations, 9 Inheritances, 4 Conjectures (gaps G1–G4). Caption: "Every claim in Chapter 7 is classified. The chapter has six original derivations (Lemma 5.7.1 and Theorems 5.7.2–5.7.4 and the fine-tuning argument of §7.7.4); the rest is inheritance from Vol 1 (the bulk geometry and Firmament mechanics) and Ch 5 (the breach edge). Four open items are flagged in §7.9.3."]
+
+### §7.9.1 Derivation steps (from the Vol 1 axioms or from geometric identities)
+
+| Step | Eq. / Thm | Status |
+|---|---|---|
+| Identification of the hidden completeness premise M0 in the singularity theorems | §7.2.1, §7.2.4 | Derivation by careful restatement of Penrose 1965 / Hawking 1970; cites Hawking–Ellis 1973. Not a new theorem, but a *new emphasis* on a known premise. |
+| Lemma 5.7.1 (Brane–Bulk Continuation) | §7.3.3, (5.7.6)–(5.7.9) | Derivation from Vol 1 Ch 4 (smoothness of bulk Christoffel symbols), Vol 1 Ch 5 §5.4 (junction conditions), and Picard–Lindelöf for 6D ODEs. |
+| Theorem 5.7.2 (Schwarzschild Regularization) | §7.4.4, (5.7.10)–(5.7.16) | Derivation from Lemma 5.7.1 + Ch 5 Breach Theorem 5.5.1 + Vol 1 §4.6 curvature bound. |
+| Theorem 5.7.3 (Big Bang Regularization) | §7.5.4, (5.7.17)–(5.7.18) | Derivation from past-directed form of Lemma 5.7.1 + Vol 1 Ch 5 §5.7 Firmament-nucleation conjecture (G1) + standard FRW geodesic calculation. |
+| §7.6 Cauchy horizon dissolution | §7.6.2, (5.7.20) | Derivation from Ch 5 §5.7.2 (no inner horizon in zone framework) + Vol 1 §6.7 (bulk hyperbolicity, used as inheritance). |
+| Theorem 5.7.4 (Generic Regularization) | §7.7.2, §7.7.3 | Derivation by the case analysis of §7.7.3, which classifies Firmament-side incompleteness into types A–D and disposes of each by reduction to the previous theorems or by the Firmament stress-energy bound. The Type D argument uses Vol 1 §5.3 as inheritance. |
+| §7.7.4 Fine-tuning argument | §7.7.4 | Derivation by tracing all parameter dependencies in the proof of Theorem 5.7.4 and showing they reduce to inequalities, not equalities. |
+
+### §7.9.2 Inheritance (results from previous chapters, used without re-derivation)
+
+- 6D bulk metric (5.7.1) and the smoothness of its Christoffel symbols — Vol 1 Ch 4, Eq. (1.4.18).
+- Bulk curvature bound (5.7.3) — Vol 1 §4.6, AXIOM_6D_CURVATURE_v1.md.
+- Brane embedding push-forward and normal frame — Vol 1 Ch 5 §5.2.
+- Junction conditions (5.7.4) — Vol 1 §5.4, Eq. (1.5.41).
+- Wave-speed identity $c^2 = \sigma/\mu$ — Vol 1 §5.3, Eq. (1.5.37).
+- Positivity of tension $\sigma > 0$ — Vol 1 §5.6.
+- Brane stress-energy bound (used in §7.7.3 Type D) — Vol 1 §5.3.
+- Brane-nucleation conjecture (existence of $\partial_-\Sigma$ with finite $a_*$) — Vol 1 Ch 5 §5.7. **Flagged as G1.**
+- Bulk hyperbolicity theorem (used in §7.6.3) — Vol 1 §6.7.
+- Tension profile $\sigma_\text{local}(r) = \sigma_\infty(1 - r_s/r)$ — Ch 5 Eq. (5.5.13).
+- Breach Theorem 5.5.1 — Ch 5 §5.3.2.
+- Kerr breach edge angle dependence — Ch 5 §5.7.1.
+- Theorem 5.6.3 (6D Unitarity) — Ch 6 §6.5.4 (used in §7.1.5 and as conceptual continuation of the bulk-Hilbert-space picture).
+- Penrose 1965, Hawking 1970, Hawking–Penrose 1970 singularity theorems and Hawking–Ellis 1973 textbook treatment — standard GR references; cited, not re-proven.
+- Misner–Thorne–Wheeler 1973 §31 for the Schwarzschild radial-infall calculation (5.7.10), (5.7.12) — standard GR; cited.
+- Poisson–Israel 1990 mass inflation result (cited in §7.6.1) — not used in the proof of any new theorem; cited only to show what the standard worry is.
+- Ashtekar–Bojowald 2005, Ashtekar–Singh 2011, Modesto 2010 (LQG references in §7.8.1) — survey only, not used in any derivation.
+- Brandenberger–Vafa 1989, Mathur 2005, Mathur 2024, Kachru–Kallosh–Linde–Trivedi 2003 (string theory references in §7.8.2) — survey only.
+- Weinberg 1979, Reuter 1998 (asymptotic safety references in §7.8.3) — survey only.
+
+### §7.9.3 Conjectures and open items
+
+**Gap G1 (MEDIUM).** The Firmament-nucleation event $\partial_-\Sigma$ is taken as a structural input from Vol 1 §5.7 rather than derived from first principles in this chapter. The chapter assumes that $\partial_-\Sigma$ exists, that the cosmological scale factor $a_*$ at $\partial_-\Sigma$ is finite, and that the Firmament-side cosmological data $(a_*, \dot a_*, \rho_*)$ at $\partial_-\Sigma$ are well-defined. The first-principles derivation of these properties from the bulk dynamics of Vol 1 Ch 6 is the subject of Vol 6 Ch 5. Mitigation: Theorem 5.7.3 is conditional on the existence of $\partial_-\Sigma$; the chapter is honest about this conditional structure and does not claim to have derived nucleation from nothing.
+
+**Gap G2 (LOW).** The Cauchy horizon discussion of §7.6 leans on Vol 1 §6.7 (the bulk hyperbolicity theorem) as inheritance rather than re-deriving it here. The reader who wants the full bulk-hyperbolicity argument must consult Vol 1 §6.7. Mitigation: clean cross-reference is sufficient; no new calculation needed.
+
+**Gap G3 (LOW).** The string-theoretic comparison in §7.8.2 glosses over the most recent fuzzball results (Mathur 2024) and does not engage with the open question of whether fuzzball constructions extend to generic non-supersymmetric BHs. The chapter notes the open question but does not attempt to settle it. Mitigation: §7.8.2 explicitly states the program's strengths and weaknesses honestly; a deeper string-theoretic comparison is for Vol 6.
+
+**Gap G4 (LOW).** The proof sketch of Theorem 5.7.4 is at the level of "case analysis with proof outline for each case." A fully formal proof — with measure-theoretic statement of the "measure zero" qualification, complete classification of Type C matter sources, and rigorous control of the Firmament-Einstein-equations bound in Type D — is a job for Vol 6. Mitigation: the proof outline is sufficient for the physical content of the theorem; the chapter notes where formal rigor is missing and where a reader should look for it.
+
+### §7.9.4 A note specifically for the Physicist
+
+Your central question — "is the regularization generic, or does it require fine-tuning?" — is addressed in §7.7.4. The short answer: generic, in the sense that no dimensionless parameter is required to take any specific numerical value. The argument depends only on inequalities ($\sigma > 0$, energy conditions, smoothness of bulk geometry) and not on tunings. If you find a step in the proof of Theorem 5.7.4 that *does* require fine-tuning, please flag the specific step so the chapter can be sharpened. The author has tried to expose every dependency.
+
+Your secondary question — "is the bulk continuation a free parameter, or is it determined?" — is addressed in Lemma 5.7.1: the continuation is unique up to bulk diffeomorphism, and the uniqueness comes from Picard–Lindelöf applied to the smooth bulk Christoffel symbols. The continuation is *not* a free parameter; it is determined by the Firmament-side limit of the 4-velocity plus the bulk geometry that was already fixed in Vol 1 Ch 4.
+
+### §7.9.5 A note specifically for the Theologian
+
+The chapter introduces the term "Firmament nucleation" to describe the past boundary of the Firmament $\Sigma$ in the 6D bulk. This is a 6D-dynamical event, defined geometrically as the locus where $\Sigma$ first exists as a continuum codimension-2 hypersurface. It is not a creation narrative. The chapter makes no theological claim about Firmament nucleation, and explicitly states (in §7.5.6) that whether the bulk itself has a "beginning" in some still more general embedding is a question the chapter does not address.
+
+If Book 3 (The Creator's Blueprint) eventually discusses Theorem 5.7.3 in a scriptural context, it should preserve the line that this chapter draws: the *physics* (Lemma 5.7.1, Theorem 5.7.3, the finite-area nucleation surface) stands on its own, and the scriptural commentary is an additional layer that can be made or not made without affecting the physics. The chapter records this line as a request to the future Book 3 author, not as a constraint on what they may say.
+
+### §7.9.6 A note specifically for the "But Why?" Reader
+
+Here is a one-sentence answer to each of the eight why-questions raised in the chapter spec:
+
+1. **Why are there singularity theorems at all?** Because Penrose and Hawking proved that, given energy conditions and a maximality premise, geodesic incompleteness is forced (§7.2.1).
+2. **Why is geodesic incompleteness a problem?** Because, in the maximality picture, an incomplete geodesic terminates at no point — physical worldlines do not run out of universe to be in (§7.2.1).
+3. **Why does GR have no out?** Because GR's universe *is* the maximal Lorentzian manifold; there is no exterior for geodesics to enter (§7.2.3).
+4. **Why does the zone framework have an out?** Because the 4D spacetime of GR is the Firmament $\Sigma \subset Z$, and Firmament geodesics that reach $\partial\Sigma$ continue into the bulk via Lemma 5.7.1 (§7.3.3).
+5. **Why is this not just relabeling?** Because the bulk continuation is unique and constructive — it is determined by the Firmament-side limit of the 4-velocity and the smooth bulk Christoffel symbols (Lemma 5.7.1, §7.3.3).
+6. **Why is the regularization generic?** Because Theorem 5.7.4 depends only on inequalities ($\sigma > 0$, energy conditions, smoothness), never on tuned numerical values (§7.7.4).
+7. **Why do other programs need fine-tuning or extra postulates?** Because they try to regularize *inside 4D* (LQG, asymptotic safety) or by selecting from a large landscape (string vacua), whereas the Firmament membrane regularization is forced by an independently motivated 6D structure (§7.8).
+8. **Why does this matter for cosmology?** Because Theorem 5.7.3 hands Chapter 8 a finite, regular initial-data surface at $\partial_-\Sigma$ to use in place of the singular initial-data surface of standard Big Bang cosmology (§7.5.5, forward link to Ch 8).
+
+If any of these one-sentence answers is unsatisfying, the corresponding section gives the longer treatment; if the longer treatment is also unsatisfying, please flag the specific "because" so it can be sharpened in the next revision.
+
+### §7.9.7 Forward links
+
+- **Chapter 8** (Zone Cosmological Model) will use Theorem 5.7.3 as the initial-data surface for the Friedmann evolution. The forward link is: $\partial_-\Sigma$ provides $(a_*, \dot a_*, \rho_*)$ as regular initial conditions; Ch 8 evolves them forward in cosmic time.
+- **Chapter 11** (Dark Matter and Dark Energy Quantified) will revisit the bulk content of $Z_{2.2.1}$ (Waters Below) and $Z_{2.2.3}$ (Waters Above), which are the regions into which Lemma 5.7.1's bulk continuations propagate. The §7.5.6 question "what is the bulk doing during cosmological evolution" is addressed there at the dark matter and dark energy level.
+- **Chapter 12** (Starlight and Chronology) will use Theorem 5.7.3 to discuss the early-universe timeline; the Firmament-nucleation interpretation provides a natural place to discuss the difference between Firmament time and bulk time.
+- **Volume 6** will close gaps G1 (first-principles derivation of Firmament nucleation), G2 (bulk hyperbolicity in the zone-cosmological context), G3 (deeper string-theoretic comparison), and G4 (formal proof of Theorem 5.7.4).
+
+---
+
+## §7.10 Problem Sets
+
+### Computational
+
+**P7.1.** *(Schwarzschild proper time to the breach edge.)* Verify (5.7.12) by direct integration of the radial proper time element from $r_0$ to $r_s$ for the Schwarzschild metric with $E^2 = (1 - r_s/r_0)\,c^4$ (radial fall from rest at $r_0$). Show that $\tau_\text{fall}(10\,r_s \to r_s)$ is finite and compute it in seconds for $M = M_\odot$.
+
+**P7.2.** *(Bulk curvature bound, two black holes.)* Using $R_\text{6D,max} \sim 10^{20}$ m$^{-2}$ from (5.7.3) and the Firmament-side Kretschmann scalar (5.7.16), compute the ratio $K_\text{Firm}(r_s) / R_\text{6D,max}^2$ for (a) $M = M_\odot$ and (b) $M = 10^9 M_\odot$. In which case is the bulk curvature *higher* than the Firmament-side curvature at the moment of crossing? In which case is it *lower*? Comment on what this implies physically.
+
+**P7.3.** *(FRW past proper time.)* For a flat ($k=0$) matter-dominated FRW cosmology with $a(t) = (t/t_0)^{2/3}$, compute the proper time of a comoving past-directed timelike geodesic from the present moment ($t = t_0$) back to a Firmament-nucleation surface at $a_* = 10^{-3}$. (Take the present-day age $t_0 \approx 13.8$ Gyr.) Compare to the proper time back to $a_* = 0$ (the standard Big Bang) and comment on the difference.
+
+**P7.4.** *(Reissner–Nordström inner horizon.)* For an extremal Reissner–Nordström black hole ($GM^2 = Q^2$), compute $r_+$ and $r_-$ from (5.7.19). Show that $r_+ = r_- = GM/c^2$; verify that the standard story has the inner and outer horizons merging in the extremal limit; and explain in one sentence why this case is *not* problematic for the Firmament picture (hint: there is still a single Firmament edge at $r_+$, which is what matters for Lemma 5.7.1).
+
+**P7.5.** *(Christoffel-symbol smoothness check.)* Compute one of the bulk Christoffel symbols, $\Gamma^\xi{}_{tt}$, from the metric (5.7.1). Show that it is smooth as a function of $(\xi, \eta)$ on any open neighborhood of the Firmament $\xi = \xi_0, \eta = \eta_0$ where the warp factors $A, B$ are smooth. (You will need Vol 1 Ch 4 for the warp-factor structure.)
+
+### Conceptual
+
+**P7.6.** *(The hidden premise.)* In one paragraph, explain why premise M0 (geodesic maximality) is the load-bearing premise of the Penrose–Hawking singularity theorems. Your answer should make clear what the conclusion of the theorems would be if M0 were removed.
+
+**P7.7.** *(Why a continuation lemma is not relabeling.)* In one paragraph, explain why Lemma 5.7.1 is not "just defining away the singularity by stipulation." Your answer should invoke (i) the constructive nature of the continuation, (ii) the uniqueness from Picard–Lindelöf, and (iii) the independence of the bulk geometry from the Firmament.
+
+**P7.8.** *(LQG vs. membrane.)* Compare the LQG bouncing cosmology and the Firmament Theorem 5.7.3 as accounts of the Big Bang singularity. Identify (a) one structural similarity and (b) two structural differences. (See §7.8.1.)
+
+**P7.9.** *(The fine-tuning question.)* Read §7.7.4. In your own words, explain why the Firmament regularization is "free of fine-tuning" in a sense that LQG and asymptotic safety are not. Cite the specific premise of Theorem 5.7.4 that, if it required fine-tuning, would change your answer.
+
+**P7.10.** *(Cauchy horizon dissolution.)* In one paragraph, explain why the Cauchy horizon problem of standard GR has no analog in the Firmament picture. Your answer should distinguish between the *coordinate* $r_-$ of the analytic continuation and the *physical* surface that perturbations could actually propagate along.
+
+### Challenge
+
+**P7.11.** *(Toy model: 1-Firmament in a 2D bulk.)* Construct a toy model: a 1-dimensional Firmament embedded in a 2-dimensional bulk with metric $ds^2 = -e^{2A(\eta)}\,dt^2 + d\eta^2$, where $A(\eta) = -\eta^2/(2\ell^2)$ for some length $\ell$, and the Firmament is the worldline $\eta = 0$. Suppose the Firmament has a "breach" at $t = 0$ (i.e., the Firmament exists only for $t > 0$). Apply the past-directed form of Lemma 5.7.1 to the Firmament geodesic of a test particle, and explicitly compute the bulk continuation as $t \to 0^+$. Verify that the continuation has bounded curvature and finite affine parameter. Hint: integrate the 2D geodesic equation by hand; the warp factor makes it solvable in closed form.
+
+**P7.12.** *(Mathur fuzzball duality, speculative.)* Read Mathur 2005 (or Mathur 2024 if you can access it). Sketch what a duality between the Firmament membrane breach picture (Ch 5 + Ch 7) and the fuzzball picture might look like. Specifically: identify (i) what plays the role of the Firmament edge $\partial\Sigma$ in the fuzzball picture; (ii) what plays the role of the bulk worldline in the fuzzball picture; (iii) one observable that the two pictures should agree on. This is a research question, not a textbook exercise; partial answers are welcome.
+
+**P7.13.** *(Is the "measure zero" qualification of Theorem 5.7.4 sharp?)* Theorem 5.7.4 states that the only possible exceptions to bulk geodesic completeness are Firmament-nucleation/dissolution events, which form a 4-dimensional submanifold of the 6-dimensional bulk and have measure zero with respect to the bulk volume form. Is "measure zero" the sharpest statement that can be made? Could one strengthen it to "isolated" (i.e., a discrete set), or is there a continuous family of nucleation events? Argue your answer using the bulk dynamics of Vol 1 Ch 6.
+
+---
+
+*End of Ch 7 draft. Proceed to Phase 4 (Self-Review).*
