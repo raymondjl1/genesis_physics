@@ -6,7 +6,7 @@ In Chapter 3, we built the zone manifold — a 6-dimensional stratified space wi
 
 That is about to change.
 
-The Firmament is not a boundary. It is a membrane. The Hebrew word rāqîa' (רָקִיעַ) means something that has been beaten out, hammered thin, stretched under tension — like gold leaf, like a drumskin. This linguistic observation provides historical motivation, but the physics must stand on its own. The mathematical content of this chapter — induced metric, extrinsic curvature, junction conditions, wave equations — is derived entirely from the 6D zone manifold established in Chapters 3–4. No result in this chapter depends on biblical interpretation; the Genesis terminology is used for naming conventions only.
+The Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') is not a boundary. It is a membrane. The Hebrew word means something that has been beaten out, hammered thin, stretched under tension — like gold leaf, like a drumskin. This linguistic observation provides historical motivation, but the physics must stand on its own. The mathematical content of this chapter — induced metric, extrinsic curvature, junction conditions, wave equations — is derived entirely from the 6D zone manifold established in Chapters 3–4. No result in this chapter depends on biblical interpretation; the Genesis terminology is used for naming conventions only.
 
 What the mathematics does establish is that the 4D hypersurface Z sub 2.2 has the properties of a physical membrane: mass density, tension, elastic response, and the ability to vibrate.
 

@@ -8,7 +8,11 @@ And yet, for all their success, Maxwell's equations have always been postulated,
 
 This chapter derives them.
 
+Structural reminder. Firmament and Waters Above / Waters Below are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+
 In Chapter 1, we showed that all four forces are geometric consequences of the zone manifold. In Chapter 2, we extracted gravity — the simplest force — from the diagonal part of the 6D metric, calculating Newton's constant G from zone parameters alone. Now we turn to electromagnetism, the second force, and we extract it from the off-diagonal part of the same metric. The photon field A_ mu does not need to be postulated. It lives in the geometry, waiting to be found.
+
+There is a deeper reason this chapter belongs precisely here, between gravity and the short-range forces. Of the four forces, electromagnetism is the one that travels on the Firmament rather than through the bulk. Vol 1 §5.3 derived c to the 2 = sigma / mu as the wave speed of transverse perturbations on the rāqîʿaʾ membrane — and that wave speed is the speed of light. When Gen 1:6–8 distinguishes the firmament from the waters it divides, it is making — in architectural language — exactly the distinction between the wave-bearing surface and the bulk regions on either side. Light is the wave on the dividing surface; the surface is the geometric object Vol 1 derived; and the geometric object is the rāqîʿaʾ named in Gen 1:6–8. The chain runs unbroken: action principle → Firmament dynamics → wave speed → Maxwell — with the biblical name attaching to the structural object at the level where structure is fixed, not where wavelength is measured.
 
 The derivation chain runs as follows. We begin with the 6D metric established in Volume 1 and identify the off-diagonal components g sub mu xi as gauge fields (§3.1). We show that gauge invariance — the symmetry that textbooks must postulate — arises automatically from coordinate freedom in the xi extra dimension (§3.2). We integrate out the extra dimensions to obtain the electromagnetic coupling constant, and from it derive epsilon sub 0 and mu sub 0 (§3.3). We vary the resulting 4D action and extract all four of Maxwell's equations — two from the Euler-Lagrange equations, two from a topological identity (§3.4). We show that the speed of light is the wave speed on the Firmament membrane (§3.5). We derive electromagnetic waves, energy conservation, and Coulomb's law (§3.6). We calculate the fine structure constant alpha to the -1 approximately equal to 137 from zone geometry (§3.7). And we show that charge is quantized because the extra dimension is compact (§3.8).
 
@@ -74,7 +78,7 @@ In the full theory (developed in Chapters 4 and 6), these two gauge fields — a
 
 [Equation — see print edition.]
 
-This is the electromagnetic potential. The identification is not arbitrary. The xi-direction is the Waters Above dimension — the cosmological-scale extra dimension with logarithmic warping (Vol 1, Ch 4, §4.3). Its isometry group is U(1), the gauge group of electromagnetism. The eta-direction (Waters Below, exponential warping) gives rise to the weak and strong forces through a more complex mechanism involving zone boundary modes (Chapter 4).
+This is the electromagnetic potential. The identification is not arbitrary. The xi-direction is the Waters Above (dark energy, ~68%) dimension — the cosmological-scale extra dimension with logarithmic warping (Vol 1, Ch 4, §4.3). Its isometry group is U(1), the gauge group of electromagnetism. The eta-direction (Waters Below (dark matter, ~27%), exponential warping) gives rise to the weak and strong forces through a more complex mechanism involving zone boundary modes (Chapter 4).
 
 For the remainder of this chapter, A_ mu denotes the electromagnetic four-potential, and all derivations proceed from the xi-sector of the metric.
 

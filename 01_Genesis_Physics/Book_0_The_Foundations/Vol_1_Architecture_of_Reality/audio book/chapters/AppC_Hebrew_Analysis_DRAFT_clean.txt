@@ -31,7 +31,7 @@ What This Appendix Is Not.
 
 This is not a theology course. We are not arguing that the entire Bible is about physics, nor that physics exhausts the meaning of Genesis. We are asking a narrower, specific question: Do the Hebrew terms used in Genesis 1–2 describe something coherent about the structure of reality? The answer is yes. That coherence is what we map here.
 
-C.1 — בְּרֵאשִׁית (Bereshit) — "In [the] Beginning".
+C.1 — בְּרֵאשִׁית (bərēʾšît) — "In [the] Beginning".
 
 Hebrew: בְּרֵאשִׁית
 Root: ראש (r-ʾ-sh) — "head, chief, beginning"
@@ -55,7 +55,7 @@ Key Verse(s)
 Genesis 1:1 (ESV): "In the beginning, God created the heavens and the earth."
 בְּרֵאשִׁית בָּרָא אֱלֹהִים אֶת־הַשָּׁמַיִם וְאֶת־הָאָֽרֶץ׃
 
-C.2 — בָּרָא (Bara) — "Created".
+C.2 — בָּרָא (bārāʾ) — "Created".
 
 Hebrew: בָּרָא
 Root: ברא (b-r-ʾ) — to create, shape, form
@@ -80,7 +80,7 @@ Genesis 1:1 (ESV): "In the beginning, God created the heavens and the earth."
 Genesis 1:21 (ESV): "And God created the great sea creatures and every living creature that moves, with which the waters swarm, according to their kinds, and every winged bird according to its kind."
 Genesis 1:27 (ESV): "So God created man in his own image, in the image of God he created him; male and female he created them."
 
-C.3 — אֱלֹהִים (Elohim) — "God".
+C.3 — אֱלֹהִים (ʾĕlōhîm) — "God".
 
 Hebrew: אֱלֹהִים
 Root: אלה (ʾ-l-h) — perhaps from a root meaning "strong" or "mighty"; etymology debated
@@ -104,7 +104,7 @@ Key Verse(s)
 Genesis 1:1 (ESV): "In the beginning, God [Elohim] created the heavens and the earth."
 Genesis 1:26–27 (ESV): "Then God [Elohim] said, 'Let us make man in our image, after our likeness...' So God [Elohim] created man in his own image, in the image of God he created him; male and female he created them."
 
-C.4 — הַשָּׁמַיִם (Shamayim) — "The Heavens".
+C.4 — הַשָּׁמַיִם (haššāmayim) — "The Heavens".
 
 Hebrew: הַשָּׁמַיִם
 Root: שמי (sh-m-y) — etymology uncertain; possibly from an Akkadian root meaning "sky" or "height"
@@ -128,7 +128,7 @@ Key Verse(s)
 Genesis 1:1 (ESV): "In the beginning, God created the heavens and the earth."
 Genesis 1:8 (ESV): "And God called the expanse 'heavens.' And there was evening and there was morning, the second day."
 
-C.5 — תֹהוּ וָבֹהוּ (Tohu Vavohu) — "Formless and Void".
+C.5 — תֹהוּ וָבֹהוּ (tōhû wā-bōhû) — "Formless and Void".
 
 Hebrew: תֹהוּ וָבֹהוּ
 Root: Tohu (ת-ה-ו) and Bohu (ב-ה-ו) — both from roots meaning emptiness, formlessness, desolation
@@ -152,7 +152,7 @@ Key Verse(s)
 Genesis 1:2 (ESV): "The earth was without form and void [tohu vavohu], and darkness was over the face of the deep."
 Isaiah 45:18 (ESV): "For thus says the LORD, who created the heavens (he is God!), who formed the earth and made it (he established it; he did not create it empty [tohu], he formed it to be inhabited!):"
 
-C.6 — תְהוֹם (Tehom) — "The Deep".
+C.6 — תְהוֹם (təhôm) — "The Deep".
 
 Hebrew: תְהוֹם
 Root: ת-ה-ו-ם — cognate with Akkadian Tiamat (the primordial chaos goddess), but thoroughly demythologized in Hebrew
@@ -176,7 +176,7 @@ Key Verse(s)
 Genesis 1:2 (ESV): "...and darkness was over the face of the deep [tehom]."
 Psalm 42:7 (ESV): "Deep [tehom] calls to deep at the noise of your waterfalls; all your breakers and your billows have gone over me."
 
-C.7 — מַיִם (Mayim) — "Waters".
+C.7 — מַיִם (mayim) — "Waters".
 
 Hebrew: מַיִם
 Root: מ-י-ם — root meaning uncertain; some link to Egyptian etymologies
@@ -202,7 +202,7 @@ Key Verse(s)
 Genesis 1:6–7 (ESV): "And God said, 'Let there be an expanse in the midst of the waters, and let it separate the waters from the waters.' And God made the expanse and separated the waters that were under the expanse from the waters that were above the expanse."
 Genesis 1:9 (ESV): "And God said, 'Let the waters under the heavens be gathered together into one place, and let the dry land appear.'"
 
-C.8 — אוֹר (Or) — "Light".
+C.8 — אוֹר (ʾôr) — "Light".
 
 Hebrew: אוֹר
 Root: א-ו-ר — meaning to shine, illuminate, become light
@@ -225,10 +225,10 @@ Key Verse(s)
 
 Genesis 1:3–5 (ESV): "And God said, 'Let there be light,' and there was light. And God saw that the light was good. And God separated the light from the darkness. God called the light Day, and the darkness he called Night."
 
-C.9 — חֹשֶׁךְ (Choshek) — "Darkness".
+C.9 — חֹשֶׁךְ (ḥōšek) — "Darkness".
 
 Hebrew: חֹשֶׁךְ
-Root: ח-ש-ך — meaning to be dark, to conceal, to withhold
+Root: ח-ש-כ — meaning to be dark, to conceal, to withhold
 Grammar: Masculine noun, abstract but representing a state. Rarely used as a predicate adjective; primarily as a noun denoting the state of darkness.
 Semantic Range: Darkness (physical), obscurity, concealment, confusion, evil (metaphorically).
 
@@ -249,7 +249,7 @@ Key Verse(s)
 Genesis 1:2 (ESV): "The earth was without form and void, and darkness was over the face of the deep."
 Genesis 1:4–5 (ESV): "And God saw that the light was good. And God separated the light from the darkness. God called the light Day, and the darkness he called Night."
 
-C.10 — יוֹם (Yom) — "Day".
+C.10 — יוֹם (yôm) — "Day".
 
 Hebrew: יוֹם
 Root: י-ו-ם — possibly related to "hot" or "shine" (the sunny part of a 24-hour cycle), but uncertain
@@ -273,7 +273,7 @@ Key Verse(s)
 Genesis 1:5 (ESV): "And God called the light Day [yom], and the darkness he called Night."
 Genesis 1:13 (ESV): "And there was evening and there was morning, the third day [yom]."
 
-C.11 — רָקִיעַ (Raqia) — "Firmament".
+C.11 — רָקִיעַ (rāqîʿaʾ) — "Firmament".
 
 Hebrew: רָקִיעַ
 Root: ר-ק-ע — meaning to beat out, stretch, spread, hammer (as in hammering metal into a sheet)
@@ -300,7 +300,7 @@ Key Verse(s)
 
 Genesis 1:6–8 (ESV): "And God said, 'Let there be an expanse in the midst of the waters, and let it separate the waters from the waters.' And God made the expanse and separated the waters that were under the expanse from the waters that were above the expanse. And it was so. And God called the expanse 'heavens.'"
 
-C.12 — קָוָה (Qavah) — "Gathered".
+C.12 — קָוָה (qāwāh) — "Gathered".
 
 Hebrew: קָוָה
 Root: ק-ו-ה — meaning to gather, collect, assemble, wait
@@ -323,7 +323,7 @@ Key Verse(s)
 
 Genesis 1:9–10 (ESV): "And God said, 'Let the waters under the heavens be gathered together into one place, and let the dry land appear.' And it was so. God called the dry land Earth, and the waters that were gathered together he called Seas."
 
-C.13 — דֶּשֶׁא (Deshe) — "Vegetation".
+C.13 — דֶּשֶׁא (dešeʾ) — "Vegetation".
 
 Hebrew: דֶּשֶׁא
 Root: ד-ש-א — possibly related to growth, sprouting, fresh growth
@@ -346,7 +346,7 @@ Key Verse(s)
 
 Genesis 1:11–12 (ESV): "And God said, 'Let the earth bring forth vegetation, plants yielding seed, and fruit trees bearing fruit in which is their seed, each according to its kind, upon the earth.' And it was so."
 
-C.14 — לְמִינוֹ (Lemino) — "According to Its Kind".
+C.14 — לְמִינוֹ (ləmînô) — "According to Its Kind".
 
 Hebrew: לְמִינוֹ
 Root: מ-י-ן (min) — meaning kind, type, category, species
@@ -370,7 +370,7 @@ Key Verse(s)
 Genesis 1:11–12: "...plants yielding seed, and fruit trees bearing fruit in which is their seed, each according to its kind..."
 Genesis 1:21, 24–25: "And God created the great sea creatures... according to their kinds... And God made the beasts of the earth according to their kinds..."
 
-C.15 — נֶפֶשׁ חַיָּה (Nephesh Chayah) — "Living Soul / Living Creature".
+C.15 — נֶפֶשׁ חַיָּה (nepeš ḥayyāh) — "Living Soul / Living Creature".
 
 Hebrew: נֶפֶשׁ (nephesh) + חַיָּה (chayah)
 Root: Nephesh (נ-פ-ש) — breath, life, soul, appetite, living creature. Chayah (ח-י-ה) — living, alive.
@@ -394,10 +394,10 @@ Key Verse(s)
 Genesis 1:20 (ESV): "And God said, 'Let the waters swarm with swarms of living creatures [nephesh chayah].'"
 Genesis 1:24 (ESV): "And God said, 'Let the earth bring forth living creatures [nephesh chayah] according to their kinds...'"
 
-C.16 — צֶלֶם אֱלֹהִים (Tselem Elohim) — "Image of God".
+C.16 — צֶלֶם אֱלֹהִים (ṣelem ʾĕlōhîm) — "Image of God".
 
 Hebrew: צֶלֶם (tselem) אֱלֹהִים (Elohim)
-Root: Tselem (ץ-ל-ם) — image, likeness, representation, idol
+Root: Tselem (צ-ל-ם) — image, likeness, representation, idol
 Grammar: Noun construct: "image-of-God." Tselem can mean a carved image, a representation, a statue, or—in this case—the functional likeness/image of God.
 Semantic Range: Image, representation, idol, form, shape, likeness.
 
@@ -421,11 +421,11 @@ Key Verse(s)
 
 Genesis 1:26–27 (ESV): "Then God said, 'Let us make man in our image, after our likeness. And let them have dominion over the fish of the sea and over the fowl of the air and over every living thing that moves upon the earth.' So God created man in his own image, in the image of God he created him; male and female he created them."
 
-C.17 — וַיְכֻלּוּ (Vayekhullu) — "Were Completed".
+C.17 — וַיְכֻלּוּ (wayəkullû) — "Were Completed".
 
 Hebrew: וַיְכֻלּוּ
 Root: כ-ל-ה — meaning to complete, finish, end, consume
-Grammar: Pual (passive intensive) of k-l-h. Literally "were brought to completion." Vav-consecutive + perfect tense.
+Grammar: Pual (passive intensive) of k-l-h. Literally "were brought to completion." Qal imperfect with vav-consecutive (wayyiqtol).
 Semantic Range: Completed, finished, ended, consumed, perfected.
 
 Theological Significance
@@ -446,11 +446,11 @@ Key Verse(s)
 
 Genesis 2:1–3 (ESV): "Thus the heavens and the earth were completed [vayekhullu], and all the host of them. And on the seventh day God finished his work that he had done, and he rested on the seventh day from all his work that he had done."
 
-C.18 — וַיִּשְׁבֹּת / קִדַּשׁ (Vayishbot / Qiddash) — "Rested / Sanctified".
+C.18 — וַיִּשְׁבֹּת / קִדַּשׁ (wayyišbōt / qiddaš) — "Rested / Sanctified".
 
 Hebrew: וַיִּשְׁבֹּת (vayishbot) / קִדַּשׁ (qiddash)
 Root: Shbt (ש-ב-ת) — meaning to cease, rest, desist. Qdsh (ק-ד-ש) — meaning to be holy, to set apart, to sanctify.
-Grammar: Vayishbot: Qal perfect, vav-consecutive. Qiddash: Piel perfect, vav-consecutive.
+Grammar: Vayishbot: Qal imperfect with vav-consecutive (wayyiqtol). Qiddash: Piel perfect with vav-consecutive.
 Semantic Range: Rested (ceased from work), sanctified (set apart as holy), made sacred.
 
 Theological Significance
@@ -475,40 +475,46 @@ Genesis 2:2–3 (ESV): "And on the seventh day God finished his work that he had
 
 C.19 Summary Table.
 
-#: 1. Hebrew: בְּרֵאשִׁית. Transliteration: Bereshit. English: In [the] beginning. Zone Correspondence: Z₂ inception marker; Phase 1 opening. Reference: Gen 1:1.
-#: 2. Hebrew: בָּרָא. Transliteration: Bara. English: Created. Zone Correspondence: κ_create activation; ex nihilo. Reference: Gen 1:1, 1:21, 1:27.
-#: 3. Hebrew: אֱלֹהִים. Transliteration: Elohim. English: God. Zone Correspondence: Z₀/Z₁ agent; pluralunity structure. Reference: Gen 1:1, 1:26–27.
-#: 4. Hebrew: הַשָּׁמַיִם. Transliteration: Shamayim. English: The heavens. Zone Correspondence: Z₁ + Z₂.₂.₃ (dual form). Reference: Gen 1:1, 1:8.
-#: 5. Hebrew: תֹהוּ וָבֹהוּ. Transliteration: Tohu Vavohu. English: Formless and void. Zone Correspondence: Z₂ high-entropy initial state. Reference: Gen 1:2.
-#: 6. Hebrew: תְהוֹם. Transliteration: Tehom. English: The deep. Zone Correspondence: Ψ (waters) before separation. Reference: Gen 1:2.
-#: 7. Hebrew: מַיִם. Transliteration: Mayim. English: Waters. Zone Correspondence: Ψ_A (above) and Ψ_B (below). Reference: Gen 1:6–9.
-#: 8. Hebrew: אוֹר. Transliteration: Or. English: Light. Zone Correspondence: κ_create; first ordering principle. Reference: Gen 1:3–5.
-#: 9. Hebrew: חֹשֶׁךְ. Transliteration: Choshek. English: Darkness. Zone Correspondence: Pre-structured state; high-entropy. Reference: Gen 1:2, 1:4–5.
-#: 10. Hebrew: יוֹם. Transliteration: Yom. English: Day. Zone Correspondence: Creation epoch; temporal unit. Reference: Gen 1:5–13.
-#: 11. Hebrew: רָקִיעַ. Transliteration: Raqia. English: Firmament. Zone Correspondence: Z₂.₂.₂ (membrane boundary). Reference: Gen 1:6–8.
-#: 12. Hebrew: קָוָה. Transliteration: Qavah. English: Gathered. Zone Correspondence: Phase transition; condensation. Reference: Gen 1:9–10.
-#: 13. Hebrew: דֶּשֶׁא. Transliteration: Deshe. English: Vegetation. Zone Correspondence: P̂₃, P̂₄ pattern operators (biology). Reference: Gen 1:11–12.
-#: 14. Hebrew: לְמִינוֹ. Transliteration: Lemino. English: According to its kind. Zone Correspondence: Type-constraint operators (P̂). Reference: Gen 1:11–25.
-#: 15. Hebrew: נֶפֶשׁ חַיָּה. Transliteration: Nephesh Chayah. English: Living soul/creature. Zone Correspondence: Zone-interface (animal). Reference: Gen 1:20–24.
-#: 16. Hebrew: צֶלֶם אֱלֹהִים. Transliteration: Tselem Elohim. English: Image of God. Zone Correspondence: I_human; full zone-interface. Reference: Gen 1:26–27.
-#: 17. Hebrew: וַיְכֻלּוּ. Transliteration: Vayekhullu. English: Were completed. Zone Correspondence: Phase 1 closure; Axiom 2 (Conservation). Reference: Gen 2:1.
-#: 18. Hebrew: וַיִּשְׁבֹּת / קִדַּשׁ. Transliteration: Vayishbot / Qiddash. English: Rested / Sanctified. Zone Correspondence: Phase transition to Edenic; κ_create → κ_full. Reference: Gen 2:2–3.
+#: 1. Hebrew: בְּרֵאשִׁית. Transliteration: *bərēʾšît*. English: In [the] beginning. Zone Correspondence: Z₂ inception marker; Phase 1 opening. Reference: Gen 1:1.
+#: 2. Hebrew: בָּרָא. Transliteration: *bārāʾ*. English: Created. Zone Correspondence: κ_create activation; ex nihilo. Reference: Gen 1:1, 1:21, 1:27.
+#: 3. Hebrew: אֱלֹהִים. Transliteration: *ʾĕlōhîm*. English: God. Zone Correspondence: Z₀/Z₁ agent; pluralunity structure. Reference: Gen 1:1, 1:26–27.
+#: 4. Hebrew: הַשָּׁמַיִם. Transliteration: *haššāmayim*. English: The heavens. Zone Correspondence: Z₁ + Z₂.₂.₃ (dual form). Reference: Gen 1:1, 1:8.
+#: 5. Hebrew: תֹהוּ וָבֹהוּ. Transliteration: *tōhû wā-bōhû*. English: Formless and void. Zone Correspondence: Z₂ high-entropy initial state. Reference: Gen 1:2.
+#: 6. Hebrew: תְהוֹם. Transliteration: *təhôm*. English: The deep. Zone Correspondence: Ψ (waters) before separation. Reference: Gen 1:2.
+#: 7. Hebrew: מַיִם. Transliteration: *mayim*. English: Waters. Zone Correspondence: Ψ_A (above) and Ψ_B (below). Reference: Gen 1:6–9.
+#: 8. Hebrew: אוֹר. Transliteration: *ʾôr*. English: Light. Zone Correspondence: κ_create; first ordering principle. Reference: Gen 1:3–5.
+#: 9. Hebrew: חֹשֶׁךְ. Transliteration: *ḥōšek*. English: Darkness. Zone Correspondence: Pre-structured state; high-entropy. Reference: Gen 1:2, 1:4–5.
+#: 10. Hebrew: יוֹם. Transliteration: *yôm*. English: Day. Zone Correspondence: Creation epoch; temporal unit. Reference: Gen 1:5–13.
+#: 11. Hebrew: רָקִיעַ. Transliteration: *rāqîʿaʾ*. English: Firmament. Zone Correspondence: Z₂.₂.₂ (membrane boundary). Reference: Gen 1:6–8.
+#: 12. Hebrew: קָוָה. Transliteration: *qāwāh*. English: Gathered. Zone Correspondence: Phase transition; condensation. Reference: Gen 1:9–10.
+#: 13. Hebrew: דֶּשֶׁא. Transliteration: *dešeʾ*. English: Vegetation. Zone Correspondence: P̂₃, P̂₄ pattern operators (biology). Reference: Gen 1:11–12.
+#: 14. Hebrew: לְמִינוֹ. Transliteration: *ləmînô*. English: According to its kind. Zone Correspondence: Type-constraint operators (P̂). Reference: Gen 1:11–25.
+#: 15. Hebrew: נֶפֶשׁ חַיָּה. Transliteration: *nepeš ḥayyāh*. English: Living soul/creature. Zone Correspondence: Zone-interface (animal). Reference: Gen 1:20–24.
+#: 16. Hebrew: צֶלֶם אֱלֹהִים. Transliteration: *ṣelem ʾĕlōhîm*. English: Image of God. Zone Correspondence: I_human; full zone-interface. Reference: Gen 1:26–27.
+#: 17. Hebrew: וַיְכֻלּוּ. Transliteration: *wayəkullû*. English: Were completed. Zone Correspondence: Phase 1 closure; Axiom 2 (Conservation). Reference: Gen 2:1.
+#: 18. Hebrew: וַיִּשְׁבֹּת / קִדַּשׁ. Transliteration: *wayyišbōt / qiddaš*. English: Rested / Sanctified. Zone Correspondence: Phase transition to Edenic; κ_create → κ_full. Reference: Gen 2:2–3.
 
 C.20 Note on Transliteration.
 
-This appendix uses the following transliteration conventions:
+This appendix uses the following transliteration conventions, applied consistently across all entries and tables:
 
 Simplified Academic Transliteration:
-- Hebrew gutturals (ʾ, ʿ, h, ḥ) are represented when they affect pronunciation or meaning
-- Vowels follow the Hebrew text, with the following convention:
+- Hebrew gutturals are represented with ʾ (aleph) and ʿ (ayin); final-ayin in word-final position is rendered with a straight apostrophe ' only in informal in-prose first mentions of names like rāqîʿaʾ. The academic transliteration uses ʿ.
+- Vowels follow the Hebrew text, with macron diacriticals applied consistently:
   - ā = qamets (long a)
   - ē = tsere (long e)
-  - ī = ḥireq (long i)
+  - ī = ḥireq-yod (long i)
   - ō = ḥolem (long o)
   - ū = shuruq (long u)
   - ə = schwa (very short, often silent)
-- Doubled consonants are marked with a line (mittef) when relevant (geminates)
-- Definite articles and prepositions are hyphenated (ha-raqia = "the firmament")
+- Doubled consonants are written as a doubled letter (e.g., qiddaš, wayyišbōt) where the Masoretic dagesh forte is present.
+- Underdot ḥ = ḥet; š = shin; ṣ = tsade.
+- Definite articles and prepositions are hyphenated when ambiguity would otherwise arise (e.g., wā-bōhû); in the canonical first-mention format used by the series ("Hebrew script, italic transliteration, English gloss"), the unhyphenated, fully vocalized form is preferred.
+- Canonical series first-mention examples (used throughout the manuscript):
+  - The Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing')
+  - The Waters (מַיִם, mayim, 'waters')
+  - Created (בָּרָא, bārāʾ, 'created')
+  - Formless and empty (תֹהוּ וָבֹהוּ, tōhû wā-bōhû, 'formless and empty')
 
 Abbreviation of Root Analysis:
 When a Hebrew word is analyzed, the root letters are presented in order (e.g., b-r-ʾ for bara, r-q-ʿ for raqia). This is not a full transliteration but a schematic showing the triliteral root structure that determines meaning.

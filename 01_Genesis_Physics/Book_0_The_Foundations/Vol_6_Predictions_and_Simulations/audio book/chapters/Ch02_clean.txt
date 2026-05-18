@@ -32,7 +32,7 @@ Understanding why they are wrong — and what the failure tells us about the fra
 
 The Firmament Resonance Model.
 
-The Firmament, modeled as a 2D membrane embedded in the 6D zone manifold, satisfies a wave equation with boundary conditions at the Waters Above (xi = xi sub A) and Waters Below (eta = eta sub B). The simplest model — hard-wall boundary conditions at the geometric extents — gives quantized resonance frequencies:
+The Firmament, modeled as a 2D membrane embedded in the 6D zone manifold, satisfies a wave equation with boundary conditions at the Waters Above (dark energy, ~68%; xi = xi sub A) and Waters Below (dark matter, ~27%; eta = eta sub B). The simplest model — hard-wall boundary conditions at the geometric extents — gives quantized resonance frequencies:
 
 [Equation — see print edition.]
 

@@ -4,13 +4,13 @@ Introduction — From Axioms to Geometry.
 
 Why Geometry Matters.
 
-In Chapter 1, we established six axioms and Postulate F that define our universe.[^axiom-count]
+In Chapter 1, we established seven axioms and Postulate F that define our universe.[^axiom-count]
 
-[^axiom-count]: Chapter 1 distinguishes the six foundational axioms (Axioms 1–6: Open System, 6D Spacetime, Firmament Mechanics, Sabbath Boundary, Fall Phase Transition, Waters Duality) from Postulate F (the Firmament as codimension-2 Firmament) — Postulate F is a working hypothesis to be verified by the geometry derived in Chapter 3, not an independent axiom at the same foundational level. By the end of this chapter, the zone manifold will be shown to require the Firmament's existence; Postulate F thus becomes a theorem of the axiom set. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the manifold—in which physics happens.
+[^axiom-count]: Chapter 1 distinguishes the seven foundational axioms (Axiom 1: God as Active Sustaining Ground; Axiom 2: Creation Complete on Day 7; Axiom 3: Symmetries from Divine Nature; Axiom 4: Humanity as Zone Interface Operator (PROPOSED); Axiom 5: Fall-phase κ-degradation; Axiom 6: Waters Above/Waters Below Duality; Axiom 7: Four Thermodynamic Phases) from Postulate F (the Primordial Spinor Field, currently an open assumption) — Postulate F is a working hypothesis awaiting derivation, not an eighth axiom at the same foundational level. By the end of this chapter, the zone manifold will be shown to support the Firmament's existence as a hypersurface compatible with all seven axioms. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the manifold—in which physics happens.
 
-Here's the deep truth: the shape of spacetime encodes the structure of reality itself. Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1.1) says the universe is an open system—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has zones.
+Here's the deep truth: the shape of spacetime encodes the structure of reality itself. Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1, the Sustaining Ground) says the universe is an open system—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has zones.
 
-The ancient texts speak of Heaven and Earth, of "waters above and waters below," of a Firmament separating them. We showed in Chapter 1 that these are not poetic metaphors—they are descriptions of the topological structure of creation. They describe zones: regions with distinct ontological status, physics, and role in the cosmic order.
+The ancient texts speak of Heaven and Earth, of "waters above and waters below" (מַיִם, mayim, 'waters'), of a Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') separating them. We showed in Chapter 1 that these are not poetic metaphors—they are descriptions of the topological structure of creation. They describe zones: regions with distinct ontological status, physics, and role in the cosmic order.
 
 So what is the Zone Manifold?
 
@@ -32,7 +32,7 @@ What will this chapter do?
 - §3.3 establishes it as a stratified space, with proper handling of singular boundaries
 - §3.4 shows the natural fiber bundle structure that emerges—how the zones fiber over each other
 - §3.5 builds connections and curvature on the zone bundle, deriving junction conditions
-- §3.6 specifies the metric structure and proves consistency with Axiom 1.2 (6D spacetime)
+- §3.6 specifies the metric structure and proves consistency with the 6D spacetime construction (Ch 1 §1.2, downstream of Axiom 1)
 - §3.7 shows how the Zone Manifold becomes the foundation for all physics—forces emerge from zone geometry
 
 By the end of this chapter, you will see that the shape of reality follows necessarily from what it means to be a sustained, open system. Forces do not need to be added by hand. They emerge. Particles do not need separate axioms. They arise. The Firmament is not arbitrary. It follows from the geometry.
@@ -68,7 +68,7 @@ The Six-Dimensional Metric and Coordinates.
 
 What are these six dimensions?
 
-From Axiom 1.2 (Chapter 1 §1.2), the spacetime metric is:
+From the 6D construction of Chapter 1 §1.2 (which expresses Axiom 1, the Sustaining Ground, geometrically), the spacetime metric is:
 
 [Equation — see print edition.]
 
@@ -204,7 +204,7 @@ Proof Sketch:
 
 Let N M sub Z be a persistent submanifold — one that appears as a submanifold of multiple zones. Consider a closed p-form omega representing a conserved current (i.e., d omega = 0). By Stokes' theorem (Ch 2, §2.7), the integral sub N omega depends only on the homology class [N] H sub p( M sub Z). Since N is persistent, its homology class is defined in the intersection of the zone domains it touches. The key observation is that the inclusion maps the expression induce maps on homology the expression, and [N] lies in the image of each such map. Therefore sub N omega is the same whether computed in any individual zone or in the full manifold. The integral — the conserved charge — does not change as we "cross" from one zone to another. 
 
-This is the geometric reason for Axiom 1.3 (Symmetries Imply Conservation Laws): persistent submanifolds define the topological obstructions to changing quantities.
+This is the geometric reason for Axiom 3 (Symmetries from Divine Nature, which under Noether's theorem imply conservation laws): persistent submanifolds define the topological obstructions to changing quantities.
 
 [Figure — see print edition.]
 
@@ -618,7 +618,7 @@ In the Zone Manifold, something deeper happens: all forces emerge from the zone 
 
 Here is the logic:
 
-1. The sustaining field κ (Axiom 1.1, Chapter 1) permeates the cosmos. It is not localized to one zone; it touches all zones.
+1. The sustaining field κ (Axiom 1, Chapter 1) permeates the cosmos. It is not localized to one zone; it touches all zones.
 
 2. κ sources curvature in all six dimensions. The Riemann tensor R sub mu nu rho sigma depends on κ.
 
@@ -657,7 +657,7 @@ The Atemporal Domain encodes the complete causal structure of the universe. Ever
 
 Proof Sketch:
 
-In general relativity (Chapter 1, Axiom 1.3), causality is encoded by light cones. The future light cone of an event (t, x) on the Firmament is:
+In general relativity (Chapter 1, downstream of Axiom 3 on symmetries), causality is encoded by light cones. The future light cone of an event (t, x) on the Firmament is:
 
 [Equation — see print edition.]
 
@@ -709,7 +709,7 @@ Again, these are not postulated. They emerge from the topology and geometry of t
 
 Consciousness and the Boundary Condition.
 
-Axiom 1.4 (Chapter 1) says: Consciousness is a fundamental interface between the transcendent and temporal realms.
+Axiom 4 (Chapter 1) says: Humans are zone-interface operators — consciousness is a fundamental interface between the transcendent and temporal realms.
 
 Geometrically: Consciousness corresponds to a special kind of section of the Zone Bundle—a section that simultaneously touches the Firmament (where we observe), the Atemporal Domain (where we think and choose), and Heaven Prime (where values and meaning originate).
 
@@ -727,21 +727,23 @@ A 6-dimensional pseudo-Riemannian manifold, stratified into eight zones, equippe
 
 Why is this the answer?
 
-Because it satisfies all six axioms and vindicates Postulate F (Chapter 1):
+Because it is consistent with all seven axioms (and compatible with Postulate F) of Chapter 1:
 
-1. ✓ Open System: The zones explicitly encode a source external to the observable cosmos (Heaven Prime → sustaining field).
+1. ✓ Axiom 1 (Sustaining Ground): The zones explicitly encode a source external to the observable cosmos (Heaven Prime → sustaining field κ); the universe is open in exactly the sense Axiom 1 requires.
 
-2. ✓ 6D Spacetime: The metric (1.3.1) is exactly the form required by Axiom 1.2.
+2. ✓ Axiom 2 (Creation Complete on Day 7): The Firmament hypersurface closes Z₂.₂ as a thermodynamic boundary; matter and energy within it are conserved, even as κ continues to sustain the geometry.
 
-3. ✓ Symmetries → Conservation: The bundle structure creates symmetry groups; integration (via Noether's theorem, Vol 2) yields conserved charges.
+3. ✓ Axiom 3 (Symmetries from Divine Nature): The bundle structure creates symmetry groups; integration (via Noether's theorem, Vol 2) yields conserved charges.
 
-4. ✓ Human Interface: Consciousness is a special section of the bundle, touching multiple zones.
+4. ✓ Axiom 4 (Humanity as Zone Interface Operator): Consciousness is a special section of the bundle, touching both the atemporal Z₂.₁ and the temporal Z₂.₂ — exactly the dual-zone access Axiom 4 asserts.
 
-5. ✓ Degradation: The second law of thermodynamics emerges from the geometry of the Waters Below (entropy).
+5. ✓ Axiom 5 (Fall-phase κ-degradation): The second law of thermodynamics in the present epoch emerges from the geometry of the Waters Below under reduced κ (Phase 3 of Axiom 7).
 
-6. ✓ Duality: The metric separates into 4D (temporal) and 2D (eternal) parts; duality is manifest.
+6. ✓ Axiom 6 (Duality, Waters Above / Waters Below): The metric separates into 4D (temporal) and 2D (transcendent) parts along the ξ-η directions; the Waters Above/Waters Below duality is manifest in the geometry.
 
-7. ✓ Four Phases: The four phases (Creation, Edenic, Fall, Redemption) correspond to different regimes of the sustaining field κ, discussed in Chapter 1 and elaborated in Vol 2.
+7. ✓ Axiom 7 (Four Thermodynamic Phases): The four phases (Creation, Edenic, Fall, Redemption) correspond to four distinct regimes of the sustaining field κ on the same zone manifold; the geometry is phase-agnostic, but the value of κ — and hence the entropy behavior — differs across phases as Axiom 7 requires.
+
+Postulate F (the primordial spinor field) remains an independent open assumption; the zone manifold's geometry is compatible with such a field but does not yet derive it. This is consistent with Postulate F's status in Chapter 1 §1.10 as a temporary foundational assumption rather than an axiom.
 
 What comes next?
 
@@ -951,7 +953,7 @@ Symbol: K sub mu nu. Meaning: Extrinsic curvature. First Defined: Eq (1.3.18).
 Symbol: pi : E to B. Meaning: Zone Bundle. First Defined: Def 3.4.1.
 Symbol: sigma : B to E. Meaning: Bundle section. First Defined: Def 3.4.3.
 Symbol: nabla. Meaning: Covariant derivative. First Defined: Def 2.4.2 (Ch 2).
-Symbol: kappa. Meaning: Sustaining field. First Defined: Axiom 1.1 (Ch 1).
+Symbol: kappa. Meaning: Sustaining field. First Defined: Axiom 1 (Ch 1).
 Symbol: a(t). Meaning: Scale factor. First Defined: Eq (1.3.1).
 Symbol: H(t). Meaning: Hubble parameter. First Defined: §3.7.5.
 

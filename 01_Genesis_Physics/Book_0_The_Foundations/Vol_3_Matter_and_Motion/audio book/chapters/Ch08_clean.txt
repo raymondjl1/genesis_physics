@@ -2,7 +2,7 @@ Part II: Matter Formation.
 
 Introduction — When the Architecture Changes State.
 
-In Chapter 7, we derived a remarkable result: the electroweak symmetry of the universe broke spontaneously when the Waters Above scalar field rolled off the top of a Mexican hat potential and into the valley. The W and Z bosons acquired mass. Fermions acquired mass through their overlap with the condensate. The massless, featureless plasma of the early universe became the structured, massive, differentiated cosmos we observe.
+In Chapter 7, we derived a remarkable result: the electroweak symmetry of the universe broke spontaneously when the Waters Above (dark energy, ~68%; paired with Waters Below = dark matter, ~27%) scalar field rolled off the top of a Mexican hat potential and into the valley. The W and Z bosons acquired mass. Fermions acquired mass through their overlap with the condensate. The massless, featureless plasma of the early universe became the structured, massive, differentiated cosmos we observe.
 
 But that derivation was static. We showed what happened — the Higgs field found its minimum — without asking when, how, or why at that particular temperature. We treated symmetry breaking as a mathematical fact, not as a physical process that unfolded in time.
 

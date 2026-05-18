@@ -292,7 +292,7 @@ PS-8.23 [W] The Duality Principle implies particle-antiparticle pairing. Could "
 
 PS-8.24 [W] A system violates the Symmetry Principle if laws change from place to place. Give a hypothetical example of what would happen to conservation laws if this principle were violated.
 
-PS-8.25 [W] The Five Principles together define a constrained Hamiltonian/Lagrangian system. Why is this formulation more powerful than simply stating the five principles as rules to follow?
+PS-8.25 [W] The Five Principles together define a constrained Hamiltonian/Lagrangian system. Why is this formulation more powerful than simply stating the Five Principles as rules to follow?
 
 PS-8.26 [W] Explain the relationship:
 - Sustaining Principle maintains order (prevents maximum entropy)
@@ -348,7 +348,7 @@ PS-8.32 [X] Constraint Hierarchy: Suppose we must choose which constraints to en
 (b) Can Symmetry be violated partially (e.g., rotation symmetric but not translation symmetric)?
 (c) If Duality is violated (unpaired creation), what must happen to total charge/baryon number?
 
-Rank the five principles by "fundamentalness": which cannot be violated without the whole framework collapsing?
+Rank the Five Principles by "fundamentalness": which cannot be violated without the whole framework collapsing?
 
 PS-8.33 [X] Sustaining vs. Conservation Apparent Paradox:
 Zone 2.2 is closed (Conservation Principle: nothing in/out). Yet God sustains it (Sustaining Principle: continuous maintenance). This seems contradictory.
@@ -372,7 +372,7 @@ PS-8.35 [X] Variational Principle with All Constraints: Write the full constrain
 
 (a) Derive the modified Euler-Lagrange equations (variational derivatives w.r.t. each field)
 (b) Show that the λ_i fields themselves obey dynamical equations (they are not just constants)
-(c) Interpret: what do these equations tell us about how the five principles "push back" on field dynamics?
+(c) Interpret: what do these equations tell us about how the Five Principles "push back" on field dynamics?
 
 PS-8.36 [X] Breaking the Constraints in Extended Phases: Suppose we construct a hypothetical "Phase 3.5" where the Sustaining Principle breaks down (κ → 0 everywhere, irreversibly). Show:
 - How entropy becomes unbounded from above (S → S_max)

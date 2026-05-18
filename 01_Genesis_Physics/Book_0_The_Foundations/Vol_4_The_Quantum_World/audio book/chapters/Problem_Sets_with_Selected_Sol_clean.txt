@@ -78,13 +78,11 @@ P4.4.4 ★★★ Monogamy of entanglement says C sub AB to the 2 + C sub AC to t
 
 Selected solution — P4.4.2.
 
-Use E( a, b) = - theta sub ab with theta sub ab the angle between the two settings. Choose the four settings
+From P4.4.1, E( a, b) = - a times b = - theta sub ab. Choose the standard CHSH settings
 
 [Equation — see print edition.]
 
-Then
-
-[Equation — see print edition.]
+so that theta sub ab = theta sub a'b = theta sub a'b' = 45° and theta sub ab' = 135°. The correlations are
 
 [Equation — see print edition.]
 
@@ -92,11 +90,7 @@ Substituting,
 
 [Equation — see print edition.]
 
-Actually, being careful with the signs: E = - a times b = - theta sub ab. With the standard CHSH angle choice the correct arithmetic gives
-
-[Equation — see print edition.]
-
-which saturates Tsirelson's bound. The 2024 Munich loophole-free Bell test measured S = 2.81(2), consistent with this prediction and violating the classical bound |S| 2 by 40 standard deviations. Zone-topology derivation: Chapter 4 §4.4 shows that the maximum is set by the two independent winding numbers in pi sub 1(Z) = Z times Z, giving the same 2 square root of 2 without invoking the Born rule separately.
+so |S| = 2 square root of 2 approximately equal to 2.828, which saturates Tsirelson's bound. The 2024 Munich loophole-free Bell test measured S = 2.81(2), consistent with this prediction and violating the classical bound |S| 2 by 40 standard deviations. Zone-topology derivation: Chapter 4 §4.4 shows that the maximum is set by the two independent winding numbers in pi sub 1(Z) = Z times Z, giving the same 2 square root of 2 without invoking the Born rule separately.
 
 Chapter 5 — The Measurement Problem Solved.
 

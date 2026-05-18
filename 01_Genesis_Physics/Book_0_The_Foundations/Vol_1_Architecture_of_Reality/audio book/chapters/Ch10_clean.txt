@@ -7,7 +7,7 @@ Introduction — Why the Universe Is Quantized.
 
 [Figure — see print edition.]
 
-You now have a complete classical architecture. The zone manifold (Chapter 3) gives you eight nested domains. The 6D metric (Chapter 4) gives you geometry. The Firmament (Chapter 5) gives you a dynamical membrane where c to the 2 = sigma / mu. The Waters (Chapter 6) give you field equations. Symmetries (Chapter 7) give you conservation laws. The Five Principles (Chapter 8) constrain the action. The seven pattern operators (Chapter 9) generate all field dynamics.
+You now have a complete classical architecture. The zone manifold (Chapter 3) gives you eight nested domains. The 6D metric (Chapter 4) gives you geometry. The Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing'; Chapter 5) gives you a dynamical membrane where c to the 2 = sigma / mu. The Waters (מַיִם, mayim, 'waters'; Chapter 6) give you field equations. Symmetries (Chapter 7) give you conservation laws. The Five Principles (Chapter 8) constrain the action. The seven pattern operators (Chapter 9) generate all field dynamics.
 
 Everything so far has been continuous. Fields vary smoothly. The Firmament oscillates with any frequency. Momenta take any value. If the story ended here, you would have a perfectly self-consistent classical universe.
 
@@ -19,7 +19,9 @@ Standard quantum mechanics postulates this discreteness. It declares, as axiom, 
 
 We will do none of that. We will derive all of it.
 
-The central insight of this chapter is simple enough to fit on a napkin: the extra dimensions of the zone manifold have finite extent. The xi-direction (Waters Above) spans from xi = 0 to xi = xi sub A approximately equal to 1.4 times 10 to the 26 m. The eta-direction (Waters Below) spans from eta = 0 to the expression m. The Firmament membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
+The central insight of this chapter is simple enough to fit on a napkin: the extra dimensions of the zone manifold have finite extent. The xi-direction (Waters Above) spans from xi = 0 to xi = xi sub A approximately equal to 3 times 10 to the 26 m. The eta-direction (Waters Below) spans from eta = 0 to the expression m. The Firmament membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
+
+A note on the value of xi sub A. The canonical value xi sub A approximately equal to 3 times 10 to the 26 m (and the symmetric bulk extension eta sub B on the Below side) is fixed by the geometric requirements of the 6D embedding — specifically, by the warp-factor solutions of the 6D Einstein equations (Chapter 4, §4.3) and the requirement that the boundary terms close the action consistently. The reader will notice that this number sits within a factor of approximately 2 of the Hubble radius R sub H approximately equal to 1.4 times 10 to the 26 m. This numerical proximity is suggestive but not an identification: xi sub A is a bulk extension scale set by the static geometry of the zone manifold, while R sub H is a dynamical horizon set by the cosmological expansion history. The two scales are conceptually independent. Why they are numerically close — and whether this is coincidence or a clue to a deeper relation — is an open question we revisit in Vol 5.
 
 And boundary conditions on a finite domain produce a discrete spectrum. Always. Inevitably. This is not quantum mechanics — it is Sturm-Liouville theory, known since the 19th century. Quantization is a theorem of the zone architecture, not a postulate of a new theory.
 
@@ -189,7 +191,7 @@ Converting to energy: the expression MeV. This is the scale of nuclear physics �
 
 ⚠ Open Problem — KK Gap vs. Observed Particle Masses: The lightest Kaluza-Klein excitation in the eta-direction has a mass gap of approximately 750 MeV, which is far above the measured electron mass of 0.511 MeV (a factor of approximately 1500). This is a genuine tension: if Standard Model particles arise from KK modes of the zone manifold, the lightest fermionic mode must have a mass at or below 0.511 MeV, not 750 MeV. Reconciling the KK spectrum with the observed particle mass spectrum — particularly for light leptons — is Open Problem OP-2 (see Vol 6 Ch 14). The zero-mode (n = 0) is massless in the flat-space approximation; whether warping, boundary conditions, or a separate mechanism localizes the electron near zero mass is an open question. All particle mass predictions in this volume are provisional pending this resolution.
 
-The xi-dimension (Waters Above): xi sub A approximately equal to 1.4 times 10 to the 26 m. The mode spacing is:
+The xi-dimension (Waters Above): xi sub A approximately equal to 3 times 10 to the 26 m. The mode spacing is:
 
 [Equation — see print edition.]
 
@@ -707,7 +709,7 @@ The boundary-condition quantization framework of §10.2 extends directly to gaug
 - The fine-structure constant alpha from the same geometric parameters that gave us h-bar
 - The full set of gauge coupling constants from Kaluza-Klein reduction
 
-The pathway is: §10.2 (Kaluza-Klein quantization) → Vol 2, Ch 3 (gauge field modes) → Vol 2, Ch 5 (coupling constant derivation).
+The pathway is: §10.2 (Kaluza-Klein quantization) → Vol 2 Ch 10 (coupling constant derivation).
 
 For Volume 4 (The Quantum World):
 
@@ -719,7 +721,7 @@ This chapter provides the foundation — the derived h-bar, the Schrödinger equ
 - Renormalization from the recursion operator P sub 5 (Chapter 9)
 - The complete Standard Model particle spectrum from the pattern algebra p sub 7
 
-The pathway is: §10.4 (Schrödinger) → §10.7 (second quantization) → Vol 4, Ch 1 (relativistic QFT) → Vol 4, Ch 5 (interactions).
+The pathway is: §10.4 (Schrödinger) → §10.7 (second quantization) → Vol 4 Ch 6 → Vol 4 Ch 7.
 
 Connection to the Pattern Algebra:
 

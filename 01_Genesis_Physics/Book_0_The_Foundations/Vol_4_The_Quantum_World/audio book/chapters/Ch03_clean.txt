@@ -8,6 +8,8 @@ Where This Chapter Fits.
 
 Chapter 2 earned the Schrödinger equation. It did so by pulling a single slow envelope out of the fast rest-energy oscillation of the Firmament membrane and showing that the envelope obeys, line by line, the famous equation Schrödinger wrote down in 1926 and that every textbook since has asked its readers to accept on faith. At the end of that chapter we had an envelope Psi (x,t), a time-dependent equation for it, and a momentum operator p = -i h-bar nabla — all of it derived, none of it postulated, with the value of h-bar carried in from Vol 1 Ch 10 where it had been computed from the Firmament parameters sigma, eta sub B, xi sub A, and beta sub geom before the word "quantum" was ever spoken.
 
+Structural reminder. Firmament and Waters Above/Below are the structural objects derived in Vol 1 Ch 3–5 from Gen 1:6–8: the 4D membrane Sigma Z sub 2.2 (Firmament) and the bulk regions carrying Psi sub A / Psi sub B. Canonical phrasing follows Ch 10 §10.1.
+
 This chapter collects the Schrödinger equation's most famous consequence. When Heisenberg wrote down
 
 [Equation — see print edition.]

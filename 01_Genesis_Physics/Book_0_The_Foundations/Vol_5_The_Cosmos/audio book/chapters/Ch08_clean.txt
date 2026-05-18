@@ -5,6 +5,8 @@ This chapter is about what is in the bucket. The Friedmann equations are not new
 
 What This Chapter Is (and Is Not).
 
+Structural reminder. Firmament is this textbook's term for the 3-brane hypersurface Z sub 2.2 derived in Vol 1 Ch 5, named after the Hebrew rāqîaʿ (Gen 1:6–8) for a hammered, stretched membrane. Waters Above / Waters Below are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
 Before stating any theorem, let me say what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
 
 What this chapter does. It derives the sustaining-mode Friedmann equations from two prior pieces of the framework — the Waters field equations of Vol 1 Ch 6 and the recovered Einstein field equations of Vol 5 Ch 1 — and uses them to construct the cosmological model that follows: the energy budget, the era structure, and the integral consequences (H sub 0, age t sub 0, present CMB temperature T sub 0). The Friedmann equations of standard cosmology come out as labeled, numbered theorems whose source terms have known bulk-field origins. The key architectural claim is one sentence long. The cosmological fluid is the Firmament projection of the Waters fields. Everything else in the chapter is the consequences of that one sentence.
@@ -59,11 +61,11 @@ Vol 1 Ch 6 derived the field equations for the Waters Above and Waters Below fie
 
 [Equation — see print edition.]
 
-Vol 1 §6.7 gave the energy fractions on cosmological scales — what we will use here is the result:
+Vol 1 §6.6.4 gave the energy fractions on cosmological scales — what we will use here is the result:
 
 [Equation — see print edition.]
 
-derived in Vol 1 §6.7 from the warp-factor profiles A xi , A eta and the Firmament tension sigma. The Vol 1 derivation matches the warp-factor parameters ( xi sub A, gamma ) to the Firmament radius and the nuclear scale — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
+derived in Vol 1 §6.6.4 from the warp-factor profiles A xi , A eta and the Firmament tension sigma. The Vol 1 derivation matches the warp-factor parameters ( xi sub A, gamma ) to the Firmament radius and the nuclear scale — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
 
 From Vol 1 Ch 11 — sustaining mode.
 
@@ -96,6 +98,8 @@ Vol 3 Ch 5 derived the perfect-fluid stress-energy tensor
 and the barotropic equations of state P = w rho c to the 2. Vol 3 Ch 8 treated phase transitions in cosmological fluids and identified matter–radiation equality as a smooth crossover. We will inherit both intact.
 
 The chapter now has every piece it needs. We turn to the geometry.
+
+Principle pointer. All cosmological inputs above — sustaining mode (§8.1.4), conservation via the Bianchi identity (§8.1.5), the FLRW symmetry that will emerge in §8.2, the entropy structure of phase transitions (§8.1.7), and the Waters Above/Below duality (§8.1.3) — are concrete expressions, in the canonical order Sustaining → Conservation → Symmetry → Degradation → Duality, of the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality); see QualityControl/Reference/FivePrinciples.md for the canonical reference.
 
 Cosmological Symmetry on the Brane: From Zone Symmetry to FLRW.
 
@@ -329,8 +333,8 @@ The 68/27/5 split, traced.
 
 We now state the four density parameters and show the bulk-field origin of each.
 
-Species: Waters Above (dark energy). Omega sub i today: Omega sub A = 0.684. Origin: Vol 1 §6.7, Eq (1.6.38). The Waters Above potential value Lambda sub A is set by the xi-direction warp factor and the domain size xi sub A..
-Species: Waters Below (dark matter). Omega sub i today: Omega sub B = 0.266. Origin: Vol 1 §6.7, Eq (1.6.41). The Waters Below VEV v sub B is set by the eta-direction exponential warp gamma..
+Species: Waters Above (dark energy). Omega sub i today: Omega sub A = 0.684. Origin: Vol 1 §6.6.4, Eqs (1.6.67), (1.6.68), and (1.6.69). The Waters Above potential value Lambda sub A is set by the xi-direction warp factor and the domain size xi sub A..
+Species: Waters Below (dark matter). Omega sub i today: Omega sub B = 0.266. Origin: Vol 1 §6.6.4, Eqs (1.6.67), (1.6.68), and (1.6.69). The Waters Below VEV v sub B is set by the eta-direction exponential warp gamma..
 Species: Brane baryonic matter. Omega sub i today: Omega sub b = 0.049. Origin: Vol 1 §5.6. The Firmament tension sigma relative to the bulk energy density..
 Species: Brane radiation. Omega sub i today: Omega sub r approximately equal to 10 to the -4. Origin: Relativistic-mode count on the Firmament (photons + 3 neutrino species)..
 Species: **Total**. Omega sub i today: Omega _ tot = 0.999 approximately equal to 1. Origin: Closure forced by Theorem in §8.2.
@@ -355,7 +359,7 @@ First, what gets matched. The warp-factor parameters ( xi sub A, gamma , sigma )
 
 Second, what comes out of the matching. Once the three numbers are fixed at non-cosmological scales, the four ratios Omega sub A : Omega sub B : Omega sub b : Omega sub r are determined. They come out as 0.684 : 0.266 : 0.049 : 10 to the -4 — matching observation to part-per-thousand precision.
 
-The chain has the structure (empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations). This is not the same as fitting, because the matching and the prediction occur at different scales. It is also not a first-principles derivation in the strongest sense — that would require deriving ( xi sub A, gamma , sigma ) from a still deeper layer, which is the program of Vol 6. The honest classification is Inheritance from Vol 1 §6.7 of an empirically anchored geometric calculation. §8.13 marks it that way.
+The chain has the structure (empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations). This is not the same as fitting, because the matching and the prediction occur at different scales. It is also not a first-principles derivation in the strongest sense — that would require deriving ( xi sub A, gamma , sigma ) from a still deeper layer, which is the program of Vol 6. The honest classification is Inheritance from Vol 1 §6.6.4 of an empirically anchored geometric calculation. §8.13 marks it that way.
 
 The chapter does not claim more than this. It also does not claim less.
 
@@ -417,7 +421,7 @@ From the Friedmann constraint (5.8.26) at a = a sub 0:
 
 [Equation — see print edition.]
 
-Inserting rho sub crit,0 from (5.8.37) is circular by construction; the predictive content lies in the combination with the bulk-field calculation of Vol 1 §6.7, which gives rho sub tot,0 directly from the warp-factor profiles. The result of that calculation, restated here for the reader's convenience, is
+Inserting rho sub crit,0 from (5.8.37) is circular by construction; the predictive content lies in the combination with the bulk-field calculation of Vol 1 §6.6.4, which gives rho sub tot,0 directly from the warp-factor profiles. The result of that calculation, restated here for the reader's convenience, is
 
 [Equation — see print edition.]
 
@@ -537,7 +541,7 @@ Per Vol 5 internal precedent (Chs 5, 6, 7), every load-bearing claim of this cha
 #: L8. Claim: w sub B = 0 for projected dust. Class: Derivation. Source / Note: §8.5.2, from L3 (zero-mode wave-function nonrelativistic limit).
 #: L9. Claim: w sub b = 0, w sub r = 1/3. Class: Identity. Source / Note: §8.5.3–4, conventional Firmament matter and radiation.
 #: L10. Claim: rho _ crit,0 = 9.47 times 10 to the -27 kg/m³. Class: Derivation. Source / Note: §8.6.1, from L4 + numerical H sub 0, G sub 4.
-#: L11. Claim: the expression. Class: Inheritance. Source / Note: §8.6.3, from Vol 1 §6.7. The Vol 1 calculation matches ( xi sub A, gamma , sigma ) to non-cosmological scales; the cosmological ratios then come out. The chain is honest but not first-principles in the strongest sense..
+#: L11. Claim: the expression. Class: Inheritance. Source / Note: §8.6.3, from Vol 1 §6.6.4. The Vol 1 calculation matches ( xi sub A, gamma , sigma ) to non-cosmological scales; the cosmological ratios then come out. The chain is honest but not first-principles in the strongest sense..
 #: L12. Claim: The framework does not curve-fit the cosmological energy budget. Class: Derivation (qualitative). Source / Note: §8.6.4, supported by L11 — the matching scales are non-cosmological.
 #: L13. Claim: Era structure: the expression in radiation, matter, dark-energy domination. Class: Derivation. Source / Note: §8.7, from L4 + L5 + L6.
 #: L14. Claim: the expression. Class: Derivation. Source / Note: §8.7, from L11.

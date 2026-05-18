@@ -2,7 +2,7 @@ Foundations Vol 1: Architecture of Reality.
 
 Introduction — From Zone Topology to Zone Geometry.
 
-Imagine you're an architect, and someone hands you a blueprint that says: "This building has eight zones, nested in a specific hierarchy. Heaven above, Earth below, a Firmament in between. Fields that sustain everything." You nod, understanding the structure. But then they ask: "Now build it."
+Imagine you're an architect, and someone hands you a blueprint that says: "This building has eight zones, nested in a specific hierarchy. Heaven above, Earth below, a Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') in between, with Waters (מַיִם, mayim, 'waters') above and below. Fields that sustain everything." You nod, understanding the structure. But then they ask: "Now build it."
 
 That is exactly where we are. Chapter 3 gave us the skeleton—the topological blueprint of the Zone Manifold, nine zones stratified into a 6D spacetime. But a skeleton alone doesn't breathe. Topology tells you which zones are connected; geometry tells you how they are connected. Topology is the blueprint; geometry is the actual building.
 
@@ -74,7 +74,15 @@ The upgraded metric becomes:
 
 This is the warp-factored 6D metric, and it is the fundamental object of Genesis Physics geometry.
 
-RT-1.WF — Warp Function Derivation (SUBSTANTIALLY RESOLVED, 2026-05-15): The derivation of A( xi , eta ) and B( xi , eta ) from the 6D Einstein equations is given in Research/Foundations/WARPFUNCTIONDERIVATIONRT1WF.md. Key results: the expression (Waters Above, §2.1); the expression derived from coupled Psi sub B EOM + ηη Einstein equation (OP-Aη RESOLVED, see OPAETAPSIBSELFCONSISTENT.md); the expression; B eta approximately equal to const (OP-2.WP RESOLVED, canonical form adopted). The normalization L sub A = xi sub 0 is derived (§2.3, Eq.\ 2.22). Resolved since BOOK0STATUSREPORT.md (2026-05-15): (1) OP-2.21 RESOLVED: codimension-2 Israel junction conditions give anisotropic Firmament tension sigma  xi not equal to sigma  eta — fully self-consistent with kappa sub 6 to the 2 = 6.9 times 10 to the -66 s²/kg. (2) OP-G6 RESOLVED (2026-05-15): G sub 6 is NO LONGER a calibration parameter — the expression s²/kg derived from KK reduction + Israel self-consistency. B sub 0 = 28.8 from KK normalization; xi sub 0 = 60 l sub Pl from junction condition. See Research/Foundations/OPG6KAPPA6DERIVATION.md. Still open: OP-Bsep — separability A = A xi + A eta fails in the bulk when kappa sub B xi much greater than 1 (Firmament-slice values unaffected; numerical PDE needed for bulk). (See also Ch.\ 3, §3.6.4.)
+RT-1.WF — Warp Function Derivation (derived to leading order, with bulk corrections deferred, 2026-05-15): The derivation of A( xi , eta ) and B( xi , eta ) from the 6D Einstein equations is given in Research/Foundations/WARPFUNCTIONDERIVATIONRT1WF.md. Key results: the expression (Waters Above, §2.1); the expression derived from coupled Psi sub B EOM + ηη Einstein equation (see OPAETAPSIBSELFCONSISTENT.md); the expression; B eta approximately equal to const (canonical form adopted). The normalization L sub A = xi sub 0 is derived (§2.3, Eq.\ 2.22). Codimension-2 Israel junction conditions yield anisotropic Firmament tension sigma  xi not equal to sigma  eta self-consistent with kappa sub 6 to the 2 = 6.9 times 10 to the -66 s²/kg; the expression s²/kg is fixed by KK reduction + Israel self-consistency (no longer a free calibration); B sub 0 = 28.8 from KK normalization; xi sub 0 = 60 l sub Pl from the junction condition. See Research/Foundations/OPG6KAPPA6DERIVATION.md. Open problems: OP-Bsep — separability A = A xi + A eta fails in the bulk when kappa sub B xi much greater than 1 (Firmament-slice values unaffected; numerical PDE needed for bulk); sigma  xi not equal to sigma  eta anisotropy admits a self-consistent solution but its full bulk continuation has not been numerically checked. (See also Ch.\ 3, §3.6.4.)
+
+Status of Warp-Factor Derivation. To avoid overclaiming, we separate what is currently established from what remains open:
+
+(i) Analytically derived from the 6D Einstein equations alone: the warp-factored 6D metric ansatz (1.4.2); the exponential form e to the 2A, e to the 2B (forced by separability of the Ricci tensor); the leading-order functional forms the expression, the expression, the expression, B_ eta approximately equal to const on the Firmament slice; the block-diagonal structure (no cross terms), forced by the Zone Manifold stratification.
+
+(ii) Fixed by matching to observed c, G sub 4, and KK self-consistency: the expression s²/kg (KK reduction + Israel junction); the calibration B sub 0 = 28.8 from KK normalization; xi sub 0 = 60 l sub Pl from the codimension-2 junction condition; the normalization L sub A = xi sub 0.
+
+(iii) Open problems carried forward: OP-Bsep — full separability A = A xi + A eta breaks in the bulk regime kappa sub B xi much greater than 1 (a 2D numerical PDE solution is required and is not yet in hand); the anisotropy sigma  xi not equal to sigma  eta is consistent on the Firmament but its bulk continuation is unchecked. The Firmament-slice results above are unaffected by these open items, but bulk-cosmology predictions that require leaving the slice should treat the warp-factor derivation as leading-order only.
 
 Why exponential form? You might ask: why e to the 2A and not, say, a power law the expression? The answer is mathematical necessity. Exponential warp factors have a crucial property: they preserve the block-diagonal structure of the metric under the Einstein equations. When you compute the Ricci tensor for a metric of the form (1.4.2), the exponential factors cancel cleanly between numerator and denominator, keeping the 4D and extra-dimensional parts separable. A power-law ansatz would introduce cross-coupling terms between the 4D and extra-dimensional Einstein equations, making the system intractable and — worse — physically uninterpretable. The exponential form also arises naturally from the Einstein equations themselves: in regions of constant energy density (like the Waters Above), the solution to nabla to the 2 A = const is logarithmic in the coordinates, which means e to the 2A is a power of the coordinate — an exponential of a logarithm. The form chooses itself. This is not a convention; it is the unique form consistent with separable physics in a block-diagonal geometry.
 
@@ -460,32 +468,20 @@ For Genesis Physics, the answer is 6. Not 4, not 5, not 10. Six.
 
 [Figure — see print edition.]
 
-The Theological Dimension: Genesis and the Codimension-2 Structure.
-
-We've now established, purely from mathematics and physics, that six dimensions is the right choice. But let's turn to an equally profound point: the ancient text already knew this.
+Genesis 1:6–8: Naming Convention and Consistency Check.
 
 Genesis 1 describes creation:
 
 "And God said, 'Let there be a vault between the waters to separate water from water.' So God made the vault and separated the water under the vault from the water above it. And it was so. God called the vault 'sky'... And there was evening, and there was morning—the second day." (Genesis 1:6-8)
 
-The structure is unambiguous:
-- Waters Below (dark matter)
-- The Firmament (the observable boundary; Hebrew raqia)
-- Waters Above (dark energy)
+Gen 1:6–8 names the structure (firmament between waters above and below) and motivates its theological significance. The codimension count of the bulk extension is established independently by §§4.2.1–4.2.5 (mathematical: empirical degree-of-freedom counting, the natural warp-factor decoupling of the 6D metric (1.4.2), and the no-extra-fields constraint) and by Ch 3 (cosmological observables: dark energy + dark matter as two independent sectors). The biblical narrative is consistency-checked against the geometric structure already derived; it does not derive it.
 
-This is a codimension-2 embedding.
+With that ordering made explicit, the structure named in Gen 1:6–8 maps cleanly onto the geometry:
+- Waters Below ↔ dark-matter sector (one transverse direction, here labeled xi)
+- The Firmament (Hebrew raqia) ↔ the 4D hypersurface, the observable boundary
+- Waters Above ↔ dark-energy sector (the second transverse direction, here labeled eta)
 
-In topology, codimension is the difference between the dimension of an embedding space and the dimension of an embedded object. A codimension-1 surface (like a wall) divides a 3D room into two halves. A codimension-2 curve (like a wire) in 3D space has dimensions 3 - 1 = 2 around it (a circle around the wire).
-
-The Firmament, described in Genesis, is codimension-1 in spacetime—it divides the cosmos. But it requires two transcendent dimensions to fully describe:
-- One dimension for the Waters Above (dark energy)
-- One dimension for the Waters Below (dark matter)
-
-A 4D universe cannot accommodate this structure. A 5D universe can't either (you'd have only one extra dimension). But a 6D universe—with two independent transcendent dimensions perpendicular to the Firmament—perfectly encodes the Genesis structure.
-
-More formally: if the Firmament is a 4D hypersurface in 6D space, and it is surrounded by two independent orthogonal directions (one "up" toward Heaven, one "down" toward the quantum substrate), then you have exactly the codimension-2 structure that Genesis describes.
-
-This is not metaphor. This is not poetry misread as science. It is exact mathematical structure encoded in the creation account.
+The mathematical content — that the firmament is a codimension-2 surface in a 6D bulk with two independent transverse warp factors — was already obtained in §§4.2.1–4.2.5. Gen 1:6–8 supplies the names (waters above, firmament, waters below) under which we will refer to those structures for the remainder of the volume. The two pictures are mutually consistent; neither is being used to prove the other.
 
 The Final Argument: Necessity and Uniqueness.
 
@@ -499,11 +495,11 @@ Mathematically: The metric (1.4.2) has a natural decoupling in 6D:
 
 The two warp factors A and B independently encode dark energy and dark matter. This separation cannot happen in lower dimensions.
 
-Theologically: Genesis describes Waters Above, a Firmament, and Waters Below—a codimension-2 structure that requires exactly six dimensions to encode.
+Naming convention (consistency check): Genesis 1:6–8 names the resulting geometry — Waters Above, Firmament, Waters Below — and is consistent with the codimension-2 structure derived above. This is a naming and consistency check, not a third independent derivation.
 
-These three lines of argument converge. They do not compete. They reinforce each other. A skeptic might dismiss one. But all three together form an overwhelming case: the universe must be six-dimensional.
+The empirical and mathematical arguments above establish the case. The biblical naming convention is then adopted because the geometry it names matches what the physics already requires.
 
-We are not choosing six dimensions because it's fashionable, or because string theory demands it, or because we like the number. We are discovering that six is the only number that solves the empirical crisis, respects the mathematical constraints, and aligns with the deepest layers of revealed truth.
+We are not choosing six dimensions because it's fashionable, or because string theory demands it. We are choosing six because it is the minimum dimensionality that solves the empirical crisis (two independent dark sectors) and admits the natural warp-factor decoupling of the metric (1.4.2). The biblical naming convention then turns out to fit.
 
 A Comparison Table: Five Approaches to Extra Dimensions.
 
@@ -968,7 +964,7 @@ If the 6D Planck scale is near the TeV scale (as in large-extra-dimension scenar
 
 This is too small by roughly 10 to the 42 — but this is precisely the hierarchy problem in a different guise. The exact match requires the full specification of G sub 6, L sub A, and xi sub 0 from the 6D action (Chapter 6), where the Waters field potentials and Firmament tensions determine these scales self-consistently. The important point is that the functional form of (1.4.51) has the right structure: gravity weakens as the extra-dimensional volume grows, and the hierarchy between G sub 4 and the fundamental scale is explained geometrically rather than by fine-tuning.
 
-The precise numerical verification — confirming that G sub 4 from (1.4.51) reproduces 6.674 times 10 to the -11 with the dynamically determined parameters — is the ultimate consistency test for the framework. Chapter 6 (Waters Field Equations) will provide the scale parameters, and Volume 5 (General Relativity Derivation) will close the loop by showing the full numerical match.
+The precise numerical verification — confirming that G sub 4 from (1.4.51) reproduces 6.674 times 10 to the -11 with the dynamically determined parameters — is the ultimate consistency test for the framework. Chapter 6 (Waters Field Equations) will provide the scale parameters, and Volume 5 (The Cosmos), Chapter 1 (Einstein Field Equations Recovered) will close the loop by showing the full numerical match.
 
 § 4.5.5 Matching Across Multiple Boundaries.
 
@@ -1207,7 +1203,7 @@ where g sub 6 is the 6D gauge coupling, psi sub 0 is the zero-mode wavefunction 
 
 This integral depends on the explicit warp factor profiles (which we have from §4.3) and on the zero-mode wavefunction (which requires solving the Firmament eigenvalue problem in Chapter 5). The point is: every quantity in this expression is determined by the geometry. There are no free parameters.
 
-Volume 2 (Dimensional Reduction and Gauge Theory) will carry out this Kaluza-Klein decomposition explicitly, matching the 6D Ricci tensor components to 4D observable fields and extracting K as a computed geometric invariant. The derivation follows the same logic as the standard Randall-Sundrum gauge coupling calculation, extended to our codimension-2 brane geometry. We defer it not because it is problematic, but because it requires the Firmament vibration spectrum from Chapter 5 as input.
+Vol 2 Ch 5 + Ch 6 (KK decomposition) will carry out this Kaluza-Klein decomposition explicitly, matching the 6D Ricci tensor components to 4D observable fields and extracting K as a computed geometric invariant. The derivation follows the same logic as the standard Randall-Sundrum gauge coupling calculation, extended to our codimension-2 brane geometry. We defer it not because it is problematic, but because it requires the Firmament vibration spectrum from Chapter 5 as input.
 
 The fact that the empirical value K approximately equal to 1.44 is order-unity and produces the correct alpha to the -1 to the expression accuracy is strong evidence that the geometric framework is on the right track. A value of K far from unity would have signaled a fine-tuning problem; instead, we find a natural geometric ratio.
 

@@ -10,6 +10,8 @@ Standard cosmology rests on six numbers. The concordance model — ΛCDM, for "L
 
 But fitting is not explaining. A model that fits six parameters to data has, in a precise statistical sense, six degrees of freedom that nature supplied and the model absorbed. The question that motivates this chapter is sharper: can the zone framework derive these parameters from geometry — from the same 6D structure, Waters fields, and Firmament mechanics established in Volumes 1–4 — without adjusting anything to match cosmological observations?
 
+Structural reminder. Firmament is this textbook's term for the 3-brane hypersurface Z sub 2.2 derived in Vol 1 Ch 5, named after the Hebrew rāqîaʿ (Gen 1:6–8) for a hammered, stretched membrane. Waters Above / Waters Below are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
 The answer, as we shall see, is largely yes. The zone framework predicts the dark energy fraction, the dark matter fraction, the baryonic fraction, the Hubble parameter, the age of the universe, the deceleration parameter, and all three Standard Model gauge coupling constants from two geometric scales (ξA and ηB), the Firmament tension σ, and the Standard Model particle content. No cosmological fitting is involved. Every input was fixed in prior volumes from non-cosmological physics.
 
 This chapter serves as the framework's reckoning. We derive each parameter, state our uncertainty, compare with the Planck concordance values, and report honestly where agreement is excellent, where it is suggestive, and where open problems remain.

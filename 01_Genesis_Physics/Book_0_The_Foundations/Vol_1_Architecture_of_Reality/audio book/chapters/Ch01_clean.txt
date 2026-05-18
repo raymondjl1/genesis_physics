@@ -61,7 +61,7 @@ The subscript notation is hierarchical: Z sub 2.2.1 denotes a sub-zone of Z sub 
 
 [Figure — see print edition.]
 
-The boundaries between zones are not merely conceptual divisions. They are physical surfaces across which field values, energy densities, and even the nature of causality may change discontinuously. The boundary partial Z sub 2.2 — the Firmament (raqia, רָקִיעַ, from the root meaning "to beat out, stretch") itself — is the most important such surface in the entire framework. It separates the observable universe from the transcendent domain. Understanding what happens at these boundaries, and how fields behave differently on either side, will be a central concern of Chapters 3 through 6.
+The boundaries between zones are not merely conceptual divisions. They are physical surfaces across which field values, energy densities, and even the nature of causality may change discontinuously. The boundary partial Z sub 2.2 — the Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') itself — is the most important such surface in the entire framework. It separates the observable universe from the transcendent domain. Understanding what happens at these boundaries, and how fields behave differently on either side, will be a central concern of Chapters 3 through 6.
 
 [Figure — see print edition.]
 
@@ -101,57 +101,29 @@ Appendix B of this volume contains a complete notation reference table, organize
 
 Axiom 1 — God as Active Sustaining Ground.
 
-The Fine-Tuning Crisis.
+The Biblical Claim: Continuous Sustenance.
 
-Let us begin with a question that standard physics cannot answer. Why does the universe support life?
+Scripture states explicitly that reality does not stand on its own; it is held in being moment by moment by a continuous act of divine sustenance:
 
-The answer is not obvious. It is, in fact, astronomically improbable.
+"He is before all things, and in him all things hold together." — Colossians 1:17
 
-Consider the fine-structure constant alpha, which governs the strength of electromagnetic interactions:
+"The Son is the radiance of God's glory and the exact representation of his being, sustaining all things by his powerful word." — Hebrews 1:3
 
-[Equation — see print edition.]
+"When you hide your face, they are dismayed; when you take away their breath, they die and return to their dust." — Psalm 104:29
 
-This number is dimensionless. It has no units. It simply is. And it is fine-tuned to an almost incomprehensible degree.
+Three claims, one architecture. Col 1:17 says cohesion is present-tense: things hold together in him. Heb 1:3 names the mechanism: an active "upholding" by the word of his power. Ps 104:29 supplies the failure mode: withdraw the sustaining act and creatures return to dust. Taken together these verses assert that reality is an open system whose continued existence requires continuous input from a transcendent source. Genesis Physics takes that claim at face value and asks what physical structure it forces.
 
-If alpha were larger — say 1/100 instead of 1/137 — then electromagnetic repulsion in atoms would be stronger. Electrons would be more tightly bound. Stars would burn hotter and faster. The Sun would have exhausted its hydrogen fuel billions of years before Earth formed. No chemistry. No life.
+The Sustaining Field Mechanism — Formalizing "He Upholds All Things".
 
-If alpha were smaller — say 1/200 — then atoms would be less tightly bound. Chemical bonds would be weaker. Complex molecules would not form. Again, no chemistry. No life.
+If "in him all things hold together" is load-bearing physics rather than poetry, then the universe is not a closed system governed by fixed laws for all eternity. It is an open thermodynamic system, sustained moment by moment by continuous energy input from beyond itself. We name this input the sustaining field, kappa. The field kappa is the mathematical formalization of the biblical "upholding": the variable in our equations that, if removed, allows things to not hold together — exactly Ps 104:29's failure mode.
 
-The habitable window for alpha is roughly the expression around its observed value. A 1% change in either direction makes the universe sterile.
-
-Now consider gravity. The gravitational constant G is famously weak. The ratio of the electromagnetic force between two protons to the gravitational force between them is approximately 10 to the 36. This is not a small difference. This is a factor of a trillion trillion trillion.
-
-Why is gravity so weak? If G were larger by even a factor of two, the Jeans mass — the minimum size of a gravitationally unstable cloud — would shrink dramatically. Stars would form from smaller clouds. Small stars would be numerous and short-lived. Planets would rarely form. If G were smaller by a factor of two, galaxy formation becomes difficult. Stars struggle to form. The universe becomes thin and cold.
-
-And then there is the cosmological constant Lambda, the energy density of the vacuum:
-
-[Equation — see print edition.]
-
-Quantum field theory predicts a vacuum energy 10 to the 120 times larger than observed — "the worst prediction in physics." If Lambda were much larger, the universe would have expanded so rapidly that galaxies, stars, and planets never formed. If Lambda were negative, the universe would have recollapsed long ago. The observed value is tuned to roughly 1 part in 10 to the 120.
-
-In 2000, Roger Penrose calculated the probability that a universe would arise with initial conditions as precisely ordered as ours. His conclusion: approximately 1 part in the expression. That is not merely a large number. The exponent itself is a 1 followed by 123 zeros.
-
-Standard physics responds to this crisis with silence. "These are just the initial conditions. We don't explain initial conditions."
-
-But this is evasion. The initial conditions are not independent of the laws. The laws determine what initial conditions are even possible. And the fact that the constants are so exquisitely calibrated that conscious observers can exist suggests something profound: the universe is not self-explanatory.
-
-The Sustaining Field Mechanism.
-
-Here is the Genesis Physics answer: The universe is not a closed system governed by fixed laws for all eternity. It is an open thermodynamic system, sustained moment by moment by continuous energy input from beyond itself.
-
-We call this input the sustaining field, kappa.
-
-This is not metaphysics. It is mechanism. The sustaining field has energy density. It couples to matter and radiation. It obeys equations of motion. Its effects are observable. The insight is this: in a closed system, entropy always increases:
+This is not metaphysics. It is mechanism. The sustaining field has energy density. It couples to matter and radiation. It obeys equations of motion. Its effects are observable. The biblical claim — "in him all things hold together" — translates into a precise statement in thermodynamics. In a closed system, entropy always increases:
 
 [Equation — see print edition.]
 
 Left to itself, the universe evolves toward maximum entropy — thermal equilibrium, where all energy is evenly distributed, all structure erased, all complexity dead. This is heat death. But the universe is not in equilibrium. It is full of structure, complexity, and order. Stars are far from equilibrium with the cosmic microwave background. Life is nowhere near equilibrium.
 
-How is this possible? Standard physics answers: "Because the initial entropy was very low." But this merely pushes the problem back. Why was the initial entropy so low?
-
-Genesis Physics answers: Because the universe is continuously supplied with external energy that permits the maintenance of non-equilibrium states. The sustaining field kappa does work on the system, coupling Z sub 0 (the transcendent source) through Z sub 2.1 (the Atemporal Domain) into Z sub 2.2 (classical spacetime). This is a physical hypothesis — it makes testable predictions about the constancy of fundamental constants over cosmic time, about the thermodynamic behavior of isolated systems, and about the relationship between dark energy and the cosmic entropy budget. We will catalog these predictions explicitly in Section 1.8.
-
-When we allow the universe to be an open system with continuous external energy input, the fine-tuning problem transforms. The gravitational constant no longer needs to be precisely 1 part in 10 to the 43 relative to electromagnetism by coincidence. The cosmological constant no longer needs to be fine-tuned to 1 part in 10 to the 120 by accident. These values are understood as parameters of the sustaining field's coupling — designed to maintain the universe in a state capable of supporting structure and life.
+If reality were closed, Ps 104:29's failure mode would never be needed — there would be nothing to "take away." That cohesion can be withdrawn presupposes that it is being actively given. Genesis Physics names that giving: the universe is continuously supplied with external energy that permits the maintenance of non-equilibrium states. The sustaining field kappa does work on the system, coupling Z sub 0 (the transcendent source) through Z sub 2.1 (the Atemporal Domain) into Z sub 2.2 (classical spacetime). This is a physical hypothesis — it makes testable predictions about the constancy of fundamental constants over cosmic time, about the thermodynamic behavior of isolated systems, and about the relationship between dark energy and the cosmic entropy budget. We will catalog these predictions explicitly in Section 1.8.
 
 The Four Phases of Cosmic Thermodynamics.
 
@@ -194,11 +166,13 @@ When the sustaining coupling is removed entirely, a closed subsystem results:
 
 This is the standard closed-system energy conservation that standard physics assumes universally. Genesis Physics shows this is a limiting case — valid within Z sub 2.2 for matter and radiation (Axiom 2), but not for the full open system.
 
-The observed fine-tuning of fundamental constants provides direct evidence for the precision of kappa:
+The observed constancy bounds on fundamental constants are consistent with the precision of kappa:
 
 [Equation — see print edition.]
 
-These experimental bounds on the constancy of fundamental constants over cosmic time require active maintenance. In a closed system, there is no mechanism to prevent drift. In an open system with sustaining field kappa, these precisions are maintained by design.
+These experimental bounds on the constancy of fundamental constants over cosmic time require active maintenance under Axiom 1. In a closed system, there is no mechanism to prevent drift. In an open system with sustaining field kappa, these precisions are maintained by design.
+
+Differential predictions. Eq. (1.2.4) by itself does not discriminate between Axiom 1 and standard physics — both are compatible with the present-day bounds. The discriminating signal is the predicted drift rate. Axiom 1 with a Phase-3 kappa = kappa sub full(1- epsilon ) predicts a tiny secular drift Delta c/c approximately 10 to the -13 per century (with parallel drifts in alpha and G tied to the same epsilon); standard physics predicts Delta c/c = 0 exactly. Current bounds — Delta c/c < 10 to the -10 over approximately 10 to the 10 yr (lab + astrophysical limits), Delta alpha / alpha < 10 to the -17/ yr from the Oklo natural reactor, and Delta G/G < 10 to the -12/ yr from lunar laser ranging — are consistent with both hypotheses. Discrimination requires next-generation experiments at approximately 10 to the -14 fractional sensitivity (optical-clock cosmological-timescale campaigns, deep-space ranging, and 21-cm cosmology). Until such bounds are achieved, Axiom 1's precision claim is corroborated but not decisively confirmed.
 
 The four-phase structure is encoded in kappa (t):
 
@@ -206,25 +180,13 @@ The four-phase structure is encoded in kappa (t):
 
 [Figure — see print edition.]
 
-Why Axiom 1 Resolves Fine-Tuning.
+Corroboration: The Fine-Tuning Evidence.
 
-Under standard physics, the fine constants must be fine-tuned by hand at the universe's beginning. There is no explanation.
+The biblical claim and the kappa formalism stand on their own — Col 1:17, Heb 1:3, and Ps 104:29 motivate the open-system axiom independently of any astrophysical anomaly. But the framework receives strong corroboration from a notorious puzzle in modern cosmology: the apparent fine-tuning of the fundamental constants.
 
-Under Axiom 1, the sustaining field kappa is the explanatory ground. It is not that gravity "happens" to be weak; rather, the coupling of kappa to gravitational sources is such that the effective gravitational constant takes the value we observe as a consequence of the sustaining field's design. Similarly for alpha, Lambda, and all other constants: they emerge as derived quantities from the deeper structure.
+Consider the fine-structure constant the expression. A the expression deviation in either direction renders the universe sterile: too large and stars burn out before chemistry can take hold; too small and atomic binding fails. Gravity is weak by a factor of 10 to the 36 relative to electromagnetism; doubling G truncates stellar lifetimes catastrophically, halving it suppresses galaxy formation. The cosmological constant Lambda is tuned against the quantum-field-theoretic vacuum prediction to roughly 1 part in 10 to the 120 — Carroll's "worst prediction in physics." Penrose (2000) estimated the probability of initial conditions as ordered as ours at roughly 1 in the expression.
 
-This does not eliminate mystery. It transmutes it. The question "Why are the constants what they are?" is replaced by "Why does the sustaining field couple to matter in this particular way?" The second question acknowledges that the universe has a design principle — not imposed externally, but woven into its fundamental structure.
-
-Theological Grounding.
-
-We mention theology not to preach, but to note the conceptual correspondence. The sustaining field kappa embodies the biblical theme of God as active sustainer:
-
-"He is before all things, and in him all things hold together." — Colossians 1:17
-
-"The Son is the radiance of God's glory and the exact representation of his being, sustaining all things by his powerful word." — Hebrews 1:3
-
-"When you hide your face, they are terrified; when you take away their breath, they die and return to the dust." — Psalm 104:29
-
-The sustaining field is the physical mechanism of this sustenance. Reality is structured as an open system that requires continuous input from the transcendent ground. This is not magic. It is physics. But it is physics that takes seriously the claim that reality depends, moment by moment, on something beyond itself.
+Standard physics treats these as brute facts: "These are the initial conditions; we do not explain initial conditions." Under Axiom 1, they are not brute. The sustaining field kappa is the explanatory ground: the effective values of alpha, G, and Lambda emerge as parameters of kappa's coupling to the matter and radiation sectors. The question shifts from "Why are the constants so improbably tuned?" to "Why does the sustaining field couple to matter in this particular way?" — a question that admits a mechanism instead of a coincidence. The fine-tuning data does not motivate Axiom 1; it confirms that a universe held together moment by moment is exactly what we observe.
 
 Axiom 2 — Creation Complete on Day 7.
 
@@ -437,7 +399,7 @@ Agency operates through boundary condition modification. The mechanism is analog
 
 [Equation — see print edition.]
 
-Here Delta B represents a change in the boundary conditions (not to be confused with baryon number B sub total). The precise mechanism by which atemporal intent couples to temporal boundary conditions is the subject of Volume 5 (Consciousness and Agency). We flag it here because the axiom is incomplete without acknowledging that the coupling mechanism is not yet specified.
+Here Delta B represents a change in the boundary conditions (not to be confused with baryon number B sub total). The precise mechanism by which atemporal intent couples to temporal boundary conditions is the subject of Vol 6 Ch 13. We flag it here because the axiom is incomplete without acknowledging that the coupling mechanism is not yet specified.
 
 The Imago Dei is formally the zone-interface operator:
 
@@ -616,9 +578,26 @@ Two complementary realities, in union, creating something new. The duality princ
 
 The new creation described as the union of complementary principles — duality reconciled.
 
+1.7B Axiom 7 — Four Thermodynamic Phases.
+
+The first six axioms describe a universe that is sustained (Axiom 1), closed against new matter creation (Axiom 2), symmetric (Axiom 3), inhabited by zone-interface agents (Axiom 4), subject to degradation after the Fall (Axiom 5), and built through duality (Axiom 6). What remains is to assert, as an independent foundational fact, that universal history is not a single regime but a sequence of four thermodynamic phases — Creation, Edenic, Fall, and Redemption — each with a characteristic sustaining-field strength kappa and a characteristic entropy behavior dS/dt.
+
+This four-phase structure is implicit in §1.2 (where we introduced kappa (t) as a piecewise function across the four phases) and §1.6 (where Axiom 5 selected one of the four phases, the Fall, as the site of kappa-degradation). But the existence of four phases — not three, not two, not a continuous evolution — is itself an axiomatic claim about the structure of cosmic history. It cannot be derived from Axioms 1–6, and it must hold for the Fall (Axiom 5) and the Redemption to be well-defined as distinct regimes rather than arbitrary moments along a continuum.
+
+Axiom 7 (Four Thermodynamic Phases): Universal history divides into exactly four thermodynamic phases — Phase 1 (Creation), Phase 2 (Edenic), Phase 3 (Fall), Phase 4 (Redemption) — each defined by a characteristic sustaining-field regime kappa sub i and a characteristic entropy behavior (dS/dt) sub i:
+
+- Phase 1: kappa = kappa sub create much greater than kappa sub full, dS/dt < 0 (active ordering, structure-building).
+- Phase 2: kappa = kappa sub full, dS/dt = 0 (sustained non-equilibrium steady state).
+- Phase 3: kappa = kappa sub partial = kappa sub full(1- epsilon ), dS/dt > 0 (aging, decay; the observable epoch).
+- Phase 4: kappa = kappa sub redeem (TBD), dS/dt less than or equal to 0 (restoration; eschatological).
+
+Transitions between phases are discrete events, not smooth flows: Day 7 (Phase 1 → 2), the Fall (Phase 2 → 3), and the future restoration (Phase 3 → 4). Within each phase, kappa is constant up to the (1- epsilon ) correction that defines Phase 3.
+
+The biblical anchoring is direct. Phase 1 corresponds to the six creation days; Phase 2 to the Edenic interval; Phase 3 to the post-Fall cosmos in which all of empirical science operates; Phase 4 to the new heavens and new earth (Revelation 21). The phases are not metaphor — they are the partition of cosmic time into thermodynamically distinct regimes, and every later chapter that invokes "the current epoch," "before the Fall," or "the new creation" is invoking a specific phase under Axiom 7.
+
 Axiom Independence Argument.
 
-We now have six axioms. Before proceeding, we must verify that they are independent — that removing any one breaks the structure. If some axiom were redundant, we could eliminate it. If one could be derived from others, we would need to reorganize. Let us check by constructing counter-models.
+We now have seven axioms. Before proceeding, we must verify that they are independent — that removing any one breaks the structure. If some axiom were redundant, we could eliminate it. If one could be derived from others, we would need to reorganize. Let us check by constructing counter-models.
 
 Counter-Model 1: Remove Axiom 1 (No Sustaining Field).
 
@@ -634,7 +613,7 @@ Without the connection between divine attributes and physical symmetries, conser
 
 Counter-Model 4: Remove Axiom 4 (No Consciousness/Agency).
 
-Without dual-zone consciousness, humans are purely material entities — assemblages of atoms governed entirely by deterministic (or random) physical laws. Free will vanishes. Moral responsibility becomes nonsense. Prayer is meaningless — there is no mechanism for intent to cross zone boundaries. The profound human experience of choice, creativity, and spiritual awareness becomes epiphenomenal — a hallucination with no causal power. Model violates human experience: agency impossible, moral framework void.
+Removing Axiom 4 does not currently have a known physical failure mode; the axiom is PROPOSED, and its consequences (zone-interface consciousness, prayer-as-BC-modification) are under investigation. None of the present-day observables derived in this volume — the metric, the conservation laws of §1.7, the constancy of fundamental constants, the thermodynamic four-phase structure — depends on Axiom 4. The theological consequence — absence of an agent→world causation mechanism within the framework — is noted separately and is not offered as a physical falsifier. Axiom 4 is retained in the canonical seven as the place-holder for that mechanism, but its physical content awaits the dual-zone consciousness derivation flagged in §1.5. Model remains physically valid in the present accessible regime; axiom retained as PROPOSED pending derivation.
 
 Counter-Model 5: Remove Axiom 5 (No Degradation).
 
@@ -644,9 +623,13 @@ Counter-Model 6: Remove Axiom 6 (No Duality).
 
 Without complementary dual fields, the universe cannot generate complexity. A single scalar field cannot produce charged particles, cannot explain matter-antimatter asymmetry, cannot generate the rich spectrum of forces and interactions we observe. The Standard Model — with its quarks, leptons, gauge bosons, and Higgs — becomes inexplicable. Why three generations of fermions? Why three forces? Without duality as a creation principle, these are brute facts. Model invalid: complexity generation impossible, particle spectrum arbitrary.
 
+Counter-Model 7: Remove Axiom 7 (No Phase Partition).
+
+Without the four-phase partition, the framework retains a sustaining field kappa (Axiom 1) and a degradation event (Axiom 5), but loses the well-defined regime structure in which those statements live. The Fall ceases to be a phase transition between distinct thermodynamic regimes and becomes a vague point along an arbitrary kappa (t) curve; the boundary between the Edenic steady state (dS/dt = 0) and the present aging cosmos (dS/dt > 0) becomes undefinable, because there is no axiomatic commitment that such a boundary exists. The physical failure is concrete: a continuous, smoothly-varying kappa (t) predicts that fundamental constants, decay rates, and entropy production should drift monotonically over cosmic time, in tension with the high-precision stability bounds catalogued in Table T1 (Hubble-time stability of alpha, G, c at < 10 to the -10). The observed pattern — long intervals of near-perfect constancy interrupted by punctuated transitions — requires a phase-partitioned kappa, not a continuous one. Equivalently, Phase 4 (Redemption) becomes ad hoc rather than the fourth member of a closed set; the framework loses its eschatological closure. Model invalid: phase boundaries undefined, constancy-of-constants pattern unexplained, Redemption phase ungrounded.
+
 Conclusion.
 
-Each counter-model demonstrates that removing a single axiom either renders the theory mathematically incoherent, observationally falsified, or explanatorily impoverished. All six axioms are necessary. None is redundant. Together they form a minimal, sufficient, and coherent foundation.
+Each counter-model demonstrates that removing a single axiom either renders the theory mathematically incoherent, observationally falsified, or explanatorily impoverished. All seven axioms are necessary. None is redundant. Together they form a minimal, sufficient, and coherent foundation. Postulate F (introduced in §1.10) sits outside this axiom set: it is a temporary foundational assumption awaiting derivation, not a co-equal axiom.
 
 [Figure — see print edition.]
 
@@ -664,13 +647,14 @@ Axioms with direct physical content (testable):
 Axioms with primarily interpretive content (metaphysical grounding):
 
 - Axiom 3 provides a reason for observed symmetries but does not change their mathematical content. The symmetries, conservation laws, and Noether's theorem are identical whether one accepts the theological interpretation or not. However, Axiom 3 does make a weak prediction: that no fundamental symmetry of physics will lack a corresponding divine attribute. If a new exact symmetry were discovered that had no plausible theological correlate, Axiom 3 would be strained.
-- Axiom 4 is explicitly marked PROPOSED. Its physical content — that consciousness has causal efficacy — is difficult to test with current instrumentation. We include it because the framework is incomplete without an account of the observer, but we do not claim the same empirical footing as Axioms 1, 2, 5, or 6.
+- Axiom 4 is explicitly marked PROPOSED. Its physical content — that consciousness has causal efficacy — is difficult to test with current instrumentation. We include it because the framework is incomplete without an account of the observer, but we do not claim the same empirical footing as Axioms 1, 2, 5, 6, or 7.
+- Axiom 7 predicts that universal history is partitioned into four discrete thermodynamic phases with characteristic kappa regimes. This is testable: the high-precision constancy of fundamental constants within Phase 3 (Table T1), and the absence of monotonic drift in decay rates over cosmic time, constrain any model in which kappa (t) varies smoothly rather than piecewise.
 
-This distinction is not a weakness. Every physical theory rests on axioms whose ultimate justification is partly philosophical. Newton's first law cannot be tested in isolation — it defines the framework within which other laws operate. Similarly, some of our axioms define the framework (Axioms 3, 4), while others make direct contact with observation (Axioms 1, 2, 5, 6).
+This distinction is not a weakness. Every physical theory rests on axioms whose ultimate justification is partly philosophical. Newton's first law cannot be tested in isolation — it defines the framework within which other laws operate. Similarly, some of our axioms define the framework (Axioms 3, 4), while others make direct contact with observation (Axioms 1, 2, 5, 6, 7).
 
 Testable Predictions Summary.
 
-For clarity, we collect the principal testable predictions that follow from the six axioms:
+For clarity, we collect the principal testable predictions that follow from the seven axioms:
 
 #: T1. Prediction: Fundamental constants (alpha, G, c) are stable to < 10 to the -10 per Hubble time. Source Axiom: Axiom 1. Test: Quasar absorption spectra, atomic clock comparisons, Oklo natural reactor.
 #: T2. Prediction: Proton is absolutely stable (tau sub p = infinity). Source Axiom: Axiom 2. Test: Proton decay experiments (current bound: tau sub p > 1.6 times 10 to the 34 yr).
@@ -681,7 +665,7 @@ For clarity, we collect the principal testable predictions that follow from the 
 #: T7. Prediction: The dark energy equation of state is exactly w = -1 (cosmological constant), not w not equal to -1. Source Axiom: Axiom 6. Test: DESI, Euclid, Roman Space Telescope.
 #: T8. Prediction: No baryon or lepton number violation in any process at any energy. Source Axiom: Axiom 2. Test: LHC searches, neutrinoless double-beta decay experiments.
 
-Not all of these are uniquely predicted by Genesis Physics — standard physics also predicts some of them (T4, for instance). The distinctive predictions are T1 (active maintenance rather than coincidence), T6 (unified degradation), and the combination of T2, T5, and T7 as a package. A theory that predicts all eight simultaneously, from six axioms, is more constrained — and therefore more falsifiable — than one that treats each as an independent empirical fact.
+Not all of these are uniquely predicted by Genesis Physics — standard physics also predicts some of them (T4, for instance). The distinctive predictions are T1 (active maintenance rather than coincidence; also constrains Axiom 7's phase-constancy claim), T6 (unified degradation), and the combination of T2, T5, and T7 as a package. A theory that predicts all eight simultaneously, from seven axioms, is more constrained — and therefore more falsifiable — than one that treats each as an independent empirical fact.
 
 Summary of Notation and Conventions.
 
@@ -790,7 +774,7 @@ All formal definitions, theorems, and axioms appear in this chapter. Later chapt
 
 Closing Remarks — The Constitution.
 
-You have now read six axioms. They are the constitution of this book and its sequels. Like any constitution, they are not proposals to be debated in each chapter. They are permanent. All later work — the mathematics of Chapter 2, the zone manifold construction of Chapter 3, the 6D embedding of Chapter 4, and everything in Volumes 2 through 6 — rests on them.
+You have now read seven axioms, plus Postulate F. The seven axioms are the constitution of this book and its sequels. Like any constitution, they are not proposals to be debated in each chapter. They are permanent. All later work — the mathematics of Chapter 2, the zone manifold construction of Chapter 3, the 6D embedding of Chapter 4, and everything in Volumes 2 through 6 — rests on them.
 
 Let me restate them, concisely:
 
@@ -806,11 +790,13 @@ Axiom 5 (Fall Degradation): Post-Fall, kappa weakens by a factor (1 - epsilon ),
 
 Axiom 6 (Duality): God creates through the tensor product of two complementary fields — Psi sub A (Waters Above) and Psi sub B (Waters Below) — generating all complexity, interaction, and structure.
 
+Axiom 7 (Four Thermodynamic Phases): Universal history is partitioned into exactly four thermodynamic phases — Creation, Edenic, Fall, Redemption — each defined by a characteristic sustaining-field regime kappa sub i and a characteristic entropy behavior (dS/dt) sub i. Transitions between phases are discrete events (Day 7, the Fall, the future restoration), not smooth flows.
+
 ⚠ SERIES BLOCKER — OP-1: Postulate F (spin-1/2 statistics from a bosonic membrane) is an unresolved open problem. All downstream results involving fermions depend on this assumption. See Vol 6 Chapter 14, OP-1 for the research agenda.
 
 Postulate F (Primordial Spinor Field — Open Resolution). There exists on the Firmament Sigma an independent primordial spinor field psi with a Yukawa coupling to Psi sub A. This postulate is not derived from Axioms 1–6 at the current state of the framework. It is required to apply the Jackiw-Rossi index theorem (Vol 4 Ch 10 §10.5), which binds fermionic zero modes to topological vortices in Psi sub A and thereby produces spin-½ particles with Pauli exclusion. Without Postulate F, the framework derives only bosonic excitations. Research is ongoing to derive psi from the bosonic structure already present, via: (a) supersymmetric extension of the Firmament membrane action, (b) Kähler spinors from the 6D bulk geometry, or (c) higher-form gauge symmetry. None of these routes is yet complete (Vol 4 Ch 10 Open Problem 10.1; GitHub Issue #1, BLOCKER). Postulate F is stated here so that all particle-physics results in Volumes 2–6 that depend on fermionic excitations are explicitly downstream of this open assumption.
 
-These six axioms, plus Postulate F, constitute the foundational structure of this series. The axioms are interdependent — remove one, and the structure fails. Postulate F is distinguished from the axioms in that it is not yet derived from the others; it is a temporary foundational assumption awaiting resolution in a future volume. The equation numbers do not change. The notation is locked. The symbols are permanent.
+These seven axioms, plus Postulate F, constitute the foundational structure of this series. The axioms are interdependent — remove one, and the structure fails. Postulate F is distinguished from the axiom set in that it is not yet derived from the axioms; it is a temporary foundational assumption awaiting resolution in a future volume, not an eighth axiom. The equation numbers do not change. The notation is locked. The symbols are permanent.
 
 Some readers will balk: "Why can't we revisit the axioms? Isn't that how science works?" Yes — at the research frontier, where we test boundaries and question assumptions. But a textbook is a consolidated account of what we know, built on stable foundation. Once the foundation is poured and inspected, you do not dig it up in every chapter. If new data should emerge that contradicts any axiom, a future volume will revise the axioms and build a new edifice. But not here.
 
@@ -822,7 +808,7 @@ Chapter 4 specifies the complete 6D embedding space — the full metric, the sig
 
 The remaining chapters expand, refine, and apply. By the end of this volume, you will be able to derive conservation laws from zone symmetries, derive the thermodynamic laws from zone separation, and understand why the universe is quantum — not as a postulate, but as a geometric necessity.
 
-But none of that is possible without the six axioms. They are the bedrock. Everything else is built on top.
+But none of that is possible without the seven axioms. They are the bedrock. Everything else is built on top.
 
 Read them. Absorb them. Let them settle. Then turn the page.
 
@@ -846,7 +832,7 @@ Conceptual Problems.
 
 1.7. Why must creation involve duality (Axiom 6) rather than a single undifferentiated field? Use the electromagnetic analogy: what would a universe with only positive charges look like? Could it support chemistry? Could it support life?
 
-1.8. Review the six counter-models in Section 1.8. For each, identify whether the failure is (a) mathematical incoherence, (b) observational contradiction, or (c) explanatory impoverishment. Which type of failure is most damaging to a physical theory, and why?
+1.8. Review the seven counter-models in Section 1.8. For each, identify whether the failure is (a) mathematical incoherence, (b) observational contradiction, or (c) explanatory impoverishment. Which type of failure is most damaging to a physical theory, and why?
 
 Computational Problems.
 
@@ -858,7 +844,7 @@ Computational Problems.
 
 Challenge Problems.
 
-1.12. Axiom Independence Proof. Construct a formal logical argument (using propositional logic or set-theoretic notation) demonstrating that no axiom in the set A sub 1, A sub 2, A sub 3, A sub 4, A sub 5, A sub 6 can be derived as a logical consequence of the remaining five. You may use the counter-model approach of Section 1.8, but formalize it: for each axiom A sub k, exhibit a model M sub k that satisfies A sub 1, , A sub 6 A sub k but violates A sub k.
+1.12. Axiom Independence Proof. Construct a formal logical argument (using propositional logic or set-theoretic notation) demonstrating that no axiom in the set the expression can be derived as a logical consequence of the remaining six. You may use the counter-model approach of Section 1.8, but formalize it: for each axiom A sub k, exhibit a model M sub k that satisfies A sub 1, , A sub 7 A sub k but violates A sub k.
 
 1.13. The Skeptic's Challenge. A colleague argues: "Your Axiom 3 is unfalsifiable. Any symmetry can be retroactively assigned a divine attribute. This is not science." Write a 500-word response that (a) acknowledges the force of the objection, (b) explains what would falsify Axiom 3, and (c) identifies the specific experimental signature that would distinguish Axiom 3 from the standard physics interpretation of symmetry.
 

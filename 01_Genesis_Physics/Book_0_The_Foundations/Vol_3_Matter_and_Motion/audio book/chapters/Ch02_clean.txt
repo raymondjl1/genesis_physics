@@ -5,7 +5,7 @@ The Variational Foundations of Classical Dynamics.
 
 Why Formalism Matters — From F=ma to the Action Principle.
 
-Chapter 1 accomplished something that standard physics textbooks skip: it derived F=ma from the geometry of the zone manifold. The student now holds Newton's three laws not as axioms but as theorems, traced back to the zone action, the geodesic equation, and covariant conservation of stress-energy.
+Chapter 1 accomplished something that standard physics textbooks skip: it derived F=ma from the geometry of the zone manifold. The student now holds Newton's three laws not as axioms but as theorems, traced back to the zone action, the geodesic equation, and covariant conservation of stress-energy. Per Ch 1 §1.1, the test-particle action used in that derivation descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the rāqîaʿ of Gen 1:6–8. Everything in this chapter inherits that pedigree.
 
 But there's a problem.
 
@@ -17,7 +17,7 @@ Or consider a bead sliding on a rotating wire hoop. Or the three-body gravitatio
 
 There must be a better way. And there is — and it isn't new. It's the same variational principle that the zone framework is built upon.
 
-Recall what Volume 1, Chapter 8 established: the Five Governing Principles constrain the zone action S total (Eq. 1.8.3). The physical field configurations are stationary points of that action. Volume 2, Chapter 5 constructed the complete zone Lagrangian L zone (Eq. 2.5.20) and derived every field equation from delta S_ total = 0 (Eq. 2.5.21). Chapter 1 of this volume extracted F=ma by varying the test particle action (Eq. 3.1.7) with respect to the worldline.
+Recall what Volume 1, Chapter 8 established: the Five Principles constrain the zone action S total (Eq. 1.8.3). The physical field configurations are stationary points of that action. Volume 2, Chapter 5 constructed the complete zone Lagrangian L zone (Eq. 2.5.20) and derived every field equation from delta S_ total = 0 (Eq. 2.5.21). Chapter 1 of this volume extracted F=ma by varying the test particle action (Eq. 3.1.7) with respect to the worldline.
 
 In every case, the method was the same: write the action, vary it, set the variation to zero. This is the variational principle — the engine beneath everything.
 

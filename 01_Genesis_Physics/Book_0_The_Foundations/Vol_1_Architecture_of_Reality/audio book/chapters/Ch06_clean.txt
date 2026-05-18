@@ -2,9 +2,9 @@ Introduction — The Dark Sector Speaks.
 
 [Figure — see print edition.]
 
-In Chapter 5, we established the Firmament as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.0)), that Lorentz invariance follows from the uniformity of the Firmament membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
+In Chapter 5, we established the Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.0)), that Lorentz invariance follows from the uniformity of the Firmament membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
 
-But the Firmament is not alone. It sits between two vast regions of the 6D bulk: the Waters Above (Z sub 2.2.3, extending in the xi-direction) and the Waters Below (Z sub 2.2.1, extending in the eta-direction). These are not empty space. They are filled with dynamical scalar fields — Psi sub A in the Waters Above, Psi sub B in the Waters Below — that carry energy, exert pressure, and shape the large-scale structure of the cosmos.
+But the Firmament is not alone. It sits between two vast regions of the 6D bulk: the Waters Above (מַיִם, mayim, 'waters'; Z sub 2.2.3, extending in the xi-direction) and the Waters Below (Z sub 2.2.1, extending in the eta-direction). These are not empty space. They are filled with dynamical scalar fields — Psi sub A in the Waters Above, Psi sub B in the Waters Below — that carry energy, exert pressure, and shape the large-scale structure of the cosmos.
 
 Here is the central question of this chapter: what equations govern these fields?
 
@@ -733,7 +733,7 @@ What we established:
 Where this leads:
 
 - Chapter 7 (Symmetries and Conservation Laws): The action functional (1.6.9) feeds directly into Noether's theorem — every symmetry of this action produces a conservation law.
-- Chapter 8 (Five Governing Principles): The replenishment mechanism (§6.5) is the mathematical realization of the Sustaining Principle; the field equations embody all five principles as constraints.
+- Chapter 8 (Five Principles): The replenishment mechanism (§6.5) is the mathematical realization of the Sustaining Principle; the field equations embody all Five Principles as constraints.
 - Volume 3 (Matter and Motion): The Madelung-form fluid equations (1.6.19)-(1.6.21) become the starting point for fluid mechanics on the zone manifold.
 - Volume 5 (The Cosmos): The cosmological solutions (de Sitter, Friedmann, structure formation) are developed in full with the tools from Volumes 2-4.
 

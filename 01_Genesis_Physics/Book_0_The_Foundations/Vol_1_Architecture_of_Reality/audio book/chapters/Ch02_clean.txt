@@ -16,7 +16,7 @@ Tool: Manifolds and charts. Where It's Used: Ch 3, 4, 5. Why It's Needed: The zo
 Tool: Tangent spaces and forms. Where It's Used: Ch 3–8. Why It's Needed: Fields, forces, and currents live in tangent spaces.
 Tool: Topology. Where It's Used: Ch 3, 7, 9, 10. Why It's Needed: Global structure constrains which fields and defects can exist.
 Tool: Connections. Where It's Used: Ch 3–8. Why It's Needed: Differentiating fields on curved manifolds requires covariant derivatives.
-Tool: Curvature. Where It's Used: Ch 3–5. Why It's Needed: Gravity IS curvature; the Firmament bends into extra dimensions.
+Tool: Curvature. Where It's Used: Ch 3–5. Why It's Needed: Gravity IS curvature; the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') bends into extra dimensions.
 Tool: Fiber bundles. Where It's Used: Ch 3, 5, 7–9. Why It's Needed: Gauge forces are connections on bundles over the zone manifold.
 Tool: Exterior calculus. Where It's Used: Ch 5–8, 11. Why It's Needed: Boundary integrals and conservation laws need Stokes' theorem.
 Tool: Lie groups. Where It's Used: Ch 3, 4, 7–9. Why It's Needed: Symmetries form groups; Noether maps groups to conservation laws.
@@ -363,7 +363,7 @@ There are infinitely many possible connections on a manifold. Physics selects a 
 
 1. Metric compatibility: nabla _ rho g sub mu nu = 0. The connection preserves lengths and angles under parallel transport. If you parallel-transport two vectors along a curve, their inner product does not change.
 
-2. Torsion-freeness: the expression (the connection coefficients are symmetric in the lower two indices). Equivalently, nabla sub X Y - nabla sub Y X = [X, Y] (the Lie bracket).
+2. Torsion-freeness (Definition 2.4.5): the expression (the connection coefficients are symmetric in the lower two indices). Equivalently, nabla sub X Y - nabla sub Y X = [X, Y] (the Lie bracket).
 
 Theorem 2.4.1 (Fundamental Theorem of Riemannian Geometry). On a pseudo-Riemannian manifold ( M, g), there exists a unique connection satisfying metric compatibility and torsion-freeness. This is the Levi-Civita connection.
 
@@ -384,6 +384,8 @@ Compute (ii) + (iii) − (i). Using torsion-freeness (the expression), most term
 [Equation — see print edition.]
 
 Multiplying both sides by 1 over 2g to the nu sigma ' (where the expression) isolates the connection coefficients. The result is the Christoffel symbols:
+
+Definition 2.4.4 (Christoffel Symbols).
 
 [Equation — see print edition.]
 

@@ -5,6 +5,8 @@ This chapter is about what is missing. The Penrose–Hawking singularity theorem
 
 What This Chapter Is (and Is Not).
 
+Structural reminder. Firmament is this textbook's term for the 3-brane hypersurface Z sub 2.2 derived in Vol 1 Ch 5, named after the Hebrew rāqîaʿ (Gen 1:6–8) for a hammered, stretched membrane. Waters Above / Waters Below are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
 Before stating any theorem, let me say carefully what this chapter does and does not do, because the claim is easily mistaken for one stronger than it is and for one weaker than it is.
 
 What this chapter does. It identifies the hidden completeness premise of the Penrose–Hawking singularity theorems — the premise that the spacetime manifold is the maximal Lorentzian manifold compatible with the field equations and that there is no boundary into which incomplete geodesics can exit. It shows that this premise fails in the zone framework, because the 4D spacetime of GR is the Firmament Sigma = Z sub 2.2 embedded in the 6D zone manifold Z (Vol 1 Ch 4), and the Firmament has a boundary partial Sigma — the breach edge of Chapter 5. It then proves a continuation lemma (Lemma 5.7.1): every Firmament geodesic that terminates at partial Sigma admits a unique 6D continuation as a worldline in the bulk. From the lemma it derives three regularization theorems: one for the Schwarzschild and Kerr black hole interiors (Theorem 5.7.2), one for the Big Bang (Theorem 5.7.3), and a generic theorem covering essentially all spacetimes obeying the Vol 1 axioms (Theorem 5.7.4). It compares the resulting picture with loop quantum gravity, string theory, and asymptotic safety, and argues that the Firmament membrane resolution is, alone among these, generic, free of fine-tuning, and derivable rather than postulated.
@@ -142,7 +144,9 @@ Let Z be the 6D zone manifold with metric (5.7.1). Let Sigma = Z sub 2.2 be the 
 
 [Equation — see print edition.]
 
-where N sub p Sigma is rank 2 (because Sigma is codimension 2 in Z). Choose a smooth orthonormal frame the expression for N sub p Sigma, with the convention that n to the M xi points in the positive-xi direction (toward Waters Above) and n to the M eta in the positive-eta direction (toward Waters Below). The Firmament embedding push-forward gives a frame e_ mu to the M for T sub p Sigma, with mu = 0,1,2,3.
+where N sub p Sigma is rank 2 (because Sigma is codimension 2 in Z). Choose a smooth orthonormal frame the expression for N sub p Sigma, with the convention that n to the M xi points in the positive-xi direction (toward Waters Above) and n to the M eta in the positive-eta direction (toward Waters Below).[^geo-vs-cosmo] The Firmament embedding push-forward gives a frame e_ mu to the M for T sub p Sigma, with mu = 0,1,2,3.
+
+[^geo-vs-cosmo]: The cosmological pairing (Waters Above ≡ dark energy, ~68%; Waters Below ≡ dark matter, ~27%) is established in Vol 5 Ch 6 (cosmology background) and Vol 4 Ch 11 §11.0. In this chapter the same names denote the geometric structure on the (ξ, η) axes; the cosmological observables emerge from the geometric structure but should not be conflated with it.
 
 A Firmament geodesic the expression has 4-velocity the expression, with the expression in the timelike case (we use mostly-plus signature throughout). Its 6D push-forward is the worldline
 
@@ -337,7 +341,7 @@ The result is that the bulk continuation of an infalling perturbation propagates
 
 [Equation — see print edition.]
 
-a restatement of (5.7.3) along the worldline of an infalling perturbation; the inequality holds because of the bulk hyperbolicity theorem of Vol 1 §6.7.
+a restatement of (5.7.3) along the worldline of an infalling perturbation; the inequality holds because of the bulk hyperbolicity theorem of Vol 1 §6.6.4.
 
 What this section did not do.
 
@@ -478,7 +482,7 @@ Step: Identification of the hidden completeness premise M0 in the singularity th
 Step: Lemma 5.7.1 (Brane–Bulk Continuation). Eq. / Thm: §7.3.3, (5.7.6)–(5.7.9). Status: Derivation from Vol 1 Ch 4 (smoothness of bulk Christoffel symbols), Vol 1 Ch 5 §5.4 (junction conditions), and Picard–Lindelöf for 6D ODEs..
 Step: Theorem 5.7.2 (Schwarzschild Regularization). Eq. / Thm: §7.4.4, (5.7.10)–(5.7.16). Status: Derivation from Lemma 5.7.1 + Ch 5 Breach Theorem 5.5.1 + Vol 1 §4.6 curvature bound..
 Step: Theorem 5.7.3 (Big Bang Regularization). Eq. / Thm: §7.5.4, (5.7.17)–(5.7.18). Status: Derivation from past-directed form of Lemma 5.7.1 + Vol 1 Ch 5 §5.7 Firmament-nucleation conjecture (G1) + standard FRW geodesic calculation..
-Step: §7.6 Cauchy horizon dissolution. Eq. / Thm: §7.6.2, (5.7.20). Status: Derivation from Ch 5 §5.7.2 (no inner horizon in zone framework) + Vol 1 §6.7 (bulk hyperbolicity, used as inheritance)..
+Step: §7.6 Cauchy horizon dissolution. Eq. / Thm: §7.6.2, (5.7.20). Status: Derivation from Ch 5 §5.7.2 (no inner horizon in zone framework) + Vol 1 §6.6.4 (bulk hyperbolicity, used as inheritance)..
 Step: Theorem 5.7.4 (Generic Regularization). Eq. / Thm: §7.7.2, §7.7.3. Status: Derivation by the case analysis of §7.7.3, which classifies Firmament-side incompleteness into types A–D and disposes of each by reduction to the previous theorems or by the Firmament stress-energy bound. The Type D argument uses Vol 1 §5.3 as inheritance..
 Step: §7.7.4 Fine-tuning argument. Eq. / Thm: §7.7.4. Status: Derivation by tracing all parameter dependencies in the proof of Theorem 5.7.4 and showing they reduce to inequalities, not equalities..
 
@@ -492,7 +496,7 @@ Inheritance (results from previous chapters, used without re-derivation).
 - Positivity of tension sigma > 0 — Vol 1 §5.6.
 - Brane stress-energy bound (used in §7.7.3 Type D) — Vol 1 §5.3.
 - Brane-nucleation conjecture (existence of partial - Sigma with finite a*) — Vol 1 Ch 5 §5.7. Flagged as G1.
-- Bulk hyperbolicity theorem (used in §7.6.3) — Vol 1 §6.7.
+- Bulk hyperbolicity theorem (used in §7.6.3) — Vol 1 §6.6.4.
 - Tension profile the expression — Ch 5 Eq. (5.5.13).
 - Breach Theorem 5.5.1 — Ch 5 §5.3.2.
 - Kerr breach edge angle dependence — Ch 5 §5.7.1.
@@ -508,7 +512,7 @@ Conjectures and open items.
 
 Gap G1 (MEDIUM). The Firmament-nucleation event partial - Sigma is taken as a structural input from Vol 1 §5.7 rather than derived from first principles in this chapter. The chapter assumes that partial - Sigma exists, that the cosmological scale factor a* at partial - Sigma is finite, and that the Firmament-side cosmological data the expression at partial - Sigma are well-defined. The first-principles derivation of these properties from the bulk dynamics of Vol 1 Ch 6 is the subject of Vol 6 Ch 5. Mitigation: Theorem 5.7.3 is conditional on the existence of partial - Sigma; the chapter is honest about this conditional structure and does not claim to have derived nucleation from nothing.
 
-Gap G2 (LOW). The Cauchy horizon discussion of §7.6 leans on Vol 1 §6.7 (the bulk hyperbolicity theorem) as inheritance rather than re-deriving it here. The reader who wants the full bulk-hyperbolicity argument must consult Vol 1 §6.7. Mitigation: clean cross-reference is sufficient; no new calculation needed.
+Gap G2 (LOW). The Cauchy horizon discussion of §7.6 leans on Vol 1 §6.6.4 (the bulk hyperbolicity theorem) as inheritance rather than re-deriving it here. The reader who wants the full bulk-hyperbolicity argument must consult Vol 1 §6.6.4. Mitigation: clean cross-reference is sufficient; no new calculation needed.
 
 Gap G3 (LOW). The string-theoretic comparison in §7.8.2 glosses over the most recent fuzzball results (Mathur 2024) and does not engage with the open question of whether fuzzball constructions extend to generic non-supersymmetric BHs. The chapter notes the open question but does not attempt to settle it. Mitigation: §7.8.2 explicitly states the program's strengths and weaknesses honestly; a deeper string-theoretic comparison is for Vol 6.
 

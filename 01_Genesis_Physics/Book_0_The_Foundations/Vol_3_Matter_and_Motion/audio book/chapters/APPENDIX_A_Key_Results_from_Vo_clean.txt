@@ -28,7 +28,7 @@ Open System Axiom. The zone manifold is not an isolated system; energy and infor
 
 Used in Vol 3: Ch 9, 12 (First Law extension; arrow of time). 
 
-Five Governing Principles (named but formalized in Ch 8): Variation, Symmetry, Quantization, Conservation, Degradation.
+Five Principles (named but formalized in Ch 8): Variation, Symmetry, Quantization, Conservation, Degradation.
 Used in Vol 3: Ch 1, 2, 9, 12.
 
 A.2.2 Chapter 2 — Mathematical Preliminaries.
@@ -130,7 +130,7 @@ Angular momentum conservation.
 
 Used in Vol 3: Ch 3, 4.
 
-A.2.8 Chapter 8 — Five Governing Principles.
+A.2.8 Chapter 8 — Five Principles.
 
 Total zone action (principle of stationary action in its Vol 1 form):
 

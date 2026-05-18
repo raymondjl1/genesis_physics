@@ -1,4 +1,4 @@
-Part II: The Firmament and the Waters (continued).
+Part II: The Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') and the Waters (מַיִם, mayim, 'waters') (continued).
 
 "In him all things hold together."
 — Colossians 1:17
@@ -16,9 +16,9 @@ The difference is the difference between describing one government and writing a
 
 Why does this matter practically? Because Volume 2 will face an enormous challenge: deriving all four force laws (gravity, electromagnetism, strong, weak) from the zone manifold. The space of possible Lagrangian densities is infinite. Without constraints, we could write down anything. With constraints, the space narrows dramatically — in many cases to a unique answer.
 
-The Five Governing Principles are those constraints. Each principle, when translated from theological statement to mathematical condition, eliminates entire classes of candidate actions. Together, they carve out the unique physical action from the infinite space of mathematical possibilities.
+The Five Principles are those constraints. Each principle, when translated from theological statement to mathematical condition, eliminates entire classes of candidate actions. Together, they carve out the unique physical action from the infinite space of mathematical possibilities.
 
-Here is the program: we will express each of the five principles as a precise mathematical constraint on the action functional S sub total. Then we will combine them into a constrained variational principle — a single variational equation that encodes all five principles simultaneously. The modified Euler-Lagrange equations that emerge from this constrained action will be the master equations of Genesis Physics. Volume 2 inherits them directly.
+Here is the program: we will express each of the Five Principles as a precise mathematical constraint on the action functional S sub total. Then we will combine them into a constrained variational principle — a single variational equation that encodes all Five Principles simultaneously. The modified Euler-Lagrange equations that emerge from this constrained action will be the master equations of Genesis Physics. Volume 2 inherits them directly.
 
 [Figure — see print edition.]
 
@@ -32,7 +32,7 @@ Before formalizing, let us state each principle in its canonical form. These nam
 4. Degradation depends on Symmetry-breaking (loss of perfect symmetry in Fall)
 5. Duality manifests through all others (complementary pairs throughout creation)
 
-Table 8.1: The Five Governing Principles — Canonical Reference
+Table 8.1: The Five Principles — Canonical Reference
 
 #: 1. Principle: **Sustaining**. Divine Attribute: Active Presence. One-Line Definition: God maintains all creation through continuous presence and power. Constraint Type: External coupling.
 #: 2. Principle: **Conservation**. Divine Attribute: Completeness. One-Line Definition: Nothing is created or destroyed within the cosmos post-Day 7. Constraint Type: Boundary condition.
@@ -52,7 +52,7 @@ From Chapter 7 (Eq. (1.7.1)), the total action is:
 
 [Equation — see print edition.]
 
-This action, derived from the zone manifold geometry in Chapters 4–6, already encodes a great deal of physics. But it does not encode everything. The Five Governing Principles impose additional conditions that any physically valid action must satisfy.
+This action, derived from the zone manifold geometry in Chapters 4–6, already encodes a great deal of physics. But it does not encode everything. The Five Principles impose additional conditions that any physically valid action must satisfy.
 
 Constraints as Functionals.
 
@@ -347,7 +347,7 @@ Why does creation come in pairs?
 
 Because God creates through complementary opposites. "God created mankind in his own image... male and female he created them" (Genesis 1:27). Light and darkness. Sea and sky. Waters Above and Waters Below. Matter and antimatter. Wave and particle. Throughout creation, duality is the generative method — not conflict between opposites, but creative partnership.
 
-Duality is the most pervasive of the five principles. It is not merely one constraint alongside the others — it manifests through all the others. Sustaining involves the duality of Creator and creation. Conservation involves the paired balancing of gains and losses. Symmetry involves the paired transformations that leave the action invariant. Degradation involves the asymmetry between ordered and disordered states. Duality is the creative method woven through the entire fabric.
+Duality is the most pervasive of the Five Principles. It is not merely one constraint alongside the others — it manifests through all the others. Sustaining involves the duality of Creator and creation. Conservation involves the paired balancing of gains and losses. Symmetry involves the paired transformations that leave the action invariant. Degradation involves the asymmetry between ordered and disordered states. Duality is the creative method woven through the entire fabric.
 
 The theological depth here is remarkable. The Hebrew text of Genesis 1 is structured by binary separations: light from darkness (Day 1), waters above from waters below (Day 2), sea from dry land (Day 3). The creative act is not making things ex nihilo alone — it is separating complementary opposites so that their interaction generates complexity. John's Gospel echoes this: "Through him all things were made" (John 1:3) — the Logos as the principle of differentiation and relation. The Duality Principle is the mathematical expression of this theological insight: creation is fundamentally relational. No field exists alone. Every entity has a partner, and their interaction is the engine of all physical processes.
 
@@ -410,7 +410,7 @@ Why Five — Necessity and Sufficiency.
 
 The Counting Argument.
 
-We now address the deepest question of this chapter: Why these five principles and not some other set?
+We now address the deepest question of this chapter: Why these Five Principles and not some other set?
 
 The answer has two parts — theological and mathematical — and they converge on the same conclusion.
 
@@ -424,7 +424,7 @@ Principle: Duality. Divine Attribute: Creative Method. If Removed...: No complem
 
 [Equation — see print edition.]
 
-Each attribute is distinct and irreducible. Active Presence is not Completeness. Immutability is not Redemptive Intent. Creative Method is not any of the others. Five attributes, five principles.
+Each attribute is distinct and irreducible. Active Presence is not Completeness. Immutability is not Redemptive Intent. Creative Method is not any of the others. Five attributes, Five Principles.
 
 Mathematical necessity. Each constraint restricts an independent degree of freedom in the action:
 
@@ -454,7 +454,7 @@ Each counterexample is consistent with four principles and violates the fifth. T
 
 Sufficiency Argument.
 
-Are five principles enough? Could there be a sixth independent principle that we are missing?
+Are Five Principles enough? Could there be a sixth independent principle that we are missing?
 
 The sufficiency argument runs as follows. The five constraints restrict five independent aspects of the action:
 
@@ -525,7 +525,7 @@ Volume 2 (Forces and Fields) inherits the constrained action S sub GP and uses i
 4. Derive: If yes, compute the modified Euler-Lagrange equations and compare to observation
 5. Uniqueness: The constraints are strong enough that, in several cases, there is only one allowed force Lagrangian
 
-This is the power of the constrained action: it converts the problem from "guess the right Lagrangian" to "find the unique Lagrangian consistent with five constraints." The five principles do most of the work. Volume 2 harvests the results.
+This is the power of the constrained action: it converts the problem from "guess the right Lagrangian" to "find the unique Lagrangian consistent with five constraints." The Five Principles do most of the work. Volume 2 harvests the results.
 
 To make this concrete, consider three previews:
 
@@ -607,7 +607,7 @@ Problem 8.17. The completeness of five.
 A colleague proposes a "Sixth Principle: Hierarchy — God's creation has a top-down structure." Analyze whether this is (a) independent of the existing five, or (b) derivable from them. If derivable, show how. If independent, identify what structural feature of the Lagrangian it would constrain.
 
 Problem 8.18. Theological grounding.
-For each of the five principles, identify (a) the divine attribute, (b) the specific Scripture passages that motivate it, and (c) what physical consequence would change if the attribute were absent. Present this as a systematic table.
+For each of the Five Principles, identify (a) the divine attribute, (b) the specific Scripture passages that motivate it, and (c) what physical consequence would change if the attribute were absent. Present this as a systematic table.
 
 Problem 8.19. The Skeptic's challenge.
 An atheist physicist examines the five constraints and says: "These are just standard physics with theological labels. Conservation is just energy conservation. Symmetry is just Noether's theorem. You haven't added anything." Write a careful response explaining what the principles add beyond standard physics, using specific examples.
@@ -622,7 +622,7 @@ Problem 8.22. Duality in quantum mechanics.
 Wave-particle duality in quantum mechanics is one manifestation of the Duality Principle. Explain how the Duality constraint (1.8.30) — expressed as a Lagrangian symmetry — is related to the complementarity principle of Bohr. Is Bohr's complementarity a consequence of Duality, or vice versa, or neither?
 
 Problem 8.23. Pedagogical reflection.
-Write a one-page explanation of the Five Governing Principles suitable for a first-year graduate student who has not read Chapters 1–7. What is the minimum they need to understand, and what can they take on trust until they read the earlier chapters?
+Write a one-page explanation of the Five Principles suitable for a first-year graduate student who has not read Chapters 1–7. What is the minimum they need to understand, and what can they take on trust until they read the earlier chapters?
 
 Problem 8.24. Open questions.
 Identify three open questions that this chapter raises but does not resolve. For each, state (a) the question, (b) which principle it relates to, and (c) where in the series you expect it to be addressed.
@@ -655,17 +655,17 @@ Propose a candidate "Sixth Principle" — any constraint on the action that is n
 
 Chapter Summary.
 
-This chapter has accomplished the translation from theology to mathematics: the Five Governing Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality — are now precise mathematical constraints on the action functional.
+This chapter has accomplished the translation from theology to mathematics: the Five Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality — are now precise mathematical constraints on the action functional.
 
 The results, in logical order:
 
-1. The action space (Section 8.1): Any valid physical theory is a point in the infinite-dimensional space of possible actions. The five principles are constraint surfaces that restrict this space.
+1. The action space (Section 8.1): Any valid physical theory is a point in the infinite-dimensional space of possible actions. The Five Principles are constraint surfaces that restrict this space.
 
 2. The five constraints (Sections 8.4–8.8): Each principle translates to a precise mathematical condition — an equality constraint (C sub 1, C sub 2, C sub 3, C sub 5) or an inequality constraint (C sub 4) — on the total action.
 
 3. The constrained action (Section 8.10): All five constraints combine via Lagrange multipliers into a single constrained action S sub GP (Eq. (1.8.38)), from which modified Euler-Lagrange equations follow.
 
-4. Necessity and sufficiency (Section 8.9): All five principles are independent (each maps to a distinct structural feature of the action) and sufficient (no sixth principle constrains anything new within field theory).
+4. Necessity and sufficiency (Section 8.9): All Five Principles are independent (each maps to a distinct structural feature of the action) and sufficient (no sixth principle constrains anything new within field theory).
 
 5. The bridge to Volume 2 (Section 8.10.4): The constrained action is the starting point for deriving all force laws. The constraints are strong enough that, in many cases, the allowed Lagrangian is unique.
 

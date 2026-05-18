@@ -15,6 +15,8 @@ where M(r) is the total mass-energy inside radius r and r is the areal radius of
 
 We have worked mostly in the Newtonian and post-Newtonian regimes up to this point. Mercury's perihelion (§2.2) was a post-Newtonian calculation at C approximately 2.5 times 10 to the -8; the Cassini Shapiro delay (§2.5) was C approximately 2 times 10 to the -6; the LIGO inspiral (§3.5) was a 3.5PN calculation that stayed under C approximately 10 to the -2 for most of its duration and only approached the strong-field regime in the final few milliseconds. The entire first half of Vol 5 has been an exercise in what happens when C is small.
 
+Structural reminder. Firmament is this textbook's term for the 3-brane hypersurface Z sub 2.2 derived in Vol 1 Ch 5, named after the Hebrew rāqîaʿ (Gen 1:6–8) for a hammered, stretched membrane. Waters Above / Waters Below are the bulk regions on either side (Vol 1 Ch 3–4). Per Ch 5 §5.0: the Hebrew denotes a physical membrane, as the physics requires.
+
 The first half of this chapter is what happens when C is not small. Three physical systems are where the question lives: the innermost stable circular orbit of a binary inspiral (C approximately 0.17), the ergosphere and near-horizon region of a Kerr black hole (C approximately 0.3 to 0.5), and the interior of a neutron star (C approximately 0.2 at the surface, higher at the core). The second half is a different question: what happens if we step back behind (5.1.22) into the 6D derivation, and look at the worldlines that are possible in the bulk geometry that the 4D reduction suppresses? That is the FTL half. Its relationship to "strong field" is that the mechanisms it discusses all depend on geometric features — Firmament tension, warp factors, ergosphere-like negative-energy orbits — that are strong-field features in the sense of the previous paragraph, even though the 4D observer sees them as weak-field deviations.
 
 A reader who wants only the first half can stop at §4.6 and pick up again with Chapter 5. A reader who wants only the causality theorem can read §4.11. A reader who wants the Ledger — what we claimed versus what we derived — can read §4.12. The pedagogical path is the whole thing in order.
@@ -621,7 +623,7 @@ Open problems and research gaps (for Vol 6 and later).
 
 4. Brane-tension correction to TOV (§4.5.4). The fractional correction delta M TOV/M TOV approximately 10 to the -4 is well below current sensitivity but is the one chapter-4 prediction that is strictly-distinguishable from textbook GR. Severity: LOW (because the value is so small). Mitigation: a dedicated calculation of the c_ sigma coefficient at the second-order post-Newtonian level, suitable for comparison with next-generation neutron-star-mass measurements at the 10 to the -3 level. Flagged for Vol 6.
 
-5. Alternative FTL mechanisms not developed. Zone tunneling (§4.11.4, deferred to Vol 6 Appendix J) and the consciousness interface (§4.11.4, deferred to Vol 6 Part V or later). Neither is dismissed; both are flagged for future treatment with an appropriate level of rigor.
+5. Alternative FTL mechanisms not developed. Zone tunneling (§4.11.4, deferred to Vol 6 Ch 13 (TBD)) and the consciousness interface (§4.11.4, deferred to Vol 6 Ch 13 (TBD)). Neither is dismissed; both are flagged for future treatment with an appropriate level of rigor.
 
 Forward links.
 

@@ -38,13 +38,21 @@ Let me be completely clear about what assumptions we are making:
 
 These are not trivial assumptions. They're the bedrock of the zone framework. But notice: none of them explicitly mention force or acceleration. We will derive those concepts from the geometry.
 
+It is worth tracing the chain that connects the test-particle action used in this chapter back to the named architecture of Vol 1, because the connection is not decorative — it is what licenses every "Firmament" we will write from here on. Vol 1 Ch 5 began with the 6D action functional, varied it under transverse displacement, and derived the existence of a tensioned codimension-2 submanifold Sigma Z sub 2.2 with membrane tension sigma, mass density mu, and wave speed c to the 2 = sigma / mu. That submanifold is the Firmament. The induced metric gamma sub mu nu on Sigma is the object onto which the 6D bulk metric pulls back, and it is this induced metric that appears in the test-particle action
+
+[Equation — see print edition.]
+
+whose variation will give us geodesic motion and, in the non-relativistic limit, F=ma. The Firmament is therefore not an extra piece of furniture imported from theology; it is the only surface on which (3.1.0) is well-defined, because Vol 1 Ch 5 proved that it is the only codimension-2 hypersurface in M sub Z that supports a stable membrane action.
+
+The Hebrew name for that surface, in Gen 1:6–8, is rāqîaʿ: a hammered, stretched membrane. The word's lexical content — a tensioned, two-bulk-dividing surface — is the same content the action principle of Vol 1 Ch 5 forced out of the geometry. We did not choose the name to dress up the derivation; we recognized, after the derivation was complete, that the structure it gave us already had a name. Gen 1:6–8 ("Let there be a firmament in the midst of the waters, and let it divide the waters from the waters") names exactly the geometric object on which (3.1.0) — and therefore every classical-mechanics result that follows in this volume — is defined. When subsequent chapters of Vol 3 say "the Firmament metric gamma sub mu nu," the reader should hear: the induced metric on the rāqîaʿ of Gen 1:6–8, established as the unique tensioned codimension-2 submanifold of M sub Z in Vol 1 Ch 5.
+
 [FIGURE 3.1.1: Derivation Roadmap].
 
 A flowchart showing the complete derivation chain:
 
 - Box 1 (blue): Zone Manifold axioms → 6D metric with warp factors (Vol 1 Ch 3)
 - Box 2 (blue): Noether's theorem → covariant conservation laws (Vol 1 Ch 7)
-- Box 3 (blue): Five Governing Principles → constrained action (Vol 1 Ch 8)
+- Box 3 (blue): Five Principles → constrained action (Vol 1 Ch 8)
 - Arrow → Box 4 (orange): Gravity from curvature, KK reduction, Newton's force law (Vol 2 Ch 2)
 - Arrow → Box 5 (orange): Gauge fields, matter coupling (Vol 2 Ch 5)
 - Arrow → Box 6 (green): Test particle action on Firmament
@@ -203,44 +211,6 @@ For now, let's keep the interaction Lagrangian general and write:
 [Equation — see print edition.]
 
 where f_ mu is the 4-force density (force per unit proper time).
-
-Varying the Action.
-
-The true worldline of the particle is the one that extremizes the action. We'll vary the worldline the expression and require delta S = 0.
-
-For the free-particle part:
-
-[Equation — see print edition.]
-
-Using the chain rule and the fact that the expression (unit normalization):
-
-[Equation — see print edition.]
-
-The first term is a boundary term (vanishes if we fix the endpoints). The second term gives:
-
-[Equation — see print edition.]
-
-Again, the first is a boundary term. The second term becomes:
-
-[Equation — see print edition.]
-
-This is the expression, where D/d tau is the covariant derivative along the worldline.
-
-For the interaction part:
-
-[Equation — see print edition.]
-
-(using integration by parts, dropping boundary terms).
-
-Combining and setting delta S = 0:
-
-[Equation — see print edition.]
-
-Since the expression is arbitrary (except at boundaries), the integrand must vanish:
-
-[Equation — see print edition.]
-
-Wait, I need to be more careful. Let me redo this cleanly.
 
 Careful Derivation: Euler-Lagrange Equation via Variational Principle.
 
@@ -402,7 +372,7 @@ What is derived: Given that assumption, the form of the equation of motion (Eq. 
 
 Where the real derivation comes: The value of mass—why an electron has mass m sub e = 9.1 times 10 to the -31 kg and a proton has m sub p = 1.67 times 10 to the -27 kg—is not explained in this chapter. That explanation comes in Chapter 7 (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the Firmament membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
 
-What about uniqueness? The form of the test particle action (Eq. 3.1.7), the expression, is not plucked from thin air. By the Lovelock-type uniqueness arguments (Vol 1 Ch 8, Five Governing Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like m and q). So while we are postulating that the particle action has this form, we are justified in doing so by:
+What about uniqueness? The form of the test particle action (Eq. 3.1.7), the expression, is not plucked from thin air. By the Lovelock-type uniqueness arguments (Vol 1 Ch 8, Five Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like m and q). So while we are postulating that the particle action has this form, we are justified in doing so by:
 
 1. Symmetry: It's the only form consistent with the zone framework's symmetries.
 2. Locality: It depends only on the particle's worldline and the metric at that worldline, not on non-local information.
@@ -432,49 +402,7 @@ where v to the i = dx to the i / dt are the ordinary 3-velocities. The proper ti
 
 to leading order in v/c.
 
-Separating Spatial and Temporal Components.
-
-The covariant acceleration has two types of components:
-
-[Equation — see print edition.]
-
-The time component (mu = 0) is:
-
-[Equation — see print edition.]
-
-(to leading order in v/c). This gives us energy conservation, which we won't focus on here.
-
-The spatial components (mu = i) are:
-
-[Equation — see print edition.]
-
-In the non-relativistic limit:
-
-[Equation — see print edition.]
-
-The Gamma to the i sub 00 term is related to gravity:
-
-[Equation — see print edition.]
-
-From Vol 2 Ch 2, in the weak-field limit:
-
-[Equation — see print edition.]
-
-where Phi is the gravitational potential. Thus:
-
-[Equation — see print edition.]
-
-(using eta to the im for the flat metric in the non-relativistic limit).
-
-The cross terms (Gamma to the i sub 0j) are suppressed by v/c and can be dropped.
-
-So:
-
-[Equation — see print edition.]
-
-Hmm, I'm overcomplicating this. Let me use a clearer approach.
-
-Cleaner Approach: Splitting Gravity from Other Forces.
+Splitting Gravity from Other Forces.
 
 In the zone framework, gravity is encoded in the metric (the geometry of spacetime). Other forces (electromagnetism, etc.) are external agents that provide the 4-force the expression.
 
@@ -488,7 +416,11 @@ In the spatial components, taking the non-relativistic limit (v much less than c
 
 [Equation — see print edition.]
 
-The Christoffel term from gravity gives (in the weak-field limit):
+The Christoffel term from gravity gives (in the weak-field limit). Using the mostly-plus signature (-,+,+,+), the weak-field metric from Vol 2 Ch 2 is g sub 00 = -(1 + 2 Phi /c to the 2), so:
+
+[Equation — see print edition.]
+
+With u to the 0 approximately equal to c to leading order in v/c:
 
 [Equation — see print edition.]
 
@@ -783,13 +715,13 @@ What We POSTULATED (and Why).
 
 [Equation — see print edition.]
 
-   This is a postulate. However, it is justified by Lovelock-type uniqueness arguments: this is the unique action that respects diffeomorphism invariance, reparametrization invariance, and locality (Vol 1 Ch 8, Five Governing Principles). Any other form would violate these fundamental symmetries of the zone framework.
+   This is a postulate. However, it is justified by Lovelock-type uniqueness arguments: this is the unique action that respects diffeomorphism invariance, reparametrization invariance, and locality (Vol 1 Ch 8, Five Principles). Any other form would violate these fundamental symmetries of the zone framework.
 
 2. The Value of Mass (m itself): The coupling constant m is an input at this stage. We do not derive why an electron has the mass it does, or why different particles have different masses. This derivation comes in Chapter 7 (Origin of Mass), where we show that mass arises from standing wave resonances on the Firmament and that the specific masses of elementary particles follow from the Firmament membrane boundary conditions.
 
 3. The Zone Manifold Structure: We assumed that reality is a 6D pseudo-Riemannian manifold with the structure described in Vol 1 Ch 3. This is a postulate.
 
-4. The Five Governing Principles: We assumed five constraints on the zone action (Vol 1 Ch 8). These are postulates that ensure uniqueness of the action.
+4. The Five Principles: We assumed five constraints on the zone action (Vol 1 Ch 8). These are postulates that ensure uniqueness of the action.
 
 5. The Action Principle: We assumed that the true dynamics extremize the action. This is a postulate, but it's the most successful postulate in all of physics.
 
@@ -1213,7 +1145,7 @@ References and Further Reading.
 - Vol 1 Ch 3: Zone manifold geometry and metric structure.
 - Vol 1 Ch 5: The Firmament as a Firmament.
 - Vol 1 Ch 7: Noether's theorem and stress-energy conservation.
-- Vol 1 Ch 8: The action principle and Five Governing Principles.
+- Vol 1 Ch 8: The action principle and Five Principles.
 - Vol 2 Ch 2: Gravity from zone curvature; Newton's force law and the equivalence principle.
 - Vol 2 Ch 3: Electromagnetic forces.
 - Vol 2 Ch 5: The zone Lagrangian and matter coupling.

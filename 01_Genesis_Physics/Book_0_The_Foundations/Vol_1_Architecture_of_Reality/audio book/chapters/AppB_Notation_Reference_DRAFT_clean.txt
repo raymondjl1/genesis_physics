@@ -203,11 +203,11 @@ B.3.5 Canonical Scale Parameter Values.
 
 The Waters Above extent xi sub A and Waters Below extent eta sub B appear throughout the series. The canonical reference values used in all numerical estimates are:
 
-Symbol: xi sub A. Canonical Value: 3.0 times 10 to the 26. Units: m. Basis: Hubble radius; characteristic scale of dark energy field Psi sub A.
+Symbol: xi sub A. Canonical Value: 3.0 times 10 to the 26. Units: m. Basis: Bulk extension of Waters Above; characteristic scale of dark energy field Psi sub A (numerically close to but conceptually distinct from the Hubble radius — see Vol 1 §10.2.1).
 Symbol: eta sub B. Canonical Value: 1.3 times 10 to the -15. Units: m. Basis: Nuclear scale; characteristic scale of dark matter field Psi sub B.
 Symbol: xi sub A / eta sub B. Canonical Value: approximately 2.3 times 10 to the 41. Units: dimensionless. Basis: Scale hierarchy ratio; determines the expression.
 
-Note: Some chapters use xi sub A approximately equal to 1.4 times 10 to the 26 m (comoving Hubble radius) or xi sub A approximately equal to 4.4 times 10 to the 26 m (observable universe diameter). The canonical value 3.0 times 10 to the 26 m is the geometric mean estimate used for order-of-magnitude derivations. When a specific derivation requires a more precise value, it is stated locally.
+Note: The canonical series-wide value is xi sub A = 3.0 times 10 to the 26 m, fixed by the geometric requirements of the 6D embedding (Vol 1 Ch 4, §4.3). This is numerically close to but conceptually distinct from the comoving Hubble radius approximately equal to 1.4 times 10 to the 26 m and the observable-universe diameter approximately equal to 4.4 times 10 to the 26 m. See Vol 1 §10.2.1 for the discussion distinguishing the bulk extension scale from the cosmological horizon.
 
 B.4 Zone Notation and Hierarchy.
 
@@ -455,7 +455,7 @@ Chapter: Ch 4. Topic: The 6D Embedding Space. Approx. Eqs: 45. Range: (1.4.1)–
 Chapter: Ch 5. Topic: The Firmament Manifold. Approx. Eqs: 50. Range: (1.5.1)–(1.5.50).
 Chapter: Ch 6. Topic: Waters Field Equations. Approx. Eqs: 45. Range: (1.6.1)–(1.6.45).
 Chapter: Ch 7. Topic: Symmetries and Conservation Laws. Approx. Eqs: 40. Range: (1.7.1)–(1.7.40).
-Chapter: Ch 8. Topic: Five Governing Principles. Approx. Eqs: 35. Range: (1.8.1)–(1.8.35).
+Chapter: Ch 8. Topic: Five Principles. Approx. Eqs: 35. Range: (1.8.1)–(1.8.35).
 Chapter: Ch 9. Topic: Pattern Operators and Seven Types. Approx. Eqs: 50. Range: (1.9.1)–(1.9.50).
 Chapter: Ch 10. Topic: Quantization from Boundary Conditions. Approx. Eqs: 55. Range: (1.10.1)–(1.10.55).
 Chapter: Ch 11. Topic: Thermodynamics from Zone Separation. Approx. Eqs: 60. Range: (1.11.1)–(1.11.60).
@@ -676,7 +676,7 @@ Change Log:
 
 - v1.0 (2026-04-06): Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
 - v1.1 (2026-05-11): P0 fix — §B.5.4 warp factor definition corrected. A(ξ,η) was incorrectly stated as a(t)·f(ξ,η); corrected to define A(ξ,η) as the warp factor appearing in the 6D metric ds² = A²(ξ,η)ημν dx^μ dx^ν + …, explicitly distinguished from the FRW cosmological scale factor a(t). Clarifying note added to §B.5.4. a(t) entry expanded with explicit reference to the FRW metric. B.10.1 alphabetical table entry for A updated. (Resolves QUALITYGATE P1-001.)
-- v1.2 (2026-05-11): Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
+- v1.2 (2026-05-11): Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
 
 Future Maintenance:
 
