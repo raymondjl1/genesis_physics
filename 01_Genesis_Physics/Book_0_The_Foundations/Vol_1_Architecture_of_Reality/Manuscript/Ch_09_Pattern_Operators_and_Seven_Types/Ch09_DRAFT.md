@@ -45,10 +45,12 @@ $$\mathcal{F}(M_Z) = \{ \Phi : M_Z \to V \}$$
 where:
 - M_Z is the zone manifold (Chapter 3), a stratified 6D pseudo-Riemannian manifold (signature (−,+,+,+,+,+)) with 8 nested zones
 - V is the *target space* (the space into which fields take values)
-- Φ ranges over field configurations: the Waters fields Ψ_A and Ψ_B (both scalar, so V ⊃ ℂ), membrane perturbations h_μν (symmetric 2-tensors), matter fields ψ_matter (spinors or vectors), and their derivatives
+- Φ ranges over field configurations: the Waters fields Ψ_A and Ψ_B (real scalar fields, so V ⊃ ℝ²), membrane perturbations h_μν (symmetric 2-tensors), matter fields ψ_matter (spinors or vectors), and their derivatives
 
 More formally, V = V_Waters ⊕ V_membrane ⊕ V_matter, where:
-- V_Waters = ℂ² (Ψ_A and Ψ_B are complex scalar fields with independent phases)
+- V_Waters = ℝ² (Ψ_A and Ψ_B are real scalar fields, consistent with Vol 1 Ch 6 §6.1.2)[^waters-real]
+
+[^waters-real]: Throughout Vol 1, Ψ_A and Ψ_B are real scalar fields. The Madelung complex representation Ψ_A·e^{iφ_A} that appears in subsequent sections (and in worked examples invoking gauge phases) is a perturbation technique; the underlying fields remain real. Phase dynamics are formally treated in Vol 2 Ch 5.
 - V_membrane = T²(M_Z) (symmetric 2-tensors on the spatial part of M_Z, for h_μν perturbations)
 - V_matter = (spinor space) ⊗ (gauge group representations) (matter fields and their quantum numbers)
 
