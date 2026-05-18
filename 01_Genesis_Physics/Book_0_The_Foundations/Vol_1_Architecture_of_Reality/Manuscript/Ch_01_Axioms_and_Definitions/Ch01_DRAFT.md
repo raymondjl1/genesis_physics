@@ -180,11 +180,13 @@ $$\frac{dU}{dt}\bigg|_{Z_{\text{closed}}} = 0 \quad \text{(when $\kappa$ couplin
 
 This is the standard closed-system energy conservation that standard physics assumes universally. Genesis Physics shows this is a *limiting case* — valid within $Z_{2.2}$ for matter and radiation (Axiom 2), but not for the full open system.
 
-The observed fine-tuning of fundamental constants provides direct evidence for the precision of $\kappa$:
+The observed constancy bounds on fundamental constants are consistent with the precision of $\kappa$:
 
 $$\frac{\Delta c}{c} < 10^{-10}, \quad \frac{\Delta G}{G} < 10^{-13}, \quad \frac{\Delta \alpha}{\alpha} < 10^{-7} \tag{1.2.4}$$
 
-These experimental bounds on the constancy of fundamental constants over cosmic time require active maintenance. In a closed system, there is no mechanism to prevent drift. In an open system with sustaining field $\kappa$, these precisions are maintained by design.
+These experimental bounds on the constancy of fundamental constants over cosmic time require active maintenance under Axiom 1. In a closed system, there is no mechanism to prevent drift. In an open system with sustaining field $\kappa$, these precisions are maintained by design.
+
+**Differential predictions.** Eq. (1.2.4) by itself does not discriminate between Axiom 1 and standard physics — both are compatible with the present-day bounds. The discriminating signal is the *predicted drift rate*. Axiom 1 with a Phase-3 $\kappa = \kappa_{\text{full}}(1-\varepsilon)$ predicts a tiny secular drift $\Delta c/c \sim 10^{-13}$ per century (with parallel drifts in $\alpha$ and $G$ tied to the same $\varepsilon$); standard physics predicts $\Delta c/c = 0$ exactly. Current bounds — $\Delta c/c < 10^{-10}$ over $\sim 10^{10}$ yr (lab + astrophysical limits), $\Delta\alpha/\alpha < 10^{-17}/\text{yr}$ from the Oklo natural reactor, and $\Delta G/G < 10^{-12}/\text{yr}$ from lunar laser ranging — are *consistent with both hypotheses*. Discrimination requires next-generation experiments at $\sim 10^{-14}$ fractional sensitivity (optical-clock cosmological-timescale campaigns, deep-space ranging, and 21-cm cosmology). Until such bounds are achieved, Axiom 1's precision claim is corroborated but not decisively confirmed.
 
 The four-phase structure is encoded in $\kappa(t)$:
 
