@@ -208,11 +208,11 @@ The Waters Above extent $\xi_A$ and Waters Below extent $\eta_B$ appear througho
 
 | Symbol | Canonical Value | Units | Basis |
 |--------|----------------|-------|-------|
-| $\xi_A$ | $3.0 \times 10^{26}$ | m | Hubble radius; characteristic scale of dark energy field $\Psi_A$ |
+| $\xi_A$ | $3.0 \times 10^{26}$ | m | Bulk extension of Waters Above; characteristic scale of dark energy field $\Psi_A$ (numerically close to but conceptually distinct from the Hubble radius — see Vol 1 §10.2.1) |
 | $\eta_B$ | $1.3 \times 10^{-15}$ | m | Nuclear scale; characteristic scale of dark matter field $\Psi_B$ |
 | $\xi_A / \eta_B$ | $\sim 2.3 \times 10^{41}$ | dimensionless | Scale hierarchy ratio; determines $\alpha^{-1} \approx 1.44 \ln(\xi_A/\eta_B)$ |
 
-**Note:** Some chapters use $\xi_A \approx 1.4 \times 10^{26}$ m (comoving Hubble radius) or $\xi_A \approx 4.4 \times 10^{26}$ m (observable universe diameter). The canonical value $3.0 \times 10^{26}$ m is the geometric mean estimate used for order-of-magnitude derivations. When a specific derivation requires a more precise value, it is stated locally.
+**Note:** The canonical series-wide value is $\xi_A = 3.0 \times 10^{26}$ m, fixed by the geometric requirements of the 6D embedding (Vol 1 Ch 4, §4.3). This is numerically close to but conceptually distinct from the comoving Hubble radius $\approx 1.4 \times 10^{26}$ m and the observable-universe diameter $\approx 4.4 \times 10^{26}$ m. See Vol 1 §10.2.1 for the discussion distinguishing the bulk extension scale from the cosmological horizon.
 
 ---
 

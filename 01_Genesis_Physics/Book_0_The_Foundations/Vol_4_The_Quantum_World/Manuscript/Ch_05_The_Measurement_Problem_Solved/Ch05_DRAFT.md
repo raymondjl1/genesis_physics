@@ -73,7 +73,7 @@ In Genesis Physics, this complaint has no purchase. The environment is not a phe
 
 Recall from Vol 1 Ch 6 the two Waters fields that fill the perpendicular dimensions of the zone manifold:
 
-- **Ψ_A (Waters Above):** scalar field in the ξ-direction, extending from the Firmament outward to the Hubble-scale boundary at ξ ≈ ξ_A ≈ 1.4 × 10²⁶ m.
+- **Ψ_A (Waters Above):** scalar field in the ξ-direction, extending from the Firmament outward to the bulk-extension boundary at ξ ≈ ξ_A ≈ 3 × 10²⁶ m (numerically close to but conceptually distinct from the Hubble radius; see Vol 1 §10.2.1).
 - **Ψ_B (Waters Below):** scalar field in the η-direction, confined between the Firmament and the sub-Planck boundary at η ≈ η_B ≈ 1.3 × 10⁻¹⁵ m.
 
 These are not mathematical fictions. The Waters were introduced to explain (among other things) the coupling of gauge fields to matter in Vol 2 Ch 3, the confinement of topological defects in Vol 1 Ch 6, and the zone-mediated correlations of Ch 4. Every macroscopic object on the Firmament is immersed in the Waters the way a fish is immersed in the ocean.

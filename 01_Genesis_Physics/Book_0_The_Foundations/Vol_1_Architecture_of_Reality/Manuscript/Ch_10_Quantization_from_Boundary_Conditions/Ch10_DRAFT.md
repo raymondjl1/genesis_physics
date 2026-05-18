@@ -27,7 +27,9 @@ Standard quantum mechanics *postulates* this discreteness. It declares, as axiom
 
 We will do none of that. We will *derive* all of it.
 
-The central insight of this chapter is simple enough to fit on a napkin: **the extra dimensions of the zone manifold have finite extent**. The $\xi$-direction (Waters Above) spans from $\xi = 0$ to $\xi = \xi_A \approx 1.4 \times 10^{26}$ m. The $\eta$-direction (Waters Below) spans from $\eta = 0$ to $\eta = \eta_B \approx 1.3 \times 10^{-15}$ m. The Firmament membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
+The central insight of this chapter is simple enough to fit on a napkin: **the extra dimensions of the zone manifold have finite extent**. The $\xi$-direction (Waters Above) spans from $\xi = 0$ to $\xi = \xi_A \approx 3 \times 10^{26}$ m. The $\eta$-direction (Waters Below) spans from $\eta = 0$ to $\eta = \eta_B \approx 1.3 \times 10^{-15}$ m. The Firmament membrane wave equation — which we already derived in Chapter 5 — must satisfy boundary conditions at these edges.
+
+**A note on the value of $\xi_A$.** The canonical value $\xi_A \approx 3 \times 10^{26}$ m (and the symmetric bulk extension $\eta_B$ on the Below side) is fixed by the geometric requirements of the 6D embedding — specifically, by the warp-factor solutions of the 6D Einstein equations (Chapter 4, §4.3) and the requirement that the boundary terms close the action consistently. The reader will notice that this number sits within a factor of $\sim 2$ of the Hubble radius $R_H \approx 1.4 \times 10^{26}$ m. This numerical proximity is suggestive but **not** an identification: $\xi_A$ is a bulk extension scale set by the static geometry of the zone manifold, while $R_H$ is a dynamical horizon set by the cosmological expansion history. The two scales are conceptually independent. Why they are numerically close — and whether this is coincidence or a clue to a deeper relation — is an open question we revisit in Vol 5.
 
 And boundary conditions on a finite domain produce a discrete spectrum. Always. Inevitably. This is not quantum mechanics — it is Sturm-Liouville theory, known since the 19th century. Quantization is a *theorem* of the zone architecture, not a postulate of a new theory.
 
@@ -201,7 +203,7 @@ Converting to energy: $\Delta E_\eta \sim \hbar c \, \Delta m_\eta \sim 750$ MeV
 
 > **⚠ Open Problem — KK Gap vs. Observed Particle Masses:** The lightest Kaluza-Klein excitation in the $\eta$-direction has a mass gap of $\sim 750$ MeV, which is far above the measured electron mass of $0.511$ MeV (a factor of $\sim 1500$). This is a genuine tension: if Standard Model particles arise from KK modes of the zone manifold, the lightest fermionic mode must have a mass at or below $0.511$ MeV, not $750$ MeV. Reconciling the KK spectrum with the observed particle mass spectrum — particularly for light leptons — is Open Problem OP-2 (see Vol 6 Ch 14). The zero-mode ($n = 0$) is massless in the flat-space approximation; whether warping, boundary conditions, or a separate mechanism localizes the electron near zero mass is an open question. All particle mass predictions in this volume are provisional pending this resolution.
 
-**The $\xi$-dimension (Waters Above):** $\xi_A \approx 1.4 \times 10^{26}$ m. The mode spacing is:
+**The $\xi$-dimension (Waters Above):** $\xi_A \approx 3 \times 10^{26}$ m. The mode spacing is:
 
 $$\Delta m_\xi \sim \frac{\pi}{\xi_A} \sim 2.2 \times 10^{-26} \text{ m}^{-1} \tag{1.10.17b}$$
 
@@ -299,7 +301,7 @@ The exponent $2$ corresponds to the warping parameter $\lambda = 1$, which is th
 
 This is the ratio of the nuclear scale to the Hubble scale, squared:
 
-$$\left(\frac{\eta_B}{\xi_A}\right)^2 = \left(\frac{1.3 \times 10^{-15}}{1.4 \times 10^{26}}\right)^2 = (9.29 \times 10^{-42})^2 = 8.63 \times 10^{-83} \tag{1.10.28}$$
+$$\left(\frac{\eta_B}{\xi_A}\right)^2 = \left(\frac{1.3 \times 10^{-15}}{3 \times 10^{26}}\right)^2 = (4.33 \times 10^{-42})^2 = 1.88 \times 10^{-83} \tag{1.10.28}$$
 
 ### §10.3.5 The Final Formula
 

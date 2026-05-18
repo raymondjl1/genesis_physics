@@ -383,11 +383,11 @@ Recall from Volume 1:
 
 The **UV scale** is set by the Firmament thickness $\eta_B \approx 1.3 \times 10^{-15}$ m (Vol 1 Ch 5). This gives the zone cutoff $\Lambda_{\rm zone} = \hbar c/\eta_B \approx 2.4 \times 10^{19}$ GeV — the highest-energy mode that fits on the Firmament.
 
-The **IR scale** is set by the Waters extent $\xi_A \approx 1.4 \times 10^{26}$ m (Vol 1 Ch 6). This is the characteristic scale of the Waters field — the medium that fills the 6D spacetime on both sides of the Firmament. The corresponding energy scale is $\Lambda_{\rm IR} = \hbar c/\xi_A \approx 1.4 \times 10^{-33}$ eV — an absurdly small energy, corresponding to the current Hubble scale.
+The **IR scale** is set by the Waters extent $\xi_A \approx 3 \times 10^{26}$ m (Vol 1 Ch 6; numerically close to but distinct from the Hubble radius $\approx 1.4 \times 10^{26}$ m — see Vol 1 §10.2.1). This is the characteristic scale of the Waters field — the medium that fills the 6D spacetime on both sides of the Firmament. The corresponding energy scale is $\Lambda_{\rm IR} = \hbar c/\xi_A \approx 6.6 \times 10^{-34}$ eV — an absurdly small energy, comparable to the present Hubble scale.
 
 The *ratio* of these scales is
 
-$$(4.9.29) \quad \frac{\eta_B}{\xi_A} \approx \frac{1.3 \times 10^{-15}}{1.4 \times 10^{26}} \approx 10^{-41}$$
+$$(4.9.29) \quad \frac{\eta_B}{\xi_A} \approx \frac{1.3 \times 10^{-15}}{3 \times 10^{26}} \approx 4.3 \times 10^{-42}$$
 
 This ratio is not a free parameter — it is a geometric property of the zone structure, determined by the architecture of the Firmament and the Waters. Now observe:
 

@@ -32,7 +32,7 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 | Symbol | Value | Units | Meaning |
 |--------|-------|-------|---------|
-| **ξ_A** | ~3×10²⁶ | m | Waters Above extent; Hubble-scale cosmological radius |
+| **ξ_A** | 3×10²⁶ | m | Waters Above bulk extension (canonical, locked); numerically close to but distinct from Hubble radius (≈1.4×10²⁶ m) — see Vol 1 §10.2.1 |
 | **η_B** | ~1.3×10⁻¹⁵ | m | Waters Below extent; nuclear-scale QCD cutoff |
 | **L_eff** | 8.96×10⁻²⁹ | m | Effective coupling length from 6D reduction |
 
