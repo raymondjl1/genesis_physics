@@ -374,7 +374,7 @@ There are infinitely many possible connections on a manifold. Physics selects a 
 
 **1. Metric compatibility:** $\nabla_\rho g_{\mu\nu} = 0$. The connection preserves lengths and angles under parallel transport. If you parallel-transport two vectors along a curve, their inner product does not change.
 
-**2. Torsion-freeness:** $\Gamma^\mu_{\nu\rho} = \Gamma^\mu_{\rho\nu}$ (the connection coefficients are symmetric in the lower two indices). Equivalently, $\nabla_X Y - \nabla_Y X = [X, Y]$ (the Lie bracket).
+**2. Torsion-freeness** (**Definition 2.4.5**): $\Gamma^\mu_{\nu\rho} = \Gamma^\mu_{\rho\nu}$ (the connection coefficients are symmetric in the lower two indices). Equivalently, $\nabla_X Y - \nabla_Y X = [X, Y]$ (the Lie bracket).
 
 **Theorem 2.4.1 (Fundamental Theorem of Riemannian Geometry).** On a pseudo-Riemannian manifold $(\mathcal{M}, g)$, there exists a *unique* connection satisfying metric compatibility and torsion-freeness. This is the *Levi-Civita connection*.
 
@@ -393,6 +393,8 @@ Compute (ii) + (iii) − (i). Using torsion-freeness ($\Gamma^\lambda_{\mu\nu} =
 $$\partial_\mu g_{\nu\rho} + \partial_\nu g_{\rho\mu} - \partial_\rho g_{\mu\nu} = 2 g_{\sigma\nu} \Gamma^\sigma_{\mu\rho}$$
 
 Multiplying both sides by $\frac{1}{2}g^{\nu\sigma'}$ (where $g^{\nu\sigma'}g_{\sigma\nu} = \delta^{\sigma'}_\sigma$) isolates the connection coefficients. The result is the *Christoffel symbols*:
+
+**Definition 2.4.4 (Christoffel Symbols).**
 
 $$\Gamma^\mu_{\nu\rho} = \frac{1}{2} g^{\mu\sigma}\left(\partial_\nu g_{\sigma\rho} + \partial_\rho g_{\sigma\nu} - \partial_\sigma g_{\nu\rho}\right) \tag{1.2.22}$$
 

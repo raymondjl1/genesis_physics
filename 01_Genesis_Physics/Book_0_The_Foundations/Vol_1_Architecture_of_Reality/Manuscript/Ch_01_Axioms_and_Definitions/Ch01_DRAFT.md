@@ -421,7 +421,7 @@ Agency operates through boundary condition modification. The mechanism is analog
 
 $$\text{Intent} \;\to\; \Delta B(\mathbf{r},t) \;\to\; \text{Field adjustment in } Z_{2.2} \tag{1.5.2}$$
 
-Here $\Delta B$ represents a change in the boundary conditions (not to be confused with baryon number $B_{\text{total}}$). The precise mechanism by which atemporal intent couples to temporal boundary conditions is the subject of Volume 5 (Consciousness and Agency). We flag it here because the axiom is incomplete without acknowledging that the coupling mechanism is not yet specified.
+Here $\Delta B$ represents a change in the boundary conditions (not to be confused with baryon number $B_{\text{total}}$). The precise mechanism by which atemporal intent couples to temporal boundary conditions is the subject of Vol 6 Ch 13. We flag it here because the axiom is incomplete without acknowledging that the coupling mechanism is not yet specified.
 
 The Imago Dei is formally the zone-interface operator:
 

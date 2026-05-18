@@ -917,7 +917,7 @@ $$G_4 \sim 10^{-56} \times 10^{3} \sim 10^{-53} \, \text{m}^4 \, \text{kg}^{-1} 
 
 This is too small by roughly $10^{42}$ — but this is precisely the hierarchy problem in a different guise. The exact match requires the full specification of $G_6$, $L_A$, and $\xi_0$ from the 6D action (Chapter 6), where the Waters field potentials and Firmament tensions determine these scales self-consistently. The important point is that the *functional form* of (1.4.51) has the right structure: gravity weakens as the extra-dimensional volume grows, and the hierarchy between $G_4$ and the fundamental scale is explained geometrically rather than by fine-tuning.
 
-The precise numerical verification — confirming that $G_4$ from (1.4.51) reproduces $6.674 \times 10^{-11}$ with the dynamically determined parameters — is the ultimate consistency test for the framework. Chapter 6 (Waters Field Equations) will provide the scale parameters, and Volume 5 (General Relativity Derivation) will close the loop by showing the full numerical match.
+The precise numerical verification — confirming that $G_4$ from (1.4.51) reproduces $6.674 \times 10^{-11}$ with the dynamically determined parameters — is the ultimate consistency test for the framework. Chapter 6 (Waters Field Equations) will provide the scale parameters, and Volume 5 (The Cosmos), Chapter 1 (Einstein Field Equations Recovered) will close the loop by showing the full numerical match.
 
 ### § 4.5.5 Matching Across Multiple Boundaries
 
@@ -1161,7 +1161,7 @@ $$K = \frac{1}{4\pi} \frac{g_6^2}{\hbar c} \cdot \left( \int \int e^{2A} |\psi_0
 
 This integral depends on the explicit warp factor profiles (which we have from §4.3) and on the zero-mode wavefunction (which requires solving the Firmament eigenvalue problem in Chapter 5). The point is: *every quantity in this expression is determined by the geometry*. There are no free parameters.
 
-Volume 2 (Dimensional Reduction and Gauge Theory) will carry out this Kaluza-Klein decomposition explicitly, matching the 6D Ricci tensor components to 4D observable fields and extracting $K$ as a computed geometric invariant. The derivation follows the same logic as the standard Randall-Sundrum gauge coupling calculation, extended to our codimension-2 brane geometry. We defer it not because it is problematic, but because it requires the Firmament vibration spectrum from Chapter 5 as input.
+Vol 2 Ch 5 + Ch 6 (KK decomposition) will carry out this Kaluza-Klein decomposition explicitly, matching the 6D Ricci tensor components to 4D observable fields and extracting $K$ as a computed geometric invariant. The derivation follows the same logic as the standard Randall-Sundrum gauge coupling calculation, extended to our codimension-2 brane geometry. We defer it not because it is problematic, but because it requires the Firmament vibration spectrum from Chapter 5 as input.
 
 The fact that the empirical value $K \approx 1.44$ is order-unity and produces the correct $\alpha^{-1}$ to $0.06\%$ accuracy is strong evidence that the geometric framework is on the right track. A value of $K$ far from unity would have signaled a fine-tuning problem; instead, we find a natural geometric ratio.
 

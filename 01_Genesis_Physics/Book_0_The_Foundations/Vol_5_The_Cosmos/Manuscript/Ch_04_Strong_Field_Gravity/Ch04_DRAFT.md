@@ -657,7 +657,7 @@ Following the format of Vol 5 Ch 3 §3.10.2.
 
 4. **Brane-tension correction to TOV (§4.5.4).** The fractional correction $\delta M_\text{TOV}/M_\text{TOV} \sim 10^{-4}$ is well below current sensitivity but is the one chapter-4 prediction that is strictly-distinguishable from textbook GR. Severity: LOW (because the value is so small). Mitigation: a dedicated calculation of the $c_\sigma$ coefficient at the second-order post-Newtonian level, suitable for comparison with next-generation neutron-star-mass measurements at the $10^{-3}$ level. Flagged for Vol 6.
 
-5. **Alternative FTL mechanisms not developed.** Zone tunneling (§4.11.4, deferred to Vol 6 Appendix J) and the consciousness interface (§4.11.4, deferred to Vol 6 Part V or later). Neither is dismissed; both are flagged for future treatment with an appropriate level of rigor.
+5. **Alternative FTL mechanisms not developed.** Zone tunneling (§4.11.4, deferred to Vol 6 Ch 13 (TBD)) and the consciousness interface (§4.11.4, deferred to Vol 6 Ch 13 (TBD)). Neither is dismissed; both are flagged for future treatment with an appropriate level of rigor.
 
 ### §4.12.4 Forward links
 

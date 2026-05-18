@@ -64,11 +64,11 @@ $$(5.8.4)\quad \dot\Psi_A = 0,\qquad V_A(\Psi_A^{\text{min}}) = \Lambda_A \quad 
 - **Waters Below** $\Psi_B$ at its broken-phase VEV:
 $$(5.8.5)\quad \langle\Psi_B\rangle = v_B,\qquad V_B(v_B) = \rho_{B,0}\quad\text{(Vol 1 Eq 1.6.40)}.$$
 
-Vol 1 §6.7 gave the energy fractions on cosmological scales — what we will use here is the result:
+Vol 1 §6.6.4 gave the energy fractions on cosmological scales — what we will use here is the result:
 
 $$(5.8.6)\quad \frac{\rho_A}{\rho_\text{tot}} : \frac{\rho_B}{\rho_\text{tot}} : \frac{\rho_b}{\rho_\text{tot}} = 0.684 : 0.266 : 0.049,\quad \frac{\rho_r}{\rho_\text{tot}} \sim 10^{-4},$$
 
-derived in Vol 1 §6.7 from the warp-factor profiles $A_\xi, A_\eta$ and the Firmament tension $\sigma$. The Vol 1 derivation matches the warp-factor parameters $(\xi_A, \gamma)$ to the *Firmament radius* and the *nuclear scale* — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
+derived in Vol 1 §6.6.4 from the warp-factor profiles $A_\xi, A_\eta$ and the Firmament tension $\sigma$. The Vol 1 derivation matches the warp-factor parameters $(\xi_A, \gamma)$ to the *Firmament radius* and the *nuclear scale* — not to the cosmological observations — and the ratios in (5.8.6) come out as a consequence. We will use this result in §8.6 and discuss its epistemic status in §8.13.
 
 ### §8.1.4 From Vol 1 Ch 11 — sustaining mode
 
@@ -348,8 +348,8 @@ We now state the four density parameters and show the bulk-field origin of each.
 
 | Species | $\Omega_i$ today | Origin |
 |---|---|---|
-| Waters Above (dark energy) | $\Omega_A = 0.684$ | Vol 1 §6.7, Eq (1.6.38). The Waters Above potential value $\Lambda_A$ is set by the $\xi$-direction warp factor and the domain size $\xi_A$. |
-| Waters Below (dark matter) | $\Omega_B = 0.266$ | Vol 1 §6.7, Eq (1.6.41). The Waters Below VEV $v_B$ is set by the $\eta$-direction exponential warp $\gamma$. |
+| Waters Above (dark energy) | $\Omega_A = 0.684$ | Vol 1 §6.6.4, Eqs (1.6.67), (1.6.68), and (1.6.69). The Waters Above potential value $\Lambda_A$ is set by the $\xi$-direction warp factor and the domain size $\xi_A$. |
+| Waters Below (dark matter) | $\Omega_B = 0.266$ | Vol 1 §6.6.4, Eqs (1.6.67), (1.6.68), and (1.6.69). The Waters Below VEV $v_B$ is set by the $\eta$-direction exponential warp $\gamma$. |
 | Brane baryonic matter | $\Omega_b = 0.049$ | Vol 1 §5.6. The Firmament tension $\sigma$ relative to the bulk energy density. |
 | Brane radiation | $\Omega_r \approx 10^{-4}$ | Relativistic-mode count on the Firmament (photons + 3 neutrino species). |
 | **Total** | $\Omega_\text{tot} = 0.999\approx 1$ | Closure forced by Theorem in §8.2 |
@@ -374,7 +374,7 @@ The honest answer has two parts.
 
 *Second, what comes out of the matching.* Once the three numbers are fixed at non-cosmological scales, the four ratios $\Omega_A : \Omega_B : \Omega_b : \Omega_r$ are determined. They come out as $0.684 : 0.266 : 0.049 : 10^{-4}$ — matching observation to part-per-thousand precision.
 
-The chain has the structure *(empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations)*. This is not the same as fitting, because the matching and the prediction occur at different scales. It is also not a *first-principles* derivation in the strongest sense — that would require deriving $(\xi_A, \gamma, \sigma)$ from a still deeper layer, which is the program of Vol 6. The honest classification is *Inheritance from Vol 1 §6.7 of an empirically anchored geometric calculation*. §8.13 marks it that way.
+The chain has the structure *(empirical inputs at non-cosmological scales) → (geometric ratios) → (cosmological observations)*. This is not the same as fitting, because the matching and the prediction occur at different scales. It is also not a *first-principles* derivation in the strongest sense — that would require deriving $(\xi_A, \gamma, \sigma)$ from a still deeper layer, which is the program of Vol 6. The honest classification is *Inheritance from Vol 1 §6.6.4 of an empirically anchored geometric calculation*. §8.13 marks it that way.
 
 The chapter does not claim more than this. It also does not claim less.
 
@@ -440,7 +440,7 @@ From the Friedmann constraint (5.8.26) at $a = a_0$:
 
 $$(5.8.46)\quad H_0^2 = \frac{8\pi G_4}{3}\,\rho_{\text{crit},0}.$$
 
-Inserting $\rho_{\text{crit},0}$ from (5.8.37) is circular by construction; the predictive content lies in the *combination* with the bulk-field calculation of Vol 1 §6.7, which gives $\rho_{\text{tot},0}$ directly from the warp-factor profiles. The result of that calculation, restated here for the reader's convenience, is
+Inserting $\rho_{\text{crit},0}$ from (5.8.37) is circular by construction; the predictive content lies in the *combination* with the bulk-field calculation of Vol 1 §6.6.4, which gives $\rho_{\text{tot},0}$ directly from the warp-factor profiles. The result of that calculation, restated here for the reader's convenience, is
 
 $$(5.8.47)\quad \boxed{H_0 = 67.4\;\text{km/s/Mpc}.}$$
 
@@ -574,7 +574,7 @@ Per Vol 5 internal precedent (Chs 5, 6, 7), every load-bearing claim of this cha
 | L8 | $w_B = 0$ for projected dust | Derivation | §8.5.2, from L3 (zero-mode wave-function nonrelativistic limit) |
 | L9 | $w_b = 0,\ w_r = 1/3$ | Identity | §8.5.3–4, conventional Firmament matter and radiation |
 | L10 | $\rho_\text{crit,0} = 9.47\times 10^{-27}$ kg/m³ | Derivation | §8.6.1, from L4 + numerical $H_0, G_4$ |
-| L11 | $\Omega_A = 0.684,\ \Omega_B = 0.266,\ \Omega_b = 0.049,\ \Omega_r \approx 10^{-4}$ | Inheritance | §8.6.3, from Vol 1 §6.7. The Vol 1 calculation matches $(\xi_A, \gamma, \sigma)$ to non-cosmological scales; the cosmological ratios then come out. The chain is honest but not first-principles in the strongest sense. |
+| L11 | $\Omega_A = 0.684,\ \Omega_B = 0.266,\ \Omega_b = 0.049,\ \Omega_r \approx 10^{-4}$ | Inheritance | §8.6.3, from Vol 1 §6.6.4. The Vol 1 calculation matches $(\xi_A, \gamma, \sigma)$ to non-cosmological scales; the cosmological ratios then come out. The chain is honest but not first-principles in the strongest sense. |
 | L12 | The framework does not curve-fit the cosmological energy budget | Derivation (qualitative) | §8.6.4, supported by L11 — the matching scales are non-cosmological |
 | L13 | Era structure: $a \propto t^{1/2},\ t^{2/3},\ e^{H_\infty t}$ in radiation, matter, dark-energy domination | Derivation | §8.7, from L4 + L5 + L6 |
 | L14 | $z_\text{eq} \approx 3400,\ z_\Lambda \approx 0.30$ | Derivation | §8.7, from L11 |

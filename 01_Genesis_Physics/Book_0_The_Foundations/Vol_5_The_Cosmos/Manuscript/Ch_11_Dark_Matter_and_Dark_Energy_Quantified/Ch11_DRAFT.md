@@ -75,7 +75,7 @@ $$
 
 Ch 8 also wrote the acceleration equation (Eq 5.8.29) and the formula for the onset of acceleration $z_\Lambda = (\Omega_A / \Omega_m)^{1/3} - 1$ (Eq 5.8.44). These numbers and these formulas are taken as given here and pushed against the Pantheon+ and DES Y6 data in §11.6.
 
-> **Note on the 68/27/5 split:** The density fractions $\Omega_A : \Omega_B : \Omega_b \approx 0.684 : 0.266 : 0.049$ are classified in this chapter as a **prediction** derived from zone geometry (warp-factor integrals fixed at non-cosmological scales in Vol 1 §6.7). This classification is correct if the matching parameters $(\xi_A, \gamma, \sigma)$ in Vol 1 §6.7 were genuinely fixed by non-cosmological inputs before the cosmological ratios were computed. If instead any of the warp-factor normalizations were adjusted to reproduce $\Omega_A = 0.684$, the result would be a **consistency check** rather than a prediction. The distinction is tracked in Research Task RT-5.ΩA (Ch 8). This chapter inherits the classification from Ch 8 and propagates it faithfully.
+> **Note on the 68/27/5 split:** The density fractions $\Omega_A : \Omega_B : \Omega_b \approx 0.684 : 0.266 : 0.049$ are classified in this chapter as a **prediction** derived from zone geometry (warp-factor integrals fixed at non-cosmological scales in Vol 1 §6.6.4). This classification is correct if the matching parameters $(\xi_A, \gamma, \sigma)$ in Vol 1 §6.6.4 were genuinely fixed by non-cosmological inputs before the cosmological ratios were computed. If instead any of the warp-factor normalizations were adjusted to reproduce $\Omega_A = 0.684$, the result would be a **consistency check** rather than a prediction. The distinction is tracked in Research Task RT-5.ΩA (Ch 8). This chapter inherits the classification from Ch 8 and propagates it faithfully.
 
 ### §11.1.5 Vol 5 Ch 10 — the linear regime coincidence
 
@@ -425,7 +425,7 @@ $$
 
 so $w_A = p_A / (\rho_A c^2) = -1$ *as an identity*, provided the field is at the minimum.
 
-The only way for $w_A$ to deviate from $-1$ is for $\Psi_A$ to be displaced from $\Psi_A^{\min}$. Any such displacement would relax on the timescale set by the effective mass $m_A^2 = \partial^2 V_A / \partial \Psi_A^2$ evaluated at the minimum. Vol 1 §6.7 computed this mass as $m_A \sim H_0$ in natural units — the Hubble scale today. This means that even if $\Psi_A$ were displaced, say, a Hubble time ago, it would relax back to the minimum on the current Hubble time. In practice, $w_A$ today is $-1$ to within a correction that is small by a factor of the initial displacement squared.
+The only way for $w_A$ to deviate from $-1$ is for $\Psi_A$ to be displaced from $\Psi_A^{\min}$. Any such displacement would relax on the timescale set by the effective mass $m_A^2 = \partial^2 V_A / \partial \Psi_A^2$ evaluated at the minimum. Vol 1 §6.6.4 computed this mass as $m_A \sim H_0$ in natural units — the Hubble scale today. This means that even if $\Psi_A$ were displaced, say, a Hubble time ago, it would relax back to the minimum on the current Hubble time. In practice, $w_A$ today is $-1$ to within a correction that is small by a factor of the initial displacement squared.
 
 The DES Y6 plus Pantheon+ joint analysis (DES Collaboration 2024) gives a model-independent measurement
 
@@ -490,19 +490,19 @@ $$
 \rho_A = \Lambda_A^{(4)} = \int V_A(\Psi_A^{\min})\,d\xi\,\cdot\,\text{(warp-factor integral)}. \tag{5.11.35}
 $$
 
-The warp-factor integral comes from projecting the bulk energy density onto the four-dimensional Firmament through the $\xi$-direction measure. If the warp factor is roughly constant across the Waters Above domain (this is the leading approximation; see Vol 1 §6.7 for the next-order corrections), the integral picks up a factor of $\xi_A$, and the projection reads
+The warp-factor integral comes from projecting the bulk energy density onto the four-dimensional Firmament through the $\xi$-direction measure. If the warp factor is roughly constant across the Waters Above domain (this is the leading approximation; see Vol 1 §6.6.4 for the next-order corrections), the integral picks up a factor of $\xi_A$, and the projection reads
 
 $$
 \rho_A \sim V_A(\Psi_A^{\min}) \cdot \xi_A.
 $$
 
-Now, what is $V_A(\Psi_A^{\min})$? In the leading bulk-symmetry analysis of Vol 1 §6.7, the minimum of $V_A$ is *not* at zero — bulk symmetry-breaking gives a non-zero minimum — but the scale of the minimum is set by the Firmament-localized potential, not by the bulk QFT cutoff. Specifically,
+Now, what is $V_A(\Psi_A^{\min})$? In the leading bulk-symmetry analysis of Vol 1 §6.6.4, the minimum of $V_A$ is *not* at zero — bulk symmetry-breaking gives a non-zero minimum — but the scale of the minimum is set by the Firmament-localized potential, not by the bulk QFT cutoff. Specifically,
 
 $$
 V_A(\Psi_A^{\min}) \sim \frac{1}{\eta_B^4} \cdot (\eta_B / \xi_A)^{k}
 $$
 
-for some exponent $k$ that comes from the Vol 1 §6.7 boundary-matching at the Firmament. At leading matching order, $k = 4$. Hence
+for some exponent $k$ that comes from the Vol 1 §6.6.4 boundary-matching at the Firmament. At leading matching order, $k = 4$. Hence
 
 $$
 \rho_A \sim \frac{\xi_A}{\eta_B^4}\,(\eta_B/\xi_A)^4 = \frac{\eta_B^0}{\xi_A^3} \sim \xi_A^{-3}. \tag{5.11.36a}
@@ -522,7 +522,7 @@ $$
 \boxed{\;\frac{\rho_A^{(\mathrm{fw}, \text{leading})}}{\rho_\Lambda^{(\mathrm{obs})}} \;\sim\; 10^{-40\ \text{to}\ -80}\;,\quad \text{depending on the prefactor convention.}\;} \tag{5.11.36}
 $$
 
-This is **not a solution** to the cosmological-constant problem. It is a partial step. The framework has the right *structural* ingredients — two scales $\eta_B$ and $\xi_A$, a geometric suppression mechanism that cancels the QFT cutoff, and a projection formula — but the leading-order exponent $n = 4$ gives too much suppression, and fixing this requires either (a) a different exponent (Firmament-thickness corrections that effectively change $n$), (b) a logarithmic enhancement from the $\xi_A$-integral that the leading approximation missed, or (c) an additional positive contribution from a second Firmament mode that the Vol 1 §6.7 minimum analysis did not include.
+This is **not a solution** to the cosmological-constant problem. It is a partial step. The framework has the right *structural* ingredients — two scales $\eta_B$ and $\xi_A$, a geometric suppression mechanism that cancels the QFT cutoff, and a projection formula — but the leading-order exponent $n = 4$ gives too much suppression, and fixing this requires either (a) a different exponent (Firmament-thickness corrections that effectively change $n$), (b) a logarithmic enhancement from the $\xi_A$-integral that the leading approximation missed, or (c) an additional positive contribution from a second Firmament mode that the Vol 1 §6.6.4 minimum analysis did not include.
 
 [FIGURE: Fig 5.11.7 — The cosmological-constant problem: QFT, framework, observation. Four values on a log axis: (1) Zone QFT vacuum $\rho_{\mathrm{vac}} \approx 6.76 \times 10^{-6}$ GeV⁴ (corrected; CT-4.Λ Rev. 2026-05-15); (2) Waters suppression result $\rho_{\mathrm{eff}} = \rho_{\mathrm{vac}} \times (\eta_B/\xi_A)^{n=1} \approx 2.93 \times 10^{-47}$ GeV⁴ (within 20% of observed); (3) Waters Above projection $\rho_A \sim 10^{-126}$ GeV⁴ (leading order, §11.7.2); (4) Observed $\rho_\Lambda^{(\mathrm{obs})} \approx 3.5 \times 10^{-47}$ GeV⁴. Gap between Waters suppression result and observed value: factor $\sim 0.84$ (20%, one unexplained order of sub-leading corrections). Gap between Waters Above projection and observed: $\sim 10^{79}$ (see §11.7.3). *[SUPERSEDED value: original QFT bar was shown at $10^{71}$ GeV⁴ — this was a factor $\sim 10^{77}$ error from using wrong Λ_zone.]*]
 
@@ -534,7 +534,7 @@ Here is the score.
 
 **Solved, dimensionally.** The two scales required — one much smaller than the QFT cutoff — are present and derived from Vol 1 Ch 6 ($\eta_B$ and $\xi_A$), not introduced for the purpose. No ad hoc length scale is invented in this chapter.
 
-**Not solved, numerically.** The leading-order computation gives the wrong order of magnitude by a factor of $\sim 10^{40}$ to $\sim 10^{80}$ (depending on prefactor conventions). The framework's $\rho_A$ is *too small*, not too large — a different species of error than the original QFT problem, but still an error. Closing this gap requires sub-leading corrections to the Vol 1 §6.7 matching that the current chapter cannot compute. This is research gap G1, and we mark it HIGH.
+**Not solved, numerically.** The leading-order computation gives the wrong order of magnitude by a factor of $\sim 10^{40}$ to $\sim 10^{80}$ (depending on prefactor conventions). The framework's $\rho_A$ is *too small*, not too large — a different species of error than the original QFT problem, but still an error. Closing this gap requires sub-leading corrections to the Vol 1 §6.6.4 matching that the current chapter cannot compute. This is research gap G1, and we mark it HIGH.
 
 **Epistemic upshot.** The framework has moved the problem from "no mechanism, no scales, no explanation at all" to "a mechanism with the right scales and the right form, but with a residual exponent yet to be pinned down." That is progress. It is not a victory. The Skeptic should note, and the chapter does note, that the framework *commits* to closing the residual in Vol 6 and beyond — and that a failure to close it within, say, one or two more orders of attempted derivation should be taken as reason to doubt the framework's claim to explain dark energy at all.
 
@@ -562,7 +562,7 @@ The framework, because both $\Omega_A$ and $\Omega_B$ come from the same Vol 1 C
 
 ### §11.8.1 The warp-factor argument
 
-From §11.7.2 and Vol 1 §6.7:
+From §11.7.2 and Vol 1 §6.6.4:
 
 $$
 \rho_A \sim \xi_A^{-3} \cdot c_A, \qquad \rho_B \sim v_B^2\,m_B^2 \cdot c_B, \tag{5.11.37}
@@ -576,19 +576,19 @@ $$
 \frac{\rho_B}{\rho_A} = \frac{v_B^2 m_B^2\,c_B}{\xi_A^{-3}\,c_A} = v_B^2 m_B^2 \xi_A^3 \cdot \frac{c_B}{c_A}. \tag{5.11.38}
 $$
 
-Using the Vol 1 §6.7 values $v_B \sim (\eta_B)^{-1}$ and $m_B \sim H_0$ (the Firmament Yukawa mass is Hubble-scale, not nuclear-scale, because the localization is spread over the cosmological horizon for modes of cosmological wavelength), and $\xi_A \sim 1/H_0$:
+Using the Vol 1 §6.6.4 values $v_B \sim (\eta_B)^{-1}$ and $m_B \sim H_0$ (the Firmament Yukawa mass is Hubble-scale, not nuclear-scale, because the localization is spread over the cosmological horizon for modes of cosmological wavelength), and $\xi_A \sim 1/H_0$:
 
 $$
 v_B^2 m_B^2 \xi_A^3 \sim \eta_B^{-2} H_0^2 (1/H_0)^3 = \eta_B^{-2} / H_0 \sim 10^{30} / 10^{-42} \sim \ldots
 $$
 
-The numerical value here depends sensitively on what we mean by "Firmament Yukawa mass at cosmological scales" and what the warp-factor ratio $c_B / c_A$ is. The honest way to state the result of the Vol 1 §6.7 analysis is:
+The numerical value here depends sensitively on what we mean by "Firmament Yukawa mass at cosmological scales" and what the warp-factor ratio $c_B / c_A$ is. The honest way to state the result of the Vol 1 §6.6.4 analysis is:
 
 $$
 \frac{\rho_B}{\rho_A}\bigg|_{\text{fw, leading}} \sim \text{O}(1) \tag{5.11.39}
 $$
 
-i.e., the framework predicts the ratio to be of order unity, with the specific coefficient depending on the warp-factor integrals $c_A$ and $c_B$. Inserting the numerical values of those integrals from Vol 1 §6.7 (which were originally computed to fix the masses of the $W, Z$ bosons in Vol 4 Ch 5, *not* to fit the dark-matter-to-dark-energy ratio) gives
+i.e., the framework predicts the ratio to be of order unity, with the specific coefficient depending on the warp-factor integrals $c_A$ and $c_B$. Inserting the numerical values of those integrals from Vol 1 §6.6.4 (which were originally computed to fix the masses of the $W, Z$ bosons in Vol 4 Ch 5, *not* to fit the dark-matter-to-dark-energy ratio) gives
 
 $$
 \boxed{\;\left(\frac{\rho_B}{\rho_A}\right)_{\mathrm{fw}} \approx 0.3\text{–}0.5\;} \tag{5.11.40}
@@ -596,7 +596,7 @@ $$
 
 to be compared with the observed $0.389$. The framework hits the observed value, within the precision to which the warp-factor integrals were computed.
 
-[FIGURE: Fig 5.11.9 — The 27/68 ratio from warp factors. Two panels showing the $\xi$- and $\eta$-warp factors from Vol 1 §6.7; arrows from each to its corresponding $\Omega$; resulting ratio next to observed value.]
+[FIGURE: Fig 5.11.9 — The 27/68 ratio from warp factors. Two panels showing the $\xi$- and $\eta$-warp factors from Vol 1 §6.6.4; arrows from each to its corresponding $\Omega$; resulting ratio next to observed value.]
 
 ### §11.8.2 Was anything tuned?
 
@@ -605,7 +605,7 @@ This is the Skeptic's question and it deserves a direct answer. Let us list the 
 1. $\eta_B \approx 1.3 \times 10^{-15}$ m — fixed in Vol 1 §6.2 by the Firmament-localization condition; used in Vol 4 to fix nuclear scales (hadron masses, nuclear binding energies).
 2. $\xi_A \approx 3 \times 10^{26}$ m — fixed in Vol 1 §6.3 by the cosmological expansion boundary condition; used in Vol 5 Ch 8 to set $H_0$.
 3. Brane tension $\sigma$ — fixed in Vol 1 §5.4 by the Firmament self-consistency condition; used in Vol 2 to set $G_4$.
-4. Warp-factor integrals $c_A, c_B$ — computed in Vol 1 §6.7 from the boundary conditions at the Firmament; *used in Vol 4 Ch 5 to fix the electroweak scale*.
+4. Warp-factor integrals $c_A, c_B$ — computed in Vol 1 §6.6.4 from the boundary conditions at the Firmament; *used in Vol 4 Ch 5 to fix the electroweak scale*.
 
 Each input was fixed for a non-cosmological reason, in a volume that had not yet heard of the 27/68 ratio. Nothing in this chapter is free to adjust. The ratio (5.11.40) is an *output*, not a fit.
 
@@ -627,7 +627,7 @@ Before moving to falsifiers, it helps to be explicit about the framework's non-p
 
 Following the Vol 5 Chs 9 and 10 precedent, we list here the specific observational outcomes that would falsify the framework's quantitative identification of dark matter with Waters Below and dark energy with Waters Above.
 
-**Falsifier (i): $w_0 \ne -1$ at high precision.** If LSST + DESI + Euclid measure the dark-energy equation of state today at $w_0 = -1 \pm 0.01$ or better and find $|w_0 + 1| > 0.03$ at high significance ($> 5\sigma$), the framework's identification (5.11.1) fails. The canonical framework predicts $w_A = -1$ exactly. A small deviation would require $\Psi_A$ to be displaced from the minimum of $V_A$; the perturbation calculation of Problem 7 shows that the displacement required to give $|w_0 + 1| > 0.05$ is incompatible with the Vol 1 §6.7 minimum being stable on cosmological timescales. The framework cannot absorb a large deviation.
+**Falsifier (i): $w_0 \ne -1$ at high precision.** If LSST + DESI + Euclid measure the dark-energy equation of state today at $w_0 = -1 \pm 0.01$ or better and find $|w_0 + 1| > 0.03$ at high significance ($> 5\sigma$), the framework's identification (5.11.1) fails. The canonical framework predicts $w_A = -1$ exactly. A small deviation would require $\Psi_A$ to be displaced from the minimum of $V_A$; the perturbation calculation of Problem 7 shows that the displacement required to give $|w_0 + 1| > 0.05$ is incompatible with the Vol 1 §6.6.4 minimum being stable on cosmological timescales. The framework cannot absorb a large deviation.
 
 **Falsifier (ii): A direct-detection signal.** If a direct-detection experiment (XENONnT, LUX-ZEPLIN, PandaX, or a successor) observes a statistically significant nuclear-recoil signal attributable to dark matter, the framework is in trouble. Waters Below is a Firmament-localized field, not a particle; it does not have a particle-physics cross section with nucleons. A positive direct-detection signal would either mean the framework is wrong or would require a substantial extension of Vol 1 Ch 6 to include a particle-like excitation of $\Psi_B$ that we have not yet envisaged. **This is the primary falsification test for the Waters Below dark matter identification.** Any confirmed dark matter direct detection signal ($\sigma_{\mathrm{SI}} > 0$ at nuclear recoil level) would falsify this model.
 
@@ -757,8 +757,8 @@ Before classifying the claims, here is a compact inventory of every *input* that
 | $G_{\mathrm{int}}$ (Firmament–bulk coupling) | Vol 1 §6.5 value | Vol 1 §6.5 | §11.3.4 BTFR normalization |
 | $\lambda_B$ (Firmament self-coupling) | $\sim 10^{-30}$ | Vol 1 §6.5 | §11.5 $\sigma_{\mathrm{SI}}/m_B$ |
 | $m_B$ (Firmament field mass) | $\sim 10^{-22}$ eV | Vol 1 §6.4 | §11.3, §11.5 |
-| $V_A(\Psi_A^{\min})$ | derived from warp-factor matching | Vol 1 §6.7 | §11.6, §11.7 |
-| warp-factor integrals $c_A, c_B$ | Vol 1 §6.7 | Vol 1 §6.7 (originally for electroweak in Vol 4 Ch 5) | §11.8 27/68 ratio |
+| $V_A(\Psi_A^{\min})$ | derived from warp-factor matching | Vol 1 §6.6.4 | §11.6, §11.7 |
+| warp-factor integrals $c_A, c_B$ | Vol 1 §6.6.4 | Vol 1 §6.6.4 (originally for electroweak in Vol 4 Ch 5) | §11.8 27/68 ratio |
 | $\Omega_A, \Omega_B, \Omega_b, \Omega_r$ | $0.684, 0.266, 0.049, 9.2\times 10^{-5}$ | Vol 5 Ch 8 | §11.6 $q_0$ and $z_{\mathrm{acc}}$ |
 | $H_0$ | $67.4$ km/s/Mpc | Vol 5 Ch 8 | §11.6 |
 
@@ -796,7 +796,7 @@ The chapter's *failure* is the cosmological-constant residual: the leading-order
 
 ### Challenge
 
-**11.7.** Suppose $\Psi_A$ is displaced from its minimum by $\delta\Psi_A$. Using the Vol 1 §6.7 perturbation equations, derive the leading-order departure of $w_A$ from $-1$ and determine how large $\delta\Psi_A$ must be for $|w_A + 1| > 0.05$ (the current $\sim 5\sigma$ observational bound). State the corresponding constraint on the age of the displacement.
+**11.7.** Suppose $\Psi_A$ is displaced from its minimum by $\delta\Psi_A$. Using the Vol 1 §6.6.4 perturbation equations, derive the leading-order departure of $w_A$ from $-1$ and determine how large $\delta\Psi_A$ must be for $|w_A + 1| > 0.05$ (the current $\sim 5\sigma$ observational bound). State the corresponding constraint on the age of the displacement.
 
 **11.8.** The BTFR slope of 4 comes from the Firmament–bulk equilibrium $G_{\mathrm{int}} M_b \sim v_c^4 / c^2 \ell_\star$. Derive this scaling from the Vol 1 §6.5 perturbation equations, identifying which terms give the fourth power. Then state what slope the framework would predict if the equilibrium were dominated by the cubic self-interaction $\lambda_B \Psi_B^3$ instead.
 

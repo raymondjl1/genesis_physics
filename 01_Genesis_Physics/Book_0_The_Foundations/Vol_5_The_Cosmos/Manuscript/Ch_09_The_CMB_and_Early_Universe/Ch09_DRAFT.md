@@ -39,7 +39,7 @@ Vol 5 Ch 8 derived the Friedmann constraint, the acceleration equation, the cont
 
 $$(5.9.1)\quad E(z) = \sqrt{\Omega_A + \Omega_m(1+z)^3 + \Omega_r(1+z)^4},$$
 
-with $\Omega_A = 0.684$, $\Omega_m = \Omega_B + \Omega_b = 0.315$, $\Omega_r \approx 9.2\times 10^{-5}$, $\Omega_b = 0.049$, $\Omega_B = 0.266$, all from Ch 8 §8.6.3 and inherited there from the bulk-field calculation of Vol 1 §6.7.
+with $\Omega_A = 0.684$, $\Omega_m = \Omega_B + \Omega_b = 0.315$, $\Omega_r \approx 9.2\times 10^{-5}$, $\Omega_b = 0.049$, $\Omega_B = 0.266$, all from Ch 8 §8.6.3 and inherited there from the bulk-field calculation of Vol 1 §6.6.4.
 
 - The Hubble constant $H_0 = 67.4$ km/s/Mpc from Ch 8 Eq (5.8.47).
 - The present CMB temperature $T_0 = 2.725$ K from Ch 8 Eqs (5.8.51)–(5.8.52), with the temperature evolution
@@ -523,7 +523,7 @@ $$(5.9.42)\quad \boxed{\chi^2 \approx 250,\qquad N_\text{dof} = 214 \;\;(=\;215\
 
 This is the part the Skeptic should read carefully. Every input to the predicted curve is in one of four classes:
 
-**(I) Inherited from Ch 8 (which inherited from non-cosmological observations).** $\Omega_A, \Omega_B, \Omega_b, \Omega_r, H_0$. These were derived in Vol 1 §6.7 from the warp-factor profiles $A_\xi, A_\eta$ and the Firmament tension $\sigma$, with the *non-cosmological* matching to (i) the Firmament radius, (ii) the nuclear scale, and (iii) the bulk-to-Firmament energy-density ratio at Firmament formation. None of the inputs in this class were fit to cosmological data.
+**(I) Inherited from Ch 8 (which inherited from non-cosmological observations).** $\Omega_A, \Omega_B, \Omega_b, \Omega_r, H_0$. These were derived in Vol 1 §6.6.4 from the warp-factor profiles $A_\xi, A_\eta$ and the Firmament tension $\sigma$, with the *non-cosmological* matching to (i) the Firmament radius, (ii) the nuclear scale, and (iii) the bulk-to-Firmament energy-density ratio at Firmament formation. None of the inputs in this class were fit to cosmological data.
 
 **(II) Inherited from atomic physics (Vol 2 Ch 3, Vol 3 Ch 12).** $\sigma_T, m_e, B_H$. These are fundamental atomic constants, not free parameters of the cosmological model.
 
@@ -533,9 +533,9 @@ This is the part the Skeptic should read carefully. Every input to the predicted
 
 **Free parameters tuned to match Planck: zero in this chapter, beyond the overall amplitude inherited from class (III).**
 
-The Skeptic's central objection — *"you fit the framework to Planck"* — is therefore false, in the specific sense that none of the cosmological-scale parameters in class (I) were fit to Planck. The matching that fixed the warp-factor profiles in Vol 1 §6.7 was at non-cosmological scales (Firmament radius, nuclear scale). The cosmological observations (Ch 8 $H_0$, this chapter's CMB peaks) are *consequences*.
+The Skeptic's central objection — *"you fit the framework to Planck"* — is therefore false, in the specific sense that none of the cosmological-scale parameters in class (I) were fit to Planck. The matching that fixed the warp-factor profiles in Vol 1 §6.6.4 was at non-cosmological scales (Firmament radius, nuclear scale). The cosmological observations (Ch 8 $H_0$, this chapter's CMB peaks) are *consequences*.
 
-A revised version of the Skeptic's objection — *"any framework with the same era structure as $\Lambda$CDM and the same recombination physics will get the same CMB"* — is *true*. The interest of the framework's match is not that it matches (it must match by construction) but that the *same* set of cosmological parameters that match the CMB are also predicted by Vol 1 §6.7 from non-cosmological scales. The *non-trivial* claim is the consistency of the chain across scales — not the CMB fit per se.
+A revised version of the Skeptic's objection — *"any framework with the same era structure as $\Lambda$CDM and the same recombination physics will get the same CMB"* — is *true*. The interest of the framework's match is not that it matches (it must match by construction) but that the *same* set of cosmological parameters that match the CMB are also predicted by Vol 1 §6.6.4 from non-cosmological scales. The *non-trivial* claim is the consistency of the chain across scales — not the CMB fit per se.
 
 ### §9.10.4 Honest caveats
 
@@ -690,7 +690,7 @@ Per chapter spec R5.9.13, we report the results of the CMB-relevant tests in `Re
 This chapter sets up several downstream chapters and a substantial Vol 6 program.
 
 - **Ch 10 (Large-Scale Structure)** inherits the matter transfer function and the era structure from this chapter. The starting point is the matter perturbation $\delta_m$ at recombination as set by the photon-baryon decoupling computed in §9.4, and the linear growth function for $\delta_m$ in the matter and dark-energy eras follows from the Ch 8 era structure.
-- **Ch 11 (Dark Matter and Dark Energy Quantified)** uses the CMB-derived constraints on $\Omega_A, \Omega_B, \Omega_b$ from this chapter as the *pinning* of the bulk-field calculation. The peak heights of §9.7 give an independent constraint on $\Omega_b$ that complements the deuterium constraint of §9.11; the integrated peak shape and the Silk damping scale together pin $\Omega_m$ and $\Omega_A$. Ch 11 will then go *back* to Vol 1 §6.7 and verify that the bulk-field calculation gives the same numbers.
+- **Ch 11 (Dark Matter and Dark Energy Quantified)** uses the CMB-derived constraints on $\Omega_A, \Omega_B, \Omega_b$ from this chapter as the *pinning* of the bulk-field calculation. The peak heights of §9.7 give an independent constraint on $\Omega_b$ that complements the deuterium constraint of §9.11; the integrated peak shape and the Silk damping scale together pin $\Omega_m$ and $\Omega_A$. Ch 11 will then go *back* to Vol 1 §6.6.4 and verify that the bulk-field calculation gives the same numbers.
 - **Ch 12 (The Starlight Problem and Chronology)** uses the Sabbath-Boundary signature from §9.12 as part of its chronology argument. The Hubble tension is *one* of the chronology discriminators; Ch 12 will discuss the others.
 - **Vol 6 (Predictions and Simulations)** has three load-bearing tasks descended from this chapter: (i) compute the size of the Hubble-tension prediction quantitatively from the boundary thermodynamics of Vol 1 Ch 11; (ii) derive the amplitude $A_s$ from the Firmament-nucleation surface dynamics of Vol 5 Ch 7; (iii) run a CAMB-equivalent Boltzmann hierarchy in the framework and re-compute the $\chi^2$ of §9.10 with full numerical precision.
 
@@ -728,7 +728,7 @@ Per Vol 5 internal precedent (Chs 5–8), every load-bearing claim of this chapt
 
 **The Physicist should attack L11 and L12.** They are the chapter's only inheritances from cosmological observation, and they should be derived in Vol 6.
 
-**The "But Why?" reader should focus on L14.** The whole chapter rests on the claim that the chain across scales — non-cosmological inputs from Vol 1 §6.7, cosmological consequences in Ch 8, CMB observables in this chapter — is closed and not curve-fitted. L14 is the chapter's central qualitative claim.
+**The "But Why?" reader should focus on L14.** The whole chapter rests on the claim that the chain across scales — non-cosmological inputs from Vol 1 §6.6.4, cosmological consequences in Ch 8, CMB observables in this chapter — is closed and not curve-fitted. L14 is the chapter's central qualitative claim.
 
 [FIGURE: Fig 5.9.9 — Reviewer's Ledger. The table above as a single rendered figure for the printed book.]
 
@@ -760,7 +760,7 @@ The problem set is graded computational → conceptual → challenge.
 
 **9.5.** The Skeptic claims that any cosmological framework that has the same Friedmann era structure as $\Lambda$CDM and the same recombination physics will produce the same CMB spectrum, so the framework's match to Planck "doesn't count." State precisely what is and is not true about this objection.
 
-*Discussion.* What is true: the *equations* of CMB physics — recombination, acoustic oscillation, photon diffusion, projection — depend on cosmology only through the era structure and the recombination redshift. Two frameworks with the same era structure and the same recombination physics give the same CMB. So the Skeptic is right that the framework's match to Planck does not, by itself, prefer the framework over $\Lambda$CDM at the CMB. What is *not* true is the implicit suggestion that this makes the framework's match trivial. The non-trivial claim of the framework is not that it matches the CMB but that *the same parameters that match the CMB are predicted from non-cosmological scales* (the Firmament radius, the nuclear scale, the Firmament tension; Vol 1 §6.7 / Ch 8 §8.6.4). The CMB match is a *consistency check* on this cross-scale prediction, not a fit.
+*Discussion.* What is true: the *equations* of CMB physics — recombination, acoustic oscillation, photon diffusion, projection — depend on cosmology only through the era structure and the recombination redshift. Two frameworks with the same era structure and the same recombination physics give the same CMB. So the Skeptic is right that the framework's match to Planck does not, by itself, prefer the framework over $\Lambda$CDM at the CMB. What is *not* true is the implicit suggestion that this makes the framework's match trivial. The non-trivial claim of the framework is not that it matches the CMB but that *the same parameters that match the CMB are predicted from non-cosmological scales* (the Firmament radius, the nuclear scale, the Firmament tension; Vol 1 §6.6.4 / Ch 8 §8.6.4). The CMB match is a *consistency check* on this cross-scale prediction, not a fit.
 
 **9.6.** Why is the second acoustic peak shorter than the first? Explain in your own words and identify the single cosmological parameter that controls the ratio.
 

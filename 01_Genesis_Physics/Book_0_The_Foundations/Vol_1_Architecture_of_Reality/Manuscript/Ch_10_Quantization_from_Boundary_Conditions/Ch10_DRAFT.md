@@ -734,7 +734,7 @@ The boundary-condition quantization framework of §10.2 extends directly to gaug
 - The fine-structure constant $\alpha$ from the same geometric parameters that gave us $\hbar$
 - The full set of gauge coupling constants from Kaluza-Klein reduction
 
-The pathway is: §10.2 (Kaluza-Klein quantization) → Vol 2, Ch 3 (gauge field modes) → Vol 2, Ch 5 (coupling constant derivation).
+The pathway is: §10.2 (Kaluza-Klein quantization) → Vol 2 Ch 10 (coupling constant derivation).
 
 **For Volume 4 (The Quantum World):**
 
@@ -746,7 +746,7 @@ This chapter provides the *foundation* — the derived $\hbar$, the Schrödinger
 - Renormalization from the recursion operator $\hat{P}_5$ (Chapter 9)
 - The complete Standard Model particle spectrum from the pattern algebra $\mathfrak{p}_7$
 
-The pathway is: §10.4 (Schrödinger) → §10.7 (second quantization) → Vol 4, Ch 1 (relativistic QFT) → Vol 4, Ch 5 (interactions).
+The pathway is: §10.4 (Schrödinger) → §10.7 (second quantization) → Vol 4 Ch 6 → Vol 4 Ch 7.
 
 **Connection to the Pattern Algebra:**
 

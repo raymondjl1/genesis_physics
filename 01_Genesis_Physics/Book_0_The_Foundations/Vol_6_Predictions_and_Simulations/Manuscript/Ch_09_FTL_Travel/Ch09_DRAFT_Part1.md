@@ -70,7 +70,7 @@ This framework is honest about the distinction between "fundamental law forbids 
 - Pretend that mechanism economics are solved. (They are not.)
 - Advocate for any particular mechanism as the "right" approach. (Different mechanisms serve different regimes.)
 - Resolve the question of how to navigate via bulk coordinates—a separate engineering problem discussed in Chapter 10.
-- Unpack the full quantum field theory of particles in 6D. (That requires Volume 7.)
+- Unpack the full quantum field theory of particles in 6D. (That requires Ch 14 (Open Problems).)
 
 The reader should finish this chapter with a clear map of what is forbidden, what is possible, and why physics textbooks have been wrong about this question for a century.
 
