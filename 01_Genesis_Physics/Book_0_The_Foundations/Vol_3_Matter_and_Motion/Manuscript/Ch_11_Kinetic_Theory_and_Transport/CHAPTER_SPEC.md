@@ -39,7 +39,7 @@
 | Firmament membrane modes and wave equation | Vol 1 Ch 5 |
 | Waters field equations: □₆Ψ_B + U'(Ψ_B) + G_int Ψ_A = 0; Madelung transform to fluid variables | Vol 1 Ch 6 |
 | Conservation laws (Noether's theorem) | Vol 1 Ch 7 |
-| Five Governing Principles (especially Degradation) | Vol 1 Ch 8 |
+| Five Principles (especially Degradation) | Vol 1 Ch 8 |
 | Quantization from boundary conditions | Vol 1 Ch 10 |
 | Basic thermodynamics; Boltzmann distribution; partition function | Vol 1 Ch 11 |
 | Newton's laws as theorems; F=ma derived | Vol 3 Ch 1 |

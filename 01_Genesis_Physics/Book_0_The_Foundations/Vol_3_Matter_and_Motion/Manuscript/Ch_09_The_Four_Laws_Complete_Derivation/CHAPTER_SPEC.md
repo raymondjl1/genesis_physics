@@ -39,7 +39,7 @@
 | Firmament mechanics and boundary conditions | Vol 1 Ch 5 |
 | Waters field equations and sustaining coupling | Vol 1 Ch 6 |
 | Conservation laws from Noether's theorem | Vol 1 Ch 7 |
-| Five Governing Principles (especially Degradation) | Vol 1 Ch 8 |
+| Five Principles (especially Degradation) | Vol 1 Ch 8 |
 | Quantization from boundary conditions; ℏ from topology | Vol 1 Ch 10 |
 | Basic thermodynamics: entropy, temperature, partition function, all four laws at introductory level | Vol 1 Ch 11 |
 | Four thermodynamic phases (Creation, Edenic, Fall, Redemption) | Vol 1 Ch 11 |

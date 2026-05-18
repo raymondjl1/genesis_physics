@@ -42,6 +42,21 @@ That zero in the FAIL column is not an accident, and it is not the result of hid
 
 [FIGURE: Fig 6.1.1 — Zone Architecture Prediction Pipeline: Axioms → Zone Geometry → KK Reduction → 4D Physics → Observable Predictions. A flowchart showing how the seven axioms produce the zone manifold, how KK reduction yields 4D fields, and how those fields generate the measurable predictions cataloged in this chapter.]
 
+### 1.1.1 Mapping prediction classes to the Five Principles
+
+Each prediction class in this chapter tests one or more of the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality; see `Quality_Control/Reference/Five_Principles.md`). The map below shows which principle each section's predictions stress most directly, so a falsification in any class targets a specific principle:
+
+| § | Prediction class | Principle(s) most tested |
+|---|---|---|
+| 1.2 | QED precision (g−2, Lamb shift, hyperfine) | **Symmetry** (U(1) gauge invariance), **Conservation** (Noether currents: charge, energy) |
+| 1.3 | Fine structure constant α | **Sustaining** (κ-stability of couplings), **Symmetry** (gauge structure) |
+| 1.4 | General Relativity classical tests | **Symmetry** (diffeomorphism invariance), **Conservation** (Bianchi → ∇·T = 0) |
+| 1.5 | Standard Model particle physics | **Symmetry** (SU(3)×SU(2)×U(1)), **Duality** (3 generations, particle/antiparticle) |
+| 1.6 | Cosmological parameters (Ω, H₀, CMB) | **Sustaining** (Λ stability), **Duality** (Waters Above/Below = dark energy/dark matter), **Degradation** (entropy production, arrow of time) |
+| 1.7 | Conservation laws, thermodynamics, EM, QM, chemistry | **Conservation** (every law), **Degradation** (Second Law, dS/dt > 0), **Symmetry** (Noether origin) |
+
+A failure in §1.2 or §1.5 would falsify the Symmetry Principle as instantiated in zone geometry; a failure in §1.6's dark-sector ratios would falsify Duality; a failure in §1.7's Second Law applicability would falsify Degradation's Phase-3 form. The Five Principles are not abstract — they are what each test in this chapter is actually testing.
+
 ---
 
 ## 1.2 QED Precision — The Crown Jewels

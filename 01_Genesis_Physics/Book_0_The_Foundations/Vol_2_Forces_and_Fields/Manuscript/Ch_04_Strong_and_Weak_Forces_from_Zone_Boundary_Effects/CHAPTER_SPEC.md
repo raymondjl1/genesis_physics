@@ -45,7 +45,7 @@
 | Boundary conditions at η = η_B and ξ = ξ_A | Vol 1, Ch 5 |
 | Waters field equations and equilibrium | Vol 1, Ch 6 |
 | Symmetry groups and Noether conservation laws | Vol 1, Ch 7 |
-| Five governing principles as mathematical constraints | Vol 1, Ch 8 |
+| Five Principles as mathematical constraints | Vol 1, Ch 8 |
 | Quantization from boundary conditions; KK spectrum | Vol 1, Ch 10 |
 | Forces as geometric consequences of 6D zone manifold | Vol 2, Ch 1 |
 | Four-force theorem: four independent geometric sectors | Vol 2, Ch 1 (Eq 2.1.8–2.1.11) |

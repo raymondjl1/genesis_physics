@@ -36,7 +36,7 @@
 | 6D metric with warp factors $A(\xi,\eta)$, $B(\xi,\eta)$ | Vol 1, Ch 4 (Eq. 1.4.2) |
 | Firmament as codimension-2 Firmament at $(\xi_0, \eta_0)$ | Vol 1, Ch 5 |
 | Conservation laws from zone manifold symmetries (Noether's theorem) | Vol 1, Ch 7 |
-| Five Governing Principles as constraints on the action | Vol 1, Ch 8 |
+| Five Principles as constraints on the action | Vol 1, Ch 8 |
 | Total zone action $S_\text{total}$ — seven sectors | Vol 2, Ch 5 (Eq. 2.5.1) |
 | Gravity from zone curvature: $G_4 = c^4/(8\pi\sigma L_\text{eff}^2)$ | Vol 2, Ch 2 (Eq. 2.2.29) |
 | 4D Einstein equations from 6D via Gauss-Codazzi projection | Vol 2, Ch 2 (Eq. 2.2.12) |

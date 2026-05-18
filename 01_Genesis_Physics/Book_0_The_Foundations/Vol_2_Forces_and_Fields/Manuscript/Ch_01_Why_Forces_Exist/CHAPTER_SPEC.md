@@ -22,7 +22,7 @@
 | Ch01-003 | Introduce the hierarchy problem and solve it in principle | V2-003 | NOT MET |
 | Ch01-004 | Connect the 6D action to observable 4D force laws via KK reduction | V2-004 | NOT MET |
 | Ch01-005 | Establish the Vol 2 roadmap: what will be derived, in what order | V2-004 | NOT MET |
-| Ch01-006 | Show that the five governing principles constrain forces uniquely | V2-004 | NOT MET |
+| Ch01-006 | Show that the Five Principles constrain forces uniquely | V2-004 | NOT MET |
 | Ch01-007 | Introduce falsification criteria for the geometric force framework | V2-005 | NOT MET |
 
 ---
@@ -35,7 +35,7 @@
 | 6D Embedding Space (warp-factored metric, explicit solutions) | Vol 1, Ch 4 |
 | Christoffel symbols, Riemann/Ricci tensors, Einstein equations | Vol 1, Ch 3 |
 | Fiber bundle structure, gauge transformations | Vol 1, Ch 3 §3.4 |
-| Five Governing Principles as mathematical constraints | Vol 1, Ch 8 |
+| Five Principles as mathematical constraints | Vol 1, Ch 8 |
 | Constrained action $S_{\text{GP}}$ and modified Euler-Lagrange equations | Vol 1, Ch 8 |
 | Symmetry group hierarchy: Poincaré × gauge × discrete | Vol 1, Ch 8 §8.3 |
 | Fine structure constant from zone geometry (preview) | Vol 1, Ch 4 §4.5 |
@@ -65,7 +65,7 @@
 | 2 | KK reduction overview | 6D metric with off-diagonal terms | 4D metric + gauge fields + scalars | (2.1.4)–(2.1.7) |
 | 3 | Why four sectors | Zone topology + 2 extra dimensions | Enumeration of geometric sectors → 4 forces | (2.1.8)–(2.1.11) |
 | 4 | Hierarchy argument (in principle) | Volume integrals over different geometric sectors | Coupling strength ratios from zone geometry | (2.1.12)–(2.1.15) |
-| 5 | Constraint-restricted Lagrangian | Five principles (1.8.38) applied to force sectors | Uniqueness of force structure | (2.1.16)–(2.1.18) |
+| 5 | Constraint-restricted Lagrangian | Five Principles (1.8.38) applied to force sectors | Uniqueness of force structure | (2.1.16)–(2.1.18) |
 
 ### Figures and Diagrams
 
@@ -120,7 +120,7 @@
 - **Exit condition:** Reader understands the hierarchy is geometric, not mysterious, and anticipates Ch 9.
 
 ### Section 6: The Five Principles Constrain Forces (§2.1.5)
-- **Topic sentence:** The five governing principles (Ch 8) constrain the force Lagrangian so tightly that the Standard Model gauge structure is nearly unique.
+- **Topic sentence:** The Five Principles (Ch 8) constrain the force Lagrangian so tightly that the Standard Model gauge structure is nearly unique.
 - **"Why" entry point:** Reader has the constrained action S_GP (1.8.38). Now we apply it to forces.
 - **Key content:** Symmetry principle → gauge group structure (1.8.17–1.8.19). Conservation → energy-momentum preservation in interactions. Duality → CPT invariance constrains matter content. Sustaining → open-system corrections. Degradation → irreversibility in force-mediated processes. Combined: the constraints leave almost no freedom in the Lagrangian.
 - **Exit condition:** Reader sees that the Standard Model is not arbitrary—it's the (nearly) unique solution to the five constraints on zone geometry.

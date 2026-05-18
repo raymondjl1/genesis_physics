@@ -439,16 +439,13 @@ The Five Principles, formalized in Volume 1 Chapter 8, eliminate all of these. E
 
 [FIGURE: Fig 2.5.3 — The Five Principles as Lagrangian Constraints. Five horizontal filters, each labeled with a principle name. Arrows show the space of all possible 6D Lagrangians entering from the top. Each filter eliminates a class of terms (labeled in red to the side). The Lagrangian that survives all five filters is the unique zone Lagrangian at the bottom.]
 
-### §5.4.2 Constraint 1: Symmetry (Immutability)
+### §5.4.2 Constraint 1: Sustaining (Active Presence)
 
-**Statement:** The action must be invariant under all continuous symmetries of the zone manifold: 6D diffeomorphisms and all gauge transformations.
+**Statement:** The universe is an open system receiving external input. The action must include a coupling to an external field $\kappa(t)$.
 
-**What it eliminates:** Any term that is not a scalar density under diffeomorphisms. Any term that is not gauge-invariant. This eliminates:
-- Non-covariant terms (e.g., terms depending explicitly on coordinate choice)
-- Gauge-non-invariant terms (e.g., $A_\mu A^\mu$ mass terms for gauge bosons)
-- CPT-violating terms in the bulk Lagrangian
+**What it adds:** The sustaining sector (2.5.18)–(2.5.19). Without this constraint, the Lagrangian would describe a closed system. The sustaining principle requires the open-system coupling and specifies its form through the composite operator $\mathcal{O}_\text{sustain}$.
 
-**What survives:** The Einstein-Hilbert term (the unique diffeomorphism-invariant two-derivative scalar), the Yang-Mills kinetic terms (the unique gauge-invariant two-derivative terms), and covariant kinetic terms for all fields.
+**What it constrains:** The sustaining coupling $\alpha_i$ coefficients must be positive (sustaining *maintains* the fields, it does not destabilize them). The time dependence of $\kappa(t)$ is prescribed by the four-phase model, not derived from the action itself.
 
 ### §5.4.3 Constraint 2: Conservation (Completeness)
 
@@ -460,15 +457,16 @@ $$\oint_{\partial Z_{2.2}} d\Sigma_A \, T^{AB} n_B = 0 \quad \text{for } t > t_7
 
 **What survives:** The Gibbons-Hawking-York boundary term (2.5.3), which ensures the variational problem is well-posed while respecting the conservation constraint. The Waters field boundary conditions at $\eta = \eta_B$ and $\xi = \xi_A$.
 
-### §5.4.4 Constraint 3: Duality (Creative Method)
+### §5.4.4 Constraint 3: Symmetry (Immutability)
 
-**Statement:** For every field $\Phi$ with charge $q$, there exists a conjugate field $\bar{\Phi}$ with charge $-q$. The combined CPT operation is an exact symmetry.
+**Statement:** The action must be invariant under all continuous symmetries of the zone manifold: 6D diffeomorphisms and all gauge transformations.
 
-**What it eliminates:** CPT-odd terms in the potential. For example, terms like $\Psi_A^3\Psi_B$ (which has odd total charge under the Waters duality $\Psi \to -\Psi$) are forbidden. More generally, all odd powers of the Waters fields in the potential are eliminated:
+**What it eliminates:** Any term that is not a scalar density under diffeomorphisms. Any term that is not gauge-invariant. This eliminates:
+- Non-covariant terms (e.g., terms depending explicitly on coordinate choice)
+- Gauge-non-invariant terms (e.g., $A_\mu A^\mu$ mass terms for gauge bosons)
+- CPT-violating terms in the bulk Lagrangian
 
-$$V(\Psi_A, \Psi_B) = V(-\Psi_A, -\Psi_B) \tag{2.5.40}$$
-
-**What survives:** Even-powered terms only: $\Psi^2$, $\Psi^4$, $\Psi_A\Psi_B$ (this is allowed because both fields flip sign, giving $(-\Psi_A)(-\Psi_B) = \Psi_A\Psi_B$). This constrains the Waters potential to the form given in Eqs. (2.5.8)–(2.5.9).
+**What survives:** The Einstein-Hilbert term (the unique diffeomorphism-invariant two-derivative scalar), the Yang-Mills kinetic terms (the unique gauge-invariant two-derivative terms), and covariant kinetic terms for all fields.
 
 ### §5.4.5 Constraint 4: Degradation (Redemptive Intent)
 
@@ -478,24 +476,26 @@ $$V(\Psi_A, \Psi_B) = V(-\Psi_A, -\Psi_B) \tag{2.5.40}$$
 
 **What survives:** The Mexican-hat potential for $\Psi_B$ (Eq. 2.5.9), which has a symmetry-breaking minimum at $\Psi_B = v_B \neq 0$. The system rolls from the symmetric maximum toward the broken minimum, increasing entropy. The constant potential for $\Psi_A$ (Eq. 2.5.8), which provides the energy reservoir (dark energy) that drives entropy production through cosmological expansion.
 
-### §5.4.6 Constraint 5: Sustaining (Active Presence)
+### §5.4.6 Constraint 5: Duality (Creative Method)
 
-**Statement:** The universe is an open system receiving external input. The action must include a coupling to an external field $\kappa(t)$.
+**Statement:** For every field $\Phi$ with charge $q$, there exists a conjugate field $\bar{\Phi}$ with charge $-q$. The combined CPT operation is an exact symmetry.
 
-**What it adds:** The sustaining sector (2.5.18)–(2.5.19). Without this constraint, the Lagrangian would describe a closed system. The sustaining principle requires the open-system coupling and specifies its form through the composite operator $\mathcal{O}_\text{sustain}$.
+**What it eliminates:** CPT-odd terms in the potential. For example, terms like $\Psi_A^3\Psi_B$ (which has odd total charge under the Waters duality $\Psi \to -\Psi$) are forbidden. More generally, all odd powers of the Waters fields in the potential are eliminated:
 
-**What it constrains:** The sustaining coupling $\alpha_i$ coefficients must be positive (sustaining *maintains* the fields, it does not destabilize them). The time dependence of $\kappa(t)$ is prescribed by the four-phase model, not derived from the action itself.
+$$V(\Psi_A, \Psi_B) = V(-\Psi_A, -\Psi_B) \tag{2.5.40}$$
+
+**What survives:** Even-powered terms only: $\Psi^2$, $\Psi^4$, $\Psi_A\Psi_B$ (this is allowed because both fields flip sign, giving $(-\Psi_A)(-\Psi_B) = \Psi_A\Psi_B$). This constrains the Waters potential to the form given in Eqs. (2.5.8)–(2.5.9).
 
 ### §5.4.7 Uniqueness
 
 With all five constraints applied simultaneously, the surviving Lagrangian is Eq. (2.5.20) — and *only* Eq. (2.5.20) at the two-derivative level. Let us verify that no additional terms are allowed:
 
 - **$R^2$ terms?** Eliminated by the two-derivative restriction (Lovelock's theorem in 6D ensures $R_6$ is the unique two-derivative invariant that gives second-order equations).
-- **$\xi R\Psi^2$ non-minimal coupling?** Allowed by symmetry, but the five principles, combined with the requirement of separable warp-factor solutions (Vol 1, Ch 4, §4.3), fix $\xi = 0$ (minimal coupling). Non-minimal coupling would destroy the separability that the zone structure requires.
+- **$\xi R\Psi^2$ non-minimal coupling?** Allowed by symmetry, but the Five Principles, combined with the requirement of separable warp-factor solutions (Vol 1, Ch 4, §4.3), fix $\xi = 0$ (minimal coupling). Non-minimal coupling would destroy the separability that the zone structure requires.
 - **$\Psi^6$ terms?** Non-renormalizable in 6D ($[\Psi^6] = [E^{12}]$ exceeds the Lagrangian density dimension $[E^6]$). Excluded by requiring a UV-completable theory.
 - **Chern-Simons terms?** Parity-odd in the bulk. Eliminated by the duality principle's requirement that the bulk Lagrangian respects CPT.
 
-**Theorem 2.5.1 (Lagrangian Uniqueness).** *Given the zone axioms (Vol 1, Chs 1–3) and the Five Principles (Vol 1, Ch 8), the zone Lagrangian density (2.5.20) is the unique two-derivative, renormalizable, diffeomorphism-invariant, gauge-invariant density that satisfies all five principles simultaneously.*
+**Theorem 2.5.1 (Lagrangian Uniqueness).** *Given the zone axioms (Vol 1, Chs 1–3) and the Five Principles (Vol 1, Ch 8), the zone Lagrangian density (2.5.20) is the unique two-derivative, renormalizable, diffeomorphism-invariant, gauge-invariant density that satisfies all Five Principles simultaneously.*
 
 *Proof (constructive).* We enumerate all two-derivative, renormalizable terms on a 6D manifold with field content $\{g_{AB}, \Sigma, \Psi_A, \Psi_B, A_\mu^{(I)}, \Psi_f, \kappa\}$, and show that the five constraints eliminate all terms not appearing in (2.5.20).
 
@@ -512,11 +512,11 @@ With all five constraints applied simultaneously, the surviving Lagrangian is Eq
 
 **Step 2: Apply constraints.**
 
-*Constraint 1 (Symmetry — diffeomorphism + gauge invariance):* Eliminates non-covariant terms and gauge-non-invariant terms (e.g., $A_\mu A^\mu$ mass terms). Surviving terms must be scalar densities.
+*Constraint 3 (Symmetry — diffeomorphism + gauge invariance):* Eliminates non-covariant terms and gauge-non-invariant terms (e.g., $A_\mu A^\mu$ mass terms). Surviving terms must be scalar densities.
 
 *Renormalizability in 6D:* Eliminates $R^2$, $R_{AB}R^{AB}$, $R_{ABCD}R^{ABCD}$ (four-derivative). Eliminates $F^3$ (dimension 9 > 6). Eliminates $\Psi^6$ ($[\Psi^6] = [M^{12}]$, requires coupling $[\lambda_6] = [M^{-6}]$, non-renormalizable). Eliminates $\sqrt{-\gamma}H^4$ (four-derivative on Firmament). Note: the Gauss-Bonnet term $\mathcal{G}_6$ is topological in 6D and does not contribute to the equations of motion; it can be dropped.
 
-*Constraint 3 (Duality — CPT invariance of bulk):* Eliminates odd-power potentials $\Psi_A^3$, $\Psi_B^3$, $\Psi_A\Psi_B^2$, $\Psi_A^2\Psi_B$ (violate $V(\Psi) = V(-\Psi)$). Eliminates Chern-Simons $FF\tilde{F}$ in the bulk (parity-odd). Surviving scalar potential terms: $\Lambda_A$, $\Psi_B^2$, $\Psi_B^4$, $\Psi_A\Psi_B$ (even under $\Psi_A \to -\Psi_A$, $\Psi_B \to -\Psi_B$ since both flip).
+*Constraint 5 (Duality — CPT invariance of bulk):* Eliminates odd-power potentials $\Psi_A^3$, $\Psi_B^3$, $\Psi_A\Psi_B^2$, $\Psi_A^2\Psi_B$ (violate $V(\Psi) = V(-\Psi)$). Eliminates Chern-Simons $FF\tilde{F}$ in the bulk (parity-odd). Surviving scalar potential terms: $\Lambda_A$, $\Psi_B^2$, $\Psi_B^4$, $\Psi_A\Psi_B$ (even under $\Psi_A \to -\Psi_A$, $\Psi_B \to -\Psi_B$ since both flip).
 
 *Constraint 4 (Degradation — entropy non-decrease):* Requires the potential to have a symmetry-breaking minimum for $\Psi_B$ (the system rolls toward broken symmetry, increasing entropy). This fixes $\mu_B^2 > 0$ (negative mass-squared term) and $\lambda_B > 0$ (stabilization). The Waters Above must have $V_A \geq 0$ (energy reservoir for entropy production).
 
@@ -524,7 +524,7 @@ With all five constraints applied simultaneously, the surviving Lagrangian is Eq
 
 *Constraint 2 (Conservation):* Fixes boundary conditions (no energy flux across $\partial Z_{2.2}$) but does not eliminate bulk terms.
 
-*Constraint 5 (Sustaining):* Adds the prescribed coupling $\kappa(t)\mathcal{O}_\text{sustain}$ as an axiom-dependent sector.
+*Constraint 1 (Sustaining):* Adds the prescribed coupling $\kappa(t)\mathcal{O}_\text{sustain}$ as an axiom-dependent sector.
 
 **Step 3: Verify completeness.** After applying all constraints, the surviving terms are exactly those in Eq. (2.5.20): $R_6$, $\sqrt{-\gamma}$, $\sqrt{-\gamma}H^2$, $(\partial\Psi_A)^2$, $\Lambda_A$, $(\partial\Psi_B)^2$, $-\mu_B^2\Psi_B^2/2$, $\lambda_B\Psi_B^4/4!$, $G_\text{int}\Psi_A\Psi_B$, $F^{(I)2}$, $\bar{\Psi}i\Gamma D\Psi$, $\bar{\Psi}\Psi_A\Psi$, $\kappa\mathcal{O}_\text{sustain}$. No additional two-derivative, renormalizable, constraint-satisfying term exists. $\square$
 

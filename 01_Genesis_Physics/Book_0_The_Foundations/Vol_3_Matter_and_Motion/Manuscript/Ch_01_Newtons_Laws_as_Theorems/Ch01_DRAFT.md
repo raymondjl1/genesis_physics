@@ -50,7 +50,7 @@ These are not trivial assumptions. They're the bedrock of the zone framework. Bu
 
 - *Box 1 (blue): Zone Manifold axioms → 6D metric with warp factors (Vol 1 Ch 3)*
 - *Box 2 (blue): Noether's theorem → covariant conservation laws (Vol 1 Ch 7)*
-- *Box 3 (blue): Five Governing Principles → constrained action (Vol 1 Ch 8)*
+- *Box 3 (blue): Five Principles → constrained action (Vol 1 Ch 8)*
 - *Arrow → Box 4 (orange): Gravity from curvature, KK reduction, Newton's force law (Vol 2 Ch 2)*
 - *Arrow → Box 5 (orange): Gauge fields, matter coupling (Vol 2 Ch 5)*
 - *Arrow → Box 6 (green): Test particle action on Firmament*
@@ -372,7 +372,7 @@ This is the right question to ask. Let me be completely honest.
 
 **Where the real derivation comes:** The *value* of mass—why an electron has mass $m_e = 9.1 \times 10^{-31}$ kg and a proton has $m_p = 1.67 \times 10^{-27}$ kg—is not explained in this chapter. That explanation comes in **Chapter 7** (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the Firmament membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
 
-**What about uniqueness?** The form of the test particle action (Eq. 3.1.7), $S = -m \int d\tau + \int f_\mu dx^\mu + \ldots$, is not plucked from thin air. By the **Lovelock-type uniqueness arguments** (Vol 1 Ch 8, Five Governing Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like $m$ and $q$). So while we are *postulating* that the particle action has this form, we are justified in doing so by:
+**What about uniqueness?** The form of the test particle action (Eq. 3.1.7), $S = -m \int d\tau + \int f_\mu dx^\mu + \ldots$, is not plucked from thin air. By the **Lovelock-type uniqueness arguments** (Vol 1 Ch 8, Five Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like $m$ and $q$). So while we are *postulating* that the particle action has this form, we are justified in doing so by:
 
 1. **Symmetry:** It's the only form consistent with the zone framework's symmetries.
 2. **Locality:** It depends only on the particle's worldline and the metric at that worldline, not on non-local information.
@@ -724,13 +724,13 @@ All of these were derived, not postulated. The derivations trace back to:
 
 1. **The Test Particle Action Form (Eq. 3.1.7):** We assumed that a test particle couples to the zone manifold via the action
    $$S_{\text{particle}} = -m \int d\tau + \int f_\mu dx^\mu + \ldots$$
-   This is a postulate. However, it is justified by **Lovelock-type uniqueness arguments**: this is the unique action that respects diffeomorphism invariance, reparametrization invariance, and locality (Vol 1 Ch 8, Five Governing Principles). Any other form would violate these fundamental symmetries of the zone framework.
+   This is a postulate. However, it is justified by **Lovelock-type uniqueness arguments**: this is the unique action that respects diffeomorphism invariance, reparametrization invariance, and locality (Vol 1 Ch 8, Five Principles). Any other form would violate these fundamental symmetries of the zone framework.
 
 2. **The Value of Mass ($m$ itself):** The coupling constant $m$ is an input at this stage. We do not derive *why* an electron has the mass it does, or *why* different particles have different masses. This derivation comes in Chapter 7 (Origin of Mass), where we show that mass arises from standing wave resonances on the Firmament and that the specific masses of elementary particles follow from the Firmament membrane boundary conditions.
 
 3. **The Zone Manifold Structure:** We assumed that reality is a 6D pseudo-Riemannian manifold with the structure described in Vol 1 Ch 3. This is a postulate.
 
-4. **The Five Governing Principles:** We assumed five constraints on the zone action (Vol 1 Ch 8). These are postulates that ensure uniqueness of the action.
+4. **The Five Principles:** We assumed five constraints on the zone action (Vol 1 Ch 8). These are postulates that ensure uniqueness of the action.
 
 5. **The Action Principle:** We assumed that the true dynamics extremize the action. This is a postulate, but it's the most successful postulate in all of physics.
 
@@ -1152,7 +1152,7 @@ The student now understands Newton's laws not as mysterious axioms to memorize, 
 - **Vol 1 Ch 3:** Zone manifold geometry and metric structure.
 - **Vol 1 Ch 5:** The Firmament as a Firmament.
 - **Vol 1 Ch 7:** Noether's theorem and stress-energy conservation.
-- **Vol 1 Ch 8:** The action principle and Five Governing Principles.
+- **Vol 1 Ch 8:** The action principle and Five Principles.
 - **Vol 2 Ch 2:** Gravity from zone curvature; Newton's force law and the equivalence principle.
 - **Vol 2 Ch 3:** Electromagnetic forces.
 - **Vol 2 Ch 5:** The zone Lagrangian and matter coupling.

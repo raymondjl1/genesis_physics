@@ -268,7 +268,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - baryon / lepton number — **1.7**, 4.10; Zone_Architecture.md Table 8
   - zone number Z (novel) — **6.AppA (P-081)**, 1.7, 6.3
   - Noether theorem — **1.7**, 3.2; see also Noether
-- **conservation principle (governing)** — **1.8** (Five Governing Principles), Five_Principles.md
+- **conservation principle (governing)** — **1.8** (Five Principles), Five_Principles.md
 - **constants (physical)** — **6.AppE.§E.8**; see Appendix E entries for individual constants
 - **constructor theory (Deutsch-Marletto)** — 6.15, Bibliography Bib.4
 - **constructor theory of information** — 6.15
@@ -515,7 +515,7 @@ This is the navigation substrate for the entire *Foundations* series. A reader l
   - relation to α_em, α_G — 5.13, 2.9, 6.AppA (P-005); see also hierarchy problem
   - as cross-volume anchor (α appears in Vol 2 EM coupling, Vol 4 QED, Vol 5 derivation) — 2.3, 4.7, 5.13
 - **fine-tuning** — 5.13.§5, Glossary.md; see also anthropic principle
-- **Five Governing Principles** — **1.8**, Five_Principles.md
+- **Five Principles** — **1.8**, Five_Principles.md
 - **FitzGerald contraction** — 5.1 (historical SR context)
 - **FLRW / FRW metric** — **5.8**
 - **flux** — 2.3 (EM), 5.2 (gravitational context)
@@ -1576,7 +1576,7 @@ The Master Index does not replicate the full P-XXX catalog (which lives in Appen
 For a reader entering the *Foundations* series for the first time, the Master Index functions as a compass rather than a destination. A suggested entry pattern:
 
 - Readers curious about the zone architecture itself should start with the entries for **zone architecture**, **Firmament**, **Waters Above**, **Waters Below**, **Godhead**, and **Heaven Prime**, then follow the cross-references into Appendix E (notation) and the `Zone_Architecture.md` reference.
-- Readers drawn by the physics-from-Genesis claim should begin with the entries for **biblical references**, **axioms (Genesis Physics)**, **Five Governing Principles**, and **Four-Epochs timeline**.
+- Readers drawn by the physics-from-Genesis claim should begin with the entries for **biblical references**, **axioms (Genesis Physics)**, **Five Principles**, and **Four-Epochs timeline**.
 - Readers who want to see what the framework predicts — and can be falsified by — should enter through **P-XXX prediction identifiers**, **falsification**, and **prediction (testable, as framework contract)**, which all lead to Appendix A.
 - Readers interested in the technology claims should start with **T-XXX technology identifiers**, **NASA TRL scale**, and the individual **T-FTL-**, **T-NRG-**, **T-COM-**, **T-SNS-** entries, which all resolve to Appendix F.
 - Readers who want to verify that the math adds up should follow **simulations**, **reproducibility package**, **Test suite**, **derivation-chain audit**, and **equation registry** — these entries open into Appendices B and C (problem sets / solutions).

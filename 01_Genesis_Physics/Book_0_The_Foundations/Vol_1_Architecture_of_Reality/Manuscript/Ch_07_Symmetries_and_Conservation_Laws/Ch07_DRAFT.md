@@ -301,7 +301,7 @@ These 10 charges close under the Poincaré algebra, exactly as identified in Cha
 
 Because God creates through complementary pairs — the Duality Principle (Principle 5).[^ax3-charge] "God created mankind in his own image... male and female he created them" (Genesis 1:27). This pairing permeates all creation: Waters Above and Below, matter and antimatter, positive and negative charge.
 
-[^ax3-charge]: Axiom 3 (Chapter 1, §1.3) — applied here to the case of divine Duality → U(1) gauge symmetry of the Waters fields → conservation of electric charge. The Duality Principle is the fifth of the Five Governing Principles (Chapter 8); its mathematical expression as a gauge symmetry is derived in full in §7.5.2.
+[^ax3-charge]: Axiom 3 (Chapter 1, §1.3) — applied here to the case of divine Duality → U(1) gauge symmetry of the Waters fields → conservation of electric charge. The Duality Principle is the fifth of the Five Principles (Chapter 8); its mathematical expression as a gauge symmetry is derived in full in §7.5.2.
 
 In the mathematical framework, duality manifests as a *gauge symmetry* of the Waters fields. Consider the global phase transformation:
 
@@ -566,7 +566,7 @@ These experimental results are not inputs to our theory. They are *predictions*.
 
 ### 7.7.5 Forward Look: Chapter 8
 
-This chapter established WHAT is conserved and WHY. Chapter 8 will take the complementary step: expressing the Five Governing Principles themselves as mathematical constraints on the action. Where Chapter 7 derived conservation laws *from* the action's symmetries, Chapter 8 will show how the Five Principles *restrict* which actions are physically allowed. The two chapters together form a complete system: Chapter 7 tells you what any valid theory must conserve; Chapter 8 tells you what any valid theory must satisfy.
+This chapter established WHAT is conserved and WHY. Chapter 8 will take the complementary step: expressing the Five Principles themselves as mathematical constraints on the action. Where Chapter 7 derived conservation laws *from* the action's symmetries, Chapter 8 will show how the Five Principles *restrict* which actions are physically allowed. The two chapters together form a complete system: Chapter 7 tells you what any valid theory must conserve; Chapter 8 tells you what any valid theory must satisfy.
 
 [FIGURE: Fig 1.7.3 — Conservation Law Family Tree. Root: Symmetry Principle (Axiom 3). First branch: Continuous Symmetries → Noether's First Theorem → Energy (Eternality), Momentum (Omnipresence), Angular Momentum (Impartiality), Charge (Duality). Second branch: Local Gauge Symmetries → Noether's Second Theorem → Bianchi Identities → Covariant Conservation. Third branch: Discrete Symmetries → CPT Theorem → Particle-Antiparticle Equality. Fourth branch (dashed): Approximate Symmetries → B, L conservation (with anomaly corrections noted).]
 
@@ -666,4 +666,4 @@ These conservation laws are the constraints that Volume 2 must respect when deri
 
 ---
 
-*Next: Chapter 8 — The Five Governing Principles as Constraints, where we express the full theological-physical framework as variational constraints on the action.*
+*Next: Chapter 8 — The Five Principles as Constraints, where we express the full theological-physical framework as variational constraints on the action.*

@@ -36,7 +36,7 @@
 |---------|---------------|
 | Zone manifold $\mathcal{M}_Z$ — 6D pseudo-Riemannian geometry | Vol 1, Ch 3 |
 | Principle of stationary action, constrained variational principle | Vol 1, Ch 8 (Eqs. 1.8.1–1.8.4) |
-| Five Governing Principles as constraint functionals on the action | Vol 1, Ch 8 (Table 8.1) |
+| Five Principles as constraint functionals on the action | Vol 1, Ch 8 (Table 8.1) |
 | Lagrange multiplier method for constrained optimization | Vol 1, Ch 8 §8.3.3 (Eq. 1.8.3) |
 | Hamiltonian formulation of Degradation constraint | Vol 1, Ch 8 §8.7.5 (Eqs. 1.8.27–1.8.29) |
 | Conservation laws from Noether's theorem | Vol 1, Ch 7 |

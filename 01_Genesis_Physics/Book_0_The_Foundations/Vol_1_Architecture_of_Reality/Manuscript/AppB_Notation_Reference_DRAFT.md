@@ -516,7 +516,7 @@ To locate equations by approximate topic, here are the equation counts per chapt
 | Ch 5 | The Firmament Manifold | 50 | (1.5.1)–(1.5.50) |
 | Ch 6 | Waters Field Equations | 45 | (1.6.1)–(1.6.45) |
 | Ch 7 | Symmetries and Conservation Laws | 40 | (1.7.1)–(1.7.40) |
-| Ch 8 | Five Governing Principles | 35 | (1.8.1)–(1.8.35) |
+| Ch 8 | Five Principles | 35 | (1.8.1)–(1.8.35) |
 | Ch 9 | Pattern Operators and Seven Types | 50 | (1.9.1)–(1.9.50) |
 | Ch 10 | Quantization from Boundary Conditions | 55 | (1.10.1)–(1.10.55) |
 | Ch 11 | Thermodynamics from Zone Separation | 60 | (1.11.1)–(1.11.60) |
@@ -759,7 +759,7 @@ New symbols introduced in downstream volumes are added to a supplementary versio
 
 - **v1.0 (2026-04-06):** Initial complete notation reference for Vol 1 Architecture of Reality. All 11 chapters reference-complete.
 - **v1.1 (2026-05-11):** P0 fix — §B.5.4 warp factor definition corrected. A(ξ,η) was incorrectly stated as a(t)·f(ξ,η); corrected to define A(ξ,η) as the warp factor appearing in the 6D metric ds² = A²(ξ,η)η_μν dx^μ dx^ν + …, explicitly distinguished from the FRW cosmological scale factor a(t). Clarifying note added to §B.5.4. a(t) entry expanded with explicit reference to the FRW metric. B.10.1 alphabetical table entry for A updated. (Resolves QUALITY_GATE P1-001.)
-- **v1.2 (2026-05-11):** Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Governing Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
+- **v1.2 (2026-05-11):** Manuscript-error fixes. (1) §B.9.3 chapter title table for Ch 6–11 corrected to match actual Vol 1 chapter titles: Ch 6 = Waters Field Equations, Ch 7 = Symmetries and Conservation Laws, Ch 8 = Five Principles, Ch 9 = Pattern Operators and Seven Types, Ch 10 = Quantization from Boundary Conditions, Ch 11 = Thermodynamics from Zone Separation. Prior titles (Curvature and Dynamics, Firmament Mechanics, etc.) were stale draft names that did not match the manuscript. (2) §B.4.3 phase numeral convention corrected: rule changed from "Roman or Arabic" to "always Arabic numerals," consistent with Ch 1 §1.9 which explicitly states Roman numerals are never used for phases.
 
 **Future Maintenance:**
 

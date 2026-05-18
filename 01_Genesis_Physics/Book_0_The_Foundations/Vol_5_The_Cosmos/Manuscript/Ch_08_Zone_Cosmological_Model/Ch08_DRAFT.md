@@ -102,6 +102,8 @@ and the barotropic equations of state $P = w \rho c^2$. Vol 3 Ch 8 treated phase
 
 The chapter now has every piece it needs. We turn to the geometry.
 
+> **Principle pointer.** All cosmological inputs above — sustaining mode (§8.1.4), conservation via the Bianchi identity (§8.1.5), the FLRW symmetry that will emerge in §8.2, the entropy structure of phase transitions (§8.1.7), and the Waters Above/Below duality (§8.1.3) — are concrete expressions, in the canonical order Sustaining → Conservation → Symmetry → Degradation → Duality, of the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality); see `Quality_Control/Reference/Five_Principles.md` for the canonical reference.
+
 ---
 
 ## §8.2 Cosmological Symmetry on the Brane: From Zone Symmetry to FLRW

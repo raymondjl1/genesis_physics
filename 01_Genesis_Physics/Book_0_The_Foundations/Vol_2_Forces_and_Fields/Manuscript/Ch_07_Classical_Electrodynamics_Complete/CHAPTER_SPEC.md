@@ -40,7 +40,7 @@
 | Speed of light c² = σ/μ (Firmament membrane wave speed) | Vol 1, Ch 5 (Eq. 1.5.36) |
 | Waters field equations, scalar potentials | Vol 1, Ch 6 |
 | Noether's theorem, conservation laws, U(1) charge conservation | Vol 1, Ch 7 |
-| Five Governing Principles as constraints | Vol 1, Ch 8 |
+| Five Principles as constraints | Vol 1, Ch 8 |
 | All four Maxwell equations derived from 6D KK reduction | Vol 2, Ch 3 (Eqs. 2.3.27–2.3.42) |
 | Gauge invariance as extra-dimensional coordinate freedom | Vol 2, Ch 3 (Eq. 2.3.9) |
 | ε₀, μ₀, c, α derived from zone parameters | Vol 2, Ch 3 (Eqs. 2.3.29–2.3.82) |

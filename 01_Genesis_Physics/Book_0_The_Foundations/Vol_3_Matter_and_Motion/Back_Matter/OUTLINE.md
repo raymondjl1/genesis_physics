@@ -10,14 +10,14 @@
 
 - **A.1 How to Use This Appendix** — explain the `(1.Ch.Eq)` / `(2.Ch.Eq)` citation convention; note that every entry in this appendix is cited somewhere in Vol 3; point to Vol 1 Appendix B for notation.
 - **A.2 Volume 1: Architecture of Reality — Results Used in Vol 3**
-  - A.2.1 From Ch 1 (Axioms and Definitions) — open system axiom; five principles identified
+  - A.2.1 From Ch 1 (Axioms and Definitions) — open system axiom; Five Principles identified
   - A.2.2 From Ch 2 (Mathematical Preliminaries) — only what Vol 3 directly cites
   - A.2.3 From Ch 3 (Zone Manifold) — metric, coordinates, dimensionality
   - A.2.4 From Ch 4 (6D Embedding Space) — embedding structure
   - A.2.5 From Ch 5 (Firmament Manifold) — wave equation (1.5.51), mode expansion
   - A.2.6 From Ch 6 (Waters Field Equations) — (1.6.15) Waters Below eqn, (1.6.19)–(1.6.21) Madelung forms, stress-energy
   - A.2.7 From Ch 7 (Symmetries and Conservation Laws) — (1.7.17) stress-energy conservation, (1.7.30) momentum, (1.7.31) Killing vectors, (1.7.33) angular momentum
-  - A.2.8 From Ch 8 (Five Governing Principles) — (1.8.3) total action, variational principle
+  - A.2.8 From Ch 8 (Five Principles) — (1.8.3) total action, variational principle
   - A.2.9 From Ch 9 (Pattern Operators) — seven pattern types (used briefly in Ch 6)
   - A.2.10 From Ch 10 (Quantization from BCs) — discrete spectrum theorem
   - A.2.11 From Ch 11 (Thermodynamics) — (1.11.1) 6D action for thermo, (1.11.2) multiplicity, (1.11.10) S = k_B ln Ω, (1.11.14) zero-point + thermal, (1.11.18)/(1.11.19) dU = δQ − δW (+ δE_κ), (1.11.20) source J, (1.11.25) partition function Z(T), (1.11.37) Boltzmann distribution, (1.11.46) dS/dt = L·Δκ, (1.11.49) Third Law S(T)→0, (1.11.54)–(1.11.57) Debye model

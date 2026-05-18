@@ -91,6 +91,8 @@ Dimensional cross-check: $[\psi_{n_\xi}^{(\mathrm{mem})}] = L^{-1/2}$ (so that $
 
 The triple $(n_\xi, n_w, \text{4D envelope})$ is what we will mean, for the rest of this chapter, by "a particle." The next step is to show that the topological label $n_w$ is forced on us by the vacuum structure of the Firmament, not optional.
 
+**A note on principle.** The bound-state count $n_\xi = 1, 2, 3$ that will yield three generations of matter is not a numerological accident. It is the imprint of **Principle 5 (Duality)** — the fifth of the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality; see `Quality_Control/Reference/Five_Principles.md`) — on the matter spectrum. Duality is the creative method by which God multiplies pattern through complementary pairing (Gen 1:27); in the Firmament mode picture, each bound $\xi$-state is paired with its conjugate winding $n_w \leftrightarrow -n_w$, generating the particle/antiparticle duality at every generation. The discreteness of the spectrum — that there are *finitely many* generations rather than a continuum — is what Duality requires: complementary pairs, not a featureless sea. We will return to this anchoring after the generation count is fixed in §10.3.
+
 ---
 
 ## 10.2 Vortex solutions and topological protection [RIGOROUS]

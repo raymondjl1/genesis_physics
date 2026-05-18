@@ -35,7 +35,7 @@
 | Zone manifold geometry and coordinates | Vol 1 Ch 3 |
 | Waters field equations, reservoir structure (E_A, E_B, E_F) | Vol 1 Ch 6 |
 | Noether's theorem, conservation laws, symmetry principles | Vol 1 Ch 7 |
-| Five Governing Principles (esp. Degradation, Sustaining) | Vol 1 Ch 8 |
+| Five Principles (esp. Degradation, Sustaining) | Vol 1 Ch 8 |
 | Quantization from boundary conditions on bounded domains | Vol 1 Ch 10 |
 | Basic thermodynamic laws, partition function, κ-mechanism, Boltzmann distribution | Vol 1 Ch 11 |
 | Hamiltonian/Lagrangian mechanics, phase space, Liouville theorem | Vol 3 Ch 2 |

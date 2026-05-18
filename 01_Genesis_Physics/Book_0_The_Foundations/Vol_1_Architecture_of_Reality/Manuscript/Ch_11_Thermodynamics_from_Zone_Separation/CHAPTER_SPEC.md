@@ -40,7 +40,7 @@
 | Firmament as dynamical membrane with vibration modes, c² = σ/μ | Vol 1, Ch 5 |
 | Waters field equations, density profiles, replenishment mechanism | Vol 1, Ch 6 |
 | Conservation laws from Noether's theorem (especially energy conservation) | Vol 1, Ch 7 |
-| Five Governing Principles as constraints (especially Degradation Principle) | Vol 1, Ch 8 |
+| Five Principles as constraints (especially Degradation Principle) | Vol 1, Ch 8 |
 | Pattern operators on the zone manifold | Vol 1, Ch 9 |
 | Quantization from boundary conditions, ℏ derivation, Schrödinger equation | Vol 1, Ch 10 |
 

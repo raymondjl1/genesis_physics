@@ -827,7 +827,7 @@ With this chapter, Volume 1 is complete. In eleven chapters and three parts, we 
 - The Firmament as a dynamical membrane (Chapter 5)
 - The Waters field equations (Chapter 6)
 - Conservation laws from symmetries (Chapter 7)
-- The Five Governing Principles as constraints (Chapter 8)
+- The Five Principles as constraints (Chapter 8)
 - Pattern operators and the seven types (Chapter 9)
 - Quantization from boundary conditions (Chapter 10)
 - Thermodynamics from zone separation (this chapter)

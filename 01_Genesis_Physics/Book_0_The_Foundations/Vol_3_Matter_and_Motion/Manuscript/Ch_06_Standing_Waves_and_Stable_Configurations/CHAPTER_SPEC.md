@@ -40,7 +40,7 @@
 | Firmament membrane vibration mode families (Type I–IV) | Vol 1 Ch 5 (§5.5.4) |
 | Waters field equations and stabilization | Vol 1 Ch 6 |
 | Conservation laws from Noether's theorem | Vol 1 Ch 7 |
-| Five Governing Principles | Vol 1 Ch 8 |
+| Five Principles | Vol 1 Ch 8 |
 | Seven pattern operators P̂₁–P̂₇ | Vol 1 Ch 9 |
 | Gravity from zone curvature | Vol 2 Ch 2 |
 | Gauge theory and matter coupling | Vol 2 Ch 5–6 |

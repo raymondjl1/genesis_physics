@@ -337,6 +337,10 @@ I owe the reader a sanity check on the rigor label of (4.11.24) and (4.11.25). T
 
 [FIGURE: Fig 4.11.4 — The $(W^3, B) \to (Z, \gamma)$ rotation. A 2D coordinate plot with axes labeled $W^3$ and $B$. Two orthogonal lines through the origin labeled $Z$ (the eigenvector with eigenvalue $M_Z^2$) and $\gamma$ (the eigenvector with eigenvalue 0). The angle between the $W^3$ axis and the $Z$ direction is marked as $\theta_W$. Small annotation: "$Q\langle H\rangle = 0$ is why $\gamma$ stays massless."]
 
+### 11.5.2  Anchoring to the Five Principles
+
+Step back from the algebra and notice which of the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality — see `Quality_Control/Reference/Five_Principles.md`) is doing the work here. The whole $SU(2)_L \times U(1)_Y$ gauge structure is an expression of **Principle 3 (Symmetry)**: the action's invariance under a continuous local group fixes the existence of the gauge fields $W^a_\mu, B_\mu$, the form of their kinetic terms, and the minimal couplings in (4.11.14). Symmetry alone determines what the Lagrangian *can* look like. **Principle 2 (Conservation)** then enters through Noether's theorem: each unbroken generator of the gauge group yields a conserved current — electric charge from the unbroken $Q = T_3 + Y$ (its current sourced by $A_\mu$), and the broken $W^\pm, Z$ currents whose breaking is precisely the mass-generation mechanism above. The vanishing photon mass $M_\gamma = 0$ (4.11.21) is the surviving Noether statement: $Q\langle H\rangle = 0$ means $Q$ remains a true symmetry of the vacuum and electric charge remains exactly conserved. Symmetry generates the field content; Conservation makes it physical.
+
 ---
 
 ## §11.6  The Higgs boson mass and the quartic coupling  [APPROXIMATE]

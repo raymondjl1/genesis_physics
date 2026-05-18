@@ -582,7 +582,7 @@ But we observe viscous flow in nature. Where does the viscosity come from?
 
 **Answer:** The Euler equation is the mean-field (tree-level) description of the Waters field. Viscosity arises from **fluctuations** around the mean field — the thermal motion of individual particles, which the Madelung transform averages over. The Chapman-Enskog expansion of the Boltzmann equation provides the systematic correction: the first-order term generates the viscous stress, the second-order term generates the Burnett corrections, and so on.
 
-In the language of the Five Governing Principles (Vol 1 Ch 8):
+In the language of the Five Principles (Vol 1 Ch 8):
 - The **Euler equation** corresponds to the Preservation Principle — the mean-field flow without dissipation
 - The **viscous terms** correspond to the **Degradation Principle** — the irreversible conversion of ordered kinetic energy into disordered thermal motion
 - The rate of entropy production is:

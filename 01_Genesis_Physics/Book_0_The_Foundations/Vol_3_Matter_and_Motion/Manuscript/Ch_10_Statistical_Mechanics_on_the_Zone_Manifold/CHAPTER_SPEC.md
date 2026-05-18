@@ -37,7 +37,7 @@
 | Zone manifold geometry M_Z | Vol 1 Ch 3 |
 | Firmament membrane modes and wave equation | Vol 1 Ch 5 |
 | Conservation laws (Noether's theorem) | Vol 1 Ch 7 |
-| Five Governing Principles (variational formulation) | Vol 1 Ch 8 |
+| Five Principles (variational formulation) | Vol 1 Ch 8 |
 | Quantization from boundary conditions; ℏ derivation | Vol 1 Ch 10 |
 | Basic thermodynamic laws; partition function Z; Boltzmann distribution | Vol 1 Ch 11 |
 | Kaluza-Klein dimensional reduction; EM field from 6D action | Vol 2 Ch 3 |

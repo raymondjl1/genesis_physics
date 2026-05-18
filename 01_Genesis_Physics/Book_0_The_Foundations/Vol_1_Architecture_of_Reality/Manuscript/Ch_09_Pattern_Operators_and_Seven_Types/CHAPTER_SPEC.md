@@ -37,7 +37,7 @@
 | Firmament as dynamical membrane; vibration modes and spectrum | Vol 1, Ch 5 |
 | Waters field equations; $\Psi_A$, $\Psi_B$ dynamics | Vol 1, Ch 6 |
 | Noether's theorem on zone manifold; conservation laws | Vol 1, Ch 7 |
-| Five Governing Principles as constraints; constrained action $S_{\text{GP}}$ | Vol 1, Ch 8 |
+| Five Principles as constraints; constrained action $S_{\text{GP}}$ | Vol 1, Ch 8 |
 | Fiber bundle structure and group theory | Vol 1, Ch 2 |
 | Differential geometry on zone manifold | Vol 1, Ch 2–3 |
 

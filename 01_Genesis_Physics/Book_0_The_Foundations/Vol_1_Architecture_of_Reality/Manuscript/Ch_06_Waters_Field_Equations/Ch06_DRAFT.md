@@ -760,7 +760,7 @@ This chapter has established the complete mathematical framework for the Waters 
 **Where this leads:**
 
 - **Chapter 7 (Symmetries and Conservation Laws):** The action functional (1.6.9) feeds directly into Noether's theorem — every symmetry of this action produces a conservation law.
-- **Chapter 8 (Five Governing Principles):** The replenishment mechanism (§6.5) is the mathematical realization of the Sustaining Principle; the field equations embody all five principles as constraints.
+- **Chapter 8 (Five Principles):** The replenishment mechanism (§6.5) is the mathematical realization of the Sustaining Principle; the field equations embody all Five Principles as constraints.
 - **Volume 3 (Matter and Motion):** The Madelung-form fluid equations (1.6.19)-(1.6.21) become the starting point for fluid mechanics on the zone manifold.
 - **Volume 5 (The Cosmos):** The cosmological solutions (de Sitter, Friedmann, structure formation) are developed in full with the tools from Volumes 2-4.
 

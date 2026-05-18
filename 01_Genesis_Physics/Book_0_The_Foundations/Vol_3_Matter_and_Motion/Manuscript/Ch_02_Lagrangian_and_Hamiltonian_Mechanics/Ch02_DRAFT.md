@@ -23,7 +23,7 @@ Or consider a bead sliding on a rotating wire hoop. Or the three-body gravitatio
 
 There must be a better way. And there is — and it isn't new. It's the *same* variational principle that the zone framework is built upon.
 
-Recall what Volume 1, Chapter 8 established: the Five Governing Principles constrain the zone action $S_\text{total}$ (Eq. 1.8.3). The physical field configurations are stationary points of that action. Volume 2, Chapter 5 constructed the complete zone Lagrangian $\mathcal{L}_\text{zone}$ (Eq. 2.5.20) and derived every field equation from $\delta S_\text{total} = 0$ (Eq. 2.5.21). Chapter 1 of this volume extracted F=ma by varying the test particle action (Eq. 3.1.7) with respect to the worldline.
+Recall what Volume 1, Chapter 8 established: the Five Principles constrain the zone action $S_\text{total}$ (Eq. 1.8.3). The physical field configurations are stationary points of that action. Volume 2, Chapter 5 constructed the complete zone Lagrangian $\mathcal{L}_\text{zone}$ (Eq. 2.5.20) and derived every field equation from $\delta S_\text{total} = 0$ (Eq. 2.5.21). Chapter 1 of this volume extracted F=ma by varying the test particle action (Eq. 3.1.7) with respect to the worldline.
 
 In every case, the method was the same: **write the action, vary it, set the variation to zero.** This is the variational principle — the engine beneath everything.
 

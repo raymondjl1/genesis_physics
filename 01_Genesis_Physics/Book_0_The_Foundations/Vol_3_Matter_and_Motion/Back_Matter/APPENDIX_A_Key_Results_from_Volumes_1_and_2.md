@@ -32,7 +32,7 @@ If you are reading Vol 3 and hit an equation you do not recognize, check the tag
 $$\text{Universe is open} \iff \exists \;\kappa(t) \neq 0 \tag{1.1.1}$$
 *Used in Vol 3: Ch 9, 12 (First Law extension; arrow of time).* 
 
-**Five Governing Principles** (named but formalized in Ch 8): Variation, Symmetry, Quantization, Conservation, Degradation.
+**Five Principles** (named but formalized in Ch 8): Variation, Symmetry, Quantization, Conservation, Degradation.
 *Used in Vol 3: Ch 1, 2, 9, 12.*
 
 ### A.2.2 Chapter 2 — Mathematical Preliminaries
@@ -106,7 +106,7 @@ $$\xi_{(i)}^\mu = \epsilon_{ijk}\,x^j\,\delta^{\mu k}, \qquad i = 1,2,3 \tag{1.7
 $$L^i = \int_\Sigma \xi_{(i)}^\mu T^0{}_\mu\,d^3x, \qquad \dot{L}^i = 0 \tag{1.7.33}$$
 *Used in Vol 3: Ch 3, 4.*
 
-### A.2.8 Chapter 8 — Five Governing Principles
+### A.2.8 Chapter 8 — Five Principles
 
 **Total zone action** (principle of stationary action in its Vol 1 form):
 $$S_{\text{total}} = \int d^6x\,\sqrt{-g}\,\mathcal{L}_{\text{total}}, \qquad \delta S_{\text{total}} = 0 \tag{1.8.3}$$

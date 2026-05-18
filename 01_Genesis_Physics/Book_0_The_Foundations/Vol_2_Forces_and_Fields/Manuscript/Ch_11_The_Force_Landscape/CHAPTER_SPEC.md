@@ -34,7 +34,7 @@
 |---------|---------------|
 | Zone manifold, 6D metric, warp factors | Vol 1, Ch 3–4 |
 | Firmament membrane mechanics, c = √(σ/μ) | Vol 1, Ch 5 |
-| Five Governing Principles | Vol 1, Ch 8 |
+| Five Principles | Vol 1, Ch 8 |
 | Forces as geometric consequences of 6D → 4D projection | Vol 2, Ch 1 |
 | Gravity from zone curvature, G₄ = G₆/V_extra | Vol 2, Ch 2 |
 | Maxwell's equations from Firmament membrane wave propagation | Vol 2, Ch 3 |

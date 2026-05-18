@@ -38,7 +38,7 @@
 | Firmament mechanics and boundary conditions | Vol 1 Ch 5 |
 | Waters field equations | Vol 1 Ch 6 |
 | Conservation laws from Noether's theorem | Vol 1 Ch 7 |
-| Five Governing Principles (especially Degradation) | Vol 1 Ch 8 |
+| Five Principles (especially Degradation) | Vol 1 Ch 8 |
 | Basic thermodynamics: entropy, temperature, partition function | Vol 1 Ch 11 |
 | Four thermodynamic phases (Creation, Edenic, Fall, Redemption) | Vol 1 Ch 11 |
 | Gauge field structure and electroweak theory | Vol 2 Ch 6 |

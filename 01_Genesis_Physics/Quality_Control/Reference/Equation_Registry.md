@@ -38,7 +38,7 @@
 | (1.7.1) | Noether Current | Volume 1 | 1 | 7 | General Noether current j^μ derived from zone manifold isometries via action principle |
 | (1.7.2) | Energy Conservation from Symmetry | Volume 1 | 1 | 7 | Energy conservation law derived from time-translation symmetry of zone fields |
 | (1.7.3) | Momentum Conservation from Symmetry | Volume 1 | 1 | 7 | Momentum conservation derived from spatial translation symmetry of zone manifold |
-| (1.8.1) | Five Principles as Constraints | Volume 1 | 1 | 8 | Collective constraint equations expressing the Five Governing Principles in variational form |
+| (1.8.1) | Five Principles as Constraints | Volume 1 | 1 | 8 | Collective constraint equations expressing the Five Principles in variational form |
 | (1.8.2) | Principle 1: Separation Driver | Volume 1 | 1 | 8 | First Principle formalized as constraint on zone replenishment and field dynamics |
 | (1.8.3) | Principle 2: Boundary Enforcement | Volume 1 | 1 | 8 | Second Principle formalized as constraint on zone boundary topology and junction conditions |
 | (1.9.1) | Pattern Operator Algebra | Volume 1 | 1 | 9 | Definition of pattern operator algebra as representation of symmetries on zone fields |

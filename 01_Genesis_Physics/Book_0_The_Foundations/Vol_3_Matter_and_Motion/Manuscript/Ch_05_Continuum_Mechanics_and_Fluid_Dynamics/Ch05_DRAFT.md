@@ -255,7 +255,7 @@ But real fluids dissipate. A sheared fluid converts kinetic energy to heat. The 
 
 ### §5.4.2 The Sustaining Principle (Principle 1) and the Degradation Principle (Principle 4)
 
-Volume 1, Chapter 8 established the **Five Governing Principles** of the zone architecture. Two are directly relevant here:
+Volume 1, Chapter 8 established the **Five Principles** of the zone architecture. Two are directly relevant here:
 
 **Principle 1 — The Sustaining Principle:** The Waters Above field $\Psi_A$ acts as an energy reservoir, continuously supplying energy to the zone manifold via the replenishment mechanism (Vol 1, §6.5). Without this supply, the Waters Below would dissipate to zero. The Sustaining Principle is why the universe persists.
 
@@ -746,7 +746,7 @@ Consider a superfluid (e.g., helium-4 below 2.17 K). Superfluids have: (i) zero 
 - **Vol 1, Ch 5:** Firmament membrane — Nambu-Goto action, surface tension $\sigma$
 - **Vol 1, Ch 6:** Waters field equations (Eqs. 1.6.13, 1.6.15), Madelung transformation (Eqs. 1.6.19–1.6.21), NFW profile (§6.3), replenishment mechanism (§6.5)
 - **Vol 1, Ch 7:** Noether's theorem (§7.2), U(1) symmetry and charge conservation (§7.5)
-- **Vol 1, Ch 8:** Five Governing Principles — Sustaining (Principle 1), Degradation (Principle 4)
+- **Vol 1, Ch 8:** Five Principles — Sustaining (Principle 1), Degradation (Principle 4)
 - **Vol 2, Ch 2:** Friedmann equations, de Sitter expansion
 - **Vol 2, Ch 3:** Electromagnetic waves from Firmament surface waves
 - **Vol 3, Ch 9:** Thermodynamic laws — entropy production, Second Law

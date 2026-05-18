@@ -17,7 +17,7 @@ General relativity does better for gravity — Einstein showed that gravity is g
 
 The situation is even worse than a simple omission. Standard physics does not merely fail to answer "why forces?" — it cannot *formulate* the question within its own framework. In quantum field theory, forces are mediated by gauge bosons whose existence is guaranteed by postulated gauge symmetries. But where do the gauge symmetries come from? From the structure of the Lagrangian. And where does the Lagrangian come from? From the requirement of gauge symmetry. The reasoning is circular. The Standard Model is a magnificent edifice built on a foundation that was never laid — it works spectacularly well, but it cannot tell you why it works.
 
-In Volume 1, we built the foundation that makes these questions answerable. We constructed the Zone Manifold $\mathcal{M}_Z$ — a 6-dimensional pseudo-Riemannian manifold stratified into cosmologically significant zones (Chapter 3). We derived the complete warp-factored metric (Chapter 4). We established five governing principles that constrain all physics as mathematical necessities (Chapter 8). Now we harvest the consequences.
+In Volume 1, we built the foundation that makes these questions answerable. We constructed the Zone Manifold $\mathcal{M}_Z$ — a 6-dimensional pseudo-Riemannian manifold stratified into cosmologically significant zones (Chapter 3). We derived the complete warp-factored metric (Chapter 4). We established the Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality) that constrain all physics as mathematical necessities (Chapter 8). Now we harvest the consequences.
 
 **The thesis of this chapter — and of this entire volume — is this:** Forces are not fundamental entities. They are geometric consequences of the zone manifold. They are what observers confined to the 4-dimensional Firmament experience when the full 6-dimensional geometry constrains their motion. The four forces are not four separate mysteries. They are four projections of a single geometric reality.
 
@@ -27,7 +27,7 @@ This chapter sets the stage. We will not yet derive any force in detail — that
 - How do extra dimensions become forces? (§1.2)
 - Why exactly four? (§1.3)
 - Why different strengths? (§1.4)
-- How do the five principles constrain force structure? (§1.5)
+- How do the Five Principles constrain force structure? (§1.5)
 - How can this framework be tested — and potentially disproved? (§1.6)
 
 By the end of this chapter, the reader should be able to explain, in principle, why forces exist, why there are four, and why they have different strengths. The details — the derivations, the quantitative predictions, the comparison with experiment — fill the remaining ten chapters.
@@ -404,13 +404,25 @@ Furthermore, the hierarchy enters physics *logarithmically*, not linearly. The f
 
 ### §1.5.1 From Constraints to Uniqueness
 
-In Chapter 8 of Volume 1, we formalized the five governing principles as mathematical constraints on the action functional (Eq. 1.8.38):
+In Chapter 8 of Volume 1, we formalized the Five Principles as mathematical constraints on the action functional (Eq. 1.8.38):
 
 $$S_{\text{GP}} = S_{\text{total}} + \lambda_1 \mathcal{C}_1 + \lambda_2 \mathcal{C}_2 + \lambda_3 \mathcal{C}_3 + \lambda_4 \mathcal{C}_4 + \lambda_5 \mathcal{C}_5 \tag{1.8.38}$$
 
-Now we apply these constraints to the force sector. The result is remarkable: the five principles constrain the force Lagrangian so tightly that the Standard Model gauge structure emerges as nearly the unique solution.
+Now we apply these constraints to the force sector. The result is remarkable: the Five Principles constrain the force Lagrangian so tightly that the Standard Model gauge structure emerges as nearly the unique solution.
 
-### §1.5.2 Symmetry Determines Structure
+### §1.5.2 Sustaining: The Open-System Foundation
+
+Axiom 1 of Vol 1 — *God as Active Sustaining Ground* (the Open System Axiom, for short within this chapter) — reminds us that the universe is an open system. The Sustaining Principle ($\mathcal{C}_1$, Eqs. 1.8.5–1.8.11) is the variational expression of this axiom. Forces operate within a sustained cosmos, not a closed one. The action must therefore include the coupling to the external field $\kappa(t)$; without this, the Lagrangian would describe a closed system and no force would persist beyond a single dynamical timescale. Sustaining is logically first because the other four principles all presuppose a sustained cosmos in which to act.
+
+### §1.5.3 Conservation Restricts Interactions
+
+The Conservation Principle ($\mathcal{C}_2$, Eq. 1.8.12) requires that no energy or momentum crosses the cosmic boundary post-Day 7. At the level of forces, this means every interaction must conserve energy-momentum:
+
+$$\nabla_\mu T^{\mu\nu}_{\text{total}} = 0 \tag{1.8.15}$$
+
+This forbids certain types of force couplings. For example, a force that could create energy from nothing, or a decay channel that violates momentum conservation, would violate $\mathcal{C}_2$. The conservation constraint, together with gauge invariance, restricts the vertices of the theory — the ways that particles can interact through forces.
+
+### §1.5.4 Symmetry Determines Structure
 
 The Symmetry Principle ($\mathcal{C}_3$, Eq. 1.8.17) requires the action to be invariant under the full symmetry group:
 
@@ -438,15 +450,17 @@ $$\text{Zone topology} \xrightarrow{\text{§1.3}} \text{Gauge group} \xrightarro
 
 The geometry determines the symmetry. The symmetry determines the forces. The chain is complete.
 
-### §1.5.3 Conservation Restricts Interactions
+### §1.5.5 Degradation: The Phase-3 Correction
 
-The Conservation Principle ($\mathcal{C}_2$, Eq. 1.8.12) requires that no energy or momentum crosses the cosmic boundary post-Day 7. At the level of forces, this means every interaction must conserve energy-momentum:
+In the current epoch (Phase 3 of Axiom 7's four-phase partition), the sustaining field is slightly subcritical ($\kappa_{\text{partial}} = \kappa_{\text{full}}(1-\epsilon)$, Eq. 1.8.8) — the degradation asserted by Axiom 5. The Degradation Principle ($\mathcal{C}_4$) makes this concrete at the force level:
 
-$$\nabla_\mu T^{\mu\nu}_{\text{total}} = 0 \tag{1.8.15}$$
+- Force-mediated processes are irreversible in the forward direction
+- The arrow of time in force interactions (e.g., particle decay) is a consequence of $\epsilon > 0$
+- At full sustaining ($\epsilon = 0$, Phase 2), force interactions would be perfectly reversible — the second law would not apply
 
-This forbids certain types of force couplings. For example, a force that could create energy from nothing, or a decay channel that violates momentum conservation, would violate $\mathcal{C}_2$. The conservation constraint, together with gauge invariance, restricts the vertices of the theory — the ways that particles can interact through forces.
+These are small corrections to the force laws themselves but large consequences for the *thermodynamics* of force-mediated processes. We return to this in Volume 3 (Matter and Motion).
 
-### §1.5.4 Duality Pairs Forces
+### §1.5.6 Duality Pairs Forces
 
 The Duality Principle ($\mathcal{C}_5$, Eq. 1.8.30) requires that every field has a complementary partner and that the Lagrangian treats partners symmetrically. At the level of forces, this manifests as:
 
@@ -456,19 +470,9 @@ The Duality Principle ($\mathcal{C}_5$, Eq. 1.8.30) requires that every field ha
 
 The deepest expression of Duality in the force sector is CPT invariance (Eq. 1.8.35). CPT is an exact symmetry — it cannot be broken by any interaction in the theory. This is a powerful constraint: any candidate force law that violates CPT is automatically excluded.
 
-### §1.5.5 Sustaining and Degradation: The Open-System Corrections
+### §1.5.7 The Combined Constraint
 
-Axiom 1 of Vol 1 — *God as Active Sustaining Ground* (the Open System Axiom, for short within this chapter) — reminds us that the universe is an open system. The Sustaining Principle ($\mathcal{C}_1$, Eqs. 1.8.5–1.8.11) is the variational expression of this axiom. Forces operate within a sustained cosmos, not a closed one. In the current epoch (Phase 3 of Axiom 7's four-phase partition), the sustaining field is slightly subcritical ($\kappa_{\text{partial}} = \kappa_{\text{full}}(1-\epsilon)$, Eq. 1.8.8) — the degradation asserted by Axiom 5 — which means:
-
-- Force-mediated processes are irreversible in the forward direction (Degradation, $\mathcal{C}_4$)
-- The arrow of time in force interactions (e.g., particle decay) is a consequence of $\epsilon > 0$
-- At full sustaining ($\epsilon = 0$, Phase 2), force interactions would be perfectly reversible — the second law would not apply
-
-These are small corrections to the force laws themselves but large consequences for the *thermodynamics* of force-mediated processes. We return to this in Volume 3 (Matter and Motion).
-
-### §1.5.6 The Combined Constraint
-
-Taken together, the five principles yield a highly constrained Lagrangian:
+Taken together, the Five Principles yield a highly constrained Lagrangian:
 
 $$\mathcal{L}_{\text{forces}} = \underbrace{-\frac{1}{4}F^a_{\mu\nu}F^{a\mu\nu}}_{\text{gauge kinetic}} + \underbrace{\bar{\psi}(i\gamma^\mu D_\mu - m)\psi}_{\text{matter coupling}} + \underbrace{\kappa \cdot \mathcal{O}_{\text{sustain}}}_{\text{sustaining correction}} \tag{2.1.17}$$
 
@@ -482,7 +486,7 @@ The constraints leave almost no freedom:
 
 What *is* left free — and must be determined from additional physics — is the matter content (which fermions exist and what charges they carry). This is addressed in Volume 4 (The Quantum World).
 
-### §1.5.7 Comparison with the Standard Model
+### §1.5.8 Comparison with the Standard Model
 
 The Standard Model Lagrangian, written without the Higgs sector, is:
 
@@ -492,7 +496,7 @@ where $B_{\mu\nu}$ is the U(1) field strength, $W^a_{\mu\nu}$ is the SU(2) field
 
 This matches the structure of our constrained Lagrangian (2.1.17) exactly, with the addition of the sustaining correction. The Standard Model *is* the low-energy limit of the zone force Lagrangian, up to the sustaining term (which is negligible in Phase 3, where $\epsilon \ll 1$).
 
-The difference is in origin. In the Standard Model, the gauge group and matter content are postulated. In Genesis Physics, they are derived from geometry and constrained by the five principles. The Standard Model is the correct effective theory. The zone manifold is the reason it is correct.
+The difference is in origin. In the Standard Model, the gauge group and matter content are postulated. In Genesis Physics, they are derived from geometry and constrained by the Five Principles. The Standard Model is the correct effective theory. The zone manifold is the reason it is correct.
 
 It is worth pausing to appreciate the economy of this result. The Standard Model has approximately 19 free parameters (coupling constants, masses, mixing angles). In the zone manifold framework, all 19 are in principle calculable from the zone geometry — from the warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$, the Firmament tension $\sigma$, and the 6D gravitational coupling $G_6$. We say "in principle" because several of these calculations are deferred to later volumes (the fermion masses to Volume 4, the mixing angles to Volume 5). But the claim is clear: **the zone manifold has fewer free parameters than the Standard Model.** This is the mark of a deeper theory — it explains more with less.
 
@@ -554,7 +558,7 @@ Before proceeding to the derivations, internalize these principles — they gove
 1. **Forces are geometry.** They emerge from the zone manifold. They are not postulated.
 2. **Four forces, not by accident.** The number four follows from the topology of two extra dimensions with the zone stratification.
 3. **Different strengths, same geometry.** The hierarchy arises from different geometric integrals. No fine-tuning.
-4. **The five principles constrain.** The gauge group, interactions, and conservation laws are fixed by the principles.
+4. **The Five Principles constrain.** The gauge group, interactions, and conservation laws are fixed by the principles.
 5. **Everything is calculable.** Coupling constants are integrals over the zone geometry. There are no free parameters in the force sector.
 6. **Everything is testable.** The framework makes specific predictions that can be verified or disproved.
 
@@ -576,7 +580,7 @@ The answer has five parts:
 
 **Fourth**, the hierarchy of force strengths arises from the different geometric integrals each force couples to (§1.4). Gravity is weak because it spreads through the full bulk volume. EM is moderate because it couples logarithmically. Nuclear forces are strong because they couple to concentrated boundary regions. The key ratio $\xi_A/\eta_B \sim 10^{41}$ controls the hierarchy.
 
-**Fifth**, the five governing principles constrain the force Lagrangian to nearly the unique form of the Standard Model (§1.5). The gauge group, kinetic terms, and matter coupling are determined by symmetry, conservation, duality, sustaining, and degradation. The Standard Model is the low-energy consequence of zone geometry under these constraints.
+**Fifth**, the Five Principles constrain the force Lagrangian to nearly the unique form of the Standard Model (§1.5). The gauge group, kinetic terms, and matter coupling are determined by sustaining, conservation, symmetry, degradation, and duality. The Standard Model is the low-energy consequence of zone geometry under these constraints.
 
 The framework is falsifiable (§1.6.1). A fifth force, a wrong coupling constant, or a CPT violation would disprove it. The remaining ten chapters derive the details.
 

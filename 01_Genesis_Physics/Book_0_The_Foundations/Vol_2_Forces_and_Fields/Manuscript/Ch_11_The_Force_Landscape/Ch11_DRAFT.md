@@ -49,7 +49,7 @@ Why exactly four sectors — no more, no fewer? Because the two-dimensional comp
 
 $$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{int}} + S_{\text{sustain}}$$
 
-The Five Governing Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality (Vol 1, Ch 8) — constrain this Lagrangian to a unique form (Theorem 2.5.1). The Sustaining Principle requires the sustaining sector S_sustain; the Conservation Principle enforces energy closure; the Symmetry Principle generates the gauge structure; the Degradation Principle constrains entropy evolution; and the Duality Principle mandates the Waters Above/Below (dark energy/dark matter) pairing. Together, these five constraints uniquely determine the Lagrangian. The Standard Model Lagrangian emerges upon dimensional reduction — not as a postulate, but as a consequence.
+The Five Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality (Vol 1, Ch 8) — constrain this Lagrangian to a unique form (Theorem 2.5.1). The Sustaining Principle requires the sustaining sector S_sustain; the Conservation Principle enforces energy closure; the Symmetry Principle generates the gauge structure; the Degradation Principle constrains entropy evolution; and the Duality Principle mandates the Waters Above/Below (dark energy/dark matter) pairing. Together, these five constraints uniquely determine the Lagrangian. The Standard Model Lagrangian emerges upon dimensional reduction — not as a postulate, but as a consequence.
 
 **Step 5. Coupling Constants as Geometry (Ch 2–3, 9).** Every coupling constant is a geometric integral over the extra dimensions. No free parameters are introduced:
 
@@ -452,7 +452,7 @@ Forces exist because free motion in a six-dimensional zone manifold, when projec
 
 The forces have different strengths because they couple to different geometric features with different functional dependencies on the extra-dimensional volume. Gravity couples through the full volume (power-law suppression → weakness). Electromagnetism couples through the 2D Green's function (logarithmic → moderate). The strong and weak forces couple through boundary integrals (localized → short-range). The hierarchy ratio α_em/α_G = 1.236 × 10³⁶ follows from the ratio of logarithmic to power-law dependence — it is not fine-tuning but geometric necessity.
 
-The forces work the way they do because their dynamics follow from a single Lagrangian — seven sectors encoding gravity, Firmament mechanics, Waters fields, gauge forces, matter, interactions, and sustaining — constrained to a unique form by the Five Governing Principles. Maxwell's equations, Yang-Mills theory, and linearized general relativity all emerge as consequences, not postulates.
+The forces work the way they do because their dynamics follow from a single Lagrangian — seven sectors encoding gravity, Firmament mechanics, Waters fields, gauge forces, matter, interactions, and sustaining — constrained to a unique form by the Five Principles. Maxwell's equations, Yang-Mills theory, and linearized general relativity all emerge as consequences, not postulates.
 
 This answer is falsifiable. We have enumerated thirteen specific experimental criteria (F1–F13) that would disprove the framework. As of today, none have been triggered. Several will become testable within the next decade.
 

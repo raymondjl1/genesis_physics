@@ -42,7 +42,7 @@
 | Firmament vibration modes, wave equation, dispersion relation | Vol 1, Ch 5 |
 | Waters field equations, equilibrium, perturbation theory | Vol 1, Ch 6 |
 | Noether's theorem on zone manifold, conservation laws | Vol 1, Ch 7 |
-| Five Governing Principles as constraints on the action | Vol 1, Ch 8 |
+| Five Principles as constraints on the action | Vol 1, Ch 8 |
 | Seven pattern operators P̂₁–P̂₇, pattern algebra p₇ | Vol 1, Ch 9 |
 | Topological defects on the Firmament (from Ch 5 §5.5) | Vol 1, Ch 5 |
 | Fourier analysis, spectral theory (from Ch 2 mathematical preliminaries) | Vol 1, Ch 2 |

@@ -41,7 +41,7 @@
 | Madelung transformation: Waters Below → fluid equations (continuity + Euler) | Vol 1, Ch 6 (Eqs. 1.6.19–1.6.21) |
 | Waters stress-energy tensor and pressure profiles | Vol 1, Ch 6 (Eqs. 1.6.22–1.6.41) |
 | Conservation laws from Noether's theorem (energy, momentum, angular momentum) | Vol 1, Ch 7 (Eqs. 1.7.17, 1.7.30, 1.7.33) |
-| Five Governing Principles — variational/action structure | Vol 1, Ch 8 |
+| Five Principles — variational/action structure | Vol 1, Ch 8 |
 | Thermodynamics from zone separation — entropy, Second Law | Vol 1, Ch 11 |
 | Gravity from zone curvature | Vol 2, Ch 2 |
 | Maxwell's equations from Firmament membrane wave propagation | Vol 2, Ch 3 |

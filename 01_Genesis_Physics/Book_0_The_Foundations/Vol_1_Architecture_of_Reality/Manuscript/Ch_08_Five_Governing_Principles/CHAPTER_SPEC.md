@@ -1,15 +1,15 @@
-# Chapter Spec — The Five Governing Principles as Constraints
+# Chapter Spec — The Five Principles as Constraints
 
 **Book/Volume:** Foundations Vol 1: Architecture of Reality
 **Chapter Number:** Chapter 8
-**Working Title:** The Five Governing Principles as Constraints
+**Working Title:** The Five Principles as Constraints
 **Status:** WRITING
 
 ---
 
 ## Mission
 
-> This chapter transforms the Five Governing Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality — from theological statements and Noether consequences (Chapter 7) into precise mathematical constraints on the action functional, establishing the variational framework that Volume 2 will use to derive all force laws.
+> This chapter transforms the Five Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality — from theological statements and Noether consequences (Chapter 7) into precise mathematical constraints on the action functional, establishing the variational framework that Volume 2 will use to derive all force laws.
 
 ---
 
@@ -17,9 +17,9 @@
 
 | Req ID | Chapter Requirement | Traces To | Status |
 |--------|-------------------|-----------|--------|
-| Ch08-001 | Each of the five principles expressed as a mathematical constraint on the action | V1-001, V1-005 | NOT MET |
+| Ch08-001 | Each of the Five Principles expressed as a mathematical constraint on the action | V1-001, V1-005 | NOT MET |
 | Ch08-002 | Principle names and statements match Five_Principles.md exactly (canonical ordering: Sustaining, Conservation, Symmetry, Degradation, Duality) | V1-002 | NOT MET |
-| Ch08-003 | Variational formulation: constrained action principle with all five principles as constraints | V1-005 | NOT MET |
+| Ch08-003 | Variational formulation: constrained action principle with all Five Principles as constraints | V1-005 | NOT MET |
 | Ch08-004 | Lagrangian structure: show how constraints restrict the allowed Lagrangian densities | V1-005 | NOT MET |
 | Ch08-005 | Hamiltonian structure: translate to Hamiltonian formulation with constraint surfaces | V1-005 | NOT MET |
 | Ch08-006 | WHY these five: theological necessity (each traces to a divine attribute) | V1-001 | NOT MET |
@@ -48,7 +48,7 @@
 ## "Why" Chain
 
 1. **Why do we need governing principles at all — aren't the field equations enough?** — Because field equations describe dynamics, but principles constrain which dynamics are *physically allowed*. The principles are meta-constraints on the space of theories, not just solutions.
-2. **Why these five principles and not some other set?** — Because (a) each maps to an independent divine attribute (theological necessity), and (b) removing any one leaves the theory underdetermined while adding a sixth introduces redundancy (mathematical necessity).
+2. **Why these Five Principles and not some other set?** — Because (a) each maps to an independent divine attribute (theological necessity), and (b) removing any one leaves the theory underdetermined while adding a sixth introduces redundancy (mathematical necessity).
 3. **Why express them as constraints rather than additional equations?** — Because constraints restrict the *class of allowed actions*, while equations describe specific dynamics. Volume 2 needs constraints to select the unique force Lagrangians from an infinite space of possibilities.
 4. **Why the variational formulation?** — Because the constrained action principle is the most powerful tool in theoretical physics for deriving equations of motion consistent with symmetries and boundary conditions. It's how we will derive every force law in Volume 2.
 5. **Why does the Lagrangian/Hamiltonian split matter?** — Because different physical questions are naturally answered in different formulations: Lagrangian for dynamics and field equations, Hamiltonian for conserved quantities and quantum mechanics.
@@ -69,7 +69,7 @@
 | 6 | Constrained action principle: all five combined | Individual constraints C₁–C₅ | Master constrained action S_constrained |
 | 7 | Lagrange multiplier formulation | S_constrained | Effective action with multiplier fields |
 | 8 | Hamiltonian constraint surface | Legendre transform of S_constrained | Constraint surface in phase space |
-| 9 | Independence proof: five principles are necessary and sufficient | Counting argument + counterexamples | No principle is derivable from the others |
+| 9 | Independence proof: Five Principles are necessary and sufficient | Counting argument + counterexamples | No principle is derivable from the others |
 
 ### Figures and Diagrams
 
@@ -101,7 +101,7 @@
 ### Section 2: The Five Principles — Canonical Statements (§8.2)
 - **Topic sentence:** Each principle is stated in its canonical form, with theological source, physical manifestation, and constraint equation.
 - **"Why" entry point:** Connects each principle back to Chapter 1 axioms and Chapter 7 conservation laws.
-- **Key content:** All five principles in canonical order (Sustaining, Conservation, Symmetry, Degradation, Duality). Each with divine attribute, formal constraint statement, and how it restricts the action.
+- **Key content:** All Five Principles in canonical order (Sustaining, Conservation, Symmetry, Degradation, Duality). Each with divine attribute, formal constraint statement, and how it restricts the action.
 - **Exit condition:** Reader has all five constraint equations.
 
 ### Section 3: The Constrained Action Principle (§8.3)
@@ -141,7 +141,7 @@
 - **Exit condition:** Reader can verify whether a given field theory respects Duality.
 
 ### Section 9: Why Five — Necessity and Sufficiency (§8.9)
-- **Topic sentence:** We prove that all five principles are independent (necessary) and that no sixth principle is needed (sufficient).
+- **Topic sentence:** We prove that all Five Principles are independent (necessary) and that no sixth principle is needed (sufficient).
 - **"Why" entry point:** If any principle were derivable from the others, we should remove it. If a gap exists, we should add one.
 - **Key content:** Independence proof by counterexample. Sufficiency argument: the five constraints uniquely select the physical action. Counting argument for constraint degrees of freedom.
 - **Exit condition:** Reader is convinced these five are the right five.
