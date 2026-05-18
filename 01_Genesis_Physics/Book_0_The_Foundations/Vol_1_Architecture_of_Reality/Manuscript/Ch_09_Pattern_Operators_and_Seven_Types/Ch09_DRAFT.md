@@ -43,7 +43,7 @@ Let's be precise. Define:
 $$\mathcal{F}(M_Z) = \{ \Phi : M_Z \to V \}$$
 
 where:
-- M_Z is the zone manifold (Chapter 3), a stratified 4D manifold with 8 nested zones
+- M_Z is the zone manifold (Chapter 3), a stratified 6D pseudo-Riemannian manifold (signature (−,+,+,+,+,+)) with 8 nested zones
 - V is the *target space* (the space into which fields take values)
 - Φ ranges over field configurations: the Waters fields Ψ_A and Ψ_B (both scalar, so V ⊃ ℂ), membrane perturbations h_μν (symmetric 2-tensors), matter fields ψ_matter (spinors or vectors), and their derivatives
 
@@ -71,6 +71,8 @@ $$P : \mathcal{F}(M_Z) \to \mathcal{F}(M_Z)$$
 ---
 
 ## §9.2 The Seven Pattern Operators
+
+**Note on dimensionality.** Each operator $\hat{P}_i$ in §§9.2–9.8 was originally formulated for the 4D physical slice of $M_Z$ (the firmament tangent directions $x^0,\dots,x^3$). Because $M_Z$ is the 6D pseudo-Riemannian base manifold (§9.1), the same operator extends to the full manifold with *trivial action along the extra-dimensional coordinates* $(\xi,\eta)$ at leading order — i.e., the extension is the tensor product $\hat{P}_i \otimes \mathbb{1}_{(\xi,\eta)}$. Non-trivial extra-dimensional action appears only at next-to-leading order (Kaluza-Klein modes, Ch 4 §4.3) and is treated explicitly in Volume 2. Wherever an integral measure $d^4x$, a derivative $\partial_\mu$ (μ = 0..3), or a canonical scaling dimension "in 4D" appears below, it refers to this 4D physical slice; the 6D measure $d^6x = d^4x\, d\xi\, d\eta$ is implicit and reduces to $d^4x$ after trivial integration over the compact extra dimensions.
 
 ### §9.2.1 P̂₁: Localization (Point Pattern)
 
