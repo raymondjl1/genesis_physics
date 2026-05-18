@@ -80,17 +80,13 @@ for the optimal angle choice and show $|S|_\text{max}=2\sqrt{2}$.
 
 ### Selected solution — P4.4.2
 
-Use $E(\vec a,\vec b) = -\cos\theta_{ab}$ with $\theta_{ab}$ the angle between the two settings. Choose the four settings
-$$\vec a = \hat z,\quad \vec a' = \hat x,\quad \vec b = -\tfrac{1}{\sqrt 2}(\hat z + \hat x),\quad \vec b' = \tfrac{1}{\sqrt 2}(\hat z - \hat x).$$
-Then
-$$E(\vec a,\vec b) = \cos 135° = -\tfrac{1}{\sqrt 2},\quad E(\vec a,\vec b') = -\tfrac{1}{\sqrt 2},$$
-$$E(\vec a',\vec b) = -\tfrac{1}{\sqrt 2},\quad E(\vec a',\vec b') = \tfrac{1}{\sqrt 2}.$$
+From P4.4.1, $E(\vec a,\vec b) = -\vec a\cdot\vec b = -\cos\theta_{ab}$. Choose the standard CHSH settings
+$$\vec a = \hat z,\quad \vec a' = \hat x,\quad \vec b = \tfrac{1}{\sqrt 2}(\hat z + \hat x),\quad \vec b' = \tfrac{1}{\sqrt 2}(\hat z - \hat x),$$
+so that $\theta_{ab} = \theta_{a'b} = \theta_{a'b'} = 45°$ and $\theta_{ab'} = 135°$. The correlations are
+$$E(\vec a,\vec b) = -\tfrac{1}{\sqrt 2},\quad E(\vec a,\vec b') = +\tfrac{1}{\sqrt 2},\quad E(\vec a',\vec b) = -\tfrac{1}{\sqrt 2},\quad E(\vec a',\vec b') = -\tfrac{1}{\sqrt 2}.$$
 Substituting,
-$$S = -\tfrac{1}{\sqrt 2} - (-\tfrac{1}{\sqrt 2}) + (-\tfrac{1}{\sqrt 2}) + \tfrac{1}{\sqrt 2}\cdot(-1)$$
-
-Actually, being careful with the signs: $E = -\vec a\cdot\vec b = -\cos\theta_{ab}$. With the standard CHSH angle choice the correct arithmetic gives
-$$S = 2\sqrt{2} \approx 2.828,$$
-which saturates Tsirelson's bound. The 2024 Munich loophole-free Bell test measured $S = 2.81(2)$, consistent with this prediction and violating the classical bound $|S|\le 2$ by 40 standard deviations. Zone-topology derivation: Chapter 4 §4.4 shows that the maximum is set by the two independent winding numbers in $\pi_1(Z) = \mathbb{Z}\times\mathbb{Z}$, giving the same $2\sqrt 2$ without invoking the Born rule separately.
+$$S = E(\vec a,\vec b) - E(\vec a,\vec b') + E(\vec a',\vec b) + E(\vec a',\vec b') = -\tfrac{1}{\sqrt 2} - \tfrac{1}{\sqrt 2} - \tfrac{1}{\sqrt 2} - \tfrac{1}{\sqrt 2} = -2\sqrt{2},$$
+so $|S| = 2\sqrt{2} \approx 2.828$, which saturates Tsirelson's bound. The 2024 Munich loophole-free Bell test measured $S = 2.81(2)$, consistent with this prediction and violating the classical bound $|S|\le 2$ by 40 standard deviations. Zone-topology derivation: Chapter 4 §4.4 shows that the maximum is set by the two independent winding numbers in $\pi_1(Z) = \mathbb{Z}\times\mathbb{Z}$, giving the same $2\sqrt 2$ without invoking the Born rule separately.
 
 ---
 

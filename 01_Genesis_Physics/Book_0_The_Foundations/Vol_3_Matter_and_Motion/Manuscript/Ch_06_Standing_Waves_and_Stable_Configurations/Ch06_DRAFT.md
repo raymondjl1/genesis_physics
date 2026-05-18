@@ -457,11 +457,11 @@ There is something remarkable about this conservation law. It does not depend on
 
 ### Particle Lifetimes and Decay Channels
 
-Because topological charge is conserved, a particle cannot spontaneously decay into a different topological configuration. An electron ($n = 1$) cannot decay into a photon (which has $n = 0$ in the ξ-sector) and a positron ($n = -1$) separately because:
+Because topological charge is conserved, a particle cannot spontaneously decay into a configuration whose total topological charge differs from its own. An electron ($n = 1$) cannot decay into a photon ($n = 0$) plus a positron ($n = -1$), because the totals do not balance:
 
 $$1 \neq 0 + (-1)$$
 
-Wait, that does not work. Let me correct: the point is that *a single electron cannot decay into radiation alone*. It can decay *only* to a configuration with the same topological charge. The allowed decay channels are:
+A single electron therefore cannot decay into radiation alone. It can decay *only* to a configuration with the same total topological charge. The allowed decay channels are:
 
 - Electron can decay into a neutrino (same $n_\xi = 1$, different $n_\eta$) plus a gauge boson. This is beta decay: $e \to \nu_e + W^-$. The intermediate $W$ boson carries the difference in $n_\eta$.
 

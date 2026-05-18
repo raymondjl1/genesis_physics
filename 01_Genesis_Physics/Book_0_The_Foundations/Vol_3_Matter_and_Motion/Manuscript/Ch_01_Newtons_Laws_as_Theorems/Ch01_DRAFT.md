@@ -218,44 +218,6 @@ $$\mathcal{L}_{\text{int}} = f_\mu u^\mu \quad \text{(Eq. 3.1.5)}$$
 
 where $f_\mu$ is the **4-force density** (force per unit proper time).
 
-### Varying the Action
-
-The true worldline of the particle is the one that extremizes the action. We'll vary the worldline $x^\mu(\tau) \to x^\mu(\tau) + \delta x^\mu(\tau)$ and require $\delta S = 0$.
-
-For the free-particle part:
-
-$$\delta \left( -mc \int d\tau \sqrt{-g_{\mu\nu} u^\mu u^\nu} \right)$$
-
-Using the chain rule and the fact that $\sqrt{-g_{\mu\nu} u^\mu u^\nu} = c$ (unit normalization):
-
-$$-mc \int d\tau \, \frac{d}{d\tau} \left( g_{\mu\nu} \frac{\delta x^\mu}{d\tau} u^\nu \right) + mc \int d\tau \, g_{\mu\nu} \frac{d^2 x^\mu}{d\tau^2} \frac{\delta x^\nu}{d\tau}$$
-
-The first term is a boundary term (vanishes if we fix the endpoints). The second term gives:
-
-$$-mc \int d\tau \, \frac{d}{d\tau} \left( g_{\mu\nu} u^\mu \delta x^\nu \right) + mc \int d\tau \, \frac{d}{d\tau} \left( g_{\mu\nu} u^\mu \right) \frac{\delta x^\nu}{d\tau}$$
-
-Again, the first is a boundary term. The second term becomes:
-
-$$mc \int d\tau \left( \frac{d u^\mu}{d\tau} + \Gamma^\mu_{\alpha\beta} u^\alpha u^\beta \right) g_{\mu\nu} \delta x^\nu$$
-
-This is $mc \int d\tau \, (D u^\mu / d\tau) g_{\mu\nu} \delta x^\nu$, where $D/d\tau$ is the **covariant derivative** along the worldline.
-
-For the interaction part:
-
-$$\delta \int f_\mu u^\mu d\tau = \int f_\mu \frac{\delta dx^\mu}{d\tau} d\tau = -\int \frac{df_\mu}{d\tau} \delta x^\mu d\tau$$
-
-(using integration by parts, dropping boundary terms).
-
-Combining and setting $\delta S = 0$:
-
-$$\int d\tau \left[ mc \left( \frac{D u^\mu}{d\tau} \right) g_{\mu\nu} - \frac{d f_\mu}{d\tau} \right] \delta x^\nu = 0$$
-
-Since $\delta x^\nu$ is arbitrary (except at boundaries), the integrand must vanish:
-
-$$mc \left( \frac{D u^\mu}{d\tau} \right) g_{\mu\nu} = \frac{d f_\mu}{d\tau}$$
-
-Wait, I need to be more careful. Let me redo this cleanly.
-
 ### Careful Derivation: Euler-Lagrange Equation via Variational Principle
 
 We now derive the equation of motion by carefully varying the action. This is the headline calculation and must be complete.
@@ -442,49 +404,7 @@ $$d\tau \approx dt$$
 
 to leading order in $v/c$.
 
-### Separating Spatial and Temporal Components
-
-The covariant acceleration has two types of components:
-
-$$\frac{D u^\mu}{d\tau} = \frac{D u^0}{d\tau}, \frac{D u^i}{d\tau}$$
-
-The time component ($\mu = 0$) is:
-
-$$\frac{D u^0}{d\tau} = \frac{du^0}{d\tau} + \Gamma^0_{\alpha\beta} u^\alpha u^\beta \approx 0$$
-
-(to leading order in $v/c$). This gives us energy conservation, which we won't focus on here.
-
-The spatial components ($\mu = i$) are:
-
-$$\frac{D u^i}{d\tau} = \frac{d u^i}{d\tau} + \Gamma^i_{00} (u^0)^2 + 2\Gamma^i_{0j} u^0 u^j + \Gamma^i_{jk} u^j u^k$$
-
-In the non-relativistic limit:
-
-$$\frac{d u^i}{d\tau} \approx \frac{d^2 x^i}{dt^2} = a^i$$
-
-The $\Gamma^i_{00}$ term is related to gravity:
-
-$$\Gamma^i_{00} = \frac{1}{2} g^{im} \left( \frac{\partial g_{0m}}{\partial x^0} + \frac{\partial g_{00}}{\partial x^m} - \frac{\partial g_{0m}}{\partial x^0} \right) = \frac{1}{2} g^{im} \frac{\partial g_{00}}{\partial x^m}$$
-
-From Vol 2 Ch 2, in the weak-field limit:
-
-$$g_{00} = -(1 + 2\Phi/c^2)$$
-
-where $\Phi$ is the gravitational potential. Thus:
-
-$$\Gamma^i_{00} \approx -\frac{1}{2} \eta^{im} \frac{\partial}{\partial x^m} \left( 1 + 2\Phi/c^2 \right) = -\frac{1}{c^2} \frac{\partial \Phi}{\partial x^i}$$
-
-(using $\eta^{im}$ for the flat metric in the non-relativistic limit).
-
-The cross terms ($\Gamma^i_{0j}$) are suppressed by $v/c$ and can be dropped.
-
-So:
-
-$$\frac{D u^i}{d\tau} \approx \frac{d^2 x^i}{dt^2} - \frac{g_0^i}{c^2} (u^0)^2 \Gamma^i_{00}$$
-
-Hmm, I'm overcomplicating this. Let me use a clearer approach.
-
-### Cleaner Approach: Splitting Gravity from Other Forces
+### Splitting Gravity from Other Forces
 
 In the zone framework, gravity is encoded in the metric (the geometry of spacetime). Other forces (electromagnetism, etc.) are external agents that provide the 4-force $f^\mu$.
 
@@ -498,7 +418,11 @@ In the spatial components, taking the non-relativistic limit ($v \ll c$, $d\tau 
 
 $$m \frac{d^2 x^i}{dt^2} + m \Gamma^i_{\alpha\beta} u^\alpha u^\beta \approx f^i_{\text{ext}}$$
 
-The Christoffel term from gravity gives (in the weak-field limit):
+The Christoffel term from gravity gives (in the weak-field limit). Using the mostly-plus signature $(-,+,+,+)$, the weak-field metric from Vol 2 Ch 2 is $g_{00} = -(1 + 2\Phi/c^2)$, so:
+
+$$\Gamma^i_{00} = \tfrac{1}{2} \eta^{ij} \left(-\frac{\partial g_{00}}{\partial x^j}\right) = -\frac{1}{c^2} \frac{\partial \Phi}{\partial x^i}$$
+
+With $u^0 \approx c$ to leading order in $v/c$:
 
 $$m \Gamma^i_{00} (u^0)^2 \approx -m \frac{\partial \Phi}{\partial x^i}$$
 
