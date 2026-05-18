@@ -256,11 +256,11 @@ $$\boxed{P^i_{\text{4D}} = \int d^3x \, \sqrt{-\gamma} \, T^{0i}_{\text{eff}} = 
 
 This is linear momentum conservation: the total momentum of an isolated system does not change. Every collision, every explosion, every gravitational interaction conserves total momentum — because space itself has no preferred location.
 
-### 7.4.2 Angular Momentum: God's Impartiality
+### 7.4.2 Angular Momentum: God's Omnipresence
 
 *Why is angular momentum conserved?*
 
-Because God shows no favoritism in direction. "God does not show favoritism" (Acts 10:34). If no direction in space is privileged, then the laws must be invariant under rotations. The three rotation Killing vectors from Chapter 4 (Eq. (1.4.36)) generate the SO(3) rotation group:
+Because God's presence pervades every direction in space, no direction is privileged. Scripture: "Where can I go from your Spirit? Where can I flee from your presence? If I go up to the heavens, you are there; if I make my bed in the depths, you are there. If I rise on the wings of the dawn, if I settle on the far side of the sea, even there your hand will guide me" (Psalm 139:7–10). Omnipresence is the theological content of spatial isotropy: because God is equally present along every axis and every bearing, the laws governing matter inherit that symmetry — no privileged "up," no privileged compass heading. If no direction in space is privileged, then the laws must be invariant under rotations. The three rotation Killing vectors from Chapter 4 (Eq. (1.4.36)) generate the SO(3) rotation group:
 
 $$K^A_{(R_k)} = \epsilon_{kij} x^i \delta^A_j \tag{1.7.31}$$
 
@@ -506,7 +506,7 @@ We have now derived every major conservation law from first principles. Let us c
 |-----------------|----------|------|--------|----------|-----------------|
 | Energy | Time translation | Continuous, global | **Exact** | (1.7.22), (1.7.26) | Eternality |
 | Linear momentum (×3) | Spatial translation | Continuous, global | **Exact** | (1.7.29), (1.7.30) | Omnipresence |
-| Angular momentum (×3) | Rotation | Continuous, global | **Exact** | (1.7.33) | Impartiality |
+| Angular momentum (×3) | Rotation | Continuous, global | **Exact** | (1.7.33) | Omnipresence (directional) |
 | Boost charge (×3) | Lorentz boost | Continuous, global | **Exact** | (1.7.34) | Spacetime unity |
 | Electric charge | U(1) gauge | Continuous, local | **Exact** | (1.7.38), (1.7.39) | Duality |
 | CPT | Lorentz + QFT | Discrete | **Exact** | (1.7.48) | Duality |
@@ -648,7 +648,7 @@ The results, in order:
 
 3. **Momentum conservation** (Section 7.4): From spatial-translation symmetry, reflecting God's omnipresence. Exact.
 
-4. **Angular momentum conservation** (Section 7.4): From rotational symmetry, reflecting God's impartiality. Exact.
+4. **Angular momentum conservation** (Section 7.4): From rotational symmetry, reflecting God's directional omnipresence (Ps 139:7–10). Exact.
 
 5. **Charge conservation** (Section 7.5): From U(1) gauge symmetry, reflecting the Duality Principle. Exact.
 
