@@ -154,7 +154,9 @@ Let $Z$ be the 6D zone manifold with metric (5.7.1). Let $\Sigma = Z_{2.2}$ be t
 
 $$(5.7.5)\quad T_p Z = T_p \Sigma \oplus N_p \Sigma,$$
 
-where $N_p \Sigma$ is rank 2 (because $\Sigma$ is codimension 2 in $Z$). Choose a smooth orthonormal frame $\{n^M_\xi(p), n^M_\eta(p)\}$ for $N_p\Sigma$, with the convention that $n^M_\xi$ points in the positive-$\xi$ direction (toward Waters Above) and $n^M_\eta$ in the positive-$\eta$ direction (toward Waters Below). The Firmament embedding push-forward gives a frame $\{e_\mu^M\}$ for $T_p\Sigma$, with $\mu = 0,1,2,3$.
+where $N_p \Sigma$ is rank 2 (because $\Sigma$ is codimension 2 in $Z$). Choose a smooth orthonormal frame $\{n^M_\xi(p), n^M_\eta(p)\}$ for $N_p\Sigma$, with the convention that $n^M_\xi$ points in the positive-$\xi$ direction (toward Waters Above) and $n^M_\eta$ in the positive-$\eta$ direction (toward Waters Below).[^geo-vs-cosmo] The Firmament embedding push-forward gives a frame $\{e_\mu^M\}$ for $T_p\Sigma$, with $\mu = 0,1,2,3$.
+
+[^geo-vs-cosmo]: The cosmological pairing (Waters Above ≡ dark energy, ~68%; Waters Below ≡ dark matter, ~27%) is established in Vol 5 Ch 6 (cosmology background) and Vol 4 Ch 11 §11.0. In this chapter the same names denote the geometric structure on the (ξ, η) axes; the cosmological observables emerge from the geometric structure but should not be conflated with it.
 
 A Firmament geodesic $\gamma: [0,\tau_*) \to \Sigma$ has 4-velocity $u^\mu(\tau) = d\gamma^\mu/d\tau$, with $\gamma^\mu \gamma^\mu g_{\mu\nu} = -1$ in the timelike case (we use mostly-plus signature throughout). Its 6D push-forward is the worldline
 

@@ -43,7 +43,7 @@ $$(5.6.1)\quad \mathcal L_\text{mem} = \frac{\mu}{2}\,(\partial_t\Phi)^2 - \frac
 
 ### §6.1.2 From Vol 1 Ch 6 — the Waters bulk fields
 
-Vol 1 Ch 6 established that the bulk zones on either side of the Firmament — $Z_{2.2.1}$ (the "Waters Below") and $Z_{2.2.3}$ (the "Waters Above") — are not empty. Each is filled with a physical scalar/tensor field $\Psi_B$ and $\Psi_A$, respectively, each with its own Lagrangian:
+Vol 1 Ch 6 established that the bulk zones on either side of the Firmament — $Z_{2.2.1}$ (the Waters Below (dark matter, ~27%)) and $Z_{2.2.3}$ (the Waters Above (dark energy, ~68%)) — are not empty. Each is filled with a physical scalar/tensor field $\Psi_B$ and $\Psi_A$, respectively, each with its own Lagrangian:
 
 $$(5.6.2)\quad \mathcal L_\text{bulk} = \frac{1}{2}(\partial_M\Psi_B)(\partial^M\Psi_B) - V(\Psi_B),\qquad M \in \{0,1,2,3,\xi,\eta\}.$$
 

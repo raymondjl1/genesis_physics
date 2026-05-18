@@ -42,9 +42,9 @@ $$H_{\text{GP}}(a) = H_0 \sqrt{\Omega_m \, a^{-3} + \Omega_\Lambda + \alpha_A \,
 
 where:
 
-- **α_A = 0.05** is the Waters Above coupling strength. The a⁻⁴ scaling is characteristic of a radiation-like component — one whose energy density dilutes as a⁻⁴ because both number density (∝ a⁻³) and individual quantum energy (∝ a⁻¹, from cosmological redshift) decrease with expansion. This is the behavior derived for the Waters Above in Volume 5, Eq (5.4.17).
+- **α_A = 0.05** is the Waters Above (dark energy, ~68%) coupling strength. The a⁻⁴ scaling is characteristic of a radiation-like component — one whose energy density dilutes as a⁻⁴ because both number density (∝ a⁻³) and individual quantum energy (∝ a⁻¹, from cosmological redshift) decrease with expansion. This is the behavior derived for the Waters Above in Volume 5, Eq (5.4.17).
 
-- **α_B = 0.1** is the Waters Below coupling strength. The a⁻³ scaling is identical to pressureless matter — consistent with the Waters Below acting as the clustering dark component. This adds to the standard Ω_m term, effectively increasing the total matter-like content of the universe.
+- **α_B = 0.1** is the Waters Below (dark matter, ~27%) coupling strength. The a⁻³ scaling is identical to pressureless matter — consistent with the Waters Below acting as the clustering dark component. This adds to the standard Ω_m term, effectively increasing the total matter-like content of the universe.
 
 - **G_int = 0.01** is the cross-coupling between Waters Above and Waters Below (Volume 2, Eq (2.3.14)). It enters the growth rate calculation but not the Hubble parameter directly.
 

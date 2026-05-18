@@ -267,7 +267,7 @@ The Waters fields $\Psi_A$ (Above, dark energy) and $\Psi_B$ (Below, dark matter
 
 ### 12.3.1  Recap of the Waters-Field Equations
 
-From Chapter 11 §11.4.1, the Waters Above field $\Psi_A$ obeys
+From Chapter 11 §11.4.1, the Waters Above (dark energy, ~68%; paired with Waters Below = dark matter, ~27%) field $\Psi_A$ obeys
 $$
 \Box_6 \Psi_A + V'(\Psi_A) = J_A(x, \xi, \eta, t), \quad (12.3.1)
 $$

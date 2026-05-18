@@ -80,7 +80,7 @@ In the full theory (developed in Chapters 4 and 6), these two gauge fields — a
 
 $$A_\mu(x) \equiv A_\mu^\xi(x) \tag{2.3.6}$$
 
-This is the electromagnetic potential. The identification is not arbitrary. The $\xi$-direction is the Waters Above dimension — the cosmological-scale extra dimension with logarithmic warping (Vol 1, Ch 4, §4.3). Its isometry group is U(1), the gauge group of electromagnetism. The $\eta$-direction (Waters Below, exponential warping) gives rise to the weak and strong forces through a more complex mechanism involving zone boundary modes (Chapter 4).
+This is the electromagnetic potential. The identification is not arbitrary. The $\xi$-direction is the Waters Above (dark energy, ~68%) dimension — the cosmological-scale extra dimension with logarithmic warping (Vol 1, Ch 4, §4.3). Its isometry group is U(1), the gauge group of electromagnetism. The $\eta$-direction (Waters Below (dark matter, ~27%), exponential warping) gives rise to the weak and strong forces through a more complex mechanism involving zone boundary modes (Chapter 4).
 
 For the remainder of this chapter, $A_\mu$ denotes the electromagnetic four-potential, and all derivations proceed from the $\xi$-sector of the metric.
 

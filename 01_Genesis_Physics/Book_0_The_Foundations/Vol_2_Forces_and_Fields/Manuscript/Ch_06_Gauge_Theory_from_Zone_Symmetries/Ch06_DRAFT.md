@@ -30,7 +30,7 @@ $$ds^2 = e^{2A(\xi,\eta)}\tilde{g}_{\mu\nu}(x)\,dx^\mu dx^\nu + e^{2B(\xi,\eta)}
 
 > **[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from 6D Einstein equations in closed form. See Open Problem 1.WF.]**
 
-The extra dimensions are structured into zones: Waters Above ($\xi$-direction, extent $\xi_A \sim 3 \times 10^{26}$ m) and Waters Below ($\eta$-direction, extent $\eta_B \sim 1.3 \times 10^{-15}$ m), separated by the Firmament (equation 1.3.2). The warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ encode the gravitational geometry of the extra dimensions (equations 1.4.23, 1.4.27).
+The extra dimensions are structured into zones: Waters Above (dark energy, ~68%; $\xi$-direction, extent $\xi_A \sim 3 \times 10^{26}$ m) and Waters Below (dark matter, ~27%; $\eta$-direction, extent $\eta_B \sim 1.3 \times 10^{-15}$ m), separated by the Firmament (equation 1.3.2). The warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ encode the gravitational geometry of the extra dimensions (equations 1.4.23, 1.4.27).
 
 Volume 1, Chapter 4 established that the only Killing vectors on this manifold are the 4D Poincaré generators — time translation, spatial translations, rotations, and boosts (equations 1.4.32–1.4.37). The extra-dimensional translations $\partial_\xi$ and $\partial_\eta$ are *not* Killing vectors because the warp factors depend on $\xi$ and $\eta$ (equation 1.7.50). This is crucial: it means gauge symmetries do not arise from continuous translational isometries of the full 6D manifold. Instead, they arise from the *topological* structure of the compact extra dimensions — from how the extra dimensions are identified, folded, and stitched together.
 

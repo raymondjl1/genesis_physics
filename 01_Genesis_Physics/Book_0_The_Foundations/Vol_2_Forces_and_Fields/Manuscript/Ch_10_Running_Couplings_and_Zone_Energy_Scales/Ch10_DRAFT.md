@@ -52,7 +52,7 @@ This is not a quantum mystery. It is geometry. Imagine measuring the average tem
 
 ### The Membrane Scale
 
-There is a natural energy scale where the extra-dimensional structure first becomes visible. This is the scale at which r_probe matches the size of the Waters Below:
+There is a natural energy scale where the extra-dimensional structure first becomes visible. This is the scale at which r_probe matches the size of the Waters Below (dark matter, ~27%; paired with Waters Above = dark energy, ~68%):
 
 $$Q_m \sim \frac{\hbar c}{\eta_B} \tag{2.10.2}$$
 

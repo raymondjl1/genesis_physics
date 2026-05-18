@@ -276,7 +276,7 @@ python3 structure_formation.py
 **What it does:** Computes and compares cosmological structure formation for two models:
 
 - **ΛCDM** (standard cosmology): Ω_m = 0.3, Ω_Λ = 0.7
-- **Genesis Physics** (zone architecture): same base parameters plus Waters Above/Below couplings (α_A = 0.05, α_B = 0.1)
+- **Genesis Physics** (zone architecture): same base parameters plus Waters Above (dark energy, ~68%) / Waters Below (dark matter, ~27%) couplings (α_A = 0.05, α_B = 0.1)
 
 Produces growth factor evolution D(z), matter power spectra P(k, z) at multiple redshifts, density contrast evolution, halo mass functions, and the key diagnostic: the spectrum ratio P_GP(k)/P_ΛCDM(k).
 

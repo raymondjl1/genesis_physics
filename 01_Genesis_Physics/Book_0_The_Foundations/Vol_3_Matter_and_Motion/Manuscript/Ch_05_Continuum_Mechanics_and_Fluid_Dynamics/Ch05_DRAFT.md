@@ -18,7 +18,7 @@ Before there was a universe, the text says, there were Waters (מַיִם, *mayi
 
 This chapter is not about finding metaphors in scripture. It is about taking the text at face value and following the physics to where it leads.
 
-In Volume 1, Chapter 6, we derived the Waters field equations — the governing equations for two scalar fields, $\Psi_A$ (Waters Above) and $\Psi_B$ (Waters Below), living on the 6D zone manifold. Those derivations began with the Genesis architecture: a manifold with two distinct zone regions separated by a dynamical membrane (the Firmament), and two scalar fields whose dynamics are fixed by the action principle. The field equations that emerge from that architecture are (Vol 1, Eqs. 1.6.13, 1.6.15):
+In Volume 1, Chapter 6, we derived the Waters field equations — the governing equations for two scalar fields, $\Psi_A$ (Waters Above (dark energy, ~68%)) and $\Psi_B$ (Waters Below (dark matter, ~27%)), living on the 6D zone manifold. Those derivations began with the Genesis architecture: a manifold with two distinct zone regions separated by a dynamical membrane (the Firmament), and two scalar fields whose dynamics are fixed by the action principle. The field equations that emerge from that architecture are (Vol 1, Eqs. 1.6.13, 1.6.15):
 
 $$\Box_6\Psi_A + V'(\Psi_A) + G_{\text{int}}\Psi_B = 0 \tag{3.5.1}$$
 

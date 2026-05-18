@@ -4,7 +4,7 @@
 
 ## §4.1 — The Roadmap: Why Two More Forces?
 
-We have built an architecture. In Chapter 2, we constructed the zones—regions of extra-dimensional space each with distinct geometry, curvature, and topology. In Chapter 3, we derived gravity and electromagnetism from the long-range geometry of the Waters Below and Above. These two forces shape the cosmos at the largest scales: gravity holds galaxies together; electromagnetism binds atoms and governs chemistry.
+We have built an architecture. In Chapter 2, we constructed the zones—regions of extra-dimensional space each with distinct geometry, curvature, and topology. In Chapter 3, we derived gravity and electromagnetism from the long-range geometry of the Waters Below (dark matter, ~27%) and Waters Above (dark energy, ~68%). These two forces shape the cosmos at the largest scales: gravity holds galaxies together; electromagnetism binds atoms and governs chemistry.
 
 But look inside an atom. Electrons orbit a nucleus made of protons and neutrons. The nucleus itself cannot be held together by gravity—the gravitational force between two nucleons is weaker than the electromagnetic repulsion by a factor of 10^36. And electrons do not orbit forever; neutrons decay into protons, emitting electrons. Why? Because two more forces operate at short range, hidden from everyday observation, yet absolutely essential to the structure of matter.
 

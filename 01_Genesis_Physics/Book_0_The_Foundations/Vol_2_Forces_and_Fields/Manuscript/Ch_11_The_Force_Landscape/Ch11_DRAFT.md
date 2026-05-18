@@ -30,7 +30,7 @@ The logical chain that connects the zone manifold to the four forces fits on a s
 
 $$ds^2 = e^{2A(\xi,\eta)}\left[-c^2 dt^2 + a^2(t)(dx^2+dy^2+dz^2)\right] + e^{2B(\xi,\eta)}(d\xi^2 + d\eta^2)$$
 
-The two extra coordinates ξ (Waters Above — the dark energy sector) and η (Waters Below — the dark matter sector) have warp factor profiles A_ξ(ξ) = (2/3)ln(L_A/ξ) and B_η(η) = −η²/(2η_B²), established in (1.4.23) and (1.4.27).
+The two extra coordinates ξ (Waters Above (dark energy, ~68%) — the dark energy sector) and η (Waters Below (dark matter, ~27%) — the dark matter sector) have warp factor profiles A_ξ(ξ) = (2/3)ln(L_A/ξ) and B_η(η) = −η²/(2η_B²), established in (1.4.23) and (1.4.27).
 
 **Step 2. Kaluza-Klein Reduction (Ch 1).** Free motion in 6D projects onto the 4D Firmament as force. Extra-dimensional momenta become charge. The off-diagonal components of the 6D metric become gauge fields. The 6D geodesic equation (2.1.1–2.1.3) produces the Lorentz force law plus gravitational acceleration in 4D.
 

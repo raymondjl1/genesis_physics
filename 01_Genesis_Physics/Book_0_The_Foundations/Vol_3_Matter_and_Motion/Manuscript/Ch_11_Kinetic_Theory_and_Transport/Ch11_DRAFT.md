@@ -572,7 +572,7 @@ $$\xrightarrow{\text{moments}} \text{Navier-Stokes (this chapter)}$$
 
 ### 11.5.3 The Waters Connection — Viscous Dissipation as Degradation
 
-The connection to the Waters field equations deserves careful attention. In Volume 1, Chapter 6, the Waters Below field $\Psi_B$ satisfies:
+The connection to the Waters field equations deserves careful attention. In Volume 1, Chapter 6, the Waters Below (dark matter, ~27%; paired with Waters Above = dark energy, ~68%) field $\Psi_B$ satisfies:
 
 $$\Box_6 \Psi_B + U'(\Psi_B) + G_{\text{int}}\Psi_A = 0 \quad \text{(1.6.15)} \tag{3.11.62}$$
 

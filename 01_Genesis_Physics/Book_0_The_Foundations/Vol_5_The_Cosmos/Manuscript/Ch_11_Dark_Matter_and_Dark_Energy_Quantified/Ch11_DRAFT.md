@@ -23,7 +23,7 @@ The chapter is also honest about what it does *not* deliver. The Vol 4 Ch 9 prom
 
 Put compactly: the chapter's mood is modest confidence. Unlike Ch 10, it is not coincidence. Unlike Ch 13 (the fine-structure derivation that closes the volume), it is not yet a triumph. It is the middle chapter of the argument — the chapter where the framework stops being a retelling of $\Lambda$CDM in different words and starts being a theory that could be wrong.
 
-What the chapter is *not*: it is not a sermon. Genesis is referenced only insofar as Vol 1 Ch 6 is referenced — *Waters Above* and *Waters Below* are the names of two scalar fields whose definitions and equations of motion were fixed four volumes ago. No theological claim about dark matter or dark energy is made or needed. The reader who prefers to call them $\Psi_A$ and $\Psi_B$ should do so, and nothing in the derivations will change.
+What the chapter is *not*: it is not a sermon. Genesis is referenced only insofar as Vol 1 Ch 6 is referenced — *Waters Above* (dark energy, ~68%) and *Waters Below* (dark matter, ~27%) are the names of two scalar fields whose definitions and equations of motion were fixed four volumes ago. No theological claim about dark matter or dark energy is made or needed. The reader who prefers to call them $\Psi_A$ and $\Psi_B$ should do so, and nothing in the derivations will change.
 
 ## §11.1 Inventory: The Toolkit From Previous Chapters
 

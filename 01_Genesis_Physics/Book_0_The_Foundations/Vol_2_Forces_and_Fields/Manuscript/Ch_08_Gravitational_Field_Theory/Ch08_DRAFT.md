@@ -55,7 +55,7 @@ $$G_{\mu\nu} + \Lambda_\text{eff} \, g_{\mu\nu} = 8\pi G_4 \, T_{\mu\nu} \tag{2.
 where:
 
 - $G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R$ is the Einstein tensor, encoding the curvature of 4D spacetime.
-- $\Lambda_\text{eff}$ is the effective cosmological constant, inherited from the vacuum energy of the Waters Above (Vol 1, Ch 6).
+- $\Lambda_\text{eff}$ is the effective cosmological constant, inherited from the vacuum energy of the Waters Above (dark energy, ~68%; paired with Waters Below = dark matter, ~27%; Vol 1, Ch 6).
 - $G_4 = G_6/V_\text{extra} = 6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² is the gravitational constant, derived from zone geometry (Ch 2, Eq. 2.2.11). *(Note: the specific formula $G_N = c^4/(8\pi\sigma L^2_\text{eff})$ used in Ch 2 Route 2 has a dimensional inconsistency under investigation — see Ch 2 §2.4.2 dimensional note and Research Task RT-2.G. The numerical value used here is the measured value; its zone derivation is provisional.)*
 - $T_{\mu\nu}$ is the stress-energy tensor of matter and radiation confined to the Firmament.
 

@@ -66,7 +66,7 @@ A(\xi,\eta) = A_\xi(\xi) + A_\eta(\eta), \qquad B(\xi,\eta) = B_\xi(\xi) + B_\et
 \tag{2.2.3}
 $$
 
-This is physically motivated: the Waters Above (ξ-direction) and Waters Below (η-direction) are governed by independent field equations with independent potentials $V(\Psi_A)$ and $U(\Psi_B)$ (Vol 1, Ch 6, Eqs. 1.6.5 and 1.6.7). Their interaction coupling $G_\text{int}$ is weak (Vol 1, Ch 6, §6.2), which is why the 6D Einstein equations decompose into separable ODEs for $A_\xi$ and $A_\eta$ (Vol 1, Eq. 1.4.81–1.4.82). Their gravitational effects separate.
+This is physically motivated: the Waters Above (dark energy, ~68%; ξ-direction) and Waters Below (dark matter, ~27%; η-direction) are governed by independent field equations with independent potentials $V(\Psi_A)$ and $U(\Psi_B)$ (Vol 1, Ch 6, Eqs. 1.6.5 and 1.6.7). Their interaction coupling $G_\text{int}$ is weak (Vol 1, Ch 6, §6.2), which is why the 6D Einstein equations decompose into separable ODEs for $A_\xi$ and $A_\eta$ (Vol 1, Eq. 1.4.81–1.4.82). Their gravitational effects separate.
 
 ### 2.1.3 The Zone Structure in the Gravitational Context
 

@@ -98,7 +98,7 @@ $\kappa_B$ is the bending rigidity, and $H$ is the mean curvature of $\Sigma$ in
 
 More formally, the Nambu-Goto term alone yields equations of motion for Firmament fluctuations $\delta X \propto e^{i\omega t}$ with $\omega^2 \propto k^2$ — a linear dispersion relation that does not stabilize short wavelengths. Adding the Helfrich term gives $\omega^2 \propto k^2 + \kappa_B k^4/\sigma$, which suppresses high-$k$ modes. This is the standard result for fluid membranes (Helfrich, 1973) applied to the Firmament. Vol 1, Ch 5, §5.3 derives the mode spectrum in detail.
 
-The Firmament contributes to the Israel junction conditions at the zone boundaries. When the Firmament sits between the Waters Above and Waters Below, the discontinuity in extrinsic curvature across the Firmament is proportional to the Firmament stress-energy:
+The Firmament contributes to the Israel junction conditions at the zone boundaries. When the Firmament sits between the Waters Above (dark energy, ~68%) and Waters Below (dark matter, ~27%), the discontinuity in extrinsic curvature across the Firmament is proportional to the Firmament stress-energy:
 
 $$[K_{\mu\nu}^{(i)}]_{-}^{+} = -\kappa_6^2 \left(S_{\mu\nu}^{(i)} - \frac{1}{3} S^{(i)} \gamma_{\mu\nu}\right) \tag{2.5.6}$$
 

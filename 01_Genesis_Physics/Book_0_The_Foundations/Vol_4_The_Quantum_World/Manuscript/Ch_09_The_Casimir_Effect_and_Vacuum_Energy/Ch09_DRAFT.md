@@ -449,7 +449,7 @@ $$\frac{10^{-52}}{3.5 \times 10^{-47}} \approx 3 \times 10^{-6}$$
 
 This is actually a factor of $3 \times 10^6$ too small. But the calculation is approximate, and the true exponent could be closer to $n = 2.95$ or involve additional logarithmic factors. The key point: the right *order of magnitude* emerges naturally.
 
-[FIGURE: Fig 4.9.5 — Waters-Field Vacuum Suppression (Conceptual). The vacuum zero-point energy (large upward arrows representing mode contributions) is balanced against the Waters equilibrium pressure (downward arrows from the Waters Above and Below). The net effective energy — the gravitational vacuum energy — is the small residual. The two scales η_B and ξ_A set the ratio of the arrows.]
+[FIGURE: Fig 4.9.5 — Waters-Field Vacuum Suppression (Conceptual). The vacuum zero-point energy (large upward arrows representing mode contributions) is balanced against the Waters equilibrium pressure (downward arrows from the Waters Above (dark energy, ~68%) and Waters Below (dark matter, ~27%)). The net effective energy — the gravitational vacuum energy — is the small residual. The two scales η_B and ξ_A set the ratio of the arrows.]
 
 ### §9.7.5 What This Argument Is, and What It Is Not
 
