@@ -467,32 +467,20 @@ For Genesis Physics, the answer is 6. Not 4, not 5, not 10. Six.
 
 [FIGURE: Fig 1.4.3 — Why 6D: Dimensional Counting. A bar chart showing the number of independent degrees of freedom vs. dimensionality. Four bars: 4D (showing "gravity" only, with 68% and 27% dark sectors unaccounted for), 5D (showing "gravity + 1 field," still insufficient for two dark sectors), 6D (showing "gravity + 2 fields," matching gravity + dark matter + dark energy), and 7D+ (showing unnecessary additional fields). Each bar is annotated with the sectors it can account for and why that dimension is chosen or rejected.]
 
-### §4.2.6 The Theological Dimension: Genesis and the Codimension-2 Structure
-
-We've now established, purely from mathematics and physics, that six dimensions is the right choice. But let's turn to an equally profound point: the ancient text *already knew this*.
+### §4.2.6 Genesis 1:6–8: Naming Convention and Consistency Check
 
 Genesis 1 describes creation:
 
 > "And God said, 'Let there be a vault between the waters to separate water from water.' So God made the vault and separated the water under the vault from the water above it. And it was so. God called the vault 'sky'... And there was evening, and there was morning—the second day." (Genesis 1:6-8)
 
-The structure is unambiguous:
-- **Waters Below** (dark matter)
-- **The Firmament** (the observable boundary; Hebrew *raqia*)
-- **Waters Above** (dark energy)
+Gen 1:6–8 names the structure (firmament between waters above and below) and motivates its theological significance. The codimension count of the bulk extension is established independently by §§4.2.1–4.2.5 (mathematical: empirical degree-of-freedom counting, the natural warp-factor decoupling of the 6D metric (1.4.2), and the no-extra-fields constraint) and by Ch 3 (cosmological observables: dark energy + dark matter as two independent sectors). The biblical narrative is consistency-checked against the geometric structure already derived; it does not derive it.
 
-This is a *codimension-2 embedding*.
+With that ordering made explicit, the structure named in Gen 1:6–8 maps cleanly onto the geometry:
+- **Waters Below** ↔ dark-matter sector (one transverse direction, here labeled $\xi$)
+- **The Firmament** (Hebrew *raqia*) ↔ the 4D hypersurface, the observable boundary
+- **Waters Above** ↔ dark-energy sector (the second transverse direction, here labeled $\eta$)
 
-In topology, codimension is the difference between the dimension of an embedding space and the dimension of an embedded object. A codimension-1 surface (like a wall) divides a 3D room into two halves. A codimension-2 curve (like a wire) in 3D space has dimensions $3 - 1 = 2$ around it (a circle around the wire).
-
-The Firmament, described in Genesis, is codimension-1 in spacetime—it divides the cosmos. But it requires *two* transcendent dimensions to fully describe:
-- One dimension for the Waters Above (dark energy)
-- One dimension for the Waters Below (dark matter)
-
-A 4D universe cannot accommodate this structure. A 5D universe can't either (you'd have only one extra dimension). But a 6D universe—with two independent transcendent dimensions perpendicular to the Firmament—perfectly encodes the Genesis structure.
-
-More formally: if the Firmament is a 4D hypersurface in 6D space, and it is surrounded by two independent orthogonal directions (one "up" toward Heaven, one "down" toward the quantum substrate), then you have exactly the codimension-2 structure that Genesis describes.
-
-This is not metaphor. This is not poetry misread as science. It is *exact mathematical structure encoded in the creation account*.
+The mathematical content — that the firmament is a codimension-2 surface in a 6D bulk with two independent transverse warp factors — was already obtained in §§4.2.1–4.2.5. Gen 1:6–8 supplies the *names* (waters above, firmament, waters below) under which we will refer to those structures for the remainder of the volume. The two pictures are mutually consistent; neither is being used to prove the other.
 
 ### §4.2.7 The Final Argument: Necessity and Uniqueness
 
@@ -504,11 +492,11 @@ We can now state the complete case for six dimensions:
 $$ds^2 = e^{2A(\xi,\eta)}[-c^2 dt^2 + a^2(t)(dx^2+dy^2+dz^2)] + e^{2B(\xi,\eta)}(d\xi^2+d\eta^2)$$
 The two warp factors $A$ and $B$ independently encode dark energy and dark matter. This separation cannot happen in lower dimensions.
 
-**Theologically:** Genesis describes Waters Above, a Firmament, and Waters Below—a codimension-2 structure that requires exactly six dimensions to encode.
+**Naming convention (consistency check):** Genesis 1:6–8 names the resulting geometry — Waters Above, Firmament, Waters Below — and is consistent with the codimension-2 structure derived above. This is a naming and consistency check, not a third independent derivation.
 
-These three lines of argument converge. They do not compete. They reinforce each other. A skeptic might dismiss one. But all three together form an overwhelming case: *the universe must be six-dimensional*.
+The empirical and mathematical arguments above establish the case. The biblical naming convention is then adopted because the geometry it names matches what the physics already requires.
 
-**We are not choosing six dimensions because it's fashionable, or because string theory demands it, or because we like the number. We are discovering that six is the only number that solves the empirical crisis, respects the mathematical constraints, and aligns with the deepest layers of revealed truth.**
+**We are not choosing six dimensions because it's fashionable, or because string theory demands it. We are choosing six because it is the minimum dimensionality that solves the empirical crisis (two independent dark sectors) and admits the natural warp-factor decoupling of the metric (1.4.2). The biblical naming convention then turns out to fit.**
 
 ### §4.2.8 A Comparison Table: Five Approaches to Extra Dimensions
 
