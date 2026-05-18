@@ -641,7 +641,7 @@ Without the connection between divine attributes and physical symmetries, conser
 
 ### Counter-Model 4: Remove Axiom 4 (No Consciousness/Agency)
 
-Without dual-zone consciousness, humans are purely material entities — assemblages of atoms governed entirely by deterministic (or random) physical laws. Free will vanishes. Moral responsibility becomes nonsense. Prayer is meaningless — there is no mechanism for intent to cross zone boundaries. The profound human experience of choice, creativity, and spiritual awareness becomes epiphenomenal — a hallucination with no causal power. **Model violates human experience: agency impossible, moral framework void.**
+Removing Axiom 4 does not currently have a known physical failure mode; the axiom is **PROPOSED**, and its consequences (zone-interface consciousness, prayer-as-BC-modification) are under investigation. None of the present-day observables derived in this volume — the metric, the conservation laws of §1.7, the constancy of fundamental constants, the thermodynamic four-phase structure — depends on Axiom 4. The theological consequence — absence of an agent→world causation mechanism within the framework — is noted separately and is *not* offered as a physical falsifier. Axiom 4 is retained in the canonical seven as the place-holder for that mechanism, but its physical content awaits the dual-zone consciousness derivation flagged in §1.5. **Model remains physically valid in the present accessible regime; axiom retained as PROPOSED pending derivation.**
 
 ### Counter-Model 5: Remove Axiom 5 (No Degradation)
 
