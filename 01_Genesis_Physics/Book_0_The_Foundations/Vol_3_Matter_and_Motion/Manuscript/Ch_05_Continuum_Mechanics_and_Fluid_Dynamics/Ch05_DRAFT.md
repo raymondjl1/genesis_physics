@@ -14,7 +14,7 @@
 *"And God said, 'Let there be a firmament in the midst of the waters, and let it separate the waters from the waters.' And God made the firmament and separated the waters that were under the firmament from the waters that were above the firmament."*  
 — Genesis 1:6–7
 
-Before there was a universe, the text says, there were waters. The Hebrew word is **mayim** — plural, a collective noun implying substance, fullness, presence. The Spirit hovered over them. Then, on Day 2, those waters were separated: an expanse (the firmament, *raqia*) was placed in the midst, with waters above and waters below.
+Before there was a universe, the text says, there were Waters (מַיִם, *mayim*, 'waters') — plural in Hebrew, a collective noun implying substance, fullness, presence. The Spirit hovered over them. Then, on Day 2, those Waters were separated: the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') was placed in the midst, with Waters above and Waters below.
 
 This chapter is not about finding metaphors in scripture. It is about taking the text at face value and following the physics to where it leads.
 

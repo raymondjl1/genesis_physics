@@ -12,7 +12,7 @@ Ask a physicist and you will get any number of responses — "the Second Law," "
 
 This chapter answers the question. All of it. From the bottom up.
 
-In Chapter 10, we showed that the universe must be quantized — that discrete spectra emerge inevitably from the boundary conditions of the Firmament. We derived Planck's constant ℏ from membrane geometry, the Schrödinger equation from Firmament membrane dynamics, and the uncertainty principle from Fourier analysis on bounded domains. But those results described single particles, individual modes, isolated quantum states.
+In Chapter 10, we showed that the universe must be quantized — that discrete spectra emerge inevitably from the boundary conditions of the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing'). We derived Planck's constant ℏ from membrane geometry, the Schrödinger equation from Firmament membrane dynamics, and the uncertainty principle from Fourier analysis on bounded domains. But those results described single particles, individual modes, isolated quantum states.
 
 The universe contains approximately 10⁸⁰ particles. What happens when you have 10⁸⁰ of them, all interacting, all exchanging energy on a dynamical membrane embedded in a 6D spacetime sustained by an external coupling? *That* is thermodynamics. And the answer turns out to be far more interesting than standard physics has ever told you.
 

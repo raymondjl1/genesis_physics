@@ -89,7 +89,7 @@ And the verification (Section 6): sustaining-mode predictions match ΛCDM and ob
 
 > *The following section presents biblical-interpretive context for the two-phase expansion hypothesis. This material supplements the physical argument and may be of interest to theologically engaged readers, but the physical hypothesis (that a $\kappa$-transition produces a two-phase expansion) stands independently of it and is evaluated on physical grounds alone.*
 
-The Hebrew word for "firmament" is *raqia'* (רָקִיעַ), which derives from the verb *raqa'* (רָקַע), meaning "to beat out, to stretch, to spread." The Firmament is literally "the stretched-out thing"—expansion is *definitional* to its nature, not incidental.
+The canonical first-mention is the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing'), which derives from the verb *rāqaʿ* (רָקַע), meaning "to beat out, to stretch, to spread." The Firmament is literally "the stretched-out thing"—expansion is *definitional* to its nature, not incidental.
 
 The Old Testament contains seventeen explicit passages describing God "stretching out" the heavens, using cognate verbs from *raqa'* and *natah* (נָטָה, "to stretch"):
 

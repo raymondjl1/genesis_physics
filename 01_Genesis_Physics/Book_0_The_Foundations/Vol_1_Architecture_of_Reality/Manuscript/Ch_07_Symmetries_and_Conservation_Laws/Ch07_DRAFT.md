@@ -2,7 +2,7 @@
 
 ---
 
-## Part II: The Firmament and the Waters (continued)
+## Part II: The Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') and the Waters (מַיִם, *mayim*, 'waters') (continued)
 
 ---
 

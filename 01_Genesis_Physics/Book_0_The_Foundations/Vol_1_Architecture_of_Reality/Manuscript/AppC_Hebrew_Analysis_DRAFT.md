@@ -38,7 +38,7 @@ This is **not** a theology course. We are not arguing that the entire Bible is a
 
 ---
 
-## C.1 — בְּרֵאשִׁית (Bereshit) — "In [the] Beginning"
+## C.1 — בְּרֵאשִׁית (*bərēʾšît*) — "In [the] Beginning"
 
 **Hebrew:** בְּרֵאשִׁית
 **Root:** ראש (r-ʾ-sh) — "head, chief, beginning"
@@ -65,7 +65,7 @@ The word carries temporal significance: it establishes that time itself is not a
 
 ---
 
-## C.2 — בָּרָא (Bara) — "Created"
+## C.2 — בָּרָא (*bārāʾ*) — "Created"
 
 **Hebrew:** בָּרָא
 **Root:** ברא (b-r-ʾ) — to create, shape, form
@@ -94,7 +94,7 @@ Each use of bara in Genesis 1 corresponds to a phase transition: Day 1 (bara—l
 
 ---
 
-## C.3 — אֱלֹהִים (Elohim) — "God"
+## C.3 — אֱלֹהִים (*ʾĕlōhîm*) — "God"
 
 **Hebrew:** אֱלֹהִים
 **Root:** אלה (ʾ-l-h) — perhaps from a root meaning "strong" or "mighty"; etymology debated
@@ -121,7 +121,7 @@ In the physics framework, Elohim is not a force within Z₂. Elohim is the sourc
 
 ---
 
-## C.4 — הַשָּׁמַיִם (Shamayim) — "The Heavens"
+## C.4 — הַשָּׁמַיִם (*haššāmayim*) — "The Heavens"
 
 **Hebrew:** הַשָּׁמַיִם
 **Root:** שמי (sh-m-y) — etymology uncertain; possibly from an Akkadian root meaning "sky" or "height"
@@ -148,7 +148,7 @@ When Genesis 1:1 says God created "the heavens and the earth," it is establishin
 
 ---
 
-## C.5 — תֹהוּ וָבֹהוּ (Tohu Vavohu) — "Formless and Void"
+## C.5 — תֹהוּ וָבֹהוּ (*tōhû wā-bōhû*) — "Formless and Void"
 
 **Hebrew:** תֹהוּ וָבֹהוּ
 **Root:** Tohu (ת-ה-ו) and Bohu (ב-ה-ו) — both from roots meaning emptiness, formlessness, desolation
@@ -175,7 +175,7 @@ The beauty of this linguistic term is that it avoids two errors: (1) that creati
 
 ---
 
-## C.6 — תְהוֹם (Tehom) — "The Deep"
+## C.6 — תְהוֹם (*təhôm*) — "The Deep"
 
 **Hebrew:** תְהוֹם
 **Root:** ת-ה-ו-ם — cognate with Akkadian Tiamat (the primordial chaos goddess), but thoroughly demythologized in Hebrew
@@ -202,7 +202,7 @@ In thermodynamic terms, tehom is the mixed-phase state before phase transition. 
 
 ---
 
-## C.7 — מַיִם (Mayim) — "Waters"
+## C.7 — מַיִם (*mayim*) — "Waters"
 
 **Hebrew:** מַיִם
 **Root:** מ-י-ם — root meaning uncertain; some link to Egyptian etymologies
@@ -231,7 +231,7 @@ The theological point aligns with thermodynamics: the "waters" are not a single 
 
 ---
 
-## C.8 — אוֹר (Or) — "Light"
+## C.8 — אוֹר (*ʾôr*) — "Light"
 
 **Hebrew:** אוֹר
 **Root:** א-ו-ר — meaning to shine, illuminate, become light
@@ -256,10 +256,10 @@ In the zone model, or corresponds to the first operation of κ_create on Z₂, i
 
 ---
 
-## C.9 — חֹשֶׁךְ (Choshek) — "Darkness"
+## C.9 — חֹשֶׁךְ (*ḥōšek*) — "Darkness"
 
 **Hebrew:** חֹשֶׁךְ
-**Root:** ח-ש-ך — meaning to be dark, to conceal, to withhold
+**Root:** ח-ש-כ — meaning to be dark, to conceal, to withhold
 **Grammar:** Masculine noun, abstract but representing a state. Rarely used as a predicate adjective; primarily as a noun denoting the state of darkness.
 **Semantic Range:** Darkness (physical), obscurity, concealment, confusion, evil (metaphorically).
 
@@ -283,7 +283,7 @@ The separation of light and darkness is the first phase transition in Phase 1 (C
 
 ---
 
-## C.10 — יוֹם (Yom) — "Day"
+## C.10 — יוֹם (*yôm*) — "Day"
 
 **Hebrew:** יוֹם
 **Root:** י-ו-ם — possibly related to "hot" or "shine" (the sunny part of a 24-hour cycle), but uncertain
@@ -310,7 +310,7 @@ Yom is crucial because it establishes that time is not illusory or secondary in 
 
 ---
 
-## C.11 — רָקִיעַ (Raqia) — "Firmament"
+## C.11 — רָקִיעַ (*rāqîʿaʾ*) — "Firmament"
 
 **Hebrew:** רָקִיעַ
 **Root:** ר-ק-ע — meaning to beat out, stretch, spread, hammer (as in hammering metal into a sheet)
@@ -339,7 +339,7 @@ This is the strongest linguistic-physics bridge in the entire analysis.
 
 ---
 
-## C.12 — קָוָה (Qavah) — "Gathered"
+## C.12 — קָוָה (*qāwāh*) — "Gathered"
 
 **Hebrew:** קָוָה
 **Root:** ק-ו-ה — meaning to gather, collect, assemble, wait
@@ -364,7 +364,7 @@ In thermodynamic terms, this is condensation and phase separation. In zone terms
 
 ---
 
-## C.13 — דֶּשֶׁא (Deshe) — "Vegetation"
+## C.13 — דֶּשֶׁא (*dešeʾ*) — "Vegetation"
 
 **Hebrew:** דֶּשֶׁא
 **Root:** ד-ש-א — possibly related to growth, sprouting, fresh growth
@@ -389,7 +389,7 @@ Vegetation establishes a new ontological layer: not merely physical structure, b
 
 ---
 
-## C.14 — לְמִינוֹ (Lemino) — "According to Its Kind"
+## C.14 — לְמִינוֹ (*ləmînô*) — "According to Its Kind"
 
 **Hebrew:** לְמִינוֹ
 **Root:** מ-י-ן (min) — meaning kind, type, category, species
@@ -416,7 +416,7 @@ The biological world is not a continuum where one species blends indefinitely in
 
 ---
 
-## C.15 — נֶפֶשׁ חַיָּה (Nephesh Chayah) — "Living Soul / Living Creature"
+## C.15 — נֶפֶשׁ חַיָּה (*nepeš ḥayyāh*) — "Living Soul / Living Creature"
 
 **Hebrew:** נֶפֶשׁ (nephesh) + חַיָּה (chayah)
 **Root:** Nephesh (נ-פ-ש) — breath, life, soul, appetite, living creature. Chayah (ח-י-ה) — living, alive.
@@ -443,10 +443,10 @@ In zone terms, nephesh chayah creatures have an incipient form of zone-interface
 
 ---
 
-## C.16 — צֶלֶם אֱלֹהִים (Tselem Elohim) — "Image of God"
+## C.16 — צֶלֶם אֱלֹהִים (*ṣelem ʾĕlōhîm*) — "Image of God"
 
 **Hebrew:** צֶלֶם (tselem) אֱלֹהִים (Elohim)
-**Root:** Tselem (ץ-ל-ם) — image, likeness, representation, idol
+**Root:** Tselem (צ-ל-ם) — image, likeness, representation, idol
 **Grammar:** Noun construct: "image-of-God." Tselem can mean a carved image, a representation, a statue, or—in this case—the functional likeness/image of God.
 **Semantic Range:** Image, representation, idol, form, shape, likeness.
 
@@ -472,11 +472,11 @@ This capacity is what distinguishes humanity from nephesh chayah creatures (mere
 
 ---
 
-## C.17 — וַיְכֻלּוּ (Vayekhullu) — "Were Completed"
+## C.17 — וַיְכֻלּוּ (*wayəkullû*) — "Were Completed"
 
 **Hebrew:** וַיְכֻלּוּ
 **Root:** כ-ל-ה — meaning to complete, finish, end, consume
-**Grammar:** Pual (passive intensive) of k-l-h. Literally "were brought to completion." Vav-consecutive + perfect tense.
+**Grammar:** Pual (passive intensive) of k-l-h. Literally "were brought to completion." Qal imperfect with vav-consecutive (wayyiqtol).
 **Semantic Range:** Completed, finished, ended, consumed, perfected.
 
 **Theological Significance**
@@ -499,11 +499,11 @@ This has profound implications for modern physics: the universe is not eternally
 
 ---
 
-## C.18 — וַיִּשְׁבֹּת / קִדַּשׁ (Vayishbot / Qiddash) — "Rested / Sanctified"
+## C.18 — וַיִּשְׁבֹּת / קִדַּשׁ (*wayyišbōt / qiddaš*) — "Rested / Sanctified"
 
 **Hebrew:** וַיִּשְׁבֹּת (vayishbot) / קִדַּשׁ (qiddash)
 **Root:** Shbt (ש-ב-ת) — meaning to cease, rest, desist. Qdsh (ק-ד-ש) — meaning to be holy, to set apart, to sanctify.
-**Grammar:** Vayishbot: Qal perfect, vav-consecutive. Qiddash: Piel perfect, vav-consecutive.
+**Grammar:** Vayishbot: Qal imperfect with vav-consecutive (wayyiqtol). Qiddash: Piel perfect with vav-consecutive.
 **Semantic Range:** Rested (ceased from work), sanctified (set apart as holy), made sacred.
 
 **Theological Significance**
@@ -532,42 +532,48 @@ The sanctification of Day 7 is the sanctification of the new epoch. What begins 
 
 | # | Hebrew | Transliteration | English | Zone Correspondence | Reference |
 |---|--------|-----------------|---------|---------------------|-----------|
-| 1 | בְּרֵאשִׁית | Bereshit | In [the] beginning | Z₂ inception marker; Phase 1 opening | Gen 1:1 |
-| 2 | בָּרָא | Bara | Created | κ_create activation; ex nihilo | Gen 1:1, 1:21, 1:27 |
-| 3 | אֱלֹהִים | Elohim | God | Z₀/Z₁ agent; pluralunity structure | Gen 1:1, 1:26–27 |
-| 4 | הַשָּׁמַיִם | Shamayim | The heavens | Z₁ + Z₂.₂.₃ (dual form) | Gen 1:1, 1:8 |
-| 5 | תֹהוּ וָבֹהוּ | Tohu Vavohu | Formless and void | Z₂ high-entropy initial state | Gen 1:2 |
-| 6 | תְהוֹם | Tehom | The deep | Ψ (waters) before separation | Gen 1:2 |
-| 7 | מַיִם | Mayim | Waters | Ψ_A (above) and Ψ_B (below) | Gen 1:6–9 |
-| 8 | אוֹר | Or | Light | κ_create; first ordering principle | Gen 1:3–5 |
-| 9 | חֹשֶׁךְ | Choshek | Darkness | Pre-structured state; high-entropy | Gen 1:2, 1:4–5 |
-| 10 | יוֹם | Yom | Day | Creation epoch; temporal unit | Gen 1:5–13 |
-| 11 | רָקִיעַ | Raqia | Firmament | Z₂.₂.₂ (membrane boundary) | Gen 1:6–8 |
-| 12 | קָוָה | Qavah | Gathered | Phase transition; condensation | Gen 1:9–10 |
-| 13 | דֶּשֶׁא | Deshe | Vegetation | P̂₃, P̂₄ pattern operators (biology) | Gen 1:11–12 |
-| 14 | לְמִינוֹ | Lemino | According to its kind | Type-constraint operators (P̂) | Gen 1:11–25 |
-| 15 | נֶפֶשׁ חַיָּה | Nephesh Chayah | Living soul/creature | Zone-interface (animal) | Gen 1:20–24 |
-| 16 | צֶלֶם אֱלֹהִים | Tselem Elohim | Image of God | I_human; full zone-interface | Gen 1:26–27 |
-| 17 | וַיְכֻלּוּ | Vayekhullu | Were completed | Phase 1 closure; Axiom 2 (Conservation) | Gen 2:1 |
-| 18 | וַיִּשְׁבֹּת / קִדַּשׁ | Vayishbot / Qiddash | Rested / Sanctified | Phase transition to Edenic; κ_create → κ_full | Gen 2:2–3 |
+| 1 | בְּרֵאשִׁית | *bərēʾšît* | In [the] beginning | Z₂ inception marker; Phase 1 opening | Gen 1:1 |
+| 2 | בָּרָא | *bārāʾ* | Created | κ_create activation; ex nihilo | Gen 1:1, 1:21, 1:27 |
+| 3 | אֱלֹהִים | *ʾĕlōhîm* | God | Z₀/Z₁ agent; pluralunity structure | Gen 1:1, 1:26–27 |
+| 4 | הַשָּׁמַיִם | *haššāmayim* | The heavens | Z₁ + Z₂.₂.₃ (dual form) | Gen 1:1, 1:8 |
+| 5 | תֹהוּ וָבֹהוּ | *tōhû wā-bōhû* | Formless and void | Z₂ high-entropy initial state | Gen 1:2 |
+| 6 | תְהוֹם | *təhôm* | The deep | Ψ (waters) before separation | Gen 1:2 |
+| 7 | מַיִם | *mayim* | Waters | Ψ_A (above) and Ψ_B (below) | Gen 1:6–9 |
+| 8 | אוֹר | *ʾôr* | Light | κ_create; first ordering principle | Gen 1:3–5 |
+| 9 | חֹשֶׁךְ | *ḥōšek* | Darkness | Pre-structured state; high-entropy | Gen 1:2, 1:4–5 |
+| 10 | יוֹם | *yôm* | Day | Creation epoch; temporal unit | Gen 1:5–13 |
+| 11 | רָקִיעַ | *rāqîʿaʾ* | Firmament | Z₂.₂.₂ (membrane boundary) | Gen 1:6–8 |
+| 12 | קָוָה | *qāwāh* | Gathered | Phase transition; condensation | Gen 1:9–10 |
+| 13 | דֶּשֶׁא | *dešeʾ* | Vegetation | P̂₃, P̂₄ pattern operators (biology) | Gen 1:11–12 |
+| 14 | לְמִינוֹ | *ləmînô* | According to its kind | Type-constraint operators (P̂) | Gen 1:11–25 |
+| 15 | נֶפֶשׁ חַיָּה | *nepeš ḥayyāh* | Living soul/creature | Zone-interface (animal) | Gen 1:20–24 |
+| 16 | צֶלֶם אֱלֹהִים | *ṣelem ʾĕlōhîm* | Image of God | I_human; full zone-interface | Gen 1:26–27 |
+| 17 | וַיְכֻלּוּ | *wayəkullû* | Were completed | Phase 1 closure; Axiom 2 (Conservation) | Gen 2:1 |
+| 18 | וַיִּשְׁבֹּת / קִדַּשׁ | *wayyišbōt / qiddaš* | Rested / Sanctified | Phase transition to Edenic; κ_create → κ_full | Gen 2:2–3 |
 
 ---
 
 ## C.20 Note on Transliteration
 
-This appendix uses the following transliteration conventions:
+This appendix uses the following transliteration conventions, applied consistently across all entries and tables:
 
 **Simplified Academic Transliteration:**
-- Hebrew gutturals (ʾ, ʿ, h, ḥ) are represented when they affect pronunciation or meaning
-- Vowels follow the Hebrew text, with the following convention:
+- Hebrew gutturals are represented with ʾ (aleph) and ʿ (ayin); final-ayin in word-final position is rendered with a straight apostrophe `'` only in informal in-prose first mentions of names like *rāqîʿaʾ*. The academic transliteration uses ʿ.
+- Vowels follow the Hebrew text, with macron diacriticals applied consistently:
   - ā = qamets (long a)
   - ē = tsere (long e)
-  - ī = ḥireq (long i)
+  - ī = ḥireq-yod (long i)
   - ō = ḥolem (long o)
   - ū = shuruq (long u)
   - ə = schwa (very short, often silent)
-- Doubled consonants are marked with a line (mittef) when relevant (geminates)
-- Definite articles and prepositions are hyphenated (ha-raqia = "the firmament")
+- Doubled consonants are written as a doubled letter (e.g., *qiddaš*, *wayyišbōt*) where the Masoretic dagesh forte is present.
+- Underdot ḥ = ḥet; š = shin; ṣ = tsade.
+- Definite articles and prepositions are hyphenated when ambiguity would otherwise arise (e.g., *wā-bōhû*); in the canonical first-mention format used by the series ("Hebrew script, italic transliteration, English gloss"), the unhyphenated, fully vocalized form is preferred.
+- Canonical series first-mention examples (used throughout the manuscript):
+  - The Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing')
+  - The Waters (מַיִם, *mayim*, 'waters')
+  - Created (בָּרָא, *bārāʾ*, 'created')
+  - Formless and empty (תֹהוּ וָבֹהוּ, *tōhû wā-bōhû*, 'formless and empty')
 
 **Abbreviation of Root Analysis:**
 When a Hebrew word is analyzed, the root letters are presented in order (e.g., b-r-ʾ for bara, r-q-ʿ for raqia). This is not a full transliteration but a schematic showing the triliteral root structure that determines meaning.

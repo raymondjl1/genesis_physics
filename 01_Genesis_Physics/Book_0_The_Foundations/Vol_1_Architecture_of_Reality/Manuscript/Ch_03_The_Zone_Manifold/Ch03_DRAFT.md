@@ -13,7 +13,7 @@ In Chapter 1, we established seven axioms and Postulate F that define our univer
 
 Here's the deep truth: **the shape of spacetime encodes the structure of reality itself.** Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1, the Sustaining Ground) says the universe is an *open system*—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has *zones*.
 
-The ancient texts speak of Heaven and Earth, of "waters above and waters below," of a Firmament separating them. We showed in Chapter 1 that these are not poetic metaphors—they are descriptions of the *topological structure* of creation. They describe zones: regions with distinct ontological status, physics, and role in the cosmic order.
+The ancient texts speak of Heaven and Earth, of "waters above and waters below" (מַיִם, *mayim*, 'waters'), of a Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') separating them. We showed in Chapter 1 that these are not poetic metaphors—they are descriptions of the *topological structure* of creation. They describe zones: regions with distinct ontological status, physics, and role in the cosmic order.
 
 **So what is the Zone Manifold?**
 

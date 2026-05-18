@@ -4,7 +4,7 @@
 
 You now have the Five Principles: Sustaining, Conservation, Symmetry, Degradation, and Duality. These are constraints—they tell you what the universe must *obey*. But they don't yet tell you what the universe can *do*.
 
-Ask the physical question: What are the primitive operations from which all field dynamics emerge? If you have a field configuration—say, the Waters field Ψ_A sitting on the zone manifold, or a fluctuation in the firmament membrane—what can happen to it? You can locate it at a point. You can move it from one place to another. You can repeat it. You can transform it. You can scale it. You can hit a critical threshold and jump discontinuously. You can cycle back to where you started.
+Ask the physical question: What are the primitive operations from which all field dynamics emerge? If you have a field configuration—say, the Waters field Ψ_A (מַיִם, *mayim*, 'waters') sitting on the zone manifold, or a fluctuation in the Firmament membrane (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing')—what can happen to it? You can locate it at a point. You can move it from one place to another. You can repeat it. You can transform it. You can scale it. You can hit a critical threshold and jump discontinuously. You can cycle back to where you started.
 
 These aren't arbitrary. They're the seven independent geometric operations available to any codimension-2 surface embedded in 6D spacetime.
 

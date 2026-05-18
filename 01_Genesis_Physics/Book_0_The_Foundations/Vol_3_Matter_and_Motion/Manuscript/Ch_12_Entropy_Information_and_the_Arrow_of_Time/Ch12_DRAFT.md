@@ -377,7 +377,7 @@ The entropy production rate is **negative**:
 
 $$\frac{d\mathcal{S}}{dt} < 0 \quad \text{(3.12.33)}$$
 
-The universe *orders itself*. Chaos becomes pattern. From the initial tohu vavohu (Genesis 1:2—"without form and void"), structure emerges: zones, boundaries, matter, biology, complexity.
+The universe *orders itself*. Chaos becomes pattern. From the initial *tohu va-vohu* (תֹהוּ וָבֹהוּ, *tōhû wā-bōhû*, 'formless and empty'; Genesis 1:2), structure emerges: zones, boundaries, matter, biology, complexity.
 
 Look at Eq. (3.12.28). In Phase 1:
 
@@ -755,7 +755,7 @@ Volume 4 will turn to the cosmos itself: how did the zones form? What is the geo
 
 Volume 5 will trace the complete thermal history of the universe across all four epochs:
 
-- **Phase 1 (Creation, Days 1–6):** Rapid ordering. Zone formation. Membrane stabilization. Biological emergence. The entropy drops from near-maximum (tohu vavohu) to near-minimum.
+- **Phase 1 (Creation, Days 1–6):** Rapid ordering. Zone formation. Membrane stabilization. Biological emergence. The entropy drops from near-maximum (*tohu va-vohu*) to near-minimum.
 
 - **Phase 2 (Edenic):** Cosmic stasis. Stars shine eternally. No decay. Entropy = constant. The universe in a state of perfect balance.
 

@@ -90,11 +90,11 @@ Before we can claim that Volume 4 *derives* quantum mechanics, we have to be hon
 
 Take inventory.
 
-**Volume 1, Chapter 3 — The Zone Manifold.** The 6D spacetime is partitioned into eight nested zones corresponding to the Genesis 1 architecture. The two extra dimensions are the ξ-direction (Waters Above) with extent $\xi_A \approx 3 \times 10^{26}$ m and the η-direction (Waters Below) with extent $\eta_B \approx 1.3 \times 10^{-15}$ m. Both are *finite*. Cite (1.3.*).
+**Volume 1, Chapter 3 — The Zone Manifold.** The 6D spacetime is partitioned into eight nested zones corresponding to the Genesis 1 architecture. The two extra dimensions are the ξ-direction (Waters Above; *mayim*, Gen 1:2, 1:6–8; see Vol 1 Ch 6) with extent $\xi_A \approx 3 \times 10^{26}$ m and the η-direction (Waters Below) with extent $\eta_B \approx 1.3 \times 10^{-15}$ m. Both are *finite*. Cite (1.3.*).
 
 **Volume 1, Chapter 4 — The 6D Embedding Space.** The full 6D metric is written down, together with the warp factors $e^{2A(\xi,\eta)}$ and $e^{2B(\xi,\eta)}$ that determine how the extra-dimensional geometry couples to 4D physics. Warp factors will matter in §1.4 when we recover the numerical value of Planck's constant.
 
-**Volume 1, Chapter 5 — The Firmament Manifold.** The Firmament $\Sigma$ is a 4D elastic Firmament embedded in the 6D bulk, characterized by a tension $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and a surface mass density $\mu = 6.7 \times 10^{81}$ kg/m³. Its transverse displacement field $\psi(x,t)$ satisfies the wave equation
+**Volume 1, Chapter 5 — The Firmament Manifold.** The Firmament (*rāqîʿaʾ*; see Vol 1 Ch 5 §5.1) $\Sigma$ is a 4D elastic Firmament embedded in the 6D bulk, characterized by a tension $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and a surface mass density $\mu = 6.7 \times 10^{81}$ kg/m³. Its transverse displacement field $\psi(x,t)$ satisfies the wave equation
 
 $$\mu \frac{\partial^2 \psi}{\partial t^2} = \sigma \nabla^2 \psi - V_{\mathrm{ext}}(x)\psi + \mathcal{F}(x,t) \tag{4.1.1}$$
 

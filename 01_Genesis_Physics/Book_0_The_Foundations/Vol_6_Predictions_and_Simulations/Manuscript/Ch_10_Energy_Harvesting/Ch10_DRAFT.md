@@ -26,7 +26,7 @@ Read off the 6D geometry directly and only four energy-bearing features appear. 
 
 **(1) The cosmic capacitor.** The Day 2 separation of the Waters stored a potential difference across the Firmament. Waters Above pushes outward, Waters Below pushes inward, and the Firmament membrane is stretched between them under tension. In the capacitor analogy this is the `E = ½CV²` stored at the charge-separated plates. The total inventory, reckoned in §10.2, is roughly 2.14 × 10⁷¹ J — the entire dark-energy plus dark-matter budget of the observable universe.
 
-**(2) Firmament tension.** Locally, the Firmament is a stretched raqia — Hebrew for "hammered-out thing". It has tension σ. It vibrates. The equilibrium vibrations of the Firmament membrane (at all frequencies) are what standard physics calls vacuum fluctuations; integrated over space they yield the observed cosmological constant ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³. This is the feature that a tabletop device can reach.
+**(2) Firmament tension.** Locally, the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') is a stretched membrane — the Hebrew connotes a "hammered-out thing". It has tension σ. It vibrates. The equilibrium vibrations of the Firmament membrane (at all frequencies) are what standard physics calls vacuum fluctuations; integrated over space they yield the observed cosmological constant ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³. This is the feature that a tabletop device can reach.
 
 **(3) Waters field density gradients.** Each Waters reservoir is described in the framework as a scalar field (Ψ_A for Above, Ψ_B for Below) with a potential-energy profile across the ξ and η extra-dimensional coordinates (Vol 1 Ch 6). Gradients carry energy by construction; couple a device to the gradient and you have a conduit.
 

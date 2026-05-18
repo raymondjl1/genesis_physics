@@ -22,7 +22,7 @@ Here is the compact version:
 | Tangent spaces and forms | Ch 3–8 | Fields, forces, and currents live in tangent spaces |
 | Topology | Ch 3, 7, 9, 10 | Global structure constrains which fields and defects can exist |
 | Connections | Ch 3–8 | Differentiating fields on curved manifolds requires covariant derivatives |
-| Curvature | Ch 3–5 | Gravity IS curvature; the Firmament bends into extra dimensions |
+| Curvature | Ch 3–5 | Gravity IS curvature; the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') bends into extra dimensions |
 | Fiber bundles | Ch 3, 5, 7–9 | Gauge forces are connections on bundles over the zone manifold |
 | Exterior calculus | Ch 5–8, 11 | Boundary integrals and conservation laws need Stokes' theorem |
 | Lie groups | Ch 3, 4, 7–9 | Symmetries form groups; Noether maps groups to conservation laws |

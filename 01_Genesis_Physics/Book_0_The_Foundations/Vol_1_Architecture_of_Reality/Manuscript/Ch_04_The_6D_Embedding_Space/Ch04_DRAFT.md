@@ -5,7 +5,7 @@
 
 ## §4.0 Introduction — From Zone Topology to Zone Geometry
 
-Imagine you're an architect, and someone hands you a blueprint that says: "This building has eight zones, nested in a specific hierarchy. Heaven above, Earth below, a Firmament in between. Fields that sustain everything." You nod, understanding the structure. But then they ask: "Now build it."
+Imagine you're an architect, and someone hands you a blueprint that says: "This building has eight zones, nested in a specific hierarchy. Heaven above, Earth below, a Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') in between, with Waters (מַיִם, *mayim*, 'waters') above and below. Fields that sustain everything." You nod, understanding the structure. But then they ask: "Now build it."
 
 That is exactly where we are. Chapter 3 gave us the skeleton—the topological blueprint of the Zone Manifold, nine zones stratified into a 6D spacetime. But a skeleton alone doesn't breathe. Topology tells you which zones are connected; geometry tells you *how* they are connected. Topology is the blueprint; geometry is the actual building.
 
