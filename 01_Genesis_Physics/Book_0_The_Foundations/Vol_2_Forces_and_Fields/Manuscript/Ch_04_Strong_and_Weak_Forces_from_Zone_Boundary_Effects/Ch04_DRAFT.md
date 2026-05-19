@@ -46,7 +46,7 @@ The key quantity is the Gaussian warp factor:
 
 $$B(\eta) = -\frac{\gamma^2 \eta^2}{2} \quad \text{(2.4.1)}$$
 
-> **Warp profile note:** Chapter 4 uses a Gaussian Waters Below warp profile $B(\eta) = -\gamma^2\eta^2/2$, whereas Chapter 2 adopts an exponential form $B_\eta(\eta) = B_0 - \gamma\eta/2$. These are distinct functional forms with different physical implications (Gaussian is symmetric about $\eta=0$; exponential is monotonically decaying). A canonical warp profile consistent with the 6D Einstein equations must be established before these chapters are unified — see Open Problem 2.WP.
+> **Canonical warp profile (B2 lock, 2026-05-18).** The Gaussian form $B(\eta) = -\gamma^2\eta^2/2$ used here is the **leading-order Taylor expansion** of the Vol 1 canonical warp profile $A_\eta(\eta) = B_0 - \eta/\eta_B$ (Vol 1 Ch 4 §4.1.2, RT-1.WF) about $\eta = 0$: expanding $e^{2A_\eta}$ near the Firmament gives $e^{2B_0}(1 - 2\eta/\eta_B + 2\eta^2/\eta_B^2 - \ldots)$, and the quadratic term is what makes the threefold orbifold symmetry manifest in the derivation below. The exponential form used in Ch 2 §2.1.3 is the same canonical form taken globally on the Waters Below slice. **OP-2.WP is CLOSED** by adoption of the Vol 1 canon; this Gaussian is now an explicitly small-$\eta$ approximation to the canonical profile, not a competing form. See `Source_Reference/Canonical_Warp_Profile.md`.
 
 where $\gamma$ is a coupling constant related to the Firmament tension. This quadratic form has threefold symmetry: $B(\eta)$ is invariant under $\eta \to e^{2\pi i/3} \eta$.
 

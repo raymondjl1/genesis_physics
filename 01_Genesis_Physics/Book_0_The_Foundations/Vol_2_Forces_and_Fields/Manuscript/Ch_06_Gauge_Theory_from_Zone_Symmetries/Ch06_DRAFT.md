@@ -208,7 +208,7 @@ where $\psi_0^{W}$ is the zero-mode wavefunction of the SU(2) gauge field, which
 
 The strong force is the most deeply geometric of the four forces, and its derivation requires the most sophisticated topology. Chapter 4 (equations 2.4.1–2.4.6) showed that the Waters Below region has a ℤ₃ orbifold identification that produces three equivalent topological sectors — which we identify with the three colors of QCD. Now we must derive the gauge group SU(3) from this topology.
 
-The Waters Below occupies $\eta \in [-\eta_B, 0]$ with Gaussian warp factor $B_\eta(\eta) = -\gamma^2\eta^2/2$ (equation 1.4.27). At the nuclear scale $\eta_B \sim 1.3 \times 10^{-15}$ m, the geometry is strongly curved. The crucial topological feature is the discrete identification symmetry.
+The Waters Below occupies $\eta \in [-\eta_B, 0]$ with the canonical Vol 1 warp profile $A_\eta(\eta) = B_0 - \eta/\eta_B$ (Vol 1 Ch 4 §4.1.2, RT-1.WF; see `Source_Reference/Canonical_Warp_Profile.md`). The Gaussian form $B_\eta(\eta) = -\gamma^2\eta^2/2$ used in §6.3.2 and in Ch 4 §4.2 is the leading-order Taylor expansion of this canonical form near $\eta = 0$, retained here only because the manifest $\mathbb{Z}_2$ reflection symmetry $\eta \to -\eta$ of the Gaussian makes the orbifold construction transparent. At the nuclear scale $\eta_B \sim 1.3 \times 10^{-15}$ m, the geometry is strongly curved. The crucial topological feature is the discrete identification symmetry.
 
 ### 6.4.2 The ℤ₃ Orbifold Construction
 
