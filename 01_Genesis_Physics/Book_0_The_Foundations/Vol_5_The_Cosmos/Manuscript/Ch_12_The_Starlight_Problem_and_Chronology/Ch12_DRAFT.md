@@ -234,7 +234,17 @@ Detailed calculation requires specifying the exact expansion history and light-p
 
 ## Section 3: The Creation-Week Light-Propagation Mechanism
 
-### 3.1 Waters Above as Perpendicular Dimensions
+### 3.0 Scope and honesty statement (rev. 0516_Rev_335)
+
+The mechanism developed in §§3.1–3.4 — creation-week light propagation through the Waters Above (perpendicular dimensions), governed by the κ_create / κ_full Sabbath-Boundary transition — is offered as a **Physical Hypothesis (not theorem)**, not as a derivation. Two specific honesty admissions are required upfront before the section's prose develops the hypothesis:
+
+1. **The Sabbath-Boundary κ-transition is structural; the parameters are calibrated.** The existence of a discontinuous κ transition at Day 7 is established structurally in Vol 1 Ch 11 (Sabbath Boundary as phase transition) and is *not* invented here. What this chapter does *not* derive from the field equations are the numerical *parameters* of the transition: the creation-mode Hubble rate $H_\text{create} \sim 10^{14} H_0$ (used in §2.4) is solved-for from the desired endpoint condition that the scale factor grow by ~10²⁶ in three days, and the extra-dimensional geodesic radius $R_\perp \sim 10^{-30}$ m (used in §3.2 Eq 5.12.2) is an *assumed natural scale*, not a derived one. Both are calibrated to make the mechanism land on the required answer; neither is currently obtained from the 6D zone field equations on the canonical warp profile.
+
+2. **This is a hypothesis with a parameter ledger, not a parameter-free prediction.** Until the field-equation derivation of $H_\text{create}$ and $R_\perp$ closes, §§3.1–3.3 must be read as "the mechanism, *if* its parameters take the values quoted, can deliver creation-week light arrival without violating local Lorentz invariance." That conditional is what is on offer — not "the framework predicts $H_\text{create} \sim 10^{14} H_0$ and $R_\perp \sim 10^{-30}$ m from first principles."
+
+> **Open Problem CT-5.STAR (canonical tag).** Derive $H_\text{create}$ and $R_\perp$ from the 6D zone field equations on the canonical warp profile (the same profile used in Vol 1 Ch 6 and Vol 5 Ch 1) with the Sabbath-Boundary κ-transition imposed as the matching condition at Day 7. Resolving CT-5.STAR would promote §§3.1–3.3 from "Physical Hypothesis" to "derivation"; until then, §3.5's observational-consistency budget is the chapter's principal honesty check against existing data.
+
+### 3.1 Waters Above as Perpendicular Dimensions  *(Physical Hypothesis, not theorem)*
 
 **Recap of Vol 1 Ch 6:** The zone architecture framework embeds the 4D Firmament (our spacetime) as a codimension-2 Firmament in a 6D spacetime:
 
@@ -248,7 +258,7 @@ The Waters Above ($\Psi_A$) and Waters Below ($\Psi_B$) are scalar fields living
 
 **During creation week,** before the system reached thermodynamic equilibrium at Day 7, boundary conditions may have been different. The Firmament may not have been a completely isolated 4D Firmament but rather permeable to bulk modes.
 
-### 3.2 Photon Geodesics in the Full 6D Metric
+### 3.2 Photon Geodesics in the Full 6D Metric  *(Physical Hypothesis, not theorem)*
 
 If light (electromagnetic radiation) propagates in the full 6D spacetime, photon worldlines follow null geodesics:
 
@@ -272,7 +282,7 @@ $$t_\text{traverse} \sim \frac{R_\perp}{c}$$
 
 where $R_\perp$ is the characteristic size of the extra dimensions, expected to be Planck-scale or smaller.
 
-### 3.3 Sabbath Boundary and Light Confinement
+### 3.3 Sabbath Boundary and Light Confinement  *(Physical Hypothesis, not theorem)*
 
 **At Day 7,** when $\kappa_\text{create} \to \kappa_\text{full}$ (or $\kappa_\text{partial}$ if the Fall immediately follows), the system transitions to a stable equilibrium. Boundary conditions *lock*: the Firmament becomes an isolated 4D Firmament, no longer permeable to bulk photons.
 
@@ -303,6 +313,21 @@ Light is henceforth confined to 4D, traveling at speed $c$ through 3D spatial di
 These are genuine open problems. They are flagged here to avoid hand-waving but acknowledged as beyond the current scope of Chapter 12. Vol 6 (Predictions & Simulations) or specialized research into the Waters field dynamics (Vol 1 Ch 6) will inform refinements.
 
 [FIGURE: Fig 5.12.2 — Light paths through Waters Above during creation week (3D schematic showing bulk dimensions, Firmament as 4D Firmament, light routing)]
+
+### 3.5 Observational-Consistency Budget
+
+The κ_create / κ_full Sabbath-Boundary transition that §§3.1–3.3 hypothesizes must — to be taken seriously as physics rather than as narrative — be consistent with the four most stringent constraints standard cosmology has accumulated over the past century. This subsection lays out that budget honestly. For each observable, we state (a) the standard ΛCDM value, (b) what the κ-transition mechanism of this chapter predicts (if it predicts anything yet), and (c) the *discrepancy budget* — the magnitude of the gap and whether it is currently closed, open with a research path, or unfalsifiable as stated.
+
+| # | Observable | Standard ΛCDM value | κ-transition mechanism prediction | Discrepancy budget |
+|---|---|---|---|---|
+| 1 | **CMB last-scattering temperature** | $T_\text{LS} = 2970$ K at $z_\text{LS} \approx 1090$; CMB today $T_0 = 2.7255$ K | The mechanism makes **no independent prediction** for $T_\text{LS}$ yet. §6.1 of this chapter notes that sustaining-mode Friedmann equations are mathematically identical to ΛCDM, so the standard $T_\text{LS}$ is recovered *post-Sabbath-Boundary*. The mechanism is silent on what $T_\text{LS}$ would be if computed through the creation-week phase. | **Open / unfalsifiable as stated.** A genuine prediction requires propagating the κ-transition through the photon-baryon fluid equations; not done here. Flagged as part of CT-5.STAR. |
+| 2 | **BBN light-element abundances** | $Y_p \approx 0.247$ (⁴He mass fraction); D/H $\approx 2.5 \times 10^{-5}$; ⁷Li/H $\approx 1.6 \times 10^{-10}$ | Same status as item 1: the mechanism inherits ΛCDM BBN through the sustaining-mode-equals-ΛCDM identity, and makes no independent BBN prediction from the creation-week side. | **Open / unfalsifiable as stated.** The strong observational discrimination BBN offers between cosmological models is not currently exercised by the κ-transition mechanism. Flagged as part of CT-5.STAR. |
+| 3 | **Matter power spectrum P(k)** | Power spectrum tilt $n_s = 0.965$, amplitude $A_s \approx 2.1 \times 10^{-9}$ at $k_0 = 0.05$ Mpc⁻¹; clustering $\sigma_8 \approx 0.81$ | The creation-week rapid expansion (§2.4, $H_\text{create} \sim 10^{14} H_0$) would, taken at face value, dilute matter perturbations enormously — any structure on scales smaller than $c/H_\text{create}$ at creation-week end would be smoothed out. Whether this is consistent with the observed $\sigma_8$ and large-scale isotropy depends sensitively on the *spectrum of perturbations at the Sabbath-Boundary handover*, which the chapter does not derive. | **Open with a known tension.** Naive estimates suggest creation-mode physics would erase pre-Sabbath-Boundary structure, requiring structure to grow from sustaining-mode initial conditions consistent with the CMB. Whether this is consistent depends on the matching condition. Flagged as part of CT-5.STAR. |
+| 4 | **Isotropy bound (CMB dipole-residual)** | $\Delta T / T < 10^{-5}$ on angular scales $\ell > 2$, after subtracting kinematic dipole | Two-phase expansion with $H_\text{create}$ uniform over the Firmament *would* preserve isotropy of the post-Sabbath state — this is the most favorable item in the budget for the mechanism. Local anisotropies in $H_\text{create}$ at the $10^{-5}$ level would be amplified by the exponential expansion and are tightly bounded. | **Closed at the precision required, *if* $H_\text{create}$ is taken as spatially uniform.** This is the strongest argument in the chapter's favor at the budget level. Note however that this is a *consistency* check, not an independent prediction. |
+
+**Summary of the budget.** Three of the four standard-cosmology consistency checks (CMB last-scattering, BBN, matter power spectrum) are currently **open** — the κ-transition mechanism of §§3.1–3.3 does not make falsifiable predictions for them, and the chapter must say so explicitly rather than claim consistency by analogy. The fourth (isotropy) is the strongest item in the mechanism's favor and is currently *consistent* at the precision required, conditional on a spatially uniform $H_\text{create}$. The honest reader's takeaway: the mechanism is currently a Physical Hypothesis whose principal observational discrimination tests have *not yet been performed*. This is the work CT-5.STAR (Open Problem above) exists to do.
+
+We deliberately do **not** describe this as "the framework passes all consistency checks" or as "the predictions are consistent with observation." Neither claim is currently warranted. What is warranted is the milder statement: the mechanism's most easily-derived consequence (isotropy preservation under uniform $H_\text{create}$) is consistent with observation, and the harder consequences (CMB, BBN, power spectrum) have not yet been derived. Promotion of any of these to "consistency check" or "prediction" requires actually running the calculation, not asserting compatibility.
 
 ---
 
