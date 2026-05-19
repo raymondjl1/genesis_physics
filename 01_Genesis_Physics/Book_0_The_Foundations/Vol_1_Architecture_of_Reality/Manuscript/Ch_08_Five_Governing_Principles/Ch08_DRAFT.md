@@ -124,6 +124,8 @@ $$\mathcal{O}_{\text{sustain}} = \alpha_{\text{grav}} \, R^{(6)} + \alpha_{\text
 
 where each coupling $\alpha_i$ is dimensionless and each operator has the appropriate dimensions to make $\kappa \, \mathcal{O}_{\text{sustain}}$ an energy density: $R^{(6)}$ is the 6D Ricci scalar $[L^{-2}]$, $K$ is the extrinsic curvature trace of the Firmament $[L^{-1}]$, $|\Psi|^2$ has dimensions $[M L^{-3}]$ (field energy density), and $\bar{\psi}\psi$ is the fermion condensate with the same dimensions. The sustaining field $\kappa$ carries dimensions $[M L^{-1} T^{-3}]$ (power density), ensuring that each term in the integrand of Eq. (1.8.6) has the correct dimensions of energy density.
 
+The five couplings $\alpha_i$ ($i = 1, \ldots, 5$) are *not* free in the same sense as Standard-Model Yukawa couplings. Each $\alpha_i$ multiplies the lowest-dimension gauge-invariant Lorentz scalar operator that can be constructed from its sector's fields (Sustaining, Conservation, Symmetry, Degradation, Duality — the Five Principles of Vol 1 Ch 8). Higher-dimension operators are suppressed by the relevant zone scale ($\eta_B$ or $\xi_A$). The five $\alpha_i$ are therefore the only Lorentz-scalar couplings of dimension $\leq [L^{-2}]$ consistent with the Five Principles; their numerical values constitute an open problem whose resolution requires either (i) a symmetry argument linking them to one fundamental coupling (e.g., a single sustaining scale) or (ii) RG-flow matching to observed effective couplings at low energy. Both options are catalogued as **Open Problem OP-Sust-α**.
+
 The sustaining field has definite properties established in Chapter 1:
 
 - **Dimensions:** $[\kappa] = [M L^{-1} T^{-3}]$ (power density)

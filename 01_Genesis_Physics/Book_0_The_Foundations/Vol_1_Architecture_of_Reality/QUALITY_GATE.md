@@ -106,3 +106,14 @@ ALL six agents review every chapter:
 
 **Back Matter Review Report:** `Manuscript/BACKMATTER_REVIEW_REPORT.md`
 **Back Matter Spec:** `BACKMATTER_SPEC.md`
+
+---
+
+## Open Problems (Vol 1 registry)
+
+Open problems are tagged inline in the manuscript with a short code. Resolution paths are catalogued below.
+
+| Code | Where introduced | Statement | Resolution path |
+|---|---|---|---|
+| **OP-1.WF** | Ch 3 §3.6, Ch 4 §4.0 / Problem 4.6 | Derive the warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ from the 6D Einstein equations rather than assuming a Randall-Sundrum-inspired form. | Research Task RT-1.WF; coupled ODE system set up in Ch 4 Problem 4.6. |
+| **OP-Sust-α** | Ch 8 §8.4.2, Eq. (1.8.7) | Fix the numerical values of the five sustaining couplings $\alpha_i$ ($i=1,\ldots,5$) in $\mathcal{O}_{\text{sustain}}$. | Either (i) a symmetry argument reducing the five to one fundamental sustaining coupling, or (ii) RG-flow matching of $\alpha_i$ to observed effective couplings at low energy. The five operators are themselves uniquely determined by the Five Principles + dimensional analysis; only the dimensionless prefactors are open. |
