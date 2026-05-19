@@ -197,11 +197,11 @@ The curvature is:
 
 [Equation — see print edition.]
 
-For a system of N particles, this scales as approximately 1/(k sub B T to the 2 N), so the width of the fluctuations is:
+Using the standard result the expression with heat capacity C sub V approximately N k sub B, the curvature scales as approximately -1/(N k sub B to the 2 T to the 2). Reading off the Gaussian width (variance = -1/ partial to the 2 sub U Omega):
 
 [Equation — see print edition.]
 
-The relative fluctuation is:
+The relative fluctuation, using U sub A approximately N k sub B T, is:
 
 [Equation — see print edition.]
 

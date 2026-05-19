@@ -64,9 +64,13 @@ Semantic Range: To create from nothing (ex nihilo); to bring into being somethin
 
 Theological Significance
 
-Bara is the signature verb of creation, and its exclusivity is stunning: in Biblical Hebrew, only God baras. Humans might aseh (make, form, manufacture), but they do not bara. This linguistic boundary marks an absolute distinction between divine and human creative capacity.
+bārāʾ is the signature verb of divine creation; in canonical doctrine (Heb 11:3) it denotes creation ex nihilo — bringing into being out of no pre-existing substance.[^bara-lex]
 
-The verb suggests not modification of existing material, but the introduction of qualitatively new existence. When God baras, something comes into being that did not exist before—not merely rearranged, but fundamentally new.
+[^bara-lex]: Lexicographically, the Hebrew root bārāʾ encodes only "create / bring into being" and is also used of acts that shape pre-existing material (Gen 1:27 from dust, Isa 65:17 of the renewed cosmos). The ex-nihilo reading is a doctrinal synthesis grounded in Heb 11:3 and the wider canon; this Appendix adopts it as the doctrinal position while flagging that the lexical entry alone does not entail it.
+
+The exclusivity of bārāʾ is stunning: in Biblical Hebrew, only God bārāʾs. Humans might aseh (make, form, manufacture), but they do not bārāʾ. This linguistic boundary marks an absolute distinction between divine and human creative capacity.
+
+The verb suggests not modification of existing material, but the introduction of qualitatively new existence. When God bārāʾs, something comes into being that did not exist before—not merely rearranged, but fundamentally new.
 
 Zone Architecture Correspondence
 
@@ -137,7 +141,7 @@ Semantic Range: Tohu: formless, waste, emptiness, confusion. Bohu: void, empty, 
 
 Theological Significance
 
-Tohu vavohu describes the initial state of Z₂—not a state of nonexistence, but of disorder. The earth exists (v. 2 says "the earth was formless"), but it lacks structure, pattern, differentiation. This is a profound statement: creation does not mean conjuring something from absolute nothingness. It means imposing order on pre-existent potential.
+Tōhû wā-bōhû describes the initial state of Z₂—not a state of nonexistence, but of disorder. The earth exists (v. 2 says "the earth was formless"), but it lacks structure, pattern, differentiation. Creation in the bārāʾ sense is ex nihilo and simultaneously orderly — the tōhû wā-bōhû state of Gen 1:2 describes the immediately post-bārāʾ unformed-but-existent material the rest of the creation week shapes.
 
 The pair of terms (tohu and bohu) emphasizes the completeness of the formlessness—nothing is organized, nothing has purpose. In thermodynamic terms, this is maximum entropy. In scriptural terms, this is the state before the word of God begins its organizing work.
 
@@ -145,7 +149,7 @@ Zone Architecture Correspondence
 
 Tohu vavohu is the high-entropy initial state of Z₂ before κ_create begins Phase 1. It represents Z₂ at thermodynamic equilibrium, undifferentiated, structureless. Every subsequent creation day (Day 1 through Day 6) is a process of reducing entropy, imposing pattern and order on this formless potential.
 
-The beauty of this linguistic term is that it avoids two errors: (1) that creation is ex nihilo at every instant (there is a substrate—the formless earth), and (2) that creation is merely organization of eternally existing matter (the substrate itself is created, but in a formless state). Tohu vavohu holds both truths.
+The beauty of this linguistic term is that it captures the post-bārāʾ state precisely: the substrate has been brought into being ex nihilo, but it stands unformed, awaiting the organizing work of the creation week. Tōhû wā-bōhû names the state after the initial ex nihilo act and before the differentiating days that follow.
 
 Key Verse(s)
 

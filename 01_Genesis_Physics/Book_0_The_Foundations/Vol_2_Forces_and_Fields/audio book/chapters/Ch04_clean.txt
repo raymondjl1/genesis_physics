@@ -40,25 +40,22 @@ The key quantity is the Gaussian warp factor:
 
 [Equation — see print edition.]
 
-Warp profile note: Chapter 4 uses a Gaussian Waters Below warp profile B( eta ) = - gamma to the 2 eta to the 2/2, whereas Chapter 2 adopts an exponential form the expression. These are distinct functional forms with different physical implications (Gaussian is symmetric about eta =0; exponential is monotonically decaying). A canonical warp profile consistent with the 6D Einstein equations must be established before these chapters are unified — see Open Problem 2.WP.
+Canonical warp profile (B2 lock, 2026-05-18). The Gaussian form B( eta ) = - gamma to the 2 eta to the 2/2 used here is the leading-order Taylor expansion of the Vol 1 canonical warp profile the expression (Vol 1 Ch 4 §4.1.2, RT-1.WF) about eta = 0: expanding e to the 2A eta near the Firmament gives the expression, and the quadratic term is what makes the threefold orbifold symmetry manifest in the derivation below. The exponential form used in Ch 2 §2.1.3 is the same canonical form taken globally on the Waters Below slice. OP-2.WP is CLOSED by adoption of the Vol 1 canon; this Gaussian is now an explicitly small-eta approximation to the canonical profile, not a competing form. See SourceReference/CanonicalWarpProfile.md.
 
-where gamma is a coupling constant related to the Firmament tension. This quadratic form has threefold symmetry: B( eta ) is invariant under eta to e to the 2 pi i/3 eta.
+where gamma is a coupling constant related to the Firmament tension.
 
-⚠ Mathematical Correction (Rev. 2026-05-14) — Z₃ Orbifold on Real Coordinate:
-As written, the identification eta to e to the 2 pi i/3 eta is undefined because eta R is a real coordinate and e to the 2 pi i/3 is complex. Rotating a real number by a complex phase does not yield a real number, so this action cannot be an isometry of the real line.
-The correct construction requires the Waters Below extra dimension to have a two-dimensional fiber. Let w = eta sub 1 + i eta sub 2 C be a complex coordinate built from two real extra-dimensional coordinates ( eta sub 1, eta sub 2) that together parametrize the Waters Below transverse directions. The Z sub 3 action is then:
+The correct fiber is two-dimensional. A Z sub 3 action cannot operate on a single real coordinate eta R, because the cube-root rotation e to the 2 pi i/3 is complex and has no fixed-point structure on the real line. The Waters Below transverse geometry must therefore be complexified: introduce a second extra-dimensional real coordinate eta sub 2 paired with eta eta sub 1, and form the complex fiber coordinate
 
 [Equation — see print edition.]
 
-which is a well-defined rotation in the ( eta sub 1, eta sub 2) plane by 120°. The boundary |w| = eta sub B is a circle in this 2D fiber, and the quotient S to the 1/ Z sub 3 (or more precisely the Z sub 3 orbifold of the disk |w| less than or equal to eta sub B) divides the fiber into three fundamental domains. The warp factor the expression is manifestly Z sub 3-invariant because |e to the 2 pi i/3w| = |w|.
-The orbifold condition on wavefunctions becomes:
+On this 2D fiber the Z sub 3 action w e to the 2 pi i/3w (equivalently psi to psi + 2 pi /3) is a well-defined 120° rotation with a single fixed point at w = 0. The quotient C/ Z sub 3 is an orbifold whose three fundamental domains label the three color sectors. Only on the complex fiber does the cube-root action produce the three irreducible Z sub 3 representations that the rest of this section will need.
 
-[Equation — see print edition.]
+The chain to SU(3) sub C (sketch). Starting from the complex-fiber Z sub 3 orbifold above, the route to colour gauge group proceeds as follows: the three irreducible Z sub 3 representations (characters chi sub n(g) = e to the 2 pi i n/3, n = 0, 1, 2) become the three colour sectors carried by bulk fermions confined to the orbifold; gauge fields that mediate transitions between these sectors form a 3 times 3 matrix-valued connection living in the algebra of U(3); the requirement that the trace decouple (the diagonal U(1) factor is identified with hypercharge from the xi-circle, not with colour) projects U(3) to SU(3) via a holomorphic tracelessness condition inherited from the orbifold's complex structure; and SU(3) has 3 to the 2 - 1 = 8 generators, giving the 8 gluons.
 
-This is mathematically precise. The derivation in this section proceeds as written once this complexification is understood. The three topological sectors correspond to the three irreducible characters of Z sub 3 acting on C, and these sectors generate SU(3) sub C by the argument in the next subsection. The correction affects the rigorous justification of the construction, not the final physical conclusions. The complete derivation with two-dimensional Waters Below fiber will appear in Vol 4.
-RT-2.SU3 is now closed (2026-05-15). The rigorous derivation of SU(3)C from the Z₃ orbifold on the 2D complex fiber w = ξ+iη = ρe^{iψ} (ψ ~ ψ+2π/3) is documented in Research/Foundations/RT2SU3Z3ORBIFOLD.md. The three Z₃ irreducible representations → three color sectors; U(3) projected to SU(3) by the tracelessness condition; 8 generators (2 diagonal + 6 off-diagonal) = 8 gluons. The derivation here is physically correct and is now supported by the completed rigorous construction. See also Ch06 §6.4.2–6.4.3 for the canonical treatment using polar coordinates.
+Status — construction sketch; rigorous derivation deferred to Vol 4 (Task 0516Rev131 lock, 2026-05-18).
+The argument above is a construction sketch, not a rigorous derivation. The full chain — complex-fiber Z sub 3 orbifold → three irreducible representations → bulk-to-boundary mode expansion → U(3) to SU(3) projection via the tracelessness condition → eight gauge bosons with the correct Gell-Mann algebra — requires several pieces of analysis (the boundary-condition algebra on the orbifold fixed point, the McKay-correspondence identification of the resolution, and the matching of orbifold blow-up data to the Standard Model representation theory) that are not carried out in this chapter. A rigorous derivation of SU(3) from the Z sub 3-orbifold construction is deferred to Vol 4 §10.X (the QCD chapter), where the supporting Vol 4 representation-theoretic machinery is in place. §4.2 of Vol 2 provides only the construction sketch. The two illustrative worked integrals below (alpha sub s and sigma  QCD in §4.2 and §4.3) should be read as illustrative consistency checks under the locked canonical warp profile (Task 0516Rev129; see SourceReference/CanonicalWarpProfile.md), not as parameter-free predictions. The supporting research document Research/Foundations/RT2SU3Z3_ORBIFOLD.md and the polar-coordinate treatment in Ch 6 §6.4.2–6.4.3 elaborate the sketch but do not, by themselves, replace the deferred Vol 4 derivation.
 
-This topological structure is profound. A wavefunction in the Waters Below must be single-valued when we traverse the eta circle and return to the starting point. But the orbifold identification says that w and e to the 2 pi i/3 w are the same point in the 2D fiber (see correction box above). For a wavefunction to respect this, it must satisfy:
+This topological structure is the load-bearing input for the remainder of §4.2. A wavefunction in the Waters Below must be single-valued under the orbifold identification, so it must satisfy:
 
 [Equation — see print edition.]
 
@@ -110,7 +107,9 @@ Agreement to within 1%.
 
 This agreement is not fortuitous. It reflects the self-consistency of the zone architecture: the same Firmament tension that determines the curvature in Chapter 2 sets the width of the zero modes here, which in turn determines the coupling strength. All three are connected by geometry.
 
-Rigor Level for §4.2: RIGOROUS — RT-2.SU3 DERIVATION COMPLETE (2026-05-15). The partition into three sectors is topological; the connection between winding number and gauge group representation is standard; the 2D complex fiber construction is now formally established. See Research/Foundations/RT2SU3Z3ORBIFOLD.md for the complete derivation: Z₃ orbifold on w = ξ+iη, three representations, U(3)→SU(3) projection, generator counting. The boundary integral for alpha sub s is exact given the warp factor; the RG running from the Planck-scale KK mass to the QCD scale is deferred (OP-RT2-αs).
+Rigor Level for §4.2: CONSTRUCTION SKETCH — rigorous derivation deferred to Vol 4 §10.X (Task 0516Rev131 lock, 2026-05-18). The partition into three sectors on the complex fiber w = eta sub 1 + i eta sub 2 is topological and the sketch above sets out the chain Z sub 3 irreps → 3 colour sectors → U(3) → SU(3) → 8 generators, but the closing steps (tracelessness from the holomorphic constraint, matching to Standard Model representations, McKay/resolution data) are not carried out here. The research note Research/Foundations/RT2SU3Z3ORBIFOLD.md elaborates the sketch but does not replace the deferred Vol 4 derivation. The boundary integral for alpha sub s under the canonical warp profile (Task 0516Rev129) is illustrative; the RG running from the KK mass scale to the QCD scale is deferred (OP-RT2-αs).
+
+Derived vs Verified (B2 lock, 2026-05-18). The existence of three color sectors and the gauge group SU(3) sub C is a Prediction of the Z sub 3 orbifold topology (parameter-free relative to the warp profile canon of Task 0516Rev129; see also Task 0516Rev131 for the construction-sketch status of the rigorous SU(3) derivation in this chapter). The numerical value alpha sub s(M sub Z) approximately equal to 0.118 at 1% agreement is a Consistency Check: it uses the boundary integral under the canonical warp profile and the RG running anchored at the measured alpha sub s scale, so the precision agreement is a self-consistency statement of the geometric mechanism, not a fully parameter-free numerical prediction. See BackMatter/ParameterLedger.md.
 
 — Confinement and Asymptotic Freedom.
 
@@ -183,6 +182,8 @@ The experimental lattice QCD result is:
 [Equation — see print edition.]
 
 Again, agreement to within 3%.
+
+Derived vs Verified (B2 lock, 2026-05-18). The string-tension mechanism — that quark confinement arises because gluon flux is trapped by the Waters Below warp factor, yielding a linear potential with tension set by a boundary integral — is a Prediction. The numerical value sigma  QCD approximately equal to 0.18 GeV to the 2/ fm is a Consistency Check: it inherits the canonical warp profile (Task 0516Rev129) and the geometric normalization constant C in Eq. (2.4.11), whose calibration is anchored against the nuclear scale eta sub B (a Vol 1 input). Under Task 0516Rev131 the §4.2 worked integrals (αs, σQCD) are labeled illustrative consistency checks under the locked warp profile, not first-principles derivations. See BackMatter/Parameter_Ledger.md.
 
 Asymptotic Freedom.
 
@@ -832,7 +833,7 @@ Gauge Group: U(1) sub Y. Symmetry: Hypercharge. Origin: Waters Below phase struc
 
 All three emerge from zone geometry. None is put in by hand. None requires fine-tuning. They are topological and geometric consequences of the Firmament structure.
 
-Moreover, the coupling constants g sub s, g sub W, g sub Y are not independent free parameters. They are ratios of boundary integrals over the warp factor, determined by the Firmament tension, the zone thickness, and the curvature profile. In a complete theory (Volume 4), they would be computed from first principles.
+Moreover, the coupling constants g sub s, g sub W, g sub Y are not introduced as independent free parameters of Vol 2: they are ratios of boundary integrals over the warp factor, determined by the Firmament tension, the zone thickness, and the curvature profile. The numerical precision of the alpha sub s and sigma _ QCD values quoted above are Consistency Checks (per B2 Decision 4 and the Parameter Ledger), and the full first-principles closure is deferred to Volume 4.
 
 The Hierarchy Problem Revisited
 

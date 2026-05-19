@@ -108,6 +108,8 @@ Here O sub sustain( phi to the a) is a composite operator built from the dynamic
 
 where each coupling alpha sub i is dimensionless and each operator has the appropriate dimensions to make kappa O sub sustain an energy density: R to the (6) is the 6D Ricci scalar [L to the -2], K is the extrinsic curvature trace of the Firmament [L to the -1], | Psi | to the 2 has dimensions [M L to the -3] (field energy density), and psi psi is the fermion condensate with the same dimensions. The sustaining field kappa carries dimensions [M L to the -1 T to the -3] (power density), ensuring that each term in the integrand of Eq. (1.8.6) has the correct dimensions of energy density.
 
+The five couplings alpha sub i (i = 1, , 5) are not free in the same sense as Standard-Model Yukawa couplings. Each alpha sub i multiplies the lowest-dimension gauge-invariant Lorentz scalar operator that can be constructed from its sector's fields (Sustaining, Conservation, Symmetry, Degradation, Duality — the Five Principles of Vol 1 Ch 8). Higher-dimension operators are suppressed by the relevant zone scale (eta sub B or xi sub A). The five alpha sub i are therefore the only Lorentz-scalar couplings of dimension less than or equal to [L to the -2] consistent with the Five Principles; their numerical values constitute an open problem whose resolution requires either (i) a symmetry argument linking them to one fundamental coupling (e.g., a single sustaining scale) or (ii) RG-flow matching to observed effective couplings at low energy. Both options are catalogued as Open Problem OP-Sust-α.
+
 The sustaining field has definite properties established in Chapter 1:
 
 - Dimensions: [ kappa ] = [M L to the -1 T to the -3] (power density)

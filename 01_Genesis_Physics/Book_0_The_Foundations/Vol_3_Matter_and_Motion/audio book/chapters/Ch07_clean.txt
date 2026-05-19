@@ -20,7 +20,7 @@ This chapter fills that gap. We will derive the entire mass-generation mechanism
 
 2. The Mexican hat potential is not assumed. It emerges from the boundary conditions at the Firmament, where the Firmament tension sigma approximately equal to 6 times 10 to the 98 kg/(m·s²) creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
 
-3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak scale v = 246.22 GeV is fixed by the zone geometry. (§7.3)
+3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak vacuum expectation value v = 246.22 GeV is connected to the zone-geometry parameters through §7.3, although the precise reduction of v to ratios of ( sigma , xi sub A, eta sub B) alone is incomplete — the lowest KK mode set by eta sub B alone sits at the hadronic scale (approximately 477 MeV), not at v; the electroweak scale therefore involves either the xi-tower contribution or additional radiative running. (§7.3)
 
 4. Fermion masses arise from the coupling between topological vortex defects (Chapter 6) and the Higgs condensate. The coupling strength — the Yukawa coupling — is an overlap integral between the vortex wavefunction and the Higgs profile. Different generations have different overlap, producing the mass hierarchy. (§7.4)
 
@@ -98,7 +98,7 @@ The Higgs field is not a new postulate. It is the ground state of the Waters Abo
 
 [Figure — see print edition.]
 
-The η-Direction and the Natural GeV Scale.
+The η-Direction and the Natural Sub-GeV Scale.
 
 The same decomposition applies in the eta-direction (Waters Below, eta sub B approximately equal to 1.3 times 10 to the -15 m):
 
@@ -108,18 +108,18 @@ Each eta-mode contributes to the 4D effective mass:
 
 [Equation — see print edition.]
 
-For n_ eta = 1:
+For n_ eta = 1, using the expression:
 
 [Equation — see print edition.]
 
-This falls squarely in the electroweak range (100 GeV – 1 TeV).
+This sits in the few-hundred-MeV range — close to the QCD confinement scale Lambda sub QCD approximately 200 MeV and the lightest hadron masses (the pion at 140 MeV, the kaon at 494 MeV, the proton at 938 MeV), not the electroweak scale.
 
-This is not a coincidence. The Waters Below geometry, with scale eta sub B set independently by nuclear physics, naturally produces mass scales matching weak interactions. The zone architecture generates the electroweak scale through pure geometry — no fine-tuning required.
+This is not the electroweak scale. An earlier revision of this chapter mis-quoted M sub 1 approximately equal to 430 GeV, coming from an arithmetic error that conflated h-bar c / eta sub B in SI units with the GeV conversion. The correct approximately 477 MeV result has a different physical interpretation: the lowest eta-tower mode lies at the hadronic mass scale set independently by the Firmament-Waters-Below geometry. Recovery of the electroweak scale v = 246 GeV requires the xi-tower or radiatively-driven mass generation, not the n_ eta =1 KK mode by itself. The "natural electroweak scale from geometry" headline (§7.0/§7.3 in earlier revisions) is retracted; what the geometry does naturally generate is the hadronic mass scale.
 
 Compare the two extra-dimensional sectors:
 
 Sector: xi (Waters Above). Scale: xi sub A approximately equal to 3 times 10 to the 26 m. n=1 Mass: approximately 10 to the -33 eV. Physical Role: Cosmological; negligible contribution to particle mass.
-Sector: eta (Waters Below). Scale: eta sub B approximately equal to 1.3 times 10 to the -15 m. n=1 Mass: approximately 430 GeV. Physical Role: Electroweak scale; dominant mass contribution.
+Sector: eta (Waters Below). Scale: eta sub B approximately equal to 1.3 times 10 to the -15 m. n=1 Mass: approximately 477 MeV. Physical Role: Hadronic scale; dominant contribution to baryon-sector masses.
 
 The vast asymmetry xi sub A / eta sub B approximately 10 to the 41 is not a defect of the theory — it is the explanation for why particle physics and cosmology operate at such different energy scales. The architecture of the extra dimensions is the hierarchy.
 
@@ -686,7 +686,7 @@ Problems.
 
 Computational Problems.
 
-3.7.1. The lowest eta-mode mass scale is M sub 1 = h-bar c pi / eta sub B with eta sub B = 1.3 times 10 to the -15 m. Calculate M sub 1 in GeV using h-bar c = 197.3 MeV·fm. Compare this to the W boson mass. Why is this scale "electroweak"?
+3.7.1. The lowest eta-mode mass scale is M sub 1 c to the 2 = h-bar c pi / eta sub B with eta sub B = 1.3 fm. Calculate M sub 1 c to the 2 in MeV using h-bar c = 197.3 MeV·fm. Verify that the answer sits in the few-hundred-MeV range (close to the QCD scale and the lightest hadron masses) rather than at the electroweak scale. Discuss what additional contributions (the xi-tower, radiative running, Yukawa structure) would have to combine with this lowest mode to reach the electroweak vacuum expectation value v = 246 GeV.
 
 3.7.2. From the derived values mu = 88.4 GeV and lambda = 0.129, calculate the Higgs VEV using v = 2 mu / square root of lambda. Then compute M sub W = gv/2 with g = 0.652 and M sub Z = M sub W/ theta sub W with to the 2 theta sub W = 0.2312. Compare all three to measured values.
 

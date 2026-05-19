@@ -88,7 +88,7 @@ Why this matters: The zone manifold's extra dimensions are compact (finite exten
 
 From Vibrating Strings to Vibrating Membranes.
 
-The result extends to higher dimensions. For the Firmament membrane wave equation (Chapter 5, Eq. (1.5.0)):
+The result extends to higher dimensions. For the Firmament membrane wave equation (Chapter 5, Eq. (1.5.37)):
 
 [Equation — see print edition.]
 
@@ -223,7 +223,7 @@ The vortex core radius is set by the confining scale of the Waters Below potenti
 
 [Equation — see print edition.]
 
-The elastic energy stored in the vortex follows from the Firmament membrane energy density. The Firmament has tension sigma (energy per unit 3-volume, Eq. (1.5.0), Chapter 5). A codimension-2 topological defect distorts the Firmament membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
+The elastic energy stored in the vortex follows from the Firmament membrane energy density. The Firmament has tension sigma (energy per unit 3-volume, Eq. (1.5.37), Chapter 5). A codimension-2 topological defect distorts the Firmament membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
 
 [Equation — see print edition.]
 
@@ -328,12 +328,12 @@ The Schrödinger Equation from Firmament Dynamics.
 
 The Starting Point.
 
-We have the Firmament membrane wave equation from Chapter 5 (Eq. (1.5.0)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field psi (x,t) is:
+We have the Firmament membrane wave equation from Chapter 5 (Eq. (1.5.37)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field psi (x,t) is:
 
 [Equation — see print edition.]
 
 where:
-- c to the 2 = sigma / mu is the Firmament membrane wave speed (Eq. (1.5.0))
+- c to the 2 = sigma / mu is the Firmament membrane wave speed (Eq. (1.5.37))
 - m is the rest mass of the Firmament membrane excitation (a topological defect)
 - h-bar is the derived Planck constant (Eq. (1.10.29))
 - The mass term m to the 2c to the 2/ h-bar to the 2 comes from the extra-dimensional eigenvalue (§10.2): a localized excitation on the Firmament with extra-dimensional winding number contributes an effective rest mass

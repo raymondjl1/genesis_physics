@@ -1,0 +1,115 @@
+Scope: Volume 2 (Forces and Fields).
+Status: LOCKED 2026-05-18 (B2 policy lock, Task 0516Rev130, Decision 4).
+Purpose: Replace the headline "no free parameters" / "parameter-free" claim
+with an explicit, honest accounting of every constant that is fitted to data
+in or before Vol 2, what it was fit to, and which downstream numerical claims
+inherit the fit.
+
+This ledger is the single source of truth for parameter honesty in Vol 2. Every
+numerical "prediction" in Vol 2 must be classified, by reference to this ledger,
+as one of three things:
+
+- Prediction — derivable from the framework with no free parameter fit to
+  that quantity's value (or to a quantity from which it is algebraically
+  inseparable).
+- Consistency Check — recovered after fitting one or more free parameters;
+  the agreement with experiment is then a self-consistency statement, not a
+  parameter-free derivation.
+- Pending — derivation remains open.
+
+1. Fitted Constants Inventory.
+
+#: 1. Constant: **L_ eff** (approximately equal to 8.96 times 10 to the -29 m). Fitted in: Vol 2 Ch 2 §2.4.2 (Route 2). Fit to: Newton's gravitational constant the expression (CODATA 2018). Downstream Vol 2 numbers that inherit the fit: G sub 4 in Ch 2 §2.4.2 (Route 2); alpha sub G in Ch 9 §9.3.3; hierarchy ratio alpha _ em/ alpha sub G in Ch 9 and Ch 11 §11.3.1; all gravitational predictions in Ch 8 that use G sub 4 numerically..
+#: 2. Constant: **K** (= the expression in Vol 2 notation; C sub 1 in Ch 9). Fitted in: Vol 4 (downstream — particle content) and Vol 5 Ch 13 (definitive). In Vol 2 Ch 3 §3.7.3 / Ch 9 §9.2 it is taken as anticipatory input.. Fit to: The measured fine structure constant alpha to the -1 = 137.035999084 (CODATA 2018), via b_ eff matched to SM particle content. Downstream Vol 2 numbers that inherit the fit: alpha to the -1 in Ch 3 §3.7.4 (= 137.04); alpha to the -1 in Ch 9 Eq. (2.9.27) (= 137.0); hierarchy ratio alpha _ em/ alpha sub G in Ch 9 and Ch 11..
+#: 3. Constant: **lambda** (warp exponent, = 41 in Vol 2). Fitted in: Vol 1 Ch 4 §4.1.2: derived from the Waters Above field equation as the eigenvalue of the warp-factor ODE. **Status:** derived in Vol 1, not fitted — but the eigenvalue lambda = 41 depends on the chosen boundary conditions of the Waters Above potential, and those boundary conditions were chosen by Vol 1 to recover the observed cosmological hierarchy. Vol 2 treats lambda as a Vol 1 input.. Fit to: (Indirectly) cosmic hierarchy via the boundary conditions of V( Psi sub A) in Vol 1. Downstream Vol 2 numbers that inherit the fit: V_ xi in Ch 2 §2.3, V_ extra, G sub 4, hierarchy ratio 10 to the 36 in Ch 9 §9.3 and Ch 11 §11.3.1..
+#: 4. Constant: **B sub 0** (= 28.8) and **xi sub 0** (approximately equal to 60 ell _ Pl) and **kappa sub 6 to the 2** (= 6.9 times 10 to the -66 s to the 2/ kg). Fitted in: Vol 2 Ch 2 §2.4.3, **OP-G6 closure (Rev. 2026-05-15)**. Fit to: Self-consistency: the triple (B sub 0, xi sub 0, kappa sub 6 to the 2) is fixed by the KK reduction normalization plus the Israel junction condition such that Eq. (2.2.38) reproduces the expression at the 0.5% level. Functionally these are calibrated to G sub N jointly with L_ eff.. Downstream Vol 2 numbers that inherit the fit: G sub 4 Route 2 closure in Ch 2 §2.4.3; the "Route 1 = Route 2" agreement claim..
+#: 5. Constant: **eta sub B** (approximately equal to 1.3 times 10 to the -15 m). Fitted in: Vol 1 Ch 4 + Vol 2 Ch 2 inputs (set by the nuclear confinement scale). **Status:** chosen to match the nuclear scale (Lambda _ QCD to the -1); not derived. Vol 2 treats eta sub B as a Vol 1 input.. Fit to: Nuclear confinement scale (input). Downstream Vol 2 numbers that inherit the fit: V_ eta, G sub 4, sigma _ QCD in Ch 4 §4.3, alpha to the -1 via ( xi sub A/ eta sub B) in Ch 3 and Ch 9, hierarchy ratio..
+#: 6. Constant: **xi sub A** (approximately equal to 3 times 10 to the 26 m). Fitted in: Vol 1 Ch 4 + B1 Rev_007 lock. Fit to: Cosmological horizon scale (Hubble radius); chosen to match the observed cosmological extent.. Downstream Vol 2 numbers that inherit the fit: V_ xi, G sub 4, alpha to the -1 via ( xi sub A/ eta sub B), hierarchy ratio..
+
+Reading the table. Entries 1, 2, and 4 are unambiguously fitted constants:
+their numerical values are pinned by matching a measured 4D quantity. Entries
+3, 5, 6 are Vol 1 inputs whose origins are either derived eigenvalues of Vol 1
+field equations or scale choices fixed at Vol 1; Vol 2 treats them as given.
+The framework's parameter honesty rests on the Vol 1 ledger for entries 3, 5,
+6; the Vol 2 ledger covers entries 1, 2, 4.
+
+2. Classification of Vol 2 Numerical Claims.
+
+Apply the Derived vs Verified template (Vol 2 Ch 9 §9.3.4):
+
+Predictions (parameter-free relative to the Vol 2 ledger above).
+
+- Existence of exactly four forces (Ch 1 §1.3, Theorem 2.1.1). Topological,
+  no fitted constants.
+- Functional form of the hierarchy $\alpha\text{em}/\alphaG \propto
+  \xiA^{1+\lambda}/\ln(\xiA/\eta_B)$ (Ch 9 §9.3.6). Mechanism and scaling
+  exponent, not the numerical value.
+- Mercury perihelion advance, light deflection, GW chirp masses (Ch 8, Ch
+  11 §11.3.3). These use G sub 4 numerically and therefore inherit the L_ eff
+  fit, but the ratios and the form of the predictions are pure GR consequences
+  once G sub 4 is supplied; the agreement is a consistency of zone GR with
+  standard GR, with G sub 4 as the shared input.
+- Dark matter direct-detection cross-section sigma _ SI = 0 exactly
+  (Ch 11 §11.5.4). Topological zero; no parameter to fit.
+- Dark energy equation of state w = -1 exactly (Ch 11 §11.5).
+- GW speed = EM speed (Ch 11 §11.3.2). Both propagate on the same
+  Firmament membrane.
+- Five Principles → unique Lagrangian (Ch 5, Theorem 2.5.1).
+- Desert prediction (Ch 11 §11.4.3). No fitted constants.
+
+Consistency Checks (per B2 Decision 4).
+
+- the expression (Ch 2
+  §2.4.2 Route 2; Ch 11 §11.3.1). Recovered after fitting L_ eff (and
+  the joint B sub 0, xi sub 0, kappa sub 6 to the 2 triple) to G sub N. **Demoted from
+  Prediction.**
+- alpha to the -1 = 137.04 (Ch 3) / 137.0 (Ch 9) (Ch 11 §11.3.1).
+  Recovered after fitting K = 1.4383 in Vol 4 to the measured alpha to the -1.
+  Demoted from Prediction.
+- Hierarchy ratio alpha _ em/ alpha sub G = 1.236 times 10 to the 36 (Ch 9
+  §9.3.3, Ch 11 §11.3.1). Inherits both L_ eff (via alpha sub G) and
+  K (via alpha _ em). Consistency check.
+- sigma _ QCD approximately equal to 0.18 GeV to the 2/ fm (Ch 4 §4.3).
+  Uses the warp factor at eta sub B and a normalization constant; precision
+  inherits the warp profile and eta sub B.
+- alpha sub s(M sub Z) = 0.118 (Ch 4 §4.2). The boundary overlap integral
+  delivers the value at 1% only after the RG running is anchored at the
+  measured alpha sub s; the precision is therefore a consistency check on the
+  geometric mechanism, not a fully parameter-free prediction. (The
+  mechanism — that alpha sub s emerges from a Z sub 3 boundary
+  integral — is a prediction; the 1% numerical agreement is a consistency
+  check.)
+- Omega  DM = 0.266, Omega  Lambda = 0.684 (Ch 11 §11.3.2).
+  Anchored by the Waters field potentials; whether these are predictions or
+  consistency checks depends on how V( Psi sub A), U( Psi sub B) are calibrated in
+  Vol 1 (see Vol 1 ledger). Vol 2 quotes them.
+
+Pending.
+
+- to the 2 theta sub W (Ch 11 §11.3.1; Ch 4 §4.4). Tree-level zone geometry
+  gives approximately equal to 0.13; the measured 0.231 requires radiative corrections
+  deferred to Vol 4. Pending Vol 4.
+- CP-violating phase delta _ CKM (Ch 11 §11.7.1). Mechanism
+  present, numerical value not derived. Pending Vol 4.
+- Two-loop precision on gauge running (Ch 10, Ch 11 §11.7.1). Deferred to
+  Vol 4.
+- Hadron mass spectrum, non-perturbative QCD (Ch 4 §4.3, Ch 11 §11.7.1).
+  Deferred to Vol 4 / Vol 6 lattice work.
+
+3. Replaces "No Free Parameters" Headline.
+
+Across Vol 2, instances of "no free parameters" / "parameter-free" /
+"zero free parameters" claims are replaced (per Task 130) by the more honest
+statement:
+
+"No parameters are introduced in Vol 2 beyond those already calibrated in
+Vol 1 and those listed in the Vol 2 Parameter Ledger (BackMatter/ParameterLedger.md).
+See the Ledger for the explicit accounting of L_ eff, K, and
+(B sub 0, xi sub 0, kappa sub 6 to the 2) and the downstream numbers that inherit those fits."
+
+4. Cross-References.
+
+- B2 Policy Lock — Decision 4: QualityControl/Reviews/0516RevB2POLICY_LOCK.md
+- §9.3.4 Derived vs Verified template: Ch 9 §9.3.4
+- §2.4.2 Leff calibration note (now promoted to Preface-level statement in QUALITYGATE.md): Ch 2 §2.4.2 and QUALITY_GATE.md
+- Vol 2 warp profile canon: SourceReference/CanonicalWarp_Profile.md

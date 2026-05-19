@@ -130,7 +130,7 @@ where:
 - the expression is the SU(2)sub L field strength from the ξ-boundary asymmetry (Chapter 4, §4.4).
 - the expression is the SU(3)sub C field strength from the η-topological modes (Chapter 4, §4.2).
 
-The coupling constants g sub 1, g sub 2, g sub 3 are not free parameters. They are determined by warp-factor integrals over the extra dimensions. In Chapter 3 (Eq. 2.3.17), we showed:
+The coupling constants g sub 1, g sub 2, g sub 3 are not introduced as independent free parameters of Vol 2 — they are determined by warp-factor integrals over the extra dimensions (per the Vol 2 Parameter Ledger, BackMatter/ParameterLedger.md; the numerical values are Consistency Checks per B2 Decision 4). In Chapter 3 (Eq. 2.3.17), we showed:
 
 [Equation — see print edition.]
 
@@ -178,7 +178,7 @@ The Higgs connection. In the zone architecture, what the Standard Model calls th
 
 [Equation — see print edition.]
 
-The Yukawa couplings y sub f are not free parameters — they are overlap integrals of the fermion zero-mode profiles with the Waters Above profile in the extra dimensions. Different fermion species have different extra-dimensional profiles, which is why their masses differ. The mass hierarchy (electron vs. top quark, a factor of approximately 3.4 times 10 to the 5) traces to exponentially different overlap integrals in the warped geometry.
+The Yukawa couplings y sub f are not introduced as independent free parameters of Vol 2 — they are overlap integrals of the fermion zero-mode profiles with the Waters Above profile in the extra dimensions; their numerical closure is deferred to Vol 4 (see Pending entries in BackMatter/ParameterLedger.md). Different fermion species have different extra-dimensional profiles, which is why their masses differ. The mass hierarchy (electron vs. top quark, a factor of approximately 3.4 times 10 to the 5) traces to exponentially different overlap integrals in the warped geometry.
 
 The minimal coupling to gauge fields is already encoded in the covariant derivative D sub M in the matter sector (2.5.13). No additional interaction terms are needed for gauge-matter coupling — this is the beauty of the gauge principle.
 

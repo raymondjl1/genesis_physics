@@ -53,7 +53,7 @@ where:
 - G sub 4 = G sub 6/V_ extra = 6.674 times 10 to the -11 m³ kg⁻¹ s⁻² is the gravitational constant, derived from zone geometry (Ch 2, Eq. 2.2.11). (Note: the specific formula the expression used in Ch 2 Route 2 has a dimensional inconsistency under investigation — see Ch 2 §2.4.2 dimensional note and Research Task RT-2.G. The numerical value used here is the measured value; its zone derivation is provisional.)
 - T sub mu nu is the stress-energy tensor of matter and radiation confined to the Firmament.
 
-These equations are exact within the 4D effective theory — they are the full nonlinear Einstein equations, not an approximation. Every solution of standard General Relativity (Schwarzschild black holes, Kerr rotating black holes, FRW cosmology, gravitational waves) is also a solution of (2.8.1), with G sub 4 and Lambda _ eff taking their zone-derived values rather than being free parameters.
+These equations are exact within the 4D effective theory — they are the full nonlinear Einstein equations, not an approximation. Every solution of standard General Relativity (Schwarzschild black holes, Kerr rotating black holes, FRW cosmology, gravitational waves) is also a solution of (2.8.1), with G sub 4 and Lambda  eff taking their zone-derived values. Note that G sub 4 is a Consistency Check in this volume (L eff is calibrated to G sub N; see BackMatter/ParameterLedger.md and Ch 2 §2.4.2); the predictions of zone GR for the classical tests (Mercury, light deflection, etc.) therefore inherit this calibration and are consistency checks of zone GR against standard GR with shared G sub 4.
 
 Why the Full Equations Are Hard.
 

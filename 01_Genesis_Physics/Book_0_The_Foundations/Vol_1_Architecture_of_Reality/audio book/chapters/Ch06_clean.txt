@@ -2,7 +2,7 @@ Introduction — The Dark Sector Speaks.
 
 [Figure — see print edition.]
 
-In Chapter 5, we established the Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.0)), that Lorentz invariance follows from the uniformity of the Firmament membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
+In Chapter 5, we established the Firmament (רָקִיעַ, rāqîʿaʾ, 'stretched-out thing') as a dynamical membrane — a codimension-2 hypersurface with its own geometry, tension, and vibration spectrum. We showed that the speed of light is the wave speed on this membrane (c to the 2 = sigma / mu, Eq. (1.5.37)), that Lorentz invariance follows from the uniformity of the Firmament membrane, and that the Firmament couples to the bulk through its extrinsic curvature.
 
 But the Firmament is not alone. It sits between two vast regions of the 6D bulk: the Waters Above (מַיִם, mayim, 'waters'; Z sub 2.2.3, extending in the xi-direction) and the Waters Below (Z sub 2.2.1, extending in the eta-direction). These are not empty space. They are filled with dynamical scalar fields — Psi sub A in the Waters Above, Psi sub B in the Waters Below — that carry energy, exert pressure, and shape the large-scale structure of the cosmos.
 
@@ -80,7 +80,7 @@ Waters Above action. The action for Psi sub A takes the standard scalar field fo
 
 [Equation — see print edition.]
 
-Sign convention (this series): The kinetic term for scalar fields is -1 over 2g to the AB partial sub A Psi partial sub B Psi throughout all volumes. With the metric signature (-,+,+,+,+,+), this gives positive kinetic energy for time derivatives: the expression. Chapter 7 Eq. (1.7.4) uses the opposite sign convention for the Waters action — that equation has a sign error that is corrected in Ch 7 (see Ch 7 correction note).
+Sign convention (this series): The kinetic term for scalar fields is -1 over 2g to the AB partial sub A Psi partial sub B Psi throughout all volumes. With the metric signature (-,+,+,+,+,+), this gives positive kinetic energy for time derivatives: the expression. Chapter 7 Eq. (1.7.4) was published in an earlier revision with the + 12 kinetic sign; it was corrected to the canonical - 12 in Rev. 2026-05-14. Both chapters now use the same series-canonical convention.
 
 The potential V( Psi sub A) must satisfy several requirements:
 1. It must have a stable minimum at Psi sub A = v sub A (the vacuum expectation value) — this gives dark energy its constant density.
@@ -116,6 +116,8 @@ Interaction action. The two Waters fields interact gravitationally (through the 
 [Equation — see print edition.]
 
 where G sub int is the inter-Waters coupling constant, with dimensions [ energy/ length to the 3]. This term couples the two Waters — perturbations in one propagate to the other. The coupling is weak (the expression) because the two Waters regions are spatially separated by the Firmament.
+
+Why this specific form? The Duality of Axiom 6 (Waters Above / Waters Below) demands that any portal coupling between Psi sub A and Psi sub B respect the Z sub 2 exchange symmetry Psi sub A Psi sub B that the Duality encodes. The lowest-order Lorentz scalar bilinear consistent with this exchange symmetry and with 6D dimensional analysis (both Psi sub A and Psi sub B are real scalar fields with the same mass dimension in 6D) is exactly Psi sub A Psi sub B. Quadratic terms in either field alone (Psi sub A to the 2, Psi sub B to the 2) already appear in the kinetic and potential sectors (Eqs. (1.6.4)–(1.6.7)); cubic terms (Psi sub A to the 2 Psi sub B, Psi sub A Psi sub B to the 2) break the Z sub 2 exchange symmetry; off-shell derivative couplings ( partial Psi sub A)( partial Psi sub B) would inherit the same symmetry argument but yield identical phenomenology at leading order after integration by parts. The bilinear G sub int Psi sub A Psi sub B is therefore the unique leading-order portal consistent with Axiom 6 and 6D dimensional counting.
 
 Why include this coupling? Without it, the two Waters would be completely independent — their energy fractions would be unrelated. With the coupling, the ratio Omega _ Lambda / Omega sub DM becomes a structural consequence of the geometry, not a coincidence. The coupling also ensures that perturbations in the dark matter field (structure formation) can back-react on the dark energy field (expansion rate), as observed in the transition from matter-dominated to dark-energy-dominated cosmology.
 

@@ -200,7 +200,7 @@ The Waters Below Topology.
 
 The strong force is the most deeply geometric of the four forces, and its derivation requires the most sophisticated topology. Chapter 4 (equations 2.4.1–2.4.6) showed that the Waters Below region has a ℤ₃ orbifold identification that produces three equivalent topological sectors — which we identify with the three colors of QCD. Now we must derive the gauge group SU(3) from this topology.
 
-The Waters Below occupies eta [- eta sub B, 0] with Gaussian warp factor the expression (equation 1.4.27). At the nuclear scale eta sub B approximately 1.3 times 10 to the -15 m, the geometry is strongly curved. The crucial topological feature is the discrete identification symmetry.
+The Waters Below occupies eta [- eta sub B, 0] with the canonical Vol 1 warp profile the expression (Vol 1 Ch 4 §4.1.2, RT-1.WF; see SourceReference/CanonicalWarp_Profile.md). The Gaussian form the expression used in §6.3.2 and in Ch 4 §4.2 is the leading-order Taylor expansion of this canonical form near eta = 0, retained here only because the manifest Z sub 2 reflection symmetry eta to - eta of the Gaussian makes the orbifold construction transparent. At the nuclear scale eta sub B approximately 1.3 times 10 to the -15 m, the geometry is strongly curved. The crucial topological feature is the discrete identification symmetry.
 
 The ℤ₃ Orbifold Construction.
 
@@ -653,7 +653,7 @@ This chapter has answered the question that the Standard Model leaves unanswered
 
 We derived U(1)Y from the circular topology of the ξ-direction (§6.2), SU(2)L from the ℤ₂ orbifold at the Firmament boundary (§6.3), and SU(3)_C from the ℤ₃ orbifold in the Waters Below (§6.4). We proved that no other gauge groups are compatible with the two-dimensional extra space of the zone manifold (§6.5, Theorem 2.6.1).
 
-Given these groups, Yang-Mills theory is the unique gauge-invariant, Lorentz-invariant, renormalizable classical field theory (§6.6). The coupling constants are not free parameters — they are computed from warp-factor integrals over the extra dimensions (§6.7), yielding values consistent with experiment to better than 1%.
+Given these groups, Yang-Mills theory is the unique gauge-invariant, Lorentz-invariant, renormalizable classical field theory (§6.6). The coupling constants are not introduced as independent free parameters of Vol 2 — they are computed from warp-factor integrals over the extra dimensions (§6.7), yielding values consistent with experiment to better than 1%. Per B2 Decision 4 (Task 0516Rev130) and the Vol 2 Parameter Ledger (BackMatter/ParameterLedger.md), the 1%-level numerical agreements are Consistency Checks; the geometric mechanism (that the couplings are warp-factor integrals over specific topological sectors) is the parameter-free Prediction of this chapter.
 
 The complete gauge Lagrangian (2.6.53) matches the Standard Model gauge sector term-by-term (§6.8). The difference is foundational: every element that the Standard Model postulates, the zone architecture derives.
 
