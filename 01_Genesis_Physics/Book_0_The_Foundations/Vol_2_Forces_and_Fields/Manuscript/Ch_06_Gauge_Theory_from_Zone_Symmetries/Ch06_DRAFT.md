@@ -683,7 +683,7 @@ This chapter has answered the question that the Standard Model leaves unanswered
 
 We derived U(1)_Y from the circular topology of the ξ-direction (§6.2), SU(2)_L from the ℤ₂ orbifold at the Firmament boundary (§6.3), and SU(3)_C from the ℤ₃ orbifold in the Waters Below (§6.4). We proved that no other gauge groups are compatible with the two-dimensional extra space of the zone manifold (§6.5, Theorem 2.6.1).
 
-Given these groups, Yang-Mills theory is the unique gauge-invariant, Lorentz-invariant, renormalizable classical field theory (§6.6). The coupling constants are not free parameters — they are computed from warp-factor integrals over the extra dimensions (§6.7), yielding values consistent with experiment to better than 1%.
+Given these groups, Yang-Mills theory is the unique gauge-invariant, Lorentz-invariant, renormalizable classical field theory (§6.6). The coupling constants are not introduced as independent free parameters of Vol 2 — they are computed from warp-factor integrals over the extra dimensions (§6.7), yielding values consistent with experiment to better than 1%. Per B2 Decision 4 (Task 0516_Rev_130) and the Vol 2 Parameter Ledger (`Back_Matter/Parameter_Ledger.md`), the 1%-level numerical agreements are **Consistency Checks**; the geometric *mechanism* (that the couplings are warp-factor integrals over specific topological sectors) is the parameter-free **Prediction** of this chapter.
 
 The complete gauge Lagrangian (2.6.53) matches the Standard Model gauge sector term-by-term (§6.8). The difference is foundational: every element that the Standard Model postulates, the zone architecture derives.
 

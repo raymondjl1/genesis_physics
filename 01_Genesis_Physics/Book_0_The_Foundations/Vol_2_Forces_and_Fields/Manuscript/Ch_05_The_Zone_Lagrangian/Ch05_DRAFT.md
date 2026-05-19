@@ -136,7 +136,7 @@ where:
 - $W_{\mu\nu}^a = \partial_\mu W_\nu^a - \partial_\nu W_\mu^a + g_2 \epsilon^{abc} W_\mu^b W_\nu^c$ is the SU(2)$_L$ field strength from the ξ-boundary asymmetry (Chapter 4, §4.4).
 - $G_{\mu\nu}^a = \partial_\mu G_\nu^a - \partial_\nu G_\mu^a + g_3 f^{abc} G_\mu^b G_\nu^c$ is the SU(3)$_C$ field strength from the η-topological modes (Chapter 4, §4.2).
 
-The coupling constants $g_1, g_2, g_3$ are not free parameters. They are determined by warp-factor integrals over the extra dimensions. In Chapter 3 (Eq. 2.3.17), we showed:
+The coupling constants $g_1, g_2, g_3$ are not introduced as independent free parameters of Vol 2 — they are determined by warp-factor integrals over the extra dimensions (per the Vol 2 Parameter Ledger, `Back_Matter/Parameter_Ledger.md`; the numerical values are Consistency Checks per B2 Decision 4). In Chapter 3 (Eq. 2.3.17), we showed:
 
 $$g_\text{EM}^2 = \frac{\kappa_6^2}{V_\text{extra}} \tag{2.3.17}$$
 
@@ -184,7 +184,7 @@ where $y_f$ are Yukawa coupling constants (one per fermion species $f$), $\Psi_A
 
 $$m_f = y_f v / \sqrt{2} \tag{2.5.17}$$
 
-The Yukawa couplings $y_f$ are not free parameters — they are overlap integrals of the fermion zero-mode profiles with the Waters Above profile in the extra dimensions. Different fermion species have different extra-dimensional profiles, which is why their masses differ. The mass hierarchy (electron vs. top quark, a factor of $\sim 3.4 \times 10^5$) traces to exponentially different overlap integrals in the warped geometry.
+The Yukawa couplings $y_f$ are not introduced as independent free parameters of Vol 2 — they are overlap integrals of the fermion zero-mode profiles with the Waters Above profile in the extra dimensions; their numerical closure is deferred to Vol 4 (see Pending entries in `Back_Matter/Parameter_Ledger.md`). Different fermion species have different extra-dimensional profiles, which is why their masses differ. The mass hierarchy (electron vs. top quark, a factor of $\sim 3.4 \times 10^5$) traces to exponentially different overlap integrals in the warped geometry.
 
 The minimal coupling to gauge fields is already encoded in the covariant derivative $D_M$ in the matter sector (2.5.13). No additional interaction terms are needed for gauge-matter coupling — this is the beauty of the gauge principle.
 
@@ -654,7 +654,7 @@ What the SM does *not* provide is a reason for *why* the gauge group is $\text{S
 
 ### §5.6.2 Term-by-Term Comparison
 
-[FIGURE: Fig 2.5.4 — Zone Lagrangian vs. Standard Model Lagrangian: Term-by-Term Comparison. Two-column layout. Left: zone 4D effective Lagrangian terms. Right: SM Lagrangian terms. Lines connect matching terms, color-coded: green = exact structural match (coupling constants differ in origin), yellow = structurally modified, red = unique to zone framework. Summary box at bottom: "19 SM parameters → geometric integrals. 0 free parameters added. 3 new sectors predicted."]
+[FIGURE: Fig 2.5.4 — Zone Lagrangian vs. Standard Model Lagrangian: Term-by-Term Comparison. Two-column layout. Left: zone 4D effective Lagrangian terms. Right: SM Lagrangian terms. Lines connect matching terms, color-coded: green = exact structural match (coupling constants differ in origin), yellow = structurally modified, red = unique to zone framework. Summary box at bottom: "19 SM parameters → geometric integrals. No Vol 2 free parameters introduced beyond Vol 1 inheritance + the ledger ($L_\text{eff}$, $K$, $(B_0,\xi_0,\kappa_6^2)$); see Parameter_Ledger.md. 3 new sectors predicted."]
 
 | SM Term | Zone Term | Match Status | Difference |
 |---------|-----------|-------------|------------|

@@ -20,7 +20,7 @@ There is a deeper reason this chapter belongs precisely here, between gravity an
 
 The derivation chain runs as follows. We begin with the 6D metric established in Volume 1 and identify the off-diagonal components $g_{\mu\xi}$ as gauge fields (§3.1). We show that gauge invariance — the symmetry that textbooks must postulate — arises automatically from coordinate freedom in the $\xi$ extra dimension (§3.2). We integrate out the extra dimensions to obtain the electromagnetic coupling constant, and from it derive $\varepsilon_0$ and $\mu_0$ (§3.3). We vary the resulting 4D action and extract all four of Maxwell's equations — two from the Euler-Lagrange equations, two from a topological identity (§3.4). We show that the speed of light is the wave speed on the Firmament membrane (§3.5). We derive electromagnetic waves, energy conservation, and Coulomb's law (§3.6). We calculate the fine structure constant $\alpha^{-1} \approx 137$ from zone geometry (§3.7). And we show that charge is quantized because the extra dimension is compact (§3.8).
 
-Every step traces to the zone manifold. Every constant is calculated, not fitted. When we are done, the reader will possess the complete derivation of classical electromagnetism from first principles — the same first principles that gave us gravity in the previous chapter.
+Every step traces to the zone manifold. Per the B2 Parameter Ledger (`Back_Matter/Parameter_Ledger.md`), the one anticipatory constant in this chapter — $K = b_\text{eff}/(2\pi) \approx 1.4383$ — is fitted in Vol 4 to the Standard Model particle content and ultimately closed in Vol 5 Ch 13; consequently $\alpha^{-1} \approx 137.04$ derived below is a **Consistency Check**, not a parameter-free Prediction (B2 Decision 4). When we are done, the reader will possess the complete derivation of classical electromagnetism from first principles — the same first principles that gave us gravity in the previous chapter.
 
 Let us begin.
 
@@ -601,7 +601,7 @@ Let us pause and register what just happened. The fine structure constant — Fe
 2. **The Standard Model particle content** — which determines the beta function coefficient $b_\text{eff}$. (In the full theory, the particle content itself is topologically determined by the zone manifold — this will be derived in Vol 4.)
 3. **The logarithm** — which arises from the warp factor's logarithmic profile in the Waters Above region.
 
-No free parameters were adjusted. The zone scales $\xi_A$ and $\eta_B$ are set by the 6D boundary conditions established in Volume 1. The beta function coefficient is calculated from known particle physics. The result falls out.
+No additional parameters were introduced in Vol 2 beyond those already calibrated in Vol 1 plus the $K$ coefficient flagged in §3.7.3 (Parameter Disclosure) and entered in the Vol 2 Parameter Ledger. The zone scales $\xi_A$ and $\eta_B$ are Vol 1 inputs (cosmological horizon and nuclear scale respectively). The beta-function coefficient $b_\text{eff}$ is calculated from known particle physics in Vol 2 and ultimately closed by zone topology in Vol 4. Per B2 Decision 4, the resulting $\alpha^{-1} \approx 137.04$ is therefore a **Consistency Check**, not a parameter-free Prediction; the geometric mechanism — that $\alpha^{-1}$ is a logarithm of the zone-scale ratio — is itself a Prediction.
 
 ### §3.7.5 What Remains Open
 
@@ -701,7 +701,7 @@ Let us take stock. Starting from the zone manifold established in Volume 1, this
 10. **Charge quantization** from $\xi$-topology (§3.8)
 11. **Charge conservation** from gauge Noether current (§3.8)
 
-Every item on this list was *derived*, not postulated. Every numerical constant was *calculated*, not fitted. The inputs were the zone manifold geometry from Volume 1 — nothing else was added.
+Every item on this list was *derived*, not postulated. Numerical constants were either inherited from Vol 1 (the zone scales $\xi_A$, $\eta_B$) or, in the case of $K$, fit to known data and entered in the Vol 2 Parameter Ledger (`Back_Matter/Parameter_Ledger.md`); $\alpha^{-1}$ is accordingly a **Consistency Check** rather than a parameter-free Prediction (B2 Decision 4). The geometric *mechanism* — every Maxwell-equation term, the logarithmic scaling of $\alpha^{-1}$ — is the chapter's parameter-free Prediction.
 
 ### §3.9.2 What We Assumed
 

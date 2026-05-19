@@ -54,7 +54,7 @@ $$S_{\text{total}} = S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{
 
 The Five Principles — Sustaining, Conservation, Symmetry, Degradation, and Duality (Vol 1, Ch 8) — constrain this Lagrangian to a unique form (Theorem 2.5.1). The Sustaining Principle requires the sustaining sector S_sustain; the Conservation Principle enforces energy closure; the Symmetry Principle generates the gauge structure; the Degradation Principle constrains entropy evolution; and the Duality Principle mandates the Waters Above/Below (dark energy/dark matter) pairing. Together, these five constraints uniquely determine the Lagrangian. The Standard Model Lagrangian emerges upon dimensional reduction — not as a postulate, but as a consequence.
 
-**Step 5. Coupling Constants as Geometry (Ch 2–3, 9).** Every coupling constant is a geometric integral over the extra dimensions. No free parameters are introduced:
+**Step 5. Coupling Constants as Geometry (Ch 2–3, 9).** Every coupling constant is a geometric integral over the extra dimensions. No parameters are introduced in Vol 2 beyond those already calibrated in Vol 1 and the small explicit set ($L_\text{eff}$, $K$, $(B_0,\xi_0,\kappa_6^2)$) catalogued in `Back_Matter/Parameter_Ledger.md`; numerical values that inherit those calibrations (notably $G_4$ and $\alpha^{-1}$) are accordingly **Consistency Checks** rather than parameter-free Predictions (B2 Decision 4):
 
 - Gravity: G₄ = G₆/V_extra — power-law dilution over the full extra-dimensional volume (2.2.11)
 - Electromagnetism: α⁻¹ = C₁ ln(ξ_A/η_B) — logarithmic coupling through the 2D Green's function (2.3.69)
@@ -141,15 +141,52 @@ A framework is only as good as its predictions. This section compiles every quan
 
 ### 11.3.1 Coupling Constants and Fundamental Parameters
 
-| Quantity | Zone Prediction | Experimental Value | Source | Agreement |
-|----------|-----------------|-------------------|--------|-----------|
-| α⁻¹ (fine structure) | 137.036 | 137.035999084 ± 3.0×10⁻⁹ | CODATA 2018 | 0.0013% |
-| α_s(M_Z) (strong coupling) | 0.118 | 0.1179 ± 0.0010 | PDG 2022 | 1% |
-| sin²θ_W (Weinberg angle) | 0.231 *(PENDING — see note below table)* | 0.23122 ± 0.00003 | PDG 2022 | 0.09% |
-| G₄ (Newton's constant) | 6.674 × 10⁻¹¹ | 6.67430 ± 0.00015 × 10⁻¹¹ | CODATA 2018 | ~0.1% |
-| α_em/α_G (hierarchy ratio) | 1.236 × 10³⁶ | 1.235 × 10³⁶ | Derived from PDG | 0.08% |
+Per B2 Decision 4 (Task 0516_Rev_130, locked 2026-05-18), Vol 2 numerical
+claims are partitioned into three categories: **Predictions** (no free
+parameter fit to the quantity's own value), **Consistency Checks** (recovered
+after fitting one or more constants tabulated in
+`Back_Matter/Parameter_Ledger.md`), and **Pending** (derivation open). $G_4$
+and $\alpha^{-1}$ are demoted to Consistency Checks because each involves a
+fitted constant ($L_\text{eff}$ and $K$ respectively).
 
-Each number in the "Zone Prediction" column is a geometric integral — no fitting was performed. Let us trace the origin of each.
+**Predictions** — parameter-free relative to the Vol 2 Parameter Ledger:
+
+| Quantity | Zone Statement | Experimental Value | Source | Comment |
+|----------|---------------|-------------------|--------|---------|
+| Existence of exactly four forces | Predicted (Theorem 2.1.1) | Four forces observed | — | Topological; parameter-free. |
+| Functional form of hierarchy | α_em/α_G ∝ ξ_A^{1+λ}/ln(ξ_A/η_B) | ~10³⁶ (any order > 10²⁰ is "huge") | Ch 9 §9.3.6 | Mechanism + scaling exponent. |
+| GW speed = EM speed | 1 exactly | \|c_GW/c_EM − 1\| < 10⁻¹⁵ | GW170817 | Single-membrane propagation. |
+| σ_SI (DM direct-detection) | 0 exactly | < 1.35×10⁻⁴⁷ cm² | LZ 2022 | Topological zero (Ch 11 §11.5.4). |
+| w (DE equation of state) | −1 exactly | −1.03 ± 0.03 | Planck+BAO+SNe | Vacuum-energy character of Waters Above. |
+| Desert (no BSM between EW and GUT) | Predicted | No BSM found to date | LHC, ATLAS/CMS | Compactification has no intermediate-scale features. |
+| GW scalar breathing mode | 1–10% of tensor | Not yet detectable | (ET/LISA) | Modulus mass from compactification scale. |
+
+**Consistency Checks** — recovered after fitting one or more parameters
+listed in `Back_Matter/Parameter_Ledger.md`:
+
+| Quantity | Zone Value | Experimental Value | Fitted constant(s) inherited | Source | Agreement |
+|----------|-----------|-------------------|------------------------------|--------|-----------|
+| α⁻¹ (fine structure) | 137.04 (Ch 3) / 137.0 (Ch 9) | 137.035999084 ± 3.0×10⁻⁹ | K = b_eff/(2π) ≈ 1.4383 (fit in Vol 4/Vol 5 Ch 13) | CODATA 2018 | 0.0013% |
+| G₄ (Newton's constant) | 6.674 × 10⁻¹¹ | 6.67430 ± 0.00015 × 10⁻¹¹ | L_eff = 8.96×10⁻²⁹ m (fit in Ch 2 §2.4.2 to G_N) | CODATA 2018 | ~0.1% |
+| α_em/α_G (hierarchy ratio) | 1.236 × 10³⁶ | 1.235 × 10³⁶ | Inherits both L_eff and K | Derived from PDG | 0.08% |
+| α_s(M_Z) (strong coupling) | 0.118 | 0.1179 ± 0.0010 | Canonical warp profile + RG running anchored at measured α_s | PDG 2022 | 1% |
+| σ_QCD (string tension) | 0.18 GeV²/fm | 0.180 ± 0.005 GeV²/fm | Canonical warp + geometric normalization C | Lattice QCD | 3% |
+| Ω_DM (dark matter density) | 0.266 ± 0.002 | 0.2653 ± 0.007 | Waters Below potential U(Ψ_B) (Vol 1 calibration) | Planck 2018 | 1.3σ |
+| Ω_Λ (dark energy density) | 0.684 ± 0.003 | 0.6847 ± 0.0073 | Waters Above potential V(Ψ_A) (Vol 1 calibration) | Planck 2018 | 0.1σ |
+
+**Pending** — derivation open:
+
+| Quantity | Status | Where it closes |
+|----------|--------|-----------------|
+| sin²θ_W (Weinberg angle) | Tree-level zone gives ~0.13; needs radiative corrections | Vol 4 §10.X (RT-2.SW) |
+| δ_CKM (CP-violating phase) | Mechanism present; numerical value not derived | Vol 4 |
+| Two-loop running precision | One-loop only in Vol 2 | Vol 4 |
+| Hadron mass spectrum (non-perturbative QCD) | Qualitative mechanism (Ch 4 §4.3); lattice closure deferred | Vol 4 / Vol 6 |
+
+Each entry in the **Predictions** column is parameter-free relative to the
+Vol 2 Parameter Ledger; each entry in the **Consistency Checks** column
+involves a fitted constant catalogued in that Ledger; each Pending entry
+flags a derivation gap. Let us trace the origin of each.
 
 The **fine structure constant** α⁻¹ = 137.036 derives from the logarithmic ratio of the Waters Above and Waters Below extents: α⁻¹ = C₁ ln(ξ_A/η_B) where C₁ = 1.4383 comes from the pole structure of the 6D Green's function (2.3.69). The argument of the logarithm is ln(3×10²⁶/1.3×10⁻¹⁵) ≈ 95.3. The agreement with the CODATA measured value to 0.0013% is the most precise single prediction of zone architecture.
 
@@ -459,7 +496,7 @@ The forces work the way they do because their dynamics follow from a single Lagr
 
 This answer is falsifiable. We have enumerated thirteen specific experimental criteria (F1–F13) that would disprove the framework. As of today, none have been triggered. Several will become testable within the next decade.
 
-The complete force landscape — four forces, one geometry, zero free parameters beyond the manifold's shape — is the deliverable of this volume.
+The complete force landscape — four forces, one geometry, no parameters introduced beyond those already calibrated in Vol 1 and the small explicit Vol 2 set ($L_\text{eff}$, $K$, $(B_0,\xi_0,\kappa_6^2)$) catalogued in `Back_Matter/Parameter_Ledger.md` — is the deliverable of this volume.
 
 Let us be clear about what has been accomplished and what has not. We have derived the *existence* and *structure* of all four fundamental forces from a single geometric framework. We have calculated their coupling constants from geometric integrals and found agreement with experiment at the sub-percent level. We have shown that the hierarchy problem is not a problem at all but a geometric consequence. We have traced the running of coupling constants across sixty-two orders of magnitude in energy and predicted their convergence at the grand unification scale. We have compiled thirteen falsification criteria — specific, quantitative thresholds that would disprove the framework — and shown that none are currently triggered.
 

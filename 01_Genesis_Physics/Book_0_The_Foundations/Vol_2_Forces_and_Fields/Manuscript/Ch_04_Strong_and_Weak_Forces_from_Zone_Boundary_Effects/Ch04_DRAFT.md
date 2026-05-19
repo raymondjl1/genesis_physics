@@ -121,6 +121,8 @@ This agreement is not fortuitous. It reflects the self-consistency of the zone a
 
 **Rigor Level for §4.2:** RIGOROUS — RT-2.SU3 DERIVATION COMPLETE (2026-05-15). The partition into three sectors is topological; the connection between winding number and gauge group representation is standard; the 2D complex fiber construction is now formally established. See `Research/Foundations/RT2_SU3_Z3_ORBIFOLD.md` for the complete derivation: Z₃ orbifold on w = ξ+iη, three representations, U(3)→SU(3) projection, generator counting. The boundary integral for $\alpha_s$ is exact given the warp factor; the RG running from the Planck-scale KK mass to the QCD scale is deferred (OP-RT2-α_s).
 
+> **Derived vs Verified (B2 lock, 2026-05-18).** The *existence* of three color sectors and the gauge group $SU(3)_C$ is a **Prediction** of the $\mathbb{Z}_3$ orbifold topology (parameter-free relative to the warp profile canon of Task 0516_Rev_129; see also Task 0516_Rev_131 for the construction-sketch status of the rigorous SU(3) derivation in this chapter). The *numerical value* $\alpha_s(M_Z) \approx 0.118$ at 1% agreement is a **Consistency Check**: it uses the boundary integral under the canonical warp profile and the RG running anchored at the measured $\alpha_s$ scale, so the precision agreement is a self-consistency statement of the geometric mechanism, not a fully parameter-free numerical prediction. See `Back_Matter/Parameter_Ledger.md`.
+
 ---
 
 ## §4.3 — Confinement and Asymptotic Freedom
@@ -194,6 +196,8 @@ The experimental lattice QCD result is:
 $$\sigma_{\text{QCD}}^{\text{lattice}} = 0.180 \pm 0.005 \, \text{GeV}^2/\text{fm} \quad \text{(2.4.15)}$$
 
 Again, agreement to within 3%.
+
+> **Derived vs Verified (B2 lock, 2026-05-18).** The string-tension *mechanism* — that quark confinement arises because gluon flux is trapped by the Waters Below warp factor, yielding a linear potential with tension set by a boundary integral — is a **Prediction**. The *numerical value* $\sigma_\text{QCD} \approx 0.18\,\text{GeV}^2/\text{fm}$ is a **Consistency Check**: it inherits the canonical warp profile (Task 0516_Rev_129) and the geometric normalization constant $C$ in Eq. (2.4.11), whose calibration is anchored against the nuclear scale $\eta_B$ (a Vol 1 input). Under Task 0516_Rev_131 the §4.2 worked integrals (α_s, σ_QCD) are labeled illustrative consistency checks under the locked warp profile, not first-principles derivations. See `Back_Matter/Parameter_Ledger.md`.
 
 ### Asymptotic Freedom
 
@@ -867,7 +871,7 @@ Each factor has its geometric origin:
 
 All three emerge from zone geometry. None is put in by hand. None requires fine-tuning. They are topological and geometric consequences of the Firmament structure.
 
-Moreover, the coupling constants $g_s$, $g_W$, $g_Y$ are not independent free parameters. They are ratios of boundary integrals over the warp factor, determined by the Firmament tension, the zone thickness, and the curvature profile. In a complete theory (Volume 4), they would be computed from first principles.
+Moreover, the coupling constants $g_s$, $g_W$, $g_Y$ are not introduced as independent free parameters of Vol 2: they are ratios of boundary integrals over the warp factor, determined by the Firmament tension, the zone thickness, and the curvature profile. The numerical precision of the $\alpha_s$ and $\sigma_\text{QCD}$ values quoted above are **Consistency Checks** (per B2 Decision 4 and the Parameter Ledger), and the full first-principles closure is deferred to Volume 4.
 
 **The Hierarchy Problem Revisited**
 

@@ -26,6 +26,38 @@ Answer the question every physics student asks and never gets answered: *Why are
 
 ---
 
+## Preface-Level Statement on Parameter Honesty (B2 lock, 2026-05-18)
+
+Per B2 Policy Lock Decision 4 (Task 0516_Rev_130), the following statement is
+binding for Vol 2 and replaces any "no free parameters" / "parameter-free"
+headline:
+
+> Volume 2 introduces no parameters beyond those already calibrated in
+> Volume 1, except for the explicit set listed in the Vol 2 Parameter Ledger
+> (`Back_Matter/Parameter_Ledger.md`). In particular, the effective length
+> $L_\text{eff}$ used in the Route 2 derivation of Newton's constant (Ch 2
+> §2.4.2) is calibrated to recover $G_N$; this calibration was previously
+> stated only as a footnote in §2.4.2 and is hereby promoted to a
+> Preface-level statement. The coefficient $K$ (= $b_\text{eff}/(2\pi)
+> \approx 1.4383$) used in the fine-structure-constant derivation (Ch 3
+> §3.7, Ch 9 §9.2) is anticipatory: $b_\text{eff}$ is matched to the
+> Standard Model particle content (to be derived in Vol 4) and ultimately
+> closed in Vol 5 Ch 13. Numerical predictions in Vol 2 are contingent on
+> the warp-profile canon locked in Task 0516_Rev_129 (`Source_Reference/Canonical_Warp_Profile.md`,
+> the former OP-1.WF / OP-2.WP, now closed).
+>
+> Quantitative claims in Vol 2 are accordingly classified as **Predictions**,
+> **Consistency Checks**, or **Pending** per the template in Ch 9 §9.3.4.
+> $G_4$ (Newton's constant) and $\alpha^{-1}$ (fine structure constant) are
+> **Consistency Checks**, not Predictions, because they each involve a fitted
+> constant ($L_\text{eff}$ and $K$ respectively). $\sin^2\theta_W$ is
+> **Pending Vol 4**.
+
+The full ledger and per-claim classification live in
+`Back_Matter/Parameter_Ledger.md`.
+
+---
+
 ## Chapters (11)
 
 | Ch | Title | Key Deliverable |

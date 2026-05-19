@@ -363,6 +363,19 @@ This is why there is a second, more direct route to $G_4$.
 
 ### 2.4.2 Route 2: G₄ from Firmament Tension
 
+> **Derived vs Verified (B2 lock, 2026-05-18).** The derivation below produces
+> $G_4$ from a formula containing the effective length $L_\text{eff}$.
+> $L_\text{eff}$ is **calibrated to recover the observed $G_N$** (see the
+> Parameter Ledger, `Back_Matter/Parameter_Ledger.md`, entry 1, and the
+> Preface-level statement in `QUALITY_GATE.md`). Accordingly, **$G_4$ as
+> derived in this section is a Consistency Check, not a parameter-free
+> Prediction** (B2 Decision 4). The *mechanism* — that 4D gravitational
+> strength is set by the Firmament tension $\sigma$ and an effective
+> extra-dimensional length scale — is a prediction of the framework; the
+> *numerical agreement* to ~0.06% is a consistency statement, made possible
+> by the $L_\text{eff}$ calibration. This admission was previously buried in
+> a parenthetical at Eq. (2.2.31); it is now stated up front.
+
 The alternative derivation starts from the Firmament membrane's physical properties rather than from the 6D Planck mass. The Firmament tension $\sigma$ and the effective extra-dimensional length scale $L_\text{eff}$ are directly related to $G_4$ by:
 
 $$
@@ -660,7 +673,7 @@ $$
 
 **Error:** $< 0.1\%$.
 
-[FIGURE: Fig 2.2.5 — Experimental Validation Summary. Table-format figure with five rows (free fall, Kepler orbits, tidal forces, geodetic precession, G value), columns for predicted value, measured value, % error, and PASS/FAIL status. All five rows show PASS (green). Footer note: "All predictions use G₄ = c⁴/(8πσL²_eff) with no free parameters adjusted to fit these tests."]
+[FIGURE: Fig 2.2.5 — Experimental Validation Summary. Table-format figure with five rows (free fall, Kepler orbits, tidal forces, geodetic precession, G value), columns for predicted value, measured value, % error, and PASS/FAIL status. All five rows show PASS (green). Footer note: "All predictions use G₄ = c⁴/(8πσL²_eff). $G_4$ is a consistency check ($L_\text{eff}$ calibrated to $G_N$; see Parameter Ledger); the five gravitational tests inherit that calibration and are then consistency checks of zone GR against standard GR."]
 
 ### 2.6.6 What These Tests Mean
 

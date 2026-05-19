@@ -61,7 +61,7 @@ where:
 - $G_4 = G_6/V_\text{extra} = 6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻² is the gravitational constant, derived from zone geometry (Ch 2, Eq. 2.2.11). *(Note: the specific formula $G_N = c^4/(8\pi\sigma L^2_\text{eff})$ used in Ch 2 Route 2 has a dimensional inconsistency under investigation — see Ch 2 §2.4.2 dimensional note and Research Task RT-2.G. The numerical value used here is the measured value; its zone derivation is provisional.)*
 - $T_{\mu\nu}$ is the stress-energy tensor of matter and radiation confined to the Firmament.
 
-These equations are exact within the 4D effective theory — they are the full nonlinear Einstein equations, not an approximation. Every solution of standard General Relativity (Schwarzschild black holes, Kerr rotating black holes, FRW cosmology, gravitational waves) is also a solution of (2.8.1), with $G_4$ and $\Lambda_\text{eff}$ taking their zone-derived values rather than being free parameters.
+These equations are exact within the 4D effective theory — they are the full nonlinear Einstein equations, not an approximation. Every solution of standard General Relativity (Schwarzschild black holes, Kerr rotating black holes, FRW cosmology, gravitational waves) is also a solution of (2.8.1), with $G_4$ and $\Lambda_\text{eff}$ taking their zone-derived values. Note that $G_4$ is a **Consistency Check** in this volume ($L_\text{eff}$ is calibrated to $G_N$; see `Back_Matter/Parameter_Ledger.md` and Ch 2 §2.4.2); the predictions of zone GR for the classical tests (Mercury, light deflection, etc.) therefore inherit this calibration and are consistency checks of zone GR against standard GR with shared $G_4$.
 
 ### §8.1.2 Why the Full Equations Are Hard
 

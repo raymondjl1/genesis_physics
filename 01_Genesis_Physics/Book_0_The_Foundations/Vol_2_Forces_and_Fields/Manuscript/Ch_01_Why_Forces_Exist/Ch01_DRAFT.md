@@ -173,7 +173,7 @@ The dots contain the non-abelian gauge fields, fermion couplings, and interactio
 
 ### §1.2.3 The Coupling Constants from Geometry
 
-Here is where the geometric framework becomes quantitative. The coupling constants — the numbers that determine how strong each force is — are not free parameters. They are integrals over the extra-dimensional geometry.
+Here is where the geometric framework becomes quantitative. The coupling constants — the numbers that determine how strong each force is — are not introduced as independent free parameters of Vol 2. They are integrals over the extra-dimensional geometry. Some of those integrals contain calibrated constants from earlier volumes (notably $L_\text{eff}$ from Vol 2 Ch 2 §2.4.2 and $K$ from Vol 4 / Vol 5 Ch 13); the full accounting lives in the **Parameter Ledger** (`Back_Matter/Parameter_Ledger.md`, locked B2 2026-05-18). The Ledger labels each numerical claim as **Prediction**, **Consistency Check**, or **Pending**.
 
 The gravitational coupling (Newton's constant) was already derived in Volume 1, Chapter 4 (Eq. 1.4.51):
 
@@ -191,7 +191,7 @@ The fine structure constant — one of the most mysterious numbers in physics �
 
 The nuclear force couplings arise from different integrals — boundary integrals and topological invariants of the zone structure. We will derive these in Chapters 4 and 6.
 
-The key point for now is structural: **every coupling constant is a number computed from the zone geometry.** There are no free parameters in the force sector. Every force strength is, in principle, calculable.
+The key point for now is structural: **every coupling constant is a number computed from the zone geometry.** No parameters are introduced in Vol 2 beyond those calibrated in Vol 1 and the small set ($L_\text{eff}$, $K$, $(B_0,\xi_0,\kappa_6^2)$) catalogued in `Back_Matter/Parameter_Ledger.md`. Every force strength is, in principle, calculable. Per Ch 9 §9.3.4 and the Ledger, $G_4$ and $\alpha^{-1}$ are **consistency checks** (each inherits a fitted constant), the four-force topology is a **prediction**, and $\sin^2\theta_W$ is **pending Vol 4**.
 
 ### §1.2.4 Charge as Extra-Dimensional Momentum
 
@@ -567,7 +567,7 @@ Before proceeding to the derivations, internalize these principles — they gove
 2. **Four forces, not by accident.** The number four follows from the topology of two extra dimensions with the zone stratification.
 3. **Different strengths, same geometry.** The hierarchy arises from different geometric integrals. No fine-tuning.
 4. **The Five Principles constrain.** The gauge group, interactions, and conservation laws are fixed by the principles.
-5. **Everything is calculable.** Coupling constants are integrals over the zone geometry. There are no free parameters in the force sector.
+5. **Everything is calculable.** Coupling constants are integrals over the zone geometry. The set of calibrated constants Vol 2 inherits is small and explicit (see `Back_Matter/Parameter_Ledger.md`); numerical claims are classified as **Prediction**, **Consistency Check**, or **Pending** per Ch 9 §9.3.4.
 6. **Everything is testable.** The framework makes specific predictions that can be verified or disproved.
 
 These are not articles of faith. They are claims about mathematics and physics. The next ten chapters are the proof.
@@ -582,7 +582,7 @@ The answer has five parts:
 
 **First**, forces are geometric. They are what 4D observers on the Firmament experience when 6D geodesic motion is projected onto a lower-dimensional surface (§1.1). In the full 6D Zone Manifold, there are no forces — only geometry. Force is an artifact of dimensional projection, formalized by the geodesic deviation equation (2.1.1–2.1.3).
 
-**Second**, the Kaluza-Klein mechanism converts extra-dimensional geometry into 4D force fields (§1.2). The 6D metric decomposes into a 4D metric (gravity), gauge fields (non-gravitational forces), and scalar moduli (dark sector). Coupling constants are geometric integrals over the warp factors, with no free parameters.
+**Second**, the Kaluza-Klein mechanism converts extra-dimensional geometry into 4D force fields (§1.2). The 6D metric decomposes into a 4D metric (gravity), gauge fields (non-gravitational forces), and scalar moduli (dark sector). Coupling constants are geometric integrals over the warp factors; Vol 2 introduces no parameters beyond those calibrated in Vol 1 and the explicit Vol 2 ledger entries ($L_\text{eff}$, $K$; see `Back_Matter/Parameter_Ledger.md`).
 
 **Third**, the zone manifold admits exactly four geometric sectors (§1.3). Two extra dimensions with the zone stratification produce: (1) bulk curvature → gravity, (2) $\xi$-mixing → electromagnetism, (3) $\eta$-topology → weak force, (4) boundary modes → strong force. A fifth force would require topology that the axioms exclude.
 
