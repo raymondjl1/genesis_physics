@@ -21,7 +21,7 @@ This chapter answers: it emerges completely. Entanglement is not spooky. It is t
 
 More than this: the framework predicts not just that entanglement exists, but **exactly how strong it can be**. The maximum correlation is bounded by the zone topology at precisely CHSH ≈ 2√2 ≈ 2.828, the same value that experiments measure. This is not a fit. It is a prediction, derived from first principles.
 
-This chapter is a triumph for Genesis Physics. It shows that Bell inequalities, long thought to prove the impossibility of local realism, are actually snapshots of zone topology. Classical systems cannot achieve CHSH > 2 because they lack the extra-dimensional structure. Quantum systems (and zone systems) can achieve CHSH = 2√2 because they live in 6D.
+This chapter argues that Bell inequalities are not metaphysical mysteries but structural consequences of zone topology. The derivation is incomplete in one identified step (see §4.4.3 and the Open Problems list); the structural result, however, is rigorous.
 
 ---
 
@@ -191,7 +191,7 @@ Experiments confirm this:
 
 ---
 
-## 4.4 Zone-Mediated Entanglement: The Triumph
+## 4.4 Zone-Mediated Entanglement: Structural Derivation
 
 ### 4.4.1 The Zone Manifold Connects Separated Particles
 
