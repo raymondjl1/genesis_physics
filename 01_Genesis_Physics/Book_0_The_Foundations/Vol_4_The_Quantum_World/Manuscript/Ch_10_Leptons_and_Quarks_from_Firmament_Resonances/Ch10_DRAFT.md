@@ -378,14 +378,14 @@ in the opposite direction. So the single-parameter exponential gets $m_\mu$ too 
 (ii) the Higgs profile $H(\xi)$ is not a narrow Gaussian and its non-Gaussian tails matter,
 (iii) renormalization-group running of the Yukawa coupling from a UV scale down to the electroweak scale — ordinary Standard Model running, which this calculation neglects — changes the ratio, and this is the most likely culprit.
 
-Option (iii) is tracked as GitHub #26 and is the subject of Chapter 13. There, we will compute the running of the Yukawa couplings from the zone cutoff $\Lambda_{\mathrm{zone}} = \hbar c / \eta_B \sim 2 \times 10^{19}$ GeV down to the electroweak scale, and the running naturally introduces generation-dependent corrections that are expected to bring the residuals below a few percent. As of this chapter's research state, Chapter 13 is not complete. So in this chapter we report the tree-level residuals honestly and route the improvement to Chapter 13.
+Option (iii) is tracked as GitHub #26 and is the subject of Chapter 13. There, we will compute the running of the Yukawa couplings from the maximum Kaluza-Klein tower scale $M_{KK}^{\max} \sim 2 \times 10^{19}$ GeV (the maximum KK-tower scale of the Waters Below extra dimension, distinct from the EFT cutoff $\Lambda_{\mathrm{zone}} = \hbar c / \eta_B \approx 0.152$ GeV introduced in Ch 8 §8.3.2) down to the electroweak scale, and the running naturally introduces generation-dependent corrections that are expected to bring the residuals below a few percent. As of this chapter's research state, Chapter 13 is not complete. So in this chapter we report the tree-level residuals honestly and route the improvement to Chapter 13.
 
 **Neutrinos.** The one bright spot in the lepton sector. Neutrino masses arise from a different overlap channel — specifically, a coupling to the right-handed projection of the spinor field, with a seesaw-type suppression by the heavy scale $M_R \sim \hbar c / \eta_B$. The framework predicts
 $$
 m_\nu \sim \frac{v^2}{M_R} \sim \frac{(246\ \mathrm{GeV})^2}{2 \times 10^{19}\ \mathrm{GeV}} \sim 3 \times 10^{-3}\ \mathrm{eV} = 3\ \mathrm{meV}.
 \tag{4.10.29}
 $$
-The measured neutrino mass splittings are $\sim 10$ meV (atmospheric) and $\sim 3$ meV (solar). The framework's prediction is in the right range — this is a genuine *qualitative* success, because the tiny neutrino mass is not tuned but arises naturally from the ratio of the electroweak scale to the zone cutoff. No one-parameter fit is needed. The Standard Model, by contrast, must *postulate* the seesaw scale, whereas here it is determined by the geometry.
+The measured neutrino mass splittings are $\sim 10$ meV (atmospheric) and $\sim 3$ meV (solar). The framework's prediction is in the right range — this is a genuine *qualitative* success, because the tiny neutrino mass is not tuned but arises naturally from the ratio of the electroweak scale to $M_{KK}^{\max}$. No one-parameter fit is needed. The Standard Model, by contrast, must *postulate* the seesaw scale, whereas here it is determined by the geometry.
 
 [FIGURE: Fig 4.10.4 — Predicted vs. measured fermion masses, log-log plot. All twelve charged fermions plotted; diagonal line is $y=x$. Lepton points (circles), up-type quark points (triangles), down-type (squares). Error bars reflect the single-α fit residuals. Neutrinos plotted separately in an inset showing the seesaw prediction vs. measured mass splittings.]
 
@@ -417,7 +417,7 @@ These residuals are bad. The up quark is wrong by a factor of ~300, the down qua
 
 **Three observations that soften the failure without excusing it.**
 
-First, the RG running from the zone cutoff to the hadronic scale is much more important for quarks than for leptons. The running Yukawa couplings flow toward fixed-point values that depend on the entire gauge structure (QCD + electroweak), and this flow introduces generation-dependent corrections of orders of magnitude — not percent-level. Including the running (Chapter 13, incomplete) is expected to bring the quark residuals from $\sim 10^{4}$ down to $\sim 10\text{–}30\%$ — still not great, but much better than the tree-level number above.
+First, the RG running from $M_{KK}^{\max}$ down to the hadronic scale is much more important for quarks than for leptons. The running Yukawa couplings flow toward fixed-point values that depend on the entire gauge structure (QCD + electroweak), and this flow introduces generation-dependent corrections of orders of magnitude — not percent-level. Including the running (Chapter 13, incomplete) is expected to bring the quark residuals from $\sim 10^{4}$ down to $\sim 10\text{–}30\%$ — still not great, but much better than the tree-level number above.
 
 Second, the light quark masses are the *renormalized current masses*, which are fundamentally ambiguous below $\Lambda_{\mathrm{QCD}} \sim 200$ MeV because of chiral symmetry breaking. The "measured" values in (4.10.31) are lattice-QCD extractions at a specific scheme and scale ($\overline{\mathrm{MS}}$ at 2 GeV). Comparing a tree-level calculation to a scheme-dependent measured value is an apples-to-oranges operation, and the honest statement is that the current framework does not have a principled prescription for the comparison.
 
@@ -553,7 +553,7 @@ After §10.9, a fair reader would be forgiven for asking: is there anything here
 
 **2. Charge quantization.** Integer electric charge of all observed particles is a topological consequence of $\pi_1(S^1) = \mathbb{Z}$ applied to the vacuum manifold of $\Psi_A$. The Standard Model takes charge quantization as an empirical fact; this framework derives it from topology. Fractional charges of quarks arise from the color-triplet generalization and always combine to integer charges for color-singlets (baryons and mesons), in agreement with observation. Again, this does not depend on Assumption 10.1.
 
-**3. Neutrino smallness.** The seesaw prediction $m_\nu \sim v^2/M_R \sim $ meV is a structural success: the framework has only two scales, $v$ and $\Lambda_{\mathrm{zone}} \sim \hbar c / \eta_B$, and the neutrino mass falls out of their ratio without tuning. The Standard Model can accommodate small neutrino masses but does not predict their scale. This framework predicts a scale of a few meV, in qualitative agreement with the measured splittings.
+**3. Neutrino smallness.** The seesaw prediction $m_\nu \sim v^2/M_R \sim $ meV is a structural success: the relevant scales are the electroweak VEV $v$ and the maximum KK-tower scale $M_{KK}^{\max} \sim 2 \times 10^{19}$ GeV (which sets $M_R$; this is the maximum KK-tower scale of the Waters Below extra dimension and is distinct from the EFT cutoff $\Lambda_{\mathrm{zone}} = \hbar c / \eta_B \approx 0.152$ GeV of Ch 8/9), and the neutrino mass falls out of their ratio without tuning. The Standard Model can accommodate small neutrino masses but does not predict their scale. This framework predicts a scale of a few meV, in qualitative agreement with the measured splittings.
 
 **4. Proton and neutron masses.** At 0.02% and 0.005% respectively. As discussed in §10.8, this is mostly a QCD success that the framework inherits without corrupting. But "inheriting QCD without corrupting it" is itself a test the framework had to pass, and it passes.
 
@@ -567,13 +567,13 @@ Five tracked open problems, each with its current status and routing.
 
 **OPEN 10.1 — Spin-1/2 origin.** The BLOCKER. Tracked as GitHub #1. Current routes: supersymmetric extension, Kähler spinors from bulk geometry, higher-form gauge symmetry. None complete. Addressed in Chapter 11 to the extent current research allows, and flagged as ongoing research.
 
-**OPEN 10.2 — Full fermion mass spectrum with RG running.** Tracked as GitHub #2 and #26. The tree-level residuals in Table 4.10.1 are expected to reduce significantly when Yukawa running from $\Lambda_{\mathrm{zone}}$ to the electroweak scale is included. Chapter 13 will compute this; currently incomplete.
+**OPEN 10.2 — Full fermion mass spectrum with RG running.** Tracked as GitHub #2 and #26. The tree-level residuals in Table 4.10.1 are expected to reduce significantly when Yukawa running from $M_{KK}^{\max}$ down to the electroweak scale is included. Chapter 13 will compute this; currently incomplete.
 
 **OPEN 10.3 — CKM and PMNS mixing matrices.** Tracked as GitHub #3. Requires the derivation of separate up-type and down-type Higgs profiles on the Firmament. Chapter 13.
 
 **OPEN 10.4 — Higgs potential derivation.** Tracked as GitHub #25. The framework currently takes $v = 246.22$ GeV as an empirical input. A first-principles derivation from the zone geometry is an active research direction.
 
-**OPEN 10.5 — Running couplings and unification.** Tracked as GitHub #26. Related to OPEN 10.2 but broader: computing the full RG flow of all Standard Model couplings from the zone cutoff. Chapter 13.
+**OPEN 10.5 — Running couplings and unification.** Tracked as GitHub #26. Related to OPEN 10.2 but broader: computing the full RG flow of all Standard Model couplings from $M_{KK}^{\max}$ down to laboratory scales. Chapter 13.
 
 ---
 
