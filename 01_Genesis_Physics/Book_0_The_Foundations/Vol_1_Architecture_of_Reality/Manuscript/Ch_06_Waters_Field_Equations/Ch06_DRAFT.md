@@ -86,7 +86,7 @@ The gravitational and Firmament actions were constructed in Chapters 4 and 5 res
 
 $$S_A = \int d^6X\,\sqrt{-g^{(6)}}\left[-\frac{1}{2}g^{AB}\partial_A\Psi_A\,\partial_B\Psi_A - V(\Psi_A)\right] \tag{1.6.4}$$
 
-**Sign convention (this series):** The kinetic term for scalar fields is $-\frac{1}{2}g^{AB}\partial_A\Psi\,\partial_B\Psi$ throughout all volumes. With the metric signature $(-,+,+,+,+,+)$, this gives positive kinetic energy for time derivatives: $g^{00}(-\frac{1}{2})\dot\Psi^2 = -(-e^{-2A}/c^2)(\frac{1}{2})\dot\Psi^2 = +\frac{1}{2c^2}e^{-2A}\dot\Psi^2 > 0$. Chapter 7 Eq. (1.7.4) uses the opposite sign convention for the Waters action — that equation has a sign error that is corrected in Ch 7 (see Ch 7 correction note).
+**Sign convention (this series):** The kinetic term for scalar fields is $-\frac{1}{2}g^{AB}\partial_A\Psi\,\partial_B\Psi$ throughout all volumes. With the metric signature $(-,+,+,+,+,+)$, this gives positive kinetic energy for time derivatives: $g^{00}(-\frac{1}{2})\dot\Psi^2 = -(-e^{-2A}/c^2)(\frac{1}{2})\dot\Psi^2 = +\frac{1}{2c^2}e^{-2A}\dot\Psi^2 > 0$. Chapter 7 Eq. (1.7.4) was published in an earlier revision with the $+\tfrac{1}{2}$ kinetic sign; it was corrected to the canonical $-\tfrac{1}{2}$ in Rev. 2026-05-14. Both chapters now use the same series-canonical convention.
 
 The potential $V(\Psi_A)$ must satisfy several requirements:
 1. It must have a stable minimum at $\Psi_A = v_A$ (the vacuum expectation value) — this gives dark energy its constant density.
