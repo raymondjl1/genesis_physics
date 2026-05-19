@@ -192,11 +192,11 @@ $$\ln \Omega_{\text{tot}}(U_A) = \ln \Omega_{\text{tot}}(U_A^*) - \frac{1}{2} \f
 The curvature is:
 $$\frac{\partial^2 \ln \Omega_{\text{tot}}}{\partial U_A^2} = -\frac{\partial^2 \ln \Omega_A}{\partial U_A^2} - \frac{\partial^2 \ln \Omega_B}{\partial U_B^2} \tag{3.9.10}$$
 
-For a system of N particles, this scales as $\sim 1/(k_B T^2 N)$, so the width of the fluctuations is:
-$$\Delta U_A \sim \sqrt{k_B T^2 \sqrt{N}} \sim \sqrt{N} k_B T \tag{3.9.11}$$
+Using the standard result $\partial^2 \ln \Omega/\partial U^2 = -1/(k_B T^2 C_V)$ with heat capacity $C_V \sim N k_B$, the curvature scales as $\sim -1/(N k_B^2 T^2)$. Reading off the Gaussian width (variance $= -1/\partial^2_U \ln \Omega$):
+$$\Delta U_A \sim k_B T \sqrt{N} \tag{3.9.11}$$
 
-The **relative fluctuation** is:
-$$\frac{\Delta U_A}{U_A} \sim \frac{\sqrt{N}}{N} = \frac{1}{\sqrt{N}} \sim 10^{-10^{11.5}} \quad \text{for } N = 10^{23} \tag{3.9.12}$$
+The **relative fluctuation**, using $U_A \sim N k_B T$, is:
+$$\frac{\Delta U_A}{U_A} \sim \frac{k_B T \sqrt{N}}{N k_B T} = \frac{1}{\sqrt{N}} \approx 3 \times 10^{-12} \quad \text{for } N = 10^{23} \tag{3.9.12}$$
 
 This is **unobservably small**. For all practical purposes, thermal equilibrium occurs at a unique temperature.
 
