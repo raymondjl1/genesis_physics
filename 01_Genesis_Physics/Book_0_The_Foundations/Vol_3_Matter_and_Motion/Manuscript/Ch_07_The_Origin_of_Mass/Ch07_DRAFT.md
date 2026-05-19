@@ -20,7 +20,7 @@ This chapter fills that gap. We will derive the *entire* mass-generation mechani
 
 2. The Mexican hat potential is not assumed. It *emerges* from the boundary conditions at the Firmament, where the Firmament tension $\sigma \approx 6 \times 10^{98}$ kg/(m·s²) creates a negative mass-squared term that destabilizes the symmetric vacuum. (§7.2)
 
-3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak scale $v = 246.22$ GeV is fixed by the zone geometry. (§7.3)
+3. Spontaneous symmetry breaking gives mass to the W and Z bosons through the Goldstone mechanism, while the photon remains massless. The electroweak vacuum expectation value $v = 246.22$ GeV is connected to the zone-geometry parameters through §7.3, although the precise reduction of $v$ to ratios of $(\sigma, \xi_A, \eta_B)$ alone is incomplete — the lowest KK mode set by $\eta_B$ alone sits at the hadronic scale ($\sim 477$ MeV), not at $v$; the electroweak scale therefore involves either the $\xi$-tower contribution or additional radiative running. (§7.3)
 
 4. Fermion masses arise from the coupling between topological vortex defects (Chapter 6) and the Higgs condensate. The coupling strength — the Yukawa coupling — is an overlap integral between the vortex wavefunction and the Higgs profile. Different generations have different overlap, producing the mass hierarchy. (§7.4)
 
@@ -100,7 +100,7 @@ The Higgs field is not a new postulate. It is the ground state of the Waters Abo
 
 [FIGURE: Fig 3.7.2 — KK decomposition of Waters Above. Left: the 6D field Ψ_A lives in the full (x^μ, ξ, η) space. Center: decomposition into tower of 4D modes, with ξ-profiles ψ_1, ψ_2, ψ_3... shown as sinusoidal standing waves. Right: the lowest mode (n_ξ = 1) highlighted and identified as the Higgs doublet H(x^μ). Higher modes are heavy KK excitations at the compactification scale.]
 
-### The η-Direction and the Natural GeV Scale
+### The η-Direction and the Natural Sub-GeV Scale
 
 The same decomposition applies in the $\eta$-direction (Waters Below, $\eta_B \approx 1.3 \times 10^{-15}$ m):
 
@@ -108,22 +108,22 @@ $$\chi_{n_\eta}(\eta) = \sqrt{\frac{2}{\eta_B}} \sin\left(\frac{n_\eta \pi \eta}
 
 Each $\eta$-mode contributes to the 4D effective mass:
 
-$$M_{n_\eta} = \frac{\hbar c \, n_\eta \pi}{\eta_B} \quad \text{(3.7.9)}$$
+$$M_{n_\eta} c^2 = \frac{\hbar c \, n_\eta \pi}{\eta_B} \quad \text{(3.7.9)}$$
 
-For $n_\eta = 1$:
+For $n_\eta = 1$, using $\hbar c = 197.3\ \text{MeV}\!\cdot\!\text{fm} = 1.973\times 10^{-16}\ \text{GeV}\!\cdot\!\text{m}$:
 
-$$M_1 = \frac{\hbar c \pi}{\eta_B} \approx \frac{9.95 \times 10^{-26} \text{ J·m}}{1.3 \times 10^{-15} \text{ m}} \approx 7.65 \times 10^{-11} \text{ kg} \approx 430 \text{ GeV} \quad \text{(3.7.10)}$$
+$$M_1 c^2 = \frac{\hbar c \pi}{\eta_B} \approx \frac{(1.973\times 10^{-16}\ \text{GeV}\!\cdot\!\text{m})(\pi)}{1.3\times 10^{-15}\ \text{m}} \approx 0.477\ \text{GeV} = 477\ \text{MeV} \quad \text{(3.7.10)}$$
 
-This falls squarely in the electroweak range (100 GeV – 1 TeV).
+This sits in the few-hundred-MeV range — close to the QCD confinement scale $\Lambda_{\rm QCD} \sim 200$ MeV and the lightest hadron masses (the pion at 140 MeV, the kaon at 494 MeV, the proton at 938 MeV), not the electroweak scale.
 
-This is not a coincidence. The Waters Below geometry, with scale $\eta_B$ set independently by nuclear physics, *naturally produces mass scales matching weak interactions*. The zone architecture generates the electroweak scale through pure geometry — no fine-tuning required.
+This is **not** the electroweak scale. An earlier revision of this chapter mis-quoted $M_1 \approx 430$ GeV, coming from an arithmetic error that conflated $\hbar c / \eta_B$ in SI units with the GeV conversion. The correct $\sim 477$ MeV result has a different physical interpretation: the lowest $\eta$-tower mode lies at the hadronic mass scale set independently by the Firmament-Waters-Below geometry. Recovery of the electroweak scale $v = 246$ GeV requires the $\xi$-tower or radiatively-driven mass generation, not the $n_\eta=1$ KK mode by itself. The "natural electroweak scale from geometry" headline (§7.0/§7.3 in earlier revisions) is **retracted**; what the geometry does naturally generate is the hadronic mass scale.
 
 Compare the two extra-dimensional sectors:
 
 | Sector | Scale | $n=1$ Mass | Physical Role |
 |--------|-------|-----------|---------------|
 | $\xi$ (Waters Above) | $\xi_A \approx 3 \times 10^{26}$ m | $\sim 10^{-33}$ eV | Cosmological; negligible contribution to particle mass |
-| $\eta$ (Waters Below) | $\eta_B \approx 1.3 \times 10^{-15}$ m | $\sim 430$ GeV | Electroweak scale; dominant mass contribution |
+| $\eta$ (Waters Below) | $\eta_B \approx 1.3 \times 10^{-15}$ m | $\sim 477$ MeV | Hadronic scale; dominant contribution to baryon-sector masses |
 
 The vast asymmetry $\xi_A / \eta_B \sim 10^{41}$ is not a defect of the theory — it is the *explanation* for why particle physics and cosmology operate at such different energy scales. The architecture of the extra dimensions *is* the hierarchy.
 
@@ -710,7 +710,7 @@ Whether one reads this as physics or as theology, the mathematics is the same. T
 
 ### Computational Problems
 
-**3.7.1.** The lowest $\eta$-mode mass scale is $M_1 = \hbar c \pi / \eta_B$ with $\eta_B = 1.3 \times 10^{-15}$ m. Calculate $M_1$ in GeV using $\hbar c = 197.3$ MeV·fm. Compare this to the W boson mass. Why is this scale "electroweak"?
+**3.7.1.** The lowest $\eta$-mode mass scale is $M_1 c^2 = \hbar c \pi / \eta_B$ with $\eta_B = 1.3$ fm. Calculate $M_1 c^2$ in MeV using $\hbar c = 197.3$ MeV·fm. Verify that the answer sits in the few-hundred-MeV range (close to the QCD scale and the lightest hadron masses) rather than at the electroweak scale. Discuss what additional contributions (the $\xi$-tower, radiative running, Yukawa structure) would have to combine with this lowest mode to reach the electroweak vacuum expectation value $v = 246$ GeV.
 
 **3.7.2.** From the derived values $\mu = 88.4$ GeV and $\lambda = 0.129$, calculate the Higgs VEV using $v = 2\mu/\sqrt{\lambda}$. Then compute $M_W = gv/2$ with $g = 0.652$ and $M_Z = M_W/\cos\theta_W$ with $\sin^2\theta_W = 0.2312$. Compare all three to measured values.
 
