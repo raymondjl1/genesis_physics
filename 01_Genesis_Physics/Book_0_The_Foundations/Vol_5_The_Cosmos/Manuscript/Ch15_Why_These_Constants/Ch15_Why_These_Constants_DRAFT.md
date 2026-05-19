@@ -24,13 +24,15 @@ And Boltzmann's constant k_B = 1.381 × 10⁻²³ J/K, the bridge between the mi
 
 The Standard Model of particle physics contains at least 26 free parameters — coupling constants, masses, mixing angles — none of which can be calculated from within the theory. They are all, every one, put in by hand after being extracted from experiment. This is not a theory that explains its own foundations. It is a phenomenally successful *description* that inherits its constants from nature without asking where nature got them.
 
-In this chapter, we will do what standard physics does not: we will *derive* three of the most fundamental constants in all of physics — ℏ, G, and k_B — from the zone architecture established throughout this series. Each constant will emerge from a different aspect of the Firmament membrane and its embedding in 6D spacetime:
+In this chapter, we work toward what standard physics does not: we expose three of the most fundamental constants in all of physics — ℏ, G, and k_B — as *consequences* of the zone architecture established throughout this series, rather than as free inputs. Each constant will be tied to a different aspect of the Firmament membrane and its embedding in 6D spacetime:
 
 - **Planck's constant ℏ** from the topological action scale of the Firmament
 - **Newton's gravitational constant G** from the 6D gravitational coupling diluted over extra-dimensional volume
 - **Boltzmann's constant k_B** from the statistical mechanics of Firmament oscillation modes
 
-These are not three separate tricks. They are three faces of a single architecture — the same zone structure that gave us electromagnetism in Volume 2, thermodynamics in Volume 3, and quantum mechanics in Volume 4. The constants of nature are what they are because the architecture demands it.
+These are not three separate tricks. They are three faces of a single architecture — the same zone structure that gave us electromagnetism in Volume 2, thermodynamics in Volume 3, and quantum mechanics in Volume 4.
+
+> **§15.0 Scope and honesty statement (rev. 0516_Rev_334).** For ℏ specifically, this chapter derives the *structural form* of ℏ from the warp-factored 6D action: ℏ scales as σ η_B³/c × (η_B/ξ_A)^{2λ}, and the existence of a minimum action quantum is a topological inevitability of the Firmament. The *numerical coefficient*, however, depends on a warp exponent λ that we *fit* to recover the measured ℏ — the current best value is λ ≈ 0.967, which is rounded to 1 in §15.2.4 with a stated O(3%) tolerance. A fully *ab initio* derivation of λ from the 6D Einstein equations on the canonical warp profile is left **open as CT-5.ℏ** (Open Problem 15.2 below). Without CT-5.ℏ, this chapter recovers ℏ only as a **calibrated consistency check**, not as a parameter-free prediction. The G_4 derivation in §15.3 likewise contains a calibration step (V_extra fit to M_Pl); k_B is classified as a unit-conversion factor in §15.4. The chapter is honest about which results are predictions, which are consistency checks, and which are pending.
 
 ---
 
@@ -58,7 +60,7 @@ This is not an explanation. It is a surrender dressed in mathematical clothing. 
 
 ### 15.1.3 What We Will Do Instead
 
-In the following sections, we derive ℏ, G, and k_B from the parameters of the zone architecture:
+In the following sections, we tie ℏ, G, and k_B to the parameters of the zone architecture. For ℏ (§15.2), the **structural form is derived; the numerical coefficient is calibrated via a warp exponent λ — see CT-5.ℏ (Open Problem 15.2)**. For G_4 (§15.3), the KK reduction formula is derived; the extra-dimensional volume V_extra is calibrated against M_Pl. For k_B (§15.4), the result is a unit-conversion classification rather than a numerical prediction. The four input parameters are:
 
 | Parameter | Symbol | Value | Established In |
 |-----------|--------|-------|---------------|
@@ -198,9 +200,9 @@ With η_B/ξ_A ≈ 4.33 × 10⁻⁴² [corrected for ξ_A = 3.0×10²⁶ m, Rev.
 
 $$\left(4.33 \times 10^{-42}\right)^{2\lambda} \approx 4.80 \times 10^{-80} \tag{15.17}$$
 
-$$2\lambda \times \log_{10}(4.33 \times 10^{-42}) \approx -80 \quad \Rightarrow \quad 2\lambda \times (-41.36) \approx -80 \quad \Rightarrow \quad \lambda \approx 0.967 \approx 1 \tag{15.18}$$
+$$2\lambda \times \log_{10}(4.33 \times 10^{-42}) \approx -80 \quad \Rightarrow \quad 2\lambda \times (-41.36) \approx -80 \quad \Rightarrow \quad \lambda \approx 0.967 \quad \text{(fit value)} \tag{15.18}$$
 
-The warping exponent is *of order unity*. This is significant: λ ≈ 1 is the simplest, most natural value. It arises from the standard coupling of curvature to matter in extra-dimensional gravity theories. There is no fine-tuning here — the exponent is geometrically natural, and the enormous suppression comes entirely from the *ratio* ξ_A/η_B, which is a consequence of having both a cosmic-scale and a nuclear-scale extra dimension.
+The warping exponent that closes the 79-decade gap is **λ ≈ 0.967 (fit value)**. We round it to λ = 1 in the boxed formula (15.19) for presentational clarity, and absorb the residual O(3%) into the geometric prefactor β_geom. This rounding is a *presentational choice, not a derivation*: λ = 1 is the value the structural form would take if its coefficient were exactly natural in extra-dimensional gravity, and λ ≈ 0.967 is what the data require given the canonical (σ, η_B, ξ_A, c) inputs. The ~3% gap between 0.967 and 1 is small enough to be plausibly absorbed by O(1) prefactors but is *not* by itself evidence that λ = 1 has been derived. A first-principles derivation of λ from the 6D Einstein equations on the canonical warp profile is **CT-5.ℏ** (Open Problem 15.2). Until that derivation closes, the ℏ recovery presented here is a *calibrated consistency check*: the structural form is fixed by the architecture, but the dimensionless coefficient is chosen to land on the measured value.
 
 > (The warp exponent λ is **fitted** to reproduce the observed ℏ. It is not derived from the 6D field equations. The calculation above works backwards: the required suppression $\sim 10^{-80}$ is used to determine $\lambda \approx 1$, which is then described as "geometrically natural." While this value of λ is self-consistent with known extra-dimensional gravity theories, the claim that λ = 1 is *predicted* rather than *calibrated* requires a derivation of λ from the 6D action. This is a calibration, not a prediction, pending that derivation.)
 
@@ -234,7 +236,7 @@ The critical point is not the last decimal place. It is that ℏ is *derived* �
 
 ### 15.2.6 But Why *This* Value?
 
-Let us now answer the question that standard physics cannot.
+Let us now address the question that standard physics treats as a brute fact. The honest answer, given the calibration step in §15.2.4, is two-part: (a) the **structural form** of ℏ — that it exists at all, that it scales as σ η_B³/c × (η_B/ξ_A)^{2λ}, and that it is enormously suppressed below the bare quantum — is *derived* from the warp-factored 6D action; (b) the **numerical coefficient** is recovered as a *consistency check* given the fit value λ ≈ 0.967 (CT-5.ℏ pending). Treating those two parts separately:
 
 **Why is ℏ so small?** Because the universe is so large.
 
@@ -586,7 +588,7 @@ This is progress, not completion. The architecture explains *why* the constants 
 
 > **Open Problem 15.1**: Determine whether the 6D field equations (ACTION_6D_COMPLETE) with Waters field potentials have a unique solution for the zone extents (ξ_A, η_B) and membrane properties (σ, μ), or whether a family of solutions exists.
 
-> **Open Problem 15.2**: The warp exponent λ ≈ 1 is natural and self-consistent, but its exact value has not been derived from first principles. A precise determination requires solving the linearized 6D Einstein equations around the zone background. This is a well-defined mathematical problem whose solution would sharpen the ℏ derivation from "≤1% agreement" to sub-percent precision.
+> **Open Problem 15.2 (CT-5.ℏ)**: The warp exponent λ is currently *fit* to the value λ ≈ 0.967 that closes the bare-to-observed ℏ gap, and then rounded to λ = 1 for the boxed formula. Its first-principles value has not been derived. A precise determination requires solving the linearized 6D Einstein equations on the canonical warp profile (the same profile used throughout Vol 5) and reading off λ from the resulting metric coefficient. Until this derivation closes, the ℏ recovery in §15.2 is a **calibrated consistency check**, not a parameter-free prediction. Resolving CT-5.ℏ would promote ℏ from "consistency check" to "prediction" in the §15.6.1 table.
 
 > **Open Problem 15.3**: The geometric prefactor β_geom ≈ O(1) in the ℏ derivation has been estimated but not precisely calculated. Its value depends on the detailed topology of the vortex core and the metric near the Firmament. A first-principles calculation is feasible but has not yet been performed.
 
@@ -600,9 +602,9 @@ This chapter has established three entries in the prediction catalog that will b
 
 | # | Constant | Observed Value | Derived Formula | Accuracy | Status |
 |---|----------|---------------|-----------------|----------|--------|
-| P-15.1 | ℏ | 1.05457 × 10⁻³⁴ J·s | (σ η_B³)/(2c) × (η_B/ξ_A)² | ≤1% | Derived |
-| P-15.2 | G₄ | 6.674 × 10⁻¹¹ m³/(kg·s²) | G₆/V_extra (from KK reduction) | ≤1% | Derived |
-| P-15.3 | k_B | 1.381 × 10⁻²³ J/K | Unit conversion; ℏ/k_B = η_B T_D/c | Exact* | Classified |
+| P-15.1 | ℏ | 1.05457 × 10⁻³⁴ J·s | (σ η_B³)/(2c) × (η_B/ξ_A)^{2λ} | ≤1% (after λ fit) | **Consistency check** (structural form derived; numerical coefficient calibrated via λ — see CT-5.ℏ / Open Problem 15.2) |
+| P-15.2 | G₄ | 6.674 × 10⁻¹¹ m³/(kg·s²) | G₆/V_extra (from KK reduction) | ≤1% (after V_extra calibration to M_Pl) | **Consistency check** (KK reduction formula derived; V_extra calibrated) |
+| P-15.3 | k_B | 1.381 × 10⁻²³ J/K | Unit conversion; ℏ/k_B = η_B T_D/c | Exact* | Classified (unit convention) |
 
 *k_B is exact by SI definition since 2019. The physical prediction is the Debye temperature T_D and the CMB temperature T₀.
 
@@ -636,9 +638,9 @@ But the mathematics points somewhere.
 
 ## Chapter Summary
 
-> **Key Result 15.1 — Planck's Constant Derived:**
-> $$\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\eta_B}{\xi_A}\right)^2 \approx 1.055 \times 10^{-34} \text{ J·s}$$
-> Origin: Topological quantization of vortex action on the Firmament, suppressed by the warp factor of the 6D geometry.
+> **Key Result 15.1 — Planck's Constant: Structural Form Derived, Numerical Coefficient Calibrated (Consistency Check):**
+> $$\hbar = \frac{\sigma \eta_B^3}{2c} \times \left(\frac{\eta_B}{\xi_A}\right)^{2\lambda}, \quad \lambda \approx 0.967 \text{ (fit)} \;\Rightarrow\; \approx 1.055 \times 10^{-34} \text{ J·s}$$
+> Origin: Topological quantization of vortex action on the Firmament, suppressed by the warp factor of the 6D geometry. The warp exponent λ is *fitted* to recover the measured ℏ; first-principles derivation of λ is **CT-5.ℏ** (Open Problem 15.2). This is a calibrated consistency check, not a parameter-free prediction.
 
 > **Key Result 15.2 — Gravitational Constant Derived:**
 > $$G_4 = \frac{G_6}{V_{\text{extra}}}, \quad V_{\text{extra}} = \int d\xi\,d\eta\,e^{2(A+B)} \approx 10^{61} \text{ m}^2$$
