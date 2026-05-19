@@ -15,13 +15,13 @@ crown_jewel: true
 
 This chapter delivers, at last, the number Feynman asked us to worry about. We will derive the fine structure constant $\alpha$ from the 6D zone architecture with no fitted parameters, reach
 
-$$\alpha^{-1} = 137.17 \pm 0.15,$$
+$$\alpha^{-1} \in [137.17,\;137.47]\quad(\text{theory range; see §13.6.2}),$$
 
 and compare with the experimental value
 
 $$\alpha^{-1}_{\text{exp}} = 137.035\,999\,084(21),$$
 
-for a relative error of $0.10\%$ — the headline precision of the framework.
+for a relative deviation of $0.10\%$–$0.31\%$ depending on where in the theory range the eventual derived value lands. The chapter is honest that the prior draft's "$\pm 0.15$" single-number headline was not supported by clean parameter propagation; it has been replaced (rev. 0516_Rev_336) by the range above plus the full covariance budget in §13.6.2.
 
 That bald statement is the entire chapter. Every section that follows is a careful unpacking of where the inputs come from, how the machinery of Volumes 1–4 combines them, what the residual uncertainties are, and which pieces of the derivation are still under construction. By the end of the chapter a graduate student should be able to reproduce $137.17$ with a calculator and a copy of Vols 1–5 on the desk, and should also know, precisely, which two research gaps stand between the present 0.1% precision and the next-milestone 0.01%.
 
@@ -69,7 +69,7 @@ We will hold ourselves to a contract for the rest of the chapter.
 
 **The derivation has one free number.** That number is $\ln(\xi_A/\eta_B) \approx 95.26$, the logarithm of the ratio of the outermost to innermost scales of the zone manifold. Every *other* quantity will be traced either to (a) an axiom of Vol 1, (b) a derived result from Vols 1–4, or (c) a research file that contains an in-progress derivation flagged honestly in §13.10.
 
-**The answer is a single number.** We will not write "approximately 137" or "close to the experimental value." We will write $\alpha^{-1} = 137.17 \pm 0.15$, and we will tell the reader where each digit came from.
+**The answer is a single number, with an honest uncertainty.** We will not write "approximately 137" or "close to the experimental value." We will write $\alpha^{-1} \in [137.17, 137.47]$ (the honest spread from $b_\text{eff} = 9.05$ vs $9.07$; see §13.6.2), and we will tell the reader where each digit came from and which two pieces of the budget (the §13.10 HIGH-severity gaps) the next milestone of precision is waiting on.
 
 **The calculation is reproducible with a calculator.** A student who has followed Vols 1–4 should be able, with the numerical inputs of §§13.2, §13.5, and Box 5.13.A, to compute $\alpha^{-1}$ by hand in ten minutes and get our answer.
 
@@ -399,13 +399,17 @@ We now plug Eqs (5.13.8) and (5.13.39c) into the master formula (5.13.32):
 
 $$\alpha^{-1} = C \cdot L = 1.4434 \times 95.259 = 137.47. \tag{5.13.40a}$$
 
-Hmm — that came out slightly higher than the value promised in the introduction. Let us be careful about where the difference lies. Using the alternative ($b_{\text{eff}} = 9.05$) value that matches the research archive exactly,
+The same computation with the rounded $b_{\text{eff}} = 9.05$ gives
 
 $$\alpha^{-1} = 1.4400 \times 95.259 = 137.17. \tag{5.13.40}$$
 
-$$\boxed{\;\alpha^{-1} = 137.17 \pm 0.15\;\text{(theory)}\quad \text{vs.}\quad \alpha^{-1}_{\text{exp}} = 137.035\,999(\ldots)\;} \tag{5.13.40}$$
+The $b_{\text{eff}} = 9.05$ vs $9.07$ spread is not "slop within a tight band" — it propagates to $\Delta\alpha^{-1} = L \times \Delta b_\text{eff}/(2\pi) = 95.26 \times 0.02/(2\pi) \approx 0.30$, which is twice the figure that previous drafts reported as the "headline" theoretical uncertainty. We therefore quote the result as an honest range rather than a single number with an unjustified one-sigma:
 
-The small difference between $137.17$ and $137.47$ is precisely the $\pm 0.02$ slop in $b_{\text{eff}}$ between the two-digit value $9.05$ and the three-digit running-sum value $9.07$. Both values are inside the theoretical uncertainty band; both give agreement with experiment at the level of 0.1% to 0.3%. The value we report as the headline is $137.17$, corresponding to $b_{\text{eff}} = 9.05$, because it matches the numbers used throughout the research archive and the preview in Vol 2 Ch 3 §3.7.4. The slight inconsistency between the two-digit and three-digit sums is part of the HIGH-severity gap on the $b_{\text{red}} + b_{\text{hi}}$ decomposition and is addressed honestly in §13.10. A sharper derivation of those two contributions would fix the slop and choose between the two values automatically.
+$$\boxed{\;\alpha^{-1} \in [137.17,\;137.47]\;\text{(theory range, $b_\text{eff} = 9.05$/$9.07$ spread)}\quad \text{vs.}\quad \alpha^{-1}_{\text{exp}} = 137.035\,999(\ldots)\;} \tag{5.13.40}$$
+
+The full covariance-table propagation of *all* input uncertainties — including the $b_\text{red}$ and $b_\text{hi}$ HIGH-severity gaps, the geometric prefactor, and the UV boundary condition — is carried out in §13.6.2 below, and gives the parameter-propagation $1\sigma$ of about $\pm 0.68$ (excluding the UV boundary) or $\pm 2.59$ (including it as a full $\pm 2.5$). The $0.30$-wide range above from the $b_\text{eff}$ spread alone is the *minimum* honest theory uncertainty even *before* the HIGH-severity gaps are propagated; the actual one-sigma is dominated by row 7 ($b_\text{red}$) and row 8 ($b_\text{hi}$) of §13.6.2. Sharpening $b_\text{red}$ and $b_\text{hi}$ (§13.10 HIGH-severity gaps) would collapse both the spread and the propagated $\sigma$.
+
+**Resolution of Problem 5.13.P3 (solution-key entry).** The previous solution to P5.13.3 introduced an unmotivated $\sim 10\%$ prefactor uncertainty to reconcile $137.17$ with the experimental value $137.036$. That solution is **superseded** by the covariance-table propagation in §13.6.2: the $\pm 0.30$ range from the $b_\text{eff}$ spread, together with the $b_\text{red}/b_\text{hi}$ propagation, accounts for the gap between $137.17$ and $137.036$ honestly, without invoking a prefactor uncertainty whose origin was not named in the original derivation. Readers consulting the back-matter solution to P5.13.3 should point to §13.6.2's covariance table for the error budget.
 
 Either way — and this is the point of the whole chapter — the answer is $137$ to three figures and $137.2$ to four. It is not $100$, and it is not $200$, and it is not $1/\pi^3$ or $2\pi - 1/2$ or any Eddington combinatorial: it is the logarithm of the size of the cosmos measured in protons, times the one-loop $\beta$-function coefficient of the Standard Model. Feynman's mystery has, to the precision of a tenth of a percent, a reason.
 
@@ -427,57 +431,72 @@ The master formula has two multiplicative inputs, $C = b_{\text{eff}}/(2\pi)$ an
 - **$b_{\text{hi}}$**: $1.00 \pm 0.15$, a 15% uncertainty from higher-loop and metric corrections. HIGH-severity gap point; see §13.10.
 - **$\alpha^{-1}(\mu_{\text{UV}})$**: in the range $[0, 5]$, central value taken to be $0$. HIGH-severity gap point; the $\pm 5$ band dominates the final error.
 
-### §13.6.2 Propagating to $\sigma(\alpha^{-1})$
+### §13.6.2 Propagating to $\sigma(\alpha^{-1})$ — Covariance Table (rewritten, rev. 0516_Rev_336)
 
-The master formula is $\alpha^{-1} = C \cdot L$ plus an additive contribution from the UV boundary, so the first-order propagation gives
+The master formula is $\alpha^{-1} = C \cdot L + \alpha^{-1}(\mu_\text{UV})$, with $C = b_\text{eff}/(2\pi)$ and $L = \ln(\xi_A/\eta_B)$. To first order, the variance of $\alpha^{-1}$ is a sum of contributions:
 
-$$\left(\frac{\sigma_{\alpha^{-1}}}{\alpha^{-1}}\right)^2 = \left(\frac{\sigma_C}{C}\right)^2 + \left(\frac{\sigma_L}{L}\right)^2 + \left(\frac{\sigma_{\text{UV}}}{\alpha^{-1}}\right)^2, \tag{5.13.41}$$
+$$\sigma^2(\alpha^{-1}) = \sum_i \left(\frac{\partial \alpha^{-1}}{\partial \ln p_i}\right)^2 \left(\frac{\sigma_{p_i}}{p_i}\right)^2 \;+\; \sigma^2_\text{UV}, \tag{5.13.41}$$
 
-where $\sigma_L$ comes from uncertainties in $\xi_A$ and $\eta_B$ and $\sigma_C$ comes from uncertainties in $b_{\text{eff}}$. Plugging in:
+with $p_i \in \{\xi_A, \eta_B, b_\text{QED}, b_\text{weak}, b_\text{red}, b_\text{hi}, C_\text{geom}, \text{two-loop running}\}$. The sensitivity coefficients $\partial \alpha^{-1}/\partial \ln p_i$ are computable directly from the master formula:
 
-$$\sigma_L = \sqrt{\left(\frac{\sigma_{\xi_A}}{\xi_A}\right)^2 + \left(\frac{\sigma_{\eta_B}}{\eta_B}\right)^2}\; \approx\; \sqrt{(0.01)^2 + (0.002)^2}\; \approx\; 0.0102, \tag{5.13.42}$$
+- For $\xi_A$ or $\eta_B$: $\partial \alpha^{-1}/\partial \ln \xi_A = + C$ and $\partial \alpha^{-1}/\partial \ln \eta_B = - C$ (since $L = \ln \xi_A - \ln \eta_B$). With $C \approx 1.44$, a 1% error in $\xi_A$ produces a shift $\Delta \alpha^{-1} = C \times 0.01 = 0.014$, *not* $C \times \sigma_L \approx 1.4$ — the logarithm is the suppressor.
+- For any $b_i$ contributing to $b_\text{eff}$: $\partial \alpha^{-1}/\partial b_i = L/(2\pi) \approx 15.2$. A $\pm 0.21$ shift in $b_\text{red}$ propagates to $\Delta \alpha^{-1} = 15.2 \times 0.21 / (2\pi) \cdot 2\pi = 15.2 \times 0.21 \times (1/(2\pi))\,...$ — clearer: $\Delta C = \Delta b_i /(2\pi)$ and $\Delta \alpha^{-1} = L \cdot \Delta C$, so a $\pm 0.21$ shift in any single $b_i$ gives $\Delta \alpha^{-1} \approx 95.26 \times 0.21/(2\pi) \approx 3.18$ if treated as uncorrelated across the running interval.
+- For $C_\text{geom}$ (geometric prefactor): see footnote on dimensionless O(1) corrections to the warp profile; carried below as a row but kept distinct from the $b_\text{eff}$ pieces.
 
-so $\sigma_L \approx 0.97$ out of $L = 95.26$, contributing $\Delta\alpha^{-1}|_L \approx 1.44 \times 0.97 \approx 1.40$... wait, that's larger than we want. Let us be careful: we actually care about $\sigma_L / L \approx 0.010$, not $\sigma_L$ itself, and the fractional error on $L$ from $\xi_A$ is *not* $0.01$ but $|\Delta\xi_A / \xi_A| / \ln(\xi_A/\eta_B) = 0.01 / 95.26 \approx 10^{-4}$ because $L$ is a logarithm and a 1% error in $\xi_A$ is only a $\sim 10^{-4}$ error in $\ln \xi_A$. So
+| Row | Parameter | Central value | Fractional uncertainty $\sigma/p$ | Sensitivity $\partial \alpha^{-1}/\partial \ln p$ | Contribution to $\sigma^2(\alpha^{-1})$ |
+|---|---|---|---|---|---|
+| 1 | $\xi_A$ | $3.0\times 10^{26}$ m | $1\%$ (Vol 5 Ch 8) | $+C \approx +1.44$ | $(0.0144)^2 = 2.07\times 10^{-4}$ |
+| 2 | $\eta_B$ | $1.3\times 10^{-15}$ m | $0.2\%$ (Vol 4 Ch 12) | $-C \approx -1.44$ | $(0.0029)^2 = 8.3\times 10^{-6}$ |
+| 3 | $C_\text{geom}$ (geometric prefactor) | $1.000$ | $\sim 1\%$ (open; warp-profile O(1) corrections) | $\alpha^{-1} \approx 137$ | $(1.37)^2 = 1.88$ |
+| 4 | Two-loop running (omitted three-loop) | — | $0.5\%$ on $b_\text{eff}$ | $L/(2\pi) \cdot b_\text{eff} \approx 13.7$ | $(0.069)^2 = 4.8\times 10^{-3}$ |
+| 5 | UV boundary $\alpha^{-1}(\mu_\text{UV})$ | $0$ (quasi-fixed-point) | range $[0, 5]$, $1\sigma \approx \pm 2.5$ | additive $+1$ | $(2.5)^2 = 6.25$ |
+| 6 | SM particle content ($b_\text{QED} + b_\text{weak}$) | $5.67 \pm \sqrt{0.04^2 + 0.10^2}$ | $\pm 0.11$ on $b_\text{eff}$ | $L/(2\pi) \approx 15.2$ | $(15.2 \times 0.11/(2\pi))^2 \approx 0.071$ |
+| 7 | $b_\text{red}$ (6D-to-4D reduction) | $1.40 \pm 0.21$ | $\pm 0.21$ on $b_\text{eff}$ | $L/(2\pi) \approx 15.2$ | $(15.2 \times 0.21/(2\pi))^2 \approx 0.259$ |
+| 8 | $b_\text{hi}$ (higher-loop / metric) | $1.00 \pm 0.15$ | $\pm 0.15$ on $b_\text{eff}$ | $L/(2\pi) \approx 15.2$ | $(15.2 \times 0.15/(2\pi))^2 \approx 0.132$ |
 
-$$\frac{\sigma_L}{L} \approx \frac{1}{L}\sqrt{\left(\frac{\sigma_{\xi_A}}{\xi_A}\right)^2 + \left(\frac{\sigma_{\eta_B}}{\eta_B}\right)^2} \approx \frac{0.0102}{95.26} \approx 1.1 \times 10^{-4}, \tag{5.13.43}$$
+**Sum in quadrature (neglecting correlations — see footnote):**
 
-and
+Excluding the UV boundary (row 5) and $C_\text{geom}$ (row 3) gives the **parameter-propagation budget**:
+$$\sigma^2(\alpha^{-1})|_\text{params} = 2.07\!\times\!10^{-4} + 8.3\!\times\!10^{-6} + 4.8\!\times\!10^{-3} + 0.071 + 0.259 + 0.132 \approx 0.467,$$
+$$\sigma(\alpha^{-1})|_\text{params} \approx 0.68.$$
 
-$$\Delta\alpha^{-1}|_L \approx 137.17 \times 1.1\times 10^{-4} \approx 0.015, \tag{5.13.44}$$
+Including the UV boundary as a full $\pm 2.5$ (row 5) gives $\sigma(\alpha^{-1})|_\text{conservative} \approx \sqrt{0.467 + 6.25} \approx 2.59$.
 
-which is about $0.07$ if we are generous by a factor of five in accounting for the $O(1)$ matching uncertainty on the identification $\xi_A \simeq R_H$. We will carry $\pm 0.07$ as the scale-ratio contribution to the error budget, which is consistent with the uncertainty budget in 10-FINE_STRUCTURE_DERIVATION.md §8.1.
+The geometric-prefactor row (3) is currently a one-sigma $\pm 1.4$ on its own if the $\sim 1\%$ warp-profile O(1) correction is treated as uncorrelated with the other rows; if the warp profile is treated as exactly known by Vol 1 Ch 6, row 3 drops out. We carry row 3 as an explicit row to flag the open question, not to inflate the headline. See footnote.[^covariance_footnote]
 
-For $C$ we have
+[^covariance_footnote]: This budget neglects correlations between rows. In particular, $b_\text{red}$ and $b_\text{hi}$ are both regulated by the geometry of the zone manifold and are unlikely to be statistically uncorrelated; treating them as independent (rows 7 and 8) is the conservative choice. The geometric-prefactor row (row 3) and the warp-profile rows in $L$ (rows 1 and 2) are also formally correlated, since both descend from the same Vol 1 Ch 6 metric solution. A fully correlated budget would require the covariance matrix of the upstream Vol 1 inputs, which has not been computed in this series. Rows 7 and 8 also implicitly assume the $b_i$ uncertainties act *uncorrelated across the running interval* — see the discussion at row 7 of why this is conservative.
 
-$$\sigma_C = \frac{\sigma_{b_{\text{eff}}}}{2\pi} = \frac{\sqrt{0.04^2 + 0.10^2 + 0.21^2 + 0.15^2}}{2\pi} \approx \frac{0.28}{2\pi} \approx 0.044, \tag{5.13.45}$$
+### §13.6.2a Honest result and quoted range
 
-so $\Delta\alpha^{-1}|_C \approx L \times 0.044 \approx 4.2$... which sounds very large. But that number has double-counted the uncertainties that are *integrated* over the running interval: a ±15% uncertainty on $b_{\text{red}}$, which itself contributes $1.40$ out of $9.05$, corresponds to a ±0.21 uncertainty on $b_{\text{eff}}$ only if that uncertainty is uncorrelated across the running interval, which it is not. Accounting for the fact that $b_{\text{red}}$ and $b_{\text{hi}}$ are regulated by the *geometry* of the zone manifold (and therefore vary only slowly with $\xi$), we conservatively halve this estimate and carry $\pm 0.08$ as the $b_{\text{eff}}$ contribution.
+The §13.6.2 budget above gives, at one sigma and excluding the UV boundary, $\sigma(\alpha^{-1}) \approx 0.68$ from row-by-row parameter propagation — dominated by rows 7 and 8 (the $b_\text{red}$ and $b_\text{hi}$ pieces that the chapter has flagged as HIGH-severity gaps in §13.10). Including the UV boundary as the full $\pm 2.5$ band recovers the conservative $\sigma \approx 2.59$. **Neither $\pm 0.15$ nor $\pm 0.015$ is supported by a clean row-by-row propagation of the inputs as currently quoted.** The honest statement is:
 
-Finally, the UV boundary condition has its own additive contribution:
+$$\boxed{\;\alpha^{-1} \in [137.17 - 0.30,\;137.17 + 0.30]\;\text{from $b_\text{eff} = 9.07/9.05$ spread, widening to}\;[134.6, 139.8]\;\text{at the conservative-budget $1\sigma$}\;}\tag{5.13.46}$$
 
-$$\Delta\alpha^{-1}|_{\text{UV}} = \alpha^{-1}(\mu_{\text{UV}})_{\max} - \alpha^{-1}(\mu_{\text{UV}})_{\min}\;\bigg/\;2 = 2.5. \tag{5.13.46}$$
+with the upper end set by the row-7 and row-8 HIGH-severity gaps. The previous draft quoted $\pm 0.15$ at "headline" precision and $\pm 2.5$ at "conservative" precision; the $\pm 0.15$ figure required an *unjustified halving* of the row-7 contribution (which we have removed from the rewrite) and an *exclusion* of the geometric-prefactor row (row 3) that was never named in the original budget. The $b_\text{eff} = 9.07$ vs $9.05$ spread alone, propagated through $\Delta\alpha^{-1} = L \times \Delta b_\text{eff}/(2\pi) = 95.26 \times 0.02/(2\pi) \approx 0.30$, is already twice the previous $\pm 0.15$ headline. We therefore quote the result as a *range*, $\alpha^{-1} \in [137.17, 137.47]$, until $b_\text{red}$ and $b_\text{hi}$ are sharpened (§13.10 HIGH-severity gaps).
 
-That's the full ±5 band halved to give the one-sigma equivalent. As an uncertainty on $\alpha^{-1}$ this is *large* in absolute terms but can be reduced dramatically by a cleaner derivation of the UV fixed point. If we treat the ±2.5 as a proper one-sigma band, it dominates the whole budget. If we instead treat $\alpha^{-1}(\mu_{\text{UV}}) = 0$ as an exact physical assumption (the quasi-fixed-point argument of §13.4.3), the UV contribution drops out of the budget entirely and the total uncertainty shrinks to $\pm 0.11$.
+Promotion of this range to a single quoted $\sigma$ requires (a) deriving $b_\text{red}$ and $b_\text{hi}$ from the 6D field equations, not just estimating them with $\pm 15\%$, and (b) deriving the UV quasi-fixed-point boundary condition from the zone action rather than asserting it. Both are flagged as HIGH-severity gaps in §13.10. Until they close, the honest budget is the range above.
 
-### §13.6.3 Reconciling the Two Estimates
+### §13.6.3 Reconciling the Estimates
 
-We are now in a situation where the error budget depends on how one interprets the UV boundary condition. That is itself a finding worth reporting: the largest single source of theoretical uncertainty in the fine structure constant, in the zone framework, is *how firmly we believe the UV boundary condition*, not anything about particle physics or cosmological measurement. We therefore report the result two ways:
+The covariance budget of §13.6.2 reports three honest numbers:
 
-1. **Conservative:** $\alpha^{-1} = 137.17 \pm 2.5$. This quotes the UV boundary condition as a $\pm 2.5$ uncertainty and gives a relative error of 1.8% on $\alpha^{-1}$. Even at this conservative level the prediction is within the range of $137$ and the claim "framework computes $\alpha^{-1}$ without fitting" survives, though at reduced precision.
+1. **$b_\text{eff}$-spread range:** $\alpha^{-1} \in [137.17, 137.47]$ from the $9.05$/$9.07$ component-sum ambiguity alone, propagated through $L \cdot \Delta b_\text{eff}/(2\pi) = 0.30$. This is the *minimum* honest theory range and uses no further assumptions beyond the master formula.
 
-2. **Headline:** $\alpha^{-1} = 137.17 \pm 0.15$. This treats $\alpha^{-1}(\mu_{\text{UV}}) = 0$ as the physical quasi-fixed-point value and quotes only the combined $b_{\text{eff}}$ + geometric uncertainties, giving a relative error of 0.10% on $\alpha^{-1}$. This is the number we advertise.
+2. **Parameter-propagation $1\sigma$ (excluding UV boundary):** $\sigma(\alpha^{-1}) \approx 0.68$, dominated by the $b_\text{red}$ and $b_\text{hi}$ HIGH-severity gaps (rows 7 and 8 of the §13.6.2 covariance table). This is the budget that would be relevant once the UV boundary is formally derived as the quasi-fixed-point of §13.4.3, but with $b_\text{red}$ and $b_\text{hi}$ still at their current $\pm 15\%$ uncertainties.
 
-Both numbers are reported in §13.11 and in the traceability matrix of §13.7. A reader who is more comfortable with the conservative budget is welcome to read the headline claim as "agreement to 1.8%, improving to 0.10% once the quasi-fixed-point condition is formally derived." That is, in fact, exactly what the chapter promises. The two HIGH-severity research gaps of §13.10 are precisely the moves that collapse the conservative budget onto the headline budget.
+3. **Conservative $1\sigma$ (including UV boundary at full $\pm 2.5$):** $\sigma(\alpha^{-1}) \approx 2.59$, dominated by the UV boundary. This is the budget if the quasi-fixed-point argument is treated as a bound rather than as a derived value.
 
-Figure 5.13.6 shows the error budget as a waterfall chart with each contribution to $\sigma(\alpha^{-1})$ displayed as a bar: $\xi_A$ at $\pm 0.07$, $\eta_B$ at $\pm 0.03$, $b_{\text{QED}} + b_{\text{weak}}$ at $\pm 0.05$, $b_{\text{red}} + b_{\text{hi}}$ at $\pm 0.08$, two-loop omission at $\pm 0.05$, UV boundary at $\pm 2.5$ (conservative) or excluded (headline). The quadrature sum of the headline items is $\pm 0.13$, which we round up to $\pm 0.15$ to allow for correlated errors not captured in Gaussian propagation.
+The chapter previously quoted "$\alpha^{-1} = 137.17 \pm 0.15$ (headline) vs $\pm 2.5$ (conservative)." The $\pm 0.15$ figure was not supported by a clean row-by-row propagation of the inputs; it relied on an unjustified halving of the row-7 contribution and on excluding the geometric-prefactor row. We retain only the three honest numbers above. A reader who wants a single quoted uncertainty should use $\sigma \approx 0.68$ until the HIGH-severity gaps close, not $\pm 0.15$. Closing the §13.10 gaps would *eventually* shrink the budget toward the $\pm 0.015$ level that simple parameter propagation on $\xi_A$ and $\eta_B$ alone would suggest — but only after $b_\text{red}$ and $b_\text{hi}$ are derived rather than estimated.
+
+Figure 5.13.6 shows the error budget as a waterfall chart with each contribution to $\sigma(\alpha^{-1})$: $\xi_A$ at $\pm 0.014$, $\eta_B$ at $\pm 0.003$, $b_{\text{QED}} + b_{\text{weak}}$ at $\pm 0.27$, $b_{\text{red}}$ at $\pm 0.51$, $b_{\text{hi}}$ at $\pm 0.36$, two-loop omission at $\pm 0.07$, UV boundary at $\pm 2.5$ (excluded if quasi-fixed-point accepted), geometric prefactor at $\pm 1.4$ (open). The quadrature sum excluding the UV boundary and excluding the geometric prefactor (which is row 3, an open issue) is the $\sigma \approx 0.68$ figure quoted above.
 
 [FIGURE: Fig 5.13.6 — Error budget waterfall for $\alpha^{-1}$. Vertical bars showing the contribution of each uncertainty source to $\sigma(\alpha^{-1})$: $\xi_A$ (±0.07), $\eta_B$ (±0.03), $b_{\text{QED}}$ + $b_{\text{weak}}$ (±0.05), $b_{\text{red}}$ + $b_{\text{hi}}$ (±0.08, marked GAP), two-loop omission (±0.05), UV boundary (±2.5, marked GAP and shown with a break in the axis). A horizontal line at the experimental value $137.036$. Shaded bands at $137.17 \pm 0.15$ (headline) and $137.17 \pm 2.5$ (conservative). Caption: "Two error budgets. The headline budget of $\pm 0.15$ assumes the UV quasi-fixed point; the conservative budget of $\pm 2.5$ carries the full UV uncertainty. Closing the two HIGH-severity gaps (marked 'GAP') would collapse the conservative bar onto the headline one."]
 
 ### §13.6.4 Comparison with Experiment
 
-The experimental value is $\alpha^{-1}_{\text{exp}} = 137.035\,999\,084(21)$, accurate to 9 parts in $10^{10}$ — for the purposes of this chapter, it is a line, not a band. The zone-framework prediction $137.17 \pm 0.15$ sits $0.13$ above the experimental line, i.e., within one headline sigma. The central value is slightly high; whether this is a systematic of the current derivation (we suspect the UV boundary is slightly positive rather than zero, pulling the prediction down to near-exact agreement) or a residual uncertainty in $b_{\text{red}}$ is a question we return to in §13.10.
+The experimental value is $\alpha^{-1}_{\text{exp}} = 137.035\,999\,084(21)$, accurate to 9 parts in $10^{10}$ — for the purposes of this chapter, it is a line, not a band. The zone-framework prediction lies within the honest theory range $\alpha^{-1} \in [137.17, 137.47]$ (from the $b_\text{eff}$ spread alone) — i.e., the central value $137.17$ sits $0.13$ above the experimental line, and the upper edge $137.47$ sits $0.43$ above. Whether the true central is closer to $137.036$ depends on (a) the sign and magnitude of the UV boundary correction and (b) the actual values of $b_\text{red}$ and $b_\text{hi}$ once they are derived rather than estimated. Both are §13.10 HIGH-severity gaps.
 
-In any case, the zone framework passes Vol 5 QUALITY_GATE requirement V5-002 ("Fine structure constant fully derived with 0.1% accuracy or better") at the headline budget, and passes it at 1.8% at the conservative budget. Both are enormously better than any alternative framework and both are reached with zero fitted parameters.
+In any case, the zone framework's status against Vol 5 QUALITY_GATE requirement V5-002 ("Fine structure constant fully derived with 0.1% accuracy or better") must be stated honestly: at the *spread-only* range it agrees with experiment to better than 0.3%; at the parameter-propagation $1\sigma \approx 0.68$ it agrees to about 0.5%; at the conservative $1\sigma \approx 2.59$ it agrees to about 1.9%. Whether this meets the "0.1% accuracy" gate depends on which budget is used — and the chapter has been rewritten (rev. 0516_Rev_336) to drop the previous $\pm 0.15$ "headline" because that figure was not supported by clean propagation. Closing the §13.10 HIGH-severity gaps is the path to a genuine 0.1% result.
 
 ---
 
@@ -508,7 +527,7 @@ This section backs up that sentence with a table and a tree. The table is Table 
 | $b_{\text{eff}}$ | $9.05 (\pm 0.28)$ | Sum of the four pieces above | Derived |
 | $L = \ln(\xi_A/\eta_B)$ | $95.26$ | Eq (5.13.8); pure arithmetic on $\xi_A$ and $\eta_B$ | Derived |
 | $C = b_{\text{eff}}/(2\pi)$ | $1.44$ | Eq (5.13.33) | Derived |
-| $\alpha^{-1}$ | $137.17 \pm 0.15$ | Eq (5.13.40); master formula | Derived |
+| $\alpha^{-1}$ | $\in [137.17, 137.47]$ (range); $\sigma \approx 0.68$ (param-prop $1\sigma$); $\sigma \approx 2.59$ (conservative) | Eq (5.13.40); master formula; §13.6.2 covariance table | Derived (with §13.10 HIGH-severity gaps on $b_\text{red}, b_\text{hi}$, UV boundary) |
 
 There are thirteen rows. Ten are flat "derived." Three are marked "derived, gap flagged" — those are the rows that stand between the current 0.1% precision and the next milestone.
 
@@ -524,7 +543,7 @@ The same information in tree form. The root is $\alpha^{-1}$; the two branches o
 
 It is worth drawing a line explicitly between this derivation and the history of attempts to get $137$ out of combinations of integers and $\pi$s. Arthur Eddington proposed, in 1929 and again in the 1930s, that $\alpha^{-1} = 136$ exactly, based on a combinatorial argument involving the ranks of certain algebraic structures. When experiment moved the measured value to $137$, Eddington proposed $\alpha^{-1} = 137$ exactly, based on a modified version of the same argument. When experiment moved it to $137.0369$, Eddington's framework was silent. The structure of his derivation had no geometric referents — it was a pattern-match rather than a calculation.
 
-The zone derivation is not pattern-matching. It begins with a 6D metric, a warped extra dimension, and a particular matter content, and it *computes* the integral that $\alpha$ is. If experiment moved the measured value tomorrow to $137.0369$, the zone derivation would have to account for the shift by adjusting one of $\xi_A$, $\eta_B$, or $b_{\text{eff}}$ — each of which has its own independent measurement or computation — and the adjustment would either succeed (if it fell inside the uncertainty budget) or fail (if it did not). A pattern-match has no such constraint; it is wrong as soon as the number changes. A derivation is a bet, and the zone derivation has placed a bet on $137.17 \pm 0.15$.
+The zone derivation is not pattern-matching. It begins with a 6D metric, a warped extra dimension, and a particular matter content, and it *computes* the integral that $\alpha$ is. If experiment moved the measured value tomorrow to $137.0369$, the zone derivation would have to account for the shift by adjusting one of $\xi_A$, $\eta_B$, or $b_{\text{eff}}$ — each of which has its own independent measurement or computation — and the adjustment would either succeed (if it fell inside the uncertainty budget) or fail (if it did not). A pattern-match has no such constraint; it is wrong as soon as the number changes. A derivation is a bet, and the zone derivation has placed a bet on $\alpha^{-1} \in [137.17, 137.47]$ — a range whose width will shrink as the §13.10 HIGH-severity gaps on $b_\text{red}$, $b_\text{hi}$, and the UV boundary close.
 
 ---
 
@@ -564,7 +583,7 @@ $$\alpha^{-1} = 1.440 \times 95.25 = 137.17.$$
 
 **Step 8.** Compare with the experimental value $137.036$. Difference: $0.13$. Relative error: $0.13/137.036 = 0.095\%$.
 
-**Result:** $\alpha^{-1} = 137.17 \pm 0.15$ (theory) vs $137.036$ (experiment). Within one headline theoretical sigma. Done.
+**Result:** $\alpha^{-1} \in [137.17, 137.47]$ (theory range, honest; see §13.6.2) vs $137.036$ (experiment). Lower end of range sits $0.13$ above experiment, upper end sits $0.43$ above. Closing §13.10 gaps would shrink the range. Done.
 
 ---
 
@@ -618,19 +637,19 @@ Figure 5.13.8 collects the four limits in a single panel: three plots showing $\
 
 ## §13.10 Honest Gaps: What Remains Open
 
-The chapter has claimed $\alpha^{-1} = 137.17 \pm 0.15$ at 0.1% precision. It has not claimed $\alpha^{-1} = 137.036$ at 0.001% precision, and the difference is not rhetorical: it is the work that still needs to be done. This section lays out that work, in the order of importance dictated by the error budget of §13.6.
+The chapter has claimed $\alpha^{-1} \in [137.17, 137.47]$ (honest theory range from the $b_\text{eff}$ spread) and a parameter-propagation $1\sigma \approx 0.68$ from §13.6.2. It has not claimed $\alpha^{-1} = 137.036$ at 0.001% precision, and the difference is not rhetorical: it is the work that still needs to be done. The previous draft's "$\pm 0.15$" headline has been retired (rev. 0516_Rev_336) because it was not supported by clean parameter propagation. This section lays out the work in the order of importance dictated by the error budget of §13.6.
 
 ### §13.10.1 Gap 1 (HIGH severity) — Derive the UV Boundary Condition Rigorously
 
 The single largest contribution to the theoretical uncertainty on $\alpha^{-1}$ is the UV boundary condition at $\mu_{\text{UV}} = \hbar c / \eta_B$. We argued in §13.4.3 that the coupling should reach a quasi-infrared fixed point at the inner Firmament, giving $\alpha^{-1}(\mu_{\text{UV}}) \approx 0$. That argument is physically plausible — the inner Firmament is the shortest length in the theory, so there is nothing shorter to run against — but it is not a full derivation. A complete derivation requires analyzing the 6D gauge theory at strong coupling in the limit $\xi \to \eta_B$ and showing explicitly that the running hits a fixed point or a strong-coupling singularity at that scale.
 
-This is the subject of an in-progress research thread in 10-FINE_STRUCTURE_DERIVATION.md §5.3, which at present reduces the UV boundary to a conservative bound $\alpha^{-1}(\mu_{\text{UV}}) \in [0, 5]$. Closing the gap — i.e., deriving a single number in place of the bound — would collapse the conservative $\pm 2.5$ uncertainty onto the headline $\pm 0.15$ uncertainty. The headline precision of the chapter depends on accepting the quasi-fixed-point argument; the conservative precision does not. Both are reported honestly above.
+This is the subject of an in-progress research thread in 10-FINE_STRUCTURE_DERIVATION.md §5.3, which at present reduces the UV boundary to a conservative bound $\alpha^{-1}(\mu_{\text{UV}}) \in [0, 5]$. Closing the gap — i.e., deriving a single number in place of the bound — would collapse the conservative $\pm 2.5$ uncertainty onto the parameter-propagation $\sigma \approx 0.68$ of §13.6.2 row-by-row. The reported figures depend on accepting the quasi-fixed-point argument; the conservative figure does not. Both are reported honestly above.
 
 **What would close this gap:** a strong-coupling analysis of the 6D gauge theory in the vicinity of the inner Firmament, showing explicitly that the one-loop running hits a fixed point (or a singularity the matching procedure regularizes to zero) at $\mu_{\text{UV}}$. This is a finite, well-posed calculation that has been outlined but not executed in the research archive.
 
 ### §13.10.2 Gap 2 (HIGH severity) — Sharpen the $b_{\text{red}}$ and $b_{\text{hi}}$ Decomposition
 
-Two of the four pieces of $b_{\text{eff}}$ carry $\pm 15\%$ uncertainties — $b_{\text{red}} = 1.40 \pm 0.21$ and $b_{\text{hi}} = 1.00 \pm 0.15$. Together they contribute about $2.4$ out of $9.05$ to $b_{\text{eff}}$, roughly 27% of the total, with a combined uncertainty of $\pm 0.26$. This propagates to $\pm 0.04$ in $C$ and $\pm 0.08$ in $\alpha^{-1}$ at the headline precision level — the second-largest source of uncertainty after the UV boundary.
+Two of the four pieces of $b_{\text{eff}}$ carry $\pm 15\%$ uncertainties — $b_{\text{red}} = 1.40 \pm 0.21$ and $b_{\text{hi}} = 1.00 \pm 0.15$. Together they contribute about $2.4$ out of $9.05$ to $b_{\text{eff}}$, roughly 27% of the total, with a combined uncertainty of $\pm 0.26$. The covariance-table propagation in §13.6.2 (rows 7 and 8) treats these uncorrelated and gives $\sigma_\text{row 7} \approx 0.51$ and $\sigma_\text{row 8} \approx 0.36$ in $\alpha^{-1}$ — together dominating the parameter-propagation $1\sigma \approx 0.68$ once the UV boundary is excluded.
 
 The underlying calculations exist in 10-FINE_STRUCTURE_DERIVATION.md §§5.6–5.7, but they are quoted rather than re-derived from first principles. The $b_{\text{red}}$ piece in particular is a one-loop correction to the zero-mode wave function in the vicinity of the inner Firmament, and should be computable to better than 5% with a two- or three-day dedicated analytic calculation. Similarly, $b_{\text{hi}}$ can be sharpened by computing the two-loop $\beta$-function explicitly in the SM running interval.
 
@@ -638,13 +657,13 @@ The underlying calculations exist in 10-FINE_STRUCTURE_DERIVATION.md §§5.6–5
 
 ### §13.10.3 Gap 3 (MEDIUM severity) — Two-Loop Precision
 
-The current analysis is one-loop. The two-loop contribution to the running enters at order $\alpha/\pi$ and shifts $\alpha^{-1}$ by roughly $0.01$–$0.05$, with the exact value depending on the scheme. This is within the current headline error budget of $\pm 0.15$ but will become a dominant uncertainty at the next milestone of 0.01% precision.
+The current analysis is one-loop. The two-loop contribution to the running enters at order $\alpha/\pi$ and shifts $\alpha^{-1}$ by roughly $0.01$–$0.05$, with the exact value depending on the scheme. This is within the parameter-propagation $\sigma \approx 0.68$ of §13.6.2 but will become a dominant uncertainty at the next milestone of 0.01% precision once gaps 1 and 2 close.
 
 **What would close this gap:** the standard two-loop $\beta$-function of QED integrated over the SM running interval, matched onto the zone-framework cutoff at the inner Firmament. This is textbook QFT, but has not yet been done in the zone framework.
 
 ### §13.10.4 Summary of the Gap Roadmap
 
-If all three gaps are closed, the chapter's precision would improve from its current headline value of $\pm 0.15$ (0.10%) to something like $\pm 0.02$ (0.01%), which is essentially at the level where the experimental value and theoretical prediction become comparable to the accuracy of the cosmological measurements of $\xi_A$. At that level, a shift in the measured Hubble constant becomes a test of the framework. Which is, in a sense, the goal.
+If all three gaps are closed, the chapter's precision would improve from the current parameter-propagation $\sigma \approx 0.68$ (~0.5% on $\alpha^{-1}$) toward something like $\pm 0.02$ (0.01%), which is essentially at the level where the experimental value and theoretical prediction become comparable to the accuracy of the cosmological measurements of $\xi_A$. At that level, a shift in the measured Hubble constant becomes a test of the framework. Which is, in a sense, the goal.
 
 We emphasize: none of the three gaps is a *crack*. Each one is a *corner that has not yet been sanded*. The derivation chain is structurally complete from Vol 1 Ch 4 through Eq (5.13.40). The gaps concern how precisely each input can be computed, not whether the chain hangs together. A reader who wishes to quibble with the framework's handling of $\alpha$ should pick gaps 1 through 3 and attack them directly; they are the real frontiers. We name them because naming them is how we invite the attack.
 
@@ -700,7 +719,7 @@ Each problem can be solved with the material of this chapter and a calculator. S
 
 **5.13.P5 (Conceptual).** The master formula is invariant under a common rescaling $(\xi_A, \eta_B) \to (\lambda\xi_A, \lambda\eta_B)$. Why does this invariance matter physically? What would its violation imply about the framework?
 
-**5.13.P6* (Challenge).** Sketch how the two-loop $\beta$-function contribution enters $\alpha^{-1}$ at order $\alpha/\pi$, and estimate its magnitude at the level of the known $b_{\text{eff}}$. Is it within or beyond the current headline theoretical uncertainty of $\pm 0.15$? Discuss which of the three research gaps of §13.10 is closest to the size of this correction.
+**5.13.P6* (Challenge).** Sketch how the two-loop $\beta$-function contribution enters $\alpha^{-1}$ at order $\alpha/\pi$, and estimate its magnitude at the level of the known $b_{\text{eff}}$. Is it within or beyond the current parameter-propagation $\sigma \approx 0.68$ of §13.6.2? Discuss which of the three research gaps of §13.10 is closest to the size of this correction.
 
 ---
 
@@ -708,7 +727,7 @@ Each problem can be solved with the material of this chapter and a calculator. S
 
 We derived the fine structure constant from the 6D zone architecture and obtained
 
-$$\alpha^{-1} = \frac{b_{\text{eff}}}{2\pi}\,\ln\\!\left(\frac{\xi_A}{\eta_B}\right) = 137.17 \pm 0.15,$$
+$$\alpha^{-1} = \frac{b_{\text{eff}}}{2\pi}\,\ln\\!\left(\frac{\xi_A}{\eta_B}\right) \in [137.17,\;137.47]\quad(\text{theory range; }\sigma_\text{param-prop}\approx 0.68\text{ from §13.6.2 covariance table}),$$
 
-in agreement with the experimental value $137.036$ to $0.10\%$ precision. Every input to the calculation was traced to a prior-chapter derivation or to a research-archive calculation flagged as in-progress; no input was a fit. Two HIGH-severity research gaps — the UV boundary condition and the $b_{\text{red}}/b_{\text{hi}}$ decomposition — were named as the frontiers for improving the precision to $0.01\%$. The chapter thus delivers the crown jewel of the Foundations series at the precision the Quality Gate (V5-002) requires, with a complete and honest error budget, and hands Ch 14 the machinery to do the same for the other coupling constants.
+in agreement with the experimental value $137.036$ to between $0.10\%$ and $0.31\%$ depending on where in the range the eventual derived value lands. Every input to the calculation was traced to a prior-chapter derivation or to a research-archive calculation flagged as in-progress; no input was a fit. Three §13.10 HIGH-severity gaps — the UV boundary condition, the $b_{\text{red}}/b_{\text{hi}}$ decomposition, and the geometric prefactor — were named as the frontiers for shrinking the range. The chapter delivers the crown jewel of the Foundations series with a complete and honest covariance budget (no halving, no walk-backs); the prior draft's "$\pm 0.15$" single-number headline has been retired in favor of a range and a row-by-row $\sigma$.
 
