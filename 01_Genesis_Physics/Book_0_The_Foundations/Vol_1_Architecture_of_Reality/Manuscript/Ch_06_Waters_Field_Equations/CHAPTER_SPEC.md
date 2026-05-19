@@ -26,7 +26,7 @@ The reader must know (from prior chapters):
 | Differential geometry: covariant derivatives, variational calculus, Euler-Lagrange equations | Ch 2 |
 | Firmament as codimension-2 hypersurface at $(\xi_0, \eta_0)$ | Ch 5, §5.1 |
 | Induced metric $\gamma_{\mu\nu}$, extrinsic curvature $K^{(i)}_{\mu\nu}$ | Ch 5, Eqs (1.5.6)-(1.5.18) |
-| Firmament tension $\sigma$, mass density $\mu$, $c^2 = \sigma/\mu$ | Ch 5, Eq (1.5.0) |
+| Firmament tension $\sigma$, mass density $\mu$, $c^2 = \sigma/\mu$ | Ch 5, Eq (1.5.37) |
 | Junction conditions relating extrinsic curvature to surface stress-energy | Ch 5, §5.4 |
 
 ---

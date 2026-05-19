@@ -55,7 +55,7 @@
 
 2. **Why does ℏ have its specific value (1.055 × 10⁻³⁴ J·s)?** — Because ℏ is determined by the Firmament membrane parameters σ, η_B, ξ_A, and c, with exponential warp-factor suppression linking the nuclear scale to the Hubble scale.
 
-3. **Why does the Schrödinger equation govern non-relativistic quantum systems?** — Because it is the slowly-varying envelope approximation of the Firmament membrane wave equation (Ch 5, Eq. (1.5.0)) with the derived ℏ as coefficient.
+3. **Why does the Schrödinger equation govern non-relativistic quantum systems?** — Because it is the slowly-varying envelope approximation of the Firmament membrane wave equation (Ch 5, Eq. (1.5.37)) with the derived ℏ as coefficient.
 
 4. **Why can't position and momentum both be precisely known?** — Because field configurations on the Firmament are functions, and the Fourier uncertainty theorem applies to any function: sharp localization in position demands broad spread in wavenumber (momentum).
 

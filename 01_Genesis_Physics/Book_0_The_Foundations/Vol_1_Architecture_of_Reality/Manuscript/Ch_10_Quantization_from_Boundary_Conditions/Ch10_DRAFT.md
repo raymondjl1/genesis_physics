@@ -98,7 +98,7 @@ $$\alpha_1 f(a) + \alpha_2 f'(a) = 0, \qquad \beta_1 f(b) + \beta_2 f'(b) = 0 \t
 
 ### §10.1.3 From Vibrating Strings to Vibrating Membranes
 
-The result extends to higher dimensions. For the Firmament membrane wave equation (Chapter 5, Eq. (1.5.0)):
+The result extends to higher dimensions. For the Firmament membrane wave equation (Chapter 5, Eq. (1.5.37)):
 
 $$\mu \frac{\partial^2 \psi}{\partial t^2} = \sigma \nabla^2 \psi \tag{1.10.6}$$
 
@@ -237,7 +237,7 @@ Consider a unit-winding topological vortex on the Firmament — a fundamental pa
 
 $$r_{\text{core}} = \eta_B \approx 1.3 \times 10^{-15} \text{ m} \tag{1.10.19}$$
 
-**The elastic energy stored in the vortex** follows from the Firmament membrane energy density. The Firmament has tension $\sigma$ (energy per unit 3-volume, Eq. (1.5.0), Chapter 5). A codimension-2 topological defect distorts the Firmament membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
+**The elastic energy stored in the vortex** follows from the Firmament membrane energy density. The Firmament has tension $\sigma$ (energy per unit 3-volume, Eq. (1.5.37), Chapter 5). A codimension-2 topological defect distorts the Firmament membrane over its core cross-section. The elastic energy is the integral of the tension over the core area:
 
 $$E_{\text{vortex}} = \sigma \int_{\text{core}} d^2x = \sigma \cdot \pi r_{\text{core}}^2 = \pi \sigma \eta_B^2 \tag{1.10.20}$$
 
@@ -344,12 +344,12 @@ $$\boxed{\hbar \text{ is small because the universe is large.}}$$
 
 ### §10.4.1 The Starting Point
 
-We have the Firmament membrane wave equation from Chapter 5 (Eq. (1.5.0)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field $\psi(x,t)$ is:
+We have the Firmament membrane wave equation from Chapter 5 (Eq. (1.5.37)) and the Firmament vibration modes (§5.5). In the presence of an external potential (from zone curvature or Waters field variations), the equation for the displacement field $\psi(x,t)$ is:
 
 $$\frac{1}{c^2}\frac{\partial^2 \psi}{\partial t^2} - \nabla^2 \psi + \frac{m^2 c^2}{\hbar^2}\psi = 0 \tag{1.10.31}$$
 
 where:
-- $c^2 = \sigma/\mu$ is the Firmament membrane wave speed (Eq. (1.5.0))
+- $c^2 = \sigma/\mu$ is the Firmament membrane wave speed (Eq. (1.5.37))
 - $m$ is the rest mass of the Firmament membrane excitation (a topological defect)
 - $\hbar$ is the *derived* Planck constant (Eq. (1.10.29))
 - The mass term $m^2c^2/\hbar^2$ comes from the extra-dimensional eigenvalue (§10.2): a localized excitation on the Firmament with extra-dimensional winding number contributes an effective rest mass
