@@ -30,7 +30,7 @@ In Chapter 1, we promised that the zone architecture would resolve this problem.
 
 Now we harvest. This chapter does one thing: it takes the gravitational coupling from Chapter 2 and the electromagnetic coupling from Chapter 3, forms their ratio, and shows that the zone architecture provides both a *mechanism* (power-law volume dilution vs. logarithmic Green's function) and a *functional form* that produces the correct order of magnitude — $10^{36}$ — from derived zone parameters. We will be scrupulously honest about which parts of the calculation are genuine predictions and which are consistency checks (§9.3.4).
 
-The resolution fits in a sentence: **Gravity is weak because it dilutes through the volume of the extra dimensions (a power-law suppression), while electromagnetism depends on a logarithm of the extra-dimensional scale ratio.** Power beats logarithm. The enormous hierarchy is a geometric inevitability.
+The resolution fits in a sentence: **Gravity is weak because it dilutes through the volume of the extra dimensions (a power-law suppression), while electromagnetism depends on a logarithm of the extra-dimensional scale ratio.** Power beats logarithm. The enormous hierarchy follows from the geometry — though, as §9.3.4 makes precise, it is the *order of magnitude* that is the genuine geometric prediction, while the exact numerical value is a consistency check.
 
 Let us make this precise.
 

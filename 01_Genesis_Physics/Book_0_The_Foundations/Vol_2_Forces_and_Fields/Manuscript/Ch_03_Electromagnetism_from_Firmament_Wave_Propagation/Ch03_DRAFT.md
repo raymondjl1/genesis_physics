@@ -491,7 +491,7 @@ which is Poynting's theorem (2.3.63). $\square$
 
 The $-\mathbf{J} \cdot \mathbf{E}$ term is Joule heating: the power transferred from the electromagnetic field to charged matter. In vacuum ($\mathbf{J} = 0$), electromagnetic energy is strictly conserved.
 
-From the 6D perspective, Poynting's theorem is the energy conservation law guaranteed by Noether's theorem (Vol 1, Ch 7) applied to the time-translation symmetry of the gauge action (2.3.27). The chain is complete: divine attribute (eternal, unchanging) → time-translation symmetry → energy conservation in the electromagnetic field.
+From the 6D perspective, Poynting's theorem is the energy conservation law guaranteed by Noether's theorem (Vol 1, Ch 7) applied to the time-translation symmetry of the gauge action (2.3.27). The chain runs in one direction only: the time-translation invariance of the gauge action is *motivated* by the immutability of the Sustainer (Mal 3:6; Heb 13:8) but is *adopted* as an axiom of the Lagrangian — not derived from theology — and Noether's theorem then *yields* energy conservation in the electromagnetic field as a theorem. The leftmost link is a reason for the axiom, not a proof of it.
 
 ### §3.6.4 Coulomb's Law
 
