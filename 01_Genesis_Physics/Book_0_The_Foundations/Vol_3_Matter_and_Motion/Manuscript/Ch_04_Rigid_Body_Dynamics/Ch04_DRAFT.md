@@ -7,11 +7,13 @@
 > *"He has inscribed a circle on the face of the waters at the boundary between light and darkness."*
 > — Job 26:10
 
+*(The epigraph is offered as thematic resonance — the imagery of an inscribed circle echoes this chapter's subject of rotation — not as a scriptural derivation of rigid-body dynamics.)*
+
 ---
 
 ## §4.1 — Why Rigid Bodies Rotate
 
-In Volume 1, Chapter 7, we derived angular momentum conservation from the zone manifold's rotational symmetry. The argument was clean: the spatial isotropy of the zone manifold (no direction is privileged — "God does not show favoritism," Acts 10:34) produces three rotational Killing vectors (Eq. 1.7.31), Noether's theorem yields three conserved angular momentum components (Eq. 1.7.33), and the total angular momentum of any isolated system is constant.
+In Volume 1, Chapter 7, we derived angular momentum conservation from the zone manifold's rotational symmetry. The argument was clean: the spatial isotropy of the zone manifold — no spatial direction is privileged — produces three rotational Killing vectors (Eq. 1.7.31), (a geometric fact that some readers may hear resonating with the moral impartiality of "God shows no partiality," Acts 10:34, ESV; the resonance is thematic, not a derivation — the isotropy is established by the manifold's symmetry, not by the verse) Noether's theorem yields three conserved angular momentum components (Eq. 1.7.33), and the total angular momentum of any isolated system is constant.
 
 In Chapter 3, we wielded this conservation law to powerful effect: it confined central force orbits to planes, reduced the Kepler problem to a single radial ODE, and explained why planetary orbits close. But every application so far has treated angular momentum as a property of *point particles* — objects with mass but no spatial extent. Per Ch 1 §1.1, the test-particle action underwriting these results descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8; the rotating extended bodies of this chapter live on that same surface.
 

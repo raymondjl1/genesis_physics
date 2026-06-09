@@ -70,6 +70,8 @@ The corresponding potential energy density is $V_B = U(|\Psi_B|) = U(\sqrt{\rho_
 
 $$P = -\frac{\partial(V_B)}{\partial(1/\rho_B)}\bigg|_{\mathcal{S}} = \rho_B^2\frac{\partial(V_B/\rho_B)}{\partial\rho_B}\bigg|_{\mathcal{S}} \tag{3.5.6}$$
 
+A word on what this identity does and does not capture. We are identifying the scalar-field potential $V_B(\Psi_B)$ with an *effective isentropic* (constant-$\mathcal{S}$) equation of state — hence the thermodynamic derivative at fixed entropy. This accounts only for the *potential* contribution to the pressure. The Waters field also carries a kinetic (gradient) term, which under the Madelung transformation produces a separate **quantum-potential** contribution to the pressure; that piece is not absorbed into (3.5.6) but is treated explicitly in §5.3 (and reappears as the quantum-pressure term $P_Q$ in §5.7). Equation (3.5.6) is therefore the barotropic, potential-only part of the full pressure.
+
 Substituting (3.5.5) with $|\Psi_B|^2 = \rho_B/m_B$:
 
 $$V_B = -\frac{m_B}{2}\rho_B + \frac{\lambda_B}{4m_B}\rho_B^2 \tag{3.5.7}$$

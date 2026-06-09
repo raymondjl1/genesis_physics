@@ -24,7 +24,7 @@ This chapter fills that gap. We will derive the *entire* mass-generation mechani
 
 4. Fermion masses arise from the coupling between topological vortex defects (Chapter 6) and the Higgs condensate. The coupling strength — the Yukawa coupling — is an overlap integral between the vortex wavefunction and the Higgs profile. Different generations have different overlap, producing the mass hierarchy. (§7.4)
 
-5. The predicted mass spectrum spans twelve orders of magnitude, from the sub-eV neutrinos to the 173 GeV top quark. The framework predicts the correct order of magnitude for all particle masses, achieving <1% accuracy for gauge bosons and <5% for the well-constrained leptons, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. (§7.5)
+5. The predicted mass spectrum spans twelve orders of magnitude, from the sub-eV neutrinos to the 173 GeV top quark. The framework predicts the correct order of magnitude for all particle masses; *given the calibrated electroweak VEV* (see the Parameter Disclosure in §7.3), the gauge-boson masses then follow to <1% accuracy and the well-constrained leptons to <5%, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. The gauge-boson agreement is therefore a consequence of the calibrated VEV, not an independent confirmation. (§7.5)
 
 The result is that mass is not a free parameter. Mass is architecture.
 
@@ -207,11 +207,11 @@ These are not fitted to the Higgs mass. They emerge from the 6D geometry.
 
 A common objection to the Standard Model Higgs mechanism is the "hierarchy problem" — why is the electroweak scale (246 GeV) so much smaller than the Planck scale ($10^{19}$ GeV)? In the SM, this requires exquisite cancellation between the bare mass and quantum corrections.
 
-In the zone framework, there is no hierarchy problem. The electroweak scale emerges from the *ratio* of the Firmament tension to the extra-dimensional extent:
+In the zone framework, the *tree-level* electroweak scale has a geometric origin: it emerges from the *ratio* of the Firmament tension to the extra-dimensional extent. (Whether radiative corrections preserve this tree-level scale — the question that defines the hierarchy problem proper — is a loop calculation deferred to Vol 4; the argument here addresses the origin of the tree-level scale, not the stability of that scale under quantum corrections.)
 
 $$\mu^2 \sim \frac{\sigma c^2}{\xi_A^2} \sim \frac{6 \times 10^{98} \times (3 \times 10^8)^2}{(3 \times 10^{26})^2} \sim 6 \times 10^{-38} \text{ kg}^2 \text{m}^{-2} \text{s}^{-2} \quad \text{(3.7.17)}$$
 
-Converting to natural units: $\mu \sim 88$ GeV. The large Firmament tension is divided by the large cosmological scale, producing a modest number. This is dimensional analysis, not cancellation. The hierarchy is *explained* by the geometry of the extra dimensions, not balanced on a knife's edge.
+Converting to natural units: $\mu \sim 88$ GeV. The large Firmament tension is divided by the large cosmological scale, producing a modest number. At tree level this is dimensional analysis, not cancellation: the *tree-level* hierarchy is set by the geometry of the extra dimensions rather than balanced on a knife's edge. Whether this remains true once radiative corrections are included is the question taken up in Vol 4.
 
 ---
 
@@ -573,7 +573,7 @@ The neutron-proton mass difference $\Delta m = m_n - m_p = 1.293$ MeV (measured)
 
 [FIGURE: Fig 3.7.6 — Fermion mass hierarchy: predicted vs. measured. Log-scale scatter plot with predicted mass on the horizontal axis and measured mass on the vertical axis. Each fermion plotted as a labeled point. The diagonal line represents perfect agreement. Points cluster tightly around the diagonal, spanning from ~1 meV (neutrinos, upper bound) to ~173 GeV (top quark) — twelve orders of magnitude. Error bars shown. Gauge bosons (W, Z, H) also plotted for completeness.]
 
-The mass spectrum predicted by the zone framework spans twelve orders of magnitude. The framework predicts the correct order of magnitude for all particle masses, achieving <1% accuracy for gauge bosons and <5% for well-constrained leptons, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. The entire spectrum emerges from:
+The mass spectrum predicted by the zone framework spans twelve orders of magnitude. The framework predicts the correct order of magnitude for all particle masses; given the calibrated electroweak VEV (§7.3), the gauge-boson masses then follow to <1% accuracy and the well-constrained leptons to <5%, with larger residuals for heavier quarks where the Yukawa coupling hierarchy is not yet fully derived from first principles. The entire spectrum emerges from:
 
 1. The Higgs VEV $v = 246.22$ GeV (from Firmament tension and zone geometry)
 2. The Yukawa couplings $y_f$ (from overlap integrals determined by mode number)

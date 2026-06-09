@@ -20,11 +20,11 @@ Genesis Physics gives a different answer: **the laws are theorems**. They emerge
 
 This is not a minor distinction. It means:
 
-1. **The Second Law is not universal.** It depends on the value of κ. In Phase 2, d\mathcal{S}/dt = 0. In Phase 3, d\mathcal{S}/dt = L·Δκ > 0. The arrow of time is not written into the universe's constitution; it emerges from a phase transition.
+1. **The Second Law may not be universal.** We will show in §9.5 that, within this framework, it depends on the value of κ — with d\mathcal{S}/dt = 0 in Phase 2 and d\mathcal{S}/dt = L·Δκ > 0 in Phase 3. If that derivation holds, the arrow of time is not written into the universe's constitution; it emerges from a phase transition.
 
 2. **Thermodynamics is connected to everything else.** The four laws are not isolated empirical rules—they follow from the same 6D action that generates electromagnetism, gravity, and particle physics. They are pieces of one fabric.
 
-3. **The framework is falsifiable.** If we can measure κ directly (or the entropy production rate L·Δκ), we can test whether the phase-dependent Second Law holds. If it doesn't, the Genesis Physics framework is wrong.
+3. **The framework is in-principle testable (protocol pending).** If κ — or the entropy production rate L·Δκ — can be measured, the phase-dependent Second Law can be tested. This chapter does not yet specify the experiment that would measure κ, the numerical value the framework predicts, or the observation that would falsify it; supplying that concrete protocol is open work. What can be said now is that the claim is testable in principle: were such a measurement to contradict the phase-dependent prediction, the framework would be wrong.
 
 4. **The existence of life makes sense.** A universe held in a low-entropy state (Phase 2) can maintain structure and complexity indefinitely without violating the Second Law. Once that sustaining is reduced (Phase 3), the universe ages. This is precisely the thermodynamic condition needed for biological complexity in a fallen world.
 

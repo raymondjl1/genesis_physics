@@ -60,7 +60,7 @@ $$H = -\sum_{i=1}^{N} p_i \log p_i \quad \text{(3.12.1)}$$
 The proof uses the composition axiom cleverly. Consider events where you first choose between $N$ outcomes (with uncertainty $H_N$), then, having chosen outcome $i$, further subdivide into $M$ sub-outcomes. The composition rule requires:
 $$H_{NM} = H_N + \sum_{i=1}^{N} p_i H_M$$
 
-By carefully manipulating this functional equation (a technique called "deriving the functional form"), one can show that the only solution is the logarithmic form above. This is a remarkable uniqueness result—you derive one of the most important quantities in information theory from three simple physical principles.
+Solving this functional equation pins down the form uniquely: writing $H(N) = f(N)$ for the uncertainty of $N$ equally likely outcomes, the composition axiom (the rule $H(N \times M) = H(N) + H(M)$ stated above) becomes $f(NM) = f(N) + f(M)$, the Cauchy functional equation whose only monotonic solution is $f(N) = C\ln N$; continuity and monotonicity then fix the constant $C > 0$, and extending from equal probabilities to the general distribution $\{p_i\}$ recovers the form above. We omit the full extension step here — it is carried out in detail in Shannon's original 1948 paper (*A Mathematical Theory of Communication*, Bell Syst. Tech. J. 27, Appendix 2) and in Khinchin's *Mathematical Foundations of Information Theory* (1957). This is a remarkable uniqueness result—you derive one of the most important quantities in information theory from three simple physical principles.
 
 The base of the logarithm determines the units. If you use $\log_2$, the unit is the *bit*—the uncertainty in a single binary coin flip. If you use the natural logarithm $\ln$, you get *nats*. In physics, we always use natural log and multiply by $k_B$ (Boltzmann's constant) to get units of entropy:
 
@@ -192,11 +192,11 @@ This is the crucial insight: **information is not destroyed. It flows.** When we
 
 ### Landauer's Derivation
 
-Let me show you the rigorous argument. Suppose the initial state is a mixed state (an incoherent superposition):
+Let me show you the rigorous argument. Suppose the initial state is a mixed state — a classical statistical mixture of the two basis states, *not* a coherent superposition:
 
 $$\rho_i = \frac{1}{2} |0\rangle\langle 0| + \frac{1}{2} |1\rangle\langle 1| \quad \text{(3.12.14)}$$
 
-The system is equally likely to be in state 0 or state 1. The system's density matrix is a mixture, not a pure state. The von Neumann entropy is:
+This is the maximally mixed single-qubit state: the system is in state 0 or state 1 with equal probability, with no definite phase relation between them. Its density matrix is a mixture (a diagonal $\rho$), not a pure state. The von Neumann entropy is:
 
 $$\mathcal{S}_i = -k_B \text{Tr}(\rho_i \ln \rho_i) = -k_B [0.5 \ln 0.5 + 0.5 \ln 0.5] = k_B \ln 2 \quad \text{(3.12.15)}$$
 
@@ -361,7 +361,7 @@ In other words, the universe would reach heat death without divine action. All s
 
 The sustaining field prevents this. Even in Phase 3, where κ_partial < κ_full, there is still a residual sustaining influence that prevents immediate heat death. And in Phase 4, the redemptive sustaining will restore all patterns.
 
-**This is not theology. This is thermodynamics.**
+**This is not *merely* theology. It is the thermodynamic *consequence* of the theological claim that κ changed at the Fall.**
 
 ---
 
@@ -403,7 +403,9 @@ At this value, the entropy production rate exactly balances any degradation:
 
 $$\frac{d\mathcal{S}}{dt} = 0 \quad \text{(3.12.36)}$$
 
-The universe enters a state of perfect equilibrium, or rather, perfect *reversibility*. No structure is lost. No information decays. The stars shine eternally without burning out (they are in a stasis state, not a fusion-powered main sequence). Death does not enter creation.
+The universe enters a state of perfect equilibrium, or rather, perfect *reversibility*. No structure is lost. No information decays. The stars shine eternally without burning out (they are in a stasis state, not a fusion-powered main sequence). Death does not enter creation.[^death]
+
+[^death]: The framework as written adopts the position that the Fall introduced biological mortality into the original creation (Rom 5:12; Rom 8:20–22). This is the stronger of two readings: evangelical scholarship is divided on whether plant death and animal predation predate Genesis 3, and several conservative scholars (e.g. Wenham, Waltke, C. John Collins) read the textual evidence differently. Nothing in the thermodynamic argument requires the stronger reading — it requires only that *some* degradation channel switched on at the κ transition — but we flag the contested point rather than assert it as obvious. See *Five Principles* §4.
 
 In this phase, $\Omega(t) = \Omega_{\text{max}} = \text{const}$. The order parameter is unchanging. This phase may have lasted eons or may have been instantaneous—the physics says nothing about duration, only that the entropy is conserved.
 
@@ -431,7 +433,7 @@ The consequences ripple outward:
 
 2. **Stars age**. In Phase 2, stars would have remained on the main sequence indefinitely. In Phase 3, they burn their fuel and enter post-main-sequence evolution: red giant, planetary nebula, white dwarf.
 
-3. **Biological death** enters the world (Genesis 3:19). Organisms age and die because their cellular machinery accumulates damage faster than it can repair. The repair rate is now κ_partial < κ_full.
+3. **Biological death** enters the world (Genesis 3:19, which establishes human mortality directly; cf. Romans 5:12, the cleaner proof text for death entering the world through sin). Organisms age and die because their cellular machinery accumulates damage faster than it can repair. The repair rate is now κ_partial < κ_full.
 
 4. **Cosmic expansion accelerates**. The dark energy (Waters Above) dominates, pushing space apart. The universe cools. Eventually (in ~10^{100} years), all stars cool to the cosmic background temperature. Black holes evaporate. Protons decay (if they decay at all). The universe becomes a featureless sea of radiation.
 
@@ -449,7 +451,7 @@ The heat death timescale—the time for the universe to reach maximum entropy—
 
 ### Phase 4: Redemption (Future) — The Restoration
 
-At some future time (the "day and hour no one knows"—Matthew 24:36), the sustaining field will undergo a second phase transition:
+At some future time, the sustaining field will undergo a second phase transition. The framework identifies this κ_partial → κ_redeem transition with the eschatological renewal of creation — the same event 2 Peter 3:10–13 describes as the passing away and renewal of "the heavens and the earth," and whose timing Jesus marks as the "day and hour no one knows" (Matthew 24:36, spoken of the Parousia):
 
 $$\kappa \to \kappa_{\text{redeem}} \quad \text{(3.12.40)}$$
 
@@ -799,7 +801,7 @@ This is the deepest answer physics can give to the problem of evil, suffering, a
 
 The Exodus Protocol novel series rests on a deep truth discovered in these physics books. The students who discover this truth—who learn that the arrow of time is not written in stone, that redemption is built into the cosmos's DNA—will understand why the universe itself cries out for a savior.
 
-A character in Book 1 might say: *I used to think the Second Law meant the universe was dying. Now I know it means the universe is being called to repentance—and that call will be answered.*
+A character in the *Exodus Protocol* novel series (Pillar 2) might say: *I used to think the Second Law meant the universe was dying. Now I know it means the universe is being called to repentance—and that call will be answered.*
 
 This is the bridge between physics and faith: Genesis Physics is not *replacing* theology with equations. Rather, it is showing that the equations themselves have a theological structure. The Sustaining Principle, the Degradation Principle, the promise of Redemption—these emerge as *mathematical facts*, not religious dogmas.
 
