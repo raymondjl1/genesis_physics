@@ -76,7 +76,7 @@ The word carries temporal significance: it establishes that time itself is not a
 
 *bārāʾ* is the signature verb of divine creation; in canonical doctrine (Heb 11:3) it denotes creation *ex nihilo* — bringing into being out of no pre-existing substance.[^bara-lex]
 
-[^bara-lex]: Lexicographically, the Hebrew root *bārāʾ* encodes only "create / bring into being" and is also used of acts that shape pre-existing material (Gen 1:27 from dust, Isa 65:17 of the renewed cosmos). The ex-nihilo reading is a doctrinal synthesis grounded in Heb 11:3 and the wider canon; this Appendix adopts it as the doctrinal position while flagging that the lexical entry alone does not entail it.
+[^bara-lex]: Lexicographically, the Hebrew root *bārāʾ* encodes only "create / bring into being" and is also used of acts that shape pre-existing material (Gen 1:27 from dust, Isa 65:17 of the renewed cosmos). The ex-nihilo reading is a doctrinal synthesis grounded in Heb 11:3 and the wider canon; this Appendix adopts it as the doctrinal position while flagging that the lexical entry alone does not entail it. The "only God as subject" claim holds strictly for the *Qal* stem; the Niphal (passive, *nibrāʾ*, "was created") and Piel (*bērēʾ*, with senses such as "cut down" or "shape") admit other subjects. The theological force of divine exclusivity attaches specifically to the Qal active used throughout Genesis 1.
 
 The exclusivity of *bārāʾ* is stunning: in Biblical Hebrew, only God *bārāʾs*. Humans might *aseh* (make, form, manufacture), but they do not *bārāʾ*. This linguistic boundary marks an absolute distinction between divine and human creative capacity.
 
@@ -250,7 +250,7 @@ Or represents the ordering principle itself. Light brings visibility, revelation
 
 **Zone Architecture Correspondence**
 
-Or is the first manifestation of κ_create—the initial ordering principle that begins to structure the tohu vavohu. It is not photons in the modern sense. Or is the Logos, the ordering word that begins to impose structure, distinction, and pattern on formless potential.
+Or is the first manifestation of κ_create—the initial ordering principle that begins to structure the tohu vavohu. It is not photons in the modern sense. Or is the first temporal effect of the Logos—the ordering Word that John 1:3 says made all things. The light is not the Logos; it is the Logos's first creative act made visible, beginning to impose structure, distinction, and pattern on formless potential.
 
 In the zone model, or corresponds to the first operation of κ_create on Z₂, initiating the reduction of entropy and the emergence of pattern. It is the principle of differentiation itself—the beginning of the light/darkness boundary that marks the first distinction in a previously undifferentiated cosmos.
 
@@ -306,6 +306,8 @@ In the zone model, each yom corresponds to a creation epoch within Phase 1. The 
 
 Yom is crucial because it establishes that time is not illusory or secondary in creation. Time is fundamental. Z₂ exists *in time*, and the creation of Z₂ is inherently temporal. The structure of reality includes temporal structure—epochs, sequences, before-and-after. Each yom is a distinct epoch in which the cosmos becomes more structured, more ordered, more full of pattern.
 
+To be explicit about the day-age question: the framework is compatible with both a literal-day reading (24-hour cycles bounded by *erev* and *boker*, evening and morning) and an epoch reading. The κ-phase architecture refers to *ordered creative acts*—their sequence and their distinct character—not to any absolute duration. Nothing in the zone physics fixes the length of a yom; the correspondence concerns the structured succession of creative work, on which both readings agree.
+
 **Key Verse(s)**
 
 > **Genesis 1:5 (ESV):** "And God called the light Day [yom], and the darkness he called Night."
@@ -328,6 +330,8 @@ Raqia is perhaps the single strongest Hebrew-physics correspondence in all of Ge
 The Firmament (raqia) on Day 2 is not merely a name for empty space or the sky. It is an *agent* of division. God makes (aseh) the raqia, and through the raqia, God separates (havdil) the waters. The raqia is not passive backdrop; it is an active boundary layer that holds apart what would otherwise commingle.
 
 This is profoundly physical language. A membrane that separates, a boundary that divides, a structure that sustains distinction.
+
+**On the philological debate.** Honesty requires acknowledging that the reading adopted here is not the only one in the scholarly literature, nor the majority one. A substantial body of Old Testament scholarship reads *rāqîaʿ* as a *solid dome* or *vault*—a hammered metal firmament conceived within ancient Near Eastern cosmology—rather than a thin stretched membrane (see, e.g., Paul H. Seely, "The Firmament and the Water Above," *Westminster Theological Journal* 53 [1991]: 227–240, which marshals lexical and comparative evidence that *rāqîaʿ* denoted a solid structure). The root ר-ק-ע ("to beat out, hammer") genuinely underwrites both pictures: one can hammer metal into a *solid* sheet, or beat material out into a *thin* one. We adopt the stretched-membrane reading not because it is uncontested, but because it is the reading consistent with the codimension-2 brane geometry we derive independently in the main text (Chapter 5). The grammatical root licenses the reading; it does not, by itself, settle the debate, and we do not claim that it does.
 
 **Zone Architecture Correspondence**
 
@@ -379,7 +383,7 @@ In thermodynamic terms, this is condensation and phase separation. In zone terms
 
 Deshe is the first complex biological pattern introduced into Z₂. Vegetation is self-replicating, follows a design (each according to its kind), and colonizes the land surface. The appearance of deshe marks the shift from purely physical organization (light/dark, water/land) to biological organization.
 
-Deshe is not described as created ex nihilo (no bara). Rather, the earth is commanded to "bring forth" (dashah) vegetation. This suggests that the organizational principle (κ_create) activates the latent potential within Z₂.₂.₁ (the land), and biological pattern emerges according to the type-constraints built into creation.
+Deshe is not described as created ex nihilo (no bara). Rather, the earth is commanded to "bring forth" vegetation. The Hebrew construction is striking: Genesis 1:11 reads *tadšēʾ hāʾāreṣ dešeʾ* ("let the earth sprout vegetation"), where the verb *tadšēʾ* (Hiphil, "cause to sprout") takes *dešeʾ* as a cognate accusative—the noun and its governing verb share the same root ד-ש-א. The grammar itself binds the act of sprouting to the thing sprouted. This suggests that the organizational principle (κ_create) activates the latent potential within Z₂.₂.₁ (the land), and biological pattern emerges according to the type-constraints built into creation.
 
 **Zone Architecture Correspondence**
 
@@ -432,6 +436,8 @@ The biological world is not a continuum where one species blends indefinitely in
 Nephesh chayah appears in Genesis 1:20 (sea creatures) and 1:24 (land animals). It indicates something beyond mere physical existence: these creatures are *living*—animated, ensouled, sensing, moving with purpose.
 
 Nephesh is profoundly embodied. It is not a Platonic soul trapped in matter; it is the animating principle of a living body. A nephesh requires a body to be nephesh. The phrase nephesh chayah acknowledges that some created beings possess an inner animating principle—consciousness, sensation, appetite—that distinguishes them from inert matter.
+
+It is worth noting that the same phrase, *nepeš ḥayyāh*, is applied to humanity in Genesis 2:7, where the man becomes "a living creature" (*nepeš ḥayyāh*). Humans therefore *share* the living-creature status of the animals; what Genesis marks as categorically *added* to humanity is not nephesh chayah but the *tselem Elohim*, the image of God (C.16). The animating life is common ground; the image-bearing capacity is the distinctive.
 
 **Zone Architecture Correspondence**
 
@@ -561,6 +567,8 @@ The sanctification of Day 7 is the sanctification of the new epoch. What begins 
 
 This appendix uses the following transliteration conventions, applied consistently across all entries and tables:
 
+**Where the macron forms apply:** The fully vocalized, macron-bearing transliteration (e.g., *rāqîʿaʾ*, *bārāʾ*, *yôm*) is used in section headings, in the summary table (C.19), and at the first formal mention of each term. For *repeated* references within running prose, this appendix deliberately uses simplified, macron-free spellings (e.g., "raqia," "bara," "yom," "nephesh chayah") for readability. This is an intentional two-tier convention, not an inconsistency: the precise form anchors each term, and the simplified form keeps the discussion legible. Root analyses and key-verse transliterations always use the precise form.
+
 **Simplified Academic Transliteration:**
 - Hebrew gutturals are represented with ʾ (aleph) and ʿ (ayin); final-ayin in word-final position is rendered with a straight apostrophe `'` only in informal in-prose first mentions of names like *rāqîʿaʾ*. The academic transliteration uses ʿ.
 - Vowels follow the Hebrew text, with macron diacriticals applied consistently:
@@ -599,7 +607,7 @@ What emerges is remarkable: the Hebrew words used in Genesis 1–2 consistently 
 - **Completing action** (vayekhullu marking the end of creation and the beginning of conservation)
 - **Structure and pattern** (deshe, nephesh chayah, tselem Elohim as increasingly complex organizational levels)
 
-None of this is forced onto the text. The Hebrew words themselves carry these meanings in their roots, their grammar, their usage across scripture, and their theological significance. We are not imposing a physics framework on the Bible. We are letting the Bible's own linguistic choices reveal a physics framework that has been encoded within it from the beginning.
+None of this is forced onto the text. The Hebrew words themselves carry these meanings in their roots, their grammar, their usage across scripture, and their theological significance. We are not imposing a physics framework on the Bible; we are letting linguistic precision *suggest* structural categories that physics independently develops. The correspondence runs both ways and is offered as motivation and organizing vocabulary, not as proof that physics is "encoded" in the text.
 
 This is the power of linguistic analysis: it is a bridge between theological truth and physical truth. It shows that these are not separate magisteria, separate domains of discourse, but a single coherent reality described in theological language and expressible in physical terms.
 

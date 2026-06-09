@@ -488,7 +488,7 @@ Here is the conjecture: the parameter $\epsilon$ — defined in Chapter 1 (Eq. (
 
 This connection resonates with Paul's assertion that "the creation was subjected to frustration" (Romans 8:20–21). The precise magnitude of CP violation may be a physical signature of that cosmic rupture.
 
-We flag this as speculative and mark it as an open question for Volume 6 (Predictions and Simulations).
+We flag this as speculative and mark it as an open question for Volume 6, Chapter 14 (*Open Problems*).
 
 [FIGURE: Fig 1.7.4 — Exact vs. Approximate Symmetries. Left column: exact symmetries (CPT, U(1) gauge, Poincaré) shown as perfect circles with unbroken conservation law statements. Right column: approximate symmetries (B, L, CP, chiral) shown as cracked circles with anomaly equations and breaking mechanisms labeled.]
 

@@ -10,7 +10,7 @@ These aren't arbitrary. They're the seven independent geometric operations avail
 
 This chapter does something remarkable: it shows that the seven types of patterns that appear throughout nature—in embryology, in crystal growth, in the unfolding of creation—are not accidents of biology or chemistry. They are *demanded* by the geometry of the firmament and the structure of the zone manifold. Each pattern type is a primitive operator on the space of field configurations. Their algebra encodes all interactions. And their number—seven—emerges from a pure counting argument rooted in topological degree of freedom.
 
-By chapter's end, we will exhibit a correspondence between the seven phase-operators identified in §§9.1–9.6 and the seven Days of Genesis 1. The correspondence is observational, not derivational; each operator has independent physical justification from the geometry of a codimension-2 membrane in 6D (§9.6). We will also see why the number seven is a consequence of the manifold's topology, not an arbitrary choice — the Genesis parallel is then noted as a striking consistency, not used as evidence.
+By chapter's end, we will exhibit a correspondence between the seven phase-operators identified in §§9.1–9.6 and the seven Days of Genesis 1. The correspondence is observational, not derivational; each operator has independent physical justification from the geometry of a codimension-2 membrane in 6D (§9.6). We will also argue that the number seven is a consequence of the manifold's topology, not an arbitrary choice — the Genesis parallel is then noted as a striking consistency, not used as evidence.
 
 **Roadmap:**
 - §9.1: Define the field configuration space F(M_Z) and explain why operators

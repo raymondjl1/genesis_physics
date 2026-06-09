@@ -92,7 +92,7 @@ $$P^{-1} T P = D \quad \text{where } D = \text{diag}(\lambda_1, \ldots, \lambda_
 
 For a metric tensor g, the spectral theorem guarantees we can always find an orthonormal basis.
 
-**Used in:** Chapter 1 (foundational structure), Chapter 2 (mathematical prelims).
+**Used in:** Chapter 1 (foundational structure), Chapter 2 (mathematical prelims), Chapter 10 (discrete mode spectra and quantization from Sturm-Liouville boundary-value problems, where the eigenvalues of a Hermitian operator on a bounded domain give the quantized spectrum).
 
 ---
 
@@ -916,7 +916,7 @@ $$g_{\mu\nu} v^\nu = \sum_\nu g_{\mu\nu} v^\nu \tag{A.92}$$
 |-------|---------|---------|
 | Vector spaces & tensors | 1.1–1.5 | Ch 1, 2, 9 |
 | Metrics & inner products | 1.2 | Ch 1, 3, 4 |
-| Eigenvalues | 1.3 | Ch 1, 2 |
+| Eigenvalues | 1.3 | Ch 1, 2, 10 |
 | Functional derivatives | 2.1 | Ch 6, 7, 8 |
 | Euler-Lagrange | 2.2 | Ch 6, 7, 8 |
 | Lagrange multipliers | 2.3 | Ch 8 |

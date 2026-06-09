@@ -1399,7 +1399,7 @@ The geometry of creation is not arbitrary. It is not a random choice among infin
 - Have conserved quantities (energy, momentum)
 - Be connected to observations (the CMB, atomic spectra, the expansion of space)
 
-When you trace through the logic, you find that each choice follows from the previous one. The 6D metric is not a postulate — it is a *consequence*.
+When you trace through the logic, you find that each choice follows from the previous one. The 6D metric is not a postulate — it is a *consequence*. The architect of §4.0 has, in the end, built the structure from the blueprint: and the building is the universe we observe.
 
 In Chapter 5, we turn this around: we ask, *given* this metric, *what waves can propagate on it?* The answer will be the Firmament vibration modes, from which the full Standard Model gauge groups will emerge. That is where the "secret revelation" of Christ becomes tangible — not through preaching, but through the discovery that the geometry of the universe uniquely determines the laws that govern matter, energy, life, and consciousness.
 

@@ -62,7 +62,7 @@ The two Waters fields are real scalar fields:
 - **$\Psi_A(X^A)$**: the Waters Above field, primarily sourced in the $\xi$-direction ($Z_{2.2.3}$)
 - **$\Psi_B(X^A)$**: the Waters Below field, primarily sourced in the $\eta$-direction ($Z_{2.2.1}$)
 
-**Note:** $\Psi_B$ is defined as a real scalar field throughout this volume. Complex components arise when the Waters Below fiber is extended in Chapters involving the $Z_3$ construction (see Vol 2). The Madelung fluid representation in §6.2.4 introduces a complex notation for perturbations around the real ground state; the imaginary part there represents the phase of a condensate, not a separate physical degree of freedom at this level.
+**Note:** $\Psi_B$ is defined as a real scalar field throughout this volume. Complex components arise when the Waters Below fiber is extended in Chapters involving the $Z_3$ construction (see Vol 2, Ch 6, *Gauge Theory from Zone Symmetries*). The Madelung fluid representation in §6.2.4 introduces a complex notation for perturbations around the real ground state; the imaginary part there represents the phase of a condensate, not a separate physical degree of freedom at this level.
 
 Both fields are functions of the full 6D coordinates, but — as we will show — their dynamics is dominated by the extra-dimensional directions. The 4D spacetime dependence enters primarily through the scale factor $a(t)$ and through perturbations around equilibrium.
 

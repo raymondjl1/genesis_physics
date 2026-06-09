@@ -33,9 +33,11 @@ The central insight of this chapter is simple enough to fit on a napkin: **the e
 
 And boundary conditions on a finite domain produce a discrete spectrum. Always. Inevitably. This is not quantum mechanics — it is Sturm-Liouville theory, known since the 19th century. Quantization is a *theorem* of the zone architecture, not a postulate of a new theory.
 
+This is where the chapter's epigraph earns its place. That the zones have *finite* extent — that each is bounded "in its time" rather than running on to infinity — is not an arbitrary stipulation but a consequence of the completed, bounded creation of Axiom 2 (Chapter 1, §1.3). The logical chain is therefore explicit: Axiom 2 (bounded, finished creation) $\rightarrow$ finite-extent zones $\rightarrow$ boundary conditions on a finite domain $\rightarrow$ discrete spectrum. The discreteness of the quantum world is the mathematical echo of a creation that has edges.
+
 From this single fact, everything follows: the discrete energy spectrum, Planck's constant (derived from membrane parameters), the Schrödinger equation (as a non-relativistic limit), the uncertainty principle (as a Fourier theorem), angular momentum quantization (from topology), and the measurement problem (as decoherence). Each step is a derivation. No step is an axiom.
 
-**Notation convention for this chapter:** We use lowercase $\psi(x,t)$ for the full (relativistic) Firmament membrane displacement field and uppercase $\Psi(x,t)$ for the slowly-varying non-relativistic envelope — the "wave function" of standard quantum mechanics. The two are related by $\psi = \Psi \, e^{-imc^2t/\hbar}$ (§10.4.2). This parallels the convention in prior chapters where $\psi$ denotes a general field and $\Psi$ denotes the Waters fields.
+> **Notation note (this chapter).** We use lowercase $\psi(x,t)$ for the full (relativistic) Firmament membrane displacement field and uppercase $\Psi(x,t)$ for the slowly-varying non-relativistic envelope — the "wave function" of standard quantum mechanics. The two are related by $\psi = \Psi \, e^{-imc^2t/\hbar}$ (§10.4.2). This parallels the convention in prior chapters where $\psi$ denotes a general field and $\Psi$ denotes the Waters fields.
 
 By the end of this chapter, you will understand why the universe *must* be quantized — not because God chose discrete physics over continuous physics, but because the architecture of creation, with its bounded zones and topological structure, admits no other possibility. Discreteness is the geometry's doing.
 

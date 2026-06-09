@@ -842,7 +842,7 @@ With the exterior derivative in hand, we can now connect back to the topological
 
 A *closed* form satisfies $d\omega = 0$. An *exact* form satisfies $\omega = d\alpha$. Because $d^2 = 0$, every exact form is closed. The de Rham cohomology group $H^p_{dR}(\mathcal{M})$ measures the closed forms that are NOT exact — forms whose closedness reflects topology rather than trivial identity.
 
-In Chapter 7, conservation laws that arise from continuous symmetries (Noether's theorem) will be expressed as $dJ = 0$ for some current form $J$. If $J$ is exact ($J = d\alpha$), the conserved charge is trivially zero. If $J$ is closed but not exact, the conserved charge is topological — it persists regardless of the dynamics. This distinction between dynamical and topological conservation will be central to understanding the full structure of zone architecture.
+In Chapter 7, conservation laws that arise from continuous symmetries (Noether's theorem) will be expressed as $dJ = 0$ for some current form $J$. If $J$ is exact ($J = d\alpha$), the conserved charge is exactly zero by the exactness of $J = d\alpha$ (Stokes' theorem applied to a closed surface). If $J$ is closed but not exact, the conserved charge is topological — it persists regardless of the dynamics. This distinction between dynamical and topological conservation will be central to understanding the full structure of zone architecture.
 
 ---
 
@@ -869,7 +869,7 @@ The crucial point: Lie groups have both *algebraic* structure (group axioms) and
 
 **$SO(3,1)$: Lorentz group.** The group of $4 \times 4$ matrices preserving the Minkowski metric $\eta_{\mu\nu} = \text{diag}(-1,+1,+1,+1)$. This is a 6-dimensional Lie group (three rotations + three boosts). Lorentz invariance is the spacetime symmetry of the zone manifold within $Z_{2.2}$ (Chapter 4).
 
-**Poincaré group:** The semidirect product of the Lorentz group with spacetime translations $\mathbb{R}^{3,1}$. This 10-parameter group generates all kinematic conservation laws: energy (time translation), momentum (space translation), angular momentum (rotation), and center-of-mass theorem (boosts). See Chapter 4, Section 4.1 for the isometry group of the 6D embedding space and Chapter 7, Section 7.1 for the derivation of all ten conservation laws from the Poincaré generators.
+**Poincaré group:** The semidirect product of the Lorentz group with spacetime translations $\mathbb{R}^{3,1}$. This 10-parameter group generates all kinematic conservation laws: energy (time translation), momentum (space translation), angular momentum (rotation), and center-of-mass theorem (boosts). See Chapter 4, Section 4.1 for the isometry group of the 6D embedding space and Chapter 7, Sections 7.3–7.4 for the derivation of all ten conservation laws from the Poincaré generators.
 
 **$U(1)$: Phase rotations.** The group of complex numbers of unit modulus: $e^{i\theta}$, $\theta \in [0, 2\pi)$. This is a 1-dimensional Lie group (a circle). $U(1)$ gauge invariance gives electromagnetism and charge conservation (Chapter 7, Volume 2).
 

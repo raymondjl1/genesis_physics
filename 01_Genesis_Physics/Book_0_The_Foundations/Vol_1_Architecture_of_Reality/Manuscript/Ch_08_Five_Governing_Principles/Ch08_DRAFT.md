@@ -556,7 +556,7 @@ Note that $\lambda_1$ is directly related to the sustaining field $\kappa$; in f
 
 ### 8.10.4 The Bridge to Volume 2
 
-Volume 2 (Forces and Fields) inherits the constrained action $S_{\text{GP}}$ and uses it as follows:
+Volume 2 (Forces and Fields) — specifically Chapters 5 (*The Zone Lagrangian*) and 6 (*Gauge Theory from Zone Symmetries*) — inherits the constrained action $S_{\text{GP}}$ and uses it as follows:
 
 1. **Start with $S_{\text{GP}}$** — the architecture established here
 2. **Propose a force Lagrangian** $\mathcal{L}_{\text{force}}$ for each interaction (gravity, EM, strong, weak)

@@ -4,7 +4,7 @@
 
 ## §5.0 Introduction — The Stage Becomes a Player
 
-[FIGURE: Fig 1.5.7 — Derivation Roadmap for Chapter 5. Flowchart: 6D metric → embedding map → induced metric → extrinsic curvature → Gauss-Codazzi equations → junction conditions → Firmament membrane wave equation → vibration mode spectrum → stability analysis. Each arrow labeled with the key equation or definition produced at that step. Color-coded: blue = geometry (§5.1–§5.2), orange = physics (§5.3–§5.4), green = dynamics (§5.5–§5.6).]
+[FIGURE: Fig 1.5.0 — Derivation Roadmap for Chapter 5. Flowchart: 6D metric → embedding map → induced metric → extrinsic curvature → Gauss-Codazzi equations → junction conditions → Firmament membrane wave equation → vibration mode spectrum → stability analysis. Each arrow labeled with the key equation or definition produced at that step. Color-coded: blue = geometry (§5.1–§5.2), orange = physics (§5.3–§5.4), green = dynamics (§5.5–§5.6).]
 
 In Chapter 3, we built the zone manifold — a 6-dimensional stratified space with eight nested zones. In Chapter 4, we gave it geometry — a warp-factored metric that encodes how spacetime bends through the extra dimensions. We now have the stage. But we have been treating the Firmament — the 4D hypersurface $Z_{2.2}$ sitting at $(\xi_0, \eta_0)$ in the 6D bulk — as a passive boundary. A line on a map. A coordinate surface.
 
