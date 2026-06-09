@@ -6,9 +6,9 @@
 
 ## 7.1 Why the Firmament Spectrum Matters
 
-The preceding two chapters established the computational infrastructure (Chapter 5) and applied it to cosmological structure formation (Chapter 6). Now we turn to a question that is simultaneously more fundamental and more personally uncomfortable: *can the firmament membrane produce the observed particle mass spectrum?*
+The preceding two chapters established the computational infrastructure (Chapter 5) and applied it to cosmological structure formation (Chapter 6). Now we turn to a question that is simultaneously more fundamental and more personally uncomfortable: *can the Firmament membrane produce the observed particle mass spectrum?*
 
-Volume 4, Chapter 10, made a bold claim: elementary particles are not point-like objects sitting on the Firmament membrane — they *are* vibration modes of the Firmament membrane. Just as a drumhead produces a discrete set of resonant frequencies determined by its tension, density, and boundary conditions, the firmament membrane produces a discrete set of eigenfrequencies ω_n. Each eigenfrequency maps to a particle mass through the relativistic energy-mass relation:
+Volume 4, Chapter 10, made a bold claim: elementary particles are not point-like objects sitting on the Firmament membrane — they *are* vibration modes of the Firmament membrane. Just as a drumhead produces a discrete set of resonant frequencies determined by its tension, density, and boundary conditions, the Firmament membrane produces a discrete set of eigenfrequencies ω_n. Each eigenfrequency maps to a particle mass through the relativistic energy-mass relation:
 
 $$m_n = \frac{\hbar \omega_n}{c^2} \tag{6.7.1}$$
 
@@ -26,13 +26,13 @@ The reader who hoped for a triumphant comparison table — zone architecture pre
 
 ### 7.2.1 The Wave Equation
 
-The firmament membrane — the boundary between the Waters Above and Waters Below, introduced in Volume 1, Chapter 5 — satisfies a wave equation derived from the zone architecture's geometry. In the small-displacement limit, the Firmament membrane displacement u(x, t) obeys:
+The Firmament membrane — the boundary between the Waters Above and Waters Below, introduced in Volume 1, Chapter 5 — satisfies a wave equation derived from the zone architecture's geometry. In the small-displacement limit, the Firmament membrane displacement u(x, t) obeys:
 
 $$\mu \frac{\partial^2 u}{\partial t^2} = \sigma \nabla^2 u \tag{6.7.2}$$
 
 where σ is the Firmament tension and μ is the Firmament membrane surface density. These are not free parameters — they are derived from the zone manifold's metric properties in Volume 2, Chapter 3:
 
-- **σ = 6.0 × 10⁹⁸ kg/(m·s²)** — the Firmament tension. This extraordinary number reflects the Planck-scale rigidity of the firmament. For comparison, the tension of a steel guitar string is about 80 N — the firmament is stiffer by a factor of 10⁹⁷.
+- **σ = 6.0 × 10⁹⁸ kg/(m·s²)** — the Firmament tension. This extraordinary number reflects the Planck-scale rigidity of the Firmament. For comparison, the tension of a steel guitar string is about 80 N — the Firmament is stiffer by a factor of 10⁹⁷.
 
 - **μ = 6.7 × 10⁸¹ kg/m³** — the Firmament membrane surface density. (Strictly, this is a volume density; the code treats the Firmament membrane as having a characteristic thickness set by the Waters Below coherence length, making μ an effective surface mass per unit area when multiplied by η_B.)
 
@@ -40,7 +40,9 @@ The wave speed on the Firmament membrane is:
 
 $$v = \sqrt{\frac{\sigma}{\mu}} = \sqrt{\frac{6.0 \times 10^{98}}{6.7 \times 10^{81}}} = 2.993 \times 10^8 \text{ m/s} \tag{6.7.3}$$
 
-This is 99.75% of the speed of light. The proximity of v to c is not a coincidence and not a fit — it emerges from the ratio of two independently derived Planck-scale quantities. Physically, it means the Firmament is almost maximally stiff: perturbations propagate at nearly the speed of causality. In the language of Volume 1, Chapter 5, this reflects the firmament's role as the mediating surface between zones — it must transmit information as fast as the zone geometry permits.
+This is 99.75% of the speed of light. The proximity of v to c is not a coincidence and not a fit — it emerges from the ratio of two independently derived Planck-scale quantities. Physically, it means the Firmament is almost maximally stiff: perturbations propagate at nearly the speed of causality. In the language of Volume 1, Chapter 5, this reflects the Firmament's role as the mediating surface between zones — it must transmit information as fast as the zone geometry permits.
+
+> **Note on the wave-speed convention.** Two readings of the wave speed appear in this chapter, and we state the convention once here. The *derived* value, computed from σ and μ as quoted to two significant figures, is v = 2.993 × 10⁸ m/s = 0.9975c (Eq 6.7.3); this is the value used in the numerical mass predictions of §7.5 (Eq 6.7.9). At the level of the zone architecture, σ and μ are both Planck-scale quantities whose ratio is fixed by the geometry, and the framework's expectation is that v = c *exactly* — the 0.25% gap between 0.9975c and c is smaller than the two-significant-figure precision to which σ and μ are currently quoted, and should be read as an input-precision artifact rather than a physical statement that the Firmament wave speed is sub-luminal. The numerical predictions below retain v = 2.993 × 10⁸ m/s for internal consistency with the simulation output; adopting v = c exactly would shift m₁ from 475.5 MeV/c² to ~476.7 MeV/c², a change well below the 0.25% input precision and far below the ~1000× discrepancy that dominates this chapter.
 
 ### 7.2.2 Eigenvalue Formulation
 
@@ -108,6 +110,8 @@ The first test computes eigenfrequencies for a 1D string with fixed ends, using 
 > | 14 | 1.311 × 10¹⁰ | 1.536 × 10⁻⁴¹ | −40.81 |
 
 The spectrum confirms the expected linear scaling: ω_n ∝ n, with uniform mode spacing Δm ≈ 1.097 × 10⁻⁴² kg. The masses span approximately one order of magnitude (10⁻⁴² to 10⁻⁴¹ kg) over the first 14 modes.
+
+> **Note on the fundamental frequency.** The numerical value ω₁ = 9.365 × 10⁸ rad/s in this table is the *finite-difference* eigenvalue, not the analytical one. Back-solving ω₁ = πv/L with L = 1.0 gives an apparent wave speed of v ≈ 0.9961c rather than the 0.9975c of Eq 6.7.3 — but this 0.14% shortfall is exactly the discretization error: the second-order finite-difference solve returns eigenfrequencies systematically low by ~0.39% (see Table 7.3, where the analytical ω₁ = 9.401 × 10⁸ rad/s corresponds to the full 0.9975c). The analytical value is the physically meaningful one; the small offset is a numerical artifact of the 512-point grid, not a second value of the wave speed.
 
 These numbers are in the 10⁻⁴² kg range — approximately 10¹¹ times lighter than the electron. This does not mean the model predicts particles 10¹¹ times too light. It means the dimensionless domain size L = 1.0 has no physical significance. The physical interpretation requires setting L to a meaningful length scale, which we do in Section 7.5.
 
@@ -198,6 +202,8 @@ Substituting numerical values:
 
 $$m_1 = \frac{\pi \times (1.055 \times 10^{-34}) \times (2.993 \times 10^{8})}{(3.0 \times 10^{8})^2 \times (1.3 \times 10^{-15})} = 8.477 \times 10^{-28} \text{ kg} = 475.5 \text{ MeV}/c^2 \tag{6.7.9}$$
 
+The final step converts from kilograms to MeV/c² using the standard mass–energy conversion (see Appendix E, §E.6, for the unit convention): 1 kg ≈ 5.6096 × 10²⁹ MeV/c². Explicitly, 8.477 × 10⁻²⁸ kg × 5.6096 × 10²⁹ MeV/c² per kg = 475.5 MeV/c². (Equivalently, m₁c² = 8.477 × 10⁻²⁸ kg × (3.0 × 10⁸ m/s)² ≈ 7.63 × 10⁻¹¹ J, which divided by 1.602 × 10⁻¹³ J/MeV gives 475.5 MeV.)
+
 > **Table 7.4: 1D String Spectrum at Physical Scale (L = η_B = 1.3 × 10⁻¹⁵ m)**
 >
 > | Mode n | ω_n (rad/s) | m_n (kg) | m_n (MeV/c²) | Nearest Particle | Ratio m_n/m_particle |
@@ -279,7 +285,7 @@ The comparison table exposes a clear pattern:
 
 > **BOXED RESULT: The Firmament Membrane Mass Spectrum**
 >
-> The firmament membrane at the Waters Below scale (L = η_B = 1.3 × 10⁻¹⁵ m) produces a discrete mass spectrum with fundamental mass m₁ ≈ 475 MeV/c² (1D) or 364 MeV/c² (circular). The spectrum is hadronic in scale — a qualitative success for a framework that derives its parameters from first principles. However, light leptons (electron, muon) are 10²–10³ times lighter than the lightest predicted mode, constituting the framework's most significant quantitative failure. This is GitHub Issue #2, classified HIGH priority.
+> The Firmament membrane at the Waters Below scale (L = η_B = 1.3 × 10⁻¹⁵ m) produces a discrete mass spectrum with fundamental mass m₁ ≈ 475 MeV/c² (1D) or 364 MeV/c² (circular). The spectrum is hadronic in scale — a qualitative success for a framework that derives its parameters from first principles. However, light leptons (electron, muon) are 10²–10³ times lighter than the lightest predicted mode, constituting the framework's most significant quantitative failure. This is GitHub Issue #2, classified HIGH priority.
 
 ---
 
@@ -397,7 +403,7 @@ Despite the mass discrepancy, the Firmament membrane vibration spectrum generate
 
 ## 7.8 Energy Harvesting Resonance Modes
 
-The Firmament membrane vibration spectrum has a second application beyond particle physics: energy extraction. If the firmament membrane vibrates at specific eigenfrequencies, those vibrations carry energy that could, in principle, be coupled to and harvested. This section identifies the relevant resonance modes; Chapter 10 develops the engineering concept.
+The Firmament membrane vibration spectrum has a second application beyond particle physics: energy extraction. If the Firmament membrane vibrates at specific eigenfrequencies, those vibrations carry energy that could, in principle, be coupled to and harvested. This section identifies the relevant resonance modes; Chapter 10 develops the engineering concept.
 
 ### 7.8.1 Energy Content of Firmament Modes
 
@@ -427,7 +433,7 @@ This beat frequency is still in the gamma-ray range (~10²³ Hz). Direct couplin
 
 ### 7.8.3 The Bridge to Chapter 10
 
-The key result for Chapter 10 is this: the Firmament membrane vibration modes identified in this chapter provide a complete, computable spectrum of resonance frequencies for the firmament. Any energy harvesting device must be designed to couple to specific modes in this spectrum. The fundamental mode frequency (ω₁ ≈ 7.2 × 10²³ rad/s at L = η_B) sets the upper bound on the harvesting frequency; the challenge is engineering a coupling mechanism that can down-convert this to accessible frequencies.
+The key result for Chapter 10 is this: the Firmament membrane vibration modes identified in this chapter provide a complete, computable spectrum of resonance frequencies for the Firmament. Any energy harvesting device must be designed to couple to specific modes in this spectrum. The fundamental mode frequency (ω₁ ≈ 7.2 × 10²³ rad/s at L = η_B) sets the upper bound on the harvesting frequency; the challenge is engineering a coupling mechanism that can down-convert this to accessible frequencies.
 
 The energy density per mode (½ℏω_n for the zero-point contribution, plus any occupation-number enhancement from background excitations) and the mode spacing (Δω = πv/η_B ≈ 7.2 × 10²³ rad/s) are the two parameters that Chapter 10 needs from this chapter. Both are now computed from first principles.
 

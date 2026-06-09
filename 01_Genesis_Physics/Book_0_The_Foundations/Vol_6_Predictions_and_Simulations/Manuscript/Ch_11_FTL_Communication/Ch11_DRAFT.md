@@ -58,7 +58,7 @@ A physicist who is not an engineer will want to stop here and marvel at the geom
 | One-way latency to Mars (light-time) | 3.1 to 22.3 minutes |
 | One-way latency to Voyager 1 | 22.5 hours |
 
-Every zone-architecture channel we evaluate must be positioned against this. In §11.8 we give the engineering specifications side-by-side.
+Every zone-architecture channel we evaluate must be positioned against this. In §11.8 we give the engineering specifications side-by-side. The DSN comparison is *engineering context only*: it tells us whether a proposed channel would be worth building relative to existing technology. It is not part of the framework's physics and carries no weight in the falsifiability of any prediction — the predictions stand or fall on their own thresholds (§11.10), independent of how they rank against the DSN.
 
 ### 11.1.4  Outline of the Chapter
 

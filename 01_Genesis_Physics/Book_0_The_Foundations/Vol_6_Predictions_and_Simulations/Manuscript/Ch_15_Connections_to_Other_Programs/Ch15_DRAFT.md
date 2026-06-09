@@ -401,6 +401,8 @@ The program's distinctive feature is that it offers a *duality* — two descript
 
 *Duality vs. derivation.* AdS–CFT claims an exact duality — the two sides are equivalent descriptions of the same physics. Zone architecture's Firmament-bulk relationship is a *derivation*, not a duality. The Firmament is a specific hypersurface in the 6D manifold, not an equivalent description of it. The bulk physics and the Firmament physics are both present and both describable; the Firmament is not a dual of the bulk, it is a specific submanifold.
 
+> **Note on terminology — "duality."** The word "duality" in this section is used in the AdS–CFT holographic sense: an *exact equivalence* between two descriptions of the same physics. This is distinct from **Principle 5 (Duality)** in the Five Principles, which names the framework's pattern of complementary pairs — Waters Above and Waters Below, matter and antimatter, and similar — whose *interaction* generates structure. Holographic duality is an equivalence between descriptions; Principle 5 Duality is a complementarity between interacting partners. The two senses should not be conflated.
+
 *Matter sector.* AdS–CFT derives the boundary matter content from a specific CFT (native to that boundary). Zone architecture derives matter from Firmament membrane modes and topological defects on the Firmament, with the matter being localized on the Firmament but the underlying dynamics living in the 6D bulk.
 
 ### 15.7.4  The Limit Question

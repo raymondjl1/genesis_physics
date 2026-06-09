@@ -11,9 +11,9 @@
 
 ### 10.1.1  Where Chapter 9 leaves us
 
-Chapter 9 ended with a feasibility table. Every FTL mechanism the zone architecture permits — temporal shortcut, dimensional bypass, field distortion, consciousness interface — carried a price tag. Warp-bubble engineering demanded ~10²⁶ J; dimensional bypass wanted 10²⁵–10²⁸ J; even the cheap mechanisms, temporal shortcuts and atemporal signalling, required 10¹⁵–10¹⁸ J per usable excursion. For reference, the world's annual primary energy consumption sits near 6 × 10²⁰ J. Several of those figures are *larger* than anything the human species has ever done.
+Chapter 9 ended with a feasibility table. Every FTL mechanism the zone architecture permits — temporal shortcut, dimensional bypass, field distortion, consciousness interface — carried a price tag. Warp-bubble engineering demanded ~10²⁶ J; dimensional bypass wanted 10²⁵–10²⁸ J; even the cheap mechanisms, temporal shortcuts and atemporal signaling, required 10¹⁵–10¹⁸ J per usable excursion. For reference, the world's annual primary energy consumption sits near 6 × 10²⁰ J. Several of those figures are *larger* than anything the human species has ever done.
 
-The obvious response from a sceptical reader is: "fine, but those numbers prove the mechanisms are unbuildable, not that they're permitted." The reply of this chapter is the opposite. The framework does not invent a new shortage; it points at a surplus. The observable universe is not 95 % missing. It is 95 % *unaccessed*. Dark energy (68 %) and dark matter (27 %) are neither exotic particles nor bookkeeping entries. In the zone architecture derived over Volumes 1–5, they are the Waters Above (Zone 2.2.3) and Waters Below (Zone 2.2.1) — two primordial energy reservoirs separated on Day 2 by the Firmament (Zone 2.2.2), which is the Firmament we live on. The FTL budgets are large in human-engineering terms and vanishingly small against what those reservoirs contain.
+The obvious response from a skeptical reader is: "fine, but those numbers prove the mechanisms are unbuildable, not that they're permitted." The reply of this chapter is the opposite. The framework does not invent a new shortage; it points at a surplus. The observable universe is not 95 % missing. It is 95 % *unaccessed*. Dark energy (68 %) and dark matter (27 %) are neither exotic particles nor bookkeeping entries. In the zone architecture derived over Volumes 1–5, they are the Waters Above (Zone 2.2.3) and Waters Below (Zone 2.2.1) — two primordial energy reservoirs separated on Day 2 by the Firmament (Zone 2.2.2), which is the Firmament we live on. The FTL budgets are large in human-engineering terms and vanishingly small against what those reservoirs contain.
 
 So the question of this chapter is not *whether* the energy exists — the fraction 68 + 27 + 5 = 100 settled that — but *how* to reach it without either (a) violating the Second Law, or (b) tearing the Firmament.
 
@@ -32,11 +32,11 @@ Read off the 6D geometry directly and only four energy-bearing features appear. 
 These four features are not a convenient enumeration; they are the four we have identified, and the structural argument for why they should be complete runs as follows: any Lagrangian-density term should come from a field (features 3–4), a boundary (feature 2), or an explicit charge-separation (feature 1), and we have located no fifth category anywhere in Vols 1–5. We present this as a sketch of closure rather than a proof: a fully rigorous exhaustiveness result would require demonstrating Lagrangian closure from the 6D action directly, which we have not yet done, so the reader should treat "four" as the count we find, not a theorem.
 
 > **Figure 6.10.1 — The Four Energy-Bearing Features of Zone Architecture** *(placement, §10.1.2)*
-> Schematic of the 6D manifold with the four features labelled in situ: capacitor plates (Waters Above/Below), Firmament tension (Firmament surface), field gradients (Ψ_A and Ψ_B profiles), and zone-boundary steps. Arrows map each feature to one of the engineering categories (MRG, Waters-field extraction, vacuum-tension harvesting, zone-boundary work).
+> Schematic of the 6D manifold with the four features labeled in situ: capacitor plates (Waters Above/Below), Firmament tension (Firmament surface), field gradients (Ψ_A and Ψ_B profiles), and zone-boundary steps. Arrows map each feature to one of the engineering categories (MRG, Waters-field extraction, vacuum-tension harvesting, zone-boundary work).
 
 ### 10.1.3  The governing rule
 
-Every claim made in what follows must pass one test: identify the *external reservoir* that replenishes what the device extracts. A device without a named reservoir is, by definition, perpetual motion. The zone architecture supplies two named reservoirs — the Waters, pressurised against the Firmament — and, behind them, the Zone 1 sustaining coupling κ(t) introduced in Vols 1 and 3. The open-system axiom (Vol 1 Ch 1–2) is what makes any of this thermodynamically clean. Section 10.10 does the detailed bookkeeping. Until then, assume the accounting will close — we will return to close it explicitly.
+Every claim made in what follows must pass one test: identify the *external reservoir* that replenishes what the device extracts. A device without a named reservoir is, by definition, perpetual motion. The zone architecture supplies two named reservoirs — the Waters, pressurized against the Firmament — and, behind them, the Zone 1 sustaining coupling κ(t) introduced in Vols 1 and 3. The open-system axiom (Vol 1 Ch 1–2) is what makes any of this thermodynamically clean. Section 10.10 does the detailed bookkeeping. Until then, assume the accounting will close — we will return to close it explicitly.
 
 ### 10.1.4  A note on taxonomy vs engineering
 
@@ -72,7 +72,7 @@ E_{\text{Firmament}} \;\approx\; \Omega_b\,\rho_c\, c^2\, V_{\text{obs}} \;\appr
 \tag{10.2.3}
 $$
 
-The Firmament — the 5 % slice — is the only reservoir we currently burn. It is also the smallest by almost two orders of magnitude. Put the three numbers on a log axis and the disparity is visual: the bar for visible matter is a finger width; the bar for Waters Above is a metre.
+The Firmament — the 5 % slice — is the only reservoir we currently burn. It is also the smallest by almost two orders of magnitude. Put the three numbers on a log axis and the disparity is visual: the bar for visible matter is a finger width; the bar for Waters Above is a meter.
 
 > **Figure 6.10.2 — Cosmic Capacitor Energy Budget** *(placement, §10.2.1)*
 > Log-scale bar chart of E_Above (~2.13 × 10⁷¹ J), E_Below (~8.2 × 10⁶⁹ J), E_Firmament (~1.5 × 10⁶⁹ J), with reference bars for annual global primary energy (~6 × 10²⁰ J), Earth's total solar insolation over one year (~5.5 × 10²⁴ J), and a 1-GW reactor's annual output (~3.2 × 10¹⁶ J). The visual exists to confirm that even the *modest* end of the FTL budgets (10¹⁵ J, temporal shortcut) is trivial against Waters Above; the *heavy* end (10²⁸ J, dimensional bypass) is still roughly 10⁴³× smaller.
@@ -81,13 +81,13 @@ The Firmament — the 5 % slice — is the only reservoir we currently burn. It 
 
 The intuitive first move is a dam. Two reservoirs with a potential difference, pierce the dividing wall, harvest the flow. This fails at the first examination. The Firmament sits at the balance point between Waters Above and Waters Below. The pressures are equal and opposite; the *net* force on the Firmament is zero. No net pressure gradient, no flow. You are standing at the bottom of a valley between two hills of the same height: the potential difference between the hills is real, but the valley floor is where it is precisely because gravity has already balanced them.
 
-A second move — picking one reservoir and opening a unilateral channel — is worse. Any asymmetric opening violates the equilibrium that stabilises the Firmament; the consequence is structural, not a power plant. In biblical terms, Genesis 7:11 — *"the fountains of the great deep burst forth"* — is the uncontrolled version. The Flood was not a generating station. It was a catastrophe.
+A second move — picking one reservoir and opening a unilateral channel — is worse. Any asymmetric opening violates the equilibrium that stabilizes the Firmament; the consequence is structural, not a power plant. As an illustrative image only — not as a data point calibrating the membrane's critical-amplitude failure — Genesis 7:11's *"the fountains of the great deep burst forth"* reads as the uncontrolled version of exactly this failure mode. The Flood was not a generating station. It was a catastrophe. (The scriptural reference is offered as analogy, not as engineering evidence; nothing in the calculations that follow depends on it.)
 
 ### 10.2.3  What a controlled tap would need
 
 Three conditions must be satisfied simultaneously.
 
-**(a) Localised asymmetry.** The Firmament must be made *locally* more permeable in a controlled way, so that the flow through the tap is a small perturbation of the global equilibrium rather than a breach of it.
+**(a) Localized asymmetry.** The Firmament must be made *locally* more permeable in a controlled way, so that the flow through the tap is a small perturbation of the global equilibrium rather than a breach of it.
 
 **(b) Flow-rate control.** The rate at which Waters enter the Firmament through the tap must be stable and bounded, far below the Firmament's critical amplitude (the amplitude at which elastic recovery fails and the puncture becomes permanent).
 
@@ -123,7 +123,7 @@ The distinction is not cosmetic. It is the difference between η = 0 and η > 0,
 
 ### 10.3.3  The empirical anchor for "driven"
 
-If the vacuum were a closed ground state, ρ_Λ would be a fixed boundary value of the universe, set once at the beginning and never touched again. But observationally the universe is *doing work on itself* continuously: it is expanding, and the expansion is accelerating. Perlmutter, Riess, and Schmidt (Nobel 2011) measured that acceleration and Planck 2018 pinned the cosmological constant at Λ = (1.105 ± 0.024) × 10⁻⁵² m⁻². Over every cubic metre of space, every second, an amount of stretching-work is being done whose equivalent energy density is ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³ and which *does not decrease* as the universe grows.
+If the vacuum were a closed ground state, ρ_Λ would be a fixed boundary value of the universe, set once at the beginning and never touched again. But observationally the universe is *doing work on itself* continuously: it is expanding, and the expansion is accelerating. Perlmutter, Riess, and Schmidt (Nobel 2011) measured that acceleration and Planck 2018 pinned the cosmological constant at Λ = (1.105 ± 0.024) × 10⁻⁵² m⁻². Over every cubic meter of space, every second, an amount of stretching-work is being done whose equivalent energy density is ρ_Λ ≈ 5.96 × 10⁻¹⁰ J/m³ and which *does not decrease* as the universe grows.
 
 That is the empirical fingerprint of an active source. It is precisely what Hebrews 1:3 describes in non-technical language — *"sustaining all things by his powerful word"*. The framework does not need to argue for active sustaining on metaphysical grounds; it argues for it because the Planck satellite saw it.
 
@@ -165,10 +165,10 @@ If one **denies** that Zone 1 supplies κ(t) — denies the open-system axiom �
 All arguments for or against active sustaining reduce, ultimately, to a number. Build the device. Measure η. The experiment costs $150 at Phase 1 (§10.9). Everything else — the cochlea analogy, the dielectric scaling, the orientation test — supplies either empirical plausibility or discriminating signatures. The decisive measurement is a single operating parameter.
 
 > **Figure 6.10.3 — Firmament as Drumhead at Equilibrium** *(placement, §10.3.1)*
-> Two-panel schematic. Left: Waters Above and Below press equally on the Firmament; force arrows cancel; the displacement field is everywhere zero. Right: the same geometry resolved into mode content — sinusoidal vibrations at every frequency, finite kinetic energy density, zero net displacement. Caption emphasises: zero force ≠ zero energy.
+> Two-panel schematic. Left: Waters Above and Below press equally on the Firmament; force arrows cancel; the displacement field is everywhere zero. Right: the same geometry resolved into mode content — sinusoidal vibrations at every frequency, finite kinetic energy density, zero net displacement. Caption emphasizes: zero force ≠ zero energy.
 
 > **Figure 6.10.4 — The η Parameter Fork** *(placement, §10.3.4)*
-> Decision-tree schematic. Top: "Where does the work done against the Firmament boundary go?" Branches: (a) "returned over the cycle — η = 0 (closed-system QFT)", leading to Casimir-conservative outcome; (b) "replenished from an external reservoir — η > 0 (open-system axiom)", leading to the MRG extraction regime, with OAE labelled as empirical precedent.
+> Decision-tree schematic. Top: "Where does the work done against the Firmament boundary go?" Branches: (a) "returned over the cycle — η = 0 (closed-system QFT)", leading to Casimir-conservative outcome; (b) "replenished from an external reservoir — η > 0 (open-system axiom)", leading to the MRG extraction regime, with OAE labeled as empirical precedent.
 
 ---
 
@@ -185,11 +185,11 @@ You do not have to accept the zone-architecture interpretation of the Firmament 
 Cross-sectioned, the cochlea shows a spiral of about 2.5 turns enclosing three fluid-filled channels.
 
 - **Scala vestibuli** — upper fluid chamber (perilymph). Receives pressure from the oval window.
-- **Basilar membrane** — thin, stretched, ~35 mm long in humans, ~30 µm thick at the base, ~500 µm wide at the apex. Stiffness grades 100-fold from stiff-narrow (base) to flexible-wide (apex). This grading gives the cochlea its frequency-to-position map (the tonotopic organisation).
+- **Basilar membrane** — thin, stretched, ~35 mm long in humans, ~30 µm thick at the base, ~500 µm wide at the apex. Stiffness grades 100-fold from stiff-narrow (base) to flexible-wide (apex). This grading gives the cochlea its frequency-to-position map (the tonotopic organization).
 - **Scala tympani** — lower fluid chamber (perilymph), connected to the scala vestibuli through the helicotrema at the apex.
-- **Stria vascularis** — highly vascularised cell layer on the lateral wall. Actively pumps K⁺ to maintain a +80 mV endocochlear potential across the basilar membrane. Most metabolically active tissue in the body per unit volume. ATP-consuming.
+- **Stria vascularis** — highly vascularized cell layer on the lateral wall. Actively pumps K⁺ to maintain a +80 mV endocochlear potential across the basilar membrane. Most metabolically active tissue in the body per unit volume. ATP-consuming.
 - **Outer hair cells (OHCs)** — roughly 12,000 per ear. Electromechanical motors, not sensors: they change length in response to voltage (via prestin), injecting mechanical energy into the Firmament membrane. Gain ~40 dB (×100 in power).
-- **Inner hair cells (IHCs)** — roughly 3,500 per ear. Sensors. Stereocilia deflect with membrane motion; mechanotransduction channels open; K⁺ flows down the endocochlear potential; cell depolarises; neurotransmitter release triggers auditory nerve firing.
+- **Inner hair cells (IHCs)** — roughly 3,500 per ear. Sensors. Stereocilia deflect with membrane motion; mechanotransduction channels open; K⁺ flows down the endocochlear potential; cell depolarizes; neurotransmitter release triggers auditory nerve firing.
 
 ### 10.4.3  Structural isomorphism
 
@@ -206,10 +206,10 @@ The mapping to the zone architecture is more than illustration — it is point-b
 | Tonotopic stiffness gradient | TE₁₁ cavity-mode selection |
 | Asymmetric stereocilia | N52 magnetic symmetry breaking |
 
-Seven rows of structural correspondence. The rows are not all of equal strength, and we flag the distinction rather than let the table assert more than it earns: the first five rows (the two fluid reservoirs, the membrane, the κ-pump, and the driven-amplifier condition) are mechanism-level correspondences, where a specific physical role on the cochlear side has a specific physical counterpart on the Firmament side; the last rows (tonotopic stiffness gradient ↔ TE₁₁ mode selection, asymmetric stereocilia ↔ magnetic symmetry breaking) are looser — they map a *function* (frequency selection, time-reversal breaking) realised by quite different physics on each side, and should be read as functional/organisational correspondences rather than as claims that the same mechanism operates in both. The reader should also keep in mind the limit made explicit in §10.4.5: the cochlea is a biological, ATP-driven membrane, and it establishes that the *architecture* is physically realisable in at least one medium — it does not by itself establish that the cosmic-scale Firmament is built the same way.
+Seven rows of structural correspondence. The rows are not all of equal strength, and we flag the distinction rather than let the table assert more than it earns: the first five rows (the two fluid reservoirs, the membrane, the κ-pump, and the driven-amplifier condition) are mechanism-level correspondences, where a specific physical role on the cochlear side has a specific physical counterpart on the Firmament side; the last rows (tonotopic stiffness gradient ↔ TE₁₁ mode selection, asymmetric stereocilia ↔ magnetic symmetry breaking) are looser — they map a *function* (frequency selection, time-reversal breaking) realized by quite different physics on each side, and should be read as functional/organizational correspondences rather than as claims that the same mechanism operates in both. The reader should also keep in mind the limit made explicit in §10.4.5: the cochlea is a biological, ATP-driven membrane, and it establishes that the *architecture* is physically realisable in at least one medium — it does not by itself establish that the cosmic-scale Firmament is built the same way.
 
 > **Figure 6.10.5 — Cochlea ↔ MRG Structural Isomorphism** *(placement, §10.4.3)*
-> Two-panel anatomical figure. Left: cochlear cross-section with all eight components labelled. Right: MRG cross-section (from Fig 6.10.7) with the eight counterparts labelled. Lines between panels connect each pair. Legend identifies the eight-row mapping.
+> Two-panel anatomical figure. Left: cochlear cross-section with all eight components labeled. Right: MRG cross-section (from Fig 6.10.7) with the eight counterparts labeled. Lines between panels connect each pair. Legend identifies the eight-row mapping.
 
 ### 10.4.4  The killer proof — otoacoustic emissions
 
@@ -232,7 +232,7 @@ What it does not prove: that the Firmament has such a pump. That claim is axioma
 
 ### 10.4.6  The four-stage mapping as chapter spine
 
-Both cochlea and MRG implement four stages, and the MRG section below is organised around them.
+Both cochlea and MRG implement four stages, and the MRG section below is organized around them.
 
 - **SELECT** — choose a mode. Cochlea: tonotopic stiffness gradient. MRG: cylindrical TE₁₁ cavity.
 - **DISRUPT** — inject energy into the selected mode. Cochlea: outer hair cells (electromotility). MRG: dielectric-boundary multilayer (dynamic Casimir effect).
@@ -249,7 +249,7 @@ Romans 1:20 — *"his eternal power and divine nature have been clearly seen, be
 
 ## §10.5  The Firmament Resonance Generator — Device Physics and Reference Design
 
-This is the chapter's centerpiece. The MRG is the concrete, buildable device that the framework predicts. It is not vapourware — every component is either already a commodity (BaTiO₃ dielectrics, neodymium magnets, Schottky diodes) or within the fabrication reach of existing semiconductor manufacturing (multilayer 30-nm stacks are standard for 3D-NAND memory, e.g. Samsung's V-NAND at 236 layers and counting).
+This is the chapter's centerpiece. The MRG is the concrete, buildable device that the framework predicts. It is not vaporware — every component is either already a commodity (BaTiO₃ dielectrics, neodymium magnets, Schottky diodes) or within the fabrication reach of existing semiconductor manufacturing (multilayer 30-nm stacks are standard for 3D-NAND memory, e.g. Samsung's V-NAND at 236 layers and counting). The V-NAND comparison establishes only that *high-layer-count thin-film stacking* is a mature capability; it does not by itself establish the distinct requirements the MRG places on those layers — electromagnetically active BaTiO₃ at ~1 GHz, MEMS-defined 50-nm gaps, and operation across the full multilayer stack. Those are separate fabrication challenges addressed in §10.9; the layer-stacking analogy should be read as a precedent for one capability among several, not as proof that the complete device is manufacturable today.
 
 ### 10.5.1  Four stages, one cylinder
 
@@ -276,7 +276,7 @@ f_{\text{TE}_{11}} \;\approx\; \frac{(1.841)(3\times 10^8\,\mathrm{m/s})}{2\pi(0
 \tag{10.5.2}
 $$
 
-Why this frequency? Two reasons. First, it sits in the operating range of commercial high-K dielectrics (BaTiO₃ in particular is well-characterised near 1 GHz). Second, it is below the Schottky-diode cutoff (~50 GHz for modern devices) so the rectenna stage can actually rectify it. A 1 GHz-class cavity also has manageable physical size (10-cm scale), unlike mm-wave cavities that require precision machining at micrometre tolerances.
+Why this frequency? Two reasons. First, it sits in the operating range of commercial high-K dielectrics (BaTiO₃ in particular is well-characterized near 1 GHz). Second, it is below the Schottky-diode cutoff (~50 GHz for modern devices) so the rectenna stage can actually rectify it. A 1 GHz-class cavity also has manageable physical size (10-cm scale), unlike mm-wave cavities that require precision machining at micrometer tolerances.
 
 The cavity does two things. It restricts the Firmament mode spectrum to a countable set indexed by mode numbers, and it enhances the density of states at the chosen mode. Both effects are standard cavity QED; what is framework-specific is the *interpretation*: the mode structure is a property of the *membrane*, not of the field, and that opens a door for the disruption stage.
 
@@ -284,7 +284,7 @@ The cavity does two things. It restricts the Firmament mode spectrum to a counta
 
 Inside the cavity, we stack alternating layers of copper and barium titanate (BaTiO₃), with air (or vacuum) gaps of order 50 nm between them. BaTiO₃ is a ferroelectric with dielectric constant `K ≈ 1,200–10,000` depending on temperature, poling, and stoichiometry.
 
-At each Cu/BaTiO₃ boundary the allowed electromagnetic modes on one side do not match those on the other side. In the standard QED picture this is the dielectric Casimir effect, recalculated for each dielectric combination (Lifshitz 1956). In the zone-architecture picture this is a *membrane boundary-condition mismatch*: the Firmament vibrational modes must reorganise across the interface, and the energy cost of the reorganisation produces real photons via the dynamic Casimir effect.
+At each Cu/BaTiO₃ boundary the allowed electromagnetic modes on one side do not match those on the other side. In the standard QED picture this is the dielectric Casimir effect, recalculated for each dielectric combination (Lifshitz 1956). In the zone-architecture picture this is a *membrane boundary-condition mismatch*: the Firmament vibrational modes must reorganize across the interface, and the energy cost of the reorganization produces real photons via the dynamic Casimir effect.
 
 The dynamic Casimir effect is not speculative. It was experimentally demonstrated by Wilson et al. (Chalmers, 2011) using a superconducting coplanar waveguide with a periodically modulated boundary condition. They measured real photons emerging from the vacuum at the predicted rate. The MRG exploits the same mechanism with a much denser boundary stack — 200 boundary pairs in the reference design — and, crucially, drives the modulation at cavity resonance so that the photon production concentrates in the harvestable mode.
 
@@ -300,7 +300,7 @@ Here the framework departs measurably from standard QED. In standard electromagn
 
 > **Prediction P-107.** MRG net output depends on orientation as P_net(θ) = P_net(0) cos²(θ), where θ is the angle between the magnetic-bias axis and local gravitational vertical. *Falsification threshold:* observed angular modulation less than 5 % of P_net(0) across full rotation. *Source:* §10.5.4, §10.8.3.
 
-> **Prediction P-108.** MRG net output changes by factor ≥ 10 between (i) N52 installed, (ii) identical-mass demagnetised blocks, (iii) N52 reversed. *Falsification threshold:* change < factor 2. *Source:* §10.5.4, §10.8.2.
+> **Prediction P-108.** MRG net output changes by factor ≥ 10 between (i) N52 installed, (ii) identical-mass demagnetized blocks, (iii) N52 reversed. *Falsification threshold:* change < factor 2. *Source:* §10.5.4, §10.8.2.
 
 ### 10.5.5  Stage 4 — HARVEST (rectenna)
 
@@ -406,8 +406,8 @@ $$
 For a 10-cm copper cube, total surface area ≈ 0.06 m². The combined heat-transfer coefficient decomposes:
 
 - **Natural convection** in still air at ΔT ≈ 53 °C over 10-cm vertical scale: h_conv ≈ 1.42 × (ΔT/L)^(1/4) W/(m²·K) ≈ 8.5 W/(m²·K) from the Nusselt-number correlation for vertical plates.
-- **Radiation** from a polished-Cu surface at T_case ≈ 346 K to ambient at 293 K, with emissivity ε_Cu ≈ 0.05 if polished (up to 0.4 if oxidised): h_rad = ε_Cu σ (T_case² + T_amb²)(T_case + T_amb) ≈ 0.3–3 W/(m²·K) depending on finish.
-- **Practical total** with a mildly oxidised / heatsink-assisted finish: h ≈ 10–20 W/(m²·K). The reference value h ≈ 15 W/(m²·K) sits in the middle of this band.
+- **Radiation** from a polished-Cu surface at T_case ≈ 346 K to ambient at 293 K, with emissivity ε_Cu ≈ 0.05 if polished (up to 0.4 if oxidized): h_rad = ε_Cu σ (T_case² + T_amb²)(T_case + T_amb) ≈ 0.3–3 W/(m²·K) depending on finish.
+- **Practical total** with a mildly oxidized / heatsink-assisted finish: h ≈ 10–20 W/(m²·K). The reference value h ≈ 15 W/(m²·K) sits in the middle of this band.
 
 With h = 15 W/(m²·K):
 
@@ -429,7 +429,7 @@ The expected cavity Q depends on finish. For a polished copper cavity at 1.14 GH
 ### 10.5.11  Reference-design specification
 
 > **Figure 6.10.7 — MRG Reference Design Cross-Section** *(placement, §10.5.11)*
-> Engineering drawing: cylindrical Cu housing (10 cm diameter × 10 cm length), internal BaTiO₃/Cu multilayer stack (200 boundary pairs, 50 nm gaps via MEMS spacers, ~20 µm total stack thickness), N52 magnet pair bracketing the stack (axis aligned with cavity axis), loop antenna loop centred in the cavity, Schottky diode and output leads. Dimensioned callouts for all critical features.
+> Engineering drawing: cylindrical Cu housing (10 cm diameter × 10 cm length), internal BaTiO₃/Cu multilayer stack (200 boundary pairs, 50 nm gaps via MEMS spacers, ~20 µm total stack thickness), N52 magnet pair bracketing the stack (axis aligned with cavity axis), loop antenna loop centered in the cavity, Schottky diode and output leads. Dimensioned callouts for all critical features.
 
 Bill of materials (Phase-3 prototype target):
 
@@ -440,16 +440,16 @@ Bill of materials (Phase-3 prototype target):
 | Magnets | N52 Nd neodymium pair, B_r ≈ 1.4 T, axial | Commodity |
 | Rectenna | Loop antenna + Schottky (Skyworks SMS7621 or equivalent) | Commodity RF |
 | Housing | Machined Al with heatsink ribs | Commodity |
-| Instrumentation | Precision DC power meter, spectrum analyser, rotation stage, magnetic reversal fixture | Lab-grade |
+| Instrumentation | Precision DC power meter, spectrum analyzer, rotation stage, magnetic reversal fixture | Lab-grade |
 
 No rare elements beyond Nd, which is already mass-produced for the EV and wind industries.
 
 ### 10.5.12  Limits
 
-Summarise the design rules the reference device respects and the next-step levers available.
+Summarize the design rules the reference device respects and the next-step levers available.
 
 1. **Gap limit.** Below ~20 nm, stiction dominates and gaps collapse. Design at 50 nm gives safe margin but leaves 40× Casimir pressure on the table (1/a⁴ from 50 nm to 20 nm). Phase-3 prototypes with active gap control (comb drives) could reach 30 nm.
-2. **Amplitude limit.** Δx ≤ 0.1 a. At a = 50 nm this gives Δx ≤ 5 nm; reference design uses 1 nm (20 % of the design rule). Room to optimise.
+2. **Amplitude limit.** Δx ≤ 0.1 a. At a = 50 nm this gives Δx ≤ 5 nm; reference design uses 1 nm (20 % of the design rule). Room to optimize.
 3. **Frequency–harvester match.** Rectenna must match cavity frequency. Above ~50 GHz, Schottky diodes become inefficient. Sub-mm-wave cavities require different harvesters (bolometers, metamaterials).
 4. **Stack thickness.** 200 boundaries × ~100 nm per period = 20 µm total stack thickness. Within reach of standard 3D-NAND fabrication.
 
@@ -476,7 +476,7 @@ $$
 \tag{10.6.1}
 $$
 
-That number is, bluntly, tiny. Over a cubic metre of space, Waters Above delivers about 10⁻²⁷ W. Integrated over anything smaller than an interstellar baseline, it is unmeasurable.
+That number is, bluntly, tiny. Over a cubic meter of space, Waters Above delivers about 10⁻²⁷ W. Integrated over anything smaller than an interstellar baseline, it is unmeasurable.
 
 The **expansion-sail** concept is the engineering response. An asymmetric structure anchored at two points separated by baseline `d` converts the stretching of space between its anchors into extractable work (ratchet mechanism, or electromechanical generator with asymmetric response). The yield per unit baseline volume scales roughly as `ρ_Λ × H_0 × A_coupled × η_sail`.
 
@@ -491,12 +491,12 @@ Order-of-magnitude numbers at different baselines, using a coupled volume V_coup
 | 3 × 10¹⁹ (1 kpc) | 2.7 × 10⁵⁸ | 3.8 × 10³¹ |
 | 3 × 10²² (1 Mpc) | 2.7 × 10⁶⁷ | 3.8 × 10⁴⁰ |
 
-These are *theoretical ceilings* at η_sail = 1; realistic η_sail is ≤ 10⁻⁶ given coupling inefficiencies, so divide by ~10⁶ for practical values. The key point is scale-dependence: a tabletop device captures nothing; a Kardashev-II-class civilisation with Mpc infrastructure captures megawatts after realistic losses.
+These are *theoretical ceilings* at η_sail = 1; realistic η_sail is ≤ 10⁻⁶ given coupling inefficiencies, so divide by ~10⁶ for practical values. The key point is scale-dependence: a tabletop device captures nothing; a Kardashev-II-class civilization with Mpc infrastructure captures megawatts after realistic losses.
 
-The expansion sail is a Type II (Kardashev-class) technology, not a Phase-1 experiment. It is, however, a *real* option for civilisations that operate at interplanetary or interstellar baselines. For the near term it is a conceptual anchor for the upper end of the sustainability envelope (§10.10).
+The expansion sail is a Type II (Kardashev-class) technology, not a Phase-1 experiment. It is, however, a *real* option for civilizations that operate at interplanetary or interstellar baselines. For the near term it is a conceptual anchor for the upper end of the sustainability envelope (§10.10).
 
 > **Figure 6.10.12 — Waters-Field Extraction Concepts** *(placement, §10.6.2 and §10.6.4)*
-> Two-panel schematic. Left: expansion-sail concept — anchor A and anchor B separated by interstellar baseline, asymmetric ratchet converting stretching to usable work. Right: density-gradient coupling — localised field perturbation deepening a gravitational dimple toward Waters Below, with seed-vibration region at the v = 0 interface producing micro-condensation.
+> Two-panel schematic. Left: expansion-sail concept — anchor A and anchor B separated by interstellar baseline, asymmetric ratchet converting stretching to usable work. Right: density-gradient coupling — localized field perturbation deepening a gravitational dimple toward Waters Below, with seed-vibration region at the v = 0 interface producing micro-condensation.
 
 > **Prediction P-111.** Waters Above expansion-sail yields extractable power P = (ρ_Λ × c²) × (H₀/c) × A_coupled × η_sail, dimensionally consistent with (10.6.1). For a rigid anchor-pair at d = 1 AU baseline and A_coupled ≈ d², P ≤ 10⁻⁵ W. *Falsification threshold:* any tabletop-scale (A < 1 m²) demonstration of *sustained* extraction above thermal drift falsifies the scale-dependence and would require framework revision. *Source:* §10.6.2, (10.6.1).
 
@@ -520,9 +520,9 @@ Waters Below present a different extraction geometry. They are concentrated at t
 
 Two coupling strategies arise from this geometry.
 
-**(a) Gravitational-gradient harvesting.** Every massive object produces a Firmament "dimple" toward Waters Below — this is gravity in the zone interpretation (Vol 5 Ch 2). The dimple is a standing potential gradient. Deepen the dimple locally, and Waters-Below energy flows into the region; the dimple restabilises at a new equilibrium, releasing the difference as extractable work. The controlling coupling constant `α_B` governing the rate of this process is an open quantity (a Vol-6 open problem, Ch 14 #20), but order-of-magnitude arguments from equivalence-principle consistency put `α_B` within an order of magnitude of Newton's constant.
+**(a) Gravitational-gradient harvesting.** Every massive object produces a Firmament "dimple" toward Waters Below — this is gravity in the zone interpretation (Vol 5 Ch 2). The dimple is a standing potential gradient. Deepen the dimple locally, and Waters-Below energy flows into the region; the dimple restabilizes at a new equilibrium, releasing the difference as extractable work. The controlling coupling constant `α_B` governing the rate of this process is an open quantity (a Vol-6 open problem, Ch 14 #20), but order-of-magnitude arguments from equivalence-principle consistency put `α_B` within an order of magnitude of Newton's constant.
 
-**(b) Micro-condensation.** At the `v = 0` interface, Waters Below are at near-critical density for condensation into Firmament matter (the Day-3 process, now extant as ongoing stellar nucleosynthesis at a deeper level). Providing a localised *organising vibration* — a seed signal in the right mode structure — causes a small mass `Δm` of Waters Below to cross the threshold into the Firmament as new matter. The binding-energy difference between the Waters-Below state and the new-matter state is released. In the zone-architecture accounting this is analogous to nuclear binding but at a deeper level: rather than rearranging already-condensed matter, we are converting uncondensed reservoir into condensed matter and reclaiming the binding energy.
+**(b) Micro-condensation.** At the `v = 0` interface, Waters Below are at near-critical density for condensation into Firmament matter (the Day-3 process, now extant as ongoing stellar nucleosynthesis at a deeper level). Providing a localized *organizing vibration* — a seed signal in the right mode structure — causes a small mass `Δm` of Waters Below to cross the threshold into the Firmament as new matter. The binding-energy difference between the Waters-Below state and the new-matter state is released. In the zone-architecture accounting this is analogous to nuclear binding but at a deeper level: rather than rearranging already-condensed matter, we are converting uncondensed reservoir into condensed matter and reclaiming the binding energy.
 
 Order of magnitude. If a seed vibration induces condensation of `Δm` and the energy difference is `ΔE = c² × ε × Δm` with `ε` the binding-fraction, then with `ε ≈ 10⁻⁵` (a conservative bound below observed nuclear-fusion rates at 0.7 %):
 
@@ -639,7 +639,7 @@ The point of this section is that the MRG's predictions are not mood music. Each
 
 ### 10.8.1  Test 1 — Net Energy Balance
 
-**Setup.** Thermally isolated MRG in a calorimeter. Precision DC power meter on the rectenna output. No external electrical input beyond what is required to initialise the magnet alignment (one-time). Run continuously for > 100 hours.
+**Setup.** Thermally isolated MRG in a calorimeter. Precision DC power meter on the rectenna output. No external electrical input beyond what is required to initialize the magnet alignment (one-time). Run continuously for > 100 hours.
 
 **QED prediction.** No net power. Any transient signal decays as stored energy is depleted. Thermal drift at the measurement-noise floor (≈ 10⁻⁶ W for a good commercial meter).
 
@@ -651,7 +651,7 @@ The point of this section is that the MRG's predictions are not mood music. Each
 
 ### 10.8.2  Test 2 — Magnetic-Field Dependence
 
-**Setup.** Same device. Three conditions: (i) N52 installed, (ii) identical-mass demagnetised copper blocks, (iii) N52 with polarity reversed. Measure `P_net` in each.
+**Setup.** Same device. Three conditions: (i) N52 installed, (ii) identical-mass demagnetized copper blocks, (iii) N52 with polarity reversed. Measure `P_net` in each.
 
 **QED prediction.** Casimir effect is independent of static magnetic field for non-ferromagnetic media. `P_net` unchanged between (i), (ii), (iii) to within measurement uncertainty.
 
@@ -697,7 +697,7 @@ The point of this section is that the MRG's predictions are not mood music. Each
 
 ### 10.8.5  Test 5 — Spectral Fingerprint
 
-**Setup.** Spectrum analyser (DC – 10 GHz), measuring the rectenna output before DC conversion.
+**Setup.** Spectrum analyzer (DC – 10 GHz), measuring the rectenna output before DC conversion.
 
 **QED prediction.** Flat Johnson-Nyquist noise spectrum: `S(f) = 4 k_B T R B` ≈ constant over the band. No peaks.
 
@@ -715,7 +715,7 @@ The point of this section is that the MRG's predictions are not mood music. Each
 | 2. Magnetic bias | no dependence | factor ≥ 10 | `ΔP/P > 0.9` | +$500 |
 | 3. Orientation | exactly 0 | cos²(θ) | 5 % modulation at 3σ | +$2,000 (rotation stage) |
 | 4. Dielectric scaling | K^(1/2) | K^(1/3) | exponent in [0.28, 0.38] | +$5,000 (five devices) |
-| 5. Spectral | Johnson-Nyquist flat | resonant peaks | Q ≥ 10³, peak/noise ≥ 5 | +$3,000 (spectrum analyser) |
+| 5. Spectral | Johnson-Nyquist flat | resonant peaks | Q ≥ 10³, peak/noise ≥ 5 | +$3,000 (spectrum analyzer) |
 
 Total laboratory cost to run all five tests: roughly $10,000 including depreciation of shared lab instruments. That is roughly four weeks of a graduate-student stipend. The decisive energy-physics question of the framework is resolvable inside a month of graduate-student time.
 
@@ -741,7 +741,7 @@ If Test 1 fails — no measurable η — the framework's energy claim is falsifi
 
 ### 10.9.2  Phase 2 — laboratory validation ($5,000)
 
-**Build.** Cleaner geometry: machined Cu cavity to optical tolerance, commercial BaTiO₃ thin films (ALD deposition at ~50 nm layer thickness, 20 boundaries). Rotation stage. Magnetic-field reversal fixture. Spectrum analyser to 2 GHz.
+**Build.** Cleaner geometry: machined Cu cavity to optical tolerance, commercial BaTiO₃ thin films (ALD deposition at ~50 nm layer thickness, 20 boundaries). Rotation stage. Magnetic-field reversal fixture. Spectrum analyzer to 2 GHz.
 
 **Execute.** All five tests of §10.8. Precision η measurement. Orientation scan. Magnetic sweep. Dielectric series (three devices at different K). Spectral analysis.
 
@@ -801,7 +801,7 @@ These are optimistic, contingent on Phase 1 passing. A pessimistic timeline — 
 
 ## §10.10  Thermodynamic Consistency — No Perpetual Motion
 
-The reader who has followed this chapter with the sharpest scepticism has one remaining concern: "you have predicted positive net output from a device whose only input is a rearrangement of its own geometry. Show me this is not perpetual motion."
+The reader who has followed this chapter with the sharpest skepticism has one remaining concern: "you have predicted positive net output from a device whose only input is a rearrangement of its own geometry. Show me this is not perpetual motion."
 
 This section closes that accounting.
 
@@ -856,7 +856,7 @@ $$
 
 That is, again, vanishingly small compared to 30 W output. The reconciliation must therefore lie in one of three places: (i) the Q × N enhancement is conservative by many orders of magnitude in the zone-architecture regime; (ii) the coupling is to a much larger effective mode volume (the Firmament has no natural IR cutoff at the cavity wall); or (iii) the order-of-magnitude κ₀ ≈ 10⁻¹⁰ W/m² estimate is wrong by ~10⁸–10¹⁰.
 
-The chapter takes position (ii) as the working hypothesis: cavity modes are localised, but the *tension-delivered power* accessible to the stack is integrated over the coupling depth of the Firmament along the extra dimensions (η ~ η_B ≈ 10⁻¹⁵ m cannot be the right coupling depth; the relevant coupling depth is the ξ-extent of Ψ_A, ≈ ξ_A / ln(ξ_A/ξ₀) ≈ 10²⁵ m). With this coupling depth, the replenishment flux density rises by a factor ≈ 10⁴⁰, well above the ~10³⁸ deficit, and the bookkeeping closes with orders of magnitude to spare.
+The chapter takes position (ii) as the working hypothesis: cavity modes are localized, but the *tension-delivered power* accessible to the stack is integrated over the coupling depth of the Firmament along the extra dimensions (η ~ η_B ≈ 10⁻¹⁵ m cannot be the right coupling depth; the relevant coupling depth is the ξ-extent of Ψ_A, ≈ ξ_A / ln(ξ_A/ξ₀) ≈ 10²⁵ m). With this coupling depth, the replenishment flux density rises by a factor ≈ 10⁴⁰, well above the ~10³⁸ deficit, and the bookkeeping closes with orders of magnitude to spare.
 
 **Honest status.** A closed-form derivation of κ(t) with explicit coupling depth is an open problem — explicitly listed as Ch 14 #8 (`closed-form expression for κ(t)` and the detailed-balance bookkeeping at macroscopic-device scale). For this chapter the consistency check is order-of-magnitude only, and predictions P-118 and P-103b are bounded accordingly.
 
@@ -864,7 +864,7 @@ The chapter takes position (ii) as the working hypothesis: cavity modes are loca
 
 ### 10.10.3  Why this is not a loophole
 
-Standard physics already accepts this pattern. A star consumes hydrogen and produces energy at a rate set by its mass and radius; the "reservoir" is chemical (nuclear) potential. A living cell consumes glucose and performs low-entropy organisation; the "reservoir" is metabolism. A refrigerator pumps heat against a thermal gradient; the "reservoir" is the power grid. No one calls any of these perpetual motion because the external reservoir is clearly named.
+Standard physics already accepts this pattern. A star consumes hydrogen and produces energy at a rate set by its mass and radius; the "reservoir" is chemical (nuclear) potential. A living cell consumes glucose and performs low-entropy organization; the "reservoir" is metabolism. A refrigerator pumps heat against a thermal gradient; the "reservoir" is the power grid. No one calls any of these perpetual motion because the external reservoir is clearly named.
 
 The MRG names its reservoir: the Waters pressures, ultimately the Zone-1 sustaining coupling κ(t). If one denies that reservoir — denies the open-system axiom — the framework reduces to standard QED and predicts η = 0. The axiom does the work, and the axiom is empirically tested in §10.8.
 
@@ -882,7 +882,7 @@ Positive net output is predicted by the framework, is consistent with the Second
 
 ## §10.11  Predictions, Falsification Criteria, and Chapter Summary
 
-### 10.11.1  Complete prediction catalogue (P-103 – P-118)
+### 10.11.1  Complete prediction catalog (P-103 – P-118)
 
 > **P-103: MRG Net Power Output.**
 > Predicted: Reference-design MRG produces `P_net ≥ 30 W` continuous at `η ≥ 0.42`, oriented along local gravitational vertical.
@@ -914,7 +914,7 @@ Positive net output is predicted by the framework, is consistent with the Second
 > Source: Vol 6 Ch 10, §10.5.4, §10.8.3.
 
 > **P-108: Magnetic-Bias Dependence.**
-> Predicted: `P_net` changes by factor ≥ 10 between N52 installed, demagnetised blanks, and reversed polarity.
+> Predicted: `P_net` changes by factor ≥ 10 between N52 installed, demagnetized blanks, and reversed polarity.
 > Standard physics: no dependence (Casimir independent of static B in non-ferromagnetic media).
 > Falsification threshold: change < factor 2.
 > Source: Vol 6 Ch 10, §10.5.4, §10.8.2.
@@ -973,7 +973,7 @@ Positive net output is predicted by the framework, is consistent with the Second
 
 ### 10.11.2  Forward connections
 
-- **Ch 11 (FTL Communication and Zone-Based Signal Transmission).** The Waters-field modulation concept for communication uses the same Ψ_A/Ψ_B coupling analysed here. The coupling-constant bound P-112 provides one input to the information-rate analysis that Ch 11 will carry out; the final bit-rate bound is a Ch 11 result, not a corollary of this chapter.
+- **Ch 11 (FTL Communication and Zone-Based Signal Transmission).** The Waters-field modulation concept for communication uses the same Ψ_A/Ψ_B coupling analyzed here. The coupling-constant bound P-112 provides one input to the information-rate analysis that Ch 11 will carry out; the final bit-rate bound is a Ch 11 result, not a corollary of this chapter.
 - **Ch 12 (Advanced Sensors and Detection Systems).** Membrane-tension detectors are *inverse* MRGs — tuned to *detect* vibrations rather than excite them. The orientation-dependence signature (P-107) underpins the proposed zone-boundary direction sensors. The micro-condensation binding-energy (P-114) underpins life-detection sensitivity analysis.
 - **Ch 13 (Consciousness and the Zone Interface).** The sustaining coupling κ(t) appears again as the physical correlate of the Zone-1 interface. Energetics there are minimal (P-099 from Ch 9); the interesting quantity is information, not energy.
 - **Ch 14 (Open Problems).** Explicit problem statements flow from this chapter: closed-form expression for κ(t), derivation of α_B coupling constant (problem #20), membrane-stability critical amplitude (problem #21), and the detailed-balance accounting at P-118.

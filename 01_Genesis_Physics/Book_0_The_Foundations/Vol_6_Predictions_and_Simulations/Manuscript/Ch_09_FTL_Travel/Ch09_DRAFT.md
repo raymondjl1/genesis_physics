@@ -160,6 +160,8 @@ For a 1 kg object traveling 4.24 light-years (Alpha Centauri distance) with diff
 
 The empirical lesson: temporal shortcuts gain speed by paying the energy cost of kinetic energy in high-dimensional motion. At modest Lorentz factors ($\gamma_{\text{eff}} < 100$), the energy is engineering-hard but not thermodynamically impossible. Beyond that, the returns diminish.
 
+A note on comparing budgets across mechanisms. The $\sim 9 \times 10^{17}$ J quoted here (Case B) is the *kinetic*-energy cost of a **temporal shortcut** (Mechanism 1), in which the traveler remains coupled to the Firmament and pays only to accelerate into and out of the $\xi$-direction. It should not be compared directly with the $\sim 10^{25}$ J figure derived for **dimensional bypass** (Mechanism 2) in §9.3.3, Eq (6.9.24): that larger budget is the *brane-binding lift cost* — the energy required to decouple the object from the Firmament entirely and route it through the Waters Below. The roughly four-order-of-magnitude difference reflects the fact that these are two distinct mechanisms with different physical cost structures, not a single mission profile priced two different ways. Which budget applies depends on which mechanism a given mission uses; the temporal-shortcut budget of this section applies only when the object stays bound to the Firmament throughout.
+
 ### 9.2.4 Causality Proof
 
 A concern immediately surfaces: does a temporal shortcut create a closed timelike curve (CTC) that allows an observer to travel into their own past on the 4D Firmament?
@@ -180,6 +182,8 @@ for the forward-in-time branch. The sign is determined by the choice of affine p
 
 This proof relies on the fact that the metric signature is fixed globally. It does not depend on the specific form of the warp factor. Thus, no temporal shortcut mechanism can create a grandfather paradox.
 
+It is worth being candid about what the proof does and does not establish. Two of its premises — that the affine-parameter orientation is fixed at entry, and that the signature is globally $(-,+,+,+,+,+)$ — are themselves features of the metric ansatz, an ansatz chosen in part to guarantee a well-behaved causal structure. The result is therefore better described as *consistency* than as an unconditional theorem: causality is preserved *given* a globally fixed signature and a single, continuously oriented time coordinate. Whether those conditions hold for every physically realizable warp configuration — in particular, whether the framework permits signature change or orientation reversal in some regime — is not settled here. The conclusion should be read with that conditional in view rather than as a proof that closed timelike curves are impossible under all circumstances.
+
 ### 9.2.5 Observable Signatures
 
 If a ship were to employ a temporal shortcut, what would observers on Earth detect?
@@ -198,14 +202,16 @@ The feasibility of a temporal shortcut depends on whether we can (a) engineer th
 
 | **Timescale** | **Challenge** | **Status** |
 |---|---|---|
-| **Present day (2025–2050)** | Proof of concept for $\gamma_{\text{eff}} \approx 1.1$ (tiny warp). | FORBIDDEN by energy budget. Single-ton object would require $10^{15}$ J baseline infrastructure. |
-| **Near-term (2050–2200)** | Achieve $\gamma_{\text{eff}} \approx 10$ (human-scale ship, 4-year trip to Alpha C reduced to 5 months). | PERMITS per physics. DEMANDS: 1 PW power plant, advanced metamaterials for warp-factor engineering, exotic quantum control. |
+| **Present day (2025–2050)** | Proof of concept for $\gamma_{\text{eff}} \approx 1.1$ (tiny warp). | PERMITTED by physics; INFEASIBLE by engineering. The energy budget is the binding constraint, not a physical prohibition: a single-ton object would require $10^{15}$ J baseline infrastructure, beyond present capability. |
+| **Near-term (2050–2200)** | Achieve $\gamma_{\text{eff}} \approx 10$ (human-scale ship, 4-year trip to Alpha C reduced to 5 months). | PERMITTED by physics; INFEASIBLE by current engineering. DEMANDS: 1 PW power plant, advanced metamaterials for warp-factor engineering, exotic quantum control. |
 | **Medium-term (2200–3000)** | Achieve $\gamma_{\text{eff}} \approx 100$ (0.5-month trips, routine interstellar commerce). | PERMITS per physics. DEMANDS: Stellar-scale power source. Civilization-level commitment. |
 | **Far-term (3000+)** | Achieve $\gamma_{\text{eff}} > 1000$ (galactic-scale rapid transit). | PERMITS per physics. DEMANDS: Engineering beyond current theoretical grasp. Thermodynamic limits begin to bite. |
 
 ### 9.2.7 Predictions for Temporal Shortcuts
 
 We now state falsifiable predictions arising from the temporal shortcut mechanism.
+
+**Engineering-conditional predictions.** The two predictions below are *novel in principle but engineering-conditional in practice*: both presuppose that some agent is actively accelerating a macroscopic mass (here ~$10^6$ kg) into a temporal-shortcut configuration. Their falsification tests are well-defined, but they can only be exercised in a universe where such an attempt is being made — by us or by another technological civilization. If no one ever attempts temporal-shortcut acceleration at the stated scale, the predictions are never tested rather than refuted. They should be read as *conditional* tests of the mechanism (valid once the engineering exists), not as near-term observational claims about the natural sky. We have not yet derived a purely natural-source version (e.g., from mergers or supernovae); whether the temporal-shortcut signature has a naturally occurring analogue is left as an open question.
 
 > **P-089: Temporal Shortcut Gravitational Wave Signature**
 > 
