@@ -593,8 +593,8 @@ These are not analogy results. They are exact identities: the Waters field equat
 | NFW profile derivation as field equilibrium | Vol 1, §6.3 (already done) |
 | Viscosity from kinetic theory | Vol 3, Ch 11, §11.4 |
 | Entropy production and Second Law | Vol 3, Ch 9; Vol 3, Ch 12 |
-| Zone corrections (warp factor $A$) in cosmology | Vol 5, Ch 3 |
-| Cosmic strings as vortex lines in Waters Below | Vol 5, Ch 7 |
+| Zone corrections (warp factor $A$) in cosmology | Vol 5, Ch 8 |
+| Cosmic strings as vortex lines in Waters Below | Vol 5, Ch 10 |
 | Structure formation from Waters sound speed (Jeans scale) | Vol 5, §5.3 |
 | Capillary waves on Firmament as gravity wave analog | Vol 2, Ch 3, §3.7 |
 
