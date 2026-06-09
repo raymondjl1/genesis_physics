@@ -106,20 +106,6 @@ The bending of a surface when something sits on it. The firmament around the ear
 
 ---
 
-**Dark Energy**
-*(physics term)* — The invisible field exerting a repulsive pressure that accelerates the expansion of space. Discovered observationally in 1998. Roughly 68% of the cosmic energy budget. Corresponds to the Waters Above.
-
-*(First introduced: Chapter 6)*
-
----
-
-**Dark Matter**
-*(physics term)* — The invisible mass that holds galaxies and galaxy clusters together by its gravitational pull. Inferred from the 1930s, confirmed through the 1970s, photographed indirectly in the 2006 Bullet Cluster observation. Roughly 27% of the cosmic energy budget. Corresponds to the Waters Below.
-
-*(First introduced: Chapter 6)*
-
----
-
 **Dark energy**
 *(physics term)* — Invisible field exerting a repulsive pressure that accelerates the expansion of space; observationally confirmed in 1998; approximately 68% of the cosmic energy budget. Corresponds to the Waters Above.
 
