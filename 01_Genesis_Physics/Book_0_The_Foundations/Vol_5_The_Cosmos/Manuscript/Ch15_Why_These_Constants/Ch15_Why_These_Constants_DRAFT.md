@@ -658,6 +658,10 @@ But the mathematics points somewhere.
 
 ---
 
+*In the next volume, we collect every derived constant, every prediction, and every falsification criterion into a single catalog — the "prove me wrong" document that any physicist can test against observation. Volume 6 begins with that catalog. The architecture has spoken. Now the experiment must answer.*
+
+---
+
 ## Problems
 
 **Problem 15.1.** *Dimensional verification.* Confirm that the formula ℏ = (σ η_B³)/(2c) × (η_B/ξ_A)² has the correct dimensions of action [M L² T⁻¹]. Show each step of the dimensional analysis explicitly.
@@ -673,7 +677,3 @@ But the mathematics points somewhere.
 **Problem 15.6.** *Natural units and k_B.* Rewrite the ideal gas law PV = Nk_BT, the Stefan-Boltzmann law j = σ_SB T⁴, and the Planck distribution function in natural units where ℏ = c = k_B = 1. Verify that no physical content is lost when k_B is set to unity. Identify one thermodynamic quantity that *does* change its numerical value and explain why.
 
 **Problem 15.7** *(Challenge).* The 6D Planck mass M₆ ≈ 3.9 TeV/c² is within reach of collider experiments. The LHC operates at √s = 13.6 TeV. If M₆ is correct, what signature would extra-dimensional gravity leave in LHC data? (Hint: consider graviton production with missing energy.) Estimate the cross-section scaling and compare to current experimental bounds from ATLAS and CMS searches for large extra dimensions.
-
----
-
-*In the next volume, we collect every derived constant, every prediction, and every falsification criterion into a single catalog — the "prove me wrong" document that any physicist can test against observation. Volume 6 begins with that catalog. The architecture has spoken. Now the experiment must answer.*

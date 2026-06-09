@@ -226,7 +226,7 @@ $$
 
 The uncertainty is larger than Ω_A because the exponential warp factor e^{2B(η)} is more sensitive to the damping coefficient γ.
 
-**Comparison:** Planck 2018 gives Ω_DM = 0.2589 ± 0.0057. The zone prediction differs by **2.7%**. This is within the combined 1σ uncertainties, but the tension is real and cannot be ignored. We flag this as the weakest point in the density-parameter derivation.
+**Comparison:** Planck 2018 gives Ω_DM = 0.2589 ± 0.0057. The zone prediction differs by **2.7%**. This is within the combined 1σ uncertainties, but the tension is real and cannot be ignored. We flag this as the weakest point in the density-parameter derivation. Note also that the framework's fractional uncertainty here (±0.012/0.266 ≈ ±4.5%) is roughly twice Planck's (±0.0057/0.2589 ≈ ±2.2%): the prediction's error band is wide enough that, on this one entry, the framework does not yet have the precision to discriminate for or against ΛCDM. "Agreement within combined uncertainties" therefore reflects the breadth of the framework's own band as much as a sharp confirmation.
 
 **Why 2.7% disagreement?** Three possible sources, with explicit sensitivity analysis:
 

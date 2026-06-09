@@ -99,6 +99,8 @@ And the verification (Section 6): sustaining-mode predictions match ΛCDM and ob
 
 The canonical first-mention is the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing'), which derives from the verb *rāqaʿ* (רָקַע), meaning "to beat out, to stretch, to spread." The Firmament is literally "the stretched-out thing"—expansion is *definitional* to its nature, not incidental.
 
+> **A note on the reach of *rāqaʿ*.** This single Hebrew root is invoked at several points across the framework — for the membrane elasticity of the Firmament (Vol 1 Ch 5), for the introduction of the Firmament in Vol 5 Ch 5 §5.0, and here for cosmic stretching. It is worth stating plainly which kind of work the word is doing in each place, so that the breadth of its use is not mistaken for breadth of proof. In every case the role is either **motivational** (the root supplies the *name* "membrane / stretched-out thing," and so suggests the physical picture) or **interpretive** (the root is read alongside an independently motivated physical claim and shown to be consistent with it). In *no* case is the Hebrew root **derivational**: no physical quantity, equation, or numerical result in this framework is obtained *from* the meaning of *rāqaʿ*. The physics stands on the zone field equations; the etymology motivates and illuminates, but it never carries the derivation.
+
 The Old Testament contains seventeen explicit passages describing God "stretching out" the heavens, using cognate verbs from *raqa'* and *natah* (נָטָה, "to stretch"):
 
 **Using *natah* (to stretch out):**
