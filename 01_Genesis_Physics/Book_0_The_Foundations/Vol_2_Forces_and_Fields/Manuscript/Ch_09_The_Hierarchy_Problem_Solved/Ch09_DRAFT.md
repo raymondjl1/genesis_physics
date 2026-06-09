@@ -20,6 +20,8 @@ This is not a rough estimate. It is one of the most precisely known ratios in ph
 
 This ratio is the **hierarchy problem**: why is gravity so extraordinarily weak compared to the other forces? The Standard Model cannot answer this question — it treats the gravitational coupling and the electromagnetic coupling as independent input parameters with no relation between them. Supersymmetry, extra dimensions, and anthropic arguments have each been proposed as explanations, but none has been experimentally confirmed, and none derives the ratio from first principles.
 
+> **Terminology note.** The *hierarchy problem* (and the *hierarchy* of force strengths throughout this chapter) is the standard physics term for the disparity between gravity and the other forces. It is not to be confused with any governing principle of the zone framework; the Five Principles are Sustaining, Conservation, Symmetry, Degradation, and Duality.
+
 > **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
 
 In Chapter 1, we promised that the zone architecture would resolve this problem. In the eight chapters since, we have assembled every piece needed for that resolution:

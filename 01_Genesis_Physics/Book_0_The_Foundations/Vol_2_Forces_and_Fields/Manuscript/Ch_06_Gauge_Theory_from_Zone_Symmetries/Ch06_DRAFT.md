@@ -114,7 +114,7 @@ Chapter 4 (equations 2.4.19–2.4.25) showed that the weak force arises because 
 
 ### 6.3.2 ℤ₂ Orbifold at the Firmament
 
-The Firmament at $(\xi_0, \eta_0)$ is a codimension-2 Firmament — a 4D surface embedded in the 6D bulk (Chapter 3, equation 1.3.20). At this surface, the metric satisfies Israel junction conditions (equations 1.4.42–1.4.43):
+The Firmament at $(\xi_0, \eta_0)$ is a codimension-2 Firmament — a 4D surface embedded in the 6D bulk (i.e., the 3-brane of Vol 1 Ch 5; Chapter 3, equation 1.3.20). At this surface, the metric satisfies Israel junction conditions (equations 1.4.42–1.4.43):
 
 $$\left[\frac{dA_\xi}{d\xi}\right]_{\xi_0} = \frac{\kappa_6^2 \sigma}{2 e^{2A_0}} \tag{2.6.10}$$
 

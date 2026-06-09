@@ -595,7 +595,7 @@ where $I_\xi$, $I_{\xi,W}$, and $I_{\eta,G}$ are the warp-factor overlap integra
 
 **Numerical estimates.** Using the warp-factor profiles from Volume 1 — $A(\xi) \sim (\lambda/2)\ln(\xi/\xi_\text{ref})$ with $\lambda = 41$ and $B(\eta) \sim -(\gamma/2)\eta$ with $\gamma \sim 10^{15}$ m$^{-1}$ — and the zero-mode profiles assumed in Problem 5.4 (constant for U(1), exponentially localized for SU(2), Gaussian-localized for SU(3)), the overlap integrals give the following order-of-magnitude results:
 
-$$\alpha_\text{EM}^{-1} = \frac{4\pi}{g_1^2\cos^2\theta_W} \sim \frac{4\pi}{\kappa_6^2} \cdot \frac{\xi_A^{\lambda+1}}{(\lambda+1)\xi_\text{ref}^\lambda} \approx 137 \quad [\text{Chapter 3, Eq. 2.3.82}]$$
+$$\alpha_\text{EM}^{-1} = \frac{4\pi}{g_1^2\cos^2\theta_W} \sim \frac{4\pi}{\kappa_6^2} \cdot \frac{\xi_A^{\lambda+1}}{(\lambda+1)\xi_\text{ref}^\lambda} \approx 137 \quad [\text{Chapter 3, Eq. 2.3.81}]$$
 
 $$g_2 \sim \sqrt{\frac{2\kappa_6^2}{\lambda_W}} \approx 0.65 \quad [\text{from } \lambda_W \sim 10^{-18} \text{ m localization}]$$
 

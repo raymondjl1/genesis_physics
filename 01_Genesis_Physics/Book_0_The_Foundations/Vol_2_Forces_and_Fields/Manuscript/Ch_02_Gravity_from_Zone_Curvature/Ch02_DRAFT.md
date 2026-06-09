@@ -118,7 +118,7 @@ R_6 = e^{-2A} R_4 + R_\text{extra}(A,B) + R_\text{mix}(A,B)
 \tag{2.2.7}
 $$
 
-where $R_4$ is the 4D Ricci scalar (the curvature that 4D observers see as gravity), $R_\text{extra}$ encodes the curvature of the extra dimensions themselves, and $R_\text{mix}$ contains cross terms involving derivatives of the warp factors.
+where $R_4$ is the 4D Ricci scalar (the curvature that 4D observers see as gravity), $R_\text{extra}$ encodes the curvature of the extra dimensions themselves, and $R_\text{mix}$ contains cross terms involving derivatives of the warp factors. This decomposition is standard for warped-product metrics; the $e^{-2A}$ prefactor on $R_4$ comes from raising the 4D Ricci scalar with the warped inverse metric (Vol 1, Ch 4, §4.8).
 
 Substituting into the action (2.2.1):
 
