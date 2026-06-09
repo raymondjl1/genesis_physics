@@ -352,7 +352,7 @@ This is the Born rule. Not postulated. Derived from energy transfer under Waters
 
 Genesis Physics is not the only framework to derive the Born rule; Zurek's envariance argument and Gleason's theorem (under suitable assumptions about probability measures on lattices of projections) both get there as well. What Genesis Physics adds is that the "environment" in these derivations is not a mathematical abstraction but a specific physical field whose properties are calculable. Envariance says: *if* the environment has the right symmetry properties, then the Born rule follows. Genesis Physics says: the environment is the Waters field, it has these symmetry properties because the zone Lagrangian requires them, and the Born rule follows.
 
-This is the difference between assuming and deriving.
+This is the difference between assuming and deriving. In fairness, we note that decoherence-based derivations of the Born rule remain contested in the foundations literature: Wallace (2012) and others have argued that such derivations risk smuggling in a probability measure at the point where the "long-run frequency" is identified with $|c_i|^2$. The Genesis Physics derivation does not by itself settle that debate; its distinctive contribution is narrower — it removes the freedom to *choose* the environment's symmetry properties, fixing them from the zone Lagrangian rather than positing them. The reader who finds the envariance-style step unpersuasive in general will find it no more, and no less, persuasive here.
 
 ---
 

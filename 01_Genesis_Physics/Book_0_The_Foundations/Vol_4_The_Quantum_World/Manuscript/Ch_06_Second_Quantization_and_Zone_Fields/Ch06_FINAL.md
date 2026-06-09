@@ -230,7 +230,7 @@ This is the familiar ultraviolet catastrophe of quantum field theory: every mode
 
 Two honest things must be said.
 
-The first: **this chapter does not solve the vacuum energy problem.** The problem is solved in Vol 2 Ch 9 (the hierarchy problem, where the warp-factor suppression that generated ℏ in Vol 4 Ch 1 also suppresses the naive vacuum energy by the right number of orders of magnitude) and partially in Ch 8 of this volume (renormalization, where the divergence is reabsorbed into running couplings). The result derived here — (4.6.25) — is the raw, unrenormalized vacuum energy. It is not the observed cosmological constant.
+The first: **this chapter does not solve the vacuum energy problem.** The problem is *addressed* — not yet fully closed — in Vol 2 Ch 9 (the hierarchy problem, where the same warp-factor suppression that generated ℏ in Vol 4 Ch 1 also suppresses the naive vacuum energy by many orders of magnitude) and partially in Ch 8 of this volume (renormalization, where the divergence is reabsorbed into running couplings). A residual discrepancy survives even after suppression; the honest status of that residual, and of the Waters-field suppression mechanism that has not yet been derived from first principles, is set out in §9.6–§9.7 of this volume and is deferred to Vol 5. The result derived here — (4.6.25) — is the raw, unrenormalized vacuum energy. It is not the observed cosmological constant.
 
 The second: **the vacuum energy is real, not a formal artifact.** The proof is the Casimir effect, in which changing the boundary conditions on the Firmament changes the allowed modes and therefore changes the vacuum energy, and the difference shows up as an attractive force between two plates. We derive the Casimir effect in Chapter 9 of this volume, and the computation there is essentially a subtraction game between (4.6.26) for two different mode spectra. The ℏω_k/2 zero-point energy is a physical quantity that can be measured in a tabletop experiment.
 
@@ -248,7 +248,7 @@ We now have all the machinery we need. The Firmament has been promoted to a quan
 
 ## 6.6 Statistics — Bose-Einstein for Free, Fermi-Dirac as a Blocker
 
-In Vol 3 Ch 10 we developed the canonical ensemble for a general quantum system: partition function Z = Tr[e^{−βĤ}], free energy F = −k_B T ln Z, and mean occupation numbers extracted by differentiation with respect to chemical potential or directly by summing ⟨N̂_k⟩ against the Boltzmann factor. We now have an honest quantum system — the Fock space of the Firmament — and we can put it through the Vol 3 Ch 10 procedure and see what distribution of occupation numbers it predicts.
+In Vol 3 Ch 10 we developed the canonical ensemble for a general quantum system: partition function Z = Tr[e^{−βĤ}] (Vol 3 Ch 10, Eq. (3.10.4); for independent modes the factorized form is Eq. (3.10.14)), free energy F = −k_B T ln Z, and mean occupation numbers extracted by differentiation with respect to chemical potential or directly by summing ⟨N̂_k⟩ against the Boltzmann factor. We now have an honest quantum system — the Fock space of the Firmament — and we can put it through the Vol 3 Ch 10 procedure and see what distribution of occupation numbers it predicts.
 
 Because the free-field Hamiltonian (4.6.24) decouples into independent modes, the total partition function factorizes:
 

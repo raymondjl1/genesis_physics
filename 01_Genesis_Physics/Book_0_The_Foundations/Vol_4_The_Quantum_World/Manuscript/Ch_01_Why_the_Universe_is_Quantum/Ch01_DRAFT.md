@@ -38,15 +38,7 @@ The answer, as you will see, is simple enough to fit in a single sentence. The z
 
 [FIGURE: Fig 4.1.1 — The Volume 4 Logical Roadmap: From Architecture to Standard Model. Three-layer flowchart. Top layer (blue, "Inherited from Vols 1–3"): Zone Manifold (1.Ch.3), 6D Embedding (1.Ch.4), Firmament σ, μ, c (1.Ch.5), Waters Fields (1.Ch.6), Pattern Operators (1.Ch.9), Boundary-Condition Quantization (1.Ch.10), Zone Lagrangian (2.Ch.5), U(1)×SU(2)×SU(3) (2.Ch.6), Origin of Mass (3.Ch.6–7), Zone Stat Mech (3.Ch.10). Middle layer (orange, "Vol 4 Parts I–II"): Ch 2 Schrödinger — Ch 3 Uncertainty — Ch 4 Entanglement — Ch 5 Measurement/Born Rule — Ch 6 Second Quantization — Ch 7 Feynman Diagrams — Ch 8 Renormalization — Ch 9 Casimir. Bottom layer (red, "Vol 4 Part III — Standard Model"): Ch 10 Leptons/Quarks — Ch 11 Electroweak — Ch 12 QCD — Ch 13 CKM/PMNS — Ch 14 Beyond SM. Arrows show logical dependencies. Two dashed red boxes mark open problems: "Spin-½ from bosonic membrane (#1, BLOCKER)" attached to Ch 10; "1000× mass errors (#2)" attached to Ch 10. Chapter numbers in boxes.]
 
-**Roadmap for Chapter 1.**
-
-- §1.1 takes honest stock of why classical physics failed in 1900 — and reframes the failure architecturally.
-- §1.2 takes inventory of what Volumes 1–3 already delivered, so the reader knows what Vol 4 inherits.
-- §1.3 isolates the *two* architectural facts that force the universe to be quantum.
-- §1.4 explains why Planck's constant has its observed numerical value — a question most textbooks never ask.
-- §1.5 previews the rest of the volume, with open problems marked honestly.
-- §1.6 states the standards of voice, rigor, and honesty this volume will hold itself to.
-- §1.7 contains the problem sets — computational, conceptual, and challenge.
+**Roadmap for Chapter 1.** §1.1 why classical physics failed in 1900 (reframed architecturally); §1.2 what Volumes 1–3 already delivered; §1.3 the *two* architectural facts that force the universe to be quantum; §1.4 why Planck's constant has its observed numerical value; §1.5 a preview of the rest of the volume with open problems marked; §1.6 the standards of voice, rigor, and honesty; §1.7 the problem sets.
 
 ---
 

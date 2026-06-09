@@ -45,7 +45,7 @@ One final orientation note, addressed specifically to the graduate student who m
 ### Rigor labels used in this chapter
 
 - **RIGOROUS** — derived from the Vol 1 axioms and the Vol 2 geometry, no fit parameters.
-- **APPROXIMATE** — correct form derived, overall $\mathcal{O}(1)$ coefficient matched to experiment (only one in this chapter: the normalization of $g_s$ at $M_Z$).
+- **APPROXIMATE** — correct form derived, overall $\mathcal{O}(1)$ coefficient matched to experiment (two such matches in this chapter: the dimensionless normalization of $g_s$ at $M_Z$, and the $\mathcal{O}(1)$ tube-geometry factor behind the string tension $\sigma_{\rm QCD}$; see §12.8).
 - **PHENOMENOLOGICAL** — a prediction that *inherits* external numbers (quark masses) from Ch 10, with Ch 10's error bars attached.
 - **OPEN** — stated as an unresolved problem, tracked against a GitHub issue.
 
@@ -380,8 +380,8 @@ Let me make the accounting visible one more time in the three-column form the Sk
 
 **Column 2 — APPROXIMATE (overall normalization matched to experiment).**
 
-- The strong coupling at $M_Z$: $\alpha_s(M_Z) = 0.1179$ is *matched* to PDG, absorbing the overall $e^{2A_0 + 2B_0}$ factor in (4.12.12). This is the one and only $\mathcal{O}(1)$ fit in the chapter.
-- The string tension $\sigma_{\rm QCD} = (420\text{ MeV})^2$ is a dimensional estimate from the nuclear scale $\eta_B$, good to 20%; the missing part is the "tube-geometry factor" in (4.12.24) which is not yet computed in closed form.
+- The strong coupling at $M_Z$: $\alpha_s(M_Z) = 0.1179$ is *matched* to PDG, absorbing the overall $e^{2A_0 + 2B_0}$ factor in (4.12.12). This is the one and only $\mathcal{O}(1)$ fit of a *dimensionless coupling* in the chapter.
+- The string tension $\sigma_{\rm QCD} = (420\text{ MeV})^2$ is a dimensional estimate from the nuclear scale $\eta_B$, good to 20%; the missing part is the "tube-geometry factor" in (4.12.24), an $\mathcal{O}(1)$ number that is not yet computed in closed form. To be precise, then, the chapter contains a *second* matched $\mathcal{O}(1)$ quantity — this tube-geometry factor — which is effectively fixed by the measured string tension rather than derived. The earlier statements that there is "only one $\mathcal{O}(1)$ match" should be read as referring to the dimensionless gauge coupling; the $\sigma_{\rm QCD}$ normalization is the second, and it is flagged APPROXIMATE here rather than RIGOROUS for exactly that reason.
 
 **Column 3 — PHENOMENOLOGICAL (inherits Ch 10).**
 

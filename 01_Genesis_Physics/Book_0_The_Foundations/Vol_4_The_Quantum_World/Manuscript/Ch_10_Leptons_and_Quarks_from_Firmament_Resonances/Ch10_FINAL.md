@@ -344,7 +344,7 @@ $$
 \frac{m_\mu^{\mathrm{meas}} - m_\mu^{\mathrm{pred}}}{m_\mu^{\mathrm{meas}}} \approx 15\text{–}19\%,
 \tag{4.10.26}
 $$
-depending on the precise value of $\alpha$ used. This is APPROXIMATE, and the residual is *not good enough*. A 19% error on the muon mass is much worse than the permille precision with which the muon mass is known.
+depending on the precise value of $\alpha$ used. This is APPROXIMATE, and the residual is *not good enough*. A 15–19% error on the muon mass is much worse than the permille precision with which the muon mass is known.
 
 **Predicted electron mass.** Using (4.10.23) with $n_\xi = 3$:
 $$
@@ -356,7 +356,7 @@ $$
 \frac{m_e^{\mathrm{meas}} - m_e^{\mathrm{pred}}}{m_e^{\mathrm{meas}}} \approx -17\%,
 \tag{4.10.28}
 $$
-in the opposite direction. So the single-parameter exponential gets $m_\mu$ too light by 19% and $m_e$ too heavy by 17% when calibrated to the tau. You cannot fix both simultaneously by tuning $\alpha$: the ratio $m_e/m_\mu$ is determined by $\alpha$ alone, and no single $\alpha$ reproduces the measured ratio.
+in the opposite direction. So the single-parameter exponential gets $m_\mu$ too light by 15–19% and $m_e$ too heavy by 17% when calibrated to the tau. You cannot fix both simultaneously by tuning $\alpha$: the ratio $m_e/m_\mu$ is determined by $\alpha$ alone, and no single $\alpha$ reproduces the measured ratio.
 
 **What this means.** The exponential-in-$n^2$ form (4.10.19) is the *wrong functional form* at the percent level. Either:
 (i) the potential shape corrections to $V_\xi$ change the wavefunction overlap in a generation-dependent way,
@@ -623,9 +623,7 @@ We **approximately** reproduced the lepton spectrum at the 15–19% level using 
 
 We **compiled a full honest ledger** in §10.9: every particle, every residual, every cherry-picking diagnostic, and every failure routed to a specific open issue with a specific future chapter.
 
-The chapter is the framework's most vulnerable, and I have tried to make it the framework's most honest. The two cracks (§10.5 and §10.9) are real, they are known, they are tracked, and they are the subjects of active research. If you close this chapter thinking "the framework has interesting structural successes but has not yet proved it can compete numerically on the fermion sector," you have read it correctly. That is the current state. The work continues in Chapters 11, 12, and 13.
-
-> *"For we know in part and we prophesy in part, but when completeness comes, what is in part disappears."* — 1 Corinthians 13:9–10
+The chapter is the framework's most vulnerable, and I have tried to make it the framework's most honest. The two cracks (§10.5 and §10.9) are real, they are known, they are tracked, and they are the subjects of active research. If you close this chapter thinking "the framework has interesting structural successes but has not yet proved it can compete numerically on the fermion sector," you have read it correctly. That is the current state — to borrow Paul's phrase, we still know in part and prophesy in part (1 Cor 13:9–10). The work continues in Chapters 11, 12, and 13.
 
 ---
 
