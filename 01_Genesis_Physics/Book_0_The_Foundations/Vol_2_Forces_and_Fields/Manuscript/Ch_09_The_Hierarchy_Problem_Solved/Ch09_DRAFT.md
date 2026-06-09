@@ -211,7 +211,9 @@ $$G_6 = G_4 \cdot V_\text{extra} = 6.674 \times 10^{-11} \times 1.7 \times 10^{1
 >
 > (b) **Consistency check:** Take the measured value $G_4 = 6.674 \times 10^{-11}$ m³ kg⁻¹ s⁻², compute $V_\text{extra}$ from the warp factor profiles, and *back-calculate* $G_6 = G_4 \times V_\text{extra}$.
 >
-> The current chapter uses direction (b): $G_6$ is not independently derived, it is algebraically computed from the measured $G_N$. This establishes *consistency* between the zone framework and Newton's constant, not a *derivation* of it. A genuine derivation requires an independent calculation of $G_6$ from the 6D action without using the measured $G_N$ as input. This is Research Task RT-2.G6. Until RT-2.G6 is completed, the hierarchy ratio in this chapter is the ratio of two consistently defined dimensionless couplings — but the absolute values $G_4$ and $G_6$ are not independently predicted by the zone architecture at this level. Note also that the $G_N$ formula in Ch 2 Route 2 has a separate dimensional inconsistency (Ch 2 §2.4.2, Research Task RT-2.G) that must be resolved before any of these numerical relations can be regarded as predictions.
+> The current chapter uses direction (b): $G_6$ is not independently derived, it is algebraically computed from the measured $G_N$. This establishes *consistency* between the zone framework and Newton's constant, not a *derivation* of it. A genuine derivation requires an independent calculation of $G_6$ from the 6D action without using the measured $G_N$ as input. This is Research Task RT-2.G6. Until RT-2.G6 is completed, the hierarchy ratio in this chapter is the ratio of two consistently defined dimensionless couplings — but the absolute values $G_4$ and $G_6$ are not independently predicted by the zone architecture at this level. Note also that the $G_N$ formula in Ch 2 Route 2 is dimensionally correct (Ch 2 §2.4.2, RT-2.G resolved), but its $L_\text{eff}$ is likewise calibrated to $G_N$ rather than derived from first principles, so the same consistency-vs-prediction caveat applies there.
+>
+> **Bookkeeping note.** The enormous magnitudes that appear below — $V_\xi \approx 10^{1112}$, $V_\text{extra} \approx 10^{1095}$ m², and $G_6 \approx 10^{1085}$ m⁵ kg⁻¹ s⁻² — are *normalization-dependent bookkeeping artifacts*, not physical scales. They follow from the choice $e^{2A_0} = e^{2B_0} = 1$ in Assumption flag [A1]; a different warp normalization rescales $V_\text{extra}$ and $G_6$ in compensating ways, leaving the physical, dimensionless ratio $G_6/V_\text{extra} = G_4$ invariant. Only that ratio is meaningful; the individual absolute values should not be read as physical predictions.
 
 **Assumption flag [A2]:** We use $G_4 = 6.674 \times 10^{-11}$ as the experimentally measured value. Chapter 2 derived this value from the 6D action and showed self-consistency. Here we use it as an established result — but see the derivation status note above.
 
@@ -518,7 +520,7 @@ All three gauge couplings are derived from the same 6D geometry and should conve
 
 ### Criterion 5: No Fifth Force
 
-The zone manifold has exactly two extra dimensions, producing exactly four forces via the four geometric sectors identified in Chapter 1 (Theorem 2.1.1). A fifth fundamental force is incompatible with the 6D zone architecture.
+The zone manifold has exactly two extra dimensions, producing exactly four forces via the four geometric sectors identified in Chapter 1 (Heuristic Argument 2.1.1). A fifth fundamental force is incompatible with the 6D zone architecture.
 
 **Prediction:** No fifth fundamental force exists at any energy scale.
 

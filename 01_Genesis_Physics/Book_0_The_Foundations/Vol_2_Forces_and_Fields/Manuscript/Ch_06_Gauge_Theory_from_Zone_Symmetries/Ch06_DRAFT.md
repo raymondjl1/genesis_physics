@@ -160,7 +160,7 @@ The group SU(2) is the unique simply-connected Lie group that covers SO(3) with 
 
 $$\mathbb{Z}_2 \text{ orbifold on } \mathbb{R}^2 \;\xrightarrow{\text{tangent space at fixed point}}\; S^2 \;\xrightarrow{\text{isometry group}}\; \text{SO}(3) \;\xrightarrow{\text{spinor cover}}\; \text{SU}(2)$$
 
-Each arrow is a theorem, not a choice. The ℤ₂ orbifold determines the local geometry. The local geometry determines the symmetry group. The presence of spinors determines the cover. Therefore:
+The second and third arrows are standard results: the isometry group of $S^2$ is $SO(3)$, and its spinor cover is $SU(2)$. The first arrow — the identification of the spinor tangent structure at the orbifold fixed point with the Bloch $S^2$ — is the load-bearing step, and as presented here it is a motivational construction rather than a fully rigorous derivation. A complete treatment (deriving the $S^2$ fiber from the 6D spinor bundle over the orbifold, rather than identifying it by analogy) is deferred to Vol 4; in this volume we adopt the identification as a working hypothesis that the downstream electroweak structure then corroborates. With that caveat:
 
 $$\boxed{\text{Isom}(S^2) = \text{SO}(3), \quad \text{spinor cover: } \text{SU}(2)} \tag{2.6.12}$$
 

@@ -253,11 +253,13 @@ $$\text{Zone boundary modes} \xrightarrow{\text{compactification}} \text{SU(3) g
 
 The question "why exactly four?" has a complement: "why not more?" If extra-dimensional geometry produces forces, could there be additional geometric sectors that we have missed?
 
-The answer is no, and the reason is *topological exhaustion*. Let us prove this carefully, because it is one of the most important results of the geometric framework.
+The answer is no, and the reason is *topological exhaustion*. Let us argue this carefully, because it is one of the most important results of the geometric framework.
 
-**Theorem 2.1.1 (Four-Force Theorem).** *The zone manifold $\mathcal{M}_Z$ with two extra dimensions and the zone stratification (1.3.2) admits exactly four independent geometric sectors under Kaluza-Klein reduction. No fifth sector exists.*
+**Heuristic Argument 2.1.1 (Four-Force Counting).** *The zone manifold $\mathcal{M}_Z$ with two extra dimensions and the zone stratification (1.3.2) admits exactly four independent geometric sectors under Kaluza-Klein reduction. No fifth sector exists.*
 
-*Proof sketch.* The extra-dimensional space $\Sigma = \{(\xi, \eta)\}$ is a 2D surface with the topology determined by the zone axioms (Vol 1, Ch 1, Axiom 1 — God as Active Sustaining Ground — together with the 6D spacetime construction of §1.2 that follows from it). The independent geometric degrees of freedom of a 2D Riemannian manifold with boundary are classified by:
+> **Status.** This is a counting argument, not a fully rigorous theorem. Two steps are heuristic and receive their rigorous treatment in Vol 4: (i) the identification of the largest structure group of a principal bundle over the compact direction with $SU(2)$ in step (b), and (ii) the passage from "three stratified zone layers" to the structure group $SU(3)$ in step (c) — sector *count* and group *rank* are identified here by analogy, not derived. Step (d)'s appeal to "no additional topological invariants" uses $\pi_n$ but does not treat higher cohomology. We state the argument because the counting is suggestive and organizes the volume; the rigorous bundle/representation-theory derivation is deferred to Vol 4.
+
+*Argument.* The extra-dimensional space $\Sigma = \{(\xi, \eta)\}$ is a 2D surface with the topology determined by the zone axioms (Vol 1, Ch 1, Axiom 1 — God as Active Sustaining Ground — together with the 6D spacetime construction of §1.2 that follows from it). The independent geometric degrees of freedom of a 2D Riemannian manifold with boundary are classified by:
 
 (a) *The metric itself* — 3 independent components in 2D (after gauge fixing), yielding the gravitational sector and 2 KK gauge fields. But the block-diagonal structure of the zone metric (1.4.2) with the separability ansatz (1.4.20) reduces this to 1 gravitational sector + 1 abelian gauge sector.
 
@@ -267,9 +269,9 @@ The answer is no, and the reason is *topological exhaustion*. Let us prove this 
 
 (d) *No further structures exist.* A 2D manifold with boundary has no higher homotopy groups ($\pi_n = 0$ for $n \geq 2$ since it is a surface). There are no additional topological invariants. Higher KK modes (harmonics on the extra-dimensional space) do not produce new gauge sectors — they produce massive excitations of the existing sectors.
 
-Therefore: 1 gravitational + 1 abelian gauge (EM) + 1 SU(2) (weak) + 1 SU(3) (strong) = 4 sectors. $\square$
+Therefore: 1 gravitational + 1 abelian gauge (EM) + 1 SU(2) (weak) + 1 SU(3) (strong) = 4 sectors.
 
-The proof relies on two facts: (i) the zone manifold has exactly two extra dimensions (Vol 1 Ch 1 §1.2 6D construction, downstream of Axiom 1), and (ii) the zone stratification has exactly the structure prescribed by the axioms (three zone layers with two boundaries). If either fact were different — if there were a third extra dimension, or a fourth zone layer — additional force sectors would appear. But the axioms determine both facts, and they yield four.
+The argument relies on two facts: (i) the zone manifold has exactly two extra dimensions (Vol 1 Ch 1 §1.2 6D construction, downstream of Axiom 1), and (ii) the zone stratification has exactly the structure prescribed by the axioms (three zone layers with two boundaries). If either fact were different — if there were a third extra dimension, or a fourth zone layer — additional force sectors would appear. But the axioms determine both facts, and they yield four.
 
 The zone manifold has exactly two extra dimensions with the zone stratification established in Volume 1. We have enumerated all the geometric information this space can carry:
 

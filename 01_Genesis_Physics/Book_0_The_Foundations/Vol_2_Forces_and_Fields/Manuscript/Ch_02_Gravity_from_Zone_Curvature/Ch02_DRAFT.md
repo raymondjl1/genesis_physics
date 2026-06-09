@@ -8,7 +8,7 @@ Every physics student learns Newton's gravitational constant on the first day of
 
 This chapter refuses to move on.
 
-In Chapter 1, we established the central thesis of this volume: forces are not fundamental entities — they are geometric consequences of the zone manifold. We showed that 6D geodesic motion, projected onto the 4D Firmament, generates what 4D observers interpret as forces (Eq. 2.1.1–2.1.3). We identified four geometric sectors producing exactly four forces (Theorem 2.1.1). And we showed schematically that gravity's weakness traces to a volume dilution factor: $G_4 \sim G_6/V_\text{extra}$ (Eq. 2.1.12).
+In Chapter 1, we established the central thesis of this volume: forces are not fundamental entities — they are geometric consequences of the zone manifold. We showed that 6D geodesic motion, projected onto the 4D Firmament, generates what 4D observers interpret as forces (Eq. 2.1.1–2.1.3). We identified four geometric sectors producing exactly four forces (Heuristic Argument 2.1.1). And we showed schematically that gravity's weakness traces to a volume dilution factor: $G_4 \sim G_6/V_\text{extra}$ (Eq. 2.1.12).
 
 > **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
 

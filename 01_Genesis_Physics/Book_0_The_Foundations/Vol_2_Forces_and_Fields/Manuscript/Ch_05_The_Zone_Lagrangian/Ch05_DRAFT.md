@@ -94,6 +94,8 @@ $$\gamma_{\alpha\beta} = g_{AB} \frac{\partial X^A}{\partial \sigma^\alpha} \fra
 
 $\kappa_B$ is the bending rigidity, and $H$ is the mean curvature of $\Sigma$ in the ambient 6D space.
 
+> **Notation — three distinct $\kappa$'s.** This volume uses the symbol $\kappa$ in three unrelated roles; the subscript disambiguates them. (i) $\kappa_B$ here is the Firmament *bending rigidity* (the Helfrich coefficient), with dimensions of energy. (ii) $\kappa_6^2 = 8\pi G_6$ is the *6D gravitational coupling* (Eq. 2.5.3). (iii) The unsubscripted $\kappa(t)$ introduced in §5.1.8 is the *sustaining field*, the open-system coupling. These are different quantities that happen to share a letter; they never appear in the same equation without their distinguishing subscripts.
+
 **Why two terms?** Think of a soap film stretched across a wire frame. The film naturally minimizes its area — that is the Nambu-Goto term, the energy cost of the Firmament's existence. Now imagine trying to crumple that film at very small scales: in a real soap film, the surface's stiffness resists crumpling. Without stiffness, the Firmament membrane could develop infinitely sharp wrinkles with zero energy cost, and the mode spectrum would be unbounded — a mathematical disaster (all Firmament fluctuation modes would have the same energy, so there would be no well-defined ground state). The Helfrich rigidity term provides that stiffness: it penalizes curvature, so bending the Firmament costs energy proportional to $H^2$.
 
 More formally, the Nambu-Goto term alone yields equations of motion for Firmament fluctuations $\delta X \propto e^{i\omega t}$ with $\omega^2 \propto k^2$ — a linear dispersion relation that does not stabilize short wavelengths. Adding the Helfrich term gives $\omega^2 \propto k^2 + \kappa_B k^4/\sigma$, which suppresses high-$k$ modes. This is the standard result for fluid membranes (Helfrich, 1973) applied to the Firmament. Vol 1, Ch 5, §5.3 derives the mode spectrum in detail.
@@ -148,7 +150,7 @@ $$\frac{1}{g_3^2} = \frac{1}{\kappa_6^2} \int d\eta \, e^{2B(\eta)} |\psi_{g}^{(
 
 where $\psi_{W}^{(0)}$ and $\psi_{g}^{(0)}$ are the zero-mode wavefunctions for the W boson and gluon in the extra dimensions, respectively (Vol 2, Ch 4, Eqs. 2.4.21 and 2.4.4).
 
-**Why this form is necessary.** The gauge Lagrangian (2.5.10) is not postulated. It is the unique two-derivative, gauge-invariant kinetic term for the gauge fields that emerge from the KK reduction of the 6D metric and boundary modes. The Yang-Mills structure (non-abelian field strengths with self-interaction terms) follows automatically from the non-abelian isometry groups of the extra-dimensional geometry (Theorem 2.1.1, Chapter 1).
+**Why this form is necessary.** The gauge Lagrangian (2.5.10) is not postulated. It is the unique two-derivative, gauge-invariant kinetic term for the gauge fields that emerge from the KK reduction of the 6D metric and boundary modes. The Yang-Mills structure (non-abelian field strengths with self-interaction terms) follows automatically from the non-abelian isometry groups of the extra-dimensional geometry (Heuristic Argument 2.1.1, Chapter 1).
 
 Note that equation (2.5.10) is written in the 4D effective form — the result after integrating out the extra dimensions. In the full 6D description, all gauge fields are encoded in the metric $g_{AB}$ and boundary conditions. The separation into distinct gauge sectors is a consequence of the four geometric sectors identified in Chapter 1 (Eqs. 2.1.8–2.1.11).
 
@@ -833,7 +835,7 @@ Perform the Legendre transform of the zone Lagrangian to obtain the zone Hamilto
 Starting from the Waters Lagrangian (2.5.7), derive the stress-energy tensor $T_{AB}^\text{waters}$ (Eq. 2.5.24) by varying with respect to the metric. Verify that $\nabla_A T^{AB}_\text{waters} = 0$ when the Waters field equations are satisfied (on-shell conservation). Then show that the sustaining term violates this: $\nabla_A T^{AB}_\text{waters+sustain} = -\kappa\,\alpha_A\,\Psi_A\,\partial^B\Psi_A \neq 0$ in general.
 
 **Problem 5.15.** *A fifth force from a third extra dimension.*
-Suppose the zone manifold had three extra dimensions $(\xi, \eta, \zeta)$ instead of two. Extend the geometric sector enumeration from Chapter 1 (Theorem 2.1.1) to show that a third extra dimension necessarily introduces at least one additional geometric sector — hence a fifth force. Identify the gauge group of this hypothetical force and explain why its non-observation constrains the zone manifold to be 6-dimensional.
+Suppose the zone manifold had three extra dimensions $(\xi, \eta, \zeta)$ instead of two. Extend the geometric sector enumeration from Chapter 1 (Heuristic Argument 2.1.1) to show that a third extra dimension necessarily introduces at least one additional geometric sector — hence a fifth force. Identify the gauge group of this hypothetical force and explain why its non-observation constrains the zone manifold to be 6-dimensional.
 
 ---
 

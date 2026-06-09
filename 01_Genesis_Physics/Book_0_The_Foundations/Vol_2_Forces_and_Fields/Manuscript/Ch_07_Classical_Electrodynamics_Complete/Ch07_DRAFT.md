@@ -346,6 +346,8 @@ For $\theta_i > \theta_c$, $\cos\theta_t$ becomes imaginary. Physically, this me
 
 $$E_2 \propto e^{-\kappa z}, \qquad \kappa = \frac{\omega}{c}\sqrt{n_1^2\sin^2\theta_i - n_2^2} \tag{2.7.38}$$
 
+> **Notation.** The symbol $\kappa$ in this section (and the transverse wavenumber $\kappa$ in the fiber characteristic equation, Eq. 2.7.49) is the standard optics evanescent-decay / radial wavenumber. It is purely local to this chapter and is unrelated to the Firmament bending rigidity $\kappa_B$ (Ch 5, Eq. 2.5.4), the 6D gravitational coupling $\kappa_6^2 = 8\pi G_6$, or the sustaining field $\kappa(t)$.
+
 The evanescent wave carries no net energy into medium 2 (the time-averaged Poynting vector normal to the interface vanishes). This phenomenon is the basis of optical fibers, which confine light by total internal reflection, and of frustrated total internal reflection used in optical beam splitters.
 
 ---

@@ -153,7 +153,7 @@ fitted constant ($L_\text{eff}$ and $K$ respectively).
 
 | Quantity | Zone Statement | Experimental Value | Source | Comment |
 |----------|---------------|-------------------|--------|---------|
-| Existence of exactly four forces | Predicted (Theorem 2.1.1) | Four forces observed | — | Topological; parameter-free. |
+| Existence of exactly four forces | Predicted (Heuristic Argument 2.1.1) | Four forces observed | — | Topological; parameter-free. |
 | Functional form of hierarchy | α_em/α_G ∝ ξ_A^{1+λ}/ln(ξ_A/η_B) | ~10³⁶ (any order > 10²⁰ is "huge") | Ch 9 §9.3.6 | Mechanism + scaling exponent. |
 | GW speed = EM speed | 1 exactly | \|c_GW/c_EM − 1\| < 10⁻¹⁵ | GW170817 | Single-membrane propagation. |
 | σ_SI (DM direct-detection) | 0 exactly | < 1.35×10⁻⁴⁷ cm² | LZ 2022 | Topological zero (Ch 11 §11.5.4). |
