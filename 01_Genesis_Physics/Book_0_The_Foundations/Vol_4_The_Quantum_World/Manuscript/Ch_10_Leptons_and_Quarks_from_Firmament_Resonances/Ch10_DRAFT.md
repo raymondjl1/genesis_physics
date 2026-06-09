@@ -477,9 +477,9 @@ I have promised you an honest accounting of every particle, every residual, and 
 | $b$ | 1 | 3 | 4.18 GeV (calibration) | 4.18 GeV | 0 | CAL |
 | $s$ | 2 | 2 | 0.44 MeV | 93 MeV | $-99.5\%$ | FAIL (tree) |
 | $d$ | 3 | 1 | 0.15 eV | 4.7 MeV | $-10^{-5}$ | FAIL (tree) |
-| $p$ | – | – | 938.1 MeV | 938.272 MeV | $-0.02\%$ | RIGOROUS (via QCD) |
-| $n$ | – | – | 939.6 MeV | 939.565 MeV | $+0.005\%$ | RIGOROUS (via QCD) |
-| $\pi^0$ | – | – | (depends on quark) | 134.98 MeV | FAIL (tree) | PHENOM |
+| $p$ | — | — | 938.1 MeV | 938.272 MeV | $-0.02\%$ | RIGOROUS (via QCD) |
+| $n$ | — | — | 939.6 MeV | 939.565 MeV | $+0.005\%$ | RIGOROUS (via QCD) |
+| $\pi^0$ | — | — | (depends on quark) | 134.98 MeV | FAIL (tree) | PHENOM |
 
 > **Cross-volume forward reference.** The quark sector mass hierarchy at one-loop order — including the RG running that is expected to reduce the large tree-level residuals above — is addressed in **Vol 6 Ch 3** (open problem OP-03). Until that calculation is complete, the quark entries in this table are order-of-magnitude estimates at tree level; they are not competitive predictions.
 

@@ -462,9 +462,9 @@ I have promised you an honest accounting of every particle, every residual, and 
 | $b$ | 1 | 3 | 4.18 GeV (calibration) | 4.18 GeV | 0 | CAL |
 | $s$ | 2 | 2 | 0.44 MeV | 93 MeV | $-99.5\%$ | FAIL (tree) |
 | $d$ | 3 | 1 | 0.15 eV | 4.7 MeV | $-10^{-5}$ | FAIL (tree) |
-| $p$ | – | – | 938.1 MeV | 938.272 MeV | $-0.02\%$ | RIGOROUS (via QCD) |
-| $n$ | – | – | 939.6 MeV | 939.565 MeV | $+0.005\%$ | RIGOROUS (via QCD) |
-| $\pi^0$ | – | – | (depends on quark) | 134.98 MeV | FAIL (tree) | PHENOM |
+| $p$ | — | — | 938.1 MeV | 938.272 MeV | $-0.02\%$ | RIGOROUS (via QCD) |
+| $n$ | — | — | 939.6 MeV | 939.565 MeV | $+0.005\%$ | RIGOROUS (via QCD) |
+| $\pi^0$ | — | — | (depends on quark) | 134.98 MeV | FAIL (tree) | PHENOM |
 
 Three particles are calibrations (tau, top, bottom) — they are used to fix $y_0^{(\ell)}, y_0^{(u)}, y_0^{(d)}$ and contribute zero information to the residuals. Two particles (proton, neutron) are successes inherited from QCD. Everything else has a residual, and those residuals are the honest state of the framework.
 
