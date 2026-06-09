@@ -45,7 +45,7 @@ in 4D spacetime (indices 0–3).
 
 **Spacetime indices (Greek letters, 4D):** Indices $\mu, \nu, \rho, \sigma, \lambda, \tau$ run from 0 to 3, representing time (0) and the three spatial directions (1, 2, 3). Example: $A^\mu = (A^0, A^1, A^2, A^3)$ is a 4-vector.
 
-**Spacetime indices (Greek letters, 6D):** Indices $\mu, \nu, \rho, \sigma, \lambda, \tau$ run from 0 to 6, representing time (0), the three observable spatial directions (1, 2, 3), and the two extra-dimensional directions (5, 6). **NOTE: Index 4 is deliberately omitted from 6D spacetime to avoid confusion with 4D indices.** The index set is {0, 1, 2, 3, 5, 6}.
+**Spacetime indices (Greek letters, 6D):** Indices $\mu, \nu, \rho, \sigma, \lambda, \tau$ range over the index set $\{0, 1, 2, 3, 5, 6\}$ (six values) — representing time (0), the three observable spatial directions (1, 2, 3), and the two extra-dimensional directions (5, 6). **NOTE: Index 4 is deliberately omitted from 6D spacetime to avoid confusion with 4D indices**; the indices therefore do *not* run consecutively "from 0 to 6" (which would be seven values), but over the six-element set $\{0, 1, 2, 3, 5, 6\}$.
 
 **Capital Latin indices (A, B, C, D):** These denote 6D tensor indices in contexts where Greek letters may cause ambiguity (e.g., when both Greek spacetime and Greek field indices appear). Capital Latin indices also run over {0, 1, 2, 3, 5, 6}.
 

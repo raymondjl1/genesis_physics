@@ -50,6 +50,8 @@ $$(V.S.N)$$
 
 where $V$ = volume number (1 for this volume), $S$ = section number, $N$ = equation sequence number within that section. Example: Equation (1.3.2) is Volume 1, Section 1.3, second equation. This scheme ensures every equation in the series has a unique, unambiguous address that persists across all printings and future editions.
 
+Figures use a parallel but distinct scheme: **Fig V.C.N**, where $V$ = volume, $C$ = *chapter* (not section), and $N$ = figure sequence within that chapter. Thus "Fig 1.1.3" is Volume 1, Chapter 1, third figure — it is *not* a forward reference to Section 1.1.3. Note that figure labels key on the chapter while equation labels key on the section; the two conventions are intentionally different.
+
 ### Zone Notation — The Geography of Reality
 
 The Genesis Physics framework divides reality into hierarchical zones. These represent distinct domains of physics, different fundamental scales, and different realms of activity. The canonical notation is:
@@ -91,6 +93,8 @@ Scale parameters:
 
 Standard physics treats fundamental constants as irreducible brute facts. In Genesis Physics, they are *derived* from deeper principles — specifically, from the properties of the Firmament structure (the Firmament) and the sustaining field couplings.
 
+**Before reading the table, note the honest accounting that follows it.** The entries marked "Derived" below are derived *in terms of* the membrane parameters $\sigma$ and $\mu$; the absolute magnitudes of $\sigma$ and $\mu$ themselves are still *in preparation* (their first-principles derivation is the task of Foundations Volume 6). The paragraph immediately after the table ("On the derivation status of $\sigma$ and $\mu$") states precisely what is established and what is not. Read the table and that caveat together; neither stands alone.
+
 | Symbol | Standard Value | Genesis Physics Status |
 |--------|---------------|----------------------|
 | $c$ | $2.998 \times 10^8$ m/s | Derived: $c = \sqrt{\sigma/\mu}$ (Firmament membrane wave speed) |
@@ -123,7 +127,7 @@ Scripture states explicitly that reality does not stand on its own; it is held i
 
 > "When you hide your face, they are dismayed; when you take away their breath, they die and return to their dust." — Psalm 104:29
 
-Three claims, one architecture. Col 1:17 says cohesion is *present-tense*: things hold together in him. Heb 1:3 names the *mechanism*: an active "upholding" by the word of his power. Ps 104:29 supplies the *failure mode*: withdraw the sustaining act and creatures return to dust. Taken together these verses assert that reality is an *open* system whose continued existence requires continuous input from a transcendent source. Genesis Physics takes that claim at face value and asks what physical structure it forces.
+Three claims, one architecture. Col 1:17 says cohesion is *present-tense*: things hold together in him. Heb 1:3 names the *mechanism*: an active "upholding" by the word of his power. Ps 104:29 supplies the *failure mode*: withdraw the sustaining act and creatures return to dust. Taken together these verses assert that reality is an *open* system whose continued existence requires continuous input from a transcendent source. Genesis Physics takes that claim at face value and asks what physical structure it forces. To be clear about the direction of the claim: we are not asserting that Ps 104:29 *predicts* $\kappa$, nor reading a mechanism out of a verse whose plain sense is creaturely dependence on God's breath. We are noting that the biblical picture of moment-by-moment dependence is the same picture our open-system mechanism formalizes — the verse motivates the physics; it does not stand as evidence for it.
 
 ### The Sustaining Field Mechanism — Formalizing "He Upholds All Things"
 
@@ -307,7 +311,7 @@ Consider omnipresence. God is present everywhere. "Where can I go from your Spir
 
 Consider immutability. "Jesus Christ is the same yesterday and today and forever" (Hebrews 13:8). "I the Lord do not change" (Malachi 3:6). An immutable God would ordain laws that do not change. This is expressed as *CPT symmetry* — the invariance of physics under the combined operation of charge conjugation (C), parity inversion (P), and time reversal (T). CPT appears to be exact in all observed physics.
 
-Consider justice. God is just. "He is the Rock, his works are perfect, and all his ways are just" (Deuteronomy 32:4). A just God ordains laws in which there is symmetry between positive and negative, creation and destruction, being and non-being. This is *charge conjugation symmetry*: for every particle, there is an antiparticle with opposite charge but identical mass.
+Consider justice. God is just. "He is the Rock, his works are perfect, and all his ways are just" (Deuteronomy 32:4). A just God ordains laws in which there is balance between positive and negative, creation and destruction, being and non-being. The exact expression of this balance is *charge conservation* (the $U(1)$ gauge symmetry): for every particle there is an antiparticle with opposite charge but identical mass, and total charge is exactly conserved. (Charge conjugation C *by itself* is only approximate — it is violated by the weak force — so the exact symmetry that carries the "justice/balance" reading is charge conservation, not C alone. See the formal table in §1.4.)
 
 The symmetries of physics are not arbitrary. They are *the physical expression of God's nature reflected in the structure of reality*.
 
@@ -359,13 +363,17 @@ Beyond continuous symmetries, there are discrete symmetries:
 
 **Axiom 3 (God's Nature Reflects in Physical Symmetries):** The symmetry group $G$ of the fundamental physical laws is not arbitrary but reflects God's immutable attributes. Each continuous symmetry, via Noether's theorem, generates a conserved quantity. Discrete symmetries (C, P, T, CPT) represent divine justice and balance. The Standard Model gauge group $SU(3) \times SU(2) \times U(1)$ emerges from fundamental zone symmetries, not accident.
 
+The table below lists only the *exact* symmetries against the divine attributes they express. The individually broken discrete symmetries (C, P, T) are collected in a separate row, because mapping a divine attribute onto a symmetry that the weak force violates would claim more than the physics allows.
+
 | Divine Attribute | Physical Symmetry | Conserved Quantity |
 |---|---|---|
 | Timelessness | Time translation | Energy |
 | Omnipresence | Spatial translation | Momentum |
 | Isotropy of Will | Rotational invariance | Angular momentum |
-| Perfect Justice | Charge conjugation | Charge balance |
-| Immutability | CPT invariance | Lorentz structure |
+| Immutability | CPT invariance (exact) | Lorentz structure |
+| Perfect Justice (balance of charges) | $U(1)$ gauge invariance | Electric charge |
+
+*Approximate symmetries (broken in the weak sector):* the individual discrete operations C, P, and T are each violated by the weak interaction and are therefore **not** exact symmetries of nature; only their product CPT is exact. We treat C, P, T as approximate symmetries whose breaking is itself physically meaningful (the physical reason for weak-sector violation is discussed in Vol 2), and we do *not* assign a divine attribute to a broken symmetry.
 
 ### Epistemic Status of Axiom 3
 
@@ -375,7 +383,7 @@ What Axiom 3 does is provide an *interpretive framework* — a reason *why* thes
 
 The direction of inference is: **theology motivates → physical prediction → experimental test.** It is *not*: "we observe a symmetry, therefore God has that attribute." The latter would be circular. The former is a prediction engine.
 
-**What would falsify Axiom 3?** If a divine attribute predicted a symmetry that observation contradicts. Specifically: if God's omnipresence predicts exact spatial homogeneity but we observe a fundamental preferred frame, Axiom 3 fails. If God's timelessness predicts exact time-translation symmetry but we observe the laws themselves evolving (not just the states), Axiom 3 fails. Current data — the isotropy of the CMB to 1 part in $10^5$, the constancy of $\alpha$ over $10^{10}$ years — is consistent with Axiom 3's predictions.
+**What would falsify Axiom 3?** If a divine attribute predicted a symmetry that observation contradicts. Specifically: if God's omnipresence predicts exact spatial homogeneity but we observe a fundamental preferred frame, Axiom 3 fails. If God's timelessness predicts exact time-translation symmetry but we observe the laws themselves evolving (not just the states), Axiom 3 fails. Current data — the isotropy of the CMB to 1 part in $10^5$, the constancy of $\alpha$ over $10^{10}$ years — is consistent with Axiom 3's predictions, but does not distinguish Axiom 3 from standard cosmology: CMB isotropy already follows from the cosmological principle in ordinary $\Lambda$CDM without a sustaining field. It is corroborating, not discriminating.
 
 ### Why This Matters
 
@@ -501,6 +509,8 @@ $$N(t) = N_0 e^{-\lambda t}, \quad \lambda = \frac{\lambda_0}{1 - \varepsilon} \
 
 **Equation (1.6.3) is postulated.** The specific functional form $\lambda = \lambda_0/(1 - \varepsilon)$ is a first-order model relating the observed decay rate to the degradation parameter. The derivation from first principles requires the quantum field theory on curved zone manifolds developed in Volume 4. Here $\lambda_0$ is the decay rate that would be observed without $\kappa$-degradation (essentially zero in the Edenic phase, where $\kappa_{\text{full}}$ suppressed all decay channels).
 
+A note on observability. With $\varepsilon \lesssim 10^{-27}$ (and possibly as small as $10^{-60}$), the fractional correction to any individual decay rate is unobservable by 20 or more orders of magnitude with current technology — far below the sensitivity of any conceivable direct measurement of $\lambda$. The testable content of Axiom 5 therefore does *not* lie in detecting this shift directly. It lies in the *unity of decay mechanisms*: the claim that nuclear decay, stellar aging, and biological senescence all share one cause ($\kappa$-degradation) rather than requiring independent explanations (prediction T6, §1.8).
+
 The general aging timescale is:
 
 $$\tau_{\text{age}} = \frac{\ln 2}{dS/dt} \tag{1.6.4}$$
@@ -584,13 +594,15 @@ A single field in isolation is featureless. It has no internal structure, no int
 
 The cosmic energy budget is the clearest evidence:
 
-- 68.4% = Waters Above ($\Psi_A$, dark energy) — the sustaining, expanding component
-- 26.6% = Waters Below ($\Psi_B$, dark matter) — the binding, structuring component
-- 4.9% = Condensed matter (baryonic) — stars, galaxies, atoms, us
+- 68% = Waters Above ($\Psi_A$, dark energy) — the sustaining, expanding component
+- 27% = Waters Below ($\Psi_B$, dark matter) — the binding, structuring component
+- 5% = Condensed matter (baryonic) — stars, galaxies, atoms, us
+
+(Rounded for readability; the precise Planck-derived fractions are 68.4% / 26.6% / 4.9%. We use the rounded 68/27/5 convention in body text throughout this volume and reserve the decimal values for equations and tables where the precision is needed.)
 
 The Creator devotes 95% of the universe's energy budget to sustaining and structuring the 5% that we see and inhabit. This is the physics of "in him all things hold together."
 
-Two cautions are in order. First, this present-epoch budget evidences the *existence and dominance* of the two Waters components; it is not a measurement of the Edenic energy balance of Eq. (1.7.5). That equation asserts an *exact* balance ($\int (\Psi_A^2 - \Psi_B^2)\, d^3x = 0$) in the Edenic phase; the observed $68.4\%$ vs. $26.6\%$ split is the *present, post-Fall* configuration, in which $\kappa$-degradation (Axiom 5) is expected to break the original balance. The asymmetry of the current ratio is therefore consistent with — not a contradiction of — an Edenic balance that no longer holds. Second, Axiom 6 itself is the *duality structure* ($\Psi_{\text{creation}} = \Psi_A \otimes \Psi_B$); the integral balance of Eq. (1.7.5) is a separate Edenic-phase boundary condition layered on top of that structure, not part of the axiom proper.
+Two cautions are in order. First, this present-epoch budget evidences the *existence and dominance* of the two Waters components; it is not a measurement of the Edenic energy balance of Eq. (1.7.5). That equation asserts an *exact* balance ($\int (\Psi_A^2 - \Psi_B^2)\, d^3x = 0$) in the Edenic phase; the observed $68\%$ vs. $27\%$ split is the *present, post-Fall* configuration, in which $\kappa$-degradation (Axiom 5) is expected to break the original balance. The asymmetry of the current ratio is therefore consistent with — not a contradiction of — an Edenic balance that no longer holds. Second, Axiom 6 itself is the *duality structure* ($\Psi_{\text{creation}} = \Psi_A \otimes \Psi_B$); the integral balance of Eq. (1.7.5) is a separate Edenic-phase boundary condition layered on top of that structure, not part of the axiom proper.
 
 ### Theological Grounding
 
@@ -840,7 +852,7 @@ Let me restate them, concisely:
 
 **Axiom 7 (Four Thermodynamic Phases):** Universal history is partitioned into exactly four thermodynamic phases — Creation, Edenic, Fall, Redemption — each defined by a characteristic sustaining-field regime $\kappa_i$ and a characteristic entropy behavior $(dS/dt)_i$. Transitions between phases are discrete events (Day 7, the Fall, the future restoration), not smooth flows.
 
-> **⚠ SERIES BLOCKER — OP-1:** Postulate F (spin-1/2 statistics from a bosonic membrane) is an unresolved open problem. All downstream results involving fermions depend on this assumption. See Vol 6 Chapter 14, OP-1 for the research agenda.
+> **⚠ SERIES BLOCKER — OP-1:** Postulate F (spin-1/2 statistics from a bosonic membrane) is an unresolved open problem. All downstream results involving fermions depend on this assumption. The research agenda is tracked in `Research/Foundations/FERMION_EMERGENCE_FROM_MEMBRANE.md` (to be consolidated as OP-1 in Vol 6 Chapter 14 — forward reference; Vol 6 not yet in preparation).
 
 **Postulate F (Primordial Spinor Field — Open Resolution).** There exists on the Firmament $\Sigma$ an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$. This postulate is not derived from Axioms 1–6 at the current state of the framework. It is required to apply the Jackiw-Rossi index theorem (Vol 4 Ch 10 §10.5), which binds fermionic zero modes to topological vortices in $\Psi_A$ and thereby produces spin-½ particles with Pauli exclusion. Without Postulate F, the framework derives only bosonic excitations. Research is ongoing to derive $\psi$ from the bosonic structure already present, via: (a) supersymmetric extension of the Firmament membrane action, (b) Kähler spinors from the 6D bulk geometry, or (c) higher-form gauge symmetry. None of these routes is yet complete (Vol 4 Ch 10 Open Problem 10.1; GitHub Issue #1, BLOCKER). Postulate F is stated here so that all particle-physics results in Volumes 2–6 that depend on fermionic excitations are explicitly downstream of this open assumption.
 

@@ -216,7 +216,7 @@ This generates translations along the normal direction while preserving the metr
 
 **PS-4.10** [X] The question "Why 6D and not 4, 5, 7, or 10D?" is answered via dimensional counting. Propose the counting argument: what constraints (from physics, symmetry, or consistency) might single out 6D?
 
-**PS-4.11** [C] The speed of light is derived from membrane properties: $c^2 = \sigma/\mu$, where $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and $\mu = 6.7 \times 10^{81}$ kg/m³. Calculate $c$ again and verify the dimensions.
+**PS-4.11** [C] The speed of light is derived from membrane properties: $c^2 = \sigma/\mu$, where $\sigma = 6.0 \times 10^{98}$ kg/(m·s²) and $\mu = 6.7 \times 10^{81}$ kg/m³. Calculate $c$ again and verify the dimensions. (Note on status: the *dimensional form* and *mutual consistency* of $\sigma$ and $\mu$ are established in Ch 5, but their *absolute magnitudes* are not yet derived from first principles — that derivation is deferred to Vol 6. Here they are used as given inputs; see the derivation-status caveat in Ch 1 §1.1.)
 
 **PS-4.12** [W] The Firmament is described as a 3-brane embedded in 6D space. What does "3-brane" mean, and how is it different from a 2-Firmament or 4-Firmament?
 

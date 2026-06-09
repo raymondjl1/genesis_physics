@@ -51,7 +51,7 @@ The derivation proceeds through six sequential stages. Each stage builds on the 
 
 **Stage 1: Quantized Firmament membrane modes.** From the 6D action, fluctuations on the Firmament satisfy a wave equation (Chapter 5, Eq. (1.5.24)). Boundary conditions from the zone architecture quantize these fluctuations into discrete modes with energies $E_n = \hbar\omega_n(\mathbf{k})$, where $\omega_n$ is the mode frequency and $\mathbf{k}$ is the wave vector. This was established in Chapter 10.
 
-**Stage 2: Planck's constant ℏ from topology.** The topological charge quantization on the Firmament (Chapter 10, §10.3) yields $\hbar = 1.055 \times 10^{-34}$ J·s from Firmament geometry. This sets the energy scale for all quantum modes.
+**Stage 2: Planck's constant ℏ from topology.** The topological charge quantization on the Firmament (Chapter 10, §10.3, Eq. (1.10.29)) yields $\hbar = 1.055 \times 10^{-34}$ J·s from Firmament geometry; the value quoted here is the *result* of that derivation, not an independent input. This sets the energy scale for all quantum modes.
 
 **Stage 3: Boltzmann's constant $k_B$ from mode counting.** When we count the accessible modes at temperature $T$, the density of states $g(E) \propto E^{d/2-1}$ combined with the thermal de Broglie wavelength matching the Firmament lattice spacing yields $k_B = 1.381 \times 10^{-23}$ J/K as the entropy scale. (We derive this constant in §11.4.)
 
@@ -178,7 +178,7 @@ The resolution of the equipartition catastrophe was, historically, one of the fi
 
 ### 11.3.1 Not a New Law
 
-The First Law of thermodynamics is often presented as an independent postulate: *the change in internal energy equals the heat added minus the work done.* But in the zone architecture, it is nothing more than the energy conservation law we already derived in Chapter 7 (Eq. (1.7.8)), applied to a macroscopic system.
+The First Law of thermodynamics is often presented as an independent postulate: *the change in internal energy equals the heat added minus the work done.* But in the zone architecture, it is nothing more than the energy conservation law we already derived in Chapter 7 (Eq. (1.7.8)), applied to a macroscopic system. More precisely, the First Law follows from Noether *local* conservation (Chapter 7) closed under the *global* Conservation Principle (Chapter 8, §8.5.3): Noether's theorem alone gives only pointwise conservation $\nabla_\mu T^\mu{}_\nu = 0$, which is consistent with energy leaking across the cosmic boundary; it is the Conservation Principle that seals $\partial Z_{2.2}$ and thereby upgrades local conservation into a global First Law for the closed system.
 
 Recall from Chapter 7 that the 6D action (1.11.1) is invariant under time translation $t \to t + \Delta t$. By Noether's theorem, this symmetry generates a conserved current — the stress-energy tensor $T^{\mu}{}_\nu$ — satisfying:
 
@@ -594,7 +594,7 @@ The resolution, historically, required the *ad hoc* introduction of quantum mech
 
 In our framework, the chain of reasoning is complete and closed. The Firmament has finite extent (Chapter 5). Finite boundaries impose discrete spectra (Chapter 10). Discrete spectra produce mode freezing (this section). Mode freezing produces $S \to 0$ at $T = 0$. Every link is derived, not postulated. The Third Law is a *theorem of zone geometry* — as inevitable as the discreteness of the vibrational modes of a drum.
 
-This is the power of working from first principles: questions that standard physics must answer with "that's just how quantum mechanics works" receive, in the zone architecture, answers traceable all the way back to the six axioms.
+This is the power of working from first principles: questions that standard physics must answer with "that's just how quantum mechanics works" receive, in the zone architecture, answers traceable all the way back to the seven axioms.
 
 ---
 
@@ -803,7 +803,7 @@ Let us be precise about what this means and what it does not mean. We are **not*
 
 This prediction is, in principle, falsifiable. If the Second Law were truly universal (as standard physics asserts), then no conceivable boundary condition could halt entropy production in an interacting system. If Genesis Physics is correct, then κ-restoration would do precisely that. The two frameworks make different predictions about what is *possible* — even if they agree on what is *observed* in the present epoch.
 
-The reader who has followed the argument from Chapter 1 through Chapter 11 may notice something else: the six axioms do not merely *permit* the four laws of thermodynamics — they *require* them. Given the zone manifold, the 6D metric, the Firmament, the Waters, the conservation laws, the Five Principles, quantization, and the sustaining coupling, thermodynamics is inevitable. You cannot construct a universe with this architecture and *not* get temperature, energy conservation, entropy, and mode freezing. The laws of thermodynamics are theorems of zone architecture. They are built into the geometry of creation.
+The reader who has followed the argument from Chapter 1 through Chapter 11 may notice something else: the seven axioms do not merely *permit* the four laws of thermodynamics — they *require* them. Given the zone manifold, the 6D metric, the Firmament, the Waters, the conservation laws, the Five Principles, quantization, and the sustaining coupling, thermodynamics is inevitable. You cannot construct a universe with this architecture and *not* get temperature, energy conservation, entropy, and mode freezing. The laws of thermodynamics are theorems of zone architecture. They are built into the geometry of creation.
 
 ### Seeds for Volume 3
 
@@ -821,7 +821,7 @@ Every tool needed to begin that work has been introduced here. The partition fun
 
 With this chapter, Volume 1 is complete. In eleven chapters and three parts, we have established:
 
-- The six axioms of zone architecture (Chapter 1)
+- The seven axioms of zone architecture (Chapter 1)
 - The mathematical toolkit (Chapter 2)
 - The zone manifold (Chapter 3) and its 6D embedding (Chapter 4)
 - The Firmament as a dynamical membrane (Chapter 5)

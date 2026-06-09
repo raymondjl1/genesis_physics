@@ -4,7 +4,7 @@
 
 ## 2.0 Introduction — The Mathematical Landscape
 
-In Chapter 1, we laid the constitutional foundation: six axioms, a zone hierarchy, a sustaining field, and the promise that all physics derives from this architecture. But promises made in words must be kept in equations. The gap between what we said and what we can prove is exactly the gap between prose and mathematics. This chapter closes that gap.
+In Chapter 1, we laid the constitutional foundation: seven axioms, a zone hierarchy, a sustaining field, and the promise that all physics derives from this architecture. But promises made in words must be kept in equations. The gap between what we said and what we can prove is exactly the gap between prose and mathematics. This chapter closes that gap.
 
 Here is the situation. The zone manifold — the nested hierarchy of zones from $Z_0$ through $Z_{2.2.3}$ — is a curved, structured mathematical object. It has topology (holes, boundaries, connectedness). It has geometry (distances, angles, curvature). It has symmetry (groups of transformations that leave the physics unchanged). And it has internal structure (fibers, connections, gauge fields) that encode the forces of nature.
 
@@ -30,6 +30,8 @@ Here is the compact version:
 No tool in this list is introduced for decoration. If it appears in this chapter, it will be used — often repeatedly — in Chapters 3 through 11. If, by the end, you find a tool that has no clear later application, flag it. It should not be here.
 
 **What you need before starting.** This chapter assumes undergraduate-level mathematics: multivariable calculus (partial derivatives, multiple integrals, gradient/divergence/curl), linear algebra (vector spaces, matrices, eigenvalues, inner products), and some familiarity with ordinary differential equations. If you've completed a standard physics or mathematics undergraduate curriculum, you have what you need. Where we use something more advanced, we derive it.
+
+**An honest caveat about "undergraduate."** Several tools in the list above — fiber bundles, Lie groups, exterior calculus, partitions of unity — are *not* part of every undergraduate curriculum; in many programs they are first encountered in graduate coursework. We do not assume prior fluency with them. What we assume is the *prerequisite* layer (calculus, linear algebra, ODEs); each of the more advanced tools is introduced here from that base, and Appendix A provides a condensed reference for the same material. Appendix A is a *cheat sheet*, not a substitute teacher: a reader meeting these topics for the first time should expect to consult an external text (suggestions in the Bibliography) alongside it. We flag this so the "you have what you need" promise above is read in the right spirit — you have what you need to *follow the derivations*, not necessarily a pre-existing mastery of every tool.
 
 **Notation.** All notation follows Chapter 1's master table (Section 1.1). Greek indices $\mu, \nu, \rho, \sigma$ run over the bulk coordinate set $\{0, 1, 2, 3, 5, 6\}$ in the full 6D embedding (index 4 is deliberately omitted to preserve the brane-coordinate labeling convention; see Appendix B §B.1.2). When restricted to the 4D Firmament slice $Z_{2.2}$, Greek indices run only over $\{0, 1, 2, 3\}$.[^idx-ch2]
 

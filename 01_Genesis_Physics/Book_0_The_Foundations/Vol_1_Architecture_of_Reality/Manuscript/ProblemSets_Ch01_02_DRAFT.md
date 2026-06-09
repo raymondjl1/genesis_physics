@@ -45,7 +45,7 @@ If the system receives sustaining power $\dot{E}_\kappa = 10^{20}$ W and loses b
 
 **PS-1.17** [W] Axiom 1 (Section 1.2) claims the sustaining field resolves fine-tuning. Rephrase this claim in your own words: instead of asking "Why are the constants fine-tuned?", what does Genesis Physics ask instead?
 
-**PS-1.18** [C] The fine-structure constant can be expressed as $\alpha \approx 1.44 \times \ln(\xi_A/\eta_B)$ (Section 1.1, row 5). Using $\xi_A = 3 \times 10^{26}$ m and $\eta_B = 1.3 \times 10^{-15}$ m, calculate $\alpha$.
+**PS-1.18** [W] The fine-structure constant can be expressed as $\alpha^{-1} \approx K \ln(\xi_A/\eta_B)$ with $K \approx 1.44$ (Section 1.1, row 5). (a) *Before computing anything*, explain in your own words what the coefficient $K = 1.44$ represents: which part of this expression is the *functional form* derived from the zone geometry, and which part ($K$) is an empirical fit whose first-principles derivation is deferred to Vol 2? Why does it matter, scientifically, to keep these two parts distinct? (b) *Then* verify the numbers: using $\xi_A = 3 \times 10^{26}$ m and $\eta_B = 1.3 \times 10^{-15}$ m, evaluate $K \ln(\xi_A/\eta_B)$ and confirm it reproduces $\alpha^{-1} \approx 137$.
 
 **PS-1.19** [W] At a zone boundary, a field may be discontinuous. The Israel junction conditions relate the jump $[\phi] = \phi_+ - \phi_-$ across the boundary to the boundary's stress-energy. What physical information does the jump $[\phi]$ encode?
 
@@ -170,7 +170,11 @@ $$c = \sqrt{\frac{\sigma}{\mu}} = \sqrt{\frac{6.0 \times 10^{98}}{6.7 \times 10^
 This matches the observed speed of light, validating the Firmament ansatz.
 
 **PS-1.18:**
-$$\alpha \approx 1.44 \times \ln\left(\frac{3 \times 10^{26}}{1.3 \times 10^{-15}}\right) = 1.44 \times \ln(2.3 \times 10^{41}) \approx 1.44 \times 95.7 \approx 0.0073 \approx \frac{1}{137}$$
+(a) The *functional form* $\alpha^{-1} \propto \ln(\xi_A/\eta_B)$ — the logarithm of the ratio of the largest to smallest zone scales — is what the zone geometry predicts; it says the fine-structure constant is set by the *hierarchy of scales* in creation. The coefficient $K \approx 1.44$ is, at the Vol 1 level, an *empirical fit* chosen so the formula reproduces the measured value; its derivation from first principles is deferred to Vol 2. Keeping the two distinct matters because a theory that derives the *form* but fits one coefficient is making a weaker (and more honest) claim than one that derives everything — and conflating them would overstate what Vol 1 has established.
+
+(b) Numerically (note the formula gives $\alpha^{-1}$, not $\alpha$):
+$$\alpha^{-1} \approx 1.44 \times \ln\left(\frac{3 \times 10^{26}}{1.3 \times 10^{-15}}\right) = 1.44 \times \ln(2.3 \times 10^{41}) \approx 1.44 \times 95.7 \approx 138 \approx 137$$
+so $\alpha \approx 1/138 \approx 1/137$, the observed value.
 
 **PS-1.21:** $B_p = 1$, $B_{\bar{p}} = -1$, $B_\gamma = 0$.
 Before: $B_{\text{initial}} = 1 + (-1) = 0$.

@@ -7,9 +7,9 @@
 
 ### Why Geometry Matters
 
-In Chapter 1, we established seven axioms and Postulate F that define our universe.[^axiom-count]
+In Chapter 1, we established seven axioms and Postulate F that define our universe.[^axiom-count] By the end of this chapter, the zone manifold will be shown to support the Firmament's existence as a hypersurface compatible with all seven axioms. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the *manifold*—in which physics happens.
 
-[^axiom-count]: Chapter 1 distinguishes the seven foundational axioms (Axiom 1: God as Active Sustaining Ground; Axiom 2: Creation Complete on Day 7; Axiom 3: Symmetries from Divine Nature; Axiom 4: Humanity as Zone Interface Operator (PROPOSED); Axiom 5: Fall-phase κ-degradation; Axiom 6: Waters Above/Waters Below Duality; Axiom 7: Four Thermodynamic Phases) from Postulate F (the Primordial Spinor Field, currently an open assumption) — Postulate F is a working hypothesis awaiting derivation, not an eighth axiom at the same foundational level. By the end of this chapter, the zone manifold will be shown to support the Firmament's existence as a hypersurface compatible with all seven axioms. In Chapter 2, we built the mathematical toolkit—manifolds, curvature, fiber bundles, the language of differential geometry. Now comes the most important step: we translate the axioms into geometry. We build the actual space—the *manifold*—in which physics happens.
+[^axiom-count]: Chapter 1 distinguishes the seven foundational axioms (Axiom 1: God as Active Sustaining Ground; Axiom 2: Creation Complete on Day 7; Axiom 3: Symmetries from Divine Nature; Axiom 4: Humanity as Zone Interface Operator (PROPOSED); Axiom 5: Fall-phase κ-degradation; Axiom 6: Waters Above/Waters Below Duality; Axiom 7: Four Thermodynamic Phases) from Postulate F (the Primordial Spinor Field, currently an open assumption): Postulate F is a working hypothesis awaiting derivation, not an eighth axiom at the same foundational level.
 
 Here's the deep truth: **the shape of spacetime encodes the structure of reality itself.** Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1, the Sustaining Ground) says the universe is an *open system*—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has *zones*.
 
@@ -124,6 +124,8 @@ where:
 - **$Z_{2.2.2}$ (Condensed Matter):** The subregion $\eta_0 - \delta < \eta < \eta_0 + \delta$ within $Z_{2.2}$. This is baryonic matter—stars, planets, atoms, us.
 
 - **$Z_{2.2.3}$ (Waters Above):** The subregion $\eta > \eta_0 + \delta$ within $Z_{2.2}$. This describes dark energy.
+
+**On the parameters $\xi_0$, $\eta_0$, and $\delta$.** These three quantities — the Firmament's location in the extra dimensions ($\xi_0$, $\eta_0$) and the shell thickness ($\delta$) — appear here as *parameters of the zone manifold* used to pin down its topology. We do not derive their numerical values in this chapter; they are placeholders that fix *where* the strata sit and *how thin* the Firmament shell is, not *why* they take particular magnitudes. Their orders of magnitude are derived later: the Firmament thickness $\delta$ from the membrane analysis of Chapter 5, and the extra-dimensional extents $\xi_0$, $\eta_0$ from the boundary-value and quantization analysis of Chapter 10 (where they connect to the scale parameters $\xi_A$ and $\eta_B$ introduced in §1.1). For the topological construction that follows, only their *existence and ordering* matters, not their values.
 
 **Equation of stratification:**
 

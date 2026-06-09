@@ -51,7 +51,7 @@ More formally, V = V_Waters ⊕ V_membrane ⊕ V_matter, where:
 - V_Waters = ℝ² (Ψ_A and Ψ_B are real scalar fields, consistent with Vol 1 Ch 6 §6.1.2)[^waters-real]
 
 [^waters-real]: Throughout Vol 1, Ψ_A and Ψ_B are real scalar fields. The Madelung complex representation Ψ_A·e^{iφ_A} that appears in subsequent sections (and in worked examples invoking gauge phases) is a perturbation technique; the underlying fields remain real. Phase dynamics are formally treated in Vol 2 Ch 5.
-- V_membrane = T²(M_Z) (symmetric 2-tensors on the spatial part of M_Z, for h_μν perturbations)
+- V_membrane = T²(Σ₄) (symmetric 2-tensors h_μν on the 4D Firmament slice Σ₄ of M_Z — the physical directions x⁰,…,x³ of §9.1, *not* the full 6D base; "spatial part" here means the tangent directions of the observable 4D membrane, with μ,ν = 0,1,2,3, consistent with the dimensionality note below)
 - V_matter = (spinor space) ⊗ (gauge group representations) (matter fields and their quantum numbers)
 
 The full configuration space is:
@@ -597,7 +597,7 @@ Drop P̂₇, and you have frozen fields—no time, no history, no causality.
 
 4. **Without $\hat{L}_4$:** The structure constants $f^c_{ab}$ in $[\hat{L}_4, \hat{L}_4] = f^c_{ab}\hat{L}_4$ define the gauge group. Without $\hat{L}_4$, there are no internal symmetries — no charge, no color, no isospin. All gauge bosons (photon, W, Z, gluons) disappear from the theory.
 
-5. **Without $\hat{L}_5$:** The beta functions $\beta_i$ appearing in $[\hat{L}_5, \hat{L}_2] = -\beta_i\hat{L}_2$ govern the running of coupling constants. Without $\hat{L}_5$, couplings are scale-independent — asymptotic freedom, confinement, and the hierarchy between the electroweak and Planck scales become unexplainable.
+5. **Without $\hat{L}_5$:** The beta functions $\beta_i$ appearing in $[\hat{L}_5, \hat{L}_2] = -\beta_i\hat{L}_2$ govern the running of coupling constants. Without $\hat{L}_5$, couplings are scale-independent: dimensional analysis and the running of couplings (asymptotic freedom, confinement) cannot even be formulated, and the electroweak–Planck scale separation cannot be addressed. (To be clear, $\hat{L}_5$ provides the *framework* for discussing this scale separation; we do not claim to *solve* the hierarchy problem in this volume — that is taken up in Vol 2.)
 
 6. **Without $\hat{P}_6$:** Spectral projections are idempotent ($\hat{P}_6^2 = \hat{P}_6$), a property shared by no continuous operator (since continuous generators satisfy $e^{2\alpha\hat{L}} \neq e^{\alpha\hat{L}}$ generically). Without thresholds, there are no sharp phase boundaries, no discrete particle masses, and no distinction between bound and unbound states.
 
@@ -615,7 +615,7 @@ Here's the remarkable part: although the seven pattern operators are distinct, t
 
 ### Composition Theorem
 
-**Theorem 9.1 (Composition):** Let Φ, Φ' ∈ F(M_Z) be two field configurations. There exists a finite composition of the seven pattern operators (and their inverses where defined) such that:
+**Theorem 9.1 (Composition — conditional on Proposition 9.1):** *This result inherits the conditional status of Proposition 9.1: its proof sketch invokes the generator-completeness of $\mathfrak{p}_7$, which is itself a conjecture pending OP-1.PO. Until that closure proof is supplied, Theorem 9.1 should be read as conditional ("if the seven operators close, then …"), not as an independently established theorem.* Let Φ, Φ' ∈ F(M_Z) be two field configurations. There exists a finite composition of the seven pattern operators (and their inverses where defined) such that:
 
 $$\hat{P}_{i_1} \circ \hat{P}_{i_2} \circ \cdots \circ \hat{P}_{i_n}[\Phi] = \Phi'$$
 

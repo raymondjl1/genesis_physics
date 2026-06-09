@@ -20,7 +20,7 @@ The Waters Below field $\Psi_B$ — when evaluated near matter concentrations �
 
 Together, $\Psi_A$ and $\Psi_B$ account for 95% of the universe's energy budget. The remaining 5% — baryonic matter — lives on the Firmament itself, the thin membrane at the interface between the two Waters.
 
-But there is a deeper result, one that goes beyond standard cosmology. The system of Waters fields is *open*. It receives continuous energy input from Zone 1 (the sustaining principle, Axiom 1). This sustaining energy maintains the Waters against dissipation, keeps the dark energy density constant, and prevents the universe from degrading to thermal equilibrium. The replenishment mechanism we derive in §6.5 is the mathematical expression of Colossians 1:17 — "in Him all things hold together" — translated into rate equations that satisfy the Second Law of Thermodynamics.
+But there is a deeper result, one that goes beyond standard cosmology. The system of Waters fields is *open*. It receives continuous energy input from Zone 1 (the sustaining principle, Axiom 1). This sustaining energy maintains the Waters against dissipation, keeps the dark energy density constant, and prevents the universe from degrading to thermal equilibrium. The replenishment mechanism we derive in §6.5 is interpretable as a physical correlate of Colossians 1:17 — "in Him all things hold together" — expressed as rate equations that satisfy the Second Law of Thermodynamics. (We are describing a structural resonance between the mechanism and the text, not claiming the verse *is* the rate equation or that the equation is read out of the verse.)
 
 **What this chapter covers:**
 
@@ -84,7 +84,9 @@ The gravitational and Firmament actions were constructed in Chapters 4 and 5 res
 
 **Waters Above action.** The action for $\Psi_A$ takes the standard scalar field form on a curved 6D background:
 
-$$S_A = \int d^6X\,\sqrt{-g^{(6)}}\left[-\frac{1}{2}g^{AB}\partial_A\Psi_A\,\partial_B\Psi_A - V(\Psi_A)\right] \tag{1.6.4}$$
+$$S_A = \int d^6X\,\sqrt{-g^{(6)}}\left[-\frac{1}{2}\,\partial_M\Psi_A\,\partial^M\Psi_A - V(\Psi_A)\right], \qquad M \in \{0,1,2,3,5,6\} \tag{1.6.4}$$
+
+Here the summation index $M$ is written with a distinct kernel letter to avoid colliding with the field label $A$ (Waters *Above*): $\partial^M \equiv g^{MN}\partial_N$, and $M, N$ both range over the 6D index set $\{0,1,2,3,5,6\}$. The field subscripts $A$ and $B$ denote the two Waters fields, never coordinate indices.
 
 **Sign convention (this series):** The kinetic term for scalar fields is $-\frac{1}{2}g^{AB}\partial_A\Psi\,\partial_B\Psi$ throughout all volumes. With the metric signature $(-,+,+,+,+,+)$, this gives positive kinetic energy for time derivatives: $g^{00}(-\frac{1}{2})\dot\Psi^2 = -(-e^{-2A}/c^2)(\frac{1}{2})\dot\Psi^2 = +\frac{1}{2c^2}e^{-2A}\dot\Psi^2 > 0$. Chapter 7 Eq. (1.7.4) was published in an earlier revision with the $+\tfrac{1}{2}$ kinetic sign; it was corrected to the canonical $-\tfrac{1}{2}$ in Rev. 2026-05-14. Both chapters now use the same series-canonical convention.
 
@@ -97,7 +99,7 @@ The simplest potential satisfying these requirements is the shifted Mexican hat 
 
 $$V(\Psi_A) = \frac{\lambda_A}{4!}\left(\Psi_A^2 - v_A^2\right)^2 + V_0 \tag{1.6.5}$$
 
-where $\lambda_A$ is the self-coupling constant, $v_A$ is the vacuum expectation value, and $V_0 > 0$ is the vacuum energy offset. At the minimum ($\Psi_A = v_A$), the quartic term vanishes and the potential gives:
+where $\lambda_A$ is the self-coupling constant, $v_A$ is the vacuum expectation value, and $V_0 > 0$ is the vacuum energy offset. We write the coupling as $\lambda_A/4!$ (rather than $\lambda_A/4$ or $\lambda_A$) so that the resulting equation of motion carries the conventional $\phi^4$ normalization: differentiating gives $V'(\Psi_A) = (\lambda_A/6)\,\Psi_A(\Psi_A^2 - v_A^2)$, so the field equation (1.6.13) reads $\Box_6\Psi_A = (\lambda_A/6)\,\Psi_A(\Psi_A^2 - v_A^2)$ — the standard form in which $\lambda_A$ is the physical quartic coupling. This is the same $1/4!$ convention used for the Higgs and other $\phi^4$ scalars in the standard literature. At the minimum ($\Psi_A = v_A$), the quartic term vanishes and the potential gives:
 
 $$V(v_A) = V_0 = \rho_\Lambda c^2 \approx 5.2 \times 10^{-10}\text{ J/m}^3 \tag{1.6.5a}$$
 
@@ -107,7 +109,7 @@ This is the cosmological constant. The vacuum energy $V_0$ is not a free paramet
 
 **Waters Below action.** The action for $\Psi_B$ has the same kinetic structure but a different potential:
 
-$$S_B = \int d^6X\,\sqrt{-g^{(6)}}\left[-\frac{1}{2}g^{AB}\partial_A\Psi_B\,\partial_B\Psi_B - U(\Psi_B)\right] \tag{1.6.6}$$
+$$S_B = \int d^6X\,\sqrt{-g^{(6)}}\left[-\frac{1}{2}\,\partial_M\Psi_B\,\partial^M\Psi_B - U(\Psi_B)\right], \qquad M \in \{0,1,2,3,5,6\} \tag{1.6.6}$$
 
 The potential for $\Psi_B$ must produce *attractive*, *clustering* behavior — the opposite of $\Psi_A$. The appropriate form is:
 
