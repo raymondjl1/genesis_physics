@@ -6,7 +6,7 @@
 
 ## §10.0 Introduction — Why We Need a Counting Machine
 
-Chapter 9 derived the four laws of thermodynamics with full rigor. Every law—Zeroth, First, Second, Third—emerged as a theorem from the zone architecture. The partition function Z appeared as the master generating function, the Maxwell relations connected measurable quantities to hidden ones, and the phase-dependent Second Law revealed that entropy's arrow is not universal but depends on the sustaining coupling κ. Per Ch 1 §1.1, the test-particle action underwriting these microscopic counts descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8; the statistical ensembles of this chapter are ensembles of states *on that surface*.
+Chapter 9 derived the four laws of thermodynamics with full rigor. Every law — Zeroth, First, Second, Third — emerged as a theorem from the zone architecture. The partition function Z appeared as the master generating function, the Maxwell relations connected measurable quantities to hidden ones, and the phase-dependent Second Law revealed that entropy's arrow is not universal but depends on the sustaining coupling κ. Per Ch 1 §1.1, the test-particle action underwriting these microscopic counts descends from the Firmament metric established in Vol 1 Ch 5 — the induced metric on the *rāqîaʿ* of Gen 1:6–8; the statistical ensembles of this chapter are ensembles of states *on that surface*.
 
 But Chapter 9 left a critical question unanswered: **what happens when we actually count?**
 
@@ -764,7 +764,7 @@ These are the starting equations for quantum statistical mechanics. Volume 4 sol
 
 ## §10.8 Summary — What This Chapter Established
 
-Let us collect the key results:
+We collect the key results:
 
 ### The Derivation Chain (Complete)
 

@@ -71,7 +71,7 @@ The relationship between the two frames is encoded in a **rotation matrix** $R(t
 
 $$\mathbf{r}_{\text{space}} = R(t) \, \mathbf{r}_{\text{body}} \tag{3.4.4}$$
 
-The angular velocity in the body frame is related to the angular velocity in the space frame by:
+In turn, the angular velocity in the body frame is related to the angular velocity in the space frame by:
 
 $$\boldsymbol{\omega}_{\text{body}} = R^T \boldsymbol{\omega}_{\text{space}} \tag{3.4.5}$$
 

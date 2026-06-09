@@ -4,15 +4,15 @@
 
 We know forces. We know motion. But what are the *things* that move? What, fundamentally, is matter?
 
-This is the question we must answer now, because everything we have built so far—the zone manifold geometry, the wave equation, the structure of the Firmament (רָקִיעַ, *raqia'*—the stretched-out membrane)—has been the *stage*. Matter is what happens *on* that stage when the architecture resonates.
+This is the question we must answer now, because everything we have built so far — the zone manifold geometry, the wave equation, the structure of the Firmament (רָקִיעַ, *raqia'* — the stretched-out membrane) — has been the *stage*. Matter is what happens *on* that stage when the architecture resonates.
 
 Here is the crucial insight: matter is not fundamental. Matter is what happens when the Firmament membrane vibrates at discrete frequencies, stabilized by topology.
 
-It is worth noting, as motivation only, a terminological resonance with the prologue to John's Gospel, where reality is described through the Greek term *Logos* (John 1:1–3)—a word whose lexical range includes rational structure, ordering principle, and intelligible pattern. The physics in this chapter neither depends on nor argues from that text: what we will *derive* is that matter is *structured*—not random or arbitrary, but organized by topological law into discrete, stable, identifiable forms. The architecture resonates, and what it produces is ordered, repeatable, mathematically precise configurations. Whether one reads that order as evidence of design or as a brute fact of nature is a question we leave entirely to the reader; the derivation that follows stands either way.
+It is worth noting, as motivation only, a terminological resonance with the prologue to John's Gospel, where reality is described through the Greek term *Logos* (John 1:1–3) — a word whose lexical range includes rational structure, ordering principle, and intelligible pattern. The physics in this chapter neither depends on nor argues from that text: what we will *derive* is that matter is *structured* — not random or arbitrary, but organized by topological law into discrete, stable, identifiable forms. The architecture resonates, and what it produces is ordered, repeatable, mathematically precise configurations. Whether one reads that order as evidence of design or as a brute fact of nature is a question we leave entirely to the reader; the derivation that follows stands either way.
 
-Think of Chladni plates. You have a flat surface—a plate of metal or glass. Vibrate it with a specific frequency. Sand scattered on the plate will not stay everywhere; it collects at the *nodes* of the vibration—the points where the surface barely moves. The sand is not being *pulled* to those nodes by some mysterious force. Rather, the oscillating field excludes the sand from the antinodes (where motion is maximum) and permits it to rest at the nodes. The pattern you see is the field's topology making itself visible.
+Think of Chladni plates. You have a flat surface — a plate of metal or glass. Vibrate it with a specific frequency. Sand scattered on the plate will not stay everywhere; it collects at the *nodes* of the vibration — the points where the surface barely moves. The sand is not being *pulled* to those nodes by some mysterious force. Rather, the oscillating field excludes the sand from the antinodes (where motion is maximum) and permits it to rest at the nodes. The pattern you see is the field's topology making itself visible.
 
-The same is true of the Firmament. The Waters Above and the Waters Below are not just abstract fields. They vibrate. When they vibrate at precisely the right frequencies—frequencies permitted by the geometry of the extra dimensions—stable configurations emerge. These configurations are topologically protected: they cannot smoothly decay away. And these configurations are what we call *particles*—electrons, quarks, photons, all the building blocks of matter.
+The same is true of the Firmament. The Waters Above and the Waters Below are not just abstract fields. They vibrate. When they vibrate at precisely the right frequencies — frequencies permitted by the geometry of the extra dimensions — stable configurations emerge. These configurations are topologically protected: they cannot smoothly decay away. And these configurations are what we call *particles* — electrons, quarks, photons, all the building blocks of matter.
 
 The question is not "Where do particles come from?" The question is "Why do only *certain* vibration patterns persist? Why are there discrete masses? Why is an electron always an electron?" The answer lies in topology.
 
@@ -23,11 +23,11 @@ In this chapter, we will:
 3. Introduce the vacuum manifold and the symmetry-breaking structure that stabilizes configurations (§6.3).
 4. Classify topological defects by their homotopy groups (§6.4).
 5. Show how fermions emerge from vortex defects via the Jackiw-Rossi mechanism (§6.5).
-6. Explain topological stability—why matter cannot simply decay (§6.6).
+6. Explain topological stability — why matter cannot simply decay (§6.6).
 7. Connect this to the pattern operators and the Genesis language of "gathering" (§6.7).
 8. Summarize and prepare for Chapter 7, where we calculate actual particle masses (§6.8).
 
-This is where physics becomes *rigid*. This is where the universe gains structure and *stuff*. This is where Genesis 1:9—"Let the waters below the firmament be gathered into one place, and let the dry land appear"—begins to have a precise physical meaning.
+This is where physics becomes *rigid*. This is where the universe gains structure and *stuff*. This is where Genesis 1:9 — "Let the waters below the firmament be gathered into one place, and let the dry land appear" — begins to have a precise physical meaning.
 
 [FIGURE: Fig 3.6.1 — Chapter roadmap: from wave equation to standing waves to topological defects to particles. Flowchart showing connections between Firmament geometry, boundary conditions, mode quantization, vacuum manifold, and topological classification.]
 
@@ -37,7 +37,7 @@ This is where physics becomes *rigid*. This is where the universe gains structur
 
 Let us begin with something we all understand: the vibrations of a drum.
 
-A drumhead is a membrane stretched across a circular opening. When you strike it, it vibrates. But it does not vibrate in all possible ways. It vibrates in *modes*—specific patterns of motion. The fundamental mode is the simplest: the whole head moves up and down together. Higher modes are more complex: nodes (lines or points where the head does not move) divide the head into regions that oscillate in opposite phases.
+A drumhead is a membrane stretched across a circular opening. When you strike it, it vibrates. But it does not vibrate in all possible ways. It vibrates in *modes* — specific patterns of motion. The fundamental mode is the simplest: the whole head moves up and down together. Higher modes are more complex: nodes (lines or points where the head does not move) divide the head into regions that oscillate in opposite phases.
 
 Which modes appear depends on the boundary condition: the edge of the drumhead is fixed. This single constraint forces the vibrations into discrete, quantized modes.
 
@@ -49,11 +49,11 @@ $$\mu \, \Box_\gamma \Phi^\xi + m_{\text{eff}}^2 \Phi^\xi = 0 \quad \text{(3.6.1
 
 where $\Box_\gamma$ is the d'Alembertian in the four-dimensional metric $\gamma_{\mu\nu}$ of ordinary spacetime, and $m_{\text{eff}}^2$ is an effective mass parameter that depends on the extra-dimensional structure.
 
-The field $\Phi^\xi$ lives in both spacetime and the extra-dimensional space. Now, the wave equation (3.6.1) involves derivatives in *all six* coordinates—four spacetime dimensions plus ξ and η. Solving it directly would be hopelessly complicated. But here is the key insight: the extra dimensions have their *own* geometry, independent of the four spacetime dimensions. The ξ-direction has its own scale and boundary conditions; so does the η-direction. This means the physics in each sector can be analyzed separately, and the full solution is built by combining them. This is the physical motivation for writing:
+The field $\Phi^\xi$ lives in both spacetime and the extra-dimensional space. Now, the wave equation (3.6.1) involves derivatives in *all six* coordinates — four spacetime dimensions plus ξ and η. Solving it directly would be hopelessly complicated. But here is the key insight: the extra dimensions have their *own* geometry, independent of the four spacetime dimensions. The ξ-direction has its own scale and boundary conditions; so does the η-direction. This means the physics in each sector can be analyzed separately, and the full solution is built by combining them. This is the physical motivation for writing:
 
 $$\Phi^\xi(t, \vec{x}, \xi, \eta) = \phi(t, \vec{x}) \cdot \chi_n(\xi) \cdot \zeta_m(\eta) \quad \text{(3.6.2)}$$
 
-This is *separation of variables*—the same technique used for the hydrogen atom (separate radial and angular parts) or a vibrating rectangular membrane (separate $x$ and $y$ modes). The full field is a product of:
+This is *separation of variables* — the same technique used for the hydrogen atom (separate radial and angular parts) or a vibrating rectangular membrane (separate $x$ and $y$ modes). The full field is a product of:
 - A four-dimensional mode $\phi(t, \vec{x})$ that evolves in spacetime.
 - A mode $\chi_n(\xi)$ in the ξ-direction (Waters Above).
 - A mode $\zeta_m(\eta)$ in the η-direction (Waters Below).
@@ -62,9 +62,9 @@ The integers $n$ and $m$ label which mode we are in. They are quantized because 
 
 ### Extra-Dimensional Scales and Boundary Conditions
 
-The ξ-dimension has a characteristic scale, $\xi_A \approx 3 \times 10^{26}$ m—a cosmological distance (on the order of the current horizon size). 
+The ξ-dimension has a characteristic scale, $\xi_A \approx 3 \times 10^{26}$ m — a cosmological distance (on the order of the current horizon size). 
 
-The η-dimension has a characteristic scale, $\eta_B \approx 1.3 \times 10^{-15}$ m—a subatomic distance (on the order of the classical electron radius or smaller).
+The η-dimension has a characteristic scale, $\eta_B \approx 1.3 \times 10^{-15}$ m — a subatomic distance (on the order of the classical electron radius or smaller).
 
 These are *not* small compact dimensions in the traditional Kaluza-Klein sense. Rather, they represent the radii of curvature (or the scales of variation) of the Water-field manifolds. The ξ-field is stretched over a cosmological scale, smoothly varying across the age of the universe. The η-field is crumpled at subatomic scales, with sharp variation in the core of particles.
 
@@ -80,7 +80,7 @@ where the factor $e^{2B_0}$ comes from the extra-dimensional metric components (
 
 $$\chi_n \zeta_m \, \Box_\gamma \phi + \frac{\phi \zeta_m}{e^{2B_0}} \frac{d^2\chi_n}{d\xi^2} + \frac{\phi \chi_n}{e^{2B_0}} \frac{d^2\zeta_m}{d\eta^2} + m_{\text{eff}}^2 \phi \chi_n \zeta_m = 0$$
 
-Dividing through by $\phi \chi_n \zeta_m$ (which is nonzero away from nodes), each term depends on a *different* set of coordinates. A function of $(t, \vec{x})$ plus a function of $\xi$ alone plus a function of $\eta$ alone can equal zero only if each is separately constant. This yields three independent equations—one for each sector. The separated equation for the ξ-direction is:
+Dividing through by $\phi \chi_n \zeta_m$ (which is nonzero away from nodes), each term depends on a *different* set of coordinates. A function of $(t, \vec{x})$ plus a function of $\xi$ alone plus a function of $\eta$ alone can equal zero only if each is separately constant. This yields three independent equations — one for each sector. The separated equation for the ξ-direction is:
 
 $$\frac{d^2 \chi_n}{d\xi^2} + k_\xi^2 \chi_n = 0 \quad \text{(3.6.4)}$$
 
@@ -133,14 +133,14 @@ Now comes the crucial observation: compare the two scales.
 The ξ-sector gives:
 $$E_\xi^{(1)} = \frac{2\pi \hbar c}{\xi_A} \approx \frac{2\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{3 \times 10^{26} \, \text{m}} \approx 6.6 \times 10^{-52} \, \text{J} \approx 4 \times 10^{-33} \, \text{eV}$$
 
-This is *absurdly small*—far smaller than any particle mass we observe. So the ξ-sector contributes negligibly to particle masses. The integer $n_\xi$ labels something else—perhaps a cosmological degree of freedom—but it is not the primary source of particle masses.
+This is *absurdly small* — far smaller than any particle mass we observe. So the ξ-sector contributes negligibly to particle masses. The integer $n_\xi$ labels something else — perhaps a cosmological degree of freedom — but it is not the primary source of particle masses.
 
 The η-sector gives:
 $$E_\eta^{(1)} = \frac{2\pi \hbar c}{\eta_B} \approx \frac{2\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{1.3 \times 10^{-15} \, \text{m}} \approx 3 \times 10^{-10} \, \text{J} \approx 1.9 \times 10^9 \, \text{eV} = 1.9 \, \text{GeV}$$
 
 (Note: This value requires dimensional verification — the units of $E_\eta^{(1)}$ in the current notation should be confirmed before citing this result. An independent dimensional check using the standard formula gives a result in the range 2–5 GeV depending on the numerical prefactor convention; the discrepancy should be resolved in the detailed derivation.)
 
-This is in the *MeV to GeV range*—the scale of particle physics! The η-sector dominates.
+This is in the *MeV to GeV range* — the scale of particle physics! The η-sector dominates.
 
 **This mass hierarchy is not accidental.** The fact that $\eta_B \ll \xi_A$ means the η-modes have high energy cost, while the ξ-modes have negligible cost. So particles are built from η-sector excitations (which are expensive and therefore discrete) while their large-scale properties may involve ξ-sector quantum numbers (which are essentially free).
 
@@ -154,7 +154,7 @@ $$\boxed{m_0^2 c^4 = E_\xi^2 + E_\eta^2 + E_{\text{bind}}^2} \quad \text{(3.6.8)
 
 where $E_{\text{bind}}$ is a binding energy from symmetry breaking and topological structure (which we will discuss in the next section).
 
-This is the *rest mass formula*. It says: the rest mass of a particle is determined by its quantum numbers in the extra dimensions, plus its binding energy. Different combinations $(n_\xi, n_\eta)$ give different rest masses. Only certain combinations are *stable*—those protected by topology.
+This is the *rest mass formula*. It says: the rest mass of a particle is determined by its quantum numbers in the extra dimensions, plus its binding energy. Different combinations $(n_\xi, n_\eta)$ give different rest masses. Only certain combinations are *stable* — those protected by topology.
 
 ### The Full Dispersion Relation
 
@@ -164,17 +164,17 @@ $$\boxed{\omega^2 = c^2 |\vec{k}|^2 + \frac{(2\pi c n_\xi)^2}{\xi_A^2} + \frac{(
 
 where $\omega_0 = m_0 c^2 / \hbar$ is the bare rest frequency.
 
-This equation tells us: a particle is a *wave* in four-dimensional spacetime, but it is also a *standing wave* in the extra dimensions. The standing-wave nature is what gives it a *rest mass*. The spatial extent of the standing-wave pattern (in the η-direction) is roughly $\eta_B$, which explains why particles are so small—much smaller than atomic scales.
+This equation tells us: a particle is a *wave* in four-dimensional spacetime, but it is also a *standing wave* in the extra dimensions. The standing-wave nature is what gives it a *rest mass*. The spatial extent of the standing-wave pattern (in the η-direction) is roughly $\eta_B$, which explains why particles are so small — much smaller than atomic scales.
 
 ---
 
 ## §6.3 The Vacuum Manifold — Where Stability Begins
 
-But wait. A standing wave, by itself, is fragile. Pluck a guitar string and it will vibrate—but then friction and radiation gradually damp the vibrations away. It does not persist forever.
+But wait. A standing wave, by itself, is fragile. Pluck a guitar string and it will vibrate — but then friction and radiation gradually damp the vibrations away. It does not persist forever.
 
 Why, then, do particles persist? Why does an electron not simply decay into radiation?
 
-The answer is that the Firmament is not a passive medium. It has *structure*. The Waters have *preferred configurations*—ground states where the energy is minimized. These ground states are not unique. Instead, they form a *manifold*—a space of equivalent ground states. And configurations that wrap around this manifold in a non-trivial way are *topologically protected*. They cannot smoothly decay to the true vacuum.
+The answer is that the Firmament is not a passive medium. It has *structure*. The Waters have *preferred configurations* — ground states where the energy is minimized. These ground states are not unique. Instead, they form a *manifold* — a space of equivalent ground states. And configurations that wrap around this manifold in a non-trivial way are *topologically protected*. They cannot smoothly decay to the true vacuum.
 
 ### Symmetry Breaking and the Mexican Hat
 
@@ -196,7 +196,7 @@ But which *direction* in field space? The field $\Psi_A$ can be written as $\Psi
 
 $$M_A = \{ \Psi_A = v_A e^{i\theta} : \theta \in [0, 2\pi) \} \cong S^1 \quad \text{(3.6.12)}$$
 
-This is a *circle*—the first homotopy group is $\pi_1(S^1) = \mathbb{Z}$.
+This is a *circle* — the first homotopy group is $\pi_1(S^1) = \mathbb{Z}$.
 
 Similarly, in the η-direction, the Standard Model sector has its own symmetry-breaking structure. The full gauge group of the Standard Model is $G = SU(3)_c \times SU(2)_L \times U(1)_Y$. The Higgs mechanism (which we will derive from the Firmament geometry in Chapter 7) breaks this to the residual symmetry $H = SU(3)_c \times U(1)_{\text{em}}$ — color remains unbroken, and the unbroken electromagnetic U(1) is a combination of weak isospin and hypercharge.
 
@@ -218,7 +218,7 @@ The first factor, $S^1$, is the U(1) symmetry of the ξ-sector Waters field. The
 
 Now here is the profound point: *a particle is a configuration of the Firmament field that wraps non-trivially around $M_{\text{vac}}$*.
 
-A trivial configuration is one where the field is everywhere on the same point of the vacuum manifold—say, $\Psi_A = v_A$ everywhere. This is the true vacuum.
+A trivial configuration is one where the field is everywhere on the same point of the vacuum manifold — say, $\Psi_A = v_A$ everywhere. This is the true vacuum.
 
 A non-trivial configuration is one where, as you move around a loop in space (especially a loop encircling the core of the particle), the phase of $\Psi_A$ winds around the circle $S^1$ one or more times. This is a *vortex* defect. One full winding has winding number $n_\xi = 1$. Two full windings have $n_\xi = 2$, etc.
 
@@ -253,7 +253,7 @@ $$\pi_1(S^1) = \mathbb{Z} \quad \text{(winding numbers)}$$
 $$\pi_2(S^1) = 0 \quad \text{(no stable monopoles)}$$
 $$\pi_3(S^1) = 0 \quad \text{(no stable textures)}$$
 
-The first homotopy group, $\pi_1(S^1) = \mathbb{Z}$, is non-trivial. This means: you can map a circle (1-sphere) into $S^1$ in infinitely many distinct ways, labeled by an integer $n$—the number of times the circle winds around.
+The first homotopy group, $\pi_1(S^1) = \mathbb{Z}$, is non-trivial. This means: you can map a circle (1-sphere) into $S^1$ in infinitely many distinct ways, labeled by an integer $n$ — the number of times the circle winds around.
 
 ### Codimension and Defect Type
 
@@ -314,7 +314,7 @@ These two quantum numbers, combined with the radial excitation index $k$ (which 
 
 > **⚠ DERIVATION STATUS — BLOCKED (Rev. 2026-05-14):** The Jackiw-Rossi mechanism presented in this section is not a completed derivation. The mechanism requires a pre-existing spinor field in the background (specifically, a Dirac fermion in the vortex core) in order to produce zero modes with spin-1/2 statistics. Since zone architecture is a bosonic membrane theory, such a pre-existing spinor is precisely what needs to be derived — making the argument circular. This does not mean spin-1/2 cannot emerge from zone architecture; it means the Jackiw-Rossi route does not provide that derivation. This section should be understood as identifying a candidate mechanism that does not work in its current form, motivating the search for an alternative. See Open Problem OP-1 (Vol 6 Ch 14) for the research agenda. This chapter's standing-wave analysis for bosonic modes remains valid and is unaffected by this note.
 
-Here is where the machinery becomes concrete. Here is where fermions—the building blocks of all matter—emerge from the topology of the Firmament.
+Here is where the machinery becomes concrete. Here is where fermions — the building blocks of all matter — emerge from the topology of the Firmament.
 
 ### The Vortex Ansatz
 
@@ -384,7 +384,7 @@ Now we can identify particles:
 
 **Electron:** A unit-winding vortex with $n_\xi = 1$ in the ξ-sector and trivial η-sector winding $n_\eta = 0$. It has spin $S_z = 1/2$. The rest mass comes primarily from the η-sector kinetic energy (roughly 0.5 MeV based on the mass hierarchy), plus binding corrections.
 
-**Quarks:** Unit-winding vortices with $n_\xi = 1$ but with *fractional* η-sector winding $n_\eta = \pm 1/3, \pm 2/3$. The fractional winding arises because the η-sector has SU(3) color structure. The up and down quarks have $n_\eta = \pm 1/3$ (or color-rotated versions). Quarks are confined—the strong force binds them together—but they are topologically distinct from electrons and muons by their $n_\eta$ quantum number.
+**Quarks:** Unit-winding vortices with $n_\xi = 1$ but with *fractional* η-sector winding $n_\eta = \pm 1/3, \pm 2/3$. The fractional winding arises because the η-sector has SU(3) color structure. The up and down quarks have $n_\eta = \pm 1/3$ (or color-rotated versions). Quarks are confined — the strong force binds them together — but they are topologically distinct from electrons and muons by their $n_\eta$ quantum number.
 
 **Multiple Generations:** Beyond the ground-state zero mode, the Dirac equation has *excited states* (analog of Landau levels in a magnetic field). These correspond to *radial excitations* of the vortex profile. The radial excitation quantum number is $k = 0, 1, 2, \ldots$ These map onto the three generations of leptons and quarks:
 - $k = 0$: electron, electron neutrino, up quark, down quark (first generation).
@@ -475,19 +475,19 @@ In the Standard Model, baryon number is *almost* conserved. Protons are extremel
 
 In the Genesis framework, baryon number (and lepton number) arise from the η-sector topological charges. The conservation laws are consequences of the topology, not independent axioms.
 
-[FIGURE: Fig 3.6.7 — Topological vs. energetic stability. Left: a ball in a potential well (energetic stability—can be overcome with enough energy). Right: a knot in a rope (topological stability—cannot be undone without cutting). The field configuration is like the knot: its topological charge is a fundamental invariant.]
+[FIGURE: Fig 3.6.7 — Topological vs. energetic stability. Left: a ball in a potential well (energetic stability — can be overcome with enough energy). Right: a knot in a rope (topological stability — cannot be undone without cutting). The field configuration is like the knot: its topological charge is a fundamental invariant.]
 
 ---
 
 ## §6.7 Pattern Operators and the Gathering Process
 
-Recall from Vol 1 Chapter 9 the seven pattern operators—the morphological verbs that describe how order emerges from the Firmament's structure.
+Recall from Vol 1 Chapter 9 the seven pattern operators — the morphological verbs that describe how order emerges from the Firmament's structure.
 
 Now that we have identified particles with topological defects, we can map how these operators act:
 
 ### P̂₁: Localization
 
-*Why is localization needed?* Because a topological defect is not a diffuse, everywhere-present thing. It has a *core*—a specific place in space where the field winds. Without localization, there would be no particles, only uniform fields. The first pattern operator selects the *location* of a configuration. In our context: where does a vortex appear?
+*Why is localization needed?* Because a topological defect is not a diffuse, everywhere-present thing. It has a *core* — a specific place in space where the field winds. Without localization, there would be no particles, only uniform fields. The first pattern operator selects the *location* of a configuration. In our context: where does a vortex appear?
 
 A unit-winding vortex can exist anywhere in space. The pattern operator $\hat{P}_1$ selects the spatial coordinates $(t, \vec{x})$ where the vortex core is centered. The wavefunction $\Psi(t, \vec{x})$ specifies the probability amplitude for finding the vortex at position $\vec{x}$ at time $t$.
 
@@ -525,7 +525,7 @@ In particle physics, a key threshold is the creation of a particle-antiparticle 
 
 Another threshold is the confinement-deconfinement transition in the quark-gluon plasma. Above the critical temperature (roughly 200 MeV), quarks are deconfined; below, they are confined into hadrons.
 
-In the Genesis framework, these thresholds correspond to topological phase transitions—changes in which defects are energetically accessible.
+In the Genesis framework, these thresholds correspond to topological phase transitions — changes in which defects are energetically accessible.
 
 ### The Gathering of Genesis 1:9
 
@@ -589,8 +589,8 @@ We have established the foundation of particle physics within the Genesis framew
 
 - **Matter is topological.** Particles are not fundamental point objects; they are topological defects in the Waters fields.
 - **Discreteness is automatic.** The particle spectrum is discrete because only certain winding numbers are stable.
-- **Quantum numbers are topological.** Spin, charge, baryon number—these are topological invariants, not dynamical properties.
-- **Stability is topological.** Matter persists not by energetic accident, but by topology—a conservation law as fundamental as energy.
+- **Quantum numbers are topological.** Spin, charge, baryon number — these are topological invariants, not dynamical properties.
+- **Stability is topological.** Matter persists not by energetic accident, but by topology — a conservation law as fundamental as energy.
 
 ### What Remains for Chapter 7
 
@@ -626,7 +626,7 @@ The Genesis Physics series has four books:
 
 We are at a critical juncture. By the end of Vol 3, the reader will understand *why matter exists* and *how it persists*. In Volume 4 (Book 0, Vol 4), we will calculate *what particles exist* and *why they have the masses they do*.
 
-This is rigorous, derivable physics. It is also a framework that reveals the universe as *designed*—not chaotic, not accidental, but structured by topological law. Whether one calls that structure "God" or "nature" is a philosophical choice. But the structure is undeniable.
+This is rigorous, derivable physics. It is also a framework that reveals the universe as *designed* — not chaotic, not accidental, but structured by topological law. Whether one calls that structure "God" or "nature" is a philosophical choice. But the structure is undeniable.
 
 ### Open Questions
 

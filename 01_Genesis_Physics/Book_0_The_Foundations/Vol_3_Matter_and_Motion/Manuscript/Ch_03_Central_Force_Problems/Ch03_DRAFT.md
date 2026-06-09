@@ -489,10 +489,6 @@ where $b = L/(\mu v_\infty)$ is the **impact parameter** (the perpendicular dist
 
 ### §3.6.2 — The Differential Cross-Section
 
-[FIGURE: Fig 3.3.5 — Scattering geometry: impact parameter to deflection angle]
-
-### §3.6.2 — The Differential Cross-Section
-
 The concept of a cross-section quantifies "how effective is the scattering center at deflecting incoming particles?" Imagine a beam of particles approaching the scattering center (a massive body for gravity, a nucleus for Coulomb). Each particle has a specific impact parameter $b$ — the perpendicular distance between its incoming trajectory and the center. Different impact parameters produce different deflection angles $\chi(b)$, as given by Eq. (3.3.28).
 
 [FIGURE: Fig 3.3.5 — Scattering geometry: impact parameter to deflection angle]

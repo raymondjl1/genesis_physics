@@ -20,13 +20,13 @@ That gap is the subject of this chapter. We're going to fill it by deriving Newt
 
 Here's what we'll show:
 
-1. **First Law (Inertia):** In the absence of forces, objects move in straight lines at constant velocity. This isn't a mysterious property of matter—it's the statement that geodesics on flat spacetime are straight lines. Remove curvature, remove forces, and you get straight-line motion automatically.
+1. **First Law (Inertia):** In the absence of forces, objects move in straight lines at constant velocity. This isn't a mysterious property of matter — it's the statement that geodesics on flat spacetime are straight lines. Remove curvature, remove forces, and you get straight-line motion automatically.
 
-2. **Second Law (F=ma):** We will show that the *form* of F=ma—the linear proportionality and equivalence of inertial and gravitational mass—is a geometric consequence of the test particle's coupling to the zone manifold. However, we must be completely honest: the value of mass itself is not derived in this chapter; it is a parameter of the test particle action. We will not derive what an electron's mass is, or why it has the value it does. That derivation comes in Chapter 7 (Origin of Mass) from Firmament resonance. What *is* derived here is that, given any test particle with coupling constant m to the metric, the relationship between external force and acceleration must be exactly F=ma, with the same m appearing in both the inertial and gravitational senses.
+2. **Second Law (F=ma):** We will show that the *form* of F=ma — the linear proportionality and equivalence of inertial and gravitational mass — is a geometric consequence of the test particle's coupling to the zone manifold. However, we must be completely honest: the value of mass itself is not derived in this chapter; it is a parameter of the test particle action. We will not derive what an electron's mass is, or why it has the value it does. That derivation comes in Chapter 7 (Origin of Mass) from Firmament resonance. What *is* derived here is that, given any test particle with coupling constant m to the metric, the relationship between external force and acceleration must be exactly F=ma, with the same m appearing in both the inertial and gravitational senses.
 
-3. **Third Law (Action-Reaction):** Every action has an equal and opposite reaction. This is not an empirical observation or an independent axiom—it's the consequence of the covariant conservation of stress-energy (derived in Vol 1 Ch 7 from the zone action's diffeomorphism invariance).
+3. **Third Law (Action-Reaction):** Every action has an equal and opposite reaction. This is not an empirical observation or an independent axiom — it's the consequence of the covariant conservation of stress-energy (derived in Vol 1 Ch 7 from the zone action's diffeomorphism invariance).
 
-Here's the derivation chain we'll trace:
+The derivation chain we'll trace is:
 
 $$\boxed{\text{Zone Manifold Geometry (Vol 1)} \to \text{Geodesic Motion} \to \text{Test Particle Action} \to \text{Covariant Force Equation} \to \text{Newton's Laws}}$$
 
@@ -36,7 +36,7 @@ Let me be completely clear about what assumptions we *are* making:
 
 - The zone manifold geometry is real and is the stage on which matter moves (Vol 1 Ch 3).
 - The Firmament is the 4D hypersurface accessible to test particles (Vol 1 Ch 5).
-- The action principle—the statement that the true dynamics minimize the action $S = \int L \, dt$—is fundamental (Vol 1 Ch 8).
+- The action principle — the statement that the true dynamics minimize the action $S = \int L \, dt$ — is fundamental (Vol 1 Ch 8).
 - Covariant energy-momentum conservation holds (Vol 1 Ch 7, Eq. 1.7.17).
 - Non-gravitational forces (electromagnetic, nuclear, etc.) couple minimally to test particles through the gauge structure (Vol 2 Ch 5).
 
@@ -71,7 +71,7 @@ The Hebrew name for that surface, in Gen 1:6–8, is *rāqîaʿ*: a hammered, st
 
 ---
 
-## §1.2: The Geodesic Equation—Motion Without Force
+## §1.2: The Geodesic Equation — Motion Without Force
 
 Before we can discuss what forces *do*, we need to know what happens when there are *no* forces. That's where geodesics come in.
 
@@ -83,7 +83,7 @@ Mathematically, a geodesic is a curve $x^\mu(\tau)$ (where $\tau$ is a parameter
 
 $$\boxed{\frac{d^2 x^\mu}{d\tau^2} + \Gamma^\mu_{\alpha\beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0 \quad \text{(Eq. 3.1.1)}}$$
 
-The symbols $\Gamma^\mu_{\alpha\beta}$ are the **Christoffel symbols**, which encode the curvature and structure of the manifold. They're not forces—they're purely geometric. Every manifold has its own Christoffel symbols, determined by its metric $g_{\mu\nu}$.
+The symbols $\Gamma^\mu_{\alpha\beta}$ are the **Christoffel symbols**, which encode the curvature and structure of the manifold. They're not forces — they're purely geometric. Every manifold has its own Christoffel symbols, determined by its metric $g_{\mu\nu}$.
 
 We saw this equation before in Vol 2 Ch 2 (Eq. 2.2.44) in the context of gravity. We know that a test particle falling in a gravitational field follows a geodesic of the spacetime metric. What we're emphasizing now is that *any* free particle on the zone manifold follows geodesics, regardless of what forces exist elsewhere. Geodesics are the "natural" paths that the geometry prescribes.
 
@@ -103,7 +103,7 @@ The condition that the velocity 4-vector is normalized along the geodesic is:
 
 $$g_{\mu\nu} u^\mu u^\nu = -c^2 \quad \text{(for massive particles)}$$
 
-This is a constraint that flows from the metric itself, not from physics—it's purely geometric.
+This is a constraint that flows from the metric itself, not from physics — it's purely geometric.
 
 ### Geodesic Deviation
 
@@ -133,7 +133,7 @@ This is the key to the First Law.
 
 ---
 
-## §1.3: Newton's First Law—Inertia from Geometry
+## §1.3: Newton's First Law — Inertia from Geometry
 
 **Statement:** An object at rest remains at rest, and an object in uniform motion continues in a straight line at constant velocity, unless acted upon by an external force.
 
@@ -165,7 +165,7 @@ The velocity is constant. Integrating again:
 
 $$x^\mu(\tau) = x^\mu_0 + u^\mu_0 \tau$$
 
-This is a straight line in spacetime—a **worldline** at constant 4-velocity. In the spatial components (taking $\tau \approx t$ in the non-relativistic limit):
+This is a straight line in spacetime — a **worldline** at constant 4-velocity. In the spatial components (taking $\tau \approx t$ in the non-relativistic limit):
 
 $$\mathbf{x}(t) = \mathbf{x}_0 + \mathbf{v}_0 t$$
 
@@ -177,13 +177,13 @@ where $\mathbf{v}_0$ is constant.
 
 Why does inertia exist? Why do objects "resist" being accelerated?
 
-The zone manifold perspective gives a clear answer: **Inertia is the statement that geodesics on flat spacetime are straight lines.** An object wants to follow the straightest possible path. To make it deviate from that path requires energy input—a force. The "resistance" is not some mysterious internal property of matter; it's the curvature (or, in flat space, the absence of curvature) of the space it lives in.
+The zone manifold perspective gives a clear answer: **Inertia is the statement that geodesics on flat spacetime are straight lines.** An object wants to follow the straightest possible path. To make it deviate from that path requires energy input — a force. The "resistance" is not some mysterious internal property of matter; it's the curvature (or, in flat space, the absence of curvature) of the space it lives in.
 
-Objects with different masses don't behave differently in the absence of forces. They all follow the same geodesics. (This is the **equivalence principle**, which we'll revisit.) What differs is how much force is needed to deviate them from geodesics—and that's where mass comes in.
+Objects with different masses don't behave differently in the absence of forces. They all follow the same geodesics. (This is the **equivalence principle**, which we'll revisit.) What differs is how much force is needed to deviate them from geodesics — and that's where mass comes in.
 
 ### Inertial Frames from Geometry
 
-An **inertial frame** is a reference frame in which the First Law holds—in which free particles move in straight lines at constant velocity.
+An **inertial frame** is a reference frame in which the First Law holds — in which free particles move in straight lines at constant velocity.
 
 From the zone perspective: inertial frames are frames that are locally geodesic. A free-falling observer, who is following a geodesic, experiences an inertial frame. No forces feel like forces; everything floats freely.
 
@@ -195,7 +195,7 @@ In the non-relativistic limit on the Firmament (in the matter era where $a(t) \a
 
 *Two test particles near a massive object (indicated by a region of curvature):*
 
-- *Particle A (dashed line): Follows a geodesic of the curved spacetime. It curves toward the mass, but this is not due to a "force"—it's the straightest path in curved space. No external force acts.*
+- *Particle A (dashed line): Follows a geodesic of the curved spacetime. It curves toward the mass, but this is not due to a "force" — it's the straightest path in curved space. No external force acts.*
 - *Particle B (solid line): Experiences a rocket firing perpendicular to its geodesic, deviating it from the natural curved path. The deviation vector $a^\mu$ points away from the geodesic.*
 - *The force $f^\mu$ is exactly what's needed to produce this deviation.*
 
@@ -203,7 +203,7 @@ In the non-relativistic limit on the Firmament (in the matter era where $a(t) \a
 
 ---
 
-## §1.4: The Covariant Force Equation—F=ma as Geometry
+## §1.4: The Covariant Force Equation — F=ma as Geometry
 
 This is the headline derivation. We're going to show that F=ma emerges directly from the action principle applied to a test particle on the Firmament, without ever assuming F=ma as a postulate.
 
@@ -356,9 +356,9 @@ $$\frac{D u^\mu}{d\tau} = \frac{du^\mu}{d\tau} + \Gamma^\mu_{\alpha\beta} u^\alp
 
 In flat spacetime ($\Gamma = 0$), this reduces to the ordinary acceleration $du^\mu / d\tau$.
 
-In curved spacetime (like near a massive object), the Christoffel terms account for the curvature. The particle's worldline curves, but this is not due to an external force in the traditional sense—it's due to the geometry itself. An external force (like electromagnetism) would appear as an additional term on the right-hand side, changing the trajectory away from the geodesic.
+In curved spacetime (like near a massive object), the Christoffel terms account for the curvature. The particle's worldline curves, but this is not due to an external force in the traditional sense — it's due to the geometry itself. An external force (like electromagnetism) would appear as an additional term on the right-hand side, changing the trajectory away from the geodesic.
 
-The 4-force $f^\mu$ is the external agent: for electromagnetism, $f^\mu = q F^{\mu\nu} u_\nu$ (where $F^{\mu\nu}$ is the electromagnetic field tensor from Vol 2 Ch 3); for gravity, there is no separate force term—gravity is encoded in the metric $g_{\mu\nu}$ and thus in the Christoffel symbols on the left.
+The 4-force $f^\mu$ is the external agent: for electromagnetism, $f^\mu = q F^{\mu\nu} u_\nu$ (where $F^{\mu\nu}$ is the electromagnetic field tensor from Vol 2 Ch 3); for gravity, there is no separate force term — gravity is encoded in the metric $g_{\mu\nu}$ and thus in the Christoffel symbols on the left.
 
 ### The Mass Assumption: Honest Accounting
 
@@ -372,7 +372,7 @@ This is the right question to ask. Let me be completely honest.
 - The relationship between force and acceleration is **necessarily linear** in $m$: $F \propto m \cdot a$, not $F \propto m^2 \cdot a$ or $F \propto m^{1/2} \cdot a$ or any other power.
 - The same mass $m$ appears in both the inertial sense (how hard it is to accelerate the particle) and the gravitational sense (how strongly it couples to the gravitational potential). This equivalence is not an accident; it's a geometric theorem.
 
-**Where the real derivation comes:** The *value* of mass—why an electron has mass $m_e = 9.1 \times 10^{-31}$ kg and a proton has $m_p = 1.67 \times 10^{-27}$ kg—is not explained in this chapter. That explanation comes in **Chapter 7** (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the Firmament membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
+**Where the real derivation comes:** The *value* of mass — why an electron has mass $m_e = 9.1 \times 10^{-31}$ kg and a proton has $m_p = 1.67 \times 10^{-27}$ kg — is not explained in this chapter. That explanation comes in **Chapter 7** (Origin of Mass), where we derive particle masses from standing wave resonances of the Firmament itself. In that chapter, the Firmament membrane structure will be used to show that mass arises from localized excitations of the zone architecture, and the specific masses follow from the geometry and the boundary conditions.
 
 **What about uniqueness?** The form of the test particle action (Eq. 3.1.7), $S = -m \int d\tau + \int f_\mu dx^\mu + \ldots$, is not plucked from thin air. By the **Lovelock-type uniqueness arguments** (Vol 1 Ch 8, Five Principles), this is the unique diffeomorphism-invariant and reparametrization-invariant action for a worldline coupled to a metric. Any action that respects these fundamental symmetries must have this form (up to choice of coupling constants like $m$ and $q$). So while we are *postulating* that the particle action has this form, we are justified in doing so by:
 
@@ -384,7 +384,7 @@ This is the right question to ask. Let me be completely honest.
 
 ---
 
-## §1.5: The Non-Relativistic Limit—Recovering Newtonian F=ma
+## §1.5: The Non-Relativistic Limit — Recovering Newtonian F=ma
 
 The covariant equation (Eq. 3.1.9) is exact and beautiful, but it's not the form that Newton wrote down. Let's take the non-relativistic limit and recover the familiar $\mathbf{F} = m\mathbf{a}$.
 
@@ -466,7 +466,7 @@ In the zone framework:
 - **Inertial mass** ($m_i$ in the classical $\mathbf{F} = m_i \mathbf{a}$) measures how strongly a particle couples to the metric. In Eq. 3.1.9, $m$ is the inertial mass.
 - **Gravitational mass** ($m_g$ in the classical $\mathbf{F} = -m_g \nabla \Phi$) measures how strongly a particle couples to the gravitational potential. From Eq. 3.1.10, $m_g = m_i$.
 
-The equivalence of inertial and gravitational mass is not a coincidence or an empirical fact—**it's a geometric theorem.** Both masses arise from the same coupling: how a particle couples to the metric of the zone manifold.
+The equivalence of inertial and gravitational mass is not a coincidence or an empirical fact — **it's a geometric theorem.** Both masses arise from the same coupling: how a particle couples to the metric of the zone manifold.
 
 In later chapters (Vol 3 Ch 7), we'll derive mass from the zone architecture explicitly: mass arises from standing wave resonances on the Firmament.
 
@@ -488,7 +488,7 @@ In later chapters (Vol 3 Ch 7), we'll derive mass from the zone architecture exp
 
 ---
 
-## §1.6: Newton's Third Law—Action-Reaction from Conservation
+## §1.6: Newton's Third Law — Action-Reaction from Conservation
 
 **Statement:** If object A exerts a force on object B, then object B exerts an equal and opposite force on A.
 
@@ -572,7 +572,7 @@ $$\boxed{\mathbf{F}_A = -\mathbf{F}_B \quad \text{(Eq. 3.1.13)}}$$
 
 It's important to note when the Third Law breaks down:
 
-1. **Radiation reaction:** When an accelerating charged particle radiates electromagnetic waves, the radiation carries away momentum. The force on the particle from the field is not equal and opposite to the force the particle exerts on the field—the difference is the radiation reaction force. This is a correction to the Third Law, not a violation.
+1. **Radiation reaction:** When an accelerating charged particle radiates electromagnetic waves, the radiation carries away momentum. The force on the particle from the field is not equal and opposite to the force the particle exerts on the field — the difference is the radiation reaction force. This is a correction to the Third Law, not a violation.
 
 2. **Retarded interactions:** In reality, forces don't act instantaneously. Particle A exerts a force on B, but that force is carried by the field, which takes time to propagate. During the propagation time, the Third Law is not exactly satisfied locally, though it is satisfied when integrated over all space and time.
 
@@ -626,7 +626,7 @@ The mass $m$ cancels:
 
 $$\boxed{\frac{d^2 \mathbf{r}}{dt^2} = -\frac{G_4 M}{r^2} \hat{\mathbf{r}} \quad \text{(Eq. 3.1.17)}}$$
 
-This is the equation for geodesic motion in a weak gravitational field—the same equation we saw in Vol 2 Ch 2.
+This is the equation for geodesic motion in a weak gravitational field — the same equation we saw in Vol 2 Ch 2.
 
 ### Conservation Laws
 
@@ -752,13 +752,13 @@ All of these were derived, not postulated. The derivations trace back to:
 
 5. **We did not assume the specific numerical value of any particle mass.** That comes from Chapter 7.
 
-### The Skeptic's Strongest Objection—and Our Response
+### The Skeptic's Strongest Objection — and Our Response
 
 The Skeptic might say: "You claim to derive F=ma, but you're smuggling in mass as an assumption. Isn't that circular?"
 
 **Our response:** The Skeptic is partially right, and we are being honest about it. Here's what we actually claim:
 
-- **What we derive:** The form of F=ma—its linearity, the equivalence of inertial and gravitational mass, and the covariant structure including gravitational curvature.
+- **What we derive:** The form of F=ma — its linearity, the equivalence of inertial and gravitational mass, and the covariant structure including gravitational curvature.
 - **What we postulate:** That particles have *some* coupling constant to the metric (call it $m$). The uniqueness of the action ensures that the coupling must be through the mass term.
 - **What we do not claim:** That we have derived the value of mass from pure geometry. Different particles have different masses, and explaining those specific values requires the dynamical structure of the Firmament (Chapter 7).
 
@@ -789,7 +789,7 @@ This chapter has established the classical mechanics framework. The rest of Volu
 - **Chapters 6–8** show how matter forms from the zone architecture.
 - **Chapters 9–12** develop thermodynamics and statistical mechanics.
 
-By the end of Volume 3, the student will have a complete understanding of classical physics—not as a set of disconnected laws, but as a coherent whole flowing from the zone geometry.
+By the end of Volume 3, the student will have a complete understanding of classical physics — not as a set of disconnected laws, but as a coherent whole flowing from the zone geometry.
 
 ---
 
@@ -932,7 +932,7 @@ How would Newton's laws change if:
 
 (a) **Larger $G_4$:** The gravitational force would be stronger. Orbital velocities would be higher (Eq. 3.1.20: $v_{\text{orb}} \propto \sqrt{G_4}$). Kepler's Third Law would predict shorter orbital periods. The fundamental form of F=ma wouldn't change, but the magnitude of the gravitational force would.
 
-(b) **Positive curvature:** The Firmament geodesics would curve back on themselves. Straight-line motion would be impossible; objects would eventually curve around. Newton's First Law (straight-line inertial motion) would not hold globally, only locally. But Eq. 3.1.1 (the geodesic equation) would still apply—the derivation doesn't assume flat space, only locally flat.
+(b) **Positive curvature:** The Firmament geodesics would curve back on themselves. Straight-line motion would be impossible; objects would eventually curve around. Newton's First Law (straight-line inertial motion) would not hold globally, only locally. But Eq. 3.1.1 (the geodesic equation) would still apply — the derivation doesn't assume flat space, only locally flat.
 
 (c) **No gravitational field:** F=ma would still hold, but with $\mathbf{F}_{\text{grav}} = 0$. Only electromagnetic and nuclear forces would act. Objects would move in straight lines (geodesics) unless touched by these other forces.
 
@@ -948,7 +948,7 @@ Newton's Third Law, as stated, says $\mathbf{F}_{A \to B} = -\mathbf{F}_{B \to A
 
 But radiation breaks this symmetry. The particle radiates, and the radiation escapes to infinity. The momentum carried by the radiation is not returned to the particle. So locally, the forces don't balance.
 
-However, the Third Law is not violated—it's satisfied globally. If we integrate over all space and all time, the total momentum (particle + radiation field) is conserved. The apparent violation is because we're looking at a local, instantaneous moment rather than the full global picture.
+However, the Third Law is not violated — it's satisfied globally. If we integrate over all space and all time, the total momentum (particle + radiation field) is conserved. The apparent violation is because we're looking at a local, instantaneous moment rather than the full global picture.
 
 This is why we said in §1.6 that the Third Law is exact in closed systems and only approximately violated when energy/momentum escapes.
 
@@ -1080,7 +1080,7 @@ $$m \mathbf{a} = \mathbf{F}_{\text{grav}} + \mathbf{F}_{\text{ext}} = \mathbf{F}
 
 **Problem 3.3: Prove That No Other Force Law (e.g., F=ma²) Is Consistent with Stress-Energy Conservation**
 
-Suppose, hypothetically, that forces were proportional to acceleration squared: $F = \alpha m a^2$ for some constant $\alpha$. Show that this is incompatible with covariant stress-energy conservation $\nabla_\mu T^{\mu\nu} = 0$.
+Suppose, hypothetically, that forces were proportional to acceleration squared: $F = \alpha m a^2$ for some constant $\alpha$. Show that this is incompatible with covariant stress-energy conservation $\nabla_\mu T^{\mu\nu} = 0$. *(This argument uses the Noether link between translational symmetry and momentum conservation developed in Vol 1 Ch 7.)*
 
 **Solution:**
 
@@ -1143,7 +1143,7 @@ In this chapter, we have:
 
 4. **Shown the complete derivation chain** from zone geometry through gravitational dynamics to Kepler's laws.
 
-5. **Been honest about assumptions:** We postulated the zone manifold, the action principle, and the coupling to fields. Everything else—including F=ma—was derived.
+5. **Been honest about assumptions:** We postulated the zone manifold, the action principle, and the coupling to fields. Everything else — including F=ma — was derived.
 
 The student now understands Newton's laws not as mysterious axioms to memorize, but as geometric consequences of the zone manifold's structure. The next chapter will develop the machinery (Lagrangian and Hamiltonian mechanics) to solve even more complex problems.
 

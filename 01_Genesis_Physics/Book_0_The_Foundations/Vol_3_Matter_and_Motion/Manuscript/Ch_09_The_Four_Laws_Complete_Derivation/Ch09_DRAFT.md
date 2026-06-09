@@ -18,13 +18,13 @@ Here is the deepest question: **Are the laws of thermodynamics fundamental, or e
 
 The traditional answer: they are fundamental. They are handed to us as postulates (sometimes four postulates, sometimes three primary ones). We are told "entropy never decreases" and "energy is conserved" as immutable laws that no theory can violate.
 
-Genesis Physics gives a different answer: **the laws are theorems**. They emerge from deeper principles—the 6D action, membrane quantization, zone separation, and the sustaining coupling. They are as fundamental as Newton's laws are fundamental, which is to say: they are *very* fundamental, but not ultimate. Behind them lies the structure of the zone manifold itself.
+Genesis Physics gives a different answer: **the laws are theorems**. They emerge from deeper principles — the 6D action, membrane quantization, zone separation, and the sustaining coupling. They are as fundamental as Newton's laws are fundamental, which is to say: they are *very* fundamental, but not ultimate. Behind them lies the structure of the zone manifold itself.
 
 This is not a minor distinction. It means:
 
 1. **The Second Law may not be universal.** We will show in §9.5 that, within this framework, it depends on the value of κ — with d\mathcal{S}/dt = 0 in Phase 2 and d\mathcal{S}/dt = L·Δκ > 0 in Phase 3. If that derivation holds, the arrow of time is not written into the universe's constitution; it emerges from a phase transition.
 
-2. **Thermodynamics is connected to everything else.** The four laws are not isolated empirical rules—they follow from the same 6D action that generates electromagnetism, gravity, and particle physics. They are pieces of one fabric.
+2. **Thermodynamics is connected to everything else.** The four laws are not isolated empirical rules — they follow from the same 6D action that generates electromagnetism, gravity, and particle physics. They are pieces of one fabric.
 
 3. **The framework is in-principle testable (protocol pending).** If κ — or the entropy production rate L·Δκ — can be measured, the phase-dependent Second Law can be tested. This chapter does not yet specify the experiment that would measure κ, the numerical value the framework predicts, or the observation that would falsify it; supplying that concrete protocol is open work. What can be said now is that the claim is testable in principle: were such a measurement to contradict the phase-dependent prediction, the framework would be wrong.
 
@@ -65,7 +65,7 @@ Thermodynamics did not arise from a single experiment or a single postulate. It 
 
 **A Thought Experiment:** Imagine you are an alien civilization with no knowledge of thermodynamics. You have perfect knowledge of particle mechanics: you can compute F = ma for every atom, you know Quantum mechanics, you understand electromagnetism. Can you derive the Second Law from your knowledge of mechanics?
 
-The answer is YES—and here's how:
+The answer is YES — and here's how:
 
 1. Start with Hilbert space and Hamiltonian mechanics (quantum mechanics for your particle system).
 2. Quantize the system's normal modes.
@@ -98,7 +98,7 @@ The quantization scale is not arbitrary. It arises from the **topological quanti
 
 **Stage 3: Boltzmann's Constant k_B**
 
-At finite temperature, a macroscopic system has many accessible microstates. The number of states a particle can occupy depends on how finely we partition the phase space—and that partition size is set by **the de Broglie wavelength** $\lambda_{\text{dB}} = h / p$ compared to the Firmament lattice spacing. From this comparison emerges the scale of thermal energy: $k_B$. See research file DERIVE_KB_FROM_MEMBRANE.md.
+At finite temperature, a macroscopic system has many accessible microstates. The number of states a particle can occupy depends on how finely we partition the phase space — and that partition size is set by **the de Broglie wavelength** $\lambda_{\text{dB}} = h / p$ compared to the Firmament lattice spacing. From this comparison emerges the scale of thermal energy: $k_B$. See research file DERIVE_KB_FROM_MEMBRANE.md.
 
 **Stage 4: Spin-Statistics Theorem**
 
@@ -174,7 +174,7 @@ $$\boxed{\frac{1}{T} \equiv k_B \frac{\partial \ln \Omega}{\partial U}\bigg|_{V,
 With this definition, the equilibrium condition (3.9.5) becomes:
 $$\frac{1}{T_A} = \frac{1}{T_B} \quad \Rightarrow \quad \boxed{T_A = T_B} \tag{3.9.7}$$
 
-**This is the Zeroth Law.** Thermal equilibrium occurs when temperatures equalize—a direct consequence of multiplicity maximization.
+**This is the Zeroth Law.** Thermal equilibrium occurs when temperatures equalize — a direct consequence of multiplicity maximization.
 
 Equivalently, we define entropy as:
 $$\mathcal{S} \equiv k_B \ln \Omega \tag{1.11.10}$$
@@ -226,9 +226,9 @@ Evaluating these integrals (Gaussian integrals), each contributes $\frac{1}{2}k_
 
 $$\langle E_{\text{total}} \rangle = \frac{d}{2}k_B T \tag{3.9.13a}$$
 
-This is the **equipartition theorem**—and it emerges naturally from the Boltzmann distribution without additional postulates.
+This is the **equipartition theorem** — and it emerges naturally from the Boltzmann distribution without additional postulates.
 
-**Quantum regime** ($k_B T \lesssim \hbar\omega$): Modes with energy $E_n = \hbar\omega_n > k_B T$ are "frozen"—their occupation drops exponentially. The average energy of a single harmonic oscillator mode is:
+**Quantum regime** ($k_B T \lesssim \hbar\omega$): Modes with energy $E_n = \hbar\omega_n > k_B T$ are "frozen" — their occupation drops exponentially. The average energy of a single harmonic oscillator mode is:
 
 $$\langle E_{\text{mode}} \rangle = \frac{\partial}{\partial\beta}(-\ln Z) = \frac{\hbar\omega}{2} + \frac{\hbar\omega}{e^{\beta\hbar\omega} - 1} \tag{1.11.14}$$
 
@@ -252,7 +252,7 @@ Below $\Theta$, the mode freezes out. This mode freezing is the mechanism behind
 
 $$\Theta = \frac{(1.055 \times 10^{-34} \text{ J·s}) \times (10^{13} \text{ s}^{-1})}{1.381 \times 10^{-23} \text{ J/K}} \approx 760 \text{ K}$$
 
-At room temperature (300 K), this mode is partially frozen. Below 100 K, it contributes negligibly to the heat capacity. This is why solids cool more easily at low temperature—the modes are frozen out sequentially as temperature drops.
+At room temperature (300 K), this mode is partially frozen. Below 100 K, it contributes negligibly to the heat capacity. This is why solids cool more easily at low temperature — the modes are frozen out sequentially as temperature drops.
 
 ---
 
@@ -265,7 +265,7 @@ This is **not** a postulate. It is **Noether's theorem**, applied to time-transl
 
 ### 9.3.1 Derivation from Noether's Theorem
 
-The 6D action (1.11.1) is invariant under **time translation**: $t \to t + \Delta t$. By Noether's theorem, this symmetry produces a **conserved current**—the stress-energy tensor $T^\mu{}_\nu$—satisfying:
+The 6D action (1.11.1) is invariant under **time translation**: $t \to t + \Delta t$. By Noether's theorem, this symmetry produces a **conserved current** — the stress-energy tensor $T^\mu{}_\nu$ — satisfying:
 $$\nabla_\mu T^\mu{}_0 = 0 \tag{1.11.15}$$
 
 In ordinary spacetime, this means:
@@ -297,7 +297,7 @@ $$\delta E_\kappa = \int_{Z_2} d^3x\, \kappa(t) \, J(\vec{x})\, dt \tag{1.11.20}
 
 Here:
 - κ(t) is the **sustaining coupling strength** (dimensionless). Note: The κ parameter controls entropy exchange between zones. Its precise microscopic definition — relating κ to the zone field equations — is Research Task RT-3.κ. The coupling to the 6D action term $S_\kappa$ (Eq. 1.11.1) is the formal statement, but the explicit formula connecting κ to measurable decay rates or field amplitudes is an open research item.
-- $J(\vec{x})$ is the geometric source distribution in the Waters equations (Chapter 6, Eq. 1.6.12)—it specifies where and how strongly the sustaining field κ couples energy into Zone 2
+- $J(\vec{x})$ is the geometric source distribution in the Waters equations (Chapter 6, Eq. 1.6.12) — it specifies where and how strongly the sustaining field κ couples energy into Zone 2
 - δE_κ is the **sustaining energy input** from Zone 0 (the Godhead) through Zone 1 (Heaven Prime)
 
 [FIGURE: Fig 3.9.2 — The Extended First Law: Open vs. Closed System Energy Flows. Zone 2 system with three energy flows: δQ (heat from particle interactions), δW (work from bulk expansion), and δE_κ (sustaining input through κ coupling). Closed system shown as special case with δE_κ = 0. Phase 2 (κ_full sustaining fully) vs. Phase 3 (κ_partial insufficient) labeled.]
@@ -309,7 +309,7 @@ Here:
 The sustaining input is precisely balanced:
 $$\delta E_{\kappa, \text{full}} = \delta Q + \delta W \tag{3.9.17}$$
 
-Energy is conserved, but the system remains at constant entropy. There is no net increase in disorder. (This matches Genesis 2:1-3, where God rests on Day 7 with creation complete—the universe exists in the Edenic condition declared "very good," sustained in perfection indefinitely.)
+Energy is conserved, but the system remains at constant entropy. There is no net increase in disorder. (This matches Genesis 2:1-3, where God rests on Day 7 with creation complete — the universe exists in the Edenic condition declared "very good," sustained in perfection indefinitely.)
 
 **Phase 3 (Post-Fall: κ = κ_partial < κ_full)**
 
@@ -369,7 +369,7 @@ A reversible cycle operating between two temperature reservoirs $T_H$ (hot) and 
 The efficiency is:
 $$\eta = \frac{W_{\text{net}}}{Q_H} = 1 - \frac{Q_C}{Q_H} = 1 - \frac{T_C}{T_H} \tag{3.9.24}$$
 
-This is the **Carnot efficiency**—the maximum possible efficiency for any heat engine operating between two temperatures. Real engines are less efficient because they involve irreversible processes.
+This is the **Carnot efficiency** — the maximum possible efficiency for any heat engine operating between two temperatures. Real engines are less efficient because they involve irreversible processes.
 
 The key insight: even for the "perfect" (reversible) Carnot engine, not all heat can be converted to work. Some must be rejected to the cold reservoir. The "wasted" heat produces entropy, and only the work (which is completely ordered energy) is unavailable for entropy production.
 
@@ -424,7 +424,7 @@ $$\left(\frac{\partial \mathcal{S}}{\partial P}\right)_T = -\left(\frac{\partial
 From dH = T d\mathcal{S} + V dP:
 $$\left(\frac{\partial T}{\partial P}\right)_S = \left(\frac{\partial V}{\partial \mathcal{S}}\right)_P \tag{3.9.32}$$
 
-**Key insight:** These are not independent principles—they are **mathematical identities** following from the equality $\partial^2 F / \partial T \partial V = \partial^2 F / \partial V \partial T$. But their physical content is profound: they connect **easily measurable** quantities (like the rate at which P changes with T) to **hard-to-measure** quantities (like how S varies with V).
+**Key insight:** These are not independent principles — they are **mathematical identities** following from the equality $\partial^2 F / \partial T \partial V = \partial^2 F / \partial V \partial T$. But their physical content is profound: they connect **easily measurable** quantities (like the rate at which P changes with T) to **hard-to-measure** quantities (like how S varies with V).
 
 ### 9.4.3 The Thermodynamic Square
 
@@ -483,7 +483,7 @@ $$C_P - C_V = Nk_B \tag{3.9.38}$$
 From the Maxwell relation (3.9.30):
 $$\left(\frac{\partial \mathcal{S}}{\partial V}\right)_T = \left(\frac{\partial P}{\partial T}\right)_V \tag{3.9.39}$$
 
-This is striking: **entropy changes with volume can be computed from mechanical measurements of how pressure changes with temperature**! We need not measure entropy directly—a quantity that is hard to access—but instead measure P(T) at constant V. This is the power of thermodynamic potentials and Maxwell relations: they link measurable to hard-to-measure quantities.
+This is striking: **entropy changes with volume can be computed from mechanical measurements of how pressure changes with temperature**! We need not measure entropy directly — a quantity that is hard to access — but instead measure P(T) at constant V. This is the power of thermodynamic potentials and Maxwell relations: they link measurable to hard-to-measure quantities.
 
 **Example (ideal gas):** For an ideal gas, PV = Nk_B T, so:
 $$\left(\frac{\partial P}{\partial T}\right)_V = \frac{Nk_B}{V}$$
@@ -491,7 +491,7 @@ $$\left(\frac{\partial P}{\partial T}\right)_V = \frac{Nk_B}{V}$$
 The Maxwell relation predicts:
 $$\left(\frac{\partial \mathcal{S}}{\partial V}\right)_T = \frac{Nk_B}{V}$$
 
-Integrating: $\Delta\mathcal{S} = Nk_B \ln(V_2/V_1)$ for isothermal expansion. This matches the standard formula—confirming that Maxwell relations are not just formal, but reflect deep physical truths.
+Integrating: $\Delta\mathcal{S} = Nk_B \ln(V_2/V_1)$ for isothermal expansion. This matches the standard formula — confirming that Maxwell relations are not just formal, but reflect deep physical truths.
 
 ---
 
@@ -513,7 +513,7 @@ At any given instant, a macroscopic system with energy U, volume V, and particle
 The **entropy** is:
 $$\mathcal{S} = k_B \ln \Omega(U, V, N) \tag{1.11.10}$$
 
-Now suppose the system starts in a **special, low-entropy state**—e.g., all particles in the left half of a box. The initial multiplicity Ω_initial is small because there are few ways to arrange particles in that configuration.
+Now suppose the system starts in a **special, low-entropy state** — e.g., all particles in the left half of a box. The initial multiplicity Ω_initial is small because there are few ways to arrange particles in that configuration.
 
 When we **remove the constraint** (e.g., remove a partition), the system evolves freely. The set of microstates it can explore grows to include the entire energy shell. The new multiplicity is:
 $$\Omega_{\text{total}}(U, V, N) \geq \Omega_{\text{initial}} \tag{3.9.38}$$
@@ -531,7 +531,7 @@ $$P_{\text{reverse}} \sim 10^{-10^{23}} \quad \text{(never observed)} \tag{3.9.4
 
 ### 9.5.2 The Phase-Dependent Second Law: The κ-Mechanism
 
-Here is the **central discovery** of Genesis Physics: **the Second Law is not universal—it is phase-dependent**.
+Here is the **central discovery** of Genesis Physics: **the Second Law is not universal — it is phase-dependent**.
 
 **Phase 2 (Edenic, κ = κ_full):**
 
@@ -551,7 +551,7 @@ $$\frac{d\Omega}{dt}\bigg|_{\text{Phase 2}} = 0 \quad \Rightarrow \quad \boxed{\
 At the Fall, the coupling drops:
 $$\kappa(t) = \kappa_{\text{full}} - \Delta\kappa \, \theta(t - t_{\text{Fall}}) \tag{1.11.43}$$
 
-where $\Delta\kappa = \kappa_{\text{full}} - \kappa_{\text{partial}} > 0$ is the coupling deficit and θ is the Heaviside step function. (This phase transition represents God's judgment on human sin (Genesis 3:17-19) manifested in creation through reduced sustaining—the ground is cursed to toil, and death enters the created order as entropy rises.)
+where $\Delta\kappa = \kappa_{\text{full}} - \kappa_{\text{partial}} > 0$ is the coupling deficit and θ is the Heaviside step function. (This phase transition represents God's judgment on human sin (Genesis 3:17-19) manifested in creation through reduced sustaining — the ground is cursed to toil, and death enters the created order as entropy rises.)
 
 > **[Note: The precise mechanism by which the Fall reduced the sustaining coupling κ, and the derivation of the resulting entropy production rate, are developed in Volume 5, Chapter 8 (Zone Cosmological Model) and the associated appendix on phase transitions. Here we establish the logical structure: disorder increases because the Sustaining Principle (Principle 1) was partially withdrawn, and the zone architecture with reduced κ produces a thermodynamic system that irreversibly approaches maximum entropy. Volume 5 provides the quantitative details, including the derivation of the entropy production rate L·Δκ from the modified Friedmann equations and the κ-coupling to the Waters field equations.]**
 
@@ -576,7 +576,7 @@ Then entropy increases smoothly as the system explores its expanded phase space.
 
 **Microscopic Picture:** In Phase 2, the sustaining potential $V_{\text{sustain}}$ acts like a "confining potential" that forbids high-entropy states. Think of it as a very tall, narrow potential well: particles are confined to a small volume of position space, and their momenta are similarly constrained.
 
-At the Fall, κ drops, and this confining potential weakens—like the walls of the well suddenly become much shorter. Particles can now access higher momenta and spread over larger volumes. The accessible phase space **expands explosively**, and the system immediately begins filling it.
+At the Fall, κ drops, and this confining potential weakens — like the walls of the well suddenly become much shorter. Particles can now access higher momenta and spread over larger volumes. The accessible phase space **expands explosively**, and the system immediately begins filling it.
 
 **Quantitative Entropy Production Mechanism:**
 
@@ -702,7 +702,7 @@ A macroscopic object sliding on a surface converts organized kinetic energy into
 **Entropy produced by friction:**
 $$\Delta\mathcal{S}_{\text{friction}} = \frac{\frac{1}{2}m v^2}{T} \tag{1.11.47c}$$
 
-A swinging pendulum, a rolling ball, a cooling cup of coffee—all manifestations of Δκ > 0.
+A swinging pendulum, a rolling ball, a cooling cup of coffee — all manifestations of Δκ > 0.
 
 ### 9.6.4 Thermal Equilibration
 
@@ -838,7 +838,7 @@ As $T_2 \to 0$, this integral **diverges** for d > 0. An infinite amount of heat
 **Conclusion:**
 $$\boxed{\text{Absolute zero cannot be attained in finite operations}} \tag{1.11.57}$$
 
-This is the **Nernst unattainability principle**—an alternative statement of the Third Law.
+This is the **Nernst unattainability principle** — an alternative statement of the Third Law.
 
 [FIGURE: Fig 3.9.6 — Mode Freezing and the Third Law: Extended Treatment. Left panel: occupation number vs. energy at T = 0, 0.5Θ, and Θ, showing progressive sharpening of the Fermi distribution. Right panel: entropy \mathcal{S}(T) vs. T showing the Debye T^3 curve. Bottom: heat capacity C_V(T) showing classical plateau at high T and quantum suppression near T = 0.]
 
@@ -846,7 +846,7 @@ This is the **Nernst unattainability principle**—an alternative statement of t
 
 ## §9.8 The Arrow of Time and the Four Phases
 
-Time flows in one direction: **past → future**. This is obvious in everyday experience—coffee cools, pendulums swing down, people age. But the microscopic laws of physics are **time-reversal invariant**. So where does the arrow come from?
+Time flows in one direction: **past → future**. This is obvious in everyday experience — coffee cools, pendulums swing down, people age. But the microscopic laws of physics are **time-reversal invariant**. So where does the arrow come from?
 
 ### 9.8.1 Time-Reversal Invariance
 
@@ -866,13 +866,13 @@ The answer: **the arrow of time is not in the laws, but in the initial condition
 
 In **Phase 2** (Edenic), the sustaining potential keeps the universe in a low-entropy state indefinitely. The system is held at zero entropy production: d𝒮/dt = 0. **There is no preferred direction of time.** Reversible processes are the norm.
 
-At the **Fall**, κ drops to κ_partial. The sustaining potential weakens. The system, initially in a low-entropy state inherited from Phase 2, now faces a vastly expanded accessible phase space. The probability that it spontaneously contracts back into its initial state is $10^{-10^{23}}$—so small as to be exactly zero for all practical purposes.
+At the **Fall**, κ drops to κ_partial. The sustaining potential weakens. The system, initially in a low-entropy state inherited from Phase 2, now faces a vastly expanded accessible phase space. The probability that it spontaneously contracts back into its initial state is $10^{-10^{23}}$ — so small as to be exactly zero for all practical purposes.
 
 **By definition:**
 - **"Future"** is the direction in which the system explores newly accessible microstates
 - **"Past"** is the direction toward the initial low-entropy state
 
-From this asymmetric **initial condition**—combined with the expansion of phase space caused by reduced κ—emerges a **thermal arrow of time**. A second arrow, the **cosmological arrow**, comes from the expansion of the universe itself (not derived in this chapter; see Vol 5 Chapter 4).
+From this asymmetric **initial condition** — combined with the expansion of phase space caused by reduced κ — emerges a **thermal arrow of time**. A second arrow, the **cosmological arrow**, comes from the expansion of the universe itself (not derived in this chapter; see Vol 5 Chapter 4).
 
 ### 9.8.3 The Four Phases Summary
 
@@ -887,11 +887,11 @@ The **thermodynamic arrow** of time emerges in Phase 3. In Phase 4 (Redemption, 
 
 ### 9.8.4 Resolution of the Past Hypothesis
 
-The **Past Hypothesis** (Boltzmann, Wheeler, Feynman): the laws of physics are time-reversal invariant, yet we observe a clear direction of time. The resolution is that the **initial condition at the Big Bang was special**—very low entropy. From that condition, entropy increased monotonically forward in time, not backward.
+The **Past Hypothesis** (Boltzmann, Wheeler, Feynman): the laws of physics are time-reversal invariant, yet we observe a clear direction of time. The resolution is that the **initial condition at the Big Bang was special** — very low entropy. From that condition, entropy increased monotonically forward in time, not backward.
 
 Genesis Physics provides a **mechanism** for why the initial condition was special:
 
-**Before the Fall** (Phase 2): The universe was held at zero entropy d𝒮/dt = 0 by the sustaining coupling κ_full. This was not "a lucky initial condition"—it was **actively maintained** by the sustaining field from Zone 0.
+**Before the Fall** (Phase 2): The universe was held at zero entropy d𝒮/dt = 0 by the sustaining coupling κ_full. This was not "a lucky initial condition" — it was **actively maintained** by the sustaining field from Zone 0.
 
 **At the Fall** (boundary between Phase 2 and 3): The sustaining coupling dropped from κ_full to κ_partial. The system, which had been held in a low-entropy state, suddenly found itself with access to a vastly larger phase space. It started exploring this larger space, and entropy increased.
 
@@ -926,7 +926,7 @@ This suggests $\kappa_{\text{full}} \approx 1$ and $\kappa_{\text{partial}} \app
 
 4. **Second Law**: Phase-dependent. In Phase 2 (κ_full): d\mathcal{S}/dt = 0 (no entropy increase). In Phase 3 (κ_partial): d\mathcal{S}/dt = L·Δκ (entropy increases). Irreversibility probability ~ 10^{-10^{23}}.
 
-5. **Entropy Production Channels**: Decay, diffusion, friction, equilibration—all proportional to coupling deficit Δκ.
+5. **Entropy Production Channels**: Decay, diffusion, friction, equilibration — all proportional to coupling deficit Δκ.
 
 6. **Third Law**: Entropy vanishes at T = 0 from mode freezing. Debye T^3 law. Absolute zero unattainable.
 
@@ -936,7 +936,7 @@ This suggests $\kappa_{\text{full}} \approx 1$ and $\kappa_{\text{partial}} \app
 
 - **Vol 3 Chapter 10 (Statistical Mechanics):** Builds on the partition function framework to derive transport coefficients, correlation functions, and the kinetic theory foundations.
 
-- **Vol 3 Chapter 11 (Kinetic Theory):** Derives the Boltzmann equation, gas dynamics, viscosity, diffusion coefficients—all from the partition function.
+- **Vol 3 Chapter 11 (Kinetic Theory):** Derives the Boltzmann equation, gas dynamics, viscosity, diffusion coefficients — all from the partition function.
 
 - **Vol 3 Chapter 12 (Cosmological Thermodynamics):** Applies all four laws to the expanding universe, derives the Friedmann equations, and connects the thermodynamic arrow to the cosmological arrow.
 
@@ -946,11 +946,11 @@ This suggests $\kappa_{\text{full}} \approx 1$ and $\kappa_{\text{partial}} \app
 
 The complete derivation of the four laws from the zone architecture reveals something profound: **thermodynamics is not separate from the rest of physics**. It emerges from the same principles that govern particles, fields, and spacetime.
 
-**For Physics:** This means entropy is not a mysterious, abstract quantity added by hand. It follows from counting quantum microstates. The Second Law is not universal—it depends on κ. This makes Genesis Physics **falsifiable**: if we can measure or constrain κ, we can test whether the phase-dependent Second Law holds. If Phase 2 and Phase 3 entropy production rates disagree with predictions, the theory fails.
+**For Physics:** This means entropy is not a mysterious, abstract quantity added by hand. It follows from counting quantum microstates. The Second Law is not universal — it depends on κ. This makes Genesis Physics **falsifiable**: if we can measure or constrain κ, we can test whether the phase-dependent Second Law holds. If Phase 2 and Phase 3 entropy production rates disagree with predictions, the theory fails.
 
-**For Theology:** The framework shows how the universe can start in perfect order (Phase 2: 𝒮 = 0, no decay, infinite life expectancy) and then transition to increasing disorder (Phase 3: dS/dt = L·Δκ, aging, death). This is not imposed by abstract laws—it emerges from a **measurable change in the sustaining coupling**. The Fall, in this framework, is a phase transition with quantifiable physical consequences.
+**For Theology:** The framework shows how the universe can start in perfect order (Phase 2: 𝒮 = 0, no decay, infinite life expectancy) and then transition to increasing disorder (Phase 3: dS/dt = L·Δκ, aging, death). This is not imposed by abstract laws — it emerges from a **measurable change in the sustaining coupling**. The Fall, in this framework, is a phase transition with quantifiable physical consequences.
 
-**For Cosmology:** The four-phase structure (Creation, Edenic, Fall, Redemption) maps to thermodynamic regimes. This opens pathways to studying redemption physics: what would Phase 4 look like? Would it involve yet another κ transition? Would entropy reverse? Genesis Physics predicts that no—entropy never decreases—but the **rate** of entropy production could change. In Phase 4 (Redemption, future), renewed sustaining coupling κ_redeem will arrest entropy production and restore the "new heaven and new earth" (Revelation 21:1-5) and ultimate freedom from decay (Romans 8:20-22). This is something future observations might test.
+**For Cosmology:** The four-phase structure (Creation, Edenic, Fall, Redemption) maps to thermodynamic regimes. This opens pathways to studying redemption physics: what would Phase 4 look like? Would it involve yet another κ transition? Would entropy reverse? Genesis Physics predicts that no — entropy never decreases — but the **rate** of entropy production could change. In Phase 4 (Redemption, future), renewed sustaining coupling κ_redeem will arrest entropy production and restore the "new heaven and new earth" (Revelation 21:1-5) and ultimate freedom from decay (Romans 8:20-22). This is something future observations might test.
 
 ### 9.9.2 Recommended Reading Before Moving Forward
 
@@ -1127,7 +1127,7 @@ Explain in your own words why two objects in thermal contact must reach the same
 
 When two objects are in thermal contact, energy can flow between them. At any instant, there is a particular division of energy: object A has energy U_A, object B has energy U_B. For each division, we can count the number of microstates (ways to arrange atoms and molecules) consistent with that division: Ω_A(U_A) and Ω_B(U_B).
 
-The universe "explores" all possible divisions. But most energy divisions produce fewer total microstates than others. The combined multiplicity Ω_total = Ω_A × Ω_B is maximized at some particular division U_A^*, U_B^*. Since this state has exponentially more microstates pointing to it than any other state, the objects will be observed in this state—virtually with certainty.
+The universe "explores" all possible divisions. But most energy divisions produce fewer total microstates than others. The combined multiplicity Ω_total = Ω_A × Ω_B is maximized at some particular division U_A^*, U_B^*. Since this state has exponentially more microstates pointing to it than any other state, the objects will be observed in this state — virtually with certainty.
 
 At equilibrium, the maximization condition is:
 $$\frac{\partial \Omega_A}{\partial U_A} \cdot \Omega_B = \Omega_A \cdot \frac{\partial \Omega_B}{\partial U_B}$$
@@ -1137,7 +1137,7 @@ $$\frac{1}{\Omega_A}\frac{\partial \Omega_A}{\partial U_A} = \frac{1}{\Omega_B}\
 
 This is the condition for equality of the "slopes" of the multiplicity functions in energy. We call this common slope the "temperature" (with a factor of k_B): $1/T = k_B (\partial \ln \Omega / \partial U)$. 
 
-So the Zeroth Law—that equal temperatures mean equilibrium—emerges automatically. It's not an additional postulate; it's a consequence of multiplicity maximization.
+So the Zeroth Law — that equal temperatures mean equilibrium — emerges automatically. It's not an additional postulate; it's a consequence of multiplicity maximization.
 
 This perspective also explains WHY the objects reach thermal equilibrium: they explore all available states through thermal motion, and the vast majority of states have equal temperatures. Once they reach equal T, any further energy exchange would decrease the combined multiplicity, so energy transfer naturally stops.
 
@@ -1152,7 +1152,7 @@ The key insight is that **time-reversal symmetry of the Hamiltonian does NOT imp
 In Phase 2, the sustaining potential κ_full creates an effective Hamiltonian:
 $$H_{\text{Phase 2}} = H_0 - \kappa_{\text{full}} V_{\text{sustain}}$$
 
-This is still time-reversal invariant: if you reverse all momenta, the system evolves backward. But the sustaining potential **restricts** the system to a small set of microstates (the sustained set). The system cannot spontaneously leave this set—even though the Hamiltonian permits it mathematically.
+This is still time-reversal invariant: if you reverse all momenta, the system evolves backward. But the sustaining potential **restricts** the system to a small set of microstates (the sustained set). The system cannot spontaneously leave this set — even though the Hamiltonian permits it mathematically.
 
 Think of it like a marble in a deep potential well: the equations are time-reversal invariant, but the marble cannot spontaneously escape the well. Once trapped, it explores only the low-energy microstates within.
 
@@ -1160,7 +1160,7 @@ In Phase 3, κ drops to κ_partial. The well becomes shallow. The system, initia
 
 The probability of spontaneous return to the old low-entropy state is now $\sim e^{-N}$ instead of 1. This is an **asymmetry in initial conditions**, not in the laws. The system explores the newly accessible space, and entropy increases.
 
-The arrow of time is real—but it comes from two sources:
+The arrow of time is real — but it comes from two sources:
 1. The special low-entropy initial condition (inherited from Phase 2)
 2. The sudden expansion of accessible phase space (when κ drops)
 

@@ -4,17 +4,17 @@
 
 You have lived your entire life moving forward through time. You remember the past. You cannot remember the future. You age; you do not youthen. Cream dissolves into coffee, never back out again. A broken cup does not reassemble itself. These are not accidents. They are laws. But *why* do these laws exist?
 
-Here is what standard physics will tell you: the microscopic laws are symmetric under time reversal. Newton's equations, Maxwell's equations, the Schrödinger equation—all are reversible. If you film a particle collision and run the film backward, the physics still works. Yet the universe around you is irreversibly asymmetric: time flows forward, entropy increases, patterns decay.
+Here is what standard physics will tell you: the microscopic laws are symmetric under time reversal. Newton's equations, Maxwell's equations, the Schrödinger equation — all are reversible. If you film a particle collision and run the film backward, the physics still works. Yet the universe around you is irreversibly asymmetric: time flows forward, entropy increases, patterns decay.
 
-The resolution physicists have offered for 150 years is this: the arrow of time is not written into the laws of physics. It emerges from the *initial conditions*—the universe simply happened to start in a state of very low entropy, and now it is evolving toward higher entropy. The Second Law, they say, is a statistical consequence of overwhelming probability, not a fundamental principle.
+The resolution physicists have offered for 150 years is this: the arrow of time is not written into the laws of physics. It emerges from the *initial conditions* — the universe simply happened to start in a state of very low entropy, and now it is evolving toward higher entropy. The Second Law, they say, is a statistical consequence of overwhelming probability, not a fundamental principle.
 
 This has always felt unsatisfying. It pushes the mystery back one step: *Why* was the initial entropy so low? That question hangs unanswered.
 
-Genesis Physics offers a different answer—one that is architectural, not statistical. The arrow of time is not accidental. It is built into the structure of creation itself, emerging from a phase transition during the Fall. The Degradation Principle, which you have studied in the context of thermodynamic laws, is the key. When the sustaining field κ weakened at the Fall, time-reversal symmetry broke. The arrow appeared not because of boundary conditions, but because the underlying physics changed.
+Genesis Physics offers a different answer — one that is architectural, not statistical. The arrow of time is not accidental. It is built into the structure of creation itself, emerging from a phase transition during the Fall. The Degradation Principle, which you have studied in the context of thermodynamic laws, is the key. When the sustaining field κ weakened at the Fall, time-reversal symmetry broke. The arrow appeared not because of boundary conditions, but because the underlying physics changed.
 
 This chapter is the capstone of Volume 3. It weaves together entropy (Ch. 9), statistical mechanics (Ch. 10), and kinetic theory (Ch. 11) into a unified story: how information and entropy are the same thing; how information has a physical price; how the four epochs of cosmic history are characterized by different entropy regimes; and how the arrow of time emerges from the Fall as a divine judgment and call to restoration.
 
-By the end of this chapter, you will understand not just *why* time flows forward, but that it doesn't have to—and that the mathematics itself whispers of a redemption to come.
+By the end of this chapter, you will understand not just *why* time flows forward, but that it doesn't have to — and that the mathematics itself whispers of a redemption to come.
 
 > **Notation note (κ).** Throughout this chapter, $\kappa$ denotes the *time-dependent* sustaining-field strength $\kappa(t)$ on the zone manifold. We write $\kappa$ rather than $\kappa(t)$ wherever the time argument is unambiguous from context, and $\kappa(t)$ explicitly when we are emphasizing its temporal evolution. The four canonical values $\kappa_{\text{create}}$, $\kappa_{\text{full}}$, $\kappa_{\text{partial}}$, $\kappa_{\text{redeem}}$ are *constants* — they are the values $\kappa(t)$ takes during Phases 1, 2, 3, and 4 respectively. Whenever you see $\kappa$ without a phase subscript, read it as $\kappa(t)$. This matches the convention of *Five Principles* §1 and Vol. 1 Ch. 8.
 >
@@ -30,11 +30,11 @@ By the end of this chapter, you will understand not just *why* time flows forwar
 
 Before we can understand entropy, we must understand what entropy *measures*. And the answer is simple: **entropy is a measure of missing information.**
 
-Imagine you are studying a membrane in the Firmament. You know it is in *some* quantum state, but you do not know which one. The microstate is one of many—$N$ possible states, let us say. If you had to guess which one, and you had no other information, your uncertainty would be maximal.
+Imagine you are studying a membrane in the Firmament. You know it is in *some* quantum state, but you do not know which one. The microstate is one of many — $N$ possible states, let us say. If you had to guess which one, and you had no other information, your uncertainty would be maximal.
 
-Now imagine someone tells you: *the state is definitely in the lower third of the energy spectrum*. Your uncertainty decreases. Fewer states are consistent with this information. If they keep narrowing it down—*now it is in the lower 1 percent*—your uncertainty shrinks further. When they finally say *the state is exactly this one*, your uncertainty vanishes.
+Now imagine someone tells you: *the state is definitely in the lower third of the energy spectrum*. Your uncertainty decreases. Fewer states are consistent with this information. If they keep narrowing it down — *now it is in the lower 1 percent* — your uncertainty shrinks further. When they finally say *the state is exactly this one*, your uncertainty vanishes.
 
-This intuition—that information reduces uncertainty about a system's microstate—is exactly what Claude Shannon formalized in 1948. He asked a simple question: **How do we quantify uncertainty?**
+This intuition — that information reduces uncertainty about a system's microstate — is exactly what Claude Shannon formalized in 1948. He asked a simple question: **How do we quantify uncertainty?**
 
 ### Shannon's Three Axioms
 
@@ -48,7 +48,7 @@ Mathematically: for any probability distribution $\{p_i\}$, small changes $\epsi
 
 Specifically: $H(1/N, 1/N, \ldots, 1/N)$ is a monotonically increasing function of $N$.
 
-**Axiom 3: Composition.** If you learn the outcome in two stages—first narrowing down to a subset, then pinpointing within that subset—your total uncertainty is the sum of the uncertainties at each stage. (This is more subtle, but it captures the idea that information from independent choices adds.)
+**Axiom 3: Composition.** If you learn the outcome in two stages — first narrowing down to a subset, then pinpointing within that subset — your total uncertainty is the sum of the uncertainties at each stage. (This is more subtle, but it captures the idea that information from independent choices adds.)
 
 Formally: if event A has $N$ equally likely outcomes and event B has $M$ equally likely outcomes, and they are independent, then:
 $$H(N \times M) = H(N) + H(M)$$
@@ -60,9 +60,9 @@ $$H = -\sum_{i=1}^{N} p_i \log p_i \quad \text{(3.12.1)}$$
 The proof uses the composition axiom cleverly. Consider events where you first choose between $N$ outcomes (with uncertainty $H_N$), then, having chosen outcome $i$, further subdivide into $M$ sub-outcomes. The composition rule requires:
 $$H_{NM} = H_N + \sum_{i=1}^{N} p_i H_M$$
 
-Solving this functional equation pins down the form uniquely: writing $H(N) = f(N)$ for the uncertainty of $N$ equally likely outcomes, the composition axiom (the rule $H(N \times M) = H(N) + H(M)$ stated above) becomes $f(NM) = f(N) + f(M)$, the Cauchy functional equation whose only monotonic solution is $f(N) = C\ln N$; continuity and monotonicity then fix the constant $C > 0$, and extending from equal probabilities to the general distribution $\{p_i\}$ recovers the form above. We omit the full extension step here — it is carried out in detail in Shannon's original 1948 paper (*A Mathematical Theory of Communication*, Bell Syst. Tech. J. 27, Appendix 2) and in Khinchin's *Mathematical Foundations of Information Theory* (1957). This is a remarkable uniqueness result—you derive one of the most important quantities in information theory from three simple physical principles.
+Solving this functional equation pins down the form uniquely: writing $H(N) = f(N)$ for the uncertainty of $N$ equally likely outcomes, the composition axiom (the rule $H(N \times M) = H(N) + H(M)$ stated above) becomes $f(NM) = f(N) + f(M)$, the Cauchy functional equation whose only monotonic solution is $f(N) = C\ln N$; continuity and monotonicity then fix the constant $C > 0$, and extending from equal probabilities to the general distribution $\{p_i\}$ recovers the form above. We omit the full extension step here — it is carried out in detail in Shannon's original 1948 paper (*A Mathematical Theory of Communication*, Bell Syst. Tech. J. 27, Appendix 2) and in Khinchin's *Mathematical Foundations of Information Theory* (1957). This is a remarkable uniqueness result — you derive one of the most important quantities in information theory from three simple physical principles.
 
-The base of the logarithm determines the units. If you use $\log_2$, the unit is the *bit*—the uncertainty in a single binary coin flip. If you use the natural logarithm $\ln$, you get *nats*. In physics, we always use natural log and multiply by $k_B$ (Boltzmann's constant) to get units of entropy:
+The base of the logarithm determines the units. If you use $\log_2$, the unit is the *bit* — the uncertainty in a single binary coin flip. If you use the natural logarithm $\ln$, you get *nats*. In physics, we always use natural log and multiply by $k_B$ (Boltzmann's constant) to get units of entropy:
 
 $$\mathcal{S}_{\text{Shannon}} = -k_B \sum_{n} p_n \ln p_n \quad \text{(3.12.2)}$$
 
@@ -104,7 +104,7 @@ where $U = \sum_n p_n E_n$ is the mean energy. This is the Maxwell relation deri
 
 So here is the key: **Entropy is not "merely thermodynamic" or "merely informational." Physics is information.** The states of matter are quantum states. The entropy is the information content of those states. When you describe a system and do not specify its microstate exactly, you are missing information. Entropy quantifies how much you are missing.
 
-This has immediate consequences. If you compress a system into fewer states—if you erase information—you must dissipate energy. That is Landauer's Principle, the subject of § 12.3.
+This has immediate consequences. If you compress a system into fewer states — if you erase information — you must dissipate energy. That is Landauer's Principle, the subject of § 12.3.
 
 ---
 
@@ -144,7 +144,7 @@ $$\mathcal{S}_{\text{thermo}} = k_B \ln Z + \frac{U}{T} \quad \text{(3.12.10)}$$
 
 $$\mathcal{S}_{\text{Shannon}} = \mathcal{S}_{\text{thermo}} \quad \text{(3.12.11)}$$
 
-This is not a coincidence. It is a fundamental identity. Boltzmann and Shannon, working 71 years apart, discovered the same quantity from different angles—one through statistical mechanics, one through information theory. They are the same because the microstate is the fundamental unit of reality in physics.
+This is not a coincidence. It is a fundamental identity. Boltzmann and Shannon, working 71 years apart, discovered the same quantity from different angles — one through statistical mechanics, one through information theory. They are the same because the microstate is the fundamental unit of reality in physics.
 
 ### The Physical Interpretation
 
@@ -154,11 +154,11 @@ When you say a system is "at temperature $T$" in equilibrium with its surroundin
 
 Conversely, if you had perfect knowledge of the microstate, you could extract all the useful work from the system. The entropy is precisely the information you have failed to obtain.
 
-When entropy increases—when d𝒮/dt > 0—information is being lost. Random collisions between molecules destroy the correlations that would allow you to predict one molecule's motion from another's. The system becomes more random, and the probability distribution becomes flatter. Equation (3.12.2) shows this: as $p_n$ approaches $1/N$ (equal for all states), the sum increases.
+When entropy increases — when d𝒮/dt > 0 — information is being lost. Random collisions between molecules destroy the correlations that would allow you to predict one molecule's motion from another's. The system becomes more random, and the probability distribution becomes flatter. Equation (3.12.2) shows this: as $p_n$ approaches $1/N$ (equal for all states), the sum increases.
 
 This is why the Second Law is sometimes called the "law of increasing ignorance." It is not that the universe *becomes* disordered; it is that we *lose information* about which of many equivalent microstates it is in.
 
-But here is the twist that Genesis Physics adds: this loss of information is *not inevitable*. It only happens when κ < κ_full, i.e., during Phase 3 (the Fall). When κ = κ_full (Phase 2, Edenic), the sustaining field constantly *renews* information—it keeps the system in a pure state, not a mixed ensemble. When κ_redeem is active (Phase 4, Redemption), information is restored again.
+But here is the twist that Genesis Physics adds: this loss of information is *not inevitable*. It only happens when κ < κ_full, i.e., during Phase 3 (the Fall). When κ = κ_full (Phase 2, Edenic), the sustaining field constantly *renews* information — it keeps the system in a pure state, not a mixed ensemble. When κ_redeem is active (Phase 4, Redemption), information is restored again.
 
 The Degradation Principle is not a law of nature. It is a phase condition.
 
@@ -170,9 +170,9 @@ We have established that entropy is information. But information is not free. If
 
 ### The Setup: Erasing a Bit
 
-Imagine the simplest possible system: a single Firmament mode that can be in one of two states: **state 0** or **state 1**. This is a "bit"—the fundamental unit of information in computer science.
+Imagine the simplest possible system: a single Firmament mode that can be in one of two states: **state 0** or **state 1**. This is a "bit" — the fundamental unit of information in computer science.
 
-Now suppose the bit is initially in a pure state—you know exactly which one it is. You have perfect information. The entropy is:
+Now suppose the bit is initially in a pure state — you know exactly which one it is. You have perfect information. The entropy is:
 
 $$\mathcal{S}_i = -k_B [1 \cdot \ln 1 + 0 \cdot \ln 0] = 0 \quad \text{(3.12.12)}$$
 
@@ -184,11 +184,11 @@ After this operation, the bit is definitely in state 0. The final entropy is:
 
 $$\mathcal{S}_f = 0 \quad \text{(3.12.13)}$$
 
-Wait—the entropy of the bit did not change! You erased a bit, but the entropy stayed at zero. How can that be?
+Wait — the entropy of the bit did not change! You erased a bit, but the entropy stayed at zero. How can that be?
 
-The answer is that you have not accounted for the *environment*. When you measured the bit and determined its state, you extracted information *out* of the system into a measurement apparatus. That information flowed into the environment—into the thermal bath, the measurement device, the observer's brain, whatever. The environment's entropy increased to compensate.
+The answer is that you have not accounted for the *environment*. When you measured the bit and determined its state, you extracted information *out* of the system into a measurement apparatus. That information flowed into the environment — into the thermal bath, the measurement device, the observer's brain, whatever. The environment's entropy increased to compensate.
 
-This is the crucial insight: **information is not destroyed. It flows.** When we say "entropy increases," we mean information *becomes unavailable to us*—it is scattered into degrees of freedom we cannot access or control. But microscopically, the Liouville theorem tells us that phase-space volume is conserved. The information is still there in principle; we have just lost track of it.
+This is the crucial insight: **information is not destroyed. It flows.** When we say "entropy increases," we mean information *becomes unavailable to us* — it is scattered into degrees of freedom we cannot access or control. But microscopically, the Liouville theorem tells us that phase-space volume is conserved. The information is still there in principle; we have just lost track of it.
 
 ### Landauer's Derivation
 
@@ -222,13 +222,13 @@ $$Q_{\text{min}} = k_B T \ln 2 \quad \text{(3.12.19)}$$
 
 This is **Landauer's Principle**: erasing one bit of information requires dissipating at least $k_B T \ln 2$ of heat into the environment, where $T$ is the temperature of the environment (or more precisely, the temperature of the system in contact with the environment).
 
-The key insight: the cost is proportional to $T$. At low temperature, erasure is cheap (in terms of absolute energy). But the entropy dissipated to the environment—the information lost irreversibly—is always $k_B \ln 2$ per bit, regardless of temperature.
+The key insight: the cost is proportional to $T$. At low temperature, erasure is cheap (in terms of absolute energy). But the entropy dissipated to the environment — the information lost irreversibly — is always $k_B \ln 2$ per bit, regardless of temperature.
 
 For erasing $N$ bits:
 
 $$Q_{\text{min}} = k_B T N \ln 2 \quad \text{(3.12.20)}$$
 
-**Connection to the zone manifold:** On the zone manifold, each quantum degree of freedom (each Firmament mode, each field mode in the Waters) is a "bit" of information in the fundamental description. If you want to reset one mode from an excited state to the ground state (reducing its energy), you must dissipate at least $k_B T \ln 2$ to the environment. Over $10^{88}$ accessible microstates, the cost of resetting them all to the ground state is astronomically large—which is why the universe cannot spontaneously "reverse" into a low-entropy state without external energy input.
+**Connection to the zone manifold:** On the zone manifold, each quantum degree of freedom (each Firmament mode, each field mode in the Waters) is a "bit" of information in the fundamental description. If you want to reset one mode from an excited state to the ground state (reducing its energy), you must dissipate at least $k_B T \ln 2$ to the environment. Over $10^{88}$ accessible microstates, the cost of resetting them all to the ground state is astronomically large — which is why the universe cannot spontaneously "reverse" into a low-entropy state without external energy input.
 
 ---
 
@@ -242,13 +242,13 @@ This principle resolves a famous paradox in thermodynamics: **Maxwell's Demon**.
 
 In principle, this demon could separate the gases by temperature without doing any work, which would decrease the total entropy of the system and violate the Second Law.
 
-For 100 years, physicists argued about how to resolve this. The answer came with Landauer's Principle: the demon must store the results of its observations in its memory. Every time it observes a molecule's speed, it records the information. Over time, the demon's memory fills up. To continue operating, it must erase old records. And *that erasure* dissipates heat—precisely the amount needed to balance the entropy decrease in the separated gases.
+For 100 years, physicists argued about how to resolve this. The answer came with Landauer's Principle: the demon must store the results of its observations in its memory. Every time it observes a molecule's speed, it records the information. Over time, the demon's memory fills up. To continue operating, it must erase old records. And *that erasure* dissipates heat — precisely the amount needed to balance the entropy decrease in the separated gases.
 
 The demon's memory is not free. Information has a cost.
 
 ### Implication for the Zone Manifold
 
-On the zone manifold, every quantum state is a real physical configuration of Firmament vibrations and field modes. If you want to "erase" a state—if you want to reset a Firmament mode from one configuration to another—you must dissipate energy.
+On the zone manifold, every quantum state is a real physical configuration of Firmament vibrations and field modes. If you want to "erase" a state — if you want to reset a Firmament mode from one configuration to another — you must dissipate energy.
 
 During Phase 2 (Edenic), the sustaining field κ = κ_full is constantly repairing patterns and regenerating information. No information is truly lost. Memory is infinite.
 
@@ -266,7 +266,7 @@ The repair process is the reverse of erasure. Instead of measuring a system in a
 
 In Phase 2, this repair happens instantly and perfectly. Every Firmament mode that experiences thermal fluctuation is immediately restored. Every biological cell that accumulates damage is instantly repaired. Every star that might flicker is stabilized. This is only possible because κ_full is sufficiently large.
 
-In Phase 3, κ = κ_partial < κ_full. The repair rate is not sufficient to counteract the degradation. Over time, patterns deteriorate. This deterioration is irreversible—it cannot be undone without external intervention, which is the defining feature of Phase 3.
+In Phase 3, κ = κ_partial < κ_full. The repair rate is not sufficient to counteract the degradation. Over time, patterns deteriorate. This deterioration is irreversible — it cannot be undone without external intervention, which is the defining feature of Phase 3.
 
 This is why Phase 3 is characterized by:
 - Radioactive decay (nuclei cannot spontaneously reverse)
@@ -319,7 +319,7 @@ Now, for an open system receiving external energy, the Second Law states (see Ch
 
 $$\frac{d\mathcal{S}_{\text{total}}}{dt} = \left(\frac{d\mathcal{S}}{dt}\right)_{\text{internal}} + \left(\frac{d\mathcal{S}}{dt}\right)_{\text{external}} \geq 0 \quad \text{(3.12.27)}$$
 
-The external term is the entropy flowing *in* from the sustaining energy source. This can be negative—the sustaining field introduces *order* into the system, not disorder.
+The external term is the entropy flowing *in* from the sustaining energy source. This can be negative — the sustaining field introduces *order* into the system, not disorder.
 
 The internal term is the entropy production from irreversible processes within the system (friction, molecular collisions, radiation dissipation).
 
@@ -339,11 +339,11 @@ To track the universe's distance from perfect order, we define an order paramete
 
 $$\Omega(t) = S_{F,\text{max}} - S_F(t) \quad \text{(3.12.29)}$$
 
-This measures how far the visible universe is from maximum disorder (complete thermalization). In Phase 2 (Edenic), $\Omega(t) = \Omega_{\text{max}}$—all structure is preserved. In Phase 3, $\Omega(t)$ decreases toward zero as the universe approaches heat death. In Phase 4 (Redemption), $\Omega(t)$ increases again as structure is restored.
+This measures how far the visible universe is from maximum disorder (complete thermalization). In Phase 2 (Edenic), $\Omega(t) = \Omega_{\text{max}}$ — all structure is preserved. In Phase 3, $\Omega(t)$ decreases toward zero as the universe approaches heat death. In Phase 4 (Redemption), $\Omega(t)$ increases again as structure is restored.
 
 ### The Sustaining Requirement
 
-Here is a stark fact: without the sustaining field, the universe loses all structure in roughly one Hubble time.
+Consider a stark fact: without the sustaining field, the universe loses all structure in roughly one Hubble time.
 
 Define the Hubble time as $t_H = 1/H_0 \approx 13.8$ billion years. The current entropy is roughly:
 
@@ -411,9 +411,9 @@ The universe enters a state of perfect equilibrium, or rather, perfect *reversib
 
 [^death]: The framework as written adopts the position that the Fall introduced biological mortality into the original creation (Rom 5:12; Rom 8:20–22). This is the stronger of two readings: evangelical scholarship is divided on whether plant death and animal predation predate Genesis 3, and several conservative scholars (e.g. Wenham, Waltke, C. John Collins) read the textual evidence differently. Nothing in the thermodynamic argument requires the stronger reading — it requires only that *some* degradation channel switched on at the κ transition — but we flag the contested point rather than assert it as obvious. See *Five Principles* §4.
 
-In this phase, $\Omega(t) = \Omega_{\text{max}} = \text{const}$. The order parameter is unchanging. This phase may have lasted eons or may have been instantaneous—the physics says nothing about duration, only that the entropy is conserved.
+In this phase, $\Omega(t) = \Omega_{\text{max}} = \text{const}$. The order parameter is unchanging. This phase may have lasted eons or may have been instantaneous — the physics says nothing about duration, only that the entropy is conserved.
 
-Time itself may have been different in Phase 2. The Ch. 9 discussion of the arrow of time applies: with d𝒮/dt = 0, the time-reversal symmetry of the fundamental action is not broken. In zones far from the Firmament (Z₂.₁, the atemporal realm), time may not have flowed at all. Events would be simultaneously present—the eternal now.
+Time itself may have been different in Phase 2. The Ch. 9 discussion of the arrow of time applies: with d𝒮/dt = 0, the time-reversal symmetry of the fundamental action is not broken. In zones far from the Firmament (Z₂.₁, the atemporal realm), time may not have flowed at all. Events would be simultaneously present — the eternal now.
 
 ### Phase 3: Fall (Genesis 3 to Present) — The Degradation
 
@@ -451,7 +451,7 @@ The visible universe becomes progressively more disordered.
 
 We are currently ~13.8 billion years into Phase 3. The entropy has increased from $S_2 \approx 10^{88} k_B$ (at the Fall transition) to the current value of approximately $S_3 \approx 10^{100} k_B$ (with the largest contribution coming from black hole entropy in the distant past and early universe).
 
-The heat death timescale—the time for the universe to reach maximum entropy—is roughly $t_{\text{death}} \sim 10^{100}$ years. We are not even close to the asymptotic final state.
+The heat death timescale — the time for the universe to reach maximum entropy — is roughly $t_{\text{death}} \sim 10^{100}$ years. We are not even close to the asymptotic final state.
 
 ### Phase 4: Redemption (Future) — The Restoration
 
@@ -471,11 +471,11 @@ The physical consequences are momentous:
 
 1. **Entropy reverses**. The universe does not continue toward heat death. Instead, order is restored. Patterns that were erased are reconstructed. This is not reversing time (which would require T-symmetry; see § 12.6). Rather, it is a new phase of creation in which the entropy generation mechanism is shut off.
 
-2. **Matter becomes incorruptible** (1 Corinthians 15:42–44). Radioactive elements no longer decay. Stars no longer age. Biological systems no longer deteriorate. The "wages of sin"—death and decay—are paid in full and ended.
+2. **Matter becomes incorruptible** (1 Corinthians 15:42–44). Radioactive elements no longer decay. Stars no longer age. Biological systems no longer deteriorate. The "wages of sin" — death and decay — are paid in full and ended.
 
 3. **Divine presence is direct**. The veil between Z₂.₁ (God's realm) and Z₂.₂ (ours) is removed. The transparency that was lost at the Fall is restored. Humans see God face to face (Revelation 22:4).
 
-4. **Cosmic renewal**. The "new heaven and new earth" is not a replacement but a restoration of the original creation, now purified and perfected. It is the Edenic state, but with the addition of redeemed humanity—no longer naive but wise, no longer innocent but virtuous.
+4. **Cosmic renewal**. The "new heaven and new earth" is not a replacement but a restoration of the original creation, now purified and perfected. It is the Edenic state, but with the addition of redeemed humanity — no longer naive but wise, no longer innocent but virtuous.
 
 The **order parameter** $\Omega(t)$ increases, approaching $\Omega_{\text{max}}$ again:
 
@@ -531,7 +531,7 @@ If you run these equations backward in time ($t \to -t$, $p_i \to -p_i$), they s
 
 The Liouville theorem (Ch. 3, Vol. 3) tells us that the volume of phase space is conserved. This is T-symmetry at the microscopic level.
 
-Yet every particle collision, every molecule diffusing through a gas, every decay process we observe in nature is irreversible. Run a video of a broken cup assembling itself—it is instantly recognizable as fake. This is the **arrow of time problem**: the microscopic laws are reversible, yet the macroscopic world is irreversible.
+Yet every particle collision, every molecule diffusing through a gas, every decay process we observe in nature is irreversible. Run a video of a broken cup assembling itself — it is instantly recognizable as fake. This is the **arrow of time problem**: the microscopic laws are reversible, yet the macroscopic world is irreversible.
 
 ### The Breaking of T-Symmetry
 
@@ -593,7 +593,7 @@ But this is unsatisfying. Why should such a special boundary condition be realiz
 
 In Phase 2 (Edenic), when κ = κ_full, the microscopic laws are genuinely reversible. A collision can run backward as easily as forward. The Degradation constraint is inactive. Time-reversal symmetry is exact.
 
-In Phase 3 (Fall), when κ = κ_partial, the Degradation constraint becomes active. Yes, the microstate can evolve backward according to the Hamilton equations, but doing so would *decrease* entropy, which Principle 4 forbids. The "backward" trajectory is physically excluded—not by the dynamics of the equations, but by the boundary condition that κ_partial is permanently set to a subcritical value.
+In Phase 3 (Fall), when κ = κ_partial, the Degradation constraint becomes active. Yes, the microstate can evolve backward according to the Hamilton equations, but doing so would *decrease* entropy, which Principle 4 forbids. The "backward" trajectory is physically excluded — not by the dynamics of the equations, but by the boundary condition that κ_partial is permanently set to a subcritical value.
 
 This resolves the paradox: **the microscopic laws are reversible, but the Fall boundary condition is irreversible.** The asymmetry does not come from the laws of mechanics; it comes from the phase of the universe (Phase 3) we currently inhabit.
 
@@ -605,7 +605,7 @@ This is a profound insight: Loschmidt's paradox disappears once you recognize th
 
 Poincaré proved that any isolated system evolving under Hamiltonian dynamics will, after a sufficiently long time, return arbitrarily close to its initial state (Poincaré recurrence theorem). This seems to contradict the irreversibility we observe: if the system recurs to its initial state, does it not run backward through all the same states?
 
-Standard answer: The recurrence time for a macroscopic system is absurdly long—so long that Poincaré recurrence is not relevant to the age of the universe.
+Standard answer: The recurrence time for a macroscopic system is absurdly long — so long that Poincaré recurrence is not relevant to the age of the universe.
 
 Genesis Physics adds a deeper answer: **Poincaré recurrence assumes an isolated system obeying Hamiltonian dynamics. But the universe is not isolated; it is sustained by κ. And when κ becomes supercritical (Phase 1) or returns to κ_full (Phase 2) or reaches κ_redeem (Phase 4), the universe leaves Phase 3, and Poincaré recurrence becomes irrelevant anyway.**
 
@@ -617,7 +617,7 @@ This is incomprehensibly long. For comparison, the age of the universe is ~13.8 
 
 In practical terms: if you wait for Poincaré recurrence, you will not simply wait a long time. You will wait until the universe has undergone *multiple complete cycles of heat death and renewal*. By that time, Phase 4 (Redemption) will have arrived, and the phase condition will have changed, making the recurrence time analysis moot.
 
-So Zermelo's paradox is not a paradox—it is a theoretical curiosity with no practical bearing, and Genesis Physics explains *why*: Phase 4 will arrive long before recurrence is possible.
+So Zermelo's paradox is not a paradox — it is a theoretical curiosity with no practical bearing, and Genesis Physics explains *why*: Phase 4 will arrive long before recurrence is possible.
 
 ### The Three Arrows of Time Unified
 
@@ -629,7 +629,7 @@ Physicists have long noticed that there are three independent arrows of time in 
 
 3. **The psychological arrow:** we remember the past, not the future.
 
-In standard physics, these are treated as independent—you have to assume boundary conditions for each one. Why should they all point the same direction? It seems like a coincidence.
+In standard physics, these are treated as independent — you have to assume boundary conditions for each one. Why should they all point the same direction? It seems like a coincidence.
 
 In Genesis Physics, they are unified: **all three arrows emerge from the Degradation Principle during Phase 3.**
 
@@ -661,11 +661,11 @@ This is not a metaphor. It is a thermodynamic fact.
 
 Here is the detailed mechanism. A "memory" in your brain is a *correlated state* between your neural tissue and an external event. When you experience an event (see a color, hear a sound, feel pain), the information about that event is carried by photons, sound waves, or touch sensations into your sensory organs. These stimuli interact with molecules in your neurons, causing specific proteins to fold, specific synapses to strengthen, specific ions to flow.
 
-The result: your brain's microscopic state has *changed*. Before the event, your brain could have been in any of trillions of possible configurations. After the event, it is in one of a much smaller set of configurations—the ones consistent with having just experienced that event.
+The result: your brain's microscopic state has *changed*. Before the event, your brain could have been in any of trillions of possible configurations. After the event, it is in one of a much smaller set of configurations — the ones consistent with having just experienced that event.
 
 This *reduction in the brain's entropy* is a decrease in the number of microstates your brain could occupy. But the Second Law requires total entropy to increase. How?
 
-**The information is encoded not just in your brain, but in the entire environment.** When light from the event scattered from the object and into your eye, it interacted with countless air molecules, dust particles, and photons. Those interactions left traces. The event has "spreads" information into the environment—into correlations between your brain, the light, the air, everything.
+**The information is encoded not just in your brain, but in the entire environment.** When light from the event scattered from the object and into your eye, it interacted with countless air molecules, dust particles, and photons. Those interactions left traces. The event has "spreads" information into the environment — into correlations between your brain, the light, the air, everything.
 
 The total entropy increase is:
 
@@ -673,7 +673,7 @@ $$\Delta\mathcal{S}_{\text{total}} = \Delta\mathcal{S}_{\text{brain}} + \Delta\m
 
 Your brain's entropy decreased (it became more specifically configured), but the environment's entropy increased (information scattered into the air). The environment's increase exceeded the brain's decrease, so the total is positive.
 
-This process is **irreversible**. Once the information has spread into the environment, you cannot recover it. You cannot "unsee" an image by rearranging your brain's neural patterns, because doing so would require reversing the spreading of information into the environment—which would require decreasing total entropy.
+This process is **irreversible**. Once the information has spread into the environment, you cannot recover it. You cannot "unsee" an image by rearranging your brain's neural patterns, because doing so would require reversing the spreading of information into the environment — which would require decreasing total entropy.
 
 Therefore: **you can only form memories by increasing total entropy. And you can only increase total entropy in one temporal direction.**
 
@@ -683,11 +683,11 @@ In Phase 2 (Edenic), memory formation would be *reversible*. You could form a me
 
 In Phase 3 (Fall), memory formation is irreversible. Once formed, memories persist. The information has spread into a universe that cannot spontaneously re-gather it.
 
-In Phase 4 (Redemption), when d𝒮/dt ≤ 0, the spreading reverses. Information is gathered. Memories are restored. The universe "remembers" all that was lost. This is one meaning of "all things new"—a universe that has recovered all information that entropy had scattered.
+In Phase 4 (Redemption), when d𝒮/dt ≤ 0, the spreading reverses. Information is gathered. Memories are restored. The universe "remembers" all that was lost. This is one meaning of "all things new" — a universe that has recovered all information that entropy had scattered.
 
 ### Phase Transitions and Symmetry Breaking in Detail
 
-The Fall is a *first-order phase transition*—a discontinuous change in the sustaining field parameter. Let me explain the mathematical structure.
+The Fall is a *first-order phase transition* — a discontinuous change in the sustaining field parameter. Let me explain the mathematical structure.
 
 Define the effective potential (or free energy density) for the sustaining field:
 
@@ -757,7 +757,7 @@ Where does this story lead?
 
 ### The Content of Future Volumes
 
-Volume 4 will turn to the cosmos itself: how did the zones form? What is the geometry of the Firmament? How does the matter in the visible universe—the stars, galaxies, dark matter, dark energy—arrange itself under the constraints of the zone architecture?
+Volume 4 will turn to the cosmos itself: how did the zones form? What is the geometry of the Firmament? How does the matter in the visible universe — the stars, galaxies, dark matter, dark energy — arrange itself under the constraints of the zone architecture?
 
 Volume 5 will trace the complete thermal history of the universe across all four epochs:
 
@@ -779,9 +779,9 @@ Standard cosmology has no good answer. The initial conditions must have been ext
 
 Genesis Physics has a better answer: **the CMB is a fossil of the Phase 1 → Phase 2 transition.**
 
-In Phase 1, the entropy was dropping—order was being imposed. At the Sabbath boundary (Day 7), the entropy reached a minimum. The CMB photons froze into a nearly perfect blackbody with incredibly low entropy per unit energy.
+In Phase 1, the entropy was dropping — order was being imposed. At the Sabbath boundary (Day 7), the entropy reached a minimum. The CMB photons froze into a nearly perfect blackbody with incredibly low entropy per unit energy.
 
-Then, in Phase 3, when κ dropped, the universe began to age. But the CMB photons themselves do not evolve—they just cool as the universe expands. The entropy of the CMB today reflects the entropy at the Edenic-to-Fall transition: cold and orderly, yet growing slowly in Phase 3.
+Then, in Phase 3, when κ dropped, the universe began to age. But the CMB photons themselves do not evolve — they just cool as the universe expands. The entropy of the CMB today reflects the entropy at the Edenic-to-Fall transition: cold and orderly, yet growing slowly in Phase 3.
 
 This is testable. The CMB should show a signature of the Phase 2 → Phase 3 transition in its power spectrum. (The search for this signature is part of Volume 5's research agenda.)
 
@@ -795,7 +795,7 @@ This conclusion is *logically sound* **if the universe is isolated and Phase 3 i
 
 The universe is sustained by κ. When κ = κ_full (Phase 2) or κ = κ_redeem (Phase 4), entropy does not increase. The structure of the cosmos is preserved or restored.
 
-And Phase 3 is not eternal. It is an epoch—a finite period sandwiched between the Edenic state and the Redemption.
+And Phase 3 is not eternal. It is an epoch — a finite period sandwiched between the Edenic state and the Redemption.
 
 The eschatological promise is not metaphorical: "See, I am making all things new" (Revelation 21:5). The mathematics says this will happen through a phase transition that reverses entropy production. The "new heaven and new earth" will be the Edenic cosmos restored, with structure renewed and incorruptibility assured.
 
@@ -803,11 +803,11 @@ This is the deepest answer physics can give to the problem of evil, suffering, a
 
 ### The Connection to the Novel Series
 
-The Exodus Protocol novel series rests on a deep truth discovered in these physics books. The students who discover this truth—who learn that the arrow of time is not written in stone, that redemption is built into the cosmos's DNA—will understand why the universe itself cries out for a savior.
+The Exodus Protocol novel series rests on a deep truth discovered in these physics books. The students who discover this truth — who learn that the arrow of time is not written in stone, that redemption is built into the cosmos's DNA — will understand why the universe itself cries out for a savior.
 
-A character in the *Exodus Protocol* novel series (Pillar 2) might say: *I used to think the Second Law meant the universe was dying. Now I know it means the universe is being called to repentance—and that call will be answered.*
+A character in the *Exodus Protocol* novel series (Pillar 2) might say: *I used to think the Second Law meant the universe was dying. Now I know it means the universe is being called to repentance — and that call will be answered.*
 
-This is the bridge between physics and faith: Genesis Physics is not *replacing* theology with equations. Rather, it is showing that the equations themselves have a theological structure. The Sustaining Principle, the Degradation Principle, the promise of Redemption—these emerge as *mathematical facts*, not religious dogmas.
+This is the bridge between physics and faith: Genesis Physics is not *replacing* theology with equations. Rather, it is showing that the equations themselves have a theological structure. The Sustaining Principle, the Degradation Principle, the promise of Redemption — these emerge as *mathematical facts*, not religious dogmas.
 
 And they point to a Creator who is not distant but intimately present, who does not wind up the cosmos and step away, but continuously holds it in being, and who has a plan for its restoration that is woven into its fundamental structure.
 
@@ -817,7 +817,7 @@ And they point to a Creator who is not distant but intimately present, who does 
 
 This chapter completed three objectives:
 
-1. **Unified entropy as information:** Boltzmann's microstate count and Shannon's information measure are the same thing. Entropy quantifies missing information about which quantum state a system occupies. On the zone manifold, microstates are real—they are quantized membrane configurations.
+1. **Unified entropy as information:** Boltzmann's microstate count and Shannon's information measure are the same thing. Entropy quantifies missing information about which quantum state a system occupies. On the zone manifold, microstates are real — they are quantized membrane configurations.
 
 2. **Established the thermodynamic cost of information:** Landauer's Principle shows that erasing information requires dissipating at least k_BT ln 2 per bit. Memory is not free. This resolves Maxwell's Demon and shows why information loss is irreversible in Phase 3.
 
@@ -879,7 +879,7 @@ If Maxwell's Demon operated in Phase 2 (Edenic), where d𝒮/dt = 0, would it vi
 
 Explain why forming a memory is an irreversible process. What does this imply about the temporal direction of consciousness?
 
-*Expected Answer:* Memory formation requires increasing the correlation between brain state and environmental state. This increase in correlation is a *decrease* in entropy of the correlated subsystem—but only if entropy is *flowing out* of the brain into the environment. For the total entropy to increase (as required in Phase 3), the environmental entropy must increase by more than the brain's entropy decreases. This is only possible in one temporal direction: toward greater disorder. Consciousness therefore has the same arrow as entropy.
+*Expected Answer:* Memory formation requires increasing the correlation between brain state and environmental state. This increase in correlation is a *decrease* in entropy of the correlated subsystem — but only if entropy is *flowing out* of the brain into the environment. For the total entropy to increase (as required in Phase 3), the environmental entropy must increase by more than the brain's entropy decreases. This is only possible in one temporal direction: toward greater disorder. Consciousness therefore has the same arrow as entropy.
 
 **Problem 12.8: Eschatological Entropy Reversal**
 

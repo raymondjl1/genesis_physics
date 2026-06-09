@@ -36,7 +36,7 @@ The result is that mass is not a free parameter. Mass is architecture.
 
 ### The Starting Point: A 6D Scalar Field
 
-In Vol 1 Chapter 5, we established that spacetime has six dimensions: four macroscopic dimensions $(t, x, y, z)$ plus two extra dimensions $(\xi, \eta)$. The Firmament membrane sits at $\xi = 0, \eta = 0$. The Waters Above — the scalar field $\Psi_A$ — fills the region $\xi \in [0, \xi_A)$ with $\xi_A \approx 3 \times 10^{26}$ m, a cosmological distance. The Waters Below fills $\eta \in (-\eta_B, 0]$ with $\eta_B \approx 1.3 \times 10^{-15}$ m, a subatomic distance.
+In Vol 1 Chapter 5, we established that spacetime has six dimensions: four macroscopic dimensions $(t, x, y, z)$ plus two extra dimensions $(\xi, \eta)$. The Firmament membrane sits at $\xi = 0, \eta = 0$. The Waters Above — the scalar field $\Psi_A$ — fills the region $\xi \in [0, \xi_A)$ with $\xi_A \approx 3 \times 10^{26}$ m, a cosmological distance (of order the present Hubble radius). The Waters Below fills $\eta \in (-\eta_B, 0]$ with $\eta_B \approx 1.3 \times 10^{-15}$ m, a subatomic distance.
 
 The action for the Waters Above sector is (from ACTION_6D_COMPLETE.md):
 
@@ -219,7 +219,7 @@ Converting to natural units: $\mu \sim 88$ GeV. The large Firmament tension is d
 
 ### Finding the Minimum
 
-The effective potential (3.7.14) has the classic Mexican hat form. Let us find the minimum explicitly.
+The effective potential (3.7.14) has the classic Mexican hat form. We find the minimum explicitly.
 
 Minimizing $V_{\text{eff}}$ with respect to $|H|$:
 
@@ -494,6 +494,8 @@ The gauge boson masses follow rigorously from the gauge couplings (Vol 2) and th
 
 ### Charged Lepton Masses
 
+> **What the "Predicted" column means for fermions.** Unlike the gauge-boson and Higgs masses above, the individual fermion entries below are *not* parameter-free predictions. Each Yukawa coupling $y_f$ is fixed from the mode number $n_\xi$ together with the bare coupling and hierarchy parameter $\alpha$, which are themselves anchored to the observed lepton masses (see §7.4). Reporting $m_f = y_f \times v/\sqrt{2}$ therefore reproduces the input mass by construction — it is a consistency check, not an independent prediction. The genuine predictions are the *ratios across generations* (Eqs. 3.7.46), which the single-parameter exponential model produces with no further fitting.
+
 Using the fundamental mass formula (3.7.38) with Yukawa couplings from the overlap integral (3.7.41):
 
 **Electron** ($n_\xi = 3$, first generation):
@@ -652,7 +654,7 @@ These open questions are important and will be pursued in Volumes 4–6. They do
 
 ### The Derivation Chain
 
-Let us trace the complete chain from first principles to particle masses:
+We trace the complete chain from first principles to particle masses:
 
 1. **Vol 1 Ch 5:** The 6D zone manifold has a Waters Above scalar field $\Psi_A$ with action (3.7.1).
 

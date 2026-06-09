@@ -57,9 +57,9 @@ From Chapter 10, you have:
 From Chapter 5, you have:
 - The stress tensor and Navier-Stokes equations (Eqs. 3.5.22–3.5.25)
 - The connection between Waters field equations and fluid dynamics via the Madelung transform
-- The continuum approximation and its validity conditions (Eq. 3.5.1)
+- The continuum approximation and its validity conditions (Ch 5, §5.1)
 
-> **Dependency note (Chapter 5).** This chapter draws on results from Chapter 5 (Continuum Mechanics and Fluid Dynamics). Specifically, the stress tensor σ_ij and the Navier-Stokes equations (Eqs. 3.5.22–3.5.25) derived there are used here in §11.5 to close the loop between the bottom-up Boltzmann derivation and the top-down Waters-field derivation of viscous fluid dynamics. The continuum approximation validity condition (Eq. 3.5.1: a ≪ λ_mfp, where a is the molecular diameter and λ_mfp is the mean free path) is invoked in §11.1 to justify the molecular chaos assumption. Readers working through the series in order should read Chapter 5 first.
+> **Dependency note (Chapter 5).** This chapter draws on results from Chapter 5 (Continuum Mechanics and Fluid Dynamics). Specifically, the stress tensor σ_ij and the Navier-Stokes equations (Eqs. 3.5.22–3.5.25) derived there are used here in §11.5 to close the loop between the bottom-up Boltzmann derivation and the top-down Waters-field derivation of viscous fluid dynamics. The continuum approximation validity condition (Ch 5, §5.1: a ≪ λ_mfp, where a is the molecular diameter and λ_mfp is the mean free path) is invoked in §11.1 to justify the molecular chaos assumption. Readers working through the series in order should read Chapter 5 first.
 >
 > **Thirty-second crash course (the Chapter 5 results invoked in §11.5).** Three results suffice to follow this chapter even without Chapter 5 in hand:
 > 1. **Navier–Stokes momentum equation:** $\rho\,\dfrac{D\mathbf{v}}{Dt} = -\nabla p + \eta\,\nabla^2\mathbf{v} + \left(\zeta + \tfrac{\eta}{3}\right)\nabla(\nabla\cdot\mathbf{v})$, where $\eta$ is shear viscosity and $\zeta$ bulk viscosity.
@@ -128,7 +128,7 @@ when particles 1 and 2 are about to collide.
 
 **What does this mean physically?** It says that colliding particles are *uncorrelated* before they meet. Their velocities are drawn independently from the single-particle distribution $f_1$. After they collide, they become correlated (they have exchanged momentum and energy), but by the time they collide with other particles, those correlations have been "forgotten."
 
-**Why is this justified on the zone manifold?** Consider the scale separation established in Chapter 5 (Eq. 3.5.1):
+**Why is this justified on the zone manifold?** Consider the scale separation underlying the continuum approximation of Chapter 5 (§5.1):
 
 $$a \ll \lambda_{\text{mfp}} \ll L$$
 
@@ -158,6 +158,8 @@ where:
 - $\mathbf{v}_1', \mathbf{v}_2'$ are the velocities after collision (determined by conservation of momentum and energy)
 - $d\sigma/d\Omega$ is the **differential scattering cross-section** — the probability per unit solid angle that a collision deflects the relative velocity by angle $\theta$
 - The integration runs over all possible collision partners ($d^3v_2$) and all scattering angles ($d\Omega$)
+
+> **Notation note.** Throughout this chapter $\sigma$ (and $d\sigma/d\Omega$) denotes the scattering cross-section, *not* the Firmament membrane tension $\sigma$ of Vol 1 Ch 5. The two are unrelated; context and units distinguish them.
 
 **The gain-loss structure.** The collision integral has two parts: $f(\mathbf{v}_1')f(\mathbf{v}_2')$ counts particles scattered *into* velocity $\mathbf{v}_1$ (gain), while $f(\mathbf{v}_1)f(\mathbf{v}_2)$ counts particles scattered *out of* velocity $\mathbf{v}_1$ (loss). The net effect is to redistribute particles in velocity space until the gain and loss terms balance — which is equilibrium.
 
@@ -274,13 +276,13 @@ $$\sigma = \pi d^2 = 4.3 \times 10^{-19} \text{ m}^2$$
 
 $$\lambda_{\text{mfp}} = \frac{1}{\sqrt{2} \times 2.5 \times 10^{25} \times 4.3 \times 10^{-19}} = 6.6 \times 10^{-8} \text{ m} = 66 \text{ nm} \tag{3.11.27}$$
 
-At standard conditions, a nitrogen molecule travels about 66 nm — roughly 200 molecular diameters — between collisions. This confirms the scale separation $a \ll \lambda_{\text{mfp}}$ required for the continuum approximation (Ch 5, Eq. 3.5.1) and for molecular chaos (§11.1.4).
+At standard conditions, a nitrogen molecule travels about 66 nm — roughly 200 molecular diameters — between collisions. This confirms the scale separation $a \ll \lambda_{\text{mfp}}$ required for the continuum approximation (Ch 5, §5.1) and for molecular chaos (§11.1.4).
 
 **Pressure dependence.** Since $n = P/(k_BT)$ from the ideal gas law:
 
 $$\lambda_{\text{mfp}} = \frac{k_BT}{\sqrt{2} \, P \sigma} \tag{3.11.28}$$
 
-At low pressure (vacuum), $\lambda_{\text{mfp}}$ grows. When $\lambda_{\text{mfp}} \sim L$ (the system size), the Knudsen number Kn = $\lambda_{\text{mfp}}/L \sim 1$, and the gas enters the **free molecular flow** regime where continuum mechanics breaks down (as noted in Ch 5, §5.1.3).
+At low pressure (vacuum), $\lambda_{\text{mfp}}$ grows. When $\lambda_{\text{mfp}} \sim L$ (the system size), the Knudsen number Kn = $\lambda_{\text{mfp}}/L \sim 1$, and the gas enters the **free molecular flow** regime where continuum mechanics breaks down (as noted in Ch 5, §5.1).
 
 ---
 
