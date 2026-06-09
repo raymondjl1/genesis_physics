@@ -93,6 +93,8 @@ $$
 T^{(A)}_{\mu\nu}\big|_{\text{Firm}} = -\Lambda_A^{(4)}\,\gamma_{\mu\nu}, \qquad \rho_A = \Lambda_A^{(4)}, \qquad w_A = -1 \quad \text{(exact).} \tag{5.11.1}
 $$
 
+The "exact" is not an approximation: because $\Psi_A$ sits at the minimum of its potential, its stress-energy is Lorentz-invariant ($\propto \gamma_{\mu\nu}$), and a Lorentz-invariant vacuum stress-energy has $w = -1$ identically — we make this precise in §11.6.3.
+
 **Identification II (Waters Below ≡ Dark Matter).**
 
 $$
@@ -450,7 +452,7 @@ Table 5.11.2 summarizes the confrontation.
 
 The framework is consistent with CMB-anchored $H_0$ and with Pantheon+ $q_0$ and $z_{\mathrm{acc}}$. It is in mild tension with the SH0ES direct measurement of $H_0$ — but this is the famous "Hubble tension" that $\Lambda$CDM also shares, and the framework inherits it. The tension is not load-bearing for this chapter; we return to it in Ch 12.
 
-## §11.7 The Cosmological-Constant Problem (Vol 4 Ch 9 Promise Paid)
+## §11.7 The Cosmological-Constant Problem (Vol 4 Ch 9 Promise: Partial Structural Payment)
 
 And now we come to the chapter's hardest section, the one that Vol 4 Ch 9 left us with a bill for. The bill reads: *the QFT vacuum energy estimated in Vol 4 Ch 9 §9.6 is a factor of roughly $10^{41}$ larger than the observed cosmological constant. Explain the discrepancy or admit you cannot.*
 
@@ -609,7 +611,7 @@ This is the Skeptic's question and it deserves a direct answer. Let us list the 
 
 Each input was fixed for a non-cosmological reason, in a volume that had not yet heard of the 27/68 ratio. Nothing in this chapter is free to adjust. The ratio (5.11.40) is an *output*, not a fit.
 
-The Skeptic might reply: *"But your warp-factor integrals have some uncertainty, and you could have chosen the uncertain part to make the ratio come out right."* This is research gap G5, and it is a fair complaint. The framework's prediction is $0.3$–$0.5$, with the uncertainty dominated by the precision of the warp-factor integrals. The observed value $0.389$ sits inside this range, which is consistent with no tuning. If the warp-factor integrals, computed to higher precision in Vol 6, end up giving a ratio outside the range $0.3$–$0.5$, the framework would be in tension with observation. We mark this as a weak prediction: the framework reproduces the ratio at the current level of precision, and the prediction will tighten in Vol 6.
+The Skeptic might reply: *"But your warp-factor integrals have some uncertainty, and you could have chosen the uncertain part to make the ratio come out right."* This is research gap G5, and it is a fair complaint. It is the same audit that Vol 5 Ch 8 §8.6.4 raises against $\Omega_A = 0.684$ under the tag **RT-5.ΩA**: until that task confirms the warp-factor integral ratio is free of any tuning of the Waters Above boundary conditions, the ratio (5.11.40) should be read as a *consistency check* rather than a closed first-principles prediction. The framework's prediction is $0.3$–$0.5$, with the uncertainty dominated by the precision of the warp-factor integrals. The observed value $0.389$ sits inside this range, which is consistent with no tuning. If the warp-factor integrals, computed to higher precision in Vol 6, end up giving a ratio outside the range $0.3$–$0.5$, the framework would be in tension with observation. We mark this as a weak prediction: the framework reproduces the ratio at the current level of precision, and the prediction will tighten in Vol 6.
 
 ## §11.9 What the Framework Does *Not* Predict
 

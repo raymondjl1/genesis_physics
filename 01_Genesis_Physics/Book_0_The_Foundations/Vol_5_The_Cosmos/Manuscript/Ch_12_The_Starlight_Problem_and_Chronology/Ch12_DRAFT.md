@@ -145,7 +145,9 @@ These use participial constructions, suggesting an action that is ongoing or hab
 
 2. **Ongoing gradual expansion (sustaining mode, post-Day 7).** Described by participial forms. God *continues* stretching the heavens, but at a much slower rate. This is the current Hubble expansion we observe.
 
-This grammatical evidence, combined with the Sabbath Boundary principle (Vol 1 Ch 11), points to a two-phase expansion structure that is *demanded* by proper reading of Scripture in conjunction with zone thermodynamics.
+This grammatical evidence, combined with the Sabbath Boundary principle (Vol 1 Ch 11), is consistent with and motivates a two-phase expansion structure when read in conjunction with zone thermodynamics. The Hebrew grammar provides interpretive support, not a physics derivation: the perfect-versus-participle distinction is one of several legitimate readings.[^waltke-oconnor]
+
+[^waltke-oconnor]: The perfective aspect of the relevant forms admits a gnomic reading (Waltke & O'Connor, *An Introduction to Biblical Hebrew Syntax*, §30.5.1), and the participles can be read as expressing ongoing or characteristic action (§37.6). The two-phase reading offered here is therefore one grammatically defensible option among several, not a forced consequence of the syntax.
 
 **Physical Interpretation 5.12.1 (Two-Phase Expansion Structure):** The Hebrew grammar of the seventeen stretching passages, when interpreted in light of the Sabbath Boundary phase transition, is consistent with cosmic expansion having occurred in two distinct regimes: rapid during Days 2–4 (perfect tense, completed action) and slow during sustaining mode (participle, ongoing action), separated by the Sabbath Boundary discontinuity.
 
@@ -155,11 +157,11 @@ This grammatical evidence, combined with the Sabbath Boundary principle (Vol 1 C
 
 ### 2.3 The Sabbath Boundary as Phase Transition
 
-**Recap of Vol 1 Ch 11:** The Sabbath Boundary (Genesis 2:2–3, Hebrews 4:3–4) represents a discontinuous transition in the sustaining field $\kappa$:
+**Recap of Vol 1 Ch 11:** The Sabbath Boundary (Genesis 2:2–3, and — for the historical Sabbath only — Hebrews 4:3–4) represents a discontinuous transition in the sustaining field $\kappa$:
 
 $$\kappa(t) = \begin{cases} \kappa_\text{create} \text{ (supercritical)} & t_1 \leq t < t_7 \text{ (creation week)} \\ \kappa_\text{full} \text{ or } \kappa_\text{partial} \text{ (subcritical)} & t \geq t_7 \text{ (sustaining mode)} \end{cases}$$
 
-where $t_7$ marks the Sabbath Boundary.
+where $t_7$ marks the Sabbath Boundary. (A note on the Hebrews 4:3–4 citation: the passage's primary thrust is eschatological and Christological — the historical Sabbath is invoked there only to motivate the promise of a future rest in Christ. We cite it here solely for its affirmation that the historical Day-7 Sabbath was a completed event; the physics maps to that historical layer alone, not to the typological promise.)
 
 A phase transition discontinuity permits *fundamental changes in physical behavior*:
 
@@ -341,7 +343,7 @@ We deliberately do **not** describe this as "the framework passes all consistenc
 
 **Biblical precedent:** Adam is created as an adult (Genesis 2:7), not as a zygote or infant. Mere moments after creation, Adam possesses (1) a mature body with bone density, muscle tone, and neural connections matching adult physiology; (2) the capacity to name animals and steward creation; (3) the ability to communicate in language. None of these could exist in an infant; they characterize an adult human.
 
-Similarly, when Jesus created wine at Cana (John 2:1–11), the master of the feast observed: "Everyone serves the good wine first... but you have kept the good wine until now" (v. 10). The wine possessed characteristics of aged, fermented wine—complex flavor, developed aroma—not raw grape juice. Yet it was created instantaneously.
+An illustrative parallel: when Jesus created wine at Cana (John 2:1–11), the master of the feast observed: "Everyone serves the good wine first... but you have kept the good wine until now" (v. 10). The wine possessed characteristics of aged, fermented wine—complex flavor, developed aroma—not raw grape juice. Yet it was created instantaneously. We cite this not as exegetical warrant — the Cana miracle is a Christological sign (John 2:11), not a doctrine of created-system aging — but as illustration that instantaneous creation in functional maturity is at least conceivable on biblical premises.
 
 **For stars:** Genesis 1:14–19 specifies that luminaries created on Day 4 fulfill an immediate purpose: "Let them be for signs and for seasons, and for days and years, and let them be lights in the firmament of the heavens to give light upon the earth" (v. 14, 15). The action is completed by Day 4 evening; the purpose is fulfilled then, not in some future dispensation.
 
@@ -361,7 +363,9 @@ Similarly, when Jesus created wine at Cana (John 2:1–11), the master of the fe
 
 If this light was created *in transit*—that is, the light beams were assembled as already-existing photons with fabricated spectral characteristics—then we are observing an *event that never happened*. The supernova did not explode; we see the photons of an explosion that never occurred.
 
-This violates the principle of epistemic integrity: created reality should not contain false observational data. A universe created by a truthful God should not deceive investigators.
+This violates the principle of epistemic integrity: created reality should not contain false observational data (cf. Hebrews 6:18, "it is impossible for God to lie"; Titus 1:2).[^truthful-creator] A universe created by a truthful God should not deceive investigators.
+
+[^truthful-creator]: The inference from God's truthfulness to the trustworthiness of the natural record draws also on Romans 1:19–20, which presents creation itself as a reliable witness to its Creator. The argument here is theological, not a physics derivation.
 
 Moreover, the "light in transit" mechanism requires an implausibly precise fine-tuning: every photon, from every star, at every wavelength, must be pre-positioned such that it arrives at Earth at exactly the right time with exactly the right properties to appear as if it were emitted by a functioning star. This is not creation; it is global deception.
 
@@ -699,7 +703,7 @@ Mature creation without false history is consistent with a truthful Creator. The
 
 ### 8.3 Light as Revelation
 
-In Scripture, light carries the weight of revelation. John 1:4–5 — "In him was life, and that life was the light of all mankind. The light shines in the darkness, and the darkness has not overcome it." John 8:12 — "I am the light of the world. Whoever follows me will never walk in darkness, but will have the light of life." Stars created on Day 4 to "give light upon the earth" (Genesis 1:15) foreshadow the Word himself, who came "to give light to those sitting in darkness" (Luke 1:79).
+In Scripture, light carries the weight of revelation. John 1:4–5 — "In him was life, and that life was the light of all mankind. The light shines in the darkness, and the darkness has not overcome it." John 8:12 — "I am the light of the world. Whoever follows me will never walk in darkness, but will have the light of life." Stars created on Day 4 to "give light upon the earth" (Genesis 1:15) foreshadow the Word himself, "the true light, which gives light to everyone" (John 1:9) — the same hope Zechariah's prophecy anticipated when it spoke of the "sunrise from on high" coming "to give light to those sitting in darkness" (Luke 1:78–79).
 
 The zone framework's answer to the starlight problem—rapid separation, dimensional pathways, functional maturity—is physics. But it carries a resonance: the way light reaches across vast distance and difference to illuminate the world mirrors how divine revelation reaches across the infinite distance between Creator and creation. This is not a physics claim but an observation on the metaphorical coherence of the framework's mechanics with Scripture's theology of revelation.
 
@@ -719,15 +723,7 @@ The framework does NOT claim:
 
 ### 8.5 The Honest Stance
 
-To a believer: "The framework shows biblical creation and observational cosmology are not irreconcilable. Physics does not forbid young creation; it forbids certain mechanisms while permitting others."
-
-To a skeptic: "The framework makes testable sustaining-mode predictions that match observations. Creation-week mechanisms are speculative. You can accept sustaining-mode physics (indistinguishable from ΛCDM) without the creation-week part."
-
-To both: "The framework is falsifiable. If sustaining-mode predictions fail, the framework fails."
-
-### 8.6 Why This Section Exists
-
-Physics textbooks do not normally include theological reflection. This chapter does because the Sabbath Boundary is both a thermodynamic phase transition and, for those who believe the Bible, a cosmological boundary that Scripture describes. The theological observations here are not physics; they show that the physics is *consistent* with theological claims, not contradicted by them. Whether that consistency matters depends on beliefs outside this chapter's scope.
+The framework is consistent with biblical creation and with sustaining-mode observation. It does not require either commitment to function as physics. Whether the framework's biblical resonance is meaningful is a question outside its scope. What can be stated without qualification is that the framework is falsifiable: if its sustaining-mode predictions fail, the framework fails.
 
 ---
 
