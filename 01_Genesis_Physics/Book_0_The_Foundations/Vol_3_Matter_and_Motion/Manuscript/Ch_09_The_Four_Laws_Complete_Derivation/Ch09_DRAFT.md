@@ -203,7 +203,7 @@ This is **unobservably small**. For all practical purposes, thermal equilibrium 
 The Gaussian approximation is valid because the second-derivative term dominates over all higher-order terms for macroscopic systems.
 
 **Transitivity of Thermal Equilibrium:** When three systems A, B, C are in mutual thermal contact, they all reach the same temperature:
-$$\frac{1}{T_A} = \frac{1}{T_B} = \frac{1}{T_C} \quad \Rightarrow \quad T_A = T_B = T_C \tag{3.9.13}$$
+$$\frac{1}{T_A} = \frac{1}{T_B} = \frac{1}{T_C} \quad \Rightarrow \quad T_A = T_B = T_C \tag{3.9.12a}$$
 
 This follows because the total multiplicity $\Omega_{\text{tot}} = \Omega_A(U_A) \cdot \Omega_B(U_B) \cdot \Omega_C(U_C)$ is maximized when all three slopes are equal. This transitivity property is implicit in the Zeroth Law but makes it a true "law" (a property that is independent of which systems we choose).
 
