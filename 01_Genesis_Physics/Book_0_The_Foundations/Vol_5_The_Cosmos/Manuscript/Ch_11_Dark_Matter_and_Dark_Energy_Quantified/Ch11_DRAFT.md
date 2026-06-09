@@ -441,7 +441,7 @@ Note the epistemic character of this prediction. Standard $\Lambda$CDM takes $w 
 
 ### §11.6.4 Confrontation with Pantheon+ and DES Y6
 
-Table 5.11.2 summarizes the confrontation.
+Table 5.11.2 summarizes the confrontation. The framework adopts the Planck (CMB-anchored) value $H_0 = 67.4$ km/s/Mpc throughout Vol 5 (see Ch 8 and Ch 14); the SH0ES value is listed only for completeness.
 
 | Quantity | Framework | Observation | Source |
 |---|---|---|---|

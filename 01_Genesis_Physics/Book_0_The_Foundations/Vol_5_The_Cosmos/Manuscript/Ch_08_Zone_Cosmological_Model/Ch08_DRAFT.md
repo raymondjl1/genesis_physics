@@ -83,7 +83,7 @@ Vol 5 Ch 1 recovered the full nonlinear Einstein field equations on the Firmamen
 
 $$(5.8.7)\quad G_{\mu\nu} + \Lambda_\text{eff}\, g_{\mu\nu} = \frac{8\pi G_4}{c^4}\,T_{\mu\nu},$$
 
-with $G_{\mu\nu}$ the Einstein tensor of the Firmament induced metric, $\Lambda_\text{eff}$ a small effective cosmological constant traced to bulk ingredients in §1.5, and $T_{\mu\nu}$ the total Firmament stress-energy. Vol 5 §1.8 also showed that the Bianchi identity $\nabla^\mu G_{\mu\nu} = 0$ holds on the Firmament and implies $\nabla^\mu T_{\mu\nu} = 0$.
+with $G_{\mu\nu}$ the Einstein tensor of the Firmament induced metric, $\Lambda_\text{eff}$ a small effective cosmological constant traced to bulk ingredients in §1.5, and $T_{\mu\nu}$ the total Firmament stress-energy. Vol 5 Ch 1 §1.8 also showed that the Bianchi identity $\nabla^\mu G_{\mu\nu} = 0$ holds on the Firmament and implies $\nabla^\mu T_{\mu\nu} = 0$.
 
 For this chapter we will *absorb* $\Lambda_\text{eff}$ into the Waters Above contribution: in §8.3 we will see that the projection of $\Psi_A$ onto the Firmament already produces a cosmological-constant-shaped term, and the natural identification is $\Lambda_\text{eff} = (8\pi G_4/c^4)\Lambda_A$. After this absorption, (5.8.7) takes the form
 

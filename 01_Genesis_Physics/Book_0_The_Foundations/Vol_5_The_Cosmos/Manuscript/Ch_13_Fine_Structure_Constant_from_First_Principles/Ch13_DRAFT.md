@@ -25,7 +25,7 @@ for a relative deviation of $0.10\%$–$0.31\%$ depending on where in the theory
 
 That bald statement is the entire chapter. Every section that follows is a careful unpacking of where the inputs come from, how the machinery of Volumes 1–4 combines them, what the residual uncertainties are, and which pieces of the derivation are still under construction. By the end of the chapter a graduate student should be able to reproduce $137.17$ with a calculator and a copy of Vols 1–5 on the desk, and should also know, precisely, which two research gaps stand between the present 0.1% precision and the next-milestone 0.01%.
 
-This is the crown jewel of the Foundations series. The rest of Vol 5 Chapters 14 and 15 will repeat the same machinery for the other coupling constants and for $\hbar$, $G$, and $k_B$; Vol 6 will make $\alpha^{-1} = 137.17$ its headline falsification test. If the experimental value ever drifts outside the theoretical window given above, the zone framework will have failed a clear, pre-registered test. We embrace that risk.
+This is the capstone result of the Foundations series. The rest of Vol 5 Chapters 14 and 15 will repeat the same machinery for the other coupling constants and for $\hbar$, $G$, and $k_B$; Vol 6 will make $\alpha^{-1} = 137.17$ its headline falsification test. If the experimental value ever drifts outside the theoretical window given above, the zone framework will have failed a clear, pre-registered test. We embrace that risk.
 
 ## §13.1 Introduction: Pauli's Question
 

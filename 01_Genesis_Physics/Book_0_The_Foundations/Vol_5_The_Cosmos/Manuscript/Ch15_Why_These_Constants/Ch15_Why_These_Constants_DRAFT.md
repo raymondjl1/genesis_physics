@@ -44,7 +44,7 @@ Open any graduate textbook in theoretical physics and you will find the fundamen
 
 But precision is not understanding.
 
-Consider the hierarchy problem, perhaps the most famous embarrassment in fundamental physics. The gravitational force between two protons is roughly 10³⁶ times weaker than the electromagnetic force between them:
+Consider the hierarchy problem (the standard physics term for the enormous $M_{\mathrm{Pl}}^2/M_{\mathrm{EW}}^2$ gap between the gravitational and electroweak scales — not to be confused with the framework's Five Governing Principles of Vol 1 Ch 8), perhaps the most famous embarrassment in fundamental physics. The gravitational force between two protons is roughly 10³⁶ times weaker than the electromagnetic force between them:
 
 $$\frac{G_N m_p^2}{\alpha \hbar c} \approx 10^{-36} \tag{15.1}$$
 

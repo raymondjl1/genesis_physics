@@ -121,7 +121,7 @@ The Old Testament contains seventeen explicit passages describing God "stretchin
 - Psalm 136:6 — "To him who spread out the earth above the waters"
 - Isaiah 42:5 — "Who created the heavens and stretched them out"
 
-This linguistic testimony is overwhelming and consistent. The heavens are not merely something that happens to expand; they are definitionally the "stretched-out" reality.
+Of these seventeen, the six Isaiah passages (40:22, 42:5, 44:24, 45:12, 48:13, 51:13) are uncontested across the textual traditions; Job 9:8 and Zechariah 12:1 read slightly differently in the Septuagint tradition than in the Masoretic Text. This linguistic testimony is overwhelming and consistent. The heavens are not merely something that happens to expand; they are definitionally the "stretched-out" reality.
 
 ### 2.2 Grammatical Clue: Two Phases of Expansion
 
@@ -523,7 +523,7 @@ where $\Omega_A = 0.684$ (Waters Above effective density parameter), $\Omega_m =
 **ΛCDM:**
 $$H^2(a) = H_0^2 \left[\Omega_\Lambda + \Omega_m a^{-3} + \Omega_r a^{-4}\right]$$
 
-where $\Omega_\Lambda = 0.685$ (cosmological constant), etc.
+where $\Omega_\Lambda = 0.684$ (cosmological constant), etc.
 
 **Identification:** $\rho_A = \text{const} \equiv \Lambda/(8\pi G_4)$, so $\Omega_A \equiv \Omega_\Lambda$.
 
