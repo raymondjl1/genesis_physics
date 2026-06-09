@@ -134,7 +134,7 @@ The bending of a surface when something sits on it. The firmament around the ear
 
 ---
 
-**Density (of the membrane).**
+**Density (of the Firmament).**
 How heavy the firmament is per unit area. Higher density → slower ripples. Set at creation.
 
 *(First introduced: Chapter 9)*
@@ -173,6 +173,13 @@ A measurement of disorder in a system. The Second Law of Thermodynamics states t
 The stretched expanse between the two fields of *mayim.* Where you live. Canonical zone label: Z₂.₂.₂. Modern physics calls the same thing *the observable universe* — the baryonic, visible cosmos that hosts stars, planets, and life.
 
 *(First introduced: Chapter 2)*
+
+---
+
+**Firmament tension**
+*(modern physics: "membrane tension")* — The measured, enormous tension of the fabric of space. In this framework, it is the physical property that sets the speed of light. Scripture calls the same property the *stretching* of the heavens.
+
+*(First introduced: Chapter 5)*
 
 ---
 
@@ -215,13 +222,6 @@ Greek *Word / Reason / Order.* The ordering principle by which creation is intel
 *Pronounced *meh-oh-ROTE*.* — Hebrew for *luminaries, lights.* Day 4. Localized, oscillating light-emitting systems embedded in the Firmament.
 
 *(First introduced: Chapter 4)*
-
----
-
-**Membrane tension**
-*(modern physics term)* — The measured, enormous tension of the fabric of space. In this framework, it is the physical property that sets the speed of light. Scripture calls the same property the *stretching* of the heavens.
-
-*(First introduced: Chapter 5)*
 
 ---
 
@@ -387,7 +387,7 @@ In a closed system, entropy always increases over time. This is the law that has
 ---
 
 **Standard Model**
-*(physics term)* — The 20th-century physics framework that inventories all the known particles and forces. Its particle masses are now reproduced by the Genesis Physics framework from first principles, with the accuracies listed in §8.
+*(physics term)* — The 20th-century physics framework that inventories all the known particles and forces. Its particle masses are now reproduced by the Genesis Physics framework from first principles, with the accuracies listed in Chapter 7, §8.
 
 *(First introduced: Chapter 7)*
 
@@ -414,7 +414,7 @@ A statement that something about the universe stays the same when you change som
 
 ---
 
-**Tension (of the membrane).**
+**Tension (of the Firmament).**
 How tightly the firmament is stretched. Higher tension → faster ripples. Set at creation and held constant by the Sustainer.
 
 *(First introduced: Chapter 9)*
