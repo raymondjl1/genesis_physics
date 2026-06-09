@@ -268,7 +268,7 @@ A mathematical proof, published by Emmy Noether in 1918, that every continuous s
 ---
 
 **Open system**
-*(physics term)* — A system that exchanges matter or energy with something outside itself. The observable universe, current cosmology has found, is an open system. *See* Book 1 Ch 1 — *The Most Ignored Page in Science*.
+*(physics term)* — A system that exchanges matter or energy with something outside itself. The observable universe, current cosmology has found, is an open system. *See* ***The Hidden Architecture*, Chapter 1 — *The Most Ignored Page in Science***.
 
 *(First introduced: Chapter 1)*
 
@@ -338,7 +338,7 @@ The natural speed at which a ripple travels across a medium. On a guitar string 
 ---
 
 **Raqia**
-*Pronounced *rah-KEE-ah*.* — Hebrew word translated *firmament* or *expanse.* From the root *raqa,* "to beat out, stretch." A stretched, tensioned expanse — a membrane — not a solid dome. In Book 2 and throughout this series, referred to by its canonical name: *the Firmament.*
+*Pronounced *rah-KEE-ah*.* — Hebrew word translated *firmament* or *expanse.* From the root *raqa,* "to beat out, stretch." A stretched, tensioned expanse — a membrane — not a solid dome. In this book and throughout this series, referred to by its canonical name: *the Firmament.*
 
 *(First introduced: Chapter 2)*
 
