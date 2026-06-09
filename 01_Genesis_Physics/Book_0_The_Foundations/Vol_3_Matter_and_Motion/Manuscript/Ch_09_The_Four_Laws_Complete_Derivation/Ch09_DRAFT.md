@@ -6,7 +6,9 @@
 
 ## §9.0 Introduction — Why Thermodynamic Laws Are Theorems
 
-In Volume 1, Chapter 11, we made a promise: every law of thermodynamics is a derivable consequence of the zone architecture, not a postulate handed down from the gods of empiricism. We showed, at introductory level, that the Zeroth, First, Second, and Third Laws all follow from counting microstates of membrane defects on the Firmament. We derived the partition function Z(T) and saw how it generates thermodynamic functions. We sketched the connection between the coupling strength κ and the arrow of time.
+Chapter 8 closed on the electroweak phase transition — symmetry breaking understood as a thermodynamic event, with a critical temperature, an order parameter, and a free-energy landscape. But to treat symmetry breaking as a *phase transition* we helped ourselves to the full apparatus of temperature, entropy, and free energy. That apparatus is exactly what this chapter now grounds. Vol 1 Chapter 11 sketched where it comes from; here we complete the derivation, so that the thermodynamics Chapter 8 leaned on rests on the same zone architecture as everything else.
+
+In Volume 1, Chapter 11, we made a promise: every law of thermodynamics is a derivable consequence of the zone architecture, not a postulate handed down by tradition. We showed, at introductory level, that the Zeroth, First, Second, and Third Laws all follow from counting microstates of membrane defects on the Firmament. We derived the partition function Z(T) and saw how it generates thermodynamic functions. We sketched the connection between the coupling strength κ and the arrow of time.
 
 This chapter **completes that promise**. We are now going to derive all four laws with complete mathematical rigor, fill in details that Vol 1 necessarily abbreviated, and build the full machinery of thermodynamic potentials and Maxwell relations. This is graduate-level physics written in the Feynman voice: we start with WHY before we do WHAT, and we show every step of every derivation.
 
@@ -26,7 +28,7 @@ This is not a minor distinction. It means:
 
 3. **The framework is in-principle testable (protocol pending).** If κ — or the entropy production rate L·Δκ — can be measured, the phase-dependent Second Law can be tested. This chapter does not yet specify the experiment that would measure κ, the numerical value the framework predicts, or the observation that would falsify it; supplying that concrete protocol is open work. What can be said now is that the claim is testable in principle: were such a measurement to contradict the phase-dependent prediction, the framework would be wrong.
 
-4. **The existence of life makes sense.** A universe held in a low-entropy state (Phase 2) can maintain structure and complexity indefinitely without violating the Second Law. Once that sustaining is reduced (Phase 3), the universe ages. This is precisely the thermodynamic condition needed for biological complexity in a fallen world.
+4. **The persistence of complex structure makes sense.** A universe held in a low-entropy state (Phase 2) can maintain structure and complexity indefinitely without violating the Second Law. Once that sustaining is reduced (Phase 3), the universe ages. This is precisely the thermodynamic condition under which long-lived biological complexity is possible. (The broader interpretive significance of the two-phase structure is developed in Chapter 12.)
 
 **What's new in this chapter?**
 
@@ -336,7 +338,7 @@ $$dU = \delta Q - P dV \tag{3.9.20}$$
 The heat added equals the change in internal energy plus the work done by the system. For an ideal gas:
 $$Q = \Delta U + P\Delta V = nC_V \Delta T + nR\Delta T = nC_P \Delta T \tag{3.9.20a}$$
 
-where we used $C_P = C_V + R$ (or $C_P = C_V + Nk_B$ for N particles).
+where we used the per-mole (molar) form of Mayer's relation, $C_P = C_V + R$, with $C_V, C_P$ the molar heat capacities and $n$ the number of moles. (The equivalent per-particle/extensive statement, $C_P - C_V = Nk_B$, is obtained by the substitution $nR = Nk_B$ and is derived independently in §9.4, Eq. 3.9.38. We use the molar form throughout §9.3 and the extensive form throughout §9.4.)
 
 **Isochoric process** (constant V, rigid container, no volume work):
 $$dU = \delta Q \quad \Rightarrow \quad Q = nC_V \Delta T \tag{3.9.21}$$

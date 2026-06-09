@@ -290,11 +290,15 @@ Recall from Vol. 1, Ch. 6, that the zone manifold contains three reservoirs of e
 
 $$E_{\text{total}} = E_A + E_B + E_F = \text{const} \quad \text{(3.12.21)}$$
 
-But the universe is not closed. It receives sustaining energy from Zone 1 (God's Presence). This external input changes the energy balance:
+But the universe is not closed. It receives sustaining energy through the Zone 1 boundary — in the framework's reading, the model boundary representing God's sustaining presence (see §12.4 below and the discussion of Zone 1 as a boundary condition rather than a location). This external input changes the energy balance:
 
 $$\frac{dE_{\text{total}}}{dt} = \dot{E}_S \quad \text{(3.12.22)}$$
 
-where $\dot{E}_S = \kappa(t) \cdot V$ is the power input from the sustaining field (see 02-WATERS_REPLENISHMENT.md and Ch. 9).
+where the power input from the sustaining field is the volume integral of a sustaining energy-density rate $j_S(\vec{x}, t)$ (units of power per unit volume), modulated by the dimensionless sustaining coupling $\kappa(t)$:
+
+$$\dot{E}_S = \kappa(t) \int_V j_S(\vec{x}, t)\, d^3x \quad \text{(3.12.22a)}$$
+
+(see 02-WATERS_REPLENISHMENT.md and Ch. 9; the structure parallels the energy-source term of Eq. 1.11.20). Note that $\kappa(t)$ is dimensionless, so the missing energy-density factor $j_S$ is required for $\dot{E}_S$ to carry units of power: the earlier shorthand "$\kappa(t)\cdot V$" omitted it.
 
 Each reservoir has its own entropy. From the partition functions derived in Ch. 10:
 
@@ -491,11 +495,11 @@ Romans 8:20–21 explains:
 
 > "For we know that the whole creation has been groaning as in the pains of childbirth right up to the present time... in hope that the creation itself will be liberated from its bondage to decay and brought into the freedom and glory of the children of God."
 
-The "bondage to decay" is entropy production. It is not accident. It is judgment—a built-in consequence of the Fall. But it is also *merciful*. By making decay inevitable, God ensures that no form of evil can endure forever. All suffering, all injustice, all corruption is "appointed to die." The universe itself refuses permanence to sin.
+On the theological reading offered here, the "bondage to decay" is identified with entropy production, understood not as accident but as a built-in consequence of the Fall — and, on this reading, also as merciful: by making decay inevitable, no configuration, however corrupt, can endure indefinitely. In the language of the framework, every state in Phase 3 is subject to the same monotonic entropy increase, so no structure is exempt from eventual dissolution.
 
-And the judgment is also a *call*. The increasing entropy screams wordlessly: "This is not as it should be. Repent. Return. Redemption is possible."
+One may also read the same inevitability as an implied summons rather than only a sentence: rising entropy registers, on this interpretation, that the present state is not the intended one. We flag this as interpretive commentary, not a physical result.
 
-The mathematical structure encodes this message: the Four Epochs theorem shows that κ and d𝒮/dt are not independent. When κ_full returns (Phase 4), entropy production ceases. The cure is already written into the cosmos's DNA.
+What the mathematics does supply is the link, not the homily: the Four Epochs theorem shows that κ and d𝒮/dt are not independent, so that when κ_full returns (Phase 4), entropy production ceases. The structural point — that the conditions for renewal are already encoded in the same parameter that governs decay — stands independently of how one reads its significance.
 
 ---
 

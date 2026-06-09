@@ -123,6 +123,8 @@ The Firmament (Vol 1 Ch 5) is the 4D hypersurface at fixed $(ξ_0, η_0)$ in the
 
 $$ds^2 = -c^2 dt^2 + a^2(t)(dx^2 + dy^2 + dz^2) + \text{const} \quad \text{(Eq. 3.1.2)}$$
 
+Here the additive "const" is the contribution of the frozen extra-dimensional warp factor at fixed $(\xi_0, \eta_0)$: it is a constant in the transverse (off-Firmament) directions, not in the four Firmament coordinates. Because it carries no dependence on $t, x, y, z$, its derivatives vanish and it contributes nothing to the Christoffel symbols below; it is retained only to make explicit that the Firmament metric is a slice of the full 6D line element.
+
 The Christoffel symbols on the Firmament depend only on the scale factor $a(t)$ and its derivatives. In the matter era (non-relativistic), $a(t) \approx \text{const}$, so:
 
 $$\Gamma^\mu_{\alpha\beta} \approx 0 \quad \text{(except for curvature-related terms from gravity)}$$
@@ -324,15 +326,7 @@ $$\int_{\tau_1}^{\tau_2} f_\mu \frac{d(\delta x^\mu)}{d\tau} d\tau = -\int_{\tau
 
 **Step 6: Combine and Apply δS = 0**
 
-Putting all pieces together, requiring $\delta S = 0$ for arbitrary $\delta x^\mu$ (within the boundary conditions), the integrand must vanish:
-
-$$-m \left[\frac{1}{\sqrt{-g_{\mu\nu}u^\mu u^\nu}} \left( -g_{\lambda\nu,\rho}u^\rho u^\lambda u^\nu - 2g_{\lambda\nu}u^\lambda \frac{du^\nu}{d\tau}\right)\right] + \frac{\partial f_\lambda}{\partial x^\nu}\delta x^\nu u^\mu + \frac{df_\mu}{d\tau}=0$$
-
-Using the normalization $g_{\mu\nu}u^\mu u^\nu = -1$ (so the coefficient is 1), and the definition of covariant acceleration:
-
-$$-m \left[-g_{\lambda\nu,\rho}u^\rho u^\lambda u^\nu - 2g_{\lambda\nu}u^\lambda \frac{du^\nu}{d\tau}\right] = \frac{df_\mu}{d\tau}$$
-
-This simplifies to:
+Putting all pieces together, requiring $\delta S = 0$ for arbitrary $\delta x^\mu$ (within the boundary conditions), the coefficient of $\delta x^\mu$ in the integrand must vanish. Collecting the free-particle terms (the metric derivative and the integrated-by-parts $du/d\tau$ term) against the interaction term, and using the normalization $g_{\mu\nu}u^\mu u^\nu = -1$ so that the square-root prefactor is unity, yields, after raising the free index with $g^{\mu\lambda}$:
 
 $$\boxed{m \frac{D u^\mu}{d\tau} = f^\mu \quad \text{(Eq. 3.1.8)}}$$
 

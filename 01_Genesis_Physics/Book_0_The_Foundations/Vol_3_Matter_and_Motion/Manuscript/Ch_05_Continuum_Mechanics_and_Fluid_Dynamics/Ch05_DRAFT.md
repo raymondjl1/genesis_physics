@@ -66,7 +66,7 @@ The Waters field equation (3.5.2) contains a potential $U(\Psi_B)$ — the self-
 
 $$U(\Psi_B) = -\frac{1}{2}m_B^2|\Psi_B|^2 + \frac{\lambda_B}{4}|\Psi_B|^4 \tag{3.5.5}$$
 
-The corresponding potential energy density is $V_B = U(|\Psi_B|) = U(\sqrt{\rho_B/m_B})$. In the fluid description, this potential generates a **pressure**. To see this, recall that in thermodynamics, pressure is related to the energy density by:
+The corresponding potential energy density is $V_B = U(|\Psi_B|) = U(\sqrt{\rho_B/m_B})$. In the fluid description, this potential generates a **pressure**. To see this, we use the thermodynamic relation between pressure and energy density established in Vol 1 Ch 11 (and rederived from the zone partition function in Vol 3 Ch 9, §9.3); at constant entropy $\mathcal{S}$ it reads:
 
 $$P = -\frac{\partial(V_B)}{\partial(1/\rho_B)}\bigg|_{\mathcal{S}} = \rho_B^2\frac{\partial(V_B/\rho_B)}{\partial\rho_B}\bigg|_{\mathcal{S}} \tag{3.5.6}$$
 

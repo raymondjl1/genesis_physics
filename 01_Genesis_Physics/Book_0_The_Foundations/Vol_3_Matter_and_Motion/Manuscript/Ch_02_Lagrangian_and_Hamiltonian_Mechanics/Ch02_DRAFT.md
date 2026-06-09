@@ -46,7 +46,9 @@ Here is the program:
 
 ## §2.2 The Particle Lagrangian from the Zone Action
 
-> **Notation convention.** This chapter works at two scales: the *field* level (zone Lagrangian density $\mathcal{L}$, field Hamiltonian density $\mathcal{H}$) and the *particle* level (particle Lagrangian $L$, particle Hamiltonian $H$). Calligraphic letters ($\mathcal{L}$, $\mathcal{H}$) always denote field-level densities on the zone manifold; italic letters ($L$, $H$) always denote particle-level functions of generalized coordinates and momenta. The Einstein summation convention (repeated indices summed) is used throughout; all summation indices run over the 4D spacetime or $n$-dimensional configuration space unless explicitly stated otherwise. Summation over 6D zone-manifold indices is always written with explicit limits.
+A single particle does not need the full 6D field theory; it needs the *effective* description that the zone action predicts for a localized object. This section extracts that description in three reduction steps.[^notation]
+
+[^notation]: **Notation convention.** This chapter works at two scales: the *field* level (zone Lagrangian density $\mathcal{L}$, field Hamiltonian density $\mathcal{H}$) and the *particle* level (particle Lagrangian $L$, particle Hamiltonian $H$). Calligraphic letters ($\mathcal{L}$, $\mathcal{H}$) always denote field-level densities on the zone manifold; italic letters ($L$, $H$) always denote particle-level functions of generalized coordinates and momenta. The Einstein summation convention (repeated indices summed) is used throughout; all summation indices run over the 4D spacetime or $n$-dimensional configuration space unless explicitly stated otherwise. Summation over 6D zone-manifold indices is always written with explicit limits.
 
 ### §2.2.1 The Chain of Reduction
 

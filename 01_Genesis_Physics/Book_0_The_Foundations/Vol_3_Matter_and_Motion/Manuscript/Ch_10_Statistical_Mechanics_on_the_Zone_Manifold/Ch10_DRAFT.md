@@ -81,7 +81,7 @@ Solving for p_m:
 
 $$p_m = \exp\left(-\frac{\alpha + k_B}{k_B}\right) \exp\left(-\frac{\beta}{k_B} E_m\right) \tag{3.10.3}$$
 
-The first factor is a normalization constant (determined by condition 1). Define β/k_B ≡ 1/(k_BT), which identifies the Lagrange multiplier β with the inverse temperature. Then:
+The first factor is a normalization constant (determined by condition 1). Define β/k_B ≡ 1/(k_BT), which identifies the Lagrange multiplier β with the inverse temperature. This identification is not a free choice of name: β is the multiplier conjugate to the energy constraint, i.e. $\beta = \partial\mathcal{S}/\partial U$ (up to the factor $k_B$ carried explicitly here), and that derivative is precisely the thermodynamic definition of inverse temperature derived independently in Ch 9, Eq. 3.9.8 ($1/T = \partial\mathcal{S}/\partial U$). The Lagrange multiplier therefore *equals* the Ch 9 thermodynamic temperature; it is the same quantity reached by two routes. Then:
 
 $$\boxed{p_n = \frac{e^{-E_n/(k_BT)}}{Z(T)}, \quad Z(T) = \sum_n e^{-E_n/(k_BT)}} \tag{3.10.4}$$
 

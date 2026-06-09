@@ -59,7 +59,14 @@ From Chapter 5, you have:
 - The connection between Waters field equations and fluid dynamics via the Madelung transform
 - The continuum approximation and its validity conditions (Eq. 3.5.1)
 
-> **[Note: This chapter draws on results from Chapter 5 (Continuum Mechanics and Fluid Dynamics), which is currently in preparation. Specifically, the stress tensor σ_ij and the Navier-Stokes equations (Eqs. 3.5.22–3.5.25) derived there are used here in §11.5 to close the loop between the bottom-up Boltzmann derivation and the top-down Waters-field derivation of viscous fluid dynamics. The continuum approximation validity condition (Eq. 3.5.1: a ≪ λ_mfp, where a is the molecular diameter and λ_mfp is the mean free path) is invoked in §11.1 to justify the molecular chaos assumption. Readers working through the series in order should complete Chapter 5 first. The key results needed here are: (1) the Navier-Stokes momentum equation ρ(Dv/Dt) = −∇p + η∇²v + (ζ + η/3)∇(∇·v), (2) the continuum validity criterion a/λ_mfp ≪ 1 (Knudsen number Kn ≪ 1), and (3) the Madelung transform connecting the Waters field equation to an Euler-like fluid equation. These three results are stated explicitly where used in this chapter, so the chapter remains self-contained even if Chapter 5 is unavailable.]**
+> **Dependency note (Chapter 5).** This chapter draws on results from Chapter 5 (Continuum Mechanics and Fluid Dynamics). Specifically, the stress tensor σ_ij and the Navier-Stokes equations (Eqs. 3.5.22–3.5.25) derived there are used here in §11.5 to close the loop between the bottom-up Boltzmann derivation and the top-down Waters-field derivation of viscous fluid dynamics. The continuum approximation validity condition (Eq. 3.5.1: a ≪ λ_mfp, where a is the molecular diameter and λ_mfp is the mean free path) is invoked in §11.1 to justify the molecular chaos assumption. Readers working through the series in order should read Chapter 5 first.
+>
+> **Thirty-second crash course (the Chapter 5 results invoked in §11.5).** Three results suffice to follow this chapter even without Chapter 5 in hand:
+> 1. **Navier–Stokes momentum equation:** $\rho\,\dfrac{D\mathbf{v}}{Dt} = -\nabla p + \eta\,\nabla^2\mathbf{v} + \left(\zeta + \tfrac{\eta}{3}\right)\nabla(\nabla\cdot\mathbf{v})$, where $\eta$ is shear viscosity and $\zeta$ bulk viscosity.
+> 2. **Continuum validity criterion:** $a/\lambda_{\text{mfp}} \ll 1$ (Knudsen number $\mathrm{Kn}\ll 1$) — the gas is dense enough that local equilibrium is meaningful.
+> 3. **Madelung transform:** the connection that recasts the Waters field equation as an Euler-like fluid equation.
+>
+> All three are restated where they are used, so the chapter remains self-contained.
 
 From Chapter 2, you have:
 - Hamilton's equations and phase-space dynamics
@@ -318,6 +325,8 @@ $$(f_1'f_2' - f_1 f_2) \ln\frac{f_1 f_2}{f_1'f_2'} \leq 0 \tag{3.11.34}$$
 Since $|\mathbf{v}_1 - \mathbf{v}_2| \, (d\sigma/d\Omega) \geq 0$, the integrand in (3.11.33) is everywhere non-positive. Therefore $dH/dt \leq 0$. Equality holds everywhere only when $f_1'f_2' = f_1 f_2$ for all collision pairs — which is the detailed balance condition (3.11.13), satisfied only by the Maxwell-Boltzmann distribution.
 
 **What the H-theorem says.** $H$ decreases monotonically until the distribution reaches equilibrium. Since $\mathcal{S} = -k_B H + \text{const}$, entropy increases monotonically. This is the Second Law of Thermodynamics — derived here from the kinetics of molecular collisions rather than from the κ-mechanism of Chapter 9.
+
+> **Where does irreversibility enter? Right here.** The underlying dynamics — Liouville's equation (3.11.4), Newton's laws (Ch 1), Hamilton's equations (Ch 2) — are all time-reversible, so irreversibility cannot have come from them. It entered at exactly one step: the molecular chaos assumption, the *Stosszahlansatz*, Eq. (3.11.8), where we replaced the true two-particle distribution $f_2$ by the product $f_1 f_1$ of one-particle distributions *before* each collision. That factorization assumes incoming particles are uncorrelated but says nothing about outgoing ones, and it is this asymmetry — not the collision integral's algebra — that makes $dH/dt \le 0$. Every later appearance of the arrow of time in this chapter (and the Loschmidt and Zermelo paradoxes in §11.3.4–§11.3.5) traces back to Eq. (3.11.8).
 
 ### 11.3.3 Two Routes to the Second Law
 

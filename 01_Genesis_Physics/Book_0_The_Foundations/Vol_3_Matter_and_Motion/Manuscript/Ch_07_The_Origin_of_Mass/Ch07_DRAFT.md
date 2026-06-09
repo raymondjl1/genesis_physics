@@ -36,8 +36,6 @@ The result is that mass is not a free parameter. Mass is architecture.
 
 ### The Starting Point: A 6D Scalar Field
 
-Let us begin where the physics begins — with the six-dimensional action.
-
 In Vol 1 Chapter 5, we established that spacetime has six dimensions: four macroscopic dimensions $(t, x, y, z)$ plus two extra dimensions $(\xi, \eta)$. The Firmament membrane sits at $\xi = 0, \eta = 0$. The Waters Above — the scalar field $\Psi_A$ — fills the region $\xi \in [0, \xi_A)$ with $\xi_A \approx 3 \times 10^{26}$ m, a cosmological distance. The Waters Below fills $\eta \in (-\eta_B, 0]$ with $\eta_B \approx 1.3 \times 10^{-15}$ m, a subatomic distance.
 
 The action for the Waters Above sector is (from ACTION_6D_COMPLETE.md):
@@ -168,6 +166,8 @@ $$\Delta V_{\text{membrane}} = -\alpha \sigma \frac{c^2}{\xi_A^2} |\Psi_A|^2 \qu
 where $\alpha$ is a dimensionless coupling factor of order 0.1–0.2. This factor is not yet derived from first principles — it is **phenomenologically determined** from the requirement that the resulting VEV match the measured value $v = 246.22$ GeV. The detailed calculation of $\alpha$ from the junction conditions (Vol 1, Eq. 1.5.42) and the Firmament extrinsic curvature requires solving the coupled boundary-value problem in the full 6D metric, which is deferred to Vol 4 Appendix A. For now, we take $\alpha$ as a boundary-matching parameter that encodes the strength of the Firmament membrane-scalar coupling. The derivation status of this parameter is **SEMI-RIGOROUS**: the mechanism (Firmament tension → negative mass-squared) is physical and forced by the geometry, but the precise magnitude requires a calculation that is not yet complete.
 
 What *is* forced by the physics is the sign. The Firmament tension $\sigma > 0$, and the boundary coupling generates an *attractive* term (the field is drawn toward the Firmament surface). This attraction manifests as a negative contribution to the effective mass-squared.
+
+> **What you cannot do yet (without Vol 4).** With the tools developed so far, you can verify the *sign* of $\Delta V_{\text{membrane}}$ and trace it to the Firmament junction conditions, and you can use the boundary-matched value of $\alpha$ to reproduce the measured VEV. What you cannot yet do is *predict* $\alpha$ — and hence the absolute electroweak scale — from $(\sigma, \xi_A, \eta_B)$ alone. That step requires solving the coupled scalar boundary-value problem in the full 6D metric (Vol 4 Appendix A). Until then, $\alpha$ should be treated as a calibrated input, and any numerical VEV in this chapter as a consistency check rather than a parameter-free prediction.
 
 ### The Effective 4D Potential
 
@@ -444,7 +444,7 @@ The result is:
 
 $$\boxed{y_{n_\xi} = y_0 \exp\left(-\alpha \, n_\xi^2\right)} \quad \text{(3.7.41)}$$
 
-where $y_0$ is the bare coupling for the least-oscillatory mode and $\alpha \approx 1.0$ is determined by the ratio of the Higgs width to the extra-dimensional extent.
+where $y_0$ is the bare coupling for the least-oscillatory mode and $\alpha \approx 1.0$ is determined by the ratio of the Higgs width to the extra-dimensional extent. A caution about the exponent: the cancellation argument above establishes only that the overlap *decreases* rapidly with $n_\xi$. The specific quadratic exponent $n_\xi^2$ is *not* a theorem about projecting a smooth function onto sinusoidal modes — such projection generically gives a slower, roughly $\exp(-\beta n_\xi)$ falloff. The $n_\xi^2$ form here is the result of evaluating the overlap integral against a *Gaussian* Higgs profile (Eq. 3.7.40), for which the mode-by-mode suppression is Gaussian in the mode number. It should therefore be read as an empirical Gaussian-overlap fit tied to the assumed profile shape, not as a derived consequence of smoothness alone; a different profile would change the exponent.
 
 [FIGURE: Fig 3.7.5 — Vortex–Higgs overlap integral. Top panel: the Higgs profile H(ξ) (red, sharply peaked near ξ = 0, the Firmament). Three vortex mode functions shown: ψ₁(ξ) (blue, smooth, large overlap), ψ₂(ξ) (green, one oscillation, reduced overlap), ψ₃(ξ) (orange, two oscillations, heavily cancelled overlap). Shaded regions show the overlap integral — clearly largest for n_ξ = 1 and exponentially suppressed for n_ξ = 3. Bottom panel: the resulting Yukawa couplings on a log scale, showing the exponential suppression.]
 
@@ -460,7 +460,7 @@ The eight-order-of-magnitude span of fermion masses — from the sub-eV neutrino
 
 **Derivation status:** The exponential hierarchy is APPROXIMATE. The parameter $\alpha \approx 1.0$ is **fitted** to the ratio $m_\tau / m_e$ from experimental data, not derived from first principles. The single-parameter exponential model then *predicts* the intermediate ratios ($m_\mu / m_e$, $m_\tau / m_\mu$) as independent consequences, but shows ~20% deviations — significant enough to indicate that the simple Gaussian Higgs profile (Eq. 3.7.40) is an approximation to the true profile. The Gaussian form is motivated by the balance between gradient energy and potential energy near the Firmament, but its precise shape requires solving the full 6D field equations, which is deferred to Vol 4. A refined Higgs profile or inclusion of QCD/QED running corrections at each mass scale is expected to reduce the deviations to ~5%.
 
-In the zone framework, fermions of different generations correspond to different $\xi$-modes. The lowest three modes ($n_\xi = 1, 2, 3$) produce overlap integrals spanning eight orders of magnitude, generating the observed mass ranges. Higher modes ($n_\xi \geq 4$) are so exponentially suppressed that the resulting fermions would have masses far below current detection thresholds — effectively unobservable. This is consistent with the experimental non-observation of a fourth generation. Why exactly three modes are kinematically accessible, rather than some other number, remains an OPEN question.
+In the zone framework, fermions of different generations correspond to different $\xi$-modes. The lowest three modes ($n_\xi = 1, 2, 3$) produce overlap integrals spanning eight orders of magnitude, generating the observed mass ranges. To state the framework's standing precisely: it is *consistent with* three observed generations, and — under the present convention in which higher $n_\xi$ yields a more strongly suppressed Yukawa coupling — it predicts that any $n_\xi \geq 4$ fermion would couple too weakly to have been produced at current colliders, so its non-observation is expected rather than a tension. What the framework does *not* yet do is explain why the count is exactly three: why precisely three $\xi$-modes are kinematically accessible, rather than some other number, remains an OPEN question.
 
 ---
 
