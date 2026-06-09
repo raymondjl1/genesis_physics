@@ -76,7 +76,11 @@ $$E_{\text{Planck}} = \sqrt{\frac{\sigma}{\hbar \mu}} \approx 1.22 \times 10^{19
 
 $$E_{\text{IR}} \sim \frac{\hbar c}{\xi_A} \approx 6.6 \times 10^{-43}\;\text{GeV} \tag{2.10.5}$$
 
-Between these extremes — spanning some 62 orders of magnitude in energy — the coupling constants run. And the running is *logarithmic* — not linear, not power-law. Why? Because the extra dimensions ξ and η form a two-dimensional surface, and the Green's function in two dimensions is logarithmic: G(r) ~ ln(r), not the 1/r of three dimensions or the 1/r² of four. This logarithmic structure — derived in Chapter 3 from the Firmament geometry — propagates directly into the renormalization group equations. The coupling "runs" as ln(Q) because Q maps to a distance scale in a 2D extra-dimensional geometry.
+Between these extremes — spanning some 62 orders of magnitude in energy — the coupling constants run. And the running is *logarithmic* — not linear, not power-law. Why? Because the extra dimensions ξ and η form a two-dimensional surface, and the Green's function in two dimensions is logarithmic.
+
+It is worth recalling, in one line, why two dimensions give a logarithm. The Green's function $G$ of the Laplacian solves $\nabla^2 G = \delta^{(d)}(\mathbf{r})$ — it is the potential of a point source. Integrating over a sphere of radius $r$ and using Gauss's theorem, $|\nabla G| \propto 1/r^{\,d-1}$, so that $G \propto r^{2-d}$ for $d \neq 2$ — the familiar $1/r$ in three dimensions ($d=3$) and $1/r^2$ field in four. In exactly two dimensions ($d=2$) the exponent $2-d$ vanishes and the power law degenerates into a logarithm: $\nabla^2 G = \delta^{(2)}$ has solution $G(r) = \tfrac{1}{2\pi}\ln r$. This is why any coupling defined by integration over the $(\xi,\eta)$ plane carries a *logarithmic* energy dependence rather than a power-law one.
+
+This logarithmic structure — derived in Chapter 3 from the Firmament geometry — propagates directly into the renormalization group equations. The coupling "runs" as ln(Q) because Q maps to a distance scale $r_\text{probe} \sim \hbar c/Q$ (Eq. 2.10.1) in the 2D extra-dimensional geometry, and distance enters the 2D Green's function logarithmically.
 
 The running encodes a single geometric ratio that we have encountered before:
 

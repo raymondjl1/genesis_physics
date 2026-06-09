@@ -10,7 +10,7 @@
 
 Ten chapters ago, we asked the question that no physics textbook answers: *Why are there forces at all?*
 
-We now have the answer. Forces are not fundamental entities bolted onto spacetime. They are geometric shadows — the projections of free motion through a six-dimensional zone manifold onto the four-dimensional Firmament where we live.
+We now have the answer. Forces are not fundamental entities bolted onto spacetime. They are geometric shadows — the projections of free motion through a six-dimensional zone manifold onto the four-dimensional Firmament where we live. And that manifold is not an arbitrary mathematical postulate: its load-bearing structure — the Firmament dividing the Waters Above from the Waters Below — is the architecture named in Genesis 1:6–8 (*"Let there be a firmament in the midst of the waters, and let it divide the waters from the waters"*) and derived geometrically in Vol 1. The "one geometry" of this chapter's title is that structure; the "four shadows" are the forces it casts onto our 4D world.
 
 > **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
  Gravity emerges from curvature in the bulk (Chapter 2). Electromagnetism emerges from the ξ-circle isometry of the extra dimensions (Chapter 3). The strong force emerges from the ℤ₃ orbifold topology of the Waters Below (Chapter 4). The weak force emerges from the ℤ₂ orbifold structure at the Firmament boundary (Chapter 4). The complete Lagrangian encoding all four forces was constructed in Chapter 5, its gauge symmetry structure derived in Chapter 6, and its classical consequences worked out for electrodynamics (Chapter 7) and gravity (Chapter 8). We then showed that the hierarchy problem — why gravity is 10³⁶ times weaker than electromagnetism — is a geometric consequence of power-law vs. logarithmic coupling to the extra dimensions (Chapter 9). Finally, we traced how force strengths run with energy and converge at the grand unification scale (Chapter 10).
@@ -58,7 +58,7 @@ The Five Principles — Sustaining, Conservation, Symmetry, Degradation, and Dua
 
 - Gravity: G₄ = G₆/V_extra — power-law dilution over the full extra-dimensional volume (2.2.11)
 - Electromagnetism: α⁻¹ = C₁ ln(ξ_A/η_B) — logarithmic coupling through the 2D Green's function (2.3.69)
-- Strong: α_s from boundary overlap integral over the ℤ₃ orbifold (2.4.3)
+- Strong: α_s from boundary overlap integral over the ℤ₃ orbifold (2.4.4–2.4.6; Eq. 2.4.3 is the defining relation α_s = g_s²/4π)
 - Weak: g₂ from boundary integral over the ℤ₂ orbifold (2.4.19)
 
 **Step 6. Running and Unification (Ch 10).** As the energy scale Q increases, the probe resolves more of the extra-dimensional structure. The beta functions (2.10.9–2.10.18) drive the three gauge couplings toward convergence at E_GUT ~ 10¹⁵–10¹⁶ GeV.
@@ -83,6 +83,8 @@ Zone architecture derives these from geometry. The parameter count reduces to ap
 
 From these seven parameters, all 19 Standard Model parameters follow as geometric integrals. The reduction from 19 to 7 is not cosmetic — it represents genuine explanatory power. Where the Standard Model says "measure it," zone architecture says "calculate it from the shape of the extra dimensions."
 
+The reduction from 19 free parameters to 7 geometric ones is, at minimum, a coincidence physics has not previously achieved; for a reader who suspects the universe is the work of a designer, it is the kind of efficiency one expects.
+
 ---
 
 ## 11.2 The Force Landscape at All Energies
@@ -97,7 +99,7 @@ The force landscape is not static. As the energy scale Q of a physical process i
 
 **Regime III: Electroweak (1 GeV < Q < 1 TeV).** At energies above the nuclear scale, the probe resolves the ℤ₂ orbifold structure at the Firmament boundary. The electroweak symmetry SU(2)_L × U(1)_Y becomes manifest — the distinction between electromagnetism and the weak force softens as the probe energy approaches the masses of the W and Z bosons. The Higgs mechanism gives mass to these bosons at the electroweak vacuum expectation value v = 246 GeV. From the zone perspective, the Higgs field is not an ad hoc addition but arises from the Waters field sector of the zone Lagrangian (2.5.7–2.5.9); electroweak symmetry breaking is a consequence of the Waters Above potential structure evaluated at the Firmament junction. This is the regime currently probed by the Large Hadron Collider at √s up to 14 TeV.
 
-**Regime IV: Desert (1 TeV < Q < 10¹⁵ GeV).** Zone architecture predicts a *desert* — no new fundamental particles, no new forces, and no new symmetry-breaking scales between the electroweak scale and the grand unification scale. This is a sharp and distinctive prediction. The three gauge couplings run according to their beta functions (2.10.12–2.10.18), slowly converging across fourteen orders of magnitude in energy. The hierarchy ratio drops from ~10³⁶ at low energy to ~10⁴ near E_GUT. Why a desert? Because the compactification topology has no intermediate-scale topological features. The ξ-circle, the ℤ₂ orbifold, and the ℤ₃ orbifold are the complete inventory of topological structures in the extra dimensions — there is no geometric mechanism to generate new physics at any intermediate scale. This stands in contrast to theories such as supersymmetry, technicolor, or extra-dimensional models with multiple compactification radii, all of which predict new particles in or near the TeV range.
+**Regime IV: Desert (1 TeV < Q < 10¹⁵ GeV).** Zone architecture predicts a *desert* — no new fundamental particles, no new forces, and no new symmetry-breaking scales between the electroweak scale and the grand unification scale. This is a sharp and distinctive prediction. The three gauge couplings run according to their beta functions (2.10.12–2.10.18), slowly converging across fourteen orders of magnitude in energy. The hierarchy ratio drops from ~10³⁶ at low energy to ~10⁴ near E_GUT. Why a desert? Because the compactification topology has no intermediate-scale topological features. The ξ-circle, the ℤ₂ orbifold, and the ℤ₃ orbifold are the complete inventory of topological structures in the extra dimensions (the full inventory is built up in Ch 6 §6.2–6.4, and its completeness is the content of Theorem 2.6.1, Ch 6) — there is no geometric mechanism to generate new physics at any intermediate scale. This stands in contrast to theories such as supersymmetry, technicolor, or extra-dimensional models with multiple compactification radii, all of which predict new particles in or near the TeV range.
 
 **Regime V: Unification and Beyond (Q > 10¹⁵ GeV).** At E_GUT ~ 10¹⁵–10¹⁶ GeV, the three gauge couplings converge to a single value α_GUT⁻¹ ≈ 24 (2.11.5). The probe resolves the full compactification radius R_comp ~ ℏc/E_GUT, and the distinction between the three gauge sectors dissolves — the ξ-circle, ℤ₂, and ℤ₃ structures are no longer separately resolvable. At this scale, quarks and leptons become unified (they are different modes of the same 6D spinor field), and processes forbidden at low energy — such as proton decay — become kinematically accessible. Above E_Planck ~ 1.22 × 10¹⁹ GeV, the full 6D zone dynamics dominate. The effective 4D description breaks down because the gravitational coupling α_G reaches unity — gravity is no longer weak, and the linear perturbation theory of Chapter 8 ceases to be valid. The complete 6D quantum gravity theory, deferred to Volume 4, is required to describe physics at and above this scale.
 
@@ -190,7 +192,7 @@ flags a derivation gap. Let us trace the origin of each.
 
 The **fine structure constant** α⁻¹ = 137.036 derives from the logarithmic ratio of the Waters Above and Waters Below extents: α⁻¹ = C₁ ln(ξ_A/η_B) where C₁ = 1.4383 comes from the pole structure of the 6D Green's function (2.3.69). The argument of the logarithm is ln(3×10²⁶/1.3×10⁻¹⁵) ≈ 95.3. The agreement with the CODATA measured value to 0.0013% is the most precise single prediction of zone architecture.
 
-The **strong coupling** α_s(M_Z) = 0.118 derives from the boundary overlap integral over the ℤ₃ orbifold in the Waters Below (2.4.3–2.4.6). The threefold symmetry of the warp factor B(η) in the orbifold region determines the gauge coupling through a geometric integral that involves the orbifold fixed-point structure and the warp factor profile. The 1% agreement with the PDG value is remarkable given that no fitting is involved.
+The **strong coupling** α_s(M_Z) = 0.118 derives from the boundary overlap integral over the ℤ₃ orbifold in the Waters Below (2.4.4–2.4.6; Eq. 2.4.3 is the defining relation, not the geometric computation). The threefold symmetry of the warp factor B(η) in the orbifold region determines the gauge coupling through a geometric integral that involves the orbifold fixed-point structure and the warp factor profile. The 1% agreement with the PDG value is remarkable given that no fitting is involved.
 
 The **Weinberg angle** sin²θ_W = 0.231 emerges from the ratio of the SU(2) and U(1) coupling constants, each of which is a different geometric integral: g₂ from the ℤ₂ boundary integral, g₁ from the ξ-circle volume integral (Chapter 6, §6.7). The ratio sin²θ_W = g₁²/(g₁² + g₂²) follows from the electroweak mixing, and its value is set by the geometry of the compactification.
 
@@ -198,7 +200,7 @@ The **Weinberg angle** sin²θ_W = 0.231 emerges from the ratio of the SU(2) and
 
 **Newton's constant** G₄ = 6.674 × 10⁻¹¹ m³ kg⁻¹ s⁻² derives from the volume dilution formula G₄ = G₆/V_extra (2.2.11). The enormous extra-dimensional volume V_extra — driven by the warp factor e^{2A(ξ)} integrated over the Waters Above extent ξ_A ≈ 3 × 10²⁶ m — dilutes the fundamental 6D gravitational constant to the tiny 4D value we observe.
 
-The **hierarchy ratio** α_em/α_G = 1.236 × 10³⁶ follows directly from the two mechanisms above: gravity's power-law volume dilution vs. electromagnetism's logarithmic coupling (Theorem 2.9.1). The hierarchy is not fine-tuning but dimensional analysis — a power law and a logarithm evaluated at the same scales necessarily differ by many orders of magnitude.
+The **hierarchy ratio** α_em/α_G = 1.236 × 10³⁶ (the full zone-derived value, Ch 9 Eq. 2.9.29; the measured value is 1.235 × 10³⁶, Eq. 2.9.30) follows directly from the two mechanisms above: gravity's power-law volume dilution vs. electromagnetism's logarithmic coupling (Theorem 2.9.1). The hierarchy is not fine-tuning but dimensional analysis — a power law and a logarithm evaluated at the same scales necessarily differ by many orders of magnitude.
 
 ### 11.3.2 Cosmological Parameters
 

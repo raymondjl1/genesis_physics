@@ -54,6 +54,8 @@ $$R_\xi^{\text{eff}} = \frac{1}{2\pi}\int_{\xi_0}^{\xi_A} e^{B_\xi(\xi)} \, d\xi
 
 where $B_\xi(\xi)$ is the $\xi$-component of the breathing mode (from the separability ansatz, equation 1.4.20). The periodic identification $\xi \sim \xi + L_\xi$ (where $L_\xi = \xi_A - \xi_0$) means that functions on this space must be periodic, and gauge field configurations must be single-valued.
 
+**Why the warp-factor-weighted circumference, rather than the bare coordinate length?** Because the quantity that governs charge quantization is the physical length the gauge-field zero mode actually sees, and that length is set by how the zero mode is normalized. The gauge-field zero mode is normalized against the warped extra-dimensional volume element — the same $\int e^{2A+2B}\,d\xi\,d\eta$ measure that fixes the 4D gauge coupling through $g_\text{EM}^2 = \kappa_6^2/V_\text{extra}$ (Ch 3, Eq. 2.3.17). Carrying that warped measure through to the $\xi$-circle replaces the coordinate length $L_\xi$ with its warp-averaged value $\int e^{B_\xi}\,d\xi$; the effective radius for charge quantization is therefore the warp-averaged closed-loop length of (2.6.2), not the unweighted coordinate interval.
+
 Now recall from Chapter 3 (equation 2.3.7) that the off-diagonal metric component $g_{\mu\xi}$ transforms under $\xi$-reparametrizations $\xi \to \xi + \Lambda(x)$ as:
 
 $$A_\mu^\xi(x) \to A_\mu^\xi(x) + \partial_\mu \Lambda(x) \tag{2.6.3}$$

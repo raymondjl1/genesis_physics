@@ -60,7 +60,7 @@ Now upgrade the analogy. Replace the ant with a photon. Replace the 2D bowl with
 
 In Volume 1, we established that the observable universe — the Firmament — is a 4-dimensional hypersurface embedded in the 6-dimensional Zone Manifold $\mathcal{M}_Z$. The Firmament sits at coordinates $(\xi_0, \eta_0)$ in the extra dimensions (1.4.31). Observers on the Firmament — that is, all of us — perceive only four dimensions. We cannot directly perceive the extra dimensions $\xi$ and $\eta$.
 
-But the extra dimensions are there. They curve. They have topology. And their curvature and topology project onto the Firmament as forces.
+But the extra dimensions are there. They curve. They have topology. And their curvature and topology project onto the Firmament as forces. (This is a strong claim: the extra dimensions have macroscopic extent yet remain unobservable because the warp factors confine matter and light to the Firmament. The claim is empirically testable rather than merely asserted — Ch 9 §9.7 states the specific experimental signatures, including sub-millimeter deviations from the inverse-square law, that would confirm or falsify their reality.)
 
 Let us make this precise. The geodesic equation in the full 6D manifold is (from 1.3.11):
 
@@ -104,13 +104,13 @@ This is not a tautology. It is testable. If forces are geometric, then:
 2. The *strengths* of forces are determined by integrals over the extra-dimensional geometry (§1.4).
 3. The *symmetry groups* of forces are determined by the isometries of the extra dimensions (§1.5).
 
-Each of these predictions can be checked against experiment. If any fails, the geometric framework is wrong.
+Each of these can be checked against experiment. We should be careful, though, about what counts as a *prediction* in the strong sense. Items 2 and 3 — the observed force strengths and the gauge groups $\text{U}(1)\times\text{SU}(2)\times\text{SU}(3)$ — are facts already known from existing data; reproducing them is, in the framework's own bookkeeping (Ch 9 §9.3.4 and the Parameter Ledger), a *consistency check* rather than a novel prediction. The force *number* (item 1) is closer to a genuine prediction, since it is topologically fixed and forbids a fifth geometric sector. The framework's properly *new*, future-data predictions — KK mass thresholds, running-coupling convergence, and boundary-mode signatures — are collected in §1.6.1 and Chs 9–11. If any consistency check or prediction fails, the geometric framework is wrong.
 
 ### §1.1.3 The Historical Precedent
 
 The idea that forces are geometry has a distinguished pedigree. Einstein (1915) showed that gravity is the curvature of spacetime. Kaluza (1921) showed that electromagnetism could emerge from a fifth dimension. Klein (1926) added quantum mechanics to Kaluza's picture by compactifying the extra dimension. String theory (1970s–present) extends this to 10 or 11 dimensions.
 
-Genesis Physics follows this lineage but departs in two critical ways:
+Genesis Physics follows this lineage but departs in three critical ways:
 
 **First**, we use *exactly* six dimensions, not ten or eleven. This is not a choice of convenience. Volume 1, Chapter 4 demonstrated that six dimensions are the minimum required to encode the zone structure (the eight zones, the Waters, the Firmament). Ten dimensions would work mathematically but would introduce extra geometric sectors with no physical counterpart — forces that do not exist. Six dimensions is both necessary and sufficient.
 
@@ -120,6 +120,8 @@ Genesis Physics follows this lineage but departs in two critical ways:
 - $\eta$ extends from the Firmament to the nuclear scale: $\eta_B \sim 1.3 \times 10^{-15}$ m (1.4.28)
 
 The reason we don't observe these large extra dimensions is not that they are small, but that the warp factors (1.4.2) confine matter and light to the Firmament. We live on a Firmament — a membrane in the higher-dimensional space — and our physics is the shadow of the bulk geometry onto that Firmament.
+
+**Third**, the extra dimensions are not named after the fact for convenience but are identified, in advance, with structures named in the Genesis text. As the §1.0 sidebar set out, the Firmament and the Waters Above / Waters Below are the *rāqîaʿ* and the *mayim* of Genesis 1:6–8 — the dividing membrane and the bulk regions it separates. Standard Kaluza-Klein and string constructions choose their internal manifolds (a circle, a Calabi-Yau) for mathematical tractability; here the architecture of the extra dimensions is read from the structure the text describes, and the mathematics is then required to match it. The text supplies the architecture; the geometry supplies the content.
 
 ---
 
@@ -217,6 +219,8 @@ This is what it means for forces to be geometric. Not merely that forces *resemb
 
 Why four? Not three, not five, not seventeen. In the Standard Model, this is simply an empirical fact. The gauge group $\text{U}(1) \times \text{SU}(2) \times \text{SU}(3)$ is chosen because it fits the data. But there is no principle within the Standard Model that forbids a gauge group $\text{SU}(5)$ or $\text{E}_8 \times \text{E}_8$. Grand Unified Theories (GUTs) often predict additional forces that have never been observed. The number four is, within standard physics, a brute fact.
 
+In fairness, treating the gauge group as input is not a weakness of the Standard Model so much as a deliberate division of labor, and it has paid off spectacularly. Once the group and matter content are supplied, the Standard Model makes precise, falsifiable *predictions* — the existence and masses of the W and Z bosons, the magnetic moment of the electron ($g-2$) to better than ten significant figures, and the existence of the Higgs boson decades before its discovery. Genesis Physics does not compete with that predictive record on the observables the Standard Model already nails; it targets the prior question the Standard Model leaves open — where the gauge group, and ultimately the parameters, come from. The two projects are complementary: one asks "given these inputs, what follows?"; the other asks "why these inputs?"
+
 The zone manifold makes the number four a geometric theorem.
 
 ### §1.3.2 Counting Geometric Sectors
@@ -303,11 +307,13 @@ This said, at sufficiently high energies, the distinction between geometric sect
 
 ### §1.3.5 The Topological Protection of Four
 
-There is a deeper reason why the number four is robust: it is *topologically protected*. Topology, unlike geometry, is invariant under smooth deformations. You can stretch, bend, or compress the zone manifold, but as long as you don't tear it or glue new pieces together, the number of independent topological sectors does not change.
+There is a deeper reason why the number four is robust: it is *topologically protected*. Topology, unlike geometry, is invariant under smooth deformations. You can stretch, bend, or compress the zone manifold, but as long as you don't tear it or glue new pieces together, the number of independent topological sectors does not change. (This restates, from a stability rather than a counting angle, the sector enumeration of Heuristic Argument 2.1.1 in §1.3.3; we do not re-derive it here.)
 
 This means the number of forces is insensitive to the detailed values of the warp factors, the Firmament tension, the cosmological constant, or any other continuous parameter. You can adjust $\xi_A$, $\eta_B$, $\sigma$, and $\Lambda_6$ freely — the force strengths will change, but the number of forces will remain four. Only a change in the *topology* of the extra dimensions (adding a dimension, changing the number of zones, or modifying the boundary conditions qualitatively) could alter the force count.
 
 This topological protection explains an otherwise puzzling fact about physics: the number of fundamental forces has remained constant throughout cosmic history, even as the coupling strengths have changed dramatically (from the Planck era to the present). The couplings run, but the force count does not, because the topology of the zone manifold is fixed by the axioms.
+
+One honest qualification: this protection is only as secure as the axioms it rests on. The fixed topology — two extra dimensions, three zone layers, two boundaries — is inherited from the Vol 1 axioms (Vol 1 Ch 1), which themselves carry open foundational questions flagged there. Topological protection therefore guarantees that the force count is stable *given* that topology; it does not independently establish the topology. If the Vol 1 axioms were revised in a way that altered the zone stratification, the protected number could change.
 
 ---
 

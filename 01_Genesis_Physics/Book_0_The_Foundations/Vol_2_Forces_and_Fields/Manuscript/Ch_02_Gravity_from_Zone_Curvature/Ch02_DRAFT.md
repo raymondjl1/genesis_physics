@@ -484,7 +484,7 @@ Since $G_4 \propto 1/(\sigma L_\text{eff}^2)$, the fractional uncertainty is:
 
 $$
 \frac{\delta G_4}{G_4} = \sqrt{\left(\frac{\delta\sigma}{\sigma}\right)^2 + \left(2\frac{\delta L_\text{eff}}{L_\text{eff}}\right)^2} \approx \sqrt{0.01 + 0.01} \approx 14\%
-\tag{2.2.37}
+\tag{2.2.38a}
 $$
 
 The derived value $G_4 = 6.67 \times 10^{-11}$ lies well within this uncertainty band around the measured value. The agreement is not fine-tuned — it reflects the self-consistency of the zone parameter system.
@@ -509,7 +509,7 @@ Expanding the Einstein tensor $G_{\mu\nu}$ to first order in $h_{\mu\nu}$ and im
 
 $$
 \Box \bar{h}_{\mu\nu} = -\frac{16\pi G_4}{c^4} T_{\mu\nu}
-\tag{2.2.38}
+\tag{2.2.38b}
 $$
 
 where $\Box = -\frac{1}{c^2}\partial_t^2 + \nabla^2$ is the flat-space d'Alembertian.
