@@ -29,7 +29,7 @@ Read off the 6D geometry directly and only four energy-bearing features appear. 
 
 **(4) Zone-boundary potentials.** At every zone interface the effective potential has a step: pair-creation thresholds, nuclear binding wells, accretion funnels at membrane-puncture points. Crossing a step releases (or absorbs) latent energy. The zone architecture is, in this sense, a landscape of potential-energy discontinuities.
 
-These four features are not a convenient enumeration. They are exhaustive for the class of mechanisms permitted by the 6D metric: any Lagrangian-density term must come from a field (features 3–4), a boundary (feature 2), or an explicit charge-separation (feature 1). There is no fifth category hiding anywhere in Vols 1–5.
+These four features are not a convenient enumeration; they are the four we have identified, and the structural argument for why they should be complete runs as follows: any Lagrangian-density term should come from a field (features 3–4), a boundary (feature 2), or an explicit charge-separation (feature 1), and we have located no fifth category anywhere in Vols 1–5. We present this as a sketch of closure rather than a proof: a fully rigorous exhaustiveness result would require demonstrating Lagrangian closure from the 6D action directly, which we have not yet done, so the reader should treat "four" as the count we find, not a theorem.
 
 > **Figure 6.10.1 — The Four Energy-Bearing Features of Zone Architecture** *(placement, §10.1.2)*
 > Schematic of the 6D manifold with the four features labelled in situ: capacitor plates (Waters Above/Below), Firmament tension (Firmament surface), field gradients (Ψ_A and Ψ_B profiles), and zone-boundary steps. Arrows map each feature to one of the engineering categories (MRG, Waters-field extraction, vacuum-tension harvesting, zone-boundary work).
@@ -55,7 +55,7 @@ The cosmic capacitor (category 1) is not an engineering class on its own. It is 
 
 ### 10.2.1  The inventory
 
-Using Planck 2020 final-release values (Ω_Λ = 0.6889 ± 0.0056, Ω_DM = 0.2607 ± 0.0054, Ω_b = 0.0494 ± 0.0006) and the observable-universe four-volume V_obs ≈ 3.57 × 10⁸⁰ m³, we can state the reservoir sizes directly.
+Using the Planck legacy values (Ω_Λ = 0.6889 ± 0.0056, Ω_DM = 0.2607 ± 0.0054, Ω_b = 0.0494 ± 0.0006 — the same final Planck release cited elsewhere in this volume as "Planck 2018," to which the rounded 0.684/0.266/0.049 of Ch 1 and Ch 4 correspond) and the observable-universe four-volume V_obs ≈ 3.57 × 10⁸⁰ m³, we can state the reservoir sizes directly.
 
 $$
 E_{\text{Above}} \;=\; \rho_\Lambda \, V_{\text{obs}} \;=\; (5.96\times 10^{-10}\,\mathrm{J/m^3})(3.57\times 10^{80}\,\mathrm{m^3}) \;\approx\; 2.13\times 10^{71}\,\mathrm{J.}
@@ -193,7 +193,7 @@ Cross-sectioned, the cochlea shows a spiral of about 2.5 turns enclosing three f
 
 ### 10.4.3  Structural isomorphism
 
-The mapping to the zone architecture is not an illustration — it is point-by-point.
+The mapping to the zone architecture is more than illustration — it is point-by-point, though (as noted below the table) the rows vary in strength from mechanism-level to functional correspondence.
 
 | Cochlea | Firmament (MRG) |
 |---|---|
@@ -206,7 +206,7 @@ The mapping to the zone architecture is not an illustration — it is point-by-p
 | Tonotopic stiffness gradient | TE₁₁ cavity-mode selection |
 | Asymmetric stereocilia | N52 magnetic symmetry breaking |
 
-Seven rows of structural correspondence. Every row has a specific mechanism on each side, not a metaphor.
+Seven rows of structural correspondence. The rows are not all of equal strength, and we flag the distinction rather than let the table assert more than it earns: the first five rows (the two fluid reservoirs, the membrane, the κ-pump, and the driven-amplifier condition) are mechanism-level correspondences, where a specific physical role on the cochlear side has a specific physical counterpart on the Firmament side; the last rows (tonotopic stiffness gradient ↔ TE₁₁ mode selection, asymmetric stereocilia ↔ magnetic symmetry breaking) are looser — they map a *function* (frequency selection, time-reversal breaking) realised by quite different physics on each side, and should be read as functional/organisational correspondences rather than as claims that the same mechanism operates in both. The reader should also keep in mind the limit made explicit in §10.4.5: the cochlea is a biological, ATP-driven membrane, and it establishes that the *architecture* is physically realisable in at least one medium — it does not by itself establish that the cosmic-scale Firmament is built the same way.
 
 > **Figure 6.10.5 — Cochlea ↔ MRG Structural Isomorphism** *(placement, §10.4.3)*
 > Two-panel anatomical figure. Left: cochlear cross-section with all eight components labelled. Right: MRG cross-section (from Fig 6.10.7) with the eight counterparts labelled. Lines between panels connect each pair. Legend identifies the eight-row mapping.

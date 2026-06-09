@@ -34,7 +34,7 @@ In standard ΛCDM, the Hubble parameter as a function of scale factor a is:
 
 $$H_{\Lambda\text{CDM}}(a) = H_0 \sqrt{\Omega_m \, a^{-3} + \Omega_\Lambda} \tag{6.6.1}$$
 
-where Ω_m = 0.3 is the matter density parameter and Ω_Λ = 0.7 is the dark energy density parameter, both normalized to the critical density. This expression encodes two physical effects: matter dilutes as the universe expands (∝ a⁻³), while the cosmological constant remains constant (∝ a⁰).
+where Ω_m = 0.3 is the matter density parameter and Ω_Λ = 0.7 is the dark energy density parameter, both normalized to the critical density. (These are illustrative round-number ΛCDM values adopted for the simulation, not a precision cosmological fit; the framework's canonical observational baseline is the Planck result quoted in Ch 1 and Ch 4, of which Ω_m ≈ 0.3, Ω_Λ ≈ 0.7 are the rounded form.) This expression encodes two physical effects: matter dilutes as the universe expands (∝ a⁻³), while the cosmological constant remains constant (∝ a⁰).
 
 The Genesis Physics modification adds two terms:
 

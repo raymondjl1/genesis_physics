@@ -19,7 +19,7 @@ This is the question that reframes the problem of faster-than-light travel. Not 
 
 This chapter maps out five mechanisms by which matter and signals can traverse cosmic distances in proper times far shorter than Einstein's light-cone would permit. None requires exotic matter in the classical sense. All preserve causality—that is, they respect the fixed metric signature and the monotonic flow of proper time for observers on the firmament. Some are computationally feasible today. Some belong to engineering horizons measured in centuries. One remains in the realm of theoretical possibility, resisting practical implementation by the laws of thermodynamics.
 
-But all five are permitted by the Genesis Physics framework (V.5, Ch.4, Eq (5.4.1)) and ruled out only by engineering obstacles, not by fundamental law.
+But all five are permitted by the Genesis Physics framework (V.5, Ch.4, Eq (5.4.1)) in the sense that nothing in the 6D causal structure forbids them outright. This is a statement about kinematics and causality, not about practical achievability: as §9.10 sets out in full, in the present cosmological epoch (Phase 3) the thermodynamic boundary conditions of the framework lock several of these mechanisms out entirely — Mechanism 3 is suppressed to probability ~10⁻¹⁰^⁶³, and Mechanisms 2 and 4 are thermodynamically forbidden at locally accessible energies — so the reader should read this opening as a claim about what causality permits, with the honest verdict of §9.10 ("no practical FTL drive is possible in Phase 3") carried alongside it from the start.
 
 ### The Foundation: c Is Not Universal
 
