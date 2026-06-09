@@ -16,7 +16,7 @@ But we must ask. Not as philosophers, but as physicists. The fine-structure cons
 
 Standard physics declares these "just brute facts." We declare them *symptoms of a deeper physics* — one where the universe is not a closed, isolated system obeying fixed laws, but an *open system sustained moment by moment by continuous input from beyond itself*.
 
-This is not mysticism. It is rigorous mechanism. The sustaining field $\kappa$ that we will formalize in Section 1.2 is as much a physical quantity as the electric field or spacetime curvature. It obeys equations, has energy density, couples to matter and radiation. It explains why the universe doesn't decay into thermal equilibrium. It explains the fine-tuning. And it opens the door to understanding the universe's four great phases: Creation (when $\kappa$ was maximal), the Edenic state (when $\kappa$ balanced entropy production), the Fall (when $\kappa$ was reduced), and the eventual Redemption (when it may be restored).
+This is not mysticism. It is rigorous mechanism. The sustaining field $\kappa$ that we will formalize in Section 1.2 is as much a physical quantity as the electric field or spacetime curvature. It obeys equations, has energy density, couples to matter and radiation. It explains why the universe doesn't decay into thermal equilibrium — a result we will derive rigorously in Chapter 11. And once the sustaining field is on the table, it opens the door to understanding why cosmic history is not a single regime but unfolds in distinct epochs — a structure we introduce only after the mathematics of $\kappa(t)$ justifies it (§1.2 and §1.7B).
 
 Genesis Physics is grounded in observation. But it begins where standard physics refuses to begin: with the axioms themselves. We ask what must be true about the universe's structure for the equations we observe to hold. We argue from first principles. And we will discover that those principles point toward something profound — not as a conclusion imposed from outside, but as an inescapable logical consequence of taking seriously the deep structure of reality.
 
@@ -268,7 +268,7 @@ Without Axiom 2, conservation laws become impossible. Physics becomes arbitrary.
 
 > "It is finished." — John 19:30
 
-These statements point to the same principle: Creation has an end. It is complete. What unfolds from that point is sustenance, decay, and hoped-for redemption — not new creation.
+These statements point to the same principle: Creation has an end. It is complete. What unfolds from that point is sustenance, decay, and hoped-for redemption — not new creation. To be clear, the Hebrews 4:3 and John 19:30 statements are distinct acts — creation's completion and redemption's completion — but they share the same Greek verb (*tetelestai*) and the same theological grammar: the Creator finishes what He starts, and what He finishes He sustains.
 
 ---
 
@@ -589,6 +589,8 @@ The cosmic energy budget is the clearest evidence:
 - 4.9% = Condensed matter (baryonic) — stars, galaxies, atoms, us
 
 The Creator devotes 95% of the universe's energy budget to sustaining and structuring the 5% that we see and inhabit. This is the physics of "in him all things hold together."
+
+Two cautions are in order. First, this present-epoch budget evidences the *existence and dominance* of the two Waters components; it is not a measurement of the Edenic energy balance of Eq. (1.7.5). That equation asserts an *exact* balance ($\int (\Psi_A^2 - \Psi_B^2)\, d^3x = 0$) in the Edenic phase; the observed $68.4\%$ vs. $26.6\%$ split is the *present, post-Fall* configuration, in which $\kappa$-degradation (Axiom 5) is expected to break the original balance. The asymmetry of the current ratio is therefore consistent with — not a contradiction of — an Edenic balance that no longer holds. Second, Axiom 6 itself is the *duality structure* ($\Psi_{\text{creation}} = \Psi_A \otimes \Psi_B$); the integral balance of Eq. (1.7.5) is a separate Edenic-phase boundary condition layered on top of that structure, not part of the axiom proper.
 
 ### Theological Grounding
 

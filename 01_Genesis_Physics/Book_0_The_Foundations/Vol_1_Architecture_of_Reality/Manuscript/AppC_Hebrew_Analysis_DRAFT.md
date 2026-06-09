@@ -134,13 +134,13 @@ In the physics framework, Elohim is not a force within Z₂. Elohim is the sourc
 
 **Theological Significance**
 
-The dual form of shamayim is remarkable. In Hebrew, dual forms are rare and reserved for things naturally paired: eyes, hands, ears. That shamayim is dual suggests inherent twoness—a distinction built into the very fabric of what "heavens" means. Some scholars interpret this as "heavens and heaven" or the physical sky and the transcendent realm combined.
+The dual form of shamayim is morphologically unmistakable. In Hebrew, dual forms are typically reserved for things naturally paired: eyes, hands, ears. That said, most Hebraists treat *šāmayim* as a *fossilized* dual—a form that is dual in shape but no longer carries live dual meaning, like *mayim* ("waters") and *miṣrayim* ("Egypt"). The framework's correlation of this form with the Z₁/Z₂ duality is therefore a theological reading—informed by the Scriptural distinction between heaven and the heavens (2 Cor 12:2; 1 Kgs 8:27)—rather than a grammatical derivation from the dual ending. Read that way, some interpreters hear in shamayim "heavens and heaven," the physical sky and the transcendent realm together.
 
 Throughout the Old Testament, shamayim can mean the visible sky, the cosmic region beyond Earth, or the dwelling place of God (as in "heaven"). Genesis 1:1 uses shamayim to describe what God created alongside the earth, suggesting a fundamental cosmic duality.
 
 **Zone Architecture Correspondence**
 
-In the zone model, shamayim corresponds to both Z₁ (Heaven Prime) and Z₂.₂.₃ (Waters Above—the upper atmospheric/energetic realm). The dual form perfectly reflects this duality: there is both the transcendent heaven (where God dwells, Z₁) and the cosmic heaven (the heavenly waters and firmament, part of Z₂).
+In the zone model, shamayim corresponds to both Z₁ (Heaven Prime) and Z₂.₂.₃ (Waters Above—the upper atmospheric/energetic realm). The dual form sits suggestively alongside this duality: there is both the transcendent heaven (where God dwells, Z₁) and the cosmic heaven (the heavenly waters and firmament, part of Z₂). As noted above, this correspondence is read into the form theologically; it is not claimed as a grammatical proof.
 
 When Genesis 1:1 says God created "the heavens and the earth," it is establishing the primary bifurcation of created reality: the heavenly realms (Z₁ interfacing with Z₂) and the earthly realm (Z₂ itself). The dual form of shamayim encodes this structural truth.
 
@@ -182,13 +182,13 @@ The beauty of this linguistic term is that it captures the post-*bārāʾ* state
 ## C.6 — תְהוֹם (*təhôm*) — "The Deep"
 
 **Hebrew:** תְהוֹם
-**Root:** ת-ה-ו-ם — cognate with Akkadian Tiamat (the primordial chaos goddess), but thoroughly demythologized in Hebrew
+**Root:** ת-ה-ו-ם — some 20th-century scholars proposed a cognate relation to Akkadian Tiamat (the primordial chaos goddess); more recent scholarship (Tsumura 2005; Walton 2009) regards *təhôm* as a common Semitic noun (cf. Ugaritic *thwm*) with no Mesopotamian dependence. Either way, in Genesis it functions as a passive substrate, not a personified rival.
 **Grammar:** Feminine noun, often with the definite article (ha-tehom). Always singular, always referring to the primordial deep.
 **Semantic Range:** The abyss, the primordial deep, the underground waters, the ocean depths, chaos.
 
 **Theological Significance**
 
-Tehom is profound. The Akkadian parallel (Tiamat) was a chaos monster that had to be slain by Marduk to create the world. In Genesis, Tiamat becomes tehom—merely *the deep*, a passive substrate. The mythological personification is stripped away. What remains is a description of undifferentiated, primordial potential.
+Tehom is profound. An older line of scholarship read it against the Akkadian Tiamat—a chaos monster slain by Marduk to make the world—and saw Genesis as deliberately demythologizing that figure into *the deep*, a passive substrate. More recent Hebraists (Tsumura 2005; Walton 2009) doubt any direct borrowing and treat *təhôm* simply as the common Semitic word for the primordial deep. Either way, the textual point stands: in Genesis the personification is absent, and what remains is a description of undifferentiated, primordial potential.
 
 Tehom appears in contexts of divine mastery: God speaks over the deep, divides the deep, controls the deep. Tehom is never presented as a rival to God, a force to be conquered, or a source of danger. It is simply the initial condition—the pre-separation state of the waters before the Firmament divides them on Day 2.
 

@@ -678,7 +678,7 @@ where $L_{\text{Fall}}$ is the latent heat of the Fall transition. In a Landau m
 
 $$\Delta F = -\frac{a^2(\kappa_c - \kappa)^2}{4b} \tag{1.11.61d}$$
 
-For $N$ particles in the system, $\Delta S_{\text{Fall}} \sim N k_B$ — on the order of one Boltzmann constant per particle. For the observable universe ($N \sim 10^{80}$), this gives an entropy jump $\Delta S_{\text{Fall}} \sim 10^{80} k_B$, consistent with cosmological entropy estimates. The "groaning of creation" (Romans 8:22, ESV) is not a metaphor — it is $10^{80}$ units of entropy, released in a single phase transition.
+For $N$ particles in the system, $\Delta S_{\text{Fall}} \sim N k_B$ — on the order of one Boltzmann constant per particle. For the observable universe ($N \sim 10^{80}$), this gives an entropy jump $\Delta S_{\text{Fall}} \sim 10^{80} k_B$, consistent with cosmological entropy estimates. This order-of-magnitude entropy jump, derived independently from the $\kappa$-deficit $\varepsilon$ and the particle count, resonates with Paul's depiction of creation "groaning" under its bondage to decay (Romans 8:22, ESV) — though Scripture neither requires nor specifies a numerical value.
 
 ---
 
