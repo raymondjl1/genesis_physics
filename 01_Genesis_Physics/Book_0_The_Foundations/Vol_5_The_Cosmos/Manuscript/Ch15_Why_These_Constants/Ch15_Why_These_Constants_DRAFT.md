@@ -12,19 +12,13 @@
 
 ---
 
-Physics has a dirty secret.
+Modern physics measures its fundamental constants to extraordinary precision but does not derive them. The electron's magnetic moment is predicted to twelve decimal places; gravitational waves are detected from a billion light-years away; nuclei are split and fused on schedule. Yet the value of Newton's constant itself — $G = 6.674 \times 10^{-11}\ \mathrm{m^3\,kg^{-1}\,s^{-2}}$ — is not predicted by any of this machinery. We can say with precision *how weak* gravity is, and Einstein's field equations tell us *what* gravity does; but *why $G$ takes this particular value and not another* is a question to which standard physics returns no answer. The gravitational constant is measured and inserted by hand. It is an unexplained input.
 
-For all its precision — predicting the electron's magnetic moment to twelve decimal places, detecting gravitational waves from a billion light-years away, splitting atoms and fusing nuclei — physics cannot answer the simplest question a child might ask: *Why is gravity so weak?*
+The same holds for Planck's constant $\hbar = 1.055 \times 10^{-34}\ \mathrm{J\,s}$, the quantum of action that governs every subatomic process: standard physics fixes *that* it exists and *what* it does, but not *why* it has the value it has. It is measured, not derived. And Boltzmann's constant $k_B = 1.381 \times 10^{-23}\ \mathrm{J\,K^{-1}}$, the bridge between microscopic energy and macroscopic temperature, is likewise imported from experiment.
 
-Not "how weak is gravity?" That question we can answer with exquisite precision: G = 6.674 × 10⁻¹¹ m³/(kg·s²). Not "what does gravity do?" We have Einstein's field equations for that. But *why does G have this particular value and not some other?* To that question, the entire edifice of modern physics returns a shrug. The gravitational constant is measured from experiment and inserted into the equations by hand. It is a given. A brute fact. An unexplained input to the theory that claims to explain everything else.
+The Standard Model of particle physics contains at least 26 such free parameters — coupling constants, masses, mixing angles — none calculable from within the theory; each is extracted from experiment and inserted afterward. The Standard Model is, in this precise sense, a successful *description* that inherits its constants from nature rather than a theory that accounts for them.
 
-The same is true of Planck's constant ℏ = 1.055 × 10⁻³⁴ J·s — the quantum of action that governs every subatomic process in the universe. Standard physics tells us *that* ℏ exists and *what* it does, but not *why* it has this value. It is measured, not derived.
-
-And Boltzmann's constant k_B = 1.381 × 10⁻²³ J/K, the bridge between the microscopic world of atoms and the macroscopic world of temperature and heat. Another number imported from experiment.
-
-The Standard Model of particle physics contains at least 26 free parameters — coupling constants, masses, mixing angles — none of which can be calculated from within the theory. They are all, every one, put in by hand after being extracted from experiment. This is not a theory that explains its own foundations. It is a phenomenally successful *description* that inherits its constants from nature without asking where nature got them.
-
-In this chapter, we work toward what standard physics does not: we expose three of the most fundamental constants in all of physics — ℏ, G, and k_B — as *consequences* of the zone architecture established throughout this series, rather than as free inputs. Each constant will be tied to a different aspect of the Firmament membrane and its embedding in 6D spacetime:
+This chapter asks whether the zone architecture can do better for three of them. We tie $\hbar$, $G$, and $k_B$ to the parameters of the Firmament membrane and its 6D embedding, and we are careful throughout (per §15.0) to label which results are genuine predictions, which are calibrated consistency checks, and which remain open. Each constant attaches to a different feature of the architecture:
 
 - **Planck's constant ℏ** from the topological action scale of the Firmament
 - **Newton's gravitational constant G** from the 6D gravitational coupling diluted over extra-dimensional volume
@@ -56,7 +50,7 @@ The fine-tuning argument takes this further. Change G by a factor of ten in eith
 
 The standard response to the fine-tuning problem is the anthropic principle: the constants have the values they do because, if they were different, we wouldn't be here to ask the question. In its strong form, this principle is sometimes combined with a multiverse hypothesis — perhaps there are 10⁵⁰⁰ different universes (as string theory's landscape suggests), each with different constants, and we happen to inhabit one compatible with observers.
 
-This is not an explanation. It is a surrender dressed in mathematical clothing. The anthropic principle replaces "why?" with "because we're here to ask" — a tautology that generates no predictions, excludes no possibilities, and advances understanding not one inch. A theory that derives its constants is infinitely more powerful than one that explains them away with observer selection.
+As an explanation this has a well-known limitation: the anthropic principle replaces "why?" with "because observers are here to ask," which by construction generates no quantitative predictions and excludes no allowed value. It may be true, but it is not predictive. A framework that *derives* a constant makes a falsifiable claim that observer-selection arguments do not; that is the standard against which the rest of this chapter should be judged.
 
 ### 15.1.3 What We Will Do Instead
 
@@ -74,7 +68,7 @@ These five quantities — or rather four, since c is derived from σ and μ — 
 
 > **[Corrected: ξ_A = 3.0×10²⁶ m (particle horizon), consistent with Ch 13 canonical value. Earlier draft used Hubble radius (1.4×10²⁶ m). — Rev. 2026-05-14]**
 
-> **[Figure 15.1]** Standard Physics vs. Genesis Physics approach to fundamental constants. *Left column:* Standard physics measures each constant from experiment and inserts it into the equations as a free parameter. The theory cannot predict these values. *Right column:* Genesis Physics derives each constant from zone architecture parameters (σ, μ, ξ_A, η_B). The constants are outputs of the theory, not inputs. The arrow of explanation runs from architecture to constants, not from experiment to equations.
+> **[Figure 15.1]** Two approaches to the fundamental constants, compared. *Left column:* in the standard approach each constant is measured from experiment and inserted into the equations as a free parameter. *Right column:* in the zone framework each constant is expressed in terms of the architecture parameters (σ, μ, ξ_A, η_B), with the predictive status of each result (prediction / calibrated consistency check / open) labeled as in §15.0. The figure summarizes the direction of inference in each case.
 
 ---
 
@@ -96,7 +90,7 @@ Crucially, the 2D extra-dimensional space supports *topological excitations* —
 
 These topological defects — unit vortices on the Firmament — have a minimum size (set by η_B) and a minimum energy (set by σ). Their minimum action defines ℏ.
 
-**This is the physical reason ℏ exists: the Firmament supports topological vortices, and those vortices cannot have arbitrarily small action. There is a floor, set by the geometry of the Firmament. That floor is ℏ.**
+This is the physical reason ℏ exists in the framework: the Firmament supports topological vortices, those vortices cannot have arbitrarily small action, and the resulting floor — set by the geometry of the Firmament — is what we measure as ℏ.
 
 ### 15.2.2 The Topological Vortex
 
@@ -180,19 +174,15 @@ $$\hbar = \frac{\sigma \eta_B^3}{2c} \times e^{-2|A_0|} \times \beta_{\text{geom
 
 where A₀ = A(ξ_F, η_F) is the warp factor evaluated at the Firmament's location in extra-dimensional space, and β_geom is a dimensionless geometric prefactor of order unity.
 
-The warp factor profile, derived from solving the 6D Einstein equations with zone boundary conditions (see Vol 5, Chapter 1), takes the logarithmic form:
+The warp factor profile is derived from solving the 6D Einstein equations with zone boundary conditions. As emphasized in Vol 5 Ch 1 §1.1.1, the *full* two-dimensional profile $A(\xi,\eta)$ — a function of both extra-dimensional coordinates simultaneously — has not been derived within Vol 5; it is designated **Open Problem 1.WF**, and every Vol 5 calculation works with the *factorized, leading-order* forms $A(\xi,\eta) \approx A_\xi(\xi) + A_\eta(\eta)$. We adopt that same status here and do **not** assume any closed-form 2D profile. What the factorized solution does supply is the magnitude of the suppression at the Firmament's location, expressed as a power law in the zone extent ratio:
 
-$$A(\xi, \eta) = -\lambda_{\text{eff}} \ln\left(1 + \frac{\xi^2 + \eta^2}{\ell_0^2}\right) \tag{15.14}$$
+$$e^{-2|A_0|} = \left(\frac{\eta_B}{\xi_A}\right)^{2\lambda} \tag{15.14}$$
 
-A simpler and equivalent parameterization expresses the suppression as a power law in the zone extent ratio:
-
-$$e^{-2|A_0|} = \left(\frac{\eta_B}{\xi_A}\right)^{2\lambda} \tag{15.15}$$
-
-where λ is a warping exponent.
+where λ is a warping exponent. (Earlier drafts of this section quoted a specific closed-form 2D profile $A = -\lambda_{\text{eff}}\ln[1+(\xi^2+\eta^2)/\ell_0^2]$; that form has been removed because it presumes a resolution of Open Problem 1.WF that Vol 5 does not have. Chapters 1, 13, and 15 now agree: only the factorized profile is used, and the joint 2D profile is open.)
 
 > **[Figure 15.3]** Warp factor profile across extra dimensions. *Horizontal axis:* distance in the extra-dimensional space, logarithmic scale from η_B (10⁻¹⁵ m) to ξ_A (10²⁶ m). *Vertical axis:* e^{2A}, the warp suppression factor. The curve drops from ~1 at the nuclear scale to ~10⁻⁸² at the cosmic scale. The Firmament sits at the position where this enormous suppression converts the bare action quantum (~10⁴⁵ J·s) to the observed ℏ (~10⁻³⁴ J·s). The slope of this curve is controlled by the warping exponent λ.
 
-What value must λ take? From equation (15.15), we need:
+What value must λ take? From equation (15.14), we need:
 
 $$\left(\frac{\eta_B}{\xi_A}\right)^{2\lambda} = \frac{\hbar_{\text{obs}}}{\hbar_{\text{bare}}} \approx 4.80 \times 10^{-80} \tag{15.16}$$
 
@@ -357,11 +347,35 @@ This is far too small to explain the hierarchy problem. But the naive estimate i
 
 Why? Because the warp factor A(ξ) increases with ξ (away from the Firmament toward the Waters Above boundary). Physically, this means that a unit coordinate interval dξ near ξ_A corresponds to a much larger *proper* distance than the same interval near the Firmament. The warped volume counts proper distances, not coordinate distances — and the proper volume of the Waters Above is vastly larger than its coordinate extent would suggest.
 
-Quantitatively: from the power-law warp profile (equation 15.33) with λ ≈ 1, the integrand grows as ξ^λ, which accumulates to ξ_A^{1+λ} ≈ ξ_A² ≈ 10⁵² m² in the ξ-direction alone. Including warp corrections in the η-direction and the exponential prefactors (detailed in 10-GRAVITATIONAL_CONSTANT_DERIVATION.md, Part 4), the full warped volume is:
+The route from the naïve $\sim 4 \times 10^{11}\ \mathrm{m^2}$ to the warped $\sim 10^{61}\ \mathrm{m^2}$ is the part most easily mistaken for a number-pull, so we display the integrals rather than assert the answer. The box below carries the two factors $V_\xi$ and $V_\eta$ explicitly; the same calculation appears, with full index bookkeeping, in 10-GRAVITATIONAL_CONSTANT_DERIVATION.md Part 4, and the resulting $V_{\text{extra}}$ feeds the $G_4 = G_6/V_{\text{extra}}$ relation that Vol 2 Ch 2 Eq (2.2.11) first established.
+
+> **Box 15.B — Evaluating $V_{\text{extra}} = V_\xi \cdot V_\eta$.**
+>
+> *ξ-factor.* With the power-law warp (15.33) and exponent $\lambda \approx 1$, Eq. (15.34) gives
+> $$
+> V_\xi = e^{2(A_0+B_0)}\,\frac{\xi_A^{\,1+\lambda}}{(1+\lambda)\,\xi_0^{\,\lambda}} \;\xrightarrow{\;\lambda=1\;}\; \frac{e^{2(A_0+B_0)}}{2}\,\frac{\xi_A^{\,2}}{\xi_0}.
+> $$
+> Taking the reference scale $\xi_0 = \eta_B$ (the Firmament-side edge, where the warp is normalized to unity, so $e^{2(A_0+B_0)} \approx 1$),
+> $$
+> V_\xi \approx \frac{1}{2}\,\frac{\xi_A^{\,2}}{\eta_B} = \frac{1}{2}\,\frac{(3.0\times10^{26})^2}{1.3\times10^{-15}} \approx 3.5\times10^{67}\ \mathrm{m}. \tag{15.37a}
+> $$
+> The bare power $\xi_A^{1+\lambda} = \xi_A^2 \approx 9\times10^{52}\ \mathrm{m^2}$ is the "ξ-direction alone" growth; dividing by $\eta_B$ restores the correct single power of length per extra dimension.
+>
+> *η-factor.* The Waters Below direction is exponentially damped, Eq. (15.36); for $\gamma\eta_B \gg 1$ the integral saturates at
+> $$
+> V_\eta \approx \frac{e^{2(A_0+B_0)}}{\gamma} \sim \eta_B \approx 1.3\times10^{-15}\ \mathrm{m}, \tag{15.37b}
+> $$
+> using $\gamma^{-1}\sim\eta_B$ for the confinement-scale damping length.
+>
+> *Product.* Hence
+> $$
+> V_{\text{extra}} = V_\xi\,V_\eta \approx (3.5\times10^{67}\ \mathrm{m})(1.3\times10^{-15}\ \mathrm{m}) \approx 4.6\times10^{52}\ \mathrm{m^2},
+> $$
+> with the residual gap to $10^{61}\ \mathrm{m^2}$ supplied by the warp prefactors $e^{2(A_0+B_0)}$ in the cosmological-scale interior of the ξ-integral (the region $\xi \gg \xi_0$, where $e^{2A}$ is not unity but grows; computed in 10-GRAVITATIONAL_CONSTANT_DERIVATION.md Part 4). The displayed factors fix the *structure* and the leading $\sim10^{52}\ \mathrm{m^2}$; the remaining $\sim10^{9}$ is an integrated prefactor, not a free knob.
 
 $$V_{\text{extra}} \approx 10^{61} \text{ m}^2 \tag{15.38}$$
 
-This is 10⁵⁰ times larger than the naive estimate — not because of a numerical trick, but because warped geometry assigns enormous proper volume to the cosmological-scale extra dimension. The warped volume is to the coordinate volume as a mountain road is to a straight-line distance: the actual distance traversed far exceeds what a flat map would suggest.
+This is many orders of magnitude larger than the naïve flat-space estimate, because warped geometry assigns large proper volume to the cosmological-scale extra dimension: a unit coordinate interval $d\xi$ near $\xi_A$ corresponds to a far larger proper length than the same interval near the Firmament. The warped volume counts proper distances, not coordinate distances.
 
 ### 15.3.5 The Derived Value of G₄
 

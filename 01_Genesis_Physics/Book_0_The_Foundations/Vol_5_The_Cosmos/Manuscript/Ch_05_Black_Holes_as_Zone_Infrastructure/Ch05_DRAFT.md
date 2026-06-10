@@ -57,33 +57,19 @@ $$(5.5.3)\quad S_{\mu\nu} = -\sigma\,\gamma_{\mu\nu},$$
 
 i.e., a perfect fluid with $w = -1$ (tension). This is what appears on the right-hand side of the Israel–Darmois junction conditions.
 
-### §5.1.2 From Vol 5 Ch 1 — Schwarzschild and Kerr
+### §5.1.2 What Chapters 1, 4, and Vol 1 Ch 11 hand us
 
-Chapter 1 derived, from the 6D action via Kaluza–Klein dimensional reduction, the 4D Einstein field equations (5.1.22). The unique static, spherically symmetric, asymptotically flat vacuum solution is the Schwarzschild metric (Eq. 5.1.34):
+The remaining inputs are stated compactly; each is a result already derived in a cited place, used here without re-derivation.
 
-$$(5.5.4)\quad ds^2 = -\left(1 - \frac{r_s}{r}\right)c^2 dt^2 + \left(1 - \frac{r_s}{r}\right)^{-1}dr^2 + r^2\,d\Omega^2,\qquad r_s = \frac{2GM}{c^2}.$$
-
-The unique stationary, axisymmetric, asymptotically flat vacuum solution is the Kerr metric (Eq. 5.1.36):
-
-$$(5.5.5)\quad ds^2 = -\left(1 - \frac{r_s r}{\Sigma}\right)c^2 dt^2 - \frac{2 r_s r a \sin^2\theta}{\Sigma}\,c\,dt\,d\phi + \frac{\Sigma}{\Delta}dr^2 + \Sigma\,d\theta^2 + \left(r^2 + a^2 + \frac{r_s r a^2\sin^2\theta}{\Sigma}\right)\sin^2\theta\,d\phi^2,$$
-
-with $\Sigma = r^2 + a^2\cos^2\theta$, $\Delta = r^2 - r_s r + a^2$, $a = J/(Mc)$.
-
-Both of these are *exterior* solutions. The derivation of Chapter 1 uses the asymptotic-flatness boundary condition at $r \to \infty$ and the vacuum condition $T_{\mu\nu} = 0$ in the exterior region; it does not specify the interior stress-energy and therefore does not fix the interior geometry. This is the gap that the present chapter fills.
-
-### §5.1.3 From Vol 5 Ch 4 — strong-field regime
-
-Chapter 4 §4.3 analyzed the Kerr ergosphere — the region between $r_+$ (outer horizon) and the static limit $r_\text{static} = (r_s + \sqrt{r_s^2 - 4a^2\cos^2\theta})/2$ — and showed that the Killing vector $\partial_t$ becomes spacelike there. The Penrose process extracts energy from the hole's spin, bounded by the Christodoulou irreducible-mass formula. The ISCO analysis of §4.2 showed that test particles in Schwarzschild geometry have a minimum stable orbital radius at $r = 6GM/c^2$. *Nothing in this chapter changes any of that*, because all three results depend only on the exterior metric.
-
-Chapter 4 §4.12.4 explicitly forward-linked to the present chapter: "*Chapter 5 will take the Kerr ergosphere of §4.3 and reinterpret the interior of the horizon as a membrane puncture in the Firmament. The exterior Kerr metric and the Penrose process results of §4.3 are unchanged by that reinterpretation.*" We now keep the promise.
-
-### §5.1.4 From Vol 1 Ch 11 — the thermodynamic axiom
-
-Volume 1, Chapter 11, established the framework's thermodynamic axiom: the entropy of a region of the Firmament is proportional to the logarithm of the number of *Firmament-vibration modes* that the region supports, cut off in the ultraviolet at the Planck length $\ell_P$. In equation form, this is
-
-$$(5.5.6)\quad S = k_B\,\ln \Omega,\qquad \Omega = \text{number of Firmament modes with wavelength}\ \lambda \ge \ell_P,$$
-
-which is the zone-framework analog of Boltzmann's entropy formula. The key physical content is that entropy counts degrees of freedom that are *on the Firmament*. Bulk degrees of freedom (Waters Above, Waters Below) contribute in a different way and are bounded on 4D regions only through their boundary values on the Firmament. We will use this axiom in §5.6.
+- **Exterior metrics (Vol 5 Ch 1).** Chapter 1 derived the 4D Einstein equations (5.1.22) from the 6D action. Their unique static, spherically symmetric, asymptotically flat vacuum solution is Schwarzschild (Eq. 5.1.34),
+  $$(5.5.4)\quad ds^2 = -\left(1 - \frac{r_s}{r}\right)c^2 dt^2 + \left(1 - \frac{r_s}{r}\right)^{-1}dr^2 + r^2\,d\Omega^2,\qquad r_s = \frac{2GM}{c^2},$$
+  and the unique stationary, axisymmetric one is Kerr (Eq. 5.1.36),
+  $$(5.5.5)\quad ds^2 = -\left(1 - \frac{r_s r}{\Sigma}\right)c^2 dt^2 - \frac{2 r_s r a \sin^2\theta}{\Sigma}\,c\,dt\,d\phi + \frac{\Sigma}{\Delta}dr^2 + \Sigma\,d\theta^2 + \left(r^2 + a^2 + \frac{r_s r a^2\sin^2\theta}{\Sigma}\right)\sin^2\theta\,d\phi^2,$$
+  with $\Sigma = r^2 + a^2\cos^2\theta$, $\Delta = r^2 - r_s r + a^2$, $a = J/(Mc)$. Both are *exterior* solutions: Chapter 1 fixed them from asymptotic flatness and $T_{\mu\nu}=0$ in the exterior, leaving the interior geometry unspecified. That interior gap is precisely what this chapter fills.
+- **Strong-field results (Vol 5 Ch 4).** The Kerr ergosphere, the Penrose process bounded by the Christodoulou irreducible mass, and the Schwarzschild ISCO at $r = 6GM/c^2$ (Ch 4 §§4.2–4.3) all depend only on the *exterior* metric and are therefore **unchanged** by this chapter's reinterpretation of the interior — as Ch 4 §4.12.4 forward-promised.
+- **Thermodynamic axiom (Vol 1 Ch 11).** Entropy counts Firmament-vibration modes, cut off at the Planck length,
+  $$(5.5.6)\quad S = k_B\,\ln \Omega,\qquad \Omega = \text{number of Firmament modes with wavelength}\ \lambda \ge \ell_P,$$
+  the zone analog of Boltzmann's formula. Crucially, entropy counts degrees of freedom *on the Firmament*; bulk (Waters) degrees of freedom enter only through their Firmament boundary values. Used in §5.6.
 
 ### §5.1.5 What we will use and what we will not
 
@@ -364,7 +350,7 @@ then multiplied by $k_B$ to convert to energy units. The two factor-of-$\tfrac{1
 
 > **Note:** The identification of the area-entropy factor with the Gauss–Bonnet topological invariant relies on the zone manifold's breach boundary having the topology of $S^2$ (Euler characteristic $\chi = 2$) and on the mode inner-product normalization inheriting the topological factor from Vol 1 §11.4. A formal proof that the Firmament's topology produces the correct Gauss–Bonnet factor in the mode count — as opposed to merely a plausible argument by analogy — is designated **Research Task RT-5.GB**. The entropy result (5.5.20) is reproduced correctly; the chain from the 6D action through Vol 1 §11.4 to the factor of 4 is the best current justification, but the step is not fully closed until RT-5.GB is complete.
 
-This is a *derivation* of the area law rather than a postulate: the area scaling is forced by the 2-dimensional geometry of the boundary, and the prefactor is forced by Firmament-mode inner-product normalization. The Physicist reviewer should note that steps 2 and 3 above inherit their factors from Vol 1 Ch 11, which is itself a derivation from the zone action. The chain from the 6D action to (5.5.20) is therefore unbroken, though it passes through two volumes.
+This is a *derivation* of the area law rather than a postulate: the area scaling is forced by the 2-dimensional geometry of the boundary, and the prefactor is forced by Firmament-mode inner-product normalization. Note that steps 2 and 3 above inherit their factors from Vol 1 Ch 11, which is itself a derivation from the zone action. The chain from the 6D action to (5.5.20) is therefore unbroken, though it passes through two volumes.
 
 [FIGURE: Fig 5.5.5 — Entropy Counting: Area Law from Membrane Boundary. A 2-sphere (representing the breach boundary $r = r_s$) tiled with small square patches, each labeled "$\ell_P^2$". An arrow leads from the sphere to the formula "$N_\text{modes} = A/\ell_P^2$" and from there to "$S = k_B A/(4\ell_P^2)$". An inset on the right shows a single patch with a wavy line representing one Firmament vibration mode and the label "one phase-space cell = two degrees of freedom." A small annotation reads "factor of 4 from: phase-space pairing × Gauss–Bonnet normalization." Caption: "Entropy counts the number of Planck-area patches on the breach boundary. The area law is forced by the 2-dimensional geometry of the boundary; the factor of 4 comes from Firmament-mode normalization in Vol 1 Ch 11."]
 

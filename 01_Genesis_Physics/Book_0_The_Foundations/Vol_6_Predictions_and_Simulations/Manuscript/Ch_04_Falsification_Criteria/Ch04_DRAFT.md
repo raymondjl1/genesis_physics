@@ -138,7 +138,7 @@ The cosmic energy budget derived from zone geometry (Vol 5, Ch 11) gives:
 
 $$\Omega_\Lambda = 68.4\%, \quad \Omega_{\rm DM} = 26.6\%, \quad \Omega_b = 4.9\% \tag{6.4.3}$$
 
-**Falsification criterion.** If the combined Planck + BAO + SNe + DESI analysis shifts the dark energy density fraction below 65% or above 72% at $3\sigma$ confidence, the zone-geometric derivation of the energy budget requires revision at the pillar level. The current Planck 2018 values ($68.3\% / 26.8\% / 4.9\%$) agree with the zone predictions to within 0.3%.
+**Falsification criterion.** If the combined Planck + BAO + SNe + DESI analysis shifts the dark energy density fraction below 65% or above 72% at $3\sigma$ confidence, the zone-geometric derivation of the energy budget requires revision at the pillar level. The current Planck 2018 legacy values ($68.9\% / 26.1\% / 4.9\%$ — the canonical baseline defined in Ch 1 §1.6) agree with the zone predictions to within ~0.5%.
 
 ---
 

@@ -419,13 +419,13 @@ The following table compiles every differing prediction from this chapter:
 
 | P-# | Prediction | ZA | SM/Other | Gap | Type | Timeline | Confidence |
 |-----|------------|-----|----------|-----|------|----------|-----------|
-| P-052 | Electron mass | ~500 MeV | 0.511 MeV (fitted) | 1000$\times$ | A | Already failed | Low |
-| P-053 | Muon/electron ratio | 2–10 | 206.77 (fitted) | 20–100$\times$ | A | Already failed | Low |
-| P-054 | Quark masses | Regular pattern | Irregular (fitted) | Qualitative | A | Already failed | Low |
+| P-052 | Electron mass | ~500 MeV | 0.511 MeV (fitted) | 1000$\times$ | A | Already failed | 5% |
+| P-053 | Muon/electron ratio | 2–10 | 206.77 (fitted) | 20–100$\times$ | A | Already failed | 5% |
+| P-054 | Quark masses | Regular pattern | Irregular (fitted) | Qualitative | A | Already failed | 10% |
 | P-055 | Neutrino mass scale | No prediction | No prediction (seesaw) | N/A | A (gap) | — | — |
-| P-056 | Fine structure constant | 137.17 | 137.036 (fitted) | 0.10% | A | Refinable | High |
-| P-057 | Weak mixing angle | ~1% offset | 0.23122 (fitted) | ~1% | A | Refinable | Medium |
-| P-058 | Strong coupling running | Modified at high $E$ | Standard running | Unknown | A | FCC-ee era | Medium |
+| P-056 | Fine structure constant | 137.17 | 137.036 (fitted) | 0.10% | A | Refinable | 90% |
+| P-057 | Weak mixing angle | ~1% offset | 0.23122 (fitted) | ~1% | A | Refinable | 50% |
+| P-058 | Strong coupling running | Modified at high $E$ | Standard running | Unknown | A | FCC-ee era | 50% |
 | P-059 | GW dispersion | $\delta \sim 10^{-35}$ | $\delta = 0$ | 20 OoM | C | 2040s+ | 70% |
 | P-060 | KK graviton modes | Tower at 150 MeV | No tower | N/A | C | Collider era | 70% |
 | P-061 | DM interactions | $\sigma = 0$ | WIMPs: $10^{-46}$ | Categorical | B | Ongoing | 85% |
@@ -435,6 +435,8 @@ The following table compiles every differing prediction from this chapter:
 | P-065 | $\alpha$ constancy | $\Delta\alpha/\alpha = 0$ | Possibly varies | $10^{-9}$ vs. $10^{-6}$ | B | ELT era | 95% |
 | P-066 | Neutrino hierarchy | Normal only | Both allowed | Binary | B | JUNO 2027 | 60% |
 | P-067 | Proton stability | $\tau_p = \infty$ | GUT: $10^{34}$–$10^{36}$ yr | Categorical | B | Hyper-K 2030s | 40% |
+
+*Confidence is expressed throughout on a single numerical scale (bracketed 5%–95%): the author's subjective probability that, when the test is completed, the zone-architecture prediction will be borne out. The scale is deliberately bounded away from 0% and 100% — no prediction here is certain either way. As a rough legend, ≤10% marks predictions that have already failed quantitatively (the mass sector, where the simplest Firmament model is off by ~1000×); ~50% marks predictions resting on derivations that are refinable but not yet complete; ≥90% marks predictions that follow from the framework's most robust structural commitments (e.g., the geometric fixity of $\alpha$ and $w=-1$). The earlier mixed use of "Low / Medium / High" has been retired in favor of this numerical scale so that all rows are directly comparable.*
 
 ### The Three Kill Shots
 

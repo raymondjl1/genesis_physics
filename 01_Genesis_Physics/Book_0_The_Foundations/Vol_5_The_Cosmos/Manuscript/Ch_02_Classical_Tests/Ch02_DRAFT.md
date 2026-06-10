@@ -332,7 +332,7 @@ The PPN framework is the subject of §2.8, but the punchline for this section is
 
 **Test-suite result (Shapiro Time Delay test, test #7 of eleven):** The `test_gr_observables.py` script computes $\Delta t \approx 232.0\,\mu$s for an Earth–Venus geometry with $b=R_\odot$, and compares to a reference value of $200.0\,\mu$s (labeled "Shapiro 1964"), yielding a reported fractional error of $16.01\%$. The script classifies this as a PASS (its tolerance for this particular test is $\pm 20\%$), but only by a comfortable margin, and the 16% number is the largest-looking "error" on the entire eleven-test scorecard.
 
-We are going to tell the reader, plainly, what is going on with this entry, because if we do not the Skeptic reviewer will assume we are hiding something.
+We are going to tell the reader, plainly, what is going on with this entry, because if we do not a skeptical reader will reasonably assume we are hiding something.
 
 The situation is straightforward and the fix is one line. The "observed" reference value of 200 μs used by the test script is the *1964 Shapiro preliminary theoretical estimate* for an Earth–Venus radar-bounce geometry at superior conjunction, not a precision measurement. The 1964 estimate had 5–10% quoted uncertainty, and the actual measurement a year later (the Haystack radar experiment, 1965) found about 204 μs with $\sim 3\%$ error bars. Modern measurements using Cassini and subsequent spacecraft constrain the underlying physics to the $10^{-5}$ level, as we just saw in (5.2.34). In other words, the test-script's "16% error" is not measuring the distance between the Genesis Physics prediction and reality; it is measuring the distance between the 1964 textbook-estimate number and the more-precise 2026 computation of the same formula with modern constants.
 
@@ -506,7 +506,7 @@ Here is the data, written out in full for the reader who wants the numbers in te
 
 ### §2.9.2 Verbatim test-suite output
 
-For the Physicist reviewer, here is the pass/fail summary line as printed by the test suite on 2026-04-09:
+For the reader who wants to check the computation, here is the pass/fail summary line as printed by the test suite on 2026-04-09:
 
 ```
 ==========================================================================================

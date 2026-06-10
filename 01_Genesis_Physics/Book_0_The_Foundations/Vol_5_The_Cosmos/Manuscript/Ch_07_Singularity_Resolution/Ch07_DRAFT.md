@@ -372,7 +372,7 @@ It did not derive the bulk hyperbolicity theorem from first principles in this c
 
 ## §7.7 The Generic Regularization Theorem
 
-We now state and outline the proof of the chapter's most general result. The reader who has followed §7.4–§7.6 has already seen the key ideas; this section organizes them into a single statement and addresses the fine-tuning question that the Physicist reviewer will care about.
+We now state and outline the proof of the chapter's most general result. The reader who has followed §7.4–§7.6 has already seen the key ideas; this section organizes them into a single statement and addresses the fine-tuning question that a careful physicist will care about.
 
 ### §7.7.1 The classification of Firmament-side incompleteness
 

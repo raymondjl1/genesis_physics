@@ -336,7 +336,7 @@ Two mechanisms from the research file `07-FTL_MECHANISMS_FORMAL.md` are *not* pu
 
 - **Consciousness interface** (Mechanism 5) posits a coupling between quantum-coherent biological systems and an atemporal Zone 1 coordinate. The coupling mechanism is not specified at the level of the other four mechanisms, and the derivation involves premises about consciousness and atemporality that this textbook is not in a position to defend at Book-0 level. Vol 6 (Predictions) and, possibly, a later volume that addresses the theological-metaphysical interface, is the appropriate venue. It is *not* forgotten, and it is *not* dismissed; it is deferred with reasoning.
 
-These two deferrals are flagged in §4.11.4 and §4.12.5. The Skeptic reviewer should note that neither is silently dropped; both are named and their absence from this chapter is justified.
+These two deferrals are flagged in §4.11.4 and §4.12.5. Note that neither is silently dropped; both are named and their absence from this chapter is justified.
 
 ---
 
@@ -550,7 +550,7 @@ Two honesty flags must be attached to the number $2\times 10^{26}$ J. First, (5.
 
 ### §4.10.6 The honest section
 
-Before the ledger of derived-vs-conjectured, one conceptual point deserves its own paragraph because it is the single place where the Skeptic reviewer is most likely to say "you're just renaming exotic matter." The answer is no, and the reason is a standard result of Kaluza–Klein-type dimensional reduction that predates the zone framework by a century.
+Before the ledger of derived-vs-conjectured, one conceptual point deserves its own paragraph because it is the single place where a skeptical reader is most likely to say "you're just renaming exotic matter." The answer is no, and the reason is a standard result of Kaluza–Klein-type dimensional reduction that predates the zone framework by a century.
 
 In any higher-dimensional gravity theory that is dimensionally reduced by integrating out the extra-dimensional coordinates, the effective 4D stress-energy inherits *two* sources: (i) the direct projection of the 6D bulk stress-energy onto the 4D tangent space, and (ii) additional terms from the reduction itself — kinetic and potential contributions of the internal-space fields that appear as effective 4D stress-energy even though they originate in the 6D curvature sector. This second contribution is not matter in the 6D sense; it is *geometry* in 6D that *looks like* matter from the 4D point of view (the classical example is the Kaluza–Klein tower of massive modes descending from a 5D pure-gravity theory, which appear in 4D as a photon plus a scalar plus an infinite ladder of massive particles). The sign of the 4D effective $T_{00}$ after dimensional reduction is not constrained by the same energy conditions that constrain the 6D $T_{AB}$, because the 4D theory has extra field content that is geometric in origin. The positivity of the 6D stress-energy of the Waters-Above field is not in dispute; the negativity of a particular component of the *reduced* 4D effective $T_{00}$ is a consequence of the reduction, not of any "exotic" matter content. This is the precise sense in which the zone framework avoids the classical exotic-matter problem: it is not that the problem is solved by invoking a new matter species, it is that the problem does not arise at all in the 6D theory, and the 4D appearance of negative $T_{00}$ is a reduction artifact (analogous to the way that a 5D Kaluza-Klein theory appears to have a scalar "radion" with unusual effective-energy behavior when reduced to 4D). With this point stated cleanly, we can proceed to the three things that are actually derived and the three that are actually conjectured.
 
@@ -606,7 +606,7 @@ The research file `07-FTL_MECHANISMS_FORMAL.md` Part 7.4 emphasizes a second cau
 
 ### §4.11.3 The three engineering conjectures
 
-Every FTL mechanism in this chapter rests on the same three open engineering assumptions. Let me enumerate them one more time, in one place, so that the Skeptic reviewer can point at them without hunting through the section text.
+Every FTL mechanism in this chapter rests on the same three open engineering assumptions. Let me enumerate them one more time, in one place, so that a skeptical reader can point at them without hunting through the section text.
 
 **Conjecture 1: Stability of non-equilibrium bulk field configurations.** The warp-factor shortcut of §4.8 requires a perturbed warp factor $A(\xi) = A_0 - \lambda_A\Delta\xi$ over an engineered region. The Alcubierre-type mechanism of §4.10 requires the Waters-Above field profile (5.4.39). Both are solutions of the linearized bulk equations; neither is known to be stable under fully nonlinear evolution, and the stability timescales are not derived. Evidence weight: LOW (no derivation; dimensional-analysis hand-waving only).
 
@@ -669,7 +669,7 @@ Following the format of Vol 5 Ch 3 §3.10.2.
 
 ### §4.12.5 The Skeptic's short list
 
-The Skeptic reviewer who wants the chapter's list of things the author did not prove, in one place, should read:
+A reader who wants the chapter's list of things the author did not prove, in one place, should read:
 
 - §4.8.5 — what Mechanism I assumes
 - §4.9.5 — what Mechanism II assumes, especially the factor-$10^{20}$ energy-range uncertainty for massive particles

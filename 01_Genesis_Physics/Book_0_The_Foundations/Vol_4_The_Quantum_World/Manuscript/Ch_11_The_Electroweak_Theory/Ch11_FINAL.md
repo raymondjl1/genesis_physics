@@ -30,7 +30,7 @@ I want to tell you upfront what this chapter will and will not accomplish, becau
 
 **What this chapter does not do, and says so.** There are two open problems, both of which I will address head-on in their own dedicated sections rather than sweeping them into a footnote.
 
-> **Open Problem 11.1 (§11.4) — GitHub #25.** The Higgs potential $V(H) = -\mu^2|H|^2 + (\lambda/4)|H|^4$ is rigorously the reduced form of the 6D $\Psi_A$ action. Its *coefficients* $\mu^2$ and $\lambda$, however, are presently known only up to three $\mathcal{O}(1)$ constants ($\beta$, $\alpha$, $\lambda_A$) which at this stage of the derivation are *fit*, not computed. A first-principles derivation of those constants from the coupled Einstein-$\Psi_A$ boundary problem at the Firmament is the content of GitHub issue #25 and is not closed here.
+> **Open Problem 11.1 (§11.4) — GitHub #25.** The Higgs potential $V(H) = -\mu^2|H|^2 + \lambda|H|^4$ is rigorously the reduced form of the 6D $\Psi_A$ action. Its *coefficients* $\mu^2$ and $\lambda$, however, are presently known only up to three $\mathcal{O}(1)$ constants ($\beta$, $\alpha$, $\lambda_A$) which at this stage of the derivation are *fit*, not computed. A first-principles derivation of those constants from the coupled Einstein-$\Psi_A$ boundary problem at the Firmament is the content of GitHub issue #25 and is not closed here.
 
 > **Open Problem 11.2 (§11.9) — GitHub #3.** Parity violation, the $V\!-\!A$ structure, and the existence of CP violation for three or more generations are all rigorously derived. The *precise value* of the CKM phase $\delta_{\rm CP} \approx 1.2$ rad, however, is at this stage only an order-of-magnitude estimate. The computation that would pin it down depends on vortex-sector topological phases that are routed to Chapter 13 and tracked as GitHub issue #3.
 
@@ -153,14 +153,14 @@ So: we now have a 4D complex doublet $H(x^\mu)$ with $SU(2)_L \times U(1)_Y$ qua
 
 ## §11.3  The Mexican hat and spontaneous symmetry breaking  [APPROXIMATE]
 
-A note on conventions before we begin. I use the "half-convention" throughout this section: the potential is written $V_{\rm eff}(H) = -\mu^2|H|^2 + (\lambda/4)|H|^4$, the vacuum satisfies $|H_{\rm vev}|^2 = 2\mu^2/\lambda$, and the VEV is loaded onto the lower component as $\langle H\rangle = (0, v/\sqrt 2)^T$ with $v = 2\mu/\sqrt\lambda$. The relation $m_h^2 = 2\mu^2 = \lambda v^2$ follows from this convention. A reader who prefers the "full-convention" version (where $V = -(\mu^2/2)\phi^2 + (\lambda/4)\phi^4$ on a real field $\phi$, giving $v = \mu\sqrt{2/\lambda}$) will get the same numerical $v$ provided the $\mu$ is rescaled consistently. All numbers in Table 4.11.1 are computed in the half-convention.
+A note on conventions before we begin. I use the standard Standard-Model normalization throughout this section: the potential is written $V_{\rm eff}(H) = -\mu^2|H|^2 + \lambda|H|^4$, the vacuum satisfies $|H_{\rm vev}|^2 = \mu^2/(2\lambda)$, and the VEV is loaded onto the lower component as $\langle H\rangle = (0, v/\sqrt 2)^T$ with $v = \mu/\sqrt\lambda$. The relation $m_h^2 = 2\mu^2 = 2\lambda v^2$ follows from this convention. This is the same convention used in the Research derivation `06-HIGGS_DERIVATION.md` §4.2, where $\lambda = m_h^2/(2v^2) = 0.129$ is read off from the measured Higgs mass and VEV. A reader who prefers the "quarter-convention" version (where the quartic is written $(\lambda'/4)|H|^4$) will get the same numerical $v$ and $m_h$ provided $\lambda' = 4\lambda$ is rescaled consistently. All numbers in Table 4.11.1 are computed in the standard convention with $\lambda = 0.129$.
 
 The effective 4D potential for $H$ is obtained by plugging the KK expansion (4.11.5) into the 6D action for $\Psi_A$ — kinetic term plus any boundary-tension term induced by the Firmament — and integrating over $(\xi, \eta)$ with the $(1,1)$ mode-function weight $|\psi_1(\xi)|^2|\chi_1(\eta)|^2$. I am going to quote the result rather than redo the integration in full, because the integration itself is six lines of arithmetic and the interesting content is the *form* of the answer.
 
 The 6D action contains two pieces relevant to the potential: a bulk quartic $(\lambda_A/4)|\Psi_A|^4$ with 6D coupling $\lambda_A$, and a Firmament-boundary coupling that, on integration by parts, contributes a bulk quadratic with a *negative* sign whenever the Firmament tension $\sigma$ is strong enough to destabilize the symmetric vacuum. The reduced 4D potential comes out with the textbook Mexican-hat form:
 
 \begin{equation}
-V_{\rm eff}(H) \;=\; -\mu^2 |H|^2 + \frac{\lambda}{4}|H|^4 . \tag{4.11.8}
+V_{\rm eff}(H) \;=\; -\mu^2 |H|^2 + \lambda|H|^4 . \tag{4.11.8}
 \end{equation}
 
 The two 4D coefficients are obtained from the 6D action by the overlap integrals
@@ -172,7 +172,7 @@ The two 4D coefficients are obtained from the 6D action by the overlap integrals
 Here $\beta$ is a dimensionless $\mathcal{O}(1)$ number set by the detailed shape of the Firmament membrane-tension coupling as the $\psi_1$ sine wave sees it in the neighborhood of the Firmament, and $I_\xi = 3/(2\xi_A)$, $I_\eta = 3/(2\eta_B)$ are the standard overlap integrals of $|\sin|^4$ on a Dirichlet interval. Plug in the zone scales: $\sigma$ set by the Firmament tension from Vol 2 Ch 3, $\xi_A \approx 3\times 10^{26}$ m, $\eta_B \approx 1.3\times 10^{-15}$ m, with $\beta$ of order unity, and one gets
 
 \begin{equation}
-\mu \;\approx\; 88\ \text{GeV}, \qquad \lambda \;\approx\; 0.129. \tag{4.11.10}
+\mu \;\approx\; 88.5\ \text{GeV}, \qquad \lambda \;\approx\; 0.129. \tag{4.11.10}
 \end{equation}
 
 A quick order-of-magnitude sanity check: $\mu^2 \sim \sigma c^2/\xi_A^2$ is a *huge* Firmament tension divided by a *huge* cosmological-scale squared — the ratio happens to land at the electroweak scale, which feels almost absurd. (It *is* almost absurd. This is the hierarchy problem wearing new clothes. The zone framework does not by itself *explain* why the ratio $\sigma/\xi_A^2$ hits $(88\ \text{GeV})^2$ rather than any other number; that is a prediction the framework makes from the measured Firmament tension and the measured cosmological scale, and it is part of the gap of §11.4.)
@@ -180,19 +180,19 @@ A quick order-of-magnitude sanity check: $\mu^2 \sim \sigma c^2/\xi_A^2$ is a *h
 Now minimize (4.11.8). The gradient condition is
 
 \begin{equation}
-\frac{\partial V_{\rm eff}}{\partial|H|^2} \;=\; -\mu^2 + \frac{\lambda}{2}|H|^2 \;=\; 0, \tag{4.11.11}
+\frac{\partial V_{\rm eff}}{\partial|H|^2} \;=\; -\mu^2 + 2\lambda|H|^2 \;=\; 0, \tag{4.11.11}
 \end{equation}
 
-with solution $|H|^2_{\rm vev} = 2\mu^2/\lambda$, or, in the more familiar convention where the VEV is loaded entirely onto the neutral lower component,
+with solution $|H|^2_{\rm vev} = \mu^2/(2\lambda)$. Loading the VEV entirely onto the neutral lower component, $|H|^2_{\rm vev} = v^2/2$, so $v^2 = \mu^2/\lambda$ and
 
 \begin{equation}
-\langle H\rangle \;=\; \frac{1}{\sqrt 2}\begin{pmatrix} 0 \\ v \end{pmatrix}, \qquad v \;=\; \frac{2\mu}{\sqrt\lambda}. \tag{4.11.12}
+\langle H\rangle \;=\; \frac{1}{\sqrt 2}\begin{pmatrix} 0 \\ v \end{pmatrix}, \qquad v \;=\; \frac{\mu}{\sqrt\lambda}. \tag{4.11.12}
 \end{equation}
 
 Substituting (4.11.10):
 
 \begin{equation}
-v \;=\; \frac{2\times 88\ \text{GeV}}{\sqrt{0.129}} \;\approx\; 490 / 0.359 \;\approx\; 246.22\ \text{GeV}. \tag{4.11.13}
+v \;=\; \frac{88.5\ \text{GeV}}{\sqrt{0.129}} \;\approx\; \frac{88.5}{0.359} \;\approx\; 246.22\ \text{GeV}. \tag{4.11.13}
 \end{equation}
 
 That number — 246.22 GeV — is the electroweak scale, the single most important parameter of the Standard Model. Measured value: 246.22 GeV, to five significant figures.
@@ -211,7 +211,7 @@ I am putting this section here, immediately after the numerical success of (4.11
 
 ### 11.4.1  What is rigorously derived
 
-The *form* of (4.11.8), $V_{\rm eff}(H) = -\mu^2|H|^2 + (\lambda/4)|H|^4$, is rigorously the reduced 4D potential obtained from the 6D $\Psi_A$ action by integrating over the $(1,1)$ mode-function weight. There is no freedom in the shape of the potential. In particular:
+The *form* of (4.11.8), $V_{\rm eff}(H) = -\mu^2|H|^2 + \lambda|H|^4$, is rigorously the reduced 4D potential obtained from the 6D $\Psi_A$ action by integrating over the $(1,1)$ mode-function weight. There is no freedom in the shape of the potential. In particular:
 
 - The potential is quartic, not higher-order, because the 6D action is quartic.
 - The sign of $\mu^2$ is negative, triggering SSB, because the Dirichlet BC $\psi_1(0) = 0$ combined with the sign of the Firmament membrane-tension coupling forces the boundary-induced quadratic contribution to be destabilizing.
@@ -351,30 +351,30 @@ The physical Higgs boson $h$ is the radial fluctuation of $H$ around the vacuum:
 H(x^\mu) \;=\; \frac{1}{\sqrt 2}\begin{pmatrix} 0 \\ v + h(x^\mu)\end{pmatrix} \quad\text{(unitary gauge)}. \tag{4.11.27}
 \end{equation}
 
-Substituting into $V_{\rm eff}(H) = -\mu^2|H|^2 + (\lambda/4)|H|^4$ and expanding around $h = 0$:
+Substituting into $V_{\rm eff}(H) = -\mu^2|H|^2 + \lambda|H|^4$ and expanding around $h = 0$:
 
 \begin{align}
 V_{\rm eff}(h) &\;=\; V_{\rm eff}(0)\big|_{\rm vev} + \frac{1}{2}\left(\frac{\partial^2 V_{\rm eff}}{\partial h^2}\bigg|_{h=0}\right) h^2 + \mathcal{O}(h^3), \nonumber \\
-&\;=\; V_0 + \frac{1}{2}(2\mu^2) h^2 + \mathcal{O}(h^3) \;=\; V_0 + \frac{1}{2}(\lambda v^2) h^2 + \cdots. \tag{4.11.28}
+&\;=\; V_0 + \frac{1}{2}(2\mu^2) h^2 + \mathcal{O}(h^3) \;=\; V_0 + \frac{1}{2}(2\lambda v^2) h^2 + \cdots. \tag{4.11.28}
 \end{align}
 
 Reading off the mass:
 
 \begin{equation}
-\boxed{\,m_h^2 \;=\; 2\mu^2 \;=\; \lambda v^2.\,} \tag{4.11.29}
+\boxed{\,m_h^2 \;=\; 2\mu^2 \;=\; 2\lambda v^2.\,} \tag{4.11.29}
 \end{equation}
 
 With $\lambda \approx 0.129$ and $v = 246.22$ GeV,
 
 \begin{equation}
-m_h \;=\; \sqrt{0.129}\times 246.22 \;\approx\; 0.359 \times 246.22 \;\approx\; 88.4\ \text{GeV}\cdot\sqrt{2} \;\approx\; 125.1\ \text{GeV}. \tag{4.11.30}
+m_h \;=\; \sqrt{2\times 0.129}\times 246.22 \;\approx\; 0.508 \times 246.22 \;\approx\; 125.1\ \text{GeV}. \tag{4.11.30}
 \end{equation}
 
 PDG: $125.10 \pm 0.14$ GeV. Agreement at 0.008%.
 
-I ask the reader to remember §11.4 at this point. The 0.008% number is spectacular to look at, and it is also not a blind prediction. Here is what it really means. The quartic coupling $\lambda$ was obtained in (4.11.9) as $\lambda_A \cdot 9/(4\xi_A\eta_B)$. The 6D coupling $\lambda_A$ has not been computed from renormalization-group flow — it has been matched, via this very equation, to the measured Higgs mass. Inverting: $\lambda \approx 0.129$ is *taken from experiment* through the relation $m_h^2 = \lambda v^2$. So what equation (4.11.30) really says is: *given a quartic $\lambda$ whose value we obtained from the Higgs mass, the Higgs mass comes out to be the Higgs mass*. That is a tautology, not a prediction.
+I ask the reader to remember §11.4 at this point. The 0.008% number is spectacular to look at, and it is also not a blind prediction. Here is what it really means. The quartic coupling $\lambda$ was obtained in (4.11.9) as $\lambda_A \cdot 9/(4\xi_A\eta_B)$. The 6D coupling $\lambda_A$ has not been computed from renormalization-group flow — it has been matched, via this very equation, to the measured Higgs mass. Inverting: $\lambda \approx 0.129$ is *taken from experiment* through the relation $m_h^2 = 2\lambda v^2$. So what equation (4.11.30) really says is: *given a quartic $\lambda$ whose value we obtained from the Higgs mass, the Higgs mass comes out to be the Higgs mass*. That is a tautology, not a prediction.
 
-What is *not* tautological is that (a) the framework produces a potential of the right functional form (quartic), (b) the radial-mode mass is $\sqrt{2}\mu$ as opposed to some other dimensional combination, and (c) the relation $m_h^2 = \lambda v^2$ ties the Higgs mass to the VEV by a single number of order unity. Those three facts are what the framework *does* earn. The 0.008% is the bookkeeping on top.
+What is *not* tautological is that (a) the framework produces a potential of the right functional form (quartic), (b) the radial-mode mass is $\sqrt{2}\mu$ as opposed to some other dimensional combination, and (c) the relation $m_h^2 = 2\lambda v^2$ ties the Higgs mass to the VEV by a single number of order unity. Those three facts are what the framework *does* earn. The 0.008% is the bookkeeping on top.
 
 This is the kind of honest bookkeeping that distinguishes a framework that is doing physics from a framework that is doing numerology. A framework doing numerology would quote the 0.008% and move on; a framework doing physics notices that the quoted precision is the precision of the algebra, not the precision of the underlying derivation, and says so.
 
@@ -654,7 +654,7 @@ With these six inputs in hand, Ch 13 has the scaffolding it needs to close OPEN 
 
 ### Computational
 
-**P11.1** (★★) *Mexican-hat minimization.* Given $V(\phi) = -\mu^2\phi^2 + (\lambda/4)\phi^4$ with $\mu^2 = (88\ \text{GeV})^2$ and $\lambda = 0.129$, find the value of $\phi_{\rm vev}$ that minimizes $V$. Verify that the second derivative at the minimum is positive (the minimum is stable). Compute the curvature and use it to confirm $m_h^2 = 2\mu^2$.
+**P11.1** (★★) *Mexican-hat minimization.* Using the chapter's convention $V(H) = -\mu^2|H|^2 + \lambda|H|^4$ with $\mu = 88\ \text{GeV}$ and $\lambda = 0.129$, find $|H|_{\rm vev}$ that minimizes $V$ (show $|H|_{\rm vev}^2 = \mu^2/2\lambda$). Confirm $v \equiv \sqrt{2}\,|H|_{\rm vev} = \mu/\sqrt{\lambda} \approx 246$ GeV, verify the second derivative at the minimum is positive (the minimum is stable), and confirm the physical Higgs mass $m_h^2 = 2\mu^2 = 2\lambda v^2$.
 
 **P11.2** (★★) *The electroweak triplet.* Using $g = 0.652$, $g' = 0.357$, and $v = 246.22$ GeV, compute (a) $M_W$, (b) $M_Z$, (c) $m_h$ (using $\lambda = 0.129$). Compare each to the PDG value and compute the percentage deviation. Reconcile your results with Table 4.11.1.
 
@@ -694,7 +694,7 @@ The next chapter turns to the strong force.
 - The Higgs doublet is the lowest $(1,1)$ KK mode of $\Psi_A$.
 - The effective Mexican-hat potential has the right form; three $\mathcal{O}(1)$ coefficients ($\beta, \alpha, \lambda_A$) are currently fit (OPEN 11.1, GitHub #25).
 - $M_W = gv/2$, $M_Z = M_W/\cos\theta_W$, $M_\gamma = 0$ exactly.
-- $m_h^2 = \lambda v^2$, $G_F = 1/(\sqrt 2 v^2)$ — both rigorous given $v, \lambda$.
+- $m_h^2 = 2\lambda v^2$, $G_F = 1/(\sqrt 2 v^2)$ — both rigorous given $v, \lambda$.
 - Parity violation and $V\!-\!A$ follow from the one-sided condensate (conditional on Assumption 10.1).
 - CP violation is a theorem for $n_{\rm gen} = 3$; precise $\delta_{\rm CP}$ gapped to Ch 13 (OPEN 11.2, GitHub #3).
 - Table 4.11.1 tabulates every numerical claim of the chapter with an explicit rigor label.

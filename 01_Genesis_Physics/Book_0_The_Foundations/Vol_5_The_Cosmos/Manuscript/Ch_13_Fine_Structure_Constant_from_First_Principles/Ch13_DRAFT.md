@@ -179,7 +179,23 @@ with $\gamma_{\text{extra}}$ the induced metric on the two extra dimensions. Bec
 
 $$f_0(\xi, \eta) = \varphi(\xi)\,\chi(\eta). \tag{5.13.15}$$
 
-Plugging $\varphi(\xi) = \xi^{-\alpha_f}$ into the $\xi$-equation with $A(\xi) = A_0 + (\lambda/2)\ln(\xi/\xi_0)$ yields a power-law solution with exponent $\alpha_f$ determined by the requirement that $\varphi$ be square-integrable against the warp-factor measure. For $\chi(\eta)$ the linear warp gives an exponentially decaying profile
+Let us not outsource the exponent. Separating (5.13.14) with $f_0 = \varphi(\xi)\chi(\eta)$, the $\xi$-equation that the gauge zero mode obeys against the warp-factor measure $e^{2A(\xi)}$ is
+
+$$\frac{d}{d\xi}\\!\left(e^{2A(\xi)}\,\frac{d\varphi}{d\xi}\right) = 0, \qquad e^{2A(\xi)} = e^{2A_0}\\!\left(\frac{\xi}{\xi_0}\right)^{\\!\lambda}, \tag{5.13.17a}$$
+
+the second factor following from $A(\xi) = A_0 + (\lambda/2)\ln(\xi/\xi_0)$. Carrying out the outer derivative gives the Euler (equidimensional) equation
+
+$$\xi^2\,\varphi'' + \lambda\,\xi\,\varphi' = 0. \tag{5.13.17b}$$
+
+Equations of this form are solved by power laws $\varphi(\xi) = \xi^{-\alpha_f}$; substituting yields the **indicial equation**
+
+$$\alpha_f(\alpha_f + 1) - \lambda\,\alpha_f = 0 \;\;\Longrightarrow\;\; \alpha_f\big[\alpha_f - (\lambda - 1)\big] = 0, \tag{5.13.17c}$$
+
+whose two roots are $\alpha_f = 0$ (the constant mode) and $\alpha_f = \lambda - 1$. The constant mode is non-normalizable against the growing measure $e^{2A}\propto\xi^{\lambda}$ on $[\,\eta_B,\xi_A\,]$, so it is discarded; the physical zero mode is the decaying branch. **Square-integrability** against the warp measure requires the normalization integrand $e^{2A}\,|\varphi|^2 \propto \xi^{\lambda - 2\alpha_f}$ to be no worse than logarithmically divergent at *both* ends, i.e. $\lambda - 2\alpha_f = -1$ (the marginal, $\int d\xi/\xi$ case; any steeper power diverges at one end or the other). Solving the two conditions together — $\alpha_f$ on the decaying branch *and* the marginal-integrability constraint — fixes
+
+$$\lambda - 2\alpha_f = -1 \;\;\Longrightarrow\;\; \alpha_f = \frac{\lambda + 1}{2}, \tag{5.13.17d}$$
+
+which, with $\lambda = 3$ from Vol 1 Ch 6 Eq (1.6.22), gives $\alpha_f = 2$. The three steps — (i) the EOM (5.13.17a) with its warp measure, (ii) the indicial equation (5.13.17c), and (iii) the marginal (logarithmic-convergence) condition (5.13.17d) — are independent inputs that happen to be mutually consistent only at the marginal value, which is what makes the result *forced* rather than chosen. For $\chi(\eta)$ the linear warp gives an exponentially decaying profile
 
 $$\chi(\eta) \propto e^{-\gamma\eta/4}, \tag{5.13.16}$$
 
@@ -189,13 +205,13 @@ localized at the Firmament. Figure 5.13.3 shows the resulting shape of $|f_0|^2$
 
 The normalization is set by
 
-$$\int_0^{\xi_A}\\!d\xi\,\int_0^{\eta_B}\\!d\eta\;e^{2A(\xi)+2B(\eta)}\,|f_0(\xi,\eta)|^2 = 1. \tag{5.13.17}$$
+$$\int_0^{\xi_A}\\!d\xi\,\int_0^{\eta_B}\\!d\eta\;e^{2A(\xi)+2B(\eta)}\,|f_0(\xi,\eta)|^2 = 1. \tag{5.13.17e}$$
 
-The combined exponent in $\xi$ is $\lambda - 2\alpha_f$ from the warp factor times the power-law profile. The integral is IR-convergent at $\xi_A$ and UV-convergent at $\eta_B$ provided $\lambda - 2\alpha_f$ sits in the critical window around $-1$. The marginal case $\lambda - 2\alpha_f = -1$ is *distinguished*: it is the case in which the integral reduces to $\int d\xi/\xi$, i.e. a logarithm. Any other choice of $\alpha_f$ produces a power-law integral, not a logarithm, and fails to reproduce the running-coupling structure we need to match onto 4D QED. Because the warp factor's logarithmic profile was itself derived in Vol 1 Ch 6 as the *unique* open-system solution, the critical marginal case is forced on us by the earlier derivation: we do not get to choose it. The same conclusion is reached by solving the Einstein equations for the gauge backreaction, which fix $\alpha_f$ directly. Either way, the answer is
+The combined exponent in $\xi$ is $\lambda - 2\alpha_f$ from the warp factor times the power-law profile, and Eq (5.13.17d) has just fixed it: with $\alpha_f = (\lambda+1)/2 = 2$ we have $\lambda - 2\alpha_f = -1$ exactly. The integral therefore reduces to $\int d\xi/\xi$, a logarithm — the marginal case is not a convenient assumption but the value forced by the indicial equation and square-integrability together. Any other $\alpha_f$ would produce a power-law integral, not a logarithm, and would fail to reproduce the running-coupling structure we need to match onto 4D QED. Because the warp factor's logarithmic profile was itself derived in Vol 1 Ch 6 as the *unique* open-system solution, every input to (5.13.17a)–(5.13.17d) traces back to an earlier derivation; we do not get to choose the result. The same conclusion is reached independently by solving the Einstein equations for the gauge backreaction, which fix $\alpha_f$ directly. To restate the boxed outcome:
 
-$$\alpha_f = \frac{\lambda + 1}{2} = 2, \tag{5.13.18}$$
+$$\boxed{\;\alpha_f = \frac{\lambda + 1}{2} = 2\;}, \tag{5.13.18}$$
 
-using $\lambda = 3$ from Vol 1 Ch 6 Eq (1.6.22). Readers who want the detail should consult 10-FINE\_STRUCTURE\_DERIVATION.md §3.2; what matters for the present chapter is only that Eq (5.13.18) is determined, not chosen.
+using $\lambda = 3$ from Vol 1 Ch 6 Eq (1.6.22). Readers who want the full index-by-index treatment of the gauge-field EOM should consult 10-FINE\_STRUCTURE\_DERIVATION.md §§3.1–3.3; what matters for the present chapter is that Eqs (5.13.17a)–(5.13.18) are determined in-text, not imported.
 
 ### §13.3.3 The Effective Volume and the Logarithm
 

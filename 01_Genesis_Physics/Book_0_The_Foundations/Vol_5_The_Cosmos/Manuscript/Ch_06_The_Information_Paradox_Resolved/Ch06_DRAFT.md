@@ -22,7 +22,7 @@ The temptation with a chapter that advertises "the information paradox resolved"
 
 **A note to the Theologian reviewer.** The claim of this chapter is that information is conserved under unitary evolution of the 6D Hamiltonian. This is a mathematical theorem about a Hilbert space. It is not a theological claim about the indestructibility of souls, the permanence of memory, the promise of resurrection, or anything else that the Theologian might be concerned this sort of language is trying to smuggle in. "Information preservation" here means what it means in quantum mechanics: unitary evolution preserves the rank and spectrum of density matrices. Where commentary of any other kind is appropriate, it belongs to Book 3 (The Creator's Blueprint), where it can be made on its own terms and argued as such. This chapter makes no such commentary.
 
-**A note to the "But Why?" reader.** The seven-question format of Ch 5 §5.9.5 is reproduced for this chapter in §6.9.6, and each of the seven questions is answered in a single sentence there. If that level of compression leaves a question unanswered, the seven corresponding sections of this chapter give the longer answer. If the longer answer is still insufficient, please flag the specific "because" that is failing and we will sharpen it in the next revision.
+**A note on the "why" chain.** This chapter is built around seven recurring "why" questions; the seven-question format of Ch 5 §5.9.5 is reproduced in §6.9.6, where each question is answered in a single sentence. If that level of compression leaves a question unanswered, the seven corresponding sections below give the longer answer.
 
 **A note to the Skeptic reviewer.** Your central concern — "is *resolved* a real resolution or a rhetorical one?" — has its own section, §6.7. There, the four-criteria test for a genuine resolution is applied to this chapter and to five competitor proposals (firewalls, fuzzballs, remnants, ER=EPR, and the present framework). The zone framework passes all four criteria; one of the five competitors also does, partially. The comparison is honest and conservative. If the section still leaves you unconvinced, the specific objection can be addressed directly; please flag it.
 
@@ -244,7 +244,27 @@ $$(5.6.17)\quad \kappa = \frac{c^4}{4 G M} = \frac{c^2}{2 r_s}.$$
 
 The factor $e^{\kappa u}$ has a crucial consequence. When you take the Fourier transform of $u^\text{out}_\omega$ back to the in-basis, you are integrating against an exponentially blue-shifted wavelet. The Fourier transform of $\exp(i\omega e^{\kappa u})$, regarded as a function of $u$ with $\omega$ fixed, has a specific analytic structure: the function is analytic in the upper half $u$-plane but has a branch cut along the real axis from $-\infty$ at $\kappa u \to -\infty$. The branch cut is the signature of the thermal factor.
 
-Working out the integral carefully (Birrell–Davies §8.1, Wald 1994 §14.3, Parker–Toms §5.3, all of whom do the computation for a Schwarzschild background; the Firmament calculation is identical in form), the ratio of the Bogoliubov coefficients is
+But this is exactly the point at which the chapter's central claim — that the brane interpretation differs from the coordinate interpretation because the turning point is a *physical* breach edge, not a coordinate artifact — must be made to do work rather than be asserted. So before quoting the standard result, let us redo the continuation *in brane variables*, and verify that the $\kappa$ that emerges is the same surface gravity (5.6.17). This is the one step where the two interpretations could in principle disagree.
+
+In brane variables the propagation of a Firmament wavelet is governed not by a background metric but by the position-dependent wave speed $c_\text{local}^2(r) = \sigma(r)/\mu$, with the tension profile derived in Ch 5 §5.2 (Eq. 5.5.12),
+
+$$(5.6.17a)\quad \sigma(r) = \sigma_\infty\left(1 - \frac{r_s}{r}\right)^2,\qquad \mu = \text{const},$$
+
+so that $c_\text{local}^2(r) = c_\infty^2(1 - r_s/r)^2$. The breach edge is the locus $r \to r_s$ where the *tension itself* vanishes — a physical degeneration of the membrane, not a coordinate singularity. The natural "tortoise" coordinate in brane variables is the one that makes the wavelet phase locally linear, i.e. the optical path measured with the local wave speed,
+
+$$(5.6.17b)\quad r^*_\text{brane} \equiv \int \frac{dr}{1 - r_s/r} = r + r_s\ln\!\left(\frac{r - r_s}{r_s}\right),$$
+
+which is identical in form to the Schwarzschild tortoise coordinate, but here it is the *tension* that supplies the $(1 - r_s/r)$ factor. As $r \to r_s$, $r^*_\text{brane} \to -\infty$ logarithmically — the breach edge is pushed to infinite optical distance because a wavelet slows to zero speed as the tension vanishes. The redshift of an outgoing wavelet "born" at retarded time $u$ just outside the breach is set by the rate at which $c_\text{local}^2$ opens up away from the breach edge:
+
+$$(5.6.17c)\quad \kappa_\text{brane} \equiv \frac{c^2}{2}\left.\frac{d\,(c_\text{local}^2/c_\infty^2)^{1/2}}{dr}\right|_{r = r_s} = \frac{c^2}{2}\left.\frac{d}{dr}\left(1 - \frac{r_s}{r}\right)\right|_{r=r_s} = \frac{c^2}{2}\cdot\frac{r_s}{r^2}\bigg|_{r=r_s} = \frac{c^2}{2 r_s},$$
+
+i.e.
+
+$$(5.6.17d)\quad \boxed{\;\kappa_\text{brane} = \frac{c^2}{2 r_s} = \frac{c^4}{4 G M}\;}$$
+
+which is *exactly* the surface gravity (5.6.17). The emergent inverse-temperature scale is the same number whether one computes it from the Schwarzschild metric's Killing horizon or from the gradient of the Firmament tension at the breach edge. This is not a coincidence: the tension profile (5.6.17a) was itself fixed in Ch 5 by demanding agreement with the exterior Schwarzschild metric, so the two routes share their input. The payoff is interpretational — the same $\kappa$, and hence the same Hawking temperature, arises in the brane picture from a *physical* vanishing of membrane tension rather than from a coordinate horizon, which is what §6.5 will exploit to resolve the information paradox. With $\kappa_\text{brane} = \kappa$ established, the analytic structure of $\exp(i\omega e^{\kappa u})$ in the $u$-plane is identical to the standard case, and the remaining integral is the textbook one.
+
+Working out that integral (Birrell–Davies §8.1, Wald 1994 §14.3, Parker–Toms §5.3, all of whom do the computation for a Schwarzschild background; the Firmament calculation is identical in form once $\kappa_\text{brane} = \kappa$ is in hand), the ratio of the Bogoliubov coefficients is
 
 $$(5.6.18)\quad \frac{|\alpha_{\omega\omega'}|^2}{|\beta_{\omega\omega'}|^2} = e^{2\pi\omega/\kappa}.$$
 

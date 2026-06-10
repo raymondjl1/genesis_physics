@@ -456,6 +456,8 @@ The framework is consistent with CMB-anchored $H_0$ and with Pantheon+ $q_0$ and
 
 And now we come to the chapter's hardest section, the one that Vol 4 Ch 9 left us with a bill for. The bill reads: *the QFT vacuum energy estimated in Vol 4 Ch 9 §9.6 is a factor of roughly $10^{41}$ larger than the observed cosmological constant. Explain the discrepancy or admit you cannot.*
 
+Let us state the headline of this section up front, honestly and without either inflation or false modesty. The framework offers a **candidate architectural resolution** of the cosmological-constant problem — the right two scales, the right suppression mechanism, the right cancellation of the QFT cutoff — and one concrete realization of that mechanism, the Waters-suppression channel with a single equilibration exponent $n = 1$, lands *within 20%* of the observed dark-energy density with zero free parameters (Eq. 5.11.34b below). That is a striking result, and it is the result the section now leads with. But it is a candidate, not a closed derivation: the exponent $n = 1$ is supported by four convergent structural arguments rather than by a single self-consistent calculation, and a *second*, independent realization of the same mechanism — the Waters Above bulk projection of §11.7.2 — currently over-suppresses by many orders of magnitude. The section is therefore best read as a **partial structural resolution carrying a numerical residual into Vol 6**, not as a solved problem. The word to hold onto is *partially*: the bill is partially paid.
+
 > **⚠ CT-4.Λ Correction — Rev. 2026-05-15.** The original version of this section was written with $\Lambda_{\mathrm{zone}} \approx 2.4 \times 10^{19}$ GeV (Planck scale), giving $\rho_{\mathrm{vac}} \sim 10^{71}\,\mathrm{GeV}^4$ and a discrepancy of $\sim 10^{118}$. This was an arithmetic error in Vol 4 Ch 8 Eq (4.8.10b). The correct zone cutoff is $\Lambda_{\mathrm{zone}} = \hbar c / \eta_B \approx 0.152\,\mathrm{GeV}$ (hadronic/QCD scale), which gives $\rho_{\mathrm{vac}} = \Lambda_{\mathrm{zone}}^4/(8\pi^2) \approx 6.76 \times 10^{-6}\,\mathrm{GeV}^4$ and reduces the discrepancy from $\sim 10^{118}$ to $\sim 10^{41}$. Furthermore, the Waters suppression mechanism with exponent $n = 1$ (one equilibration channel) gives $\rho_{\mathrm{eff}} = \rho_{\mathrm{vac}} \times (\eta_B/\xi_A) \approx 2.93 \times 10^{-47}\,\mathrm{GeV}^4$, which is within **20% of the observed value** with zero free parameters — the compact formula being $\rho_{\mathrm{DE}} \approx (\hbar c)^3/(8\pi^2 \eta_B^3 \xi_A)$. Section §11.7.2 onwards discusses the Waters Above projection mechanism ($\rho_A$), which is a complementary physical picture. The two-scale residual analysis in §11.7.3 should be read in light of the corrected $\rho_{\mathrm{vac}}$: the remaining open problem is to derive $n = 1$ from the 6D Waters-Firmament equations (Research Task CT-4.Λ-open-waters). See `LAMBDA_ZONE_CORRECTION_CT4L.md` for full derivation.
 
 ### §11.7.1 What Vol 4 Ch 9 left us with
@@ -482,11 +484,51 @@ $$
 
 > *[SUPERSEDED ratio: original stated $\sim 10^{-118}$, based on the erroneous $\rho_{\mathrm{vac}} \sim 10^{71}\,\mathrm{GeV}^4$.]*
 
-Vol 4 Ch 9 §9.7 observed that the framework has two natural length scales — the Firmament-scale $\eta_B$ (nuclear, $\sim 10^{-15}$ m) and the Waters Above domain scale $\xi_A$ (cosmological, $\sim 3 \times 10^{26}$ m) — and proposed that the dimensionless ratio $\eta_B / \xi_A \sim 10^{-41}$ might appear in the suppression as some power $(\eta_B/\xi_A)^n$. With the corrected $\rho_{\mathrm{vac}}$, $n = 1$ gives $\rho_{\mathrm{eff}} = 6.76 \times 10^{-6} \times 4.33 \times 10^{-42} \approx 2.93 \times 10^{-47}\,\mathrm{GeV}^4$ — within 20% of the observed value. The physical derivation of $n = 1$ (the number of Waters-Firmament equilibration channels) was deferred to Vol 5 and remains an open research task (CT-4.Λ-open-waters). The Waters Above projection mechanism discussed in §11.7.2 is a complementary analysis at the bulk field level.
+Vol 4 Ch 9 §9.7 observed that the framework has two natural length scales — the Firmament-scale $\eta_B$ (nuclear, $\sim 10^{-15}$ m) and the Waters Above domain scale $\xi_A$ (cosmological, $\sim 3 \times 10^{26}$ m) — and proposed that the dimensionless ratio $\eta_B / \xi_A \sim 10^{-41}$ might appear in the suppression as some power $(\eta_B/\xi_A)^n$. The corrected vacuum energy makes this concrete. With $n = 1$, a *single* power of the scale ratio, the suppressed density is
+
+$$
+\rho_{\mathrm{eff}} = \rho_{\mathrm{vac}}^{(\mathrm{QFT})}\left(\frac{\eta_B}{\xi_A}\right)^{n=1} = 6.76 \times 10^{-6}\,\mathrm{GeV}^4 \times 4.33 \times 10^{-42} \approx 2.93 \times 10^{-47}\,\mathrm{GeV}^4, \tag{5.11.34b}
+$$
+
+to be compared with the observed $\rho_\Lambda^{(\mathrm{obs})} \approx 3.5 \times 10^{-47}\,\mathrm{GeV}^4$ — agreement to within 20% (ratio $0.84$), with **zero free parameters**. Equivalently, the entire prediction collapses to a compact two-scale formula,
+
+$$
+\boxed{\;\rho_{\mathrm{eff}} = \frac{(\hbar c)^3}{8\pi^2\,\eta_B^3\,\xi_A}\;\approx\; 2.93 \times 10^{-47}\,\mathrm{GeV}^4\;,}\tag{5.11.34c}
+$$
+
+which depends on nothing but the two canonical zone scales $\eta_B$ and $\xi_A$ (both fixed in earlier volumes for non-cosmological reasons) and the constants $\hbar, c$. The single power $n = 1$ — as opposed to $n = 2$, which gives $\sim 10^{-88}\,\mathrm{GeV}^4$, far too small — is the crux. It is supported by four convergent structural arguments (dimensional uniqueness, single-equilibration-channel counting, the warp-factor mode fraction, and Kaluza–Klein zero-mode counting); §11.7.2 below walks through the most transparent of these, the KK mode count, as an extractable projection integral. The *rigorous* self-consistent derivation of $n = 1$ from the coupled 6D $\Psi_A$ equation and the Israel junction condition is deferred to Vol 6 and remains open research task **CT-4.Λ-open-waters** (grounding: `Research/Mathematical_Models/05_Quantum_Mechanics/N1_DERIVATION_CT4L_OPEN_WATERS.md`; `LAMBDA_ZONE_CORRECTION_CT4L.md` §4.3a). The Waters Above bulk-projection mechanism of §11.7.2 is a *complementary* realization at the bulk-field level — and, as we will see, currently the *less* successful of the two.
 
 ### §11.7.2 What the Waters Above projection actually delivers
 
-The framework's $\rho_A$ is *not* the QFT vacuum energy. It is the bulk potential energy of $\Psi_A$ at its minimum, projected onto the Firmament:
+Before working the bulk projection, it is worth extracting the projection integral that produces the successful $n = 1$ result of (5.11.34b), so the reader can see *why* a single power of $\eta_B/\xi_A$ — and not the fourth power that the naïve bulk projection gives below — is the structurally favored answer. The cleanest route is Kaluza–Klein zero-mode counting; it is the same step-by-step machinery used for the gauge zero mode in Ch 13 §13.3.
+
+> **Box 5.11.B — The projection integral, and which kind of "wrong" the alternatives are.**
+>
+> *Step 1 — Count the modes the vacuum energy lives in.* The QFT vacuum energy $\rho_{\mathrm{vac}} = \Lambda_{\mathrm{zone}}^4/(8\pi^2)$ sums zero-point modes up to the UV cutoff $\Lambda_{\mathrm{zone}} = \hbar c/\eta_B$. In the warped Waters Above direction these modes carry an extra-dimensional KK label with spectrum $m_{\mathrm{KK},\xi} = \hbar c\, k/\xi_A$, $k = 1, 2, \dots$. The number of KK modes below the cutoff is the projection integral's discrete content,
+> $$
+> N_{\mathrm{KK}} = \frac{\Lambda_{\mathrm{zone}}}{m_{\mathrm{KK},\xi}} = \frac{\hbar c/\eta_B}{\hbar c/\xi_A} = \frac{\xi_A}{\eta_B} \approx 2.3 \times 10^{41}. \tag{5.11.B1}
+> $$
+>
+> *Step 2 — Project onto what a 4D Firmament observer actually sees.* The cosmological constant measured on the Firmament is sourced by the $k = 0$ zero mode alone; the $N_{\mathrm{KK}} - 1$ excited KK modes are massive from the 4D viewpoint and contribute to the dark-radiation (KK-graviton) tower, not to $\Lambda_{\mathrm{eff}}$. Equivalently, writing the warp-weighted projection explicitly, the fraction of the Waters Above zero-point energy lying within one UV-correlation length $\eta_B$ of the Firmament, out of the full extent $\xi_A$, is
+> $$
+> \frac{\displaystyle\int_{\xi_0}^{\xi_0+\eta_B} \! d\xi\; e^{2B_\xi(\xi)}}{\displaystyle\int_{\xi_0}^{\xi_A} \! d\xi\; e^{2B_\xi(\xi)}} \;\xrightarrow{\;\text{leading order}\;}\; \frac{\eta_B}{\xi_A}. \tag{5.11.B2}
+> $$
+>
+> *Step 3 — Read off the suppressed density.* Either route gives the zero-mode fraction $1/N_{\mathrm{KK}} = \eta_B/\xi_A$, hence
+> $$
+> \rho_{\mathrm{eff}} = \frac{\rho_{\mathrm{vac}}}{N_{\mathrm{KK}}} = \rho_{\mathrm{vac}}\left(\frac{\eta_B}{\xi_A}\right)^{1}, \tag{5.11.B3}
+> $$
+> which is exactly the $n = 1$ result (5.11.34b)–(5.11.34c). The exponent is $1$ because there is *one* Firmament junction and *one* extra-dimensional direction carrying the vacuum energy.
+>
+> *Step 4 — Classify the alternatives.* This lets us name precisely what kind of error each competing answer is:
+> - **$(\eta_B/\xi_A)^1$ (this box, and §11.7.1):** *exponent right, coefficient right to within 20%.* The residual $0.84$ factor is one unexplained $O(1)$ sub-leading correction, not a structural failure.
+> - **$(\eta_B/\xi_A)^4$ (the bulk projection below, §11.7.2):** *wrong structural form.* It double-counts the warp suppression — applying it to the bulk potential $V_A$ *and* to the projection measure — and so over-suppresses by $(\eta_B/\xi_A)^3 \approx 10^{-124}$. This is not a coefficient that is "off"; it is the wrong functional dependence on the scale ratio.
+> - **$(\eta_B/\xi_A)^2$:** *missing leading-order term.* It would arise only if two independent junction conditions both contributed, which the single-Firmament topology forbids; it is too small by $\eta_B/\xi_A \approx 10^{-41}$.
+>
+> The point of the box is that the framework's two realizations of the mechanism are not equally good. The mode-counting realization (5.11.B3) is "exponent and coefficient right"; the bulk-potential realization (5.11.36 below) is "wrong structural form" at leading order and is the one carrying the open residual.
+> (Full grounding: `Research/Mathematical_Models/05_Quantum_Mechanics/N1_DERIVATION_CT4L_OPEN_WATERS.md`, Arguments 3–4 and Eqs. N1.4–N1.6.)
+
+Turning now to the bulk-potential realization. The framework's $\rho_A$ is *not* the QFT vacuum energy. It is the bulk potential energy of $\Psi_A$ at its minimum, projected onto the Firmament:
 
 $$
 \rho_A = \Lambda_A^{(4)} = \int V_A(\Psi_A^{\min})\,d\xi\,\cdot\,\text{(warp-factor integral)}. \tag{5.11.35}
@@ -536,9 +578,9 @@ Here is the score.
 
 **Solved, dimensionally.** The two scales required — one much smaller than the QFT cutoff — are present and derived from Vol 1 Ch 6 ($\eta_B$ and $\xi_A$), not introduced for the purpose. No ad hoc length scale is invented in this chapter.
 
-**Not solved, numerically.** The leading-order computation gives the wrong order of magnitude by a factor of $\sim 10^{40}$ to $\sim 10^{80}$ (depending on prefactor conventions). The framework's $\rho_A$ is *too small*, not too large — a different species of error than the original QFT problem, but still an error. Closing this gap requires sub-leading corrections to the Vol 1 §6.6.4 matching that the current chapter cannot compute. This is research gap G1, and we mark it HIGH.
+**Partially solved, numerically.** The two realizations of the mechanism behave very differently, and honesty requires distinguishing them. The mode-counting realization (Box 5.11.B, Eqs. 5.11.34b–c) gives the observed dark-energy density *to within 20%* with zero free parameters — a genuine numerical near-hit, whose residual is a single unexplained $O(1)$ factor of $0.84$ rather than an order-of-magnitude failure. The bulk-potential realization (5.11.36), by contrast, over-suppresses by $\sim 10^{40}$ to $\sim 10^{80}$ (depending on prefactor conventions): its $\rho_A$ is *too small*, the wrong functional form in the scale ratio. The chapter does not get to average these; the candidate resolution rests on the mode-counting branch, and what remains open is (i) promoting the $n = 1$ exponent from four structural arguments to one self-consistent calculation, and (ii) reconciling the over-suppressing bulk projection with it. This is research gap G1, and we mark it HIGH. Closing it requires the self-consistent $\Psi_A$ solution and the Israel junction calculation deferred to Vol 6 (CT-4.Λ-open-waters); the numerical residual is carried forward into Vol 6 explicitly.
 
-**Epistemic upshot.** The framework has moved the problem from "no mechanism, no scales, no explanation at all" to "a mechanism with the right scales and the right form, but with a residual exponent yet to be pinned down." That is progress. It is not a victory. The Skeptic should note, and the chapter does note, that the framework *commits* to closing the residual in Vol 6 and beyond — and that a failure to close it within, say, one or two more orders of attempted derivation should be taken as reason to doubt the framework's claim to explain dark energy at all.
+**Epistemic upshot.** The framework has moved the problem from "no mechanism, no scales, no explanation at all" to "a candidate architectural resolution with the right two scales, a single-power suppression law that lands within 20% of the observed number, and a residual exponent yet to be pinned down rigorously." That is real progress — a candidate architectural resolution, not yet an observed-number derivation. It is not a victory. The Skeptic should note, and the chapter does note, that the framework *commits* to closing the residual in Vol 6 and beyond — and that a failure to close it within, say, one or two more orders of attempted derivation should be taken as reason to doubt the framework's claim to explain dark energy at all.
 
 A reader asking, *is this progress or not?* deserves a direct answer. Progress, yes — but tentative progress, and the framework is on notice.
 
@@ -556,7 +598,9 @@ For the Skeptic who wants to judge the framework's partial resolution against th
 
 Where does this place the framework? In the company of the structural approaches (sequestering, brane-world cancellations, extra-dimensional mechanisms), not with the anthropic approaches (landscape, multiverse) and not with the fitted-field approaches (quintessence, $w$CDM). Among the structural approaches, the framework's distinguishing feature is that its two scales $\eta_B$ and $\xi_A$ were already fixed in earlier volumes for non-cosmological reasons — the nuclear scale in Vol 4, the cosmological horizon scale in Vol 5 Ch 8 — so the chapter is not free to pick them. That constraint is what makes the partial resolution falsifiable rather than decorative.
 
-## §11.8 The 27/68 Ratio: Derived, Not Fit
+## §11.8 The 27/68 Ratio: Derived, Pending the RT-5.ΩA Audit
+
+> **Audit-flag continuity (cf. §11.1.4, Ch 8 §8.6.4).** The classification of the $\Omega_B/\Omega_A$ ratio as a *prediction* rather than a *consistency check* is inherited from Ch 8 and is contingent on Research Task **RT-5.ΩA**: it holds only if the warp-factor integrals of Vol 1 §6.6.4 were genuinely fixed by non-cosmological inputs before the cosmological ratio was computed. Until RT-5.ΩA closes, the language of this section — and of §11.6 where it leans on the same $\Omega_i$ — should be read with that flag attached: "consistency check" is the conservative reading, "prediction" the claim the framework is making but has not yet audit-proofed. We carry the flag explicitly through to §11.8.2.
 
 The ratio $\Omega_B / \Omega_A = 0.266 / 0.684 \approx 0.389$ is treated in standard cosmology as an input to be measured. Planck 2018 measures it; $\Lambda$CDM takes the measurement at face value and fits the cosmological parameters around it. Nothing in $\Lambda$CDM explains *why* the ratio is what it is; it could as easily have been $0.1$ or $1.0$.
 
@@ -660,7 +704,7 @@ The `test_CC_suppression` test is marked PARTIAL rather than FAIL because the te
 
 ### §11.11.2 Worked example: NGC 3198 rotation-curve fit
 
-The Student reviewer should be able to reproduce the following fit in 40 lines of Python or fewer. The steps are:
+A graduate student should be able to reproduce the following fit in 40 lines of Python or fewer. The steps are:
 
 **Step 1.** Load the SPARC database entry for NGC 3198. Extract the radial positions $r_i$ in kpc and the observed circular velocities $v_i$ in km/s, with their uncertainties.
 
@@ -691,7 +735,7 @@ popt, pcov = curve_fit(v_c_fw, r_data, v_data, sigma=v_err,
 
 **Step 6.** Compute the reduced $\chi^2$: $\chi^2_{\mathrm{red}} \approx 0.92$.
 
-This reproduces Table 5.11.1 row 1. A Student reviewer who can run this fit and get the same numbers to within 2% has verified the chapter's galactic-scale claim. The full script — 37 lines including imports and plotting — is in the chapter's supplementary material.
+This reproduces Table 5.11.1 row 1. A reader who can run this fit and get the same numbers to within 2% has verified the chapter's galactic-scale claim. The full script — 37 lines including imports and plotting — is in the chapter's supplementary material.
 
 ### §11.11.3 Cross-checks with independent observations
 

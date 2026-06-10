@@ -76,21 +76,7 @@ These estimates are calibrated against comparable problems in the history of phy
 
 ### 14.2.4  The Five-Field Anatomy
 
-Every open problem from 14.3 through 14.8 is presented in the same five-field form:
-
-1. **What is known.** The framework's current state on the problem: the derivations that bear on it, the calculations that have been attempted, the predictions that stand. Typically 1–3 paragraphs.
-
-2. **What is missing.** The specific calculational, observational, or conceptual gap. Written precisely enough that a reader can tell whether their own background suits the problem. Typically 1–2 paragraphs.
-
-3. **Resolution path(s).** One to three candidate approaches, each named, summarized, and linked to the tools a competent researcher would need. Typically a bulleted list with 1-paragraph summaries.
-
-4. **What a resolution would mean.** The downstream consequences for the framework. New predictions, retired speculations, repaired derivation chains, closed audit findings. Typically 1 paragraph, sometimes with a small list of downstream-affected chapters.
-
-5. **Estimated difficulty.** Master's, PhD, or Multi-generational, with a brief justification.
-
-The anatomy is designed for search, not for narrative. A reader skimming the chapter for a dissertation topic should be able to cull by difficulty before reading anything else; a reader skimming for framework vulnerabilities should be able to cull by severity. The prose transitions between anatomies carry the chapter's voice; the anatomies themselves are deliberately impersonal.
-
-One discipline is worth stating here explicitly. The "resolution paths" field does *not* commit the framework to the paths it names; it commits the framework only to the claim that *these paths are worth trying first*. If a path is listed and a researcher, on attempting it, finds that it fails — because the calculation does not close, because an intermediate step produces an inconsistency, because a tacit assumption does not hold — the framework counts that as progress. A failed resolution path converts an open problem from "we don't know how to attack this" to "we know one way not to attack this," which is a smaller gain than a resolution but a nonzero gain. The chapter therefore encourages researchers to attempt listed paths, document failure modes, and publish negative results as contributions.
+Every open problem from 14.3 through 14.8 is presented in the same five-field form: **(1) What is known** — the derivations, attempts, and predictions that bear on it; **(2) What is missing** — the specific calculational, observational, or conceptual gap, written precisely enough that a reader can judge whether their background suits it; **(3) Resolution path(s)** — one to three named candidate approaches with the tools each needs; **(4) What a resolution would mean** — the downstream consequences for the framework; and **(5) Estimated difficulty** — Master's, PhD, or Multi-generational, with a brief justification. The anatomy is built for search, not narrative: cull by difficulty for a dissertation topic, by severity for a vulnerability. The first two entries (§14.3.1 "What Is Known" and §14.3.2 "What Is Missing" of OP-1) show the format in action; we let them teach the rest by example rather than belabor the template here. One discipline carries throughout: listing a resolution path commits the framework only to the claim that the path is *worth trying first* — a documented failure of a listed path is itself a contribution, and negative results are welcome.
 
 ### 14.2.5  What Did Not Make the List
 

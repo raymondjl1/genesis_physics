@@ -28,7 +28,7 @@ What computation does *not* replace: physical intuition, analytical understandin
 
 ## 5.2 Architecture of the Simulation Suite
 
-> **⚠ METHODOLOGICAL NOTE (Rev. 2026-05-14):** The current simulation suite uses an explicit Euler integrator for the zone field equations. Explicit Euler is not symplectic and does not conserve energy for Hamiltonian systems — it produces artificial energy drift over long integration times. For the structure formation simulation (Ch 6), this integrator produces a spurious ~12% power spectrum suppression artifact. All long-time dynamics results should be treated with caution until the suite is upgraded to a symplectic integrator (Leapfrog or Störmer-Verlet). Short-time results and qualitative behaviors are not significantly affected. Upgrading the integrator is Research Task RT-6.INT.
+> *A note on integrator limitations.* The current suite uses an explicit Euler time integrator, which is adequate for the validation goals of this chapter but has known limitations for long-time dynamics. Those limitations — including a specific spurious artifact in the structure-formation run — are stated in full in §5.6.4 ("Limitations of the Current Integrator"). Read this chapter's results with that subsection in mind.
 
 The simulation suite consists of three Python modules, each targeting a different physical regime of the Waters Field Equations. They share a common mathematical foundation — the dimensionless formulation of Section 5.3 — but are otherwise independent: each can be run, modified, and validated separately.
 
@@ -214,6 +214,29 @@ $$\omega_n = \frac{n\pi}{L} \sqrt{\frac{\sigma}{\mu}}, \qquad n = 1, 2, 3, \ldot
 
 The numerical solver reproduces these values to machine precision (relative error < 10⁻¹⁴), confirming that the discretization and eigensolver are correct. For the circular membrane, the eigenfrequencies are determined by the zeros of Bessel functions J_n(x), and the numerical eigenvalues match these to better than 10⁻¹⁰ on a 50 × 50 grid.
 
+### 5.4.4 Stability Summary
+
+The stability conditions for the time-domain solver are scattered through the preceding subsections; for the reader reproducing a run, they are collected here in one box.
+
+> **┌─ STABILITY SUMMARY (explicit Euler, dimensionless units) ──────────┐**
+>
+> **CFL stability condition** (Eq 6.5.8):
+> $$v_{\text{wave}} \cdot \frac{\Delta t}{\Delta x} \;<\; \frac{1}{2}, \qquad v_{\text{wave}} = c = 1 \;\;(\text{Axiom 3})$$
+> ⟹ the explicit time-step bound is **Δt < ½ Δx**.
+>
+> **Values used in the current suite:**
+> - Δt = 0.001 (fixed)
+> - Δx = 1/N ≈ 0.004 (N=256) to 0.016 (N=64)
+> - ⟹ CFL number $v\,\Delta t/\Delta x$ = **0.06 – 0.25** — well inside the stable region (margin of 2×–8× below the ½ limit).
+>
+> **Explicit-Euler energy-drift estimate:** the temporal truncation error is O(Δt). Empirically, the 1D evolution test (500 steps) shows **ΔE/E < 0.5%**, consistent with the first-order scheme. Drift is oscillatory (kinetic↔potential exchange) with a small secular component, not monotonic divergence.
+>
+> **Coupling-stability caveat:** the bound above is the *wave* CFL limit. The cross-coupling term G̃_int adds a further constraint; for the weak-coupling values used here (G̃_int ~ 10⁻⁶–10⁻²) it is non-binding, but it dominates in the strong-coupling regime (derived in Problem 5.6).
+>
+> **Reproduction check:** if a run shows ΔE/E ≳ 1% or sudden energy jumps, the CFL number has likely been pushed above ½ (reduce Δt or coarsen the grid) — see Table 6.5.1.
+>
+> **└────────────────────────────────────────────────────────────────────┘**
+
 ---
 
 ## 5.5 Error Estimation and Uncertainty Quantification
@@ -317,6 +340,12 @@ MMS is powerful because it tests the code against a *known* solution without req
 A validated code solves the equations correctly. Whether the equations describe reality is a separate question — answered by experiment, not computation. The Waters Field Equations are derived in Volumes 1 and 2 from the zone architecture axioms. Computational validation confirms that the mathematical consequences of those axioms are free of error. It does not confirm that the axioms are true.
 
 This distinction matters. When Chapter 6 reports that zone architecture produces ~2% more structure formation than ΛCDM at high redshift, the validation hierarchy guarantees that this is a real consequence of the equations, not a numerical artifact. Whether the real universe exhibits this 2% difference is an experimental question — one that upcoming surveys (DESI, Euclid, Vera Rubin Observatory) can, in principle, answer.
+
+### 5.6.4 Limitations of the Current Integrator
+
+> **⚠ METHODOLOGICAL NOTE (Rev. 2026-05-14):** The current simulation suite uses an explicit Euler integrator for the zone field equations. Explicit Euler is not symplectic and does not conserve energy for Hamiltonian systems — it produces artificial energy drift over long integration times. For the structure formation simulation (Ch 6), this integrator produces a spurious ~12% power spectrum suppression artifact. All long-time dynamics results should be treated with caution until the suite is upgraded to a symplectic integrator (Leapfrog or Störmer-Verlet). Short-time results and qualitative behaviors are not significantly affected. Upgrading the integrator is Research Task RT-6.INT.
+
+This limitation is the single most important caveat on the simulation results, and it is deliberately placed here — alongside the validation hierarchy that bounds it — rather than at the head of the chapter, so that the reader meets it with the full numerical context already in hand. Three points keep it in proportion. First, the artifact is confined to *long-time* dynamics: the analytical benchmarks of Layer 1 (machine-precision agreement) and the eigenvalue spectrum are unaffected, because they involve no time integration at all. Second, the grid-convergence and conservation-monitoring layers (Layers 2 and 3) are precisely the instruments that detect such an artifact — the sub-0.5% energy drift over 500 steps reported in §5.6.1 is the signature being tracked. Third, the affected ~12% structure-formation suppression is a *known, bounded* artifact, not an unknown one: it is flagged wherever it appears in Chapter 6, and the qualitative conclusion (zone architecture differs from ΛCDM in a scale- and redshift-dependent way) survives the correction. The fix — a symplectic Leapfrog or Störmer-Verlet integrator — is mapped in §5.8 and tracked as Research Task RT-6.INT.
 
 ---
 

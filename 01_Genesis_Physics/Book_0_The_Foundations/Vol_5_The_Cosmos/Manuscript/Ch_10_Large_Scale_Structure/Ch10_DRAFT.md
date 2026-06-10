@@ -461,7 +461,7 @@ The relevant test file is `Research/Mathematical_Models/08_Cosmology/test_struct
 
 The test suite is internally consistent. The $\sigma_8$ test is tautological in the strict canonical case (the framework's $A_s, n_s$ are the Planck values), but the *consistency* of the cluster abundance and the growth rate at the same $\sigma_8$ is non-trivial — those tests come from independent observables and the framework matches them simultaneously.
 
-### §10.11.2 Worked example for the Student reviewer
+### §10.11.2 Worked example for the student
 
 The Student reviewer must be able to reproduce a structure-formation calculation from the chapter alone. Here is the $\sigma_8$ pipeline, end-to-end, in eight numbered steps. The reader who follows these steps with a 30-line Python script (or a desk calculator and an integral table, in extremis) will get the chapter's value of $\sigma_8$.
 
@@ -481,7 +481,7 @@ The Student reviewer must be able to reproduce a structure-formation calculation
 
 **Step 8.** *Compare to observation.* Planck 2018 reports $\sigma_8 = 0.811 \pm 0.006$. The framework reproduces this exactly because the inputs were inherited; the $\sigma_8$ pipeline is therefore a *consistency check*, not a novel prediction.
 
-A working reference implementation of these eight steps (in Python with `numpy` and `scipy.integrate`) will be provided in the Vol 5 online supplement; the Student reviewer should be able to run it on a laptop in under one second and verify $\sigma_8 = 0.811$.
+A working reference implementation of these eight steps (in Python with `numpy` and `scipy.integrate`) will be provided in the Vol 5 online supplement; a student should be able to run it on a laptop in under one second and verify $\sigma_8 = 0.811$.
 
 ---
 

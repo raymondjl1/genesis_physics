@@ -119,7 +119,15 @@ where $\kappa_6^2 \equiv 8\pi G_6$ is the 6D gravitational coupling, $R_6$ is th
 
 A brief note on what else Lovelock's theorem in six dimensions would, in principle, allow. In $D$ dimensions, the Lovelock (1971) classification identifies a finite set of generally covariant actions that produce second-order equations of motion without ghosts: the cosmological constant, the Einstein–Hilbert term, the Gauss–Bonnet combination $\mathcal{G} \equiv R^2 - 4R_{\mu\nu}R^{\mu\nu} + R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$, and higher-order invariants. In $D=4$ the Gauss–Bonnet term is a total derivative (it is a topological density, the Euler characteristic); in $D\geq 5$ it becomes dynamical. In our 6D zone framework, a Gauss–Bonnet term *could* in principle be added to (5.1.7). Volume 1 Chapter 4 argued (Vol 1 §4.2.6) that the zone stratification plus the reconstruction of the Firmament tension fixes the Gauss–Bonnet coefficient to zero at leading order, so for all calculations in Vol 5 we take only the Einstein–Hilbert piece as in (5.1.7). The Gauss–Bonnet correction, if one chose to keep it, would contribute a small modification to $\Lambda_\text{eff}$ and to the high-curvature limit of the Schwarzschild solution — matters that belong to Vol 6, not here.
 
-A brief note on notation: the symbols $A$ and $B$ play two distinct roles in this section. As capital Latin indices, $A,B\in\{0,1,2,3,4,5\}$ label coordinates and tensor components in six dimensions. As scalar functions, $A(\xi,\eta)$ and $B(\xi,\eta)$ are the two warp factors defining the 6D metric (5.1.1). Context always disambiguates — the indices appear as subscripts or superscripts on tensor components, the warp factors appear inside exponentials or as arguments of derivatives — but we note the potential collision here to prevent confusion.
+A brief note on notation, which serves as the volume-wide reference for a symbol collision that recurs in Chs 11 and 13. Across Vol 5 the letters $A$ and $B$ carry **three** distinct meanings, and because all three appear — sometimes in adjacent equations — the reader should fix the disambiguation rule once, here.
+
+| Usage | Symbol form | Meaning | Where it appears | Disambiguator |
+|---|---|---|---|---|
+| (i) 6D tensor indices | $A,B \in \{0,1,2,3,4,5\}$ | Capital-Latin coordinate/component labels in six dimensions | Eqs (5.1.2), (5.1.9); $G_{AB}^{(6)}$, $g_{AB}$ | Always a sub/superscript *on a tensor* |
+| (ii) Warp scalar functions | $A(\xi,\eta),\ B(\xi,\eta)$ | The two metric warp factors of (5.1.1) | Throughout §1.2; Ch 13 §13.3 | Appear inside $e^{2A}$, $e^{2B}$ or as derivative arguments $A_\xi, B_\eta$ |
+| (iii) Zone subscripts | $\Psi_A, \Psi_B$; $\Omega_A, \Omega_B$; $\rho_A, \rho_B$; $\xi_A, \eta_B$ | Waters **A**bove / Waters **B**elow labels | Ch 8, Ch 11, Ch 13 | Always a *subscript on a field, density, parameter, or scale* — never a free tensor index, never inside a warp exponential |
+
+The rule of thumb: a bare capital $A$ or $B$ as a tensor index is usage (i); inside a metric exponential it is usage (ii); attached as a subscript to a physical quantity ($\Psi$, $\Omega$, $\rho$, $\xi$, $\eta$) it is usage (iii). Context disambiguates in every equation in this volume, but where Chs 11 and 13 place a warp factor $A(\xi)$ in the same paragraph as a Waters-Above subscript (e.g. $\xi_A$), the reader should apply this table. (A one-page version of this table is reproduced in Appendix A for quick reference.)
 
 The full zone action also contains a Firmament piece, a bulk matter piece (the scalar fields $\Psi_A,\Psi_B$ of Vol 1 Ch 6), a gauge piece (the Firmament gauge fields of Vol 2), and an "interaction" piece coupling bulk fields to the Firmament:
 
@@ -158,6 +166,8 @@ The first term is the one we want. It is the 4D Ricci scalar of the induced metr
 $$(5.1.13)\quad \mathcal{R}_\text{warp}[A,B] = -2\,e^{-2B}\Big[\nabla^2_{\perp}(4A+2B) + (4A_\xi^2 + 4A_\eta^2) + \ldots\Big] - 2\Lambda_\text{warp},$$
 
 where $\nabla^2_\perp \equiv \partial_\xi^2 + \partial_\eta^2$ is the flat Laplacian in the extra dimensions, $A_\xi \equiv \partial_\xi A$ and so on, and the remaining terms (collected here in "…") consist of cross-terms $A_\xi B_\xi + A_\eta B_\eta$, quadratic terms $B_\xi^2 + B_\eta^2$, and the like. The precise form is worked out in Duff (1994, §3) for the Randall–Sundrum style ansatz and in Maartens (2004, §3.3) for our codimension-2 case; it is reproduced for the zone manifold specifically in Vol 1 §4.8.2 (Vol 1 Eqs. 1.4.68–1.4.72).
+
+> **Self-sufficiency guarantee.** The reader does not need the cited external literature (Duff 1994; Randall–Sundrum 1999; Maartens 2004) to follow or to *check* this chapter. Those references are offered as convenience, not as load-bearing inputs: the complete, term-by-term form of $\mathcal{R}_\text{warp}[A,B]$ for the zone metric (5.1.1) — every cross-term, every quadratic-in-derivatives piece, and the total-divergence terms that the GHY boundary term cancels — is written out in **Vol 1 §4.8.2, Eqs (1.4.68)–(1.4.72)**, which is a prerequisite of this volume. Everything used in §1.2.3–§1.2.5 is therefore available within the Foundations series itself. A graduate reader who wants to verify (5.1.13) line by line should consult Vol 1 §4.8.2; the external citations merely indicate where the same reduction appears in the wider literature for those who want a second viewpoint.
 
 The third term — "total derivatives" — consists of terms of the form $\partial_m(\text{stuff})$. Under the integration over $(\xi,\eta)$, these become boundary terms at $\xi=\pm\infty$, $\eta=\pm\infty$. The zone boundary conditions (Vol 1 Ch 5, junction conditions) set these to zero, or else lump them into the Firmament tension $\sigma$. Either way, they do not contribute to the bulk 4D effective action. We drop them with a clean conscience, noting that the GHY boundary term $S_\text{GHY}^{(6)}$ is what made this possible — without GHY, the total-derivative terms would not be unambiguously zero.
 
@@ -229,7 +239,7 @@ The matter action $S_\text{matter}^{(4)}$ is what you get when you integrate the
 
 ### §1.3.2 Why the form is Einstein–Hilbert and not something else
 
-Here we pause to address a question that the Physicist reviewer will certainly raise. Why, in the 4D effective action (5.1.17), do we only see a two-derivative term $\tilde R_4$ and a constant $\Lambda_\text{eff}$? Why not higher-order curvature terms like $R^2$, $R_{\mu\nu}R^{\mu\nu}$, or $R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$? Why not cubic invariants?
+Here we pause to address a question that a careful physicist will certainly raise. Why, in the 4D effective action (5.1.17), do we only see a two-derivative term $\tilde R_4$ and a constant $\Lambda_\text{eff}$? Why not higher-order curvature terms like $R^2$, $R_{\mu\nu}R^{\mu\nu}$, or $R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma}$? Why not cubic invariants?
 
 The answer has several layers.
 
@@ -726,7 +736,7 @@ Two things are worth noting. First, the coupling $16\pi G_4/c^4$ on the right-ha
 
 ## §1.10 The Reviewer's Ledger — Is This a Derivation?
 
-We now come to the most important section of the chapter. Everything we have written so far has been structured around a single question: *Is this chapter a derivation of general relativity, or is it a sleight of hand in which GR was assumed somewhere and we pretended not to notice?* A skeptical physicist — the Physicist reviewer of this book's quality system — will not take our word for it. They will demand to see every step classified. This section provides that classification.
+We now come to the most important section of the chapter. Everything we have written so far has been structured around a single question: *Is this chapter a derivation of general relativity, or is it a sleight of hand in which GR was assumed somewhere and we pretended not to notice?* A skeptical reader will not take our word for it. Such a reader will demand to see every step classified. This section provides that classification.
 
 ### §1.10.1 The three categories
 

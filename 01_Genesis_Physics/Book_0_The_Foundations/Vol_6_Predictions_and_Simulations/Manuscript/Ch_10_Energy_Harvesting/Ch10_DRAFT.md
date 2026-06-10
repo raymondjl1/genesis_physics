@@ -58,7 +58,7 @@ The cosmic capacitor (category 1) is not an engineering class on its own. It is 
 
 ### 10.2.1  The inventory
 
-Using Planck 2020 final-release values (Ω_Λ = 0.6889 ± 0.0056, Ω_DM = 0.2607 ± 0.0054, Ω_b = 0.0494 ± 0.0006) and the observable-universe four-volume V_obs ≈ 3.57 × 10⁸⁰ m³, we can state the reservoir sizes directly.
+Using the Planck 2018 legacy-release values (Ω_Λ = 0.6889 ± 0.0056, Ω_DM = 0.2607 ± 0.0054, Ω_b = 0.0494 ± 0.0006 — the same canonical baseline defined in Ch 1 §1.6, to which the rounded 0.684/0.266/0.049 of Ch 1 and Ch 4 correspond) and the observable-universe four-volume V_obs ≈ 3.57 × 10⁸⁰ m³, we can state the reservoir sizes directly.
 
 $$
 E_{\text{Above}} \;=\; \rho_\Lambda \, V_{\text{obs}} \;=\; (5.96\times 10^{-10}\,\mathrm{J/m^3})(3.57\times 10^{80}\,\mathrm{m^3}) \;\approx\; 2.13\times 10^{71}\,\mathrm{J.}
@@ -165,7 +165,7 @@ If one **denies** that Zone 1 supplies κ(t) — denies the open-system axiom �
 
 ### 10.3.6  The question that the chapter resolves
 
-All arguments for or against active sustaining reduce, ultimately, to a number. Build the device. Measure η. The experiment costs $150 at Phase 1 (§10.9). Everything else — the cochlea analogy, the dielectric scaling, the orientation test — supplies either empirical plausibility or discriminating signatures. The decisive measurement is a single operating parameter.
+All arguments for or against active sustaining reduce, ultimately, to a single measured number, η. The decisive step is to build the device and measure it; the Phase-1 protocol estimated in §10.9 is a low-cost benchtop test (of order $10²). Everything else — the cochlea analogy, the dielectric scaling, the orientation test — supplies either empirical plausibility or discriminating signatures. The decisive measurement is a single operating parameter.
 
 > **Figure 6.10.3 — Firmament as Drumhead at Equilibrium** *(placement, §10.3.1)*
 > Two-panel schematic. Left: Waters Above and Below press equally on the Firmament; force arrows cancel; the displacement field is everywhere zero. Right: the same geometry resolved into mode content — sinusoidal vibrations at every frequency, finite kinetic energy density, zero net displacement. Caption emphasises: zero force ≠ zero energy.
@@ -743,7 +743,7 @@ If Test 1 fails — no measurable η — the framework's energy claim is falsifi
 
 **Go/no-go gate.** If `η = 0` within measurement uncertainty after > 100 h, the framework's energy prediction is falsified. If `η > 0`, proceed to Phase 2.
 
-**Instructive note on Phase 1.** The key property of this phase is that **a negative result decides the whole framework**. That is unusual for a theoretical programme — most theories cannot be falsified for $150. The MRG is testable specifically because its central claim (η > 0) is a single operational parameter with a concrete experimental protocol.
+**Instructive note on Phase 1.** The key property of this phase is that **a negative result decides the whole framework**. That a falsifying test is available at benchtop scale and cost is unusual for a theoretical programme of this scope. The MRG is testable specifically because its central claim (η > 0) is a single operational parameter with a concrete experimental protocol.
 
 ### 10.9.2  Phase 2 — laboratory validation ($5,000)
 

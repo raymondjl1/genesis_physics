@@ -187,9 +187,9 @@ Chapters 10 and 11 made four quantitative predictions for the masses of the heav
 | Observable | Genesis prediction | PDG (2024) | Deviation |
 |---|---|---|---|
 | $m_t$ | $173.0$ GeV | $173.1 \pm 0.4$ GeV | $0.06\%$ |
-| $m_H$ | $125.4$ GeV | $125.09 \pm 0.24$ GeV | $0.25\%$ |
-| $M_W$ | $80.42$ GeV | $80.385 \pm 0.015$ GeV | $0.04\%$ |
-| $M_Z$ | $91.64$ GeV | $91.1876 \pm 0.0021$ GeV | $0.50\%$ |
+| $m_H$ | $125.1$ GeV | $125.10 \pm 0.14$ GeV | $0.008\%$ |
+| $M_W$ | $80.27$ GeV | $80.377 \pm 0.015$ GeV | $0.13\%$ |
+| $M_Z$ | $91.55$ GeV | $91.188 \pm 0.002$ GeV | $0.40\%$ |
 | $\rho$ parameter | $1.000037$ | $1.00037 \pm 0.00010$ | $0.1\%$ |
 
 The first four are mass predictions; the fifth is the $\rho$ parameter, $\rho = M_W^2/(M_Z^2 \cos^2\theta_W)$, which is a precision constraint on the electroweak symmetry-breaking sector and is the cleanest test of the Higgs-doublet structure that Ch 11 §11.5 derived.
@@ -269,7 +269,7 @@ $$\Gamma_t^{\rm tree} = \frac{g_W^2 m_t^3}{32\pi M_W^2} \approx 1.42 \text{ GeV}
 
 and at next-to-leading order (NLO) as approximately $\Gamma_t^{\rm NLO} \approx 1.56$ GeV. The PDG value is $\Gamma_t^{\rm obs} = 2.00 \pm 0.1$ GeV. The gap between prediction and observation is approximately 25%.
 
-This is a significant discrepancy. It is the largest single gap between a Genesis prediction and a PDG measurement anywhere in the electroweak precision sector, and it is much larger than the 0.04–0.5% agreements reported for the boson masses. A skeptic would be within his rights to point at it and ask the framework to explain itself.
+This is a significant discrepancy. It is the largest single gap between a Genesis prediction and a PDG measurement anywhere in the electroweak precision sector, and it is much larger than the 0.008–0.4% agreements reported for the boson masses. A skeptic would be within his rights to point at it and ask the framework to explain itself.
 
 The framework's explanation is that NNLO electroweak corrections — second-order loop effects that have not yet been computed in the zone-QFT formalism — should close the gap. The argument is that the top-quark decay process involves multiple heavy-particle exchanges ($W$, $Z$, $H$) whose interference terms are only captured at NNLO, and in the standard 4D QED/QCD calculation of $\Gamma_t$, the NNLO corrections contribute approximately 20–30% to the total width. If the same magnitude holds in the zone-QFT formalism, the gap closes.
 
@@ -299,9 +299,9 @@ Every prediction named in this chapter has been recorded below, in one place, wi
 
 | # | Observable | Genesis Prediction | Current Measurement | Falsification Threshold | Experiment | Timescale |
 |---|---|---|---|---|---|---|
-| 1 | $W$ boson mass | $80.42$ GeV | $80.385 \pm 0.015$ GeV | $>2\%$ deviation | CMS/ATLAS W mass | now–2030 |
-| 2 | $Z$ boson mass | $91.64$ GeV | $91.1876 \pm 0.0021$ GeV | $>2\%$ deviation | LEP/LHC precision | now |
-| 3 | Higgs mass | $125.4$ GeV | $125.09 \pm 0.24$ GeV | $>2\%$ deviation | HL-LHC | 2024–2030 |
+| 1 | $W$ boson mass | $80.27$ GeV | $80.377 \pm 0.015$ GeV | $>2\%$ deviation | CMS/ATLAS W mass | now–2030 |
+| 2 | $Z$ boson mass | $91.55$ GeV | $91.188 \pm 0.002$ GeV | $>2\%$ deviation | LEP/LHC precision | now |
+| 3 | Higgs mass | $125.1$ GeV | $125.10 \pm 0.14$ GeV | $>2\%$ deviation | HL-LHC | 2024–2030 |
 | 4 | Top quark mass | $173.0$ GeV | $173.1 \pm 0.4$ GeV | $>2\%$ deviation | HL-LHC | 2024–2030 |
 | 5 | $\rho$ parameter | $1.000037$ | $1.00037 \pm 0.00010$ | $>0.5\%$ deviation | precision EW | now |
 | 6 | Fermion generation count | exactly 3 | 3 observed | 4th generation at any mass | LHC / HL-LHC / FCC | 2024–2050 |

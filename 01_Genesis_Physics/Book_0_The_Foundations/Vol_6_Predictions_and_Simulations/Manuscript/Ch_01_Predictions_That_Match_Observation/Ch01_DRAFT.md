@@ -18,16 +18,9 @@ Before we open the catalog, we need to agree on what "match" means. Three levels
 
 **Level 3: Structural agreement.** Zone architecture predicts a functional form, scaling relation, or qualitative behavior that matches observation. The baryonic Tully-Fisher relation emerges with slope exactly 4 (Vol 5, Ch 11, Eq 5.11.14), matching the observed relation. The cosmic energy budget splits as 68.4%/26.6%/4.9% from zone geometry, matching Planck 2018 data. Here the match is structural — the framework predicts not just a number but a *pattern*.
 
-Throughout this chapter, every prediction follows a standard format:
+Throughout this chapter, every prediction is presented in a consistent labeled block. Rather than spell out the template here, we let the first entry — P-001, the electron $g{-}2$, in §1.2 — teach the format by example; each field (predicted value, standard-physics value, experimental value, precision, derivation source, falsification threshold, status) is self-explanatory on sight.
 
-> **P-XXX: [Title]**
-> **Predicted value:** [quantitative result from zone architecture]
-> **Standard physics value:** [what conventional physics predicts, or "fitted parameter"]
-> **Experimental value:** [measurement with uncertainty]
-> **Precision:** [relative error or agreement level]
-> **Source:** [Vol.Ch.Eq citation]
-> **Falsification threshold:** [what measurement would fail this prediction]
-> **Status:** MATCHES
+> *Format side-note (skip on first read).* The prediction blocks use a fixed seven-field schema — **P-NNN: Title**, then **Predicted value**, **Standard physics value**, **Experimental value**, **Precision**, **Source** (Vol.Ch.Eq), **Falsification threshold**, and **Status**. The schema is identical in every block so the eye can scan to the field it wants; novel predictions in Ch 3 extend it with two further fields (feasibility and timeline).
 
 We assign predictions in order of their demonstrated precision, starting with the most impressive results. This is deliberate: if zone architecture can survive the most demanding tests first, the reader has reason to take the rest of the catalog seriously.
 
@@ -144,7 +137,9 @@ The 0.10% discrepancy from experiment is understood. The coefficient $b_{\rm eff
 
 A potential circularity concern deserves explicit treatment. The QED beta function $b_{\rm QED}$ describes how the electromagnetic coupling runs with energy scale — and in standard QED, this running is parameterized in terms of $\alpha$ itself. Does zone architecture assume $\alpha$ to derive $\alpha$? No. The beta function coefficient depends on the *particle content* of the theory (the number and charges of fermion species), not on the numerical value of $\alpha$. Zone architecture determines the particle content from Firmament resonance modes (Vol 4, Ch 10) and the gauge group structure from zone symmetries (Vol 2, Ch 6). The beta function coefficient is then computed from these independently determined inputs. The logarithmic form itself — why $\alpha^{-1} \propto \ln(\xi_A/\eta_B)$ — emerges from the 2D Green's function of the gauge field propagator on the compactified extra dimensions (Vol 5, Ch 13, Eqs 5.13.25–5.13.28). The reader seeking the complete derivation should consult Vol 5, Ch 13, where each step from the 6D action to the master formula is presented.
 
-What matters is the *structure* of the result. The fine structure constant is a logarithmic function of the ratio between the largest and smallest scales in the zone architecture. It is fixed by geometry — not by accident, not by anthropic selection, and not by fine-tuning. The same geometric ratio that determines $\alpha$ also determines the hierarchy between forces:
+What matters is the *structure* of the result. The fine structure constant is a logarithmic function of the ratio between the largest and smallest scales in the zone architecture. It is fixed by geometry — not by accident, not by anthropic selection, and not by fine-tuning. *Why a logarithm and not a power law?* Because the gauge-field propagator on the compactified extra dimensions is effectively two-dimensional, and the Green's function of the 2D Laplacian is logarithmic in the ratio of its arguments (Vol 5, Ch 13, Eqs 5.13.25–5.13.28). A power-law dependence would arise from a higher-dimensional propagator; the logarithm is the fingerprint of the 2D reduction. The same geometric ratio that determines $\alpha$ also determines the hierarchy between forces:
+
+> **Canonical statement.** This section (§1.3) is the canonical presentation of the $\alpha^{-1} \approx 137$ derivation and the logarithm-vs-power-law reasoning for Volume 6. Later chapters that invoke this result (Ch 4 §4.3 FK-1, Ch 10, Ch 14, Ch 16) state it briefly and refer back here rather than re-deriving it.
 
 > **P-005: Electromagnetic-to-Gravitational Force Hierarchy**
 > **Predicted value:** $\alpha_{\rm em}/\alpha_G = 1.24 \times 10^{36}$
@@ -373,10 +368,12 @@ In $\Lambda$CDM, the equation of state $w = -1$ is an observed fact with no deep
 > **P-025: Cosmic Energy Budget**
 > **Predicted value:** $\Omega_\Lambda = 0.684$, $\Omega_{\rm DM} = 0.266$, $\Omega_b = 0.049$, $\Omega_r \approx 9.2 \times 10^{-5}$
 > **Standard physics value:** Fitted from CMB + BAO + SNe
-> **Experimental value:** Planck 2018: $\Omega_\Lambda = 0.685 \pm 0.007$, $\Omega_{\rm DM} = 0.265 \pm 0.007$, $\Omega_b = 0.049 \pm 0.001$
+> **Experimental value:** Planck 2018 (legacy release): $\Omega_\Lambda = 0.6889 \pm 0.0056$, $\Omega_{\rm DM} = 0.2607 \pm 0.0054$, $\Omega_b = 0.0494 \pm 0.0006$
 > **Precision:** $< 0.2\%$ on each component
 > **Source:** Vol 5, Ch 8; Vol 5, Ch 11
 > **Falsification threshold:** Any component deviating from zone-derived values by more than $3\sigma$ in future precision measurements (Euclid, Roman, DESI combined).
+
+> **Note on the cosmological baseline (volume convention).** Throughout Volume 6 the canonical observational reference for the cosmic energy budget is the **Planck 2018 legacy release** ($\Omega_\Lambda = 0.6889$, $\Omega_{\rm DM} = 0.2607$, $\Omega_b = 0.0494$). The rounded values $0.684 / 0.266 / 0.049$ used in this chapter and in Ch 4 are these same numbers carried to three figures for readability — *not* a different release. (The "Planck 2020" label that appears in some sources refers to the *publication year* of this same 2018 legacy analysis.) Where a chapter quotes ΛCDM "round numbers" ($\Omega_m = 0.3$, $\Omega_\Lambda = 0.7$ — Ch 6, Ch 8), those are explicitly flagged inline as illustrative simulation inputs, not the framework's observational baseline.
 > **Status:** MATCHES
 
 The cosmic energy budget — approximately 68% dark energy, 27% dark matter, 5% baryonic matter — is one of the most striking facts in modern cosmology. Standard physics measures these fractions but cannot explain *why* the universe has this particular composition. Zone architecture derives the fractions from the zone geometry: the Waters Above (dark energy) occupies the $\xi$ extra dimension, the Waters Below (dark matter) occupies the $\eta$ extra dimension, and baryonic matter lives on the Firmament membrane at the intersection. The density ratios follow from the relative volumes and field configurations in each zone.
@@ -639,6 +636,8 @@ The chemistry test category achieved a perfect 100% pass rate (4 of 4 tests). Th
 > **Source:** Test 9.2
 > **Falsification threshold:** Discovery of a bonding mechanism not describable by quantum mechanical orbital theory.
 > **Status:** MATCHES
+
+*What we just learned (P-031 through P-051).* The two dozen predictions of §1.7 share a single moral, and it is worth naming before the scorecard. Across conservation laws, classical mechanics, thermodynamics, electromagnetism, quantum mechanics, and chemistry, zone architecture reproduces standard physics *exactly* — and that exact reproduction is the point, not a disappointment. Every block in this cluster is a Level-1 match: the equations are identical to the textbook ones, so the framework inherits a century of experimental confirmation for free. What changes is the answer to "why?" Conservation laws become Noether theorems of specific zone symmetries; the periodic table becomes a consequence of the same membrane-derived quantum mechanics that gave us the QED precision of §1.2. The reader fatigued by the sameness of these blocks has, in fact, just watched the framework clear its highest bar — *not breaking anything that already works* — which is the precondition for the differing and novel predictions of Chapters 2 and 3 to be taken seriously at all.
 
 ---
 
