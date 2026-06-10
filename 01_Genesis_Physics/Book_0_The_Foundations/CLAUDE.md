@@ -119,7 +119,7 @@ These are areas where Research/ is incomplete or has known issues. **Flag these 
 | Gap | Impact | Status | Research Files |
 |-----|--------|--------|---------------|
 | Spin-1/2 fermions from bosonic membrane | Vol 4 — particle classification | GitHub #1 (BLOCKER) | `Foundations/TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` |
-| Particle mass spectrum 1000× errors | Vol 4 — mass predictions | GitHub #2 | `Mathematical_Models/06_.../SOLVE_1000X_MASS_PROBLEM.md` |
+| Particle mass spectrum 1000× errors | Vol 4 — mass predictions | GitHub #2 | `Mathematical_Models/06_.../06-PARTICLE_MASS_SPECTRUM_V3.md` |
 | Weak interaction / CP violation | Vol 4 — weak force | GitHub #3 | `Mathematical_Models/06_.../06-WEAK_PARITY_CP_VIOLATION.md` |
 | Fine structure constant precision | Vol 5 — crown jewel derivation | Partial | `Mathematical_Models/10_.../10-FINE_STRUCTURE_DERIVATION.md` |
 | Higgs mechanism from membrane | Vol 4 — mass generation | GitHub #25 | `Mathematical_Models/06_.../06-HIGGS_DERIVATION.md` |

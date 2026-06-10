@@ -4,10 +4,12 @@
 > | Scripture | Genesis 1:14-19 (Creation of light bearers) | Genesis 1:14-19 |
 > | Axiom | AXIOM 1 (6D Spacetime), AXIOM 2 (Waters Duality), AXIOM 3 (Firmament Mechanics) | AXIOM_6D_SPACETIME.md, AXIOM_WATERS_DUALITY.md, AXIOM_MEMBRANE_MECHANICS.md |
 > | Parent Theory | KK Dimensional Reduction, Green's functions on zone geometry | KK_DIMENSIONAL_REDUCTION.md, ACTION_6D_COMPLETE.md |
-> | **This Document** | **α⁻¹ = 1.4383 × ln(ξ_A/η_B) = 137.036; derived from 6D Green's function on zone geometry** | **FINE_STRUCTURE_DERIVATION.md** |
-> | Modern Equivalent | Quantum electrodynamics, renormalization group flow | Convergence: predicts observed fine structure constant to experimental precision (9 significant figures) |
+> | **This Document** | **α⁻¹ at one loop ≈ 137.17 (0.095%) from a 6D Green's function on zone geometry; two-loop / UV-boundary closure to 137.036 is OPEN (OP-07)** | **FINE_STRUCTURE_DERIVATION.md** |
+> | Modern Equivalent | Quantum electrodynamics, renormalization group flow | Convergence: reproduces α⁻¹ to ~0.1% at one loop; sub-percent closure is open work |
 >
-> *Chain Status: COMPLETE*
+> *Chain Status: PARTIAL — one-loop result solid (~0.1%); exact-coefficient / two-loop closure OPEN (OP-07)*
+
+> **HONEST-STATUS NOTE (CANONICAL_FACTS_REGISTRY §E, applied 2026-06-10):** This document is the foundational narrative. The canonical honest claim is: **one-loop α⁻¹ ≈ 137.17 (0.095% from the CODATA 137.036)**; the coefficient "1.4383" used below to hit 137.036 exactly is a *fitted/target* coefficient, **not** a parameter-free derivation. Two-loop and UV-boundary-condition closure to 137.036 is **OPEN (OP-07)**. Earlier "9 significant figures / experimental precision / no free parameters" claims are **withdrawn**. For the parallel detailed treatment see [`Mathematical_Models/10_Fundamental_Constants/10-FINE_STRUCTURE_DERIVATION.md`](../Mathematical_Models/10_Fundamental_Constants/10-FINE_STRUCTURE_DERIVATION.md).
 
 # Derivation of the Fine Structure Constant from 6D Green's Functions
 ## The Crown Jewel: α⁻¹ = 137.035999... from First Principles
@@ -22,10 +24,12 @@
 
 ## EXECUTIVE SUMMARY
 
-The fine structure constant α ≈ 1/137.036 is not a measured parameter fitted to data. In Genesis Physics, it is **derived from first principles** as the electromagnetic coupling constant that emerges from the 6D Green's function on the zone geometry.
+In Genesis Physics, the fine structure constant α ≈ 1/137.036 is proposed to emerge as the electromagnetic coupling constant from the 6D Green's function on the zone geometry. **At one loop this gives α⁻¹ ≈ 137.17, agreeing with the measured 137.036 to ~0.095%.** Closing the remaining sub-percent gap (two-loop / UV boundary condition) is **OPEN (OP-07)** — the result is not yet a parameter-free, full-precision derivation.
 
-The key result is:
-$$\boxed{\alpha^{-1} = \frac{1.4383}{1} \times \ln\left(\frac{\xi_A}{\eta_B}\right) = 137.036}$$
+The form of the result is:
+$$\boxed{\alpha^{-1} = A \times \ln\left(\frac{\xi_A}{\eta_B}\right), \qquad A \approx 1.44 \ \Rightarrow\ \alpha^{-1} \approx 137.17 \ (\text{one loop})}$$
+
+Setting the coefficient to the *target* value $A = 1.4383$ reproduces 137.036 by construction; deriving $A$ from the full 6D field equations without that calibration is the open part (see §4.4, §8).
 
 where:
 - **ξ_A ≈ 3 × 10²⁶ m**: characteristic extent of Waters Above (dark energy region)
@@ -399,7 +403,7 @@ $$\text{Error} = \frac{136.99 - 137.036}{137.036} = -0.034\% = -0.00034 \times 1
 
 **Relative error: 0.03%** ✓✓✓
 
-This is remarkable agreement given that the calculation uses only the zone extent scales (ξ_A and η_B) — no fitting parameters.
+The agreement here uses the **target coefficient** $A = 1.4383$ (chosen to land on 137.036) together with the zone-extent scales ξ_A and η_B. Deriving $A$ from first principles gives ≈1.44 at one loop (α⁻¹ ≈ 137.17, ~0.1%); the exact-coefficient closure is OPEN (OP-07). The honest claim is therefore **one-loop ~0.1%**, not parameter-free full precision.
 
 ### 5.3 Sensitivity Analysis
 
@@ -740,7 +744,7 @@ This derivation represents three years of theoretical development in the Genesis
 
 The key insight — that the logarithmic form of the coupling emerges naturally from 2D Green's functions in the extra-dimensional geometry — is both mathematically rigorous and physically transparent. The coefficient 1.4383 emerges from a detailed calculation rather than being inserted by hand, though its complete numerical determination requires solving the 6D field equations (Phase 0 work).
 
-The agreement between the predicted value (136.99) and the observed value (137.036) to 0.03% accuracy is striking, especially given that the calculation uses only astrophysical scale parameters (ξ_A, η_B) with no fine-tuning or adjustment.
+The one-loop result (α⁻¹ ≈ 137.17) agrees with the observed 137.036 to ~0.095% from the zone-extent scales (ξ_A, η_B). The tighter "136.99 / 0.03%" figure quoted in §5 uses the *target* coefficient 1.4383; deriving that coefficient without calibration — and the two-loop / UV-boundary closure to 137.036 — is OPEN (OP-07). This is an honest sub-percent agreement, not a parameter-free, full-precision derivation.
 
 **This is the crown jewel of Genesis Physics: a fundamental constant of nature derived from geometric first principles.**
 

@@ -18,7 +18,7 @@ Research/Mathematical_Models/
 ├── 05_Quantum_Mechanics/05-APPLIED_CALCULATIONS.md        ← Applied QM
 ├── 05_Quantum_Mechanics/05-CONDENSED_MATTER_DERIVATION.md    ← Condensed matter
 ├── 06_Nuclear_and_Particle_Physics/06-PARTICLE_MASS_SPECTRUM_V3.md ← USE v3 (latest)
-├── 06_Nuclear_and_Particle_Physics/06-MASS_SPECTRUM_V2_*.md  ← Supporting analysis (5 files)
+├── 06_Nuclear_and_Particle_Physics/00_Archive/06-MASS_SPECTRUM_V2_*.md  ← Supporting analysis (5 files; ARCHIVED — superseded by V3 per CANONICAL_FACTS_REGISTRY §H)
 ├── 06_Nuclear_and_Particle_Physics/06-HIGGS_DERIVATION.md ← Higgs
 ├── 06_Nuclear_and_Particle_Physics/06-NEUTRINO_PHYSICS.md
 ├── 06_Nuclear_and_Particle_Physics/06-QCD_DERIVATION.md
@@ -38,7 +38,7 @@ These are the biggest open problems in the entire project. **Several are GitHub 
 | Gap | Severity | GitHub Issue | Status |
 |-----|----------|-------------|--------|
 | **Spin-1/2 fermions from bosonic membrane** | BLOCKER | #1 | The membrane is bosonic — deriving fermionic excitations is THE decisive challenge |
-| **Particle mass spectrum 1000× errors** | HIGH | #2 | Current predictions off by ~1000× for some particles. See `SOLVE_1000X_MASS_PROBLEM.md` |
+| **Particle mass spectrum 1000× errors** | HIGH | #2 | Current predictions off by ~1000× for some particles. See `06-PARTICLE_MASS_SPECTRUM_V3.md` |
 | **Weak interaction / CP violation** | HIGH | #3 | Derivation incomplete |
 | **Higgs mechanism from membrane** | HIGH | #25 | Partial — condensation model needs completion |
 | **Running coupling constants** | MEDIUM | #26 | RG flow analysis partial |

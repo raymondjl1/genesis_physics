@@ -266,7 +266,7 @@ When discussing Waters, ALWAYS include percentage on first mention per section:
 
 ---
 
-## ISSUE 5: FIVE GOVERNING PRINCIPLES — CANONICAL ORDERING
+## ISSUE 5: THE FIVE PRINCIPLES — CANONICAL ORDERING
 
 ### The Inconsistency (from Consistency Audit #6.1)
 
@@ -277,7 +277,7 @@ Documents reference five principles in different orders:
 
 ### CANONICAL ORDER: Logical Dependency Sequence
 
-**The five governing principles in CANONICAL order:**
+**The Five Principles in CANONICAL order** (per the locked `Five_Principles.md`):
 
 | # | Principle | Divine Attribute | Mathematical Basis | One-line Definition |
 |---|-----------|-------------------|-------------------|-------------------|
@@ -305,12 +305,12 @@ This order reflects **logical and causal dependency**:
 
 **STYLE_GUIDE.md line 38 INCORRECTLY lists "Hierarchy" as a principle.**
 
-**This is WRONG.** The five principles are EXACTLY:
-- Conservation
-- Degradation
-- Symmetry
-- Duality
-- Sustaining
+**This is WRONG.** The Five Principles are EXACTLY (canonical order):
+1. Sustaining
+2. Conservation
+3. Symmetry
+4. Degradation
+5. Duality
 
 **"Hierarchy" does NOT appear as a principle in the Genesis Physics framework.** It may be a *consequence* of the principles, but it is not one of the five.
 
@@ -318,7 +318,7 @@ This order reflects **logical and causal dependency**:
 
 **First Mention in Any Section (REQUIRED):**
 ```
-The Five Governing Principles (in order of logical dependency):
+The Five Principles (in order of logical dependency):
 1. Sustaining — God actively maintains creation
 2. Conservation — Nothing created/destroyed after Day 7
 3. Symmetry — God's unchanging nature creates physical law symmetry
@@ -514,7 +514,7 @@ For completeness, also pair when first mentioned:
 ### Principles
 - [ ] Five Principles appear in canonical order if all five listed
 - [ ] No reference to "Hierarchy" as a principle (remove if found)
-- [ ] Sustaining, Conservation, Symmetry, Duality, Degradation used consistently
+- [ ] Sustaining, Conservation, Symmetry, Degradation, Duality used consistently (canonical order)
 - [ ] First mention includes principle number and brief definition
 
 ### Hebrew Terms
@@ -547,7 +547,7 @@ For completeness, also pair when first mentioned:
 1. Line 18: Change "Zone 3 / Earth Prime" → "Zone 2 / Earth Prime"
 2. Line 18: Change "Zone 4 / Waters Below" → add clarification "(dark matter ~27%)"
 3. Lines 37-41: Remove "Hierarchy" from Five Principles list
-4. Reorder principles to: Sustaining, Conservation, Symmetry, Duality, Degradation
+4. Reorder principles to: Sustaining, Conservation, Symmetry, Degradation, Duality
 5. Add new section: "Zone Numbering Systems" (use mapping table above)
 6. Add new section: "Hebrew Transliteration Standards" (use Rule 3.1 above)
 7. Add new section: "Waters Terminology Pairing Requirements" (use Rule 4.1-4.3)
@@ -583,13 +583,13 @@ For completeness, also pair when first mentioned:
 | Constant | Symbol | Value | Context | Notes |
 |----------|--------|-------|---------|-------|
 | Critical density | ρ_c | 2.3×10¹⁷ kg/m³ | Matter formation threshold | Equals nuclear density |
-| Fine structure constant | α | 1/137.036 | Electromagnetic coupling | Framework prediction: 137.176 (0.12% error) |
-| Hubble constant (current) | H₀ | 70 km/s/Mpc | Expansion rate | Observable value |
+| Fine structure constant | α | 1/137.036 | Electromagnetic coupling | Framework one-loop prediction: α⁻¹ ≈ 137.17 (0.095%); full closure OPEN (OP-07) |
+| Hubble constant (current) | H₀ | 67.4 km/s/Mpc | Expansion rate | Planck 2018 value |
 | Creation Hubble parameter | H_creation | ~3×10¹⁴ × H₀ | Expansion rate Days 1-2 | Required for starlight arrival |
 | Dark energy percentage | - | 68% | Waters Above content | Planck satellite confirmed |
 | Dark matter percentage | - | 27% | Waters Below content | Planck satellite confirmed |
 | Ordinary matter percentage | - | 5% | Zone 2.2.2.1 content | Planck satellite confirmed |
-| Cosmic scale | ξ_A | ~3×10²⁶ m | Hubble radius | Observable universe size |
+| Cosmic scale | ξ_A | ~3×10²⁶ m | distinct from the Hubble radius (~1.4×10²⁶ m) | Waters Above extent |
 | Nuclear scale | η_B | ~1.3×10⁻¹⁵ m | Compton wavelength | Quantum-gravitational threshold |
 | Planck length | l_P | ~1.6×10⁻³⁵ m | Quantum gravity scale | Dimensional boundary |
 
@@ -635,7 +635,7 @@ For completeness, also pair when first mentioned:
 ### Example 4: Principles Discussion
 
 **CORRECT:**
-> "The Genesis Physics framework rests on five governing principles in logical order:
+> "The Genesis Physics framework rests on the Five Principles in logical order:
 > 1. **Sustaining**: God actively maintains creation's existence through continuous energy input
 > 2. **Conservation**: Energy and momentum are conserved globally (post-Day 7)
 > 3. **Symmetry**: God's unchanging nature produces physical law symmetry
@@ -679,7 +679,7 @@ Add to any comprehensive glossary:
 ### Critical Constants
 - **Critical Density (ρ_c)**: 2.3×10¹⁷ kg/m³; phase transition threshold for matter formation
 - **Fine Structure Constant (α)**: 1/137.036; electromagnetic coupling strength
-- **Cosmic Scale (ξ_A)**: ~3×10²⁶ m; Hubble radius
+- **Cosmic Scale (ξ_A)**: ~3×10²⁶ m; Waters Above extent (distinct from the Hubble radius ~1.4×10²⁶ m)
 - **Nuclear Scale (η_B)**: ~1.3×10⁻¹⁵ m; Compton wavelength scale
 
 ---

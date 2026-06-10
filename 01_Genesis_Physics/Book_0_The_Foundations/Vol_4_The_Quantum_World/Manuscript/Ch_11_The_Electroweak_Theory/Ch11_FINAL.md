@@ -615,7 +615,7 @@ A chapter-level summary. If a reader reads only one section of this chapter, I w
 
 ## §11.12  Test-suite verification  [RIGOROUS — with honest caveats]
 
-The existing test suite in `01_Genesis_Physics/Research/Mathematical_Models/nuclear_physics/test_nuclear_physics.py` is rerun at the end of this chapter with the following results (invoked from the chapter's finalization script):
+The existing test suite in `01_Genesis_Physics/Research/Mathematical_Models/06_Nuclear_and_Particle_Physics/test_nuclear_physics.py` is rerun at the end of this chapter with the following results (invoked from the chapter's finalization script):
 
 - **Neutron lifetime test** ($\tau_n$ vs. PDG): PASS, 0.03% deviation.
 - **Beta-decay asymmetry test** (Wu $A$): PASS at the conditional level (the test uses $g_V = g_A$ exactly from the $V\!-\!A$ structure).

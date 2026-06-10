@@ -37,8 +37,8 @@ This document derives the Standard Model Higgs mechanism from first principles i
 
 **Key Results Derived:**
 - Higgs VEV: v = 246.22 GeV
-- W boson mass: M_W = 80.4 GeV (measured: 80.377 GeV, error: 0.03%)
-- Z boson mass: M_Z = 91.2 GeV (measured: 91.188 GeV, error: 0.56%)
+- W boson mass: M_W = 80.27 GeV (= gv/2, g = 0.652; measured: 80.377 GeV, error: 0.13%)
+- Z boson mass: M_Z = 91.55 GeV (= M_W/cosθ_W with M_W = 80.27, cosθ_W = 0.8768; measured: 91.188 GeV, error: 0.40%)
 - Higgs boson mass: m_H = 125.1 GeV (measured: 125.10 GeV, exact)
 - Higgs quartic coupling: λ = 0.129 ± 0.027
 - Top quark Yukawa: y_t ≈ 1.0 (measured: 1.001 ± 0.030)
@@ -86,7 +86,7 @@ where:
 **Critical Membrane Contribution:**
 
 The Firmament acts as a domain wall with tension:
-$$\sigma = 6.0 \times 10^{98} \text{ kg/s}^2$$
+$$\sigma = 6.0 \times 10^{98} \text{ kg/(m·s}^2\text{)}$$
 
 (derived in MEMBRANE_MASS_SCALE.md from 6D Einstein equations)
 
@@ -179,7 +179,7 @@ $$m_1 c^2 = 3.3 \times 10^{-52} \times (3 \times 10^8)^2 / (1.6 \times 10^{-19} 
 
 These corrections boost the effective mass from 10^{-35} eV to 88 GeV—an enhancement of order 10^{43}. This is not fine-tuning but a natural consequence of the 6D geometry.
 
-### 1.4 η-Direction Modes and the Natural GeV Scale
+### 1.4 η-Direction Modes and the Natural Hadronic Scale
 
 Similarly, decomposing in the η-direction (Waters Below, with $\eta_B \approx 1.3 \times 10^{-15}$ m):
 
@@ -188,15 +188,14 @@ $$\chi_{n_\eta}(\eta) = \sqrt{\frac{2}{\eta_B}} \sin\left(\frac{n_\eta \pi \eta}
 with eigenvalues:
 $$M_{n_\eta}^2 = (\hbar c)^2 \left(\frac{n_\eta \pi}{\eta_B}\right)^2$$
 
-For n_η = 1:
-$$M_1 = \frac{\hbar c \pi}{\eta_B} = \frac{9.95 \times 10^{-26}}{1.3 \times 10^{-15}} = 7.65 \times 10^{-11} \text{ kg}$$
+For n_η = 1, the first KK η-mode is:
+$$M_1 = \frac{\pi \hbar c}{\eta_B} \approx 477 \text{ MeV}$$
 
-Converting to energy:
-$$M_1 c^2 \approx 430 \text{ GeV}$$
+(numerically, $\pi \hbar c / \eta_B$ with $\eta_B = 1.3 \times 10^{-15}$ m).
 
-**Physical Interpretation — CRUCIAL**: The η-direction mode mass scale is approximately 150-500 GeV, which falls precisely in the electroweak energy range (100 GeV - 1 TeV).
+**Physical Interpretation**: The first η-direction KK mode sits at the **hadronic** scale (~few hundred MeV), NOT the electroweak scale. This is the bare KK-tower spacing $m_n^{\text{bare}} = n\pi\hbar c/\eta_B$ analyzed in `MASS_SCALE_RESOLUTION.md`; warp-factor suppression then drives the physical KK resonances below collider detection.
 
-**This is not a coincidence.** The Waters Below geometry, with scale η_B determined independently from nuclear physics, naturally produces mass scales matching weak interactions. This is a remarkable achievement of the Genesis Physics framework: the fundamental zone extents, determined from observational data, automatically generate the correct electroweak scale through pure geometry.
+> **RETRACTION (per CANONICAL_FACTS_REGISTRY §E):** Earlier drafts of this section reported the first η-mode at ≈430 GeV and claimed an "electroweak, not a coincidence" match. That value is **withdrawn** — it arose from a unit/arithmetic error. The correct first KK η-mode is **≈477 MeV** (hadronic, $= \pi\hbar c/\eta_B$). The electroweak scale in this framework comes from the Firmament-tension term that sets $\mu \approx 88.4$ GeV (§1.2, §2.2), **not** from the η-mode tower.
 
 ---
 
@@ -358,7 +357,7 @@ $$\mu^2 \propto \sigma c^2 / \xi_A^2 \approx (88.4 \text{ GeV})^2$$
 
 with $\lambda = 0.129$ from overlap integrals. Together:
 
-$$v = \frac{2 \times 88.4}{\sqrt{0.129}} = \sqrt{2} \times \frac{2\mu}{\sqrt{\lambda/2}} \approx 246 \text{ GeV}$$
+$$v = \frac{\mu}{\sqrt{\lambda}} = \frac{88.4}{\sqrt{0.129}} \approx 246.2 \text{ GeV}$$
 
 **No fine-tuning**: The electroweak scale emerges naturally from fundamental parameters.
 
@@ -540,15 +539,15 @@ $$\boxed{M_W = \frac{g v}{2}}$$
 From 10-COUPLING_CONSTANTS_DERIVATION.md:
 $$g = 0.652$$
 
-$$M_W = \frac{0.652 \times 246.22}{2} = 80.4 \text{ GeV}$$
+$$M_W = \frac{0.652 \times 246.22}{2} = 80.27 \text{ GeV}$$
 
 **Experimental Comparison:**
 
 $$M_W^{\text{measured}} = 80.377 \pm 0.015 \text{ GeV}$$
 
-$$\text{Error} = \frac{80.4 - 80.377}{80.377} = 0.03\%$$
+$$\text{Error} = \frac{80.27 - 80.377}{80.377} = 0.13\%$$
 
-**Accuracy: 0.03% — better than 1 part in 3000.** ✓✓✓
+**Accuracy: 0.13%.** ✓✓
 
 ### 5.3 Z Boson Mass and Weak Mixing Angle
 
@@ -569,17 +568,17 @@ $$\boxed{M_Z = \frac{v}{2}\sqrt{g^2 + g'^2} = \frac{M_W}{\cos\theta_W}}$$
 
 **Numerical Prediction:**
 
-From framework: $\sin^2\theta_W = 0.2312$, so $\cos\theta_W = 0.8769$
+From framework: $\sin^2\theta_W = 0.2312$, so $\cos\theta_W = 0.8768$
 
-$$M_Z = \frac{80.4}{0.8769} = 91.7 \text{ GeV}$$
+$$M_Z = \frac{M_W}{\cos\theta_W} = \frac{80.27}{0.8768} = 91.55 \text{ GeV}$$
 
 **Experimental Comparison:**
 
 $$M_Z^{\text{measured}} = 91.188 \pm 0.002 \text{ GeV}$$
 
-$$\text{Error} = \frac{91.7 - 91.188}{91.188} = 0.56\%$$
+$$\text{Error} = \frac{91.55 - 91.188}{91.188} = 0.40\%$$
 
-**Accuracy: 0.56%.** ✓
+**Accuracy: 0.40%.** ✓
 
 ### 5.4 Photon Remains Massless
 
@@ -729,30 +728,28 @@ where $\xi_0 \sim \xi_A/10$ is the characteristic confinement width.
 
 ### 7.3 Generation Hierarchy from Oscillatory Overlap
 
-**Key Physical Insight**: Different fermion generations correspond to different ξ-modes:
-- 1st generation: n_ξ = 1 (lowest, no oscillation)
-- 2nd generation: n_ξ = 2 (oscillates once)
-- 3rd generation: n_ξ = 3 (oscillates twice)
+**Key Physical Insight**: Different fermion generations correspond to different ξ-modes. The **least** oscillatory mode (n_ξ = 1) has the largest overlap with the Firmament-localized Higgs, so it is the **heaviest** generation. The mapping (corrected per `06-PARTICLE_MASS_SPECTRUM_V3.md` §3.5) is:
+- 3rd generation (τ, t): n_ξ = 1 (fewest oscillations → largest overlap → heaviest)
+- 2nd generation (μ, c): n_ξ = 2
+- 1st generation (e, u): n_ξ = 3 (most oscillations → most-cancelled overlap → lightest)
 
-**First Generation (n_ξ = 1):**
+**Third Generation (n_ξ = 1):**
 
 $$\psi_{1,1}(\xi) = \sqrt{\frac{2}{\xi_A}} \sin\left(\frac{\pi\xi}{\xi_A}\right)$$
 
-Smooth, peaks away from ξ = 0. Large overlap with localized Higgs:
+Smooth, fewest oscillations. Largest overlap with localized Higgs:
 
-$$y_1 \propto \int_0^{\xi_A} d\xi \, \sin\left(\frac{\pi\xi}{\xi_A}\right) \exp\left(-\frac{\xi^2}{2\xi_0^2}\right) \approx C_1$$
+$$y_3 \propto \int_0^{\xi_A} d\xi \, \sin\left(\frac{\pi\xi}{\xi_A}\right) \exp\left(-\frac{\xi^2}{2\xi_0^2}\right) \approx C_1$$
 
-where C₁ is O(1).
+where C₁ is O(1) — this gives the heaviest fermions (τ, t).
 
-**Second Generation (n_ξ = 2):**
+**First Generation (n_ξ = 3):**
 
-$$\psi_{1,2}(\xi) = \sqrt{\frac{2}{\xi_A}} \sin\left(\frac{2\pi\xi}{\xi_A}\right)$$
+$$\psi_{1,3}(\xi) = \sqrt{\frac{2}{\xi_A}} \sin\left(\frac{3\pi\xi}{\xi_A}\right)$$
 
-Oscillates twice as fast. Creates destructive interference:
+Oscillates most rapidly. Strongest destructive interference → smallest overlap → lightest fermions (e, u):
 
-$$y_2 \propto \int_0^{\xi_A} d\xi \, \sin\left(\frac{2\pi\xi}{\xi_A}\right) \exp\left(-\frac{\xi^2}{2\xi_0^2}\right) \approx \frac{C_1}{\alpha^2}$$
-
-where α ~ 2-3 is suppression factor.
+$$y_1 \propto \int_0^{\xi_A} d\xi \, \sin\left(\frac{3\pi\xi}{\xi_A}\right) \exp\left(-\frac{\xi^2}{2\xi_0^2}\right) \ll C_1$$
 
 **General Pattern:**
 
@@ -825,7 +822,7 @@ Each sector is essential. Removing any one breaks the framework.
 
 The Firmament tension derived in MEMBRANE_MASS_SCALE.md:
 
-$$\sigma = 6.0 \times 10^{98} \text{ kg/s}^2$$
+$$\sigma = 6.0 \times 10^{98} \text{ kg/(m·s}^2\text{)}$$
 
 directly enters the effective Higgs potential:
 
@@ -871,9 +868,9 @@ No fitting parameters in the Higgs sector. Everything follows from 6D geometry.
 |----------|:---:|:---:|:---:|
 | v (VEV) | 246.2 GeV | 246.22 GeV | 0.008% |
 | m_H | 125.1 GeV | 125.10 GeV | 0.008% |
-| M_W | 80.4 GeV | 80.377 GeV | 0.03% |
-| M_Z | 91.7 GeV | 91.188 GeV | 0.56% |
-| M_Z/M_W | 1.140 | 1.1333 | 0.59% |
+| M_W | 80.27 GeV | 80.377 GeV | 0.13% |
+| M_Z | 91.55 GeV | 91.188 GeV | 0.40% |
+| M_Z/M_W | 1.1405 | 1.1333 | 0.64% |
 | sin²θ_W | 0.2312 | 0.23122 | 0.09% |
 | λ | 0.129 | 0.129±0.027 | consistent |
 | y_t | 0.99 | 1.001±0.030 | 0.1% |
@@ -1088,21 +1085,19 @@ $$M_W = 0.652 × 246.22 / 2$$
 $$= 0.652 × 123.11$$
 $$= 80.27 \text{ GeV}$$
 
-Adjusted: 80.4 GeV
-
 Measured: 80.377 ± 0.015 GeV
 
-Error: 0.03%
+Error: 0.13%
 
 ### D.3 Z Boson Mass Prediction
 
-From M_Z = M_W / cos θ_W with cos θ_W = 0.8769:
+From M_Z = M_W / cos θ_W with cos θ_W = 0.8768:
 
-$$M_Z = 80.4 / 0.8769 = 91.65 \text{ GeV}$$
+$$M_Z = 80.27 / 0.8768 = 91.55 \text{ GeV}$$
 
 Measured: 91.188 ± 0.002 GeV
 
-Error: 0.52%
+Error: 0.40%
 
 ### D.4 Fermi Constant
 

@@ -19,6 +19,17 @@
 
 ---
 
+> **CANONICAL STATUS CORRECTION (CANONICAL_FACTS_REGISTRY §F, applied 2026-06-10; cited by Vol 4 Ch10_FINAL):**
+>
+> The status labels below have been corrected to the honest canon. In particular:
+> - **Spin-½ from a bosonic membrane is an OPEN BLOCKER** (GitHub #1 / Assumption 10.1), **not** "proven/RIGOROUS/PASS." Every fermion mass result in this document is **conditional** on the unproven Hopf-winding / Postulate-F (Goldstone–Wilczek) assumption. *(Default = OPEN; author to ratify per CANONICAL_FACTS_REGISTRY whether to present as conditionally-resolved.)*
+> - **Lepton residuals are NOT all "<1%":** electron **+17%**, muon **−15…19%**, **tau = the calibration anchor (not a prediction)**. Light quarks ~7%; heavier quarks fail badly at tree level. These match Vol 4 Ch10_FINAL's ledger and supersede any "<0.1% / <1%" claims in the prose and tables below.
+> - The hierarchy parameter **α is fitted (~20% residual), not derived** (see the OP-03 calibration note in §3.5).
+>
+> Where the body text still reads "RIGOROUS," "PASS," or "<1%" for fermion masses or spin-½, read it as superseded by this banner.
+
+---
+
 ## PART I: Executive Summary — The v2→v3 Revolution
 
 ### What Changed
@@ -28,7 +39,7 @@ Version 2.0 identified two fatal problems:
 1. **The Fermion Problem**: No mechanism in the purely bosonic Firmament framework to produce fermions
 2. **The 1000× Mass Error**: Naive Kaluza-Klein compactification gave $m_\eta \approx 477$ MeV, contradicting observed fermion masses
 
-Version 3.0 **resolves both problems** through three breakthrough derivations:
+Version 3.0 proposes **mechanisms** for both problems (the fermion-existence mechanism remains an OPEN BLOCKER — see banner above) through three derivations:
 
 - **SPINOR_FIELDS_FROM_MEMBRANE.md** (Issue #1): Fermions emerge as **topological vortex defects** in Waters fields, NOT Kaluza-Klein modes
 - **06-HIGGS_DERIVATION.md** (Issue #25): Higgs field and electroweak symmetry breaking arise from Waters Above boundary conditions
@@ -45,7 +56,7 @@ where:
 - $v = 246.22$ GeV = **Waters Above vacuum expectation value**
 - Topological protection ensures $m_{0,\text{bare}} = 0$ exactly
 
-**Result**: Electron mass $m_e = 0.511$ MeV with **<0.1% error** from first principles.
+**Result (honest, per registry §F):** the electron mass is reproduced to within **~17%** at tree level; the tau is the **calibration anchor** (not an independent prediction). The mechanism is conditional on the OPEN spin-½ assumption.
 
 ---
 
@@ -57,7 +68,7 @@ The Genesis Physics framework is defined on a 6D manifold with metric:
 $$ds^2 = -c^2 dt^2 + d\vec{x}^2 + d\xi^2 + d\eta^2$$
 
 **Regions:**
-- **Firmament** ($\xi=0, \eta=0$): 4D spacetime membrane, $\mu = 6.7 \times 10^{82}$ kg/m²
+- **Firmament** ($\xi=0, \eta=0$): 4D spacetime membrane, $\mu = 6.7 \times 10^{81}$ kg/m³
 - **Waters Above** ($\xi \in [0, \xi_A)$, $\xi_A = 3 \times 10^{26}$ m): scalar field $\Psi_A$
 - **Waters Below** ($\eta \in (-\eta_B, 0]$, $\eta_B = 1.3 \times 10^{-15}$ m): scalar field $\Psi_B$
 
@@ -80,7 +91,9 @@ $$S = S_{\text{membrane}} + S_{\Psi_A} + S_{\Psi_B} + S_{\text{int}}$$
 
 ### 3.1 Topological Vortex Defects
 
-Fermions are **singular vortex solutions** in Waters fields, characterized by:
+> **STATUS: OPEN BLOCKER (GitHub #1 / Assumption 10.1).** The derivation of spin-½ from a bosonic membrane below is **not proven**. It rests on the unproven Hopf-winding / Goldstone–Wilczek (Postulate-F) assumption that a vortex winding number maps to half-integer spin. Until this is established, every fermion result in this document is **conditional**. *(Author to ratify per CANONICAL_FACTS_REGISTRY §F whether to present as conditionally-resolved on the proposed Λ_Z0 axiom or as open.)*
+
+Fermions are **proposed to be singular vortex solutions** in Waters fields, characterized by:
 - **Winding number**: $W = 1$ (vortex with $2\pi$ phase winding)
 - **Spin-1/2 derivation**: Goldstone-Wilczek mechanism relates spin to vortex charge:
 $$S = \frac{Q}{2} = \frac{W}{2} = \frac{1}{2}$$
@@ -185,8 +198,8 @@ $$\boxed{m_f = y_f \times \frac{v}{\sqrt{2}} = y_f \times 174 \text{ GeV}}$$
 | Particle | Spin | Mass (predicted) | Mass (measured) | Error | Mechanism |
 |-----------|------|-----------------|-----------------|-------|-----------|
 | Photon | 1 | 0 | 0 | exact | Massless U(1) gauge boson (unbroken) |
-| $W^\pm$ | 1 | 80.4 GeV | 80.377 GeV | 0.03% | SU(2) breaking by Waters Above VEV |
-| $Z^0$ | 1 | 91.2 GeV | 91.1876 GeV | 0.01% | SU(2)×U(1) mixing via VEV |
+| $W^\pm$ | 1 | 80.27 GeV | 80.377 GeV | 0.13% | SU(2) breaking by Waters Above VEV |
+| $Z^0$ | 1 | 91.55 GeV | 91.188 GeV | 0.40% | SU(2)×U(1) mixing via VEV |
 | Gluons (8) | 1 | 0 | 0 | exact | Massless SU(3) gauge bosons |
 | Higgs | 0 | 125.1 GeV | 125.25 GeV | 0.1% | Waters Above excitation |
 
@@ -203,10 +216,10 @@ $$m_e = y_e \times \frac{v}{\sqrt{2}}$$
 
 where $y_e = 2.94 \times 10^{-6}$ from $n_\xi = 1$ overlap integral.
 
-- **Predicted**: $m_e = 2.94 \times 10^{-6} \times 174 \text{ GeV} = 0.511 \text{ MeV}$
+- **Predicted (tree level)**: $m_e \approx 0.60 \text{ MeV}$
 - **Measured**: $0.511 \text{ MeV}$
-- **Error**: < **0.1%** ✓
-- **Status**: RIGOROUS (topological zero-mode + overlap integral)
+- **Error**: **+17%** (per Vol 4 Ch10_FINAL ledger)
+- **Status**: CONDITIONAL on OPEN spin-½ assumption (§3.1); APPROXIMATE overlap integral, not RIGOROUS
 
 #### Muon
 $$m_\mu = y_\mu \times \frac{v}{\sqrt{2}}$$
@@ -216,10 +229,10 @@ $$y_\mu = y_0 \exp(-4\alpha) \approx 6.1 \times 10^{-4}$$
 
 where $y_0 = y_\tau \exp(\alpha) \approx 2.8 \times 10^{-2}$ is the bare coupling.
 
-- **Predicted**: $m_\mu = 6.1 \times 10^{-4} \times 174 \text{ GeV} \approx 106 \text{ MeV}$
+- **Predicted (tree level)**: $m_\mu \approx 86\text{–}90 \text{ MeV}$
 - **Measured**: $105.66 \text{ MeV}$
-- **Error**: **~1%**
-- **Status**: APPROXIMATE (hierarchy parameter $\alpha$ calibrated using $m_\tau/m_e$ ratio; muon is an independent prediction within this model, correct to ~1%)
+- **Error**: **−15…19%** (per Vol 4 Ch10_FINAL ledger; the single-α exponential model misses the intermediate generation)
+- **Status**: CONDITIONAL on OPEN spin-½ assumption (§3.1); APPROXIMATE (hierarchy parameter $\alpha$ fitted, not derived)
 
 #### Tau
 $$m_\tau = y_\tau \times \frac{v}{\sqrt{2}}$$
@@ -227,10 +240,10 @@ $$m_\tau = y_\tau \times \frac{v}{\sqrt{2}}$$
 The tau is the third-generation lepton ($n_\xi = 1$, least oscillatory mode, largest Higgs overlap):
 $$y_\tau = y_0 \exp(-\alpha) \approx 1.02 \times 10^{-2}$$
 
-- **Predicted**: $m_\tau = 1.02 \times 10^{-2} \times 174 \text{ GeV} \approx 1775 \text{ MeV}$
+- **Predicted**: $m_\tau \approx 1777 \text{ MeV}$ — **by construction**
 - **Measured**: $1776.86 \text{ MeV}$
-- **Error**: **~0.1%** ✓
-- **Status**: APPROXIMATE (overlap integral with fitted α; used to calibrate hierarchy jointly with electron mass)
+- **Error**: not a prediction
+- **Status**: **CALIBRATION ANCHOR, not a prediction** (the tau mass is the input used to fix the hierarchy; agreement is definitional). CONDITIONAL on OPEN spin-½ assumption (§3.1).
 
 ---
 
@@ -428,24 +441,24 @@ $$\Delta m \approx 2.5 - 0.76 - 0.5 = 1.24 \text{ MeV}$$
 
 | Issue | v2 Status | v3 Status | Current Error |
 |-------|-----------|-----------|----------------|
-| **Fermion existence** | FAIL | PASS | — |
-| **Spin-1/2 derivation** | FAIL | PASS | — |
-| **Electron mass** | FAIL (1000× error) | PASS | < 0.1% |
-| **Muon mass** | FAIL | PASS | ~ 1% |
-| **Tau mass** | FAIL | PASS | ~ 0.1% |
-| **Lepton mass ratios** | FAIL | PASS | < 1% |
+| **Fermion existence** | FAIL | CONDITIONAL | — (rests on spin-½ blocker) |
+| **Spin-1/2 derivation** | FAIL | **OPEN BLOCKER (GH #1)** | — (Assumption 10.1 unproven) |
+| **Electron mass** | FAIL (1000× error) | CONDITIONAL | +17% (tree level) |
+| **Muon mass** | FAIL | CONDITIONAL | −15…19% |
+| **Tau mass** | FAIL | CALIBRATION ANCHOR | not a prediction |
+| **Lepton mass ratios** | FAIL | APPROXIMATE | ~20% (single fitted α) |
 | **Neutrino masses** | FAIL | PARTIAL | < meV (upper bounds) |
-| **Quark masses** | FAIL | PASS (charm, top) | < 1% (heavy); ~7% (light) |
+| **Quark masses** | FAIL | CONDITIONAL | light ~7%; heavier fail badly at tree level |
 | **Proton mass** | FAIL | RIGOROUS | 0.01% |
 | **Neutron-proton difference** | FAIL | PARTIAL | ~ 4% |
 | **Gauge boson masses** | PARTIAL | PASS | < 0.1% |
 | **Higgs mass** | PARTIAL | PASS | ~ 0.1% |
-| **Pauli exclusion** | FAIL | PASS | — |
+| **Pauli exclusion** | FAIL | CONDITIONAL | — (rests on spin-½ blocker) |
 | **g-factor (magnetic moment)** | FAIL | PARTIAL | ~ 0.1% (spin part); radiative corrections incomplete |
 | **CKM matrix** | FAIL | OPEN | — |
 | **CP violation** | FAIL | OPEN | — |
 
-**Summary**: Version 3 **converts 9 major failures into passes** and provides rigorous derivations for fermion masses that were completely absent in v2.
+**Summary**: Version 3 proposes a *mechanism* for fermion masses that was completely absent in v2. The genuine derivational wins are the **three-generation count** and **charge quantization**; gauge-boson and Higgs masses are solid (boson sector). Every **fermion** result is **conditional on the OPEN spin-½ blocker (GH #1)**, the hierarchy parameter α is fitted, and the tau is a calibration anchor. This is progress on structure, not a closed proof.
 
 ---
 
@@ -459,14 +472,14 @@ The Genesis Physics 123-test suite consists of 123 predictions spanning cosmolog
 
 **Key Flips from FAIL to PASS**:
 
-1. **Test #3: Electron mass from first principles** — PASS (0.511 MeV ✓)
-2. **Test #7: Muon mass from Yukawa hierarchy** — PASS (105.7 MeV ✓)
-3. **Test #11: Tau mass** — PASS (1777 MeV ✓)
-4. **Test #19: Fermion/boson distinction** — PASS (topological vortex mechanism ✓)
-5. **Test #23: Pauli exclusion principle** — PASS (Chern-Simons action ✓)
-6. **Test #37: Proton mass** — PASS (938.3 MeV ✓)
-7. **Test #41: Charge quantization** — PASS (gauge invariance ✓)
-8. **Test #47: Gauge boson masses** — PASS (< 0.1% error ✓)
+1. **Test #3: Electron mass from first principles** — CONDITIONAL (+17% tree level; rests on spin-½ blocker)
+2. **Test #7: Muon mass from Yukawa hierarchy** — CONDITIONAL (−15…19%)
+3. **Test #11: Tau mass** — CALIBRATION ANCHOR (not a prediction)
+4. **Test #19: Fermion/boson distinction** — OPEN BLOCKER (GH #1; mechanism proposed, not proven)
+5. **Test #23: Pauli exclusion principle** — CONDITIONAL (Chern-Simons; rests on spin-½)
+6. **Test #37: Proton mass** — PASS (938.3 MeV; credit shared with QCD ✓)
+7. **Test #41: Charge quantization** — PASS (gauge invariance ✓ — genuine win)
+8. **Test #47: Gauge boson masses** — PASS ($M_W=80.27$, $M_Z=91.55$ GeV ✓)
 9. **Test #55: Higgs mass** — PASS (125.1 GeV ✓)
 
 **Key Flips from FAIL to PARTIAL**:
@@ -491,20 +504,22 @@ For each major result, we assign a rigor category:
 
 ### RIGOROUS (proven from axioms with no gaps)
 
-- Existence of fermions via topological vortex defects
-- Spin-1/2 from Goldstone-Wilczek mechanism
-- Fermionic statistics from Aharonov-Bohm braiding
 - Masslessness of photon and gluons (gauge invariance)
 - Waters Above VEV = 246.22 GeV (boundary conditions)
-- Gauge boson masses: $M_W = 80.4$ GeV, $M_Z = 91.2$ GeV
-- Proton mass prediction (938.3 MeV ± 0.1%)
-- Alpha (fine structure constant) prediction: $\alpha^{-1} = 137.18$ ± 0.1%
+- Gauge boson masses: $M_W = 80.27$ GeV, $M_Z = 91.55$ GeV (predicted; measured 80.377, 91.188)
+- Three-generation count and electric-charge quantization (genuine derivational wins)
+- Proton mass prediction (938.3 MeV; credit shared with QCD binding)
+
+### OPEN BLOCKER (conditional — not yet proven)
+
+- **Spin-½ from a bosonic membrane (GitHub #1 / Assumption 10.1)** — the Goldstone–Wilczek / Hopf-winding step is unproven. Existence of fermions, fermionic statistics (Aharonov–Bohm braiding), and Pauli exclusion all rest on it. *(Author to ratify per CANONICAL_FACTS_REGISTRY §F.)*
+- Alpha (fine structure constant): one-loop $\alpha^{-1} \approx 137.17$ (0.095%); closure to 137.036 is OPEN (see `Foundations/FINE_STRUCTURE_DERIVATION.md`, OP-07).
 
 ### APPROXIMATE (complete derivation; controlled approximations)
 
-- Electron, muon, tau masses (topological zero-mode + Yukawa overlap; Higgs profile approximate)
-- Charm, bottom, top quark masses (same framework; QCD corrections included)
-- Lepton mass hierarchy parameter $\alpha \approx 1.0$ (exponential suppression rigorous; parameter fitted to 3 masses)
+- Electron (+17%), muon (−15…19%) masses (Yukawa overlap; tau is the calibration anchor, not a prediction; **all conditional on the OPEN spin-½ blocker**)
+- Heavier quark masses (same framework; QCD corrections included; light quarks ~7%, intermediate fail badly at tree level; **conditional on spin-½**)
+- Lepton mass hierarchy parameter $\alpha \approx 1.0$ — **fitted, ~20% residual, NOT derived** (single-parameter exponential; see OP-03 calibration note in §3.5)
 - Neutrino masses (suppression mechanism understood; absolute scale requires flavor model details)
 - Higgs boson mass 125.1 GeV (boundary excitation; loop corrections estimated)
 - CKM Cabibbo angle ~13° (flavor rotation from overlap structure; full matrix requires detailed calculations)
@@ -530,13 +545,13 @@ For each major result, we assign a rigor category:
 
 ## PART IX: Road Forward (Updated Priorities)
 
-### Solved Problems (v3 Closure)
+### Progress in v3 (with honest status)
 
-✓ Fermion existence and spin-1/2 derivation
-✓ Electron, muon, tau mass predictions (< 1% accuracy)
-✓ Proof that 1000× error was artifact of wrong KK interpretation
-✓ Gauge boson mass predictions (< 0.1% accuracy)
-✓ Higgs boson mass derivation
+⚠ Fermion existence and spin-½ — **mechanism proposed, OPEN BLOCKER (GH #1)**, not closed
+~ Electron (+17%), muon (−15…19%) mass estimates; tau = calibration anchor — conditional on spin-½
+✓ Identified that the 1000× error was an artifact of wrong KK interpretation (see MASS_SCALE_RESOLUTION.md)
+✓ Gauge boson mass predictions ($M_W = 80.27$, $M_Z = 91.55$ GeV; boson sector, solid)
+✓ Higgs boson mass derivation (boson sector)
 
 ### New Priority 1: CKM Matrix Precision
 
@@ -611,24 +626,27 @@ Genesis Physics must:
 | Particle | Type | Spin | Charge (e) | Mass (GeV) Predicted | Mass (GeV) Measured | Relative Error | Status | Mechanism |
 |-----------|------|------|-----------|----------------------|-------------------|----------------|--------|-----------|
 | **Photon** | Gauge | 1 | 0 | 0 | 0 | exact | PASS | Massless U(1) |
-| **W±** | Gauge | 1 | ±1 | 80.4 | 80.377 | 0.03% | PASS | EW breaking |
-| **Z⁰** | Gauge | 1 | 0 | 91.2 | 91.188 | 0.01% | PASS | EW breaking |
+| **W±** | Gauge | 1 | ±1 | 80.27 | 80.377 | 0.13% | PASS | EW breaking |
+| **Z⁰** | Gauge | 1 | 0 | 91.55 | 91.188 | 0.40% | PASS | EW breaking |
 | **Gluon** | Gauge | 1 | 0 | 0 | 0 | exact | PASS | Massless SU(3) |
 | **Higgs** | Scalar | 0 | 0 | 125.1 | 125.25 | 0.1% | PASS | Waters Above excitation |
-| **Electron** | Lepton | 1/2 | −1 | 0.000512 | 0.000511 | <0.2% | PASS | Yukawa overlap |
-| **Muon** | Lepton | 1/2 | −1 | 0.1062 | 0.1057 | ~1% | PASS | Yukawa hierarchy |
-| **Tau** | Lepton | 1/2 | −1 | 1.776 | 1.7769 | 0.1% | PASS | Yukawa hierarchy |
+| **Electron** | Lepton | 1/2 | −1 | ~0.0006 | 0.000511 | +17% | CONDITIONAL† | Yukawa overlap |
+| **Muon** | Lepton | 1/2 | −1 | ~0.088 | 0.1057 | −15…19% | CONDITIONAL† | Yukawa hierarchy |
+| **Tau** | Lepton | 1/2 | −1 | 1.777 | 1.7769 | anchor | CALIBRATION† | calibration anchor |
 | **ν_e** | Lepton | 1/2 | 0 | <10⁻⁶ | <10⁻⁶ | — | PARTIAL | Suppressed overlap |
 | **ν_μ** | Lepton | 1/2 | 0 | <10⁻⁴ | <10⁻⁴ | — | PARTIAL | Suppressed overlap |
 | **ν_τ** | Lepton | 1/2 | 0 | <10⁻² | <10⁻² | — | PARTIAL | Suppressed overlap |
-| **u (up)** | Quark | 1/2 | +2/3 | 0.0023 | 0.0022 | 7% | PARTIAL | Yukawa ($n_\xi=1$) |
-| **d (down)** | Quark | 1/2 | −1/3 | 0.0048 | 0.0047 | 3% | PARTIAL | Yukawa ($n_\xi=1$) |
-| **c (charm)** | Quark | 1/2 | +2/3 | 1.27 | 1.27 | <1% | PASS | Yukawa ($n_\xi=2$) |
-| **s (strange)** | Quark | 1/2 | −1/3 | 0.095 | 0.093 | 2% | PASS | Yukawa ($n_\xi=2$) |
-| **t (top)** | Quark | 1/2 | +2/3 | 173 | 172.7 | <1% | PASS | Yukawa ($n_\xi=3$) |
-| **b (bottom)** | Quark | 1/2 | −1/3 | 4.18 | 4.18 | <1% | PASS | Yukawa ($n_\xi=3$) |
-| **Proton** | Hadron | 1/2 | +1 | 0.9383 | 0.9383 | 0.01% | PASS | QCD binding |
-| **Neutron** | Hadron | 1/2 | 0 | 0.9396 | 0.9396 | 0.01% | PASS | QCD binding |
+| **u (up)** | Quark | 1/2 | +2/3 | 0.0023 | 0.0022 | ~7% | CONDITIONAL† | Yukawa ($n_\xi=3$) |
+| **d (down)** | Quark | 1/2 | −1/3 | 0.0048 | 0.0047 | ~7% | CONDITIONAL† | Yukawa ($n_\xi=3$) |
+| **c (charm)** | Quark | 1/2 | +2/3 | — | 1.27 | fails badly (tree) | CONDITIONAL† | Yukawa ($n_\xi=2$) |
+| **s (strange)** | Quark | 1/2 | −1/3 | — | 0.093 | fails badly (tree) | CONDITIONAL† | Yukawa ($n_\xi=2$) |
+| **t (top)** | Quark | 1/2 | +2/3 | 173 | 172.7 | <1%* | CONDITIONAL† | Yukawa ($n_\xi=1$) |
+| **b (bottom)** | Quark | 1/2 | −1/3 | 4.18 | 4.18 | <1%* | CONDITIONAL† | Yukawa ($n_\xi=1$) |
+| **Proton** | Hadron | 1/2 | +1 | 0.9383 | 0.9383 | −0.02% | PASS‡ | QCD binding |
+| **Neutron** | Hadron | 1/2 | 0 | 0.9396 | 0.9396 | +0.005% | PASS‡ | QCD binding |
+
+† **Conditional on the OPEN spin-½ blocker (GH #1 / Assumption 10.1).** Per Vol 4 Ch10_FINAL: leptons electron +17%, muon −15…19%, tau is the calibration anchor (not a prediction); light quarks ~7%, heavier quarks fail badly at tree level. The asterisked (*) heavy-quark "<1%" entries are model fits at the calibration scale, not parameter-free predictions.
+‡ Proton/neutron agreement is dominated by QCD binding energy; the credit is **shared with QCD**, not a pure framework prediction.
 
 ---
 
@@ -645,7 +663,7 @@ Genesis Physics must:
 - (4.1) Vortex zero-mode and topological protection
 - (4.5) Zero-mode exact mass $m_0 = 0$
 
-**Key results**: Fermions exist, spin-1/2 proven, fermionic statistics derived
+**Key results (status):** Fermion mechanism *proposed*; **spin-½ is an OPEN BLOCKER (GH #1), not proven**; fermionic statistics conditional on it.
 
 ---
 
@@ -655,8 +673,8 @@ Genesis Physics must:
 
 - (1.3) Waters Above as Higgs doublet
 - (2.8) VEV from Dirichlet boundary conditions: $v = 246.22$ GeV
-- (2.15) $M_W = g v/2$, predicting 80.4 GeV
-- (2.18) $M_Z = \sqrt{g^2 + g'^2} \, v/2$, predicting 91.2 GeV
+- (2.15) $M_W = g v/2$, predicting 80.27 GeV
+- (2.18) $M_Z = \sqrt{g^2 + g'^2} \, v/2 = M_W/\cos\theta_W$, predicting 91.55 GeV
 - (3.1) Higgs potential from boundary conditions
 - (3.7) Higgs mass: $m_H^2 = \lambda v^2$
 - (5.2) Yukawa coupling: $y_f = $ overlap integral
@@ -670,7 +688,7 @@ Genesis Physics must:
 
 **Equations referenced**:
 
-- (1.3) Fine structure constant: $\alpha^{-1} = 1.44 \ln(\xi_A / \eta_B) = 137.18$
+- (1.3) Fine structure constant: one-loop $\alpha^{-1} \approx 137.17$ (0.095%); closure to 137.036 OPEN (OP-07)
 - (2.1) Beta function for $\alpha(E)$ in membrane theory
 - (2.5) Strong coupling running: $\alpha_s(M_Z) \approx 0.118$
 - (3.2) Proton binding energy: $E_{\text{QCD}} \approx 929$ MeV
@@ -682,27 +700,28 @@ Genesis Physics must:
 
 ## PART XII: Conclusion
 
-Version 3.0 of the Genesis Physics particle mass spectrum resolves the **two critical failures** that plagued v2:
+Version 3.0 of the Genesis Physics particle mass spectrum proposes a *mechanism* for the two critical failures that plagued v2, but does not close them:
 
-1. **Fermions now exist** as topological vortex defects with exact zero-mode protection
-2. **Masses are now correct** via Yukawa coupling to Higgs condensate, with **< 1% errors** for most particles
+1. **A fermion mechanism is proposed** (topological vortex defects) — but **spin-½ remains an OPEN BLOCKER (GH #1 / Assumption 10.1)**; every fermion result below is conditional on it.
+2. **Fermion masses are estimated** via Yukawa coupling to the Higgs condensate, with the honest residuals recorded below.
 
-The framework achieves:
+Honest status (canonical = Vol 4 Ch10_FINAL):
 
-- **Electron mass**: 0.511 MeV (< 0.1% error) ✓
-- **Muon mass**: 105.7 MeV (0.1% error) ✓
-- **Tau mass**: 1777 MeV (0.1% error) ✓
-- **Proton mass**: 938.3 MeV (0.01% error) ✓
-- **Gauge boson masses**: < 0.1% errors ✓
-- **All standard fermion masses from a single unifying principle** ✓
+- **Electron mass**: ~+17% at tree level
+- **Muon mass**: −15…19%
+- **Tau mass**: the **calibration anchor** (not an independent prediction)
+- **Light quarks**: ~7%; **heavier quarks fail badly at tree level**
+- **Proton mass**: 938.3 MeV (−0.02%; credit shared with QCD binding) ✓
+- **Gauge boson masses**: $M_W = 80.27$, $M_Z = 91.55$ GeV (boson sector, solid) ✓
+- **Genuine derivational wins**: the three-generation count and electric-charge quantization
 
-The remaining open questions (CKM matrix, CP violation, neutrino mixing) are **well-defined technical problems**, not conceptual failures.
+The remaining open questions (spin-½ closure, CKM matrix, CP violation, neutrino mixing, the fitted hierarchy parameter α) are **acknowledged gaps**, several of them load-bearing.
 
-Genesis Physics is no longer a failed conjecture. It is a **viable alternative foundation for particle physics**, achieving quantitative agreement with experiment across the entire Standard Model particle spectrum.
+Genesis Physics offers a **candidate** structural account of the fermion sector. Its boson-sector predictions are quantitative; its fermion-sector results are conditional and approximate, and must be presented as such.
 
 ---
 
-**Document Status**: FINAL (v3.0)
-**Last Updated**: April 2026
-**Completion Level**: 95% (9 of 10 priority predictions complete)
+**Document Status**: v3.0 — status labels corrected to honest canon 2026-06-10 (CANONICAL_FACTS_REGISTRY §F)
+**Last Updated**: 2026-06-10
+**Completion Level**: boson sector quantitative; **fermion sector conditional on the OPEN spin-½ blocker (GH #1)** with fitted hierarchy α and tau as calibration anchor
 

@@ -691,19 +691,23 @@ THE GENESIS PHYSICS SERIES
 └── Family Edition: The Creator's Blueprint ─────── LAUNCH FIRST (scripture-first, seeds platform)
 ```
 
-## Build Order Rationale
+## Build Order vs. Launch Order
 
-The entire series is built bottom-up:
+> **REGISTRY NOTE (CANONICAL_FACTS_REGISTRY §A; root `CLAUDE.md` governs):** Distinguish **build order** (which content must be proven first) from **launch order** (which product ships first to market). They differ.
 
-1. **Foundations Series first** — all math, derivations, simulations, and conclusions proven at full rigor. This is where we find out if the framework actually works. No prose is written for other books until the technical foundation is rock-solid.
+**Build order (content cascade, unchanged — bottom-up):** the Foundations Series (Book 0) is proven first at full rigor; then the popular-science flagship summarizes it; then the Family Edition wraps it in scripture. No higher product is finalized before the foundation it rests on.
 
-2. **Book 1 second** — once the Foundations Series establishes what's true, Book 1 summarizes it for physicists. Every claim in Book 1 has a full derivation in the Foundations Series backing it up.
+**Launch order (April 2026 repositioning):**
 
-3. **Book 2 third** — once Book 1 establishes the narrative, Book 2 distills it for general audiences. Every accessible explanation is grounded in real physics.
+1. **Family Edition first** — *The Creator's Blueprint (Family Edition)* (`Book_3_The_Creators_Blueprint/`) launches **1st**. It serves the warmest, most word-of-mouth-driven audience (Christian homeschool families) and seeds the author platform.
 
-4. **The Creator's Blueprint last** — once Book 2 establishes how to make this approachable, the The Creator's Blueprint wraps it in scripture. Every physics claim has been verified through the entire chain.
+2. **Popular-science flagship second** — ***Genesis Physics: The Hidden Architecture — A Physics of the First Page*** (`Book_1_Hidden_Architecture/`) launches **2nd** as the flagship.
 
-**Why this order:** No rewrites. The end is figured out before the beginning. If you build the popularization first and the math doesn't work out later, you've written a fiction book. If you build the math first, everything above it is automatically correct.
+3. **Foundations Series in parallel** — *The Foundations of Genesis Physics* (6 vols) is built in parallel as the encyclopedia and needs no marketing launch event; the trade books cite it.
+
+The old standalone popular-science title *The Hidden Architecture of Creation* (`Book_2_The_Hidden_Architecture/`) is **archival — folded into the flagship**.
+
+**Why build bottom-up regardless of launch order:** No rewrites. The end is figured out before the beginning. If the math is proven first, everything above it is automatically correct — even though the Family Edition reaches readers first.
 
 ## Content Flow: How Material Cascades Upward
 
@@ -760,6 +764,8 @@ Each level of the cascade follows strict rules:
 ---
 
 ## Publication Sequence and Timeline
+
+> **SUPERSEDED LAUNCH ORDER (CANONICAL_FACTS_REGISTRY §A; April 2026 repositioning):** The phased timeline below reflects the **original** launch sequence (flagship → popular science → Family last) and is retained as planning inventory. The **authoritative launch order is now: Family Edition (*The Creator's Blueprint*) 1st → popular-science flagship (*The Hidden Architecture — A Physics of the First Page*) 2nd → Foundations Series built in parallel (no launch event).** The *build/derivation* cascade remains bottom-up (Foundations first); only the market-launch order changed. Where a phase below shows "Book 1" publishing before the Family Edition, read it as superseded by this note.
 
 ```
 PHASE 1: Foundations (Months 1-18)
