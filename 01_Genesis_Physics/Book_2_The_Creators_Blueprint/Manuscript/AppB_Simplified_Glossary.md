@@ -373,7 +373,7 @@ In a closed system, entropy always increases over time. This is the law that has
 ---
 
 **Standard Model**
-*(physics term)* — The 20th-century physics framework that inventories all the known particles and forces. Its particle masses are now reproduced by the Genesis Physics framework from first principles, with the accuracies listed in Chapter 7, §8.
+*(physics term)* — The 20th-century physics framework that inventories all the known particles and forces. Genesis Physics aims to derive its structure — the three generations of matter, the quantized charges — from the geometry of Day 2, and reproduces some of it well; the individual particle masses are so far derived only approximately, with the honest accuracies listed in Chapter 7, §8.
 
 *(First introduced: Chapter 7)*
 
