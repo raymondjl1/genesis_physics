@@ -2,7 +2,11 @@
 
 ---
 
-## §5.0 Introduction — One Lagrangian to Rule Them All
+*In which the four forces, derived one at a time, are gathered into a single line of mathematics — and we ask what one scalar function must contain to hold an entire universe.*
+
+---
+
+## §5.0 One Lagrangian to Rule Them All
 
 [FIGURE: Fig 2.5.2 — Derivation Roadmap: From 6D Action to 4D Standard Model. Flowchart: Zone axioms (Vol 1) → 7-sector 6D Lagrangian (§5.1) → Euler-Lagrange field equations (§5.2) → Noether symmetry analysis (§5.3) → Five Principle constraints (§5.4) → KK dimensional reduction (§5.5) → 4D effective Lagrangian → SM comparison (§5.6) → beyond-SM predictions (§5.7). Color-coded: blue = 6D construction, orange = analysis, green = 4D extraction.]
 
@@ -231,6 +235,8 @@ However, the sustaining sector *is* falsifiable as a package:
 
 We mark the sustaining sector as **AXIOM-DEPENDENT** (distinct from the other sectors which are RIGOROUS or APPROXIMATE). Its physical content is the prediction that the universe is not a closed system; its specific time-dependence model is a theological interpretation that extends beyond what the physics alone requires. The reader who accepts only the first six sectors has a complete, closed-system Lagrangian that reproduces the Standard Model plus a dark sector — a scientifically complete theory. The sustaining sector adds the open-system interpretation.
 
+**Isolation from the four-force derivations.** It is worth stating explicitly, because the sustaining sector's axiom-dependent status would otherwise contaminate every downstream result: *no quantitative four-force derivation in this volume depends on $S_\text{sustain}$.* Each force coupling is computed from the geometry-and-gauge sectors alone — $G_4$ from the warp-weighted volume (Ch 2), $\alpha^{-1}$ from the Green's-function/RG coefficient (Ch 3), and the nuclear couplings from boundary and orbifold integrals (Chs 4, 6) — none of which contains $\kappa(t)$ or the coefficients $\alpha_i$ of Eq. (2.5.19). The sustaining stress-energy (2.5.25b) enters the 6D Einstein equation only as a small, time-dependent shift of the effective cosmological constant and field masses, suppressed by the withdrawal parameter $\epsilon \lesssim 10^{-27}$ in the present epoch; it does not appear in the coupling-constant integrals. Consequently the four-force coupling values inherit their epistemic status from the geometric and gauge sectors (RIGOROUS / APPROXIMATE / Provisional, as flagged in each chapter), *not* from the AXIOM-DEPENDENT status of the sustaining sector. The single place $\kappa(t)$ is invoked in the force chapters — Problem 2.12 — is a conceptual exercise that explicitly asks the student to estimate, under stated assumptions, how $G_4$ *might* shift between epochs; it is not part of the derivation of $G_4$ itself.
+
 The withdrawal parameter $\epsilon$ in Phase 3 is extremely small ($\epsilon \lesssim 10^{-27}$), which is why the universe appears to obey closed-system physics to extraordinary precision. The sustaining sector predicts specific deviations from closed-system behavior: time-variation of fundamental constants, anomalous entropy production rates, and subtle departures from strict energy conservation at cosmological scales. We catalog these predictions in §5.7.
 
 ### §5.1.9 The Complete Zone Lagrangian
@@ -299,6 +305,14 @@ $$T_{AB}^\text{gauge} = \sum_I \frac{1}{g_I^2}\left(F_{AC}^{(I)}F_B^{(I)C} - \fr
 $$T_{AB}^\text{sustain} = \kappa(t)\left[\sum_i \alpha_i \frac{\partial \mathcal{O}_i}{\partial g^{AB}} - \frac{1}{2}g_{AB}\,\mathcal{O}_\text{sustain}\right] \tag{2.5.25b}$$
 
 where $\mathcal{O}_i$ are the individual terms in $\mathcal{O}_\text{sustain}$ (Eq. 2.5.19). For the gravitational contribution: $\partial(\alpha_\text{grav}R_6)/\partial g^{AB} = \alpha_\text{grav}(R_{AB} - \frac{1}{2}g_{AB}R_6 + g_{AB}\Box - \nabla_A\nabla_B)$. For the scalar contributions: $\partial(\alpha_i|\Psi_i|^2)/\partial g^{AB} = 0$ (no metric dependence beyond the volume factor). The sustaining stress-energy acts as a small, time-dependent modification to the effective cosmological constant and field masses.
+
+> **On the Bianchi identity with a prescribed $\kappa(t)$.** Equation (2.5.22) raises an immediate consistency question. The contracted Bianchi identity, $\nabla^A G_{AB}^{(6)} = 0$, is a geometric identity that holds for *any* metric; applied to (2.5.22) (with $\Lambda_6$ constant) it forces the right-hand side to be covariantly conserved, $\nabla^A T_{AB}^\text{total} = 0$, identically. Yet $\kappa(t)$ is *prescribed*, not obtained by varying a dynamical field, so the sustaining piece taken in isolation is **not** conserved: $\nabla^A T_{AB}^\text{sustain} \neq 0$ in general (this is computed explicitly in Problem 5.7). How can both be true?
+>
+> The resolution is the Open System Axiom itself, and it is the whole physical content of the sustaining sector. The Bianchi identity is not violated — it is *enforced*, and what it enforces is a balance law. Writing the total as the six dynamical (closed-subsystem) sectors plus the sustaining sector,
+>
+> $$\nabla^A T_{AB}^\text{total} = 0 \quad\Longrightarrow\quad \underbrace{\nabla^A T_{AB}^\text{(6 dyn.)}}_{\text{closed-subsystem ``non-conservation''}} = -\,\nabla^A T_{AB}^\text{sustain} \;\equiv\; J_B^\text{ext}. \tag{2.5.25c}$$
+>
+> The quantity $J_B^\text{ext}$ is precisely the external energy–momentum input current sourced across the cosmic boundary from Zone 1. In `AXIOM_SUSTAINING_COUPLING.md` the field $\kappa$ is a **boundary-sourced** field — $\kappa|_{\xi=\xi_0} = \kappa_\text{source}(t)$ is a Dirichlet condition fixed by the transcendent boundary, *not* a Cauchy evolution from initial data — so its divergence is not required to vanish by any bulk equation of motion. The apparent non-conservation of the six dynamical sectors is exactly the boundary flux, with the opposite sign, that the sustaining sector books. A closed system would have $J_B^\text{ext} = 0$, forcing $\kappa \to$ const (the Edenic/Phase-2 case, $\epsilon = 0$, where $\dot\kappa = 0$ and energy is exactly conserved). The geometry therefore remains an exact solution of (2.5.22) at every instant; the prescribed $\kappa(t)$ does not over-determine the Einstein equation, because the warp factors and Waters profiles adjust so that $\nabla^A T_{AB}^\text{total} = 0$ holds with $T_{AB}^\text{sustain}$ included. This is consistent with the symmetry statement of §5.3.5: the *full* $T_{AB}^\text{total}$ is covariantly conserved (Eq. 2.5.34), while the energy of the *physical six-sector subsystem* alone is not — by exactly $J^\text{ext}$, suppressed by $\epsilon \lesssim 10^{-27}$ today.
 
 These are the master field equations for the geometry. They determine the warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ in the background (the solutions from Vol 1, Ch 4), and they determine the gravitational response to matter and energy in the foreground.
 
@@ -426,7 +440,7 @@ The zone Lagrangian also possesses discrete symmetries, constrained by the duali
 
 ### §5.3.5 Broken Symmetries and the Sustaining Sector
 
-The sustaining term $\kappa(t)\mathcal{O}_\text{sustain}$ in Eq. (2.5.18) explicitly breaks time-translation invariance when $\kappa$ varies with $t$. This means energy is *not exactly conserved* in the zone framework — the sustaining field can inject or withdraw energy from the physical system.
+The sustaining term $\kappa(t)\mathcal{O}_\text{sustain}$ in Eq. (2.5.18) explicitly breaks time-translation invariance when $\kappa$ varies with $t$. This means energy is *not exactly conserved* for the six dynamical sectors — the sustaining field injects or withdraws energy across the cosmic boundary. This is *not* in tension with the covariant conservation of the full $T_{AB}^\text{total}$ (Eq. 2.5.34): as the Bianchi-identity note following Eq. (2.5.25b) shows, the contracted Bianchi identity forces $\nabla^A T_{AB}^\text{total} = 0$ with the sustaining piece *included*, so the non-conservation of the six-sector subsystem is exactly the external input current $J_B^\text{ext} = -\nabla^A T_{AB}^\text{sustain}$ of Eq. (2.5.25c). What §5.3.2 calls "conservation of the total stress-energy" and what we here call "energy non-conservation" are two readings of the same balance law — one for the closed bulk, one for the physical subsystem on the Firmament.
 
 However, the breaking is extremely small. In the current (Fall) phase, $\kappa = \kappa_\text{full}(1 - \epsilon)$ with $\epsilon \sim 10^{-27}$ to $10^{-60}$. The rate of energy non-conservation is:
 

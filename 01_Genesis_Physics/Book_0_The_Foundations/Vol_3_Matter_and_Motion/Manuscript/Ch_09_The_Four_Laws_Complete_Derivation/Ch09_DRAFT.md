@@ -6,6 +6,8 @@
 
 ## §9.0 Introduction — Why Thermodynamic Laws Are Theorems
 
+**Are the laws of thermodynamics fundamental, or emergent?** For a century and a half they have been handed down as postulates — *energy is conserved*, *entropy never decreases* — immutable rules no theory is permitted to question. This chapter takes the opposite stance: the four laws are *theorems*, derivable from the zone architecture, and seeing exactly how they emerge is what the whole chapter is for. We return to this question with full force in "Why This Matters" below, but it is worth holding in view from the first line, because everything that follows is in service of answering it.
+
 Chapter 8 closed on the electroweak phase transition — symmetry breaking understood as a thermodynamic event, with a critical temperature, an order parameter, and a free-energy landscape. But to treat symmetry breaking as a *phase transition* we helped ourselves to the full apparatus of temperature, entropy, and free energy. That apparatus is exactly what this chapter now grounds. Vol 1 Chapter 11 sketched where it comes from; here we complete the derivation, so that the thermodynamics Chapter 8 leaned on rests on the same zone architecture as everything else.
 
 In Volume 1, Chapter 11, we made a promise: every law of thermodynamics is a derivable consequence of the zone architecture, not a postulate handed down by tradition. We showed, at introductory level, that the Zeroth, First, Second, and Third Laws all follow from counting microstates of membrane defects on the Firmament. We derived the partition function Z(T) and saw how it generates thermodynamic functions. We sketched the connection between the coupling strength κ and the arrow of time.
@@ -30,26 +32,7 @@ This is not a minor distinction. It means:
 
 4. **The persistence of complex structure makes sense.** A universe held in a low-entropy state (Phase 2) can maintain structure and complexity indefinitely without violating the Second Law. Once that sustaining is reduced (Phase 3), the universe ages. This is precisely the thermodynamic condition under which long-lived biological complexity is possible. (The broader interpretive significance of the two-phase structure is developed in Chapter 12.)
 
-**What's new in this chapter?**
-
-Vol 1 Chapter 11 gave you:
-- The Zeroth Law via multiplicity maximization (saddle-point argument)
-- The First Law via Noether's theorem
-- The Second Law via entropy production and κ-mechanism
-- The Third Law via mode freezing
-- The partition function and Boltzmann distribution
-- Qualitative phase-dependence of the Second Law
-
-This chapter adds:
-- **Full saddle-point analysis** with Gaussian fluctuation bounds (§9.2)
-- **Complete Noether derivation** with explicit stress-energy tensor (§9.3)
-- **Thermodynamic potentials U, F, G, H** and all four Maxwell relations — the complete framework (§9.4)
-- **Quantitative entropy production rate** formalism with the κ-mechanism proven rigorously (§9.5)
-- **Clausius inequality** derived from first principles (§9.5)
-- **Specific entropy production channels** with quantitative rates (§9.6)
-- **Debye T^d law** derived and the unattainability principle proven (§9.7)
-- **Complete phase-dependent Second Law proof** (§9.5)
-- **Arrow of time derivation** from initial conditions (§9.8)
+Where Vol 1 Chapter 11 introduced each of the four laws at a sketch level — the Zeroth Law from multiplicity maximization, the First from Noether's theorem, the Second from κ-driven entropy production, the Third from mode freezing, together with the partition function and a qualitative account of the Second Law's phase-dependence — this chapter supplies the rigor those sketches deferred. We carry out the full saddle-point analysis with Gaussian fluctuation bounds (§9.2), the complete Noether derivation with an explicit stress-energy tensor (§9.3), the four thermodynamic potentials and all four Maxwell relations (§9.4), the quantitative entropy-production formalism and Clausius inequality with the κ-mechanism proven (§9.5), the specific entropy-production channels (§9.6), the Debye $T^d$ law and the unattainability principle (§9.7), and finally the arrow-of-time derivation (§9.8).
 
 **The derivation roadmap** (Figure 3.9.1) shows how everything flows from the 6D action down to the four observable laws. Keep this figure in mind as you work through the chapter: every section adds rigor to one piece of the chain.
 

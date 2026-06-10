@@ -22,8 +22,6 @@ The derivation chain runs as follows. We begin with the 6D metric established in
 
 Every step traces to the zone manifold. Per the B2 Parameter Ledger (`Back_Matter/Parameter_Ledger.md`), the one anticipatory constant in this chapter — $K = b_\text{eff}/(2\pi) \approx 1.4383$ — is fitted in Vol 4 to the Standard Model particle content and ultimately closed in Vol 5 Ch 13; consequently $\alpha^{-1} \approx 137.04$ derived below is a **Consistency Check**, not a parameter-free Prediction (B2 Decision 4). When we are done, the reader will possess the complete derivation of classical electromagnetism from first principles — the same first principles that gave us gravity in the previous chapter.
 
-Let us begin.
-
 ---
 
 ## §3.1 The Gauge Sector of the 6D Metric
@@ -56,7 +54,7 @@ The new terms are the cross terms $2A_\mu^\xi dx^\mu d\xi$ and $2A_\mu^\eta dx^\
 
 $$[A_\mu^\xi] \cdot [dx^\mu] \cdot [d\xi] = [L^0] \cdot [L] \cdot [L] \implies [A_\mu^\xi] = [L^{-2}] \tag{2.3.2}$$
 
-Wait — this does not match the standard gauge field dimension $[A_\mu] = [L^{-1}]$. The mismatch is absorbed by the warp factor $e^{2A}$ multiplying the cross terms. The *physical* gauge field, the one that appears in the 4D effective action, is related to the metric component by:
+This does not yet match the standard gauge field dimension $[A_\mu] = [L^{-1}]$, and the discrepancy is instructive rather than fatal: the warp factor $e^{2A}$ multiplying the cross terms absorbs it. The *physical* gauge field — the one that appears in the 4D effective action — is related to the metric component by:
 
 $$A_\mu(x) = e^{A_0} A_\mu^\xi(x), \quad [A_\mu] = [L^{-1}] \quad \checkmark \tag{2.3.3}$$
 
@@ -359,7 +357,7 @@ Let us collect all four equations in their familiar vector form and trace each t
 | III | Faraday | $\nabla \times \mathbf{E} = -\partial_t\mathbf{B}$ | Bianchi identity (spatial) | Changing B induces E |
 | IV | Ampère-Maxwell | $\nabla \times \mathbf{B} = \mu_0(\mathbf{J} + \varepsilon_0\partial_t\mathbf{E})$ | $\mu=i$ components of $\delta S/\delta A_\mu = 0$ | Currents and changing E induce B |
 
-These are the four Maxwell equations. Every one of them — including the displacement current, including the absence of monopoles — follows from the zone manifold. The student who has followed the derivation from §3.1 through §3.4 has done something no physics textbook does: *derived* the equations that govern light, electricity, and magnetism from geometric first principles.
+These are the four Maxwell equations. Every one of them — including the displacement current, including the absence of monopoles — follows from the zone manifold. Standard textbooks present Maxwell's equations as empirical laws to be postulated; the student who has followed §3.1 through §3.4 has instead been offered a *derivation* of them from geometric first principles. Whether that derivation holds up under external review is, as always, for the reader to judge — but the steps are all on the page to check.
 
 ---
 
@@ -746,11 +744,9 @@ Standard QED is extraordinarily successful — its predictions agree with experi
 
 ### §3.9.5 Looking Ahead
 
-This chapter derived the *foundations* of electromagnetism from the zone manifold. Chapter 7 will build the complete classical electrodynamics — radiation, waveguides, optics — on this foundation. Volume 4 will quantize the theory and recover the full predictive power of quantum electrodynamics.
+What this chapter earned is concrete: Maxwell's four equations, the constants $\varepsilon_0$, $\mu_0$, $c$, and the geometric origin of $\alpha^{-1} \approx 137$ — all from the off-diagonal $\xi$-sector of the zone metric, with no postulated field laws. What it did not earn is the *coefficient* in that fine-structure result: as §3.7.3 was careful to flag, $C = b_\text{eff}/(2\pi)$ leans on the Standard Model particle content, which this volume takes as input and Vol 4 must derive. The crown jewel is begun here, not closed.
 
-But first, we have two more forces to extract from the geometry. Chapter 4 turns to the strong and weak nuclear forces — the most challenging derivation in this volume, requiring the zone boundary topology that we have so far set aside.
-
-The geometry has more to say. Let us listen.
+And we have two more forces still buried in the geometry. The strong and weak nuclear forces require the one structure we have so far set aside — the zone *boundary* topology — and they are the hardest derivation in the volume. Can the same membrane that gave us light, with nothing added but its edges and their orbifold symmetry, also give us confinement and beta decay? Chapter 4 puts that question to the test.
 
 ---
 

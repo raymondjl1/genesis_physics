@@ -703,6 +703,8 @@ $$\xrightarrow{\text{moments}} \text{Navier-Stokes (3.11.60)} \xleftrightarrow{\
 2. **Diffusion in the early universe** — particle diffusion during nucleosynthesis and recombination
 3. **Transport in the Waters** — viscous effects in the dark matter fluid
 
+The next chapter takes up the H-theorem we proved here ($dH/dt \le 0$, Eq. 3.11.31) and asks what it *means*: by identifying Boltzmann's $H$ with Shannon's information measure, Chapter 12 turns this chapter's irreversibility into a complete account of the arrow of time — answering the question that molecular chaos left open, namely *why* the loss of microscopic information points in only one temporal direction.
+
 ---
 
 ## Problems

@@ -2,7 +2,7 @@
 
 ---
 
-## 2.0 Introduction — The Simplest Force
+## 2.0 The Simplest Force
 
 Every physics student learns Newton's gravitational constant on the first day of mechanics. The professor writes $G = 6.674 \times 10^{-11}$ m³/(kg·s²) on the board, and the students dutifully copy it down. Nobody asks where it comes from. Nobody asks *why* it is so absurdly small — thirty-nine orders of magnitude weaker than electromagnetism, the force students learn next. The number simply *is*, and the course moves on.
 
@@ -844,7 +844,7 @@ We turn to that derivation in Chapter 3.
 
 **Problem 2.11.** The sensitivity of $G_4$ to the Waters Below extent $\eta_B$ is much weaker than its sensitivity to $\xi_A$. Prove this by computing $\partial \ln G_4 / \partial \ln \eta_B$ and $\partial \ln G_4 / \partial \ln \xi_A$ from Eq. (2.2.22). Explain physically why this asymmetry exists.
 
-**Problem 2.12.** In the Edenic thermodynamic phase (Phase II, Vol 1 Ch 8), the sustaining field $\kappa = \kappa_\text{full}$ and the zone geometry is in perfect equilibrium. Estimate how $G_4$ might differ in this phase compared to the Fall phase (Phase III). What assumptions do you need to make? State them explicitly.
+**Problem 2.12.** In the Edenic thermodynamic phase (Phase II of the four-epoch partition, Vol 1 Ch 8 — the framework's label for the pre-Fall epoch of full, undegraded sustaining; the term is used here as a defined phase name and presupposes no particular theological commitment from the reader), the sustaining field $\kappa = \kappa_\text{full}$ and the zone geometry is in perfect equilibrium. Estimate how $G_4$ might differ in this phase compared to the Fall phase (Phase III). What assumptions do you need to make? State them explicitly.
 
 ---
 

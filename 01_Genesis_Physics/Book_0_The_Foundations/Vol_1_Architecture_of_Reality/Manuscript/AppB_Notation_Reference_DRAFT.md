@@ -255,7 +255,7 @@ The universe evolves through four thermodynamic phases, labeled **always with Ar
 | Fall | **3** | Post-Fall to present | $\kappa_{\text{partial}}$ (subcritical) | Increasing | Decay, thermodynamic arrow |
 | Redemption | **4** | Future restoration | $\kappa_{\text{redeem}}$ (recovery) | Decreasing | Entropy reversal; renewal |
 
-**Notation rule:** Phase labels are **always Arabic numerals** (1, 2, 3, 4). Roman numerals (I, II, III, IV) are **never** used for phases in this series. This rule is established in Chapter 1, §1.9 and governs all downstream volumes and books. Arabic numerals are unambiguous even when they appear alongside equation numbers: "Phase 2" and "equation (1.2.5)" are structurally distinct and cannot be confused in context.
+**Notation rule (series-wide style-sheet entry):** Phase labels are **always Arabic numerals** (1, 2, 3, 4). Roman numerals (I, II, III, IV) are **never** used for phases in this series. This rule is established in Chapter 1, §1.9 and **governs all downstream volumes and books (Vols 2–6 and the trade titles); it is a standing entry in the master style sheet and must be carried into every volume's notation appendix verbatim.** Arabic numerals are unambiguous even when they appear alongside equation numbers: "Phase 2" and "equation (1.2.5)" are structurally distinct and cannot be confused in context. A spot-check of Chapters 1, 8, and 11 confirms 100% compliance in Vol 1; subsequent volumes inherit the rule and should be audited against it at draft-lock.
 
 ---
 

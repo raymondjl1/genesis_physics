@@ -10,13 +10,7 @@ Here's a question most textbooks never ask: **Why does F=ma?**
 
 For nearly 350 years, since Isaac Newton wrote it down, physics has treated this statement as the axiom from which all mechanics flows. It's the law you memorize, the rule you apply, the foundation you don't question. If you ask a typical physicist *why* the acceleration of an object is proportional to the force applied and inversely proportional to its mass, the answer is usually: "Because Newton said so, and it works."
 
-But that's not satisfying. And it's not how the zone manifold framework treats the problem.
-
-In Volumes 1 and 2, we built a complete geometric architecture for reality. The zone manifold $\mathcal{M}_Z$ is a 6-dimensional pseudo-Riemannian manifold with internal structure. The Firmament is the 4D hypersurface where we live. Matter couples to this geometry. Forces arise from field configurations on the zone architecture. Gravity emerges from curvature. Electromagnetism emerges from gauge symmetry.
-
-All of this is elegant, but it leaves a gap: **What does geometry do to matter? How do fields make things move?**
-
-That gap is the subject of this chapter. We're going to fill it by deriving Newton's three laws as geometric consequences of the zone manifold, not as axioms to be memorized.
+But that's not satisfying — and it's not how the zone manifold framework treats the problem. In Volumes 1 and 2, we built a complete geometric architecture for reality: the zone manifold $\mathcal{M}_Z$ is a 6-dimensional pseudo-Riemannian manifold whose Firmament is the 4D hypersurface where we live, with forces arising from field configurations, gravity from curvature, and electromagnetism from gauge symmetry. Elegant as that is, it leaves one gap: **What does geometry do to matter? How do fields make things move?** That gap is the subject of this chapter, which we fill by deriving Newton's three laws as geometric consequences of the zone manifold rather than as axioms to be memorized.
 
 Here's what we'll show:
 
@@ -30,9 +24,7 @@ The derivation chain we'll trace is:
 
 $$\boxed{\text{Zone Manifold Geometry (Vol 1)} \to \text{Geodesic Motion} \to \text{Test Particle Action} \to \text{Covariant Force Equation} \to \text{Newton's Laws}}$$
 
-And here's the crucial point: **We do not assume F=ma and then "derive" it.** That would be circular. Instead, we start from the action principle (which we've already established as the foundation of the zone architecture), vary it with respect to a test particle's worldline, and see what falls out. What falls out, in the non-relativistic limit, is precisely Newton's Second Law.
-
-Let me be completely clear about what assumptions we *are* making:
+The method is non-circular by construction: rather than assuming F=ma, we vary the action principle (already established as the foundation of the zone architecture) with respect to a test particle's worldline and read off what falls out — which, in the non-relativistic limit, is precisely Newton's Second Law. The assumptions we *do* make are these:
 
 - The zone manifold geometry is real and is the stage on which matter moves (Vol 1 Ch 3).
 - The Firmament is the 4D hypersurface accessible to test particles (Vol 1 Ch 5).

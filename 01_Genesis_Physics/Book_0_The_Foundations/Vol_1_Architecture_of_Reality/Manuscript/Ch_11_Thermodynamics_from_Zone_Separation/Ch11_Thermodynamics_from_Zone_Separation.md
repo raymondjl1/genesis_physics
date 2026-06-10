@@ -12,6 +12,8 @@ Ask a physicist and you will get any number of responses — "the Second Law," "
 
 This chapter answers the question. All of it. From the bottom up.
 
+> **Plain-English Summary (for the non-specialist).** Everyday experience has a direction: cups cool, things break, living bodies age, and none of it runs backward on its own. Physicists call this "the arrow of time," and standard physics can describe it but cannot say *why* the universe started orderly enough to have one. This chapter derives all four laws of thermodynamics from the zone architecture and reaches a striking conclusion: the arrow of time is not built into the deepest laws — it switched on at the Fall. While the sustaining field was at full strength (the Edenic state), order was maintained and nothing decayed. When that field was reduced, decay and aging began, and time gained its forward direction. The math is genuine physics, not a sermon; but it lands on a claim of real theological weight — that death and decay are a changed *condition* of the cosmos, not its permanent nature.
+
 In Chapter 10, we showed that the universe must be quantized — that discrete spectra emerge inevitably from the boundary conditions of the Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing'). We derived Planck's constant ℏ from membrane geometry, the Schrödinger equation from Firmament membrane dynamics, and the uncertainty principle from Fourier analysis on bounded domains. But those results described single particles, individual modes, isolated quantum states.
 
 The universe contains approximately 10⁸⁰ particles. What happens when you have 10⁸⁰ of them, all interacting, all exchanging energy on a dynamical membrane embedded in a 6D spacetime sustained by an external coupling? *That* is thermodynamics. And the answer turns out to be far more interesting than standard physics has ever told you.
@@ -416,6 +418,8 @@ $$\frac{d\Omega}{dt}\bigg|_{\text{Phase 2}} = 0 \quad \Longrightarrow \quad \box
 
 In Phase 2, entropy is constant. There is no decay, no aging, no increase in disorder. This is the Edenic condition — creation maintained at specification, sustained indefinitely. The declaration "very good" (Genesis 1:31, ESV) describes the completed creation at the end of Day 6; in the zone architecture, we interpret this as a statement about the thermodynamic state of the universe under full sustaining: every system at its designed specification, with zero entropy production. This interpretation draws on the broader narrative of Genesis 1–3, where the transition from "very good" (Genesis 1:31) to decay and death (Genesis 3:17–19) corresponds precisely to the Phase 2 → Phase 3 transition — the reduction of κ.
 
+> **A note on interpretive scope (day-age neutrality).** Reading the Fall as a *physical phase transition* in κ is this framework's position; it is not a universal Christian reading, and the physics here does not adjudicate between Genesis interpretations that thoughtful readers hold. The phase-dependent Second Law is compatible with a range of downstream views — young-earth, old-earth, day-age, and analogical-day readings alike — because what the mathematics requires is only that (i) there exist an Edenic regime of zero entropy production and (ii) a transition to the present aging regime; it does not fix the *duration* of any phase or the calendar mapping of the creation days. The same neutrality is stated for the κ(t) phase structure in Chapter 1, §1.2. Readers who locate the Edenic interval and the Fall differently in cosmic chronology can adopt the thermodynamic content of this chapter without revision.
+
 **Phase 3 — Post-Fall (κ = κ_partial < κ_full):**
 
 At the Fall, the sustaining coupling drops:
@@ -502,6 +506,16 @@ An **arrow of time** is a preferred direction in which past and future can be di
 The arrow of time is not encoded in the laws — it emerges from the **initial conditions set by the phase transition at the Fall**. "Future" is the direction of increasing entropy; "past" is the direction of decreasing entropy.
 
 This resolves one of the deepest puzzles in physics: the Past Hypothesis (why did the universe start with such low entropy?) is explained by the Edenic condition — the universe was *sustained* in a low-entropy state by κ_full, and the Fall released it into a larger phase space.
+
+---
+
+> **Biblical Anchor — The Sabbath Plateau and the Bondage to Decay**
+>
+> The two thermodynamic regimes at the heart of this chapter are anchored in two scriptural claims, in the same spirit as the principle-anchors of Chapters 7 and 8. The *Edenic plateau* ($dS/dt = 0$, Eq. 1.11.42) corresponds to the completion and rest of Genesis 2:1–2: *"Thus the heavens and the earth were completed in all their vast array. By the seventh day God had finished the work he had been doing; so on the seventh day he rested."* The Sabbath is not idleness but a sustained, finished order — in the zone architecture, a universe held at full sustaining (κ_full) with zero entropy production. The *post-Fall arrow* ($dS/dt > 0$, Eq. 1.11.46) corresponds to Romans 8:20–21: *"For the creation was subjected to frustration... in hope that the creation itself will be liberated from its bondage to decay."* The "bondage to decay" (φθορά) is exactly the irreversible entropy production that begins when κ drops to κ_partial. The arrow of time is, in this reading, the physical signature of that bondage — and Paul's "hope" of liberation is the Phase 4 (Redemption) restoration of κ.
+>
+> Two cautions, consistent with the framework's epistemic discipline. First, the *direction* of inference is theology-motivates-physics, not physics-proves-theology: Genesis 2 and Romans 8 motivate the phase-dependent reading of the Second Law; they are not offered as evidence for it (the evidence is the derivation from the 6D action and the κ-coupling, §§11.5.2–11.5.4). Second, identifying the Fall as a *physical phase transition* is this framework's position, not a universal Christian reading; the mathematics is compatible with a range of downstream Genesis interpretations (see the footnote at §11.5.3 and Ch 1 §1.2). The anchor names the correspondence; the chapter earns the physics independently.
+
+---
 
 ### 11.5.6 The Four Phases Summarized
 
@@ -832,7 +846,7 @@ With this chapter, Volume 1 is complete. In eleven chapters and three parts, we 
 - Quantization from boundary conditions (Chapter 10)
 - Thermodynamics from zone separation (this chapter)
 
-A student who has worked through these eleven chapters knows the complete architecture of reality — all zones, all boundaries, all fundamental structures, all conservation laws, all thermodynamic laws — before encountering a single force law or particle. The constitution is written. The foundation is laid.
+A student who has worked through these eleven chapters knows the complete architecture of reality — all zones, all boundaries, all fundamental structures, all conservation laws, all thermodynamic laws — before encountering a single force law or particle. The architecture is complete. The foundation is laid.
 
 Volume 2 begins the harvest.
 
@@ -876,19 +890,21 @@ Volume 2 begins the harvest.
 
 ### Conceptual Problems (12)
 
-**Q11.1.** Explain why the Second Law of thermodynamics is a *theorem* in the zone architecture rather than a *postulate*. What are the premises of the theorem?
+> **Editorial note — flagged for Book 3 (Family Edition) reuse.** Q11.1, Q11.4, Q11.7, and Q11.11 are conceptual questions that translate directly into Bible-study and family-discussion prompts once stripped of technical vocabulary (e.g., Q11.7 becomes "What does it mean to say the *direction* of time began at the Fall?"). They are marked here as source material for the Book 3 discussion-question pools; the Foundations wording stays graduate-level, and the Family Edition will rephrase rather than copy.
+
+**Q11.1.** Explain why the Second Law of thermodynamics is a *theorem* in the zone architecture rather than a *postulate*. What are the premises of the theorem? *(Book 3 discussion-question candidate.)*
 
 **Q11.2.** In the zone architecture, what is the physical meaning of temperature? How does this differ from the kinetic theory definition?
 
 **Q11.3.** The partition function $Z$ has been called "the most important function in statistical mechanics." Justify this claim by listing at least four thermodynamic quantities derivable from $Z$.
 
-**Q11.4.** Why is the Second Law phase-dependent in Genesis Physics? What changes between Phase 2 and Phase 3 that makes entropy begin increasing?
+**Q11.4.** Why is the Second Law phase-dependent in Genesis Physics? What changes between Phase 2 and Phase 3 that makes entropy begin increasing? *(Book 3 discussion-question candidate.)*
 
 **Q11.5.** A critic says: "Your sustaining coupling is just a perpetual motion machine in disguise." Write a one-paragraph rebuttal using the open-system proof of §11.8.
 
 **Q11.6.** Explain why the Third Law is a consequence of quantization. What would happen to the Third Law in a hypothetical classical (non-quantized) universe?
 
-**Q11.7.** The arrow of time "emerges" from the Fall in Genesis Physics. Explain what this means and contrast it with the standard "Past Hypothesis" explanation.
+**Q11.7.** The arrow of time "emerges" from the Fall in Genesis Physics. Explain what this means and contrast it with the standard "Past Hypothesis" explanation. *(Book 3 discussion-question candidate.)*
 
 **Q11.8.** Why must the universe be an open system in the zone architecture? What evidence from observational cosmology supports this?
 
@@ -896,7 +912,7 @@ Volume 2 begins the harvest.
 
 **Q11.10.** The equipartition theorem fails at low temperatures. Explain why, using the concept of mode freezing.
 
-**Q11.11.** If the sustaining coupling κ were suddenly restored to κ_full, what would happen to entropy production? Would time "reverse"? Explain carefully.
+**Q11.11.** If the sustaining coupling κ were suddenly restored to κ_full, what would happen to entropy production? Would time "reverse"? Explain carefully. *(Book 3 discussion-question candidate.)*
 
 **Q11.12.** The 68/27/5 energy split (dark energy / dark matter / baryonic) is derived from the rate equations in §11.8. Explain why this ratio is a *prediction* rather than an *input* of the model.
 

@@ -4,7 +4,7 @@
 
 ## 6.1 Why Gauge Theory?
 
-In the five chapters behind us, we have done something that no physics textbook does: we have derived all four fundamental forces from a single geometric structure. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from Firmament membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
+In the five chapters behind us, we have attempted something standard textbooks do not: instead of postulating the four fundamental forces, we have offered a derivation of all four from a single geometric structure. Whether that derivation ultimately survives external scrutiny is for the reader, and in time the wider physics community, to judge; what we claim is that each step is explicit and checkable, not that the matter is settled. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from Firmament membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
 
 > **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
 

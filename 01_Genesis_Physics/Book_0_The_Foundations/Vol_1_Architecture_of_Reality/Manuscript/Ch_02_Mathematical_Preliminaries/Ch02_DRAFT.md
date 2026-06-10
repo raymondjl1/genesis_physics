@@ -4,9 +4,11 @@
 
 ## 2.0 Introduction — The Mathematical Landscape
 
-In Chapter 1, we laid the constitutional foundation: seven axioms, a zone hierarchy, a sustaining field, and the promise that all physics derives from this architecture. But promises made in words must be kept in equations. The gap between what we said and what we can prove is exactly the gap between prose and mathematics. This chapter closes that gap.
+In Chapter 1, we laid the axiomatic foundation: seven axioms, a zone hierarchy, a sustaining field, and the promise that all physics derives from this architecture. But promises made in words must be kept in equations. The gap between what we said and what we can prove is exactly the gap between prose and mathematics. This chapter closes that gap.
 
-Here is the situation. The zone manifold — the nested hierarchy of zones from $Z_0$ through $Z_{2.2.3}$ — is a curved, structured mathematical object. It has topology (holes, boundaries, connectedness). It has geometry (distances, angles, curvature). It has symmetry (groups of transformations that leave the physics unchanged). And it has internal structure (fibers, connections, gauge fields) that encode the forces of nature.
+> **Plain-English Summary (for the non-specialist).** This is the toolbox chapter. Before you can build anything precise about the universe's architecture, you need the right mathematical tools — the same way a carpenter needs saws and levels before framing a house. Here we collect the tools: ways to describe curved shapes (manifolds), ways to measure direction and change on them (tangent spaces, calculus), ways to track which symmetries leave the physics unchanged (group theory), and ways to talk about the hidden internal structure that becomes the forces of nature (fiber bundles). The one promise we make: no tool is introduced for its own sake. Every one is here because a later chapter needs it, and we say which chapter. A reader who finds the math heavy can skim the definitions and return to them when the later chapter actually puts each tool to work.
+
+Consider what we are dealing with. The zone manifold — the nested hierarchy of zones from $Z_0$ through $Z_{2.2.3}$ — is a curved, structured mathematical object. It has topology (holes, boundaries, connectedness). It has geometry (distances, angles, curvature). It has symmetry (groups of transformations that leave the physics unchanged). And it has internal structure (fibers, connections, gauge fields) that encode the forces of nature.
 
 To say anything rigorous about this object — to write the field equations that govern the Waters, derive the conservation laws that constrain all processes, or prove that quantization follows from boundary conditions — we need a specific mathematical toolkit. Not mathematics in the abstract, learned for its own sake and then applied later. Mathematics taught *through* zone architecture, where every definition earns its place by solving a problem that the zone manifold poses.
 
@@ -242,6 +244,26 @@ $$v_\theta = g_{\theta\theta}v^\theta = R^2 \cdot 2 = 2R^2$$
 $$v_\phi = g_{\phi\phi}v^\phi = R^2\sin^2(\pi/4) \cdot 3 = \frac{3R^2}{2}$$
 
 The one-form $\tilde{v} = 2R^2 \, d\theta + \frac{3R^2}{2} \, d\phi$ contains the same physical information as $v$ but expressed in the cotangent space. Feed any other vector $w$ into $\tilde{v}$ and you get the inner product $g(v, w)$.
+
+**Worked Example 2.2.2: Computing the Induced Metric on a Curved Patch.**
+
+The previous example *assumed* the $S^2$ metric. Here we *derive* a metric on a curved patch from scratch, by the standard pullback construction — the same procedure Chapter 5 uses to obtain the induced metric on the Firmament. Consider a paraboloid patch embedded in flat $\mathbb{R}^3$, parametrized by $(u, v)$:
+
+$$\mathbf{X}(u,v) = (u,\; v,\; \tfrac{1}{2}(u^2 + v^2)).$$
+
+The induced (first-fundamental-form) metric is $g_{ab} = \partial_a \mathbf{X}\cdot \partial_b \mathbf{X}$, where the dot is the flat $\mathbb{R}^3$ inner product and $a,b \in \{u,v\}$. Compute the tangent vectors:
+
+$$\partial_u \mathbf{X} = (1,\,0,\,u), \qquad \partial_v \mathbf{X} = (0,\,1,\,v).$$
+
+Then the metric components are:
+
+$$g_{uu} = \partial_u\mathbf{X}\cdot\partial_u\mathbf{X} = 1 + u^2, \quad g_{vv} = 1 + v^2, \quad g_{uv} = g_{vu} = \partial_u\mathbf{X}\cdot\partial_v\mathbf{X} = uv.$$
+
+So the induced metric on the paraboloid is
+
+$$ds^2 = (1+u^2)\,du^2 + 2uv\,du\,dv + (1+v^2)\,dv^2,$$
+
+with determinant $g = (1+u^2)(1+v^2) - (uv)^2 = 1 + u^2 + v^2$. Two checks confirm the result. At the apex $(u,v)=(0,0)$ the metric reduces to $du^2 + dv^2$ — flat, as it must be where the paraboloid is locally tangent to the $z=0$ plane. And $\sqrt{g}\,du\,dv = \sqrt{1+u^2+v^2}\,du\,dv$ is exactly the surface-area element of a graph $z=f(u,v)$, namely $\sqrt{1+|\nabla f|^2}$, since $\nabla f = (u,v)$. This pullback — flat bulk metric restricted to a parametrized surface — is the prototype for the induced Firmament metric of §5.1; only the dimensionality (a 4-surface in 6D) changes.
 
 ---
 
@@ -774,6 +796,24 @@ $$dA = \frac{1}{2}(\partial_\mu A_\nu - \partial_\nu A_\mu) dx^\mu \wedge dx^\nu
 
 The exterior derivative of the electromagnetic potential IS the electromagnetic field. Maxwell's homogeneous equations ($\nabla \cdot \mathbf{B} = 0$, $\nabla \times \mathbf{E} + \partial \mathbf{B}/\partial t = 0$) are simply the statement $dF = 0$ — which follows automatically from $F = dA$ and $d^2 = 0$.
 
+**Worked Example 2.7.0: Computing an Exterior Derivative.**
+
+Let us compute $d\omega$ explicitly for a 1-form with non-constant coefficients on $\mathbb{R}^3$ (coordinates $x,y,z$):
+
+$$\omega = xy\,dx + yz\,dy + zx\,dz.$$
+
+Apply the definition (1.2.47): for a 1-form $\omega = \omega_i\,dx^i$, $d\omega = \partial_j \omega_i\,dx^j\wedge dx^i = \sum_{j<i}(\partial_j\omega_i - \partial_i\omega_j)\,dx^j\wedge dx^i$. Term by term, using $dx^i\wedge dx^i = 0$ and antisymmetry $dx^j\wedge dx^i = -\,dx^i\wedge dx^j$:
+
+$$d(xy\,dx) = \partial_y(xy)\,dy\wedge dx + \partial_z(xy)\,dz\wedge dx = x\,dy\wedge dx = -x\,dx\wedge dy,$$
+$$d(yz\,dy) = \partial_x(yz)\,dx\wedge dy + \partial_z(yz)\,dz\wedge dy = y\,dz\wedge dy = -y\,dy\wedge dz,$$
+$$d(zx\,dz) = \partial_x(zx)\,dx\wedge dz + \partial_y(zx)\,dy\wedge dz = z\,dx\wedge dz = -z\,dz\wedge dx.$$
+
+Collecting:
+
+$$d\omega = -x\,dx\wedge dy - y\,dy\wedge dz - z\,dz\wedge dx.$$
+
+This 2-form is the "curl" of $\omega$ in forms language: its components are exactly $(\nabla\times\mathbf{F})$ for the vector field $\mathbf{F} = (xy, yz, zx)$. As a check of nilpotency ($d^2=0$), take the exterior derivative once more: $d(d\omega) = -\partial_z x\,dz\wedge dx\wedge dy - \partial_x y\,dx\wedge dy\wedge dz - \partial_y z\,dy\wedge dz\wedge dx = 0$, since $\partial_z x = \partial_x y = \partial_y z = 0$. Every term vanishes, confirming $d^2\omega = 0$. This same coordinate-free machinery is what lets Chapter 7 write each Noether current as a closed form and each conserved charge as its integral over a boundary.
+
 ### The Hodge Star
 
 **Definition 2.7.3 (Hodge Star).** On an $n$-dimensional oriented Riemannian manifold, the Hodge star operator $*$ maps $p$-forms to $(n-p)$-forms:
@@ -968,6 +1008,8 @@ We have built the complete mathematical toolkit for zone architecture. Every too
 
 The mathematical language is established. It is time to speak physics.
 
+**Theological Anchor.** It is worth pausing on why a chapter of pure mathematics belongs in this book at all. The tools assembled here — symmetry groups above all — are the language in which the Symmetry Principle (the third of the Five Principles: Sustaining, Conservation, Symmetry, Degradation, Duality) is written. That a single, coherent mathematical structure should underlie the whole of physics is not something mathematics can guarantee; it is something we observe and take seriously. The framework reads that intelligibility as a signature of an ordered creation — the conviction, older than physics, that the cosmos is the kind of thing that *can* be understood because it was made with order. The equations in the chapters to come are the working-out of that conviction.
+
 ---
 
 ## Problems
@@ -1095,3 +1137,7 @@ Compute the spatial Ricci scalar ${}^{(3)}R$ of the $t = \text{const}$ slice. Co
 $$\chi(\mathcal{M}^4) = \frac{1}{32\pi^2}\int_{\mathcal{M}^4}\left(R_{\mu\nu\rho\sigma}R^{\mu\nu\rho\sigma} - 4R_{\mu\nu}R^{\mu\nu} + R^2\right)\sqrt{|g|}\,d^4x$$
 
 If the spatial section of $Z_{2.2}$ is an $S^3$ (so the full spacetime is $\mathbb{R} \times S^3$), compute $\chi$ using the known curvature of $S^3$. What topological information does this provide about the zone manifold?
+
+---
+
+*Next: Chapter 3 — The Zone Manifold.*

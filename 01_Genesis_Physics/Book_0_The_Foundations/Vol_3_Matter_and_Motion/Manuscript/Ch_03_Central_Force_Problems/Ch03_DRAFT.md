@@ -469,6 +469,10 @@ Why do we study unbound orbits? Because not every encounter between two bodies r
 
 When $E > 0$, the eccentricity $e > 1$ (from Eq. 3.3.18), and the orbit is a hyperbola. The incoming body approaches from infinity with speed $v_\infty = \sqrt{2E/\mu}$, reaches a distance of closest approach $r_{\min} = p/(1 + e)$, and recedes to infinity along a different asymptotic direction. The question is: by how much is the trajectory deflected?
 
+Before we compute that, we need one geometric quantity — the **impact parameter** $b$. Picture the incoming trajectory far from the center, where the force is still negligible and the path is a straight line. The impact parameter is simply the perpendicular distance from that incoming straight-line path to the scattering center: it is how far *off-center* the body would miss if there were no force at all. A body aimed straight at the center has $b = 0$; one aimed to skim far past has large $b$. This single number controls everything about the encounter. It is fixed by the conserved quantities we already have, because the angular momentum about the center is $L = \mu v_\infty b$ — the momentum $\mu v_\infty$ times its lever arm $b$ — so that
+$$b = \frac{L}{\mu v_\infty}.$$
+Intuitively, a small $b$ means a near head-on approach and a violent deflection; a large $b$ means the body sails past almost undisturbed. We will see this dependence made quantitative in a moment, and it is the engine of the entire cross-section calculation in §3.6.2.
+
 The orbit equation (3.3.17) still applies. At $r \to \infty$, $u \to 0$, so:
 
 $$0 = \frac{1}{p}[1 + e\cos(\phi_\infty - \phi_0)]$$
@@ -485,7 +489,7 @@ Using $\cos\alpha = 1/e$ and the identity $\cot(\chi/2) = \cot(\pi/2 - \alpha) =
 
 $$\boxed{\cot\frac{\chi}{2} = \frac{b \cdot \mu v_\infty^2}{G_4 Mm}} \tag{3.3.28}$$
 
-where $b = L/(\mu v_\infty)$ is the **impact parameter** (the perpendicular distance between the incoming asymptote and the scattering center) and $v_\infty = \sqrt{2E/\mu}$ is the initial speed at infinity.
+where $b = L/(\mu v_\infty)$ is the impact parameter introduced above and $v_\infty = \sqrt{2E/\mu}$ is the initial speed at infinity. Equation (3.3.28) now makes the earlier intuition quantitative: $\cot(\chi/2) \propto b$, so a small impact parameter gives a large deflection angle $\chi$ (a near head-on hit), while a large $b$ gives $\chi \to 0$ (the body sails past).
 
 ### §3.6.2 — The Differential Cross-Section
 

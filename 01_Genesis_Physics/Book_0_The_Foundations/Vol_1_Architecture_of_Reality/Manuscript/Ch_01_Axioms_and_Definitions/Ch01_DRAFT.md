@@ -20,7 +20,24 @@ This is rigorous mechanism, not mysticism. The sustaining field $\kappa$ that we
 
 Genesis Physics is grounded in observation. But it begins where standard physics refuses to begin: with the axioms themselves. We ask what must be true about the universe's structure for the equations we observe to hold. We argue from first principles. And we will discover that those principles point toward something profound — not as a conclusion imposed from outside, but as an inescapable logical consequence of taking seriously the deep structure of reality.
 
+A word about scope, stated plainly at the outset so it is not mistaken later. We are not arguing that the entire Bible is about physics, nor that physics exhausts the meaning of Genesis. We are asking a narrower, specific question: do the structures described in the opening of Genesis — zones, waters, a Firmament that separates them — describe something coherent about the architecture of reality that physics can formalize? This book argues that they do, and the Hebrew analysis that supports the conceptual vocabulary is collected in Appendix C. The grammar motivates the framework; it does not stand as physical proof. The proofs are in the equations.
+
+One editorial choice this volume owns at the outset: the axioms are named for what they describe. Axiom 1 is "God as Active Sustaining Ground," not "the Sustaining-Ground Hypothesis." We do not use neutralizing language to soften the claims, and we do not disguise the framework's commitments behind agnostic phrasing. Where the physics is interpretive rather than derived, we say so explicitly (Axiom 4 is marked PROPOSED; Axiom 3's epistemic status is laid out in §1.4). But we do not rename a thing to make it sound more acceptable. The reader is owed both candor about status and honesty about content.
+
 This chapter establishes the language and the foundational axioms. Treat it as you would the constitution of a nation: master it completely. Every subsequent chapter assumes you understand not just the notation, but the *why* behind each choice. The symbols you learn here are not arbitrary marks — they encode the deepest truths about how the cosmos is built.
+
+> **Plain-English Summary (for the non-specialist).** This chapter answers one question in plain terms: *what has to be true about the universe for physics to work at all?* Standard physics starts by handing you equations and asking you to accept them. We start one step earlier, with seven simple statements — call them ground rules — and only then build the equations on top. The ground rules say, in everyday language: (1) the universe is held in being from outside itself, moment by moment; (2) creation is finished, so nothing new is being made, only rearranged; (3) the deep regularities of physics reflect an unchanging Maker; (4) human beings are unusual — our choices genuinely reach into the physical world; (5) the world is winding down (things age and decay) because that sustaining hold was reduced; (6) the universe is built out of complementary pairs whose interaction makes everything interesting; and (7) cosmic history runs in four distinct seasons. The rest of the chapter says each of these precisely, in mathematics, and explains *why* each one is needed. A curious reader can follow the story all the way through on the strength of these seven ideas, even where the equations get heavy.
+
+> **The seven axioms at a glance (summary roster).**
+> 1. **Sustaining Ground** — the universe is an open system, held in being by a sustaining field κ.
+> 2. **Creation Complete** — after Day 7, matter and energy are conserved; all change is rearrangement.
+> 3. **Symmetry from Divine Nature** — the symmetries of physics generate the conservation laws (Noether).
+> 4. **Human Agency** — humans interface two domains and have genuine causal authority. *(Status: PROPOSED.)*
+> 5. **Fall Degradation** — κ weakens by a factor (1 − ε), so entropy rises; this is the source of aging and decay.
+> 6. **Duality** — creation proceeds through complementary field pairs (Waters Above / Waters Below).
+> 7. **Four Thermodynamic Phases** — Creation, Edenic, Fall, Redemption, each with its own κ and entropy behavior.
+>
+> Each axiom is stated formally and motivated in §§1.2–1.7B; their independence is proved in §1.8.
 
 Let us begin.
 
@@ -154,6 +171,8 @@ The sustaining field $\kappa$ is not constant. Its power density has varied thro
 **Phase 3: The Fall.** The sustaining field decreases to $\kappa = \kappa_{\text{partial}} < \kappa_{\text{full}}$. Now entropy is produced: $dS/dt > 0$. The universe begins to decay. Stars age. The second law reasserts itself. Death enters the cosmos.
 
 **Phase 4: Redemption.** The sustaining field is restored to a new configuration $\kappa = \kappa_{\text{redeem}}$, designed to reverse entropy production and restore the universe. This phase is beyond the scope of current observation; its mathematics is open.
+
+> **A note on interpretive scope (day-age neutrality).** Treating the Fall (Phase 2 → Phase 3) as a *physical phase transition* in κ is this framework's position, not a universal Christian reading. The four-phase κ(t) structure is compatible with multiple Genesis interpretations downstream — young-earth, old-earth, day-age, and analogical-day readings alike — because the physics fixes only the *existence and ordering* of the phases (an Edenic regime with $dS/dt = 0$ followed by a Fall regime with $dS/dt > 0$), not the duration of any phase or the calendar mapping of the creation days. Readers who locate these phases differently in cosmic chronology can adopt the axiom's content without revision. The thermodynamic consequences are developed, with the same neutrality stated, in Chapter 11 (§11.5).
 
 ### Formal Statement
 
@@ -551,7 +570,7 @@ In electromagnetism, positive and negative charges are complementary aspects of 
 
 The universe is built on this principle. God does not create a formless field. He creates *two* complementary fields in tensor product. Their interaction generates all complexity.
 
-In the Genesis narrative: "Let there be a vault between the waters to separate water from water" (Genesis 1:6). Two waters, separated by the Firmament (raqia). Life emerges precisely where the two waters interact, mediated by the Firmament.
+In the Genesis narrative: "Let there be a vault between the waters to separate water from water" (Genesis 1:6). Two waters, separated by the Firmament (*rāqîʿaʾ*). Life emerges precisely where the two waters interact, mediated by the Firmament.
 
 ### Formal Statement
 
@@ -751,12 +770,14 @@ Never use Roman numerals (I, II, III, IV) for phases.
 
 ### Hebrew Terminology
 
+Transliterations follow the canonical convention fixed in Appendix C, §C.19–C.20: italicized, lowercase, fully vocalized (macron-bearing) at formal mention. Appendix C is the single source of truth for all Hebrew terms in this volume.
+
 | Transliteration | Hebrew | Meaning |
 |----------------|--------|---------|
-| Bara (בָּרָא) | create | To bring into being; used exclusively with God as subject |
-| Elohim (אֱלֹהִים) | God | Grammatically plural, singular verbs; emphasizes power |
-| Mayim (מַיִם) | waters | Always plural in Hebrew; primordial creation energy |
-| Raqia (רָקִיעַ) | firmament | From root "to beat out, stretch"; the Firmament |
+| *bārāʾ* | בָּרָא | create; to bring into being; used exclusively with God as subject |
+| *ʾĕlōhîm* | אֱלֹהִים | God; grammatically plural, singular verbs; emphasizes power |
+| *mayim* | מַיִם | waters; always plural in Hebrew; primordial creation energy |
+| *rāqîʿaʾ* | רָקִיעַ | firmament; from root "to beat out, stretch"; the Firmament |
 
 ### Master Symbol Table
 
@@ -916,7 +937,8 @@ Chapter 2 builds the mathematical machinery on which everything that follows dep
 
 ---
 
-*End of Chapter 1: Axioms and Definitions*
+*Next: Chapter 2 — Mathematical Preliminaries.*
+
 *Foundations Vol 1: The Architecture of Reality*
 *Word count target: 10,000–14,000 words*
 *Equations: (1.2.1) through (1.7.5) — 26 equations*

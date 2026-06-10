@@ -2,17 +2,17 @@
 
 ## §6.0 Introduction — When the Architecture Resonates
 
-We know forces. We know motion. But what are the *things* that move? What, fundamentally, is matter?
+Scatter sand across a flat metal plate and draw a violin bow along its edge. The sand does not stay where you sprinkled it. It leaps, skitters, and settles — within seconds — into a sharp, geometric pattern of curves and lines. Bow the plate at a different pitch and the sand rearranges into an entirely different figure. These are Chladni patterns, and what you are seeing is real: the sand collects at the *nodes* of the plate's vibration, the points where the surface barely moves, and is shaken away from the antinodes where the motion is greatest. No one places the sand in those shapes. The oscillating field *organizes* it. The pattern you see is the plate's own topology making itself visible.
+
+Hold that image, because it is the central idea of this chapter. We know forces. We know motion. But what are the *things* that move? What, fundamentally, is matter?
 
 This is the question we must answer now, because everything we have built so far — the zone manifold geometry, the wave equation, the structure of the Firmament (רָקִיעַ, *raqia'* — the stretched-out membrane) — has been the *stage*. Matter is what happens *on* that stage when the architecture resonates.
 
-Here is the crucial insight: matter is not fundamental. Matter is what happens when the Firmament membrane vibrates at discrete frequencies, stabilized by topology.
+Here is the crucial insight: matter is not fundamental. Matter is what happens when the Firmament membrane vibrates at discrete frequencies, stabilized by topology — sand settling into Chladni figures, but in six dimensions and made permanent by topology.
 
 It is worth noting, as motivation only, a terminological resonance with the prologue to John's Gospel, where reality is described through the Greek term *Logos* (John 1:1–3) — a word whose lexical range includes rational structure, ordering principle, and intelligible pattern. The physics in this chapter neither depends on nor argues from that text: what we will *derive* is that matter is *structured* — not random or arbitrary, but organized by topological law into discrete, stable, identifiable forms. The architecture resonates, and what it produces is ordered, repeatable, mathematically precise configurations. Whether one reads that order as evidence of design or as a brute fact of nature is a question we leave entirely to the reader; the derivation that follows stands either way.
 
-Think of Chladni plates. You have a flat surface — a plate of metal or glass. Vibrate it with a specific frequency. Sand scattered on the plate will not stay everywhere; it collects at the *nodes* of the vibration — the points where the surface barely moves. The sand is not being *pulled* to those nodes by some mysterious force. Rather, the oscillating field excludes the sand from the antinodes (where motion is maximum) and permits it to rest at the nodes. The pattern you see is the field's topology making itself visible.
-
-The same is true of the Firmament. The Waters Above and the Waters Below are not just abstract fields. They vibrate. When they vibrate at precisely the right frequencies — frequencies permitted by the geometry of the extra dimensions — stable configurations emerge. These configurations are topologically protected: they cannot smoothly decay away. And these configurations are what we call *particles* — electrons, quarks, photons, all the building blocks of matter.
+Return now to those Chladni plates, because the analogy is exact. The sand is not being *pulled* to the nodes by some mysterious force; the oscillating field excludes it from the antinodes and permits it to rest at the nodes. The same is true of the Firmament. The Waters Above and the Waters Below are not just abstract fields. They vibrate. When they vibrate at precisely the right frequencies — frequencies permitted by the geometry of the extra dimensions — stable configurations emerge. These configurations are topologically protected: they cannot smoothly decay away. And these configurations are what we call *particles* — electrons, quarks, photons, all the building blocks of matter.
 
 The question is not "Where do particles come from?" The question is "Why do only *certain* vibration patterns persist? Why are there discrete masses? Why is an electron always an electron?" The answer lies in topology.
 
@@ -96,6 +96,8 @@ Let us be precise about what forces the quantization. In the ξ-direction, the W
 
 This is exactly analogous to the quantization of angular momentum: the requirement that $e^{im\phi}$ be single-valued under $\phi \to \phi + 2\pi$ forces $m \in \mathbb{Z}$. The extra-dimensional geometry plays the role of the angular periodicity.
 
+> **A note on boundary conditions — periodic or hard wall?** A careful reader will notice that we have just written the extra-dimensional modes as *periodic* exponentials, $\chi_n \propto e^{i 2\pi n_\xi \xi/\xi_A}$ (Eqs. 3.6.5–3.6.6), whereas in Chapter 7 (Eq. 3.7.5) the Waters-Above Higgs mode is written as a *Dirichlet* sine, $\psi_n \propto \sin(n_\xi \pi \xi/\xi_A)$, vanishing at the Firmament. These are not in conflict; they apply to *different field sectors*, and the difference is physical. **Topologically charged modes** — the vortex/winding configurations of §6.3–§6.5 whose conserved quantum number is a winding of the field *phase* around the vacuum circle $S^1$ — are intrinsically periodic: the phase $\theta(\xi)$ must return to itself (mod $2\pi$) as one traverses the dimension, which is exactly the single-valuedness condition above. **Gauge-coupled scalar modes** — the Higgs and the Yukawa-relevant excitations of Ch. 7 — instead feel the Firmament as an impenetrable hard wall (the membrane the Waters Above cannot cross), which imposes $\psi(0)=0$, i.e. a Dirichlet condition. In short: the Firmament *is* a hard wall for the gauge-coupled scalar that lives against it, and *is not* a wall for the winding number of a vortex that threads through it. The two conventions describe two genuinely different things — a phase that wraps versus an amplitude that must vanish at a boundary — so each is "natural" in its own sector. The *confinement energy* of a mode (used for masses in §6.2 and Ch. 7) is always set by the half-wavelength fit, hence by the $\pi$-prefactor Dirichlet scale, regardless of whether the mode also carries a winding charge.
+
 More generally, the mode functions depend on the detailed geometry of the potential well — they might be Bessel functions, Hermite polynomials, or more exotic forms depending on $V_A(\xi)$ and $V_B(\eta)$. But the essential point is universal: *the integers $n_\xi$ and $n_\eta$ are quantum numbers, and they are conserved*. A configuration with quantum numbers $(n_\xi, n_\eta)$ cannot smoothly evolve into a configuration with different quantum numbers. This conservation is topological, and it is the seed of everything that follows.
 
 For the four-dimensional part, substituting the separated ansatz back and dividing out the extra-dimensional modes, the wave equation becomes:
@@ -124,23 +126,23 @@ $$E^2 = (\hbar c |\vec{k}|)^2 + E_\xi^2 + E_\eta^2 + (m_0 c^2)^2 \quad \text{(3.
 
 where:
 
-$$E_\xi = \frac{2\pi \hbar c \, n_\xi}{\xi_A}, \quad E_\eta = \frac{2\pi \hbar c \, n_\eta}{\eta_B} \quad \text{(3.6.9)}$$
+$$E_\xi = \frac{\pi \hbar c \, n_\xi}{\xi_A}, \quad E_\eta = \frac{\pi \hbar c \, n_\eta}{\eta_B} \quad \text{(3.6.9)}$$
 
-are the energy contributions from the extra-dimensional modes. These are the Kaluza-Klein momenta — the energy cost of having a standing wave with $n_\xi$ half-wavelengths across the ξ-dimension and $n_\eta$ half-wavelengths across the η-dimension.
+are the energy contributions from the extra-dimensional modes. These are the Kaluza-Klein momenta — the energy cost of having a standing wave with $n_\xi$ half-wavelengths across the ξ-dimension and $n_\eta$ half-wavelengths across the η-dimension. The prefactor here is $\pi$, not $2\pi$: the *energy* of a confined mode is set by its half-wavelength fit between the Firmament wall and the far boundary (a Dirichlet, hard-wall condition; see §6.1 and Ch. 7, Eq. 3.7.5), which contributes one factor of $\pi$ per node. The $2\pi$ that appears in the *winding* mode functions (3.6.5)–(3.6.6) is a separate, topological quantity — the number of times the field phase wraps the vacuum circle — and does not set the confinement energy. We return to this distinction in §6.1's boundary-condition note.
 
 Now comes the crucial observation: compare the two scales.
 
 The ξ-sector gives:
-$$E_\xi^{(1)} = \frac{2\pi \hbar c}{\xi_A} \approx \frac{2\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{3 \times 10^{26} \, \text{m}} \approx 6.6 \times 10^{-52} \, \text{J} \approx 4 \times 10^{-33} \, \text{eV}$$
+$$E_\xi^{(1)} = \frac{\pi \hbar c}{\xi_A} \approx \frac{\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{3 \times 10^{26} \, \text{m}} \approx 3.3 \times 10^{-52} \, \text{J} \approx 2 \times 10^{-33} \, \text{eV}$$
 
 This is *absurdly small* — far smaller than any particle mass we observe. So the ξ-sector contributes negligibly to particle masses. The integer $n_\xi$ labels something else — perhaps a cosmological degree of freedom — but it is not the primary source of particle masses.
 
 The η-sector gives:
-$$E_\eta^{(1)} = \frac{2\pi \hbar c}{\eta_B} \approx \frac{2\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{1.3 \times 10^{-15} \, \text{m}} \approx 3 \times 10^{-10} \, \text{J} \approx 1.9 \times 10^9 \, \text{eV} = 1.9 \, \text{GeV}$$
+$$E_\eta^{(1)} = \frac{\pi \hbar c}{\eta_B} \approx \frac{\pi \times 1.05 \times 10^{-34} \, \text{J·s} \times 3 \times 10^8 \, \text{m/s}}{1.3 \times 10^{-15} \, \text{m}} \approx 7.6 \times 10^{-11} \, \text{J} \approx 4.8 \times 10^8 \, \text{eV} \approx 0.48 \, \text{GeV} = 480 \, \text{MeV}$$
 
-(Note: This value requires dimensional verification — the units of $E_\eta^{(1)}$ in the current notation should be confirmed before citing this result. An independent dimensional check using the standard formula gives a result in the range 2–5 GeV depending on the numerical prefactor convention; the discrepancy should be resolved in the detailed derivation.)
+Equivalently, using $\hbar c = 197.3\ \text{MeV·fm}$ and $\eta_B = 1.3\ \text{fm}$, this is $E_\eta^{(1)} = \pi(197.3)/1.3 \approx 477$ MeV — the same value derived in Ch. 7, Eq. 3.7.10, and recorded in the research note MASS_SCALE_RESOLUTION.md (first KK mode $\sim n\pi/\eta_B \sim 477$ MeV). The η-sector therefore sets a *few-hundred-MeV* scale, close to $\Lambda_{\rm QCD} \sim 200$ MeV and the lightest hadron masses (pion 140 MeV, kaon 494 MeV, proton 938 MeV), not the electroweak scale.
 
-This is in the *MeV to GeV range* — the scale of particle physics! The η-sector dominates.
+This is in the *hundred-MeV-to-GeV range* — the scale of strong-interaction particle physics! The η-sector dominates.
 
 **This mass hierarchy is not accidental.** The fact that $\eta_B \ll \xi_A$ means the η-modes have high energy cost, while the ξ-modes have negligible cost. So particles are built from η-sector excitations (which are expensive and therefore discrete) while their large-scale properties may involve ξ-sector quantum numbers (which are essentially free).
 
@@ -160,7 +162,7 @@ This is the *rest mass formula*. It says: the rest mass of a particle is determi
 
 In the general case with spacetime momentum $\vec{k}$, the dispersion relation is:
 
-$$\boxed{\omega^2 = c^2 |\vec{k}|^2 + \frac{(2\pi c n_\xi)^2}{\xi_A^2} + \frac{(2\pi c n_\eta)^2}{\eta_B^2} + \omega_0^2} \quad \text{(3.6.9)}$$
+$$\boxed{\omega^2 = c^2 |\vec{k}|^2 + \frac{(\pi c n_\xi)^2}{\xi_A^2} + \frac{(\pi c n_\eta)^2}{\eta_B^2} + \omega_0^2} \quad \text{(3.6.9)}$$
 
 where $\omega_0 = m_0 c^2 / \hbar$ is the bare rest frequency.
 

@@ -73,7 +73,11 @@ $$\boxed{\omega = c|\mathbf{k}|} \tag{2.7.8}$$
 
 This is the dispersion relation of a non-dispersive medium. Both the phase velocity $v_\text{ph} = \omega/|\mathbf{k}| = c$ and the group velocity $v_g = \partial\omega/\partial|\mathbf{k}| = c$ equal the speed of light. Electromagnetic waves in vacuum carry information at exactly $c$, with no frequency dependence — from radio waves at $\sim 10^3$ Hz to gamma rays at $\sim 10^{20}$ Hz, a span of 17 orders of magnitude.
 
-Why is vacuum non-dispersive? Because the zone Lagrangian's gauge sector (Eq. 2.5.1, $\mathcal{L}_\text{gauge}$) contains only the standard kinetic term $-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}$. Higher-derivative corrections (e.g., $F^4$ terms) are suppressed by the zone energy scale — the characteristic energy set by the compactification radius of the extra dimensions, which is far above any classical electromagnetic frequency. These corrections would introduce dispersion, but in the classical limit they are negligible: the ratio of photon energy to the zone scale is vanishingly small for all frequencies we consider here.
+Why is vacuum non-dispersive? Because the zone Lagrangian's gauge sector (Eq. 2.5.1, $\mathcal{L}_\text{gauge}$) contains only the standard kinetic term $-\frac{1}{4}F_{\mu\nu}F^{\mu\nu}$. Higher-derivative corrections (e.g., $F^4$ terms, a dimension-8 operator) are suppressed by the zone energy scale — the characteristic energy set by the compactification radius of the extra dimensions. The lightest such scale in the zone architecture is the Waters Below KK scale $\Lambda_\text{zone} = \hbar c/\eta_B \approx 0.152$ GeV (Ch 4 §4.2, from $\eta_B = 1.3\times10^{-15}$ m); any membrane- or Planck-scale operator is suppressed far more strongly still. By the standard effective-field-theory estimate, an $F^4$ correction enters the dispersion relation at relative order $(E/\Lambda_\text{zone})^2$. For optical photons ($E \sim 2$ eV) this is
+>
+> $$\left(\frac{E}{\Lambda_\text{zone}}\right)^2 \sim \left(\frac{2\,\text{eV}}{1.5\times10^{8}\,\text{eV}}\right)^2 \approx 2\times10^{-16},$$
+>
+and for the highest-energy gamma rays considered above ($\sim 10^{20}$ Hz, $E \sim 0.4$ MeV) it is still only $\sim 10^{-5}$. In the classical regime these corrections are therefore negligible, and the vacuum is non-dispersive to the precision of any optical or radio measurement.
 
 ### 7.2.3 Transversality and polarization
 
@@ -834,7 +838,7 @@ Both open questions are resolved by the same mechanism: quantization of the elec
 
 ---
 
-*This chapter has shown that the four Maxwell equations derived in Chapter 3 from the zone manifold are sufficient to produce all of classical electrodynamics. From radiation to circuits, from waveguides to optics, every result traces back to the Firmament membrane. In Chapter 8, we turn to the other geometric force — gravity — and develop the full gravitational field theory that seeds Volume 5's treatment of general relativity and cosmology.*
+*What this chapter earned is a closure: the four Maxwell equations derived in Chapter 3 from the zone manifold are sufficient — with nothing further postulated — to produce all of classical electrodynamics, from radiation to circuits to waveguides to optics, every result tracing back to the Firmament membrane. What it leaves for later is the quantum layer: the photon, the running of the coupling, and the precision of QED are Vol 4's, not this volume's. One geometric force is now complete from the membrane up. The other — gravity — was given its constant in Chapter 2 but never its field theory; a static $G_4$ cannot describe a wave. Chapter 8 supplies the missing dynamics, develops gravitational radiation, and seeds Volume 5's treatment of general relativity and cosmology.*
 
 ---
 

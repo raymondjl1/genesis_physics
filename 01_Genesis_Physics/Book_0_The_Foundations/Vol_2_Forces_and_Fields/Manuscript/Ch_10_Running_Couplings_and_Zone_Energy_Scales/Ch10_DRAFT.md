@@ -10,7 +10,7 @@
 
 In Part I we derived each force from the zone manifold's geometry. In Part II we formalized the apparatus — the Lagrangian, the gauge groups, the classical field theories. In Chapter 9 we explained why the forces have such wildly different strengths at ordinary energies: gravity couples through volume dilution, while the gauge forces couple through topological boundary modes.
 
-But we left a crucial question unanswered. The hierarchy ratio of 10^36 between gravity and electromagnetism was derived at *one particular energy* — the energy of protons sitting in a laboratory. What happens when we crank the energy up? Do the forces stay fixed, or do their strengths change? And if they change — do they converge?
+But we left a crucial question unanswered. The hierarchy ratio of $10^{36}$ between gravity and electromagnetism was derived at *one particular energy* — the energy of protons sitting in a laboratory. What happens when we crank the energy up? Do the forces stay fixed, or do their strengths change? And if they change — do they converge?
 
 This chapter answers those questions. What we will find is both beautiful and unsettling. The coupling "constants" are not constant at all. They run — they change with the energy at which you measure them. And the reason they run is not some exotic quantum correction tacked on after the fact. The running is *geometric*. It is built into the architecture of the zone manifold, as surely as the forces themselves.
 
@@ -731,7 +731,7 @@ This chapter established that:
 
 7. **The 10^{36} hierarchy** between gravity and electromagnetism collapses to ~10^4 at the GUT scale and vanishes at the Planck scale. The low-energy hierarchy is a projection artifact, not a fundamental mystery.
 
-In Chapter 11, we complete the picture: all four forces at all energy scales, mapped onto a single force landscape with explicit predictions and falsification criteria.
+What this chapter earned is a moving picture to set beside the static one: the four couplings are not fixed numbers but curves, and those curves bend toward a common value at a scale the geometry itself selects. What it did not earn — and we have been blunt about this throughout §10.6–§10.7 — is percent-level precision at that meeting point; the two-loop running, the non-perturbative QCD anchor, and the exact GUT scale are open, and they are Vol 4's debt to pay, not this volume's. That leaves one question hanging. We have now derived each force separately (Chs 2–4), assembled them into one Lagrangian (Ch 5), found their common symmetry origin (Ch 6), and watched their strengths converge (this chapter). What does the whole landscape look like at once — every force, every scale, every prediction laid on a single map, with the lines drawn sharply enough that an experiment could erase them? That map, and the falsification criteria that make it science rather than story, is the work of Chapter 11.
 
 ---
 

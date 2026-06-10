@@ -40,18 +40,13 @@ This intuition — that information reduces uncertainty about a system's microst
 
 Shannon's axioms are beautiful because they are minimal. They say: if you have a probability distribution $p_1, p_2, \ldots, p_N$ over $N$ possible outcomes, and you want a single number $H$ that measures your uncertainty, then $H$ must satisfy three requirements.
 
-**Axiom 1: Continuity.** If you perturb the probabilities slightly, $H$ should change slightly. No discontinuous jumps.
+**Axiom 1: Continuity.** $H$ depends continuously on the probabilities: small changes $\epsilon$ in any $p_i$ produce small changes in $H$, with $\delta H \to 0$ as $\epsilon \to 0$. No discontinuous jumps.
 
-Mathematically: for any probability distribution $\{p_i\}$, small changes $\epsilon$ in $p_i$ produce small changes $\delta H(\epsilon)$ with $\delta H \to 0$ as $\epsilon \to 0$.
+**Axiom 2: Monotonicity.** For $N$ equally likely outcomes ($p_i = 1/N$), the uncertainty $H(1/N,\ldots,1/N)$ is a monotonically increasing function of $N$: with more possible states, you are more uncertain.
 
-**Axiom 2: Monotonicity.** If all $N$ outcomes are equally likely ($p_i = 1/N$ for all $i$), then $H$ increases as $N$ increases. With more possible states, you are more uncertain.
-
-Specifically: $H(1/N, 1/N, \ldots, 1/N)$ is a monotonically increasing function of $N$.
-
-**Axiom 3: Composition.** If you learn the outcome in two stages — first narrowing down to a subset, then pinpointing within that subset — your total uncertainty is the sum of the uncertainties at each stage. (This is more subtle, but it captures the idea that information from independent choices adds.)
-
-Formally: if event A has $N$ equally likely outcomes and event B has $M$ equally likely outcomes, and they are independent, then:
+**Axiom 3: Composition.** If you learn the outcome in two independent stages, the total uncertainty is the sum of the stage uncertainties. Concretely, if event A has $N$ equally likely outcomes and independent event B has $M$, then
 $$H(N \times M) = H(N) + H(M)$$
+— information from independent choices adds.
 
 And Shannon proved (in 1948) that there is a **unique** functional form satisfying all three axioms:
 
@@ -517,6 +512,8 @@ The action functional on the zone manifold is (from Vol. 1, Ch. 3 and Ch. 9):
 
 $$S_{\text{total}} = \int d^6 X \, \mathcal{L}(\Psi_A, \Psi_B, \Psi_F, \partial_\mu \Psi, \kappa(t)) \quad \text{(3.12.43)}$$
 
+> **Notation note ($S$ vs. $\mathcal{S}$).** From here on two symbols that look similar carry very different meanings, and we keep them typographically distinct throughout the volume: **italic $S$** (as in $S_{\text{total}}$) always denotes the *action functional* — the integral of the Lagrangian density that we extremize to obtain the field equations — while **script $\mathcal{S}$** (as in $d\mathcal{S}/dt$) always denotes *thermodynamic entropy*. They are unrelated quantities that happen to share a letter; whenever both appear in the same equation, the typeface is the disambiguator.
+
 Under time reversal $t \to -t$, the Lagrangian density $\mathcal{L}$ is invariant (up to boundary terms that vanish). This means:
 
 $$S_{\text{total}}(t \to -t) = S_{\text{total}}(t) \quad \text{(3.12.44)}$$
@@ -801,15 +798,11 @@ The eschatological promise is not metaphorical: "See, I am making all things new
 
 This is the deepest answer physics can give to the problem of evil, suffering, and death: they are not permanent. They are inscribed in the very mathematics of Phase 3 as a boundary condition that will one day be *lifted*.
 
-### The Connection to the Novel Series
+### The Structural Result, Restated
 
-The Exodus Protocol novel series rests on a deep truth discovered in these physics books. The students who discover this truth — who learn that the arrow of time is not written in stone, that redemption is built into the cosmos's DNA — will understand why the universe itself cries out for a savior.
+It is worth stating plainly what the four-epoch analysis does and does not establish, because the result is easy to over-read. What the mathematics supplies is a *link*: $\kappa$ and $d\mathcal{S}/dt$ are not independent parameters but are tied together by the Degradation relation (Eq. 3.12.28), so that the same parameter which governs decay in Phase 3 also governs its cessation in Phase 4. The conditions for renewal are encoded in the same quantity that governs decay. That is a structural feature of the framework's equations, not an added postulate.
 
-A character in the *Exodus Protocol* novel series (Pillar 2) might say: *I used to think the Second Law meant the universe was dying. Now I know it means the universe is being called to repentance — and that call will be answered.*
-
-This is the bridge between physics and faith: Genesis Physics is not *replacing* theology with equations. Rather, it is showing that the equations themselves have a theological structure. The Sustaining Principle, the Degradation Principle, the promise of Redemption — these emerge as *mathematical facts*, not religious dogmas.
-
-And they point to a Creator who is not distant but intimately present, who does not wind up the cosmos and step away, but continuously holds it in being, and who has a plan for its restoration that is woven into its fundamental structure.
+How one reads the significance of that structure — whether the coupling of decay and renewal in a single parameter is taken as merely a formal property or as something more — is a matter we leave to the reader and to the companion volumes. The narrative and devotional treatment of these themes belongs to the *Exodus Protocol* novel series (Pillar 2) and to Book 3 (Family Edition), not to this volume, whose register is physics. Here we record only the physical content: the Degradation Principle and the κ phase change make entropy production a *phase condition* rather than an eternal law, so that the same architecture which produces decay also makes its reversal a well-defined possibility.
 
 ---
 
@@ -949,4 +942,18 @@ Since $\sum_n p_n = 1$ and $\sum_n p_n E_n = \langle E \rangle = U$:
 $$\mathcal{S}_{\text{Shannon}} = k_B \ln Z + \frac{U}{T}$$
 
 This matches the thermodynamic entropy from Ch. 9, Eq. 3.9.15. QED.
+
+---
+
+## § 12.8 Closing the Loop — Where Volume 3 Has Brought Us
+
+This chapter opened with a claim that the microscopic laws are time-reversible and yet the world is not — and with the suggestion that, read carefully, the same mathematics that governs decay already contains the conditions for its reversal. We are now in a position to see that this was not a figure of speech but a derived structural fact.
+
+The argument of Volume 3 closes a single loop. We began (Chapters 1–7) by deriving the laws of motion and the origin of mass as consequences of the zone architecture rather than as axioms. We then showed (Chapters 8–11) how matter in bulk — phase transitions, the four laws of thermodynamics, statistical ensembles, transport — follows from the same architecture. And in this chapter we identified entropy with information, priced information through Landauer's bound, and traced the arrow of time to a single phase-dependent quantity: the sustaining field strength $\kappa$. The Second Law turned out not to be a primitive law of decay but a *phase condition*, with $\kappa$ and $d\mathcal{S}/dt$ locked together by the Degradation relation (Eq. 3.12.28).
+
+That is the result Volume 3 was built to reach: motion, matter, and time are not three separate postulates but three faces of one architecture, and the parameter that governs irreversibility is the same one whose change defines each epoch.
+
+What Volume 3 does *not* settle is the cosmic-history side of the ledger — the actual values of $\kappa$ across the four epochs, the observational signatures that distinguish the candidate triggers of the Fall transition (§12.5), and the microscopic origin of the conductance $L$ and the T-symmetry-breaking term (Research Tasks RT-3.κ, RT-3.L, and Open Problem OP-ArT). Those are precisely the questions Volume 5 takes up, where the thermal history of the cosmos is reconstructed epoch by epoch and the entropy-rate estimates of this chapter are confronted with cosmological data. The thermodynamics is in place; the cosmology is where it is tested.
+
+---
 

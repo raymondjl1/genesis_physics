@@ -10,11 +10,13 @@ In Chapter 3, we built the zone manifold — a 6-dimensional stratified space wi
 
 That is about to change.
 
+> **Plain-English Summary (for the non-specialist).** Until now the Firmament — the four-dimensional world we live in — has been treated as a still backdrop, a line drawn on a map. This chapter shows it is alive: it behaves like a stretched membrane, a drumskin pulled taut. A drumskin has tension, weight, and can vibrate; so does the Firmament. The remarkable consequence is that the things we call particles, forces, and waves turn out to be vibrations and ripples *of this one membrane*. Even the speed of light drops out as the natural speed at which waves travel across it. The chapter is named "the stage becomes a player" because the surface that seemed to be merely the setting for physics turns out to be the source of physics. The Hebrew word for Firmament means "beaten out, stretched thin" — apt, though the physics here stands on its own.
+
 The Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') is not a boundary. It is a *membrane*. The Hebrew word means something that has been beaten out, hammered thin, stretched under tension — like gold leaf, like a drumskin. This linguistic observation provides historical motivation, but the physics must stand on its own. The mathematical content of this chapter — induced metric, extrinsic curvature, junction conditions, wave equations — is derived entirely from the 6D zone manifold established in Chapters 3–4. No result in this chapter depends on biblical interpretation; the Genesis terminology is used for naming conventions only.
 
 What the mathematics *does* establish is that the 4D hypersurface $Z_{2.2}$ has the properties of a physical membrane: mass density, tension, elastic response, and the ability to vibrate.
 
-Here is the central insight of this chapter: **the Firmament is a dynamical hypersurface**. It has its own geometry (the induced metric), its own curvature (both intrinsic and extrinsic), its own stress-energy (Firmament tension $\sigma$ and mass density $\mu$), and its own dynamics (vibration modes, wave propagation, stability). Every piece of observed physics — every particle, every force, every wave — is an excitation of this membrane or a consequence of its geometry.
+One insight organizes this entire chapter: **the Firmament is a dynamical hypersurface**. It has its own geometry (the induced metric), its own curvature (both intrinsic and extrinsic), its own stress-energy (Firmament tension $\sigma$ and mass density $\mu$), and its own dynamics (vibration modes, wave propagation, stability). Every piece of observed physics — every particle, every force, every wave — is an excitation of this membrane or a consequence of its geometry.
 
 And the most profound result of all: the speed of light $c$ is the wave speed on this membrane.
 
@@ -815,5 +817,7 @@ And when we reach Vol 2, the vector modes of §5.5.4 will be promoted to the ele
 **Problem 5.30.** (Open-ended.) The Genesis Physics framework derives $c$ from membrane properties: $c^2 = \sigma/\mu$. During the Creation epoch (Phase 1, Axiom 1), the sustaining field $\kappa$ was at supercritical levels ($\kappa_{\text{create}} \gg \kappa_{\text{full}}$). Consider two scenarios: (a) the Firmament membrane properties $\sigma$ and $\mu$ are independent of $\kappa$ (fundamental constants of the Firmament membrane material), or (b) $\sigma$ and $\mu$ depend on $\kappa$ (the Firmament membrane is "softened" or "stiffened" by the sustaining field). For each scenario, discuss whether $c$ could have varied during Creation. What observational constraints exist on time-variation of $c$? (Cite the GW170817 result: $|v_{gw} - c|/c < 3 \times 10^{-15}$.)
 
 ---
+
+*Next: Chapter 6 — Waters Field Equations.*
 
 *Chapter 5 of Foundations Vol 1: Architecture of Reality. All notation follows Chapter 1, §1.1. Equation numbering: (1.5.N) = Volume 1, Section 5, Equation N.*

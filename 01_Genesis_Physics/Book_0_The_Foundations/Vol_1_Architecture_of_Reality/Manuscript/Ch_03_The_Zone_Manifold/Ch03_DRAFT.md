@@ -11,6 +11,8 @@ In Chapter 1, we established seven axioms and Postulate F that define our univer
 
 [^axiom-count]: Chapter 1 distinguishes the seven foundational axioms (Axiom 1: God as Active Sustaining Ground; Axiom 2: Creation Complete on Day 7; Axiom 3: Symmetries from Divine Nature; Axiom 4: Humanity as Zone Interface Operator (PROPOSED); Axiom 5: Fall-phase κ-degradation; Axiom 6: Waters Above/Waters Below Duality; Axiom 7: Four Thermodynamic Phases) from Postulate F (the Primordial Spinor Field, currently an open assumption): Postulate F is a working hypothesis awaiting derivation, not an eighth axiom at the same foundational level.
 
+> **Plain-English Summary (for the non-specialist).** Chapter 1 described the universe's zones in words; this chapter builds them as an actual shape — a space you could, in principle, draw. The claim is that reality has more "directions" than the four we move through (three of space, one of time). Two extra directions hold the transcendent structure that sustains the visible world: one pointing toward the Waters Below (what we see as dark matter), one toward the Waters Above (dark energy). Sitting between them is the Firmament — the four-dimensional world we actually inhabit. The chapter's job is to make this picture mathematically exact: to say precisely how the zones nest, where their boundaries lie, and how they connect. The reward is that, once the shape is right, the forces of nature turn out to be built into the geometry rather than added on by hand.
+
 Here's the deep truth: **the shape of spacetime encodes the structure of reality itself.** Einstein taught us this. But we're going one layer deeper. The Genesis Physics axiom (Axiom 1, the Sustaining Ground) says the universe is an *open system*—it is sustained from outside, by a sustaining field. This means spacetime is not self-contained. It has structure that reaches beyond the visible cosmos. It has *zones*.
 
 The ancient texts speak of Heaven and Earth, of "waters above and waters below" (מַיִם, *mayim*, 'waters'), of a Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') separating them. We showed in Chapter 1 that these are not poetic metaphors—they are descriptions of the *topological structure* of creation. They describe zones: regions with distinct ontological status, physics, and role in the cosmic order.
@@ -38,7 +40,7 @@ Not because it's fashionable. Because four (space and time alone) are insufficie
 - §3.6 specifies the metric structure and proves consistency with the 6D spacetime construction (Ch 1 §1.2, downstream of Axiom 1)
 - §3.7 shows how the Zone Manifold becomes the foundation for all physics—forces emerge from zone geometry
 
-By the end of this chapter, you will see that *the shape of reality follows necessarily from what it means to be a sustained, open system.* Forces do not need to be added by hand. They emerge. Particles do not need separate axioms. They arise. The Firmament is not arbitrary. It follows from the geometry.
+The payoff is a single claim, earned step by step: *the shape of reality follows necessarily from what it means to be a sustained, open system.* Forces do not need to be added by hand. They emerge. Particles do not need separate axioms. They arise. The Firmament is not arbitrary. It follows from the geometry.
 
 This is why Chapter 3 is the foundation for all of Vol 2.
 
@@ -62,7 +64,7 @@ So too with the cosmos. The eight zones are these interfaces and layers. They ar
 |------|------|----------|------|
 | Z₀ | Godhead | Transcendent source, non-contingent being | Origin and sustainer |
 | Z₁ | Heaven Prime | Transcendent order, causal archetypes, atemporal | Causality source; encodes all possible outcomes |
-| Z₂ | Earth Prime | Created cosmos (all space and all time, 6D) | The arena of existence |
+| Z₂ | Earth Prime | Created cosmos (4D spacetime, embedded in the 6D Zone Manifold M_Z) | The arena of existence |
 | Z₂.₁ | Atemporal Domain | Transcendent structure within Z₂, perpendicular to time | Framework that sustains temporal dynamics |
 | Z₂.₂ | Firmament Domain | The observable boundary between transcendent and temporal | Membrane between Heaven Prime and material cosmos |
 | Z₂.₂.₁ | Waters Below | Dark matter, gravitational scaffolding | Structure that holds the cosmos together |
@@ -113,7 +115,7 @@ where:
 
 - **$Z_1$ (Heaven Prime):** An open subset of $\mathcal{M}_Z$ defined by $\xi > \xi_0 + \delta$ for some small $\delta > 0$. It is equipped with the metric (1.3.1) restricted to this region. It is *atemporal*—all Cauchy surfaces are spacelike and simultaneous.
 
-- **$Z_2$ (Earth Prime):** The full 6D manifold $\mathcal{M}_Z$, with metric (1.3.1). This is the created cosmos in all its dimensions.
+- **$Z_2$ (Earth Prime):** The created material cosmos, $Z_2 = Z_{2.1} \cup Z_{2.2}$, embedded in $\mathcal{M}_Z$ and carrying the metric (1.3.1) restricted to that region. Its observable stratum $Z_{2.2}$ is the 4D spacetime manifold; the surrounding sub-zones ($Z_{2.1}$, and the $\xi$/$\eta$ extra-dimensional structure that houses Waters Above and Below) complete Earth Prime within the 6D Zone Manifold. Per the canonical Zone Architecture, Earth Prime is the temporal material cosmos (4D spacetime), *embedded in* the 6D $\mathcal{M}_Z$ — it is not identical to the full manifold, which also contains $Z_0$ and $Z_1$.
 
 - **$Z_{2.1}$ (Atemporal Domain):** The subregion $\xi_0 < \xi < \xi_0 + \delta$. This is a thin "membrane" just above the Firmament, transcendent to time yet within the material cosmos.
 
@@ -954,7 +956,8 @@ Formulate this precisely: Define an entropy function $S(\eta)$ on the zone manif
 ### Genesis Physics (This Series)
 - Chapter 1: Seven Axioms of Genesis Physics
 - Chapter 2: Mathematical Foundations (Manifolds, Bundles, Differential Forms)
-- Foundations Vol 2 (Forces and Fields) — Einstein equations and curvature calculations on the Zone Manifold
+- Foundations Vol 2 (Forces and Fields) — curvature calculations on the Zone Manifold as the geometric source of the four forces
+- Foundations Vol 5 (The Cosmos) — the Einstein field equations and general relativity on the Zone Manifold
 - Book 1 (Popular Science Flagship): *The Hidden Architecture — A Physics of the First Page* — lay-reader summary of gravity / membrane curvature, citing the Foundations derivations
 
 ### Supplementary
@@ -985,7 +988,9 @@ Formulate this precisely: Define an entropy function $S(\eta)$ on the zone manif
 
 ---
 
-## End of Chapter 3
+---
+
+*Next: Chapter 4 — The 6D Embedding Space.*
 
 **Word count:** ~12,000 words (target: 10,000–13,000) ✓
 

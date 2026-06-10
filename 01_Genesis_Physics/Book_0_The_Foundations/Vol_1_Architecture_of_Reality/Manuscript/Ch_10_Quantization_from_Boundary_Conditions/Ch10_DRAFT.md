@@ -21,6 +21,8 @@ Everything so far has been continuous. Fields vary smoothly. The Firmament oscil
 
 But the universe is not classical.
 
+> **Plain-English Summary (for the non-specialist).** Nature comes in chunks. Atoms emit light only at specific colors; energy and spin arrive in fixed minimum amounts, never smooth gradations. This "graininess" is called quantization, and ordinary quantum mechanics simply *assumes* it as a starting rule. This chapter refuses to assume it and instead explains *why* it has to be true. The reason is the same one a guitar string can only sound certain notes: a wave trapped in a bounded space can only vibrate in a whole number of patterns. The universe's zones are bounded in just this way, so the waves that make up matter and light can only take certain discrete values. From this single idea the chapter recovers Planck's constant, the Schrödinger equation, and the uncertainty principle — the core machinery of quantum physics — as consequences of the architecture rather than as separate postulates.
+
 Atoms emit light at discrete frequencies, not continuous spectra. Angular momentum comes in chunks of $\hbar$, not in arbitrary amounts. Electrons orbit at specific radii, not wherever they please. Particles are created and destroyed in whole units, never in fractions. The universe is *quantized*.
 
 Standard quantum mechanics *postulates* this discreteness. It declares, as axiom, that observable quantities correspond to eigenvalues of Hermitian operators — and eigenvalues are discrete. It asserts Planck's constant $\hbar = 1.055 \times 10^{-34}$ J·s as a fundamental constant with no deeper explanation. It introduces the wave function as an abstract mathematical object whose square gives probabilities. It postulates the uncertainty principle, the commutation relations, the Born rule.
@@ -39,7 +41,7 @@ From this single fact, everything follows: the discrete energy spectrum, Planck'
 
 > **Notation note (this chapter).** We use lowercase $\psi(x,t)$ for the full (relativistic) Firmament membrane displacement field and uppercase $\Psi(x,t)$ for the slowly-varying non-relativistic envelope — the "wave function" of standard quantum mechanics. The two are related by $\psi = \Psi \, e^{-imc^2t/\hbar}$ (§10.4.2). This parallels the convention in prior chapters where $\psi$ denotes a general field and $\Psi$ denotes the Waters fields.
 
-By the end of this chapter, you will understand why the universe *must* be quantized — not because God chose discrete physics over continuous physics, but because the architecture of creation, with its bounded zones and topological structure, admits no other possibility. Discreteness is the geometry's doing.
+So the question this chapter answers is not *whether* the universe is quantized but *why it could not be otherwise*: the architecture of creation, with its bounded zones and topological structure, admits no continuous alternative. Discreteness is not a divine preference for the granular over the smooth — it is the geometry's doing.
 
 **Roadmap:**
 
@@ -784,10 +786,6 @@ The mathematics cannot answer that last question. But it does, quietly, point to
 
 ---
 
-**END OF CHAPTER 10**
-
----
-
 ## Problem Sets
 
 ### Computational Problems (10 total)
@@ -932,5 +930,7 @@ The mathematics cannot answer that last question. But it does, quietly, point to
 | (1.10.70) | **Born rule (derived)** |
 
 ---
+
+*Next: Chapter 11 — Thermodynamics from Zone Separation.*
 
 **Word count: ~12,100 words**

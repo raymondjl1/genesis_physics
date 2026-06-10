@@ -7,6 +7,8 @@
 
 Imagine you're an architect, and someone hands you a blueprint that says: "This building has eight zones, nested in a specific hierarchy. Heaven above, Earth below, a Firmament (רָקִיעַ, *rāqîʿaʾ*, 'stretched-out thing') in between, with Waters (מַיִם, *mayim*, 'waters') above and below. Fields that sustain everything." You nod, understanding the structure. But then they ask: "Now build it."
 
+> **Plain-English Summary (for the non-specialist).** Chapter 3 drew the universe's floor plan — which zones exist and how they nest. This chapter pours the concrete: it writes down the *metric*, the rule that says how far apart any two points are and how space curves between them. The metric matters because, in modern physics, curvature *is* gravity, and here curvature also carries dark energy and dark matter. The chapter's headline result answers a question people have asked for a century: *why these dimensions and not others?* The answer is that four dimensions are too few to hold both dark energy and dark matter as geometry, and seven or more add structure the universe doesn't use. Six is the smallest number that fits — and that is exactly the "Waters Above, Waters Below, Firmament between" structure the opening of Genesis describes.
+
 That is exactly where we are. Chapter 3 gave us the skeleton—the topological blueprint of the Zone Manifold, nine zones stratified into a 6D spacetime. But a skeleton alone doesn't breathe. Topology tells you which zones are connected; geometry tells you *how* they are connected. Topology is the blueprint; geometry is the actual building.
 
 The metric is the building. It is the field of infinitesimal distances—the way spacetime curves, stretches, and breathes. Without a metric, there is no physics. Particles don't move, forces don't propagate, light doesn't travel. The metric is not a decorative detail. It is the *physics itself*. Einstein's great insight was that spacetime curvature *is* gravity. We go further: spacetime curvature—the metric structure—*is everything*. It encodes dark energy, dark matter, the sustaining field, all in one unified geometric object.
@@ -30,7 +32,7 @@ Every symbol has meaning. $A(\xi,\eta)$ is the warp factor that controls how the
 - Six dimensions give you two independent geometric fields: one for dark energy, one for dark matter.
 - Seven or more add unconstrained degrees of freedom that don't solve new problems.
 
-And here's the miracle: the Bible describes creation with precisely this structure. "Waters Above, Waters Below, and a Firmament between." That's codimension-2 embedding. That's exactly six dimensions. Not metaphor. Not coincidence. *Encoded in the geometry itself.*
+And here's the miracle: the Bible describes creation with precisely this structure. "Waters Above, Waters Below, and a Firmament between." That's codimension-2 embedding — exactly six dimensions, *encoded in the geometry itself* rather than read in as metaphor.
 
 **The figure you should carry forward:**
 
@@ -1429,4 +1431,4 @@ This is how science and theology meet: in the structure of reality itself.
 
 ---
 
-*End of Chapter 4*
+*Next: Chapter 5 — The Firmament Manifold.*

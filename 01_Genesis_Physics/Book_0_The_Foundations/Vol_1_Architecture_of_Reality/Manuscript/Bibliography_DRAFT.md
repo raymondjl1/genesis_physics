@@ -677,6 +677,34 @@ Beale, G. K. (2011). *The End of the Backlog: Reconceptualizing the Nature of Ne
 
 ---
 
+## Per-Chapter Further Reading — Five Highest-Leverage References
+
+A 270-entry bibliography is a reference, not a reading list. For the student who wants the *five* sources most worth consulting alongside each chapter, the lists below curate the highest-leverage entries (all drawn from the categories above). Each chapter's "Further Reading" box in the final typeset edition will reproduce its five-entry list; they are collected here so the selection is auditable in one place.
+
+**Chapter 1 — Axioms and Definitions.** Penrose, *The Road to Reality* (2004); Barrow & Tipler, *The Anthropic Cosmological Principle* (1986); Collins, "The Teleological Argument" (2009); Davies, *The Physics of Time Asymmetry* (1974); Misner, Thorne & Wheeler, *Gravitation* (1973).
+
+**Chapter 2 — Mathematical Preliminaries.** Nakahara, *Geometry, Topology and Physics* (2003); Frankel, *The Geometry of Physics* (2011); Bott & Tu, *Differential Forms in Algebraic Topology* (1982); Steenrod, *The Topology of Fibre Bundles* (1951); do Carmo, *Riemannian Geometry* (1992).
+
+**Chapter 3 — The Zone Manifold.** Misner, Thorne & Wheeler, *Gravitation* (1973); Wald, *General Relativity* (1984); Steenrod, *The Topology of Fibre Bundles* (1951); Hawking & Ellis, *The Large Scale Structure of Space-Time* (1973); Nakahara, *Geometry, Topology and Physics* (2003).
+
+**Chapter 4 — The 6D Embedding Space.** Randall & Sundrum, "An Alternative to Compactification" (1999); Kaluza, "Zum Unitätsproblem der Physik" (1921); Klein, "Quantentheorie und fünfdimensionale Relativitätstheorie" (1926); Arkani-Hamed, Dimopoulos & Dvali, "The Hierarchy Problem and New Dimensions" (1998); O'Neill, *Semi-Riemannian Geometry* (1983).
+
+**Chapter 5 — The Firmament Manifold.** Randall & Sundrum, "Large Mass Hierarchy from a Small Extra Dimension" (1999); Polchinski, *String Theory*, Vol. I (1998); Horava & Witten, "Heterotic and Type I String Dynamics from Eleven Dimensions" (1996); O'Neill, *Semi-Riemannian Geometry* (1983); Frankel, *The Geometry of Physics* (2011).
+
+**Chapter 6 — Waters Field Equations.** Navarro, Frenk & White, "The Structure of Cold Dark Matter Halos" (1996); Planck Collaboration, "Planck 2018 results. VI" (2020); Caldwell, Dave & Steinhardt, "Cosmological Imprint of an Energy Component" (1998); Steinhardt, Wang & Zlatev, "Cosmological Tracking Solutions" (1999); Weinberg, *Cosmology* (2008).
+
+**Chapter 7 — Symmetries and Conservation Laws.** Noether, "Invariante Variationsprobleme" (1918); Weinberg, *The Quantum Theory of Fields*, Vol. I (1995); Goldstone, "Field Theories with Superconductor Solutions" (1961); Coleman, *Aspects of Symmetry* (1985); Wigner, *Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra* (1959).
+
+**Chapter 8 — The Five Principles as Constraints.** Lovelock, "The Einstein Tensor and Its Generalizations" (1971); Noether, "Invariante Variationsprobleme" (1918); Coleman, *Aspects of Symmetry* (1985); Weinberg, *The Quantum Theory of Fields*, Vol. I (1995); Penrose, *The Road to Reality* (2004).
+
+**Chapter 9 — Pattern Operators and the Seven Types.** Coleman, *Aspects of Symmetry* (1985); Wigner, *Group Theory and Its Application…* (1959); Nakahara, *Geometry, Topology and Physics* (2003); Helgason, *Differential Geometry, Lie Groups, and Symmetric Spaces* (1978); Bott & Tu, *Differential Forms in Algebraic Topology* (1982).
+
+**Chapter 10 — Quantization from Boundary Conditions.** Dirac, *The Principles of Quantum Mechanics* (1981); von Neumann, *Mathematical Foundations of Quantum Mechanics* (1955); Sakurai, *Modern Quantum Mechanics* (1994); Weinberg, *The Quantum Theory of Fields*, Vol. I (1995); Peskin & Schroeder, *An Introduction to Quantum Field Theory* (1995).
+
+**Chapter 11 — Thermodynamics from Zone Separation.** Landau & Lifshitz, *Statistical Physics*, Part 1 (1980); Callen, *Thermodynamics and an Introduction to Thermostatistics* (1985); Jaynes, "Information Theory and Statistical Mechanics" (1957); Tolman, *The Principles of Statistical Mechanics* (1938/1979); Davies, *The Physics of Time Asymmetry* (1974).
+
+---
+
 ## Notes on Bibliography
 
 - **Total entries:** 107 references across 30 categories

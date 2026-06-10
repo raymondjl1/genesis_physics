@@ -16,42 +16,11 @@ This chapter answers all of these questions. We are going to build the complete 
 
 The stakes are high. The Planck distribution is not just another formula. It was the formula that launched quantum mechanics — Planck's 1900 derivation of blackbody radiation required him to assume that energy comes in discrete packets, an assumption he himself called "an act of desperation." In standard physics, this quantization is postulated. In the zone framework, it is a theorem: boundary conditions on the Firmament's bounded extra dimensions force discrete energy levels (Vol 1, Chapter 10). If we can derive the Planck spectrum — with all its numerical constants matching experiment to sub-percent accuracy — from this geometric origin, we will have demonstrated that the zone manifold's quantization mechanism is not ad hoc but physically productive. That is what this chapter accomplishes.
 
-### What This Chapter Accomplishes
-
-Here is the plan:
-
-1. **The partition function, rigorously** (§10.2) — We derive Z from the principle of maximum entropy on the zone manifold. Not postulated. Not imported from a textbook. Built from the ground up.
-
-2. **The three ensembles** (§10.3) — Microcanonical, canonical, grand canonical. Why exactly three? Because there are exactly three extensive quantities (energy, volume, particle number) that a system can exchange with its reservoir.
-
-3. **Mode density from geometry** (§10.4) — How many electromagnetic modes fit in a box? The answer is pure geometry: g(ν) = 8πν²/c³. We derive it by counting standing waves, just as we counted Firmament modes in Vol 1 Chapter 5.
-
-4. **The Planck distribution** (§10.5) — The crown jewel. Combining mode density with Bose-Einstein statistics yields B(ν,T) = 2hν³/[c²(e^{hν/kT} − 1)]. Every ingredient traces to the zone architecture.
-
-5. **Thermal radiation laws** (§10.6) — Stefan-Boltzmann, Wien's displacement law, and the CMB temperature. All derived, all verified against experiment.
-
-6. **The classical-quantum bridge** (§10.7) — Where and why classical statistical mechanics breaks down.
-
-7. **Foundations for quantum statistics** (§10.8) — What Volume 4 inherits from this chapter.
+The path runs as follows. We first build the partition function $Z$ from the principle of maximum entropy on the zone manifold (§10.2), then organize the bookkeeping into its three ensembles — microcanonical, canonical, grand canonical, one for each extensive quantity a system can exchange (§10.3). With the counting machine in place we derive the mode density $g(\nu) = 8\pi\nu^2/c^3$ from pure geometry (§10.4) and combine it with Bose-Einstein statistics to reach the Planck distribution (§10.5), from which the Stefan-Boltzmann law, Wien's displacement law, and the CMB temperature follow and are checked against experiment (§10.6). The chapter closes by locating where classical statistical mechanics breaks down (§10.7) and by handing the quantum-statistics foundations forward to Volume 4 (§10.8).
 
 [FIGURE: Fig 3.10.1 — Statistical Mechanics Derivation Roadmap. Complete chain: 6D action → quantized modes (Vol 1 Ch 10) → ℏ, k_B → spin-statistics (Vol 1 Ch 10) → partition function Z (Ch 9/10) → three ensembles → mode density g(ν) → Bose factor → Planck spectrum → Stefan-Boltzmann, Wien, CMB. Ch 9 results shown as established foundations (shaded boxes). Ch 10 new content highlighted (bold boxes).]
 
-### What You Already Know
-
-From Chapter 9, you have:
-- The Boltzmann distribution: P_n = e^{−E_n/k_BT}/Z (Eq. 1.11.25)
-- The partition function: Z(T) = Σ_n e^{−E_n/k_BT} (Eq. 1.11.25)
-- The connection to free energy: F = −k_BT ln Z (Eq. 1.11.29)
-- All four thermodynamic potentials U, F, G, H and the Maxwell relations (Ch 9 §9.4)
-- The phase-dependent Second Law and the κ-mechanism (Ch 9 §9.5)
-- Fermi-Dirac and Bose-Einstein occupation numbers (Eqs. 1.11.34–1.11.35)
-
-From Volume 1 Chapter 10, you have:
-- Quantization from boundary conditions on bounded domains
-- The derivation of ℏ from membrane parameters
-- The spin-statistics theorem: even winding → bosons, odd winding → fermions
-
-This chapter puts all of these pieces together into a working machine.
+This chapter assumes the results assembled in Chapter 9 — the Boltzmann distribution and partition function $Z(T) = \sum_n e^{-E_n/k_BT}$, the free energy $F = -k_BT\ln Z$, the four thermodynamic potentials and Maxwell relations (§9.4), the phase-dependent Second Law and κ-mechanism (§9.5), and the Fermi-Dirac and Bose-Einstein occupation numbers — together with the quantization-from-boundary-conditions, the derivation of ℏ from membrane parameters, and the spin-statistics theorem (even winding → bosons, odd → fermions) established in Vol 1 Chapter 10. This chapter puts those pieces together into a working machine.
 
 ---
 
@@ -799,6 +768,8 @@ $$\xrightarrow{\text{integrate}} j^* = \sigma_{\text{SB}} T^4 \xrightarrow{\text
 4. **Chemical potential** — the parameter controlling particle number
 5. **Classical-quantum bridge** — precise conditions for when classical physics applies
 6. **Numerical verification methodology** — derived constants matched to experiment
+
+Everything in this chapter described systems *in equilibrium* — the partition function counts states once the system has settled. The next chapter asks what happens *on the way* to equilibrium: Chapter 11 builds the kinetic theory of transport, deriving the Boltzmann equation and the H-theorem, and so supplies the missing dynamical account of *how* a system relaxes into the distributions we have just learned to count.
 
 ---
 

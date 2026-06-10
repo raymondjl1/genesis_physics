@@ -25,6 +25,20 @@ Let us begin with the view from above.
 
 ## 11.1 The View from Above — Forces as Geometry
 
+This volume is not a physics volume that borrows biblical vocabulary; it is a physics volume whose load-bearing structures are *read from* the biblical text and then required to carry quantitative weight. The opening of Genesis names an architecture — a firmament set in the midst of the waters, dividing the waters above from the waters below (Genesis 1:6–8) — and Vol 1 derived that architecture as the 6D zone manifold. Before assembling the quantitative landscape, we make the full cascade explicit, so the reader can see at a glance how each force traces from a scriptural phrase, through a geometric structure, to a measured coupling.
+
+**The Biblical → Geometric → Physical cascade.**
+
+| Biblical anchor (Genesis 1:6–8; Col 1:17) | Geometric structure (Vol 1) | Physical consequence (Vol 2) |
+|-------------------------------------------|------------------------------|------------------------------|
+| "a firmament in the midst of the waters" (*rāqîaʿ*) | The Firmament: 4D brane $Z_{2.2}$, tension $\sigma$, wave speed $c^2=\sigma/\mu$ | Speed of light; the 4D arena on which all four forces act (Ch 1, Ch 7) |
+| "let it divide the waters from the waters" | Codimension-2 split into bulk regions; the 6D manifold ℳ₆, metric (1.4.2) | Free 6D motion projects to 4D as *force* — the master mechanism (Ch 1) |
+| "the waters... above the firmament" (*mayim* above) | Waters Above: ξ-direction, warp $A_\xi=(2/3)\ln(L_A/\xi)$ | Dark energy (~68%); gravity's power-law volume dilution → weak $G_4$ (Ch 2, Ch 9); EM via ξ-circle isometry (Ch 3) |
+| "the waters... under the firmament" (*mayim* below) | Waters Below: η-direction, compact profile, ℤ₂/ℤ₃ orbifold structure | Dark matter (~27%); weak force (SU(2), ℤ₂) and strong force (SU(3), ℤ₃) from boundary/orbifold modes (Ch 4, Ch 6) |
+| "in him all things hold together" (Col 1:17) | Sustaining coupling $\kappa(t)$; open-system source from Zone 1 | The sustaining sector $S_\text{sustain}$; open-system thermodynamics (Ch 5 §5.1.8) |
+
+Each row is a *derivation*, not an analogy: the geometric structure in the middle column is the object Vol 1 built from the action principle, and the physical consequence in the right column is what this volume computes from it. The Genesis text supplies the architecture; the mathematics supplies the content. With the cascade in view, we trace the chain in detail.
+
 ### 11.1.1 The Derivation Chain
 
 The logical chain that connects the zone manifold to the four forces fits on a single page. That it fits on a single page is itself remarkable — the Standard Model of particle physics requires dozens of independent postulates to cover the same territory. Here is the chain:
@@ -326,15 +340,17 @@ The Planck satellite observed a statistically significant (>3σ) alignment betwe
 
 ### 11.5.7 Summary of Beyond-Reach Predictions
 
-| Prediction | Zone Value | Current Status | Key Experiment | Timeline |
-|-----------|-----------|---------------|----------------|----------|
-| Proton lifetime | 10³⁴–10³⁶ yr | τ_p > 8.2×10³³ yr (consistent) | Hyper-Kamiokande | 2027+ |
-| Scalar GW mode | 1–10% of tensor | Not yet detectable | Einstein Telescope, LISA | 2035+ |
-| α time variation | 0 ± 10⁻⁹/Gyr | < 1.6×10⁻⁶/Gyr (consistent) | Atomic clocks, quasar spectra | Ongoing |
-| DM direct detection | σ_SI = 0 exactly | σ_SI < 1.35×10⁻⁴⁷ cm² (consistent) | DARWIN, XLZD | 2030s |
-| Hubble tension | Permanent, ΔH/H ~ 8.3% | H₀ = 67.4 vs. 73.0 (tension exists) | DESI, Euclid | 2027+ |
-| Dark energy EoS | w = −1.000 exactly | w = −1.03 ± 0.03 (consistent) | DESI | 2027–28 |
-| CMB anomaly | Quadrupole aligned | >3σ anomaly observed (consistent) | CMB-S4 | 2030s |
+The precision column records, for each entry, the current observational margin between the zone value and the best bound or measurement — the beyond-reach analogue of the "Agreement" column in the §11.3.1 Consistency-Check table. Because these predictions are not yet measured, "precision" here means the sharpness of the present bound (how much room remains before the prediction is tested), not a fractional agreement.
+
+| Prediction | Zone Value | Current Status | Precision / Present Bound | Key Experiment | Timeline |
+|-----------|-----------|---------------|---------------------------|----------------|----------|
+| Proton lifetime | 10³⁴–10³⁶ yr | τ_p > 8.2×10³³ yr (consistent) | Bound within ~1.2× of lower edge of predicted band | Hyper-Kamiokande | 2027+ |
+| Scalar GW mode | 1–10% of tensor | Not yet detectable | No bound yet (sensitivity ~10× too coarse) | Einstein Telescope, LISA | 2035+ |
+| α time variation | 0 ± 10⁻⁹/Gyr | < 1.6×10⁻⁶/Gyr (consistent) | Bound ~10³× above predicted ceiling | Atomic clocks, quasar spectra | Ongoing |
+| DM direct detection | σ_SI = 0 exactly | σ_SI < 1.35×10⁻⁴⁷ cm² (consistent) | Exact zero; any nonzero signal falsifies | DARWIN, XLZD | 2030s |
+| Hubble tension | Permanent, ΔH/H ~ 8.3% | H₀ = 67.4 vs. 73.0 (tension exists) | Predicted 8.3% vs. observed ~8.0% split | DESI, Euclid | 2027+ |
+| Dark energy EoS | w = −1.000 exactly | w = −1.03 ± 0.03 (consistent) | Within 1σ (0.03) of exact value | DESI | 2027–28 |
+| CMB anomaly | Quadrupole aligned | >3σ anomaly observed (consistent) | Alignment seen at >3σ | CMB-S4 | 2030s |
 
 ---
 

@@ -12,6 +12,8 @@ But the Firmament is not alone. It sits between two vast regions of the 6D bulk:
 
 Here is the central question of this chapter: **what equations govern these fields?**
 
+> **Plain-English Summary (for the non-specialist).** Most of the universe is invisible: about 95% of it is "dark energy" and "dark matter," names that really just mean *we don't know what they are*. In this framework they are not exotic undiscovered particles but two fields filling the regions on either side of the Firmament — the Waters Above and the Waters Below. This chapter writes down the equations those fields obey and then reads off what they predict. The Waters Above behave exactly like dark energy (a steady push driving cosmic expansion); the Waters Below behave exactly like dark matter (an invisible scaffolding that shapes galaxies). The point worth holding onto: two famous cosmic mysteries fall out of one geometric picture, with no new ingredients added by hand.
+
 The answer will emerge from a single principle — the action principle applied to scalar fields on the 6D zone manifold. We will construct the action functional, vary it with respect to each field, and derive the Euler-Lagrange equations. The result is a coupled system of nonlinear partial differential equations that governs the entire dark sector of the universe.
 
 And the result is striking. The Waters Above field $\Psi_A$ — when evaluated in equilibrium — produces a constant energy density with equation of state $w = -1$. This is dark energy. The cosmological constant is not a mystery parameter inserted by hand; it is the vacuum expectation value of $\Psi_A$, set by the geometry of the $\xi$-direction.
@@ -821,3 +823,7 @@ Every variable has been defined. Every boundary condition has been specified. Ev
 **Problem 6.19.** Prove that the NFW profile is the unique spherically symmetric, isotropic, virialized solution of the Jeans equation coupled to the Poisson equation with dark matter as the only source. State clearly any additional assumptions required.
 
 **Problem 6.20.** (Open problem) The coupling constant $G_{\text{int}}$ between the two Waters fields determines the correlation between dark energy and dark matter properties. Propose an observational test that could measure or constrain $G_{\text{int}}$ using current cosmological data (CMB, BAO, weak lensing, or galaxy clustering).
+
+---
+
+*Next: Chapter 7 — Symmetries and Conservation Laws.*

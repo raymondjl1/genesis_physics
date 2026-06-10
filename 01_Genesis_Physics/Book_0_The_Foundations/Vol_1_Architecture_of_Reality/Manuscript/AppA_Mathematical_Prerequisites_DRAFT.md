@@ -541,6 +541,8 @@ $$A = A_\mu \, dx^\mu \quad \text{where } A_\mu \in \mathfrak{g} \tag{A.51}$$
 A **local section** $\sigma: U \to E$ (a choice of point in each fiber over U) transforms under gauge transformations $g: U \to G$ as:
 $$\sigma' = \sigma \cdot g \quad \Rightarrow \quad A'_\mu = g^{-1} A_\mu g + g^{-1} \partial_\mu g \tag{A.52}$$
 
+> **Micro-derivation (why a section's transformation forces the gauge rule A.52).** A section $\sigma$ is a choice of "which point counts as the origin" in each fiber; a gauge transformation $\sigma' = \sigma\cdot g(x)$ re-chooses it pointwise. The connection is *defined* by how it makes the section's covariant derivative transform tensorially: $D_\mu\sigma = (\partial_\mu + A_\mu)\sigma$ must satisfy $D'_\mu\sigma' = (D_\mu\sigma)\cdot g$. Substitute $\sigma' = \sigma g$: $(\partial_\mu + A'_\mu)(\sigma g) = (\partial_\mu\sigma)g + \sigma\partial_\mu g + A'_\mu\sigma g$, and we require this to equal $(\partial_\mu\sigma + A_\mu\sigma)g$. Cancelling $(\partial_\mu\sigma)g$ and solving for $A'_\mu$ gives $A'_\mu = g^{-1}A_\mu g + g^{-1}\partial_\mu g$ — exactly (A.52). The inhomogeneous term $g^{-1}\partial_\mu g$ is the price of letting $g$ depend on position; it is why a connection is *not* a tensor.
+
 **Used in:** Chapter 2 (gauge structure), Chapter 3, Chapter 7 (symmetries).
 
 ---
@@ -651,6 +653,8 @@ In coordinates, if $X = x^a T_a$ and $Y = y^b T_b$:
 $$[X, Y] = x^a y^b [T_a, T_b] = x^a y^b f^c_{ab} T_c \tag{A.65}$$
 
 where $f^c_{ab}$ are the **structure constants** of the Lie algebra.
+
+> **Micro-derivation (where the structure constants come from).** Expand the group-commutator definition (A.64) for small $s,t$. Writing $\exp(sX) = e + sX + \tfrac12 s^2X^2 + \cdots$ and multiplying the four factors $\exp(sX)\exp(tY)\exp(-sX)\exp(-tY)$, all zeroth- and first-order terms cancel, and the surviving lowest-order term is $st\,(XY - YX)$. Dividing by $st$ and taking $s,t\to 0$ gives $[X,Y] = XY - YX$ — the bracket is just the matrix commutator. Since $[T_a,T_b]$ is again an element of the (finite-dimensional) algebra, it must expand in the basis: $[T_a,T_b] = f^c_{ab}\,T_c$. The numbers $f^c_{ab}$ are therefore *forced to exist* by closure of the algebra; antisymmetry of the bracket gives $f^c_{ab} = -f^c_{ba}$, and the Jacobi identity gives the quadratic constraint $f^e_{ab}f^d_{ec} + f^e_{bc}f^d_{ea} + f^e_{ca}f^d_{eb} = 0$.
 
 **Properties:**
 - Antisymmetry: $[X, Y] = -[Y, X]$
@@ -779,6 +783,8 @@ $$\Delta = d\delta + \delta d \tag{A.75}$$
 
 Let M be an oriented n-dimensional manifold with boundary $\partial M$ (with induced orientation). For any (n-1)-form $\omega$:
 $$\int_M d\omega = \int_{\partial M} \omega \tag{A.76}$$
+
+> **Micro-derivation (why Stokes is just the fundamental theorem, iterated).** On the unit interval $[a,b]$ (a 1-manifold with boundary $\{a,b\}$), take the 0-form $f$. Then $d f = f'(x)\,dx$, and $\int_{[a,b]} df = \int_a^b f'\,dx = f(b)-f(a)$, which is exactly the boundary evaluation $\int_{\partial[a,b]} f$ with the induced orientation ($+$ at $b$, $-$ at $a$). The general theorem is this base case applied one coordinate at a time on each chart of a partition of unity: $\int d\omega$ over a coordinate cube telescopes, by the 1D result in each direction, into the integral of $\omega$ over the cube's faces; interior faces cancel pairwise (opposite orientations), leaving only $\partial M$. That cancellation of interior boundaries is the same fact as $d^2=0$.
 
 **Consequence (integrating by parts):**
 
