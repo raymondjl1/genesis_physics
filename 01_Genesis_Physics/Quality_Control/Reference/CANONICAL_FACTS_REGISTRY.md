@@ -30,7 +30,8 @@
 ## D. The Five Principles  *(RESOLVED-BY-RULE — `Five_Principles.md` is locked)*
 - Name: **"Five Principles"** (never "Five Governing Principles", never lowercase).
 - Canonical order/numbering: **1 Sustaining · 2 Conservation · 3 Symmetry · 4 Degradation · 5 Duality**. "Hierarchy" is NOT a principle.
-- **Cascade target:** `RESOLVED_Zone_Numbering_And_Terminology.md` §5 uses the wrong name and a Degradation↔Duality-swapped order → UPDATE.
+- **Cascade target:** `RESOLVED_Zone_Numbering_And_Terminology.md` §5 uses the wrong name and a Degradation↔Duality-swapped order → UPDATE (done).
+- **NEEDS-RATIFY (naming):** the locked card says "Five Principles", but **Vol 1 Ch 8's folder + chapter title still read "Five Governing Principles"** (as do its reviewer reports). Book 2, `RESOLVED_Zone_Numbering`, and `Book_0/README.md` are aligned to "Five Principles". To finish: either **rename Vol 1 Ch 8** ("The Five Principles as Constraints" + folder `Ch_08_Five_Principles`) — a cross-ref cascade — *or* ratify "Five Governing Principles" and revise the locked card. Author's call (chapter-folder rename is consequential).
 
 ## E. Key constants & scales  *(mixed)*
 | Quantity | CANONICAL value | Disposition | Stale sources to fix |
@@ -39,7 +40,8 @@
 | Higgs quartic λ_H | **0.129** (m_H²=2λv²) | RESOLVED | — |
 | m_H | 125.1 GeV (= √(2λ)·v) | RESOLVED | — |
 | M_W | **80.27 GeV** (= gv/2, g=0.652) | RESOLVED (Ch 11 corrected) | — |
-| M_Z | **91.55 GeV** (= M_W/cosθ_W, cosθ_W=0.8768; measured 91.188) | RESOLVED (Ch 11 corrected) | 06-HIGGS internally 91.2 (line 41) vs 91.7 (line 574); V3 says 91.2 → fix both to 91.55 predicted |
+| M_Z | **91.55 GeV** (= M_W/cosθ_W, cosθ_W=0.8768; measured 91.188) | RESOLVED (Ch 11 corrected) | 06-HIGGS internally 91.2 (line 41) vs 91.7 (line 574); V3 says 91.2; Vol 2 Ch 4/5 said 91.65/91.2 → all aligned to 91.55 (done) |
+| Canonical EW coupling g_W | **0.652** (→ M_W=80.27); cosθ_W=0.8768 | RESOLVED-for-consistency *(minor)* | Vol 2 Ch 4 used g_W=0.653 (→80.38, marginally closer to measured 80.385). All volumes now use g_W=0.652 / M_W=80.27 / M_Z=91.55 per Vol 4 Ch 11. *(Author may confirm 0.652 vs 0.653 as the canonical input.)* |
 | First KK (η) mode | **≈477 MeV** (= πℏc/η_B; hadronic scale) | RESOLVED | 06-HIGGS §1.4 still says **430 GeV** ("electroweak", retracted) → fix |
 | η_B | 1.3×10⁻¹⁵ m | RESOLVED | — |
 | ξ_A | 3×10²⁶ m — **distinct from** the Hubble radius (~1.4×10²⁶ m) | RESOLVED | `RESOLVED_Zone_Numbering` conflates them → fix |

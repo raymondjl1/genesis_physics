@@ -440,11 +440,11 @@ Compare this to the standard form of a massive boson: ½ M² A_μ A^μ. We read 
 
 $$M_W = \frac{g_W v}{2} \quad \text{(2.4.39)}$$
 
-Using the measured value g_W = 0.653 and v = 246.22 GeV:
+Using the measured value g_W = 0.652 and v = 246.22 GeV:
 
-$$M_W = \frac{0.653 \times 246.22}{2} = 80.38 \text{ GeV} \quad \text{(2.4.40)}$$
+$$M_W = \frac{0.652 \times 246.22}{2} = 80.27 \text{ GeV} \quad \text{(2.4.40)}$$
 
-The experimental value is M_W = 80.385 ± 0.015 GeV. We are accurate to 0.07 GeV, or 0.09%. This is not luck. This is the zone geometry speaking.
+The experimental value is M_W = 80.385 ± 0.015 GeV. We are accurate to 0.12 GeV, or 0.14%. This is not luck. This is the zone geometry speaking. (This is the framework's canonical electroweak value; the full treatment in Vol 4 Ch 11 obtains the same M_W = 80.27 GeV.)
 
 But wait. The W is not alone. The SU(2)_L has three generators: τ₁, τ₂, τ₃. We speak of three bosons: W⁺, W⁻, and the neutral Z. And we have U(1)_Y, the hypercharge gauge symmetry, with its own boson B. Four bosons. Yet after symmetry breaking, only three become massive. The fourth — the photon — remains massless.
 
@@ -476,11 +476,11 @@ so its mass is:
 
 $$M_Z = \frac{g_Z v}{2} = \frac{g_W v}{2 \cos \theta_W} = \frac{M_W}{\cos \theta_W} \quad \text{(2.4.46)}$$
 
-With cos²θ_W = 1 − sin²θ_W = 1 − 0.2312 = 0.7688, we have cos θ_W = 0.8769, so:
+With cos²θ_W = 1 − sin²θ_W = 1 − 0.2312 = 0.7688, we have cos θ_W = 0.8768, so:
 
-$$M_Z = \frac{80.38}{0.8769} = 91.65 \text{ GeV} \quad \text{(2.4.47)}$$
+$$M_Z = \frac{80.27}{0.8768} = 91.55 \text{ GeV} \quad \text{(2.4.47)}$$
 
-The measured Z mass is 91.1876 ± 0.0021 GeV. Our prediction overshoots by about 0.5 GeV. This 0.5% discrepancy is honest: it arises from QED and QCD radiative corrections not yet incorporated in this derivation. The zone geometry gives the tree-level mass correct to better than 1%. The radiative corrections — which are computable order by order from the Standard Model — refine it to sub-percent.
+The measured Z mass is 91.1876 ± 0.0021 GeV. Our prediction overshoots by about 0.36 GeV. This 0.40% discrepancy is honest: it arises from QED and QCD radiative corrections not yet incorporated in this derivation. The zone geometry gives the tree-level mass correct to better than 1%. The radiative corrections — which are computable order by order from the Standard Model — refine it to sub-percent.
 
 [FIGURE: Fig 2.4.5 — Electroweak symmetry breaking. Upper panel: potential V(|Φ|) at high and low temperatures. At T > 160 GeV (blue), minimum at Φ = 0, unbroken symmetry. At T < 160 GeV (red), minimum at |Φ| = v = 246 GeV, broken symmetry. Lower panel: mass spectrum of electroweak bosons. Before breaking: four massless states (W⁺, W⁻, Z°, γ). After breaking: W, Z acquire mass ~80, 91 GeV; photon remains massless.]
 
@@ -540,11 +540,11 @@ The convention relates this to G_F as:
 
 $$G_F = \frac{g_W^2}{4\sqrt{2} M_W^2} \quad \text{(2.4.54)}$$
 
-Substituting M_W = 80.38 GeV and g_W = 0.653:
+Substituting M_W = 80.27 GeV and g_W = 0.652:
 
-$$G_F = \frac{(0.653)^2}{4\sqrt{2} (80.38)^2} = \frac{0.4263}{4 \times 1.414 \times 6461} = \frac{0.4263}{36553} = 1.167 \times 10^{-5} \text{ GeV}^{-2} \quad \text{(2.4.55)}$$
+$$G_F = \frac{(0.652)^2}{4\sqrt{2} (80.27)^2} = \frac{0.4251}{4 \times 1.414 \times 6443} = \frac{0.4251}{36442} = 1.166 \times 10^{-5} \text{ GeV}^{-2} \quad \text{(2.4.55)}$$
 
-The experimental value is G_F = 1.16637(1) × 10⁻⁵ GeV⁻². We predict 1.167 × 10⁻⁵. Agreement to 0.03%.
+The experimental value is G_F = 1.16637(1) × 10⁻⁵ GeV⁻². We predict 1.166 × 10⁻⁵. Agreement to 0.03%.
 
 There is an even more elegant form. The Higgs VEV v is the fundamental scale of electroweak symmetry breaking. From symmetry and renormalization, we can show:
 
@@ -560,8 +560,8 @@ This form reveals the deep structure: weak interactions at low energy are govern
 
 | Quantity | Zone Prediction | Experimental | Agreement |
 |----------|-----------------|--------------|-----------|
-| M_W | 80.38 GeV | 80.385 ± 0.015 GeV | 0.09% |
-| M_Z | 91.65 GeV | 91.188 ± 0.002 GeV | 0.5% |
+| M_W | 80.27 GeV | 80.385 ± 0.015 GeV | 0.14% |
+| M_Z | 91.55 GeV | 91.188 ± 0.002 GeV | 0.40% |
 | sin²θ_W | 0.2312 | 0.2310 ± 0.0002 | 0.1% |
 | G_F | 1.1664 × 10⁻⁵ | 1.16637 × 10⁻⁵ | 0.03% |
 | v | 246.22 GeV | 246.22 ± 0.06 GeV | <0.03% |
@@ -940,7 +940,7 @@ with β₀ = 23/3 for 5 active quark flavors and α_s(m_Z) = 0.118.
 
 The W boson acquires mass M_W = g_W v / 2 from the Higgs VEV v = 246.22 GeV.
 
-**(a)** If g_W = 0.653, compute M_W. Compare to the experimental value 80.385 GeV.
+**(a)** If g_W = 0.652, compute M_W. Compare to the experimental value 80.385 GeV.
 
 **(b)** The Z boson mass is M_Z = M_W / cos θ_W, where sin² θ_W = 0.2312. Compute M_Z and compare to 91.1876 GeV.
 

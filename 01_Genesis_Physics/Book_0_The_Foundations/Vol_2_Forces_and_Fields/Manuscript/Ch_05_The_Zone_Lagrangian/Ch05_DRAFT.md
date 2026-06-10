@@ -645,9 +645,9 @@ $$\mathcal{L}_\text{Higgs} = |D_\mu H|^2 - \mu_H^2|H|^2 - \lambda_H|H|^4 \tag{2.
 
 where $H$ is the SU(2)$_L$ doublet constructed from $\phi_A$ and $\mu_H^2 < 0$ (inherited from the Waters Above boundary condition that forces spontaneous symmetry breaking near the Firmament). The Higgs VEV $v = \sqrt{-\mu_H^2/\lambda_H} = 246$ GeV gives masses to $W^\pm$ and $Z^0$:
 
-$$M_W = \frac{g_2 v}{2} = 80.4 \text{ GeV}, \qquad M_Z = \frac{v\sqrt{g_1^2 + g_2^2}}{2} = 91.2 \text{ GeV} \tag{2.5.49}$$
+$$M_W = \frac{g_2 v}{2} = 80.27 \text{ GeV}, \qquad M_Z = \frac{v\sqrt{g_1^2 + g_2^2}}{2} = 91.55 \text{ GeV} \tag{2.5.49}$$
 
-These values were already derived in Chapter 4 (§4.5). Here we see them emerge naturally as consequences of the complete zone Lagrangian.
+These values were already derived in Chapter 4 (§4.5). Here we see them emerge naturally as consequences of the complete zone Lagrangian. (They are the framework's predictions; the full electroweak treatment in Vol 4 Ch 11 obtains the same $M_W = 80.27$, $M_Z = 91.55$ GeV against the measured $80.38$, $91.19$ GeV.)
 
 **Rigor level for §5.5:** RIGOROUS for the gravitational and gauge sector reductions (these are standard KK results applied to the zone metric). APPROXIMATE for the Higgs identification (the Waters Above → Higgs mapping requires detailed boundary-condition analysis). PHENOMENOLOGICAL for the dark sector effective potentials (the 4D forms depend on the full extra-dimensional field profiles, which are solved numerically).
 
