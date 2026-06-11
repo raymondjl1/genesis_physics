@@ -62,7 +62,7 @@ A note on why the gauge-boson sector is so much cleaner than the fermion sector 
 ### Rigor labels used in this chapter
 
 - **RIGOROUS** — derived from the axioms of Vol 1 + zone boundary conditions, no fit parameters.
-- **RIGOROUS (conditional)** — rigorous given an earlier assumption (typically the Higgs placement in $\Psi_A$ or Assumption 10.1 on primordial spinors).
+- **RIGOROUS (given the adopted axiom)** — rigorous given an adopted foundational input (typically the Higgs placement in $\Psi_A$, or **Postulate F** — the Hopf winding $n_w = 3$ adopted in Ch 10 §10.5 that yields the spinor sector via Kähler spinors). The axiom dependency is stated transparently; it is no longer an "open blocker."
 - **APPROXIMATE** — correct form derived, $\mathcal{O}(1)$ coefficient matched to experiment rather than computed.
 - **PHENOMENOLOGICAL** — order-of-magnitude prediction only; the precise value is a fit or a result of a downstream computation that is currently gapped.
 - **OPEN** — stated as an unresolved problem of the framework, tracked against a GitHub issue.
@@ -424,7 +424,7 @@ A small postscript. The reason the weak force is short-range — its effective r
 
 ---
 
-## §11.8  Parity violation from the one-sided condensate  [RIGOROUS, conditional on Assumption 10.1]
+## §11.8  Parity violation from the one-sided condensate  [RIGOROUS, given the adopted Postulate F]
 
 This section is where the Genesis framework does something the Standard Model cannot do: it *explains*, from geometry, why the weak interaction is parity-violating. In the Standard Model, the left-handed projection is put in by hand — the fermion fields are declared to be chiral from the start, and $SU(2)_L$ acts only on the left-handed components because it is defined to. That is a postulate, not a derivation. Here we will see that the same statement, in the zone framework, is a *consequence* of the fact that the Waters Above exists only on the positive side of the Firmament.
 
@@ -440,7 +440,7 @@ The $W$ bosons have $\xi$-profiles that are *even* under the formal extension $\
 \text{6D chirality rule:} \quad \chi_L(\xi) = \chi_L(-\xi) \text{ (even)}, \quad \chi_R(\xi) = -\chi_R(-\xi) \text{ (odd)}. \tag{4.11.36}
 \end{equation}
 
-This rule comes from the reduction of the 6D Dirac operator on a one-sided interval, and it is rigorous once we accept Assumption 10.1 (the primordial spinor field on the Firmament) from Chapter 10. I am repeating this dependence explicitly because it is the conditional in the rigor label for this section.
+This rule comes from the reduction of the 6D Dirac operator on a one-sided interval, and it is rigorous given the adopted Postulate F (the Kähler-spinor sector, Ch 10 §10.5, $n_w = 3$). I am repeating this dependence explicitly because it is the axiom dependency named in the rigor label for this section — stated transparently, no longer an open blocker.
 
 ### 11.8.2  The overlap integrals
 
@@ -469,13 +469,13 @@ The neutron lifetime $\tau_n$, which depends on the matrix element $|V_{ud}|^2 (
 
 Allow me a paragraph of philosophical commentary because I think the reader deserves it. For seventy years physicists have known that the weak force violates parity, and for seventy years the explanation has been "we put it in by hand in the Lagrangian." The zone framework says: you do not have to put it in by hand. It is *forced* by the topology of the background. There is a universe above the Firmament, and there is not a universe below the Firmament that is the mirror image of the one above. That asymmetry propagates through the fermion profiles, through the overlap integrals, and out the end as the observed left-handedness of the weak charged current.
 
-This is, I think, the single deepest explanatory advance of the chapter, and it is *conditional on* Assumption 10.1. If that assumption were to fail — if the primordial spinor story of Ch 10 turned out to require a mirror spinor on the Waters Below — then the derivation would need revisiting. It is marked conditional for exactly this reason, and Ch 10's OPEN 10.1 is the place to watch.
+This is, I think, the single deepest explanatory advance of the chapter, and it rests on *the adopted Postulate F* (Ch 10 §10.5). The one honest dependency, stated transparently: the spinor sector is obtained from the adopted Hopf winding $n_w = 3$ via Kähler spinors, not derived from deeper $Z_0$ principles. It is marked "given the adopted axiom" for exactly this reason, and Ch 10 §10.5 is where that axiom is stated.
 
 ---
 
 ## §11.9  CP violation and the weak-sector gap, stated openly  [OPEN — GitHub #3]
 
-> **OPEN PROBLEM 11.2.** *Parity violation, $V\!-\!A$, and the Wu/Goldhaber asymmetries are rigorously derived in §11.8 (conditional on Assumption 10.1). CP violation is a structural necessity of the framework once three fermion generations are admitted, by the Kobayashi-Maskawa counting, and the Jarlskog invariant is a framework observable. The precise measured value $\delta_{\rm CP} \approx 1.20$ rad, however, is at present only an order-of-magnitude prediction; the computation that would pin it down lives in Chapter 13. Tracked as GitHub issue #3.*
+> **OPEN PROBLEM 11.2.** *Parity violation, $V\!-\!A$, and the Wu/Goldhaber asymmetries are rigorously derived in §11.8 (given the adopted Postulate F). CP violation is a structural necessity of the framework once three fermion generations are admitted, by the Kobayashi-Maskawa counting, and the Jarlskog invariant is a framework observable. The precise measured value $\delta_{\rm CP} \approx 1.20$ rad, however, is at present only an order-of-magnitude prediction; the computation that would pin it down lives in Chapter 13. Tracked as GitHub issue #3.*
 
 ### 11.9.1  The Kobayashi-Maskawa theorem, reinterpreted
 
@@ -529,7 +529,7 @@ What would be needed to sharpen (4.11.43) to a precise value? The answer is the 
 
 Exactly as in §11.4, let me enumerate so that the reader cannot miss it.
 
-(1) **What is rigorously derived.** CP violation is inevitable for $n_{\rm gen} = 3$ by the Kobayashi-Maskawa count. Jarlskog $J_{\rm CP}$ is a nonzero structural invariant of the framework. The unitarity triangle is a closed object. Parity violation and $V\!-\!A$ are rigorous (conditional on Assumption 10.1, per §11.8).
+(1) **What is rigorously derived.** CP violation is inevitable for $n_{\rm gen} = 3$ by the Kobayashi-Maskawa count. Jarlskog $J_{\rm CP}$ is a nonzero structural invariant of the framework. The unitarity triangle is a closed object. Parity violation and $V\!-\!A$ are rigorous (given the adopted Postulate F, per §11.8).
 
 (2) **What is assumed.** The three-generation Yukawa matrix has nontrivial phases. This is true if the vortex sectors in Ch 10 acquire phases from their topological winding around the Firmament, which is expected on general principles (Berry-phase-like reasoning for moving sectors through a compact internal space) but not computed.
 
@@ -558,8 +558,8 @@ Every numerical claim this chapter makes, collected into one table, with a rigor
 | 7 | $\rho$ (tree) | 1 | $1.00038 \pm 0.00019$ | 0.04% | RIGOROUS (exact at tree) |
 | 8 | $G_F$ | $1.166\times 10^{-5}$ GeV$^{-2}$ | $1.16637\times 10^{-5}$ | 0.03% | RIGOROUS (given $v$) |
 | 9 | $y_t$ (top Yukawa) | $\sim 0.99$ | $1.001 \pm 0.030$ | 0.1% | APPROX (from Ch 10 vortex fit) |
-| 10 | Wu $A$ ($^{60}$Co) | $-1$ (exact) | $-1.00 \pm 0.05$ | $< 1\%$ | RIGOROUS (conditional on Assumption 10.1) |
-| 11 | Goldhaber $h_\nu$ | $-1$ (exact) | $-0.993 \pm 0.013$ | $< 1\%$ | RIGOROUS (conditional on Assumption 10.1) |
+| 10 | Wu $A$ ($^{60}$Co) | $-1$ (exact) | $-1.00 \pm 0.05$ | $< 1\%$ | RIGOROUS (given the adopted Postulate F) |
+| 11 | Goldhaber $h_\nu$ | $-1$ (exact) | $-0.993 \pm 0.013$ | $< 1\%$ | RIGOROUS (given the adopted Postulate F) |
 | 12 | $\tau_n$ (neutron) | 878.4 s | $878.4 \pm 0.5$ s | $< 0.1\%$ | APPROX ($g_A/g_V$ taken from experiment) |
 | 13 | $\delta_{\rm CP}$ | $\mathcal{O}(1)$ rad | $1.20 \pm 0.08$ rad | order-of-mag | PHENOMENOLOGICAL (OPEN 11.2) |
 
@@ -577,7 +577,7 @@ The table has three groups of rows.
 
 The table is evidence that the framework is *consistent with* the electroweak sector of the Standard Model at the numerical level. It is not evidence that the framework out-predicts the Standard Model on any of these observables — it cannot, because for the observables it gets right, it is reproducing the Standard Model's own algebra; and for the observables it does not sharply predict (row 13), the Standard Model also takes them as inputs.
 
-What the framework *does* add that the Standard Model does not is: a geometric origin for $v$ (up to three fits), a derivation of the gauge group from zone isometries (no fits), an *explanation* of parity violation from boundary geometry (conditional on Assumption 10.1), and a parameter-counting derivation of CP-violation inevitability. None of those add to any single row of the table, but they are the conceptual content the table is a by-product of.
+What the framework *does* add that the Standard Model does not is: a geometric origin for $v$ (up to three fits), a derivation of the gauge group from zone isometries (no fits), an *explanation* of parity violation from boundary geometry (given the adopted Postulate F), and a parameter-counting derivation of CP-violation inevitability. None of those add to any single row of the table, but they are the conceptual content the table is a by-product of.
 
 ---
 
@@ -589,7 +589,7 @@ A chapter-level summary. If a reader reads only one section of this chapter, I w
 
 1. Gauge group $SU(2)_L \times U(1)_Y$ (inherited from Vol 2 Ch 6).
 2. Photon masslessness, $M_\gamma = 0$, from the unbroken combination $Q = T_3 + Y$.
-3. $V\!-\!A$ structure of the weak charged current, from the one-sided $\xi$-condensate (conditional on Assumption 10.1).
+3. $V\!-\!A$ structure of the weak charged current, from the one-sided $\xi$-condensate (given the adopted Postulate F).
 4. $\rho = 1$ at tree level, from the doublet structure of the Higgs.
 5. Fermi constant relation $G_F = 1/(\sqrt 2 v^2)$, following from $M_W = gv/2$.
 6. Kobayashi-Maskawa parameter count: $(n-1)(n-2)/2$ CP phases; nonzero at $n = 3$.
@@ -695,7 +695,7 @@ The next chapter turns to the strong force.
 - The effective Mexican-hat potential has the right form; three $\mathcal{O}(1)$ coefficients ($\beta, \alpha, \lambda_A$) are currently fit (OPEN 11.1, GitHub #25).
 - $M_W = gv/2$, $M_Z = M_W/\cos\theta_W$, $M_\gamma = 0$ exactly.
 - $m_h^2 = 2\lambda v^2$, $G_F = 1/(\sqrt 2 v^2)$ — both rigorous given $v, \lambda$.
-- Parity violation and $V\!-\!A$ follow from the one-sided condensate (conditional on Assumption 10.1).
+- Parity violation and $V\!-\!A$ follow from the one-sided condensate (given the adopted Postulate F).
 - CP violation is a theorem for $n_{\rm gen} = 3$; precise $\delta_{\rm CP}$ gapped to Ch 13 (OPEN 11.2, GitHub #3).
 - Table 4.11.1 tabulates every numerical claim of the chapter with an explicit rigor label.
 - The chapter's epistemic contract: sub-percent numerical agreement on $M_W, M_Z, m_h, G_F$ is *conditional* on the Higgs-sector fits and is a reproduction of Standard Model algebra, not an independent prediction.

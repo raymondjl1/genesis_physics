@@ -16,7 +16,7 @@
 ### Part I: Axiomatic Foundations (4 chapters)
 
 1. **Axioms and Definitions**
-   Foundational postulates of zone theory. Definition of the Zone, the Waters Field, the Five Principles. Formal specification of what the Genesis Framework assumes and what it derives.
+   Foundational postulates of zone theory. Definition of the Zone, the Waters Field, the Five Governing Principles. Formal specification of what the Genesis Framework assumes and what it derives.
 
 2. **The Zone Manifold**
    Topological and differential-geometric properties of the Zone as a mathematical object. Metric structure, curvature, connection. Proof that the Zone manifold admits a natural embedding in higher-dimensional space.
@@ -38,8 +38,8 @@
 7. **Symmetries and Conservation Laws**
    Gauge symmetries of the Waters Field. Noether's theorem applied to zone geometry. Derivation of energy-momentum conservation, angular momentum conservation, and additional conserved charges from zone symmetries.
 
-8. **The Five Principles as Constraints**
-   Mathematical formulation of the Five Principles as constraint equations. Proof that solutions of the Waters equations automatically satisfy these constraints under appropriate initial conditions.
+8. **The Five Governing Principles as Constraints**
+   Mathematical formulation of the Five Governing Principles as constraint equations. Proof that solutions of the Waters equations automatically satisfy these constraints under appropriate initial conditions.
 
 9. **Thermodynamics from Zone Separation**
    Derivation of thermodynamic laws from the zone separation mechanism. Entropy as a measure of zone boundary structure. Connection to black hole thermodynamics and the holographic principle.

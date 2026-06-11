@@ -7,6 +7,8 @@ Location: `Quality_Control/Reference/Zone_Architecture.md`
 
 > **[Canonical per CANONICAL_FACTS_REGISTRY §B; author to ratify the Z₂.₂.₂ membrane-vs-matter assignment.]** Reconciled 2026-06-10 so that **Z₂.₂.₂ = the Firmament membrane (4D)** and **Z₂.₂.₂.₁ = Condensed / baryonic matter** (atoms, stars, galaxies), matching `Research/Foundations/RESOLVED_Zone_Numbering_And_Terminology.md` and `Glossary.md`. Earlier drafts of this card labeled Z₂.₂.₂ itself as "Condensed Matter"; that conflated the membrane with the matter that condenses on it. The assignment below is the conservative registry default pending author ratification.
 
+> **[Z₀ FOUNDATIONAL AXIOM — Author Ratification #1, 2026-06-11.]** The Godhead zone **Z₀** is described by a 6D Randall–Sundrum action whose cosmological constant **Λ_Z0** is the framework's **adopted single foundational axiom** (|Λ_Z0| = 1.65×10⁷¹ GeV⁶ at M_Z0 = M_Pl). The chain Λ_Z0 → k₁ = 1.22 MeV → L_A = 83.2 η_B → β_geom = 813 → ℏ is the canonical derivation of ℏ. The companion zone-architecture axiom **Postulate F** (Hopf winding n_w = 3) yields Kähler spinors (4D spin-½) and APS index = +3 (three generations). Both are **adopted, not derived**; downstream results are "resolved *given* these axioms, dependency stated." See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and `Glossary.md`.
+
 ---
 
 ## Table 1: Primary Zone Properties

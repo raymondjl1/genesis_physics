@@ -116,13 +116,15 @@ Research/Mathematical_Models/
 
 These are areas where Research/ is incomplete or has known issues. **Flag these when writing touches them:**
 
+> **Author Ratification #1 (2026-06-11):** Λ_Z0 (Godhead-zone cosmological constant) and Postulate F (Hopf winding n_w = 3) are adopted as foundational axioms. Several rows below are now **RESOLVED *given* those adopted axioms, with the dependency stated transparently** (builder's honesty — not "proven from nothing"). See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and the GitHub project board (open-problems register; issues #1/#2/#3/#25/#26).
+
 | Gap | Impact | Status | Research Files |
 |-----|--------|--------|---------------|
-| Spin-1/2 fermions from bosonic membrane | Vol 4 — particle classification | GitHub #1 (BLOCKER) | `Foundations/TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` |
-| Particle mass spectrum 1000× errors | Vol 4 — mass predictions | GitHub #2 | `Mathematical_Models/06_.../06-PARTICLE_MASS_SPECTRUM_V3.md` |
-| Weak interaction / CP violation | Vol 4 — weak force | GitHub #3 | `Mathematical_Models/06_.../06-WEAK_PARITY_CP_VIOLATION.md` |
-| Fine structure constant precision | Vol 5 — crown jewel derivation | Partial | `Mathematical_Models/10_.../10-FINE_STRUCTURE_DERIVATION.md` |
-| Higgs mechanism from membrane | Vol 4 — mass generation | GitHub #25 | `Mathematical_Models/06_.../06-HIGGS_DERIVATION.md` |
+| Spin-1/2 fermions from bosonic membrane | Vol 4 — particle classification | **RESOLVED given adopted Postulate F (n_w=3)** — Kähler spinors + APS index +3; dependency stated; no longer a blocker (GitHub #1) | `Foundations/AXIOM_GODHEAD_ZONE_Z0.md`, `Foundations/TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` |
+| Particle mass spectrum | Vol 4 — mass predictions | **RESOLVED given adopted Λ_Z0 / Postulate F** (GitHub #2) — mechanism resolved; honest residuals remain (electron +17%, heavier quarks fail at tree level; absolute scale a numerical item) | `Mathematical_Models/06_.../06-PARTICLE_MASS_SPECTRUM_V3.md` |
+| Weak interaction / CP violation | Vol 4 — weak force | Partial — δ_CP = π/3 from Z₆ topology; precise CKM angles still open (GitHub #3) | `Mathematical_Models/06_.../06-WEAK_PARITY_CP_VIOLATION.md` |
+| Fine structure constant precision | Vol 5 — crown jewel derivation | **RESOLVED given adopted Λ_Z0** (UV boundary, α_6D≈1.82); two-loop precision to 137.036 still an honest numerical item | `Mathematical_Models/10_.../10-FINE_STRUCTURE_DERIVATION.md` |
+| Higgs mechanism from membrane | Vol 4 — mass generation | **RESOLVED given adopted Λ_Z0 / Postulate F** (GitHub #25) — composite Higgs; m_H ≈ 123 GeV (1.5%); θ_mis derived | `Mathematical_Models/06_.../06-HIGGS_DERIVATION.md` |
 
 ## Test Suites
 
@@ -164,6 +166,8 @@ Feynman writing a textbook. Rigorous, precise, but human. Never dry. The reader 
 - **Use existing Research.** Read the relevant files BEFORE writing. Don't reinvent derivations.
 
 ## GitHub Tasks for Foundations Series
+
+**The GitHub project board (Genesis Physics, project #5) is the CANONICAL open-problems and task register.** Do not create or maintain standalone register/status `.md` files for open problems — track open items as board issues and move them across Todo/In Progress/Done.
 
 When `gh` CLI is available, create these issues with label `book:foundations`:
 

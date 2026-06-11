@@ -35,15 +35,17 @@ Research/Foundations/
 
 These are the biggest open problems in the entire project. **Several are GitHub blockers.**
 
+> **Author Ratification #1 (2026-06-11):** Λ_Z0 and Postulate F (n_w = 3) are adopted as foundational axioms. The fermion-sector gaps below are now **RESOLVED *given* those adopted axioms, dependency stated transparently** (builder's honesty — not "proven from nothing"). See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and the GitHub project board (open-problems register; issues #1/#2/#3/#25/#26).
+
 | Gap | Severity | GitHub Issue | Status |
 |-----|----------|-------------|--------|
-| **Spin-1/2 fermions from bosonic membrane** | BLOCKER | #1 | The membrane is bosonic — deriving fermionic excitations is THE decisive challenge |
-| **Particle mass spectrum 1000× errors** | HIGH | #2 | Current predictions off by ~1000× for some particles. See `06-PARTICLE_MASS_SPECTRUM_V3.md` |
-| **Weak interaction / CP violation** | HIGH | #3 | Derivation incomplete |
-| **Higgs mechanism from membrane** | HIGH | #25 | Partial — condensation model needs completion |
-| **Running coupling constants** | MEDIUM | #26 | RG flow analysis partial |
+| **Spin-1/2 fermions from bosonic membrane** | (was BLOCKER) | #1 | **RESOLVED given adopted Postulate F (n_w=3)** — Kähler spinors → 4D spin-½; APS index = +3 → three generations. Dependency stated; **no longer a blocker** |
+| **Particle mass spectrum** | HIGH | #2 | **RESOLVED given adopted Λ_Z0 / Postulate F** — mechanism resolved. Honest residuals remain: electron +17%, muon −15…19%, tau = calibration anchor, light quarks ~7%, heavier quarks fail at tree level; absolute scale is an open numerical item |
+| **Weak interaction / CP violation** | HIGH | #3 | Partial — δ_CP = π/3 from Z₆ topology; precise CKM angles still open (Vol 3 Ch 5) |
+| **Higgs mechanism from membrane** | HIGH | #25 | **RESOLVED given adopted Λ_Z0 / Postulate F** — composite Higgs; f = 3886 GeV, m_H ≈ 123 GeV (1.5%), θ_mis derived |
+| **Running coupling constants** | MEDIUM | #26 | Partial — UV boundary resolved given Λ_Z0 (α_6D ≈ 1.82); two-loop precision to α⁻¹=137.036 still open (numerical) |
 
-**WARNING:** Do not write chapters covering these topics as if the derivations are complete. If a derivation has known issues, the chapter must say so explicitly. "Open problem" is better than hand-waving. The Skeptic reviewer (Dr. Marcus Chen) will catch it.
+**WARNING:** State the axiom dependency every time. The fermion-sector results are "resolved *given* the adopted Λ_Z0 / Postulate F axioms" — present them as derived-with-dependency-stated, never as "proven from nothing." Do not weaken the honest residuals (electron +17%, etc.) or the genuinely-open numerical items (absolute mass scale, two-loop α). The Skeptic reviewer (Dr. Marcus Chen) will check both the honesty of the axiom framing and the residuals.
 
 ## Critical Deliverables
 

@@ -1,11 +1,30 @@
 # Axiom Summary Cards
 
-**Canonical reference: Seven foundational axioms of Genesis Physics**
+**Canonical reference: foundational axioms of Genesis Physics**
 
 **Canonical reference maintained by the Analysis quality system**
 
-Last updated: April 5, 2026
+Last updated: 2026-06-11 (added the Λ_Z0 / Postulate F foundational axiom card per Author Ratification #1)
 Location: `Quality_Control/Reference/Axiom_Summary_Cards.md`
+
+---
+
+## Axiom 0 (Foundational): The Godhead Zone (Λ_Z0) + Postulate F (n_w = 3)
+
+**One-line Statement**: The cosmological constant of the Godhead zone Z₀ (Λ_Z0) is the framework's single foundational free parameter; the Hopf winding n_w = 3 (Postulate F) is the zone-architecture axiom that closes the fermion sector. Both are **adopted, not derived**.
+
+**Key Equations**:
+- |Λ_Z0| = 5 k₁² M_{Z0}⁴ = **1.65 × 10⁷¹ GeV⁶** at M_{Z0} = M_Pl
+- Chain: Λ_Z0 → k₁ = 1.22 MeV → L_A = 83.2 η_B → β_geom = 813 → ℏ (and α ≈ 1/137 from the same 83.2 ratio)
+- Postulate F: n_w = 3 → Kähler spinor bundle → 4D spin-½; APS index = +3 → three generations
+
+**Symbols Introduced**: Λ_Z0 (Godhead-zone cosmological constant), M_{Z0} (Z₀ Planck mass), k₁, L_A, β_geom, n_w (Hopf winding)
+
+**Dependencies**: None — this is the ground floor. Enables the ℏ, α, spin-½, three-generation, and Yukawa-α derivations.
+
+**Testable Prediction**: All derived constants flow from one number (Λ_Z0) plus zone architecture; changing Λ_Z0 changes everything. The fermion sector exists iff n_w = 3.
+
+**Validation Status** (2026-06-11): **ADOPTED FOUNDATIONAL AXIOM** (Author Ratification #1). Given Λ_Z0 + Postulate F, OP-01/02/03/04/07/10 are **RESOLVED with the axiom dependency stated transparently** (builder's honesty — "resolved given the adopted axioms," not "proven from nothing"). **Spin-½ is no longer an open blocker.** Honest residuals (electron +17%, etc.) and open numerical items (absolute mass scale, two-loop α precision) are unchanged. See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and `Research/Mathematical_Models/10_Fundamental_Constants/op01_z0_axiom_statement.md`.
 
 ---
 

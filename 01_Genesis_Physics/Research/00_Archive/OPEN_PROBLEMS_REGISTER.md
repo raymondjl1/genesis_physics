@@ -1,8 +1,21 @@
-# Open Problems Register — Book 0: The Foundations
-## Genesis Physics Series
+# ⚠️ DEPRECATED (2026-06-11) — DO NOT MAINTAIN
+The canonical open-problems & task register is now the **GitHub project board** ("Genesis Physics", project #5). The foundational blockers are GitHub issues #1 (spin-½), #2 (mass spectrum), #3 (weak/CP), #25 (Higgs), #26 (couplings) — all resolved given the adopted Λ_Z0 / Postulate F axioms (see AXIOM_GODHEAD_ZONE_Z0.md). This file is a frozen analysis snapshot, no longer updated.
 
-**Last updated:** 2026-05-14
+---
+
+# Open Problems Register — Genesis Physics Series
+
+**Last updated:** 2026-06-11
 **Maintainer:** Jeff Raymond
+**Location:** `Research/00_Archive/OPEN_PROBLEMS_REGISTER.md` — **frozen analysis snapshot (DEPRECATED 2026-06-11).** The live, canonical open-problems & task register is the **GitHub project board** ("Genesis Physics", project #5); the foundational blockers are issues #1/#2/#3/#25/#26.
+
+---
+
+> ## ★ AUTHOR RATIFICATION #1 (2026-06-11) — Λ_Z0 + Postulate F adopted as foundational axioms
+>
+> Per `Quality_Control/Reference/CANONICAL_FACTS_REGISTRY.md` and `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md`, the author has **adopted** the Godhead-zone cosmological constant **Λ_Z0** (|Λ_Z0| = 1.65×10⁷¹ GeV⁶ at M_Z0 = M_Pl) as the framework's single foundational axiom, and **Postulate F** (Hopf winding n_w = 3) as the zone-architecture axiom that closes the fermion sector.
+>
+> **Consequence for this register:** **OP-01, OP-02, OP-03, OP-04, OP-07, and OP-10** are now **RESOLVED *given* the adopted axioms (Λ_Z0 / Postulate F), with the axiom dependency stated transparently** — NOT "proven from nothing." This is builder's honesty. **Spin-½ (OP-02) is no longer an "open blocker."** The honest residuals (electron +17%, muon −15…19%, tau = calibration anchor, light quarks ~7%, heavier quarks fail at tree level) and genuinely-open NUMERICAL items (absolute mass scale, two-loop α precision to 137.036, β_geom beyond the L_A = 83.2 η_B approximation) remain honest and unchanged.
 
 ---
 
@@ -32,7 +45,7 @@ The distinction matters:
 | **Severity** | CRITICAL |
 | **Chapter** | Vol 4 Ch 1 §1.4; Vol 5 Ch 15 §15.2 |
 | **GitHub** | Issue #2 |
-| **Status** | OPEN |
+| **Status** | **RESOLVED given adopted axioms (Λ_Z0)** — dependency stated; see Ratification banner |
 
 **Problem statement:**
 
@@ -90,8 +103,8 @@ The *structure* of this formula is fully derived from zone architecture. The war
 | **ID** | OP-02 |
 | **Severity** | CRITICAL |
 | **Chapter** | Vol 1 Ch 1 §1.9 (Postulate F); Vol 4 Ch 10 §10.5, Open Problem 10.1 |
-| **GitHub** | Issue #1 (BLOCKER) |
-| **Status** | OPEN |
+| **GitHub** | Issue #1 (was BLOCKER) |
+| **Status** | **RESOLVED given adopted axiom (Postulate F / n_w = 3)** — dependency stated; **no longer an open blocker** |
 
 **Problem statement:**
 
@@ -144,7 +157,7 @@ $$\text{index}(\mathscr{D}_\perp) = \int_M \hat{A}(R) - h/2 - \eta_{APS}(0)/2$$
 | **Severity** | HIGH |
 | **Chapter** | Vol 3 Ch 7 §7.4; Vol 4 Ch 10 §10.9; Vol 4 Ch 11 §11.4 |
 | **GitHub** | Issue #12 |
-| **Status** | OPEN |
+| **Status** | **RESOLVED given adopted axioms (Λ_Z0 / Postulate F)** — α derived via condensate kink; ~20% residual of the exp(−αn²) ansatz is the honest accuracy, unchanged |
 
 **Problem statement:**
 
@@ -204,7 +217,7 @@ This is an **exact analytic result** confirmed numerically ($S_2/S_1 = 4.000$, $
 | **Severity** | HIGH |
 | **Chapter** | Vol 2 Ch 4 §4.4; Vol 4 Ch 10 §10.3 |
 | **GitHub** | Issue #1 (linked to Postulate F) |
-| **Status** | OPEN |
+| **Status** | **RESOLVED given adopted axiom (Postulate F → APS index = +3)** — three generations follow; absolute mass scale via composite Higgs (θ_mis derived) |
 
 **Problem statement:**
 
@@ -393,7 +406,7 @@ Boltzmann's constant $k_B$ is the entropy scale of the zone manifold — the con
 | **Severity** | MEDIUM |
 | **Chapter** | Vol 4 Ch 8 §8.4; Vol 5 Ch 13 §13.10 (gap 3) |
 | **GitHub** | Issue #21 |
-| **Status** | OPEN |
+| **Status** | **RESOLVED given adopted axiom (Λ_Z0)** — UV boundary (α_6D ≈ 1.82) follows; two-loop precision to 137.036 remains an honest open numerical item |
 
 **Problem statement:**
 
@@ -517,7 +530,7 @@ Points (1) and (2) are calculable in principle within the framework; point (3) r
 | **Severity** | LOW (for physics; HIGH for the theological vision of the series) |
 | **Chapter** | Vol 1 Ch 1 §1.6; not formalized anywhere in Book 0 |
 | **GitHub** | Not tracked as a physics issue |
-| **Status** | OPEN — intentionally deferred |
+| **Status** | **RESOLVED given adopted axiom (Λ_Z0)** — full Z₀→Z₁→Z₂ chain written; Λ_Z1 = −5k₁²; the deeper Z₁ "spirit-realm" dynamics remain a later-program item (theological vision), not a physics blocker |
 
 **Problem statement:**
 
@@ -557,18 +570,18 @@ The zone hierarchy is: Z₀ (Godhead) → Z₁ (Heaven Prime) → Z₂ (Earth Pr
 
 ## Summary Table
 
-| ID | Problem | Severity | Status (2026-05-14 final) |
+| ID | Problem | Severity | Status (2026-06-11) |
 |----|---------|----------|-----------------------------|
-| OP-01 | β_geom warp-factor integral | CRITICAL | **RESOLVED as axiom** — β=813, L_A=83.2η_B, k₁=1.22 MeV; Λ_Z0=1.65×10⁷¹ GeV⁶ stated precisely; one foundational axiom |
-| OP-02 | Spin-½ from bosonic membrane (Postulate F) | CRITICAL | **RESOLVED** — Kähler spinors + APS index = 3 from Hopf winding n_w = 3 |
-| OP-03 | Yukawa coupling α derivation | HIGH | **FULLY RESOLVED** — V₀ = κ²/2 from kink; m_Bc² = 3.3 GeV = J/ψ charmonium sector |
-| OP-04 | Three generations + absolute mass scale | HIGH | **FULLY RESOLVED** — three gens derived; f=3886 GeV; m_H=123.4 GeV (1.5% accurate); θ_mis=3.629° DERIVED from sin(θ_mis)=1/√249.6 (not free); form factor 0.035% (negligible); zero remaining free parameters |
+| OP-01 | β_geom warp-factor integral | CRITICAL | **RESOLVED given adopted axiom (Λ_Z0)** — β=813, L_A=83.2η_B, k₁=1.22 MeV; \|Λ_Z0\|=1.65×10⁷¹ GeV⁶. Open numerical item: β_geom beyond the L_A approximation (Vol 6) |
+| OP-02 | Spin-½ from bosonic membrane (Postulate F) | CRITICAL | **RESOLVED given adopted axiom (Postulate F / n_w=3)** — Kähler spinors + APS index = +3. **No longer an open blocker.** Dependency stated |
+| OP-03 | Yukawa coupling α derivation | HIGH | **RESOLVED given adopted axioms** — V₀ = κ²/2 from kink; m_Bc² = 3.3 GeV = J/ψ sector. Honest residual ~20% (exp(−αn²) ansatz) unchanged |
+| OP-04 | Three generations + absolute mass scale | HIGH | **RESOLVED given adopted axiom (Postulate F → APS index +3)** — three gens; f=3886 GeV; m_H=123.4 GeV (1.5%); θ_mis=3.629° derived. Honest residual: absolute scale fit at 1.5–5% |
 | OP-05 | CKM and PMNS matrices not computed | HIGH | **FINALIZED (LO + NLO chain)** — λ=0.2236 (0.6%, zero params); δ_CP=π/3 EXACT; A_NLO=0.857 (3.7%); ρ̄_NLO=0.154 (3.1%); η̄ needs NLO V_ub (~5% off when applied); full CKM matrix unitary; Vol 3 Ch 5 closes final gaps |
 | OP-06 | Boltzmann k_B numerical derivation | MEDIUM | **CLOSED** — Vol 5 Ch 15 VERIFIED 2026-04-09 |
-| OP-07 | Two-loop β functions: UV boundary unknown | MEDIUM | **FULLY RESOLVED** — α_6D=1.82 from 6D action; L_A=83.2η_B explains both ħ and α; UV BC confirmed to 0.4% by composite Higgs form factor (op_psi_a_form_factor.py) |
+| OP-07 | Two-loop β functions: UV boundary unknown | MEDIUM | **RESOLVED given adopted axiom (Λ_Z0)** — α_6D=1.82 from 6D action; L_A=83.2η_B explains both ħ and α. Open numerical item: two-loop precision to α⁻¹=137.036 |
 | OP-08 | κ mechanism observational signatures | MEDIUM | **RESOLVED** — all signatures quantified; observationally invisible at current precision |
 | OP-09 | Measurement problem: decoherence partial | MEDIUM | **FULLY RESOLVED** — scope boundary clearly stated; Ch 5 title changed to "How the Zone Selects Classical Reality"; §5.8.3 scope disclaimer added to manuscript (Ch05_FINAL.md) |
-| OP-10 | Z₁ dynamics not formalized | LOW | **SUBSTANTIALLY RESOLVED** — full Z₀→Z₁→Z₂ chain written; Λ_Z0 precisely stated; one foundational axiom |
+| OP-10 | Z₁ dynamics not formalized | LOW | **RESOLVED given adopted axiom (Λ_Z0)** — full Z₀→Z₁→Z₂ chain written; Λ_Z1=−5k₁². Deeper Z₁ "spirit-realm" dynamics = later-program item, not a physics blocker |
 
 ---
 
@@ -583,6 +596,8 @@ The zone hierarchy is: Z₀ (Godhead) → Z₁ (Heaven Prime) → Z₂ (Earth Pr
 | 2026-05-14 (session 3) | **"All the way" session — OP-04 composite Higgs and OP-05 CKM Wolfenstein parameters completed.** New files: (1) `op04_composite_higgs.py` — OP-04 FINAL: Waters Above (Ψ_A) composite Higgs mechanism fully worked out; f = v×√(V_warp/η_B²) = 3886 GeV ≈ 3.9 TeV from zone warp volume; m_H = 118.3 GeV (top-loop CW) → 123.4 GeV (with W-loop), 1.5% from observed 125.25 GeV; MCHM5 Higgs coupling deviations κ_V-1 < 0.2% (undetectable at HL-LHC); composite resonances 7.8–24 TeV (above LHC reach); one free parameter θ_mis remains (Vol 3 Ch 5). (2) `op05_ckm_wolfenstein.py` — OP-05 FINAL: GST relation sin(θ₁₂)=√(m_d/m_s)=0.2236 (0.6% from PDG 0.2250, zero free parameters); V_cb from partial compositeness |exp(-3α_d)-exp(-3α_u)|=0.048 (15% from PDG); A = 0.964 (17% raw; brackets PDG with 1/√2–1/√3 form factor); Jarlskog J = 3.27×10⁻⁵ vs PDG 3.08×10⁻⁵ (6%); natural CP phase δ=π/3 gives ρ̄=0.17, η̄=0.30 (near PDG). Key diagnosis: prior 3° Cabibbo estimate used Yukawa off-diagonal rather than GST left-handed rotation — corrected to 12.92° (matching observed 13.0°). Summary table updated for OP-04 and OP-05. |
 | 2026-05-14 (session 5) | **"Finalize OP-05" — OP-05 FINALIZED with NLO chain estimate.** New file: `op05_ckm_final.py` — consolidates all CKM derivations into one definitive script; constructs full unitary 3×3 CKM matrix from zone geometry; computes NLO chain correction b→d→s: NLO fraction = θ_{13}^d × λ / V_cb^LO = 11.1%, bringing V_cb^NLO = 0.0428 (PDG 0.0418, +2.4%) and A_NLO = 0.857 (PDG 0.826, +3.7%); with NLO A: ρ̄ = 0.154 (PDG 0.159, -3.1%); unitarity |V V†-I|_max = 2×10⁻¹⁶ (machine precision); remaining η̄ gap is NLO V_ub, same chain computation in Vol 3 Ch 5. Summary table updated: OP-05 → FINALIZED (LO+NLO chain). |
 | 2026-05-14 (session 4) | **"Get it done" session — OP-04 FULLY RESOLVED, OP-07 CONFIRMED, OP-09 MANUSCRIPT APPLIED.** New files: (1) `op_psi_a_form_factor.py` — Ψ_A KK profile form factor computed analytically to O(ε=0.004): θ_mis = arcsin(1/√249.6) = 3.6290° DERIVED from zone geometry (not free parameter); form factor correction to m_H = 0.035% (negligible); UV BC correction to α = 0.80% (negligible, confirms OP-07 to 0.4%); one geometric ratio V_warp/η_B² = 249.6 explains α, f, θ_mis, m_H, κ_V, LHC no-see-um — six facts from one number. OP-04 zero free parameters confirmed. (2) `op_cp_phase_winding.py` — Ψ_A topological CP phase from Z_6 zone symmetry: δ_CP = 2π/(2×n_APS) = π/3 EXACT (no fitting); deepest result — same winding n_w=1 that gives 3 generations (OP-02) also fixes δ_CP=π/3 (KM theorem is topological); γ = 60° (PDG 65.6°, 8.5% off, NLO expected); J_zone = 2.76×10⁻⁵ (PDG 3.08×10⁻⁵, 10%); ρ̄=0.14, η̄=0.24 at LO (NLO PC in Vol 3 Ch 5 closes last 15–30%). (3) `Ch05_FINAL.md` updated — title changed to "How the Zone Selects Classical Reality" and §5.8.3 "The Scope of This Resolution" added (OP-09 fully applied to manuscript). Summary table updated: OP-04 → FULLY RESOLVED, OP-07 → FULLY RESOLVED, OP-09 → FULLY RESOLVED. **Final session state: 6 OPs FULLY RESOLVED (02, 03, 04, 07, 08, 09); 3 SUBSTANTIALLY RESOLVED (01/10 as axiom, 05 awaiting NLO PC); 1 CLOSED (06).** |
+
+| 2026-06-11 | **Author Ratification #1 cascaded; register moved out of Archive.** Λ_Z0 (Godhead-zone cosmological constant) adopted as the single foundational axiom and Postulate F (Hopf winding n_w = 3) adopted as the zone-architecture axiom (`CANONICAL_FACTS_REGISTRY.md` ★; `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md`). OP-01/02/03/04/07/10 restated as **RESOLVED given the adopted axioms, dependency stated transparently** (builder's honesty, not "proven from nothing"); **OP-02 spin-½ is no longer an open blocker.** Honest residuals and open numerical items (absolute mass scale, two-loop α precision, β_geom beyond L_A) kept honest and unchanged. File `git mv`-ed from `Book_0/00_Archive/` to `Research/OPEN_PROBLEMS_REGISTER.md` as the authoritative status doc. |
 
 ---
 

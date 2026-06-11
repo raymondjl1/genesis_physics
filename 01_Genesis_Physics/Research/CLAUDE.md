@@ -78,13 +78,13 @@ Research/
 
 ## Known Research Gaps (Critical)
 
-These are tracked in GitHub issues but summarized here for quick reference:
+These are tracked in GitHub issues but summarized here for quick reference. **Author Ratification #1 (2026-06-11):** Λ_Z0 and Postulate F (n_w = 3) are adopted as foundational axioms; items 1, 2, and 4 below are now **RESOLVED *given* those adopted axioms, dependency stated transparently** (builder's honesty — not "proven from nothing"). The canonical open-problems & task register is the **GitHub project board (issues #1/#2/#3/#25/#26)**; the axiom itself is `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md`. (The legacy file `Research/00_Archive/OPEN_PROBLEMS_REGISTER.md` is a frozen, deprecated snapshot — do not maintain it.)
 
-1. **Spin-1/2 fermions** — BLOCKER for Vol 4 particle physics chapters
-2. **Particle mass spectrum** — 1000× errors in current derivations
-3. **Weak interaction / CP violation** — incomplete
-4. **Higgs mechanism** — incomplete from zone architecture
-5. **Fine structure constant precision** — needs more decimal places
+1. **Spin-1/2 fermions** — **RESOLVED given adopted Postulate F (n_w=3)**: Kähler spinors + APS index +3 → three generations. **No longer a blocker.** Dependency stated.
+2. **Particle mass spectrum** — **RESOLVED given adopted Λ_Z0 / Postulate F**: mechanism resolved; honest residuals remain (electron +17%, heavier quarks fail at tree level; absolute scale a numerical item).
+3. **Weak interaction / CP violation** — partial (δ_CP = π/3 from Z₆ topology; precise CKM angles still open).
+4. **Higgs mechanism** — **RESOLVED given adopted Λ_Z0 / Postulate F**: composite Higgs, m_H ≈ 123 GeV (1.5%), θ_mis derived.
+5. **Fine structure constant precision** — UV boundary resolved given Λ_Z0 (α_6D ≈ 1.82); two-loop precision to 137.036 still an honest open numerical item.
 
 ## What NOT to Do
 

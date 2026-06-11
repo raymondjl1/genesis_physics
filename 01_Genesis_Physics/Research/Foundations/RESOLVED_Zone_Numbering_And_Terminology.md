@@ -14,7 +14,7 @@ This document resolves seven critical standardization issues identified across t
 2. **Firmament Terminology:** Strict usage rules defined
 3. **Hebrew Transliteration:** Standard forms for all terms
 4. **Waters Terminology:** Mandatory pairing rules in technical contexts
-5. **Five Principles:** Canonical ordering established with logical justification
+5. **Five Governing Principles:** Canonical ordering established with logical justification
 6. **Zone Boundary Conditions:** Physical rules defined
 7. **Dark Matter/Energy Pairing:** Mandatory terminology rules
 
@@ -277,7 +277,7 @@ Documents reference five principles in different orders:
 
 ### CANONICAL ORDER: Logical Dependency Sequence
 
-**The Five Principles in CANONICAL order** (per the locked `Five_Principles.md`):
+**The Five Governing Principles in CANONICAL order** (per the locked `Five_Principles.md`):
 
 | # | Principle | Divine Attribute | Mathematical Basis | One-line Definition |
 |---|-----------|-------------------|-------------------|-------------------|
@@ -305,7 +305,7 @@ This order reflects **logical and causal dependency**:
 
 **STYLE_GUIDE.md line 38 INCORRECTLY lists "Hierarchy" as a principle.**
 
-**This is WRONG.** The Five Principles are EXACTLY (canonical order):
+**This is WRONG.** The Five Governing Principles are EXACTLY (canonical order):
 1. Sustaining
 2. Conservation
 3. Symmetry
@@ -314,11 +314,11 @@ This order reflects **logical and causal dependency**:
 
 **"Hierarchy" does NOT appear as a principle in the Genesis Physics framework.** It may be a *consequence* of the principles, but it is not one of the five.
 
-### Usage Rules for Five Principles
+### Usage Rules for Five Governing Principles
 
 **First Mention in Any Section (REQUIRED):**
 ```
-The Five Principles (in order of logical dependency):
+The Five Governing Principles (in order of logical dependency):
 1. Sustaining — God actively maintains creation
 2. Conservation — Nothing created/destroyed after Day 7
 3. Symmetry — God's unchanging nature creates physical law symmetry
@@ -512,7 +512,7 @@ For completeness, also pair when first mentioned:
 - [ ] No use of "the Waters" without specifying Above or Below (unless clearly both)
 
 ### Principles
-- [ ] Five Principles appear in canonical order if all five listed
+- [ ] Five Governing Principles appear in canonical order if all five listed
 - [ ] No reference to "Hierarchy" as a principle (remove if found)
 - [ ] Sustaining, Conservation, Symmetry, Degradation, Duality used consistently (canonical order)
 - [ ] First mention includes principle number and brief definition
@@ -546,7 +546,7 @@ For completeness, also pair when first mentioned:
 **Changes Required:**
 1. Line 18: Change "Zone 3 / Earth Prime" → "Zone 2 / Earth Prime"
 2. Line 18: Change "Zone 4 / Waters Below" → add clarification "(dark matter ~27%)"
-3. Lines 37-41: Remove "Hierarchy" from Five Principles list
+3. Lines 37-41: Remove "Hierarchy" from Five Governing Principles list
 4. Reorder principles to: Sustaining, Conservation, Symmetry, Degradation, Duality
 5. Add new section: "Zone Numbering Systems" (use mapping table above)
 6. Add new section: "Hebrew Transliteration Standards" (use Rule 3.1 above)
@@ -635,7 +635,7 @@ For completeness, also pair when first mentioned:
 ### Example 4: Principles Discussion
 
 **CORRECT:**
-> "The Genesis Physics framework rests on the Five Principles in logical order:
+> "The Genesis Physics framework rests on the Five Governing Principles in logical order:
 > 1. **Sustaining**: God actively maintains creation's existence through continuous energy input
 > 2. **Conservation**: Energy and momentum are conserved globally (post-Day 7)
 > 3. **Symmetry**: God's unchanging nature produces physical law symmetry

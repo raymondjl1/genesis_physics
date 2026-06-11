@@ -82,6 +82,10 @@ The coordinates $(\xi, \eta)$ parametrize the two extra dimensions:
 | **Firmament** | 4D Firmament at $\xi = \xi_0, \eta = \eta_0$ | 3+1 dimensional |
 | **Waters Above** | $\xi \in [0, \xi_A]$ | $\xi_A \approx 3 \times 10^{26}$ m (Hubble) |
 
+> **⚠ CANONICAL RECONCILIATION (Author Ratification #3, 2026-06-11).** The canonical leading-order Waters-Above warp factor is
+> $$A_\xi(\xi) = \tfrac{2}{3}\ln\!\left(\tfrac{\xi_0}{\xi}\right) \qquad\text{(equivalently } A_0 - \tfrac{2}{3}\ln(\xi/\xi_0)\text{, with } L_A=\xi_0\text{)},$$
+> derived from the 6D Einstein equations in `Research/Foundations/WARP_FUNCTION_DERIVATION_RT1WF.md` §2.1, Eq. (2.4)/(2.23), and confirmed in `Research/Foundations/B_ETA_WARP_RESOLUTION_OP2WP.md`. In the parametrization below this corresponds to an effective index **λ = −4/3** (note the sign: the 4D metric is *redshifted*, not enhanced, moving away from the Firmament into the Waters Above). The value **λ ≈ 0.05** used in this 2026-04-05 document is a **superseded fitting approximation** retained here only to preserve the original integration steps; do not cite it as the canonical warp index. See the canonical-facts registry §E (Warp index) and ★ Ratification #3.
+
 **Warp factors in each zone:**
 
 For Waters Above ($\xi$-dimension): power-law warping
@@ -270,7 +274,7 @@ With the power-law warp factor $A(\xi) = A_0 + \frac{\lambda}{2}\ln(\xi/\xi_0)$,
 
 $$R_{\text{eff}} \sim \int_0^{\xi_A} d\xi \, e^{\lambda \ln(\xi/\xi_0)} = \int_0^{\xi_A} d\xi \, (\xi/\xi_0)^\lambda$$
 
-For $\lambda \approx 0.05$ (weak warping):
+For $\lambda \approx 0.05$ (weak warping) — *superseded approximation; canonical index is λ = −4/3 from the (2/3)ln(ξ₀/ξ) form, see the reconciliation note in §1.3*:
 $$R_{\text{eff}} \sim \xi_A - \eta_B$$
 
 More precisely, integrating with the boundary contributions:
@@ -377,7 +381,7 @@ where $V_{\text{exp}} = (\xi_A/\lambda + 1/\gamma)$ is the dimensionless part.
 **Given scales:**
 - $\xi_A = 3 \times 10^{26}$ m (Hubble radius)
 - $\eta_B = 1.3 \times 10^{-15}$ m (nuclear scale)
-- $\lambda \approx 0.05$, $\gamma \approx 10^{15}$ m⁻¹
+- $\lambda \approx 0.05$ *(superseded; canonical warp index is λ = −4/3 per the §1.3 reconciliation note and RT-1.WF)*, $\gamma \approx 10^{15}$ m⁻¹
 
 **Volume scaling:**
 $$\ln(V_{\text{extra}}) = 2A_0 + 2B_0 + \ln\left(\frac{3 \times 10^{26}}{0.05}\right)$$

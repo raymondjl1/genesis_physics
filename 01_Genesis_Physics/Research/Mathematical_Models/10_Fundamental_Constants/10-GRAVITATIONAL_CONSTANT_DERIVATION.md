@@ -236,6 +236,10 @@ $$\boxed{V_{\text{extra}} = V_\xi \cdot V_\eta}$$
 
 ### 4.2 Waters Above: Power-Law Warping ($\xi$-dimension)
 
+> **⚠ CANONICAL RECONCILIATION (Author Ratification #3, 2026-06-11).** The canonical leading-order warp *index* — the coefficient of the logarithm in the 4D metric warp factor — is fixed by the 6D Einstein equations to
+> $$A_\xi(\xi) = \tfrac{2}{3}\ln\!\left(\tfrac{\xi_0}{\xi}\right) = A_0 + \tfrac{\lambda}{2}\ln(\xi/\xi_0)\ \text{ with }\ \lambda = -\tfrac{4}{3},$$
+> derived in `Research/Foundations/WARP_FUNCTION_DERIVATION_RT1WF.md` §2.1 (Eq. 2.4/2.23) and confirmed in `Research/Foundations/B_ETA_WARP_RESOLUTION_OP2WP.md`. **The λ = 41 used below is NOT this warp index.** It is a *volume power-law exponent* — a free fitting knob introduced in this 2026-04-05 document solely to engineer a large extra-dimensional volume $V_{\text{extra}}\sim 10^{61}\,\text{m}^2$ for the hierarchy. The two quantities are not interchangeable: the canonical warp index is **negative and of order one** (the 4D metric is redshifted, not exponentially enhanced, into the Waters Above), whereas λ = 41 would give a steeply *growing* warp that contradicts both the sign and the magnitude of the canonical form. **Disposition:** the λ = 41 power-law volume calculation in §4.2–§6 is flagged as **superseded / unreconciled** — it does not survive the canonical (2/3) warp index, and indeed this document already reports that the resulting G₄ is "wrong by many orders of magnitude" (§6.6) and dimensionally inconsistent (§6.8). The correct G₄ volume integral under the canonical warp+breathing factors is carried out in RT-1.WF §4.1 (with B_η ≈ const per OP-2.WP), where G₄ is shown consistent with the zone geometry given a fitted G₆ (calibration, not a power-law prediction). The math below is retained, not overwritten, so the original (failed) attempt remains on record; it must not be cited as a derivation of G₄. See canonical-facts registry §E and ★ Ratification #3.
+
 The warp factor in the Waters Above (large, cosmological-scale extra dimension) follows a power-law:
 
 $$A_\xi(\xi) = A_0 + \frac{\lambda}{2} \ln\left(\frac{\xi}{\xi_0}\right)$$
@@ -402,7 +406,7 @@ From the observed physics and field theory:
 |-----------|-------|--------|
 | ξ_A | 3.0 × 10²⁶ m | Waters Above extent (near Hubble scale) |
 | η_B | 1.3 × 10⁻¹⁵ m | Waters Below extent (nuclear scale) |
-| λ | 41.0 | Power-law index, Waters Above |
+| λ | 41.0 | Power-law *volume* index, Waters Above *(superseded fitting knob — NOT the canonical warp index λ=−4/3; see §4.2 reconciliation note)* |
 | γ | 10¹⁵ m⁻¹ | Damping rate, Waters Below |
 | A₀ | 1.0 | Warp factor at origin (dimensionless) |
 | B₀ | 0.0 | Breathing mode at origin |
@@ -621,7 +625,7 @@ Again, off from observation, suggesting the Firmament tension or effective scale
 | Extra-dim. volume | V_extra | ~10³⁰ m² | [L²] | ✓ |
 | Warp factor | A(y) | ~1 | dimensionless | ✓ |
 | Damping rate | γ | ~10¹⁵ m⁻¹ | [L⁻¹] | ✓ |
-| Power-law index | λ | ~41 | dimensionless | ✓ |
+| Power-law *volume* index | λ | ~41 *(superseded fitting knob; canonical warp index = −4/3, §4.2)* | dimensionless | ✓ |
 
 **All dimensions consistent within the 6D theory.**
 

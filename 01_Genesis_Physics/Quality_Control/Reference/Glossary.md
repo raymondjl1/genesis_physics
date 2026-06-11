@@ -31,6 +31,10 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Providence**: God's ongoing involvement in sustaining and governing creation.
 
+**Sabbath Boundary (Phase 1 → Phase 2 transition)**: The **metric** junction at the end of the Creation epoch (Axiom 4 / `AXIOM_METRIC_DISCONTINUITY`). It **locks all fundamental constants** (α, G, c, Λ); dS/dt → 0; κ_create → κ_full. This is a *distinct* event from the Fall (see below): the Sabbath Boundary is a metric transition that sets the constants. (Supports GitHub #845.)
+
+**The Fall (Phase 2 → Phase 3 transition)**: The **thermodynamic / κ** transition out of the Edenic state (Axiom 5 / `AXIOM_PHASE_TRANSITION_FALL`). First-order; dS/dt goes 0 → >0 (the arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Fundamental constants do NOT change at the Fall.** This is a *distinct, independent* event from the Sabbath Boundary — the two phase transitions must not be conflated. (Supports GitHub #845.)
+
 **Sod**: Hidden or mystical meaning in Hebrew hermeneutics; fourth level of Pardes.
 
 **Stewardship**: Responsible management of creation as God's representatives (Genesis 1:28).
@@ -52,6 +56,12 @@ Location: `Quality_Control/Reference/Glossary.md`
 **Conservation Laws**: Physical laws stating specific quantities remain constant over time (energy, momentum, angular momentum).
 
 **Cosmological Constant (Λ)**: Repulsive dark energy density; associated with Waters Above pressure (~68% universe energy density).
+
+**Λ_Z0 (Godhead-Zone Cosmological Constant)**: The cosmological constant of Z₀ (the Godhead zone) and the **adopted single foundational axiom** of the framework (Author Ratification #1). Value |Λ_Z0| = 1.65×10⁷¹ GeV⁶ at M_Z0 = M_Pl. The derivation chain Λ_Z0 → k₁ = 1.22 MeV → L_A = 83.2 η_B → β_geom = 813 → ℏ is the canonical derivation of ℏ; the same L_A/η_B = 83.2 ratio gives α ≈ 1/137. It is **adopted, not derived** — all downstream results (ℏ, spin-½, three generations, Yukawa α, fine-structure UV boundary) are "resolved *given* this axiom, dependency stated." See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and `Research/Mathematical_Models/10_Fundamental_Constants/op01_z0_axiom_statement.md`.
+
+**Postulate F (Hopf Winding, n_w = 3)**: The adopted **zone-architecture axiom** that the Waters-Above vortex sector carries Hopf winding number n_w = 3 (from π₃(S²) = ℤ). Given it, the extra-dimensional manifold is Kähler → 4D spin-½ zero modes, and the Atiyah–Patodi–Singer index = +3 → three fermion generations. Adopted, not derived from deeper Z₀ principles. **With Postulate F, spin-½ is no longer an "open blocker"** — it is resolved given the adopted axiom, dependency stated. See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4.
+
+**Z₀ (Godhead Zone)**: The deepest zone of the hierarchy (Z₀ → Z₁ → Z₂), the "Godhead zone," whose cosmological constant Λ_Z0 is the framework's foundational axiom. See Λ_Z0 above and `Quality_Control/Reference/Zone_Architecture.md` Table 1.
 
 **Dark Energy**: Unknown repulsive force comprising ~68% of universe energy budget; identified with Waters Above (Ψ_A).
 

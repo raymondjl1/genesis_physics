@@ -96,6 +96,8 @@ If writing requires physics, derivations, or data that doesn't exist in `Researc
 **Repo:** `raymondjl1/genesis_physics`
 **Project Board:** Genesis Physics (V2), columns: Todo | In Progress | Done
 
+**The GitHub project board (Genesis Physics, project #5) is the CANONICAL open-problems and task register.** Do not create or maintain standalone register/status `.md` files for open problems — track open items as board issues and move them across Todo/In Progress/Done.
+
 When `gh` CLI is available:
 - Create issues for each task using labels from the existing label system
 - Reference issue numbers in commit messages

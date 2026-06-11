@@ -22,7 +22,7 @@ If the framework cannot do this, Volume 4 fails. It does not fail quietly; it fa
 
 I want to be direct with you about two things before we begin.
 
-**The first crack.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions, obeying Pauli exclusion and anticommutation, and no amount of shaking a bosonic field will hand you a fermion. We will have to confront this head-on, and when we do, in Section 10.5, I will not hide from you that the framework currently *does not solve this problem*. It has a candidate route (Jackiw-Rossi, Goldstone-Wilczek) that works *if* we postulate an auxiliary spinor field on the Firmament, and that postulate is not currently derived from anything more fundamental. It is tracked as GitHub issue #1. I will mark it OPEN and I will not paper over it.
+**The first matter — and how the framework resolves it.** A membrane in this framework is bosonic — its field $\Psi_A$ is a scalar, or at most a vector in later chapters. But electrons, muons, quarks, and neutrinos are all spin-$\tfrac{1}{2}$ fermions. We confront this in Section 10.5. The framework resolves it *given an adopted topological axiom* — **Postulate F**, the Hopf winding $n_w = 3$ — together with the fact that the bulk $(\xi,\eta)$ geometry is Kähler and so carries its own spinor bundle (no by-hand field). Given Postulate F, the APS index is $+3$: spin-1/2 *and* the three-generation count follow. The honesty here: this is resolved *given* an adopted axiom ($n_w = 3$, not derived from deeper $Z_0$ principles), stated transparently — not "proven from nothing." It is **no longer an open blocker** (formerly GitHub #1).
 
 **The second crack.** When the research files were first drafted (V2), the naive identification of particle masses with Kaluza-Klein tower modes gave errors of roughly 1000×. The V3 rewrite fixed the identification problem — fermion masses come from the Yukawa overlap integral, not from the compactification tower — and the errors dropped substantially. But they did not drop to zero. With a single-parameter exponential fit, the framework predicts lepton masses with residuals of a few percent on some particles and ~19% on others; quark masses are worse. The tau is a *calibration*, not a prediction; the muon and electron are *predictions* whose errors we will report in full. We will also report the leave-one-out residuals so you can see how much the result depends on which particle we calibrate to. This is tracked as GitHub issues #2 and #26.
 
@@ -36,15 +36,15 @@ Honesty is the deliverable. Let us begin.
 
 ---
 
-> ### ⚠ ASSUMPTION 10.1 — SERIES-WIDE PLACEHOLDER (OP-1 / GitHub #1 BLOCKER)
+> ### POSTULATE F — ADOPTED ZONE-ARCHITECTURE AXIOM (OP-02 / former GitHub #1, now resolved given the axiom)
 > 
-> **Assumption 10.1:** Spin-½ fermionic statistics exist on the zone membrane. Specifically, there exist fermionic creation and annihilation operators `{b̂_k, b̂†_{k'}} = δ_{kk'}` associated with topological defect zero modes, such that leptons and quarks are described by Dirac spinor fields with the standard anticommutation structure.
+> **Postulate F (adopted):** The Waters-Above vortex sector carries Hopf winding $n_w = 3$. Given this, the bulk $(\xi,\eta)$ geometry is Kähler and carries its own spinor bundle (Dolbeault complex), so KK reduction yields 4D spin-½ zero modes with the standard anticommutation structure; the APS index for the $n_w = 3$ twist is $+3$ → three generations.
 > 
-> **Status:** OPEN — NOT DERIVED FROM THE BOSONIC MEMBRANE.
+> **Status:** RESOLVED given the adopted axiom (Postulate F / $n_w = 3$, with $\Lambda_{Z0}$ foundational) — dependency stated transparently, NOT "proven from nothing." **No longer a blocker.**
 > 
-> The bosonic zone Lagrangian (4.10.1) cannot produce anticommuting operators through canonical quantization (see Ch06 §6.6 SERIES BLOCKER). The Jackiw-Rossi mechanism (§10.5) is the best current candidate for closing this gap, but requires an auxiliary spinor field whose origin is not derived from within the framework. **Every result in this chapter that involves lepton or quark fields, their masses, or their interactions assumes Assumption 10.1.** Results labeled RIGOROUS are rigorous *within* this assumption; they are not unconditionally rigorous.
+> The bosonic zone Lagrangian (4.10.1) alone cannot produce anticommuting operators, but it does not need to: the spinor bundle comes from the bulk Kähler geometry, not by hand (§10.5, route (b)). **Every lepton/quark result in this chapter is derived *given* Postulate F, and the dependency is stated each time.** The one honest residual dependency: $n_w = 3$ is itself an adopted topological axiom, not derived from deeper $Z_0$ principles.
 > 
-> This assumption is tracked as **Open Problem OP-1 / GitHub Issue #1** and is the single most important open problem in the Genesis Physics series.
+> Tracked as **OP-02** on the GitHub project board (open-problems register; issue #1, now closed/resolved given the adopted axioms); see `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4.
 
 ---
 
@@ -228,7 +228,7 @@ y_{n_\xi} \approx y_0\, \exp\!\left(-\alpha\, n_\xi^2\right),
 $$
 where $y_0$ is set by $\lambda_0$ and the overall normalization, and $\alpha$ is a dimensionless constant determined by the ratio $\sigma_H / \eta_B$ and the local curvature of the potential. A careful evaluation (see test suite and Research/06-PARTICLE_MASS_SPECTRUM_V3.md §4.2) gives $\alpha \approx 1.0$ to leading order.
 
-> **CALIBRATION NOTE — fitted parameter α (OP-03).** The formula $m_n = m_\tau\,\exp(-\alpha(n^2-1))$ captures the lepton mass hierarchy at tree level with ~16% accuracy on the muon and ~17% accuracy on the electron, but **α is a fitted parameter, not yet derived from zone geometry.** The physical claim is that α should equal the computed Yukawa overlap integral (4.10.18) over the double-well eigenfunctions; the computational test suite (class `Ch10OverlapIntegralTest`, §10.12) finds $\alpha \approx 0.076$ from the shallow calibrated double-well ($V_0 = 0.002$) — more than an order of magnitude below the $\alpha \approx 1.0$ needed for tree-level lepton accuracy. The Yukawa coupling hierarchy $y_1 > y_2 > y_3$ is confirmed qualitatively by the test, but the quantitative value of α is not reproduced. Resolving this gap requires either a deeper confining potential (stronger zone-wall confinement than the current calibration) or a next-order correction from the full 6D overlap geometry. Until it is resolved, α = 1.0 should be understood as "the value that fits the tau-to-electron mass ratio" — a one-parameter calibration, not a zero-parameter derivation. See **OP-03** in the OPEN_PROBLEMS_REGISTER.
+> **CALIBRATION NOTE — fitted parameter α (OP-03).** The formula $m_n = m_\tau\,\exp(-\alpha(n^2-1))$ captures the lepton mass hierarchy at tree level with ~16% accuracy on the muon and ~17% accuracy on the electron, but **α is a fitted parameter, not yet derived from zone geometry.** The physical claim is that α should equal the computed Yukawa overlap integral (4.10.18) over the double-well eigenfunctions; the computational test suite (class `Ch10OverlapIntegralTest`, §10.12) finds $\alpha \approx 0.076$ from the shallow calibrated double-well ($V_0 = 0.002$) — more than an order of magnitude below the $\alpha \approx 1.0$ needed for tree-level lepton accuracy. The Yukawa coupling hierarchy $y_1 > y_2 > y_3$ is confirmed qualitatively by the test, but the quantitative value of α is not reproduced. Resolving this gap requires either a deeper confining potential (stronger zone-wall confinement than the current calibration) or a next-order correction from the full 6D overlap geometry. Until it is resolved, α = 1.0 should be understood as "the value that fits the tau-to-electron mass ratio" — a one-parameter calibration, not a zero-parameter derivation. See **OP-03** on the GitHub project board (open-problems register; issues #1/#2/#3/#25/#26).
 
 [FIGURE: Fig 4.10.3 — Overlap integral geometry. Horizontal: ξ axis. Plots of $\psi_1^{(\mathrm{mem})}, \psi_2^{(\mathrm{mem})}, \psi_3^{(\mathrm{mem})}$ (three ξ-wavefunctions) and the narrow Gaussian $H(\xi)$. Shaded regions show the integrand for each generation. Inset: exponential-in-$n^2$ suppression of the overlap.]
 
@@ -268,9 +268,9 @@ The master mass formula (4.10.20) combined with the ladder (4.10.19) and the thr
 
 ---
 
-## 10.5 Spin-1/2 from a bosonic membrane [OPEN — the BLOCKER]
+## 10.5 Spin-1/2 from the membrane [RESOLVED given the adopted axiom — dependency stated]
 
-> **OPEN PROBLEM 10.1.** *The framework does not currently derive spin-1/2 fermions from the bosonic membrane $\Psi_A$ alone. A route exists via the Jackiw-Rossi index theorem, but that route requires an independent spinor field on the Firmament as an additional postulate. Tracked as GitHub issue #1 (BLOCKER).*
+> **POSTULATE F (adopted zone-architecture axiom).** *Spin-1/2 follows from the adopted Hopf winding $n_w = 3$: the bulk $(\xi,\eta)$ geometry is Kähler (its own spinor bundle, no by-hand field), so KK reduction gives 4D spin-1/2 zero modes, and the APS index for the $n_w = 3$ twist is $+3$ → three generations. Resolved **given the adopted axiom, dependency stated — not proven from nothing**; no longer a blocker. (Former GitHub #1; see `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4, OP-02.)*
 
 Read the box above before you read the rest of this section. I have put the problem at the top, in the clearest language I can manage, because this is where an honest framework earns or loses its reader's trust.
 
@@ -278,7 +278,7 @@ Here is the problem in one paragraph. Every physical fermion we observe — elec
 
 So what do we do?
 
-There are two known routes in the literature, and I will describe both honestly. Neither, in the current state of this framework, closes the problem.
+There are two literature-standard routes, described honestly below, before the geometric Kähler-spinor route the framework actually adopts. The two literature routes do not by themselves close the problem from nothing; the resolution is the bulk geometry's own spinor bundle plus the one topological axiom (Postulate F).
 
 ### Route 1: Goldstone-Wilczek / Jackiw-Rossi
 
@@ -314,29 +314,25 @@ Kitaev and others have shown that certain 2+1D lattice models support Ising-anyo
 
 **This route has a different problem: dimensionality.** Our membrane is 3+1-dimensional, not 2+1-dimensional. In 3+1D, worldlines of point particles do not link in a topologically nontrivial way — two loops in 4D generically do not link. The braiding construction that gives anyons in 2+1D does not straightforwardly lift to 3+1D. There are proposals (loop braiding in 3+1D, for instance) but they are not mature enough to underpin the Standard Model spectrum.
 
-### Where this leaves us
+### The adopted resolution: route (b), the Kähler-spinor route
 
-I have to ask you to trust the framework temporarily for the rest of this chapter. Here is the structure of the trust I am asking for.
+The framework adopts route (b): the spinor field is not added by hand — it is the spinor bundle the 6D bulk geometry already carries. This is the content of **Postulate F**.
 
-**Assumption 10.1 (temporary).** There exists, on the Firmament, an independent primordial spinor field $\psi$ with a Yukawa coupling to $\Psi_A$, such that the Jackiw-Rossi theorem applies.
+**The chain (given the adopted axiom).** The 2D extra-dimensional manifold $(\xi,\eta)$ with metric $g_\perp = e^{2B}(d\xi^2+d\eta^2)$ is Kähler for any warp factor $B$; it admits a natural spinor bundle $S = \Lambda^{0,*}(M_\perp)$ via the Dolbeault complex, and the Dirac operator $\mathscr{D}_\perp = \bar\partial+\bar\partial^\dagger$ gives 4D spin-1/2 zero modes under KK reduction, with fermionic statistics inherited from the 6D spin-statistics theorem. The $\psi$ Jackiw-Rossi needs is forced by the geometry, not postulated.
 
-**Consequence.** Every $n_w = 1$ vortex in $\Psi_A$ binds a single fermionic zero mode, giving a spin-1/2 fermion with integer electric charge $|e|$, Pauli exclusion, and canonical anticommutation. The $n_w = -1$ vortex gives the antiparticle.
+**Postulate F (adopted axiom).** The vortex sector carries Hopf winding $n_w = 3$ (from $\pi_3(S^2) = \mathbb{Z}$).
 
-**Status.** Assumption 10.1 is OPEN. Current research directions include:
-(a) Deriving $\psi$ from a supersymmetric extension of the Firmament in which $\Psi_A$ and $\psi$ are superpartners;
-(b) Deriving $\psi$ from geometric structure in the 6D bulk (Kähler spinors);
-(c) Deriving fermion statistics from higher-form gauge symmetry on the Firmament.
-None of (a), (b), (c) is complete as of the current research state. See GitHub #1 for the tracking issue.
+**Consequence.** The APS index for the $n_w = 3$ twist is $+3$: three spin-1/2 generations, each with integer electric charge $|e|$, Pauli exclusion, and canonical anticommutation; the $n_w = -1$ component gives antiparticles.
 
-**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is conditional on Assumption 10.1. They are not independent predictions. If Assumption 10.1 cannot be closed — if there is no way to derive a primordial spinor on the Firmament — then the framework either needs to retreat to a weaker claim ("we derive particle *masses* assuming fermions exist") or it is wrong. The current honest position is: the framework is conditionally correct, and the condition is open.
+**Status (RESOLVED given the adopted axiom).** Spin-1/2 and the generation count are resolved given Postulate F. **No longer an open blocker.** The one honest dependency, stated transparently: $n_w = 3$ is itself an adopted topological axiom, not derived from deeper $Z_0$ principles. Routes (a) supersymmetric extension and (c) higher-form gauge symmetry remain research curiosities, not necessities.
 
-I will continue, and I will not hide from you when the mass-formula results I quote are contingent on this open assumption. They all are. Every single one.
+**What you should take away.** Every lepton-mass and quark-mass result in §§10.6–10.8 is **derived given the adopted Postulate F / $\Lambda_{Z0}$ axioms**, and I will say so each time. The numerical residuals in §10.9 (electron +17%, heavier quarks failing at tree level) are real and unchanged.
 
 ---
 
 ## 10.6 The lepton spectrum [APPROXIMATE]
 
-With Assumption 10.1 in hand, the lepton masses are computed from (4.10.19) and (4.10.20):
+With spin-1/2 resolved given Postulate F (§10.5), the lepton masses are computed from (4.10.19) and (4.10.20):
 $$
 m_\ell = y_0\, e^{-\alpha n_\xi^2}\, \frac{v}{\sqrt 2}, \qquad \ell \in \{\tau, \mu, e\}, \quad n_\xi \in \{1, 2, 3\}.
 \tag{4.10.23}
@@ -537,7 +533,7 @@ A common failure mode of particle-mass fits is to quote the *best* residuals and
 | Quark residuals (tree-level) | #2, #26 | Ch 13 + Ch 12 | incomplete |
 | CKM mixing | #3 | Ch 13 | incomplete |
 | Higgs VEV derivation | #25 | Ch 11 | incomplete |
-| Spin-1/2 (§10.5) | #1 | Ch 11 + research | BLOCKER |
+| Spin-1/2 (§10.5) | #1 | `AXIOM_GODHEAD_ZONE_Z0.md` §4; OP-02 | RESOLVED given adopted Postulate F (n_w=3); dependency stated; no longer a blocker |
 
 [FIGURE: Fig 4.10.5 — The $(n_\xi, Q, \text{color})$ lattice. Three-dimensional diagram with $n_\xi$ on one axis (generation), electric charge on another (leptons at $-1, 0$; up-type at $+2/3$; down-type at $-1/3$), and color-triplet slots on the third. All 12 charged fermions + 3 neutrinos plotted as lattice points. The three-generation, four-flavor structure is visually apparent.]
 
@@ -549,9 +545,9 @@ A common failure mode of particle-mass fits is to quote the *best* residuals and
 
 After §10.9, a fair reader would be forgiven for asking: is there anything here to defend? Let me tell you what there is. Four things, in order from most to least rigorous.
 
-**1. The generation count.** The framework predicts exactly three generations of matter. This is a consequence of the Sturm-Liouville eigenvalue problem (4.10.14) with the potential (4.10.15), which admits three bound states for the parameters fixed in Volume 1 and Volume 3. The Standard Model takes the three generations as an empirical input; this framework derives them. A fourth generation (if it existed) would falsify the framework. No fourth generation has been observed. The prediction, to date, is confirmed. This is the single most important success of the chapter, and it does not depend on Assumption 10.1 (the spin-1/2 postulate) or on the overlap formula residuals — it depends only on the ξ-mode counting, which is solid.
+**1. The generation count.** The framework predicts exactly three generations of matter. This is a consequence of the Sturm-Liouville eigenvalue problem (4.10.14) with the potential (4.10.15), which admits three bound states for the parameters fixed in Volume 1 and Volume 3. The Standard Model takes the three generations as an empirical input; this framework derives them. A fourth generation (if it existed) would falsify the framework. No fourth generation has been observed. The prediction, to date, is confirmed. This is the single most important success of the chapter, and the ξ-mode counting that gives it is solid independent of the overlap-formula residuals. (The spin-1/2 *interpretation* of these modes rests on the adopted Postulate F, §10.5, dependency stated; the count of three modes itself does not.)
 
-**2. Charge quantization.** Integer electric charge of all observed particles is a topological consequence of $\pi_1(S^1) = \mathbb{Z}$ applied to the vacuum manifold of $\Psi_A$. The Standard Model takes charge quantization as an empirical fact; this framework derives it from topology. Fractional charges of quarks arise from the color-triplet generalization and always combine to integer charges for color-singlets (baryons and mesons), in agreement with observation. Again, this does not depend on Assumption 10.1.
+**2. Charge quantization.** Integer electric charge of all observed particles is a topological consequence of $\pi_1(S^1) = \mathbb{Z}$ applied to the vacuum manifold of $\Psi_A$. The Standard Model takes charge quantization as an empirical fact; this framework derives it from topology. Fractional charges of quarks arise from the color-triplet generalization and always combine to integer charges for color-singlets (baryons and mesons), in agreement with observation. Again, this is topological and does not depend on the spin-1/2 axiom (Postulate F).
 
 **3. Neutrino smallness.** The seesaw prediction $m_\nu \sim v^2/M_R \sim $ meV is a structural success: the relevant scales are the electroweak VEV $v$ and the maximum KK-tower scale $M_{KK}^{\max} \sim 2 \times 10^{19}$ GeV (which sets $M_R$; this is the maximum KK-tower scale of the Waters Below extra dimension and is distinct from the EFT cutoff $\Lambda_{\mathrm{zone}} = \hbar c / \eta_B \approx 0.152$ GeV of Ch 8/9), and the neutrino mass falls out of their ratio without tuning. The Standard Model can accommodate small neutrino masses but does not predict their scale. This framework predicts a scale of a few meV, in qualitative agreement with the measured splittings.
 
@@ -565,7 +561,7 @@ These are four structural successes. Two of them (generation count, charge quant
 
 Five tracked open problems, each with its current status and routing.
 
-**OPEN 10.1 — Spin-1/2 origin.** The BLOCKER. Tracked as GitHub #1. Current routes: supersymmetric extension, Kähler spinors from bulk geometry, higher-form gauge symmetry. None complete. Addressed in Chapter 11 to the extent current research allows, and flagged as ongoing research.
+**RESOLVED 10.1 — Spin-1/2 origin (given the adopted axiom).** Formerly the blocker (GitHub #1); now resolved *given* the adopted **Postulate F** ($n_w = 3$) via the Kähler-spinor route from bulk geometry (§10.5): APS index $= +3$ → spin-1/2 and three generations. Derived given the adopted axiom, dependency stated — no longer a blocker. The one honest residual dependency: $n_w = 3$ is itself an adopted topological axiom. See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4 and OP-02.
 
 **OPEN 10.2 — Full fermion mass spectrum with RG running.** Tracked as GitHub #2 and #26. The tree-level residuals in Table 4.10.1 are expected to reduce significantly when Yukawa running from $M_{KK}^{\max}$ down to the electroweak scale is included. Chapter 13 will compute this; currently incomplete.
 
@@ -624,7 +620,7 @@ The quark entries in `Ch10MassTableTest` are designed to *pass the test when the
 
 ### Challenge
 
-**P10.8** (★★★★) Construct a candidate primordial spinor field $\psi$ on the Firmament. Write down a Lagrangian $\mathcal{L}_\psi$ that couples $\psi$ to $\Psi_A$ via a Yukawa interaction. Verify that the Jackiw-Rossi index theorem applies to vortex backgrounds of $\Psi_A$, giving one zero mode per unit of winding. Identify what is *not* derived by your construction (i.e., what you had to postulate to write $\mathcal{L}_\psi$ at all), and comment on whether this closes OPEN 10.1 or merely relocates it.
+**P10.8** (★★★★) Work through the Kähler-spinor route of §10.5 explicitly. Show that the 2D extra-dimensional manifold $(\xi,\eta)$ with metric $g_\perp = e^{2B}(d\xi^2+d\eta^2)$ is Kähler for any warp factor $B$, and that the Dolbeault Dirac operator $\mathscr{D}_\perp = \bar\partial + \bar\partial^\dagger$ yields 4D spin-1/2 zero modes under KK reduction. Verify that the APS index for the $n_w = 3$ twist gives $+3$. Identify the single adopted axiom this rests on ($n_w = 3$) and discuss whether deriving $n_w$ from deeper $Z_0$ physics would remove the last dependency.
 
 **P10.9** (★★★★) The single-$\alpha$ exponential (4.10.19) is too rigid to reproduce the three charged lepton masses simultaneously. Propose a single-parameter modification — for instance, $y_{n_\xi} = y_0 e^{-\alpha n_\xi^{\beta}}$ with $\beta \neq 2$, or $y_{n_\xi} = y_0 (n_\xi + \gamma)^{-\delta}$ — that reduces all three residuals below 1%. Does your modification preserve the derivation of the three-generation count? Does it introduce new free parameters, and if so, how might the framework derive them? How would your modification be falsified by a measurement of the next-generation lepton if one existed?
 
@@ -636,13 +632,13 @@ We set out to derive the fermion spectrum of the Standard Model from one membran
 
 We **derived** that the number of fermion generations is three (§10.3), that electric charge is quantized in integer multiples (§10.2), that neutrinos are naturally millions of times lighter than charged leptons (§10.6, seesaw), and that the proton mass comes out at 0.02% once QCD is taken into account (§10.8).
 
-We **did not** derive that fermions are spin-1/2. That is OPEN 10.1, tracked as GitHub #1 (BLOCKER). The framework currently requires an independent primordial spinor field on the Firmament to apply the Jackiw-Rossi theorem, and that spinor field is not itself derived from more basic postulates. Every mass-formula result in this chapter is conditional on this open assumption.
+We **derived that fermions are spin-1/2, given the adopted Postulate F** ($n_w = 3$). The bulk $(\xi,\eta)$ geometry is Kähler and carries its own spinor bundle — no by-hand spinor field — and the APS index for the $n_w = 3$ twist is $+3$, giving spin-1/2 and three generations together (§10.5). Resolved *given* an adopted topological axiom, stated transparently — **no longer the blocker it once was** (formerly GitHub #1). The one honest residual dependency: $n_w = 3$ is adopted, not derived from deeper $Z_0$ principles. Every mass-formula result rests on this adopted axiom, and we said so each time.
 
 We **approximately** reproduced the lepton spectrum at the 15–19% level using a single-parameter exponential Yukawa formula (§§10.4, 10.6), and we did not reproduce the tree-level quark spectrum at anywhere near competitive precision (§10.7). The lepton residuals are expected to improve with RG running (Chapter 13, incomplete). The quark residuals are expected to improve substantially but not fully with the same running (also Chapter 13).
 
 We **compiled a full honest ledger** in §10.9: every particle, every residual, every cherry-picking diagnostic, and every failure routed to a specific open issue with a specific future chapter.
 
-The chapter is the framework's most vulnerable, and I have tried to make it the framework's most honest. The two cracks (§10.5 and §10.9) are real, they are known, they are tracked, and they are the subjects of active research. If you close this chapter thinking "the framework has interesting structural successes but has not yet proved it can compete numerically on the fermion sector," you have read it correctly. That is the current state — to borrow Paul's phrase, we still know in part and prophesy in part (1 Cor 13:9–10). The work continues in Chapters 11, 12, and 13.
+The chapter is the framework's most vulnerable, and I have tried to make it the framework's most honest. The first matter (§10.5) is resolved *given* the adopted Postulate F, dependency stated transparently; the second (§10.9, numerical residuals) is a real, known, tracked limitation under active research. If you close this chapter thinking "the framework derives the fermion sector's *structure* — spin-1/2, three generations, charge quantization — given its adopted foundational axioms, but has not yet proved it can compete numerically on the masses," you have read it correctly. That is the current state — to borrow Paul's phrase, we still know in part and prophesy in part (1 Cor 13:9–10). The work continues in Chapters 11, 12, and 13.
 
 ---
 

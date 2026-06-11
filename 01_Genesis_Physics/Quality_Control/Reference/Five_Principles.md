@@ -1,4 +1,4 @@
-# The Five Principles
+# The Five Governing Principles
 
 **Canonical reference for the Genesis Physics series.**
 
@@ -8,15 +8,15 @@ Location: `Quality_Control/Reference/Five_Principles.md`
 
 ## Canon (locked)
 
-- Title-cased name: **Five Principles** (no qualifier — never "Five Governing Principles", never "five principles").
+- Title-cased name: **Five Governing Principles** (matching Vol 1 Ch 8; never "Five Principles", never "five governing principles"). *Author Ratification #4 (2026-06-11) reversed the earlier "Five Principles" default and restored "Five Governing Principles" as canonical.*
 - Canonical order: **Sustaining → Conservation → Symmetry → Degradation → Duality.**
 - First-mention-per-chapter format:
-  > The Five Principles (Sustaining, Conservation, Symmetry, Degradation, Duality) ...
+  > The Five Governing Principles (Sustaining, Conservation, Symmetry, Degradation, Duality) ...
 - Authoritative derivation: Volume 1, Chapter 8.
 
 ---
 
-## The Five Principles (canonical order)
+## The Five Governing Principles (canonical order)
 
 | # | Principle | One-sentence definition | Biblical anchor |
 |---|-----------|-------------------------|-----------------|

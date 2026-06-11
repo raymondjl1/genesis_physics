@@ -2,6 +2,13 @@
 
 **Status:** Authoritative single source of truth for cross-cascade consistency (ideas → analysis → books). Created 2026-06-09 from a full Phase-0 audit that surfaced 17 cross-source conflicts. Every analysis file and every book must agree with this registry; where a source disagreed, the disposition column says how it was resolved.
 
+## ★ AUTHOR RATIFICATION (2026-06-11) — these decisions are now LOCKED and cascade everywhere
+1. **Godhead zone ADOPTED.** Λ_Z0 (the cosmological constant of Z₀, the Godhead zone; |Λ_Z0| = 1.65×10⁷¹ GeV⁶ at M_Z0 = M_Pl, per `Research/Mathematical_Models/10_Fundamental_Constants/op01_z0_axiom_statement.md`) is adopted as **the single foundational axiom** of the framework. The chain Λ_Z0 → k₁=1.22 MeV → L_A=83.2η_B → β_geom=813 → ℏ is the canonical derivation of ℏ. **Postulate F** (Hopf winding n_w=3 as a zone-architecture axiom → Kähler spinors + APS index = +3) is likewise adopted. **Consequence:** OP-01 (ℏ/β_geom), OP-02 (spin-½), OP-03 (Yukawa α), OP-04 (three generations), OP-07 (fine-structure UV), OP-10 (Z₁) are now **RESOLVED *given the framework's adopted foundational axioms*** — present them as **derived, with the axiom dependency stated transparently** (builder's honesty: "resolved given Λ_Z0 / Postulate F, which the framework adopts as foundational," NOT "proven from nothing"). Spin-½ is **no longer an "open blocker."** This SUPERSEDES the conservative "OPEN BLOCKER" framing applied earlier; cascade the new status to V3, Ch10_FINAL, Vol 4 Ch 11, Book 1, Book 2 Ch 7, the governance CLAUDE.md gap tables, and GitHub #1/#2/#25.
+2. **Zone Z₂.₂.₂ = the Firmament membrane** (matter = Z₂.₂.₂.₁). RATIFIED (already cascaded in Phase 1; drop the needs-ratify note in §B).
+3. **Warp index = the (2/3)·ln(ξ₀/ξ) form** (RT-1.WF/OP-2.WP). RATIFIED. Cascade: reconcile `KK_DIMENSIONAL_REDUCTION` (λ≈0.05) and `10-GRAVITATIONAL_CONSTANT_DERIVATION` (λ=41) to this form.
+4. **"Five Governing Principles"** is the canonical name (matching Vol 1 Ch 8). RATIFIED — this REVERSES the earlier "Five Principles" default. Cascade: revert `Five_Principles.md` (the locked card → retitle "Five Governing Principles"), `RESOLVED_Zone_Numbering`, `Book_0/README.md`, and Book 2 Ch 8 back to "Five Governing Principles." Order stays Sustaining, Conservation, Symmetry, Degradation, Duality.
+5. **Canonical electroweak inputs: g_W = 0.652 → M_W = 80.27, M_Z = 91.55** ("best solution" = the verified, internally self-consistent value where v closes to 246.22; already cascade-wide). RATIFIED.
+
 **Resolution rules applied** (in precedence order):
 1. An explicitly **"locked"** Reference card (`Five_Principles.md`, `Symbol_and_Constants.md`) wins on terminology/constants.
 2. The **newest dated derivation** wins on physics (e.g. `PARTICLE_MASS_SPECTRUM_V3` / `MASS_SCALE_RESOLUTION` over `06-HIGGS_DERIVATION`; the RT‑1.WF/OP‑2.WP warp resolution over older KK/gravity values).
@@ -17,7 +24,7 @@
 - Old `Book_2_The_Hidden_Architecture/` content is **archival** (folded into Book 1). Content cascades bottom-up: Foundations → flagship → family.
 - **Cascade target:** `Quality_Control/BOOK_SERIES_STRATEGY.md` is STALE (says "Family Edition last", old flagship title, treats Book 2 as live) → UPDATE to match this.
 
-## B. Zone architecture  *(NEEDS-RATIFY — two "authoritative" cards disagree; conservative default below)*
+## B. Zone architecture  *(RATIFIED 2026-06-11 — ★#2: Z₂.₂.₂ = Firmament membrane)*
 - 6D coordinates (t,x,y,z,ξ,η); indices ∈ {0,1,2,3,5,6}; signature (+−−−−−). ξ = Waters-Above direction (cosmological); η = Waters-Below direction (nuclear). Extra dimensions are **non-compactified / cosmological-scale** (the deliberate departure from string/KK).
 - **Default canonical labels** (from `RESOLVED_Zone_Numbering_And_Terminology.md` + `Glossary.md`): Z₂.₂.₁ = Waters Below (dark matter, Ψ_B, w≈0); **Z₂.₂.₂ = the Firmament membrane (4D)**; Z₂.₂.₂.₁ = Condensed/baryonic matter; Z₂.₂.₃ = Waters Above (dark energy, Ψ_A, w≈−1).
 - **CONFLICT to fix:** `Quality_Control/Reference/Zone_Architecture.md` labels Z₂.₂.₂ itself as "Condensed Matter", and its simplified Zone 3/Zone 4 mapping contradicts the RESOLVED file. **Default: the membrane reading above is canonical; reconcile `Zone_Architecture.md` to it.** *(Author: confirm the membrane-vs-matter assignment of Z₂.₂.₂.)*
@@ -27,11 +34,10 @@
 - **The Fall** (Axiom 5 / `AXIOM_PHASE_TRANSITION_FALL`): thermodynamic/κ transition, Phase 2 → Phase 3; first-order; dS/dt 0→>0 (arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Constants do NOT change here.**
 - These are **independent events**. Already cascaded into Book 1 (Ch 5/11/13/15). Source: `Four_Epochs_Timeline.md`. (Book 1 Ch13 SPEC lags — GH #845.)
 
-## D. The Five Principles  *(RESOLVED-BY-RULE — `Five_Principles.md` is locked)*
-- Name: **"Five Principles"** (never "Five Governing Principles", never lowercase).
+## D. The Five Governing Principles  *(RATIFIED 2026-06-11 — ★#4; reverses the earlier "Five Principles" default)*
+- Name: **"Five Governing Principles"** (matches Vol 1 Ch 8; never lowercase).
 - Canonical order/numbering: **1 Sustaining · 2 Conservation · 3 Symmetry · 4 Degradation · 5 Duality**. "Hierarchy" is NOT a principle.
-- **Cascade target:** `RESOLVED_Zone_Numbering_And_Terminology.md` §5 uses the wrong name and a Degradation↔Duality-swapped order → UPDATE (done).
-- **NEEDS-RATIFY (naming):** the locked card says "Five Principles", but **Vol 1 Ch 8's folder + chapter title still read "Five Governing Principles"** (as do its reviewer reports). Book 2, `RESOLVED_Zone_Numbering`, and `Book_0/README.md` are aligned to "Five Principles". To finish: either **rename Vol 1 Ch 8** ("The Five Principles as Constraints" + folder `Ch_08_Five_Principles`) — a cross-ref cascade — *or* ratify "Five Governing Principles" and revise the locked card. Author's call (chapter-folder rename is consequential).
+- **Cascaded (done):** `Five_Principles.md` card, `RESOLVED_Zone_Numbering`, `Book_0/README.md`, and Book 2 Ch 8 all use "Five Governing Principles". Vol 1 Ch 8 folder/title were already "Five Governing Principles" — no rename needed.
 
 ## E. Key constants & scales  *(mixed)*
 | Quantity | CANONICAL value | Disposition | Stale sources to fix |
@@ -45,7 +51,7 @@
 | First KK (η) mode | **≈477 MeV** (= πℏc/η_B; hadronic scale) | RESOLVED | 06-HIGGS §1.4 still says **430 GeV** ("electroweak", retracted) → fix |
 | η_B | 1.3×10⁻¹⁵ m | RESOLVED | — |
 | ξ_A | 3×10²⁶ m — **distinct from** the Hubble radius (~1.4×10²⁶ m) | RESOLVED | `RESOLVED_Zone_Numbering` conflates them → fix |
-| Warp index | **A_ξ(ξ) = (2/3)·ln(ξ₀/ξ)** (RT‑1.WF / OP‑2.WP resolution) | **NEEDS-RATIFY** (default = the 2/3 resolution form) | `KK_DIMENSIONAL_REDUCTION` (λ≈0.05) and `10-GRAVITATIONAL_CONSTANT_DERIVATION` (λ=41) are unreconciled → flag/update *(Author: confirm the 2/3 form is canonical)* |
+| Warp index | **A_ξ(ξ) = (2/3)·ln(ξ₀/ξ)** (RT‑1.WF / OP‑2.WP) | **RATIFIED ★#3** | `KK_DIMENSIONAL_REDUCTION` (λ≈0.05) and `10-GRAVITATIONAL_CONSTANT_DERIVATION` (λ=41) reconciled to the 2/3 form / flagged superseded (done) |
 | Firmament tension σ | 6.0×10⁹⁸ **kg/(m·s²)** | RESOLVED | unit drift "kg/s²" in 06-HIGGS / MEMBRANE_MASS → fix |
 | Membrane density μ_m | 6.7×10⁸¹ **kg/m³** | RESOLVED | V3 §2.1 says 6.7×10⁸² kg/m² → fix |
 | Energy budget | Ω_Λ 0.684 / Ω_DM 0.266 / Ω_b 0.05 (Planck 2018) | RESOLVED | — |
@@ -53,17 +59,17 @@
 | CC ρ_eff | 2.93×10⁻⁴⁷ GeV⁴ (within ~20% of observed; n=1 suppression, **rigorous derivation of n=1 PENDING**) | RESOLVED (status honest) | — |
 | Fine structure α⁻¹ | one-loop **137.17** (0.095%); two-loop/UV-boundary closure to 137.036 is **OPEN** (OP-07) | RESOLVED (honest) | drop "9 sig figs / no free parameters" overclaim in `Foundations/FINE_STRUCTURE_DERIVATION.md`; reconcile the two fine-structure files |
 
-## F. Particle mass spectrum & spin-½  *(NEEDS-RATIFY on status; values RESOLVED to honest canon)*
+## F. Particle mass spectrum & spin-½  *(RATIFIED 2026-06-11 — ★#1: resolved given adopted axioms; honest residuals retained)*
 - **Honest residuals (canonical = Vol 4 Ch10_FINAL):** electron +17%; muon −15…19%; tau = **calibration anchor** (not a prediction); light quarks ~7%; heavier quarks fail badly at tree level; proton −0.02%, neutron +0.005% (proton credit shared with QCD). Three-generation count and charge quantization are **genuine derivational wins**. Neutrino smallness qualitative win.
-- **Spin-½ from a bosonic membrane = OPEN BLOCKER (GitHub #1 / Assumption 10.1).** Every fermion result is conditional on the unproven Hopf-winding/Postulate-F assumption. **Default = OPEN.** *(Author: the OP register claims this is "resolved" conditional on the new Λ_Z0 axiom — ratify whether to present it as conditionally-resolved or open.)*
-- Generation→mode mapping: **gen 3 (τ,t) → n_ξ=1; gen 1 (e,u) → n_ξ=3** (V3 corrected). 06-HIGGS §7.3 retains the reversed old mapping → fix.
-- Yukawa hierarchy α: **fitted (~20% residual), not derived** (honest). → flag OP-register "FULLY RESOLVED".
-- **Cascade target:** `06-PARTICLE_MASS_SPECTRUM_V3.md` claims "spin-1/2 proven" + "<1%" — contradicts Ch10_FINAL (which cites it) → UPDATE to the honest canon (GH #844). `FERMION_EMERGENCE_FROM_MEMBRANE` / OP-register OP-02 likewise.
+- **Spin-½ = RESOLVED given the adopted Postulate F (n_w=3) + Λ_Z0 axioms** (★#1): Kähler spinors → 4D spin-½; APS index = +3 → three generations. **No longer a blocker** (former GitHub #1). Present with the dependency stated transparently — n_w=3 is an adopted topological axiom, not derived from deeper Z₀ principles; "derived given the adopted axiom," not "proven from nothing." Cascaded to V3, Ch 10/11, Book 1, Book 2 Ch 7 (done).
+- Generation→mode mapping: **gen 3 (τ,t) → n_ξ=1; gen 1 (e,u) → n_ξ=3** (V3 corrected; 06-HIGGS §7.3 fixed — done).
+- Yukawa hierarchy α: derived from the condensate-kink BVP given the adopted axioms (OP-03); the exp(−αn²) ansatz carries a ~20% residual on m_μ/m_e — stated honestly.
+- **Cascaded (done):** V3, Ch10_FINAL/DRAFT, Vol 4 Ch 11, and the governance gap tables present spin-½ as resolved-given-adopted-axioms; honest accuracy facts (electron +17%, tau = calibration, etc.) unchanged. GH #844 closed.
 
-## G. Open-problems status  *(NEEDS-RATIFY — two lists disagree)*
-- Governance `CLAUDE.md` files list spin-½ (#1), mass-spectrum errors (#2), weak/CP (#3), Higgs (#25) as **OPEN**.
-- `OPEN_PROBLEMS_REGISTER.md` (2026-05-14, sitting in `Book_0/00_Archive/`) marks most "RESOLVED", many *conditional on a new Λ_Z0 (Godhead-zone) axiom*.
-- **Default:** treat the governance OPEN status as canonical; the register's resolutions are **claims to verify**, not settled. *(Author: ratify the register — and decide whether the Λ_Z0 axiom is adopted. If adopted, it must be added to the axiom set and cascaded.)* The register is also mis-filed in an Archive folder despite being the newest status doc — decide its home.
+## G. Open-problems status  *(RATIFIED 2026-06-11)*
+- **Canonical register:** the open-problems & task register is the **GitHub project board** ("Genesis Physics", project #5). Track open items as board issues (Todo / In Progress / Done) — do not maintain standalone register `.md` files.
+- The foundational blockers — spin-½ (#1), mass-spectrum (#2), weak/CP (#3), Higgs (#25), couplings (#26) — are **CLOSED: resolved given the adopted Λ_Z0 / Postulate F axioms** (Author Ratification #1, 2026-06-11; see `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md`). Honest residuals and genuinely-open numerical items (two-loop α precision to 137.036, absolute mass scale / Higgs vev, precise CKM/PMNS angles) remain open as board issues.
+- The former file `Research/00_Archive/OPEN_PROBLEMS_REGISTER.md` is a **frozen, deprecated snapshot** (no longer maintained).
 
 ## H. Stale analysis to ARCHIVE  *(RESOLVED-BY-RULE)*
 - `06-PARTICLE_MASS_SPECTRUM_V2.md` + the 5 `06-MASS_SPECTRUM_V2_*` files → `06_…/00_Archive` (survivor: V3). Update `Vol_4/CLAUDE.md` "Supporting analysis (5 files)" pointer.
