@@ -33,8 +33,8 @@
 - **CONFLICT to fix:** `Quality_Control/Reference/Zone_Architecture.md` labels Z₂.₂.₂ itself as "Condensed Matter", and its simplified Zone 3/Zone 4 mapping contradicts the RESOLVED file. **Default: the membrane reading above is canonical; reconcile `Zone_Architecture.md` to it.** *(Author: confirm the membrane-vs-matter assignment of Z₂.₂.₂.)*
 
 ## C. The two phase transitions  *(RESOLVED-BY-RULE — confirmed distinct)*
-- **Sabbath Boundary** (Axiom 4 / `AXIOM_METRIC_DISCONTINUITY`): metric junction, Phase 1 Creation → Phase 2 Edenic; **locks all constants (α, G, c, Λ)**; dS/dt → 0; κ_create → κ_full.
-- **The Fall** (Axiom 5 / `AXIOM_PHASE_TRANSITION_FALL`): thermodynamic/κ transition, Phase 2 → Phase 3; first-order; dS/dt 0→>0 (arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Constants do NOT change here.**
+- **Sabbath Boundary** (Axiom 6 / `AXIOM_METRIC_DISCONTINUITY`): metric junction, Phase 1 Creation → Phase 2 Edenic; **locks all constants (α, G, c, Λ)**; dS/dt → 0; κ_create → κ_full.
+- **The Fall** (Axiom 7 / `AXIOM_PHASE_TRANSITION_FALL`): thermodynamic/κ transition, Phase 2 → Phase 3; first-order; dS/dt 0→>0 (arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Constants do NOT change here.**
 - These are **independent events**. Already cascaded into Book 1 (Ch 5/11/13/15). Source: `Four_Epochs_Timeline.md`. (Book 1 Ch13 SPEC lags — GH #845.)
 
 ## D. The Five Governing Principles  *(RATIFIED 2026-06-11 — ★#4; reverses the earlier "Five Principles" default)*

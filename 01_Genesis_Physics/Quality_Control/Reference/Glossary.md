@@ -31,9 +31,9 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Providence**: God's ongoing involvement in sustaining and governing creation.
 
-**Sabbath Boundary (Phase 1 → Phase 2 transition)**: The **metric** junction at the end of the Creation epoch (Axiom 4 / `AXIOM_METRIC_DISCONTINUITY`). It **locks all fundamental constants** (α, G, c, Λ); dS/dt → 0; κ_create → κ_full. This is a *distinct* event from the Fall (see below): the Sabbath Boundary is a metric transition that sets the constants. (Supports GitHub #845.)
+**Sabbath Boundary (Phase 1 → Phase 2 transition)**: The **metric** junction at the end of the Creation epoch (Axiom 6 / `AXIOM_METRIC_DISCONTINUITY`). It **locks all fundamental constants** (α, G, c, Λ); dS/dt → 0; κ_create → κ_full. This is a *distinct* event from the Fall (see below): the Sabbath Boundary is a metric transition that sets the constants. (Supports GitHub #845.)
 
-**The Fall (Phase 2 → Phase 3 transition)**: The **thermodynamic / κ** transition out of the Edenic state (Axiom 5 / `AXIOM_PHASE_TRANSITION_FALL`). First-order; dS/dt goes 0 → >0 (the arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Fundamental constants do NOT change at the Fall.** This is a *distinct, independent* event from the Sabbath Boundary — the two phase transitions must not be conflated. (Supports GitHub #845.)
+**The Fall (Phase 2 → Phase 3 transition)**: The **thermodynamic / κ** transition out of the Edenic state (Axiom 7 / `AXIOM_PHASE_TRANSITION_FALL`). First-order; dS/dt goes 0 → >0 (the arrow of time, decay); κ_full → κ_partial = κ_full(1−ε). **Fundamental constants do NOT change at the Fall.** This is a *distinct, independent* event from the Sabbath Boundary — the two phase transitions must not be conflated. (Supports GitHub #845.)
 
 **Sod**: Hidden or mystical meaning in Hebrew hermeneutics; fourth level of Pardes.
 

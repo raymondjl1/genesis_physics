@@ -9,7 +9,7 @@
 >
 > *Chain Status: COMPLETE*
 
-# Axiom 2: Six-Dimensional Spacetime Embedding
+# Axiom 1: Six-Dimensional Spacetime Embedding
 ## Genesis Physics Foundational Axiom
 
 **Author**: Genesis Physics Research Team
@@ -52,7 +52,7 @@ The 6D manifold is partitioned into four distinct zones defined by the values of
 ```
 ZONE 1: The External Region
   - Boundary: Outside the physical manifold
-  - Characteristic: Source of the sustaining field (see Axiom 1: Open System)
+  - Characteristic: Source of the sustaining field (see Axiom 4: Open System)
   - Physics: Not described by the field equations of the manifold
   - Role: Provides the boundary conditions and energy input
             that standard physics treats as "initial conditions"
@@ -150,10 +150,10 @@ This is not numerology — it is a geometric ratio of the extra-dimensional scal
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: Zone 1 is the external source that makes the system open. The zone architecture defines where external input enters the manifold.
+- **Axiom 4 (Open System)**: Zone 1 is the external source that makes the system open. The zone architecture defines where external input enters the manifold.
 - **Axiom 3 (Firmament Mechanics)**: The Firmament (Zone 2.2) is the elastic membrane whose mechanical properties determine c, electromagnetic coupling, and all Standard Model physics.
-- **Axiom 4 (Metric Discontinuity)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary froze the metric to its current sustaining-mode form.
-- **Axiom 5 (Phase Transition)**: The Fall altered the energy transfer between Zone 1 and the 6D manifold, changing the sustaining balance.
+- **Axiom 6 (Metric Discontinuity)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary froze the metric to its current sustaining-mode form.
+- **Axiom 7 (Phase Transition)**: The Fall altered the energy transfer between Zone 1 and the 6D manifold, changing the sustaining balance.
 
 ---
 
@@ -189,7 +189,7 @@ The 4D physics we observe is the Firmament projection of 6D geometry. Dark energ
 ---
 
 **Cross-references:**
-- AXIOM_OPEN_SYSTEM.md — Axiom 1: The universe is an open system
+- AXIOM_OPEN_SYSTEM.md — Axiom 4: The universe is an open system
 - AXIOM_MEMBRANE_MECHANICS.md — Axiom 3: Firmament as elastic membrane
 - WATERS_FIELD_EQUATIONS.md — Full field equations for Ψ_A and Ψ_B
 - FIVE_PRINCIPLES_FORMALIZED.md — The five governing principles

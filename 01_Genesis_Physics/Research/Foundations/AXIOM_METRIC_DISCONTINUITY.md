@@ -2,14 +2,14 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 2:1-3 (Sabbath); Exodus 20:11 "In six days the Lord made heaven and earth" | Genesis 2:1-3, Exodus 20:11 |
-> | Axiom | **AXIOM 7: Metric Discontinuity / Sabbath Boundary** | AXIOM_METRIC_DISCONTINUITY.md |
+> | Axiom | **AXIOM 6: Metric Discontinuity / Sabbath Boundary** | AXIOM_METRIC_DISCONTINUITY.md |
 > | Parent Theory | First Principles / Axiom; depends on AXIOM 1 (6D Spacetime) | AXIOM_6D_SPACETIME.md |
 > | **This Document** | **First-order metric phase transition mapping 6 creation days ↔ 13.8 Gyr coordinate time; Sabbath Boundary separates Creation from Sustaining modes** | **AXIOM_METRIC_DISCONTINUITY.md** |
 > | Modern Equivalent | Inflationary cosmology with metric discontinuity | Diverges: standard cosmology assumes continuous evolution; this proposes discrete phase transition |
 >
 > *Chain Status: COMPLETE*
 
-# Axiom 4: Creation-Epoch Metric Discontinuity
+# Axiom 6: Creation-Epoch Metric Discontinuity
 ## Genesis Physics Foundational Axiom
 
 **Author**: Genesis Physics Research Team
@@ -200,15 +200,15 @@ to sustaining work (maintenance), and the metric adjusts accordingly.
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: The metric discontinuity is driven by the change in external energy input — from creative work to sustaining work.
-- **Axiom 2 (6D Spacetime)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary fixed the extra-dimensional geometry.
+- **Axiom 4 (Open System)**: The metric discontinuity is driven by the change in external energy input — from creative work to sustaining work.
+- **Axiom 1 (6D Spacetime)**: The creation-epoch metric operated across all six dimensions; the Sabbath Boundary fixed the extra-dimensional geometry.
 - **Axiom 3 (Firmament Mechanics)**: The Firmament properties (σ, μ, c) were established during the creation epoch and fixed at the Sabbath Boundary.
-- **Axiom 5 (Phase Transition)**: The Fall is a SECOND phase transition, occurring within sustaining mode, that changed the entropy balance without altering the metric.
+- **Axiom 7 (Phase Transition)**: The Fall is a SECOND phase transition, occurring within sustaining mode, that changed the entropy balance without altering the metric.
 
 ---
 
 **Cross-references:**
-- AXIOM_OPEN_SYSTEM.md — Axiom 1: The open system and four thermodynamic phases
+- AXIOM_OPEN_SYSTEM.md — Axiom 4: The open system and four thermodynamic phases
 - CMB_POWER_SPECTRUM.md — Creation-epoch signatures in the CMB
 - FRIEDMANN_EVOLUTION.md — Sustaining-mode Friedmann dynamics
 

@@ -26,17 +26,21 @@ $$\boxed{\text{6D Action} \to \text{Boundary Modes at Zone Interface} \to \text{
 4. **Tiny masses**: Exponential suppression from boundary-to-bulk wavefunction overlap
 5. **Left-handed chirality**: Inherited from ξ-η asymmetry (parity violation structure)
 6. **Three families**: From three topologically-distinct boundary ripple modes corresponding to spatial dimensions
-7. **Precise mass differences and mixing**: Derived from boundary eigenvalue spectrum and overlap integrals
+7. **Mass differences and mixing**: The boundary eigenvalue spectrum and overlap integrals supply the *mechanism*; the precise Δm² and PMNS angles are **not yet parameter-free predictions** (see status note below)
 
-**Numerical Agreement with Experiment**:
+**The honest win — and what is still open** (per `CANONICAL_FACTS_REGISTRY.md` §F/§G and `DERIVATION_PROVENANCE_LEDGER.md` §2):
 
-| Observable | Genesis Physics | Experiment | Agreement |
+The **legitimate qualitative win** is the *smallness mechanism*: boundary-mode (boundary-to-bulk) suppression explains why neutrino masses are tiny relative to the charged leptons. The **absolute mass scale** (board #847), the **Δm² splittings**, and the **PMNS mixing angles** (board #848) are **OPEN — not yet derived**; the numbers below are **fit/asserted to match data**, not parameter-free outputs of the framework. The derivation attempt is retained, but its status is OPEN, not "EXACT MATCH."
+
+| Observable | Genesis Physics | Experiment | Status |
 |---|---|---|---|
-| $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV² | $7.53 \pm 0.18$ eV² | **EXACT** |
-| $\Delta m^2_{32}$ | $2.5 \times 10^{-3}$ eV² | $2.51 \pm 0.05$ eV² | **EXACT** |
-| $\sin^2\theta_{12}$ | $0.30$ | $0.304 \pm 0.013$ | **MATCH** |
-| $\sin^2\theta_{23}$ | $0.50$ | $0.50 \pm 0.03$ | **MATCH** |
-| $\sin^2\theta_{13}$ | $0.022$ | $0.0219 \pm 0.0009$ | **MATCH** |
+| $\Delta m^2_{21}$ | $7.5 \times 10^{-5}$ eV² | $7.53 \pm 0.18$ eV² | **OPEN (fit, #848)** |
+| $\Delta m^2_{32}$ | $2.5 \times 10^{-3}$ eV² | $2.51 \pm 0.05$ eV² | **OPEN (fit, #848)** |
+| $\sin^2\theta_{12}$ | $0.30$ | $0.304 \pm 0.013$ | **OPEN (fit, #848)** |
+| $\sin^2\theta_{23}$ | $0.50$ | $0.50 \pm 0.03$ | **OPEN (fit, #848)** |
+| $\sin^2\theta_{13}$ | $0.022$ | $0.0219 \pm 0.0009$ | **OPEN (fit, #848)** |
+| Absolute mass scale | not derived | $\sum m_\nu \lesssim 0.12$ eV | **OPEN (#847)** |
+| **Smallness mechanism** | boundary-mode suppression | $m_\nu \ll m_e$ | **qualitative win** |
 | $N_{\text{eff}}$ | $3$ | $3.04 \pm 0.05$ | **EXCELLENT** |
 
 ---
@@ -859,17 +863,18 @@ The interplay of these phases generates the **lepton-number asymmetry** in the e
 
 | Observable | Genesis Physics Prediction | Experimental Value | Status |
 |---|---|---|---|
-| **Neutrino masses** | MeV scale (from boundary ripple suppression) | $m_1 < 0.01$ eV, $m_2 \sim 0.01$ eV, $m_3 \sim 0.05$ eV | AGREE |
-| $\Delta m_{21}^2$ | $7.5 \times 10^{-5}$ eV² (from eigenvalue matching) | $7.53 \pm 0.18 \times 10^{-5}$ eV² | **EXACT MATCH** |
-| $\Delta m_{32}^2$ | $2.5 \times 10^{-3}$ eV² (from eigenvalue matching) | $2.51 \pm 0.05 \times 10^{-3}$ eV² | **EXACT MATCH** |
+| **Mass smallness** | $m_\nu \ll m_e$ (boundary-mode suppression) | $m_1 < 0.01$ eV, $m_2 \sim 0.01$ eV, $m_3 \sim 0.05$ eV | **qualitative win** |
+| **Absolute mass scale** | not derived | $\sum m_\nu \lesssim 0.12$ eV | **OPEN (fit, #847)** |
+| $\Delta m_{21}^2$ | $7.5 \times 10^{-5}$ eV² (fit to data) | $7.53 \pm 0.18 \times 10^{-5}$ eV² | **OPEN (fit, #848)** |
+| $\Delta m_{32}^2$ | $2.5 \times 10^{-3}$ eV² (fit to data) | $2.51 \pm 0.05 \times 10^{-3}$ eV² | **OPEN (fit, #848)** |
 | **Electric charge** | $Q = 0$ (from topological winding) | Experimental upper limit: $|Q| < 10^{-3} e$ | EXCELLENT |
 | **Weak coupling** | $g_W / \sqrt{2}$ (from boundary overlap) | Same as in charged leptons | AGREE |
 | **No strong coupling** | Decoupled from QCD (no color charge) | No QCD interactions observed | AGREE |
 | **Left-handed** | >99.8% (from ξ-η asymmetry) | $h = -0.993 \pm 0.013$ | EXCELLENT |
 | **Three families** | Exactly 3 (from 3D spatial topology) | Measured: $N_{\text{eff}} = 3.04 \pm 0.05$ | EXCELLENT |
-| $\sin^2\theta_{12}$ | 0.30 (from boundary overlap) | $0.304 \pm 0.013$ | **MATCH** |
-| $\sin^2\theta_{23}$ | 0.50 (from near-degeneracy) | $0.50 \pm 0.03$ | **MATCH** |
-| $\sin^2\theta_{13}$ | 0.022 (from suppression) | $0.0219 \pm 0.0009$ | **MATCH** |
+| $\sin^2\theta_{12}$ | 0.30 (fit to data) | $0.304 \pm 0.013$ | **OPEN (fit, #848)** |
+| $\sin^2\theta_{23}$ | 0.50 (fit to data) | $0.50 \pm 0.03$ | **OPEN (fit, #848)** |
+| $\sin^2\theta_{13}$ | 0.022 (fit to data) | $0.0219 \pm 0.0009$ | **OPEN (fit, #848)** |
 | $\delta_{\text{CP}}$ | $\approx 1.5\pi$ to $1.7\pi$ | Unknown (to be measured) | **TESTABLE** |
 | **Majorana nature** | Undetermined (needs hidden sector info) | Unknown (via 0νββ search) | **TESTABLE** |
 | $\alpha_{21}, \alpha_{31}$ | Nonzero (Majorana phases) | Unknown (if Majorana) | **TESTABLE** |
@@ -882,14 +887,16 @@ The interplay of these phases generates the **lepton-number asymmetry** in the e
 3. No strong force coupling (absence of color charge in boundary modes)
 4. Three families (from 3D spatial topology of zone-boundary region)
 5. Left-handed chirality (from ξ-η asymmetry)
-6. General mass-suppression mechanism (boundary-to-bulk overlap)
-7. PMNS oscillations and mixing (once masses and angles are specified)
+6. General mass-**smallness** mechanism — boundary-to-bulk overlap suppression (this is the legitimate **qualitative win**: it explains *why* $m_\nu \ll m_e$; it does **not** fix the absolute scale)
+7. PMNS oscillation *formalism* (once masses and angles are specified — but the masses and angles themselves are NOT derived; see OPEN list)
+
+**OPEN — not yet derived (fit/asserted to data; tracked on the board)** *(registry §F/§G; ledger §2)*:
+1. **Absolute neutrino mass scale** — the suppression mechanism does not pin down the overall scale; the meV-scale numbers require fitted/estimated coupling and correction factors (board **#847**).
+2. **Δm² splittings** — $\Delta m^2_{21}$, $\Delta m^2_{32}$ are matched to data, not predicted parameter-free (board **#848**).
+3. **PMNS mixing angles** — $\theta_{12}, \theta_{23}, \theta_{13}$: the *pattern* (near-maximal $\theta_{23}$, small $\theta_{13}$) is suggestive, but the values are fit, not derived (board **#848**).
 
 **Approximate (Correct in Form; Precise Values Require Calculation)**:
-1. Neutrino mass values (formula m_ν ∝ (η_B/ξ_A)^p is correct; precise value of p requires detailed solution)
-2. Mixing angles (pattern is correct; precise values require overlap integral calculations)
-3. Mass differences (order of magnitude correct; exact values require full numerical solution)
-4. See-saw mechanism (emerges naturally; mass scale requires coupling constant calculation)
+1. See-saw mechanism (emerges naturally; mass scale requires coupling constant calculation)
 
 **Speculative (Framework-Consistent but Underdetermined)**:
 1. Majorana vs. Dirac nature (framework consistent with both)

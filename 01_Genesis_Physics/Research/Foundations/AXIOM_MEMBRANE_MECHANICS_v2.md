@@ -490,7 +490,7 @@ This is the key physical insight of Genesis Physics regarding the hierarchy prob
 - Lorentz invariance from Firmament membrane wave symmetry ✓
 - α⁻¹ = 1.44 ln(ξ_A/η_B) = 137.036 ✓ (Green's function derivation still deferred to Phase 0)
 - Four testable predictions all consistent ✓
-- Relationship to Axioms 1, 2, 4, 5 unchanged ✓
+- Relationship to Axioms 4, 1, 6, 7 unchanged ✓
 
 ### Remaining Open Issues (Phase 0)
 
@@ -506,10 +506,10 @@ The following gaps are explicitly documented as requiring Phase 0 derivations:
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: The Firmament membrane properties σ and μ are sustained by external input. Without sustaining, the Firmament membrane would not maintain constant c.
-- **Axiom 2 (6D Spacetime)**: The Firmament is the 4D membrane at (ξ₀, η₀) in the 6D manifold. Its mechanical properties depend on its position in the zone architecture.
-- **Axiom 4 (Metric Discontinuity)**: During the creation epoch, the metric (and thus σ, μ, and c) may have differed from current values. The Sabbath Boundary fixed the Firmament membrane to its current configuration.
-- **Axiom 5 (Phase Transition)**: The Fall altered the sustaining balance but did NOT change σ or μ — the speed of light remained constant through the phase transition. The curse affects thermodynamics, not kinematics.
+- **Axiom 4 (Open System)**: The Firmament membrane properties σ and μ are sustained by external input. Without sustaining, the Firmament membrane would not maintain constant c.
+- **Axiom 1 (6D Spacetime)**: The Firmament is the 4D membrane at (ξ₀, η₀) in the 6D manifold. Its mechanical properties depend on its position in the zone architecture.
+- **Axiom 6 (Metric Discontinuity)**: During the creation epoch, the metric (and thus σ, μ, and c) may have differed from current values. The Sabbath Boundary fixed the Firmament membrane to its current configuration.
+- **Axiom 7 (Phase Transition)**: The Fall altered the sustaining balance but did NOT change σ or μ — the speed of light remained constant through the phase transition. The curse affects thermodynamics, not kinematics.
 
 ---
 
@@ -605,7 +605,7 @@ Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the Firmament membr
 
 ## TESTABLE PREDICTIONS
 
-1. **The speed of light is exactly constant in vacuum.** Any variation in c over cosmological time would require variation in σ/μ — the Firmament membrane properties. In the sustaining framework (Axiom 1), these are maintained constants. Measured: Δc/c < 10⁻⁷ over cosmological time — consistent.
+1. **The speed of light is exactly constant in vacuum.** Any variation in c over cosmological time would require variation in σ/μ — the Firmament membrane properties. In the sustaining framework (Axiom 4), these are maintained constants. Measured: Δc/c < 10⁻⁷ over cosmological time — consistent.
 
 2. **Gravitational wave speed equals c exactly.** Gravitational waves are Firmament flexural modes; electromagnetic waves are Firmament membrane oscillation modes. Both propagate at √(σ/μ). GW170817/GRB170817A measured: |v_gw - c|/c < 3×10⁻¹⁵ — consistent.
 
@@ -618,8 +618,8 @@ Maxwell's relation c² = 1/(μ₀ε₀) is thus unified with the Firmament membr
 ---
 
 **Cross-references:**
-- AXIOM_OPEN_SYSTEM.md — Axiom 1: The universe is an open system
-- AXIOM_6D_SPACETIME.md — Axiom 2: The 6D manifold and zone architecture
+- AXIOM_OPEN_SYSTEM.md — Axiom 4: The universe is an open system
+- AXIOM_6D_SPACETIME.md — Axiom 1: The 6D manifold and zone architecture
 - SPINOR_FIELDS_FROM_MEMBRANE.md — Fermionic excitations as Firmament topology
 - WATERS_FIELD_EQUATIONS.md — Field equations coupling to Firmament geometry
 

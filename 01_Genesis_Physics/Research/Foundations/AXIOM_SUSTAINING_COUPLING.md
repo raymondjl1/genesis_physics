@@ -9,7 +9,7 @@
 >
 > *Chain Status: COMPLETE*
 
-# AXIOM 3: Sustaining Coupling — The Creator's Active Sustenance
+# AXIOM 5: Sustaining Coupling — The Creator's Active Sustenance
 
 ## Abstract
 
@@ -549,13 +549,13 @@ $$\frac{dS}{dt} = \text{const} \times \rho_f \Delta\kappa$$
 
 ## 8. RELATIONSHIP TO PRIOR AXIOMS
 
-### 8.1 Axiom 1: Open System
+### 8.1 Axiom 4: Open System
 
-The Open System Axiom (AXIOM_PHASE_TRANSITION_FALL.md) states that the universe is thermodynamically open, with boundary conditions at the Zone 1/Zone 2 interface.
+The Open System Axiom (AXIOM_OPEN_SYSTEM.md) states that the universe is thermodynamically open, with boundary conditions at the Zone 1/Zone 2 interface.
 
 **This axiom (κ) provides the mechanism**: κ is precisely the field that carries the "boundary conditions" — it is the bridge through which Zone 1 sustains Zone 2. Without κ, the universe would be closed and would evolve toward maximum entropy. κ keeps it open.
 
-### 8.2 Axiom 2: Four Thermodynamic Phases
+### 8.2 Axiom 4: Four Thermodynamic Phases
 
 The four-phase structure (Creation, Edenic, Fall, Redemption) is formalized by the phase-dependent values of κ:
 - Phase 1: κ = κ_create (supercritical creation)
@@ -594,7 +594,7 @@ The sustaining coupling κ determines how strongly the geometric sources J_A and
 
 ## 10. SUMMARY AND AXIOM STATEMENT
 
-**AXIOM 3 — SUSTAINING COUPLING**:
+**AXIOM 5 — SUSTAINING COUPLING**:
 
 *The Creator's active sustenance of the universe is represented by a scalar field κ(x^A) with dimensions of power density [M L⁻¹ T⁻³], localized at the Zone 1/Zone 2 interface and propagating into the bulk via a massive scalar field equation. κ couples to the geometric source distributions of the Waters fields with strength proportional to κ itself, thereby modulating the strength of sustaining interaction. The value of κ is phase-dependent: κ_create in Creation, κ_full in the Edenic epoch, κ_partial in the post-Fall epoch, and κ_redeem during Redemption. The coupling deficit ε = (κ_full − κ_partial)/κ_full is extraordinarily small (~10⁻²⁷ to 10⁻⁶⁰) but non-zero. In Phase 2, entropy production is exactly balanced (dS/dt = 0); in Phase 3, entropy increases at a rate proportional to the coupling deficit. All irreversible physical processes — radioactive decay, biological aging, stellar burnout, and the emergence of the arrow of time — trace microscopically to this single mechanistic origin: the reduction in sustaining coupling at the Fall. This axiom formalizes the theological principle that Creation is upheld at every moment by active divine sustenance, and that the entrance of entropy and death into the world is a consequence of the withdrawal of that sustenance, not of any malfunction or degradation in the fabric of Creation itself.*
 

@@ -9,7 +9,7 @@
 >
 > *Chain Status: COMPLETE*
 
-# Axiom 1: The Open System — The Universe Is Thermodynamically Open to Its Creator
+# Axiom 4: The Open System — The Universe Is Thermodynamically Open to Its Creator
 ## Genesis Physics Foundational Axiom
 
 **Author**: Genesis Physics Research Team
@@ -348,10 +348,10 @@ Standard physics observes Phase 3 and assumes it has always been and will always
 ---
 
 **Cross-references:**
-- AXIOM_6D_SPACETIME.md — Axiom 2: The 6D manifold and zone architecture
+- AXIOM_6D_SPACETIME.md — Axiom 1: The 6D manifold and zone architecture
 - AXIOM_MEMBRANE_MECHANICS.md — Axiom 3: Membrane origin of fundamental constants
-- AXIOM_METRIC_DISCONTINUITY.md — Axiom 4: Creation-epoch metric and Sabbath Boundary
-- AXIOM_PHASE_TRANSITION_FALL.md — Axiom 5: The Fall as thermodynamic phase transition
-- AXIOM_WATERS_DUALITY.md — Axiom 6: Waters fields as the dark sector
+- AXIOM_METRIC_DISCONTINUITY.md — Axiom 6: Creation-epoch metric and Sabbath Boundary
+- AXIOM_PHASE_TRANSITION_FALL.md — Axiom 7: The Fall as thermodynamic phase transition
+- AXIOM_WATERS_DUALITY.md — Axiom 2: Waters fields as the dark sector
 
 **Last Updated**: April 5, 2026

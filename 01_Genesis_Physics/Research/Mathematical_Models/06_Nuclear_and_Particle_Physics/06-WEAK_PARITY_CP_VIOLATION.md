@@ -731,8 +731,8 @@ $$\frac{M_W}{v} \approx 0.33, \quad \frac{m_H}{v} \approx 0.51 \quad \Rightarrow
 | **SU(2)_L from η-isometries** | **RIGOROUS** | Follows directly from vortex geometry and boundary conditions |
 | **W/Z masses from symmetry breaking** | **RIGOROUS** | Derived from Higgs condensate profile and KK reduction |
 | **Fermi constant $G_F$** | **RIGOROUS** | Formula $G_F = 1/(\sqrt{2}v^2)$ is exact from weak scale; inputs $M_W, v$ are measured |
-| **V-A structure** | **RIGOROUS** | Follows from asymmetric boundary at Firmament (ξ ≥ 0 region) |
-| **Parity violation (existence)** | **RIGOROUS** | Unavoidable consequence of asymmetric ξ boundary; confirmed by Wu & Goldhaber |
+| **V-A structure** | **DERIVED (given adopted axioms)** | Derived from the asymmetric Firmament boundary (no ξ<0 mirror; §5) — **not inserted by hand**, given the framework's adopted axioms (ledger §2: DERIVED-given-AXIOM) |
+| **Parity violation (existence)** | **DERIVED (given adopted axioms)** | Consequence of the asymmetric ξ boundary (§5); confirmed by Wu & Goldhaber |
 | **Neutron lifetime** | **APPROXIMATE** | Uses measured $g_A$; framework derivation of $g_A$ in progress |
 | **CKM matrix unitarity** | **RIGOROUS** | Guaranteed by unitary rotation; independent of Yukawa details |
 | **Cabibbo angle** | **APPROXIMATE** | Mechanism clear (2% accuracy); precise value from vortex overlap integrals |
@@ -744,15 +744,15 @@ $$\frac{M_W}{v} \approx 0.33, \quad \frac{m_H}{v} \approx 0.51 \quad \Rightarrow
 
 **Standard Model Approach:**
 - Weak interactions postulated as $\text{SU}(2)_L \times \text{U(1)}_Y$ gauge theory
-- Parity violation inserted by hand (V-A structure)
+- Parity violation inserted by hand (V-A structure is an empirical input)
 - CP violation added via complex Yukawa couplings (arbitrary)
 - Weak scale $v = 246$ GeV appears unexplained
 
 **Genesis Physics Approach:**
 - Weak interactions **derived** from 6D isometries and dimensional reduction
-- Parity violation **emerges** from asymmetric Firmament boundary conditions
-- CP violation **inevitable** from topology with ≥3 generations
-- Weak scale $v$ related to Higgs condensate in Waters Above geometry (cosmological connection)
+- Parity violation / V−A is **derived from the Firmament boundary asymmetry** (no $\xi<0$ mirror region; §5) **given the framework's adopted axioms** — it is **no longer "inserted by hand"** (this is the key contrast with the SM; per `CANONICAL_FACTS_REGISTRY.md` §G and `DERIVATION_PROVENANCE_LEDGER.md` §2, V−A is **DERIVED-given-AXIOM**)
+- CP violation **existence** is **inevitable** from topology with ≥3 generations; the precise CP phase value ($\delta_{\rm CP}$) and precise mixing angles remain **phenomenological / open** (board #848)
+- Weak scale $v$ related to Higgs condensate in Waters Above geometry (cosmological connection); the absolute scale of $v$ is itself a fitted input (board #847)
 
 ---
 

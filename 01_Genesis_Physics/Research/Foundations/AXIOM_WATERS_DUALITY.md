@@ -9,7 +9,7 @@
 >
 > *Chain Status: COMPLETE*
 
-# Axiom 6: Waters Duality — The Physical Identity of the Dark Sector
+# Axiom 2: Waters Duality — The Physical Identity of the Dark Sector
 ## Genesis Physics Foundational Axiom
 
 **Author**: Genesis Physics Research Team
@@ -245,18 +245,18 @@ Genesis Physics resolution:
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: The Waters Above field IS the physical mechanism of sustaining. The 68% energy fraction devoted to Ψ_A is the sustaining work manifest as dark energy.
-- **Axiom 2 (6D Spacetime)**: The Waters fields are excitations of the extra dimensions. The duality (Ψ_A from ξ, Ψ_B from η) reflects the zone architecture.
+- **Axiom 4 (Open System)**: The Waters Above field IS the physical mechanism of sustaining. The 68% energy fraction devoted to Ψ_A is the sustaining work manifest as dark energy.
+- **Axiom 1 (6D Spacetime)**: The Waters fields are excitations of the extra dimensions. The duality (Ψ_A from ξ, Ψ_B from η) reflects the zone architecture.
 - **Axiom 3 (Firmament Mechanics)**: The Firmament sits between the two Waters regions. The fine structure constant α is determined by the ratio of their extents.
-- **Axiom 4 (Metric Discontinuity)**: The Waters field configurations were established during the creation epoch and fixed at the Sabbath Boundary.
-- **Axiom 5 (Phase Transition)**: The Fall changed the sustaining coupling but not the Waters fields themselves. Ψ_A still operates at 68% — but the fraction that reaches baryonic systems is reduced.
+- **Axiom 6 (Metric Discontinuity)**: The Waters field configurations were established during the creation epoch and fixed at the Sabbath Boundary.
+- **Axiom 7 (Phase Transition)**: The Fall changed the sustaining coupling but not the Waters fields themselves. Ψ_A still operates at 68% — but the fraction that reaches baryonic systems is reduced.
 
 ---
 
 **Cross-references:**
-- AXIOM_OPEN_SYSTEM.md — Axiom 1: Sustaining through the Waters Above
+- AXIOM_OPEN_SYSTEM.md — Axiom 4: Sustaining through the Waters Above
 - WATERS_FIELD_EQUATIONS.md — Full field equations for Ψ_A and Ψ_B
 - WATERS_FIELD_EQUATIONS_QUICKREF.md — Quick reference for Waters field properties
-- AXIOM_6D_SPACETIME.md — Axiom 2: The geometric origin of the Waters fields
+- AXIOM_6D_SPACETIME.md — Axiom 1: The geometric origin of the Waters fields
 
 **Last Updated**: April 5, 2026

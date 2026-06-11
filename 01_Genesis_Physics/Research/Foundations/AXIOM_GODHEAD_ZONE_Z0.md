@@ -89,7 +89,7 @@ Given n_w = 3:
 - **Vol 1 Ch 1** — Λ_Z0 named as the single foundational axiom from which all else derives; Postulate F named as the zone-architecture axiom that closes the fermion sector.
 - **Vol 1 Ch 4** (Z₀ sector) — full RS action and the Λ_Z0 constraint, with the M_{Z0} table.
 - **Vol 4 Ch 10 §10.5** — spin-½ presented as resolved given Postulate F (Kähler route), dependency stated.
-- **Vol 6 Appendix** — complete parameter list with Λ_Z0 as Axiom 1 (and n_w = 3 as the topological axiom).
+- **Vol 6 Appendix** — complete parameter list with Λ_Z0 as Axiom 0 (and n_w = 3 as the topological axiom).
 
 ---
 

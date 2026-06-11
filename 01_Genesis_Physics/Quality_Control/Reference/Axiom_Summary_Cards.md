@@ -4,8 +4,37 @@
 
 **Canonical reference maintained by the Analysis quality system**
 
-Last updated: 2026-06-11 (added the Λ_Z0 / Postulate F foundational axiom card per Author Ratification #1)
+Last updated: 2026-06-11 (added the Λ_Z0 / Postulate F foundational axiom card per Author Ratification #1; recorded the canonical foundational-axiom numbering)
 Location: `Quality_Control/Reference/Axiom_Summary_Cards.md`
+
+---
+
+## CANONICAL AXIOM NUMBERING (authoritative)
+
+This is the **one canonical, dependency-ordered numbering** for the framework's foundational
+axioms. Every `Research/Foundations/AXIOM_*.md` file (header label and traceability-matrix
+"Axiom N" reference), and every cross-reference between them, is aligned to this scheme.
+Where any prior document used a different index for the same axiom, this scheme governs.
+
+| # | Canonical Axiom | Biblical anchor | Source file | Depends on |
+|---|-----------------|-----------------|-------------|-----------|
+| **0** | Godhead Zone (Λ_Z0) + Postulate F (n_w = 3) | adopted foundational inputs | `AXIOM_GODHEAD_ZONE_Z0.md` | — (ground floor) |
+| **1** | 6D Spacetime | Genesis 1:1 | `AXIOM_6D_SPACETIME.md` | 0 |
+| **2** | Waters Duality | Genesis 1:6–7 | `AXIOM_WATERS_DUALITY.md` | 1 |
+| **3** | Membrane / Firmament Mechanics | Genesis 1:6 | `AXIOM_MEMBRANE_MECHANICS_v2.md` | 1, 2 |
+| **4** | Open System | Colossians 1:17 / Hebrews 1:3 | `AXIOM_OPEN_SYSTEM.md` | 1 |
+| **5** | Sustaining Coupling | Hebrews 1:3 | `AXIOM_SUSTAINING_COUPLING.md` | 4 |
+| **6** | Metric Discontinuity / Sabbath Boundary | Genesis 2:1–3 | `AXIOM_METRIC_DISCONTINUITY.md` | 1 |
+| **7** | Phase Transition / The Fall | Genesis 3 / Romans 8:20–22 | `AXIOM_PHASE_TRANSITION_FALL.md` | 5 |
+
+*Scheme rationale:* this is the dependency-ordered scheme. It was adopted because the prior
+`Axiom_Summary_Cards.md` theological-card list (the cards below, Axiom 0–7) and the
+`AXIOM_*.md` files were **not** internally consistent — the cards describe a different set of
+axiom names/statements than the foundation files, and the foundation files' header labels
+disagreed with their own traceability matrices. Card 0 (Λ_Z0 / Postulate F) is identical to
+canonical Axiom 0. The remaining theological cards (Axiom 1–7 below) are retained as a
+**legacy descriptive list** and are **not** the canonical foundational-axiom numbering; for the
+foundational axioms, use the table above and the `AXIOM_*.md` files.
 
 ---
 

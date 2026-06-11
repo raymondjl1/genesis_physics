@@ -2,14 +2,14 @@
 > | Level | Source | Reference |
 > |-------|--------|-----------|
 > | Scripture | Genesis 3 (The Fall); Romans 8:20-22 "creation was subjected to futility" | Genesis 3, Romans 8:20-22 |
-> | Axiom | **AXIOM 6: Phase Transition / Fall** | AXIOM_PHASE_TRANSITION_FALL.md |
+> | Axiom | **AXIOM 7: Phase Transition / Fall** | AXIOM_PHASE_TRANSITION_FALL.md |
 > | Parent Theory | First Principles / Axiom; depends on AXIOM 5 (Sustaining Coupling) | AXIOM_SUSTAINING_COUPLING.md |
 > | **This Document** | **Fall as thermodynamic phase transition: Pre-Fall dS/dt=0 → Post-Fall dS/dt>0; second law becomes irreversible** | **AXIOM_PHASE_TRANSITION_FALL.md** |
 > | Modern Equivalent | Irreversible thermodynamics, entropy-driven cosmological evolution | Diverges: standard physics treats second law as timeless; this explains its origin and timebound form |
 >
 > *Chain Status: COMPLETE*
 
-# Axiom 5: The Fall as Thermodynamic Phase Transition
+# Axiom 7: The Fall as Thermodynamic Phase Transition
 ## Genesis Physics Foundational Axiom
 
 **Author**: Genesis Physics Research Team
@@ -211,10 +211,10 @@ Stars in Phase 2 would have been sustained — their nuclear fuel continuously r
 
 ## RELATIONSHIP TO OTHER AXIOMS
 
-- **Axiom 1 (Open System)**: The Fall changes the coupling between the open system and its external source. The system remains open but the sustaining becomes partial.
-- **Axiom 2 (6D Spacetime)**: The zone architecture is unchanged by the Fall — the 6D geometry persists. The change is in the energy transfer rate across the Zone 1 boundary.
+- **Axiom 4 (Open System)**: The Fall changes the coupling between the open system and its external source. The system remains open but the sustaining becomes partial.
+- **Axiom 1 (6D Spacetime)**: The zone architecture is unchanged by the Fall — the 6D geometry persists. The change is in the energy transfer rate across the Zone 1 boundary.
 - **Axiom 3 (Firmament Mechanics)**: Membrane properties (σ, μ, c) are unaffected by the Fall. The speed of light, electromagnetic coupling, and gravitational constant remain the same.
-- **Axiom 4 (Metric Discontinuity)**: The Sabbath Boundary (Axiom 4) and the Fall (Axiom 5) are distinct transitions. The Sabbath Boundary changed the metric; the Fall changed the thermodynamics. Both are phase transitions, but of different quantities.
+- **Axiom 6 (Metric Discontinuity)**: The Sabbath Boundary (Axiom 6) and the Fall (Axiom 7) are distinct transitions. The Sabbath Boundary changed the metric; the Fall changed the thermodynamics. Both are phase transitions, but of different quantities.
 
 ---
 
@@ -223,13 +223,13 @@ Stars in Phase 2 would have been sustained — their nuclear fuel continuously r
 It is important to distinguish the two phase transitions in Genesis Physics:
 
 ```
-Transition 1 — SABBATH BOUNDARY (Axiom 4):
+Transition 1 — SABBATH BOUNDARY (Axiom 6):
   What changed: The metric (H_creation → H_sustaining)
   What didn't change: The sustaining coupling (still full)
   Physical character: Metric phase transition
   Analogy: Quench from high to low temperature
 
-Transition 2 — THE FALL (Axiom 5):
+Transition 2 — THE FALL (Axiom 7):
   What changed: The sustaining coupling (κ_full → κ_partial)
   What didn't change: The metric (still FLRW), membrane properties (σ, μ, c)
   Physical character: Thermodynamic phase transition
@@ -241,7 +241,7 @@ The Sabbath Boundary ended creation. The Fall introduced death. These are indepe
 ---
 
 **Cross-references:**
-- AXIOM_OPEN_SYSTEM.md — Axiom 1: Full four-phase thermodynamic model
+- AXIOM_OPEN_SYSTEM.md — Axiom 4: Full four-phase thermodynamic model
 - THERMODYNAMIC_LAWS_DERIVATION.md — Second law derivation (Phase 3 context)
 - FIVE_PRINCIPLES_FORMALIZED.md — Degradation and Sustaining principles
 

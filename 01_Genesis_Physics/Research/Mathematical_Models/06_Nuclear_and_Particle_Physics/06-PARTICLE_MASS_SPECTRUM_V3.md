@@ -282,23 +282,22 @@ The up quark is a first-generation quark ($n_\xi = 3$, most suppressed overlap i
 #### Charm quark
 $$m_c = y_c \times \frac{v}{\sqrt{2}}, \quad y_c \approx 7.3 \times 10^{-3}$$
 
-The charm quark is a second-generation quark ($n_\xi = 2$). Its higher mass reduces QCD scheme ambiguity.
+The charm quark is a second-generation quark ($n_\xi = 2$).
 
-- **Predicted**: $m_c \approx 1.27 \text{ GeV}$
+- **Predicted (tree level, exp-hierarchy)**: **fails badly at tree level** — the exp(−αn²) ansatz does not reproduce $m_c$ parameter-free
 - **Measured**: $1.27 \text{ GeV}$ (pole mass)
-- **Error**: **<1%** ✓
-- **Status**: APPROXIMATE (overlap integral with quark-sector hierarchy; good agreement due to higher mass scale)
+- **Model fit at calibration scale**: the "$1.27$ GeV / <1%" figure is a **model fit at the calibration scale**, NOT a parameter-free prediction
+- **Status**: **FIT (board #847/#850)** — per `CANONICAL_FACTS_REGISTRY.md` §F ("heavier quarks fail badly at tree level") and the master-table footnote (§X), the heavy-quark <1% figures are fits at the calibration scale, not tree-level predictions; computed given the adopted spin-½ axiom (§3.1)
 
 #### Top quark
 $$m_t = y_t \times \frac{v}{\sqrt{2}}, \quad y_t \approx 0.99$$
 
-The top quark is the third-generation up-type quark ($n_\xi = 1$, least suppressed). Its Yukawa coupling is near-unity — the only fermion with mass comparable to the Higgs VEV. This near-unity coupling is remarkable: it suggests the top quark saturates the maximum possible overlap with the Higgs condensate.
+The top quark is the third-generation up-type quark ($n_\xi = 1$, least suppressed). Its Yukawa coupling is near-unity — the only fermion with mass comparable to the Higgs VEV.
 
-- **Predicted**: $m_t = 0.99 \times 174 \text{ GeV} \approx 173 \text{ GeV}$
+- **Predicted (tree level, exp-hierarchy)**: **fails badly at tree level** — the exp(−αn²) ansatz does not reproduce $m_t$ parameter-free
 - **Measured**: $172.69 \text{ GeV}$ (pole mass)
-- **Error**: **<1%** ✓
-- **Status**: APPROXIMATE (near-unity Yukawa coupling consistent with EW symmetry breaking dynamics; the top quark receives additional contributions from multi-mode coupling that push $y_t$ toward 1)
-- **Note**: The top quark's near-unity Yukawa coupling $y_t \sim 1.0$ is a natural consequence of it being the $n_\xi = 1$ mode in the up-type quark sector with maximal Higgs overlap. This is consistent with the Standard Model value $y_t^{\text{SM}} = \sqrt{2} m_t / v = 0.994$
+- **Model fit at calibration scale**: the "$y_t \approx 0.99 \to 173$ GeV / <1%" figure is a **model fit at the calibration scale** ($y_t$ chosen to match the SM value $y_t^{\text{SM}} = \sqrt{2}\,m_t/v = 0.994$), NOT a parameter-free prediction
+- **Status**: **FIT (board #847/#850)** — per `CANONICAL_FACTS_REGISTRY.md` §F and the master-table footnote (§X), the heavy-quark <1% figures are fits at the calibration scale, not tree-level predictions; computed given the adopted spin-½ axiom (§3.1)
 
 ---
 
@@ -329,10 +328,10 @@ $$m_b = y_b \times \frac{v}{\sqrt{2}}, \quad y_b \approx 2.4 \times 10^{-2}$$
 
 The bottom quark is the third-generation down-type ($n_\xi = 1$, largest overlap in down sector).
 
-- **Predicted**: $m_b \approx 4.18 \text{ GeV}$
+- **Predicted (tree level, exp-hierarchy)**: **fails badly at tree level** — the exp(−αn²) ansatz does not reproduce $m_b$ parameter-free
 - **Measured**: $4.18 \text{ GeV}$ (pole mass)
-- **Error**: **<1%** ✓
-- **Status**: APPROXIMATE (overlap integral gives good agreement at this mass scale)
+- **Model fit at calibration scale**: the "$4.18$ GeV / <1%" figure is a **model fit at the calibration scale**, NOT a parameter-free prediction
+- **Status**: **FIT (board #847/#850)** — per `CANONICAL_FACTS_REGISTRY.md` §F and the master-table footnote (§X), the heavy-quark <1% figures are fits at the calibration scale, not tree-level predictions; computed given the adopted spin-½ axiom (§3.1)
 
 ---
 
@@ -372,9 +371,9 @@ $$\frac{m_\tau}{m_\mu} = \exp(5\alpha) \approx 16.8 \quad (\text{measured: } 16.
 |------------|---------------|-----------|----------|-------|
 | 1 | $m_u / m_d$ | 0.48 | 0.46 | ~4% |
 | 2 | $m_c / m_s$ | 1.33 | 1.36 | ~2% |
-| 3 | $m_t / m_b$ | 41.3 | 41.3 | <1% ✓ |
+| 3 | $m_t / m_b$ | 41.3 | 41.3 | <1% (calibration-scale FIT) |
 
-**Status**: APPROXIMATE (QCD running corrections significant for light quarks)
+**Status**: APPROXIMATE for the gen-1/2 ratios (QCD running corrections significant for light quarks). The gen-3 $m_t/m_b$ "<1%" is a **calibration-scale model fit, not a parameter-free prediction** — both t and b fail badly at tree level (FIT, board #847/#850; see §4.4/§4.5 and registry §F).
 
 ---
 
