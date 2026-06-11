@@ -6,6 +6,14 @@
 
 ---
 
+## Governing Provenance Principle (non-negotiable)
+
+**Everything must be derived from the framework's axioms and the Bible.** The two — and only two — permitted foundations are (a) the **zone-architecture axioms** (themselves motivated by Genesis 1: the Godhead zone / Λ_Z0, the Waters duality, the Firmament membrane, the metric-discontinuity and Fall transitions, Postulate F, …) and (b) **Scripture**. Every physical result must trace, through an explicit chain, back to those.
+
+A free-floating numerical fit, a "calibrated coefficient," or a bare measured input that is **not** derived from an axiom is, by this standard, an **open problem — not a result.** It must be labeled honestly and tracked as a GitHub board issue until it is either *derived* from the axioms or *recognized as one of them.* (See `Quality_Control/Reference/CANONICAL_FACTS_REGISTRY.md` for the live provenance state and frontier.)
+
+---
+
 ## What We Are Building
 
 A complete physics education rebuilt from the ground up, starting from the architecture of reality described in Genesis 1. The series spans from homeschool families to graduate physicists, delivered as self-published books on Amazon (Kindle, paperback, and Audible).
