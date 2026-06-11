@@ -13,6 +13,22 @@ This axiom is **adopted**, not derived. Every result that flows from it below is
 
 ---
 
+## 0. Scriptural Grounding — the foundation of the foundation
+
+Λ_Z0 is the framework's one irreducible input: the energy of the deepest zone, Z₀, the **Godhead zone**. The Governing Provenance Principle requires every result to trace to the axioms *and the Bible* — and this is the axiom where that requirement is met not by a derivation but by an **identification**: the uncaused ground of all created structure is God.
+
+> **Genesis 1:1 (KJV).** *"In the beginning God created the heaven and the earth."*
+>
+> **John 1:1–3 (KJV).** *"In the beginning was the Word, and the Word was with God, and the Word was God. The same was in the beginning with God. **All things were made by him; and without him was not any thing made that was made.**"*
+
+**Why this grounds Z₀ rather than leaving it ungrounded.** Every complete physical theory terminates in one uncaused starting point — a single ground-floor input that is not derived from anything prior. In this framework that point is Λ_Z0, and the framework names it: Z₀ is God, "in the beginning," prior to all derived physics. That Λ_Z0 has **no derivation within physics is therefore not a defect but the thesis** — the chain bottoms out at the uncreated Creator, exactly where Genesis and John place the beginning.
+
+**John 1:3 is the Governing Provenance Principle, stated in Scripture.** "All things were made by him; and without him was not any thing made that was made" is precisely the rule this registry enforces in physics: *everything that exists derives through the Word; only the Word is unmade.* The one unmade thing is Z₀ (the Godhead); everything else — ℏ, α, the forces, matter — is "made through him," i.e. derived from the axiom. The scientific principle and the verse are the same statement read in two registers.
+
+**Honest boundary (read this).** This grounding anchors the *existence and identity* of the irreducible ground (Λ_Z0 = the Godhead), **not** the specific integer n_w = 3 of Postulate F (§4). A hypothesis test (board issue #849, 2026-06-11) asked whether the triune nature of God — Father, the Word/Son, the Spirit (John 1:1–2 with the wider witness) — mechanistically *forces* the Waters-Above winding to 3. **Verdict: OPEN.** There is no three-fold structure in the Z₀ action, and no mechanism connecting "three Persons" to "winding 3"; the framework's own color "3" (the Z₃ orbifold) and generation "3" (n_w) are *independent* inputs. The resonance between the triune God and the three generations of matter is real and worth noting **as a resonance** — but presenting it as the *derivation* of n_w = 3 would be numerology, which this framework's standard forbids. n_w = 3 remains an honest open topological axiom until a mechanism is found. We state the beautiful possibility plainly and refuse to claim it as proven.
+
+---
+
 ## 1. The Axiom (formal statement)
 
 > **The Z₀ Cosmological Constant Axiom.**

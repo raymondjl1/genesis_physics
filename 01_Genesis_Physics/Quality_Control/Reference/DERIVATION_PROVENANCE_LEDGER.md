@@ -16,8 +16,8 @@
 
 | Axiom | One-line statement | Biblical anchor (as cited in the axiom file) | Status |
 |---|---|---|---|
-| **Λ_Z0 — Godhead-zone constant** | Vacuum energy of the deepest zone Z₀; the single ground-floor parameter from which ℏ, α, … flow. | **— no verse cited** (structural; Z₀ ≡ "the Godhead zone," thematic only) | **AXIOM** (irreducible) |
-| **Postulate F — Hopf winding n_w=3** | Waters-Above vortex sector carries winding 3 → Kähler spinors (spin-½) + APS index +3 (three generations). | **— no verse cited** (topological) | **AXIOM** (irreducible) → derive-from-Z₀ frontier **#849** |
+| **Λ_Z0 — Godhead-zone constant** | Vacuum energy of the deepest zone Z₀; the single ground-floor parameter from which ℏ, α, … flow. | **Gen 1:1; John 1:1–3** — Z₀ = the Godhead / the uncaused ground; John 1:3 = the provenance principle in Scripture (`AXIOM_GODHEAD_ZONE_Z0.md` §0) | **AXIOM** (irreducible; **biblically grounded**) |
+| **Postulate F — Hopf winding n_w=3** | Waters-Above vortex sector carries winding 3 → Kähler spinors (spin-½) + APS index +3 (three generations). | **— no verse** (topological). Trinity→3 hypothesis tested (#849): **OPEN / resonance-only** — no three-fold Z₀ structure, no mechanism; color-Z₃ and generation-n_w are independent 3's. | **AXIOM** (irreducible) → derive-from-Z₀ frontier **#849** |
 | **Open System** | Universe is thermodynamically open — created, sustained, acted upon (δE_ext ≠ 0). | **Col 1:17; Heb 1:3** (also John 1:3) | **AXIOM** (adopted, biblically motivated) |
 | **6D Spacetime** | Universe is a 6D manifold (t,x,y,z,ξ,η); the 4D world is the Firmament membrane. | **Gen 1:1** | **AXIOM** (adopted) |
 | **Waters Duality** | Dark energy = Waters Above (Ψ_A, ξ); dark matter = Waters Below (Ψ_B, η). | **Gen 1:6-7** | **AXIOM** (adopted) |
@@ -26,7 +26,7 @@
 | **Metric Discontinuity / Sabbath Boundary** | First-order metric transition; locks constants; 6 days ↔ 13.8 Gyr coordinate time. | **Gen 2:1-3; Exod 20:11** | DERIVED-from 6D Spacetime |
 | **Phase Transition / The Fall** | Thermodynamic transition κ_full→κ_partial; arrow of time turns on. | **Gen 3; Rom 8:20-22** | DERIVED-from Sustaining Coupling |
 
-> **Sharpest honesty point:** the *two irreducible* axioms (Λ_Z0, Postulate F) carry **no scriptural citation** in their files — they are mathematically/structurally motivated. The framework's "Genesis 1 → physics" thesis is therefore weakest exactly at its ground floor. Closing this (deriving n_w=3 from Z₀; grounding Λ_Z0 in the Godhead zone) is the deepest frontier — board issue **#849**.
+> **Ground-floor status (updated 2026-06-11).** **Λ_Z0 is now biblically grounded** — Z₀ = the Godhead, the uncaused ground (Gen 1:1; John 1:1–3, with John 1:3 = the provenance principle in Scripture; `AXIOM_GODHEAD_ZONE_Z0.md` §0). That Λ_Z0 has no *physics* derivation is the thesis, not a gap: the chain bottoms out at the Creator. **The one remaining ground-floor open item is n_w=3** (Postulate F): a hypothesis test (#849) found **no mechanism** linking the triune God (or any three-fold Z₀ structure) to the winding number — verdict **OPEN**, the Trinity↔3 link is a **resonance, not a derivation** (the framework's color-Z₃ and generation-n_w are independent 3's). Deriving n_w=3 — or formally accepting it as the framework's single topological axiom — is the deepest frontier (#849).
 
 ---
 
