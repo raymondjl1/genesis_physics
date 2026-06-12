@@ -1,0 +1,227 @@
+====================================================================
+OP-02 CLOSURE v2: Twisted Index Computation for Zone Z2 2-Manifold
+(GitHub #851 fix: the index is now COMPUTED, not narrated)
+====================================================================
+
+§0  WHAT WAS WRONG IN V1
+─────────────────────────
+v1 evaluated the APS formula for the UNTWISTED Dirac operator:
+
+    index_v1 = ∫ Â(R)  −  h/2  −  η(0)/2          (no gauge twist anywhere)
+             =   1/2   −  0    −  (n_w − 1)/2
+
+For n_w = 3 this is 1/2 − 1 = −1/2, and v1's own cross-check table showed
+NO winding number giving +3.  v1 then asserted "+3" in a prose paragraph
+("sum over sectors / chirality projection") that was never computed.
+
+The root cause: the physical operator is the Dirac operator TWISTED by the
+U(1)_A winding gauge field of the Firmament vortex.  For a twisted operator
+the APS bulk term is  ∫ Â(R) ∧ ch(F),  and in 2D
+
+    ∫ ch(F) = c1 = (1/2π) ∮ A·dl = n_w     (first Chern class = winding)
+
+v1 set ch(F) → 1, i.e. it dropped the Chern term entirely.  The dropped
+term is exactly what carries the 3.  v1's −1/2 is the index of an operator
+that does not see the vortex at all — meaningless for the twisted problem
+(and its η(0) bookkeeping mixed a twisted boundary spectrum with an
+untwisted bulk term, which is internally inconsistent).
+
+    v1 (UNTWISTED, WRONG for this problem):
+      index_v1 = 0.5 - 0/2 - 2/2 = -0.5   ≠ 3  ← the #851 bug
+
+§1  CORRECTED INDEX FORMULA — THE TWISTED DIRAC OPERATOR
+─────────────────────────────────────────────────────────
+The Firmament vortex is the U(1)_A order-parameter configuration
+
+    φ(r, θ) = f(r) e^{i n_w θ},   f(0) = 0,   f(∞) = v
+
+on the (ξ,η)-disk (r, θ = polar coordinates about the vortex axis).
+Fermionic excitations couple to this background; the relevant operator is
+the TWISTED Dirac operator D_A.  Its index:
+
+    index(D_A) = ∫_M Â(R) ∧ ch(F)  −  (h + η(0))/2        [APS 1975]
+
+In 2D the degree-2 part of Â(R) ∧ ch(F) is  Â_0·c1(F) + Â_2·1, so the new
+(previously dropped) bulk piece is the first Chern class
+
+    c1 = (1/2π) ∫_M F = (1/2π) ∮_{∂M} A·dl = n_w .
+
+For the fermion–vortex system the total — bulk Chern term plus all
+boundary/η corrections — is computed exactly by Weinberg (1981) and
+Jackiw–Rossi (1981) [Callias-type open-space index]:
+
+    index(D_A) = n_w        (exactly; no leftover fractional part)
+
+Below: c1 is computed numerically two ways (§2), the JR zero modes are
+constructed explicitly (§3), and the count is verified by direct numerical
+integration of the zero-mode ODEs (§4–§5), including the chirality
+asymmetry that makes the index +3 rather than 0 (§6).
+
+§2  THE CHERN TERM c1 — COMPUTED, TWO WAYS
+─────────────────────────────────────────────
+    (a) phase winding of φ = f(r)e^(i n_w θ) around the vortex:
+        c1 = (1/2π) ∮ d(arg φ) = 3.000000
+    (b) gauge-field holonomy (1/2π)∮A·dl at r = 30:
+        c1 = n_w · a(R) = 3.000000000000
+    Both give c1 = n_w = 3.  THIS is the term v1 omitted.
+
+§3  JACKIW–ROSSI EXPLICIT CONSTRUCTION (cited: JR 1981; Weinberg 1981;
+    framework ref: TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md App. A)
+──────────────────────────────────────────────────────────────────────────
+In the vortex background φ = f(r)e^{i n_w θ}, the zero-mode equation
+D_A ψ = 0 separates into angular-momentum channels k ∈ Z.  In channel k
+the two coupled radial amplitudes (a_k = upper, b_k = conjugate partner
+carrying angular index n_w − 1 − k) obey
+
+    a_k'(r) = (k / r) a_k(r)            −  f(r) b_k(r)
+    b_k'(r) = ((n_w − 1 − k) / r) b_k(r) − f(r) a_k(r)
+
+Near r = 0 the regular behaviours are a_k ~ r^k and b_k ~ r^{n_w−1−k};
+at large r the normalizable combination decays as exp(−∫₀^r f(r')dr').
+Hence the zero modes are
+
+    ψ_k(r,θ) ≃ ( r^k e^{ikθ} ,  r^{n_w−1−k} e^{i(n_w−1−k)θ} )
+               × exp(−∫₀^r f(r') dr'),     k = 0, 1, …, n_w − 1
+
+Normalizability of ∫|ψ_k|² d²x = ∫(a_k² + b_k²) r dr requires BOTH origin
+exponents ≥ 0 (an exponent of −1 already gives a log-divergent norm):
+
+    k ≥ 0   AND   n_w − 1 − k ≥ 0   ⇔   k ∈ {0, 1, …, n_w − 1}
+
+→ exactly n_w normalizable zero modes.  For n_w = 3 (Postulate F):
+
+    ψ_0:  a ~ r^0,  b ~ r^2,  × exp(−∫f)   → NORMALIZABLE
+    ψ_1:  a ~ r^1,  b ~ r^1,  × exp(−∫f)   → NORMALIZABLE
+    ψ_2:  a ~ r^2,  b ~ r^0,  × exp(−∫f)   → NORMALIZABLE
+    ψ_3:  a ~ r^3,  b ~ r^(-1), × exp(−∫f)   → b ~ 1/r at origin: ∫|ψ|² r dr ~ ∫ dr/r DIVERGES — excluded
+    (k < 0 fails symmetrically: a ~ r^k singular)
+
+    Count: k = 0 … 2  →  exactly 3 zero modes = n_w  [JR theorem]
+
+§4  NUMERICAL VERIFICATION (hand-rolled RK4; profile f(r) = v·tanh(r/r₀))
+──────────────────────────────────────────────────────────────────────────
+Method: in each channel k the decaying-at-infinity solution is unique up
+to scale (a = b = e^{−v(r−R)} asymptotically).  Integrate it INWARD from
+R = 30 (numerically stable direction: the unwanted growing-at-∞ branch
+decays inward).  Near the origin measure the power-law exponent
+ν = d ln|ψ| / d ln r.  The JR prediction is ν = min(k, n_w−1−k):
+NORMALIZABLE iff ν ≥ 0; ν ≤ −1 means ∫|ψ_k|² diverges at the origin.
+The norm integral N(ε) = ∫_ε^R (a²+b²) r dr is accumulated alongside;
+for bad channels N(10⁻⁶)/N(10⁻³) ≫ 1 exhibits the divergence directly.
+
+    RK4 sanity check vs exact JR mode (n_w=1, k=0: a = b ∝ sech r):
+      a_num(r)·cosh(r) constant to 1.22e-10 over r ∈ [1, 25]  ✓
+
+    Channel table for n_w = 3 (Postulate F), f = tanh(r), R = 30:
+
+    k    ν measured   ν predicted   normalizable?   ∫|ψ_k|² finite?
+         (d ln|ψ|/d ln r at r→0)    [min(k, n_w−1−k)]
+    ----------------------------------------------------------------
+    -2     -2.0000      -2          NO              NO  (N(1e-6)/N(1e-3) = 1e+06 — diverges)
+    -1     -1.0000      -1          NO              NO  (N(1e-6)/N(1e-3) = 1.9 — diverges)
+    0      +0.0000      +0          YES             YES (N(1e-6)/N(1e-3) = 1.000000)
+    1      +1.0000      +1          YES             YES (N(1e-6)/N(1e-3) = 1.000000)
+    2      +0.0000      +0          YES             YES (N(1e-6)/N(1e-3) = 1.000000)
+    3      -1.0000      -1          NO              NO  (N(1e-6)/N(1e-3) = 1.9 — diverges)
+    4      -2.0000      -2          NO              NO  (N(1e-6)/N(1e-3) = 1e+06 — diverges)
+    5      -3.0000      -3          NO              NO  (N(1e-6)/N(1e-3) = 1e+12 — diverges)
+
+    → exactly 3 normalizable zero modes (k = 0, 1, 2); k = 3 exceeds the winding bound (partner exponent n_w−1−k = −1 → log-divergent norm)
+
+§5  CROSS-CHECK: ZERO-MODE COUNT vs WINDING NUMBER
+───────────────────────────────────────────────────
+(This table replaces v1's broken cross-check, in which no n_w gave +3.)
+
+    n_w    normalizable channels        count   JR theorem (= n_w)
+    ------------------------------------------------------------
+    1      k = [0]                      1       1
+    2      k = [0, 1]                   2       2
+    3      k = [0, 1, 2]                3       3  ← Postulate F
+
+    Count = n_w for every winding tested: 1→1, 2→2, 3→3  ✓
+
+§6  CHIRALITY — THE INDEX IS +3, NOT 0
+───────────────────────────────────────
+index(D_A) = n₊ − n₋, the count of POSITIVE-chirality zero modes minus
+NEGATIVE-chirality ones.  Weinberg's vanishing theorem (PRD 24, 2669
+(1981); also implicit in JR 1981) states that for winding n_w > 0 ALL
+zero modes carry the same chirality: n₋ = 0.
+
+Numerical check: the opposite-chirality zero-mode system is the same
+radial system with the conjugate order parameter, i.e. winding −n_w.
+Its normalizability band k ∈ {0, …, −n_w−1} is EMPTY — scan it:
+
+    k = -5   ν =  -5.0000  → NOT normalizable
+    k = -4   ν =  -4.0000  → NOT normalizable
+    k = -3   ν =  -3.0000  → NOT normalizable
+    k = -2   ν =  -2.0000  → NOT normalizable
+    k = -1   ν =  -3.0000  → NOT normalizable
+    k = 0    ν =  -4.0000  → NOT normalizable
+    k = 1    ν =  -5.0000  → NOT normalizable
+    k = 2    ν =  -6.0000  → NOT normalizable
+
+    n₋ = 0  (vanishing theorem confirmed numerically)
+
+    index(D_A) = n₊ − n₋ = 3 − 0 = 3
+    = c1 = n_w = 3   ✓  (matches §2's Chern term and the JR/Weinberg
+                              index theorem, as it must)
+
+    Because all 3 zero modes share ONE internal chirality, KK reduction
+    delivers them as 4D Weyl fermions of a single 4D chirality — with the
+    framework's orientation convention, the LEFT-handed states.  That is
+    the three-left-handed-generations statement (cited: JR 1981 / Weinberg
+    1981 vanishing theorem; chirality assignment is convention-fixed by
+    the zone orientation, not an extra assumption).
+
+
+§7  THE STATUS OF n_w = 3 — HONEST STATEMENT
+─────────────────────────────────────────────
+v1's §6 offered three "evidences" for n_w = 3 (tri-fold symmetry from
+ξ_A = 3×10²⁶ m; "three fibers → H = 3"; "the only value giving index 3").
+All three were numerology or circular and have been DELETED in v2.
+
+The honest statement:
+
+    n_w = 3 is Postulate F — an ADOPTED zone-architecture axiom
+    (Author Ratification #1, 2026-06-11; AXIOM_GODHEAD_ZONE_Z0.md §4).
+    It is NOT derived from deeper principles.  Board issue #849 tracks
+    deriving it from Z0/Λ_Z0; a Z₃-quantization mechanism is under
+    investigation.  Until then it is one of the framework's two
+    irreducible inputs (with Λ_Z0).
+
+What THIS script establishes is the conditional:  index(D_A) = n_w
+(computed in §2–§6).  GIVEN Postulate F, the generation count is 3.
+Without Postulate F, the count is undetermined.
+
+====================================================================
+SUMMARY — OP-02 CLOSURE (v2, GitHub #851 fixed)
+====================================================================
+
+Spin-1/2 (existence + statistics):
+  Kähler route, op02_kahler_spinor_derivation.md Theorems 1–3:
+  M_perp is Kähler → Dolbeault spinor bundle → 4D spin-1/2 KK zero modes
+  with fermionic statistics.  → SPIN-1/2 DERIVED. ✓
+
+Three generations (count):
+  Twisted-index / Jackiw–Rossi route (THIS script):
+    bulk Chern term      c1 = (1/2π)∮A·dl       = 3.0000   (§2, computed)
+    explicit zero modes  ψ_k, k = 0…n_w−1        (§3, constructed)
+    numerical shooting   n₊ = 3, n₋ = 0             (§4–§6, computed)
+    index(D_A) = n₊ − n₋ = c1 = n_w             [JR 1981; Weinberg 1981]
+  GIVEN Postulate F (n_w = 3, adopted axiom):
+    index(D_A) = 3  →  exactly THREE same-chirality zero modes
+  → THREE LEFT-HANDED GENERATIONS, COMPUTED GIVEN n_w = 3. ✓
+
+Division of labor:
+  - Kähler route (Theorems 1–3): spin-1/2 EXISTENCE + spin-statistics
+  - JR/Callias twisted index (here): the COUNT = n_w
+
+Status: OP-02 RESOLVED given Postulate F (dependency stated)
+  - v1's untwisted index (−1/2) was meaningless for the twisted problem;
+    the omitted Chern term carried the 3 (GitHub #851).
+  - Remaining caveat (unchanged, NOT weakened): n_w = 3 is an adopted
+    axiom, not derived.  Board #849 tracks deriving it.
+
+    FINAL (computed): index(D_A) = 3  →  THREE GENERATIONS  [given Postulate F]
+
+    File: op02_aps_index_computation.py | v2 2026-06-11 | GitHub #851 fixed | OP-02 RESOLVED given Postulate F

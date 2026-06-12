@@ -17,7 +17,7 @@
 | Axiom | One-line statement | Biblical anchor (as cited in the axiom file) | Status |
 |---|---|---|---|
 | **Λ_Z0 — Godhead-zone constant** | Vacuum energy of the deepest zone Z₀; the single ground-floor parameter from which ℏ, α, … flow. | **Gen 1:1; John 1:1–3** — Z₀ = the Godhead / the uncaused ground; John 1:3 = the provenance principle in Scripture (`AXIOM_GODHEAD_ZONE_Z0.md` §0) | **AXIOM** (irreducible; **biblically grounded**) |
-| **Postulate F — Hopf winding n_w=3** | Waters-Above vortex sector carries winding 3 → Kähler spinors (spin-½) + APS index +3 (three generations). | **— no verse** (topological). Trinity→3 hypothesis tested (#849): **OPEN / resonance-only** — no three-fold Z₀ structure, no mechanism; color-Z₃ and generation-n_w are independent 3's. | **AXIOM** (irreducible) → derive-from-Z₀ frontier **#849** |
+| **Postulate F — winding n_w=3** | Waters-Above vortex sector carries winding 3 → Kähler spinors (spin-½) + twisted index +3 (three generations; **computed**, #851 fixed). | **— no verse** (topological). Direct Trinity→3: no mechanism (resonance only). **Candidate indirect mechanism (PARTIAL, #849):** Z₃-orbifold quantization (windings ∈ 3ℤ) + energetic selection (E∝n² splits 6→3+3; 1,2 confined) — closes only under an author-ratified re-foundation (π₁ winding, apex circle, Ψ_A singlet sector); would unify color-3 and generation-3 at ONE triadic structural point. | **AXIOM** (irreducible) → mechanism frontier **#849** |
 | **Open System** | Universe is thermodynamically open — created, sustained, acted upon (δE_ext ≠ 0). | **Col 1:17; Heb 1:3** (also John 1:3) | **AXIOM** (adopted, biblically motivated) |
 | **6D Spacetime** | Universe is a 6D manifold (t,x,y,z,ξ,η); the 4D world is the Firmament membrane. | **Gen 1:1** | **AXIOM** (adopted) |
 | **Waters Duality** | Dark energy = Waters Above (Ψ_A, ξ); dark matter = Waters Below (Ψ_B, η). | **Gen 1:6-7** | **AXIOM** (adopted) |
@@ -46,7 +46,7 @@
 | Result | Status | Verse | Axiom(s) | Chain (file) | Provenance |
 |---|---|---|---|---|---|
 | Spin-½ existence | resolved given Postulate F | Gen 1:1 | Λ_Z0 + Postulate F | n_w=3→Kähler→4D spin-½ (`AXIOM_GODHEAD_ZONE_Z0.md` §4) | **DERIVED-given-AXIOM** (#849) |
-| Three-generation count | win, given Postulate F | Gen 1:1 | Postulate F | APS index = +3 (`TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md`) | **DERIVED-given-AXIOM** (#849) |
+| Three-generation count | **computed** given Postulate F (#851 fixed 2026-06-11) | Gen 1:1 | Postulate F | twisted index: c₁=n_w + Jackiw–Rossi modes, numerically verified + adversarially checked (`op02_aps_index_computation.py` v2) | **DERIVED-given-AXIOM** (#849) |
 | Charge quantization | win | Gen 1:1 | 6D, Postulate F | Q=n_Y/2 from U(1)_Y winding | **DERIVED** |
 | Electron mass | +17% residual | — | Λ_Z0 + Postulate F | y_e overlap integral (`06-PARTICLE_MASS_SPECTRUM_V3.md` §4.2) | **DERIVED-given-AXIOM**, FIT residual (#847) |
 | Muon mass | −15…19% | — | Λ_Z0 + Postulate F | y_μ=y_0e^(−4α) | **DERIVED-given-AXIOM**, FIT (α #850) |
