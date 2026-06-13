@@ -2,7 +2,7 @@
 
 **Canonical reference maintained by the Analysis quality system**
 
-Last updated: April 5, 2026
+Last updated: June 12, 2026 (added n_w/n_q winding-number entries, #849-race O5 resolution)
 Location: `Quality_Control/Reference/Glossary.md`
 
 ---
@@ -59,7 +59,11 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Λ_Z0 (Godhead-Zone Cosmological Constant)**: The cosmological constant of Z₀ (the Godhead zone) and the **adopted single foundational axiom** of the framework (Author Ratification #1). Value |Λ_Z0| = 1.65×10⁷¹ GeV⁶ at M_Z0 = M_Pl. The derivation chain Λ_Z0 → k₁ = 1.22 MeV → L_A = 83.2 η_B → β_geom = 813 → ℏ is the canonical derivation of ℏ; the same L_A/η_B = 83.2 ratio gives α ≈ 1/137. It is **adopted, not derived** — all downstream results (ℏ, spin-½, three generations, Yukawa α, fine-structure UV boundary) are "resolved *given* this axiom, dependency stated." See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` and `Research/Mathematical_Models/10_Fundamental_Constants/op01_z0_axiom_statement.md`.
 
-**Postulate F (Hopf Winding, n_w = 3)**: The adopted **zone-architecture axiom** that the Waters-Above vortex sector carries Hopf winding number n_w = 3 (from π₃(S²) = ℤ). Given it, the extra-dimensional manifold is Kähler → 4D spin-½ zero modes, and the Atiyah–Patodi–Singer index = +3 → three fermion generations. Adopted, not derived from deeper Z₀ principles. **With Postulate F, spin-½ is no longer an "open blocker"** — it is resolved given the adopted axiom, dependency stated. See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4.
+**Postulate F (Hopf Winding, n_w = 3)**: The adopted **zone-architecture axiom** that the Waters-Above vortex sector carries Hopf winding number n_w = 3 (from π₃(S²) = ℤ). Given it, the extra-dimensional manifold is Kähler → 4D spin-½ zero modes, and the Atiyah–Patodi–Singer index = +3 → three fermion generations. Adopted, not derived from deeper Z₀ principles. **With Postulate F, spin-½ is no longer an "open blocker"** — it is resolved given the adopted axiom, dependency stated. See `Research/Foundations/AXIOM_GODHEAD_ZONE_Z0.md` §4. *(Notation note, 2026-06-12: in the canonical n_w/n_q split below, the "3" of Postulate F is the background fiber invariant n_q; the #849 derivation race confirmed it remains an honest adopted axiom — its attempted derivation from Z₃ + energetics was refuted, closed-negative.)*
+
+**Winding Number, Charge (n_w)**: The per-particle topological invariant: the winding of the Waters-Above U(1)_A phase around an individual particle's defect line in Firmament 3-space. Determines electric charge quantization, Q = n·e; every charged lepton has n_w = 1 regardless of generation. Distinct from n_q (below) — these are **two different π₁ invariants** and must not be conflated (#849-race O5 resolution, both teams independently; `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md` corpus correction #6).
+
+**Winding Number, Fiber/Quotient (n_q)**: The background topological invariant: the quotient (boundary) winding of the Waters-Above fiber background on the Z₃ orbifold; the covering-space winding is N = 3·n_q. The Z₃-equivariant index then gives exactly n_q color-singlet generations per sector (n_q = 3 ⟺ N = 9 ⟹ 3 generations × 3 colors, dissolving the 9-problem). n_q = 3 is the content of Postulate F (adopted axiom). The ξ-radial resonance spectrum, by contrast, is the **mass-hierarchy** mechanism — it does not count generations. See `Quality_Control/Reference/Symbol_and_Constants.md` (Topological Winding Numbers).
 
 **Z₀ (Godhead Zone)**: The deepest zone of the hierarchy (Z₀ → Z₁ → Z₂), the "Godhead zone," whose cosmological constant Λ_Z0 is the framework's foundational axiom. See Λ_Z0 above and `Quality_Control/Reference/Zone_Architecture.md` Table 1.
 

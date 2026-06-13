@@ -63,6 +63,8 @@ From Volume 2 Chapter 4 §4.2, the Waters Below occupy a region of the 6D manifo
 $$\mathcal{C} = S^1_\eta/\mathbb{Z}_3 \tag{4.12.1}$$
 and this is the space on which any gauge field living in the Waters Below must live.
 
+> **Canonical-location note (2026-06-12, #849-race reconciliation):** The canonical formulation of this ℤ₃ is `Research/Foundations/RT2_SU3_Z3_ORBIFOLD.md` (RT-2.SU3): the orbifold acts on the **full 2D (ξ, η) fiber**, $w = \xi + i\eta \sim e^{2\pi i/3}w$. The $S^1_\eta/\mathbb{Z}_3$ presentation in (4.12.1) is the effective single-angle reduction of that full-fiber quotient at fixed radial coordinate; the winding-sector counting and everything downstream in this chapter are identical in both presentations. Grounding: `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #5.
+
 Now consider a $U(1)$-like gauge connection $A_\eta(\eta)$ on the $\eta$-circle. Its Wilson line around the circle,
 $$W = \exp\left(i\oint_{S^1_\eta} A_\eta\,d\eta\right), \tag{4.12.2}$$
 must be invariant under the $\mathbb{Z}_3$ orbifold action. That invariance is a quantization condition on the integrated gauge field: the Wilson line, as an element of the gauge group, can only take values in the subgroup that commutes with the orbifold generator. Equivalently, the winding number around the $\eta$-circle,

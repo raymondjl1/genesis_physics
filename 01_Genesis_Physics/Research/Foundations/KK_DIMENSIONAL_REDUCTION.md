@@ -228,10 +228,12 @@ with $A_0$ evaluated at the Firmament location.
 
 ### 3.5 Non-Abelian Gauge Fields from Topology
 
-The zone structure induces topological modes:
-- **Zone 2.1 (Waters Below)**: $\eta$-circle with radius $\eta_B$ → generates compact U(1)_Y (hypercharge)
-- **Zone 2.3 (Waters Above)**: $\xi$-circle with radius $\xi_A$ → can support non-trivial bundles → SU(2)_L (weak isospin)
-- **Interface effects**: Boundary conditions at zone boundaries → SU(3)_C (color) from compactified structure
+The zone structure induces topological modes (assignments corrected 2026-06-12 to match the canonical derivation):
+- **ξ-circle (Waters Above direction)**: circular topology of the $\xi$-direction → generates compact **U(1)_Y (hypercharge)** — canonical derivation in Vol 2 Ch 06 §6.2 and `RT2_SU3_Z3_ORBIFOLD.md` §3.1
+- **Firmament boundary**: ℤ₂ orbifold reflection at the Firmament interface → **SU(2)_L (weak isospin)** — Vol 2 Ch 06 §6.3
+- **Waters Below**: ℤ₃ orbifold of the fiber in the Waters Below region → **SU(3)_C (color)** — Vol 2 Ch 06 §6.4, `RT2_SU3_Z3_ORBIFOLD.md`
+
+> **CORRECTION NOTE (2026-06-12, race-verified):** An earlier version of this list swapped the ξ/η assignments, attributing U(1)_Y to the η-circle and SU(2)_L to the ξ-circle. The canonical assignment — U(1)_Y from the ξ-circle, SU(2)_L from the ℤ₂ orbifold at the Firmament boundary, SU(3)_C from the ℤ₃ orbifold in the Waters Below — is the one derived in Vol 2 Ch 06 (§§6.2–6.4, summarized in its §6.7) and consolidated in `Research/Foundations/RT2_SU3_Z3_ORBIFOLD.md`. Grounding: `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #4.
 
 The action for non-abelian fields:
 $$S_4^{\text{gauge}} = -\frac{1}{4g_s^2}\int d^4 x \sqrt{-\tilde{g}} \, \text{Tr}(F_{\mu\nu}^a F^{\mu\nu a}) + \cdots \tag{3.7)$$

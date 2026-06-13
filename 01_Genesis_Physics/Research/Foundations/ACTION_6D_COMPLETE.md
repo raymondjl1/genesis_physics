@@ -223,19 +223,23 @@ with $[\sigma_{\text{Firm}}] = [M L^{-2} T^{-2}]$ (energy density in 6D).
 
 ### 5.1 Scalar Field Actions for Waters Above and Below
 
-The Waters Above and Waters Below are represented by two real scalar fields Ψ_A and Ψ_B, respectively.
+The Waters Above is represented by a **complex** scalar field Ψ_A; the Waters Below by a real scalar field Ψ_B.
+
+> **CORRECTION (2026-06-12, race-verified reconciliation — two changes to this sector):**
+> 1. **Ψ_A is COMPLEX, not real.** An earlier version of this document declared Ψ_A a real scalar, but every downstream use of the field — the vacuum manifold $\mathcal{M}_A = S^1$ and its $\pi_1 = \mathbb{Z}$ winding (`TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` §1.2), the vortex ansatz $\Psi_A = v_A e^{i\theta_A}$, and the dark-energy phase dynamics — requires the complex field $\Psi_A = v_A e^{i\theta_A}$ with a global U(1)_A phase symmetry. The master action is hereby promoted to the complex form; the kinetic term is $-g^{AB}\partial_A \Psi_A^* \partial_B \Psi_A \equiv -|\partial\Psi_A|^2$ and potentials depend on $|\Psi_A|$ only.
+> 2. **The cross-coupling must be $G_{\text{int}}|\Psi_A|^2\Psi_B$, not $G_{\text{int}}\Psi_A\Psi_B$.** The earlier linear-in-Ψ_A coupling explicitly breaks U(1)_A once Ψ_A is complex: it tilts the Mexican-hat potential, attaching a domain wall to every U(1)_A vortex and destroying the entire vortex (particle) sector. The race proof is in `Research/Peer_Review/849_nw3_derivation_race/TEAM_ALPHA_derivation.md` §7.3 and `TEAM_BETA_derivation.md`; adjudication in `REFEREE_REPORT.md`, corpus corrections #2–#3. The U(1)_A-invariant form $G_{\text{int}}|\Psi_A|^2\Psi_B$ is the lowest-order coupling compatible with the framework's own defect classification. **Compatibility note:** several downstream documents still carry the legacy linear form and the real-Ψ_A convention — `Research/Foundations/WATERS_FIELD_EQUATIONS.md` (eq. 1.28), `Research/Foundations/FIVE_PRINCIPLES_FORMALIZED.md` (eqs. 3.6, 10.5 — the CPT check there uses the sign-flip Ψ_A → −Ψ_A of a real field), `Research/Simulations/waters_field_sim.py` / `structure_formation.py` (EOMs with linear G_int·Ψ terms), Vol 1 Ch 6 §6.1.3 (dimensional analysis $[G_{\text{int}}] = [\text{mass}]^2$, which becomes $[\text{mass}]^1$ for the cubic form), Vol 1 Ch 7 (eq. 1.7.4 and the U(1) invariance argument that assigns opposite charges to Ψ_A and Ψ_B), and Vol 1 Ch 8 (eq. around 1.8.30, Problem text contrasting Ψ_A³Ψ_B vs Ψ_AΨ_B). For a *real* Ψ_A those treatments were internally consistent; they must be re-derived against the complex-field, $|\Psi_A|^2\Psi_B$ canonical form when next revised.
 
 $$S_{\text{waters}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, \mathcal{L}_{\text{waters}}$$
 
 where:
-$$\mathcal{L}_{\text{waters}} = -\frac{1}{2} g^{AB} \partial_A \Psi_A \partial_B \Psi_A - V_A(\Psi_A) - \frac{1}{2} g^{AB} \partial_A \Psi_B \partial_B \Psi_B - V_B(\Psi_B) - G_{\text{int}} \Psi_A \Psi_B$$
+$$\mathcal{L}_{\text{waters}} = -g^{AB} \partial_A \Psi_A^* \partial_B \Psi_A - V_A(|\Psi_A|) - \frac{1}{2} g^{AB} \partial_A \Psi_B \partial_B \Psi_B - V_B(\Psi_B) - G_{\text{int}} |\Psi_A|^2 \Psi_B$$
 
 **Definitions:**
-- $\Psi_A(x^\mu, \xi, \eta)$: Waters Above scalar field (dark energy carrier)
+- $\Psi_A(x^\mu, \xi, \eta)$: Waters Above **complex** scalar field (dark energy carrier); $\Psi_A = v_A e^{i\theta_A}$ in the broken phase
 - $\Psi_B(x^\mu, \xi, \eta)$: Waters Below scalar field (dark matter carrier)
-- $V_A(\Psi_A)$: Potential for Waters Above
+- $V_A(|\Psi_A|)$: Potential for Waters Above (function of $|\Psi_A|$ only — U(1)_A invariant)
 - $V_B(\Psi_B)$: Potential for Waters Below
-- $G_{\text{int}}$: Interaction coupling (dimensions: $[M^2 T^{-2}]$ in 6D)
+- $G_{\text{int}}$: Interaction coupling (dimensions adjusted for the cubic $|\Psi_A|^2\Psi_B$ form)
 
 ### 5.2 Waters Above Potential and Equation of State
 
@@ -283,8 +287,8 @@ In the broken phase, fluctuations are gapped and $P_B \approx 0$, giving $w_B \a
 
 ### 5.4 Interaction Term
 
-The coupling between Waters:
-$$\mathcal{L}_{\text{int}} = -G_{\text{int}} \Psi_A \Psi_B$$
+The coupling between Waters (U(1)_A-invariant form; see the §5.1 correction note):
+$$\mathcal{L}_{\text{int}} = -G_{\text{int}} |\Psi_A|^2 \Psi_B$$
 
 **Dimensions:**
 $$[G_{\text{int}}] = \frac{[M L^2 T^{-1}]}{[\Psi_A][\Psi_B]} = \frac{[M L^2 T^{-1}]}{[M L T^{-1}]^2} = [M^{-1} L^0] \implies [G_{\text{int}}] = [M^{-1}]$$
@@ -497,8 +501,8 @@ where $H$ is the Higgs field on the Firmament (related to $\Psi_A|_\Sigma$).
 
 ### 8.1.3 Waters Cross-Coupling
 
-The interaction between Waters Above and Waters Below:
-$$S_{\text{cross}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, G_{\text{int}} \Psi_A \Psi_B$$
+The interaction between Waters Above and Waters Below (U(1)_A-invariant form — corrected 2026-06-12 from the legacy linear $\Psi_A\Psi_B$; see §5.1 note and `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`):
+$$S_{\text{cross}} = \int_{M^6} \text{d}^6x \sqrt{-g_6} \, G_{\text{int}} |\Psi_A|^2 \Psi_B$$
 
 This coupling is essential for the cosmological dynamics and provides feedback between the dark sectors.
 
@@ -606,31 +610,31 @@ $$T_{AB}^{\text{total}} = T_{AB}^{\text{grav}} + T_{AB}^{\text{Firm}} + T_{AB}^{
 
 is the total stress-energy tensor.
 
-**Explicit stress-energy from waters:**
-$$T_{AB}^{\text{waters}} = \partial_A \Psi_A \partial_B \Psi_A - \frac{1}{2} g_{AB} g^{CD} \partial_C \Psi_A \partial_D \Psi_A + g_{AB} V_A(\Psi_A)$$
+**Explicit stress-energy from waters** (for the complex Ψ_A — see §5.1 correction note — the bilinears are $\partial_{(A}\Psi_A^*\partial_{B)}\Psi_A$ and $|\partial\Psi_A|^2$):
+$$T_{AB}^{\text{waters}} = 2\,\partial_{(A} \Psi_A^* \partial_{B)} \Psi_A - g_{AB}\, g^{CD} \partial_C \Psi_A^* \partial_D \Psi_A + g_{AB} V_A(|\Psi_A|)$$
 
-(and similarly for Ψ_B).
+(and similarly for Ψ_B, which remains a real scalar with the standard form.)
 
 **Explicit stress-energy from matter:**
 $$T_{AB}^{\text{matter}} = \frac{1}{2} \left[ \bar{\Psi} \gamma_A D_B \Psi + \bar{\Psi} \gamma_B D_A \Psi \right] - \frac{1}{2} g_{AB} \mathcal{L}_{\text{matter}}$$
 
 ### 10.2 Waters Equations of Motion
 
-Varying with respect to $\Psi_A$:
+Varying with respect to $\Psi_A^*$ (complex field; corrected 2026-06-12 to the U(1)_A-invariant coupling — see §5.1 note):
 
-$$\box_6 \Psi_A - \frac{\partial V_A}{\partial \Psi_A} - G_{\text{int}} \Psi_B = 0$$
+$$\box_6 \Psi_A - \frac{\partial V_A}{\partial \Psi_A^*} - G_{\text{int}} \Psi_A \Psi_B = 0$$
 
 For constant $V_A = \Lambda_A$ (cosmological constant):
-$$\box_6 \Psi_A - G_{\text{int}} \Psi_B = 0$$
+$$\box_6 \Psi_A - G_{\text{int}} \Psi_A \Psi_B = 0$$
 
-This is the **Waters Above equation of motion**, describing the propagation and interaction of dark energy.
+This is the **Waters Above equation of motion**, describing the propagation and interaction of dark energy. Note that the interaction enters multiplicatively in $\Psi_A$ — it shifts the effective mass of $\Psi_A$ rather than sourcing it linearly, which is exactly what preserves the U(1)_A phase symmetry and the vortex sector.
 
 Similarly for Waters Below:
-$$\box_6 \Psi_B - \frac{\partial V_B}{\partial \Psi_B} - G_{\text{int}} \Psi_A = 0$$
+$$\box_6 \Psi_B - \frac{\partial V_B}{\partial \Psi_B} - G_{\text{int}} |\Psi_A|^2 = 0$$
 
 For the potential $V_B(\Psi_B) = -\frac{\mu_B^2}{2}\Psi_B^2 + \frac{\lambda_B}{24}\Psi_B^4$:
 
-$$\box_6 \Psi_B + \mu_B^2 \Psi_B - \frac{\lambda_B}{6} \Psi_B^3 - G_{\text{int}} \Psi_A = 0$$
+$$\box_6 \Psi_B + \mu_B^2 \Psi_B - \frac{\lambda_B}{6} \Psi_B^3 - G_{\text{int}} |\Psi_A|^2 = 0$$
 
 ### 10.3 Dirac Equation in 6D Curved Spacetime
 
@@ -887,8 +891,8 @@ Integrating all sectors:
 $$\boxed{\begin{align}
 S_{\text{total}} &= S_{\text{grav}} + S_{\text{Firm}} + S_{\text{waters}} + S_{\text{gauge}} + S_{\text{matter}} + S_{\text{interaction}} + S_{\text{sustaining}} \\
 &= \frac{1}{2\kappa_6^2} \int d^6x \sqrt{-g_6} R_6 \\
-&\quad + \int d^6x \sqrt{-g_6} \left[ -\frac{1}{2}g^{AB}\partial_A\Psi_A\partial_B\Psi_A - V_A(\Psi_A) \right. \\
-&\quad \left. -\frac{1}{2}g^{AB}\partial_A\Psi_B\partial_B\Psi_B - V_B(\Psi_B) - G_{\text{int}}\Psi_A\Psi_B \right] \\
+&\quad + \int d^6x \sqrt{-g_6} \left[ -g^{AB}\partial_A\Psi_A^*\partial_B\Psi_A - V_A(|\Psi_A|) \right. \\
+&\quad \left. -\frac{1}{2}g^{AB}\partial_A\Psi_B\partial_B\Psi_B - V_B(\Psi_B) - G_{\text{int}}|\Psi_A|^2\Psi_B \right] \\
 &\quad - \frac{1}{4g^2} \int d^6x \sqrt{-g_6} F_{AB} F^{AB} \\
 &\quad + \int d^6x \sqrt{-g_6} \left[ i\bar{\Psi}\gamma^A e_A^M D_M \Psi - m\bar{\Psi}\Psi - y\bar{\Psi}\Psi_A\Psi \right] \\
 &\quad + \int d^6x \sqrt{-g_6} \, T_{\text{Firm}}^{AB} \delta(\xi-\xi_0)\delta(\eta-\eta_0) \\

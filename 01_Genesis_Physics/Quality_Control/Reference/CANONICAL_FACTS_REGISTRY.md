@@ -81,5 +81,19 @@
 - Junk: `Mathematical_Models/00_Archive/OBSERVATIONAL_PHYSICS_TEST_SUITE.md.tmp.5.*`.
 - **Broken/orphaned pointers to fix:** `SOLVE_1000X_MASS_PROBLEM.md` (referenced in `Book_0/CLAUDE.md` + `Vol_4/CLAUDE.md`, file does not exist); `nuclear_physics/test_nuclear_physics.py` path in Vol 4 Ch11_FINAL (real dir is `06_Nuclear_and_Particle_Physics`).
 
+## I. #849-race corpus corrections  *(RESOLVED 2026-06-12 — race-grounded, verdict-independent; board #852)*
+All six corrections below were surfaced and verified by the #849 two-team derivation race (`Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, "Corpus corrections" list). They hold regardless of the race's verdict (#849 itself closed-negative: the n_w=3 derivation attempt was refuted; **Postulate F stands as the honest adopted axiom**, unchanged).
+
+| # | Canonical fact | Where fixed |
+|---|---|---|
+| 1 | Global (ungauged) U(1) vortex energy scales as **E ∝ n²·ln(L/r)**, not \|n\|; the linear law is the gauged/BPS case only. Vol 4 Ch 10 eq. (4.10.12) was already correct. | `TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` §1.3 corrected |
+| 2 | **Ψ_A is a COMPLEX scalar** (Ψ_A = v_A·e^{iθ_A}, global U(1)_A) in the master action, matching all downstream use (vortices, winding, dark-energy phase). | `ACTION_6D_COMPLETE.md` §5.1 promoted; kinetic term → \|∂Ψ_A\|² |
+| 3 | The Waters cross-coupling is the U(1)_A-invariant **G_int·\|Ψ_A\|²·Ψ_B**. The legacy linear G_int·Ψ_A·Ψ_B breaks U(1)_A and would attach domain walls to every vortex (race-proven). Legacy-form documents flagged in the §5.1 compatibility note (WATERS_FIELD_EQUATIONS, FIVE_PRINCIPLES_FORMALIZED, waters_field_sim.py/structure_formation.py, Vol 1 Ch 6/7/8) — re-derive against the cubic form at next revision. | `ACTION_6D_COMPLETE.md` §§5.1, 5.4, 8.1.3, 10.1–10.2, 14 corrected |
+| 4 | Gauge assignment: **U(1)_Y from the ξ-circle** (Vol 2 Ch 06 §6.2 + RT2 §3.1); SU(2)_L from the ℤ₂ orbifold at the Firmament boundary (Ch 06 §6.3); SU(3)_C from the ℤ₃ orbifold in the Waters Below (Ch 06 §6.4). | `KK_DIMENSIONAL_REDUCTION.md` §3.5 corrected (had ξ/η swapped) |
+| 5 | **Z₃ canonical location:** the ℤ₃ acts on the full 2D (ξ,η) fiber, w = ξ+iη ~ e^{2πi/3}w — canonical statement is `RT2_SU3_Z3_ORBIFOLD.md`. Vol 2 Ch 06 §6.4.2's region-restricted phrasing and Vol 4 Ch 12 §12.1's S¹_η/ℤ₃ presentation are reconciled to it by note (derivations unchanged). | Notes added in both chapters |
+| 6 | **n_w/n_q notation rule (O5 resolution, both teams identically):** per-particle CHARGE winding **n_w** (Q = n·e; defect lines in Firmament 3-space; every charged lepton n_w = 1) and the GENERATION-counting fiber background quotient winding **n_q** (covering N = 3n_q; equivariant index → n_q generations per sector) are **two distinct π₁ invariants — never conflate**. The index counts generations; the ξ-radial spectrum is the mass-hierarchy mechanism (demoted from counting). Postulate F's "3" is n_q in this notation. | Registered in `Symbol_and_Constants.md` + `Glossary.md`; contradictions fixed by note in `TOPOLOGICAL_DEFECT...md` Part 6 and `op04_three_generation_completion.md` §3 |
+
+Minor: Jackiw–Rossi citation corrected 1976 → **1981** (Nucl. Phys. B190, 681) in `TOPOLOGICAL_DEFECT_PARTICLE_CLASSIFICATION.md` Appendix A.
+
 ---
 **Items needing the author (ratify before lock):** B (zone Z₂.₂.₂ assignment), E (warp-index 2/3 form), F & G (spin-½ / OP-register resolution status + the Λ_Z0 axiom decision). Everything else is determinable-by-rule and is being cascaded now.

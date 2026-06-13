@@ -4,7 +4,7 @@
 
 **Canonical reference maintained by the Analysis quality system**
 
-Last updated: April 5, 2026
+Last updated: June 12, 2026 (added Topological Winding Numbers — n_w/n_q split, #849-race O5 resolution)
 Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 ---
@@ -89,6 +89,19 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 |-------|--------|-------------------|-----------------|------|-----------------|
 | Waters Above | Ψ_A | w ≈ -1 | Constant (ρ ∝ a⁰) | Repulsive; cosmic acceleration | Dark energy |
 | Waters Below | Ψ_B | w ≈ 0 | Matter-like (ρ ∝ a⁻³) | Attractive; gravitational scaffolding | Dark matter |
+
+---
+
+## Topological Winding Numbers (canonical notation — 2026-06-12, #849-race O5 resolution)
+
+Two **distinct π₁ invariants** were historically both written "n_w" (or "n_ξ"). They must not be conflated — conflating them was the factor-3 double-count diagnosed in the #849 derivation race (`Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #6; both race teams reached this disentanglement independently).
+
+| Symbol | Name | What it winds | What it determines | Typical values |
+|--------|------|----------------|--------------------|----------------|
+| **n_w** | Charge winding (per-particle) | The U(1)_A phase of Ψ_A around a particle's defect line in Firmament 3-space | Electric charge quantization, Q = n·e | n_w = 1 for every charged lepton (all three generations) |
+| **n_q** | Fiber/quotient winding (background) | The quotient (boundary) winding of the Waters-Above fiber **background** on the Z₃ orbifold; covering-space winding N = 3·n_q | Generation count via the Z₃-equivariant index (per-sector index = N/3 = n_q) | n_q = 3 ⟺ N = 9 ⟹ 3 color-singlet generations (+ colored partners, 9 = 3×3) |
+
+**Rules:** (1) n_w is a property of an individual particle/defect; n_q is a property of the fiber background — they are independent invariants of different loops. (2) "n_ξ = 1 for every fermion" in defect tables is the CHARGE winding, **not** a generation index. (3) Postulate F's adopted "n_w = 3" is, in this canonical notation, the **background** invariant n_q = 3 (the generation-counting winding); it remains an adopted axiom, not derived (see `AXIOM_GODHEAD_ZONE_Z0.md` and registry §I). (4) The ξ-radial resonance spectrum is the **mass-hierarchy** mechanism, not the generation-counting mechanism.
 
 ---
 

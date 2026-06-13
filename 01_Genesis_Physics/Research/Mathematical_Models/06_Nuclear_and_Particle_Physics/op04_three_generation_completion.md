@@ -71,7 +71,9 @@ The three resonance states emerge from the topology of the double-well:
 
 ### §3 Connection to OP-02 (Kähler Zero Modes)
 
-**Synthesis (new result):**
+> **CORRECTION (2026-06-12, race-verified — counting vs. hierarchy):** The synthesis below counts generations as {index = 1} × {3 radial resonances}. The #849 derivation race (both teams independently, referee-confirmed) established the correct division of labor: **the (Z₃-equivariant) index counts the generations** — given fiber background winding n_q = 3 (covering N = 9), the per-sector index is N/3 = 3, yielding exactly 3 color-singlet generations — while **the ξ-radial resonance spectrum is the MASS-HIERARCHY mechanism**, demoted from generation counting. The two invariants involved (per-particle charge winding n_w vs. background fiber winding n_q) are distinct π₁ invariants; the "index = 1 × 3 resonances" product below conflates them. The three-resonance structure of §§1–2 remains valid and load-bearing for the Yukawa hierarchy (m_n ∝ exp(−αn²), §4) — it just is not what makes the generation count 3. Grounding: `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md` (§1, "sharpened open question", and corpus correction #6); canonical notation in `Quality_Control/Reference/Symbol_and_Constants.md` (Topological Winding Numbers).
+
+**Synthesis (superseded counting — retained for the historical derivation record; see correction note above):**
 
 The Kähler spinors from OP-02 give **one zero-mode multiplet** per topological sector. The double-well double-minima define **two topological sectors** (ξ < 0 and ξ > 0). The resonances are tunneling states between these sectors.
 

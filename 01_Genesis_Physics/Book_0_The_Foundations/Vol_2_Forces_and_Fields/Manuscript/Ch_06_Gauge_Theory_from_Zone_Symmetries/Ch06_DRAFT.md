@@ -226,6 +226,8 @@ $$\psi \sim \psi + \frac{2\pi}{3} \tag{2.6.19}$$
 
 This identification means that a rotation by $2\pi/3$ in the extra-dimensional plane maps the geometry to itself. The quotient space $\mathbb{C}/\mathbb{Z}_3$ is an orbifold with a conical singularity at the origin (the "tip" of the Waters Below).
 
+> **Canonical-location note (2026-06-12, #849-race reconciliation):** The canonical statement of the ℤ₃ orbifold is `Research/Foundations/RT2_SU3_Z3_ORBIFOLD.md` (RT-2.SU3, status DERIVATION COMPLETE): the ℤ₃ acts on the **full 2D (ξ, η) fiber** $w = \xi + i\eta$, $w \sim e^{2\pi i/3}w$ (RT2 §1.2, eq. SU3.6–SU3.7), not on a region-restricted sub-patch. The phrasing above ("In the Waters Below region…") describes *where the orbifold's physics is dominant* — the confinement geometry near the Waters Below tip — but the identification itself is the full-fiber ℤ₃ of RT2; the derivation in this section is unchanged by this clarification. Grounding: `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #5.
+
 **Why ℤ₃ and not some other group?** The answer lies in the boundary conditions of the 6D Einstein equations at the Waters Below boundary. The warp factor $B_\eta(\eta)$ is Gaussian (equation 1.4.27), and the periodicity of the angular modes is constrained by the requirement that the 6D Ricci scalar remain finite at $\eta = -\eta_B$. The regularity condition selects $\mathbb{Z}_3$ as the maximal discrete rotational symmetry compatible with the confinement scale $\eta_B$ and the QCD coupling strength $\alpha_s(m_Z) \approx 0.118$ (Chapter 4, equations 2.4.3–2.4.4). Specifically, the angular periodicity $2\pi/N$ must satisfy:
 
 $$N = \left\lfloor \frac{2\pi}{\Delta\psi_{\text{min}}} \right\rfloor = 3 \tag{2.6.20}$$

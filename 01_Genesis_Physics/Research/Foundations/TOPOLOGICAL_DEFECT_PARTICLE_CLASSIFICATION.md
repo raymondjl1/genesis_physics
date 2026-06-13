@@ -165,9 +165,11 @@ where $m_A$ is the mass scale from $V_A$.
 
 **Energy per unit length** (along Firmament):
 
-$$E_{n_\xi} = 2\pi v_A^2 |n_\xi| \ln\left(\frac{L}{r_\xi}\right) + E_0$$
+$$E_{n_\xi} = 2\pi v_A^2 \, n_\xi^2 \ln\left(\frac{L}{r_\xi}\right) + E_0$$
 
 where $L$ is an IR cutoff and $E_0$ is a core energy.
+
+> **CORRECTION (2026-06-12, race-verified):** An earlier version of this equation wrote $E \propto |n_\xi|$. For a **global** (ungauged) U(1) vortex — which is the case here, since the gradient energy $\int |\nabla \Psi_A|^2$ of the unscreened phase winding scales as the *square* of the winding — the correct scaling is $E \propto n_\xi^2 \ln(L/r_\xi)$. The linear-in-$|n|$ law holds only in the **gauged/BPS** case, where the gauge field screens the phase gradient at large $r$. Vol 4 Ch 10 eq. (4.10.12) already has the correct $n_\xi^2$ form. Grounding: `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #1.
 
 **Zero-mode content**: By Jackiw-Rossi theorem (Appendix A), each unit winding $|n_\xi| = 1$ carries one fermionic zero mode in its core.
 
@@ -1257,6 +1259,8 @@ is a topologically protected quantum number.
 
 ## Part 6: Complete Particle Classification Table
 
+> **NOTATION CLARIFICATION (2026-06-12, race-verified — two distinct π₁ invariants):** The column $n_\xi$ in the master table below is the **per-particle CHARGE winding** (canonical symbol $n_w$): the winding of the defect line in Firmament 3-space that fixes electric charge via $Q = n \cdot e$. Every charged lepton having $n_\xi = 1$ is the *correct* reading of this column — it is the charge winding, **not** a generation index. The **generation count** is carried by a *different* topological invariant: the quotient winding $n_q$ of the Waters-Above fiber *background* (covering-space winding $N = 3n_q$), whose Z₃-equivariant index yields the three generations. Conflating the two was the factor-3 double-count diagnosed in the #849 derivation race. See `Quality_Control/Reference/Symbol_and_Constants.md` (Topological Winding Numbers) and `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md` §1 and corpus correction #6.
+
 ### 6.1 Master Table: All Standard Model Particles
 
 | Particle | Defect Type | $n_\xi$ | $n_\eta$ | Spin | Q | $T_3$ | Color | B | L | Gen | Mass Origin |
@@ -1309,7 +1313,7 @@ is a topologically protected quantum number.
 
 ### A.1 Statement
 
-**Theorem (Jackiw-Rossi, 1976)**:
+**Theorem (Jackiw-Rossi, 1981)** *(date corrected 2026-06-12; R. Jackiw & P. Rossi, Nucl. Phys. B190, 681 (1981); per `Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`)*:
 
 A codimension-2 topological defect (vortex) with unit winding number in a gauge theory with fermions carries **exactly one** normalizable fermionic zero mode localized in its core.
 
