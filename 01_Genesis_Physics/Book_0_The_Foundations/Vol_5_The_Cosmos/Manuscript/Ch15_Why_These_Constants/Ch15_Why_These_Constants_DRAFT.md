@@ -676,6 +676,26 @@ But the mathematics points somewhere.
 
 ---
 
+## 15.7 What This Volume Establishes — Bridge to Volume 6
+
+Volume 5 has carried the zone architecture from the particle scale to the scale of the universe: general relativity from the 6D embedding, a complete cosmology, the fine structure constant, the cosmological constant, and the remaining fundamental constants. Volume 6 — the predictions-and-simulations volume — inherits these results as the inputs to its test suite. Each row below names a specific result, where it was established, and the load-bearing use Volume 6 makes of it. No row points forward to a result established only later.
+
+### For Volume 6: Predictions and Simulations
+
+Volume 6 assembles the complete prediction catalog and confronts every derived quantity with observation and numerical simulation.
+
+| Vol 5 Result | Vol 6 Use |
+|--------------|-----------|
+| Fine structure constant α from zone geometry (Ch 13) | Catalog entry and precision confrontation with CODATA; target for the two-loop closure flagged in Vol 5 |
+| Cosmological constant Λ (Ch 14) | Dark-energy prediction in the catalog; input to Friedmann-evolution simulations |
+| ℏ, G₄, k_B as structural forms (Ch 15, Key Results 15.1–15.3; Eqs. 15.x) | Constant-by-constant catalog entries; ℏ and G₄ flagged as calibrated consistency checks (CT-5.ℏ, Open Problem 15.2) |
+| Hierarchy resolution $M_{\text{Pl}}^2 = M_6^2 V_{\text{extra}}$ (Ch 15, Key Result 15.4) | The hierarchy-ratio prediction in the catalog; consistency with Vol 2's force-landscape value |
+| Open Problems 15.1–15.3 (uniqueness of field-equation solutions; first-principles λ; β_geom) | The deferred computational closures that Volume 6's simulations are built to attempt |
+
+*(Volume 6 is the terminal volume of the Foundations Series. From there the architecture hands off to the trade books — *The Hidden Architecture* and *The Creator's Blueprint* — which cite, but do not re-derive, these results.)*
+
+---
+
 ## Problems
 
 **Problem 15.1.** *Dimensional verification.* Confirm that the formula ℏ = (σ η_B³)/(2c) × (η_B/ξ_A)² has the correct dimensions of action [M L² T⁻¹]. Show each step of the dimensional analysis explicitly.
@@ -691,3 +711,11 @@ But the mathematics points somewhere.
 **Problem 15.6.** *Natural units and k_B.* Rewrite the ideal gas law PV = Nk_BT, the Stefan-Boltzmann law j = σ_SB T⁴, and the Planck distribution function in natural units where ℏ = c = k_B = 1. Verify that no physical content is lost when k_B is set to unity. Identify one thermodynamic quantity that *does* change its numerical value and explain why.
 
 **Problem 15.7** *(Challenge).* The 6D Planck mass M₆ ≈ 3.9 TeV/c² is within reach of collider experiments. The LHC operates at √s = 13.6 TeV. If M₆ is correct, what signature would extra-dimensional gravity leave in LHC data? (Hint: consider graviton production with missing energy.) Estimate the cross-section scaling and compare to current experimental bounds from ATLAS and CMS searches for large extra dimensions.
+
+---
+
+*Build order verified: Chapter 15 uses only results from Vols 1–4 and Vol 5 (Chs 1–14). No forward dependencies.*
+
+*Equation numbering: (15.N) — Volume 5, Chapter 15, Equation N.*
+
+*Citation convention: equations from prior volumes as (Vol.Ch.Eq), e.g., (1.4.2), (2.2.11); prior chapter equations in this volume by their original numbers, e.g., the speed of light c = √(σ/μ) from Vol 1 Ch 5 and α from Vol 5 Ch 13.*

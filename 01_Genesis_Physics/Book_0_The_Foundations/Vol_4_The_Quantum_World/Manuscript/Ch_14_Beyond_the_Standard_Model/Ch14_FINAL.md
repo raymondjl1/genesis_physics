@@ -428,6 +428,26 @@ Volume 6 inherits the experimental test suite. The entire falsification table of
 
 Volume 4 has done what it can at the scale of the particle. It has derived the Standard Model, it has named the debts the derivation left unpaid, and it has given the Skeptic fourteen ways to kill the framework. Volume 5 will now ask whether the same architecture that produced particles also produces cosmologies — whether the zone manifold, having organized the quantum, can also organize the universe.
 
+### What This Volume Establishes — the structured ledger
+
+The prose above states the handoff in narrative form; the table below states it as a ledger, so the downstream volumes inherit a precise list of what they may assume. Each row names a specific result, where it was established, and the single load-bearing use the downstream volume makes of it. No row points forward to a result established only later.
+
+**For Volume 5: The Cosmos.** Volume 5 carries the particle-scale results to cosmological scales.
+
+| Vol 4 Result | Vol 5 Use |
+|--------------|-----------|
+| Four dark-matter candidate classes (§14.2) | Dark-matter cosmology: abundance, freeze-out histories, structure-formation signatures, CMB-peak constraints |
+| Waters Above vacuum and the cosmological-constant mismatch; proposed $\mathbb{Z}_2$ cancellation (§14.3, Eq. 4.14.10) | The cosmological-constant chapter (Vol 5 Ch 8, Ch 11): the $\mathbb{Z}_2$ mechanism is taken up properly |
+| Hierarchy recap and moduli problem (§14.1) | Moduli-stabilization problem, intertwined with RR-9 and RR-2 Path D |
+| Standard Model spectrum and couplings (Chs 10–13) | Particle inputs to early-universe thermal history and nucleosynthesis |
+
+**For Volume 6: Predictions and Simulations.** Volume 6 turns the framework's claims into a test suite.
+
+| Vol 4 Result | Vol 6 Use |
+|--------------|-----------|
+| Falsification table, fourteen rows (§14.5) | Volume 6's primary deliverable: each row expands into a predicted-observable-vs-data comparison |
+| Research roadmap, twelve items (§14.6) | Volume 6's internal work plan — the open problems that must close before it is a book rather than a progress report |
+
 ---
 
 ## Problem Set
@@ -455,3 +475,11 @@ Volume 4 has done what it can at the scale of the particle. It has derived the S
 ---
 
 *This concludes Volume 4: The Quantum World. Next: Volume 5 — The Cosmos, where the same zone architecture is carried from the particle scale to the scale of the universe.*
+
+---
+
+*Build order verified: Chapter 14 uses only results from Vols 1–3 and Vol 4 (Chs 1–13). No forward dependencies.*
+
+*Equation numbering: (4.14.N) — Volume 4, Chapter 14, Equation N.*
+
+*Citation convention: equations from prior volumes as (Vol.Ch.Eq), e.g., (1.4.2), (2.5.1); prior chapter equations in this volume by their original numbers, e.g., (4.13.13).*

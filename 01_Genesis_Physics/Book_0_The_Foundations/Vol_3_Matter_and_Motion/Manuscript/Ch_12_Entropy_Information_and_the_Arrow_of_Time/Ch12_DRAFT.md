@@ -957,3 +957,37 @@ What Volume 3 does *not* settle is the cosmic-history side of the ledger — the
 
 ---
 
+## § 12.9 What This Volume Establishes — Bridge to Volume 4
+
+Volume 3 has derived the dynamics of matter — the laws of motion, the origin of mass, statistical mechanics, transport, and the arrow of time — as theorems of the zone architecture rather than as independent postulates. Later volumes inherit specific results. Each row below names the result, where it was established, and the single load-bearing use the downstream volume makes of it. No row assumes a result established only later; this table records only what later volumes are entitled to consume.
+
+### For Volume 4: The Quantum World
+
+Volume 4 quantizes matter and builds the Standard Model. It inherits Vol 3's classical-mechanical scaffolding — the formulations onto which quantization is grafted — and its statistical-ensemble machinery.
+
+| Vol 3 Result | Vol 4 Use |
+|--------------|-----------|
+| Lagrangian and Hamiltonian formulation of matter (Chs 1–7) | The classical limit that canonical and path-integral quantization must reproduce; the Legendre structure for the quantum Hamiltonian |
+| Origin of inertial mass from the zone architecture (Chs 1–7) | The classical mass scale onto which the Firmament-vibration mass spectrum (Vol 4) reduces in the low-energy limit |
+| Statistical ensembles and the partition function (Chs 8–11) | Thermal field theory, occupation statistics (Fermi–Dirac/Bose–Einstein), and finite-temperature corrections in QFT |
+| Entropy–information identity; Landauer bound (Ch 12, §12.4) | Measurement, decoherence, and the thermodynamic cost of information in the quantum-measurement discussion |
+
+### For Volume 5: The Cosmos
+
+Volume 5 reconstructs cosmic thermal history and confronts it with data. It consumes Vol 3's thermodynamics of the sustaining field directly.
+
+| Vol 3 Result | Vol 5 Use |
+|--------------|-----------|
+| Arrow of time tied to κ; Degradation relation $dS/dt \leftrightarrow \kappa$ (Ch 12, Eq. 3.12.28) | Epoch-by-epoch reconstruction of κ across the four phases; the thermal arrow of cosmic history |
+| Entropy-production rate $d\mathcal{S}/dt$ estimates (Ch 12, §12.6) | Confrontation of the cosmic entropy budget with CMB, stellar, and black-hole entropy data |
+
+*(Volume 6 inherits the entropy-budget and falsification estimates transitively through Vol 5; it consumes no Vol 3 result not already load-bearing for Vol 4 or Vol 5, so it carries no separate table here.)*
+
+---
+
+*Build order verified: Chapter 12 uses only results from Vols 1–2 and Vol 3 (Chs 1–11). No forward dependencies.*
+
+*Equation numbering: (3.12.N) — Volume 3, Chapter 12, Equation N.*
+
+*Citation convention: Vol 1 equations as (1.Ch.Eq) and Vol 2 equations as (2.Ch.Eq); prior chapter equations in this volume by their original numbers, e.g., (3.9.15).*
+

@@ -852,6 +852,46 @@ Volume 2 begins the harvest.
 
 ---
 
+## 11.10 What This Volume Establishes — Bridge to Volume 2
+
+Volume 1 has built the complete architecture of reality: the zone manifold, the Firmament membrane, the Waters fields, the conservation laws, the Five Principles, quantization, and thermodynamics. Every later volume inherits specific results from this foundation. Each row below names the result, where it was established, and the single load-bearing use the downstream volume makes of it. No row points forward to a result not yet established; this table only records what later volumes are entitled to assume.
+
+### For Volume 2: Forces and Fields
+
+Volume 2 derives all four fundamental forces by projecting free motion in the zone manifold onto the Firmament. It consumes Vol 1's geometry, action principle, and symmetry machinery directly.
+
+| Vol 1 Result | Vol 2 Use |
+|--------------|-----------|
+| 6D zone manifold and metric (Ch 3–4, Eq. 1.4.2) | The arena on which forces are geometric shadows; the metric whose off-diagonal modes become gauge fields under KK reduction |
+| Firmament membrane; wave speed $c=\sqrt{\sigma/\mu}$ (Ch 5) | The 4D brane on which all four forces act; fixes the speed of light and the EM/GW propagation speed |
+| Waters Above / Waters Below duality (Ch 6, Ch 9) | ξ-sector → dark energy and EM circle-isometry; η-sector → ℤ₂/ℤ₃ orbifold structure giving the weak and strong forces |
+| Conservation laws from Noether symmetries (Ch 7) | Gauge-current conservation and charge quantization in the force Lagrangian |
+| The Five Principles as constraints (Ch 8) | Uniqueness of the seven-sector zone Lagrangian (Vol 2 Theorem 2.5.1); the Sustaining Principle fixes $S_\text{sustain}$ |
+| Quantization from boundary conditions (Ch 10) | Mode spectrum and orbifold boundary modes used in the strong/weak coupling integrals |
+
+### For Volume 3: Matter and Motion
+
+Volume 3 derives the dynamics of matter. It inherits Vol 1's action principle and thermodynamics directly, ahead of the forces of Vol 2.
+
+| Vol 1 Result | Vol 3 Use |
+|--------------|-----------|
+| 6D action and Euler–Lagrange machinery (Ch 7–8) | Lagrangian/Hamiltonian mechanics for matter; F = ma recovered as a theorem |
+| Four thermodynamic laws from zone separation (Ch 11, §11.2–11.6) | Statistical mechanics, kinetic theory, and transport built on the partition function and phase-dependent Second Law |
+| Phase-dependent Second Law; $dS/dt = L\Delta\kappa$ (Ch 11, Eqs. 1.11.40–1.11.47) | The arrow of time and entropy–information identification (Vol 3 Ch 12) |
+
+### For Volume 5: The Cosmos
+
+Volume 5 reconstructs cosmic history epoch by epoch and tests the rate equations quantitatively.
+
+| Vol 1 Result | Vol 5 Use |
+|--------------|-----------|
+| Sustaining coupling κ and the four thermodynamic phases (Ch 11, §11.7–11.8) | Epoch-by-epoch thermal history; observational confrontation of entropy-rate estimates |
+| Open-system rate equations and 68/27/5 energy split (Ch 11, §11.8, Eqs. 1.11.62–1.11.72) | Dark-energy/dark-matter/baryon density predictions confronted with cosmological data |
+
+*(Volume 4 inherits Vol 1's geometry transitively through the field theory of Vol 2; it consumes no Vol 1 result that is not already load-bearing for Vol 2, so it carries no separate table here. Volume 6 inherits the falsification and simulation program through Vols 2–5.)*
+
+---
+
 ## Problem Sets
 
 *Note: Full problem sets with solutions are provided in the companion Problem Set volume. The following is the chapter-level problem inventory.*
@@ -956,3 +996,11 @@ Volume 2 begins the harvest.
 | (1.11.48)–(1.11.57) | Third Law and mode freezing | §11.6 |
 | (1.11.58)–(1.11.61) | Phase transitions and Landau theory | §11.7 |
 | (1.11.62)–(1.11.72) | Open-system proof and rate equations | §11.8 |
+
+---
+
+*Build order verified: Chapter 11 uses only results from Vol 1 (Chs 1–10). No forward dependencies.*
+
+*Equation numbering: (1.11.N) — Volume 1, Chapter 11, Equation N.*
+
+*Citation convention: Vol 1 equations as (1.Ch.Eq), e.g., (1.4.2). Prior chapter equations in this volume by their original numbers, e.g., (1.7.15).*
