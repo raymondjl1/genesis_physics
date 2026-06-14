@@ -35,7 +35,7 @@ Everything in this chapter descends from an equation the reader has already seen
 
 ---
 
-## 7.1 The Interacting Firmament
+## 7.1 The Interacting Firmament [RIGOROUS — inheriting Vol 2 Ch 5 Lagrangian; fermion structure placeholder pending Ch 10]
 
 A free Hamiltonian is, by definition, a quadratic function of the fields. Quadratic Hamiltonians are diagonalizable. A diagonalized Hamiltonian is a sum of independent oscillators, and a sum of independent oscillators is what Chapter 6 solved. Everything in that chapter — the mode expansion, the ladder operators, the Fock space, the free propagator we are about to write down — follows from the quadratic structure of the Firmament kinetic term.
 
@@ -71,7 +71,7 @@ With (4.7.5) in hand, the question before us is how to compute transition amplit
 
 ---
 
-## 7.2 The Interaction Picture
+## 7.2 The Interaction Picture [RIGOROUS — exact operator identity; Haag's-theorem caveat noted]
 
 Quantum mechanics has three standard choices for where to park the time dependence. In the *Schrödinger picture* the states evolve and the operators sit still. In the *Heisenberg picture* the operators evolve and the states sit still. In the *interaction picture* — also called the Dirac picture, and it is the one we will use in this chapter — the operators evolve under the free Hamiltonian $\hat H_0$ and the states evolve under the interaction Hamiltonian $\hat H_{\rm int}$, so that the labor is split between the two objects.
 
@@ -115,7 +115,7 @@ One more bookkeeping point before we move on. The interaction picture is only we
 
 ---
 
-## 7.3 The Dyson Series
+## 7.3 The Dyson Series [RIGOROUS — exact formal series; convergence not at issue here]
 
 We have an equation of motion (4.7.12) for $|\psi_I(t)\rangle$. We want a formal solution that expresses $|\psi_I(t)\rangle$ as a linear operator acting on the initial state $|\psi_I(t_0)\rangle$:
 
@@ -171,7 +171,7 @@ Each term on the right is a vacuum expectation value — well, a matrix element 
 
 ---
 
-## 7.4 Wick's Theorem
+## 7.4 Wick's Theorem [RIGOROUS — exact combinatorial identity, proved by induction]
 
 Wick's theorem is a combinatorial identity that rewrites the time-ordered product of any number of free field operators as a sum of normal-ordered products multiplied by contractions. It is the single most important computational tool in perturbative QFT. It is also, despite its importance, nothing more than a careful bookkeeping of the commutators we already met in Chapter 6.
 
@@ -214,7 +214,7 @@ The computational point of Wick's theorem is this. A matrix element $\langle f|T
 
 ---
 
-## 7.5 The Firmament Propagator
+## 7.5 The Firmament Propagator [RIGOROUS — derived from Ch 6 free-field VEV; fermion propagator placeholder pending Ch 10]
 
 The contraction (4.7.24) is the vacuum expectation value of a time-ordered pair of free fields. Using the Ch 6 mode expansion (4.6.5) for the free scalar Firmament field — keeping in mind that the free fields are the ones in the interaction picture, which is a clean way of saying that the mode frequencies are the $\omega_k$ of Ch 6 — we can compute this vacuum expectation value directly.
 
@@ -278,7 +278,7 @@ We now have every ingredient we need — a perturbation series (the Dyson series
 
 ---
 
-## 7.6 Feynman Diagrams and Feynman Rules for Zone Architecture
+## 7.6 Feynman Diagrams and Feynman Rules for Zone Architecture [RIGOROUS — exact dictionary from §§7.3–7.5; non-QED vertices quoted ahead of Ch 11–12]
 
 Every term in the expansion of an S-matrix element — every surviving pairing in Wick's theorem — can be represented as a *graph*. The vertices of the graph correspond to the insertions of $\hat H_I$; the edges of the graph correspond to the contractions between field operators at those insertions, plus external legs that represent the initial- and final-state particles. Two graphs that differ only by topological relabelling represent the same mathematical term. Graphs that differ topologically represent different terms. The entire enumeration problem of perturbation theory reduces to the enumeration of topologically distinct graphs with a prescribed number of external legs and a prescribed number of vertices. For QED, where every vertex has exactly one photon line and two fermion lines (because $\hat H_I \propto \bar\psi\gamma^\mu\psi A_\mu$ has exactly one factor of each field type), the graphs are especially simple.
 
@@ -329,7 +329,7 @@ We have now done the abstract work. The rest of the chapter applies the rules.
 
 ---
 
-## 7.7 First Application — Tree-Level Coulomb Scattering
+## 7.7 First Application — Tree-Level Coulomb Scattering [RIGOROUS — exact tree level; Rutherford/Mott recovered in stated non-relativistic limit]
 
 The simplest non-trivial QED diagram is the tree-level exchange of a single photon between two charged particles. We will do the case of an electron scattering off a proton, which is what Rutherford studied in the non-relativistic limit and what Mott corrected relativistically. Our goal is to apply the rules of §7.6 to reproduce the known answer.
 
@@ -367,7 +367,7 @@ which is the Rutherford formula. The relativistic generalization — Mott scatte
 
 ---
 
-## 7.8 The One-Loop Vertex Correction
+## 7.8 The One-Loop Vertex Correction [APPROXIMATE — perturbative, one loop (order α); standard QED steps sketched, not reproduced in full]
 
 Now a loop. The diagram we want is the one in which the electron–photon vertex of the previous section gets dressed by a virtual photon exchanged between the two fermion legs. This is a second-order correction to the vertex, proportional to $e^2$ times the tree vertex — that is, it is an order-$\alpha$ correction to the vertex function. It is the simplest loop calculation in QED, and it is the calculation whose answer gives the Schwinger term of the anomalous magnetic moment.
 
@@ -417,7 +417,7 @@ The computation in standard QED produces the same (4.7.50). The computation in G
 
 ---
 
-## 7.9 Electron g-2: The Precision Test
+## 7.9 Electron g-2: The Precision Test [APPROXIMATE — perturbative through 5 loops; computed, not fit. Carries phenomenological inputs: measured α and hadronic contribution from e+e- data]
 
 The Schwinger term is just the start. The anomalous magnetic moment of the electron can be expanded as a power series in $\alpha/\pi$:
 
@@ -457,7 +457,7 @@ The muon anomalous magnetic moment is a different story. The experimental value 
 
 ---
 
-## 7.10 The Lamb Shift
+## 7.10 The Lamb Shift [APPROXIMATE — leading self-energy + vacuum-polarization contributions; non-relativistic Bethe estimate plus quoted small corrections, some coefficient factors dropped for readability]
 
 The second acceptance test is the Lamb shift: the 1057.845 MHz splitting between the 2S₁/₂ and 2P₁/₂ states of hydrogen. This splitting should not exist according to the Dirac equation — the two states have the same principal quantum number and the same total angular momentum, and the Dirac theory makes them degenerate. The fact that they are *not* degenerate was discovered by Lamb and Retherford in 1947 using microwave spectroscopy, and it was the first decisive evidence that the electromagnetic vacuum has observable consequences.
 
@@ -505,7 +505,7 @@ The agreement is to parts per $10^7$ — not as precise as the electron g-2, bec
 
 ---
 
-## 7.11 Divergences and the Membrane Cutoff
+## 7.11 Divergences and the Membrane Cutoff [APPROXIMATE — physical cutoff Λ_zone = ħc/η_B inherits η_B from Vol 1 Ch 5; low-energy equivalence to renormalized QED is leading-power in 1/Λ². Full renormalization-program consistency deferred to Ch 8]
 
 We have been running loop integrals for the whole chapter, and we have been a little casual about the behaviour of those integrals at high momentum. It is time to be explicit. The vertex integral of §7.8, the self-energy integral of §7.10, and the vacuum polarization integral of §7.10 all have pieces that diverge logarithmically when integrated over all loop momenta. A typical contribution looks like
 

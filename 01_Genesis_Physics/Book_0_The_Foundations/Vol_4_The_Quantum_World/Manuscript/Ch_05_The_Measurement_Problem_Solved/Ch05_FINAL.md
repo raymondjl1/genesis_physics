@@ -66,7 +66,7 @@ Each approach was trying to answer a real question. None of them, as formulated,
 
 ---
 
-## 5.2 The Zone Architecture Partition — System, Apparatus, and the Waters
+## 5.2 The Zone Architecture Partition — System, Apparatus, and the Waters [RIGOROUS — inheriting Vol 1 Ch 6 / Vol 2 Ch 5]
 
 In any decoherence account of the measurement problem, the crucial move is the partition of the universe into three parts: the system Σ being measured, the apparatus 𝒜 doing the measuring, and the environment ℰ into which information leaks. In the usual treatments, the environment is introduced phenomenologically — a "bath" with many degrees of freedom, high temperature, weak coupling — and its precise nature is left flexible. The critic can always complain that the decoherence story depends on the assumed properties of the environment, and that these properties are put in by hand.
 
@@ -113,7 +113,7 @@ With the partition and the coupling in hand, we are ready to derive decoherence.
 
 ---
 
-## 5.3 Decoherence — The Trace Over the Waters
+## 5.3 Decoherence — The Trace Over the Waters [RIGOROUS — given the Waters-coupling Hamiltonian (4.5.5) of §5.2]
 
 We now compute what happens when the system, apparatus, and Waters evolve together under the full unitary dynamics of (4.5.4), and then ask what an observer — who can only access the system (and perhaps the apparatus pointer) in 3D — sees.
 
@@ -222,7 +222,7 @@ A subtle point deserves emphasis. When we trace over the Waters, we are not dest
 
 ---
 
-## 5.4 The Decoherence Timescale
+## 5.4 The Decoherence Timescale [APPROXIMATE]
 
 "Exponentially fast" is not an answer. We need a number. Specifically, we need the decoherence timescale τ_D — the time it takes for γ_12 to fall from ~1 to ~e⁻¹ — and we need to check that τ_D is short enough to explain the everyday absence of macroscopic superpositions.
 
@@ -271,7 +271,7 @@ No observer triggers anything. The universe has already sorted itself into branc
 
 ---
 
-## 5.5 The Pointer Basis — Why Classical Observables Are the Ones We See
+## 5.5 The Pointer Basis — Why Classical Observables Are the Ones We See [RIGOROUS — given the position-local form of coupling (4.5.5)]
 
 There is one more piece of the puzzle. Decoherence produces a diagonal density matrix — but diagonal in what basis? The reduced density matrix (4.5.31) is diagonal in the {|ψ_i⟩ ⊗ |Obs_i⟩} basis. But any basis change would diagonalize it in a different basis. Why is the one we see the classical one — position eigenstates, energy eigenstates, pointer-reading eigenstates — rather than, say, equal superpositions of those?
 
@@ -309,7 +309,7 @@ The pointer basis account is robust across scales.
 
 ---
 
-## 5.6 The Born Rule Derived — Why P(i) = |c_i|²
+## 5.6 The Born Rule Derived — Why P(i) = |c_i|² [RIGOROUS — given the |Ψ|²-as-energy-density identification inherited from Vol 1 Ch 5 and the envariance-style long-run-frequency step (contested in foundations; see §5.6.4)]
 
 We have shown that the off-diagonal terms of the reduced density matrix vanish. We have shown that the diagonal terms are labeled by the pointer basis. We have not yet derived the coefficients — the diagonal entries — that the density matrix assigns to each branch. Standard quantum mechanics postulates the Born rule as an independent axiom: P(i) = |c_i|². In Genesis Physics, the Born rule is a theorem.
 
@@ -371,7 +371,7 @@ We can now return to the interpretive landscape of §5.1 and see what each stand
 
 ---
 
-## 5.8 Schrödinger's Cat, Worked Out; and a Note on the Observer
+## 5.8 Schrödinger's Cat, Worked Out; and a Note on the Observer [OPEN — scopes the unresolved ontological measurement problem (§5.8.3); decoherence answers when/which-basis, not why one outcome]
 
 We owe a nod to the cat. In 1935, Schrödinger proposed a now-famous thought experiment. A radioactive atom is placed in a sealed box with a Geiger counter, a hammer, a flask of poison, and a cat. If the atom decays, the counter triggers, the hammer falls, the flask breaks, and the cat dies. If not, the cat lives. According to a literal reading of the Schrödinger equation, applied to the entire box, the system evolves into a superposition: |atom decayed⟩|cat dead⟩ + |atom not decayed⟩|cat alive⟩. Schrödinger meant this as a reductio of the Copenhagen interpretation. He thought it was absurd to take the superposition literally.
 

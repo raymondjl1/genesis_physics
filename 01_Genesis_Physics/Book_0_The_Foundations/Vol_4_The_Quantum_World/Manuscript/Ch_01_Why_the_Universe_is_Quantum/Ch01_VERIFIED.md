@@ -137,7 +137,7 @@ It is worth stopping to notice something unusual about this situation. In most p
 
 ---
 
-## §1.3 Two Facts That Force the Universe to Be Quantum
+## §1.3 Two Facts That Force the Universe to Be Quantum [RIGOROUS]
 
 Out of everything we have inherited from Volumes 1–3, two facts — and only two — are responsible for the quantum character of the universe. Strip them away and the quantum formalism evaporates; leave either of them in isolation and you have only half a quantum theory. Together they force the full structure.
 
@@ -245,7 +245,7 @@ That is also a remarkably precise sense in which the quantum character of nature
 
 ---
 
-## §1.4 Why $\hbar$ Has *This* Value
+## §1.4 Why $\hbar$ Has *This* Value [APPROXIMATE — warp prefactor profile-dependent; depends on RT-1.WF for $\xi_0$]
 
 The strangest thing about Planck's constant is not that it exists. It is that it has the value it has.
 

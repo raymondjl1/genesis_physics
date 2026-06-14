@@ -25,7 +25,7 @@ We begin with the divergence problem (§8.1), describe three ways to regulate di
 
 ---
 
-## §8.1 The Divergence Problem — Concrete Example from Chapter 7
+## §8.1 The Divergence Problem — Concrete Example from Chapter 7 [RIGOROUS]
 
 Recall from Chapter 7 the one-loop vertex correction to the electron-photon vertex. The amplitude involves the loop integral
 
@@ -49,7 +49,7 @@ This divergence is generic. Whenever the integrand falls off as 1/k² or slower 
 
 ---
 
-## §8.2 Three Regularization Methods
+## §8.2 Three Regularization Methods [RIGOROUS]
 
 To extract physics from divergent integrals, we need to make them finite. We introduce a *regularization*: a prescription that makes the integral well-defined and reveals the divergence explicitly.
 
@@ -111,7 +111,7 @@ This is why renormalization works universally, and why theorists can use whateve
 
 ---
 
-## §8.3 The Physical Cutoff in Zone Architecture
+## §8.3 The Physical Cutoff in Zone Architecture [RIGOROUS — inheriting Vol 1 η_B]
 
 In standard QFT, the cutoff Λ is arbitrary. You can choose Λ = 1 TeV, Λ = 1 PeV, Λ = M_Planck; the final observable (once properly renormalized) doesn't depend on the choice. But this seems unsatisfying: shouldn't the cutoff be *the* scale where new physics appears?
 
@@ -162,7 +162,7 @@ This has profound implications for the interpretation of the theory, which we wi
 
 ---
 
-## §8.4 Worked Example — The Vertex Loop with Zone Cutoff
+## §8.4 Worked Example — The Vertex Loop with Zone Cutoff [APPROXIMATE — quantified cutoff truncation]
 
 Let's apply the hard cutoff (4.8.10) to the vertex correction from Chapter 7 §7.8. The one-loop form factor $F_2(q^2)$ was given by the loop integral
 
@@ -218,7 +218,7 @@ The divergent part, $-\frac{\alpha}{3\pi} \ln(\Lambda_{\rm zone}^2 / m_e^2)$, is
 
 ---
 
-## §8.5 Renormalization: Separating Divergence from Observable Physics
+## §8.5 Renormalization: Separating Divergence from Observable Physics [RIGOROUS]
 
 The divergent part of the loop integral (4.8.16) must go somewhere. In renormalization, it is absorbed into a *counterterm*—a redefinition of the bare parameters.
 
@@ -260,7 +260,7 @@ This is the essence of renormalization: divergences are book-keeping artifacts. 
 
 ---
 
-## §8.6 The Renormalization Group — Why Couplings Run
+## §8.6 The Renormalization Group — Why Couplings Run [APPROXIMATE — one-loop β; coefficient detail deferred to GitHub #26]
 
 An experiment at energy Q probes modes with momentum up to k ~ Q (by the uncertainty principle). A loop integral with cutoff Λ_zone includes all modes up to k ~ Λ_zone. If Q << Λ_zone, the experiment doesn't resolve modes near the cutoff, so those modes effectively decouple.
 
@@ -314,7 +314,7 @@ which reproduces the coefficient 11/(12π) after factoring out the overall struc
 
 ---
 
-## §8.7 Running Coupling — Solving for α(Q)
+## §8.7 Running Coupling — Solving for α(Q) [RIGOROUS integration, APPROXIMATE — one-loop (~8% at M_Z)]
 
 Given the beta function (4.8.20), we can solve for α(Q). The differential equation
 
@@ -388,7 +388,7 @@ The one-loop agreement confirms that the zone-architecture framework reproduces 
 
 ---
 
-## §8.8 The Gap: Higher-Loop RG Flow and Open Problems
+## §8.8 The Gap: Higher-Loop RG Flow and Open Problems [OPEN]
 
 Here we come to a critical honesty statement, required by both the Skeptic reviewer and the principle that Genesis Physics is a rigorous scientific framework.
 
@@ -440,7 +440,7 @@ This section is not a weakness—it is honesty. The framework has been proven at
 
 ---
 
-## §8.9 Coupling Unification in the GUT Limit
+## §8.9 Coupling Unification in the GUT Limit [APPROXIMATE — one-loop estimate; two-loop E_GUT quoted, OPEN per Problem 8.3]
 
 One of the most striking predictions of grand unified theories (GUTs) is that the three gauge couplings—electromagnetic, weak, and strong—converge at high energy. In the standard model, this happens around $E_{\rm GUT} \sim 10^{16}$ GeV.
 
@@ -494,7 +494,7 @@ Thus, unification is not a mystery—it is a consequence of the geometry. This i
 
 ---
 
-## §8.10 Comparison with Experiment
+## §8.10 Comparison with Experiment [APPROXIMATE — one-loop computed-and-compared; hadronic/two-loop residual quoted from standard QED]
 
 The running-coupling formulas are testable. Experiments at different energy scales measure coupling strengths, and we can compare.
 

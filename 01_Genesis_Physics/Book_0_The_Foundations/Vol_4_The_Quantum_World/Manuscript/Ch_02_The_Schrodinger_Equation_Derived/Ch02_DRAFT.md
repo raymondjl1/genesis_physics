@@ -140,7 +140,7 @@ With the four inheritances on the table, we are ready to work.
 
 ---
 
-## §2.3 The Envelope Ansatz
+## §2.3 The Envelope Ansatz [RIGOROUS]
 
 The entire derivation turns on a single trick: factor the fast carrier out of the slow envelope.
 
@@ -216,7 +216,7 @@ which is what we will now substitute the envelope ansatz into.
 
 ---
 
-## §2.4 The Non-Relativistic Limit
+## §2.4 The Non-Relativistic Limit [APPROXIMATE — controlled NR limit, error $\epsilon/E_0 \sim 10^{-5}$ for atomic electrons]
 
 This is the long section of the chapter. We now substitute (2.3.3), (2.3.4), (2.3.5) into (2.3.6), identify which terms are large and which are small, and drop exactly one term — the second time derivative of the envelope — on a quantifiable scale-separation argument. The result will be one line away from the Schrödinger equation.
 
@@ -319,7 +319,7 @@ The derivation is one line from complete.
 
 ---
 
-## §2.5 Identifying V(x) and the Final Schrödinger Equation
+## §2.5 Identifying V(x) and the Final Schrödinger Equation [RIGOROUS — pending Vol 3 Ch 7 §7.9 cross-ref (3.7.22)]
 
 Two things remain. We must (i) absorb the constant rest-energy term $m c^{2}/2$ into a redefinition of energy, and (ii) show that the combination $(\hbar^{2}/(2 m))\,(V_{\text{ext}}(x)/\sigma)$ is the physical potential energy $V(x)$ that the reader already knows from classical mechanics. Neither of these is a new assumption. Both are book-keeping.
 
@@ -377,7 +377,7 @@ The scoreboard is clean. We have derived the Schrödinger equation.
 
 ---
 
-## §2.6 Probability, Complexity, and the First-Order Mystery
+## §2.6 Probability, Complexity, and the First-Order Mystery [RIGOROUS]
 
 Three features of the boxed result (4.2.1) still *look* like postulates to an alert reader. They are not, and this section is where we prove it. We answer in order: why is the equation complex, why is it first-order in time, and why is $|\Psi|^{2}$ conserved (and eventually a probability density).
 
@@ -481,7 +481,7 @@ The time-independent Schrödinger equation is the workhorse of practical quantum
 
 ---
 
-## §2.7 Sanity Checks and the Classical Limit
+## §2.7 Sanity Checks and the Classical Limit [RIGOROUS]
 
 A derivation is only as good as its sanity checks. We perform three of them now, and then execute the final consistency check of the chapter: the ℏ → 0 classical limit that must reproduce Vol 3's Hamilton–Jacobi equation.
 
@@ -635,7 +635,7 @@ Note what ℏ → 0 does *not* mean. It does not mean "ℏ actually becomes zero
 
 ---
 
-## §2.8 Honest Limitations
+## §2.8 Honest Limitations [OPEN]
 
 Four things this chapter did not do. Each is acknowledged here so that no reader can be blindsided by them later.
 

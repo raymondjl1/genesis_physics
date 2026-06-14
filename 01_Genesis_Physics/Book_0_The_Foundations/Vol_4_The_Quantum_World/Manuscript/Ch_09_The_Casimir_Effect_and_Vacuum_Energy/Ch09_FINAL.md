@@ -30,7 +30,7 @@ The chapter proceeds as follows. Section 9.1 computes the vacuum energy density.
 
 ---
 
-## §9.1 Zero-Point Energy of the Electromagnetic Field
+## §9.1 Zero-Point Energy of the Electromagnetic Field [RIGOROUS — regulated mode sum, depends on Lambda_zone (eta_B)]
 
 Why does empty space have energy? Because the quantum vacuum is not empty — it is the ground state of infinitely many field modes, and each mode contributes a minimum energy that cannot be removed. This is not a postulate; it is a consequence of the commutation relations derived in Chapter 6.
 
@@ -74,7 +74,7 @@ But first: is the vacuum energy *real*, or just a bookkeeping artifact? The Casi
 
 ---
 
-## §9.2 Boundary Conditions and Mode Restriction
+## §9.2 Boundary Conditions and Mode Restriction [RIGOROUS]
 
 Consider two large, perfectly conducting, parallel metal plates, each of area $A$, placed perpendicular to the $z$-axis at $z = 0$ and $z = d$. The electromagnetic field must satisfy boundary conditions at the plates: the tangential component of the electric field vanishes at a perfect conductor (from Vol 2 Ch 3, the Maxwell boundary conditions).
 
@@ -98,7 +98,7 @@ The conducting plates in the Casimir setup create a local version of this global
 
 ---
 
-## §9.3 The Casimir Energy — Regulated Mode Sum
+## §9.3 The Casimir Energy — Regulated Mode Sum [RIGOROUS — standard zeta/Euler-Maclaurin regularization]
 
 Now we compute the energy difference between the configuration with plates and the configuration without. This difference is finite, even though each individual term diverges — for the same reason that renormalized quantities are finite in Chapter 8: the divergence is in the absolute value, not in the difference between configurations.
 
@@ -234,7 +234,7 @@ This is precisely the logic of renormalization (Chapter 8): the absolute value o
 
 ---
 
-## §9.4 The Casimir Force
+## §9.4 The Casimir Force [RIGOROUS]
 
 The Casimir energy (4.9.16) depends on the plate separation $d$. The force between the plates is the negative derivative of this energy with respect to $d$ (from classical mechanics, Vol 3 Ch 2: $F = -dU/dx$):
 
@@ -264,7 +264,7 @@ About 1.3 millipascals — roughly $10^{-8}$ atmospheres. At $d = 100$ nm, the f
 
 ---
 
-## §9.5 Experimental Confirmation
+## §9.5 Experimental Confirmation [APPROXIMATE — experimental comparison plus leading-order conductivity/roughness corrections]
 
 The Casimir force was predicted in 1948 and languished for nearly half a century as a theoretical curiosity — too small to measure with existing technology and too clean to motivate expensive experiments. The experimental breakthrough came in 1997.
 
@@ -312,7 +312,7 @@ For roughness of $2$ nm at a nominal separation of $100$ nm, this gives $\Delta 
 
 ---
 
-## §9.6 The Cosmological Constant Problem
+## §9.6 The Cosmological Constant Problem [OPEN — hard unsolved problem; order-of-magnitude estimate, depends on Lambda_zone]
 
 The Casimir effect confirms that vacuum energy is real. But if vacuum energy gravitates — and Einstein's field equations say all energy gravitates — then we have a problem of extraordinary severity.
 
@@ -368,7 +368,7 @@ So supersymmetry, even if valid, leaves the problem unsolved by 59 orders of mag
 
 ---
 
-## §9.7 The Waters-Field Mechanism — A Natural Vacuum Scale
+## §9.7 The Waters-Field Mechanism — A Natural Vacuum Scale [OPEN — proposed mechanism / suppression conjecture, not derived (full derivation deferred to Vol 5); depends on Lambda_zone, eta_B, xi_A]
 
 In standard QFT, the vacuum energy has only one scale: the UV cutoff $\Lambda$. There is nothing in the theory to suppress $\rho_{\rm vac} \sim \Lambda^4$. But zone architecture has two fundamental scales, built into the geometry of the universe from the beginning.
 
@@ -464,7 +464,7 @@ This *is* a structural clue — and with the corrected $\Lambda_{\rm zone}$, a r
 
 ---
 
-## §9.8 Generalizations — Non-Planar Geometries and Finite Temperature
+## §9.8 Generalizations — Non-Planar Geometries and Finite Temperature [APPROXIMATE — proximity-force approximation, high-T expansion, order-of-magnitude estimates]
 
 The Casimir effect is not limited to parallel plates. Any geometry that restricts vacuum modes produces a Casimir energy and corresponding force.
 

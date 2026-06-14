@@ -15,11 +15,35 @@ For permission requests, contact the author through the publisher of record.
 
 Published by [PUBLISHER — TBD: author to supply imprint / KDP imprint name].
 
-[ISBN: TBD — author to supply print and e-book ISBNs at production.]
+ISBN (print, paperback): [ISBN — author to supply at KDP]
+ISBN (e-book, Kindle): [ISBN — author to supply at KDP]
+ISBN (audiobook): [ISBN — author to supply at KDP]
 
 First edition: 2026.
 
 Printed in the United States of America.
+
+---
+
+## Cataloging and Subject Classification
+
+**BISAC subject categories:**
+
+- SCI015000 — SCIENCE / Cosmology
+- REL106000 — RELIGION / Religion & Science
+- SCI034000 — SCIENCE / History
+
+**Library of Congress Cataloging-in-Publication Data:**
+
+[CIP — author to supply: Library of Congress Control Number (LCCN) and the CIP data block to be obtained at production. Placeholder block:]
+
+> Names: Raymond, Jeff L., author.
+> Title: The hidden architecture : a physics of the first page / Jeff L. Raymond.
+> Series: Genesis physics.
+> Description: First edition. | [Place of publication — TBD] : [Publisher — TBD], 2026.
+> Identifiers: LCCN [TBD] | ISBN [TBD] (paperback) | ISBN [TBD] (e-book) | ISBN [TBD] (audiobook)
+> Subjects: [LCSH — to be assigned by CIP]
+> Classification: [LCC — TBD] | DDC [TBD]
 
 The scientific framework presented in this book — "zone architecture" and the Genesis Physics derivations — is the original work of the author and is documented in full in the companion six-volume series *The Foundations of Genesis Physics*. Claims in this trade volume are presented at a popular-science level; the rigorous derivations behind each claim reside in the Foundations Series, cited chapter by chapter throughout.
 
@@ -39,7 +63,7 @@ All figures in this book are author-original conceptual diagrams prepared for th
 
 If any future edition substitutes a third-party photograph or reproduced figure for an author-original diagram, the corresponding permission must be cleared and credited at that time. Those slots are marked `[CREDIT: TBD — author to supply]` in `FIGURE_CREDITS.md`.
 
-[PARTIAL — production note: final permissions language, publisher imprint, and ISBNs are author/counsel decisions to be confirmed at the production phase.]
+[PARTIAL — production note: BISAC subject codes are now assigned (SCI015000 / REL106000 / SCI034000) and a CIP placeholder block is in place. Final permissions language, publisher imprint, the LCCN/CIP data block, and the three ISBNs (print / Kindle / audio) remain author/counsel/KDP decisions to be confirmed at the production phase.]
 
 ---
 

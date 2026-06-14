@@ -115,7 +115,7 @@ What we are *not* importing: Hilbert space, Hermitian operators with commutators
 
 ---
 
-## §3.3 What a "Spread" Is
+## §3.3 What a "Spread" Is [RIGOROUS]
 
 Before we can ask how big $\Delta x$ is, we have to decide what $\Delta x$ *is*. This takes one short section, but it is one of those sections that repays being explicit — half of the trouble one-dimensional physics texts cause themselves by sliding between "width at half maximum," "range between zeros," and "standard deviation" could be avoided if they defined the word once.
 
@@ -141,7 +141,7 @@ Third — and this matters for §3.5 — the quantity $\Delta x$ is a statement 
 
 ---
 
-## §3.4 The Fourier Inequality
+## §3.4 The Fourier Inequality [RIGOROUS]
 
 There is a clean, short proof that $\Delta x\,\Delta k \geq 1/2$ for any square-integrable function $\Psi$ on $\mathbb{R}$. It has no physics in it. It is a theorem about functions and their Fourier transforms, and it would be true for heat profiles, seismic pulses, and Gaussian beams as much as for wave functions. We do it first because it is short and because it gives us the inequality with no metaphysical overhead. In §3.5 we will come back and ask *why* the functions that appear in quantum mechanics satisfy this theorem at all — which is the physics — but for now, the math.
 
@@ -211,7 +211,7 @@ Those are the physics questions, and they are what §3.5 is for. The Fourier the
 
 ---
 
-## §3.5 Why It Must Be True — The 6D Projection
+## §3.5 Why It Must Be True — The 6D Projection [APPROXIMATE scaling, depends on Vol 1 Ch 10 minimum-action theorem; full variational proof deferred to Vol 5 Ch 3]
 
 This is the center of the chapter. Everything before it was preparation, and everything after it is consequence. Readers who want the full 6D embedding machinery — the warped metric, the observable-slice definition, the projection operator — should consult Vol 1 Ch 4 §4.5; for this chapter we take the projection as given and use it.
 
@@ -299,7 +299,7 @@ This matters because it answers the question "is the uncertainty principle a phy
 
 ---
 
-## §3.6 Energy and Time
+## §3.6 Energy and Time [RIGOROUS — inheriting §3.4]
 
 The position–momentum inequality has a close relative in the time domain:
 
@@ -319,7 +319,7 @@ One remark on mass-independence. Equation (4.3.central) does not contain the par
 
 ---
 
-## §3.7 The Classical Limit
+## §3.7 The Classical Limit [APPROXIMATE]
 
 If $\Delta x\,\Delta p \geq \hbar/2$ is true for all particles, why did no one notice it until 1927? Baseballs, billiard balls, planets, and people have been tracked with great success for centuries by treating them as points with definite positions and definite momenta. How did classical mechanics get away with this?
 
@@ -347,7 +347,7 @@ This is the continuation of Vol 3's classical mechanics, via Ch 2 §2.7's Ehrenf
 
 ---
 
-## §3.8 Honest Limitations
+## §3.8 Honest Limitations [OPEN]
 
 Three things this chapter did not do, each deserving a sentence on the record.
 

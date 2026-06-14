@@ -13,6 +13,22 @@
 
 ---
 
+## Front-Matter & Bibliography Build (2026-06-13 — GitHub #807 / #808)
+
+Production front/back matter built into `Front_Back_Matter/`:
+
+- [x] **Title page** — `TITLE_PAGE.md` (title "The Hidden Architecture: A Physics of the First Page"; author Jeff L. Raymond; series mark *Genesis Physics*).
+- [x] **Table of Contents** — `TABLE_OF_CONTENTS.md`, accurate 15-chapter list derived from the `Manuscript/Ch_*` folders and each chapter's manuscript title (Ch 5 = "The Hidden Energy", correcting the stale "Closed-System Problem" label). Page numbers `[p. TBD]` at typeset.
+- [x] **Dedication** — `DEDICATION.md`.
+- [x] **Author bio** — `ABOUT_THE_AUTHOR.md`: 175-word jacket bio + 62-word short bio + one-line hook, grounded in `AUTHOR_VOICE_AND_BACKGROUND.md` (top-priority item per the finding).
+- [x] **About the Series** — `ABOUT_THE_SERIES.md` (Foundations Series + Family Edition).
+- [x] **Copyright page updated** — `COPYRIGHT_ACKNOWLEDGMENTS.md`: BISAC codes SCI015000 / REL106000 / SCI034000 added; CIP placeholder block added; three ISBN slots (print / Kindle / audio) clearly marked `[ISBN — author to supply at KDP]`.
+- [x] **Bibliography** — `BIBLIOGRAPHY.md`, ~197 entries, Chicago author-date, organized by section (see deliverable checkbox below).
+
+**Only remaining author-supplied gap:** the three **ISBNs** (print, Kindle, audiobook), issued by the author at KDP. Publisher imprint name and final LCCN/CIP data block are also author/counsel/KDP production-phase items. Endorsement blurbs and final figures are tracked separately.
+
+---
+
 ## Full-Book Review Pass Results (2026-04-22)
 
 All 15 chapters reviewed end-to-end by 10 reviewer personas plus 3 specialist audit agents. Master rollup: `Reviews/FullBook/BOOK_ROLLUP.md`.
@@ -44,7 +60,7 @@ All 15 chapters reviewed end-to-end by 10 reviewer personas plus 3 specialist au
 - C4 Self-consistency: 🟢 GREEN (terminology drift fixes pending)
 - C5 Derivation honesty: 🟢 GREEN
 - C6 Readability & craft: 🟡 YELLOW (one dense section Ch 12, 5 figure placeholders needed)
-- C7 Publisher readiness: 🔴 RED (8 production deliverables outstanding)
+- C7 Publisher readiness: 🟡 YELLOW (front matter built 2026-06-13 per #807/#808 — title page, accurate 15-ch TOC, dedication, author bio, About-the-Series, BISAC codes + CIP placeholder, and a ~197-entry Chicago author-date bibliography are now drafted; the only remaining author-supplied gap is the three ISBNs — print / Kindle / audio — to be issued at KDP)
 
 **Deliverables from the pass (all in `Reviews/FullBook/` unless noted):**
 - `BOOK_ROLLUP.md` — master rollup, the single document
@@ -59,7 +75,7 @@ All 15 chapters reviewed end-to-end by 10 reviewer personas plus 3 specialist au
 **Pre-ship blocker summary (from BOOK_ROLLUP):**
 - 5 P0 terminology fixes (κ subscripts, zone nested notation, old-positioning residue in Ch 6/9/10)
 - 3 P1 biblical-first clarifications (Ch 2 specification-reading, Ch 5 open-system anchor, Ch 9–10 Genesis-naming callouts)
-- 8 production deliverables (figures, bibliography, TOC, appendices, author bio, endorsements, metadata, copyright)
+- ~~8 production deliverables (figures, bibliography, TOC, appendices, author bio, endorsements, metadata, copyright)~~ — **mostly cleared 2026-06-13 (#807/#808):** bibliography ✅, accurate 15-chapter TOC ✅, title page ✅, dedication ✅, author bio (jacket + short) ✅, About-the-Series ✅, BISAC metadata + CIP placeholder on the copyright page ✅. Remaining: figures (tracked separately, #822 figure specs in place), endorsements (author-supplied blurbs), and the three ISBNs (author-supplied at KDP).
 - 1 Foundations-completeness audit (verify every cited Foundations chapter exists and covers its cited claim)
 
 ---
@@ -214,7 +230,7 @@ Authoritative outline: `CHAPTER_PROMPTS.md`. Per-chapter validation details: `QU
 
 - [ ] **Membrane Tension Error Corrected** — Fundamental error in Chapter 4 membrane dynamics fixed; implications propagated through Chapters 11, 12, 13
 - [ ] **Replenishment Model Formalized** — Energy extraction framework in Chapter 21 elevated from conceptual to mathematical
-- [ ] **Bibliography Comprehensive (200+ sources)** — NEW — Foundation for academic grounding and connection to existing literature
+- [x] **Bibliography Comprehensive** — DRAFTED 2026-06-13 (#807): `Front_Back_Matter/BIBLIOGRAPHY.md`, ~197 external entries in Chicago author-date across 11 sections (Hebrew/OT, ancient cosmology, foundational physics, standard-physics texts, dark matter/energy, observational data releases, gravitation, computational-universe, faith-and-science, systems engineering, starlight/geochronology), with a top note routing all framework-internal claims to the Foundations volumes / `FOUNDATIONS_CITATION_INDEX.md`. Within the 150–250 target. In-text citation reconciliation remains a production-pass step.
 - [ ] **Complete Rewrites (Ch. 11–13)** — Transition from concept stubs to full mathematical physics chapters
 - [ ] **New Chapters (15, 16, 24)** — Fill critical gaps in QM, GR, and standard physics comparison
 

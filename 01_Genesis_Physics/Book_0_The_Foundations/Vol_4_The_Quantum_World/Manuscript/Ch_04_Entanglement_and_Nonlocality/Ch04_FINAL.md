@@ -76,7 +76,7 @@ The question is not "Is entanglement real?" but rather "What is the mechanism?" 
 
 ---
 
-## 4.2 The Standard Quantum Picture: Singlet States and Correlations
+## 4.2 The Standard Quantum Picture: Singlet States and Correlations [RIGOROUS]
 
 ### 4.2.1 Two-Particle Hilbert Space and Entanglement
 
@@ -135,7 +135,7 @@ This curve (−cosθ) is the signature of quantum entanglement. It cannot be rep
 
 ---
 
-## 4.3 The Classical Bound: Bell's Inequality
+## 4.3 The Classical Bound: Bell's Inequality [RIGOROUS]
 
 ### 4.3.1 Local Hidden-Variable Model
 
@@ -194,7 +194,7 @@ Experiments confirm this:
 
 ---
 
-## 4.4 Zone-Mediated Entanglement: The Centerpiece
+## 4.4 Zone-Mediated Entanglement: The Centerpiece [PHENOMENOLOGICAL — 2√2 matched to Tsirelson bound, not derived; depends on Vol 1 Ch 3 topology]
 
 ### 4.4.1 The Zone Manifold Connects Separated Particles
 
@@ -311,7 +311,7 @@ This is a consequence of the Born rule: the zone-quantum states are distributed 
 
 ---
 
-## 4.5 Monogamy of Entanglement
+## 4.5 Monogamy of Entanglement [PHENOMENOLOGICAL — standard inequality stated; topological account qualitative]
 
 Entanglement cannot be freely shared. If particle A is strongly entangled with particle B, it cannot simultaneously be strongly entangled with particle C.
 
@@ -333,7 +333,7 @@ In this state, all three particles have correlated spins forming a single topolo
 
 ---
 
-## 4.6 No-Signaling and Causality
+## 4.6 No-Signaling and Causality [RIGOROUS]
 
 ### 4.6.1 The No-Communication Theorem
 
@@ -363,7 +363,7 @@ The zone connection propagates "instantaneously" in 6D (it is not mediated by a 
 
 ---
 
-## 4.7 Decoherence and Entanglement Fragility
+## 4.7 Decoherence and Entanglement Fragility [APPROXIMATE]
 
 ### 4.7.1 Environmental Coupling
 
