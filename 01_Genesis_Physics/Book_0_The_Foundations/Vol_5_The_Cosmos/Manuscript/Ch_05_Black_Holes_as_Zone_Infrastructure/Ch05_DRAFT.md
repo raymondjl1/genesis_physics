@@ -31,17 +31,11 @@ As in Chapter 1, we first take stock of what has already been paid for, so that 
 
 ### §5.1.1 From Vol 1 Ch 5 — the Firmament as Membrane
 
-Volume 1, Chapter 5 established the Firmament $\Sigma \equiv Z_{2.2}$ as a 4-dimensional codimension-2 Firmament embedded in the 6D zone manifold. The Firmament membrane has:
+Volume 1, Chapter 5 established the Firmament $\Sigma \equiv Z_{2.2}$ as a 4-dimensional codimension-2 membrane embedded in the 6D zone manifold; that chapter is the canonical site for its mechanics, and we cite it here rather than re-deriving it. The membrane-mechanics constants we use — the 3-brane tension $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²), the mass density $\mu \approx 6.7 \times 10^{81}$ kg/m³, and the wave speed $c^2 = \sigma/\mu$ (Vol 1 Eq. 1.5.8) — are tabulated for ready reference in **Appendix A, §A.2.3** (the prior-volume cheat sheet for this volume). Three facts from that canonical derivation carry into this chapter:
 
-**Tension.** A 3-brane tension $\sigma$ with dimensions $[M L^{-1} T^{-2}]$, appearing in the Nambu–Goto action (Vol 1 Eq. 1.5.26). Numerically, $\sigma \approx 6.0 \times 10^{98}$ kg/(m·s²) (equivalently J/m³ = Pa for a 3-brane tension; see AXIOM_MEMBRANE_MECHANICS_v2.md §5, quoted in Vol 1 §5.3).
-
-**Mass density.** A 3-brane mass density $\mu$ with dimensions $[M L^{-3}]$, contributing a kinetic term $\tfrac{1}{2}\mu\,(\partial\Phi)^2$ for transverse displacements $\Phi$ (Vol 1 Eq. 1.5.30). Numerically, $\mu \approx 6.7 \times 10^{81}$ kg/m³.
-
-**Wave speed.** The central result of Vol 1 §5.3:
-
+**Wave speed.** The central result of Vol 1 §5.3,
 $$(5.5.1)\quad c^2 = \frac{\sigma}{\mu},$$
-
-*not* a postulate but a derived consequence of the Firmament membrane's Lagrangian dynamics. All 4D matter and radiation propagates as excitations of the Firmament, so "the speed of light" is literally the wave speed on this membrane.
+is *not* a postulate but a derived consequence of the Firmament membrane's Lagrangian dynamics. All 4D matter and radiation propagates as excitations of the Firmament, so "the speed of light" is literally the wave speed on this membrane.
 
 **Positivity of tension.** Vol 1 §5.6 proved — from the requirement that small perturbations $\Phi$ have real-valued frequencies and do not grow exponentially — that $\sigma > 0$ strictly wherever the Firmament membrane exists. A region where $\sigma$ would be negative is Jeans-unstable on every wavelength and therefore cannot exist as a continuum membrane. A region where $\sigma = 0$ is marginally unstable: the wave speed is zero, the dispersion relation degenerates, and perturbations neither propagate nor decay. We will need both cases.
 

@@ -37,6 +37,15 @@ under this label.
   and the §9.2.1 claim must be downgraded from an asserted consequence to an explicit open assumption.
 
 ## Status
-GAP / AUTHOR-BLOCKED. FTL Mechanism 1 is speculative (Part B — Conditional Engineering).
-No manuscript edit made: cannot ground the requested intuition without inventing the identification.
-Suggested target Research home: `Research/Foundations/` (metric / KK identification of the ξ extra dimension).
+RESOLVED 2026-06-13 via option (b). FTL Mechanism 1 is speculative (Part B — Conditional Engineering).
+§9.2.1 edited: the ξ-closure is now stated as an **explicit open assumption** of Mechanism 1, not a
+derived consequence. The mis-citation of Eq (4.6.3) is corrected in place — the text now says
+plainly that Eq (4.6.3) establishes a *Dirichlet (confined standing-wave)* structure, which is
+mathematically distinct from a periodic/cyclic identification ξ_A ≡ 0, and that no derivation in
+Vols 1–5 promotes the confined ξ-extent to a true cyclic dimension (flagged open, → Ch 14). The
+unsupported ξ_A ≡ 0 sentence was NOT written. Everything in §9.2 is now explicitly conditional on
+the assumption holding.
+
+Remaining (deeper) gap for a future research pass: actually derive (or refute) ξ-closure from the
+bulk geometry. Suggested Research home: `Research/Foundations/` (metric / KK identification of the
+ξ extra dimension). Until then the assumption stands as flagged.

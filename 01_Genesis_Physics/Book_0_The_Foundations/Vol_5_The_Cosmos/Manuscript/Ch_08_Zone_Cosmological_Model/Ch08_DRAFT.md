@@ -52,7 +52,7 @@ Vol 1 Ch 4 §4.7 — the *cosmological symmetry principle* — proved that the b
 
 ### §8.1.2 From Vol 1 Ch 5 — the Firmament mechanics
 
-The Firmament has tension $\sigma > 0$ (Vol 1 §5.6 positivity theorem) and mass density $\mu$, and supports transverse waves at speed $c^2 = \sigma/\mu$ (Vol 1 Eq 1.5.37). The Israel–Darmois junction conditions of Vol 1 §5.4 connect the Firmament-side intrinsic geometry to the bulk-side extrinsic curvature in the two normal directions:
+The Firmament has tension $\sigma > 0$ (Vol 1 §5.6 positivity theorem) and mass density $\mu$, and supports transverse waves at speed $c^2 = \sigma/\mu$ (Vol 1 Eq 1.5.37; numerical values tabulated in Appendix A §A.2.3). The Israel–Darmois junction conditions of Vol 1 §5.4 connect the Firmament-side intrinsic geometry to the bulk-side extrinsic curvature in the two normal directions:
 
 $$(5.8.3)\quad [K^{(\xi)}_{\mu\nu}] - \gamma_{\mu\nu}[K^{(\xi)}] = -8\pi G_4 \,S^{(\xi)}_{\mu\nu},\qquad [K^{(\eta)}_{\mu\nu}] - \gamma_{\mu\nu}[K^{(\eta)}] = -8\pi G_4\, S^{(\eta)}_{\mu\nu},$$
 

@@ -447,6 +447,4 @@ Ch 13 does *not* need, and will not receive, any improvement on the fermion-mass
 
 ---
 
-*End of Chapter 12.*
-
-— Status: FINAL, all reviewer findings incorporated. Chain Vol 2 Ch 4 short-range claim → §12.3 confinement theorem → pion exchange → $r_0 = 1.41$ fm delivered as user-mandated. Navigator read-through: graduate student can follow the $SU(3)$ machinery end-to-end without external reference. Next chapter: Ch 13 (CKM and PMNS mixing).
+*Next: Chapter 13 — The CKM and PMNS Matrices.*

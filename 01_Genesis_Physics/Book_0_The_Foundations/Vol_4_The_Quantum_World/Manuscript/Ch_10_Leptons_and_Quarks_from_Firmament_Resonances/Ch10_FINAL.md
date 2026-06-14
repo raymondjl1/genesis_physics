@@ -218,12 +218,27 @@ y_{n_\xi} = \lambda_0 \int_0^{\eta_B} \chi_{n_\xi}(\xi)^{\ast}\, H(\xi)\, \chi_1
 $$
 where the "$\chi_1$" on the right appears because the Higgs overlap is computed against the ground-state ξ-mode (a choice forced on us by the Higgs localization; see Chapter 11). Equation (4.10.18) is the central formula of the chapter. Read it carefully. The Yukawa coupling of the $n_\xi$-th generation is an overlap integral, and we can *compute* it — it is not a free parameter.
 
-To extract the dependence on $n_\xi$, we approximate $\chi_{n_\xi}$ as a harmonic-oscillator-like state in a local quadratic expansion of the potential, and $H(\xi)$ as a Gaussian of width $\sigma_H \ll \eta_B$ centered at the well minimum. In this limit, the overlap integral evaluates to
+To extract the dependence on $n_\xi$, we approximate $\chi_{n_\xi}$ as a harmonic-oscillator-like state in a local quadratic expansion of the potential, and $H(\xi)$ as a Gaussian of width $\sigma_H \ll \eta_B$ centered at the well minimum. Let $\ell$ be the oscillator length set by the local curvature, so that the $n_\xi$-th transverse mode is the Hermite–Gaussian
+$$
+\chi_{n_\xi}(\xi) = \frac{1}{\sqrt{2^{n_\xi} n_\xi!\,\sqrt{\pi}\,\ell}}\,
+H_{n_\xi}\!\left(\frac{\xi}{\ell}\right) e^{-\xi^2/2\ell^2},
+\qquad
+H(\xi) = \frac{1}{(\pi \sigma_H^2)^{1/4}}\, e^{-\xi^2/2\sigma_H^2},
+$$
+with $H_{n_\xi}$ the physicists' Hermite polynomial. Substituting into (4.10.18) and multiplying the two Gaussians, the integrand becomes $H_{n_\xi}(\xi/\ell)\,H_0(\xi/\ell)$ weighted by a single combined Gaussian of inverse-square width $\Sigma^{-2} \equiv \ell^{-2} + \tfrac{1}{2}\sigma_H^{-2}$. Performing the Hermite–Gaussian overlap in closed form (the standard Gaussian-weighted Hermite integral, even in $n_\xi$ so that odd modes vanish by parity and the leading even contribution dominates) gives the intermediate display
+$$
+y_{n_\xi} = \lambda_0\, \mathcal{N}\,
+\frac{1}{\sqrt{2^{n_\xi} n_\xi!}}\,
+\left(\frac{\ell^2 - \Sigma^2}{\ell^2}\right)^{\!n_\xi/2}
+\frac{(n_\xi-1)!!}{\big(1 + \ell^2/2\sigma_H^2\big)^{1/2}},
+\tag{4.10.18a}
+$$
+where $\mathcal{N}$ collects the normalization constants of $\chi_1$ and $H$. The bracketed ratio raised to the $n_\xi/2$ power is the geometric factor that decays with mode number; writing $r \equiv (\ell^2 - \Sigma^2)/\ell^2 < 1$ and absorbing the slowly varying double-factorial prefactor into a Gaussian envelope, (4.10.18a) collapses to the exponential form
 $$
 y_{n_\xi} \approx y_0\, \exp\!\left(-\alpha\, n_\xi^2\right),
 \tag{4.10.19}
 $$
-where $y_0$ is set by $\lambda_0$ and the overall normalization, and $\alpha$ is a dimensionless constant determined by the ratio $\sigma_H / \eta_B$ and the local curvature of the potential. A careful evaluation (see test suite and Research/06-PARTICLE_MASS_SPECTRUM_V3.md §4.2) gives $\alpha \approx 1.0$ to leading order.
+where $y_0$ is set by $\lambda_0$ and the overall normalization, and $\alpha = \tfrac{1}{2}\ln(1/r) + O(\ln n_\xi / n_\xi^2)$ is a dimensionless constant determined by the ratio $\sigma_H / \ell$ (equivalently $\sigma_H / \eta_B$) and the local curvature of the potential. A careful evaluation (see test suite and Research/06-PARTICLE_MASS_SPECTRUM_V3.md §4.2) gives $\alpha \approx 1.0$ to leading order. Equation (4.10.18a) makes the exponential self-contained: it is the Hermite × narrow-Gaussian overlap done in closed form, not a result deferred to the test suite.
 
 [FIGURE: Fig 4.10.3 — Overlap integral geometry. Horizontal: ξ axis. Plots of $\chi_1, \chi_2, \chi_3$ (three ξ-wavefunctions) and the narrow Gaussian $H(\xi)$. Shaded regions show the integrand for each generation. Inset: exponential-in-$n^2$ suppression of the overlap.]
 
@@ -625,4 +640,4 @@ The chapter is the framework's most vulnerable, and I have tried to make it the 
 
 ---
 
-*End of Chapter 10 draft. Word count (rough): ~13,200. Figures: 6. Equations: (4.10.1)–(4.10.37). Problem set: 9. Next phase: Ch10_SELF_REVIEW.md.*
+*Next: Chapter 11 — The Electroweak Theory.*

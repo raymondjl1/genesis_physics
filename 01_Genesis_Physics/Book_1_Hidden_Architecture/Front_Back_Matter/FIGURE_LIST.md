@@ -42,6 +42,7 @@
 | Fig 1.12.1 | 12 | §2 | Wave Speed Depends on the Medium | Placeholder | Comparative analysis of dark energy behavior |
 | Fig 1.12.2 | 12 | §3 | The Cosmic Energy Budget | Rendered | 68/27/5 energy split visualization |
 | Fig 1.12.3 | 12 | §4 | Zone Boundary — A Region of Different Local Wave Speed | Rendered | Dark sector behavior at interfaces |
+| Fig 1.12.4 | 12 | §6 | The Five Faster-Than-Light Mechanism Classes, at a Glance (taxonomy table: mechanism / what crosses / what's conserved / signature / confidence) | Placeholder | Added 2026-06-13 (#629); cites Foundations Vol 6 Ch 9 / Ch 11 |
 | Fig 1.13.1 | 13 | §2 | Two-Phase Expansion History (a(t) plot with creation/sustaining modes) | Placeholder | Cosmological evolution; Sabbath boundary marked |
 | Fig 1.13.2 | 13 | §2 | Age Is Observer-Dependent Through a Phase Transition | Placeholder | Frame-dependent age calculation; Foundations Vol 5 Ch 12 |
 | Fig 1.14.1 | 14 | §4 | Four-Quadrant Technology-Implication Map | Placeholder | Sensors, Energy-MRG, FTL Communications, Consciousness |
@@ -53,8 +54,8 @@
 ## Figure Status Summary
 
 **Rendered (publication-ready):** 28  
-**Placeholder (need completion before proofs):** 6  
-**Total:** 34 distinct figure references
+**Placeholder (need completion before proofs):** 7  
+**Total:** 35 distinct figure references
 
 ---
 

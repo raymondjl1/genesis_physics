@@ -198,13 +198,15 @@ These three identities — (2.3.3), (2.3.4), (2.3.5) — are the entire algebrai
 
 ### 2.3.3 Scale-separation: dropping the stochastic Waters term
 
-Before we substitute, one cleanup. The Firmament equation (1.5.1) contains the stochastic forcing $\mathcal{F}(x,t)$ from the Waters fields. Its amplitude, from (1.6.*), scales as
+Before we substitute, one cleanup. The Firmament equation (1.5.1) contains the stochastic forcing $\mathcal{F}(x,t)$ from the Waters fields. Its amplitude, from (1.6.*), is set by the *same warp suppression* that suppressed ℏ itself in (1.10.19). As the correction box at §2.1 (CT-4.β) records, that suppression is **not** the naive ratio $(\eta_{B}/\xi_{A})^{2}$ — which substitutes the Waters-Below scale $\eta_B$ for the Firmament's ξ-coordinate position $\xi_0$ — but the power-law warp factor of the Waters-Above metric,
 
-$$|\mathcal{F}|^{2} \;\sim\; \sigma\,V_{\text{ext}}\,\left(\frac{\eta_{B}}{\xi_{A}}\right)^{2},$$
+$$|\mathcal{F}|^{2} \;\sim\; \sigma\,V_{\text{ext}}\,\left(\frac{\xi_{0}}{L_{A}}\right)^{4/3},$$
 
-i.e., the coupling between the Firmament and the Waters is suppressed by the same warp-factor ratio $(\eta_{B}/\xi_{A})^{2} \approx 10^{-82}$ that suppressed ℏ itself in (1.10.19). Any effect of $\mathcal{F}$ on the envelope dynamics is therefore smaller by 82 orders of magnitude than the leading terms we are about to balance. For laboratory-accessible physics this is well below the noise floor of any conceivable experiment.
+where $\xi_0$ is the Firmament's position in the ξ-direction and $L_A \sim \xi_A$ is the AdS curvature scale of the Waters-Above zone (CT-4.β; `Research/.../BETA_GEOM_DERIVATION_CT4B.md` §3). Numerically this warp factor is $(\xi_0/L_A)^{4/3} \approx 4.8 \times 10^{-80}$ — the same $\sim 80$-order-of-magnitude suppression that takes the bare action quantum $\hbar_0 = \sigma\eta_B^3/2c$ down to the observed ℏ. (The earlier edition wrote this as $(\eta_B/\xi_A)^2 \approx 10^{-82}$ and quoted "82 orders of magnitude"; that proxy is superseded by CT-4.β, and the corrected figure is $\sim 80$ orders.) Any effect of $\mathcal{F}$ on the envelope dynamics is therefore smaller by roughly eighty orders of magnitude than the leading terms we are about to balance. For laboratory-accessible physics this is well below the noise floor of any conceivable experiment, and the conclusion — drop $\mathcal{F}$ at leading order — is, if anything, *more* secure under the corrected (power-law) suppression than under the old proxy, since both place it far below any observable scale.
 
-We will therefore drop $\mathcal{F}$ for the remainder of this chapter, with a note (honored in §2.8) that it will be reinstated in Ch 5, where precisely the 82-orders-of-magnitude suppression is what makes decoherence *slow* rather than *instantaneous*. The stochastic term is not absent from the physics; it is absent from the leading-order equation we are about to derive.
+> **Note (CT-4.β dependency).** The numerical value $(\xi_0/L_A)^{4/3} \approx 4.8\times10^{-80}$ inherits an honest residual: $\xi_0 \approx 60\,\ell_{\rm Pl}$ is currently *fixed by consistency* with the observed ℏ rather than derived from first principles, because deriving it from the Israel junction condition $\xi_0 = 2/(\kappa_6^2\sigma)$ requires explicit $\kappa_6^2$ (Research Task RT-1.WF, still open). The *order of magnitude* of the suppression — and therefore the validity of dropping $\mathcal{F}$ — is robust regardless of where in the $28$–$60\,\ell_{\rm Pl}$ window $\xi_0$ finally lands.
+
+We will therefore drop $\mathcal{F}$ for the remainder of this chapter, with a note (honored in §2.8) that it will be reinstated in Ch 5, where precisely this $\sim 80$-orders-of-magnitude suppression is what makes decoherence *slow* rather than *instantaneous*. The stochastic term is not absent from the physics; it is absent from the leading-order equation we are about to derive.
 
 What remains is the deterministic Firmament equation
 
@@ -744,7 +746,7 @@ That the architecture was *there* to be intuited — that the universe comes pre
 
 $$i\hbar\,\partial_{t}\Psi \;=\; -\,\frac{\hbar^{2}}{2m}\,\nabla^{2}\Psi \;+\; V(x)\,\Psi \;-\; i\,\gamma\,\Psi,$$
 
-where $\gamma \sim (\eta_{B}/\xi_{A})^{2}\,E_{0}/\hbar$. Compute $\gamma$ numerically for an electron and show that the corresponding decoherence timescale $1/\gamma$ is many orders of magnitude longer than the age of the universe. Why, then, do we *see* decoherence in laboratory experiments? (Hint: Ch 5.)
+where $\gamma \sim (\xi_{0}/L_{A})^{4/3}\,E_{0}/\hbar$ is set by the corrected warp suppression of §2.3.3 (CT-4.β), with $(\xi_0/L_A)^{4/3} \approx 4.8\times10^{-80}$. Compute $\gamma$ numerically for an electron and show that the corresponding decoherence timescale $1/\gamma$ is many orders of magnitude longer than the age of the universe. Why, then, do we *see* decoherence in laboratory experiments? (Hint: Ch 5.)
 
 **X3.** Take $V(x)$ to be a periodic lattice potential of period $a$, i.e., $V(x + a) = V(x)$. Show that the stationary Schrödinger equation admits solutions of the Bloch form $\psi_{k}(x) = e^{ikx}\,u_{k}(x)$ with $u_{k}(x + a) = u_{k}(x)$. Derive the dispersion $E(k)$ in the weak-potential limit and sketch the first two bands. Interpret the lattice spacing $a$: if the lattice is a crystal of atoms, what is the scale of $a$? Can $a$ ever be as small as $\eta_{B}$? (Hint: the non-relativistic limit must hold.)
 

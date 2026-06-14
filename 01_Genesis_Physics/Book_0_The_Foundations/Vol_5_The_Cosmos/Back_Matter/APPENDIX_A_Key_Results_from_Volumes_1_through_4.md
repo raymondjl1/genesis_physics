@@ -55,6 +55,16 @@ Volume 1 establishes the zone manifold, the Firmament membrane, the Waters Above
 | (1.5.19) | Eigenvalue equation $-\chi_n'' = k_n^2\chi_n$ with BCs | Sturm–Liouville on compact domain → discrete spectrum. | Ch 15 (mode counting for k_B) |
 | (1.5.24) | $k_n = n\pi/\xi_A$, $m_n = \hbar k_n/c$ | Kaluza–Klein mass tower from discrete extra-dimensional modes. | Ch 13 (KK tower sums in gauge running) |
 
+**Numerical inputs (membrane-mechanics constants).** The equations above are the canonical *forms*; the numerical values of the Firmament constants are fixed in Vol 1 §5.3 (and `AXIOM_MEMBRANE_MECHANICS_v2.md` §5). They are tabulated here so that Vol 5 chapters may cite this row instead of restating them:
+
+| Symbol | Value | Units | Meaning |
+|---|---|---|---|
+| $\sigma$ | $6.0 \times 10^{98}$ | kg/(m·s²) ≡ J/m³ (3-brane tension) | Firmament 3-brane tension (Vol 1 Eq. 1.5.26) |
+| $\mu$ | $6.7 \times 10^{81}$ | kg/m³ | Firmament 3-brane mass density (Vol 1 Eq. 1.5.30) |
+| $c = \sqrt{\sigma/\mu}$ | $2.998 \times 10^{8}$ | m/s | Light speed as Firmament wave speed (1.5.8); $c^2 = \sigma/\mu$ — derived, not postulated |
+
+*Positivity:* Vol 1 §5.6 proves $\sigma > 0$ strictly wherever the Firmament exists (real perturbation frequencies). $\sigma = 0$ marks marginal instability (degenerate dispersion); $\sigma < 0$ is Jeans-unstable on every wavelength and cannot support a continuum membrane.
+
 ### A.2.4 — Chapter 6: The Waters as Energy Reservoirs
 
 | Tag | Result | Gloss | Used in Vol 5 |

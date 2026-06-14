@@ -57,7 +57,7 @@ These six items will be used everywhere below, and the chapter is internally a f
 
 ### §9.1.2 From Vol 1 Ch 5 — the Firmament and its viscosity
 
-Vol 1 Ch 5 established the Firmament as a codimension-2 Firmament $\Sigma$ with tension $\sigma > 0$ and mass density $\mu$, supporting transverse waves at speed $c^2 = \sigma/\mu$ (Vol 1 Eq 1.5.37). Of relevance to this chapter is the *membrane viscosity* introduced in Vol 1 §5.7 — the dissipative coupling of Firmament modes to extra-dimensional Waters fluctuations. We will revisit this in §9.8.2 as the framework's interpretation of Silk damping.
+Vol 1 Ch 5 established the Firmament as a codimension-2 Firmament $\Sigma$ with tension $\sigma > 0$ and mass density $\mu$, supporting transverse waves at speed $c^2 = \sigma/\mu$ (Vol 1 Eq 1.5.37; numerical values tabulated in Appendix A §A.2.3). Of relevance to this chapter is the *membrane viscosity* introduced in Vol 1 §5.7 — the dissipative coupling of Firmament modes to extra-dimensional Waters fluctuations. We will revisit this in §9.8.2 as the framework's interpretation of Silk damping.
 
 ### §9.1.3 From Vol 1 Ch 11 — sustaining mode and the Sabbath Boundary
 

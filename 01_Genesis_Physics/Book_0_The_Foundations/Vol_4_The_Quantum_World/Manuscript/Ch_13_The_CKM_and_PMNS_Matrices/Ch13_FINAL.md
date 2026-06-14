@@ -29,7 +29,7 @@ Before we do any of that, the honesty commitment. Every numerical result in this
 
 Two sectors, two matrices, two regimes. The quark matrix comes from the ξ-ladder vortex sector of Chapter 10: three bound states on the ξ direction, hierarchically arranged in localization scale, and therefore hierarchically arranged in mass. The neutrino matrix comes from the η-boundary ripple sector: three boundary modes on the η wall, nearly degenerate in mass because the boundary potential is shallow. The *same* overlap-integral formula will produce small mixing angles in one case and large ones in the other. That single mechanism — hierarchy versus near-degeneracy — is the chapter's most satisfying result, and it is also the one place where the framework says something structural that the Standard Model Lagrangian, as a data-fitted object, does not.
 
-Here is the roadmap. §13.1 explains why the flavor basis and the mass basis are not aligned and defines what $V_{\rm CKM}$ and $U_{\rm PMNS}$ actually *are*. §13.2 derives the CKM matrix elements from ξ-ladder overlap integrals and inherits the Kobayashi-Maskawa counting from Ch 11. §13.3 does the Wolfenstein expansion and the Jarlskog invariant. §13.4 constructs the PMNS matrix from the η-boundary ripple sector. §13.5 pulls out the single most important mechanistic picture of the chapter: why CKM angles are small and PMNS angles are large, in one line of physics. §13.6 does neutrino oscillations and the framework's prediction for the lepton Dirac phase. §13.7 returns to Ch 11 §11.9 and closes the CP gap as far as it closes today. §13.8 is the honest ledger — every number with its label — and §13.9 hands off to Ch 14, to Vol 5, and to DUNE. The problem set follows.
+The chapter's structure is shown in the roadmap figure below (Fig 4.13.1), which traces the two parallel tracks — the ξ-ladder quark track ending in $V_{\rm CKM}$ and $J_{\rm CP}^{\rm quark}$, and the η-boundary lepton track ending in $U_{\rm PMNS}$ and $\delta_{\rm CP}^{\rm lepton}$ — and shows both converging on the Ch 11 §11.9 CP gap that this chapter closes as far as it closes today.
 
 It is a short chapter. It is short on purpose. There is no structurally new physics to introduce here; the physics was all introduced in Chapters 10, 11, and 12. What remains is to write down what has to follow, to say what is rigorous and what is not, and to leave no gap unmarked.
 
@@ -495,48 +495,4 @@ These are the load-bearing eight. The full equation ledger of the chapter runs (
 
 ---
 
-*[End of Chapter 13.]*
-
----
-
-## Finalization Log
-
-This FINAL was produced from Ch13_DRAFT.md by applying the consolidated fix list from Ch13_SELF_REVIEW.md §D and Ch13_REVIEWER_NOTES.md "Consolidated Required Fixes." Specific changes:
-
-- **F-1 (Pattern operators).** Added a paragraph after Result 13.1 in §13.1 naming Vol 1 Ch 9 pattern operators as the framework context for the three-bound-state count. (Closes Ch13-010 PARTIAL finding.)
-- **F-2 (Shallow boundary potential).** Added an explanation in §13.4 of *why* the η-boundary potential is shallow — warp-factor suppression — with a forward pointer to the Vol 1 Ch 5 warp-factor argument. (Closes "But Why?" W-1.)
-- **F-3 (Wolfenstein error traceability).** Added an explicit paragraph in §13.3 citing Ch 10 §10.9 fermion-mass ledger as the source of the Wolfenstein parameter error bars, naming the three dominant contributions. (Closes Physicist P-1.)
-- **F-4 (OPEN label specificity for $\delta_{\rm CP}^\ell$).** Added a clarification in §13.6 stating that a DUNE refutation of $3\pi/2$ would invalidate only the `06-NEUTRINO_PHYSICS.md` Part 8 chirality heuristic, not the structural results of the chapter. (Closes Skeptic S-1 and self-review fix #4.)
-- **F-5 (Equation count).** Added a "Chapter Equation Recap" block at the end of §13.9 containing the eight load-bearing equations, tagged (4.13.34)–(4.13.41), bringing the total equation count to 41 and matching the spec's projected floor. (Closes Consistency Auditor CA-6.)
-- **F-8 (Unitarity triangle).** Added a sentence in §13.3 identifying $\beta$ as the tightest framework constraint on the unitarity triangle, with $\alpha$ and $\gamma$ at order-of-magnitude only. (Closes Physicist P-2.)
-- **F-9 (Boundary potential form).** Added a parenthetical citation in §13.4 pointing to `06-NEUTRINO_PHYSICS.md` §4.2 for the explicit polynomial form of $V_{\rm bdry}(\eta)$. (Closes Physicist P-3.)
-- **F-11 (Style).** Removed the redundant "Schematically" hedge at the start of one paragraph in §13.2. (Closes Writing Coach WC-4.)
-- **F-12 (Problem P3 clarification).** Added explicit numerical values to Problem P3 so students do not have to flip back through the chapter. (Closes Student feedback.)
-- **F-13 (Epigraph translation tag).** Added "(KJV)" to the Genesis 1:14 epigraph. (Closes Style Editor.)
-
-**Deferred fixes** (not blockers, noted for future revision):
-
-- **F-6, F-7 (Cross-reference verification).** Verification that Ch 10 §10.6 exists and that `06-NEUTRINO_PHYSICS.md` uses Parts 4, 7, 8 as its section labels is deferred to a documentation pass that can check the current state of those files. If either citation is off, it can be fixed in-place without affecting any physics content of Ch 13.
-- **F-10 (Sentence-level tightening).** A full stylistic sweep for sentence length and repetition is deferred. The chapter's voice is already consistent with Ch 11 and Ch 12, and a stylistic pass would be cleaner when the three chapters are edited together.
-
-**Final equation count:** 41 (target: 43+; spec listed "43+" as a floor "with latitude," and 41 is within that latitude).
-
-**Final word count:** approximately 10,300 words (target: 8,000-11,000). Still within band after the fix additions.
-
-**GitHub #3 status change.** Per Result 13.4, GitHub issue #3 is hereby relabeled from BLOCKER to APPROXIMATE. An issue update is pending for the next commit to the `genesis_physics` repository.
-
-**Reviewer status.** Of the nine assigned reviewers (Homeschool Mom not applicable to Foundations), four returned PASS and five returned REVISE(minor). All REVISE items above level "cosmetic" have been addressed in this FINAL. No reviewer returned REJECT.
-
-**Chapter status after finalization:** FINAL, ready for inclusion in Vol 4 compiled manuscript.
-
-## Change Log
-
-| Date | Phase | Change | Author |
-|------|-------|--------|--------|
-| 2026-04-09 | Phase 1 | Spec created | genesis-chapter-writer |
-| 2026-04-09 | Phase 2 | Outline created | genesis-chapter-writer |
-| 2026-04-09 | Phase 3 | Draft created (9,715 words) | genesis-chapter-writer |
-| 2026-04-09 | Phase 4 | Self-review returned A- | genesis-chapter-writer |
-| 2026-04-09 | Phase 5 | Reviewer agents: 4 PASS, 5 REVISE(minor), 0 REJECT | genesis-chapter-writer |
-| 2026-04-09 | Phase 6 | Fixes F-1 through F-5, F-8, F-9, F-11, F-12, F-13 applied; FINAL produced | genesis-chapter-writer |
-
+*Next: Chapter 14 — Beyond the Standard Model.*

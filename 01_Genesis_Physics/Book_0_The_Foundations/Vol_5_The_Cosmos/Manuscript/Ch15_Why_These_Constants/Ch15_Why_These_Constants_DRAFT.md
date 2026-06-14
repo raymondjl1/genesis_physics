@@ -54,7 +54,7 @@ As an explanation this has a well-known limitation: the anthropic principle repl
 
 ### 15.1.3 What We Will Do Instead
 
-In the following sections, we tie ℏ, G, and k_B to the parameters of the zone architecture. For ℏ (§15.2), the **structural form is derived; the numerical coefficient is calibrated via a warp exponent λ — see CT-5.ℏ (Open Problem 15.2)**. For G_4 (§15.3), the KK reduction formula is derived; the extra-dimensional volume V_extra is calibrated against M_Pl. For k_B (§15.4), the result is a unit-conversion classification rather than a numerical prediction. The four input parameters are:
+In the following sections, we tie ℏ, G, and k_B to the parameters of the zone architecture. (The membrane-mechanics inputs below are the canonical Vol 1 §5.3 values, collected for this volume in Appendix A §A.2.3.) For ℏ (§15.2), the **structural form is derived; the numerical coefficient is calibrated via a warp exponent λ — see CT-5.ℏ (Open Problem 15.2)**. For G_4 (§15.3), the KK reduction formula is derived; the extra-dimensional volume V_extra is calibrated against M_Pl. For k_B (§15.4), the result is a unit-conversion classification rather than a numerical prediction. The four input parameters are:
 
 | Parameter | Symbol | Value | Established In |
 |-----------|--------|-------|---------------|

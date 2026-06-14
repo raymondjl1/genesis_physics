@@ -103,7 +103,7 @@ $$
 \tag{5.14.7}
 $$
 
-where σ = 6.0 × 10⁹⁸ kg/(m·s²) is the Firmament tension (Vol 1 Ch 5) and A(ξ) = A₀ + (3/2)ln(ξ/ξ₀) is the warp factor in the Waters Above direction (Vol 1 Ch 4).
+where σ = 6.0 × 10⁹⁸ kg/(m·s²) is the Firmament tension (Vol 1 Ch 5; tabulated in Appendix A §A.2.3) and A(ξ) = A₀ + (3/2)ln(ξ/ξ₀) is the warp factor in the Waters Above direction (Vol 1 Ch 4).
 
 **Waters Below (dark matter).** Similarly:
 

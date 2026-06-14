@@ -287,13 +287,7 @@ Without Axiom 2, conservation laws become impossible. Physics becomes arbitrary.
 
 ### Theological Grounding
 
-> "Thus the heavens and the earth were completed in all their vast array. By the seventh day God had finished the work he had been doing; so on the seventh day he rested from all his work." — Genesis 2:1–2
-
-> "His works have been finished since the creation of the world." — Hebrews 4:3
-
-> "It is finished." — John 19:30
-
-These statements point to the same principle: Creation has an end. It is complete. What unfolds from that point is sustenance, decay, and hoped-for redemption — not new creation. To be clear, the Hebrews 4:3 and John 19:30 statements are distinct acts — creation's completion and redemption's completion — but they share the same Greek verb (*tetelestai*) and the same theological grammar: the Creator finishes what He starts, and what He finishes He sustains.
+The anchoring text is the Sabbath of Genesis 2: "By the seventh day God had finished the work he had been doing; so on the seventh day he rested from all his work" (Genesis 2:2). Creation has an end; it is complete. What unfolds from that point is sustenance, decay, and hoped-for redemption — not new creation. (Two further witnesses to the same "finished" theme — Hebrews 4:3 and John 19:30 — are collected in the Scriptural Notes at the end of this chapter, §1.11.)
 
 ---
 
@@ -470,17 +464,7 @@ What we can show is that without this axiom, consciousness is a leftover — an 
 
 ### Theological Grounding
 
-> "So God created mankind in his own image, in the image of God he created them; male and female he created them." — Genesis 1:26–27
-
-The image of God is not merely moral resemblance. It is functional: the capacity to think, choose, create, and govern.
-
-> "Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky." — Genesis 1:28
-
-That is dominion language — real causal authority within the created order.
-
-> "This is the confidence we have in approaching God: that if we ask anything according to his will, he hears us." — 1 John 5:14
-
-Prayer works because you are operating your zone-interface license, making requests aligned with God's will — boundary condition changes that $\kappa$ can honor.
+The anchoring text is the *Imago Dei* of Genesis 1: "So God created mankind in his own image, in the image of God he created them; male and female he created them" (Genesis 1:26–27). The image of God is not merely moral resemblance. It is functional: the capacity to think, choose, create, and govern. The dominion grant of Genesis 1:28 — already invoked in Eq. (1.5.4) — extends this image into real causal authority within the created order, and the prayer promise of 1 John 5:14 is its operational form (a boundary-condition request that $\kappa$ can honor). Both supporting verses are quoted in the Scriptural Notes at the end of this chapter, §1.11.
 
 ---
 
@@ -546,15 +530,7 @@ $$\Lambda(\text{Phase 3}) = \Lambda_0 + \delta\Lambda(\varepsilon) \tag{1.6.5}$$
 
 ### Theological Grounding
 
-> "Cursed is the ground because of you; in pain you shall eat of it all the days of your life." — Genesis 3:17
-
-> "The creation was subjected to frustration, not by its own choice, but by the will of the one who subjected it, in hope that the creation itself will be liberated from its bondage to decay." — Romans 8:20–21
-
-"Bondage to decay" — that is $\kappa$-degradation. Entropy production. Aging. Death.
-
-> "Remember your Creator in the days of your youth, before the days of trouble come." — Ecclesiastes 12:1
-
-The phenomenology of Phase 3 written onto the human body.
+The anchoring text names the condition directly: "The creation was subjected to frustration, not by its own choice, but by the will of the one who subjected it, in hope that the creation itself will be liberated from its bondage to decay" (Romans 8:20–21). "Bondage to decay" — that is $\kappa$-degradation. Entropy production. Aging. Death. (The Genesis 3:17 curse-on-the-ground and the Ecclesiastes 12:1 phenomenology of aging both witness the same Phase-3 condition; they are quoted in the Scriptural Notes at the end of this chapter, §1.11.)
 
 And the resolution: "He will wipe every tear from their eyes. There will be no more death or mourning or crying or pain, for the old order of things has passed away" (Revelation 21:4). The "old order" is Phase 3. The restoration is Phase 4 — $\kappa$ repaired, entropy production ceased.
 
@@ -627,17 +603,7 @@ Two cautions are in order. First, this present-epoch budget evidences the *exist
 
 ### Theological Grounding
 
-> "So God created mankind in his own image, in the image of God he created them; male and female he created them." — Genesis 1:27
-
-Male and female — the duality principle appearing in human form. Not accident, but fundamental imprint.
-
-> "For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh. This is a profound mystery." — Ephesians 5:31–32
-
-Two complementary realities, in union, creating something new. The duality principle in its most intimate form.
-
-> "I saw the Holy City, the new Jerusalem, coming down out of heaven from God, prepared as a bride beautifully dressed for her husband." — Revelation 21:2
-
-The new creation described as the union of complementary principles — duality reconciled.
+Beyond the foundational "waters... separated... from the waters" of Genesis 1:6 (cited above), the anchoring text for duality-as-union is Ephesians 5: "For this reason a man will leave his father and mother and be united to his wife, and the two will become one flesh. This is a profound mystery" (Ephesians 5:31–32). Two complementary realities, in union, creating something new — the duality principle in its most intimate form. (The male-and-female imprint of Genesis 1:27 and the bridal new-creation imagery of Revelation 21:2 carry the same duality theme and are quoted in the Scriptural Notes at the end of this chapter, §1.11.)
 
 ---
 
@@ -898,6 +864,52 @@ Read them. Absorb them. Let them settle. Then turn the page.
 Chapter 2 builds the mathematical machinery on which everything that follows depends.
 
 ---
+
+## 1.11 Scriptural Notes for Chapter 1
+
+The axioms of this chapter are *motivated* by Scripture but stand on their own physics; the theology orients the inquiry, it does not carry the proof (the direction of inference is stated plainly in §1.4 and §1.8). To keep the running argument uncluttered, each axiom's main text retains a single anchoring verse, and the remaining supporting passages are collected here. No citation has been dropped — this section is the consolidated scriptural index for the chapter, organized by axiom. Where a passage's exegetical bearing was discussed in the body, that reading is restated in brief.
+
+**Axiom 1 — Sustaining Ground (§1.2).** All three sustaining-ground passages remain woven into the body argument under "The Biblical Claim: Continuous Sustenance," where each is exegeted individually: Colossians 1:17 (present-tense cohesion — "in him all things hold together"), Hebrews 1:3 (the active mechanism — "sustaining all things by his powerful word"), and Psalm 104:29 (the failure mode — "when you take away their breath, they die and return to their dust"). They are listed here for completeness; the discussion is in §1.2.
+
+**Axiom 2 — Creation Complete (§1.3).** Body anchor: Genesis 2:2 (the seventh-day rest — creation finished). Supporting passages:
+
+> "His works have been finished since the creation of the world." — Hebrews 4:3
+
+> "It is finished." — John 19:30
+
+These are distinct acts — creation's completion (Heb 4:3) and redemption's completion (John 19:30) — but they share the same Greek verb (*tetelestai*) and the same theological grammar: the Creator finishes what He starts, and what He finishes He sustains.
+
+**Axiom 4 — Human Agency (§1.5).** Body anchor: Genesis 1:26–27 (the *Imago Dei*). Supporting passages:
+
+> "Be fruitful and increase in number; fill the earth and subdue it. Rule over the fish in the sea and the birds in the sky." — Genesis 1:28
+
+Dominion language — real causal authority within the created order (formalized in Eq. (1.5.4) as the authority to set boundary conditions within the God-permitted subdomain).
+
+> "This is the confidence we have in approaching God: that if we ask anything according to his will, he hears us." — 1 John 5:14
+
+Prayer is the operational form of the zone-interface license: requests aligned with God's will — boundary-condition changes that $\kappa$ can honor.
+
+**Axiom 5 — Fall Degradation (§1.6).** Body anchor: Romans 8:20–21 ("bondage to decay" = $\kappa$-degradation). The Revelation 21:4 resolution ("no more death... the old order of things has passed away," the Phase-3-to-Phase-4 restoration) remains in the body. Supporting passages:
+
+> "Cursed is the ground because of you; in pain you shall eat of it all the days of your life." — Genesis 3:17
+
+The entry of toil and futility into the created order — the inception of the Phase-3 condition.
+
+> "Remember your Creator in the days of your youth, before the days of trouble come." — Ecclesiastes 12:1
+
+The phenomenology of Phase 3 written onto the human body.
+
+**Axiom 6 — Duality (§1.7).** Body anchors: Genesis 1:6 (the waters separated by the Firmament) and Ephesians 5:31–32 (the two becoming one flesh). Supporting passages:
+
+> "So God created mankind in his own image, in the image of God he created them; male and female he created them." — Genesis 1:27
+
+Male and female — the duality principle appearing in human form. Not accident, but fundamental imprint.
+
+> "I saw the Holy City, the new Jerusalem, coming down out of heaven from God, prepared as a bride beautifully dressed for her husband." — Revelation 21:2
+
+The new creation described as the union of complementary principles — duality reconciled.
+
+*Axioms 3 and 7 weave their single supporting verse inline (Psalm 90:2, Psalm 139:7, Hebrews 13:8, Malachi 3:6, Deuteronomy 32:4 in §1.4; the Revelation 21 new-creation reference in §1.7B) and require no relocated material.*
 
 ---
 

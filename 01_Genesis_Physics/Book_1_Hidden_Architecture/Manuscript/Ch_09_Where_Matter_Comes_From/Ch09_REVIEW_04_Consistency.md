@@ -7,6 +7,10 @@
 
 ---
 
+> **SUPERSEDED — STALE VALIDATION (flagged 2026-06-13, GitHub #531).** The mass-table rows below ("electron <0.1%", "tau ~0.1%", "top <1%", etc.) were validated against a stale research version. The canonical residual ledger — `Research/Mathematical_Models/06_Nuclear_and_Particle_Physics/06-PARTICLE_MASS_SPECTRUM_V3.md` and Foundations Vol 4 Ch 10_FINAL — carries the honest figures: **electron ~+17%, muon ~−15…19%, tau = the calibration anchor (not a prediction), heavy quarks fail badly at tree level.** Ch09 §6/§7 was revised on 2026-06-13 to inherit those honest residuals. The "CORRECT" verdicts in the mass-table section of this review no longer reflect the manuscript or the canonical ledger and should be disregarded; a fresh Consistency pass against the revised §6/§7 is the open follow-up.
+
+---
+
 ## Scorecard
 
 | Criterion | Status |

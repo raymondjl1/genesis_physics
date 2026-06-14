@@ -650,7 +650,5 @@ The Mohideen-Roy (1998) data was taken at $d = 100$ nm with gold surfaces ($\hba
 
 ---
 
-**End of Chapter 9**
-
-Word count (main text): ~10,750 words
+*Next: Chapter 10 — Leptons and Quarks from Firmament Resonances.*
 

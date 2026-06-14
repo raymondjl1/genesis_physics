@@ -700,4 +700,6 @@ The next chapter turns to the strong force.
 - Table 4.11.1 tabulates every numerical claim of the chapter with an explicit rigor label.
 - The chapter's epistemic contract: sub-percent numerical agreement on $M_W, M_Z, m_h, G_F$ is *conditional* on the Higgs-sector fits and is a reproduction of Standard Model algebra, not an independent prediction.
 
---- END DRAFT ---
+---
+
+*Next: Chapter 12 — Quantum Chromodynamics.*

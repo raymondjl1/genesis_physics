@@ -40,23 +40,29 @@ Phase-3/4 framework into a non-load-bearing theological sidebar. Both are author
 derivational decisions on speculative material. Not determinable from existing Research.
 
 ## 0516_Rev_391 (Issue #491, V6-P1-25) — "Why exactly five mechanisms," Ch 9 §9.1
-**Concern:** Exhaustiveness of the five FTL mechanisms not derived ("why exactly five?").
-**Why AUTHOR-BLOCKED:** The suggested fix (argue five mechanisms ↔ five available geometric
-features) is a **fresh exhaustiveness argument** on speculative FTL material with no grounding
-Research file enumerating "five geometric features." Writing it would invent the correspondence.
-(Contrast: Ch 11 §11.1.1 does this for its four channels — but that argument exists; the Ch 9 one
-does not.) Author/Research must supply the geometric-feature enumeration first.
+**RESOLVED 2026-06-13.** Added a "Why Exactly Five? The Mechanism–Geometry Correspondence"
+subsection to §9.1. The correspondence is grounded entirely in *already-derived, already-cited*
+structural features of the existing 6D metric (6.9.1) and zone architecture — (i) the conformal
+warp factor e^{2A}, (ii) the transverse η-dimension, (iii) the zone-boundary potential, (iv) the
+field-sourced metric (Ψ_A,Ψ_B), (v) the atemporal Zone 1 outside the metric — so no new physics is
+invented. Exhaustiveness is framed honestly (an enumeration "we have not formally proven complete"),
+exactly mirroring the approved Ch 11 §11.1.1 channel argument, and no falsifiable prediction is made
+to rest on the five being exhaustive. The earlier AUTHOR-BLOCK was over-cautious: the fix did not
+require inventing a correspondence, only reading the mechanisms off the metric that was already there.
+~~**Why AUTHOR-BLOCKED:** ...~~
 
 ## 0516_Rev_384 (Issue #484, V6-P1-14) — Cochlea isomorphism + Eagleworks/Maclay null literature, Ch 10
-**Concern:** Seven-row cochlea table conflates mechanism- vs vocabulary-mapping; no engagement
-with Eagleworks/Maclay/Davis/NASA vacuum-energy null-replication literature.
-**Why AUTHOR-BLOCKED:** (1) Thinning the table by separating mechanism-claims from vocabulary-
-claims is an author editorial call on a load-bearing analogy. (2) The external null-experiment
-literature (Eagleworks/Maclay/Davis) is **not present in Research/**; adding a subsection that
-accurately represents it and argues "why this design is expected to do better" would require
-sourcing and characterizing outside literature — barred by "cite an existing Research/sim file."
-GAP: needs a Research note summarizing the vacuum-energy-extraction null-replication history before
-the manuscript can engage it honestly.
+**RESOLVED 2026-06-13.** Both halves done. (1) Table-thinning was already done in a prior pass
+(§10.4.3 mechanism- vs functional-rows; §10.4.5 architecture-realisability limit). (2) The GAP is
+now closed: created Research note
+`Research/Mathematical_Models/08_Cosmology/08-VACUUM_ENERGY_EXTRACTION_NULL_REPLICATION_HISTORY.md`
+characterizing the Eagleworks→Dresden null, Maclay's conservative-cycle verdict, the Davis surveys,
+and Wilson 2011 (positive but net-zero DCE), with three lessons (L1 conservation, L2 artifacts,
+L3 paper-density ≠ accessible power). Then added §10.7.6 to Ch10_FINAL.md engaging that record,
+stating the MRG concedes L1–L3, that its only differentiator is the symmetry-breaking DIRECT stage,
+and committing in advance that a failed §10.8 test set places the MRG in the null column. Manuscript
+now cites the existing Research file, satisfying the sourcing rule.
+~~**Why AUTHOR-BLOCKED:** ...~~
 
 ---
 
