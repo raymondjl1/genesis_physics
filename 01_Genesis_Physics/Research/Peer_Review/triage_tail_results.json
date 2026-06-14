@@ -1,0 +1,1119 @@
+{
+  "summary": "Verify each open 0516 review finding against the current manuscript and classify RESOLVED / NEEDS_FIX / NOT_APPLICABLE",
+  "agentCount": 69,
+  "logs": [],
+  "result": [
+    {
+      "issue": 739,
+      "taskId": "0516_Rev_774",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (Family Edition / The Creator's Blueprint), Ch 11 §3",
+      "severity": "C1, C4",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_11_The_Flood_as_a_Physics_Event/Ch11.md"
+      ],
+      "evidence": "Ch11.md §3 (L61-83) explicitly separates the three epistemic statuses: scripture-states (Gen 2:5-6, HIGH), framework-infers (planetary-scale no-rain = MODERATE model inference, L80), physics-measures (ringwoodite/aquifers/seismic, L72-78). L68: \"We honor the difference between what scripture states and what the model speculates.\" Exemplar is intact.",
+      "recommendation": "No action. This is a positive \"Strength\"/PRESERVE observation (B2-PRESERVE-03), not a defect. The suggested \"fix\" is a directive to preserve the exemplar three-tier epistemic discipline, which is present and consistent in the current manuscript. Could optionally close as a noted strength.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. Finding is a \"Strength\" praising Ch 11 §3's consistent distinction of scripture-states vs framework-infers vs physics-measures (B2-PRESERVE-03), not a defect. Verified present in Ch11.md §3: Gen 2:5-6 (HIGH) vs MODERATE model inferences vs measured ringwoodite/aquifer/seismic data, with explicit \"we honor the difference between what scripture states and what the model speculates\" (L68). Nothing to fix."
+    },
+    {
+      "issue": 742,
+      "taskId": "0516_Rev_777",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2",
+      "severity": "C4 (PRESERVE / strength note)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_01_In_the_Beginning_God_Created/Ch01.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_07_How_God_Made_Matter/Ch07.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_14_Teaching_Your_Children_with_Confidence/Ch14.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_15_The_God_Who_Built_the_Universe_Loves_You/Ch15.md"
+      ],
+      "evidence": "No defect: it's a B2-PRESERVE-06 voice-anchor note. All 4 cited exemplars exist intact: Ch1 *bara* (Ch01.md:67), Ch7 violin bow + sheet steel (Ch07.md:11), Ch14 \"Imposter Syndrome at the Kitchen Table\" (Ch14.md:41), Ch15 closing recap \"§2 Fourteen Chapters, One Hand\" + \"§1 A Wife's Verse, At the Kitchen Table\".",
+      "recommendation": "No edit required. This is a preservation directive praising existing kitchen-table voice; the four exemplar passages remain present in the current manuscript. Keep them as voice anchors for future chapters. Close as a strength/no-action note.",
+      "closeNote": "NOT_APPLICABLE — strength/PRESERVE note (B2-PRESERVE-06), no action required. Praises Book 2's consistent kitchen-table voice and names 4 anchor passages, all confirmed present: Ch1 §3 *bara* (Ch01.md:67), Ch7 §1 violin bow + sheet steel (Ch07.md:11), Ch14 §3 \"Imposter Syndrome at the Kitchen Table\" (Ch14.md:41), Ch15 §2 closing recap. No defect exists; exemplars intact. Closing as no-op."
+    },
+    {
+      "issue": 743,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 8 §3",
+      "severity": "C3 (Strength / PRESERVE)",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_08_The_Laws_God_Cannot_Break/Ch08.md"
+      ],
+      "evidence": "Issue body: Description \"R-02 §Strengths\", Suggested Fix \"B2-PRESERVE-07\", Location text praises the move as \"the cleanest 'why before what' in the series.\" Ch08.md still executes symmetry->conservation->theology: time-translation symmetry (L82), Noether (L100), Hebrews 13:8 (L94), Malachi 3:6 (L304). No problem to fix.",
+      "recommendation": "No edit. This is a positive Strength observation with a PRESERVE directive (B2-PRESERVE-07), not an actionable defect. The praised structure is intact in the current manuscript; nothing to change. Safe to close as addressed/no-action.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. Issue is a Strength/PRESERVE note (Description=\"R-02 §Strengths\", Fix=\"B2-PRESERVE-07\") praising Book 2 Ch 8's symmetry->conservation->theology \"why before what\" structure. No defect to fix; the praised structure remains intact in Ch08.md (time-translation symmetry, Noether's theorem, Hebrews 13:8, Malachi 3:6). No action required.",
+      "taskId": "0516_Rev_778"
+    },
+    {
+      "issue": 744,
+      "taskId": "0516_Rev_779",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 13 §2",
+      "severity": "C1",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_13_Quantum_Weirdness_and_the_Mind_of_God/Ch13.md"
+      ],
+      "evidence": "Ch13.md L39: pheron = present-tense participle, \"bearing the load... right now.\" L67: synistemi = perfect tense, \"completed action with continuing result.\" L76-77 table contrasts the two tenses' theological work. Praised passage is present and intact. Body cites R-02 §Strengths, R-05 §What I Loved, R-07 §What Helped — positive observations; Suggested Fix is \"B2-PRESERVE-08\" (a preserve directive).",
+      "recommendation": "No action. This is a Strength/PRESERVE finding praising existing exemplary tense-aspect exegesis, not a defect. The lauded text (continuous pheron vs. perfect synistemi) already exists in Ch13.md §2 and should be kept as-is.",
+      "closeNote": "NOT_APPLICABLE — Strength/PRESERVE finding (B2-PRESERVE-08), not an actionable defect. The praised exegesis (present-tense pheron vs. perfect-tense synistemi doing theological work) is present and intact in Ch13.md §2 (L39, L67, L76-77). Nothing to fix; preserve as written."
+    },
+    {
+      "issue": 745,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 15 §5",
+      "severity": "C1 (Strength / PRESERVE)",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_15_The_God_Who_Built_the_Universe_Loves_You/Ch15.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/REVIEWER_02_But_Why.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/BOOK_ROLLUP.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/REVIEWER_09_Theologian.md"
+      ],
+      "evidence": "Issue is a Strength/PRESERVE task (B2-PRESERVE-09) from R-02 §Strengths (REVIEWER_02_But_Why.md:189) and R-09 §4 praising the panta thread. The thread is fully intact in Ch15.md: panta runs through John 1:3, Col 1:16-17, Heb 1:3 (line 123), Rom 8:28 (135), Rev 21:5 (185), Rom 11:36 (250), and the Key Terms entry (291). No defect; directive is to preserve, which is satisfied.",
+      "recommendation": "No edit needed. This is a positive \"preserve this strength\" entry, not a defect. The panta bookend (John 1 -> Col 1 -> Heb 1 -> Rom 8:28 -> Rom 11:36) remains present and load-bearing in the current manuscript. Note: the separate actionable F-10 flag (add a half-sentence marking the physical->personal panta move as theological inference) is a distinct P3 task, not this issue.",
+      "seriesWide": false,
+      "taskId": "0516_Rev_780",
+      "closeNote": "NOT_APPLICABLE: Strength/PRESERVE entry (B2-PRESERVE-09) from R-02 §Strengths and R-09 §4 praising the panta thread, not a defect. Verified intact in Ch15.md: panta runs through John 1:3, Col 1:16-17, Heb 1:3 (L123), Rom 8:28 (L135), Rev 21:5 (L185), Rom 11:36 (L250), Key Terms (L291). Bookend earned and preserved; no action required."
+    },
+    {
+      "issue": 746,
+      "taskId": "0516_Rev_781",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 4 (Six Days, Seven Patterns)",
+      "severity": "C1 (Strength / PRESERVE)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_04_Six_Days_Seven_Patterns/Ch04.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/0516_Rev_Book_2_TASKS.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/BOOK_SERIES_MASTER_REVIEW_2026-05-16.md"
+      ],
+      "evidence": "Task is B2-PRESERVE-10, one of a numbered PRESERVE/strength series (PRESERVE-06..14 in 0516_Rev_Book_2_TASKS.md L131-139). \"Suggested Fix\" = the preserve tag, not a defect. Praised traits intact in Ch04.md: Hebrew load-bearing (L13,53,69,83,111...); order-vs-duration split (L39-41); consciousness extrapolation flagged (L139,167); Psalm 33 envelope (epigraph + L261,275,311).",
+      "recommendation": "No edit needed. This is a positive observation (\"Model chapter for the series\") with no actionable task; the fix field merely carries the preserve-ID B2-PRESERVE-10. The praised qualities are all present and intact in the current manuscript, so nothing is at risk of loss. Close as a non-actionable strength note.",
+      "closeNote": "NOT_APPLICABLE — strength/PRESERVE note, no actionable defect. Task 0516_Rev_781 = B2-PRESERVE-10, part of the PRESERVE-06..14 exemplar series (R-11 §10) praising Book 2 Ch 4 as a \"model chapter.\" All cited qualities verified present in Ch04.md: Hebrew load-bearing (L13/53/69/83/111), order-vs-duration distinction (L39-41), consciousness extrapolation explicitly flagged (L139/167), Psalm 33 structural envelope (epigraph + L261/275/311). Nothing to fix or preserve is at risk."
+    },
+    {
+      "issue": 747,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (Ch 1, 2, 11, 13)",
+      "severity": "C3",
+      "taskId": "0516_Rev_782",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_01_In_the_Beginning_God_Created/Ch01.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_13_Quantum_Weirdness_and_the_Mind_of_God/Ch13.md"
+      ],
+      "evidence": "Finding is a PRESERVE directive (Suggested Fix: B2-PRESERVE-11; Description cites R-02 §Strengths). \"But What About…?\" sections exist: Ch01.md:145 (§5 Ancient-Mythology Objection), Ch13.md:182 (§9 Three Questions); also present in Ch02, Ch11 and all other Book 2 chapters. Nothing to fix.",
+      "recommendation": "No edit needed. This is a \"protect/preserve as a section type\" note praising the \"But What About…?\" objection-handling sections, not a defect. The named sections are present in the current manuscript; honor by not removing them in future edits.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. Issue #747 is a Book 2 PRESERVE directive (B2-PRESERVE-11, R-02 §Strengths) to protect the \"But What About…?\" objection sections, not a defect. Verified those sections exist in the current manuscript (Ch01.md:145, Ch13.md:182; also Ch02/Ch11 and throughout). No corrective action required."
+    },
+    {
+      "issue": 748,
+      "taskId": "0516_Rev_783",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (Creator's Blueprint / Family Edition), whole book",
+      "severity": "C4 (Strength / PRESERVE)",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_12_Black_Holes_Dark_Energy_and_the_Heavens_Declare/Ch12.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_13_Quantum_Weirdness_and_the_Mind_of_God/Ch13.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_15_The_God_Who_Built_the_Universe_Loves_You/Ch15.md"
+      ],
+      "evidence": "Grep of [=∑∫∇∂√≤≥±] across all 15 Ch[0-9][0-9].md prose files: 0 hits — the no-equations rule holds. Greek-letter sweep found only legit biblical Greek (esoptron Ch13:231; poiema/panta/potapen Ch15:290-296) PLUS two physics field-symbol exceptions: Psi_A/Psi_B in Ch12.md:190 and Ch12.md:238 (main prose).",
+      "recommendation": "No edit requested by this finding — it is a C4 \"Strength\"/PRESERVE observation (B2-PRESERVE-12) with no actionable task. NOTE for maintainer: the \"zero hits\" claim is slightly overstated; Ch12 uses Psi_A/Psi_B field notation twice (lines 190, 238). If strict adherence is desired, those could be reworded to plain English, but that is a separate optional cleanup, not this finding's ask.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. #748 is a C4 Strength/PRESERVE note (B2-PRESERVE-12) confirming zero equations across Book 2 — no action required. Verified: grep for = ∑ ∫ ∇ ∂ √ ≤ ≥ ± over all 15 ChNN.md prose files = 0 hits; the hard rule holds. Greek matches are legitimate biblical Greek (Ch13/Ch15). Minor caveat: Ch12 (lines 190, 238) does carry Psi_A/Psi_B field notation, so the \"zero hits for Ψ\" sub-claim is imperfect, but this finding requests no edit."
+    },
+    {
+      "issue": 749,
+      "taskId": "0516_Rev_784",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2",
+      "severity": "Strength (PRESERVE / labeled C2)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/0516_Rev_Book_2_TASKS.md",
+        "01_Genesis_Physics/Research/Peer_Review/open_review_backlog.json"
+      ],
+      "evidence": "Issue body == B2-PRESERVE-13 verbatim. TASKS_RAW.md:144 places it under \"## P-PRESERVE — Strengths to protect on revision (do not lose these)\" (header at line 128). It is a positive observation: \"Cascade is real — sampled 56/56 Foundations pointers resolve to existing chapters... architecture is built right.\" No actionable task. Source: R-10 F3; R-12 §Strong.",
+      "recommendation": "No edit required. This is a Strength/PRESERVE item praising the correctly-built Foundations-pointer cascade (56/56 resolve). The embedded note \"titles are what fails, not underlying content\" refers to a SEPARATE title-resolution concern tracked by other tasks; this item itself only asks to preserve the strength. Close as NOT_APPLICABLE.",
+      "closeNote": "NOT_APPLICABLE. Issue #749 is B2-PRESERVE-13, listed under \"P-PRESERVE — Strengths to protect on revision\" (Book_2/TASKS_RAW.md:144, header line 128). It is a positive observation that the Foundations-pointer cascade is correctly built (56/56 sampled pointers resolve to existing chapters), not a defect. No action required; the title-resolution problem it mentions is a separate concern handled elsewhere."
+    },
+    {
+      "issue": 750,
+      "taskId": "0516_Rev_785",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (Family Edition / Creator's Blueprint) — Ch 2",
+      "severity": "C4 (Strength / PRESERVE)",
+      "filesChecked": [
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/REVIEWER_08_Style_Editor.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/0516_Rev_Book_2_TASKS.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_02_The_Waters_and_the_Firmament/Ch02.md"
+      ],
+      "evidence": "Task maps to B2-PRESERVE-14, a C4 Strength from Reviewer 08 §8 (graded PASS: \"textbook-perfect handling\"). \"Suggested Fix\" = the PRESERVE ledger ID, not an action. Praised handling is intact in Ch02.md: line 103 defers bookkeeping labels (\"The names are what you need\"); canonical label Z₂.₂.₃ kept in Key Terms (line 251). No \"Zone 3 = Earth Prime\" error.",
+      "recommendation": "No edit needed. This is a positive/PRESERVE observation praising compliant zone-naming, not a defect. The praised content survives (Ch02.md L103 + L251) in a lightly revised, still-compliant form. Safe to close as a Strength with no manuscript change.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE (Strength/PRESERVE, no action). Task 0516_Rev_785 = B2-PRESERVE-14, a C4 Style-Editor PASS praising \"textbook-perfect\" zone-naming in Ch 2; the \"Suggested Fix\" is the PRESERVE ledger ID, not an edit. Compliant handling still present in Ch02.md (L103 defers bookkeeping labels, \"the names are what you need\"; canonical Z₂.₂.₃ kept in Key Terms L251). No defect to fix."
+    },
+    {
+      "issue": 751,
+      "taskId": "0516_Rev_786",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (The Creator's Blueprint)",
+      "severity": "C1 (PRESERVE/strength note — no defect)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_01_In_the_Beginning_God_Created/Ch01.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_02_The_Waters_and_the_Firmament/Ch02.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/AppB_Simplified_Glossary.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/AppA_Family_Discussion_Guide.md"
+      ],
+      "evidence": "Body has no described problem: '## Description' lists only reviewer IDs (R-02/05/07/09/11); '## Suggested Fix' is just 'B2-PRESERVE-15'. Location text states the Hebrew/Greek terms are already 'transliterated, glossed, anchored. Verified against BDB/HALOT/BDAG by R-09.' Spot-checks confirm: Ch01.md glosses bara, tohu va-bohu (with pronunciation + meaning); AppA glosses raqia ('stretched out'); AppB is the simplified glossary. Terms (bara, raqia, mayim, poiema, eikon, Logos, kainos, etc.) are present across Ch01-03,07,13,15.",
+      "recommendation": "No action. This is a PRESERVE/strength task affirming that the existing Hebrew/Greek term handling is correct and lexicon-verified, not a defect. The terms are already present and properly glossed in the manuscript. Safe to close as not-actionable.",
+      "closeNote": "NOT_APPLICABLE — preservation/strength note, no defect. The issue body contains no problem statement (Description = reviewer IDs only; Fix = 'B2-PRESERVE-15'). The location text itself confirms the Hebrew/Greek terms are 'transliterated, glossed, anchored. Verified against BDB/HALOT/BDAG.' Manuscript spot-checks confirm this: Ch01 glosses bara & tohu va-bohu with pronunciation/meaning, AppA glosses raqia, AppB is the simplified glossary; all listed terms appear across Book 2 chapters. Nothing to fix."
+    },
+    {
+      "issue": 752,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 14",
+      "severity": "C1",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_14_Teaching_Your_Children_with_Confidence/Ch14.md"
+      ],
+      "evidence": "Body is a Strength/PRESERVE note (\"Strongest disciple-the-disciplers chapter...\", fix=B2-PRESERVE-16). All praised content is present in Ch14.md: three-aircraft framing (L72-80 Cessna 152/182/King Air), imposter-syndrome passage (L41 §3), shanan/chanak etymology (L31,60,296-297). Nothing to fix.",
+      "recommendation": "No action. This is a positive \"Strength\" observation with a B2-PRESERVE directive, not a defect. The praised passages (three-aircraft age-band framing, imposter-syndrome section, shanan/chanak Hebrew etymology) all remain intact in the manuscript. Issue can be closed as a preserve/no-op.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — Strength/PRESERVE note (B2-PRESERVE-16), no actionable fix. All praised Ch14 content is intact: three-aircraft framing (Cessna 152/182/King Air, L72-80), imposter-syndrome §3 (L41), and shanan/chanak etymology (L31,60,296-297). Nothing to change; preserve as-is.",
+      "taskId": "0516_Rev_787"
+    },
+    {
+      "issue": 753,
+      "taskId": "0516_Rev_788",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 15",
+      "severity": "C1 (PRESERVE / Strength)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_15_The_God_Who_Built_the_Universe_Loves_You/Ch15.md"
+      ],
+      "evidence": "Ch15.md §10 \"Doxology\" (lines 239-244) ends the chapter on Romans 11:33-36 (KJV), praise not decision. Christ named throughout (26 Christ/Jesus/Gospel hits). The restraint the finding asks to PROTECT is fully present in current manuscript.",
+      "recommendation": "No edit needed. This is a B2-PRESERVE note (protect existing restraint), not a defect. The described structure — Christ named, Gospel audible, eschatology held, ending on Rom 11:33-36 doxology with no altar-call — is intact in Ch15.md. Close as preservation note honored.",
+      "closeNote": "NOT_APPLICABLE — preservation note (B2-PRESERVE-17), not a defect. Verdict: the restraint it asks to PROTECT is fully intact. Ch15.md ends on §10 \"Doxology\" with Romans 11:33-36 (KJV) — worship not decision, no altar-call mechanics — and names Christ throughout (26 hits). Nothing to fix; the asked-for restraint is preserved in the current manuscript."
+    },
+    {
+      "issue": 754,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 4 (Day 3)",
+      "severity": "C1 (Strength / PRESERVE)",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_04_Six_Days_Seven_Patterns/Ch04.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/0516_Rev_Book_2_TASKS.md"
+      ],
+      "evidence": "Maps to B2-PRESERVE-18 (R-11 §9 #1), a Strength/PRESERVE observation, not a defect. The praised content is intact in Ch04.md: qavah = \"collection of a diffuse substance into an ordered configuration\" (L83,289); \"bara does not appear in this verse\" (L85); phase-transition/Chladni-plate standing-wave framing (L87,213). Owner note: \"scope-limited: Ch 4 only\".",
+      "recommendation": "No edit required. This is a PRESERVE/Strength finding — the directive is to protect existing strong content, not fix a problem. The praised qavah/absence-of-bara/phase-transition passage remains fully present in Ch04.md. Close as a positive observation; nothing to change.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — Strength/PRESERVE observation (B2-PRESERVE-18, R-11 §9 #1), not a defect. Praised content is intact in Ch04.md: qavah defined as \"collection of a diffuse substance into an ordered configuration\" (L83/289), \"bara does not appear in this verse\" (L85), phase-transition/Chladni standing-wave framing (L87/213). No action required; existing strong content preserved.",
+      "taskId": "0516_Rev_789"
+    },
+    {
+      "issue": 755,
+      "taskId": "0516_Rev_790",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 (Creator's Blueprint), Ch 4 (Day 4)",
+      "severity": "Strength / P-PRESERVE (C1 = concern-category, not action priority)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_04_Six_Days_Seven_Patterns/Ch04.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_04_Six_Days_Seven_Patterns/Ch04_SPEC.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/AppB_Simplified_Glossary.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/0516_Rev_Book_2_TASKS.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md"
+      ],
+      "evidence": "TASKS_RAW.md:150 marks this B2-PRESERVE-19 = \"Preserve\" (a Strength/commendation, not a defect). The praised content is intact: Ch04.md:111 carries the mo'adim=\"appointed times\"=Israel's festivals (Passover/Weeks/Atonement) passage ending \"Not decorations... Clocks.\" The clocks-not-decorations move continues at Ch04.md:115/215/293 and AppB glossary. Nothing to fix.",
+      "recommendation": "No action. This is a P-PRESERVE commendation, not a defect. The mo'adim=festivals exegesis that licenses the \"stars are clocks\" move is present and intact in Ch04.md (lines 111, 115, 215, 293) and the glossary. Close as a preserved strength; do not edit.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE commendation (B2-PRESERVE-19), not a defect. The praised exegesis is intact: Ch04.md:111 carries the mo'adim = \"appointed times\" = Israel's festivals passage (\"Not decorations... Clocks\"), and the clocks-not-decorations framing continues at Ch04.md:115/215/293 plus the glossary entry. Nothing to fix; preserve as-is."
+    },
+    {
+      "issue": 756,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2 — Ch 4 (Day 7)",
+      "taskId": "0516_Rev_791",
+      "severity": "C1 (PRESERVE / Strength)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/REVIEWER_11_Biblical_Traceability.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/BOOK_ROLLUP.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_04_Six_Days_Seven_Patterns/Ch04.md"
+      ],
+      "evidence": "Finding = B2-PRESERVE-20 (R-11 §9 #3), a \"Strongest Anchors / Models for the Series\" PRESERVE item — a strength, not a defect. No actionable fix; Suggested Fix field only names the preserve-ID. Strength is intact: Ch04.md §9 (lines 175–199) walks Gen 2:1–3, Exod 20:11, Heb 4:9–10 together, \"rest\" as sustained operation across the canon.",
+      "recommendation": "No action required. This is a positive observation (PRESERVE item) cataloging an exemplary anchor to replicate in other chapters, not a problem. The praised content remains present and unchanged in the manuscript. Close as not-applicable/preserve.",
+      "closeNote": "NOT_APPLICABLE / PRESERVE. Issue #756 (task 0516_Rev_791) = B2-PRESERVE-20, R-11 §9 #3 \"Strongest Anchors (Models for the Series)\" — a strength, not a defect. No actionable fix exists. The praised content is intact: Ch04.md §9 (Day 7) walks Gen 2:1–3, Exod 20:11, and Heb 4:9–10 together, establishing \"rest\" as sustained operation across the canon. Nothing to edit."
+    },
+    {
+      "issue": 757,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 9 §8",
+      "severity": "C4 (PRESERVE / Strength)",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_09_Why_the_Speed_of_Light_Why_Gravity/Ch09.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/BOOK_SERIES_MASTER_REVIEW_2026-05-16.md"
+      ],
+      "evidence": "Ch09.md §8 (line 254) contains the exact praised passage verbatim: \"...the relationships are rigorous, but the absolute values are not yet fully predicted.\" The full §8 \"Honest About What We Know and What We Do Not\" (lines 246-256) is intact with Rigorous/Working/Open breakdown.",
+      "recommendation": "No action. This is a PRESERVE finding (B2-PRESERVE-21) flagging epistemic-honesty language as a strength to keep (\"Costs nothing, saves everything\"). The praised passage is present and unchanged; nothing to fix or remove.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — PRESERVE/strength finding, not a defect. The praised honesty passage is present verbatim in Book 2 Ch09.md §8 (line 254): \"the relationships are rigorous, but the absolute values are not yet fully predicted.\" §8 Rigorous/Working/Open breakdown intact. No action required."
+    },
+    {
+      "issue": 758,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Book 2, Ch 1 & Ch 2 closings",
+      "severity": "C1 (Strength / PRESERVE)",
+      "taskId": "0516_Rev_793",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_2/TASKS_RAW.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_01_In_the_Beginning_God_Created/Ch01.md",
+        "01_Genesis_Physics/Book_2_The_Creators_Blueprint/Manuscript/Ch_02_The_Waters_and_the_Firmament/Ch02.md"
+      ],
+      "evidence": "Finding = B2-PRESERVE-22, \"R-05 §What I Loved\" (Homeschool Mom). It praises the closing refrain, no actionable edit. Refrain intact: Ch01.md L203-205 \"You do not have to choose. / You never did.\"; Ch02.md L221-223 & L239-241 \"You never did.\" Also propagated as running contract in Ch3-6.",
+      "recommendation": "No action. This is a positive \"What I Loved\" preserve note, not a defect. The praised refrain still exists verbatim in both target chapter closings and is consistently carried forward, so the preservation goal is met.",
+      "closeNote": "NOT_APPLICABLE. #758 is a \"What I Loved\" strength/PRESERVE note (B2-PRESERVE-22, R-05), not an actionable fix. The praised closing refrain \"You do not have to choose. You never did.\" is intact in Ch01.md (L203-205) and Ch02.md (L221-241), and is carried as a running contract through Ch3-6. Nothing to fix; preservation satisfied."
+    },
+    {
+      "issue": 759,
+      "taskId": "0516_Rev_508",
+      "classification": "NEEDS_FIX",
+      "confidence": "high",
+      "unit": "Vol 4 (The Quantum World)",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_10_Leptons_and_Quarks_from_Firmament_Resonances/Ch10_FINAL.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_11_The_Electroweak_Theory/Ch11_FINAL.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_12_Quantum_Chromodynamics/Ch12_FINAL.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_01..Ch_09 (VERIFIED/FINAL/DRAFT content files)"
+      ],
+      "evidence": "Rigor labels [RIGOROUS/APPROXIMATE/PHENOMENOLOGICAL/OPEN] present in section headings of Ch 10-14 (e.g. Ch10_FINAL.md:60,165,392; Ch11_FINAL.md; Ch12_FINAL.md — 28 heading-level labels). Grep of all Ch 1-9 latest content files (Ch01-05 *_VERIFIED.md, Ch06-09 *_FINAL.md, all *_DRAFT.md) for heading or body rigor labels returned ZERO matches. The praised strength is intact, but the suggested retrofit is undone.",
+      "recommendation": "Retrofit the per-section rigor labels (RIGOROUS / APPROXIMATE / PHENOMENOLOGICAL / OPEN) used in Ch 10-14 into the section headings of Vol 4 Ch 1-9, tagging each derivation/result with its epistemic status, as done in Ch10_FINAL.md (## 10.1 ... [RIGOROUS]). Apply to the current content files (Ch01-05 VERIFIED, Ch06-09 FINAL).",
+      "closeNote": "NEEDS_FIX. P-PRESERVE strength: the RIGOROUS/APPROXIMATE/PHENOMENOLOGICAL/OPEN rigor labels are present in Ch 10-14 headings (Ch10/11/12_FINAL, 28 occurrences) and remain intact. But the actionable Suggested Fix \"Retrofit to Ch 1-9\" is NOT done: grep of all Vol 4 Ch 1-9 latest content files (VERIFIED/FINAL/DRAFT) found zero rigor labels in headings or body. Retrofit still required."
+    },
+    {
+      "issue": 760,
+      "taskId": "0516_Rev_509",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 4",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_14_Beyond_the_Standard_Model/Ch14_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Manuscript/Ch_14_Beyond_the_Standard_Model/Ch14_FINAL.md"
+      ],
+      "evidence": "Ch14_FINAL.md:44 (and DRAFT.md:43) contains the praised line verbatim: \"there are no new derivations in this chapter; there are only debts being named and predictions being staked.\" The §14.0 three-job framing (name debts, write predictions, hand off test suite, close volume) is intact at FINAL.md:42.",
+      "recommendation": "No edit needed. P-PRESERVE/strength: it praises the §14.0 declaration and only suggests replicating the pattern in other capstone chapters. The praised text is present and preserved, so there is no defect to correct in this chapter.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE strength, not a defect. The praised §14.0 \"three-job\" declaration — \"there are no new derivations in this chapter; there are only debts being named and predictions being staked\" — is present verbatim in Vol 4 Ch 14 (Ch14_FINAL.md line 44, Ch14_DRAFT.md line 43), with the surrounding framing intact. The only \"fix\" suggested is to replicate the pattern in other capstone chapters; nothing to change here."
+    },
+    {
+      "issue": 761,
+      "taskId": "0516_Rev_510",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 4",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [],
+      "evidence": "Issue #761 body: Severity \"P-PRESERVE\", Concern C4, Suggested Fix = \"Protect.\" Description praises existing strengths (cross-chapter callbacks by section/equation, Ch 10 §10.0 retrospective gold standard, figure placement at napkin-grab moments). No defect or actionable edit is described.",
+      "recommendation": "No action. This is a P-PRESERVE strength observation, not a defect. The \"fix\" is merely to protect/retain the existing cross-chapter callback and figure-placement structure. Nothing to change in the manuscript; the issue can be closed as a preserve note.",
+      "closeNote": "NOT_APPLICABLE. Issue #761 is a P-PRESERVE strength observation (Vol 4): Suggested Fix is literally \"Protect.\" It praises existing cross-chapter callbacks (section/equation references, next-chapter forecasts), the Ch 10 §10.0 retrospective, and figure placement. No defect, no actionable edit. Closing as a preserve/no-action note."
+    },
+    {
+      "issue": 762,
+      "taskId": "0516_Rev_511",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_01_Einstein_Field_Equations_Recovered/Ch01_DRAFT.md"
+      ],
+      "evidence": "Vol5 Ch1 Ch01_DRAFT.md:737 \"§1.10 The Reviewer's Ledger — Is This a Derivation?\" classifies each step as 6D-action-derived / Geometric identity (G) / Ansatz (A); intro line 33 frames it. Pattern present across Vol5 Chs 1,5,6,7,8,11. The praised strength exists.",
+      "recommendation": "No action in Vol 5. This is a P-PRESERVE/Strength: the Inventory+Contract+Reviewer's Ledger pattern is real and intact. The only \"fix\" is forward-looking (back-port to Vols 1-4, institutionalize for Vol 6) — an enhancement task, not a defect. Safe to close as preserve.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE (P-PRESERVE/Strength). The praised \"Reviewer's Ledger\" pattern exists and is intact in Vol 5 — e.g. Ch1 §1.10 \"The Reviewer's Ledger — Is This a Derivation?\" classifies every step as 6D-action-derived / Geometric identity / Ansatz (Ch01_DRAFT.md:737). No defect to fix in Vol 5; suggested \"fix\" is a forward-looking back-port to Vols 1-4 / Vol 6 institutionalization, i.e. an enhancement, not a correction. Closing as preserve."
+    },
+    {
+      "issue": 763,
+      "taskId": "0516_Rev_512",
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": true,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_04_Strong_Field_Gravity/Ch04_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_05_Black_Holes_as_Zone_Infrastructure/Ch05_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_06_The_Information_Paradox_Resolved/Ch06_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_07_Singularity_Resolution/Ch07_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_08_Zone_Cosmological_Model/Ch08_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_13_Consciousness_and_the_Zone_Interface/Ch13_DRAFT.md"
+      ],
+      "evidence": "Vol5 disclaimers intact: Ch04 L20 \"A note to the Theologian reviewer\"; Ch05 §5.9.4, Ch06 §6.9.5, Ch07 §7.9.5 \"A note specifically for the Theologian\"; Ch08 L17/21 \"what this chapter does/does not do\"; Ch11 L26 \"not a sermon... No theological claim... belongs to Book 3\". Institutionalized in Vol6: Chs 9,11,13,14,15,16; Ch13 L242 non-implication list + L445 Theologian section.",
+      "recommendation": "No action. P-PRESERVE \"retain & institutionalize for Vol 6\" is satisfied: all six Vol 5 disclaimers remain, and the prophylactic is propagated through Vol 6's theology-adjacent chapters (FTL Ch9/11, Consciousness Ch13, Open Problems Ch14, Connections Ch15, Roadmap Ch16).",
+      "closeNote": "RESOLVED. P-PRESERVE directive (\"retain & institutionalize for Vol 6\") is fully met. Vol 5 disclaimers intact: Ch04 L20 + Ch05/06/07 \"note for the Theologian\" sections; Ch08/Ch11 carry equivalent does/does-not-do + Book-3 theology-deferral. Institutionalized in Vol 6 (Chs 9,11,13,14,15,16) — Ch13 has a non-implication list and an explicit Theologian-reviewer section. No edit needed."
+    },
+    {
+      "issue": 764,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "taskId": "0516_Rev_513",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_01_Einstein_Field_Equations_Recovered/Ch01_DRAFT.md"
+      ],
+      "evidence": "Ch01_DRAFT.md line 106: \"Seven debts. Ten sections. That's the plan. Now to the calculation.\" Lines 94-105 list the seven debts under §1.1.5 \"What we still owe.\" The praised contract-opening exists verbatim as described.",
+      "recommendation": "No action. This is a P-PRESERVE Strength: Description \"Strongest contract-opening in series,\" Suggested Fix \"Use as template.\" It praises existing prose and offers no actionable manuscript edit. The target text is present and unchanged.",
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE Strength, not a defect. It praises the §1.1.5 contract-opening (\"Seven debts. Ten sections. That's the plan.\") and says \"Use as template.\" That text exists verbatim at Vol 5 Ch01_DRAFT.md:106, with the seven-debt list at lines 94-105. No edit required; closing as a positive observation."
+    },
+    {
+      "issue": 765,
+      "taskId": "0516_Rev_514",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_05_Black_Holes_as_Zone_Infrastructure/Ch05_DRAFT.md"
+      ],
+      "evidence": "Ch05_DRAFT.md:175-181 contains §5.3.2 \"The breach theorem\" with Theorem 5.5.1 (Breach Theorem) and full proof. Coverage table line 506 confirms \"Breach theorem 5.5.1 | §5.3.2 | Theorem, proof given in §5.3.2.\" The praised derivation is intact at the cited location.",
+      "recommendation": "No action. This is a P-PRESERVE (Strength) finding praising an existing derivation as a model; suggested fix is \"Preserve. Use as model.\" The content remains present and intact, so nothing needs editing.",
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE/Strength finding — praises the Breach Theorem as the cleanest \"why is the horizon structurally special\" derivation; fix is merely \"Preserve. Use as model.\" Verified intact: Vol 5 Ch 5 §5.3.2 (Theorem 5.5.1 + proof) in Ch05_DRAFT.md lines 175-181, confirmed by coverage table line 506. No edit required."
+    },
+    {
+      "issue": 766,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_515",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_07_Singularity_Resolution/Ch07_DRAFT.md"
+      ],
+      "evidence": "Finding is a P-PRESERVE strength: Description=\"Publishable in CQG on its own merits\"; Suggested Fix=\"Submit as standalone paper.\" The praised content exists and is intact — Ch07_DRAFT.md §7.0 (line 12) and §7.2 \"Penrose–Hawking Singularity Theorems and Their Hidden Premise\" with the M0 reframing (lines 97-144). No manuscript defect.",
+      "recommendation": "No manuscript edit. \"Submit as standalone paper\" is an external publishing action, not an in-text correction. The §7.0/§7.2 M0 hidden-completeness-premise content praised by the finding is present and complete. Owner may optionally pursue a CQG submission outside the manuscript workflow.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE strength praising Vol 5 Ch 7 §7.2's M0 hidden-completeness reframing of Penrose–Hawking as CQG-publishable; suggested \"fix\" is to submit a standalone paper (external action), not a manuscript edit. The praised content is present and intact in Ch07_DRAFT.md (§7.0 line 12; §7.2 lines 97-144). No corrective change required."
+    },
+    {
+      "issue": 767,
+      "taskId": "0516_Rev_516",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_08_Zone_Cosmological_Model/Ch08_DRAFT.md"
+      ],
+      "evidence": "Vol 5 Ch08_DRAFT.md §8.0 (lines 12-31) contains the exemplary derived-vs-fit declarations: a \"Note for the Skeptic reviewer\" (lines 25, Omega-derived-vs-fit chain) and a \"Note for the Physicist reviewer\" (line 27, Friedmann-eq derivation chain), plus a \"But Why?\" note. Epistemic status reinforced at §8.13 Reviewer's Ledger (lines 581-592). The praised content exists intact.",
+      "recommendation": "No action on the named target. This is a P-PRESERVE strength praising existing §8.0 content; the only \"fix\" is the forward-looking suggestion to reuse this two-part epistemic-note template when Vol 6 cosmological-parameter chapters are written. Nothing to edit or close-fix in Vol 5 Ch 8; it is already the clean exemplar the finding cites.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, not a defect. The praised §8.0 two-part epistemic note (Skeptic + Physicist, plus But-Why) with clean derived-vs-fit declarations exists intact in Vol 5 Ch08_DRAFT.md (lines 12-31), reinforced by the §8.13 Reviewer's Ledger (lines 581-592). The suggested \"fix\" is merely to reuse it as a template in future Vol 6 cosmological-parameter chapters — a preserve/replicate note with no actionable edit to the current manuscript."
+    },
+    {
+      "issue": 768,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_517",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md"
+      ],
+      "evidence": "Vol5 Ch11 §11.0 \"What This Chapter Is (and Is Not)\", Ch11_DRAFT.md:24: \"the chapter's mood is modest confidence. Unlike Ch 10, it is not coincidence. Unlike Ch 13 (the fine-structure derivation...), it is not yet a triumph.\" Exactly the calibration the finding praises; present and intact.",
+      "recommendation": "No action. P-PRESERVE finding with Suggested Fix \"Preserve.\" It is a positive observation praising the §11.0 spectrum-calibration prose, which still exists verbatim. Close as a preserved strength.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, not an actionable defect. The praised §11.0 \"modest confidence\" calibration naming the coincidence→triumph spectrum is present and intact (Ch11_DRAFT.md:24, §11.0). Nothing to fix; content already preserved."
+    },
+    {
+      "issue": 769,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_518",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_13_Fine_Structure_Constant_from_First_Principles/Ch13_DRAFT.md"
+      ],
+      "evidence": "Ch13_DRAFT.md:66-78 contains §13.1.4 \"The Contract of This Chapter\" with all four bolded points intact: one free number (ln(xi_A/eta_B)≈95.26), single answer with honest uncertainty (alpha^-1∈[137.17,137.47]), calculator-reproducible in 10 min, every gap labeled (§13.10).",
+      "recommendation": "No action. P-PRESERVE strength; \"Suggested Fix: Use verbatim as template.\" The praised passage exists intact in the current manuscript. Nothing to edit; this is a preservation/replication note, not a defect.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE (P-PRESERVE strength). The four-point \"Contract of This Chapter\" praised by reviewers is present verbatim at Vol 5 Ch 13 §13.1.4 (Ch13_DRAFT.md lines 66-78): one free number, single answer w/ honest uncertainty, calculator-reproducible, every gap labeled. Suggested fix was \"use as template\" — no defect to correct, nothing to change. Closing as no-action."
+    },
+    {
+      "issue": 770,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_12_The_Starlight_Problem_and_Chronology/Ch12_DRAFT.md"
+      ],
+      "evidence": "Ch12_DRAFT.md §1.2 (L56) honestly states the difficulties of \"Light created in transit\"; §4.2 (L366-374) rejects it explicitly on epistemic-integrity grounds (Heb 6:18, Titus 1:2; \"global deception\"). The praised passage is present and intact.",
+      "recommendation": "No action. P-PRESERVE finding praising existing content with suggested fix \"Preserve verbatim.\" The target passage still exists intact, so there is nothing to edit. Close as a satisfied preservation note.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE finding (praise, fix=\"Preserve verbatim\"). The honest rejection of \"light created in transit\" on epistemic-integrity grounds is present and intact in Vol 5 Ch 12 — §1.2 (L56) names its difficulties; §4.2 (L366-374) rejects it via Heb 6:18 / Titus 1:2. Nothing to fix; preservation satisfied.",
+      "taskId": "0516_Rev_519"
+    },
+    {
+      "issue": 771,
+      "taskId": "0516_Rev_520",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE (Strength)",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_12_The_Starlight_Problem_and_Chronology/Ch12_DRAFT.md"
+      ],
+      "evidence": "Ch12_DRAFT.md L100-156: full raqia'/raqa' etymology + 17-passage perfect-vs-participle grammatical analysis, footnoted to Waltke & O'Connor (§30.5.1, §37.6). Content is present and strong, matching the praised treatment.",
+      "recommendation": "No manuscript edit required. This is a P-PRESERVE/Strength note praising existing writing; the only \"fix\" is an aspirational template-replication suggestion, not an actionable defect. Issue may be closed as a non-actionable strength.",
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE/Strength finding. The praised Hebrew-etymology treatment exists and is intact in Vol 5 Ch 12 (Ch12_DRAFT.md L100-156): raqia'/raqa' etymology + 17-passage perfect/participle grammatical analysis, footnoted to Waltke & O'Connor. No defect; \"fix\" is only an aspirational template suggestion. No manuscript edit needed."
+    },
+    {
+      "issue": 772,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_521",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch15_Why_These_Constants/Ch15_Why_These_Constants_DRAFT.md"
+      ],
+      "evidence": "Severity=P-PRESERVE, Suggested Fix=\"Preserve.\" Ch15 DRAFT lines 7-11 carry the Einstein + Gen 1:1 epigraph; §15.6.3 \"Philosophical Capstone\" (lines 637-649) closes with \"the mathematics points somewhere.\" The praised content is intact; no action requested.",
+      "recommendation": "No edit needed. P-PRESERVE finding praises the Ch15 epigraph + §551/§15.6 capstone (closing Vol 4 §14's audit loop). Verified both present in current manuscript; close as preserve/no-action.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE (Suggested Fix: \"Preserve\"). Confirmed the Vol 5 Ch15 Einstein+Gen 1:1 epigraph (DRAFT L7-11) and the §15.6.3 Philosophical Capstone (L637-649) are intact in the current manuscript. Positive observation, no action required."
+    },
+    {
+      "issue": 773,
+      "taskId": "0516_Rev_522",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_13_Fine_Structure_Constant_from_First_Principles/Ch13_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_13_Fine_Structure_Constant_from_First_Principles/CHAPTER_SPEC.md"
+      ],
+      "evidence": "P-PRESERVE finding (positive observation, no defect). Cited honest-gap content is present & intact: Ch11 L435/L450 w_0=-1 exact vs -1.03+/-0.03 falsifier; L601 RT-5.OmegaA 27/68 audit; L662-668 explicit non-predictions. Ch13 has +/-0.15 budget (L447/L471/L541), already standardized into an honest range + covariance budget per rev 0516_Rev_336 (L24). Nothing to repair.",
+      "recommendation": "No edit needed. PRESERVE-tier = keep good practice and carry forward to Vol 6; not a manuscript defect. The honest falsifiers, RT/CT labels, and wager already exist in Vol 5 and Ch 13 was already revised toward the standardization this finding endorses. Action (if any) belongs to Vol 6 authoring, not a Vol 5 fix.",
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE finding praising Vol 5's intellectual honesty (commits-to-losing falsifiers), not a defect. All cited content is present and intact: Ch11 w_0=-1 exact vs -1.03+/-0.03 falsifier (L435/L450), RT-5.OmegaA 27/68 audit (L601), explicit non-predictions (L662); Ch13 +/-0.15 budget, already standardized into an honest range + covariance per rev 0516_Rev_336 (L24). Suggested fix is \"preserve/standardize for Vol 6\" -- a forward-carry note, no Vol 5 edit required."
+    },
+    {
+      "issue": 774,
+      "taskId": "0516_Rev_523",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md"
+      ],
+      "evidence": "Ch11_DRAFT.md:110 — the §11.2 remark states DE(smooth)/DM(clumpy) \"are not two fluids; they are two geometric boundary conditions on the same Firmament, one of which happens to be uniform and the other of which happens to be lumpy... not a coincidence... a geometric statement.\" Exactly the praised passage; intact.",
+      "recommendation": "No action. Severity is P-PRESERVE and the Suggested Fix is literally \"Preserve.\" It is a positive observation praising existing prose, not an actionable defect. The content remains present and unaltered, so nothing to change or close-with-edit.",
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE strength, suggested fix = \"Preserve.\" The praised passage is intact at Vol 5 Ch 11 §11.2 (Ch11_DRAFT.md:110): DE-smooth/DM-clumpy framed as \"two geometric boundary conditions... one uniform... one lumpy... not a coincidence... a geometric statement.\" No edit required; preservation requested and satisfied."
+    },
+    {
+      "issue": 775,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_524",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_06_The_Information_Paradox_Resolved/Ch06_DRAFT.md"
+      ],
+      "evidence": "Ch06_DRAFT.md:147-161 states Mathur theorem precisely (Theorem 5.6.1, premises M1/M2/M3). Lines 377-383 (§6.5.3 + Lemma 5.6.2) identify M1 (bulk = separate Hilbert factor) as the failing premise. Content matches finding exactly.",
+      "recommendation": "No action. P-PRESERVE finding praising existing writing as a template; suggested fix is \"Preserve. Use as template\" with no actionable task. The praised passage exists intact as described.",
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE (Strength) finding praising Vol 5 Ch 6's honest paradox resolution as a template; fix is \"Preserve. Use as template\" — no action required. Verified the praised content is intact: Ch06_DRAFT.md L147-161 states the Mathur small-corrections theorem precisely (Theorem 5.6.1, premises M1/M2/M3), and L377-383 (§6.5.3 + Lemma 5.6.2) identify premise M1 (bulk as separate Hilbert factor) as the one that fails. Safe to close."
+    },
+    {
+      "issue": 776,
+      "taskId": "0516_Rev_525",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_06_The_Information_Paradox_Resolved/Ch06_DRAFT.md"
+      ],
+      "evidence": "Ch06_DRAFT.md §6.7 \"Resolved vs. Rhetorically Resolved — A Skeptic's Audit\" (line 520) applies the four criteria (§6.7.2, line 537+) across firewalls, fuzzballs, remnants, ER=EPR, and the zone framework in a comparison table (lines 541-544). The praised argument is present and intact.",
+      "recommendation": "No action. This is a P-PRESERVE/Strength finding (\"Preserve.\") praising the existing §6.7 four-criteria Skeptic audit. The content exists as described; nothing to fix. Safe to close.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE/Strength finding: \"Preserve.\" No actionable edit. Vol 5 Ch 6 §6.7 \"A Skeptic's Audit\" (Ch06_DRAFT.md line 520) exists intact, applying the four criteria to firewalls/fuzzballs/remnants/ER=EPR/zone (table lines 541-544). Praised argument present; nothing to fix."
+    },
+    {
+      "issue": 777,
+      "taskId": "0516_Rev_526",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_05_Black_Holes_as_Zone_Infrastructure/Ch05_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_16_The_Technology_Roadmap/Ch16_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Back_Matter/Master_Index.md"
+      ],
+      "evidence": "P-PRESERVE strength, no action. Ch05 §5.0 (line 20) tells Theologian \"Firmament\" is a physics term, \"makes no theological claims,\" eschatology \"belong[s] to Book 3.\" §5.9.4 (line 535): Gen 1:6-8 is naming motivation only; Rev 6:14 / 2 Pet 3:10-13 are research-file commentary \"not reproduced here.\" Praised state confirmed present.",
+      "recommendation": "No edit. The finding praises existing discipline (boundary correctly placed, eschatology deferred to Book 3) and only asks it be preserved in Vol 6. Spot-check confirms Vol 6 honors it: Ch16 §16.6.6 names the eschatological \"ceiling\" explicitly without smuggling claims; the lone 2 Pet 3:10 hit is a Master_Index entry. Close as preserved.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, no manuscript edit needed. Praised state confirmed: Vol5 Ch5 §5.0 + §5.9.4 frame Genesis 1:6-8 as naming-motivation only and defer Rev 6:14 / 2 Pet 3:10-13 eschatology to Book 3, with explicit \"no theological claims\" note to the Theologian. Spot-check of Vol 6 shows the discipline is preserved (Ch16 §16.6.6 names the eschatological ceiling without smuggling claims). No deviation found."
+    },
+    {
+      "issue": 778,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "taskId": "0516_Rev_527",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_12_The_Starlight_Problem_and_Chronology/Ch12_DRAFT.md"
+      ],
+      "evidence": "Ch12_DRAFT.md line 344 (§4.1): note states the mature creation principle is \"unfalsifiable by construction,\" labels it a theological (not physical) principle, and adds \"The framework does not require the mature creation principle to make its physical predictions\" — exactly the praised handling.",
+      "recommendation": "No action. This is a P-PRESERVE / \"Strength\" finding; Suggested Fix is literally \"Preserve.\" The praised epistemological note still exists verbatim in the current manuscript. Nothing to edit.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE (Strength) finding; Suggested Fix = \"Preserve.\" The praised content remains intact: Vol 5 Ch 12 §4.1 (Ch12_DRAFT.md line 344) still concedes the mature creation principle is \"unfalsifiable by construction,\" frames it as theological-not-physical, and states the framework \"does not require\" it for physical predictions. No edit required."
+    },
+    {
+      "issue": 779,
+      "taskId": "0516_Rev_528",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_12_The_Starlight_Problem_and_Chronology/Ch12_DRAFT.md"
+      ],
+      "evidence": "Ch12_DRAFT.md §8.1 (lines 686-692) contains exactly the praised content: Malachi 3:6 immutability argument (\"I the LORD do not change\") + water liquid-to-ice phase-transition illustration. The optional strengthening (patristic operations-vs-essence) is already present at line 690: Cappadocian essence-vs-operations/energies distinction, \"later systematized in the Reformed tradition by Bavinck and Frame.\"",
+      "recommendation": "No action required. P-PRESERVE strength: the passage is intact and reads well. The Suggested Fix's only optional enhancement (patristic operations-vs-essence, ref 374) is already incorporated at line 690, so even the optional improvement is satisfied. Safe to close.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, no required action. Praised content present at Vol5 Ch12 §8.1 (Ch12_DRAFT.md L686-692): Malachi 3:6 immutability argument + water phase-transition illustration, intact. The optional strengthening (patristic operations-vs-essence) is already incorporated at L690 (Cappadocian essence/operations distinction, Bavinck & Frame). Nothing to fix; safe to close."
+    },
+    {
+      "issue": 780,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_529",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_05_Black_Holes_as_Zone_Infrastructure/Ch05_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_0/Vol_5_The_Cosmos/REVIEWER_11_Biblical_Traceability.md",
+        "01_Genesis_Physics/Quality_Control/Reference/"
+      ],
+      "evidence": "P-PRESERVE/Strength finding. Both praised disclaimers are intact in current manuscript: Ch05_DRAFT.md:20 (\"statement about topology and embedding geometry, not a theological claim... Hebrew raqia... physical membrane\") and Ch11_DRAFT.md:26 (\"Genesis is referenced only insofar as Vol 1 Ch 6... names of two scalar fields whose definitions and equations of motion were fixed four volumes ago\"). No defect exists.",
+      "recommendation": "No edit required. Finding praises existing Vol 5 disclaimers (intact) and only suggests aspirational \"promote series-wide\" replication, not a concrete repair. The Reference/ style sheets do not yet codify this as a mandated rule, but P-PRESERVE strengths carry no actionable defect; the optional series-wide propagation is an enhancement, not a fix.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE (Strength) finding from Biblical Trace reviewer. The two praised \"canonical disclaimer templates\" are present and unchanged in the current manuscript: Ch05_DRAFT.md:20 (raqia / \"topology not theology\") and Ch11_DRAFT.md:26 (\"Genesis = naming; scalar fields fixed four volumes ago\"). The only suggestion is the aspirational \"promote series-wide,\" which is an optional enhancement rather than a defect to repair. No manuscript edit is required to close."
+    },
+    {
+      "issue": 781,
+      "taskId": "0516_Rev_530",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_06_N_Body_Simulations/Ch06_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/CLAUDE.md"
+      ],
+      "evidence": "P-PRESERVE/Strength, no defect. Vol5 Ch11 §11.14 Problem Set retains Computational/Conceptual/Challenge tiers (lines 825-849), incl. \"why\"-style conceptual problems. The \"require for Vol6\" ask is met: Vol6 Ch6 \"## Problems\" (510-527) uses same Computational/Conceptual/Challenge labels; Book_0 CLAUDE.md mandates that tiering as a critical rule.",
+      "recommendation": "No edit. This is a praise/preserve item, not a fix. The lauded Vol 5 problem-set tiering persists and the forward propagation to Vol 6 (and the series rule) is already in place. Safe to close.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, no defect. Vol 5 Ch11 §11.14 still uses the praised Computational/Conceptual/Challenge problem tiers (lines 825-849). The \"require for Vol 6\" ask is already satisfied: Vol 6 Ch6 Problems (lines 510-527) use the same tiering, and Book_0 CLAUDE.md mandates it series-wide. Nothing to fix; closing."
+    },
+    {
+      "issue": 782,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_531",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_03_Gravitational_Waves/Ch03_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_11_Dark_Matter_and_Dark_Energy_Quantified/Ch11_DRAFT.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_06_The_Information_Paradox_Resolved/Ch06_DRAFT.md"
+      ],
+      "evidence": "Finding is Severity P-PRESERVE, Suggested Fix = \"Preserve.\" It praises that every Vol 5 claim is anchored to a standard-physics result. Spot-check confirms the anchors exist: Hulse-Taylor in Ch03_DRAFT.md; Pantheon/DESI/NFW/Bullet Cluster in Ch11_DRAFT.md; Mathur/Page/entropy in Ch06_DRAFT.md. No actionable task.",
+      "recommendation": "No action. This is a positive observation (P-PRESERVE strength) instructing to preserve existing anchoring, which remains intact. Safe to close as informational.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. Severity P-PRESERVE; suggested fix is \"Preserve.\" This is a strength finding praising that every Vol 5 claim is anchored to a standard-physics result. Verified the anchors still exist: Hulse-Taylor (Ch03), Pantheon/DESI/NFW/Bullet Cluster (Ch11), Mathur/Page/entropy (Ch06). No edit required; closing as informational/preserve."
+    },
+    {
+      "issue": 783,
+      "taskId": "0516_Rev_532",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_01_Einstein_Field_Equations_Recovered/Ch01_DRAFT.md"
+      ],
+      "evidence": "Ch01_DRAFT.md lines 122-130: §1.2 notation note explicitly flags the A,B collision in a 3-row table — (i) 6D tensor indices A,B in {0..5}, (ii) warp scalar functions A(ξ,η),B(ξ,η) inside e^{2A}/e^{2B}, (iii) Waters Above/Below subscripts — plus a rule-of-thumb disambiguator. The praised warning exists intact.",
+      "recommendation": "No action. P-PRESERVE strength: the suggested fix is \"Preserve.\" The notation-collision warning the Writing Coach praised is present and unchanged in the current manuscript, so there is nothing to edit. Close as not-applicable (positive observation).",
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE strength (suggested fix: \"Preserve\"), not an actionable defect. The praised A,B notation-collision warning is present in Vol 5 Ch 1 Ch01_DRAFT.md §1.2 (lines 122-130): a 3-row table disambiguating A,B as 6D tensor indices vs warp factors vs Waters subscripts, with a rule-of-thumb. Content intact; no edit required."
+    },
+    {
+      "issue": 784,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_533",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/Ch_08_Zone_Cosmological_Model/Ch08_DRAFT.md"
+      ],
+      "evidence": "P-PRESERVE/Strength note from Writing Coach. The praised text exists intact: Ch08_DRAFT.md lines 128-140, \"Why k=0\" two-paragraph argument (First...Second...) deriving spatial flatness from Waters equilibrium. No defect; \"Suggested Fix\" only asks to replicate the template elsewhere — aspirational, not a manuscript edit.",
+      "recommendation": "No action. This is a positive \"preserve\" observation, not a defect. The praised passage remains present and intact in §8.2. The suggestion to replicate the two-step compression template in other chapters is an authorial style aspiration, not a verifiable fix to this location.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. Severity P-PRESERVE (Writing Coach Strength), not a defect. The praised \"Why k=0\" two-paragraph argument is present and intact in Vol 5 Ch 8 §8.2 (Ch08_DRAFT.md lines 128-140). The \"Suggested Fix\" merely recommends replicating the template elsewhere — an aspirational note, no actionable edit at this location. No manuscript change required."
+    },
+    {
+      "issue": 785,
+      "taskId": "0516_Rev_534",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 5 -> Book 1",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Reviews/FullBook/FOUNDATIONS_CITATION_INDEX.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/CHAPTER_PROMPTS.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_5_The_Cosmos/Manuscript/"
+      ],
+      "evidence": "P-PRESERVE/Strength note (\"Cleanest cascade in project\"). Vol 5 dirs Ch_01 Einstein FE, Ch_04 Strong Field Gravity, Ch_08 Zone Cosmological Model, Ch_09 CMB, Ch_10 Large Scale Structure, Ch_11 Dark Matter/Energy, Ch_12 Starlight Problem, Ch_13 Fine Structure all exist and match Book 1 citations (CHAPTER_PROMPTS.md L317,399-402; FOUNDATIONS_CITATION_INDEX L355-466 verdict CASCADE INTACT, 35/35 GREEN).",
+      "recommendation": "No edit required. Finding is a positive observation; \"Suggested Fix\" is a preservation guard, not a defect. The Vol 5->Book 1 cascade still resolves (all 8 cited Vol 5 chapters present, numbering unchanged), so the preserve condition holds. Safe to close.",
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE/Strength note (\"Cleanest cascade in project\"), not an actionable defect. Verified all 8 Book 1-cited Vol 5 chapters (Chs 1,4,8,9,10,11,12,13) still exist with matching titles/numbering; FOUNDATIONS_CITATION_INDEX confirms CASCADE INTACT (35/35 GREEN). Preserve condition holds; no edit needed."
+    },
+    {
+      "issue": 786,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "taskId": "0516_Rev_535",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/VOLUME_PREFACE.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_4_The_Quantum_World/Front_Matter/PREFACE_On_Honesty.md"
+      ],
+      "evidence": "VOLUME_PREFACE.md L3-13 explicitly defines the three-part epistemic partition: Part A Core Validation (Ch 1-8), Part B Conditional Engineering (Ch 9-13), Part C Self-Assessment (Ch 14-17), plus a \"distinction is essential\" paragraph (L11) and posture note (L13). The praised content is present and intact.",
+      "recommendation": "No action on current manuscript. This is a P-PRESERVE strength finding; the only \"fix\" is to preserve (already intact) and replicate the template in FUTURE volumes' prefaces — forward-looking guidance, not a defect. No edit required.",
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE strength finding. The praised Part-A/B/C epistemic partition is present and intact in Vol_6/VOLUME_PREFACE.md (L3-13: Core Validation Ch1-8, Conditional Engineering Ch9-13, Self-Assessment Ch14-17). Suggested fix is \"preserve and replicate for future volumes\" — forward-looking guidance, no current-manuscript edit needed."
+    },
+    {
+      "issue": 787,
+      "taskId": "0516_Rev_536",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_04_Falsification_Criteria/Ch04_DRAFT.md"
+      ],
+      "evidence": "Ch04_DRAFT.md §4.2 (line 25) \"The Falsification Hierarchy — Not All Deaths Are Equal\" defines all 4 levels (lines 27-41). Newton/Mercury analogy at lines 27, 39. FK-1..FK-5 (lines 49,99) and PK-1..PK-4 (lines 113,135) present and tagged. Praised content intact.",
+      "recommendation": "No action. This is a P-PRESERVE strength, not a defect. The four-level hierarchy, FK/PK criteria, and Newton/Mercury analogy already exist as praised. Suggested \"template for Book 2\" is forward-looking guidance, not an edit to Vol 6. Safe to close.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, no manuscript edit required. The praised four-level falsification hierarchy (framework-killing/pillar/component/precision) exists intact in Vol 6 Ch 4 §4.2 (Ch04_DRAFT.md lines 25-41), including FK-1..FK-5, PK-1..PK-4, and the Newton/Mercury precession analogy. Suggested fix is \"preserve + template for Book 2,\" which is forward guidance, not a fix. Nothing to change."
+    },
+    {
+      "issue": 788,
+      "taskId": "0516_Rev_537",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_07_Firmament_Vibration_Spectra/Ch07_DRAFT.md"
+      ],
+      "evidence": "Ch07_DRAFT.md line 3 opener: framework \"gets the right neighborhood but the wrong house...treat an honest 1000× discrepancy as a research program rather than a refutation.\" Line 552 names the ~1000× light-lepton failure (Issue #2) explicitly. The lead-with-failure discipline is intact in the manuscript.",
+      "recommendation": "No manuscript edit. This is a P-PRESERVE \"Strength\" note praising existing discipline; suggested fix is \"preserve / inherit floor into Book 1,\" a forward-looking authoring guideline, not a defect in Vol 6. The praised text still exists.",
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE strength note, no actionable edit. The praised \"right neighborhood / wrong house\" + honest ~1000× mass-discrepancy framing is still present in Vol 6 Ch07 §7.1 (Ch07_DRAFT.md lines 3, 185, 552). Fix is \"preserve & inherit into Book 1,\" a guideline not a defect. Nothing to change."
+    },
+    {
+      "issue": 789,
+      "taskId": "0516_Rev_538",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_10_Energy_Harvesting/Ch10_DRAFT.md"
+      ],
+      "evidence": "Ch10_DRAFT.md: §10.1 η-framing (L168 \"single measured number, η\"); §10.4.4 OAE \"killer proof\" Kemp 1978 + clinical newborn screen (L217-228); §10.9.1 Phase-1 $150 garage test with locked success criterion \"η>0 at p<10⁻³\" and go/no-go gate (L734-746). All three preserved features intact and not loosened.",
+      "recommendation": "No action. P-PRESERVE is a positive observation (\"Preserve; do not loosen pre-registration\"), not an actionable defect. Verified the praised content (η-parameter framing, cochlea/OAE existence proof, $150 falsifiable Phase-1 protocol with locked success criterion) remains present and unaltered in the current manuscript.",
+      "closeNote": "NOT_APPLICABLE. This is a P-PRESERVE finding (praise, fix = \"preserve; do not loosen pre-registration\"), not a defect. Verified in Ch10_DRAFT.md that all three lauded elements survive intact: §10.1 η-parameter framing (L168), §10.4.4 cochlea/OAE existence proof (Kemp 1978, clinical newborn screen, L217-228), and §10.9.1 $150 Phase-1 test with locked success criterion η>0 at p<10⁻³ and go/no-go gate (L734-746). Nothing loosened or removed; no edit required."
+    },
+    {
+      "issue": 790,
+      "taskId": "0516_Rev_539",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_11_FTL_Communication/Ch11_DRAFT.md"
+      ],
+      "evidence": "Ch11_DRAFT.md: §11.2 is the entanglement-FTL demolition (L71); §11.2.3 \"The Controllability Root Cause\" + \"controllability gap\" (L117,123); no-signaling proven in zone picture, ρ_A=½𝟙 invariant of M_B (L108-115); P-132 explicit pre-registered NULL (L913,918). All praised content intact.",
+      "recommendation": "No action. P-PRESERVE/Strength finding whose suggested fix is \"Preserve.\" The praised material (controllability-gap argument, zone-reinterpreted no-signaling proof, P-132 null) is present and unchanged in the current draft.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, suggested fix is \"Preserve.\" Confirmed intact in Ch11_DRAFT.md: §11.2 controllability-gap demolition (L71/117/123), zone-picture no-signaling proof ρ_A=½𝟙 invariant of M_B (L89-115), and P-132 explicit pre-registered NULL prediction (L913/918). No edit required."
+    },
+    {
+      "issue": 791,
+      "taskId": "0516_Rev_540",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_13_Consciousness_and_the_Zone_Interface/Ch13_DRAFT.md"
+      ],
+      "evidence": "All praised content present in Ch13_DRAFT.md: §13.1 four temptations (L16); §13.2 explicit refusal of consciousness-causes-collapse / von Neumann–Wigner, decoherence completes measurement (L46,56); §13.4.2 non-implications (L232); §13.7 phenomenology gap (L413); §13.8.2 not-claimed (L467); §13.8.3 Pauline-triad gap, 1 Thess 5:23, no nephesh correlate (L487); closing reaffirmation (L586).",
+      "recommendation": "No manuscript action. This is a P-PRESERVE/Strength finding praising existing disciplined content, which is fully intact. The only forward action (lift verbatim into Family Edition) is a separate authoring task on a different product, not a fix to Vol 6.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE/Strength. Reviewers praised Vol 6 Ch 13 as best-disciplined quantum-consciousness chapter and asked to preserve verbatim. All cited content is intact in Ch13_DRAFT.md: §13.1 four temptations, §13.2 explicit refusal of consciousness-collapses-wavefunction (von Neumann–Wigner) with decoherence completing measurement, §13.4.2 non-implications, §13.7 phenomenology gap, §13.8.2 not-claimed list, §13.8.3 Pauline-triad gap. No manuscript fix needed; Family-Edition lift is a separate product task."
+    },
+    {
+      "issue": 792,
+      "taskId": "0516_Rev_541",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_14_Open_Problems/Ch14_DRAFT.md"
+      ],
+      "evidence": "Praised content all present in Ch14_DRAFT.md: §14.1.1 \"The Four Stances We Reject\" (L17); 27 open problems w/ severity tags, OP-1 BLOCKER (L49,101,153); §14.2.5 \"What Did Not Make the List\" (L81); §14.9 Formal Response to Critic Report (L548); §14.10 Formal Response to Skeptic Analysis (L629).",
+      "recommendation": "No action. P-PRESERVE/Strength finding; Suggested Fix is \"Preserve.\" The honest report-card structure praised by R-02 is intact in the current manuscript.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE strength finding (Suggested Fix: \"Preserve\"), no action required. All praised elements remain in Vol 6 Ch14_DRAFT.md: §14.1.1 four-stances preface (L17), 27 problems with severity tags + OP-1 BLOCKER (L49/101/153), §14.2.5 \"What Did Not Make the List\" (L81), §14.9 critic-report response (L548), §14.10 skeptic-analysis response (L629). The honest \"report card\" structure is intact."
+    },
+    {
+      "issue": 793,
+      "taskId": "0516_Rev_542",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript"
+      ],
+      "evidence": "Issue body: Severity P-PRESERVE, Description \"Rare and valuable.\", Suggested Fix \"Preserve drafting process / style-anchoring discipline.\" This is a praise/preserve note for Vol 6 voice consistency, not a defect. Vol 6 manuscript confirmed complete: Ch_01..Ch_17 all present plus Back_Matter and audiobook.",
+      "recommendation": "No edit required. P-PRESERVE is a positive observation praising existing voice consistency across Vol 6's 17 chapters. The \"fix\" is to keep the current style-anchoring discipline, not to change the manuscript. Close as preservation note / no action.",
+      "closeNote": "NOT_APPLICABLE. Issue #793 (0516_Rev_542) is a P-PRESERVE strength note: \"Rare and valuable\" praising voice consistency across Vol 6's 17 chapters, with suggested fix \"preserve drafting/style-anchoring discipline.\" No defect, no manuscript edit. Vol 6 confirmed complete (Ch_01..Ch_17 + back matter + audiobook). Safe to close as a preservation note requiring no action."
+    },
+    {
+      "issue": 794,
+      "taskId": "0516_Rev_543",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Back_Matter/Master_Index.md"
+      ],
+      "evidence": "Finding is Severity P-PRESERVE (a Strength). Body praises Master_Index.md as strongest back-matter asset; Suggested Fix is only \"Preserve; continue quarterly re-audit cadence\" — no actionable edit. Asset exists at Vol_6/Back_Matter/Master_Index.md (1,597 lines, ~10,908 words), substantial and intact.",
+      "recommendation": "No manuscript edit required. This is a positive preservation note, not a defect. The praised asset exists and is intact; the only \"action\" is to keep it and maintain the quarterly re-audit cadence, which is process/ops, not a manuscript change.",
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE Strength finding, not a defect. It praises Vol 6 Back_Matter/Master_Index.md and only says \"Preserve; continue quarterly re-audit cadence.\" Asset confirmed present and intact (1,597 lines / ~10,908 words). No manuscript edit needed."
+    },
+    {
+      "issue": 795,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_544",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_09_FTL_Travel/Ch09_DRAFT.md"
+      ],
+      "evidence": "§9.10 \"Honest Assessment\" intact in Ch09_DRAFT.md: five Rigor Ratings 70/80/90/75/60% (L1738-1789), Phase-3 honest constraint (L1792-1814), critically-examined theological argument (L1818-1848), \"What Would Change Everything\" pre-commitment (L1852-1866). Falsification criteria/nulls in §9.11 (L1882+).",
+      "recommendation": "No action. P-PRESERVE/Strength finding (suggested fix = \"Preserve\"); not an actionable defect. The praised passage exists unchanged in the current manuscript, so the preserve intent is already satisfied.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE strength finding (R-06) praising Vol 6 Ch 9 §9.10's epistemic courage; suggested fix is simply \"Preserve.\" No edit required. Verified the passage is intact in Ch09_DRAFT.md — Rigor Ratings (70/80/90/75/60%), honest Phase-3 constraint, critically-examined theological argument, and the \"What Would Change Everything\" pre-commitment all present, with falsification criteria in §9.11. Safe to close."
+    },
+    {
+      "issue": 796,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_545",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_01_Predictions_That_Match_Observation/Ch01_DRAFT.md"
+      ],
+      "evidence": "Ch01_DRAFT.md §1.1 \"What It Means to 'Match'\" (lines 13-19) contains the praised three-levels passage intact: Level 1 Exact reproduction, Level 2 Numerical agreement, Level 3 Structural agreement — the exact Exact/Numerical/Structural template cited.",
+      "recommendation": "No action. P-PRESERVE is a Strength/preserve note, not a defect. The suggested fix (\"Preserve as canonical template\") praises existing prose. The passage is present and unchanged; nothing to edit. Close as a positive observation.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE (Strength) note, no defect to fix. The praised passage survives intact in Vol 6 Ch1 §1.1 \"What It Means to 'Match'\" (Ch01_DRAFT.md lines 13-19): Level 1 Exact / Level 2 Numerical / Level 3 Structural. Suggested fix was merely \"preserve as canonical template.\" Content present and unchanged; closing."
+    },
+    {
+      "issue": 797,
+      "taskId": "0516_Rev_546",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_01_Predictions_That_Match_Observation/Ch01_DRAFT.md"
+      ],
+      "evidence": "Ch01_DRAFT.md §1.3 line 138: \"A potential circularity concern deserves explicit treatment... The beta function coefficient depends on the *particle content* of the theory (the number and charges of fermion species), not on the numerical value of α.\" Particle content sourced from Firmament resonance modes (Vol 4 Ch 10) + gauge structure (Vol 2 Ch 6).",
+      "recommendation": "No action. Severity is P-PRESERVE (Suggested Fix: \"Preserve\"). The praised passage is fully intact in the current manuscript; nothing to edit. Issue can be closed as a confirmed-preserved strength.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE strength, no action. Suggested Fix was \"Preserve.\" The praised passage explicitly treating QED β-function vs α circularity is present and intact in Vol 6 Ch 1 §1.3 (Ch01_DRAFT.md line 138): \"The beta function coefficient depends on the *particle content*... not on the numerical value of α.\" Particle content derived from Firmament resonance modes (Vol 4 Ch 10), gauge structure from zone symmetries (Vol 2 Ch 6). Confirmed preserved; closing."
+    },
+    {
+      "issue": 798,
+      "taskId": "0516_Rev_547",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_04_Falsification_Criteria/Ch04_DRAFT.md"
+      ],
+      "evidence": "Ch04_DRAFT.md line 5 retains the praised hook verbatim: \"*This chapter tells you exactly how to kill zone architecture. For every major claim, we state the specific observation that would destroy it...*\" — italic opening line, intact.",
+      "recommendation": "No action. This is a P-PRESERVE/Strength finding (suggested fix: \"Preserve\"). The praised italic opening hook still exists verbatim at Ch04_DRAFT.md:5. Nothing to fix; the desirable state is already present.",
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE (Strength) finding, suggested fix is \"Preserve.\" The praised italic opening hook (\"This chapter tells you exactly how to kill zone architecture...\") still exists verbatim at Vol 6 Ch04_DRAFT.md line 5. No edit required."
+    },
+    {
+      "issue": 799,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "taskId": "0516_Rev_548",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_10_Energy_Harvesting/Ch10_DRAFT.md"
+      ],
+      "evidence": "Ch10_DRAFT.md line 40-42: §10.1.3 \"The governing rule\" reads \"Every claim made in what follows must pass one test: identify the *external reservoir* that replenishes what the device extracts. A device without a named reservoir is, by definition, perpetual motion.\" The reservoir discipline recurs throughout (lines 160, 822, 873-875).",
+      "recommendation": "No action. This is a P-PRESERVE/Strength finding praising existing writing and asking to preserve it as a framework for engineering chapters. The praised §10.1.3 \"governing rule\" is confirmed intact in the current manuscript; no edit is requested or needed.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE — P-PRESERVE/Strength finding (no actionable edit). The praised content is intact: Vol 6 Ch 10 §10.1.3 \"The governing rule\" (Ch10_DRAFT.md L40-42) states every claim must \"identify the external reservoir that replenishes what the device extracts... A device without a named reservoir is, by definition, perpetual motion.\" Discipline recurs (L160, 822, 873-875). Nothing to fix."
+    },
+    {
+      "issue": 800,
+      "taskId": "0516_Rev_549",
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_10_Energy_Harvesting/Ch10_FINAL.md",
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_10_Energy_Harvesting/Ch10_DRAFT.md"
+      ],
+      "evidence": "Praised content intact in Ch10_FINAL.md: Prov 25:2 epigraph (line 3), Ps 111:2 (~line 84), and Gen 7:11 / \"stretched out\" non-derivational alongside-citation (line 614). Citations remain deletable without engineering loss as the reviewer noted.",
+      "recommendation": "No action. This is a P-PRESERVE \"Strength\" note praising Vol 6 Ch 10's non-derivational Scripture-as-parallel architecture as a model. Suggested fix is \"Preserve as model\" — no edit. Content still present in manuscript; nothing to change.",
+      "closeNote": "NOT_APPLICABLE: P-PRESERVE strength note, not an actionable defect. Praised content (Prov 25:2 epigraph, Ps 111:2, Gen 7:11/\"stretched out\" alongside-citation) confirmed intact in Vol 6 Ch 10 Ch10_FINAL.md (lines 3, ~84, 614). Suggested fix is \"preserve as model\" — no edit required."
+    },
+    {
+      "issue": 801,
+      "classification": "NOT_APPLICABLE",
+      "confidence": "high",
+      "unit": "Vol 6",
+      "severity": "P-PRESERVE",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_0_The_Foundations/Vol_6_Predictions_and_Simulations/Manuscript/Ch_13_Consciousness_and_the_Zone_Interface/Ch13_DRAFT.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_0/Vol_6_Predictions_and_Simulations/REVIEWER_09_Theologian.md",
+        "01_Genesis_Physics/Quality_Control/Reviews/Book_0/Vol_6_Predictions_and_Simulations/VOLUME_ROLLUP.md"
+      ],
+      "evidence": "P-PRESERVE/Strength finding (R-09,R-11), not a defect. Claim verified: grep for \"scripture proves\"/\"Bible shows\" in Vol 6 returns only Ch13 §13.8.2 (\"Not claimed 5\"), where the phrase appears precisely to DISAVOW derivational use: \"'the scripture and the derivation agree' is not the same as 'the scripture proves the derivation.'\" No derivational-context violation exists. Discipline confirmed in REVIEWER_09_Theologian.md:172.",
+      "recommendation": "No edit to Vol 6. This praises existing motivation/derivation discipline. The only actionable item (\"carry to Books 1 and 3\") is a forward propagation note for Book 1/Book 3 drafting, not a Vol 6 manuscript change. Out of scope for a Vol 6 verification; safe to close.",
+      "seriesWide": false,
+      "closeNote": "NOT_APPLICABLE. P-PRESERVE (Strength) finding praising Vol 6's motivation-not-proof discipline. Verified: only Vol 6 occurrence of \"scripture proves\"/\"Bible shows\" is Ch13 §13.8.2 \"Not claimed 5\", which explicitly disavows derivational use (\"'scripture and derivation agree' is not 'scripture proves the derivation'\"). No defect. Suggested action (\"carry to Books 1 & 3\") is forward guidance, not a Vol 6 fix."
+    },
+    {
+      "issue": 805,
+      "taskId": "0516_Rev_554",
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Book 1 — Hidden Architecture (Ch 4, 6, 7, 8, 12)",
+      "severity": "P1",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_04_The_Membrane_Between_Worlds/Ch04.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_06_More_Room_Than_You_Think/Ch06.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_07_Movement_Pattern_Interface/Ch07.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_08_Seven_Days_Seven_Patterns/Ch08.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_12_Faster_Than_Light_Darker_Than_Dark/Ch12.md"
+      ],
+      "evidence": "All 5 flagged chapters now carry [FIGURE] specs: Ch4 (Fig 1.4.1-1.4.2, lines 82/130), Ch6 (Fig 1.6.1-1.6.3, lines 60/114/132), Ch7 (Fig 1.7.1-1.7.3, lines 49/93/107), Ch8 (Fig 1.8.1-1.8.3, lines 63/103/137), Ch12 (Fig 1.12.1-1.12.4). Both load-bearing placements present: Ch6 zone-nesting (Fig 1.6.2) and 6D-to-4D projection (Fig 1.6.1). All follow Ch1 Fig 1.1.1 convention with Foundations citations.",
+      "recommendation": "No action. The missing-figure cascade is closed: every flagged chapter illustrates its load-bearing spatial reasoning. Minor: Ch4 figs show drumhead/standing-wave modes (not literal free/fixed/mass-loaded BCs) and Ch12 Fig 1.12.3 lacks explicit epsilon_r/mu_r labels, but the suggested fix specs were illustrative guidance; the substantive completeness problem is solved.",
+      "closeNote": "RESOLVED. The five-chapter missing-figure cascade has been closed. All flagged chapters now carry [FIGURE] placeholder specs matching the Ch1 Fig 1.1.1 convention with Foundations cross-refs: Ch4 (2), Ch6 (3), Ch7 (3), Ch8 (3), Ch12 (4). Both load-bearing placements present — Ch6 zone-nesting cross-section (Fig 1.6.2) and the higher-D projection (Fig 1.6.1). Spatial reasoning is now illustrated throughout."
+    },
+    {
+      "issue": 807,
+      "classification": "NEEDS_FIX",
+      "confidence": "high",
+      "unit": "Book 1 — The Hidden Architecture",
+      "severity": "P0",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Front_Back_Matter/COPYRIGHT_ACKNOWLEDGMENTS.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/STATUS.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Reviews/FullBook/REVIEWER_12_FullBook_Acquisitions.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Source_Reference/AppD_Biblical_References.docx"
+      ],
+      "evidence": "No bibliography exists in Book 1. Front_Back_Matter has only AUTHORS_NOTE/GLOSSARY/INDEX_SEED/COPYRIGHT_ACKNOWLEDGMENTS/FIGURE_*; no references/works-cited file. Glob *bibliograph* = none (only archival AppD_Biblical_References.docx). All \"Chicago/author-date/Wenham/Planck/Rovelli\" hits are in reviewer docs. STATUS.md still has unchecked \"[ ] Bibliography Comprehensive (200+ sources)\" (L217) and C7 Publisher readiness RED (L47).",
+      "recommendation": "Compile a Book 1 bibliography (Chicago author-date, 150–250 entries) as a new back-matter file in Front_Back_Matter/. Cover Hebrew scholarship (BDB/HALOT/Gesenius/Wenham/Waltke/Walton), physics/cosmology (Planck 2018, GW170817, ΛCDM, Einstein/Feynman/Penrose), and comp-space (Greene/Rovelli/Carroll/Lennox). Resolve all in-text Foundations and narrative citations to entries. Production task, not a manuscript edit.",
+      "seriesWide": false,
+      "closeNote": "NOT resolved. No bibliography exists anywhere in Book 1 (The Hidden Architecture). Front_Back_Matter contains glossary, index seed, copyright/acknowledgments, figure lists — but no references/works-cited file (only an archival AppD_Biblical_References.docx, which is a Scripture-reference appendix, not the scholarly bibliography). STATUS.md still lists \"Bibliography Comprehensive (200+ sources)\" as an unchecked deliverable and marks C7 Publisher readiness RED. This P0 production blocker (Chicago author-date, 150–250 refs) remains outstanding. Keep OPEN.",
+      "taskId": "0516_Rev_556"
+    },
+    {
+      "issue": 808,
+      "taskId": "0516_Rev_557",
+      "classification": "NEEDS_FIX",
+      "confidence": "high",
+      "unit": "Book 1 (The Hidden Architecture) — Front matter",
+      "severity": "P0",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Front_Back_Matter/COPYRIGHT_ACKNOWLEDGMENTS.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Front_Back_Matter/AUTHORS_NOTE.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Reviews/FullBook/REVIEWER_12_FullBook_Acquisitions.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/STATUS.md"
+      ],
+      "evidence": "Book 1 Front_Back_Matter has only COPYRIGHT_ACKNOWLEDGMENTS.md (+glossary/index/figure files). No title page, TOC, dedication, author bio, or About-the-Series file exists. COPYRIGHT_ACKNOWLEDGMENTS.md L16-18: publisher/ISBN/BISAC all \"TBD\". R-12 Acquisitions review L33-52 marks all these \"missing\"; STATUS.md L62 still lists TOC/author bio/metadata/copyright as pending production deliverables.",
+      "recommendation": "Build the missing Book 1 front-matter artifacts: title page, accurate 15-chapter TOC, dedication, and especially the author bio (150-200w jacket + 50-75w short, per finding's stated top priority). Add About-the-Series page. Populate copyright page with real ISBNs (print/Kindle/audio) and BISAC codes (SCI015000/REL106000/SCI034000) plus CIP; currently all TBD.",
+      "closeNote": "NEEDS_FIX. Front-matter scaffold still missing for Book 1. Only copyright+acknowledgments drafted (COPYRIGHT_ACKNOWLEDGMENTS.md, with ISBN/BISAC/publisher still \"TBD\"). No title page, TOC, dedication, author bio, or About-the-Series file exists in Front_Back_Matter/. The R-12 Acquisitions review and STATUS.md L62 both still list TOC, author bio, metadata, and copyright as open production deliverables. The finding's highest-priority item (author bio) is absent."
+    },
+    {
+      "issue": 822,
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Book 1 (Hidden Architecture) Ch 4, 6, 7, 8, 12",
+      "severity": "P1",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_04_The_Membrane_Between_Worlds/Ch04.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_06_More_Room_Than_You_Think/Ch06.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_07_Movement_Pattern_Interface/Ch07.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_08_Seven_Days_Seven_Patterns/Ch08.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_12_Faster_Than_Light_Darker_Than_Dark/Ch12.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_12_Faster_Than_Light_Darker_Than_Dark/Ch12_SPEC.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_10_Why_Gravity_Pulls_and_Light_Shines/Ch10.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_01_The_Most_Ignored_Page_in_Science/Ch01.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_15_The_Road_Ahead/Ch15.md"
+      ],
+      "evidence": "All five chapters now carry [FIGURE:] placeholders matching the asks: Ch04.md:82,130 (membrane/wave-speed); Ch06.md:114 load-bearing Fig 1.6.2 \"Zone Architecture in 6D\"; Ch07.md:93 seven-operator taxonomy; Ch08.md:103 Genesis-stage→operator table; Ch12.md:43,119 wave-speed/zone-boundary. Other load-bearing Fig 1.10.3 (6D action→Einstein+Maxwell) at Ch10.md:181. Full specs in Ch SPECs (e.g. Ch12_SPEC.md:131-133). Ch1 Fig 1.1.1 / Ch15 Fig 1.15.1 conventions present.",
+      "recommendation": "No action. The five requested placeholders exist in the current manuscript with detailed specs, including both placements flagged load-bearing (Fig 1.6.2, Fig 1.10.3). Close as resolved.",
+      "seriesWide": false,
+      "closeNote": "RESOLVED. All five originally-missing figure placeholders are now present in Book 1's manuscript: Ch4 (Fig 1.4.1/1.4.2 membrane drumhead + standing-wave/boundary), Ch6 (Fig 1.6.2 \"Zone Architecture in 6D\" — the load-bearing one — plus 1.6.1/1.6.3), Ch7 (Fig 1.7.2 seven-operator taxonomy), Ch8 (Fig 1.8.2 Genesis-stage→operator table), Ch12 (Fig 1.12.1/1.12.3 wave-speed-in-medium + zone-boundary). Full detailed specs live in each Ch_SPEC.md (verified Ch12_SPEC.md:131-133). The other load-bearing placement, Fig 1.10.3 (6D action→Einstein+Maxwell), is at Ch10.md:181. Ch1 Fig 1.1.1 / Ch15 Fig 1.15.1 spec conventions are present and matched.",
+      "taskId": "0516_Rev_571"
+    },
+    {
+      "issue": 823,
+      "taskId": "0516_Rev_572",
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Book 1, Ch 5 (The Hidden Energy)",
+      "severity": "P1",
+      "seriesWide": false,
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_05_The_Hidden_Energy/Ch05.md"
+      ],
+      "evidence": "Ch05.md line 138 is now a dedicated intermediate paragraph: \"I want to slow down here and name what just happened, because the move is more audacious than the prose around it lets on...\" It spells out the chain (open system→feeding layer→field with a state→ground-state w) and names the three required independent matches: existence, equation of state (w=−1), observational value (68%). Exactly the requested fix.",
+      "recommendation": "No action needed. The fast four-step transition has been broken out into an explicit \"audacious step\" paragraph (line 138) that names the three matches the Suggested Fix called for, making the rigor of the derivation visible before the takeaway at line 142.",
+      "closeNote": "RESOLVED. Ch05.md line 138 now contains a dedicated intermediate paragraph naming the dark-energy identification as an \"audacious\" move and requiring \"three independent matches\": existence (architecture demands the reservoir regardless of dark energy), equation of state (ground state forces w=−1), and observational value (must land at ~68%). This is precisely the Suggested Fix; the rigor of the four-step transition is now explicit rather than asserted."
+    },
+    {
+      "issue": 834,
+      "classification": "NEEDS_FIX",
+      "confidence": "high",
+      "unit": "Book 1, Ch 8 (Seven Days, Seven Patterns)",
+      "severity": "P2",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_08_Seven_Days_Seven_Patterns/Ch08.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_08_Seven_Days_Seven_Patterns/RESEARCH_GAP_0516_Rev_583.md",
+        "01_Genesis_Physics/Research/Papers/"
+      ],
+      "evidence": "Ch08.md §7 (line 163) still defers the control to \"later chapters in a different book\": \"whether other ancient creation sequences also line up... is [an] open question.\" No Enuma Elish/Atrahasis analysis exists in Research/Papers or anywhere in Research/. RESEARCH_GAP_0516_Rev_583.md (this issue) confirms GAP. §6 (lines 145-147) only runs nature lists (planets/scale/moon), not a rival ancient TEXT.",
+      "recommendation": "Run the MBSE/operator reading against >=1 rival ancient creation TEXT (Enuma Elish standard; Atrahasis optional), document where it fails the substrate-first/matter-before-sources/sources-before-life constraint set, land it in Research/Papers/, then add one paragraph to Ch08.md §7 reporting the control result and citing it. The §6 nature-list demo (planets/scale/moon) does NOT satisfy this; the reviewer asks for a rich ancient text, the exact confirmation-bias target.",
+      "seriesWide": false,
+      "taskId": "0516_Rev_583",
+      "closeNote": "NEEDS_FIX. The external control text (Enuma Elish/Atrahasis) has NOT been run. Ch08.md §7 (line 163) still defers it (\"open question... later chapters in a different book\"), and no such analysis exists in Research/. RESEARCH_GAP_0516_Rev_583.md confirms it remains a documented gap. The §6 demonstration runs only nature-derived seven-item lists (classical planets, musical scale, lunar phases) against the framework's constraints — that is the separate, SOLVED sibling item 0516_Rev_597 (#616), not a rich ancient creation text. The reviewer's confirmation-bias concern (any rich ancient text yields load-bearing nouns) requires an actual control text. Fix: run the operator reading on Enuma Elish, document the failure, land it in Research/Papers/, and add one paragraph to §7 citing it."
+    },
+    {
+      "issue": 835,
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Book 1, Ch 5 (The Hidden Energy)",
+      "severity": "P2",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_05_The_Hidden_Energy/Ch05.md"
+      ],
+      "evidence": "Ch05.md line 168 is a dedicated paragraph: \"open-system axiom is consistent with all three... Consistency is not the same as uniqueness. I have not shown that [it] is the only axiom...\" names alternatives (\"serious closed-system programs... quantum-gravitational and quantum-cosmological proposals... without any external input\"), concludes \"preferred for its economy and its reach, not required,\" and even cites Sean Carroll (the named Carroll-grade attack).",
+      "recommendation": "No action. The suggested fix is implemented near-verbatim: line 168 separates \"consistent with\" from \"required by,\" names a concrete closed-system alternative, and states the framework is preferred (economy/reach) without claiming it is forced. Builder's-honesty paragraphs (146, 164) and line 188 keep claims appropriately hedged elsewhere.",
+      "seriesWide": false,
+      "closeNote": "RESOLVED. Book 1 Ch 5 (The Hidden Energy) already contains a dedicated paragraph (Ch05.md ln 168) implementing the fix: it explicitly distinguishes \"consistent with\" from \"required by\" (\"Consistency is not the same as uniqueness\"), names a concrete alternative (closed-system quantum-gravitational/quantum-cosmological programs with no external input), and states the framework is \"preferred for its economy and its reach, not required\" — even naming the Sean Carroll attack the finding cited. No edit needed."
+    },
+    {
+      "issue": 837,
+      "taskId": "0516_Rev_586",
+      "classification": "RESOLVED",
+      "confidence": "high",
+      "unit": "Book 1, Ch 11 (Fall phase transition; was \"Ch 12\" pre-restructure)",
+      "severity": "P2",
+      "filesChecked": [
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_11_The_Rules_the_Universe_Cant_Break/Ch11.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_12_Faster_Than_Light_Darker_Than_Dark/Ch12.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_13_The_Starlight_Problem_Solved/Ch13.md",
+        "01_Genesis_Physics/Book_1_Hidden_Architecture/Manuscript/Ch_12_Faster_Than_Light_Darker_Than_Dark/Ch12_SPEC.md",
+        "01_Genesis_Physics/Research/Foundations/AXIOM_PHASE_TRANSITION_FALL.md"
+      ],
+      "evidence": "Fall transition now lives in Ch11 §5 (post-restructure; current Ch12 has no Fall section). Ch11:113 gives a thermodynamic definition: first-order transition, order parameter = curse-entropy-production rate (0 in Phase 2, nonzero Phase 3), ice/melting-point latent-heat analogue. Ch11:159,161 list 3 falsifiable signatures (stable decay rates, no bio-immortality, rising cosmic entropy budget) and 3 explicit kill conditions.",
+      "recommendation": "No edit needed. The one-paragraph thermodynamic definition the reviewer requested (order parameter, first-order/latent-heat analogue, observational signatures, falsification data) is present in Ch11 §5 and §7. CMB-specific signature is intentionally reserved to the Sabbath boundary in Ch13; the Fall instead carries a cosmic-entropy-budget (large-scale) signature, satisfying the reviewer's OR.",
+      "seriesWide": false,
+      "closeNote": "RESOLVED. The Fall phase transition (now in Book 1 Ch 11 §5/§7, relocated from the pre-restructure \"Ch 12\") has a written thermodynamic definition: first-order transition, order parameter = curse-entropy-production rate (zero pre-Fall, nonzero post), ice/melting-point latent-heat analogue, three falsifiable observational signatures (stable deep-time decay rates, no physics-independent bio-immortality, monotonically rising cosmic entropy budget), and three explicit data-would-kill-it conditions (Ch11.md lines 113, 159, 161). The reviewer's \"take on trust\" concern is met. CMB tie is correctly assigned to the separate Sabbath boundary in Ch 13."
+    }
+  ]
+}
