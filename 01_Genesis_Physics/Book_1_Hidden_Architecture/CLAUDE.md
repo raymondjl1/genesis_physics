@@ -117,6 +117,7 @@ If a sentence sounds like Brian Greene wrote it, ask whether Jeff L. Raymond wou
 - **Every claim traces to Foundations.** If it's derived in Vol 3, Ch 7, cite it: "(See Foundations Vol 3, §7.3 for the full derivation.)"
 - **Be honest about gaps.** If a derivation is incomplete in Foundations, say so explicitly. This earns reader trust.
 - **No scripture quotation.** This book is the popular-science flagship. The framework speaks for itself. Christ is revealed through the architecture, not through quotation. (Explicit scripture is the Family Edition's job.)
+- **Simplified transliteration by design.** Use diacritic-free Hebrew transliteration throughout (*raqia*, *bara*, *yom*) — no macrons or ayin marks, even at first mention. This is intentional and differs from Foundations, which uses the precise macron/ayin form (*rāqîaʿ*) at first mention. See the series-wide Transliteration Policy in `../CLAUDE.md` and the two-tier rule in Foundations Vol 1 AppC §C.20.
 - **Leave them hungry.** End every chapter wanting more. End the book pointing two ways: to the Family Edition (for readers who sense the theological undertow) and to the Foundations Series (for readers who want the math).
 
 ## Chapter Validation Workflow

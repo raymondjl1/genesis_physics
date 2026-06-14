@@ -115,6 +115,16 @@ When `gh` CLI is available:
 
 Canonical voice and author background for the entire franchise: `AUTHOR_VOICE_AND_BACKGROUND.md` (root of this folder).
 
+## Transliteration Policy (series-wide carve-out)
+
+Hebrew transliteration deliberately differs **by product tier**. This is an intentional, documented carve-out — not an inconsistency to be "fixed" by a consistency auditor:
+
+- **Foundations (Book 0)** uses the **precise macron/ayin form at first mention** — e.g., *rāqîaʿ* / *rāqîʿaʾ*, *bārāʾ*, *yôm*, *mayim* — then may fall back to simplified spellings for repeated in-prose references. This is the **two-tier rule** defined canonically in **Vol 1, Appendix C ("Hebrew Analysis"), §C.20 "Note on Transliteration."** Precise form anchors each term; simplified form keeps prose legible.
+- **Book 1 (*The Hidden Architecture*, trade)** uses **simplified, diacritic-free transliteration throughout by design** — e.g., *raqia*, *bara*, *yom* — to serve the intelligent-layperson reader, with no macrons or ayin marks required even at first mention.
+- **Book 3 (Family Edition)** follows the same diacritic-free simplification as the trade tier.
+
+**Rule for editors/reviewers:** Do **not** flag *raqia* (Book 1/Book 3) against *rāqîaʿ* (Foundations) as a contradiction. The difference is audience-driven and intentional. When in doubt, cross-reference Vol 1 AppC §C.20. Mirrored in `Quality_Control/Reference/Glossary.md` and in `Book_1_Hidden_Architecture/CLAUDE.md`.
+
 ## What NOT to Do
 
 - **Never skip the "why."** If you can't explain why, don't write it.

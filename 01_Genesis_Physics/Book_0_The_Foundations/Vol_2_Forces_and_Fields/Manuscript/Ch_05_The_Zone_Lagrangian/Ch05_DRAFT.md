@@ -112,7 +112,7 @@ where $[K]_{-}^{+}$ denotes the jump in extrinsic curvature across $\Sigma$ in t
 
 ### §5.1.4 Sector 3: Waters
 
-The Waters sector contains two scalar fields: $\Psi_A$ (Waters Above, filling the ξ-region) and $\Psi_B$ (Waters Below, filling the η-region). Their Lagrangian density was established in Volume 1, Chapter 6:
+The Waters sector contains two scalar fields: $\Psi_A$ (Waters Above, filling the ξ-region) and $\Psi_B$ (Waters Below, filling the η-region $W_B$). Here $\Psi_B$ is the *field* sense of "Waters Below," distinct from the manifold region $W_B$ it inhabits (canonical disambiguation: `Quality_Control/Reference/Symbol_and_Constants.md`). The *Waters* (*mayim*) and their division by the *rāqîaʿ* are the Genesis 1:6–7 structure derived in Vol 1 Ch 3–5; for the Hebrew word study see Vol 1, Appendix C, "Hebrew Analysis." Their Lagrangian density was established in Volume 1, Chapter 6:
 
 $$\mathcal{L}_\text{waters} = -\frac{1}{2} g^{AB} \partial_A \Psi_A \, \partial_B \Psi_A - V_A(\Psi_A) - \frac{1}{2} g^{AB} \partial_A \Psi_B \, \partial_B \Psi_B - V_B(\Psi_B) - G_\text{int} \Psi_A \Psi_B \tag{2.5.7}$$
 

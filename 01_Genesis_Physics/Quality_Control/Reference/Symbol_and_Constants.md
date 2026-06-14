@@ -92,6 +92,21 @@ Location: `Quality_Control/Reference/Symbol_and_Constants.md`
 
 ---
 
+## "Waters Below" — Notation Convention (canonical disambiguation — 2026-06-13, #256 resolution)
+
+The phrase **"Waters Below"** carries *four distinct senses* across Vol 2 (Ch 01 §1.0, Ch 04 §4.2, Ch 05, Ch 06). They share a name and a boundary parameter (η_B) but are different objects with different dimensions, and must not be conflated. Reserve a distinct symbol for each:
+
+| Sense | Reserved symbol | Dimension | What it is | Canonical first use |
+|-------|-----------------|-----------|------------|---------------------|
+| **Field** | **Ψ_B** | (field on spacetime) | The dark-matter field/excitation; w ≈ 0, ρ ∝ a⁻³ (see Waters Fields table above) | Ch 05 §5.x; Glossary "Waters Below" |
+| **Region (1D real slice)** | **W_B** | 1D | The η-interval region between the branes, 0 ≤ η ≤ η_B; the real transverse slice | Vol 2 Ch 04 §4.2 (Eq. before 2.4.1) |
+| **Region (2D complex fiber)** | **W_B^ℂ** | 2D | The complexified transverse fiber w = η₁ + iη₂ = ρe^{iψ}, \|w\| ≤ η_B, on which the Z₃ orbifold acts | Vol 2 Ch 04 §4.2 (Eq. 2.4.1a) |
+| **Scriptural referent** | **"Waters Below (Gen 1:7)"** | — | The mayim beneath the rāqîaʿ of Genesis 1:6–7; the scriptural object the geometry instantiates | Gen 1:6–7; Vol 1 Ch 3–5 |
+
+**Rules:** (1) **Ψ_B** is *always* the field, never the region — do not write "Ψ_B" for the η-slice. (2) **W_B** is the 1D real region (the η-interval); **W_B^ℂ** is its 2D complexification (the fiber the Z₃ action requires). The same boundary scale η_B bounds both (η ∈ [0, η_B] for W_B; \|w\| ≤ η_B for W_B^ℂ). (3) When "Waters Below" denotes the **scriptural** object, tag it **(Gen 1:7)** so the referent is unambiguous. (4) The bare phrase "Waters Below" in prose defaults to the **region** sense (W_B / W_B^ℂ); use the reserved symbol whenever dimension or field-vs-region could be ambiguous. Mirrored in `Glossary.md`.
+
+---
+
 ## Topological Winding Numbers (canonical notation — 2026-06-12, #849-race O5 resolution)
 
 Two **distinct π₁ invariants** were historically both written "n_w" (or "n_ξ"). They must not be conflated — conflating them was the factor-3 double-count diagnosed in the #849 derivation race (`Research/Peer_Review/849_nw3_derivation_race/REFEREE_REPORT.md`, corpus correction #6; both race teams reached this disentanglement independently).

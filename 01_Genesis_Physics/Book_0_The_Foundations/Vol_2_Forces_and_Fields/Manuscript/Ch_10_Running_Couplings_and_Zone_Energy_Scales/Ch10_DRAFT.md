@@ -16,7 +16,7 @@ This chapter answers those questions. What we will find is both beautiful and un
 
 We will derive the beta functions that govern this running from the zone Lagrangian of Chapter 5, solve the running equations for all three gauge couplings, and discover that they converge toward a single value at extraordinarily high energy — the energy where the probe resolves the full extra-dimensional structure. This convergence is the zone architecture's prediction for grand unification, and it provides one of the most powerful consistency tests of the entire framework.
 
-> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry. (For the Hebrew word study behind *rāqîaʿ* / *mayim* and the separation verb, see Vol 1, Appendix C, "Hebrew Analysis.")
 
 ---
 
@@ -58,7 +58,7 @@ There is a natural energy scale where the extra-dimensional structure first beco
 
 $$Q_m \sim \frac{\hbar c}{\eta_B} \tag{2.10.2}$$
 
-With η_B ≈ 1.3 × 10^{-15} m:
+With $\eta_B \approx 1.3 \times 10^{-15}$ m:
 
 $$Q_m = \frac{(1.055 \times 10^{-34}\;\text{J·s})(3 \times 10^8\;\text{m/s})}{1.3 \times 10^{-15}\;\text{m}} \approx 0.977\;\text{GeV} \tag{2.10.3}$$
 
@@ -72,7 +72,7 @@ The running has two natural boundaries imposed by the zone architecture.
 
 $$E_{\text{Planck}} = \sqrt{\frac{\sigma}{\hbar \mu}} \approx 1.22 \times 10^{19}\;\text{GeV} \tag{2.10.4}$$
 
-**The IR cutoff** comes from the Waters Above extent ξ_A ≈ 3 × 10^{26} m (the observable universe radius):
+**The IR cutoff** comes from the Waters Above extent $\xi_A \approx 3 \times 10^{26}$ m (the observable universe radius):
 
 $$E_{\text{IR}} \sim \frac{\hbar c}{\xi_A} \approx 6.6 \times 10^{-43}\;\text{GeV} \tag{2.10.5}$$
 
@@ -100,13 +100,13 @@ Before computing how couplings run, we need a clear map of the energy scales tha
 
 | Energy Scale | Value | Zone Feature | What Becomes Visible |
 |-------------|-------|-------------|---------------------|
-| E_IR | ~10^{-43} GeV | ξ_A (Waters Above boundary) | Cosmic horizon; IR cutoff |
-| Λ_QCD | ~0.2-0.4 GeV | Strong coupling → non-perturbative | Color confinement; hadrons form |
-| Q_m | ~1 GeV | η_B (Waters Below boundary) | Nuclear structure; first KK modes |
-| m_t | 172.8 GeV | Top quark mass (Yukawa + Higgs VEV) | Top quark threshold |
-| M_Z | 91.2 GeV | Electroweak scale (Higgs condensate) | W/Z bosons; electroweak unification visible |
-| E_GUT | ~10^{16} GeV | Compactification radius | Full extra-dimensional geometry; three forces merge |
-| E_Planck | ~10^{19} GeV | Firmament tension dominates | Membrane structure; quantum gravity |
+| $E_\text{IR}$ | $\sim 10^{-43}$ GeV | $\xi_A$ (Waters Above boundary) | Cosmic horizon; IR cutoff |
+| $\Lambda_\text{QCD}$ | ~0.2–0.4 GeV | Strong coupling → non-perturbative | Color confinement; hadrons form |
+| $Q_m$ | ~1 GeV | $\eta_B$ (Waters Below boundary) | Nuclear structure; first KK modes |
+| $m_t$ | 172.8 GeV | Top quark mass (Yukawa + Higgs VEV) | Top quark threshold |
+| $M_Z$ | 91.2 GeV | Electroweak scale (Higgs condensate) | W/Z bosons; electroweak unification visible |
+| $E_\text{GUT}$ | $\sim 10^{16}$ GeV | Compactification radius | Full extra-dimensional geometry; three forces merge |
+| $E_\text{Planck}$ | $\sim 10^{19}$ GeV | Firmament tension dominates | Membrane structure; quantum gravity |
 
 The crucial observation is that these are not arbitrary scales inserted by hand. Each one corresponds to a specific geometric feature of the zone manifold:
 
@@ -315,13 +315,13 @@ At Q = 1 TeV:
 
 $$\alpha_s^{-1}(1\;\text{TeV}) = 8.48 + \frac{7}{2\pi}\ln\!\left(\frac{1000}{91.2}\right) = 8.48 + 1.114 \times 2.394 = 8.48 + 2.67 = 11.15 \tag{2.10.32}$$
 
-So α_s(1 TeV) ≈ 1/11.15 ≈ 0.0897, consistent with the measured value 0.0888 at 1 TeV.
+So $\alpha_s(1\;\text{TeV}) \approx 1/11.15 \approx 0.0897$, consistent with the measured value 0.0888 at 1 TeV.
 
-At Q = 10^4 GeV:
+At $Q = 10^{4}$ GeV:
 
 $$\alpha_s^{-1}(10^4\;\text{GeV}) = 8.48 + 1.114 \times \ln(10^4/91.2) = 8.48 + 1.114 \times 4.70 = 8.48 + 5.24 = 13.72 \tag{2.10.33}$$
 
-So α_s(10^4 GeV) ≈ 0.073.
+So $\alpha_s(10^{4}\;\text{GeV}) \approx 0.073$.
 
 **Running to lower energies — the QCD scale:**
 
@@ -380,17 +380,17 @@ This gives α_2(M_Z) ≈ 1/31.8 ≈ 0.0315. The measured value α_2(M_Z) ≈ 1/2
 
 We compile the running coupling constants at several energy scales, using the experimentally anchored M_Z values as input:
 
-| Scale (GeV) | α_1^{-1} | α_2^{-1} | α_3^{-1} | Note |
+| Scale (GeV) | $\alpha_1^{-1}$ | $\alpha_2^{-1}$ | $\alpha_3^{-1}$ | Note |
 |-------------|-----------|-----------|-----------|------|
-| 1 (Q_m) | ~62 | ~27 | ~3 | Near membrane scale |
-| 91.2 (M_Z) | 59.2 | 29.6 | 8.48 | **Experimental anchor** |
-| 10^3 | 57.6 | 30.8 | 11.1 | 1 TeV |
-| 10^6 | 54.7 | 33.1 | 19.1 | |
-| 10^{10} | 49.5 | 37.6 | 31.6 | |
-| 10^{14} | 44.2 | 42.1 | 44.1 | Near GUT scale |
-| 10^{16} | 42.0 | 43.6 | 47.2 | GUT scale region |
+| 1 ($Q_m$) | ~62 | ~27 | ~3 | Near membrane scale |
+| 91.2 ($M_Z$) | 59.2 | 29.6 | 8.48 | **Experimental anchor** |
+| $10^{3}$ | 57.6 | 30.8 | 11.1 | 1 TeV |
+| $10^{6}$ | 54.7 | 33.1 | 19.1 | |
+| $10^{10}$ | 49.5 | 37.6 | 31.6 | |
+| $10^{14}$ | 44.2 | 42.1 | 44.1 | Near GUT scale |
+| $10^{16}$ | 42.0 | 43.6 | 47.2 | GUT scale region |
 
-The pattern is unmistakable: α_1^{-1} decreases, α_2^{-1} and α_3^{-1} increase, and the three values converge at high energy. Do they meet at a single point? That is the question of grand unification.
+The pattern is unmistakable: $\alpha_1^{-1}$ decreases, $\alpha_2^{-1}$ and $\alpha_3^{-1}$ increase, and the three values converge at high energy. Do they meet at a single point? That is the question of grand unification.
 
 [FIGURE: Fig 2.10.2 — Running of the Three Gauge Couplings. Horizontal axis: log_{10}(Q/GeV) from 0 to 19. Vertical axis: α_i^{-1} from 0 to 70. Three lines: α_1^{-1} (red, decreasing), α_2^{-1} (blue, increasing slowly), α_3^{-1} (green, increasing steeply). Experimental data points at M_Z. Zone predictions overlaid. Lines nearly converge around 10^{15}-10^{16} GeV.]
 
@@ -450,7 +450,7 @@ $$E_{\text{GUT}} = 91.2 \times e^{34.6} \approx 91.2 \times 1.04 \times 10^{15} 
 
 ### The Unification Triangle
 
-Methods 1 and 2 give different answers: 1.3 × 10^{13} GeV and 9.5 × 10^{16} GeV. This is the well-known **gauge coupling unification problem** of the Standard Model. At one loop with only Standard Model particle content, the three couplings do not meet at a single point. They form a small triangle in the (log Q, α^{-1}) plane, with the three pairwise intersection points spread over several orders of magnitude.
+Methods 1 and 2 give different answers: $1.3 \times 10^{13}$ GeV and $9.5 \times 10^{16}$ GeV. This is the well-known **gauge coupling unification problem** of the Standard Model. At one loop with only Standard Model particle content, the three couplings do not meet at a single point. They form a small triangle in the (log Q, α^{-1}) plane, with the three pairwise intersection points spread over several orders of magnitude.
 
 This is not a failure. It is a *precision test* that tells us something important: **exact unification at one loop requires physics beyond the minimal Standard Model**. In the conventional GUT framework, supersymmetry or additional heavy particles at intermediate scales can close the triangle.
 
@@ -496,25 +496,25 @@ The decay rate depends on the GUT scale as:
 
 $$\Gamma(p \to e^+\pi^0) \sim \frac{\alpha_{\text{GUT}}^2\, m_p^5}{M_{\text{GUT}}^4} \tag{2.10.59}$$
 
-With E_GUT ~ 10^{15}-10^{16} GeV, let us work through the full calculation. Taking E_GUT = 10^{15.5} ≈ 3.16 × 10^{15} GeV and α_GUT ≈ 0.025:
+With $E_\text{GUT} \sim 10^{15}$–$10^{16}$ GeV, let us work through the full calculation. Taking $E_\text{GUT} = 10^{15.5} \approx 3.16 \times 10^{15}$ GeV and $\alpha_\text{GUT} \approx 0.025$:
 
 $$\tau_p \sim \frac{M_{\text{GUT}}^4}{\alpha_{\text{GUT}}^2\, m_p^5} = \frac{(3.16 \times 10^{15}\;\text{GeV})^4}{(0.025)^2 \times (0.938\;\text{GeV})^5} \tag{2.10.60}$$
 
-Computing the numerator: (3.16 × 10^{15})^4 = 1.0 × 10^{62} GeV^4. The denominator: (6.25 × 10^{-4}) × (0.938)^5 = (6.25 × 10^{-4}) × 0.726 = 4.54 × 10^{-4} GeV^5. So:
+Computing the numerator: $(3.16 \times 10^{15})^4 = 1.0 \times 10^{62}$ GeV$^4$. The denominator: $(6.25 \times 10^{-4}) \times (0.938)^5 = (6.25 \times 10^{-4}) \times 0.726 = 4.54 \times 10^{-4}$ GeV$^5$. So:
 
 $$\tau_p \sim \frac{10^{62}}{4.54 \times 10^{-4}}\;\text{GeV}^{-1} = 2.2 \times 10^{65}\;\text{GeV}^{-1}$$
 
-Converting to seconds using ℏ = 6.58 × 10^{-25} GeV·s:
+Converting to seconds using $\hbar = 6.58 \times 10^{-25}$ GeV·s:
 
 $$\tau_p \sim 2.2 \times 10^{65} \times 6.58 \times 10^{-25}\;\text{s} = 1.4 \times 10^{41}\;\text{s} \approx 4.6 \times 10^{33}\;\text{years}$$
 
-Varying E_GUT across the range 10^{15}-10^{16} GeV:
+Varying $E_\text{GUT}$ across the range $10^{15}$–$10^{16}$ GeV:
 
 $$\boxed{\tau_p \sim 10^{34}\text{-}10^{36}\;\text{years}} \tag{2.10.61}$$
 
-The current experimental lower limit from Super-Kamiokande is τ_p > 8.2 × 10^{33} years for this decay mode. The zone prediction of 10^{34}-10^{36} years is consistent with current limits and potentially within reach of next-generation proton decay experiments (Hyper-Kamiokande, DUNE).
+The current experimental lower limit from Super-Kamiokande is $\tau_p > 8.2 \times 10^{33}$ years for this decay mode. The zone prediction of $10^{34}$–$10^{36}$ years is consistent with current limits and potentially within reach of next-generation proton decay experiments (Hyper-Kamiokande, DUNE).
 
-**This is a genuine testable prediction.** If proton decay is observed in the 10^{34}-10^{36} year range, it supports the zone framework. If the proton is stable beyond 10^{37} years, the one-loop GUT scale estimate would need revision — likely pushing E_GUT closer to the Planck scale (10^{19} GeV), which would give τ_p > 10^{45} years (effectively unobservable).
+**This is a genuine testable prediction.** If proton decay is observed in the $10^{34}$–$10^{36}$ year range, it supports the zone framework. If the proton is stable beyond $10^{37}$ years, the one-loop GUT scale estimate would need revision — likely pushing $E_\text{GUT}$ closer to the Planck scale ($10^{19}$ GeV), which would give $\tau_p > 10^{45}$ years (effectively unobservable).
 
 [FIGURE: Fig 2.10.3 — GUT Convergence: Zone Architecture Prediction. Same axes as Fig 2.10.2 but zoomed into the 10^{12}-10^{18} GeV region. Shows the one-loop "triangle" where the three pairwise intersections differ. Shaded band indicates the region where two-loop + KK corrections bring the lines together. Labels: E_GUT range, α_GUT^{-1} ≈ 40, and the "unification window."]
 
@@ -542,7 +542,7 @@ The two-loop correction modifies the running by approximately:
 
 $$\Delta\alpha_i^{-1} \sim \frac{c_{ij}}{(2\pi)^2}\alpha_j \times \ln\!\left(\frac{Q}{M_Z}\right) \tag{2.10.64}$$
 
-At Q = 10^{16} GeV and with α_j ~ 0.03:
+At $Q = 10^{16}$ GeV and with $\alpha_j \sim 0.03$:
 
 $$\Delta\alpha_i^{-1} \sim \frac{100}{40}\times 0.03 \times 33 \approx 2.5 \tag{2.10.65}$$
 
@@ -612,7 +612,7 @@ Including one-loop running with threshold corrections at m_t, m_H, and M_Z:
 | α_em^{-1}(M_Z) | ~129 | 127.94 | 127.94 ± 0.01 | ~1% |
 | α_s(M_Z) | 0.1179 (input) | 0.1179 | 0.1179 ± 0.0010 | — |
 | sin^2θ_W(M_Z) | 0.2312 | 0.23122 | 0.23122 ± 0.00003 | <0.01% |
-| E_GUT (one-loop) | 10^{13}-10^{17} GeV | 10^{15}-10^{16} GeV | untested | broad range |
+| $E_\text{GUT}$ (one-loop) | $10^{13}$–$10^{17}$ GeV | $10^{15}$–$10^{16}$ GeV | untested | broad range |
 
 **Honest assessment:** The beta function coefficients are derived exactly from the zone Lagrangian structure and match the Standard Model values perfectly. The running equations at one loop are identical. The discrepancies in numerical running arise from: (a) the precision of the Firmament-scale anchor values, and (b) two-loop and higher corrections not yet computed within the full 6D framework.
 
@@ -643,10 +643,10 @@ These results use one or more measured quantities as input, then derive predicti
 
 | Result | Input Used | Prediction | Accuracy |
 |--------|-----------|------------|----------|
-| α_s running above M_Z | α_s(M_Z) = 0.1179 | α_s(1 TeV) ≈ 0.089 | **<2%** |
-| α_em running | α_em^{-1}(0) = 137.036 | α_em^{-1}(M_Z) ≈ 128-134 | **5%** (one-loop) |
-| E_GUT estimate | All three α_i(M_Z) | 10^{13}-10^{17} GeV | **Order of magnitude** |
-| Proton lifetime | E_GUT, α_GUT | 10^{34}-10^{36} years | **Order of magnitude** |
+| $\alpha_s$ running above $M_Z$ | $\alpha_s(M_Z) = 0.1179$ | $\alpha_s(1\;\text{TeV}) \approx 0.089$ | **<2%** |
+| $\alpha_\text{em}$ running | $\alpha_\text{em}^{-1}(0) = 137.036$ | $\alpha_\text{em}^{-1}(M_Z) \approx 128$–$134$ | **5%** (one-loop) |
+| $E_\text{GUT}$ estimate | All three $\alpha_i(M_Z)$ | $10^{13}$–$10^{17}$ GeV | **Order of magnitude** |
+| Proton lifetime | $E_\text{GUT}$, $\alpha_\text{GUT}$ | $10^{34}$–$10^{36}$ years | **Order of magnitude** |
 
 ### Estimated (Known Gaps)
 
@@ -663,7 +663,7 @@ These quantities have partial derivations with identified gaps:
 
 These are genuinely unresolved and await further development:
 
-1. **Does gravity unify with the gauge forces?** The gauge couplings converge at ~10^{15}-10^{16} GeV. Gravity couples through a different geometric sector (volume dilution vs. boundary modes). Whether gravitational and gauge unification occurs at the Planck scale (10^{19} GeV) or at some intermediate scale is an open question in this framework.
+1. **Does gravity unify with the gauge forces?** The gauge couplings converge at $\sim 10^{15}$–$10^{16}$ GeV. Gravity couples through a different geometric sector (volume dilution vs. boundary modes). Whether gravitational and gauge unification occurs at the Planck scale ($10^{19}$ GeV) or at some intermediate scale is an open question in this framework.
 
 2. **What is the precise KK mode spectrum?** The warp-factor profiles A(ξ) and B(η) determine the KK tower, which modifies the running above the compactification scale. The precise spectrum depends on the full non-linear solution of the 6D Einstein equations, which Volume 5 develops.
 
@@ -689,9 +689,9 @@ The framework is designed to be *extensible*: two-loop corrections, higher KK mo
 
 ## 10.8 The Running Hierarchy
 
-Before we close, one result deserves special attention. In Chapter 9, we found that the hierarchy ratio α_em/α_G ≈ 10^{36} at low energy is explained by the geometric mechanism of volume dilution vs. logarithmic coupling. But this ratio is not constant — it *runs* with energy.
+Before we close, one result deserves special attention. In Chapter 9, we found that the hierarchy ratio $\alpha_\text{em}/\alpha_G \approx 10^{36}$ at low energy is explained by the geometric mechanism of volume dilution vs. logarithmic coupling. But this ratio is not constant — it *runs* with energy.
 
-The gauge couplings approach each other as the energy increases. At E_GUT ~ 10^{15}-10^{16} GeV, all three gauge couplings are approximately equal (α_GUT ≈ 1/40). Meanwhile, the gravitational coupling α_G also runs — weakly, as gravity becomes stronger at higher energies through the increase in the relevant mass scale:
+The gauge couplings approach each other as the energy increases. At $E_\text{GUT} \sim 10^{15}$–$10^{16}$ GeV, all three gauge couplings are approximately equal ($\alpha_\text{GUT} \approx 1/40$). Meanwhile, the gravitational coupling $\alpha_G$ also runs — weakly, as gravity becomes stronger at higher energies through the increase in the relevant mass scale:
 
 $$\alpha_G(Q) = \frac{G_4\, Q^2}{\hbar c^5} \tag{2.10.69}$$
 
@@ -703,11 +703,11 @@ The hierarchy ratio at the GUT scale is:
 
 $$\frac{\alpha_{\text{GUT}}}{\alpha_G(E_{\text{GUT}})} \sim \frac{0.025}{10^{-6}} = 2.5 \times 10^4 \tag{2.10.71}$$
 
-Compare this to the low-energy ratio of 10^{36}. The hierarchy has *collapsed* from 36 orders of magnitude to only 4. At the Planck scale (10^{19} GeV), the gravitational coupling reaches:
+Compare this to the low-energy ratio of $10^{36}$. The hierarchy has *collapsed* from 36 orders of magnitude to only 4. At the Planck scale ($10^{19}$ GeV), the gravitational coupling reaches:
 
 $$\alpha_G(E_{\text{Planck}}) \sim \frac{G_4\, E_{\text{Planck}}^2}{\hbar c^5} \sim 1 \tag{2.10.72}$$
 
-At the Planck scale, gravity is as strong as the gauge forces. The 10^{36} hierarchy was never fundamental — it was a low-energy artifact of viewing the zone architecture from afar. The forces are all of comparable strength at their natural scale.
+At the Planck scale, gravity is as strong as the gauge forces. The $10^{36}$ hierarchy was never fundamental — it was a low-energy artifact of viewing the zone architecture from afar. The forces are all of comparable strength at their natural scale.
 
 This is the deepest lesson of this chapter: **the coupling constants are not fundamental numbers. They are projections of one geometry onto different energy scales.** At the energy where you resolve the full geometry, the projections converge.
 
@@ -723,13 +723,13 @@ This chapter established that:
 
 3. **Asymptotic freedom** of the strong force follows from the SU(3) self-interaction arising from the ℤ_3 orbifold topology of the Waters Below.
 
-4. **The three gauge couplings converge** at approximately E_GUT ~ 10^{15}-10^{16} GeV, as required by the geometric origin of all forces from a single membrane. The one-loop "unification triangle" is expected to close with two-loop corrections and KK mode contributions.
+4. **The three gauge couplings converge** at approximately $E_\text{GUT} \sim 10^{15}$–$10^{16}$ GeV, as required by the geometric origin of all forces from a single membrane. The one-loop "unification triangle" is expected to close with two-loop corrections and KK mode contributions.
 
-5. **Proton decay** is predicted with lifetime τ_p ~ 10^{34}-10^{36} years, within reach of next-generation experiments.
+5. **Proton decay** is predicted with lifetime $\tau_p \sim 10^{34}$–$10^{36}$ years, within reach of next-generation experiments.
 
 6. **Known gaps** include the precise two-loop running, the non-perturbative QCD anchor, and the exact GUT scale. These are MEDIUM-severity gaps that Volume 4 will address through full renormalization of the zone field theory.
 
-7. **The 10^{36} hierarchy** between gravity and electromagnetism collapses to ~10^4 at the GUT scale and vanishes at the Planck scale. The low-energy hierarchy is a projection artifact, not a fundamental mystery.
+7. **The $10^{36}$ hierarchy** between gravity and electromagnetism collapses to $\sim 10^{4}$ at the GUT scale and vanishes at the Planck scale. The low-energy hierarchy is a projection artifact, not a fundamental mystery.
 
 What this chapter earned is a moving picture to set beside the static one: the four couplings are not fixed numbers but curves, and those curves bend toward a common value at a scale the geometry itself selects. What it did not earn — and we have been blunt about this throughout §10.6–§10.7 — is percent-level precision at that meeting point; the two-loop running, the non-perturbative QCD anchor, and the exact GUT scale are open, and they are Vol 4's debt to pay, not this volume's. That leaves one question hanging. We have now derived each force separately (Chs 2–4), assembled them into one Lagrangian (Ch 5), found their common symmetry origin (Ch 6), and watched their strengths converge (this chapter). What does the whole landscape look like at once — every force, every scale, every prediction laid on a single map, with the lines drawn sharply enough that an experiment could erase them? That map, and the falsification criteria that make it science rather than story, is the work of Chapter 11.
 
@@ -737,13 +737,13 @@ What this chapter earned is a moving picture to set beside the static one: the f
 
 ## Problems
 
-**10.1** (Computational) Starting from α_em^{-1}(0) = 137.036, use the one-loop running equation with b_em = 41/10 to compute α_em^{-1} at Q = M_Z = 91.2 GeV, with Q_0 = 1 GeV. Compare your result with the measured value of 127.94. What does the discrepancy tell you about the importance of two-loop corrections?
+**10.1** (Computational) Starting from $\alpha_\text{em}^{-1}(0) = 137.036$, use the one-loop running equation with $b_\text{em} = 41/10$ to compute $\alpha_\text{em}^{-1}$ at $Q = M_Z = 91.2$ GeV, with $Q_0 = 1$ GeV. Compare your result with the measured value of 127.94. What does the discrepancy tell you about the importance of two-loop corrections?
 
-**10.2** (Computational) Using the one-loop running equation for α_s with b_3 = 7 and the boundary condition α_s(M_Z) = 0.1179, calculate:
-(a) α_s at Q = 1 TeV
-(b) α_s at Q = 10^4 GeV
-(c) The QCD scale Λ_QCD where α_s reaches 1
-Compare your Λ_QCD with the accepted value of ~250 MeV and discuss the source of any discrepancy.
+**10.2** (Computational) Using the one-loop running equation for $\alpha_s$ with $b_3 = 7$ and the boundary condition $\alpha_s(M_Z) = 0.1179$, calculate:
+(a) $\alpha_s$ at $Q = 1$ TeV
+(b) $\alpha_s$ at $Q = 10^{4}$ GeV
+(c) The QCD scale $\Lambda_\text{QCD}$ where $\alpha_s$ reaches 1
+Compare your $\Lambda_\text{QCD}$ with the accepted value of ~250 MeV and discuss the source of any discrepancy.
 
 **10.3** (Conceptual) Explain in physical terms why the SU(3) coupling decreases with energy (asymptotic freedom) while the U(1) coupling increases. Your answer should reference the zone manifold topology, not merely cite "non-abelian self-interaction."
 
@@ -752,9 +752,9 @@ Compare your Λ_QCD with the accepted value of ~250 MeV and discuss the source o
 (b) Where α_2^{-1}(Q) = α_3^{-1}(Q)
 What is the ratio of these two scales? What does this ratio tell you about the precision needed for exact unification?
 
-**10.5** (Conceptual) In Chapter 9, the hierarchy ratio α_em/α_G ≈ 10^{36} was derived from the geometric mechanism of volume dilution vs. logarithmic coupling. Explain why this ratio depends on energy, and at what energy it becomes of order unity. What is the physical significance of that energy scale?
+**10.5** (Conceptual) In Chapter 9, the hierarchy ratio $\alpha_\text{em}/\alpha_G \approx 10^{36}$ was derived from the geometric mechanism of volume dilution vs. logarithmic coupling. Explain why this ratio depends on energy, and at what energy it becomes of order unity. What is the physical significance of that energy scale?
 
-**10.6** (Challenge) Estimate the proton lifetime from the zone-predicted GUT scale using equation (2.10.59). Express your answer in years and compare with the Super-Kamiokande limit of τ_p > 8.2 × 10^{33} years. Is the zone prediction consistent with current experiments? What experimental improvement would be needed to test it?
+**10.6** (Challenge) Estimate the proton lifetime from the zone-predicted GUT scale using equation (2.10.59). Express your answer in years and compare with the Super-Kamiokande limit of $\tau_p > 8.2 \times 10^{33}$ years. Is the zone prediction consistent with current experiments? What experimental improvement would be needed to test it?
 
 **10.7** (Computational) The top quark threshold at m_t = 172.8 GeV changes the SU(3) beta function coefficient from b_3(N_f=5) = 23/3 to b_3(N_f=6) = 7.
 (a) Run α_s from M_Z = 91.2 GeV to m_t = 172.8 GeV using b_3(N_f=5)
@@ -769,6 +769,6 @@ How sensitive is the observable universe to this geometric ratio?
 
 **10.9** (Conceptual) The zone framework predicts that coupling constant running is fundamentally *geometric*, not *quantum*. In what operational sense could an experiment distinguish between "geometric running from extra dimensions" and "quantum running from loop corrections"? (Hint: consider the running above the compactification scale.)
 
-**10.10** (Challenge) Using the information from this chapter and Chapter 9, sketch the complete hierarchy ratio α_em(Q)/α_G(Q) as a function of energy from 1 MeV to 10^{19} GeV. At what energy does the ratio first drop below 10^{10}? Below 10? Below 1?
+**10.10** (Challenge) Using the information from this chapter and Chapter 9, sketch the complete hierarchy ratio $\alpha_\text{em}(Q)/\alpha_G(Q)$ as a function of energy from 1 MeV to $10^{19}$ GeV. At what energy does the ratio first drop below $10^{10}$? Below 10? Below 1?
 
 ---

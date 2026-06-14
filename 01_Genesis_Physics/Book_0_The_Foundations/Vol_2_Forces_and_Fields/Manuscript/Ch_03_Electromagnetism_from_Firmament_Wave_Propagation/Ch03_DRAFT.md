@@ -12,7 +12,7 @@ And yet, for all their success, Maxwell's equations have always been postulated,
 
 This chapter derives them.
 
-> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry. (For the Hebrew word study behind *rāqîaʿ* / *mayim* and the separation verb, see Vol 1, Appendix C, "Hebrew Analysis.")
 
 In Chapter 1, we showed that all four forces are geometric consequences of the zone manifold. In Chapter 2, we extracted gravity — the simplest force — from the diagonal part of the 6D metric, calculating Newton's constant $G$ from zone parameters alone. Now we turn to electromagnetism, the second force, and we extract it from the *off-diagonal* part of the same metric. The photon field $A_\mu$ does not need to be postulated. It lives in the geometry, waiting to be found.
 

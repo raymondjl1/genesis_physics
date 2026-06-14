@@ -6,7 +6,7 @@
 
 In the five chapters behind us, we have attempted something standard textbooks do not: instead of postulating the four fundamental forces, we have offered a derivation of all four from a single geometric structure. Whether that derivation ultimately survives external scrutiny is for the reader, and in time the wider physics community, to judge; what we claim is that each step is explicit and checkable, not that the matter is settled. Gravity fell out of bulk curvature (Chapter 2). Electromagnetism emerged from Firmament membrane wave propagation (Chapter 3). The strong and weak forces arose from zone boundary effects (Chapter 4). In Chapter 5, we assembled the complete Zone Lagrangian and wrote down gauge field equations — equations (2.5.10) through (2.5.12) and the Yang-Mills equations (2.5.29).
 
-> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry.
+> **Structural reminder.** *Firmament* and *Waters Above / Waters Below* are the structural objects derived in Vol 1 Ch 3–5 from Genesis 1:6–8 (see Vol 2 Ch 1 §1.0 sidebar). Not metaphor — load-bearing geometry. (For the Hebrew word study behind *rāqîaʿ* / *mayim* and the separation verb, see Vol 1, Appendix C, "Hebrew Analysis.")
 
 But we committed an honest sin. We *used* the gauge groups U(1), SU(2), and SU(3). We did not *derive* them.
 
@@ -32,7 +32,7 @@ $$ds^2 = e^{2A(\xi,\eta)}\tilde{g}_{\mu\nu}(x)\,dx^\mu dx^\nu + e^{2B(\xi,\eta)}
 
 > **[Provisional — warp functions A(ξ,η), B(ξ,η) not yet derived from 6D Einstein equations in closed form. See Open Problem 1.WF.]**
 
-The extra dimensions are structured into zones: Waters Above (dark energy, ~68%; $\xi$-direction, extent $\xi_A \sim 3 \times 10^{26}$ m) and Waters Below (dark matter, ~27%; $\eta$-direction, extent $\eta_B \sim 1.3 \times 10^{-15}$ m), separated by the Firmament (equation 1.3.2). The warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ encode the gravitational geometry of the extra dimensions (equations 1.4.23, 1.4.27).
+The extra dimensions are structured into zones: Waters Above (dark energy, ~68%; $\xi$-direction, extent $\xi_A \sim 3 \times 10^{26}$ m) and Waters Below (dark matter, ~27%; $\eta$-direction, extent $\eta_B \sim 1.3 \times 10^{-15}$ m), separated by the Firmament (equation 1.3.2). (Throughout this chapter "Waters Below" denotes the *manifold region* $W_B$ in the $\eta$-direction, distinct from the dark-matter field $\Psi_B$; see the notation convention in `Quality_Control/Reference/Symbol_and_Constants.md`.) The warp factors $A(\xi,\eta)$ and $B(\xi,\eta)$ encode the gravitational geometry of the extra dimensions (equations 1.4.23, 1.4.27).
 
 Volume 1, Chapter 4 established that the only Killing vectors on this manifold are the 4D Poincaré generators — time translation, spatial translations, rotations, and boosts (equations 1.4.32–1.4.37). The extra-dimensional translations $\partial_\xi$ and $\partial_\eta$ are *not* Killing vectors because the warp factors depend on $\xi$ and $\eta$ (equation 1.7.50). This is crucial: it means gauge symmetries do not arise from continuous translational isometries of the full 6D manifold. Instead, they arise from the *topological* structure of the compact extra dimensions — from how the extra dimensions are identified, folded, and stitched together.
 

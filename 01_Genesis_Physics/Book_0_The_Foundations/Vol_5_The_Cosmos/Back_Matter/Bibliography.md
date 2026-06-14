@@ -2,9 +2,9 @@
 
 *Foundations Vol 5, The Cosmos — Back Matter*
 
-Volume 5 covers general relativity, black hole physics, observational cosmology, and the derivation of fundamental constants — four enormous fields, each with its own deep literature. What follows is the subset Vol 5 actually *uses*: every paper cited in the text, every textbook taken as background, every experimental measurement reproduced in Appendix B, and every internal zone-architecture research file referenced. The total is 162 entries across ten sections.
+Volume 5 covers general relativity, black hole physics, observational cosmology, and the derivation of fundamental constants — four enormous fields, each with its own deep literature. What follows is the subset Vol 5 actually *uses*: every paper cited in the text, every textbook taken as background, every experimental measurement reproduced in Appendix B, and every internal zone-architecture research file referenced. The total is 157 entries across eleven sections.
 
-Citation format follows the convention established in Vols 2–4: Chicago author-year with sequential numbering within each section, with a symbol marking the entry's class — 📜 foundational paper, 📘 textbook, ⚛ experiment, ⚙ data compilation, ☷ zone-architecture internal source.
+Citation format follows the convention established in Vols 2–4: Chicago author-year with sequential numbering within each section, with a symbol marking the entry's class — 📜 foundational paper, 📘 textbook, ⚛ experiment, ⚙ data compilation, ☷ zone-architecture internal source, 📖 biblical-studies commentary or reference grammar.
 
 ---
 
@@ -340,6 +340,18 @@ Citation format follows the convention established in Vols 2–4: Chicago author
 
 ---
 
+## R.11 — Biblical Studies and Genesis Commentary
+
+Chapter 12 (the starlight problem and chronology) engages the creation account exegetically rather than merely devotionally — weighing Hebrew syntax, comparing Genesis 1 against Psalms, Isaiah, Jeremiah, Job, Zechariah, Hebrews, John, Luke, Romans, and Malachi. That apparatus deserves the same scholarly backing the physics sections enjoy. The following are the standard critical commentaries and reference grammar drawn on for that work. (Citation here motivates; the physics still stands on its own.)
+
+**[R.11.1]** 📖 Waltke, B. K., with C. J. Fredricks. 2001. *Genesis: A Commentary*. Grand Rapids: Zondervan.
+
+**[R.11.2]** 📖 Wenham, G. J. 1987. *Genesis 1–15*. Word Biblical Commentary 1. Waco: Word.
+
+**[R.11.3]** 📖 Waltke, B. K., and M. O'Connor. 1990. *An Introduction to Biblical Hebrew Syntax*. Winona Lake: Eisenbrauns.
+
+---
+
 ## Entry Count
 
 | Section | Count |
@@ -390,7 +402,8 @@ Citation format follows the convention established in Vols 2–4: Chicago author
 | R.8 Precision Measurements | 16 |
 | R.9 Dark Matter and Dark Energy | 16 |
 | R.10 Zone-Architecture Internal | 18 |
-| **Total** | **154** |
+| R.11 Biblical Studies and Genesis Commentary | 3 |
+| **Total** | **157** |
 
 ---
 

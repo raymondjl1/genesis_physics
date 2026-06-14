@@ -12,7 +12,7 @@ It is worth pausing on the architectural fact that organizes this chapter. Where
 
 But look inside an atom. Electrons orbit a nucleus made of protons and neutrons. The nucleus itself cannot be held together by gravity—the gravitational force between two nucleons is weaker than the electromagnetic repulsion by a factor of $10^{36}$. And electrons do not orbit forever; neutrons decay into protons, emitting electrons. Why? Because two more forces operate at short range, hidden from everyday observation, yet absolutely essential to the structure of matter.
 
-**The strong force** confines quarks inside nucleons and hadrons. It is the most powerful force in nature at short distance, yet its range is vanishingly small—roughly the size of a proton (10^−15 m). Beyond that distance, its effect drops sharply to zero.
+**The strong force** confines quarks inside nucleons and hadrons. It is the most powerful force in nature at short distance, yet its range is vanishingly small—roughly the size of a proton ($10^{-15}$ m). Beyond that distance, its effect drops sharply to zero.
 
 **The weak force** governs radioactive decay: neutrons decay to protons, muons decay to electrons, quarks change flavor. It is intermediate in strength—weaker than electromagnetism over their shared range, yet strong enough to drive the Sun's fusion reactions and to forge heavy elements in supernovae.
 
@@ -38,9 +38,9 @@ This is the most demanding chapter in Part I. The calculations blend topology, d
 
 ### Why Three Colors?
 
-Return to the Waters Below—the region between the two branes that house our universe. Its geometry in the extra dimension (the $\eta$ coordinate) is special. Recall from Chapter 2 that the $\eta$ dimension closes back on itself on a circle $S^1$, but with a twist: fermions and gauge fields living there satisfy a $\mathbb{Z}_3$ *orbifold identification*, meaning that a rotation by $2\pi/3$ around the circle identifies points. Physically, the $\eta$ coordinate ranges from $0$ to $\eta_B$, and beyond $\eta_B$ there is no space—a hard boundary.
+Return to the Waters Below—the region between the two branes that house our universe. (A note on usage: "Waters Below" carries several senses in this volume; here we mean the *manifold region*, written $W_B$, not the dark-matter field $\Psi_B$ nor the scriptural object of Gen 1:7. The canonical disambiguation is in `Quality_Control/Reference/Symbol_and_Constants.md`.) Its geometry in the extra dimension (the $\eta$ coordinate) is special. Recall from Chapter 2 that the $\eta$ dimension closes back on itself on a circle $S^1$, but with a twist: fermions and gauge fields living there satisfy a $\mathbb{Z}_3$ *orbifold identification*, meaning that a rotation by $2\pi/3$ around the circle identifies points. Physically, the **1D real slice** $W_B$ is parametrized by the $\eta$ coordinate ranging from $0$ to $\eta_B$, and beyond $\eta_B$ there is no space—a hard boundary.
 
-This orbifold structure is not chosen for convenience. It emerges from the thermodynamics of the Firmament membrane. The Waters Below are bounded by two branes—the bulk below (at $\eta = 0$) and the Reheating Surface (at $\eta = \eta_B$). The Firmament tension $\sigma$ and the dilaton field produce a confining geometry. Within this geometry, the curvature has threefold rotational symmetry. (The membrane and its bounding conditions are not introduced here ad hoc: they are the *rāqîaʿ* and the separation of *mayim* from *mayim* of Genesis 1:6–7, derived as geometry in Vol 1 Ch 3–5; see the Vol 2 Ch 1 §1.0 sidebar. The strong sector's orbifold thus traces, through the membrane, back to that same dividing structure.)
+This orbifold structure is not chosen for convenience. It emerges from the thermodynamics of the Firmament membrane. The Waters Below are bounded by two branes—the bulk below (at $\eta = 0$) and the Reheating Surface (at $\eta = \eta_B$). The Firmament tension $\sigma$ and the dilaton field produce a confining geometry. Within this geometry, the curvature has threefold rotational symmetry. (The membrane and its bounding conditions are not introduced here ad hoc: they are the *rāqîaʿ* and the separation of *mayim* from *mayim* of Genesis 1:6–7, derived as geometry in Vol 1 Ch 3–5; see the Vol 2 Ch 1 §1.0 sidebar, and Vol 1 Appendix C "Hebrew Analysis" for the word study of *rāqîaʿ* / *mayim* and the separation verb. The strong sector's orbifold thus traces, through the membrane, back to that same dividing structure.)
 
 The key quantity is the Gaussian warp factor:
 
@@ -50,7 +50,7 @@ $$B(\eta) = -\frac{\gamma^2 \eta^2}{2} \quad \text{(2.4.1)}$$
 
 where $\gamma$ is a coupling constant related to the Firmament tension.
 
-**The correct fiber is two-dimensional.** A $\mathbb{Z}_3$ action cannot operate on a single real coordinate $\eta \in \mathbb{R}$, because the cube-root rotation $e^{2\pi i/3}$ is complex and has no fixed-point structure on the real line. The Waters Below transverse geometry must therefore be **complexified**: introduce a second extra-dimensional real coordinate $\eta_2$ paired with $\eta \equiv \eta_1$, and form the complex fiber coordinate
+**The correct fiber is two-dimensional.** A $\mathbb{Z}_3$ action cannot operate on a single real coordinate $\eta \in \mathbb{R}$, because the cube-root rotation $e^{2\pi i/3}$ is complex and has no fixed-point structure on the real line. The Waters Below transverse geometry must therefore be **complexified**: the 1D real slice $W_B$ of Eq. (before 2.4.1) is promoted to a **2D complex fiber**, written $W_B^{\mathbb{C}}$ to distinguish it from the real slice. Introduce a second extra-dimensional real coordinate $\eta_2$ paired with $\eta \equiv \eta_1$, and form the complex fiber coordinate
 $$
 w \;=\; \eta_1 + i\eta_2 \;=\; \rho\, e^{i\psi}, \qquad |w| \le \eta_B. \tag{2.4.1a}
 $$
@@ -252,7 +252,7 @@ Consider the most common weak decay in nature: neutron beta decay,
 
 $$n \to p + e^- + \bar{\nu}_e \quad \text{(2.4.18)}$$
 
-A neutron (one up quark and two down quarks) transmutes into a proton (two up quarks and one down quark), an electron, and an electron antineutrino. The lifetime of a free neutron is about 880 seconds—much longer than the weak interaction timescale (10^{−25} seconds), but still finite. The decay is driven by the weak force, mediated by the W^− boson.
+A neutron (one up quark and two down quarks) transmutes into a proton (two up quarks and one down quark), an electron, and an electron antineutrino. The lifetime of a free neutron is about 880 seconds—much longer than the weak interaction timescale ($10^{-25}$ seconds), but still finite. The decay is driven by the weak force, mediated by the W^− boson.
 
 But here's the puzzle: in 1956, Tsung-Dao Lee and Chen Ning Yang discovered something shocking. They proposed that the weak force violates *parity*—the symmetry that says the laws of physics should be the same if you look in a mirror. If true, particles should prefer to be left-handed (spinning in the direction opposite to their motion) rather than right-handed. Experiments by Chien-Shiung Wu in 1957 confirmed this: the weak force *maximally violates parity*.
 
@@ -402,7 +402,7 @@ You stand at one of nature's deepest thresholds. In the equations of §4.4, we f
 
 The answer lives in the Higgs field.
 
-Before we derive anything, let's ask why a fundamental distinction exists at all. Photons travel freely across the cosmos. They've been traveling since the Big Bang, never acquiring mass, never losing power to distance. Yet W and Z bosons decay almost immediately — their lifetime is roughly 10^{-25} seconds. They can barely cross the width of a proton before vanishing. The reason is mass. And mass, we're about to learn, comes from a phase transition locked into the very fabric of the Waters Above.
+Before we derive anything, let's ask why a fundamental distinction exists at all. Photons travel freely across the cosmos. They've been traveling since the Big Bang, never acquiring mass, never losing power to distance. Yet W and Z bosons decay almost immediately — their lifetime is roughly $10^{-25}$ seconds. They can barely cross the width of a proton before vanishing. The reason is mass. And mass, we're about to learn, comes from a phase transition locked into the very fabric of the Waters Above.
 
 ### The Higgs Condensate as an Equilibrium State
 
@@ -884,7 +884,7 @@ Moreover, the coupling constants $g_s$, $g_W$, $g_Y$ are not introduced as indep
 
 **The Hierarchy Problem Revisited**
 
-One of the deepest puzzles in particle physics is the *hierarchy problem*: why is the weak scale (~ 100 GeV, set by the W and Z masses) so much smaller than the Planck scale (~ 10^19 GeV, where gravity becomes strong)?
+One of the deepest puzzles in particle physics is the *hierarchy problem*: why is the weak scale ($\sim 100$ GeV, set by the W and Z masses) so much smaller than the Planck scale ($\sim 10^{19}$ GeV, where gravity becomes strong)?
 
 In the zone picture, this is not a puzzle; it is a geometric fact. The weak scale is set by the size of the Waters Above in the $\xi$ direction. The Planck scale is set by the bulk geometry and the Firmament tension. These are decoupled parameters. In a warped extra dimension with moderate warp factors (curvature ratios of order 10–100), a hierarchy of scales emerges naturally. The weak scale can be ~ 100 GeV even though the fundamental scale is much higher.
 
@@ -978,9 +978,9 @@ In the zone framework, three generations of leptons and quarks arise from three 
 
 ### Problem 4.8: Deep Dive — Unification Scales
 
-In grand unified theories (GUTs), the three gauge couplings α_s, α_W, and α_EM are hypothesized to unify at high energy scales, roughly 10^16 GeV.
+In grand unified theories (GUTs), the three gauge couplings $\alpha_s$, $\alpha_W$, and $\alpha_\text{EM}$ are hypothesized to unify at high energy scales, roughly $10^{16}$ GeV.
 
-**(a)** Using the running coupling equations for all three forces, plot α_s(μ), α_W(μ), and α_EM(μ) as functions of μ from 1 GeV to 10^18 GeV. At what scale do they approximately meet (if at all)?
+**(a)** Using the running coupling equations for all three forces, plot $\alpha_s(\mu)$, $\alpha_W(\mu)$, and $\alpha_\text{EM}(\mu)$ as functions of $\mu$ from 1 GeV to $10^{18}$ GeV. At what scale do they approximately meet (if at all)?
 
 **(b)** In the zone framework, all three couplings are determined by integrals over the warp factor. How would you expect the warp factor to behave (grow, shrink, change shape) as a function of energy scale to achieve unification?
 

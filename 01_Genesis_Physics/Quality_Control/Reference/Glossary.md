@@ -9,6 +9,8 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 ## C.1 Theological Terms
 
+> **Transliteration note (series-wide carve-out).** Hebrew transliteration differs by product tier *by design*: **Foundations (Book 0)** uses the precise macron/ayin form at first mention (*rāqîaʿ*, *bārāʾ*, *yôm*) per the two-tier rule in Vol 1 Appendix C §C.20; **Book 1 (*The Hidden Architecture*, trade)** and the **Family Edition** use simplified, diacritic-free spellings throughout (*raqia*, *bara*, *yom*). This is intentional — do not flag *raqia* against *rāqîaʿ* as an inconsistency. Full policy: `01_Genesis_Physics/CLAUDE.md` → "Transliteration Policy."
+
 **Bara (בָּרָא)**: Hebrew verb meaning "to create." Used exclusively with God as subject. Indicates creation of something qualitatively new. Used 7 times in Genesis 1-2.
 
 **Elohim (אֱלֹהִים)**: Hebrew word for God, grammatically plural but taking singular verbs. Used throughout Genesis 1.
@@ -131,7 +133,7 @@ Location: `Quality_Control/Reference/Glossary.md`
 
 **Waters Above (Zone 2.2.3)**: Dark energy field (Ψ_A); repulsive, w≈-1, constant density; comprises ~68% universe energy; sustaining field component.
 
-**Waters Below (Zone 2.2.1)**: Dark matter field (Ψ_B); attractive, w≈0, dilutes as a⁻³; comprises ~27% universe; structure-forming component.
+**Waters Below (Zone 2.2.1)**: Dark matter field (Ψ_B); attractive, w≈0, dilutes as a⁻³; comprises ~27% universe; structure-forming component. *Notation note — "Waters Below" carries four senses; reserve distinct symbols (canonical: `Symbol_and_Constants.md` "Waters Below — Notation Convention"):* **Ψ_B** = the field (this entry); **W_B** = the 1D real η-interval region (0 ≤ η ≤ η_B); **W_B^ℂ** = the 2D complexified fiber w = η₁ + iη₂, |w| ≤ η_B (carries the Z₃ orbifold, Vol 2 Ch 4 §4.2); and **"Waters Below (Gen 1:7)"** = the scriptural *mayim* beneath the *rāqîaʿ* of Genesis 1:6–7. Use Ψ_B only for the field, never the region.
 
 **Zone Boundary**: Fixed structural division between nested zones (e.g., Zone 2.2.2 | Zone 2.2.1).
 

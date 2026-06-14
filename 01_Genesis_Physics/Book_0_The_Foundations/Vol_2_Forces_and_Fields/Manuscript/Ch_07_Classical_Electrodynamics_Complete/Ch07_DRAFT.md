@@ -17,7 +17,7 @@ In Chapters 5 and 6 we assembled the complete zone Lagrangian (Eq. 2.5.1) and sh
 
 The present chapter asks: *given that we have Maxwell's equations from first principles, what follows?*
 
-The answer is: *all of classical electrodynamics.* Every result in Jackson's monumental textbook — radiation, waveguides, optics, circuits, shielding — follows from the four equations we derived in Chapter 3 and the Lagrangian formalism of Chapter 5. No new postulates are needed. No new constants must be introduced. The Firmament membrane gave us Maxwell's equations; those equations give us the rest.
+The answer is: *all of classical electrodynamics.* Every result in Jackson's monumental textbook — radiation, waveguides, optics, circuits, shielding — follows from the four equations we derived in Chapter 3 and the Lagrangian formalism of Chapter 5. No new postulates are needed. No new constants must be introduced. The Firmament membrane gave us Maxwell's equations; those equations give us the rest. (The *Firmament* is the *rāqîaʿ* of Genesis 1:6–8, derived as geometry in Vol 1 Ch 3–5; for the Hebrew word study see Vol 1, Appendix C, "Hebrew Analysis.")
 
 [FIGURE: Fig 2.7.1 — Derivation Roadmap: From Zone Geometry to Classical E&M]
 
