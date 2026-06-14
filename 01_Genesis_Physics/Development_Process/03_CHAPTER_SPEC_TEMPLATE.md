@@ -178,6 +178,28 @@ A figure is required for: spatial relationships, before/after transformations, m
 
 ---
 
+## Required Chapter-End Footer (mandatory closing block)
+
+*Every Foundations chapter draft MUST end with the following footer block, immediately after a `---` rule. This is a hard verification gate (checked by the Consistency Auditor). Source pattern: Vol 2 Ch 5 (`0516_Rev_204` / GitHub #304, `0516_Rev_467` / GitHub #567).*
+
+```
+---
+
+*Build order verified: Chapter [N] uses only results from [list prior volumes/chapters cited]. No forward dependencies.*
+
+*Equation numbering: ([Vol].[Ch].N) — Volume [Vol], Chapter [Ch], Equation N.*
+
+*Citation convention: [state how prior-volume and prior-chapter equations are referenced, e.g. Vol 1 equations as (1.Ch.Eq); prior-chapter equations by their original numbers].*
+```
+
+- [ ] **Build-order line present** and lists every prior volume/chapter this chapter depends on
+- [ ] **No forward dependencies** asserted and true
+- [ ] **Equation-numbering line present** and matches the scheme used in the body
+- [ ] **Citation-convention line present**
+- [ ] *(Final chapter of a volume only)* **Volume-closing handoff section present** — see `Quality_Control/templates/VOLUME_CLOSING_HANDOFF_TEMPLATE.md`
+
+---
+
 ## Notes
 
 *Any additional context, open questions, or decisions to record about this chapter.*

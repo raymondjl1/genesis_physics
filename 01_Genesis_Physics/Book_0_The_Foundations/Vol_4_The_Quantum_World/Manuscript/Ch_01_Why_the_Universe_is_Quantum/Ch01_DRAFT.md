@@ -1,4 +1,4 @@
-﻿# Chapter 1: Why the Universe is Quantum
+# Chapter 1: Why the Universe is Quantum
 
 ---
 
@@ -28,7 +28,7 @@ If the professor is honest, she answers: "Because the experiments say so." If th
 
 None of those is a reason. They are descriptions of the impasse — a tacit admission that after a century of stunning empirical success, quantum mechanics remains a collection of rules whose *origin* nobody can explain. Planck's constant $\hbar = 1.055 \times 10^{-34}$ J·s is called "fundamental," which is the physicist's word for "we don't know where it comes from." The wave function is called an "abstract mathematical object," which means "we don't know what it is a wave *of*." The measurement problem is called "open," which means "the theory contradicts itself and we have learned to live with that."
 
-This volume will not live with that. Over the next fourteen chapters we will derive every one of those postulates from the zone architecture established in Volumes 1–3. Not "motivate," not "justify," not "reformulate." *Derive*. The Schrödinger equation will fall out of a non-relativistic limit of the Firmament membrane wave equation. The uncertainty principle will be a consequence of Fourier analysis on a bounded domain. Planck's constant will emerge as a necessary structural consequence of the zone architecture — its form derived from Firmament tension, zone scales, and the speed of light, with the precise numerical value tied to a geometric computation that is the primary open problem of the program (see §1.4 for the honest status). The Born rule will be a statement about decoherence between the Firmament membrane and the Waters. Angular momentum quantization will be a statement about topological winding numbers. The commutation relations will be a theorem about standing-wave amplitudes.
+This volume will not live with that. Over the next 14 chapters we will derive every one of those postulates from the zone architecture established in Volumes 1–3. Not "motivate," not "justify," not "reformulate." *Derive*. The Schrödinger equation will fall out of a non-relativistic limit of the Firmament membrane wave equation. The uncertainty principle will be a consequence of Fourier analysis on a bounded domain. Planck's constant will emerge as a necessary structural consequence of the zone architecture — its form derived from Firmament tension, zone scales, and the speed of light, with the precise numerical value tied to a geometric computation that is the primary open problem of the program (see §1.4 for the honest status). The Born rule will be a statement about decoherence between the Firmament membrane and the Waters. Angular momentum quantization will be a statement about topological winding numbers. The commutation relations will be a theorem about standing-wave amplitudes.
 
 If we succeed, the list on the board at the beginning of a quantum course will change. It will no longer read *postulates*. It will read *derived results*.
 
@@ -46,7 +46,7 @@ The answer, as you will see, is simple enough to fit in a single sentence. The z
 
 Every textbook tells the story of 1900 the same way. Classical physics, having conquered mechanics, electromagnetism, thermodynamics, and optics, sat on the throne of the scientific world. A few small anomalies remained — the spectrum of blackbody radiation, the photoelectric effect, the spectral lines of hydrogen, the specific heat of solids at low temperatures, the instability of the atom — but these were considered cleanup problems. The famous (probably apocryphal) quotation attributed to Lord Kelvin captures the mood: physics is complete except for "two small clouds on the horizon."
 
-Within thirty years, those clouds swallowed the sky.
+Within 30 years, those clouds swallowed the sky.
 
 The standard telling of the story is about new experiments forcing new physics. Einstein explains the photoelectric effect. Bohr tames the hydrogen atom. De Broglie posits matter waves. Heisenberg, Schrödinger, and Dirac build the formalism. Each step is treated as a response to an empirical surprise.
 
@@ -137,7 +137,7 @@ Out of everything we have inherited from Volumes 1–3, two facts — and only t
 
 ### §1.3.1 Fact One: Bounded Extra Dimensions Force Discrete Spectra
 
-The first fact is a theorem of functional analysis, not a statement about physics. It was proved by Sturm and Liouville in the 1830s, almost seventy years before Planck's "act of desperation."
+The first fact is a theorem of functional analysis, not a statement about physics. It was proved by Sturm and Liouville in the 1830s, almost 70 years before Planck's "act of desperation."
 
 **Sturm–Liouville Theorem (Vol 1 Ch 10, Theorem 10.1, repeated).** *Let $\mathcal{L}$ be a second-order self-adjoint linear differential operator on a compact interval $[a,b]$ with appropriate boundary conditions. The eigenvalue problem $\mathcal{L}[f_n] = \lambda_n w(x) f_n$ admits a countably infinite, discrete set of eigenvalues $\lambda_1 < \lambda_2 < \lambda_3 < \cdots$ with $\lambda_n \to \infty$, and the eigenfunctions form a complete orthonormal basis for $L^2([a,b], w)$.*
 
@@ -287,7 +287,7 @@ So: have we explained why $\hbar$ is what it is? **Yes — fully.** The scale hi
 
 ## §1.5 What Emerges: Previewing Volume 4
 
-Now you know why the universe is quantum and why $\hbar$ has its value. The next thirteen chapters show, step by rigorous step, how every feature of modern quantum physics — all the way down to the Standard Model — follows from the architecture we have just laid out.
+Now you know why the universe is quantum and why $\hbar$ has its value. The next 13 chapters show, step by rigorous step, how every feature of modern quantum physics — all the way down to the Standard Model — follows from the architecture we have just laid out.
 
 This section is the map. One paragraph per chapter, with honest flags on every gap.
 
@@ -410,7 +410,7 @@ When every detail of the universe's quantum character turns out to follow from t
 - The zone architecture established in Volumes 1–3 provides bounded extra dimensions ($\xi_A, \eta_B$), a Firmament membrane with finite tension $\sigma$ and wave speed $c$, and a mechanism (topological vortices) for localized excitations with a minimum action.
 - Two architectural facts together force the universe to be quantum: (1) bounded wave equations have discrete spectra by Sturm–Liouville, and (2) the topological vortex action sets a finite minimum action quantum $\hbar$.
 - Planck's constant has the functional form $\hbar = (\sigma \eta_B^3 / 2c)(\eta_B/\xi_A)^2 \beta_{\mathrm{geom}}$, where $\xi_A \approx 3\times 10^{26}$ m is the canonical Waters Above extent (larger than the Hubble radius because the zone extends beyond the observable universe). The roughly 83 orders of magnitude between the bare quantum and the observed value trace to the squared ratio of nuclear to zone scale. The geometric prefactor $\beta_{\mathrm{geom}}$ closes the remaining numerical gap and is an open problem for Vol 6.
-- Volume 4 will derive, in thirteen further chapters, the Schrödinger equation (Ch 2), uncertainty (Ch 3), entanglement (Ch 4), measurement and the Born rule (Ch 5), second quantization and QFT (Ch 6–9), and the Standard Model (Ch 10–14).
+- Volume 4 will derive, in 13 further chapters, the Schrödinger equation (Ch 2), uncertainty (Ch 3), entanglement (Ch 4), measurement and the Born rule (Ch 5), second quantization and QFT (Ch 6–9), and the Standard Model (Ch 10–14).
 - Five research gaps are open and acknowledged: spin-½ from a bosonic membrane (BLOCKER, #1), particle mass 1000× errors (#2), CP violation (#3), Higgs mechanism (#25), running couplings (#26).
 
 You are now ready for Chapter 2, in which the Schrödinger equation will emerge from the non-relativistic envelope of the Firmament wave equation. We will not postulate it. We will find it sitting there, already derived, waiting to be written down.
