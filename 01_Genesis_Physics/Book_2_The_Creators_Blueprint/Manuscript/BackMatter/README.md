@@ -4,6 +4,7 @@ Scaffolding for the Family Edition back matter. Addresses **issues #808** (back 
 
 | File | Status | Notes |
 |------|--------|-------|
+| `00_Deeper_Dive.md` | DRAFT | Optional "deeper dive" appendix (issue #730, approach A). Holds the relocated heavy interior physics: **Deeper Dive A** (Ch 11 mechanism + rock-record defense, formerly Ch 11 §§5–6) and **Deeper Dive B** (Ch 13 double-slit / uncertainty / entanglement walk-through, formerly Ch 13 §§5–7). Chapters now carry short summaries + pointers here. Scripture, confidence labels, and figures preserved verbatim. |
 | `01_About_The_Author.md` | DRAFT (author review) | Back-cover-ready, three lengths. Biographical specifics flagged **[NEEDS JEFF CONFIRM]**. |
 | `02_Bibliography.md` | scaffold-with-placeholders | 13 verified Chicago author-date seed entries in 3 sections. Header note: target 150–250; remaining **[NEEDS JEFF / research assistant]**. (#807) |
 | `03_List_of_Figures.md` | scaffold (catalog complete; art needs-asset) | **52 figures** catalogued from all 15 chapters with captions + draft alt-text. Art is **[NEEDS JEFF / designer]** (300 DPI, greyscale-legible); "Fig 2.N.x" → Family-Edition renumber noted (#671). |
