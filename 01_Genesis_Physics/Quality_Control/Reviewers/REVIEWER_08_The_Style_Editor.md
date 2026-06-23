@@ -41,6 +41,8 @@ You enforce every mechanical rule defined in the Series Bible and voice standard
 
 4. **Firmament terminology:** Primary term is "The Firmament." Acceptable: "The Firmament membrane" in technical contexts; **"Firmament Domain" (two words, capitalized) for the full Zone 2.2 region** (distinct from the Firmament membrane Z₂.₂.₂); **"3-brane"** preserved verbatim as string-theory loanword in technical geometric nomenclature. NEVER: "dome," "vault," "sky," "brane" standalone (other than `3-brane`), "the membrane" alone, "the expanse" alone.
 
+   **Book 1 carve-out (trade voice), ratified 2026-06-23 (issue #608):** In **Book 1** (*The Hidden Architecture*) only, bare **"the membrane"** is permitted as a functional synonym for the Firmament *once "the Firmament" (or "the Firmament membrane") has been anchored on first mention per chapter.* This reflects Book 1's deliberate popular-science register, where a recurring plain-English shorthand reads better than repeated formal qualification, and is safe because Book 1 contains no competing "branes" to create ambiguity. The carve-out does **not** apply to Foundations (Book 0) or Book 2, where "the membrane" alone remains a red flag. The standalone-"brane" prohibition (other than `3-brane`) still holds everywhere, in all products.
+
 5. **Waters terminology — mandatory pairing:** In technical contexts, ALWAYS pair on first mention per section:
    - "Dark energy (Waters Above, ~68%)" or "Waters Above (dark energy, ~68%)"
    - "Dark matter (Waters Below, ~27%)" or "Waters Below (dark matter, ~27%)"
@@ -62,7 +64,7 @@ You enforce every mechanical rule defined in the Series Bible and voice standard
 - "Hierarchy" listed as a governing principle
 - Unpaired dark matter/energy terminology in a technical context
 - A Hebrew term without proper first-mention formatting
-- "The membrane" used alone without "Firmament" qualification
+- "The membrane" used alone without "Firmament" qualification *(Foundations/Book 0 and Book 2; in **Book 1** this is permitted once "the Firmament" is anchored per chapter — see the §4 Book 1 carve-out)*
 - Voice register shift within a chapter (technical in Book 2, casual in Foundations)
 - Zone 3 used to mean Earth Prime
 
