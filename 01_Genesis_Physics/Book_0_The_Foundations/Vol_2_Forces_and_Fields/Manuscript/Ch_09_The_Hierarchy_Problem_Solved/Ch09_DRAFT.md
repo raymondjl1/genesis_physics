@@ -357,7 +357,7 @@ Gravity is not merely different in degree — it is different in kind. The gauge
 The hierarchy between gravity and the gauge forces is not a fine-tuning problem in the zone framework — it is a mathematical inevitability. Given:
 
 1. Two extra dimensions (established by zone axioms, Vol 1, Ch 3)
-2. A large scale ratio $\xi_A / \eta_B \sim 10^{41}$ (established by Waters field equations, Vol 1, Ch 4 and Ch 6)
+2. A large scale ratio $\xi_A / \eta_B \sim 10^{41}$ — the framework's one admitted *dimensionful* calibration ($\eta_B \approx 1$ fm), proven non-derivable from $\{\Lambda_{Z0}, M_{Pl}\}$ (board #855/#857, 2026-06-24); the Waters field equations fix the solution *form* and relative profile, not this absolute ratio
 3. A power-law warp factor with $\lambda = 41$ (derived from the Waters Above field equation, Vol 1, Ch 4, Eq. 1.4.23)
 
 ...the hierarchy *must* exist, and its magnitude is calculable.

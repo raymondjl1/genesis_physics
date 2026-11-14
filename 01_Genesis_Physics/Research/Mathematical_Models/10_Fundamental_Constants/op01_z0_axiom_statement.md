@@ -1,16 +1,18 @@
 # OP-01/OP-10: The Λ_Z0 Axiom — Precise Numerical Statement
-## Date: 2026-05-14 | Status: RESOLVED — one free parameter, fully stated
+## Date: 2026-05-14 (updated 2026-06-24) | Status: Λ_Z0 stated; framework has THREE admitted inputs (Λ_Z0, n_w=3, η_B) — see correction below
 
 ---
 
-## The Single Remaining Free Parameter
+## The Admitted Inputs (corrected 2026-06-24)
 
-After OP-01 through OP-10, the entire Genesis Physics framework reduces to
-**one undetermined number**: the cosmological constant of the Z₀ (Godhead) zone.
+> **Correction (board #855/#857, run wf_e22b3af3-c74).** The earlier claim that the framework reduces to *one* undetermined number (Λ_Z0) was over-stated — it silently assumed the zone hierarchy ξ_A/η_B *follows* from Λ_Z0. An exhaustive multi-method effort proved it does **not**: from {Λ_Z0, M_Pl} only M_Pl/k₁ = 10²²·⁰⁰ is formable fit-free, leaving the observed ξ_A/η_B = 10⁴¹·³⁶ short by 10¹⁹·³⁶ — a gap closed only by re-importing η_B (the ~1 fm Firmament calibration). The topological route is refuted in principle and the lone warranted decree (Day-2 squaring) overshoots. **The honest count is three admitted inputs: Λ_Z0, Postulate F (n_w = 3), and η_B.**
 
-Everything else — ħ, α, three generations, lepton mass ratios, the Yukawa hierarchy,
-the zone hierarchy ξ_A/η_B — follows from derivation, from measurement, or from
-zone architecture axioms. The one exception is Λ_Z0.
+After OP-01 through OP-10, everything else — ħ, α, three generations, lepton mass ratios,
+the Yukawa hierarchy — follows from derivation, from measurement, or from
+zone-architecture axioms **given those three inputs**. Λ_Z0 is the deepest (the
+Godhead-zone vacuum energy); n_w = 3 is the topological winding (Postulate F); η_B is
+the dimensionful calibration that sets the absolute scale of the Firmament. The zone
+hierarchy ξ_A/η_B is **not** derived — it is the dimensionless content of the η_B input.
 
 ---
 
@@ -143,13 +145,16 @@ explanation. It is the choice made in Book 0.
 | Derive Z₁ field equations | ✓ RESOLVED (OP-10, RS AdS solution) |
 | Derive k₁ from L_A | ✓ RESOLVED (k₁ = 2/(3L_A) = 1.22 MeV) |
 | Derive Λ_Z1 from k₁ | ✓ RESOLVED (Λ_Z1 = −5k₁² M_{Z0}⁴) |
-| Derive Λ_Z0 from first principles | ⊙ AXIOM — not derivable; one free parameter |
+| Derive Λ_Z0 from first principles | ⊙ AXIOM — not derivable (admitted input 1 of 3) |
+| Derive zone hierarchy ξ_A/η_B | ⊙ NON-DERIVABLE (#855/#857); η_B = admitted input 3 of 3 |
 | State Λ_Z0 precisely (THIS FILE) | ✓ COMPLETE |
 
-**OP-01/OP-10 STATUS: FULLY RESOLVED for the Genesis Physics framework.**
+**OP-01/OP-10 STATUS: RESOLVED for Λ_Z0; framework has THREE admitted inputs.**
 
-The framework has exactly one free parameter (Λ_Z0), which is an axiom by
-necessity. This is the correct and honest final state.
+The framework has three admitted inputs that are axioms by necessity: Λ_Z0
+(Godhead-zone vacuum energy), Postulate F (n_w = 3), and η_B (the ~1 fm
+Firmament calibration — the zone hierarchy ξ_A/η_B was proven non-derivable,
+#855/#857, run wf_e22b3af3-c74). This is the correct and honest final state.
 
 ---
 

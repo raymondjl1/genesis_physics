@@ -27,7 +27,9 @@ This document provides explicit closed-form and numerical solutions for the 6D s
 - **Zone 2.2 (Firmament)**: Observable 4D Firmament with SM physics
 - **Zone 2.1 (Waters Below)**: Dark matter confinement (η-direction)
 
-The solutions are derived from the 6D Einstein equations with cosmological constant and Firmament source terms. Crucially, **the zone extents ξ_A and η_B emerge from the field dynamics**, not input parameters. These solutions recover Friedmann cosmology, dark matter phenomenology, dark energy acceleration, and Newtonian gravity in appropriate limits.
+The solutions are derived from the 6D Einstein equations with cosmological constant and Firmament source terms. These solutions recover Friedmann cosmology, dark matter phenomenology, dark energy acceleration, and Newtonian gravity in appropriate limits.
+
+> **Honest correction (board #855/#857, ratified 2026-06-24).** An earlier version of this passage claimed the zone extents ξ_A and η_B *emerge from the field dynamics, not as input parameters*. That over-stated the result and is **withdrawn**. The field equations fix the *form* of the solutions and the *ratios among derived quantities*, but the absolute zone scale is **not** generated fit-free: an exhaustive effort (run wf_e22b3af3-c74) proved the dimensionless hierarchy ξ_A/η_B = 10⁴¹·³⁶ cannot be derived from {Λ_Z0, M_Pl} alone (only M_Pl/k₁ = 10²² is formable). **η_B (the ~1 fm Firmament thickness) is therefore an admitted dimensionful calibration input**, and ξ_A is fixed relative to it. The §5.1 step that "recovers" the Hubble horizon (below) selects Λ₆ consistent with that calibration — it is a consistency check, not an independent derivation of the scale.
 
 ---
 
@@ -848,7 +850,7 @@ Physically, this represents the moment when the universe transitions from the no
 
 ## Part 12: Open Questions and Future Refinements
 
-1. **Quantization of zones**: Are $\xi_A$ and $\eta_B$ truly emergent, or do they involve quantum number constraints?
+1. **Quantization of zones**: Are $\xi_A$ and $\eta_B$ truly emergent, or do they involve quantum number constraints? *(Partially resolved 2026-06-24, #855/#857: η_B is **not** emergent — it is the framework's admitted ~1 fm calibration input; the hierarchy ξ_A/η_B = 10⁴¹·³⁶ is non-derivable from {Λ_Z0, M_Pl}. Whether a deeper quantum constraint could fix it remains open.)*
 
 2. **Brane tension**: How is $\sigma$ related to fundamental scales? Is it dynamical?
 

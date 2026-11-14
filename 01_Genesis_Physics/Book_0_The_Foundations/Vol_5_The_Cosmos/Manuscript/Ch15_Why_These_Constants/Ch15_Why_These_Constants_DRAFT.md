@@ -663,9 +663,9 @@ But the mathematics points somewhere.
 > **Key Result 15.3 — Boltzmann's Constant Classified:**
 > k_B is a unit conversion factor (energy ↔ temperature), not a dynamical constant. The physical observable is the ratio ℏ/k_B ~ η_B/c × T_D, connecting the quantum and thermal scales through membrane geometry.
 
-> **Key Result 15.4 — Hierarchy Problem Resolved:**
+> **Key Result 15.4 — Gravity's Weakness, Resolved *Given* the Zone Scale:**
 > $$M_{\text{Pl}}^2 = M_6^2 \cdot V_{\text{extra}}$$
-> Gravity appears weak because gravitational flux dilutes into two large extra dimensions. The ratio G_N m_p²/(αℏc) ~ 10⁻³⁶ is a geometric consequence, not a mystery.
+> Gravity appears weak because gravitational flux dilutes into two large extra dimensions. The ratio G_N m_p²/(αℏc) ~ 10⁻³⁶ is a geometric consequence of the large warped volume V_extra — **given** the zone scale ξ_A/η_B ≈ 10⁴¹. That scale ratio is itself the framework's one admitted *dimensionful* calibration (η_B ≈ 1 fm), proven non-derivable from {Λ_Z0, M_Pl} (#855/#857, 2026-06-24); gravity's weakness *follows from* it rather than being a free mystery.
 
 > **Key Result 15.5 — Anthropic Principle Unnecessary:**
 > The constants are determined by the zone architecture, not tuned by observer selection. Life is a downstream consequence of the architecture, not the reason for it.

@@ -69,7 +69,7 @@
 - ℏ is small because the universe is large. The ratio ξ_A/η_B ≈ 10⁴¹ controls everything.
 - The same ratio that makes the cosmos enormous makes quantum effects tiny.
 - This is NOT fine-tuning — it's a geometric consequence of having both a cosmic scale and a nuclear scale.
-- The hierarchy ξ_A/η_B emerges from the zone dynamics, not from parameter choice.
+- The hierarchy ξ_A/η_B is the framework's one admitted *dimensionful* calibration (η_B ≈ 1 fm); it is **not** derived from the zone dynamics — proven non-derivable from {Λ_Z0, M_Pl} (#855/#857, 2026-06-24). The constants then follow *given* this ratio.
 
 ---
 

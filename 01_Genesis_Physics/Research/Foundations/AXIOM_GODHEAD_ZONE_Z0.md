@@ -9,7 +9,11 @@
 
 ## The Honest Framing (read first)
 
-This axiom is **adopted**, not derived. Every result that flows from it below is therefore **"RESOLVED *given* the framework's adopted foundational axioms (Λ_Z0 and Postulate F / n_w = 3), with the axiom dependency stated transparently"** — **NOT** "proven from nothing." This is builder's honesty: in any complete fundamental theory there is one ground-floor parameter (the vacuum energy of the deepest level) and one topological input that cannot be derived from within. In the zone framework those are Λ_Z0 and n_w = 3. Given them, ℏ (via β_geom), spin-½, three generations, the Yukawa hierarchy parameter α, and the fine-structure UV boundary follow. **State the axiom dependency every time.**
+This axiom is **adopted**, not derived. Every result that flows from it below is therefore **"RESOLVED *given* the framework's adopted foundational inputs, with the dependency stated transparently"** — **NOT** "proven from nothing." This is builder's honesty: a complete fundamental theory bottoms out in a small set of inputs that cannot be derived from within. In the zone framework there are **three admitted inputs**: (1) **Λ_Z0**, the ground-floor vacuum energy of the deepest zone; (2) **Postulate F**, the topological winding **n_w = 3**; and (3) **η_B**, the dimensionful Firmament-thickness calibration (the ~1 fm scale). Given these, ℏ (via β_geom), spin-½, three generations, the Yukawa hierarchy parameter α, and the fine-structure UV boundary follow.
+
+> **The third input, made explicit (board #855/#857, run wf_e22b3af3-c74, ratified 2026-06-24).** Earlier statements that the framework reduces to a *single* free parameter (Λ_Z0) silently assumed the zone hierarchy ξ_A/η_B follows from it. An exhaustive multi-method effort proved it does **not**: from {Λ_Z0, M_Pl} only M_Pl/k₁ = 10²²·⁰⁰ is formable fit-free, leaving the observed ξ_A/η_B = 10⁴¹·³⁶ short by 10¹⁹·³⁶. The topological route is **refuted in principle** (forced counts are integers; the target's fractional tail is a measured mantissa, log₁₀(2.3)=0.36), and the one warranted decree (Day-2 squaring → p=2 → 10⁴⁴) overshoots by 2.64 orders. The 10¹⁹·³⁶ shortfall is closed only by η_B, the ~1 fm calibration — so **η_B is an admitted dimensionful input, openly disclosed**, exactly as Λ_Z0 and n_w = 3 are. The chain bottoms out at three creative inputs by design, not by hidden gap.
+
+**State the input dependency every time.**
 
 ---
 
