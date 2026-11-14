@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Constants Ledger — Genesis Physics</title>
+<style>
+  :root{
+    --bg:#0f1419; --panel:#171f29; --panel2:#1d2733; --ink:#e6edf3; --mut:#9aa7b4;
+    --line:#2a3744; --accent:#5cc8ff; --gold:#e3b341;
+    --axiom:#8957e5; --derived:#2ea043; --dga:#3fb950; --fit:#d29922; --open:#f85149;
+    --partial:#db8e2d; --stillfit:#bb8009; --refuted:#6e7681;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 22px 80px;}
+  h1{font-size:30px;margin:0 0 4px;letter-spacing:-.5px;}
+  .sub{color:var(--mut);margin:0 0 22px;font-size:14px;}
+  h2{font-size:21px;margin:38px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line);}
+  h3{font-size:16px;margin:26px 0 8px;color:var(--accent);}
+  p{margin:10px 0;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  code{background:#0b0f14;border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:12.5px;
+    font-family:"SF Mono",Consolas,"Roboto Mono",monospace;color:#c9d4df;}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin:16px 0;}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:6px 0;}
+  .legend .li{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--mut);}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:13.5px;}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top;}
+  th{background:var(--panel2);color:var(--mut);font-weight:600;text-transform:uppercase;font-size:11px;letter-spacing:.5px;}
+  tr:hover td{background:#141c26;}
+  .badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:11px;font-weight:700;
+    letter-spacing:.3px;white-space:nowrap;color:#0b0f14;}
+  .b-axiom{background:var(--axiom);color:#fff;}
+  .b-derived{background:var(--derived);color:#fff;}
+  .b-dga{background:#238636;color:#fff;}
+  .b-fit{background:var(--fit);}
+  .b-open{background:var(--open);color:#fff;}
+  .b-partial{background:var(--partial);}
+  .b-stillfit{background:var(--stillfit);color:#fff;}
+  .b-refuted{background:var(--refuted);color:#fff;}
+  .pill{display:inline-block;background:#0b2a3a;border:1px solid #14506e;color:#7fd1ff;
+    border-radius:5px;padding:1px 7px;font-size:12px;font-weight:600;}
+  .scorerow{display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center;
+    padding:10px 0;border-bottom:1px solid var(--line);}
+  .scorerow:last-child{border-bottom:none;}
+  .big{font-size:26px;font-weight:800;}
+  .green{color:var(--derived);} .gold{color:var(--gold);} .red{color:var(--open);} .mut{color:var(--mut);}
+  .bugs li{margin:8px 0;}
+  .note{background:#1a1410;border:1px solid #4d3a13;border-radius:8px;padding:12px 16px;color:#e8d3a0;font-size:13.5px;}
+  .win{background:#0d1f14;border:1px solid #1c5530;border-radius:8px;padding:12px 16px;color:#9be6b4;font-size:13.5px;}
+  footer{margin-top:40px;color:var(--mut);font-size:12px;border-top:1px solid var(--line);padding-top:14px;}
+  .frontier{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0;}
+  .frontier .pill{font-size:12.5px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Constants Ledger — Genesis Physics</h1>
+  <p class="sub">Every fundamental constant the framework touches, with provenance status, accuracy, and owning board issue.
+  Companion to <code>DERIVATION_PROVENANCE_LEDGER.md</code>. Built from the canonical ledger (2026-06-11);
+  derivation-race verdicts added 2026-06-14 (board <span class="pill">#853</span>). Nothing here is newly claimed.</p>
+
+  <div class="card">
+    <h3 style="margin-top:0">Status legend</h3>
+    <div class="legend">
+      <span class="li"><span class="badge b-axiom">AXIOM</span> irreducible adopted input</span>
+      <span class="li"><span class="badge b-derived">DERIVED</span> full chain to axioms</span>
+      <span class="li"><span class="badge b-dga">DERIVED-given-AXIOM</span> follows given an adopted axiom</span>
+      <span class="li"><span class="badge b-fit">FIT</span> rests on a fitted/measured input → open</span>
+      <span class="li"><span class="badge b-open">OPEN</span> not yet derived</span>
+      <span class="li"><span class="badge b-stillfit">STILL-FIT</span> race verdict: no derivation survived</span>
+      <span class="li"><span class="badge b-partial">PARTIAL</span> suggestive structure only</span>
+      <span class="li"><span class="badge b-refuted">REFUTED</span> approach killed</span>
+    </div>
+    <h3>The frontier (open board issues)</h3>
+    <div class="frontier">
+      <span class="pill">#846 — two-loop α→137.036</span>
+      <span class="pill">#847 — absolute mass scale / Higgs vev</span>
+      <span class="pill">#848 — precise CKM/PMNS angles</span>
+      <span class="pill">#849 — derive n_w=3 from Z₀</span>
+      <span class="pill">#850 — Yukawa α</span>
+      <span class="pill">#853 — this umbrella audit</span>
+    </div>
+  </div>
+
+  <h2>A. Framework / dimensionful constants</h2>
+  <table>
+    <tr><th>Constant</th><th>Value</th><th>Status</th><th>Accuracy / notes</th><th>Issue</th></tr>
+    <tr><td>Λ<sub>Z0</sub> (Godhead-zone vacuum energy)</td><td>1.65×10⁷¹ GeV⁶</td><td><span class="badge b-axiom">AXIOM</span></td><td>irreducible; biblically grounded (Gen 1:1; John 1:1–3)</td><td>—</td></tr>
+    <tr><td>ℏ (Planck constant)</td><td>1.0546×10⁻³⁴ J·s</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span></td><td>β_geom numerical refinement open</td><td>—</td></tr>
+    <tr><td>c (speed of light)</td><td>2.998×10⁸ m/s</td><td><span class="badge b-derived">DERIVED</span></td><td>exact (c²=σ/μ; σ traces to Λ_Z0)</td><td>—</td></tr>
+    <tr><td>α⁻¹ (fine structure)</td><td>parameter-free <b>136.42</b> (−0.45%)</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>C=n_w²/(2π)=1.4324 (n_w=3) is the genuine prediction; exact 137.036 needs re-fitted C=1.4388</td><td><span class="pill">#846</span></td></tr>
+    <tr><td>G (gravitational)</td><td>6.674×10⁻¹¹</td><td><span class="badge b-fit">FIT</span></td><td>mechanism sound (G₄=G₆/V_extra); G₆/M₆ back-solved</td><td><span class="pill">#847</span></td></tr>
+    <tr><td>k_B (Boltzmann)</td><td>1.380649×10⁻²³ (exact)</td><td><span class="badge b-axiom">AXIOM</span></td><td>conventional unit (honest non-derivation)</td><td>—</td></tr>
+  </table>
+  <p class="note">The older <code>10-FUNDAMENTAL_CONSTANTS_OVERVIEW.md</code> (Apr 2026) is more cautious — it derives only the <i>dimensional form</i> of ℏ/G/k_B and accepts the numerical coefficients from experiment. The 2026-06-11 ledger status above governs where they differ.</p>
+
+  <h2>B. Gauge couplings <span class="mut">(3 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Status</th><th>Notes</th></tr>
+    <tr><td>g₃ — strong (α_s)</td><td><span class="badge b-fit">FIT</span></td><td>SU(3) <i>group</i> DERIVED (Z₃ orbifold); coupling <i>value</i> tuned</td></tr>
+    <tr><td>g₂ — weak (α_w)</td><td><span class="badge b-fit">FIT</span></td><td>SU(2) <i>group</i> DERIVED (η-isometries); value tuned</td></tr>
+    <tr><td>g₁ — hypercharge (sin²θ_W)</td><td><span class="badge b-fit">FIT</span></td><td>needs tuned λ; value not derived</td></tr>
+    <tr><td>Λ_QCD (confinement scale)</td><td><span class="badge b-fit">FIT</span></td><td>~30%; Λ_QCD ≈ ℏc/η_B, calibrated to η_B</td></tr>
+  </table>
+
+  <h2>C. Charged-fermion masses <span class="mut">(9 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Status</th><th>Accuracy</th><th>Issue</th></tr>
+    <tr><td>electron</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span> + FIT residual</td><td>+17%</td><td><span class="pill">#847</span></td></tr>
+    <tr><td>muon</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span> + FIT</td><td>−15…19%</td><td><span class="pill">#850</span></td></tr>
+    <tr><td>tau</td><td><span class="badge b-fit">FIT</span> (calibration anchor)</td><td>defines hierarchy</td><td><span class="pill">#847</span></td></tr>
+    <tr><td>up, down, strange</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span>, scheme-FIT</td><td>~2–7%</td><td><span class="pill">#850</span></td></tr>
+    <tr><td>charm, top, bottom</td><td><span class="badge b-fit">FIT</span></td><td>fail badly at tree level</td><td><span class="pill">#847/#850</span></td></tr>
+    <tr><td>Yukawa hierarchy α</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>needed 0.98, geometry gives 0.13 (7.5× short)</td><td><span class="pill">#850</span></td></tr>
+  </table>
+
+  <h2>D. Quark mixing — CKM <span class="mut">(4 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Status</th><th>Accuracy / notes</th><th>Issue</th></tr>
+    <tr><td>Cabibbo θ₁₂</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>=arcsin√(m_d/m_s)=12.92° (−0.9%), but downstream of measured masses</td><td><span class="pill">#848</span></td></tr>
+    <tr><td>θ₁₃</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>=arcsin√(m_u/m_t)=0.20° (+1%); unexplained up-vs-down choice</td><td><span class="pill">#848</span></td></tr>
+    <tr><td>θ₂₃</td><td><span class="badge b-open">OPEN</span></td><td>no surviving mechanism (mass-pinned −64%)</td><td><span class="pill">#848</span></td></tr>
+    <tr><td>δ_CP phase</td><td><span class="badge b-derived">DERIVED</span> (existence) / <span class="badge b-fit">FIT</span> (value)</td><td>existence rigorous (ξ≠η); value π/3 fitted (Z₆ topology)</td><td><span class="pill">#848</span></td></tr>
+  </table>
+
+  <h2>E. Higgs sector <span class="mut">(2 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Value</th><th>Status</th><th>Notes</th><th>Issue</th></tr>
+    <tr><td>Higgs vev v</td><td>246.22</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>back-solved from measured M_W, G_F; no forward route survived</td><td><span class="pill">#847</span></td></tr>
+    <tr><td>Higgs mass / λ</td><td>m_H 125.1, λ=0.129</td><td><span class="badge b-fit">FIT</span></td><td>λ back-solved from measured m_H</td><td><span class="pill">#847</span></td></tr>
+  </table>
+
+  <h2>F. Strong-CP angle <span class="mut">(1 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Status</th><th>Notes</th><th>Issue</th></tr>
+    <tr><td>θ_QCD (≈0, &lt;10⁻¹⁰)</td><td><span class="badge b-open">PARTIAL / OPEN</span></td><td>axion-like Waters-Below defects "suggest" θ→0; proof explicitly incomplete</td><td>none yet (flagged in #853)</td></tr>
+  </table>
+
+  <h2>G. Neutrino sector <span class="mut">(7 of the ~31: 3 masses + 4 PMNS)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Status</th><th>Notes</th><th>Issue</th></tr>
+    <tr><td>3 neutrino masses</td><td><span class="badge b-open">OPEN</span></td><td>smallness a <i>qualitative</i> win; absolute scale open</td><td><span class="pill">#847</span></td></tr>
+    <tr><td>PMNS angles + phase</td><td><span class="badge b-open">OPEN</span></td><td>not derived. ⚠️ <code>06-NEUTRINO_PHYSICS.md</code> overclaims "EXACT MATCH" — ledger honesty flag, to reconcile</td><td><span class="pill">#848</span></td></tr>
+  </table>
+
+  <h2>H. Cosmology <span class="mut">(~6 of the ~31)</span></h2>
+  <table>
+    <tr><th>Constant</th><th>Value</th><th>Status</th><th>Notes</th></tr>
+    <tr><td>Dark-energy density Ω_Λ</td><td>0.684</td><td><span class="badge b-axiom">AXIOM</span> + FIT value</td><td>≡ Waters Above by definition</td></tr>
+    <tr><td>Dark-matter density Ω_DM</td><td>0.266</td><td><span class="badge b-axiom">AXIOM</span> + FIT value</td><td>≡ Waters Below by definition</td></tr>
+    <tr><td>Baryon density Ω_b</td><td>(68/27/5)</td><td><span class="badge b-derived">DERIVED</span> ordering / <span class="badge b-fit">FIT</span> value</td><td>zone extents + warp; exact values fitted</td></tr>
+    <tr><td>Cosmological constant ρ_eff</td><td>2.93×10⁻⁴⁷ GeV⁴</td><td><span class="badge b-fit">FIT</span></td><td>~20%; suppression exponent n=1 derivation pending</td></tr>
+    <tr><td>H₀</td><td>67.4</td><td><span class="badge b-derived">DERIVED</span> (+FIT magnitude)</td><td>from derived G₄, Ω; Hubble-tension <i>direction</i> predicted</td></tr>
+    <tr><td>Spectral tilt n_s</td><td>—</td><td><span class="badge b-fit">FIT</span></td><td>slow-roll fit</td></tr>
+    <tr><td>Scalar amplitude A_s</td><td>—</td><td><span class="badge b-open">OPEN / FIT</span></td><td>not derived</td></tr>
+    <tr><td>w_A (DE equation of state)</td><td>−1</td><td><span class="badge b-derived">DERIVED</span></td><td>V_A=const → P=−ρ</td></tr>
+    <tr><td>CMB acoustic peak ℓ₁ / T₀</td><td>≈220 / 2.725 K</td><td><span class="badge b-derived">DERIVED</span></td><td>6D acoustic oscillations (n_s is the slow-roll FIT)</td></tr>
+  </table>
+
+  <h2>I. Derived consequences <span class="mut">(not free parameters, but constant-valued wins)</span></h2>
+  <table>
+    <tr><th>Quantity</th><th>Status</th><th>Accuracy</th></tr>
+    <tr><td>Proton mass</td><td><span class="badge b-derived">DERIVED</span></td><td>−0.02% (QCD binding dominates)</td></tr>
+    <tr><td>Neutron / n−p split</td><td><span class="badge b-derived">DERIVED</span>, approximate</td><td>~4%</td></tr>
+    <tr><td>M_W / M_Z</td><td><span class="badge b-derived">DERIVED</span> (given fitted v)</td><td>80.27 / 91.55</td></tr>
+    <tr><td>Charge quantization Q=n_Y/2</td><td><span class="badge b-derived">DERIVED</span></td><td>exact</td></tr>
+    <tr><td>Three-generation count</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span> (Postulate F)</td><td>computed, #851 fixed</td></tr>
+    <tr><td>Spin-½ existence</td><td><span class="badge b-dga">DERIVED-given-AXIOM</span> (Postulate F)</td><td>—</td></tr>
+  </table>
+
+  <h2>Scorecard summary — the ~31 fine-tuning constants</h2>
+  <div class="card">
+    <div class="scorerow"><span>DERIVED from first principles (no fit, no residual)</span><span class="big green">~0</span></div>
+    <div class="scorerow"><span>DERIVED-given-AXIOM, with fitted residuals <span class="mut">(e/μ masses, light quarks, generation count, CP existence)</span></span><span class="big gold">~4</span></div>
+    <div class="scorerow"><span>Structure derived, value FIT/tuned <span class="mut">(3 gauge couplings, Higgs v &amp; m_H, Ω densities, Cabibbo, δ_CP value)</span></span><span class="big gold">~10</span></div>
+    <div class="scorerow"><span>OPEN or only qualitative <span class="mut">(θ₂₃/θ₁₃, 3 ν masses, 4 PMNS, θ_QCD, A_s, heavy quarks)</span></span><span class="big red">~12</span></div>
+  </div>
+  <p><b>Bottom line.</b> The framework derives the <i>architecture</i> of the constants (which gauge groups, how many generations, the four forces, the dark-sector identity) from one 6D Genesis-1 geometry — but it does <b>not</b> yet output the fine-tuning <i>values</i> without reaching for the measured number. Every value-level entry that reads FIT or OPEN is, by the framework's own Provenance Principle, an open problem.</p>
+
+  <h2>Derivation race results — 2026-06-14 <span class="mut">(board #853, run wf_4f4e07a0-e1f)</span></h2>
+  <p>A multi-team race (3 strategies × 4 issues: geometric, dynamical/RG, dimensional/scaling) with adversarial verification ran against the four value-frontier issues. <b>Verdict: all four remain STILL-FIT</b> — no first-principles derivation survived refutation.</p>
+  <table>
+    <tr><th>Issue</th><th>Verdict</th><th>What genuinely survived</th><th>What died</th></tr>
+    <tr><td><span class="pill">#846</span> α</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>Parameter-free <b>C=n_w²/(2π)=1.4324</b> → α⁻¹=136.42 (<b>−0.45%</b>), using only n_w=3 + a 1/(2π) Green's-function prefactor. Suggestive structure.</td><td>Exact 137.036 still fitted; residual b_eff 9.00→9.04 has no honest two-loop or SM-β source. SU(3)→U(1)_em bridge asserted.</td></tr>
+    <tr><td><span class="pill">#847</span> Higgs vev</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>Nothing — best near-miss (k1³·M_Pl)^¼ = 386 GeV (+57%) needs exponent 0.241, not ¼.</td><td>No forward route from Λ_Z0+geometry; every warp/seesaw/power combo misses by 0.5–13 orders of magnitude.</td></tr>
+    <tr><td><span class="pill">#848</span> CKM</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>Only θ₁₂ &amp; θ₁₃ reproduce, via GST mass-ratio relations — but downstream of <i>measured</i> masses.</td><td>θ₂₃ has no surviving scheme; geometric/orbifold route REFUTED (Z₃ windings are <b>color</b>, not generations); all PMNS OPEN.</td></tr>
+    <tr><td><span class="pill">#850</span> Yukawa α</td><td><span class="badge b-stillfit">STILL-FIT</span></td><td>A real <b>mechanism upgrade</b>: Jackiw–Rossi zero-mode positions pinned (r_k=0, 1.20, 2.07), fitted double-well retired.</td><td>Coefficient α still <b>7.5× short</b> (0.13 vs 0.98), closed only by tuning κ_H≈27 to masses; n² form not produced by mechanism; RG route REFUTED.</td></tr>
+  </table>
+
+  <h3>⚠️ Corpus honesty bugs found during the race (to fix)</h3>
+  <div class="note">
+  <ol class="bugs">
+    <li><b>#846</b> — <code>10-FINE_STRUCTURE_DERIVATION.md</code> L418 hand-assembles b_eff = 3.67+2+1.4+0.7+0.6 with 4 of 5 terms tuned, <i>overriding the doc's own</i> honest SM charge-weighted count of (2/3)·8 = 5.33.</li>
+    <li><b>#847</b> — <code>06-HIGGS_DERIVATION.md</code> contains a <b>factor-of-2 self-contradiction</b> (L340 v=2μ/√λ → 492 GeV vs L360 v=μ/√λ → 246 GeV) and a <b>dimensionally broken</b> μ² ∼ σc²/ξ_A² mechanism (units kg/(m·s⁴), not energy²).</li>
+    <li><b>#848</b> — the generation charge assignment (0,1,3) <b>contradicts its cited source</b> <code>RT2_SU3_Z3_ORBIFOLD.md</code> (which assigns windings {0,1,2} to QCD color, not generations).</li>
+    <li><b>#850</b> — <code>op03_wkb_tunneling.py</code> L78–80 defines <code>ALPHA_TARGET</code> <b>circularly</b> from the PDG masses, then uses it as a "derivation" check.</li>
+  </ol>
+  </div>
+
+  <div class="win" style="margin-top:18px">
+    <b>The one genuine win:</b> a parameter-free α⁻¹ = 136.42 (−0.45% off the measured 137.036), built from nothing but n_w=3 (Postulate F) and a 1/(2π) geometric prefactor. Not exact, but real structure — the only fine-tuning value that comes close without reaching for the answer.
+  </div>
+
+  <h2>Reverse-derivation depth map <span class="mut">— 2026-06-22 (board #854, run wf_6862922b-235)</span></h2>
+  <p>The complement to the forward race: each <i>measured</i> constant climbs <b>upward</b> into the framework on a fixed ladder, adversarially audited. <b>L0</b> number only · <b>L1</b> formula but fitted · <b>L2</b> reduced to framework scales (one O(1) factor) · <b>L3</b> that factor derived from geometry · <b>L4</b> reaches an adopted axiom · <b>L5</b> Scripture ground floor.</p>
+
+  <div class="note">
+    <b>How far do they get? Not far — for <i>values</i>.</b> Of 12 audited constants: <b>1 at L0, 10 at L1, 1 at L2 (α). Zero reach L3, L4, or L5.</b> Four were downgraded on audit (α L3→L2, lepton masses L2→L1, θ_QCD L1→L0, cosmological set L2→L1); six carry a smuggled fit. All four downgrades moved the same direction — claimed deeper than verified — i.e. the framework's self-assessment is systematically optimistic exactly at the value-producing step.
+  </div>
+
+  <table>
+    <tr><th>Level</th><th>Count</th><th>Constants</th></tr>
+    <tr><td><span class="badge b-open">L0</span> number only</td><td>1</td><td>θ_QCD (CKM θ₂₃ effectively here too)</td></tr>
+    <tr><td><span class="badge b-fit">L1</span> formula, fitted</td><td><b>10</b></td><td>ℏ, c, G, gauge couplings (α_s, sin²θ_W), charged-lepton masses + Yukawa α, light quarks, CKM angles, Higgs vev v, neutrinos + PMNS, cosmological set (Ω_Λ/Ω_DM/ρ_eff/H₀/n_s)</td></tr>
+    <tr><td><span class="badge b-partial">L2</span> reduced to scales</td><td>1</td><td><b>α</b> — C=n_w²/(2π) touches Postulate F, but the value still needs the log ln(ξ_A/η_B) built from measured scales</td></tr>
+    <tr><td><span class="badge b-refuted">L3/L4/L5</span></td><td>0</td><td>— (for <i>values</i>)</td></tr>
+  </table>
+
+  <p><b>The modal wall is L1→L2</b> (10 of 12): the value-from-scale step. The recurring mechanism — <b>the framework's own scales aren't independent of the answer.</b> ξ_A ≈ the measured Hubble length and η_B ≈ the measured ~1 fm scale, so any formula routing through them re-imports a measured number. c²=σ/μ is a tautology (μ back-solved); ℏ's k1/L_A/β_geom, G's M₆/V_extra are back-solved; v's only scale chain is dimensionally broken + factor-of-2 contradicted.</p>
+
+  <div class="win">
+    <b>What the framework genuinely <i>is</i>:</b> load-bearing as a <b>selection principle</b> (which gauge groups, <i>why three</i> generations, which reservoir is which — these reach L4: SU(3)_C via Z₃ orbifold, generation count via Postulate F, DE/DM≡Waters as an identity) and a <b>formal scaffold</b> (it gets the equation <i>forms</i> right). What it is <b>not</b> (yet): a <b>quantitative generator</b>. It postdicts numbers; it does not yet predict them. ξ_A and η_B are simultaneously the load-bearing column and the hidden fit — "the measured number wearing an axiom's name."
+  </div>
+
+  <p><b>Highest-leverage next rung →</b> derive <b>ξ_A and η_B from Λ_Z0 from first principles</b> (no c/H₀/1fm). It's the shared blocker for the cosmological set, α's log, G's V_extra, and the neutrino route. <span class="pill">#855</span> is now attacking exactly this. If it holds fit-free, α and ρ_eff reach L4 and half the L1 cluster gains a path up; if not, that is the framework's honest quantitative boundary.</p>
+
+  <h2>Expansion-Hypothesis re-analysis <span class="mut">— verified partition, 2026-06-24 (board #857, run wf_8321286d-b33)</span></h2>
+  <p>Every constant re-examined through the <b>Expansion Hypothesis</b> lens (dimensionful = unit convention; only dimensionless content is real), behind an integrity gate forbidding "declare victory by calling the gap a unit convention." The final synthesis <b>corrected four over-eager promotions</b> from the first pass.</p>
+
+  <div class="note">
+    <b>Net effect: DISSOLVES-HALF.</b> The lens dissolves the dimensionful half as a genuine <i>category error</i> (≈half the "constants" were never independent content) but only <b>relabels</b> the dimensionless half — it resolves nothing, promotes zero values' accuracy, and the <b>10⁴¹·³⁶ zone-hierarchy wall stands at exactly its prior height.</b> A bookkeeping / selection-principle win, not an accuracy win.
+  </div>
+
+  <table>
+    <tr><th>Bin</th><th>Members</th></tr>
+    <tr><td><span class="badge b-derived">GRAMMAR-DERIVED</span><br><span class="mut">forced by 1=1</span></td><td><b>w_A = −1</b> — the only clean value-level grammar win (Λ_A cancels from the ratio, P=−ρ forced). Plus <i>structure/form only</i>: SU(N) existence, the integer winding tower behind masses, the 1/(2π) prefactor in α, gluon count 8=3²−1, the duality form.</td></tr>
+    <tr><td><span class="badge b-axiom">SELECTED-DECREE</span><br><span class="mut">permitted-but-chosen</span></td><td><b>δ_CP = π/3</b> — the one genuine FIT→DECREE promotion (minimal 6th-root phase, writable before any fit). Plus α's n_w²=9 numerator, the group members SU(3)/SU(2)/U(1), dim 6, n_w=3, the dark-sector identities + ordering (68>27>5).</td></tr>
+    <tr><td><span class="badge b-stillfit">STILL-FIT</span><br><span class="mut">tuned, no promotion</span></td><td>α-as-a-whole (its log <i>is</i> the circular hierarchy), α_s, sin²θ_W, λ/m_H, β_geom, all fermion mass ratios + Yukawa α, CKM/PMNS angles, Ω_b, ρ_eff, H₀ mag, n_s, <b>and ξ_A/η_B = 10⁴¹·³⁶ itself</b>. ⚠ Corrected from first pass: <b>Λ_QCD, τ, Higgs vev v, Ω_Λ/Ω_DM values</b> (each hides an underived residual).</td></tr>
+    <tr><td><span class="badge b-refuted">UNIT-CONVENTION-ONLY</span><br><span class="mut">only 2 survive</span></td><td><b>k_B</b> (fully clean — zero residual) and <b>c</b> (legitimate but contingent on the c²=σ/μ tautology — not a positive derivation). ℏ, G, v, Λ_QCD, τ, H₀, ρ_eff are <i>not</i> here: each carries a residual that routes through the hierarchy.</td></tr>
+  </table>
+
+  <div class="win">
+    <b>What it settles:</b> every demoted scale <i>relocates</i> its dimensionless content onto ξ_A/η_B = 10⁴¹·³⁶ — so the gap is <b>conserved and now provably concentrated in one number</b>. That single 19.36-order shortfall now <b>is</b> the constants problem. The framework remains a <b>formal scaffold + selection principle, not a quantitative generator.</b> (Corpus bugs found: <span class="pill">#858</span> L_A, <span class="pill">#859</span> sin²θ_W/α_s/m_c-m_s.)
+  </div>
+
+  <h2>Three admitted inputs underneath everything</h2>
+  <p class="mut" style="margin-top:-4px">Ratified 2026-06-24 and propagated to the canonical axiom docs (AXIOM_GODHEAD_ZONE_Z0, op01, METRIC_6D_SOLUTIONS) and the provenance ledger. Supersedes the prior "two axioms" framing.</p>
+  <ul>
+    <li><b>Λ<sub>Z0</sub></b> — the Godhead-zone vacuum energy; biblically grounded (Gen 1:1; John 1:1–3); the absence of a <i>physics</i> derivation is "the thesis, not a gap."</li>
+    <li><b>Postulate F (n_w = 3)</b> — gives spin-½ and the three-generation count, but #849's verdict is that nothing in the physics forces the 3: "consonant, located, not derived" (located at the Day-2 dividing of the waters, Gen 1:6–8).</li>
+    <li><b>η_B</b> — the ~1 fm Firmament-thickness calibration; the one admitted <i>dimensionful</i> input. The hierarchy ξ_A/η_B = 10⁴¹·³⁶ was proven non-derivable (#855/#857) and refuted-in-principle on the topological route, so η_B is disclosed as a builder's-honesty calibration — not a hidden fit.</li>
+  </ul>
+
+  <footer>
+    Genesis Physics · Quality_Control/Reference · sourced verbatim from <code>DERIVATION_PROVENANCE_LEDGER.md</code> (canonical 2026-06-11) and derivation race <code>wf_4f4e07a0-e1f</code> (2026-06-14). Every value-level FIT/OPEN/STILL-FIT entry is an open problem by the framework's Provenance Principle.
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Creation → Three Generations — System Block Definition Diagram</title>
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --line:#30363d; --ink:#e6edf3; --dim:#8b949e;
+    --grounded:#e3b341;   /* gold  — scripture role-identification */
+    --derived:#3fb950;    /* green — physics derived from axioms */
+    --consonant:#58a6ff;  /* blue  — scripturally located, not derived */
+    --decree:#bc8cff;     /* violet— free creation parameter */
+    --observed:#8b949e;   /* gray  — confirmed by measurement */
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:radial-gradient(1200px 600px at 50% -10%,#12243b 0%,var(--bg) 55%);
+       color:var(--ink);font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding:28px}
+  h1{font-size:24px;margin:0 0 4px;letter-spacing:.2px}
+  .sub{color:var(--dim);margin:0 0 18px;font-size:14px}
+  .mono{font-family:"SF Mono",Consolas,"Liberation Mono",monospace}
+  .wrap{max-width:1040px;margin:0 auto}
+  /* legend */
+  .legend{display:flex;flex-wrap:wrap;gap:14px;background:var(--panel);border:1px solid var(--line);
+          border-radius:10px;padding:12px 16px;margin-bottom:26px;font-size:13px}
+  .key{display:flex;align-items:center;gap:7px}
+  .sw{width:14px;height:14px;border-radius:3px;flex:none}
+  /* flow */
+  .flow{display:flex;flex-direction:column;align-items:center}
+  .block{background:var(--panel);border:1px solid var(--line);border-left:5px solid var(--line);
+         border-radius:10px;padding:14px 18px;width:100%;max-width:620px;box-shadow:0 2px 10px #0006}
+  .block h3{margin:0 0 2px;font-size:16px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .block .role{color:var(--dim);font-size:12.5px;margin:2px 0 8px}
+  .block .gen,.block .phys{font-size:13px;margin:3px 0}
+  .tag{font-size:11px;padding:2px 8px;border-radius:20px;border:1px solid currentColor;font-weight:600;letter-spacing:.3px}
+  .mult{font-family:"SF Mono",Consolas,monospace;background:#1f2937;border:1px solid var(--line);
+        border-radius:6px;padding:1px 8px;font-size:13px;color:#fff}
+  .scr{color:var(--consonant)} .ph{color:var(--derived)}
+  .p-grounded{border-left-color:var(--grounded)} .t-grounded{color:var(--grounded)}
+  .p-derived{border-left-color:var(--derived)}   .t-derived{color:var(--derived)}
+  .p-consonant{border-left-color:var(--consonant)} .t-consonant{color:var(--consonant)}
+  .p-decree{border-left-color:var(--decree)}     .t-decree{color:var(--decree)}
+  .p-observed{border-left-color:var(--observed)} .t-observed{color:var(--observed)}
+  /* connectors */
+  .conn{display:flex;flex-direction:column;align-items:center;width:100%}
+  .stem{width:2px;height:18px;background:var(--line)}
+  .dia{color:var(--line);font-size:15px;line-height:1}
+  .ann{color:var(--dim);font-size:12.5px;font-style:italic;max-width:560px;text-align:center;margin:5px 0}
+  .ann b{color:var(--ink);font-style:normal}
+  /* siblings */
+  .sibs{display:flex;gap:12px;width:100%;max-width:860px;justify-content:center;flex-wrap:wrap}
+  .sibs .block{max-width:270px}
+  .note{font-size:12.5px;color:var(--dim);text-align:center;max-width:640px;margin:8px 0 0}
+  /* gens */
+  .gens{display:flex;gap:12px;width:100%;max-width:900px;justify-content:center;flex-wrap:wrap}
+  .gencard{background:var(--panel);border:1px solid var(--line);border-top:4px solid var(--observed);
+           border-radius:10px;padding:12px 14px;width:270px}
+  .gencard h4{margin:0 0 6px;font-size:14px;display:flex;justify-content:space-between}
+  .gencard .w{color:var(--dim);font-size:11.5px}
+  .gencard ul{margin:6px 0 0;padding-left:18px;font-size:13px}
+  .gencard li{margin:2px 0}
+  .g1{border-top-color:var(--derived)} .g2{border-top-color:#d29922} .g3{border-top-color:#f85149}
+  /* bom */
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:13px;background:var(--panel);
+        border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  th,td{padding:8px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+  th{background:#1c2330;color:var(--dim);font-weight:600;letter-spacing:.3px;font-size:12px;text-transform:uppercase}
+  td.q{font-family:"SF Mono",Consolas,monospace;color:#fff;white-space:nowrap}
+  tr:last-child td{border-bottom:none}
+  .pill{display:inline-block;font-size:10.5px;padding:1px 7px;border-radius:20px;border:1px solid currentColor;font-weight:600}
+  h2{font-size:17px;margin:34px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+  .foot{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-top:14px;font-size:13.5px}
+  .foot p{margin:7px 0}
+  .foot .lead{font-weight:700}
+  .caption{color:var(--dim);font-size:12px;text-align:center;margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>From the <span class="mono">I&nbsp;AM</span> to the Three Generations</h1>
+  <p class="sub">A System Block Definition Diagram (SysML BDD + Bill of Materials) of the Genesis&nbsp;Physics creation chain &mdash; ♦ = composition ("is part of"), <span class="mono">[n]</span> = multiplicity. Color = provenance.</p>
+
+  <div class="legend">
+    <div class="key"><span class="sw" style="background:var(--grounded)"></span><b>Grounded</b>&nbsp;— Scripture identifies the reality</div>
+    <div class="key"><span class="sw" style="background:var(--derived)"></span><b>Derived</b>&nbsp;— physics follows from the axioms</div>
+    <div class="key"><span class="sw" style="background:var(--consonant)"></span><b>Consonant / located</b>&nbsp;— a scriptural home, not a derivation</div>
+    <div class="key"><span class="sw" style="background:var(--decree)"></span><b>Decree</b>&nbsp;— a free creation parameter</div>
+    <div class="key"><span class="sw" style="background:var(--observed)"></span><b>Observed</b>&nbsp;— confirmed by measurement</div>
+  </div>
+
+  <div class="flow">
+
+    <!-- 0. I AM -->
+    <div class="block p-grounded">
+      <h3>God &mdash; the <span class="mono">I&nbsp;AM</span> <span class="tag t-grounded">GROUNDED</span></h3>
+      <div class="role">Zone Z₀, the Godhead &mdash; the uncaused, self-existent ground. The single foundational parameter Λ_Z0.</div>
+      <div class="gen scr">Scripture: <b>Exodus 3:14</b> "I AM THAT I AM" · <b>Genesis 1:1</b> "In the beginning God..." · <b>John 1:1–3</b> "the Word was God... all things were made through him."</div>
+      <div class="phys ph">Physics: the one irreducible input; every constant cascades from Λ_Z0. (Grounded by <i>identification</i>: the uncaused ground = the Creator.)</div>
+    </div>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann">"All things were made through him" (Jn 1:3) &mdash; <b>the provenance principle, in Scripture</b>: only the Word is unmade; all else derives.</div><div class="stem"></div></div>
+
+    <!-- 1. Z1 -->
+    <div class="block p-derived">
+      <h3>Heaven Prime <span class="mono">Z₁</span> <span class="tag t-derived">DERIVED ARCHITECTURE</span></h3>
+      <div class="role">Transcendent order &amp; the source of causality. The Logos-order through which creation is spoken.</div>
+      <div class="gen scr">Scripture: <b>Genesis 1:1, 1:3</b> "Let there be light."</div>
+      <div class="phys ph">Physics: the transcendent reference frame; sets k₁ → ℏ down the chain.</div>
+    </div>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann">the created order unfolds into the material cosmos (Days 1–6)</div><div class="stem"></div></div>
+
+    <!-- 2. Z2 -->
+    <div class="block p-derived">
+      <h3>Earth Prime <span class="mono">Z₂</span> <span class="tag t-derived">DERIVED ARCHITECTURE</span></h3>
+      <div class="role">The material cosmos &mdash; observable spacetime.</div>
+      <div class="gen scr">Scripture: <b>Genesis 1</b>, Days 1–6.</div>
+    </div>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann"><b>DAY 2 — God divides the waters by the firmament</b> (Gen 1:6–8). The Hebrew <i>bên mayim lā-mayim</i> + <i>bāḏal</i> = a <b>two-fold</b> separation.</div><div class="stem"></div></div>
+
+    <!-- 3. the division: 3 siblings -->
+    <div class="sibs">
+      <div class="block p-derived">
+        <h3>Waters Above <span class="mono">[1 of 2]</span></h3>
+        <div class="role">ξ direction · field Ψ_A · dark energy · w = −1.</div>
+        <div class="gen scr">Gen 1:6–7 (waters above)</div>
+        <div class="phys ph">DERIVED identity: Waters Duality.</div>
+      </div>
+      <div class="block p-consonant">
+        <h3>The Firmament <span class="mono">[divider]</span></h3>
+        <div class="role">The <i>raqîaʿ</i> &mdash; the membrane that divides. 4D spacetime; baryonic (~5%). <b>The divider — categorically not a third water.</b></div>
+        <div class="gen scr">Gen 1:6–8 (the firmament)</div>
+        <div class="phys ph">DERIVED: the 4D substrate of physical law; matter is trapped here.</div>
+      </div>
+      <div class="block p-derived">
+        <h3>Waters Below <span class="mono">[2 of 2]</span></h3>
+        <div class="role">η direction · field Ψ_B · dark matter · w ≈ 0.</div>
+        <div class="gen scr">Gen 1:6–7 (waters below)</div>
+        <div class="phys ph">DERIVED identity: Waters Duality.</div>
+      </div>
+    </div>
+    <p class="note">⮕ The text gives <b>two waters + one divider</b> — a <b>binary</b> structure. (The framework's own Waters Duality axiom reads exactly two fields.) The number of the fiber, read off the page, is <b>2</b> — not 3.</p>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann">matter's patterns are <b>chiral modes trapped on the Firmament</b>, living as positions inside the (ξ,η) waters-fiber</div><div class="stem"></div></div>
+
+    <!-- 4. fermion pattern -->
+    <div class="block p-derived">
+      <h3>The Fermion Pattern <span class="tag t-derived">DERIVED + VERIFIED</span></h3>
+      <div class="role">One chiral spin-½ mode &mdash; the template for a particle of matter.</div>
+      <div class="phys ph">Physics: spin-½ <i>existence</i> derived (Kähler spinors); single chirality kept, mirror projected (warp + orbifold) — numerically verified, adversarially checked.</div>
+    </div>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann"><b>THE DECREE</b>, imprinted at the Day-2 division: the pattern is stamped with quotient winding <span class="mult">n_q = 3</span> — <b>three copies</b>. <span class="t-decree">Adopted · consonant · located at Day 2 · not derived.</span></div><div class="stem"></div></div>
+
+    <!-- 5. three generations -->
+    <div class="block p-decree" style="text-align:center">
+      <h3 style="justify-content:center">Three Generations of Matter <span class="mult">[ 3 ]</span> <span class="tag t-decree">DECREE</span></h3>
+      <div class="role">The same pattern, three times — identical in every property except mass.</div>
+    </div>
+    <div class="conn"><div class="stem"></div><div class="dia">◇ expands to ◇</div><div class="stem"></div></div>
+    <div class="gens">
+      <div class="gencard g1"><h4>Generation 1 <span class="w">lightest · stable</span></h4>
+        <ul><li>up quark</li><li>down quark</li><li>electron</li><li>electron-neutrino</li></ul>
+        <div class="w" style="margin-top:6px">⮕ builds <b>all ordinary matter</b></div></div>
+      <div class="gencard g2"><h4>Generation 2 <span class="w">heavier · unstable</span></h4>
+        <ul><li>charm quark</li><li>strange quark</li><li>muon</li><li>muon-neutrino</li></ul>
+        <div class="w" style="margin-top:6px">⮕ decays in microseconds</div></div>
+      <div class="gencard g3"><h4>Generation 3 <span class="w">heaviest · fleeting</span></h4>
+        <ul><li>top quark</li><li>bottom quark</li><li>tau</li><li>tau-neutrino</li></ul>
+        <div class="w" style="margin-top:6px">⮕ falls apart almost instantly</div></div>
+    </div>
+    <p class="note">Each quark also comes in <b>×3 colors</b> (from the Z₃ structure) → <b>9 = 3 generations × 3 colors</b>. Given the decree of 3, the verified machinery delivers exactly this.</p>
+
+    <div class="conn"><div class="stem"></div><div class="dia">◆</div>
+      <div class="ann">and the work is <b>sealed</b></div><div class="stem"></div></div>
+
+    <!-- 6. closure -->
+    <div class="block p-consonant">
+      <h3>The Closure Seal <span class="tag t-consonant">CONSONANT</span></h3>
+      <div class="role">The set of created kinds is finished and sealed — not open-ended.</div>
+      <div class="gen scr">Scripture: <b>Genesis 2:1</b> "Thus the heavens and the earth were <i>finished</i>" (<i>kalah</i>) · the <b>Sabbath</b> rest (2:2–3) · "after its kind" — bounded kinds.</div>
+      <div class="phys ph">Physics: the <b>Sabbath boundary</b> locks all constants and ends creation — the physics image of "finished." Measurement confirms closure: the Z-boson width gives <b>N = 2.984 ± 0.008</b> light families; a standard 4th is excluded.</div>
+    </div>
+
+  </div>
+
+  <h2>Bill of Materials</h2>
+  <table>
+    <tr><th>Lvl</th><th>Item</th><th>Qty</th><th>Origin &amp; provenance</th></tr>
+    <tr><td class="q">0</td><td>God — the I AM (Z₀, Λ_Z0)</td><td class="q">1</td><td><span class="pill t-grounded">GROUNDED</span> Uncaused ground = the Creator (Ex 3:14; Gen 1:1; Jn 1:1–3)</td></tr>
+    <tr><td class="q">1</td><td>Heaven Prime (Z₁) — Logos-order</td><td class="q">1</td><td><span class="pill t-derived">DERIVED</span> Day 1 (Gen 1:1, 1:3)</td></tr>
+    <tr><td class="q">2</td><td>Earth Prime (Z₂) — material cosmos</td><td class="q">1</td><td><span class="pill t-derived">DERIVED</span> Days 1–6</td></tr>
+    <tr><td class="q">2.1</td><td>Waters Above (ξ, Ψ_A, dark energy)</td><td class="q">1</td><td><span class="pill t-derived">DERIVED</span> Day 2 (Gen 1:6–7)</td></tr>
+    <tr><td class="q">2.2</td><td>Firmament membrane (the divider; 4D; baryonic)</td><td class="q">1</td><td><span class="pill t-derived">DERIVED</span> Day 2 (Gen 1:6–8) — the <i>raqîaʿ</i></td></tr>
+    <tr><td class="q">2.3</td><td>Waters Below (η, Ψ_B, dark matter)</td><td class="q">1</td><td><span class="pill t-derived">DERIVED</span> Day 2 (Gen 1:6–7)</td></tr>
+    <tr><td class="q">3</td><td>Chiral fermion pattern (spin-½)</td><td class="q">1 / slot</td><td><span class="pill t-derived">DERIVED</span> verified (Kähler + warp-orbifold chirality)</td></tr>
+    <tr><td class="q">3.∗</td><td>Generation slots (winding n_q)</td><td class="q">3</td><td><span class="pill t-decree">DECREE</span> imprinted at Day-2 division — adopted, consonant, <b>not derived</b></td></tr>
+    <tr><td class="q">3.∗.c</td><td>Quark color states (Z₃)</td><td class="q">×3</td><td><span class="pill t-derived">DERIVED</span> color structure</td></tr>
+    <tr><td class="q">Σ</td><td>Matter families (× colors)</td><td class="q">3 → 9</td><td><span class="pill t-observed">OBSERVED</span> 3 families (Z-width 2.984±0.008); machinery DERIVED <i>given</i> the decree</td></tr>
+  </table>
+
+  <h2>What is grounded, what is free</h2>
+  <div class="foot">
+    <p><span class="lead t-grounded">Grounded in Scripture:</span> that there <i>is</i> an uncaused ground, and it is God (Z₀ = the I AM). The strongest claim, by identification.</p>
+    <p><span class="lead t-derived">Derived by physics from the axioms:</span> the two Waters = the dark sector; the Firmament = 4D spacetime; spin-½ and its single chirality; and the rule "given a winding n_q, you get n_q generations × 3 colors." All checked.</p>
+    <p><span class="lead t-consonant">Consonant &amp; located (not derived):</span> the <i>home</i> of the count — the Day-2 dividing of the waters — and the <i>closure</i> of the set (creation "finished," sealed at the Sabbath; echoed in physics by the constant-locking Sabbath boundary and the measured Z-width).</p>
+    <p><span class="lead t-decree">The free decree:</span> the integer <b>3</b> itself. Six independent physics derivations prove the equations do <i>not</i> force it; the waters-text divides <i>binarily</i> and does not read it off the page. The number sits exactly where a <b>free creative choice</b> would sit — under-determined by both the equations and the grammar. <b>This is the located freedom: the place where creation reflects the Creator's choice rather than mechanism.</b></p>
+    <p style="color:var(--dim);font-size:12px;margin-top:12px">Status: the count is an adopted creation parameter — CONSONANT, LOCATED, NOT DERIVED. The re-founded Postulate F (n_q = 3 imprinted at the Day-2 division, conserved by superselection) is pending author ratification. Deriving a deeper principle for the integer remains open (issue #849). Closure of the set, by contrast, may be independently groundable.</p>
+  </div>
+
+  <p class="caption">Genesis Physics · Creation → Three Generations · provenance diagram (2026-06-13). Exploratory teaching artifact — not yet ratified canon.</p>
+</div>
+</body>
+</html>
