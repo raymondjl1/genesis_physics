@@ -8,6 +8,7 @@
 - **DERIVED-given-AXIOM** — follows rigorously *given* an adopted axiom; the dependency is stated, not hidden.
 - **FIT (#)** — rests on a fitted/calibrated coefficient or a bare measured input. By the Provenance Principle this is an **open problem**, tracked as the named board issue.
 - **OPEN** — not yet derived.
+- **INPUT (ratified 2026-11-15 by author)** — taken from measurement and disclosed as an input, alongside the three admitted inputs (Λ_Z0, n_w=3, η_B). Each such entry names the derivation work package that would try to promote it back to an output. See [§ Ratified inputs — 2026-11-15](#ratified-inputs--2026-11-15) at the end of this file.
 
 **The frontier (open items on the board):** #846 two-loop α→137.036 · #847 absolute mass scale / Higgs vev · #848 precise CKM/PMNS angles · #849 derive n_w=3 from Z₀ · #850 derive Yukawa α · #853 (this umbrella audit).
 
@@ -20,8 +21,8 @@
 | Λ_Z0 (Godhead-zone vacuum energy) | 1.65×10⁷¹ GeV⁶ | **AXIOM** | — (irreducible; biblically grounded, Gen 1:1; John 1:1–3) | `op01_z0_axiom_statement.md` | — |
 | ℏ (Planck constant) | 1.0546×10⁻³⁴ J·s | **DERIVED-given-AXIOM** | matches; β_geom numerical refinement open | `AXIOM_GODHEAD_ZONE_Z0.md §2` | — |
 | c (speed of light) | 2.998×10⁸ m/s | **DERIVED** | exact (c²=σ/μ; σ traces to Λ_Z0) | `AXIOM_MEMBRANE_MECHANICS_v2.md` | — |
-| α⁻¹ (fine structure) | parameter-free **136.42** (−0.45%) | **STILL-FIT** | C=n_w²/(2π)=1.4324 (n_w=3, Postulate F) is the genuine prediction; exact 137.036 needs re-fitted C=1.4388 | `10-FINE_STRUCTURE_DERIVATION.md` | **#846** |
-| G (gravitational) | 6.674×10⁻¹¹ | **FIT** | mechanism sound (G₄=G₆/V_extra); G₆/M₆ back-solved | `10-GRAVITATIONAL_CONSTANT_DERIVATION.md` | **#847** |
+| α⁻¹ (fine structure) | 137.036 (measured); relation gives 136.42 (−0.45%) | **INPUT (ratified 2026-11-15 by author)** — was STILL-FIT | The relation α⁻¹ ≈ (n_w²/2π)·ln(ξ_A/η_B) = 136.42 is kept as a suggestive relation, not a derivation; it uses the measured scales ξ_A and η_B, and the exact 137.036 needs a re-fitted C=1.4388. Promotion path: plan D7 (gate check) | `10-FINE_STRUCTURE_DERIVATION.md` | **#846** |
+| G (gravitational) | 6.674×10⁻¹¹ m³/(kg·s²) (measured) | **INPUT (ratified 2026-11-15 by author)** — was FIT | mechanism G₄=G₆/V_extra kept as a consistency relation; G₆/M₆ were back-solved from G. A unit-setting scale: not derivable by any theory (plan D6) | `10-GRAVITATIONAL_CONSTANT_DERIVATION.md` | **#847** |
 | k_B (Boltzmann) | 1.380649×10⁻²³ (exact) | **AXIOM** | conventional unit (honest non-derivation) | `10-BOLTZMANN_CONSTANT_DERIVATION.md` | — |
 
 > Note: the older `10-FUNDAMENTAL_CONSTANTS_OVERVIEW.md` (Apr 2026) is more cautious than the canon — it derives only the *dimensional form* of ℏ/G/k_B and accepts the numerical coefficients from experiment. The 2026-06-11 ledger status above governs where they differ.
@@ -31,7 +32,7 @@
 | Constant | Status | Accuracy | Notes | Issue |
 |---|---|---|---|---|
 | g₃ — strong (α_s) | **FIT** | imported SM β-coefficients | SU(3) *group* DERIVED (Z₃ orbifold, `RT2_SU3_Z3_ORBIFOLD.md`); coupling *value* tuned | — |
-| g₂ — weak (α_w) | **FIT** | tuned | SU(2) *group* DERIVED (η-isometries) | — |
+| g₂ — weak (α_w) | **INPUT (ratified 2026-11-15 by author)** — was FIT | g_W = 0.652 (canonical electroweak input, registry ★#5) | SU(2) *group* DERIVED (η-isometries); the coupling *value* is taken from measurement. Promotion path: plan D10 (none planned) | — |
 | g₁ — hypercharge (sin²θ_W) | **FIT** | needs tuned λ | value not derived | — |
 | Λ_QCD (confinement scale) | **FIT** | ~30% | Λ_QCD ≈ ℏc/η_B, calibrated to η_B | — |
 
@@ -41,7 +42,7 @@
 |---|---|---|---|
 | electron | **DERIVED-given-AXIOM** + FIT residual | +17% | #847 |
 | muon | **DERIVED-given-AXIOM** + FIT | −15…19% | #850 |
-| tau | **FIT** (calibration anchor) | defines hierarchy | #847 |
+| tau | **INPUT (ratified 2026-11-15 by author)** — calibration anchor, 1776.86 MeV (PDG, as used in the test scripts) | sets the absolute lepton scale; not a prediction. Plan D3 tests only the mass *ratios*; the anchor stays an input | #847 |
 | up, down, strange | **DERIVED-given-AXIOM**, scheme-FIT | ~2–7% | #850 |
 | charm, top, bottom | **FIT** | fail badly at tree level | #847/#850 |
 | Yukawa hierarchy α | **FIT** | fitted ~1.0 (computed 0.076) | #850 |
@@ -58,8 +59,8 @@
 
 | Constant | Value | Status | Notes | Issue |
 |---|---|---|---|---|
-| Higgs vev v | 246.22 | **FIT** | back-solved from measured M_W, G_F | #847 |
-| Higgs mass / λ | m_H 125.1, λ=0.129 | **FIT** | λ back-solved from measured m_H | #847 |
+| Higgs vev v | 246.22 GeV | **INPUT (ratified 2026-11-15 by author)** — was FIT | from measured M_W, G_F. v/M_Pl is the hierarchy problem; not derivable as claimed (plan D6) | #847 |
+| Higgs mass / λ | m_H 125.1 GeV, λ=0.129 | **INPUT (ratified 2026-11-15 by author)** — was FIT | λ follows from measured m_H (m_H²=2λv²). Promotion path: plan D10 (none planned) | #847 |
 
 ## F. Strong-CP angle (1 of the ~31)
 
@@ -78,11 +79,11 @@
 
 | Constant | Value | Status | Notes | Issue |
 |---|---|---|---|---|
-| Dark-energy density Ω_Λ | 0.684 | **AXIOM (identity)** + FIT value | ≡ Waters Above by definition | — |
-| Dark-matter density Ω_DM | 0.266 | **AXIOM (identity)** + FIT value | ≡ Waters Below by definition | — |
-| Baryon density Ω_b | (68/27/5) | **DERIVED (ordering) / FIT (value)** | zone extents + warp; ordering derived, exact values fitted | — |
+| Dark-energy density Ω_Λ | 0.684 (Planck 2018) | **AXIOM (identity)** + **INPUT value (ratified 2026-11-15 by author)** | ≡ Waters Above by definition; the value is taken from measurement. Promotion path: plan D5 | — |
+| Dark-matter density Ω_DM | 0.266 (Planck 2018) | **AXIOM (identity)** + **INPUT value (ratified 2026-11-15 by author)** | ≡ Waters Below by definition; the value is taken from measurement. Promotion path: plan D5 | — |
+| Baryon density Ω_b | 0.05 (Planck 2018) | **INPUT (ratified 2026-11-15 by author)** — was "DERIVED (ordering) / FIT (value)" | values *and* the 68 > 27 > 5 ordering are taken from measurement. The former "ordering derived" claim is withdrawn: the argument in `ENERGY_FRACTIONS_DERIVATION.md` compares quantities with different units to 1. Promotion path: plan D5 | — |
 | Cosmological constant ρ_eff | 2.93×10⁻⁴⁷ GeV⁴ | **FIT** | ~20%; suppression exponent n=1 derivation pending | — |
-| H₀ | 67.4 | **DERIVED** (+FIT magnitude) | from derived G₄, Ω; Hubble-tension *direction* predicted, ΔH₀ magnitude fit | — |
+| H₀ | 67.4 | **DERIVED** (+FIT magnitude) — ⚠ needs author ruling | from G₄, Ω; Hubble-tension *direction* predicted, ΔH₀ magnitude fit. ⚠ Since 2026-11-15 G, Ω and ξ_A are ratified inputs, so H₀ rests on inputs (plan §1.4 item 45 lists it as INPUT); status not changed here because H₀ was not in the ratified list | — |
 | Spectral tilt n_s | — | **FIT** | slow-roll fit | — |
 | Scalar amplitude A_s | — | **OPEN / FIT** | not derived | — |
 | w_A (DE equation of state) | −1 | **DERIVED** | V_A=const → P=−ρ | — |
@@ -94,7 +95,7 @@
 |---|---|---|
 | Proton mass | **DERIVED** | −0.02% (QCD binding dominates) |
 | Neutron / n−p split | **DERIVED**, approximate | ~4% |
-| M_W / M_Z | **DERIVED** (given fitted v) | 80.27 / 91.55 |
+| M_W / M_Z | **DERIVED** (given input v and g_W, both ratified inputs 2026-11-15) | 80.27 / 91.55 |
 | Charge quantization Q=n_Y/2 | **DERIVED** | exact |
 | Three-generation count | **DERIVED-given-AXIOM** (Postulate F) | computed, #851 fixed |
 | Spin-½ existence | **DERIVED-given-AXIOM** (Postulate F) | — |
@@ -107,7 +108,8 @@
 |---|---|---|
 | **DERIVED from first principles (no fit, no residual)** | **~0** | H₀ is closest but inherits fitted inputs |
 | **DERIVED-given-AXIOM, with fitted residuals** | ~4 | e/μ masses, light quarks, generation count, CP *existence* |
-| **Structure derived, value FIT/tuned** | ~10 | 3 gauge couplings, Higgs v & m_H, Ω_Λ/Ω_DM/Ω_b values, Cabibbo, δ_CP value |
+| **Structure derived, value FIT/tuned** | ~4 | g₃ (α_s), sin²θ_W, Cabibbo, δ_CP value |
+| **INPUT (ratified 2026-11-15 by author)** | ~8 | α, G, g_W, Higgs v, m_H/λ, tau mass, Ω_Λ/Ω_DM/Ω_b values (plus ξ_A, a framework scale) |
 | **OPEN or only qualitative** | ~12 | θ₂₃/θ₁₃, 3 ν masses, 4 PMNS, θ_QCD, A_s, heavy quarks c/t/b |
 
 **Bottom line.** The framework derives the *architecture* of the constants (which gauge groups, how many generations, the four forces, the dark-sector identity) from one 6D Genesis-1 geometry — but it does **not** yet output the fine-tuning *values* without reaching for the measured number. Every value-level entry above that reads FIT or OPEN is, by the framework's own Provenance Principle, an open problem. The entire frontier (#846–#850, under umbrella #853) *is* this fine-tuning-constant gap.
@@ -249,3 +251,24 @@ The EH-armed re-attack (derive as topology/composite/exponential, or cleanly dec
 - **Λ_Z0** — the Godhead-zone vacuum energy; biblically grounded (Gen 1:1; John 1:1–3); the absence of a *physics* derivation is "the thesis, not a gap."
 - **Postulate F (n_w = 3)** — gives spin-½ and the three-generation count, but #849's verdict is that nothing in the physics forces the 3: "consonant, located, not derived" (located at the Day-2 dividing of the waters, Gen 1:6–8).
 - **η_B** — the ~1 fm Firmament-thickness calibration; the one admitted *dimensionful* input. The zone hierarchy ξ_A/η_B = 10⁴¹·³⁶ was proven non-derivable from {Λ_Z0, M_Pl} (#855/#857), refuted-in-principle on the topological route, so η_B is disclosed as a builder's-honesty calibration — not a hidden fit.
+
+## Ratified inputs — 2026-11-15
+
+*(Ratified 2026-11-15 by the author. Question put by Chief on 2026-11-15 ~10:56 and 11:11: "Ratify the wider input list now (ξ_A, G, the weak-scale numbers, tau mass, α, the three cosmic fractions), so the ledger and Book 1 can be corrected while derivations are attempted?" Author's reply 12:13: a blanket yes. Source of the list: the author's derivation plan `exodus-derivation-plan-2026-11-15.md` §9 (held in the author's review folder, outside this repo); "plan Dn" below means that plan's work package Dn. Applied on branch `ratify-input-list-2026-11-15` for the author's review before merge. Books are not yet restated; the Book 1 claims pass is a separate approval.)*
+
+These join the three admitted inputs above. Each is **taken from measurement**, disclosed as such, and is eligible to be promoted to DERIVED later only if its work package passes the plan's pre-registration, blind-computation and independent re-derivation rules (plan §5).
+
+| Quantity | Value used by the project | Source the project uses | Former ledger status | Promotion path |
+|---|---|---|---|---|
+| ξ_A (Waters-Above bulk scale) | 3×10²⁶ m | `Symbol_and_Constants.md`; registry §E; set from the Hubble scale c/H₀ in `ENERGY_FRACTIONS_DERIVATION.md` §7.2 | RESOLVED value (registry); not listed as an input | plan **D2** (derive the dark-energy exponent n=1; if forced, ξ_A follows from η_B and G) |
+| G (Newton's constant) | 6.674×10⁻¹¹ m³/(kg·s²) | CODATA, as in `Symbol_and_Constants.md` | FIT (#847) | plan **D6**: a unit-setting scale, not derivable by any theory; G₄=G₆/V_extra stays a consistency relation |
+| g_W (weak coupling) | 0.652 | registry ★#5 (canonical electroweak input) | FIT | plan **D10**: none planned |
+| Higgs vev v | 246.22 GeV | from measured M_W, G_F (registry §E) | FIT (#847) | plan **D6**: v/M_Pl is the hierarchy problem; not attempted |
+| Higgs mass m_H / quartic λ | 125.1 GeV / 0.129 | measured m_H; m_H²=2λv² (registry §E) | FIT (#847) | plan **D10**: none planned |
+| Tau mass | 1776.86 MeV | PDG, as in `10_Derivation_Chain/TEST_PARAMETERS.md` and `op03_wkb_tunneling.py` | FIT (calibration anchor) | plan **D3** tests the lepton mass *ratios*; the absolute anchor stays an input |
+| Fine-structure constant α | α⁻¹ = 137.036 | measured (`Symbol_and_Constants.md`) | STILL-FIT (#846) | plan **D7**: gate check first; (n_w²/2π)·ln(ξ_A/η_B)=136.42 is kept as a suggestive relation, not a derivation |
+| Ω_Λ / Ω_DM / Ω_b | 0.684 / 0.266 / 0.05 | Planck 2018 (registry §E) | identity + FIT value; Ω_b "DERIVED (ordering)" | plan **D5**; the dark-energy ≡ Waters Above / dark-matter ≡ Waters Below identifications stay AXIOM (identity) |
+
+**What did not change.** Λ_Z0, Postulate F (n_w=3) and η_B, every axiom and its scriptural anchor, the structural results (SU(3)/SU(2)×U(1) groups, three-generation count, chirality, charge quantization), and the dated race records above, which are kept as written history.
+
+**Lines elsewhere that now conflict and await the author.** H₀ (§H) still reads DERIVED from quantities that are now inputs; `Symbol_and_Constants.md` (a locked card) still lists G and α⁻¹ with derivation formulas; the registry §E and provenance ledger are updated in the same commit as this section; the manuscripts (Books 0, 1, 2) are not yet restated.
